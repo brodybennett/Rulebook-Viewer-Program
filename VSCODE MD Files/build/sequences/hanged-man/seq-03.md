@@ -1,0 +1,60 @@
+---
+title: "Sequence 3: Trinity Templar"
+id: "hanged-man-seq-03"
+tags: ["pathway:hanged-man", "sequence:3"]
+---
+
+# Hanged Man Pathway: Sequence 3
+
+## Trinity Templar
+
+- You can **separate your body** and **drive** three [[LINK LATER: Soul | type=term | hint=driven/grazed soul]]s at the same time.
+
+## Advancement
+
+### Advancement Ritual
+
+- **Advancement Ritual:** Divide your consciousness or [[LINK LATER: Spirit Body | type=term | hint=spiritual body form/state]] into three independent existences representing your young self, present self, and old self; reconcile with yourself; then return to integrity under a common belief or will.
+  > **GM Note:** The source labels this as an “unofficial ceremony.”
+
+## Extraordinary Abilities
+
+### Attribute Gain
+
+- **Attribute Gain:** Will +2.
+
+### Three Songs
+
+- **Effect:**
+  - You can drive three [[LINK LATER: Soul | type=term | hint=driven/grazed soul]]s at the same time.
+  - In one [[LINK LATER: Round | type=mechanic | hint=combat time unit]], you can use the skills of three different souls.
+  - You gain 3 additional [[LINK LATER: Casting Action | type=mechanic | hint=action economy]]s; these casting actions can only activate active abilities of [[LINK LATER: Spirit | type=term | hint=spirit you control]]s you control.
+  - As a [[LINK LATER: Free Action | type=mechanic | hint=action economy]], two additional heads grow on your shoulders—one young and one old—both part of your appearance.
+- **Aftereffects / Special:**
+  - When you enter [[LINK LATER: Madness | type=condition | hint=madness state]], one of your heads enters madness for you. During the madness time limit, the number of souls you can drive at the same time is reduced by -1, up to two times. Your [[LINK LATER: Grazing Cap | type=mechanic | hint=limit on grazed/driven souls]] is reduced by 1.  
+    [[UNCLEAR: “-1, up to two times” during the madness time limit is not clearly defined (timing and how/when it stacks are ambiguous).]]
+
+### Body Separation
+
+- **Trigger:** When your [[LINK LATER: Blood Bar | type=mechanic | hint=HP/life bar]] is empty.
+- **Effect (choose one):**
+  - **Option A (survive fatal injury):** Permanently reduce the number of souls you can drive at the same time by -1; you are immune to this [[LINK LATER: Fatal Injury | type=mechanic | hint=death/fatal damage event]].
+  - **Option B (split into three bodies):**
+    - Have your other two heads take away one-third of your body.
+    - This consumes a whole round of actions.
+    - Then, through the principle of [[LINK LATER: Flesh and Blood Magic | type=mechanic | hint=regeneration/biomancy principle]], each of you turns back into a complete single body.
+    - From now on, you can control three different “you” at the same time.
+- **Limits / Restrictions (Option B):**
+  - You cannot share all [[LINK LATER: Grazing Methods | type=mechanic | hint=ways to graze/use souls]].
+  - You must allocate the corresponding grazing souls for the two clones to use independently.
+  - When splitting, you suffer 1d3/1d6 [[LINK LATER: Sanity Check | type=mechanic | hint=mental stability roll/check]]s.  
+    [[UNCLEAR: “1d3/1d6 sanity checks” does not specify when to use 1d3 vs 1d6, or whether it means one of the two, both, or a conditional choice.]]
+- **Clones (Option B):**
+  - The two separated bodies are not regarded as [[LINK LATER: Beyonder | type=term | hint=supernatural individual]]s of the same Hanged Man Pathway as you.
+  - You can give them two different grazing souls; in doing so, you lose the operation rights of those two grazing souls, and the two clones can use the complete corresponding soul abilities and can open [[LINK LATER: Mythical Creature Form | type=mechanic | hint=transformation state]].
+  - Their stats are treated as your stats without strengthening from extraordinary abilities.
+    - Example: for the transformation ability of the [[LINK LATER: Black Knight | type=other | hint=ability/role referenced as example]], they do not gain the Black Knight’s data enhancement, but they do use your existing attribute data and sanity data.
+- **Loss / Regeneration (Option B):**
+  - If a clone is eliminated during this process, you are considered to have lost it almost permanently; you need at least 10 years to regenerate it.
+  - Therefore, unless you have been promoted to Sequence 1, you should cherish them. The reverse of Sequence 1 The Hanged Man can regenerate them after a day.  
+    [[UNCLEAR: “the reverse of Sequence 1 The Hanged Man” is not clearly defined (identity and rule scope are ambiguous).]]

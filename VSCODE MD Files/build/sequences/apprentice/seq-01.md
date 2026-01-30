@@ -1,0 +1,90 @@
+---
+title: "Sequence 1: Key to the Star"
+id: "apprentice-seq-01"
+tags: ["pathway:apprentice", "sequence:1"]
+---
+
+# Sequence 1: Key to the Star
+
+## Advancement
+
+### Advancement Ritual
+
+- **Advancement Ritual:** Change the trajectory of the stars, or seal a celestial body.
+
+> **GM Note:** The RAW describes this as an “unofficial ceremony.”
+
+## Extraordinary Abilities
+
+### Attribute Gain
+
+- **Attribute Gain:** inspiration +2; pilot skill increased by 2 skill levels.
+
+### Authority Locating
+
+- **Cost:** 3 points of spirituality.
+- **Use:** **Free action.**
+- **Effect:** You locate a person's true position through the authority of the [[LINK LATER: Door | type=term | hint="authority of the door" concept referenced here]]. You must come into contact with a medium associated with the opponent (such as props they have used). You then directly locate their true position in the entire universe through the stars.
+- **Limits:** This ability also has a significant effect on the [[LINK LATER: Deity | type=term | hint=deity referenced as affected by locating]].
+
+### Teleportation (Shifting Stars)
+
+- **Use:** **Free action.**
+- **Effect:** You teleport anywhere you want. As a free action, you may teleport directly or create a long-standing [[LINK LATER: Portal | type=mechanic | hint=long-standing portal creation]]. You can teleport to any place in this universe immediately, and even have a way to transcend this universe; even if it is the obscuration and sealing of the old level, you still have certain abilities—it can be pried.  
+  [[UNCLEAR: The clause about “obscuration and sealing of the old level” and “pried” is unclear in meaning and mechanical impact.]]
+
+### Gate
+
+- **Cost:** 5 points of spirituality.
+- **Use:** **Spellcasting action.**
+- **Check:** [[LINK LATER: Mysticism | type=mechanic | hint=check used by Gate]] against [[LINK LATER: Will Defense | type=mechanic | hint=defense opposed by Gate]]; minus -8 is disadvantageous.  
+  [[UNCLEAR: The RAW does not specify whether the -8 applies to the caster, the target, or the overall contest.]]
+- **Targeting and range:** A supernatural ability or a thing within your range of vision.
+- **Effect:** You directly seal the target for **three rounds** at a time.
+  - You seal a supernatural ability or a thing within your range of vision.
+  - The same person can restrict one supernatural ability from being used at a time; there is no upper limit.  
+    [[UNCLEAR: “One at a time” and “no upper limit” appear contradictory without additional context.]]
+  - Extraordinary items of the same personality can directly seal the entire thing, making it unusable for three rounds.
+- **Limits:**
+  - Because this ability requires a casting action, there is generally no time for the extraordinary ability of free actions to be sealed.
+  - The sealed ability must be recognized, such as within your field of vision.
+- **Scaling by level:**
+  - You can seal **three extraordinary abilities** at a time for a target lower than you; this lasts for one [[LINK LATER: Encounter | type=mechanic | hint=duration unit]].
+  - You can also seal the entire [[LINK LATER: Extraordinary Item | type=term | hint=item category referenced by Gate]] for one encounter.
+  - If you make a target voluntary, **or** if the target is one level below you and becomes helpless (including extraordinary items that no one holds for a time), **or** if the target is two levels below you, you can make this seal last forever.
+- **Awareness and special cases:**
+  - The moment any seal is sealed, it immediately arouses the [[LINK LATER: Spiritual Intuition | type=mechanic | hint=awareness trigger on sealing]] of the other party, making them aware of this.
+  - Spiritual intuition is not a supernatural ability; it can only be sealed if the target is voluntary or one level lower than you and in a helpless state.
+  - If you seal an extraordinary item, its owner will notice it when the extraordinary item is held, and the moment its owner touches the item if it is not held.
+- **Removing a seal:**
+  - Sealing is a kind of extraordinary ability. It can be removed by other extraordinary abilities of the same level, or by finding the correct method (designed by the GM; usually only one level lower than the ability of the sealer can try to do so).
+- **Area of influence:**
+  - If you want to seal all supernatural items and [[LINK LATER: Door | type=term | hint=“doors” referenced as sealable targets]] indiscriminately, you can affect the entire continent; all judgments follow the above content.
+- **At Sequence 0:**
+  - You can affect the entire world and strengthen the level of all sealed items to the extent that other Sequence 0s cannot be used in an encounter.
+
+### Spoon
+
+- **Cost:** 3 points of spirituality.
+- **Use:** **Free action** (once in a [[LINK LATER: Round | type=mechanic | hint=round-based limit]]).
+- **Targeting and range:** An object within your field of vision.
+- **Effect:** You unseal a thing. The specific effect of this ability is similar to that of a door, but the direction is different and the effect is different.  
+  [[UNCLEAR: “Similar to that of a door” is a comparator without specifying which Door mechanic is meant.]]
+  - You can release things that have been blocked by supernatural objects such as [[LINK LATER: Occult | type=term | hint=example of supernatural blockage]], or conscious thoughts that have been blocked by [[LINK LATER: Hypnosis | type=term | hint=example of mental blockage]], but you must be aware of its existence.
+  - This essentially uses the power of location to find the keys, or lockholes, of these seals, thereby opening them.
+  - If there is a special item whose negative effect is restricted by some kind of seal, you can directly remove it and let it return to its original state within three rounds. The determination of whether to continue to be permanent is based on the reference of the door ability.  
+    [[UNCLEAR: The permanence rule here depends on an unspecified “door ability” reference.]]
+- **Interaction with restricted abilities:**
+  - Restricted extraordinary abilities are also regarded as a seal.
+  - You can choose one of the effects of the [[LINK LATER: Requiem Aura | type=mechanic | hint=effects can be invalidated by Spoon]] to invalidate it for three rounds, and you can also make the ability of the judged person invalidated again.
+  - You can also cancel any one of them: the bound state of the target.
+  - But you can't restore the extraordinary ability that was stolen by the stolen person, and you can't restore the extraordinary ability that was taken away by the judged person.  
+    [[UNCLEAR: The roles (“stolen person” vs “judged person”) and the exact restoration restrictions are unclear.]]
+- **What counts as a seal:**
+  - The premise of making a seal must be that there is a corresponding thing in order to seal the thing.
+  - You can't seal something that doesn't exist.
+  - The Requiem Aura's restrictions on [[LINK LATER: Undead | type=term | hint=category referenced in explanation]] just block the exit; the concept of undead still exists.
+  - The [[LINK LATER: Invalidation Law | type=mechanic | hint=rule referenced as curbing use]] only curbs the use of extraordinary abilities, but the abilities still exist.
+  - The ability that is stolen or deprived is regarded as disappearing, so it does not exist and cannot be regarded as a seal.
+- **At Sequence 0:**
+  - You can affect the whole world and weaken all seals.

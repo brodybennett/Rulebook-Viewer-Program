@@ -1,0 +1,66 @@
+---
+title: "Sequence 7: Warlock"
+id: "myster-pryer-seq-07"
+tags: ["pathway:myster-pryer", "sequence:7"]
+---
+
+# Sequence 7: Warlock
+
+## Extraordinary Abilities
+
+### Attribute Gain
+
+- **Attribute Gain:** **Inspiration** +2.
+- Your occult/occult language can be quickly raised to proficiency.
+
+### Speed Word
+
+- **Use:** Once per turn, you can use **1 casting action** as **1 free action** (non-stackable).
+- **Effect:** Your channeling is very fast.
+- **Counteracting:** The ability cast by the high-speed oracle allows you to use it to counteract the abilities of others.
+  - Example: If a storm-path water spell deals 2d10 damage, and a [[LINK LATER: Red Priest Pathway | type=pathway | hint=fire abilities referenced for counteracting example]] fire ability deals 2d10 damage, you can reduce the damage by subtracting the Red Priest’s damage result from your damage result.
+  - This does not mean fire abilities can only be counteracted with water; you can also split them with lightning.
+- **Limits:** The high-speed divine words of the [[LINK LATER: Mystic Pathway | type=pathway | hint=restriction on which abilities Speed Word can apply to]] can only be used in the abilities of the Mystic Pathway itself.
+
+### Knowledge Enhancement
+
+- **Trigger:** When you cast a damage-type spell.
+- **Cost:** If you expend an extra casting action, you can apply **Knowledge Enhancement** to that spell.
+- **Effect:** You spend more time tuning the spell with occult knowledge to increase its damage output.
+- **Limits:**
+  - Generally, Knowledge Enhancement can strengthen one layer at most, and cannot be stacked infinitely.
+  - Cumulative casting is more in line with high-level ritual magic.
+  - Knowledge Enhancement is only an explanation of the spell cast and cannot be stolen or recorded.
+  - (But it also means that even if you obtained the voyeur’s ability through stealing or recording, you can also perform Knowledge Enhancement when you use the ability. The recorder can only record the ability that has not been enhanced, but it is a scroll that records the knowledge that has been enhanced. exception)
+  - [[UNCLEAR: The interaction among “voyeur,” “recorder,” recording/stealing, and the “scroll” exception is mechanically unclear in the RAW.]]
+  - [[LINK LATER: Voyeur ability | type=ability | hint=referenced in Knowledge Enhancement interaction]]
+  - [[LINK LATER: Recorder | type=ability | hint=referenced in Knowledge Enhancement interaction]]
+  - [[LINK LATER: Scroll casting | type=mechanic | hint=referenced in Knowledge Enhancement interaction and multiple hex upgrades]]
+
+### Spellcaster
+
+You have learned to manipulate supernatural forces, and you gain the following spells.
+
+- **Fireball**
+  - **Cost:** Consumes **2 spirit points**, **1 casting action**.
+  - **Use:** Choose a target.
+  - **Effect:** Unleash a ball of fire that counters the target’s [[LINK LATER: Physical Defense | type=mechanic | hint=defense contested by Occultism/Mysticism]] with [[LINK LATER: Occultism | type=term | hint=used to counter Physical Defense]] and deals **1d10 fire damage**.
+  - **Benefits of Knowledge Enhancement:** Spirit consumption +1; the number of fireballs changes from one to (**Inspiration/2**); you can attack multiple targets, but each target can only be hit once.
+    - [[UNCLEAR: Rounding for (Inspiration/2) is not specified when it is not an integer.]]
+
+- **Frost**
+  - **Cost:** Consumes **3 Spirit points**, **1 casting action**.
+  - **Use:** Choose a target within your **field of vision**.
+  - **Effect:** Cause a burst of cold air around the target, using [[LINK LATER: Occultism | type=term | hint=used to counter Physical Defense]] to counter the target’s [[LINK LATER: Physical Defense | type=mechanic | hint=defense contested by Occultism/Mysticism]], dealing **1d10 cold damage**. Inorganic objects will be frozen, and the physical and fire damage received is halved.
+  - **Aftereffects:**
+    - A creature that takes cold damage has half its movement on its next move.
+    - The creature takes a -2 penalty on its next check.
+    - Negate the effect on targets with [[LINK LATER: Cold resistance | type=condition | hint=negates Frost aftereffects per RAW]].
+  - **Benefits of Knowledge Enhancement:** spirituality consumption +3; Frost changes to ice storm:
+    - Choose an area with a radius of **10 meters**.
+    - The area bursts into snow and becomes extremely cold.
+    - [[LINK LATER: Mysticism | type=term | hint=used to counter Physical Defense]] resists the [[LINK LATER: Physical Defense | type=mechanic | hint=defense contested by Occultism/Mysticism]] of all creatures in the area, causing **3d6 cold damage**.
+    - The area is immediately recognized as an **extremely cold environment**.
+    - **Extremely cold environment:** Creatures without cold resistance suffer:
+      - Continuous -2 disadvantage in skill and attribute checks.
+      - A total of -2 in

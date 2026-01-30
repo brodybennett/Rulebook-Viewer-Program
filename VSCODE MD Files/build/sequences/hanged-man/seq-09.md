@@ -1,0 +1,153 @@
+---
+title: "Sequence 9: Mysterious Praying Man"
+id: "hanged-man-seq-09"
+tags: ["pathway:hanged-man", "sequence:9"]
+---
+
+# The Hanged Man Pathway: Sequence 9
+
+## Mysterious Praying Man
+
+> **Lore:** This **Pathway** represents omniscience and omnipotence, corresponding to the Tarot card “The Hanged Man” [[LINK LATER: The Hanged Man (Tarot) | type=term | hint=Tarot major arcana]].
+
+- High **Inspiration**, able to perceive the existence of some mysterious horrors.
+- Masters certain sacrificial knowledge and a small amount of ritual magic.
+- Cognitive views are more or less distorted; easy to lose control.
+
+- See also: [[LINK LATER: The Hanged Man Pathway | type=pathway | hint=Pathway overview]]
+
+## Extraordinary Abilities
+
+### Attribute Gain
+
+- **Attribute Gain:** **Inspiration** +2.
+- Your occult/occult language can start to learn quickly:
+  1. Every time you receive 2 hours of non-repetitive and effective related guidance, choose the corresponding item in the mysticism/mysticism language to rise by 1 level (up to mastery).
+  2. It takes 2, 3, and 4 times from training to proficiency, to advanced level, and to proficiency respectively.  
+     [[UNCLEAR: This progression repeats “proficiency” and it is unclear which skill tier the final “proficiency” refers to.]]
+- **Character Creation:** When creating a character who has not just been promoted, you can use twice the inspiration brought by the potion [[LINK LATER: Potion | type=item | hint=Beyonder potion]] to add growth skills.
+
+### Filth Perception
+
+Because of high **Inspiration**, you can detect the existence of some mysterious horrors.
+
+- **Trigger (success):** Whenever you succeed in identifying attributes or skills related to **Inspiration**, if there is a person higher than you or even related power in your area, you will be able to detect it.
+- **Trigger (failure):** If you fail, you will be noticed by Him at the same time, which may affect your next actions.
+- **If you perceive indirect power:** Make an immediate 1/1d2 **Sanity** [[LINK LATER: Sanity | type=mechanic | hint=mental stability and Sanity rolls]] roll.
+- **If you perceive direct power:** Make an immediate 1d3/1d6 **Sanity** roll, not including the **Sanity** penalty for looking directly at the myth [[LINK LATER: Myth | type=term | hint=the “myth” referenced by Sanity penalties]].
+
+> **GM Note:** If your potion [[LINK LATER: Potion Digestion | type=mechanic | hint=potion digestion amount]] has digested more than 10, then you generally have more or less cognitive distortions. (This is a potion effect and cannot be recorded or stolen.)
+
+### Spiritual Vision
+
+You have obtained a more outstanding spiritual vision because of your **Inspiration**.
+
+- **Use:** 1 free action to activate.
+- **Cost:** Consuming 1 spirituality point [[LINK LATER: Spirituality Point | type=mechanic | hint=resource spent per round]] per round.
+- **Effect:** While active, your vision gains the following benefits:
+  1. **Etheric body:** You can directly see the health status of the target through the color of the aura; directly find out where the other party’s body is uncomfortable/has a problem; when it comes to a certain organ, you can see the inside through the unthickened door, confirm the number of people inside.
+  2. **Spiritual body:** You can confirm whether an object/creature has spirituality; cannot identify extraordinary people; can also penetrate the door to see the inside; identify whether there is ritual magic power in it; can penetrate the spiritual wall.
+  3. **Mental Body:** You can see the color represented by the other person's emotions, but only general content (e.g., whether the other person is depressed or uneasy). Negative emotion is usually a dark tone.
+  4. **Astral body:** You cannot see the astral body.
+  5. **Bonus:** When in the state of spiritual vision, your spiritual intuition test [[LINK LATER: Spiritual Intuition Test | type=mechanic | hint=the test modified by Spiritual Vision]] +2 is beneficial.
+- **Sequence Reference:** Sequence 6: Your etheric body goes deep to observe whether there are some abnormalities in the other party's physical body, and you cannot distinguish secret puppets, etc. [[LINK LATER: The Hanged Man Pathway Sequence 6 | type=sequence | hint=referenced upgrade to Etheric body observation]]
+
+> **GM Note:**
+> - Dead creatures are usually only dull in color and cannot be recognized. Spiritual materials usually have spirituality.
+> - The color of the material in spiritual vision usually represents its corresponding path; this does not mean that you can see the power of a Beyonder Pathway [[LINK LATER: Beyonder Pathway | type=term | hint=the meaning of “Pathway” for Beyonders]].
+> - The color seen by spiritual vision allows you to see each other in the dark, but you can only see the existence of color, and it is still possible to get lost in the dark.
+> - Unlike dead creatures, undead creatures have deep black spirituality color instead of no.
+> - Spirit Vision can see some ordinary spirit bodies by default, which have not dissipated for 24 hours, and cannot be recorded or stolen.
+
+### Secret Prayer for Burnt Sacrifice
+
+You have a certain amount of sacrificial knowledge and a small amount of ritual magic.
+
+- **Effect:** You have obtained the qualification to use ritual magic [[LINK LATER: Ritual Magic | type=mechanic | hint=ritual system]] regardless of whether your mystic skills have reached the advanced stage.
+- **Limits:** The ritual magic that can be used is limited to “commonly used ritual magic” [[LINK LATER: Common Ritual Magic | type=ritual | hint=the allowed ritual list]] and cannot be expanded and used more.
+- **Default prayer target:** The real Creator [[LINK LATER: True Creator | type=other | hint=default object of prayer]].
+- **Special sacrifices you can master:**
+  - **Sacrifice a Lamb:** You please the Creator for a response.
+    - 5-minute general ritual process. You can sacrifice anything to the real Creator. Unlike the sacrifice of the abyss pathway [[LINK LATER: Abyss Pathway | type=pathway | hint=contrast reference]], you don't need to offer bloody sacrifices or create “art”; as long as you offer, He will accept everything.
+    - Therefore, you may not be able to obtain benefits from Him unless the items you sacrifice are special; otherwise the gifts you can get are completely random.
+    - After the sacrifice is completed, follow this procedure:
+      1. Perform a Difficulty Value 20 Lucky appraisal to determine whether you have received a gift:
+         - If the sacrificed item is a helpless life form, any Extraordinary characteristic [[LINK LATER: Extraordinary Characteristic | type=term | hint=extraordinary trait/characteristic item]], the main material of potion [[LINK LATER: Potion Main Material | type=item | hint=main ingredient material]], or a large amount of spiritual material, the Difficulty Value should be changed to 15.
+         - Within every 24 hours, if you repeat the sacrifice without providing the listed valid sacrifices, the result will be the same.
+      2. Perform an rd5 on the premise of getting a gift, and you will get a random benefit:  
+         [[UNCLEAR: “rd5” is not defined; it is unclear what die/roll method is intended.]]
+         1. First choose a 1d4 skill category (strength-related, agility-related, etc.), and then 1d “the number of skills in the category”; one of your random skills will increase by 1 level (not exceeding proficiency).  
+            - The Creator has imbued your mind with knowledge; you suffer 1/1d2 **Sanity** loss each time you gain this benefit.
+         2. Now you can perform any ritual in “Common Ritual Magic” immediately, and the Creator will definitely respond to you, but the opportunity cannot be reserved for the next time.
+         3. The Creator provides you with a warning about danger, but the information is general and will only show you a picture involving the source of danger; it is directly poured into your mind, and you will suffer 1/1d2 **Sanity** loss.
+         4. The Creator grants you the honor of listening to the divine voice once; you can immediately obtain the listening effect of Sequence 8 once and use it [[LINK LATER: Sequence 8 Listening Effect | type=mechanic | hint=“listening effect” referenced here]].
+            - It’s not highly intelligent; it just does what you tell it to do, so the information has to be detailed.
+         5. Other possible benefits are decided by the GM; this situation does not need to be random.
+
+- **Other special offerings:**
+  - Although the Mystery Practitioner possesses this knowledge, they must obtain the permission of the GM when using it.
+  - The GM does not need to be too sensitive to these rituals, because they are not feasible for the Extraordinary of Sequence Nine.
+  - Extraordinary people who can do this don't need a secret prayer person to participate at all.
+
+- **Godfall Ritual:** You pray for the Creator to come here [[LINK LATER: Godfall Ritual | type=ritual | hint=Creator descent ritual]].
+  - 5-minute general ritual process where you pray to the Creator, fulfill your needs, and let the gods come to the world.
+  - This ritual magic is usually unavailable, because its conditions are very harsh. You need to meet the following conditions to allow the true Creator to descend:
+    - ① Prepare a Godfall container with extraordinary power. If you don’t have one, you can choose to dedicate yourself to the Creator in the prayer statement and make yourself a Godfall container, which will eventually cause you to tear the card and become a part of the Creator.
+    - ② Prepare the altar of ritual magic; the following conditions are all established on the premise of ②.
+    - ③ Sacrifice at least 20,000 intelligent creatures in extreme pessimism, and their spirits will gather in the altar after death.
+    - ③ Sacrifice at least 20,000 intelligent creatures in extreme despair, and their spirits will gather in the altar after death.
+    - ④ Sacrifice at least 20,000 intelligent creatures in extreme numbness, and their spirits will gather in the altar after death.
+    - ⑤ Sacrifice at least 20,000 intelligent creatures in extreme anger, and their spirits will gather in the altar after death.
+    - ⑥ Sacrifice at least 20,000 primordial evil (whatever it takes to survive) intelligent creatures, and their spirits will gather in the altar after death.
+    - ⑦ After the above conditions are met, the ceremony officially begins. Make sure that within 5 minutes the spirit bodies used as sacrifices are always in the corresponding state, not distorted by external influences, and the divine drop vessel is located on the spot; the ceremony is completed after 5 minutes.
+    - ⑧ The area of influence of the above ③④⑤⑥ is a city, and the corresponding sacrifice only needs to die within this area.
+  - Among the above conditions, ① and ② must be met, and at least 4 of the other items must be met, and ① should be the last step. You need to meet the remaining 4 items before you can officially start the god drop ceremony.  
+    [[UNCLEAR: The conditions list duplicates “③”, making later references to “③④⑤⑥” ambiguous.]]
+  - This ritual does not require 100,000 people, because 20,000 people can be in pessimism, despair, numbness, resentment, etc. at the same time.
+  - You can also carry out the process of ① first, but generally the reason why ① cannot be carried out first is that if the conditions are not met, the Creator will probably not respond to your god drop ceremony at all, because the ceremony cannot be successful if the conditions are not met.
+  - Assuming that there is a real ① situation (before other conditions are met, there is a divine descendant vessel possessed by the Creator), then they will be in a state of retaining self-awareness, but not yet fully transformed. Only when other conditions are met can it be fully transformed and allow the Creator to descend completely.
+
+  - **God’s Descending Stage:**
+    - ① Germination stage: The Creator has planted a fallen “tree seed” in the body of the container. At this time, you do not have any peculiarities, and it is difficult to detect abnormalities. The Creator chooses an appropriate time to catalyze the “tree seed” and let the god descend into the next stage.
+    - ② Development stage: The seed is catalyzed; the container has divinity; the normal state is regarded as a Sequence 4 character; enjoys the effect of suppressing the character; the Creator will generally let the Aurora Society [[LINK LATER: Aurora Society | type=faction | hint=protectors of the container]] send at least the middle sequence to protect. The container gains the following benefits:
+      - **Breath of the gods:** 1 free action; 1 encounter per encounter; your chest is covered with blood and flesh, forming a pattern of the Hanged Man, or a statue made of your flesh and blood; you can tear off your clothes to reveal it. Afterwards, within a radius of 1 kilometer, it is immediately regarded as the aura of Sequence 0 [[LINK LATER: Sequence 0 Aura | type=mechanic | hint=“aura of Sequence 0”]] and all objects within the range are immediately affected by corruption [[LINK LATER: Corruption | type=condition | hint=corruption effects]] (the lights are turned off, the airship falls, and any Extraordinary can feel the horror and fear pressure).
+        - At the same time, all persistent effects (dream, law, mirror space) that are not as good as angels [[LINK LATER: Angel | type=term | hint=“angels” threshold referenced here]] will be shattered immediately.
+        - Extraordinary people with less than Sequence 6 will faint immediately, and each round will start a Difficulty Value 20 Will test [[LINK LATER: Will Test | type=mechanic | hint=the test to wake up]] to wake up.
+        - Extraordinary people below angels will continue to be in a state of fear.
+      - **Corrupted blood:** As long as you still have divinity, your blood can contaminate ordinary creatures that come into contact with it, making it mutated into deformed monsters with 4d10 blood volume, +20 attack identification, and 15 three defenses; they will indiscriminately harm anyone other than you.
+      - **Flesh lumps:** The container will have some basic flesh and blood magic at this time. You can use 1 free action to make hard flesh lumps appear on your skin and gain 3 points of armor, but you must maintain it all the time. If you suffer any mental blows or fall into a dream, the effect will disappear.
+        - Even if it is no longer a drop vessel, this ability will remain; the armor cannot be stacked with other physical armor.
+        - The Rose Bishop [[LINK LATER: Rose Bishop | type=other | hint=referenced role/sequence]] can also use this skill, but it is not listed separately because it is not necessary for the Rose Bishop.
+    - ③ God’s Descending stage: You must meet other conditions of the ceremony except ① to reach this stage. If you directly complete the ceremony instead of only ① being answered by prayers, then enter this stage directly.
+      - This stage will lead to the divine descent of the true Creator, which will usually lead to the confrontation of the local saints with the rest of the sequence 0 divine descent containers.
+
+  - **Stop God’s Fall:**
+    - As long as it has not reached the stage of divine descent, in the embryonic stage and development stage, apart from the impact of the Aurora Society, it is relatively not difficult to stop the divine descent.
+    - Embryo Stage: Similar to how spectators view spiritual islands [[LINK LATER: Spectator Pathway | type=pathway | hint=reference to “spectators”]] [[LINK LATER: Spiritual Island | type=location | hint=reference term]], the Extraordinary at the demigod level [[LINK LATER: Demigod | type=term | hint=demigod tier]] can detect tree species and use the corresponding Extraordinary ability to clear them.
+    - Development stage: Use any demigod or above attack to make a critical blow (internal organs) to the god-falling container, destroy the “Idol” of the Creator, and then clear it.
+      - This may cause the chest of the Godfall container to be penetrated, but this will not cause any loss of health, because the part is no longer their own; they cannot even feel pain. The wound will heal quickly after removal and the container can act normally.
+    - Special: At the stage of development, the members of the Aurora Society who came to protect the container would not completely obey the container's orders; they only cared about the descending of the Creator, not the container's feelings. No matter how the container was willing or not, they would only protect the container.
+      - Among them, the most extreme members of the Aurora Society may cause trouble, attracting officials because of their radical way of doing things.
+
+- **Nativity Ritual:** You pray to the Creator to give birth to an offspring [[LINK LATER: Nativity Ritual | type=ritual | hint=Creator offspring ritual]].
+  - 5-minute ritual process similar in nature to the god descending ceremony, but the difference is that the Creator gave birth to the son of God this time.
+  - The ceremony requires the following procedures:
+    - ① Prepare an intelligent life matrix (must be the matrix) that can withstand the power of the Creator. The matrix must have extraordinary power, and then intersect with the projection of the Creator at the ceremony site to conceive the Son of God. Ordinary mothers will die on the altar.
+    - ② The mother needs to go through a normal birth process. Specifically, refer to the time from human pregnancy to delivery, which is about 280 days. At this time, the impact on the fetus is listed in stages:
+      - Early stage: within about 3 months. At this time, it is not much different from normal pregnant women, but demigod Extraordinary people may be able to detect abnormalities through extraordinary abilities.
+      - Mid-term stage: within about 6 months. Pregnant women will feel subconscious love and satisfaction for the fetus; usually regarded as a manifestation of maternal love. However, there will be unnatural factors in the evaluation of the fetus by pregnant women (e.g., believing the fetus can hum songs, whistle, play music), and have certain hallucinations; the tone is close to sleep talking.
+        - At this stage, any Extraordinary who tries to observe her with spiritual vision will find abnormalities, which may lead to a **Sanity** test.
+      - Late Stage: The period from 6 months to the birth is the most critical stage for the offspring of the evil god. Before that, the fetus will affect the mother's choice to a certain extent, but it cannot affect it at this stage, and it needs to concentrate on changing.  
+        [[UNCLEAR: The late-stage description is self-contradictory (“affect” vs “cannot affect”) and “changing” is unspecified.]]
+
+  - **Born early:**
+    - Any Extraordinary who poses a substantial threat to the fetus will cause the heir of the evil god to try to be born early; in normal times, the mother of the heir of the evil god will try their best to choose any option that can save the fetus.
+    - **Eliminate the fetus:** Clear the offspring within 1 month after its appearance. The offspring cannot cause any definite harm, and can only disappear powerlessly and unwillingly. However, from the second month onwards, it is regarded as a Sequence 9 Extraordinary.  
+      [[UNCLEAR: “After its appearance” is not defined (conception vs manifestation), which affects the timing of the 1-month window.]]
+      - After that, every time a child is conceived for one month, its Sequence level will be +1.
+      - The offspring can be conceived up to the level of Sequence 2.
+      - Once it tries to be born forcibly, the mother will only feel panic and discomfort in the early stage. In the middle to late stage, the mother will become mentally disturbed, grabbing her own hair and flesh and blood without any reaction.
+      - Once the irritating enemies trying to remove the fetus reach the mother, the mother will immediately degenerate and turn into an enemy of the corresponding Sequence level, and it is almost impossible to survive afterwards.
+      - Once a child starts to absorb the power of the mother crazily and tries to be born early, it will increase the Sequence level by 1 after three rounds.
+      - No matter what its Sequence level is, as long as it reaches Sequence 4, it can use the profane words of Sequence 2 [[LINK LATER: Profane Words | type=mechanic | hint=“profane words” ability referenced here]].
+    - Once the mother body dies within 3 minutes after the premature birth begins, the offspring of the evil god will disappear into illusion due to the loss of the body of the birth.

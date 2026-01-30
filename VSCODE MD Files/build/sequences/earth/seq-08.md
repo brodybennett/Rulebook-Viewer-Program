@@ -1,0 +1,106 @@
+---
+title: "Sequence 8: Doctor"
+id: "earth-seq-08"
+tags: ["pathway:earth", "sequence:8"]
+---
+
+# Sequence 8: Doctor
+
+> **Lore:** Known as “healing priest” in ancient times. Also called a doctor, able to cure diseases and stitch souls.
+
+## Extraordinary Abilities
+
+### Attribute Gain
+
+- **Attribute Gain:** Strength +1, Constitution +2, Agility +1, Inspiration +1.
+- **Skill Gain:** Medical Guidance +1 level; Psychological Guidance +1 level.
+
+### Rapid Growth
+
+- Your Medical Guidance / Psychological Guidance are included in the rapid growth category of [[LINK LATER: Sequence 9 | type=sequence | hint=rapid growth category referenced here]].
+- Each time you cure a disease/injury that:
+  - does **not** repeat the type, and
+  - has at least moderate injuries,
+  it is also considered growth.
+- Skill caps from this growth:
+  - Medical Guidance can be improved at most to **Master**.
+  - Psychological Guidance can be improved at most to **Mastery**.
+
+[[UNCLEAR: The text alternates between “Master” and “Mastery” as caps and may be inconsistent for the same tier.]]
+
+### Heal Diseases
+
+- **Use:** Passive.
+- **Effect:** You have medical skills beyond reality. You can suture broken limbs, making them as flexible as before.
+- **Medical Appraisal:** Whenever you use a **spellcasting action** to make a medical appraisal, your appraisal result is equal to the target’s recovered health.
+- **Severed limbs:** For severed limb injuries, you must take the severed limb and suture it; otherwise, you can only stop bleeding and cannot recover.
+
+- **Definition (Serious disease):** All external wounds or injuries that can be treated by surgery, excluding terminal diseases.
+- **Medical supplies:** Depending on the injury, in addition to using abilities, you also need different medical drugs/equipment for treatment.
+
+#### Treatment Requirements by Injury Level
+
+1. **Minor Injury:** If the patient’s remaining blood volume is not less than half (rounded up), it is a minor injury.
+   - **Consumes (each treatment):** 1 recovery herb **or** 3 medicinal plants.
+
+2. **Slander:** If the patient’s blood volume is less than half but not less than 3 points, it is regarded as slander.
+   - **Consumes (each suturing):** 1 set of needle and thread (small volume items).
+   - **Consumes (each treatment):** 1 restoration herb **or** 3 medicinal plants.
+
+3. **Serious Injury:** Remaining blood volume is less than 3 points; dying and other states are serious injuries.
+   - **Action change:** Treatment becomes **1 full-round action**.
+   - **Other requirements:** The rest is equal to moderate injury.
+   - After blood volume returns to above the standard line of serious injury, it will be judged as moderate injury.
+
+#### Treatment Case
+
+A seriously injured patient needs to be treated once, turning the serious injury into a moderate injury, then judging according to the moderate injury, then turning the moderate injury into a minor injury, and then judging according to the minor injury, until fully recovered. (The extra recovery effect of the recovery herb still works.)
+
+[[UNCLEAR: “Slander” appears to describe a mid-tier injury, while later text references “moderate injury” separately; the relationship between these terms is not fully consistent.]]
+
+### Healing
+
+- **Cost:** 3 spiritual points.
+- **Use:** 1 casting action.
+- **Targeting and range:** Choose 1 target you touch.
+- **Effect:** Restores 2d6 HP and removes the effect of poison that has not deteriorated on the body.
+- **Injury scaling:** The HP restoration changes to:
+  - 1d6 for moderate injuries
+  - 1d4 for serious injuries
+
+- **Limits (toxins and timing):**
+  - The witch’s plague is ineffective from infection level 3.
+  - The rest of the toxins are ineffective from long-term medical treatment.
+
+#### Scaling by Sequence (Future Improvements)
+
+- [[LINK LATER: Sequence 7 | type=sequence | hint=Healing scaling]]: Recover 3d6 HP instead; 2d6 for moderate wounds; 1d6 for critical wounds.
+- [[LINK LATER: Sequence 6 | type=sequence | hint=Healing scaling]]:
+  - Slander will no longer suffer recovery reduction.
+  - The witch’s upper limit of healing is raised to infection level 3.
+  - The rest of the toxins can still be cleared even if they miss the golden healing time, as long as it does not exceed 5 minutes.
+- [[LINK LATER: Sequence 5 | type=sequence | hint=Healing scaling]]:
+  - Restored HP changes to 4d6.
+  - Serious injuries are also included in the scope of treatment; as long as it is not terminally ill, it can be treated.
+
+#### Special
+
+Diseases with more than 1 character, no matter how advanced they are, will suffer recovery reduction. Starting from infection level 3, they cannot be cleared by this type of spell, and they cannot be cleared even if they miss the golden healing time. The recovery effect of moderate wounds/serious wounds is reduced by 1d6.
+
+[[UNCLEAR: “Diseases with more than 1 character” is not a clear category; it may be a mistranslation or setting-specific classification.]]
+
+### Stitching the Soul
+
+- **Cost:** 3 spirituality points.
+- **Use:** 1 spellcasting action.
+- **Targeting and range:** Choose the target you touch.
+- **Effect:** You sew up wounds suffered by other people’s or your own souls.
+- **Check:** Psychological Guidance against “10 + lost sanity value”.
+- **Identification:** Each target has 1 crazy symptom/emotional state/mental disease; identify Difficulty Value +2.
+
+1. If the identification is successful, you choose one symptom of madness/emotional state/mental disease and terminate it.
+2. This cannot stop the split personality that is semi-out of control / indeterminate madness / indeterminate madness, but it can end the symptoms of madness that are constantly brought about by indeterminate madness, and treat the symptoms but not the root cause.
+
+- **Note (what can/can’t be terminated):** The former is a purely mental disease, while the latter is mixed with a tendency to lose control.
+
+[[UNCLEAR: The procedure for “Identification” (what roll is made, and how it relates to the Psychological Guidance check) is not fully specified beyond “identify Difficulty Value +2”.]]

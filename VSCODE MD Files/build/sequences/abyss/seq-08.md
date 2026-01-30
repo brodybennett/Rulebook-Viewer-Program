@@ -1,0 +1,139 @@
+---
+title: "Sequence 8: Unwinged Angel"
+id: "abyss-seq-08"
+tags: ["pathway:abyss", "sequence:8"]
+---
+
+# Abyss Pathway: Sequence 8
+
+## Unwinged Angel
+
+> **Lore:** Known as “Cold-Blooded One” in ancient times, this Beyonder has lost their conscience and grown more inhuman, gaining demonic, magic-like abilities.
+
+- See also: [[LINK LATER: Abyss Pathway | type=pathway | hint=Sequence list and overview]]
+
+## Extraordinary Abilities
+
+### Attribute Gain
+
+- **Attribute Gain:** Strength +1, Agility +1, Constitution +2, Inspiration +1.
+- Your **Mysticism** is added to the **Quick Learning** category of Sequence 9, which can be improved to **Proficiency**.
+- The **Sequence 9 potion** skill can be upgraded to **Advanced**.
+  - [[LINK LATER: Quick Learning | type=term | hint=skill category]]
+  - [[LINK LATER: Sequence 9 | type=sequence | hint=referenced for skill category and potion skill]]
+
+### Inhuman Body
+
+- **Effect:** You recover health much faster than others.
+- **Natural recovery time:** The time required for your body to naturally restore life is only **10 hours**, **rounded up**. See [[LINK LATER: Recovery of Spirituality and Other States | type=mechanic | hint=natural recovery rules]] for details.
+- **Sequence scaling:**
+  - **Sequence 7:** Changed to every **8 hours**.
+  - **Sequence 6:** Changed to every **6 hours**.
+  - Every time one level is promoted: the required time is cut in half and **rounded down**.
+
+### Dehumanization
+
+- **Effect:** From the moment you are promoted, you are no longer human. You still have feelings, but it is difficult to empathize; you will act only for your own desires, closer to pure egoism. Only in extreme cases is it close to emotional divinity.
+- **Play guidance:** When playing, pay attention to the annihilation of humanity.
+- **Condition impact (halved):** The effects of **Charm**, **Anger**, and **Fear** on you are **halved**.
+  - You still have pure bloodthirsty and killing desires; this is not inconsistent with the halving of the anger state.
+- **Forced/restrictive effects:** If these conditions have any special effect on you, such as forcing or restricting your actions, you can ignore such incidents.
+- **Special:** Targets one level higher than you have the full effect on you normally.
+- *(This is a potion benefit that cannot be recorded or stolen.)*
+  - [[LINK LATER: Charm | type=condition]]
+  - [[LINK LATER: Anger | type=condition]]
+  - [[LINK LATER: Fear | type=condition]]
+
+### Broken Wings
+
+- **Cost:** 3 Spirituality Points.
+- **Use:** 1 spell-casting action.
+- **Test:** Inspiration vs. Will Defense.
+- **Targeting and range:** Designate 1 target **within sight**.
+- **Effect:** You raise your arms horizontally and press down your palms suddenly; the target’s body becomes heavy and their movement slows, as if the wings used to fly have been broken off.
+- **Duration:** Lasting until the end of the target’s next action, they gain all of the following effects:
+  - Their movement power is **halved**.
+  - Their Agility is **halved**, **rounded up**.
+  - Their Dodge is **normal** (unchanged), which will affect the value of Physical Defense.
+  - They take a **-2 penalty** on skill or ability checks against the Physical Defenses of others.
+- **Sequence scaling:**
+  - **Sequence 4:** Broken Wings can affect multiple targets at once. One Inspiration Test is against the Will Defense of all targets.
+    - If the target is one character lower than you, you can make them lose all mobility and agility, but it still does not affect Dodge.
+
+### Demonic Spells
+
+- **Effect:** You gain more demonic spell-like abilities.
+- **Number gained:** Divide your ontology’s current Inspiration by **2** to determine the number of demon-like spells you can gain.
+- **Additional gains:**
+  - **Potion Completely Digested:** Choose another demon-like spell to get it.
+  - Every time a **Sequence** or **position** is promoted: choose **1** more demon-like spell to get.
+  - When you upgrade the **position**, you can get **2** more.
+  - [[LINK LATER: Potion Completely Digested | type=mechanic | hint=digestion milestone]]
+  - [[LINK LATER: Position | type=mechanic | hint=promotion/upgrade track used in this ruleset]]
+- Choose the corresponding quantity from the following demonic spells:
+
+- **Bad Words Hurt People**
+  - **Cost:** 1 Spirituality Point.
+  - **Use:** 1 swift action; **1 time per round**.
+  - **Test:** Inspiration vs. Will Defense.
+  - **Targeting and range:** Choose 1 target.
+  - **Effect:** Before casting, you need to RP out insults, bad words, and curses on the target, causing **1d4 curse damage**.
+  - **Sequence scaling:**
+    - **Sequence 7:** When it is a big success, swearing and hurting people causes a deterrent effect lasting **1 round**, and the damage caused is **doubled**.
+    - **Sequence 6:** After using swear words, you cannot use swear words to hurt people, occupying the same number of uses. [[UNCLEAR: This clause does not specify whether it restricts only this spell’s reuse, or interacts with another “swear words” ability/usage pool.]]
+
+- **Create Poison Flame**
+  - **Cost:** 2 Spirituality Points.
+  - **Use:** 1 casting action.
+  - **Test:** Occult vs. Physical Defense.
+  - **Targeting and range:** Choose 1 target.
+  - **Effect:** A red-green flame rises from your palm; you spew out this flame, causing **2d6 poison** and **1d6 fire** damage.
+  - **Special:**
+    - This ability doubles the damage to plants, spider webs, and silk hair.
+    - A target who successfully loses hit points from poison damage begins to suffer **1 point of poison damage each round** until they clear the poison with a **15th DV Medicine** check.
+  - **Sequence scaling:**
+    - **Sequence 7:** The poisonous fire can ascend into a poisonous gas wrapped in green fire; multiple targets can be selected within **10 meters**.
+
+- **Magma Attachment**
+  - **Cost:** 2 Spirituality Points.
+  - **Use:** 1 casting action.
+  - **Duration:** 1 encounter.
+  - **Effect:** Your skin splits into web-like lines and hidden magma appears in the gaps; the fissures begin to shimmer, but it’s not enough to illuminate.
+    - You gain **Fire Resistance 5** and **Cold Resistance 5**.
+    - Your unarmed melee attacks deal **+1d6 fire damage**.
+  - **Sequence scaling:**
+    - **Sequence 7:** It can be changed to attach **1d6 fire damage** to a melee weapon, and the damage can be added to the rest of the fire-type abilities to increase the heat of other fire-type abilities.
+
+- **Danger Premonition**
+  - **Trigger:** When you are about to encounter a surprise attack or sneak attack.
+  - **Use:** Immediately use Inspiration to conduct a **DV 25** spiritual intuition appraisal.
+  - **Effect (on success):** The opponent cannot gain the advantages brought by the surprise round and surprise attack, and the spiritual intuition will be triggered steadily at this time.
+  - **Sequence scaling:**
+    - **Sequence 7:** Changed to **DV 20** Inspiration identification, and you can tell whether the enemy is a fallen person or a fallen creature.
+  - [[LINK LATER: Surprise Round | type=mechanic | hint=initiative/ambush rules]]
+  - [[LINK LATER: Spiritual Intuition | type=mechanic | hint=intuition appraisal/identification]]
+
+- **Create Fireballs**
+  - **Cost:** 1 Spirituality Point.
+  - **Use:** 1 casting action.
+  - **Test:** Occult vs. Physical Defenses.
+  - **Targeting and range:** Choose 1 target.
+  - **Effect:** Deal **3d6 fire damage**.
+  - **Sequence scaling:**
+    - **Sequence 7:** The fireball acquires the properties of brimstone, appears slightly light blue, and creates a small explosion, increases poison damage by **1d6**, and can select two targets standing together.
+  - [[LINK LATER: Brimstone | type=term | hint=property applied to fireball at Sequence 7]]
+
+- **Customized Demon-Like Spell**
+  - If you are not satisfied with the above-mentioned demon-like spells, you can get **only one** custom-made demon-like spell that is unique to you.
+  - This requires the consent of the **GM** and must be reasonable.
+  - It occupies the spell slot.
+  - [[LINK LATER: Spell Slot | type=mechanic | hint=spell capacity/slot rules]]
+
+> **GM Note:** Explanation about demon-like spells (Abyss Pathway)
+>
+> - In the Abyss Pathway, different races end up with different images of demons (e.g., goat demons, Cthulhu-like monsters, tentacles, or terrifying creatures like Shan Hai Jing).
+> - Human blood is impure; people may be mixed with blood from other regions. The concept of “race” applies beyond humans and animals.
+> - You can design a meaningful unique ability based on your character background (for customized demon-like spells).
+> - All demon-like spells listed above are lower-level versions of Sequence 6 abilities; custom abilities will also have a more complete body mutation when reaching a higher Sequence. You can design an upgraded version in advance based on this idea.
+>
+> [[LINK LATER: Shan Hai Jing | type=other | hint=real-world myth reference]]

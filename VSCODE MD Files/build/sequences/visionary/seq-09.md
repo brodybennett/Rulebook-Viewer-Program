@@ -1,0 +1,163 @@
+---
+title: "Sequence 9: Spectator"
+id: "visionary-seq-09"
+tags: ["pathway:visionary", "sequence:9"]
+---
+
+# Visionary Pathway: Sequence 9
+
+## Spectator
+
+- See also: [[LINK LATER: Visionary Pathway | type=pathway]]
+
+> **Lore:** In ancient times, the Visionary Pathway was called the “Dragon” path and was associated with the spiritual realm. Its mythic creature is depicted as a dragon and corresponds to the Tarot card “Justice.”
+
+You are a **Spectator**: a bystander-like observer with outstanding spirit and keen insight into “actors” in secular society, able to read people through expression, behavior, speech habits, and subtle movements—and to influence outcomes from behind the scenes.
+
+## Advancement
+
+### Main Ingredients
+
+- [[LINK LATER: Manhal Fish Eyes | type=item | hint=adult, 1 pair]] ×1 pair
+- [[LINK LATER: Black-Horned Fish Blood | type=item | hint=35 ml]] 35 ml
+
+### Auxiliary Materials
+
+- [[LINK LATER: Pure Water | type=item | hint=80 ml]] 80 ml
+- [[LINK LATER: Colchicum Essence | type=item | hint=5 drops]] 5 drops
+- [[LINK LATER: Bovine Peony Powder | type=item | hint=13 g]] 13 g
+- [[LINK LATER: Fairy Flowers | type=item | hint=7 petals]] 7 petals
+
+## Extraordinary Abilities
+
+### Attribute Gain
+
+- **Attribute Gain:** **Inspiration** +2, **Charm** +1  
+  - This Charm is *personality charm* and does not affect appearance. [[LINK LATER: Charm | type=term | hint=personality charm vs appearance]]
+  - [[LINK LATER: Inspiration | type=term | hint=Attribute rules]]
+
+### Enhanced Learning
+
+You become better at mastering skills related to psychology and psychological guidance.
+
+- If you complete an effective, real course of at least 2 hours, your corresponding skills increase by 1 level. [[LINK LATER: Skills | type=rule | hint=skill levels and advancement]]
+- To advance skill levels:
+  - Training → Proficiency: learn **2** times.
+  - Proficiency → Advanced: learn **3** times.
+- A Sequence 9 potion supports you reaching **Advanced** for now; after that, your learning rate cannot gain a substantial improvement. [[LINK LATER: Potions | type=mechanic | hint=Sequence advancement]]
+
+**Limits**
+- Learning can only be done once per day.
+- Characters of higher Sequences can use **twice** the Inspiration brought by potions to improve their growth skills. [[LINK LATER: Higher Sequences | type=sequence | hint=general rule]]
+
+### Perfect Recall
+
+- Under the premise of not being affected by extraordinary factors, you do not forget things you have seen or heard. [[LINK LATER: Extraordinary Factors | type=mechanic | hint=effects that alter memory]]
+
+### Spectator State
+
+You can enter a detached observational mode to read others’ real thoughts from details.
+
+- **Use:** 1 [[LINK LATER: Free Action | type=mechanic | hint=Action types]] to enter **Spectator State**. [[LINK LATER: Spectator State | type=mechanic | hint=Audience Sequence 9]]
+- **Effect:** While in Spectator State, you observe others’ real thoughts through details.
+- **End Condition:** Your Spectator State ends when you fall into an emotion or [[LINK LATER: Shock | type=condition]]. [[LINK LATER: Conditions | type=rule | hint=anger/fear/charm/shock]]
+
+[[UNCLEAR: The RAW line about “try to make you enter anger, fear, charm, excluding the identification of shock - 4 disadvantages” does not clearly state what roll takes the -4 or who it applies to.]]
+
+### Remove Emotional Effects
+
+- **Use:** 1 [[LINK LATER: Casting Action | type=mechanic | hint=Action types]]
+- **Check:** Psychology check, Difficulty 20. [[LINK LATER: Psychology | type=term | hint=skill/check rules]]
+- **Effect:** Remove emotional effects on yourself not greater than [[LINK LATER: Personality | type=term | hint=Attribute/trait used as a limit]].
+
+### Observe Others
+
+Make a focused read of a visible target.
+
+- **Check:** Make a Psychology check.
+- **Targeting and range:** Choose 1 creature within your field of vision.
+- **Effect:** Gain information based on the check result:
+
+1) Difficulty 10: Confirm the target’s current status based on dress / habits / furnishing style of the room.  
+2) Difficulty 15: Confirm the target’s general thoughts / purposes from body language (no details).  
+3) Difficulty 20: Confirm the target’s character from demeanor / expression / conversation, and know how to get along with them.  
+4) Difficulty 25: Confirm possible relationships between the target and anyone around them based on gaze direction / sneak glances / small movements.  
+5) Great success: Summarize the target’s “mental model.” Social/psychology-related identifications gain a +2 benefit regarding that target until their style of doing things changes. If the target is possessed/replaced, the +2 benefit still exists but does not work. [[LINK LATER: Possession | type=condition | hint=possessed/replaced states]]  
+6) Big failure: You still get the corresponding result, but the target notices you are observing them.
+
+**Special**
+- If a character proactively roleplays something like “restrain body movements and do not make any performance” *before* being observed, then at the difficulties above, you can no longer obtain information based on “body language.”
+
+**Limits**
+- You cannot get content that lacks intelligence. Example: if someone wants to obtain a formula through you, you can only know they have other plans. [[LINK LATER: Intelligence | type=term | hint=creature has/no intelligence]]
+- Every time you obtain 1 piece of information, your “observation appraisal” gains a +2 benefit; this stacks. Exposed details count as information. [[LINK LATER: Stacking Modifiers | type=rule | hint=bonuses/penalties stacking]]
+- If a [[LINK LATER: Faceless Man | type=term | hint=disguise mechanic/ability]] pretends to be someone else, and you know habits of the original person that the Faceless Man does not, you may be able to see through the disguise. [[LINK LATER: Disguise | type=mechanic | hint=seeing through disguises]]
+- This Audience status is passive and cannot be recorded or stolen.
+- Limited by intelligence, the observed results may not match the actual situation.
+
+### Passive Observation
+
+- As long as someone reveals certain details in front of you, the **GM** may immediately allow you to make an identification to obtain information.
+
+### Psychological Guidance
+
+You subtly influence and secretly guide things to develop in the direction you want.
+
+- **Setup:** First determine one thing you want to guide, then confirm the result you want to guide.
+- **Constraint:** The guided result cannot contradict the intention of the person being guided, and must be relevant and reasonable enough.
+- **Requirement:** You must take actions to make the guidance happen (not necessarily limited to words).
+- **Opposition:** Psychological Guidance is opposed to [[LINK LATER: Will Defense | type=mechanic | hint=opposed defense]].
+
+**Procedure (example structure)**
+1) Confirm what you want to guide (e.g., guide a lady regarding marriage).  
+2) Confirm the result you want to guide (e.g., she accepts a third party’s proposal and abandons her husband).  
+3) Take actions to achieve guidance (e.g., mention rumors about the husband; point out the third party’s benefits).  
+4) When the target faces the relevant choice, make your appraisal; the GM resolves success against Will Defense.
+
+**Modifiers (GM adjudication of reasonableness applies)**
+- Initial judgment: Psychological Guidance is **-8 unfavorable**.
+- Apply the following adjustments:
+
+1) You have no understanding of the target: -2 unfavorable.  
+2) It is known you are a spectator: -2 unfavorable (the target knows you are a spectator and knows the spectator ability can take effect).  
+3) You know the target’s status: +2 beneficial.  
+4) You know the target’s identity: +2 beneficial.  
+5) You know the target’s character: +2 beneficial.  
+6) You know any relationship network of the target: +2 beneficial.  
+7) You know the target’s habits: +2 beneficial.  
+8) You know the target’s weakness: +2 beneficial; only applies when the guidance content is related to that weakness.
+
+- If the Psychological Guidance penalty becomes 0 due to the advantages/disadvantages above, Psychological Guidance succeeds by default, excluding targets larger than 1 character. [[UNCLEAR: “targets larger than 1 character” is not clearly defined (size? scale? multiple targets?).]]
+
+**On Success**
+- The guided creature must act according to the guided content, but cannot detect abnormalities.
+- If the guided target actively examines the guided details, they can use [[LINK LATER: Inspiration | type=term | hint=Attribute rules]] to counter your identification result at that time and realize something is wrong.
+
+**Limits**
+- This is an improvement brought by the potion, so it cannot be stolen or recorded.
+
+### Spiritual Vision
+
+You gain more outstanding spiritual vision due to your Inspiration.
+
+- **Use:** 1 [[LINK LATER: Free Action | type=mechanic | hint=Action types]]
+- **Cost:** Consume 1 [[LINK LATER: Spirituality Points | type=mechanic | hint=resource spend]] per round to keep it active. [[LINK LATER: Spirituality | type=term | hint=resource rules]]
+- **Effect:** While active, your vision gains the following benefits:
+
+1) **Etheric Body:** See the target’s health status through aura color; find where the body is uncomfortable/has problems. For specific organs, you can see inside through an unthickened door and confirm the number of people inside.  
+2) **Spiritual Body:** Confirm whether an object/creature has spirituality. This does not identify extraordinary people. You can also see inside through a door, identify whether there is ritual magic power present, and penetrate a spiritual wall. [[LINK LATER: Ritual Magic | type=mechanic | hint=ritual magic power]] [[LINK LATER: Spiritual Wall | type=mechanic | hint=barrier rules]]  
+3) **Mental Body:** See colors representing the other person’s emotions, but only as general content (e.g., depressed vs uneasy). Negative emotion is usually a dark tone.  
+4) **Astral Body:** You cannot see the astral body.  
+5) While in Spiritual Vision, your [[LINK LATER: Spiritual Intuition | type=term | hint=skill/test rules]] test gains a +2 benefit.
+
+**Sequence 8 Improvement**
+- At Sequence 8, you can see detailed content of the other party’s mental body: the specific emotional state (nervous, etc.). [[LINK LATER: Visionary Pathway Sequence 8 | type=sequence | hint=Spiritual Vision upgrade]]
+
+> **GM Note:** Dead creatures are usually dull in color and cannot be recognized. Spiritual materials usually have spirituality. The color of a material in Spiritual Vision usually represents its corresponding pathway—this does not mean you can see a Beyonder’s power. [[LINK LATER: Beyonder | type=term]]
+>
+> **GM Note:** Colors seen in Spiritual Vision can help you see others in the dark, but you only perceive the existence of color and can still get lost in the dark. Unlike dead creatures, undead creatures display deep black “spirituality color” rather than having none. [[LINK LATER: Undead | type=term | hint=undead creature rules]]
+>
+> **GM Note:** Spirit Vision can see some ordinary spirit bodies by default if they have not dissipated for 24 hours.
+
+**Limits**
+- Spirit Vision cannot be recorded or stolen.
