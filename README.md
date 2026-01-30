@@ -1,5 +1,7 @@
 # LOTM Rulebook Viewer
 
+[lotmrulebook.onrender.com](https://lotmrulebookviewer.onrender.com/)
+
 A community-driven tabletop RPG rulebook inspired by Lord of the Mysteries, focused on structured mechanics and clean UI-ready formatting.
 
 - Current state: Early-draft rules with scaffolded Markdown files; viewer MVP and registry already working for browsing and link checks.
