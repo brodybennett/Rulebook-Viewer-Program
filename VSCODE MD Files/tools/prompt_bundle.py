@@ -14,13 +14,14 @@ Examples
   python tools/prompt_bundle.py --repo . --raw chunk.txt > prompt_bundle.yml
 
   # For an existing markdown file (includes anchors in that file)
-  python tools/prompt_bundle.py --repo . --md build/sequences/apprentice/seq-02.md > prompt_bundle.yml
+  python tools/prompt_bundle.py --repo . --md draft/sequences/apprentice/seq-02.md > prompt_bundle.yml
 
   # Pipe raw text from clipboard
   pbpaste | python tools/prompt_bundle.py --repo . --stdin > prompt_bundle.yml
 
 Notes
 - This script is read-only.
+- If `tag-registry.yml` is missing, it emits a glossary-only bundle.
 """
 
 from __future__ import annotations
@@ -137,7 +138,7 @@ def _slice_anchors(
         else:
             missing.append(t)
 
-    # build slice
+    # registry slice
     sliced: Dict[str, dict] = {}
     for aid in sorted(found_ids):
         meta = anchors_by_id.get(aid)
@@ -169,11 +170,18 @@ def main() -> int:
     reg_path = repo / "tag-registry.yml"
     gl_path = repo / "glossary.yml"
 
+    reg_missing = False
+    reg: dict = {}
     if not reg_path.exists():
-        print(f"ERROR: tag-registry.yml not found at: {reg_path}", file=sys.stderr)
-        return 2
-
-    reg = _load_yaml(reg_path)
+        print(f"WARN: tag-registry.yml not found at: {reg_path}; emitting glossary-only bundle.", file=sys.stderr)
+        reg_missing = True
+    else:
+        try:
+            reg = _load_yaml(reg_path)
+        except Exception as e:
+            print(f"WARN: failed to parse tag-registry.yml ({e}); emitting glossary-only bundle.", file=sys.stderr)
+            reg_missing = True
+            reg = {}
     anchors_by_id, lookup = _index_anchors(reg)
 
     if args.stdin:
@@ -196,12 +204,17 @@ def main() -> int:
         for aid in HEADING_ANCHOR_RE.findall(raw):
             extra_ids.add(aid)
 
-    sliced, found_ids, missing = _slice_anchors(
-        anchors_by_id=anchors_by_id,
-        lookup=lookup,
-        targets=targets,
-        extra_anchor_ids=extra_ids,
-    )
+    if reg_missing:
+        sliced: Dict[str, dict] = {}
+        found_ids = sorted(extra_ids)
+        missing = []
+    else:
+        sliced, found_ids, missing = _slice_anchors(
+            anchors_by_id=anchors_by_id,
+            lookup=lookup,
+            targets=targets,
+            extra_anchor_ids=extra_ids,
+        )
 
     # trim aliases
     for aid, meta in sliced.items():
@@ -220,6 +233,7 @@ def main() -> int:
         out["glossary"] = _load_yaml(gl_path)
 
     out["tag_registry_slice"] = {
+        "registry_present": not reg_missing,
         "anchors": sliced,
         "stats": {
             "anchors_in_slice": len(sliced),

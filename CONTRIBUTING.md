@@ -10,8 +10,8 @@ Thanks for helping keep this fan project organized and readable. Please keep eve
 
 ## Writing content
 - Follow `style-guide.md` for headings, tone, and formatting.
-- Add `{#anchors}` to new sections and register them in `tag-registry.yml`.
-- Keep file placement consistent with `build/` structure and existing sequences.
+- Add `{#anchors}` to new sections; if a `tag-registry.yml` exists, register new anchors there too.
+- Keep file placement consistent with the `draft/` structure and existing sequences.
 - Prefer examples and rules text over placeholders; mark drafts clearly.
 
 ## Testing your changes
@@ -20,7 +20,7 @@ Thanks for helping keep this fan project organized and readable. Please keep eve
 
 ## Submitting changes
 - Keep commits focused and include a short rationale.
-- Note any new anchors or IDs in your summary so reviewers can double-check registry updates.
+- Note any new anchors or IDs in your summary so reviewers can double-check link consistency (and registry updates if used).
 - Do not add any monetization, ads, or licensing terms that conflict with the non-commercial notice in `LICENSE.md`.
 
 ## Attribution and IP

@@ -1,0 +1,10 @@
+link_later_tokens:
+  - "Potions and Advancement"
+  - "Chapter 2: Checks"
+  - "Chapter 3: Attributes"
+  - "Fate Pathway"
+unclear_flags:
+  - "Dodge selection rules contradict whether Intuition (INT) can be used to select or stack Dodge."
+contradictions_found: []
+terminology_notes:
+  - "Standardized Difficulty Value usage and ASCII punctuation."

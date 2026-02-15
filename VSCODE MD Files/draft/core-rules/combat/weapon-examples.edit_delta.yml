@@ -1,0 +1,9 @@
+link_later_tokens:
+  - "Double Strike"
+  - "Quick Dodge"
+  - "Skin Armor"
+unclear_flags:
+  - "Fragmentation grenade's additional roll does not specify target(s) or whether it applies per creature in the area."
+contradictions_found: []
+terminology_notes:
+  - "Standardized Damage/Armor wording and ASCII punctuation."

@@ -1,0 +1,21 @@
+link_later_tokens:
+  - "Caught Off Guard"
+  - "Advantage / Disadvantage"
+  - "Quick Dodge"
+  - "Chapter 3: Attributes"
+  - "Borrowed-Object Protection"
+  - "Chapter 12: Special Regions"
+  - "Dying Threshold"
+  - "Special Actions"
+  - "Abyss Shackles"
+  - "Moon Pathway"
+  - "Agile Hand"
+  - "Dual Action"
+  - "Marauder Pathway"
+  - "High-Speed Dodge"
+unclear_flags:
+  - "Initiative notation is inconsistent between \"1d20 + Agility (DEX)\" and \".ri+Agility (DEX).\""
+  - "Armor recovery note about full HP is redundant and adds no clear effect beyond full repair."
+contradictions_found: []
+terminology_notes:
+  - "Standardized Difficulty Value wording and ASCII punctuation."

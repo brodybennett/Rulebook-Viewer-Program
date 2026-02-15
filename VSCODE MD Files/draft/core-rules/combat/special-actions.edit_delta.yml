@@ -1,0 +1,22 @@
+link_later_tokens:
+  - "Special Conditions"
+  - "Chapter 6: Combat"
+  - "Advantage / Disadvantage"
+  - "Caught Off Guard"
+  - "Witnessing Mythical Runes"
+  - "Chapter 11: Manifesting Mythical Creature Form"
+  - "Restrained"
+  - "Fast Dodge"
+  - "Off-Balance"
+  - "Stunned"
+  - "Bloodbath"
+  - "Bleeding"
+  - "Poisoned"
+  - "Blinded"
+  - "Deafened"
+  - "Fate Pathway"
+unclear_flags:
+  - "Grapple rules state both sides gain advantage/disadvantage but do not specify which rolls get which modifier."
+contradictions_found: []
+terminology_notes:
+  - "Standardized Difficulty Value wording and ASCII punctuation."

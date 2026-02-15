@@ -1,0 +1,11 @@
+link_later_tokens:
+  - "Hornacis Mountains | type=location | hint=mountain range associated with these creatures"
+  - "Earth Sequence | type=sequence | hint=group or Pathway faction tied to \"Earth\""
+  - "SC | type=term | hint=sanity or shock cost track"
+  - "spirituality | type=term | hint=resource gained from the crystal"
+unclear_flags:
+  - "RAW describes the tentacles as both gray and black."
+  - "\"SC\" is not defined in RAW."
+  - "RAW text \"but with Back to being a plaything\" is corrupted; the intended meaning is unclear."
+contradictions_found: []
+terminology_notes: []

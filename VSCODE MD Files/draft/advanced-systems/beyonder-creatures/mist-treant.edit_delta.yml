@@ -1,0 +1,13 @@
+link_later_tokens:
+  - "polluted tree of life | type=location | hint=source of Misty Treants"
+  - "desolate mistress | type=term | hint=entity tied to the polluted tree of life"
+  - "agility | type=term | hint=defense component used in Physical Defense calculation"
+  - "armor | type=term | hint=defense component used in Physical Defense calculation"
+  - "deflection | type=term | hint=defense component used in Physical Defense calculation"
+  - "SC | type=term | hint=sanity or shock cost track"
+  - "Fool's Pathway Sequence 7 Magician's Potion | type=sequence | hint=potion recipe requiring Misty Treant rhizome/juice"
+unclear_flags:
+  - "The defense formula references \"agility,\" but the basic data lists \"Dexterity\"."
+  - "\"a human in a pustule\" is not defined; the exact source and limits of these abilities are unclear."
+contradictions_found: []
+terminology_notes: []

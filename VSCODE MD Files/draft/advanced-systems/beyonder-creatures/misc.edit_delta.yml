@@ -1,0 +1,26 @@
+link_later_tokens:
+  - "Witch Pathway Sequence 6 | type=sequence | hint=Sequence 6 of the Witch Pathway"
+  - "Visionary Pathway Sequence 4 Manipulator | type=sequence | hint=Sequence 4 of the Visionary Pathway"
+  - "Fool's Pathway Sequence 5 | type=sequence | hint=Sequence 5 of the Fool's Pathway"
+  - "Tyrant Pathway Sequence 6 Wind Blessed | type=sequence | hint=Sequence 6 \"Wind Blessed\" of the Tyrant Pathway"
+  - "Storm Pathway Sequence 6 Wind Blessed | type=sequence | hint=Sequence 6 \"Wind Blessed\" of the Storm Pathway"
+  - "Twilight Giant Pathway Sequence 5 | type=sequence | hint=Sequence 5 of the Twilight Giant Pathway"
+  - "Visionary Pathway Sequence 6 | type=sequence | hint=Sequence 6 of the Visionary Pathway"
+  - "Fool's Pathway Sequence 6 Faceless Man | type=sequence | hint=Sequence 6 \"Faceless Man\" of the Fool's Pathway"
+  - "Storm Pathway Sequence 5 Multi-Ocean Singer | type=sequence | hint=Sequence 5 \"Multi-Ocean Singer\" of the Storm Pathway"
+  - "Fool's Pathway Sequence 3 Ancient Scholar | type=sequence | hint=Sequence 3 \"Ancient Scholar\" of the Fool's Pathway"
+  - "Incomplete Audience Pathway Sequence 5 | type=sequence | hint=Sequence 5 of an Incomplete Audience Pathway"
+  - "Spirit Realm | type=location | hint=otherworld or realm"
+  - "Calderon | type=location | hint=city in the Spirit Realm"
+unclear_flags:
+  - "The phrase \"potions for the joy\" is unclear (potion name vs. effect)."
+  - "\"Puppet Master\" potion reference does not specify its Pathway or Sequence."
+  - "\"mind readers\" is not capitalized or otherwise defined as a formal title here."
+  - "\"viewers\" is not capitalized or otherwise defined as a formal title here."
+  - "\"hypnotist\" is not capitalized or otherwise defined as a formal title here."
+  - "RAW lists only the association; it does not specify any usable material."
+  - "\"crafty mage,\" \"half of the Fool's Pathway,\" and \"incomplete abilities\" are not defined here."
+  - "Several terms and fragments are unclear (e.g., \"soul split,\" \"marionette,\" \"spirituality,\" and \"similar performance\"), and RAW sentence structure is partially broken."
+  - "\"belong to the presence of demigods or higher\" is unclear as a classification statement."
+contradictions_found: []
+terminology_notes: []

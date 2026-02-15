@@ -1,0 +1,15 @@
+﻿link_later_tokens:
+  - "Switching Pathways | type=mechanic | hint=rules for changing Pathways during advancement"
+  - "Beyonder Characteristic | type=term | hint=conserved characteristics used in potions/advancement"
+  - "Original Pathway abilities | type=mechanic | hint=retained abilities after switching"
+  - "Demigod | type=term | hint=rank at Sequence 4"
+  - "Potion | type=mechanic | hint=advancement potion rules"
+  - "Angel | type=term | hint=rank at Sequence 2"
+  - "Loss of Control | type=condition | hint=madness/loss of control risks"
+  - "Beyonder Item | type=item | hint=items that grant Pathway-like abilities"
+  - "Half-mad | type=condition | hint=mental state from non-adjacent switching"
+  - "Sanity / Rationality | type=mechanic | hint=mental defense track or attribute"
+  - "Uniqueness | type=term | hint=high-tier characteristic concept"
+unclear_flags: []
+contradictions_found: []
+terminology_notes: []

@@ -1,0 +1,59 @@
+﻿link_later_tokens:
+  - "Promotion Ceremony | type=rule | hint=advancement procedure"
+  - "Sanity Check | type=mechanic | hint=SC procedure"
+  - "Sanity | type=mechanic | hint=mental stability score and checks"
+  - "Worm of Time | type=term | hint=implanted time-worm effect"
+  - "Fate | type=term | hint=destiny/fate mechanic"
+  - "Secret Puppet | type=term | hint=clone/puppet body"
+  - "Clone | type=term | hint=duplicate body mechanics"
+  - "Persona | type=term | hint=power rank/personality metric"
+  - "Divinity | type=term | hint=divine nature/power scaling"
+  - "Ability Stealing | type=mechanic | hint=thief-like stealing rules"
+  - "Identification Penalty | type=mechanic | hint=skill/ability identification DC penalty"
+  - "Physique | type=term | hint=size/strength category and related rules"
+  - "Skill Identification | type=mechanic | hint=hit/identify/accuracy system"
+  - "Feysacs | type=term | hint=creature/type mentioned in size classes"
+  - "Fire of Light | type=mechanic | hint=enhances sunlight/fire damage"
+  - "Blind | type=condition | hint=blinded by radiance"
+  - "Silver Knight | type=term | hint=creature/NPC reference"
+  - "Subsequent Chapters on Mythical Forms | type=other | hint=rulebook cross-reference"
+  - "Dark Creature | type=term | hint=creature tag/type"
+  - "Potion | type=term | hint=advancement substance and dominance"
+  - "Primordial Moon | type=term | hint=deity/belief reference"
+  - "Vampire | type=term | hint=creature/out-of-control state"
+  - "Wheel of Fortune | type=pathway | hint=Pathway name"
+  - "Luck | type=term | hint=attribute/stat"
+  - "God of Steam | type=term | hint=deity reference"
+  - "Loss of Control | type=mechanic | hint=runaway/out-of-control rules"
+  - "Angel-Level Temporary Shelter | type=term | hint=protection effect"
+  - "Audience Pathway | type=pathway | hint=Pathway name"
+  - "Fate Pathway | type=pathway | hint=Pathway name"
+  - "Hypnosis | type=mechanic | hint=mental influence"
+  - "Psychological Suggestion | type=mechanic | hint=mental influence"
+  - "Evernight Goddess | type=term | hint=deity/belief reference"
+  - "Reader Pathway | type=pathway | hint=Pathway name"
+  - "Spectator Pathway | type=pathway | hint=Pathway name"
+  - "Trait | type=term | hint=characteristic/extraordinary trait"
+unclear_flags:
+  - '"above Sequence 4" could mean higher-ranked Sequences or numerically greater Sequence values.'
+  - '"sanity is cleared" is not defined here (e.g., reduced to 0, reset, or otherwise removed).'
+  - 'The condition that determines which of the two outcomes applies is not stated.'
+  - 'The mechanical limits and outcomes of "wish at will" are not defined.'
+  - '"combat twist" and "looping state" are not defined here.'
+  - 'What qualifies as "a single attack" for teleporting a creature or spell is not defined.'
+  - 'No mechanical procedure is provided for "Random Teleportation."'
+  - '"steal/free the sun" and barrier destruction have no defined mechanics here.'
+  - '"affix," "opposite," and the scope of "every level and sense" are not defined here.'
+  - 'This reference list appears incomplete/irregular (e.g., "Fool 2," "Apprentice 3," "Error"); the intended numbering and meaning are not explained.'
+  - 'The procedure for this "scope" and how it applies to witnesses is not fully specified.'
+  - 'This paragraph relies on undefined terms (e.g., "one personality different," "secret puppet," "wrongly made clone," "audience''s personality separation") and an unclear causal chain.'
+  - 'The outcome when the total equals current Sanity is not stated.'
+  - '"sanity damage is directly taken to full" could mean maximum possible loss for that event or reducing Sanity to 0; the intended resolution is not stated.'
+  - '"reach the character of Sequence 3" is not defined; it appears to indicate using the improved/strengthened version.'
+  - '"+5 chance to hit" is not defined in context of a Sanity check; it may mean +5 to the sanity roll.'
+  - '"hit rate bonus" is not defined; it may refer to the Sanity Attack Bonus table.'
+  - '"Hit +1" is not defined (attack rolls, checks, or another statistic).'
+  - 'Mechanical resolution for resisting/gliding is not specified; "ordinary silver knight" is undefined here.'
+  - 'The exception "does not include lightning" is unclear in context of firearms defense.'
+contradictions_found: []
+terminology_notes: []

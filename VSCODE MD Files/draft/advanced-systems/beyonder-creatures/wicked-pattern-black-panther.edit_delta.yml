@@ -1,0 +1,11 @@
+link_later_tokens:
+  - "agility | type=term | hint=defense component used in Physical Defense calculation"
+  - "deflection | type=term | hint=defense component used in Physical Defense calculation"
+  - "SC | type=term | hint=sanity or shock cost track"
+  - "Fool's Pathway | type=pathway | hint=related to \"magician\" potion at Sequence 7"
+unclear_flags:
+  - "The RAW alternates between \"Black Panther,\" \"Vile Panther,\" \"evil-striped/evil-patterned black panther,\" and \"fel-striped panther,\" and it is not fully clear whether these are all the same creature or variants."
+  - "\"agility\" is used in the defense formula but does not appear as a listed attribute; it may be distinct from Dexterity or a translation mismatch."
+  - "It is not specified when or how \"curse damage\" is applied first to the clothing (e.g., worn vs. carried, single wearer vs. shared garment)."
+contradictions_found: []
+terminology_notes: []

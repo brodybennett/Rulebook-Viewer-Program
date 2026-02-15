@@ -48,7 +48,7 @@ tags: ["..."]
 - Anchor IDs are stable. If you rename a heading title, keep the same `{#id}`.
 
 ## Sequence File Template
-Use the template in `build/_templates/sequence-template.md` as your starting point.
+Use the template in `draft/_templates/sequence-template.md` as your starting point.
 
 ### Standard Section Order (Sequences)
 1) `# <Pathway> Pathway: Sequence <N> {#<pathway>-seq-<nn>}`
@@ -121,7 +121,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--repo", default=".", help="Repo root (contains tag-registry.yml)")
     ap.add_argument("--write", action="store_true", help="Write style-guide.md only if empty")
-    ap.add_argument("--write-template", action="store_true", help="Write build/_templates/sequence-template.md")
+    ap.add_argument("--write-template", action="store_true", help="Write draft/_templates/sequence-template.md")
     args = ap.parse_args()
 
     repo = Path(args.repo).resolve()
@@ -131,7 +131,7 @@ def main() -> int:
     print("\n".join([
         "# --- Suggested style-guide.md ---",
         STYLE_GUIDE_CONTENT,
-        "\n# --- Suggested build/_templates/sequence-template.md ---",
+        "\n# --- Suggested draft/_templates/sequence-template.md ---",
         TEMPLATE_MD,
     ]))
 
@@ -143,7 +143,7 @@ def main() -> int:
             print(f"\n[wrote] {style_path}")
 
     if args.write_template:
-        tpl_dir = repo / "build" / "_templates"
+        tpl_dir = repo / "draft" / "_templates"
         tpl_dir.mkdir(parents=True, exist_ok=True)
         tpl_path = tpl_dir / "sequence-template.md"
         if tpl_path.exists() and tpl_path.read_text(encoding="utf-8", errors="replace").strip():

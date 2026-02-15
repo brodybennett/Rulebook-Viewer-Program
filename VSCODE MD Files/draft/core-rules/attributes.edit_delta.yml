@@ -1,0 +1,18 @@
+link_later_tokens:
+  - "Companion Supplemental Rules | type=other | hint=auto character sheet"
+  - "Auto Character Sheet | type=other | hint=tool or sheet"
+  - "Magician Pathway | type=pathway | hint=items like matches or paper figurines"
+  - "Mystery Pryer Pathway | type=pathway | hint=spellcasting materials"
+  - "Thief Pathway | type=pathway | hint=can select hidden-pocket items"
+unclear_flags:
+  - "Point-buy starting values and the point cost per increase are not stated."
+  - "Spirituality calculation alternates between advancement count and current Sequence number."
+  - "Angel King Spirituality increase by half is not defined precisely."
+  - "Sanity loss does not define how to convert the opposed roll into damage."
+  - "Angel King Vitality gain by half is not defined precisely."
+  - "Vitality gain multipliers may apply only at stated Sequences or to all later advancements."
+  - "Common Damage Dice and Vitality conversion table is missing."
+contradictions_found: []
+terminology_notes:
+  - "Standardized Difficulty to Difficulty Value per glossary."
+  - "Replaced MISSING REF markers with LINK LATER tokens."

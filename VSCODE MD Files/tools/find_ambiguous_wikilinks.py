@@ -7,14 +7,16 @@ This matters because your current rulebook_viewer.py resolves [[Title]] by *firs
 If the title exists in many files, your link may silently point to the wrong section.
 
 The script:
-- Loads tag-registry.yml and builds a map: link_text -> list of destinations.
-- Scans all build/**/*.md wiki-links.
+- Loads tag-registry.yml (if present) and builds a map: link_text -> destinations.
+- Falls back to heading-title matching when the registry is missing.
+- Scans all <content-root>/**/*.md wiki-links.
 - Reports wiki-links where link_text maps to 2+ destinations.
 - Ignores flagged links like [[UNCLEAR: ...]] / [[TODO: ...]] / [[NOTE: ...]].
 
 Usage
   python tools/find_ambiguous_wikilinks.py --repo .
   python tools/find_ambiguous_wikilinks.py --repo . --top 50
+  python tools/find_ambiguous_wikilinks.py --repo . --content-root draft
 """
 
 from __future__ import annotations
@@ -28,7 +30,11 @@ from typing import Dict, List, Tuple
 import yaml
 
 WIKILINK_RE = re.compile(r"\[\[([^\]]+?)\]\]")
+HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*(?:\{#[A-Za-z0-9][A-Za-z0-9\-_]*\})?\s*$")
 FLAG_PREFIXES = ("UNCLEAR:", "TODO:", "NOTE:")
+DEFAULT_CONTENT_ROOT = "draft"
+LEGACY_CONTENT_ROOT = "build"
+VALID_CONTENT_ROOTS = (DEFAULT_CONTENT_ROOT, LEGACY_CONTENT_ROOT)
 
 
 def rel(p: Path, root: Path) -> str:
@@ -36,6 +42,21 @@ def rel(p: Path, root: Path) -> str:
         return str(p.relative_to(root)).replace("\\", "/")
     except Exception:
         return str(p).replace("\\", "/")
+
+
+def _resolve_content_root(repo: Path, content_root: str) -> Path:
+    preferred = (content_root or DEFAULT_CONTENT_ROOT).strip()
+    candidates: List[str] = []
+    if preferred:
+        candidates.append(preferred)
+    for root_name in VALID_CONTENT_ROOTS:
+        if root_name not in candidates:
+            candidates.append(root_name)
+    for root_name in candidates:
+        candidate = repo / root_name
+        if candidate.exists() and candidate.is_dir():
+            return candidate
+    return repo / preferred
 
 
 def parse_wikilinks(text: str) -> List[Tuple[str, int]]:
@@ -79,31 +100,63 @@ def build_known_targets(reg: dict) -> Dict[str, List[str]]:
     return known
 
 
+def build_known_targets_from_markdown(content_dir: Path, repo: Path) -> Dict[str, List[str]]:
+    known: Dict[str, List[str]] = defaultdict(list)
+    for p in content_dir.rglob("*.md"):
+        txt = p.read_text(encoding="utf-8", errors="replace")
+        file_rel = rel(p, repo)
+        for line_no, line in enumerate(txt.splitlines(), start=1):
+            m = HEADING_RE.match(line.rstrip())
+            if not m:
+                continue
+            title = m.group(2).strip()
+            if title:
+                known[title].append(f"{file_rel}:{line_no}")
+    return known
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--repo", default=".", help="Repo root (contains tag-registry.yml)")
+    ap.add_argument("--repo", default=".", help="Repo root")
+    ap.add_argument(
+        "--content-root",
+        default=DEFAULT_CONTENT_ROOT,
+        help="Content folder to scan (default: draft; falls back to build if missing)",
+    )
     ap.add_argument("--top", type=int, default=200, help="Max ambiguous link instances to print")
     args = ap.parse_args()
 
     repo = Path(args.repo).resolve()
-    build_dir = repo / "build"
+    content_dir = _resolve_content_root(repo, args.content_root)
     reg_path = repo / "tag-registry.yml"
 
-    if not reg_path.exists():
-        print(f"ERROR: missing {rel(reg_path, repo)}")
+    if not content_dir.exists():
+        print(f"ERROR: missing {rel(content_dir, repo)}")
         return 2
 
-    reg = yaml.safe_load(reg_path.read_text(encoding="utf-8", errors="replace")) or {}
-    known = build_known_targets(reg)
+    known: Dict[str, List[str]] = defaultdict(list)
+    if reg_path.exists():
+        try:
+            reg = yaml.safe_load(reg_path.read_text(encoding="utf-8", errors="replace")) or {}
+            for target, destinations in build_known_targets(reg).items():
+                known[target].extend(destinations)
+        except Exception as e:
+            print(f"WARN: failed to parse {rel(reg_path, repo)} ({e}); using markdown headings only.")
+    else:
+        print(f"WARN: missing {rel(reg_path, repo)}; using markdown headings only.")
 
-    if not build_dir.exists():
-        print(f"ERROR: missing {rel(build_dir, repo)}")
-        return 2
+    for target, destinations in build_known_targets_from_markdown(content_dir, repo).items():
+        known[target].extend(destinations)
+
+    # De-duplicate destination lists to keep counts stable.
+    for target, destinations in list(known.items()):
+        deduped = list(dict.fromkeys(destinations))
+        known[target] = deduped
 
     ambiguous_hits: List[Tuple[str, str, int, int]] = []
     # (target, file, line, num_destinations)
 
-    for p in build_dir.rglob("*.md"):
+    for p in content_dir.rglob("*.md"):
         txt = p.read_text(encoding="utf-8", errors="replace")
         r = rel(p, repo)
         for target, line in parse_wikilinks(txt):

@@ -1,0 +1,24 @@
+﻿link_later_tokens:
+  - "Beyonder Item | type=term | hint=Item created from Beyonder Characteristics; major mechanical hook throughout"
+  - "Beyonder Characteristic | type=term | hint=Condenses into items; used for forging and purification"
+  - "Spirituality | type=term | hint=Resource consumed by divination and some abilities"
+  - "Counter-Divination | type=term | hint=Ritual magic and effects that block/limit divination"
+  - "Spirit World | type=location | hint=Apprentice Sequence 9 opens door"
+  - "Astral World | type=location | hint=Apprentice teleportation/travel; Mystery Pryer group effects"
+  - "Rank | type=term | hint=Used as a threshold for effects; not defined in this excerpt"
+  - "Mortal | type=term | hint=Used as a power-tier label; not defined in this excerpt"
+  - "Demigod | type=term | hint=Power-tier label used throughout"
+  - "Special Action | type=mechanic | hint=Night Sequence 8 movement support interacts with special actions"
+  - "Charge-up Strike | type=mechanic | hint=Example special action; check bonus +2"
+  - "Borrowed-Object Protection | type=mechanic | hint=Example special action; armor bonus +2"
+  - "Art: Singing | type=skill | hint=Used by Sun Pathway; roleplay example and Tyrant Sequence 5 dependency"
+  - "Body of Radiance | type=ability | hint=Sun Pathway; divination/line-of-sight warning"
+  - "Mystical Reenactment | type=ability | hint=Mystery Pryer Sequence 4 customization"
+  - "Organization Introduction | type=other | hint=Referenced for Earth Church details"
+  - "Earth Church | type=faction | hint=Referenced under Earth roleplay concerns"
+  - "SC | type=mechanic | hint=Referenced under Fate; undefined in excerpt"
+unclear_flags:
+  - "The text says it \"expand[s] and explain[s] the traits and characteristics of 22 Sequences,\" but the surrounding context discusses pathways; the exact intended meaning of \"22 Sequences\" is unclear."
+  - "\"SC\" is not defined in this excerpt."
+contradictions_found: []
+terminology_notes: []

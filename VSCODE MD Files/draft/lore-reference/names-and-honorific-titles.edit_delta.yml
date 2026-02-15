@@ -1,0 +1,27 @@
+link_later_tokens:
+  - "Gods and Faith | type=rule | hint=faith and worship rules"
+  - "Darkness Pathway | type=pathway | hint=missing pathway ref"
+  - "Tyrant Pathway | type=pathway | hint=pathway reference"
+  - "Reader Pathway | type=pathway | hint=pathway reference"
+  - "Sun Pathway | type=pathway | hint=pathway reference"
+  - "Paragon Pathway | type=pathway | hint=pathway reference"
+  - "Earth Pathway | type=pathway | hint=pathway reference"
+  - "Hanged Man Pathway | type=pathway | hint=pathway reference"
+  - "Fool Pathway | type=pathway | hint=pathway reference"
+  - "Witch Pathway | type=pathway | hint=missing pathway ref"
+  - "Abyss Pathway | type=pathway | hint=pathway reference"
+  - "Black Emperor Pathway | type=pathway | hint=pathway reference"
+  - "Visionary Pathway | type=pathway | hint=pathway reference"
+  - "Red Priest Pathway | type=pathway | hint=pathway reference"
+  - "Door Pathway | type=pathway | hint=missing pathway ref"
+  - "Fate Pathway | type=pathway | hint=pathway reference"
+  - "Error Pathway | type=pathway | hint=pathway reference"
+  - "Death Pathway | type=pathway | hint=pathway reference"
+  - "Arbiter Pathway | type=pathway | hint=pathway reference"
+  - "Twilight Giant Pathway | type=pathway | hint=missing pathway ref"
+  - "Moon Pathway | type=pathway | hint=pathway reference"
+  - "Chained Pathway | type=pathway | hint=missing pathway ref"
+  - "White Tower Pathway | type=pathway | hint=missing pathway ref"
+unclear_flags: []
+contradictions_found: []
+terminology_notes: []

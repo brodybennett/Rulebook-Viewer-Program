@@ -5,7 +5,7 @@ Rulebook Viewer (MVP) - single-file, read-only local web app
 Features
 - Reads Markdown files (optionally via tag-registry.yml order)
 - Renders Markdown (tables, task lists, formatting) with Mistune
-- Supports "{#anchor}" heading anchors and links to "#anchor"
+- Supports "{#anchor}" heading anchors and auto-generated heading anchors
 - Supports wiki-links: [[Exact Section Title]] and [[Target|Display]]
 - Sidebar navigation + search
 - Read-only: never modifies your markdown files
@@ -14,6 +14,7 @@ Usage examples
   python rulebook_viewer.py
   python rulebook_viewer.py --source /path/to/repo
   python rulebook_viewer.py --source "/path/to/VSCODE MD Files.zip"
+  python rulebook_viewer.py --source /path/to/repo --content-root draft
   python rulebook_viewer.py --port 7860 --no-browser
 """
 
@@ -56,11 +57,15 @@ except ImportError:
 # Data model
 # ----------------------------
 
+DEFAULT_CONTENT_ROOT = "draft"
+LEGACY_CONTENT_ROOT = "build"
+VALID_CONTENT_ROOTS = (DEFAULT_CONTENT_ROOT, LEGACY_CONTENT_ROOT)
+
 @dataclasses.dataclass(frozen=True)
 class Doc:
     doc_id: str
     title: str
-    relpath: str  # posix-style path relative to repo root, e.g. "build/core-rules/checks.md"
+    relpath: str  # posix-style path relative to repo root, e.g. "draft/core-rules/checks.md"
     abspath: Optional[str]  # None if missing/planned
     tags: List[str]
     status: str  # exists/planned/unknown
@@ -69,6 +74,8 @@ class Doc:
 @dataclasses.dataclass
 class Index:
     repo_root: Path
+    content_root: str  # preferred content root name ("draft" or "build")
+    content_prefix: str  # actual prefix used in relpaths, includes trailing "/" when present
     docs_by_id: Dict[str, Doc]
     order: List[str]  # doc_ids in nav order
     path_to_id: Dict[str, str]  # relpath -> doc_id
@@ -83,9 +90,8 @@ class Index:
 # Markdown processing
 # ----------------------------
 
-ANCHOR_HEADING_RE = re.compile(
-    r'^(?P<h>#{1,6})\s+(?P<title>.+?)\s*\{#(?P<id>[A-Za-z0-9\-_]+)\}\s*$',
-    re.MULTILINE,
+HEADING_LINE_RE = re.compile(
+    r'^(?P<h>#{1,6})\s+(?P<title>.+?)(?:\s*\{#(?P<id>[A-Za-z0-9\-_]+)\})?\s*$'
 )
 
 WIKILINK_RE = re.compile(r'\[\[(.+?)\]\]')  # [[Target]] or [[Target|Display]]
@@ -112,21 +118,78 @@ def _strip_front_matter(md_text: str) -> Tuple[Dict, str]:
     return {}, md_text
 
 
+def _slugify_anchor(text: str) -> str:
+    s = text.strip().lower()
+    s = re.sub(r'[^a-z0-9]+', '-', s)
+    s = s.strip('-')
+    return s or "section"
+
+
+def _unique_anchor(base: str, used: set, counts: Dict[str, int]) -> str:
+    n = counts.get(base, 0)
+    while True:
+        candidate = base if n == 0 else f"{base}-{n+1}"
+        if candidate not in used:
+            break
+        n += 1
+    counts[base] = n + 1
+    used.add(candidate)
+    return candidate
+
+
+def _process_headings(body: str, inject: bool) -> Tuple[List[Tuple[int, str, str]], Optional[str]]:
+    toc: List[Tuple[int, str, str]] = []
+    out_lines: List[str] = []
+    used: set = set()
+    counts: Dict[str, int] = {}
+
+    for line in body.splitlines(keepends=True):
+        content = line.rstrip("\r\n")
+        newline = line[len(content):]
+        m = HEADING_LINE_RE.match(content)
+        if not m:
+            if inject:
+                out_lines.append(line)
+            continue
+
+        hashes = m.group('h')
+        raw_title = m.group('title') or ""
+        explicit_id = m.group('id')
+        title = raw_title.strip()
+
+        if explicit_id:
+            anchor = explicit_id.strip()
+            used.add(anchor)
+        else:
+            base = _slugify_anchor(title)
+            anchor = _unique_anchor(base, used, counts)
+
+        toc.append((len(hashes), title, anchor))
+
+        if inject:
+            clean_title = raw_title.rstrip()
+            heading_line = f"{hashes} {clean_title}".rstrip() + newline
+            line_break = newline if newline else "\n"
+            anchor_line = f"<a id=\"{html.escape(anchor, quote=True)}\"></a>{line_break}"
+            out_lines.append(anchor_line)
+            out_lines.append(heading_line)
+
+    return toc, "".join(out_lines) if inject else None
+
+
+def _inject_heading_anchors(body: str) -> str:
+    _toc, updated = _process_headings(body, inject=True)
+    return updated if updated is not None else body
+
+
 def _preprocess_markdown(body: str) -> str:
     """
     Minimal transformations to preserve intended formatting + enable anchors.
-    - Converts heading anchors: "## Title {#id}" => "<a id='id'></a>\n## Title"
+    - Converts heading anchors and auto-anchors: "## Title" => "<a id='title'></a>\n## Title"
     - Styles [[UNCLEAR: ...]] with a span (still readable as text)
     - Converts wiki-links [[Target]] / [[Target|Text]] to HTML links (resolved server-side)
     """
-    def repl_heading(m: re.Match) -> str:
-        hashes = m.group('h')
-        title = m.group('title').strip()
-        aid = m.group('id').strip()
-        # Insert an invisible anchor before the heading. This keeps the visible heading text unchanged.
-        return f"<a id=\"{html.escape(aid, quote=True)}\"></a>\n{hashes} {title}"
-
-    body = ANCHOR_HEADING_RE.sub(repl_heading, body)
+    body = _inject_heading_anchors(body)
 
     def repl_unclear(m: re.Match) -> str:
         msg = m.group(1).strip()
@@ -220,17 +283,12 @@ def _make_markdown_renderer() -> mistune.Markdown:
 MD = _make_markdown_renderer()
 
 
-def _extract_headings_for_toc(md_text: str) -> List[Tuple[int, str, str]]:
+def _extract_headings_for_toc(body: str) -> List[Tuple[int, str, str]]:
     """
-    Extract headings with explicit {#id} anchors only.
+    Extract headings (explicit {#id} or auto-generated).
     Returns list of (level, heading_text, anchor_id).
     """
-    toc = []
-    for m in ANCHOR_HEADING_RE.finditer(md_text):
-        level = len(m.group('h'))
-        title = m.group('title').strip()
-        aid = m.group('id').strip()
-        toc.append((level, title, aid))
+    toc, _ = _process_headings(body, inject=False)
     return toc
 
 
@@ -352,25 +410,36 @@ def _is_hidden_relpath(rel: str) -> bool:
             return True
     return False
 
-def _discover_build_root(repo_root: Path) -> Path:
+def _discover_content_root(repo_root: Path, content_root: str) -> Path:
     """
-    Prefer repo_root/build if present, else repo_root.
+    Prefer the requested content root, then fall back between draft/build, else repo_root.
     """
-    b = repo_root / "build"
-    return b if b.exists() and b.is_dir() else repo_root
+    preferred = (content_root or DEFAULT_CONTENT_ROOT).strip()
+    candidates: List[str] = []
+    if preferred:
+        candidates.append(preferred)
+    for root_name in VALID_CONTENT_ROOTS:
+        if root_name not in candidates:
+            candidates.append(root_name)
+    for root_name in candidates:
+        candidate = repo_root / root_name
+        if candidate.exists() and candidate.is_dir():
+            return candidate
+    return repo_root
 
-def build_index(source_root: Path) -> Index:
+def build_index(source_root: Path, content_root: str = DEFAULT_CONTENT_ROOT) -> Index:
     repo_root = _find_repo_root(source_root)
     registry = _load_registry(repo_root)
-    build_root = _discover_build_root(repo_root)
-    build_prefix = ""
-    if build_root != repo_root:
+    content_root = (content_root or DEFAULT_CONTENT_ROOT).strip()
+    content_dir = _discover_content_root(repo_root, content_root)
+    content_prefix = ""
+    if content_dir != repo_root:
         try:
-            build_prefix = _safe_relpath(build_root.relative_to(repo_root))
+            content_prefix = _safe_relpath(content_dir.relative_to(repo_root))
         except Exception:
-            build_prefix = ""
-        if build_prefix and not build_prefix.endswith("/"):
-            build_prefix += "/"
+            content_prefix = ""
+        if content_prefix and not content_prefix.endswith("/"):
+            content_prefix += "/"
 
     docs_by_id: Dict[str, Doc] = {}
     order: List[str] = []
@@ -390,7 +459,7 @@ def build_index(source_root: Path) -> Index:
                 if not rel:
                     continue
                 rel_posix = rel.replace("\\", "/")
-                if build_prefix and not rel_posix.startswith(build_prefix):
+                if content_prefix and not rel_posix.startswith(content_prefix):
                     continue
                 if _is_hidden_relpath(rel_posix):
                     continue
@@ -416,7 +485,7 @@ def build_index(source_root: Path) -> Index:
                     status = "exists"
 
                     # Headings for toc/index
-                    toc_by_doc[doc_id] = _extract_headings_for_toc(raw)
+                    toc_by_doc[doc_id] = _extract_headings_for_toc(_body)
                     for lvl, htxt, aid in toc_by_doc[doc_id]:
                         # exact heading text mapping
                         if htxt not in heading_index:
@@ -437,7 +506,7 @@ def build_index(source_root: Path) -> Index:
                 continue
 
     # 2) Add any markdown files not in registry (discovered)
-    for p in sorted(build_root.rglob("*.md")):
+    for p in sorted(content_dir.rglob("*.md")):
         try:
             rel = _safe_relpath(p.relative_to(repo_root))
         except Exception:
@@ -453,7 +522,7 @@ def build_index(source_root: Path) -> Index:
         doc_id = str(fm.get("id") or _slugify(rel)).strip()
         title = str(fm.get("title") or _first_heading_title(raw) or p.stem).strip()
         tags = fm.get("tags") if isinstance(fm.get("tags"), list) else []
-        toc_by_doc[doc_id] = _extract_headings_for_toc(raw)
+        toc_by_doc[doc_id] = _extract_headings_for_toc(_body)
         for lvl, htxt, aid in toc_by_doc[doc_id]:
             if htxt not in heading_index:
                 heading_index[htxt] = (doc_id, aid)
@@ -493,17 +562,24 @@ def build_index(source_root: Path) -> Index:
                 if did:
                     anchor_to_doc[aid] = did
 
-    # 5) Case-insensitive heading lookup fallback
+    # 5) Fallback: map heading anchors to docs when registry is absent/incomplete.
+    for did, toc in toc_by_doc.items():
+        for _, _, aid in toc:
+            anchor_to_doc.setdefault(aid, did)
+
+    # 6) Case-insensitive heading lookup fallback
     # (Only add if it doesn't shadow an exact match.)
     for htxt, (did, aid) in list(heading_index.items()):
         low = htxt.lower()
         if low not in heading_index:
             heading_index[low] = (did, aid)
 
-    order = _apply_custom_order(order, docs_by_id, build_prefix)
+    order = _apply_custom_order(order, docs_by_id, content_prefix)
 
     return Index(
         repo_root=repo_root,
+        content_root=content_root,
+        content_prefix=content_prefix,
         docs_by_id=docs_by_id,
         order=order,
         path_to_id=path_to_id,
@@ -1200,13 +1276,13 @@ SECTION_ITEM_ORDER = {
 
 SEQUENCE_FILE_RE = re.compile(r"^seq-(\d+)\.md$", re.IGNORECASE)
 
-def _apply_custom_order(base_order: List[str], docs_by_id: Dict[str, Doc], build_prefix: str) -> List[str]:
+def _apply_custom_order(base_order: List[str], docs_by_id: Dict[str, Doc], content_prefix: str) -> List[str]:
     order_pos = {doc_id: idx for idx, doc_id in enumerate(base_order)}
 
-    def strip_build(rel: str) -> str:
+    def strip_prefix(rel: str) -> str:
         rel = rel.replace("\\", "/")
-        if build_prefix and rel.startswith(build_prefix):
-            return rel[len(build_prefix):]
+        if content_prefix and rel.startswith(content_prefix):
+            return rel[len(content_prefix):]
         return rel
 
     def section_rank(section: str) -> int:
@@ -1231,7 +1307,7 @@ def _apply_custom_order(base_order: List[str], docs_by_id: Dict[str, Doc], build
         doc = docs_by_id.get(doc_id)
         if not doc:
             continue
-        rel = strip_build(doc.relpath)
+        rel = strip_prefix(doc.relpath)
         if not rel:
             continue
         if rel == "front-matter/table-of-contents.md":
@@ -1242,7 +1318,7 @@ def _apply_custom_order(base_order: List[str], docs_by_id: Dict[str, Doc], build
 
     def sort_key(doc_id: str):
         doc = docs_by_id[doc_id]
-        rel = strip_build(doc.relpath)
+        rel = strip_prefix(doc.relpath)
         parts = rel.split("/")
         section = parts[0] if len(parts) > 1 else ""
         s_rank = section_rank(section)
@@ -1286,12 +1362,8 @@ def _build_nav_html(index: Index, active_doc_id: Optional[str]) -> str:
     - Visible hierarchy: indentation makes expansions obvious.
     - Folder labels are prettified (numeric prefixes become a small badge + title-cased label).
     """
-    # If everything is under a single "build/" root, hide it in the sidebar.
-    strip_prefix = ""
-    if index.order:
-        first_seg = index.docs_by_id[index.order[0]].relpath.split("/", 1)[0]
-        if first_seg == "build":
-            strip_prefix = "build/"
+    # If everything is under a single content root, hide it in the sidebar.
+    strip_prefix = index.content_prefix or ""
 
     dir_title_map: Dict[str, str] = {}
     dir_index_doc: Dict[str, str] = {}
@@ -1458,11 +1530,18 @@ def _default_doc_id(index: Index) -> str:
     # Prefer table of contents, then index.md, else first in order.
     if "table-of-contents" in index.order:
         return "table-of-contents"
-    # try any doc whose relpath ends with build/index.md
+    # try any doc whose relpath matches the content root index.md
     for did in index.order:
         d = index.docs_by_id.get(did)
-        if d and d.relpath.replace("\\", "/").endswith("build/index.md"):
-            return did
+        if not d:
+            continue
+        rel = d.relpath.replace("\\", "/")
+        if index.content_prefix:
+            if rel == f"{index.content_prefix}index.md":
+                return did
+        else:
+            if rel == "index.md":
+                return did
     return index.order[0] if index.order else next(iter(index.docs_by_id.keys()))
 
 @app.route("/")
@@ -1601,7 +1680,7 @@ def reload_index():
     if not GLOBAL_INDEX:
         abort(500)
     source_root = GLOBAL_INDEX.repo_root
-    GLOBAL_INDEX = build_index(source_root)
+    GLOBAL_INDEX = build_index(source_root, content_root=GLOBAL_INDEX.content_root)
     return redirect(url_for("home"))
 
 def _make_snippet(text: str, q: str, radius: int = 180) -> str:
@@ -1659,6 +1738,13 @@ def _prepare_source(source: Path) -> Tuple[Path, Optional[str]]:
 def main(argv: Optional[List[str]] = None) -> int:
     parser = argparse.ArgumentParser(description="Read-only rulebook markdown viewer (single-file).")
     parser.add_argument("--source", type=str, default=".", help="Repo directory or a .zip containing the markdown files.")
+    parser.add_argument(
+        "--content-root",
+        type=str,
+        default=DEFAULT_CONTENT_ROOT,
+        choices=list(VALID_CONTENT_ROOTS),
+        help="Content folder to read from (default: draft; falls back to build if missing).",
+    )
     parser.add_argument("--host", type=str, default="127.0.0.1", help="Host to bind (default: 127.0.0.1).")
     parser.add_argument("--port", type=int, default=7860, help="Port to use (default: 7860).")
     parser.add_argument("--no-browser", action="store_true", help="Do not open a browser tab automatically.")
@@ -1672,7 +1758,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     source_root, tmpdir = _prepare_source(source)
 
     global GLOBAL_INDEX
-    GLOBAL_INDEX = build_index(source_root)
+    GLOBAL_INDEX = build_index(source_root, content_root=args.content_root)
 
     if not GLOBAL_INDEX.order and not GLOBAL_INDEX.docs_by_id:
         print("[error] no markdown files found.", file=sys.stderr)

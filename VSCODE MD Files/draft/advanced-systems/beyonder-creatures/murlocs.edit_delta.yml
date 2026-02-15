@@ -1,0 +1,7 @@
+link_later_tokens:
+  - "Sailor | type=sequence | hint=Sequence 9; crafting or material use referenced"
+unclear_flags:
+  - "\"prepared\" and \"not Extraordinary\" are referenced without defining what preparation entails or what qualifies as Extraordinary in this ruleset."
+  - "\"main ingredients\" is referenced but not specified (e.g., which parts are excluded)."
+contradictions_found: []
+terminology_notes: []

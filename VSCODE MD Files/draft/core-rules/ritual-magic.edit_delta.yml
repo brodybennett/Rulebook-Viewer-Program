@@ -1,0 +1,21 @@
+link_later_tokens:
+  - "Spirituality"
+  - "Full-Round Action"
+  - "Advantage / Disadvantage"
+  - "Names and Honorific Titles of Mystical Deities and Angels"
+  - "Expansion 2: Official Church Members"
+  - "Charms"
+  - "Extra: Rank Suppression"
+  - "Spirit Vision"
+  - "Dream Divination"
+  - "Sanity / Rationality Loss Rolls"
+  - "Chapter 15: List of Special Potions, Talismans, and Beyonder Items"
+  - "Chapter 12: Special Regions"
+  - "Spirit World"
+unclear_flags:
+  - "Spirit-body creatures list 1 Casting Action / 1 Full-Round Action without stating when each action type applies."
+  - "Source text says refer to Chapter 8: Ritual Magic; treated here as a reference to the procedure in this chapter."
+  - "Some listed suitable times have no explicit date and do not specify when they apply beyond being mentioned in the novel."
+contradictions_found: []
+terminology_notes:
+  - "Standardized Difficulty Value wording and ASCII punctuation."

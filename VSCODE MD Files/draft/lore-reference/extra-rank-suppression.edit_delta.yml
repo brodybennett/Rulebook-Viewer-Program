@@ -1,0 +1,27 @@
+link_later_tokens:
+  - "Moon Pathway Sequence 7 | type=sequence | hint=lifespan comparison"
+  - "Honorific Name | type=term | hint=prayer name used for responses"
+  - "Chapter 11: Manifesting Mythical Creature Form | type=rule | hint=full mythical form rules"
+  - "Forsaken Land of the Gods | type=location | hint=isolated region"
+  - "Uniqueness and Sefirah Reference | type=rule | hint=section below"
+  - "Physical Defense | type=mechanic | hint=defense rating"
+  - "Other Defenses | type=rule | hint=defense variants"
+  - "Scaling and High-Sequence Additions | type=rule | hint=attack bonus scaling and special cases"
+  - "Action Protection | type=mechanic | hint=action-loss protection"
+  - "Sanity / Rationality | type=mechanic | hint=sanity check rules"
+  - "Death Pathway: Undead Command | type=mechanic | hint=rank-based undead control"
+  - "High-Sequence Vitality Calculation | type=rule | hint=high-sequence HP rules"
+  - "Vitality | type=term | hint=HP term"
+  - "Beyonder Characteristic Convergence Law | type=mechanic | hint=sequence 1 special control"
+  - "Chapter 16: Explanation of Switching Sequences | type=rule | hint=adjacent Pathways concept"
+  - "Rituals and Followers | type=rule | hint=followers and anchors"
+  - "Gods and Faith | type=rule | hint=faith and anchors"
+  - "Names and Honorific Titles of Mystical Deities and Angels | type=rule | hint=honorific name examples"
+  - "Beyonder Characteristics | type=term | hint=core advancement materials"
+  - "Full-Round Action | type=mechanic | hint=action timing"
+unclear_flags:
+  - "Action Protection is described as having \"no usage limit\" but also as being \"consumed\" by stacked reductions; when or how (if ever) protections refresh is not specified."
+  - "The Honorific Name example analysis is truncated mid-sentence in the provided text (ends at \"humanity and ...\")."
+  - "The text introduces \"Uniqueness List\" entries and \"known holders\", but no list or entries are included in this section."
+contradictions_found: []
+terminology_notes: []

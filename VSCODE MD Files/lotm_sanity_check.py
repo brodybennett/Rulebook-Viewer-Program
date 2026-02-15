@@ -40,6 +40,9 @@ WIKILINK_RE = re.compile(r'\[\[([^\]]+?)\]\]')
 FENCE_RE = re.compile(r'^\s*```')
 
 FLAG_PREFIXES = ("UNCLEAR:", "TODO:", "NOTE:")
+DEFAULT_CONTENT_ROOT = "draft"
+LEGACY_CONTENT_ROOT = "build"
+VALID_CONTENT_ROOTS = (DEFAULT_CONTENT_ROOT, LEGACY_CONTENT_ROOT)
 
 @dataclass
 class Issue:
@@ -104,10 +107,24 @@ def strip_front_matter_and_code(text: str) -> str:
             out.append(line)
     return "\n".join(out)
 
-def iter_md_files(build_dir: Path) -> Iterable[Path]:
-    if not build_dir.exists():
+def _resolve_content_root(repo_root: Path, content_root: str) -> Path:
+    preferred = (content_root or DEFAULT_CONTENT_ROOT).strip()
+    candidates: List[str] = []
+    if preferred:
+        candidates.append(preferred)
+    for root_name in VALID_CONTENT_ROOTS:
+        if root_name not in candidates:
+            candidates.append(root_name)
+    for root_name in candidates:
+        candidate = repo_root / root_name
+        if candidate.exists() and candidate.is_dir():
+            return candidate
+    return repo_root / preferred
+
+def iter_md_files(content_dir: Path) -> Iterable[Path]:
+    if not content_dir.exists():
         return []
-    return build_dir.rglob("*.md")
+    return content_dir.rglob("*.md")
 
 def get_headings(text: str) -> List[Tuple[int, str, str, int]]:
     heads: List[Tuple[int, str, str, int]] = []
@@ -127,8 +144,8 @@ def get_wikilinks(text: str) -> List[Tuple[str, int]]:
             links.append((m.group(1).strip(), i))
     return links
 
-def best_path_suggestion(missing_path: str, root: Path, build_dir: Path) -> Optional[str]:
-    candidates = [rel(p, root) for p in iter_md_files(build_dir)]
+def best_path_suggestion(missing_path: str, root: Path, content_dir: Path) -> Optional[str]:
+    candidates = [rel(p, root) for p in iter_md_files(content_dir)]
     if not candidates:
         return None
     match = difflib.get_close_matches(missing_path, candidates, n=1, cutoff=0.55)
@@ -137,7 +154,7 @@ def best_path_suggestion(missing_path: str, root: Path, build_dir: Path) -> Opti
 def compute_report(
     *,
     root: Path,
-    build_dir: Path,
+    content_dir: Path,
     registry_path: Path,
     glossary_path: Path,
     placeholder_level: str,
@@ -145,9 +162,11 @@ def compute_report(
     issues: List[Issue] = []
     data: dict = {
         "root": str(root),
-        "build_dir": rel(build_dir, root),
+        "content_dir": rel(content_dir, root),
+        "build_dir": rel(content_dir, root),  # Backward-compat key for older consumers.
         "registry": rel(registry_path, root),
         "glossary": rel(glossary_path, root),
+        "registry_present": False,
         "issues": [],
         "counts": {"ERROR": 0, "WARN": 0, "INFO": 0},
         "registry_files": [],
@@ -156,18 +175,27 @@ def compute_report(
     }
 
     # --- Load registry ---
+    reg: dict = {}
+    reg_files: List[dict] = []
+    reg_anchors: Dict[str, dict] = {}
+    registry_available = False
+
     if not registry_path.exists():
-        issues.append(Issue("ERROR", f"Missing registry file: {rel(registry_path, root)}"))
-        return finalize_report(data, issues)
-
-    try:
-        reg = yaml.safe_load(read_text(registry_path)) or {}
-    except Exception as e:
-        issues.append(Issue("ERROR", f"Failed to parse registry YAML: {e}", file=rel(registry_path, root)))
-        return finalize_report(data, issues)
-
-    reg_files = reg.get("files", []) or []
-    reg_anchors = reg.get("anchors", {}) or {}
+        issues.append(
+            Issue(
+                "WARN",
+                f"Missing registry file: {rel(registry_path, root)} (registry checks skipped)",
+            )
+        )
+    else:
+        try:
+            reg = yaml.safe_load(read_text(registry_path)) or {}
+            reg_files = reg.get("files", []) or []
+            reg_anchors = reg.get("anchors", {}) or {}
+            registry_available = True
+            data["registry_present"] = True
+        except Exception as e:
+            issues.append(Issue("ERROR", f"Failed to parse registry YAML: {e}", file=rel(registry_path, root)))
 
     # Surface registry entries (for the UI explorer)
     for entry in reg_files:
@@ -193,43 +221,45 @@ def compute_report(
     # Validate uniqueness of file paths and IDs in registry
     seen_paths: Dict[str, int] = {}
     seen_ids: Dict[str, int] = {}
-    for idx, entry in enumerate(reg_files):
-        p = entry.get("path")
-        fid = entry.get("id")
-        if not p or not fid:
-            issues.append(Issue("ERROR", "Registry file entry missing 'path' or 'id'.", file=rel(registry_path, root)))
-            continue
-        if p in seen_paths:
-            issues.append(Issue("ERROR", f"Duplicate registry path: {p}", file=rel(registry_path, root)))
-        else:
-            seen_paths[p] = idx
-        if fid in seen_ids:
-            issues.append(Issue("ERROR", f"Duplicate registry id: {fid}", file=rel(registry_path, root)))
-        else:
-            seen_ids[fid] = idx
+    if registry_available:
+        for idx, entry in enumerate(reg_files):
+            p = entry.get("path")
+            fid = entry.get("id")
+            if not p or not fid:
+                issues.append(Issue("ERROR", "Registry file entry missing 'path' or 'id'.", file=rel(registry_path, root)))
+                continue
+            if p in seen_paths:
+                issues.append(Issue("ERROR", f"Duplicate registry path: {p}", file=rel(registry_path, root)))
+            else:
+                seen_paths[p] = idx
+            if fid in seen_ids:
+                issues.append(Issue("ERROR", f"Duplicate registry id: {fid}", file=rel(registry_path, root)))
+            else:
+                seen_ids[fid] = idx
 
-    # Check status: exists => file must exist
-    for entry in reg_files:
-        p = entry.get("path")
-        status = (entry.get("status") or "").strip()
-        if not p:
-            continue
-        disk_path = root / p
-        if status == "exists" and not disk_path.exists():
-            sug = best_path_suggestion(p, root, build_dir)
-            msg = f"Registry says status: exists but file is missing: {p}"
-            if sug:
-                msg += f" (did you mean {sug}?)"
-            issues.append(Issue("ERROR", msg, file=rel(registry_path, root)))
+        # Check status: exists => file must exist
+        for entry in reg_files:
+            p = entry.get("path")
+            status = (entry.get("status") or "").strip()
+            if not p:
+                continue
+            disk_path = root / p
+            if status == "exists" and not disk_path.exists():
+                sug = best_path_suggestion(p, root, content_dir)
+                msg = f"Registry says status: exists but file is missing: {p}"
+                if sug:
+                    msg += f" (did you mean {sug}?)"
+                issues.append(Issue("ERROR", msg, file=rel(registry_path, root)))
 
-    # Detect build files missing from registry
-    build_paths = [rel(p, root) for p in iter_md_files(build_dir)]
-    data["md_files"] = build_paths
-    missing_from_registry = sorted([p for p in build_paths if p not in seen_paths])
-    if missing_from_registry:
-        examples = ", ".join(missing_from_registry[:8])
-        suffix = "" if len(missing_from_registry) <= 8 else f" … (+{len(missing_from_registry)-8} more)"
-        issues.append(Issue("WARN", f"{len(missing_from_registry)} build file(s) are not listed in tag-registry.yml: {examples}{suffix}"))
+    # Detect content files missing from registry
+    content_paths = [rel(p, root) for p in iter_md_files(content_dir)]
+    data["md_files"] = content_paths
+    if registry_available:
+        missing_from_registry = sorted([p for p in content_paths if p not in seen_paths])
+        if missing_from_registry:
+            examples = ", ".join(missing_from_registry[:8])
+            suffix = "" if len(missing_from_registry) <= 8 else f" ... (+{len(missing_from_registry)-8} more)"
+            issues.append(Issue("WARN", f"{len(missing_from_registry)} content file(s) are not listed in tag-registry.yml: {examples}{suffix}"))
 
     # --- Load glossary ---
     alias_terms: Dict[str, str] = {}
@@ -270,7 +300,7 @@ def compute_report(
 
     # --- Scan markdown files ---
     md_headings: Dict[str, List[Tuple[str, int, str]]] = {}  # anchor -> [(file,line,title)]
-    for p in iter_md_files(build_dir):
+    for p in iter_md_files(content_dir):
         r = rel(p, root)
         txt = read_text(p)
 
@@ -295,42 +325,44 @@ def compute_report(
                 continue
             if target.startswith("id:") or target.startswith("#"):
                 aid = target[3:].strip() if target.startswith("id:") else target[1:].strip()
-                if aid and aid not in reg_anchors:
+                if registry_available and aid and aid not in reg_anchors:
                     issues.append(Issue("WARN", f"Unresolved id-link [[{target}]] (anchor id not in registry)", file=r, line=line))
                 continue
 
-            if target not in known_link_targets:
+            if registry_available and target not in known_link_targets:
                 issues.append(Issue("WARN", f"Unresolved wiki-link [[{target}]] (not found in registry titles/anchor aliases)", file=r, line=line))
 
     # --- Anchor registry vs Markdown ---
     # 1) any Markdown anchor missing from registry anchors => warn
-    for aid, locs in md_headings.items():
-        if aid not in reg_anchors:
-            sample = locs[0]
-            issues.append(Issue("WARN", f"Anchor '{aid}' exists in Markdown but is missing from registry anchors.", file=sample[0], line=sample[1]))
+    if registry_available:
+        for aid, locs in md_headings.items():
+            if aid not in reg_anchors:
+                sample = locs[0]
+                issues.append(Issue("WARN", f"Anchor '{aid}' exists in Markdown but is missing from registry anchors.", file=sample[0], line=sample[1]))
 
     # 2) any registry anchor with status: exists should be present in its file
-    for aid, meta in reg_anchors.items():
-        if not isinstance(meta, dict):
-            continue
-        status = (meta.get("status") or "").strip()
-        fpath = meta.get("file")
-        if not fpath:
-            continue
-        disk = root / fpath
-        if status == "exists" and not disk.exists():
-            issues.append(Issue("ERROR", f"Registry anchor '{aid}' points to missing file: {fpath}", file=rel(registry_path, root)))
-            continue
-        if disk.exists():
-            txt = read_text(disk)
-            if not txt.strip():
-                if status == "exists":
-                    lvl = placeholder_level.upper()
-                    if lvl != "IGNORE":
-                        issues.append(Issue(lvl, f"Registry anchor '{aid}' is status: exists but file is empty (placeholder?).", file=fpath))
+    if registry_available:
+        for aid, meta in reg_anchors.items():
+            if not isinstance(meta, dict):
                 continue
-            if aid not in md_headings:
-                issues.append(Issue("WARN", f"Registry anchor '{aid}' not found in Markdown scan.", file=fpath))
+            status = (meta.get("status") or "").strip()
+            fpath = meta.get("file")
+            if not fpath:
+                continue
+            disk = root / fpath
+            if status == "exists" and not disk.exists():
+                issues.append(Issue("ERROR", f"Registry anchor '{aid}' points to missing file: {fpath}", file=rel(registry_path, root)))
+                continue
+            if disk.exists():
+                txt = read_text(disk)
+                if not txt.strip():
+                    if status == "exists":
+                        lvl = placeholder_level.upper()
+                        if lvl != "IGNORE":
+                            issues.append(Issue(lvl, f"Registry anchor '{aid}' is status: exists but file is empty (placeholder?).", file=fpath))
+                    continue
+                if aid not in md_headings:
+                    issues.append(Issue("WARN", f"Registry anchor '{aid}' not found in Markdown scan.", file=fpath))
 
     return finalize_report(data, issues)
 
@@ -414,7 +446,7 @@ def page(title: str, body: str) -> bytes:
 </head><body>
 <header>
   <h1>{html.escape(title)}</h1>
-  <div class="small">Read-only local dashboard • No files are modified</div>
+  <div class="small">Read-only local dashboard - No files are modified</div>
   <div class="topnav">
     <a href="/">Issues</a>
     <a href="/registry">Registry</a>
@@ -502,20 +534,28 @@ def render_issues(report: dict, level: str, q: str) -> str:
       <h2 style="margin:0 0 8px 0; font-size:16px;">Repo</h2>
       {pills}
       <div style="margin-top:10px;" class="small">
-        <div><b>Build:</b> <code>{html.escape(report.get('build_dir','build'))}</code></div>
+        <div><b>Content:</b> <code>{html.escape(report.get('content_dir','draft'))}</code></div>
         <div><b>Registry:</b> <code>{html.escape(report.get('registry','tag-registry.yml'))}</code></div>
         <div><b>Glossary:</b> <code>{html.escape(report.get('glossary','glossary.yml'))}</code></div>
       </div>
       <div style="margin-top:12px;" class="small">
         Tips:<br/>
-        • Click a file path to open it at the relevant line.<br/>
-        • Use “Registry” to browse anchors/files quickly.
+        - Click a file path to open it at the relevant line.<br/>
+        - Use "Registry" to browse anchors/files quickly.
       </div>
     </div>"""
 
     return f'<div class="grid">{table}{right}</div>'
 
 def render_registry(report: dict) -> str:
+    if not report.get("registry_present"):
+        return """
+        <div class="card">
+          <h2 style="margin:0 0 8px 0; font-size:16px;">Registry</h2>
+          <div class="small">No registry file found for this run. Registry-specific checks are skipped.</div>
+        </div>
+        """
+
     files = report.get("registry_files", [])
     anchors = report.get("registry_anchors", [])
 
@@ -578,10 +618,10 @@ def render_files(report: dict) -> str:
         rows.append(f"<tr><td><a href='/view?{urlq({'file': p})}'>{html.escape(p)}</a></td></tr>")
     return f"""
     <div class="card">
-      <h2 style="margin:0 0 8px 0; font-size:16px;">build/**/*.md</h2>
+      <h2 style="margin:0 0 8px 0; font-size:16px;">{html.escape(report.get('content_dir','draft'))}/**/*.md</h2>
       <table>
         <thead><tr><th>Path</th></tr></thead>
-        <tbody>{''.join(rows) if rows else '<tr><td class="small">No markdown files found under build/.</td></tr>'}</tbody>
+        <tbody>{''.join(rows) if rows else '<tr><td class="small">No markdown files found under the selected content root.</td></tr>'}</tbody>
       </table>
     </div>
     """
@@ -691,7 +731,12 @@ def serve(report: dict, root: Path, port: int) -> None:
 def main() -> int:
     ap = argparse.ArgumentParser(description="Sanity checks for the rulebook Markdown repo (read-only).")
     ap.add_argument("--root", default=".", help="Repo root directory (default: .)")
-    ap.add_argument("--build-dir", default="build", help="Build content directory (default: build)")
+    ap.add_argument(
+        "--content-root",
+        default=DEFAULT_CONTENT_ROOT,
+        help="Content folder to scan (default: draft; falls back to build if missing)",
+    )
+    ap.add_argument("--build-dir", default=None, help="Deprecated alias for --content-root")
     ap.add_argument("--registry", default="tag-registry.yml", help="Tag/anchor registry YAML (default: tag-registry.yml)")
     ap.add_argument("--glossary", default="glossary.yml", help="Glossary YAML (default: glossary.yml)")
     ap.add_argument("--strict", action="store_true", help="Treat WARN as ERROR (CI mode)")
@@ -708,13 +753,17 @@ def main() -> int:
     args = ap.parse_args()
 
     root = Path(args.root).resolve()
-    build_dir = root / args.build_dir
+    requested_content_root = args.build_dir or args.content_root
+    content_dir = _resolve_content_root(root, requested_content_root)
+    if not content_dir.exists():
+        print(f"ERROR: content root not found: {content_dir}", file=sys.stderr)
+        return 2
     registry_path = root / args.registry
     glossary_path = root / args.glossary
 
     report = compute_report(
         root=root,
-        build_dir=build_dir,
+        content_dir=content_dir,
         registry_path=registry_path,
         glossary_path=glossary_path,
         placeholder_level=args.placeholder_level,
@@ -747,3 +796,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

@@ -1,0 +1,11 @@
+link_later_tokens:
+  - "The Beyonder System | type=rule | hint=system overview"
+  - "Chapter 10: Sequences | type=rule | hint=sequence rules chapter"
+  - "Beyonder Characteristics | type=term | hint=advancement materials"
+  - "Sealed Artifacts and Containment | type=rule | hint=artifact terminology"
+  - "Church of the Sea God | type=faction | hint=church entry"
+unclear_flags:
+  - "The term \"untranslated Chinese term\" (used in the Chanis Gate description) is not translated; intended category is unclear."
+  - "Demon-family names appear with inconsistent transliterations (Andre Ladd/Andre Rade; Belya/Beiliya)."
+contradictions_found: []
+terminology_notes: []

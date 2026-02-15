@@ -1,0 +1,13 @@
+link_later_tokens:
+  - "Night Pathway"
+  - "Chapter 10: Sequences"
+  - "Witch's plague"
+  - "Spectator Pathway"
+unclear_flags:
+  - "Spirituality recovery for rests under 30 minutes (and more than 5 minutes short of 1 hour) is not specified."
+  - "Maximum rest time and rounding for reduced-rest formula are not defined."
+  - "CON per 24 hours limit appears to conflict with 12-hour recovery rule."
+  - "Sequence-level CON increase condition for Beyonder recovery is not fully specified."
+contradictions_found: []
+terminology_notes:
+  - "Standardized Difficulty Value wording and ASCII punctuation."

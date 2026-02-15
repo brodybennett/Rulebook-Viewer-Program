@@ -1,0 +1,13 @@
+link_later_tokens:
+  - "Astral World | type=location | hint=plane or realm referenced by extraordinary creatures"
+  - "deflection | type=term | hint=defense component used in Physical Defense calculation"
+  - "agility | type=term | hint=defense component used in Physical Defense calculation"
+  - "SC | type=mechanic | hint=check referenced as X/YdZ throughout this entry"
+  - "Reversal Ray | type=mechanic | hint=effect that dispels ray-induced transparency"
+unclear_flags:
+  - "The creature name is inconsistent (\"Rava\" vs \"Lava\") and the correct canonical name is not confirmed in this section."
+  - "\"gold pounds\" is undefined here (creator, material, organization, or currency)."
+  - "Who makes the SC after observing the mating process is not specified (the captive humans, other observers, or anyone present)."
+  - "\"hold the creature at a distance and force it to look\" lacks mechanical procedure, range, duration, and targeting details."
+contradictions_found: []
+terminology_notes: []

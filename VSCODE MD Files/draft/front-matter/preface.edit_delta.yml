@@ -1,0 +1,10 @@
+link_later_tokens:
+  - "Chapter 3: Attributes | type=rule | hint=attributes chapter"
+  - "Chapter 4: Trained Skills and Professions | type=rule | hint=skills and professions chapter"
+  - "Chapter 10: Sequences | type=rule | hint=sequence chapter"
+  - "Chapter 14: \"Bombard and Kill Beyonders\" Module Guide | type=rule | hint=module guide chapter"
+  - "Acting | type=mechanic | hint=acting rules"
+unclear_flags:
+  - "Some editions reference Chapter 14 under a different title (\"The Hidden Sage's Diary\"); confirm this crosslink points to the intended module guide."
+contradictions_found: []
+terminology_notes: []
