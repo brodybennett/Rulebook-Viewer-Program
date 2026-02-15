@@ -16,7 +16,7 @@ Investigators can choose the following weapons.
 |---|---|---|
 | Fists | **1d2 + Strength (STR) Damage Bonus** | — |
 | Short Blade | **1d4 + Strength (STR) Damage Bonus** | — |
-| Short Blade (Double Strike use) | **1d4 + half Strength (STR) Damage Bonus** (round up) | You can attack twice within 1 **Attack Action**, making two rolls. You must use the **Brawl (Melee) Skill**. See [[LINK LATER: Double Strike | type=mechanic | hint=double attack]]. |
+| Short Blade (Double Strike use) | **1d4 + half Strength (STR) Damage Bonus** (round up) | You can attack twice within 1 **Attack Action**, making two rolls. You must use the **Brawl (Melee) Skill**. See [[Double Strike]]. |
 | Blades/Swords | **1d6 + Strength (STR) Damage Bonus** | — |
 | Heavy Weapon | **1d8 + Strength (STR) Damage Bonus** | Can attack enemies within 1 meter without necessarily needing contact. |
 | Whip | **1d2 + half Strength (STR) Damage Bonus** (round up) | Range: 1 meter. You can attack 3 times consecutively within 1 Attack Action: second roll **-4**, third roll **-6**. |
@@ -103,7 +103,7 @@ Heavy weapons: reloading is 1 Full-Round Action.
 
 **Note:** "Bullet damage" and "explosive damage" are both physical damage in substance; they are just different intuitive labels.
 
-Firearms and shells: all can ignore the Agility (DEX) and Dodge components in the target's Physical Defense value, not including targets with [[LINK LATER: Quick Dodge | type=skill | hint=bullet dodging]].
+Firearms and shells: all can ignore the Agility (DEX) and Dodge components in the target's Physical Defense value, not including targets with [[id:alias-quick-dodge|Quick Dodge]].
 
 > **GM Note:** Shotguns usually require a hunting license to own, which usually requires the character to be at least reputation-proficient. Steam rifles can only be held by the military and the Steam Church; even police or official or background ownership may still involve illegal possession of firearms. If caught by the police, you will likely end up in a public security court unless you stated in advance that you picked it up and have sufficient reasons to prove why you might have gunpowder residue on you.
 
@@ -119,6 +119,6 @@ Firearms and shells: all can ignore the Agility (DEX) and Dodge components in th
 | Full Armor | 8 | 5 points of physical and fire Damage Reduction | Agility (DEX) temporarily **-4**. If Strength (STR) is under 10, Movement speed is halved (round up). If Strength (STR) is under 5, it cannot be worn. |
 | Enchanted Full Armor | 8 | 5 points of external Damage Reduction | Agility (DEX) temporarily **-2**. If Strength (STR) is under 8, Movement speed is halved (round up). If Strength (STR) is under 4, you cannot move. |
 
-External armor can only stack with [[LINK LATER: Skin Armor | type=mechanic | hint=natural armor]].
+External armor can only stack with [[Skin Armor]].
 
 > **Lore:** Military or royal enchanted full armor is generally deep black with a metallic sheen. It is usually worn by the military or royal "Punishment Knights" when performing long-distance escort or guard missions, generally appearing in situations involving ironclad ships or war; it will not appear in other situations. (It is generally not seen in the center of a city, protecting unimportant persons or objects, or performing city-internal work.)

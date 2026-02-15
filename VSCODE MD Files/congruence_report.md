@@ -1,0 +1,930 @@
+# Congruence Audit Report
+
+- Generated (UTC): `2026-02-15T05:57:05+00:00`
+- Repo: `C:\Users\dan\Desktop\Personal\Projects\LoTM Rulebook\VSCODE MD Files`
+- Content root: `draft`
+- Markdown files scanned: **263**
+
+## Summary
+
+- High: **0**
+- Medium: **0**
+- Low: **937**
+
+- High details:
+  - Definition drift terms: **0**
+  - Mechanic field drift blocks: **0**
+- Medium details:
+  - Heading collisions: **0**
+- Low details:
+  - `[[UNCLEAR: ...]]` markers: **844**
+  - `[[LINK LATER: ...]]` markers: **0**
+  - Unreferenced heading collisions: **93**
+
+## High Severity
+
+- No high-severity drift findings.
+
+## Medium Severity
+
+### Heading Collisions
+
+- No heading-collision titles are currently referenced by plain `[[Title]]` links.
+
+## Low Severity
+
+### `[[UNCLEAR: ...]]` Markers
+
+- `draft/advanced-systems/beyonder-creatures/hornacis-gray-mountain-goat.md:17` - `[[UNCLEAR: RAW describes the tentacles as both gray and black.]]`
+- `draft/advanced-systems/beyonder-creatures/hornacis-gray-mountain-goat.md:65` - `[[UNCLEAR: "SC" is not defined in RAW.]]`
+- `draft/advanced-systems/beyonder-creatures/hornacis-gray-mountain-goat.md:86` - `[[UNCLEAR: RAW text "but with Back to being a plaything" is corrupted; the intended meaning is unclear.]]`
+- `draft/advanced-systems/beyonder-creatures/lava-octopus.md:13` - `[[UNCLEAR: The creature name is inconsistent ("Rava" vs "Lava") and the correct canonical name is not confirmed in this section.]]`
+- `draft/advanced-systems/beyonder-creatures/lava-octopus.md:29` - `[[UNCLEAR: "gold pounds" is undefined here (creator, material, organization, or currency).]]`
+- `draft/advanced-systems/beyonder-creatures/lava-octopus.md:37` - `[[UNCLEAR: Who makes the SC after observing the mating process is not specified (the captive humans, other observers, or anyone present).]]`
+- `draft/advanced-systems/beyonder-creatures/lava-octopus.md:71` - `[[UNCLEAR: "hold the creature at a distance and force it to look" lacks mechanical procedure, range, duration, and targeting details.]]`
+- `draft/advanced-systems/beyonder-creatures/misc.md:17` - `[[UNCLEAR: The phrase "potions for the joy" is unclear (potion name vs. effect).]]`
+- `draft/advanced-systems/beyonder-creatures/misc.md:30` - `[[UNCLEAR: "Puppet Master" potion reference does not specify its Pathway or Sequence.]]`
+- `draft/advanced-systems/beyonder-creatures/misc.md:37` - `[[UNCLEAR: "mind readers" is not capitalized or otherwise defined as a formal title here.]]`
+- `draft/advanced-systems/beyonder-creatures/misc.md:43` - `[[UNCLEAR: "viewers" is not capitalized or otherwise defined as a formal title here.]]`
+- `draft/advanced-systems/beyonder-creatures/misc.md:49` - `[[UNCLEAR: "viewers" is not capitalized or otherwise defined as a formal title here.]]`
+- `draft/advanced-systems/beyonder-creatures/misc.md:55` - `[[UNCLEAR: "hypnotist" is not capitalized or otherwise defined as a formal title here.]]`
+- `draft/advanced-systems/beyonder-creatures/misc.md:91` - `[[UNCLEAR: RAW lists only the association; it does not specify any usable material.]]`
+- `draft/advanced-systems/beyonder-creatures/misc.md:96` - `[[UNCLEAR: RAW lists only the association; it does not specify any usable material.]]`
+- `draft/advanced-systems/beyonder-creatures/misc.md:101` - `[[UNCLEAR: RAW lists only the association; it does not specify any usable material.]]`
+- `draft/advanced-systems/beyonder-creatures/misc.md:106` - `[[UNCLEAR: RAW lists only the association; it does not specify any usable material.]]`
+- `draft/advanced-systems/beyonder-creatures/misc.md:111` - `[[UNCLEAR: RAW lists only the association; it does not specify any usable material.]]`
+- `draft/advanced-systems/beyonder-creatures/misc.md:121` - `[[UNCLEAR: "crafty mage," "half of the Fool's Pathway," and "incomplete abilities" are not defined here.]]`
+- `draft/advanced-systems/beyonder-creatures/misc.md:135` - `[[UNCLEAR: Several terms and fragments are unclear (e.g., "soul split," "marionette," "spirituality," and "similar performance"), and RAW sentence structure ...`
+- `draft/advanced-systems/beyonder-creatures/misc.md:141` - `[[UNCLEAR: "belong to the presence of demigods or higher" is unclear as a classification statement.]]`
+- `draft/advanced-systems/beyonder-creatures/mist-treant.md:36` - `[[UNCLEAR: The defense formula references "agility," but the basic data lists "Dexterity".]]`
+- `draft/advanced-systems/beyonder-creatures/mist-treant.md:45` - `[[UNCLEAR: "a human in a pustule" is not defined; the exact source and limits of these abilities are unclear.]]`
+- `draft/advanced-systems/beyonder-creatures/mist-treants.md:9` - `[[UNCLEAR: Source file contains no content; intended entry is unknown.]]`
+- `draft/advanced-systems/beyonder-creatures/murlocs.md:30` - `[[UNCLEAR: "prepared" and "not Extraordinary" are referenced without defining what preparation entails or what qualifies as Extraordinary in this ruleset.]]`
+- `draft/advanced-systems/beyonder-creatures/murlocs.md:35` - `[[UNCLEAR: "main ingredients" is referenced but not specified (e.g., which parts are excluded).]]`
+- `draft/advanced-systems/beyonder-creatures/wicked-pattern-black-panther.md:11` - `[[UNCLEAR: The RAW alternates between "Black Panther," "Vile Panther," "evil-striped/evil-patterned black panther," and "fel-striped panther," and it is not ...`
+- `draft/advanced-systems/beyonder-creatures/wicked-pattern-black-panther.md:34` - `[[UNCLEAR: "agility" is used in the defense formula but does not appear as a listed attribute; it may be distinct from Dexterity or a translation mismatch.]]`
+- `draft/advanced-systems/beyonder-creatures/wicked-pattern-black-panther.md:99` - `[[UNCLEAR: It is not specified when or how "curse damage" is applied first to the clothing (e.g., worn vs. carried, single wearer vs. shared garment).]]`
+- `draft/advanced-systems/bombard-and-killing-beyonders-module.md:613` - `[[UNCLEAR: "SC" is not defined in this excerpt.]]`
+- `draft/advanced-systems/mythical-creature-form.md:13` - `[[UNCLEAR: "above Sequence 4" could mean higher-ranked Sequences or numerically greater Sequence values.]]`
+- `draft/advanced-systems/mythical-creature-form.md:14` - `[[UNCLEAR: "sanity is cleared" is not defined here (e.g., reduced to 0, reset, or otherwise removed).]]`
+- `draft/advanced-systems/mythical-creature-form.md:41` - `[[UNCLEAR: The condition that determines which of the two outcomes applies is not stated.]]`
+- `draft/advanced-systems/mythical-creature-form.md:53` - `[[UNCLEAR: The mechanical limits and outcomes of "wish at will" are not defined.]]`
+- `draft/advanced-systems/mythical-creature-form.md:59` - `[[UNCLEAR: "combat twist" and "looping state" are not defined here.]]`
+- `draft/advanced-systems/mythical-creature-form.md:71` - `[[UNCLEAR: What qualifies as "a single attack" for teleporting a creature or spell is not defined.]]`
+- `draft/advanced-systems/mythical-creature-form.md:89` - `[[UNCLEAR: No mechanical procedure is provided for "Random Teleportation."]]`
+- `draft/advanced-systems/mythical-creature-form.md:109` - `[[UNCLEAR: "steal/free the sun" and barrier destruction have no defined mechanics here.]]`
+- `draft/advanced-systems/mythical-creature-form.md:122` - `[[UNCLEAR: "affix," "opposite," and the scope of "every level and sense" are not defined here.]]`
+- `draft/advanced-systems/mythical-creature-form.md:152` - `[[UNCLEAR: This reference list appears incomplete/irregular (e.g., "Fool 2," "Apprentice 3," "Error"); the intended numbering and meaning are not explained.]]`
+- `draft/advanced-systems/mythical-creature-form.md:171` - `[[UNCLEAR: The procedure for this "scope" and how it applies to witnesses is not fully specified.]]`
+- `draft/advanced-systems/mythical-creature-form.md:194` - `[[UNCLEAR: This paragraph relies on undefined terms (e.g., "one personality different," "secret puppet," "wrongly made clone," "audience's personality separa...`
+- `draft/advanced-systems/mythical-creature-form.md:235` - `[[UNCLEAR: The outcome when the total equals current Sanity is not stated.]]`
+- `draft/advanced-systems/mythical-creature-form.md:244` - `[[UNCLEAR: "sanity damage is directly taken to full" could mean maximum possible loss for that event or reducing Sanity to 0; the intended resolution is not ...`
+- `draft/advanced-systems/mythical-creature-form.md:251` - `[[UNCLEAR: "reach the character of Sequence 3" is not defined; it appears to indicate using the improved/strengthened version.]]`
+- `draft/advanced-systems/mythical-creature-form.md:282` - `[[UNCLEAR: "+5 chance to hit" is not defined in context of a Sanity check; it may mean +5 to the sanity roll.]]`
+- `draft/advanced-systems/mythical-creature-form.md:285` - `[[UNCLEAR: "hit rate bonus" is not defined; it may refer to the Sanity Attack Bonus table.]]`
+- `draft/advanced-systems/mythical-creature-form.md:407` - `[[UNCLEAR: "Hit +1" is not defined (attack rolls, checks, or another statistic).]]`
+- `draft/advanced-systems/mythical-creature-form.md:416` - `[[UNCLEAR: Mechanical resolution for resisting/gliding is not specified; "ordinary silver knight" is undefined here.]]`
+- `draft/advanced-systems/mythical-creature-form.md:443` - `[[UNCLEAR: The exception "does not include lightning" is unclear in context of firearms defense.]]`
+- `draft/advanced-systems/special-regions.md:104` - `[[UNCLEAR: RAW references a "certain level of difference" required for divination to avoid interference but does not define what constitutes that difference.]]`
+- `draft/advanced-systems/special-regions.md:114` - `[[UNCLEAR: "unjust soul of the alien Sequence 5" is referenced without context or definition.]]`
+- `draft/advanced-systems/special-regions.md:172` - `[[UNCLEAR: RAW uses "Sequential 'Through the Wall'" without defining the term/effect beyond the phrase.]]`
+- `draft/advanced-systems/special-regions.md:531` - `[[UNCLEAR: "Grahams" is referenced without definition/context; may be a translation term or typo.]]`
+- `draft/core-rules/attributes.md:17` - `[[UNCLEAR: Point-buy starting values and the point cost per increase are not stated.]]`
+- `draft/core-rules/attributes.md:77` - `[[UNCLEAR: The text alternates between multiplying by "number of Sequences you have advanced" versus "current Sequence number"; the examples follow advanceme...`
+- `draft/core-rules/attributes.md:85` - `[[UNCLEAR: "Angel King: increase by half" is not precise about whether it halves a multiplier, halves later gains, or halves some other increase amount.]]`
+- `draft/core-rules/attributes.md:105` - `[[UNCLEAR: The rule does not state how to convert the opposed 1d20 result into a specific damage amount; it only says "corresponding" damage.]]`
+- `draft/core-rules/attributes.md:146` - `[[UNCLEAR: The "Angel King" rule is not precise about what "gain half of the Vitality maximum" modifies (a multiplier, a later increase, or some other step).]]`
+- `draft/core-rules/attributes.md:153` - `[[UNCLEAR: It is not explicitly stated whether these "gain" multipliers apply only at the named Sequences or to all advancements after reaching those stages.]]`
+- `draft/core-rules/attributes.md:244` - `[[UNCLEAR: This section references a conversion for "Common Damage Dice and Vitality," but no table or rules for the conversion are provided in the raw text.]]`
+- `draft/core-rules/becoming-a-beyonder/advancement.md:66` - `[[UNCLEAR: "invert the effect of (5)" does not specify the exact calculation.]]`
+- `draft/core-rules/becoming-a-beyonder/advancement.md:233` - `[[UNCLEAR: The text says the names in parentheses are "aliases for Sequence names," but the parentheses here appear to function as common aliases for the lis...`
+- `draft/core-rules/becoming-a-beyonder/index.md:9` - `[[UNCLEAR: Source file contains no content; intended index structure is unknown.]]`
+- `draft/core-rules/becoming-a-beyonder/madness-and-losing-control.md:133` - `[[UNCLEAR: The text states the out-of-control state cannot be reversed, but later states Loss of Control can be reversed starting from Sequence 2 with outsid...`
+- `draft/core-rules/becoming-a-beyonder/madness-and-losing-control.md:191` - `[[UNCLEAR: This entry conflicts with the preceding general rule that witnessing Mythical Creature form causes loss and that knowledge is gained starting at S...`
+- `draft/core-rules/becoming-a-beyonder/madness-and-losing-control.md:197` - `[[UNCLEAR: The text assigns loss values for 3-4 Ranks higher but also states that witnessing with no protection is by default immediately Out-of-Control/dead...`
+- `draft/core-rules/becoming-a-beyonder/spirituality-and-abilities.md:27` - `[[UNCLEAR: Spirituality recovery for rests under 30 minutes (and more than 5 minutes short of 1 hour) is not specified.]]`
+- `draft/core-rules/becoming-a-beyonder/spirituality-and-abilities.md:33` - `[[UNCLEAR: "Maximum rest time" and rounding for this formula are not defined here.]]`
+- `draft/core-rules/becoming-a-beyonder/spirituality-and-abilities.md:68` - `[[UNCLEAR: This "CON per 24 hours" limit appears to conflict with "every 12 hours recover Vitality equal to CON."]]`
+- `draft/core-rules/becoming-a-beyonder/spirituality-and-abilities.md:71` - `[[UNCLEAR: It is not specified which part of (3) is gated by the "Sequence level that provides a CON increase" condition.]]`
+- `draft/core-rules/beyonder-items.md:15` - `[[UNCLEAR: This procedure assumes the item's Sequence rank is already known (e.g., from the Beyonder Characteristic used), but does not state how to determin...`
+- `draft/core-rules/beyonder-items.md:265` - `[[UNCLEAR: The source describes this as "on the basis of the second and third methods," which is self-referential; it likely means adapting other creation me...`
+- `draft/core-rules/beyonder-items.md:281` - `[[UNCLEAR: Fade timelines for spiritual-material Beyonder Items are inconsistent (2-4 years vs 4-5 years to fully fade).]]`
+- `draft/core-rules/combat/combat-procedure.md:27` - `[[UNCLEAR: The text uses "1d20 + Agility (DEX)" once; this appears to mean the same initiative roll as ".ri+Agility (DEX)", but the dice notation is inconsis...`
+- `draft/core-rules/combat/combat-procedure.md:209` - `[[UNCLEAR: "Once HP is fully restored, gain all recovery benefits" is redundant with the prior lines and does not specify an additional effect beyond full re...`
+- `draft/core-rules/combat/index.md:9` - `[[UNCLEAR: Source file contains no content; intended index structure is unknown.]]`
+- `draft/core-rules/combat/special-actions.md:141` - `[[UNCLEAR: The text states both sides gain "advantage/disadvantage" while grappling, but does not specify which rolls get which modifier.]]`
+- `draft/core-rules/combat/weapon-examples.md:86` - `[[UNCLEAR: The "1 additional roll" does not specify the target(s) or whether it applies per creature in the area.]]`
+- `draft/core-rules/ritual-magic.md:78` - `[[UNCLEAR: Spirit-body creatures list "1 Casting Action / 1 Full-Round Action" without stating when each action type applies.]]`
+- `draft/core-rules/ritual-magic.md:131` - `[[UNCLEAR: Source text says "refer to Chapter 8: Ritual Magic"; treated here as a reference to the procedure in this chapter.]]`
+- `draft/core-rules/ritual-magic.md:171` - `[[UNCLEAR: Some listed "suitable times" have "no explicit date" and do not specify when they apply beyond being mentioned in the novel.]]`
+- `draft/core-rules/ritual-magic.md:430` - `[[UNCLEAR: The provided example (Sequence 4-tier -> 75 Spirituality) does not clearly follow from the listed formula without additional assumptions about "Se...`
+- `draft/core-rules/skills-professions.md:57` - `[[UNCLEAR: The text both states Dodge cannot be selected using Intuition (INT) and later discusses selecting it with Intuition (including stacking).]]`
+- `draft/front-matter/preface.md:48` - `[[UNCLEAR: Some editions reference Chapter 14 under a different title ("The Hidden Sage's Diary"); confirm this crosslink points to the intended module guide.]]`
+- `draft/front-matter/table-of-contents.md:9` - `[[UNCLEAR: Source file contains no content; intended table of contents is unknown.]]`
+- `draft/index.md:9` - `[[UNCLEAR: Source file contains no content; intended index structure is unknown.]]`
+- `draft/lore-reference/extra-rank-suppression.md:115` - `[[UNCLEAR: Action Protection is described as having "no usage limit" but also as being "consumed" by stacked reductions; when or how (if ever) protections re...`
+- `draft/lore-reference/extra-rank-suppression.md:215` - `[[UNCLEAR: The Honorific Name example analysis is truncated mid-sentence in the provided text (ends at "humanity and ...").]]`
+- `draft/lore-reference/extra-rank-suppression.md:234` - `[[UNCLEAR: The text introduces "Uniqueness List" entries and "known holders", but no list or entries are included in this section.]]`
+- `draft/lore-reference/historical-timeline-differences.md:182` - `[[UNCLEAR: The term "untranslated Chinese term" (used in the Chanis Gate description) is not translated; intended category is unclear.]]`
+- `draft/lore-reference/historical-timeline-differences.md:371` - `[[UNCLEAR: Demon-family names appear with inconsistent transliterations (Andre Ladd/Andre Rade; Belya/Beiliya).]]`
+- `draft/sequences/abyss/seq-01.md:9` - `[[UNCLEAR: RAW does not specify which Pathway this Sequence belongs to, so the standard “<Pathway> Pathway” heading cannot be applied.]]`
+- `draft/sequences/abyss/seq-03.md:35` - `[[UNCLEAR: The RAW does not specify whose Will Defense is used (one target vs each listener vs another rule).]]`
+- `draft/sequences/abyss/seq-03.md:36` - `[[UNCLEAR: The RAW does not state how long this “per round” loss persists or what ends it.]]`
+- `draft/sequences/abyss/seq-03.md:37` - `[[UNCLEAR: The RAW lists outcomes but provides no mechanical triggers, tests, or quantified effects for these outcomes.]]`
+- `draft/sequences/abyss/seq-03.md:39` - `[[UNCLEAR: The RAW does not define what “reverse the influence” entails mechanically.]]`
+- `draft/sequences/abyss/seq-03.md:43` - `[[UNCLEAR: The RAW does not define how a connection is established, any costs/tests/limits, or the mechanical meaning of “die violently.”]]`
+- `draft/sequences/abyss/seq-03.md:48` - `[[UNCLEAR: The RAW does not define what “Inspiration identification” is (test type, DC/target, or procedure).]]`
+- `draft/sequences/abyss/seq-03.md:49` - `[[UNCLEAR: The RAW does not define what influence is being reversed here, or the action/test required.]]`
+- `draft/sequences/abyss/seq-04.md:15` - `[[UNCLEAR: The overview states nearby thinking becomes “less error-prone,” but the ability “Stupid Aura” states nearby thinking is reduced and mistakes becom...`
+- `draft/sequences/abyss/seq-04.md:47` - `[[UNCLEAR: “not in the same position as you—enemies with different grids” is not defined in RAW and may reference a separate faction/alignment or positioning...`
+- `draft/sequences/abyss/seq-05.md:32` - `[[UNCLEAR: “extra intellectual resistance through intoxication and sinking” is referenced as essential, but no concrete mechanical procedure is given here.]]`
+- `draft/sequences/abyss/seq-05.md:57` - `[[UNCLEAR: “danger disappears, appears or reaches a safe zone” is internally unclear as a duration condition.]]`
+- `draft/sequences/abyss/seq-05.md:145` - `[[UNCLEAR: The “Explosion of Desire” loss formula and how the “remaining value” converts into 1d6 damage dice is not mechanically unambiguous as written.]]`
+- `draft/sequences/abyss/seq-05.md:156` - `[[UNCLEAR: “designated by you as Player” could refer to the caster choosing the action, but controller/authority is not explicitly defined.]]`
+- `draft/sequences/abyss/seq-05.md:248` - `[[UNCLEAR: “extraordinary ability greater than one of you” is not precisely defined (comparison basis and timing unclear).]]`
+- `draft/sequences/abyss/seq-06.md:42` - `[[UNCLEAR: “reduce the operation level by 1” is not defined in this text, and the list of examples (“torture, awe, marionette”) is unclear about what is bein...`
+- `draft/sequences/abyss/seq-06.md:74` - `[[UNCLEAR: The calculation note references “targets selected by the second fireball” twice, including for the first fireball; the intended targeting/appraisa...`
+- `draft/sequences/abyss/seq-06.md:160` - `[[UNCLEAR: The final word “hair” appears to be a stray fragment; the intended sentence ending is unclear.]]`
+- `draft/sequences/abyss/seq-06.md:190` - `[[UNCLEAR: It is unclear how “without taking damage” interacts with “still lose the ability to cast it and consume life points,” and whether this changes the...`
+- `draft/sequences/abyss/seq-06.md:198` - `[[UNCLEAR: “corrupted words for hurting people” and “cannot be suppressed” are not defined here; the scope and procedure of this Sequence 7 strengthening rul...`
+- `draft/sequences/abyss/seq-07.md:24` - `[[UNCLEAR: The exact procedure and what “realize anti-divination” means in play is not defined; the text ties mystic identification difficulty to anti-divina...`
+- `draft/sequences/abyss/seq-07.md:25` - `[[UNCLEAR: “Excluding the spirit body arranged in advance by the psychic” is grammatically unclear; it likely names an exception, but the exact scope of that...`
+- `draft/sequences/abyss/seq-07.md:33` - `[[UNCLEAR: The text’s “pray that the gods will default to the ‘dark side of the universe’” is not clearly defined as a rule (target, effect, or limitation).]]`
+- `draft/sequences/abyss/seq-07.md:43` - `[[UNCLEAR: This appears to waive sacrifices for the next prayer while also requiring sacrifices “in advance”; the timing and “quantity requirements” referenc...`
+- `draft/sequences/abyss/seq-07.md:57` - `[[UNCLEAR: The conditions for when this instead becomes “what you should do next” are not mechanically defined.]]`
+- `draft/sequences/abyss/seq-07.md:78` - `[[UNCLEAR: This clause is contradictory/unclear as written (it appears to restate or negate something about physical defense), and no clear mechanical interp...`
+- `draft/sequences/abyss/seq-07.md:82` - `[[UNCLEAR: “Immunotoxin” is not defined; it likely indicates immunity to toxins/poison, but the exact rule term is unclear.]]`
+- `draft/sequences/abyss/seq-08.md:83` - `[[UNCLEAR: This clause does not specify whether it restricts only this spell’s reuse, or interacts with another “swear words” ability/usage pool.]]`
+- `draft/sequences/abyss/seq-09.md:46` - `[[UNCLEAR: Source text is garbled (“Beyonder. way.”); interpreted as “you cannot see a Beyonder’s power/Pathway.”]]`
+- `draft/sequences/apprentice/seq-00.md:40` - `[[UNCLEAR: “only has two encounters in one encounter” is grammatically self-contradictory and the intended usage limit cannot be determined.]]`
+- `draft/sequences/apprentice/seq-01.md:34` - `[[UNCLEAR: The clause about “obscuration and sealing of the old level” and “pried” is unclear in meaning and mechanical impact.]]`
+- `draft/sequences/apprentice/seq-01.md:41` - `[[UNCLEAR: The RAW does not specify whether the -8 applies to the caster, the target, or the overall contest.]]`
+- `draft/sequences/apprentice/seq-01.md:46` - `[[UNCLEAR: “One at a time” and “no upper limit” appear contradictory without additional context.]]`
+- `draft/sequences/apprentice/seq-01.md:72` - `[[UNCLEAR: “Similar to that of a door” is a comparator without specifying which Door mechanic is meant.]]`
+- `draft/sequences/apprentice/seq-01.md:76` - `[[UNCLEAR: The permanence rule here depends on an unspecified “door ability” reference.]]`
+- `draft/sequences/apprentice/seq-01.md:82` - `[[UNCLEAR: The roles (“stolen person” vs “judged person”) and the exact restoration restrictions are unclear.]]`
+- `draft/sequences/apprentice/seq-02.md:55` - `[[UNCLEAR: The RAW indicates “two different recording options” for angel-level difficulty, but does not state what determines which option applies.]]`
+- `draft/sequences/apprentice/seq-02.md:61` - `[[UNCLEAR: “actual calculation does not need to be distinguished” is not explicit about what calculation/resistance distinction is waived.]]`
+- `draft/sequences/apprentice/seq-03.md:16` - `[[UNCLEAR: The ritual mixes “most places” with “all places” as requirements, and the exact completion threshold is unclear.]]`
+- `draft/sequences/apprentice/seq-04.md:17` - `[[UNCLEAR: The clause about the target’s “personality” being “not lower than a demigod” is unclear in meaning/criteria.]]`
+- `draft/sequences/apprentice/seq-04.md:39` - `[[UNCLEAR: “Smash a crystal ball” and the exact procedure/effects of “counter-scry” are not defined here.]]`
+- `draft/sequences/apprentice/seq-04.md:45` - `[[UNCLEAR: “Up to the planet” is ambiguous as a range/limit (e.g., within a planet vs. planetary scale).]]`
+- `draft/sequences/apprentice/seq-04.md:59` - `[[UNCLEAR: The phrase “checked again against the door” implies a separate confrontation/check that is not fully specified here.]]`
+- `draft/sequences/apprentice/seq-04.md:63` - `[[UNCLEAR: “Fails in the confrontation” is unclear (which roll/check and against what target number).]]`
+- `draft/sequences/apprentice/seq-04.md:79` - `[[UNCLEAR: “Health is independent” likely refers to each connecting door/space having separate durability, but the exact object(s) with health is not specifi...`
+- `draft/sequences/apprentice/seq-05.md:46` - `[[UNCLEAR: “higher than 1 character” and “enemy also has travelers” are not defined clearly enough to determine the exact exclusion condition.]]`
+- `draft/sequences/apprentice/seq-05.md:54` - `[[UNCLEAR: RAW uses both “spirituality” and “spirit” as costs without clarifying whether they are the same resource.]]`
+- `draft/sequences/apprentice/seq-06.md:44` - `[[UNCLEAR: “character” is not defined (rank/level/attribute?)]]`
+- `draft/sequences/apprentice/seq-06.md:45` - `[[UNCLEAR: “level” is not defined (Sequence? character level?)]]`
+- `draft/sequences/apprentice/seq-06.md:47` - `[[UNCLEAR: “default is successful” condition is not defined]]`
+- `draft/sequences/apprentice/seq-06.md:48` - `[[UNCLEAR: “higher than two of yours” is ambiguous without a defined comparison method]]`
+- `draft/sequences/apprentice/seq-06.md:58` - `[[UNCLEAR: “identification this ability used to be” is not defined (what categories exist?)]]`
+- `draft/sequences/apprentice/seq-06.md:59` - `[[UNCLEAR: “when you first promoted” duration/endpoint is not defined]]`
+- `draft/sequences/apprentice/seq-07.md:29` - `[[UNCLEAR: “advanced level to proficiency” appears reversed, but the RAW text is mechanically specific.]]`
+- `draft/sequences/apprentice/seq-07.md:44` - `[[UNCLEAR: The RAW mixes “purchase/proficiency/knowledge” with “reputation” in a way that does not clearly state when each cost applies.]]`
+- `draft/sequences/apprentice/seq-07.md:56` - `[[UNCLEAR: “higher than 1 person” is not defined (level/Sequence/other).]]`
+- `draft/sequences/apprentice/seq-07.md:61` - `[[UNCLEAR: “higher than 1 character” is not defined (Sequence/level/other).]]`
+- `draft/sequences/apprentice/seq-07.md:62` - `[[UNCLEAR: The RAW references “higher level” without specifying the governing rule or threshold.]]`
+- `draft/sequences/apprentice/seq-07.md:90` - `[[UNCLEAR: The RAW alternates between using Astrology vs Inspiration to set/identify anti-divination Difficulty Value, and does not clearly define which appl...`
+- `draft/sequences/apprentice/seq-07.md:120` - `[[UNCLEAR: “personality” is not defined and may be a mistranslation, but the RAW text is mechanically specific.]]`
+- `draft/sequences/apprentice/seq-08.md:49` - `[[UNCLEAR: The last tier transition repeats “Proficiency” instead of specifying the next higher level.]]`
+- `draft/sequences/apprentice/seq-08.md:71` - `[[UNCLEAR: Wind Blowing Skill says “choose 1 of the following benefits,” but only one benefit is listed.]]`
+- `draft/sequences/apprentice/seq-08.md:88` - `[[UNCLEAR: “small volume and small volume” is duplicated and unclear which size categories are intended.]]`
+- `draft/sequences/apprentice/seq-08.md:118` - `[[UNCLEAR: The phrase “the gain is disadvantageous” is not clearly defined in context of Blind.]]`
+- `draft/sequences/apprentice/seq-08.md:148` - `[[UNCLEAR: Electric Shock allows “another check” to paralyze a wet target but does not specify what check is used or what it is checked against.]]`
+- `draft/sequences/apprentice/seq-08.md:153` - `[[UNCLEAR: “Opponent’s next round of actions” is unclear about whose turn ends the Paralyzed state.]]`
+- `draft/sequences/apprentice/seq-09.md:22` - `[[UNCLEAR: “need 2 times to become proficient in training” is unclear on what qualifies as “proficient” and how it’s tracked.]]`
+- `draft/sequences/apprentice/seq-09.md:26` - `[[UNCLEAR: “growth skill can be added twice as much as the inspiration of the potion” is unclear on the exact calculation and what is being increased.]]`
+- `draft/sequences/apprentice/seq-09.md:37` - `[[UNCLEAR: “not higher than your 1 personality” is undefined (stat/threshold) in the source.]]`
+- `draft/sequences/apprentice/seq-09.md:52` - `[[UNCLEAR: The last clause is a fragment; it likely restricts size (e.g., not large enough for a carriage), but the exact meaning is unclear.]]`
+- `draft/sequences/arbiter/seq-00.md:16` - `[[UNCLEAR: The ritual’s completion condition (“punished or guilty”) is ambiguous in the source text.]]`
+- `draft/sequences/arbiter/seq-00.md:30` - `[[UNCLEAR: “Use your extraordinary ability to target the area at will” does not specify which abilities qualify or what normal targeting limits still apply.]]`
+- `draft/sequences/arbiter/seq-01.md:57` - `[[UNCLEAR: “identification of violating this order” is not defined—unclear what roll it applies to and how it differs from breaking through the Difficulty Va...`
+- `draft/sequences/arbiter/seq-02.md:48` - `[[UNCLEAR: What specifically qualifies as “breaking through the limit/restrictions,” and exactly when this +1 applies within the balancing calculation.]]`
+- `draft/sequences/arbiter/seq-02.md:61` - `[[UNCLEAR: The meaning of “substitute person” in this example is not defined.]]`
+- `draft/sequences/arbiter/seq-03.md:12` - `[[UNCLEAR: The text references “taking away” Extraordinary abilities without stating how that mechanic works.]]`
+- `draft/sequences/arbiter/seq-03.md:19` - `[[UNCLEAR: “greater than the Sequence 3 level” is unclear in scope/criteria (e.g., how to measure or apply it).]]`
+- `draft/sequences/arbiter/seq-03.md:33` - `[[UNCLEAR: The “damage check bonus unchanged” line conflicts with/does not cleanly map to the earlier “damage identification” bonus language.]]`
+- `draft/sequences/arbiter/seq-04.md:55` - `[[UNCLEAR: The phrase “theoretical maximum damage dice exceeds 40 points” mixes dice and points, so the exact threshold calculation is not fully defined.]]`
+- `draft/sequences/arbiter/seq-04.md:67` - `[[UNCLEAR: “One bit lower” is not defined (likely Sequence or rank), so the exact comparison basis is unclear.]]`
+- `draft/sequences/arbiter/seq-05.md:33` - `[[UNCLEAR: The text says all crimes must be punished for safe promotion, yet also says having 3 unpaid sins is generally safe.]]`
+- `draft/sequences/arbiter/seq-05.md:44` - `[[UNCLEAR: “upgrade to knowledge” is undefined and may reference another subsystem.]]`
+- `draft/sequences/arbiter/seq-05.md:80` - `[[UNCLEAR: “Sexual creatures are void” is undefined (unclear which creatures are exempt or how).]]`
+- `draft/sequences/arbiter/seq-05.md:96` - `[[UNCLEAR: “Different crimes separate sentence” is unclear (how to segment, and whether multiple crimes can be applied in one use).]]`
+- `draft/sequences/arbiter/seq-06.md:57` - `[[UNCLEAR: The Prohibition counteraction procedure does not clearly specify which side rolls/sets difficulty beyond the quoted line.]]`
+- `draft/sequences/arbiter/seq-06.md:76` - `[[UNCLEAR: “More than 1 character” is not defined and may refer to a power/grade concept not explained here.]]`
+- `draft/sequences/arbiter/seq-06.md:86` - `[[UNCLEAR: “More than 1 character” is not defined and may refer to a power/grade concept not explained here.]]`
+- `draft/sequences/arbiter/seq-06.md:104` - `[[UNCLEAR: The damage threshold expression “rd20 + Inspiration + Law” is not defined elsewhere in this section (e.g., whether “rd20” is a specific die/roll).]]`
+- `draft/sequences/arbiter/seq-06.md:118` - `[[UNCLEAR: The edge-case “countermeasure equivalent to confinement” procedure does not specify how it is resolved (timing/check/etc.).]]`
+- `draft/sequences/arbiter/seq-06.md:141` - `[[UNCLEAR: “Legal substitution corresponding break-away identification,” the stacking of the Sequence/“character” disadvantage rules, and “ignore great succe...`
+- `draft/sequences/arbiter/seq-07.md:44` - `[[UNCLEAR: The ability is described as targeting the “spirit body,” but its mechanics reference “mental puncture” and deal “mental damage,” and the relations...`
+- `draft/sequences/arbiter/seq-07.md:65` - `[[UNCLEAR: It is not stated whether step (2) requires step (1) to be active, or how the “maintenance period” timing interacts with using step (2).]]`
+- `draft/sequences/arbiter/seq-07.md:92` - `[[UNCLEAR: “Other creatures gain advantages/disadvantages against them” does not specify which applies (advantage vs disadvantage), to what rolls, or under w...`
+- `draft/sequences/arbiter/seq-08.md:32` - `[[UNCLEAR: “the number of growth required is equal to the cap and the reputation boost of Sequence 9” is not defined here, so the exact requirement cannot be...`
+- `draft/sequences/arbiter/seq-08.md:55` - `[[UNCLEAR: “extraordinary powers higher than 1” is not defined here (rank/Sequence/level is unclear).]]`
+- `draft/sequences/arbiter/seq-09.md:30` - `[[UNCLEAR: The final step repeats “proficient”; the intended skill-rank progression is uncertain.]]`
+- `draft/sequences/arbiter/seq-09.md:32` - `[[UNCLEAR: “growth skills” and “twice the potion’s Inspiration” are not defined here and could be interpreted multiple ways.]]`
+- `draft/sequences/arbiter/seq-09.md:72` - `[[UNCLEAR: Two different scaling rules are given (“per Sequence” and “per character”); it is unclear whether both apply, and what “character” means here.]]`
+- `draft/sequences/black-emperor/seq-00.md:16` - `[[UNCLEAR: The RAW alternates between “Dark Emperor” and “Black Emperor” in the same Sequence 0 context without clarifying whether they are the same entity o...`
+- `draft/sequences/black-emperor/seq-00.md:48` - `[[UNCLEAR: The RAW states there are “three stages” but only provides partial/uncertain stage details, including the phrase “of sex,” which is not interpretab...`
+- `draft/sequences/black-emperor/seq-04.md:38` - `[[UNCLEAR: It is not specified whether the “once per round” free action still requires the listed cost and casting action, or replaces them.]]`
+- `draft/sequences/black-emperor/seq-04.md:52` - `[[UNCLEAR: Confusion says you “choose an object,” but the example applies an affix to a distance/relationship.]]`
+- `draft/sequences/black-emperor/seq-04.md:83` - `[[UNCLEAR: “the same as 3” is not defined in this section.]]`
+- `draft/sequences/black-emperor/seq-04.md:96` - `[[UNCLEAR: The meaning of “False” in this Special line is not explained.]]`
+- `draft/sequences/black-emperor/seq-04.md:103` - `[[UNCLEAR: “identification” is not defined here, and the duration/trigger for “it can even last” is not specified.]]`
+- `draft/sequences/black-emperor/seq-05.md:48` - `[[UNCLEAR: The text says chaos is “limited to ② effects,” but this ability also lists effects ①, ③, ④, and ⑤; it’s unclear whether the limitation applies to ...`
+- `draft/sequences/black-emperor/seq-05.md:72` - `[[UNCLEAR: “Sequence 6-5” is unclear as written (it may indicate a Sequence range or a relative level comparison), so the exact grouping of who can/can’t loo...`
+- `draft/sequences/black-emperor/seq-06.md:35` - `[[UNCLEAR: Distorted intentions are described as both “gone forever” and “disappear after 1 minute,” and the exact duration/end condition cannot be resolved.]]`
+- `draft/sequences/black-emperor/seq-06.md:70` - `[[UNCLEAR: This multi-target removal/detection text conflicts with the earlier “To get rid of the distortion effect” procedure for Distorted Language, and th...`
+- `draft/sequences/black-emperor/seq-06.md:72` - `[[UNCLEAR: “instead of 1” is incomplete in the source, so the intended comparison (round/minute/other) cannot be resolved.]]`
+- `draft/sequences/black-emperor/seq-06.md:75` - `[[UNCLEAR: This line uses “Corruption” (not “Corrosion”) and an unclear phrase (“faces higher than 1 character”); “warp channeling” is also undefined here, s...`
+- `draft/sequences/black-emperor/seq-07.md:138` - `[[UNCLEAR: The phrase “when the bribe is higher than 1 character target” does not specify what “higher” is comparing (e.g., level/Sequence/rank), so the trig...`
+- `draft/sequences/black-emperor/seq-08.md:41` - `[[UNCLEAR: “the number of growths … is equal to Sequence 9” references an undefined limit and cannot be resolved from this section alone.]]`
+- `draft/sequences/black-emperor/seq-08.md:48` - `[[UNCLEAR: “complete physical defense against firearms, excluding light and lightning” is unclear about what is excluded and how it applies.]]`
+- `draft/sequences/black-emperor/seq-09.md:15` - `[[UNCLEAR: This section alternates between “Dark Emperor” and “Black Emperor” when explaining “distortion” rules.]]`
+- `draft/sequences/black-emperor/seq-09.md:27` - `[[UNCLEAR: The growth track repeats “proficient” and does not clearly state the number of learnings needed to reach “mastery.”]]`
+- `draft/sequences/black-emperor/seq-09.md:35` - `[[UNCLEAR: “Use twice the Inspiration points brought by the potion” is not defined—unclear how the doubling is applied during character creation.]]`
+- `draft/sequences/black-emperor/seq-09.md:46` - `[[UNCLEAR: The text does not specify what situation triggers the Psychology/Reconnaissance test, or who rolls it and against what.]]`
+- `draft/sequences/black-emperor/seq-09.md:81` - `[[UNCLEAR: “Difficulty of perception -5, and so on” does not define what “perception” refers to here or how “and so on” scales.]]`
+- `draft/sequences/black-emperor/seq-09.md:88` - `[[UNCLEAR: “Targets higher than 1 level” does not specify higher than whom or by what measure (Sequence, level, or other).]]`
+- `draft/sequences/black-emperor/seq-09.md:89` - `[[UNCLEAR: The text says there are “two” ways to release distortion guidance but then lists three.]]`
+- `draft/sequences/death/seq-00.md:15` - `[[UNCLEAR: “Deathmark is the only one” lacks context (only one what—person, title, ability, or something else?).]]`
+- `draft/sequences/death/seq-01.md:20` - `[[UNCLEAR: The ritual description’s naming phrase (“named after death…emperor…paleness”) is unclear in meaning and sequence.]]`
+- `draft/sequences/death/seq-03.md:86` - `[[UNCLEAR: “no limit to the number of times the damage can be lost continuously in each round” is unclear about whether/how damage repeats within a single ro...`
+- `draft/sequences/death/seq-03.md:119` - `[[UNCLEAR: “1d4/1d6+1” does not specify when to use 1d4 vs 1d6, or how this expression is determined.]]`
+- `draft/sequences/death/seq-03.md:124` - `[[UNCLEAR: The exact procedure linking “rebuke and negotiation” vs Will defense to the “easy-to-crazy effect” is unclear in RAW.]]`
+- `draft/sequences/death/seq-03.md:140` - `[[UNCLEAR: The clause “not a demigod or lower in the Death Path” is unclear about which targets require 3 minutes.]]`
+- `draft/sequences/death/seq-03.md:145` - `[[UNCLEAR: “one person lower,” “two of your -4 Words of the Dead check,” and duration/maintenance conditions are unclear in RAW.]]`
+- `draft/sequences/death/seq-04.md:10` - `[[UNCLEAR: The opening summary says “resurrect once,” but the Immortality rules below describe repeating 60-year death/resurrection cycles.]]`
+- `draft/sequences/death/seq-04.md:84` - `[[UNCLEAR: The resource name varies between “Spirituality” (spent as points) and “spirit” (used as a cost).]]`
+- `draft/sequences/death/seq-05.md:38` - `[[UNCLEAR: The “door as a symbol” and “core in the center of the forehead” description is unclear on whether it has mechanical effects beyond being a sign.]]`
+- `draft/sequences/death/seq-05.md:58` - `[[UNCLEAR: “Use 1 Inspiration + Knowledge of the Dead to test” is unclear whether it means spending 1 Inspiration, adding Inspiration as a modifier, or makin...`
+- `draft/sequences/death/seq-05.md:111` - `[[UNCLEAR: The text is unclear on what exactly counts as the “nether revenant” (e.g., the Ghosts of the Underworld effect, a separate entity, or a component ...`
+- `draft/sequences/death/seq-05.md:112` - `[[UNCLEAR: The “same hit points as the summoner, but independently” phrasing is ambiguous on whether the gate inherits current HP, max HP, or some other valu...`
+- `draft/sequences/death/seq-05.md:130` - `[[UNCLEAR: The final sentence fragment about “goal of the gate” is incomplete in the source text.]]`
+- `draft/sequences/death/seq-05.md:156` - `[[UNCLEAR: Items (2) and (3) are unclear on timing and procedure—especially what “within a certain period of time” and “filled in the time” mean, and when ad...`
+- `draft/sequences/death/seq-06.md:29` - `[[UNCLEAR: It is not clear whether the “×3” at Sequence 5 replaces the “×2” multiplier or is applied in addition.]]`
+- `draft/sequences/death/seq-06.md:40` - `[[UNCLEAR: “Spirit Body Strength” is defined earlier with rounding and “×2,” but here it is given as (inspiration + will + half constitution) without roundin...`
+- `draft/sequences/death/seq-06.md:69` - `[[UNCLEAR: The phrase “time dissipated” is unclear in the 72-hour rule (what dissipates and when).]]`
+- `draft/sequences/death/seq-06.md:75` - `[[UNCLEAR: The timing/trigger for “at the beginning” is not specified.]]`
+- `draft/sequences/death/seq-07.md:65` - `[[UNCLEAR: “at noon in the morning” is internally contradictory timing language.]]`
+- `draft/sequences/death/seq-07.md:105` - `[[UNCLEAR: “the owner is low for you 1 person” is unclear as a restriction/threshold.]]`
+- `draft/sequences/death/seq-07.md:107` - `[[UNCLEAR: The 72-hour and 24-hour time limits appear to conflict without additional context.]]`
+- `draft/sequences/death/seq-07.md:216` - `[[UNCLEAR: “forced movement is cleared, rounded up” is unclear about what is being rounded and how forced movement interacts with halving/clearing.]]`
+- `draft/sequences/death/seq-07.md:258` - `[[UNCLEAR: The swift-action conversion (“convert 2 of them”) is unclear about the resulting action economy.]]`
+- `draft/sequences/death/seq-07.md:261` - `[[UNCLEAR: The bonus formula (“divided by the number of its army species divided by 2”) is unclear in application.]]`
+- `draft/sequences/death/seq-07.md:267` - `[[UNCLEAR: The interaction between “target with more than 1 character” and offsetting advantage/disadvantage is unclear.]]`
+- `draft/sequences/death/seq-07.md:277` - `[[UNCLEAR: This “up to 50” unit rule conflicts with or reframes the earlier “more than 3 = army” rule without clarifying how they interact.]]`
+- `draft/sequences/death/seq-08.md:25` - `[[UNCLEAR: The RAW’s skill-progression phrasing (“…to advanced level, to proficiency…”) is internally unclear, so the precise mechanical meaning cannot be re...`
+- `draft/sequences/death/seq-09.md:100` - `[[UNCLEAR: What “2, 3, 4 times” refers to (number of autopsies per level, per creature type, or another progression step) is not specified.]]`
+- `draft/sequences/death/seq-09.md:103` - `[[UNCLEAR: The meaning of “twice the inspiration of the potion” and how it improves “growth skills” is not defined here.]]`
+- `draft/sequences/demoness/seq-01.md:33` - `[[UNCLEAR: “appear three times” could mean three repetitions, three simultaneous instances, or another form of tripling; the example only clarifies “triple d...`
+- `draft/sequences/demoness/seq-03.md:32` - `[[UNCLEAR: The text says “advance your spiritual limit by 5 points” but also “your limit -5”; it is unclear whether this is an increase or a decrease, though...`
+- `draft/sequences/demoness/seq-03.md:43` - `[[UNCLEAR: The ability defines “line of sight” targeting but then refers to “within range”; this section does not define whether “range” differs from “line o...`
+- `draft/sequences/demoness/seq-04.md:34` - `[[UNCLEAR: “relevant events that have been successful in the mod” is unclear (what “mod” refers to and what qualifies as “successful”).]]`
+- `draft/sequences/demoness/seq-04.md:40` - `[[UNCLEAR: It is unclear whose “Physical level” must be 20 (the doctor, the patient, or another stat holder) and what “not be spread” precisely refers to.]]`
+- `draft/sequences/demoness/seq-04.md:42` - `[[UNCLEAR: The interaction between “below Sequence 8,” “directly enter Infection Level 1,” and the prior statement about starting at Infection Level 2 is unc...`
+- `draft/sequences/demoness/seq-04.md:45` - `[[UNCLEAR: “increase the level of charm against you” is unclear (what value changes, for whom, and in which direction).]]`
+- `draft/sequences/demoness/seq-04.md:57` - `[[UNCLEAR: RAW alternates between “Blight Aura” and “Plague Halo”; it is unclear if these are the same mechanic or distinct mechanics.]]`
+- `draft/sequences/demoness/seq-04.md:76` - `[[UNCLEAR: “teleport your image remotely” is unclear about range, destination rules, and whether this is purely sensory or grants further interaction.]]`
+- `draft/sequences/demoness/seq-04.md:81` - `[[UNCLEAR: “In any mirrored environment other than this” is unclear about what condition it contrasts with and when the illusion becomes indistinguishable.]]`
+- `draft/sequences/demoness/seq-05.md:20` - `[[UNCLEAR: The section presents multiple time-to-severity descriptions (Illness overview vs. Infection Level 5 “three minutes” clause) without explicitly sta...`
+- `draft/sequences/demoness/seq-06.md:46` - `[[UNCLEAR: RAW alternates between “pleasure”, “Pleasure”, and “Pleasant” for the growth-tracked capability/skill, and it’s unclear whether these are the same...`
+- `draft/sequences/demoness/seq-06.md:97` - `[[UNCLEAR: “identification” is referenced multiple times in the binding use, but RAW does not clearly specify whether it refers to the Charisma check, a sepa...`
+- `draft/sequences/demoness/seq-06.md:124` - `[[UNCLEAR: RAW states Touch of Pleasure has four incompatible uses, but then presents “Use silk hair to resist damage” as an additional option without clarif...`
+- `draft/sequences/demoness/seq-07.md:81` - `[[UNCLEAR: “about one house 10 meters away is silent people” is unclear in meaning/requirements.]]`
+- `draft/sequences/demoness/seq-07.md:136` - `[[UNCLEAR: “ignoring the agility of physical defense with Dodge” is unclear in exact mechanical terms.]]`
+- `draft/sequences/demoness/seq-07.md:139` - `[[UNCLEAR: “identification” is unclear; likely refers to separate hit/instance splits of the same damage roll.]]`
+- `draft/sequences/demoness/seq-07.md:223` - `[[UNCLEAR: “act freely with more than 2 characters” is unclear in meaning and when it applies.]]`
+- `draft/sequences/demoness/seq-07.md:275` - `[[UNCLEAR: “excluding more than personal goals” is unclear in meaning/limits.]]`
+- `draft/sequences/demoness/seq-08.md:45` - `[[UNCLEAR: “Skill and attribute evaluation” is not defined here; the text only specifies a continuous -4 penalty while Enchanted.]]`
+- `draft/sequences/demoness/seq-08.md:86` - `[[UNCLEAR: “Works by default” is not defined here; it is unclear whether it indicates automatic success or a typical GM adjudication outcome.]]`
+- `draft/sequences/demoness/seq-09.md:30` - `[[UNCLEAR: The training ladder repeats “proficiency” and does not clearly distinguish the intermediate/advanced tiers; text is preserved verbatim.]]`
+- `draft/sequences/demoness/seq-09.md:33` - `[[UNCLEAR: The “every 2 hours” guidance rule and the character-creation “growth rate is regarded as inspiration” clause lack defined procedures/terms in RAW.]]`
+- `draft/sequences/demoness/seq-09.md:90` - `[[UNCLEAR: RAW uses “Vision,” “spiritual vision,” and “Spirit Vision” inconsistently; treated as the same ability/state here.]]`
+- `draft/sequences/earth/seq-00.md:17` - `[[UNCLEAR: “isolate the attack of the true god” could mean blocking attacks made by the true god, or blocking attacks targeting the true god.]]`
+- `draft/sequences/earth/seq-02.md:11` - `[[UNCLEAR: RAW does not specify which Pathway this Sequence belongs to.]]`
+- `draft/sequences/earth/seq-03.md:9` - `[[UNCLEAR: The RAW does not specify the Pathway name for this Sequence.]]`
+- `draft/sequences/earth/seq-04.md:67` - `[[UNCLEAR: “10 consumable damage reduction” is not defined (what consumes it, and when it refreshes).]]`
+- `draft/sequences/earth/seq-04.md:73` - `[[UNCLEAR: “Graeme” is unclear in context (possibly a mistranslation or specific named example).]]`
+- `draft/sequences/earth/seq-04.md:88` - `[[UNCLEAR: RAW contains “its sanity is less than 100%. 30,” which appears to intend “less than 30%.”]]`
+- `draft/sequences/earth/seq-05.md:24` - `[[UNCLEAR: “Biology +1 level” uses “level” without stating the game’s leveling scale for skills/attributes.]]`
+- `draft/sequences/earth/seq-05.md:26` - `[[UNCLEAR: “quickly increase to master” is not defined as a specific rate, cap, or rule procedure.]]`
+- `draft/sequences/earth/seq-05.md:39` - `[[UNCLEAR: The phrase combines “touch” with “at least 10 meters away,” making the actual range/requirement unclear.]]`
+- `draft/sequences/earth/seq-05.md:53` - `[[UNCLEAR: It is unclear whether “+4” applies to your Stealth, to the opponent’s Scouting, or to the opposed test structure.]]`
+- `draft/sequences/earth/seq-05.md:57` - `[[UNCLEAR: “lightning identification” is not defined; it is unclear who makes it and what stat/skill governs it.]]`
+- `draft/sequences/earth/seq-05.md:58` - `[[UNCLEAR: “escape from stealth” is not defined as a procedure; it is unclear whether it ends the underground state, ends hiding, or both.]]`
+- `draft/sequences/earth/seq-05.md:71` - `[[UNCLEAR: “biological defense” and the opposed structure are not defined; it is unclear whether this is an attack roll, a contest, or a specific subsystem.]]`
+- `draft/sequences/earth/seq-05.md:74` - `[[UNCLEAR: “half Strength damage dice” does not specify whether it is added dice, a flat bonus, rounding rules, or how Strength converts to dice.]]`
+- `draft/sequences/earth/seq-05.md:80` - `[[UNCLEAR: “damaged” has no stated mechanical consequence (e.g., destroyed, reduced damage, ends effect).]]`
+- `draft/sequences/earth/seq-05.md:101` - `[[UNCLEAR: “within 50 meters in front of you” does not specify shape (cone/line/area), width, or whether line-of-sight applies.]]`
+- `draft/sequences/earth/seq-05.md:111` - `[[UNCLEAR: This clause is not interpretable as a mechanical rule; “higher than 1 character” is undefined.]]`
+- `draft/sequences/earth/seq-05.md:120` - `[[UNCLEAR: This section uses “spirit points” while other abilities use “spirituality points”; it is unclear if these are the same resource.]]`
+- `draft/sequences/earth/seq-05.md:130` - `[[UNCLEAR: It is unclear when/why the 1d6 fire damage is suffered (on transformation, per round, when hit by fire, etc.).]]`
+- `draft/sequences/earth/seq-05.md:135` - `[[UNCLEAR: “night vision cannot take effect in a completely dark environment” conflicts with typical night vision logic and lacks a defined vision rule refer...`
+- `draft/sequences/earth/seq-05.md:140` - `[[UNCLEAR: As above, the night vision limitation is not defined by a referenced vision system.]]`
+- `draft/sequences/earth/seq-05.md:144` - `[[UNCLEAR: “use your mobility to fly” does not define flight speed, maneuverability, or constraints.]]`
+- `draft/sequences/earth/seq-05.md:146` - `[[UNCLEAR: It is unclear whether this is maximum spotting distance, clarity, or a narrative statement; no perception system is referenced.]]`
+- `draft/sequences/earth/seq-05.md:153` - `[[UNCLEAR: “special breeds” is not defined as a list or selection rule.]]`
+- `draft/sequences/earth/seq-05.md:157` - `[[UNCLEAR: “1/1d3 Sanity loss” does not specify whether you lose 1 Sanity, 1d3 Sanity, or choose between them.]]`
+- `draft/sequences/earth/seq-05.md:163` - `[[UNCLEAR: “cannot be tackled” is undefined; the “precise control ability of the clown” reference is not locally defined.]]`
+- `draft/sequences/earth/seq-05.md:165` - `[[UNCLEAR: It is unclear whether “beneficial” means advantage, a flat bonus, or a specific system term.]]`
+- `draft/sequences/earth/seq-05.md:170` - `[[UNCLEAR: “allowed by the GM” and “data” are not defined as a formal creature-design process.]]`
+- `draft/sequences/earth/seq-05.md:171` - `[[UNCLEAR: “high-Sequence” threshold is not defined; the cap-change rule lacks timing/eligibility specifics.]]`
+- `draft/sequences/earth/seq-05.md:179` - `[[UNCLEAR: “within 1 or 50 meters area” does not specify which value applies, when, or how the area is shaped.]]`
+- `draft/sequences/earth/seq-05.md:180` - `[[UNCLEAR: “price” is not interpretable as a mechanic; likely a mistranslation.]]`
+- `draft/sequences/earth/seq-05.md:189` - `[[UNCLEAR: It is unclear whether the 5 damage must be dealt in one hit, to the hair specifically, and what defenses the hair uses.]]`
+- `draft/sequences/earth/seq-05.md:197` - `[[UNCLEAR: “constitution/constitution” is duplicated and does not state the recovery formula or rounding.]]`
+- `draft/sequences/earth/seq-05.md:200` - `[[UNCLEAR: The rule implies an interaction/branching logic but does not define when/why recovery would “become” injury.]]`
+- `draft/sequences/earth/seq-05.md:204` - `[[UNCLEAR: The referenced pharmaceutical rule is not defined here, and “minimum value” is not specified as a concrete number except the 3-minute example.]]`
+- `draft/sequences/earth/seq-05.md:213` - `[[UNCLEAR: It is unclear how to determine what “cannot be metabolized” within the system.]]`
+- `draft/sequences/earth/seq-05.md:219` - `[[UNCLEAR: “drop 1 level in the judgment” lacks a defined action-time ladder or adjudication rule; “spiritual body string” is not defined here.]]`
+- `draft/sequences/earth/seq-05.md:222` - `[[UNCLEAR: “progress” and “manipulation/poison level” are not defined as tracked mechanics here.]]`
+- `draft/sequences/earth/seq-05.md:227` - `[[UNCLEAR: The boundary of “logical uses” and what counts as “speed of physical actions” is not defined.]]`
+- `draft/sequences/earth/seq-06.md:24` - `[[UNCLEAR: The phrase “the limit can hybridize bacteria” is ambiguous (minimum scale vs. restriction to bacteria).]]`
+- `draft/sequences/earth/seq-06.md:43` - `[[UNCLEAR: No criterion is given for what counts as “enough” inspiration to skip the theoretical stage.]]`
+- `draft/sequences/earth/seq-06.md:53` - `[[UNCLEAR: The “Special” rules about extra hours and daily study are self-contradictory/grammatically unclear, but are reproduced faithfully.]]`
+- `draft/sequences/earth/seq-06.md:57` - `[[UNCLEAR: It is unclear what “the second experiment” refers to and what identification is being waived.]]`
+- `draft/sequences/earth/seq-06.md:113` - `[[UNCLEAR: The duration/endpoint for detoxification is unclear (“until you get 1 hour or extraordinary medicine Rescue”).]]`
+- `draft/sequences/earth/seq-06.md:114` - `[[UNCLEAR: It is unclear what “effects of more than 1/2 character(s)” means (stacking, multiple sources, or multiple targets).]]`
+- `draft/sequences/earth/seq-07.md:9` - `[[UNCLEAR: The RAW does not specify this Sequence’s Pathway, but the sequence template assumes one.]]`
+- `draft/sequences/earth/seq-07.md:70` - `[[UNCLEAR: The RAW repeats “physical defense” twice while also referencing “will defense” and “two defenses”; the second defense is treated as Will Defense f...`
+- `draft/sequences/earth/seq-07.md:78` - `[[UNCLEAR: The trigger “every time a plant is reached” is not defined in RAW (timing/trigger condition unclear).]]`
+- `draft/sequences/earth/seq-07.md:97` - `[[UNCLEAR: RAW does not define what “the number of 1d3 you choose” means (how many dice / what choice controls).]]`
+- `draft/sequences/earth/seq-08.md:29` - `[[UNCLEAR: The text alternates between “Master” and “Mastery” as caps and may be inconsistent for the same tier.]]`
+- `draft/sequences/earth/seq-08.md:59` - `[[UNCLEAR: “Slander” appears to describe a mid-tier injury, while later text references “moderate injury” separately; the relationship between these terms is...`
+- `draft/sequences/earth/seq-08.md:90` - `[[UNCLEAR: “Diseases with more than 1 character” is not a clear category; it may be a mistranslation or setting-specific classification.]]`
+- `draft/sequences/earth/seq-08.md:106` - `[[UNCLEAR: The procedure for “Identification” (what roll is made, and how it relates to the Psychological Guidance check) is not fully specified beyond “iden...`
+- `draft/sequences/earth/seq-09.md:28` - `[[UNCLEAR: The text states “It takes 2, 3, 4 times” but does not specify what those counts measure (e.g., per level, per tier, or per promotion step).]]`
+- `draft/sequences/earth/seq-09.md:31` - `[[UNCLEAR: “Not just promoted” and “inspiration/education of potions” are referenced without definitions in this section.]]`
+- `draft/sequences/earth/seq-09.md:127` - `[[UNCLEAR: The “reduce 3 times or 48 hours without nursing” clause is unclear about whether these are alternative thresholds and how they combine with the 1d...`
+- `draft/sequences/error/seq-00.md:26` - `[[UNCLEAR: It is not specified whether “deceit” and “skill” are specific skills/ratings or a general description of skill increases.]]`
+- `draft/sequences/error/seq-00.md:35` - `[[UNCLEAR: The trailing “1.” appears to be a misplaced Sequence reference or footnote marker.]]`
+- `draft/sequences/error/seq-01.md:23` - `[[UNCLEAR: “deceit and skill” is ambiguous—this may mean two specific skills, or “deceit” plus skills generally.]]`
+- `draft/sequences/error/seq-01.md:30` - `[[UNCLEAR: The RAW also says “can be used only for one target” while allowing scene-based use; it is unclear how these statements reconcile.]]`
+- `draft/sequences/error/seq-01.md:40` - `[[UNCLEAR: The RAW phrasing “become a Truly becoming an old man” is unclear; it appears to indicate a permanent transformation if not counteracted.]]`
+- `draft/sequences/error/seq-01.md:45` - `[[UNCLEAR: “this action does not count” is unclear—whether it refunds the casting action immediately, or only negates the action cost for the round.]]`
+- `draft/sequences/error/seq-01.md:49` - `[[UNCLEAR: “restored” is ambiguous—this may mean “reversed/undone,” but the exact interaction is not precisely stated.]]`
+- `draft/sequences/error/seq-02.md:27` - `[[UNCLEAR: The RAW does not specify the exact test/roll used to resolve this attack beyond “attack Physical Defense.”]]`
+- `draft/sequences/error/seq-02.md:37` - `[[UNCLEAR: The RAW is unclear about who makes each appraisal (observer vs. the target) and what “the same person” refers to.]]`
+- `draft/sequences/error/seq-02.md:51` - `[[UNCLEAR: The RAW references “the wrong way” without defining what the previous limitation was in this section.]]`
+- `draft/sequences/error/seq-02.md:68` - `[[UNCLEAR: The RAW does not define what “effects larger than one person of yours” means or how to “transfer in half.”]]`
+- `draft/sequences/error/seq-02.md:84` - `[[UNCLEAR: The RAW uses “worm of separation time” and “stealing authentication” without defining them in this section; context suggests a connection to Detac...`
+- `draft/sequences/error/seq-03.md:50` - `[[UNCLEAR: The extension list contains both “one round to one round” and “one round to three rounds,” which appears self-contradictory or duplicated.]]`
+- `draft/sequences/error/seq-03.md:72` - `[[UNCLEAR: This clause says it “can only reduce the value of the failure” while also stating it cannot change success into failure and cannot affect the 1d20...`
+- `draft/sequences/error/seq-04.md:34` - `[[UNCLEAR: “don’t need to take corresponding actions” is not defined—unclear what actions are being waived.]]`
+- `draft/sequences/error/seq-04.md:45` - `[[UNCLEAR: It is unclear whether the 3 Spirituality cost and “attack physical defense” apply only to Greater Steal or to Steal actions generally.]]`
+- `draft/sequences/error/seq-04.md:71` - `[[UNCLEAR: “law sheet” and “law’s prowess” are not defined; interaction is unclear.]]`
+- `draft/sequences/error/seq-04.md:80` - `[[UNCLEAR: “at the cost of the extra action” is self-contradictory/undefined—unclear what is paid or lost.]]`
+- `draft/sequences/error/seq-04.md:104` - `[[UNCLEAR: “equivalent to the Steal Action” could mean action economy, effect structure, or another rule; the equivalence is not specified.]]`
+- `draft/sequences/error/seq-04.md:117` - `[[UNCLEAR: The text alternates between “skill” and “ability”; it is unclear whether “each stolen ability can only be used once” refers to the stolen skill us...`
+- `draft/sequences/error/seq-04.md:133` - `[[UNCLEAR: “store up to the amount of intangible substances” is not quantified; storage capacity basis is unclear.]]`
+- `draft/sequences/error/seq-04.md:140` - `[[UNCLEAR: The resolution method for “inspiration is successful against Will defense” is unclear (check vs defense? auto-success if target consents?).]]`
+- `draft/sequences/error/seq-04.md:153` - `[[UNCLEAR: “followed by an encounter, and then only for one turn” is unclear in timing and meaning.]]`
+- `draft/sequences/error/seq-04.md:174` - `[[UNCLEAR: The text elsewhere suggests the parasite “steals” the host’s thoughts in preliminary parasitism; whether thoughts can be stolen/read is inconsiste...`
+- `draft/sequences/error/seq-05.md:81` - `[[UNCLEAR: This ability references “stealing fire” for uses/duration/recovery sharing, but “stealing fire” is not defined in this section.]]`
+- `draft/sequences/error/seq-05.md:88` - `[[UNCLEAR: “targets higher than 1 character” is ambiguous (size, rank, or another measure).]]`
+- `draft/sequences/error/seq-06.md:45` - `[[UNCLEAR: The final clause about “skill appraisal” replacing another appraisal is not mechanically specific enough to restate confidently.]]`
+- `draft/sequences/error/seq-06.md:49` - `[[UNCLEAR: “1d ‘number of sequence levels’” and the follow-up selection procedure are not fully defined in the RAW.]]`
+- `draft/sequences/error/seq-06.md:58` - `[[UNCLEAR: It is unclear whether this changes the bonus for this condition only, or modifies the total bonus in some other way.]]`
+- `draft/sequences/error/seq-06.md:62` - `[[UNCLEAR: “Secret puppet” interactions and what exactly becomes unusable are not fully specified.]]`
+- `draft/sequences/error/seq-06.md:63` - `[[UNCLEAR: “promotion appraisal” and “jump path” are referenced but not defined here.]]`
+- `draft/sequences/error/seq-06.md:66` - `[[UNCLEAR: The RAW contains an “analyze” fragment here with no clear mechanical meaning.]]`
+- `draft/sequences/error/seq-06.md:68` - `[[UNCLEAR: “Resentment,” “resentment scream,” and “demonization” are referenced as established abilities/traits but not defined here.]]`
+- `draft/sequences/error/seq-06.md:84` - `[[UNCLEAR: The final “Identify it” directive is unclear on whether it is a separate check or a prerequisite statement.]]`
+- `draft/sequences/error/seq-07.md:35` - `[[UNCLEAR: How “retain the agility and dodge in physical defense” replaces the +4 bonus is not mechanically defined.]]`
+- `draft/sequences/error/seq-07.md:45` - `[[UNCLEAR: “higher than 1 personality” is not defined (stat name/threshold unclear).]]`
+- `draft/sequences/error/seq-07.md:83` - `[[UNCLEAR: The final sentence is self-contradictory/grammatically unclear; the intended restriction on “unknown unknowns” is not precisely defined.]]`
+- `draft/sequences/error/seq-07.md:97` - `[[UNCLEAR: Whether this sets the anti-divination Difficulty Value equal to the check result or uses the same stated Difficulty Value is not specified.]]`
+- `draft/sequences/error/seq-08.md:17` - `[[UNCLEAR: “master/detection” is not defined here, so the exact reference for “promotion range” and “level that can be promoted to” cannot be resolved.]]`
+- `draft/sequences/error/seq-08.md:33` - `[[UNCLEAR: The trigger and scope of “mistakenly think that you have evil intentions” is unclear in how it disables the benefits.]]`
+- `draft/sequences/error/seq-08.md:47` - `[[UNCLEAR: “any vigilant and hostile target is invalid” is unclear as to whether such targets are immune, excluded from targeting, or invalidate the effect e...`
+- `draft/sequences/error/seq-08.md:51` - `[[UNCLEAR: How “Scouting +2 is beneficial” modifies the resolution and what becomes “invalid” is not fully specified.]]`
+- `draft/sequences/error/seq-08.md:62` - `[[UNCLEAR: The phrase “vagabonds Chinese” appears malformed; meaning cannot be resolved from context, retained verbatim.]]`
+- `draft/sequences/error/seq-08.md:65` - `[[UNCLEAR: “some skills are proficient as a standard” is unclear as a mechanical threshold for immunity/invalidity.]]`
+- `draft/sequences/error/seq-08.md:74` - `[[UNCLEAR: “usually only works … 1 time” is vague—unclear whether this is a hard limit or a typical outcome.]]`
+- `draft/sequences/error/seq-08.md:78` - `[[UNCLEAR: This “Special” appears to conflict with “can only make one person see,” and the exact rule interaction cannot be resolved.]]`
+- `draft/sequences/error/seq-09.md:22` - `[[UNCLEAR: “skills of detection/skills” is ambiguous (a category name, two categories, or a translation artifact).]]`
+- `draft/sequences/error/seq-09.md:24` - `[[UNCLEAR: The tier names repeat “proficiency,” making the intended progression unclear.]]`
+- `draft/sequences/error/seq-09.md:25` - `[[UNCLEAR: The comparison “twice as much as the inspiration of the potion” does not specify an unambiguous numeric procedure.]]`
+- `draft/sequences/error/seq-09.md:32` - `[[UNCLEAR: “an action that identifies the skill as a master” and the conversion of a full-round action are not mechanically precise.]]`
+- `draft/sequences/error/seq-09.md:36` - `[[UNCLEAR: The tier names repeat “proficient/proficient,” and “reach proficiency at most” conflicts with listing “advanced.”]]`
+- `draft/sequences/error/seq-09.md:70` - `[[UNCLEAR: “unwarranted targets” and the exact meaning of “ignoring Agility and dodge” are not defined here.]]`
+- `draft/sequences/error/seq-09.md:72` - `[[UNCLEAR: The stacking/selection procedure and what qualifies as “the character is higher than you” beyond the prior clause are unclear.]]`
+- `draft/sequences/error/seq-09.md:75` - `[[UNCLEAR: It is unclear whether this is a DV 15 identification check, a different check, or a flat success test.]]`
+- `draft/sequences/fate/seq-00.md:11` - `[[UNCLEAR: The RAW uses “him” but does not specify who “him” refers to.]]`
+- `draft/sequences/fate/seq-01.md:67` - `[[UNCLEAR: “Lowered” is undefined here; unclear if it is a condition, rank, or attribute.]]`
+- `draft/sequences/fate/seq-02.md:37` - `[[UNCLEAR: “ten times” is not clearly defined (flat 10 uses vs a multiplier, and what it modifies).]]`
+- `draft/sequences/fate/seq-03.md:33` - `[[UNCLEAR: “except for additional uses” does not specify what qualifies as an “additional use,” or how it changes this limitation.]]`
+- `draft/sequences/fate/seq-03.md:35` - `[[UNCLEAR: The “threshold” that invalidates the ability is referenced but not defined.]]`
+- `draft/sequences/fate/seq-04.md:52` - `[[UNCLEAR: “Select a doom check” is not defined in this section, so it is unclear what qualifies as a doom check or how it is chosen.]]`
+- `draft/sequences/fate/seq-04.md:76` - `[[UNCLEAR: “Choose the lucky numbers you specify” is not mechanically defined here (it is unclear what choosing numbers changes, if anything).]]`
+- `draft/sequences/fate/seq-04.md:105` - `[[UNCLEAR: The 61–80 doom effect includes garbled text (“lasts by default Er”) and its exact meaning is not recoverable from the RAW.]]`
+- `draft/sequences/fate/seq-04.md:106` - `[[UNCLEAR: The “dispelling doom” suppression (10 spirituality, once/day, one encounter) is not clearly tied to or distinguished from Remove Doom (3 spiritual...`
+- `draft/sequences/fate/seq-04.md:107` - `[[UNCLEAR: The backlash clause (“you will suffer three immediately”) is incomplete/unclear about what happens three times and how “geometric multiple” is app...`
+- `draft/sequences/fate/seq-06.md:24` - `[[UNCLEAR: RAW says you can foresee the “time and time” of the disaster (duplicated); it may intend additional information (e.g., type/location), but only “t...`
+- `draft/sequences/fate/seq-06.md:56` - `[[UNCLEAR: “for every target higher than 1 character” is not clear about what counts as a target or how the scaling applies.]]`
+- `draft/sequences/fate/seq-06.md:67` - `[[UNCLEAR: “common disaster” is not defined; it is unclear how the disaster is chosen and whether it references the Disasters list.]]`
+- `draft/sequences/fate/seq-06.md:72` - `[[UNCLEAR: RAW uses “mental storm” here while this ability is “Spiritual Storm”; the relationship between these terms is not explicit.]]`
+- `draft/sequences/fate/seq-07.md:22` - `[[UNCLEAR: “increase X luck” and “gain X disadvantages” do not specify whether these are modifiers to a check, changes to an attribute value, extra dice, or ...`
+- `draft/sequences/fate/seq-08.md:22` - `[[UNCLEAR: The third training tier repeats “proficient,” suggesting a mistranslation of the final tier name.]]`
+- `draft/sequences/fate/seq-08.md:23` - `[[UNCLEAR: “Master at most” is not defined (cap, tier name, or other limit is unclear).]]`
+- `draft/sequences/fate/seq-08.md:24` - `[[UNCLEAR: “Not just promoted” and “growth skills” are referenced without definitions or procedures.]]`
+- `draft/sequences/fate/seq-08.md:39` - `[[UNCLEAR: “Higher than 1 person” is not defined (Sequence, rank, category, or other threshold is unclear).]]`
+- `draft/sequences/fate/seq-08.md:45` - `[[UNCLEAR: “Targets higher than 1 character” is not defined (Sequence threshold, rank, or other classification is unclear).]]`
+- `draft/sequences/fate/seq-08.md:46` - `[[UNCLEAR: “Higher/lower level” is referenced without defining what level represents in this context.]]`
+- `draft/sequences/fate/seq-08.md:53` - `[[UNCLEAR: “Conduct Inspiration identification, as the difficulty of anti-divination” does not specify what sets the target DV or how the result is compared.]]`
+- `draft/sequences/fate/seq-08.md:64` - `[[UNCLEAR: “Instead of light/lightning” is unclear (damage type, effect type, or mistranslation).]]`
+- `draft/sequences/fate/seq-09.md:43` - `[[UNCLEAR: The clause “greater than 1 person of you” is not interpretable as written (comparison target/meaning unclear).]]`
+- `draft/sequences/fate/seq-09.md:71` - `[[UNCLEAR: The “organ” clause and “door not thickened” phrasing appear conflated; the intended scope of “seeing inside” is unclear.]]`
+- `draft/sequences/fool/seq-00.md:45` - `[[UNCLEAR: “locked at 1” could mean “set to 1” or “cannot change from 1”; RAW does not specify.]]`
+- `draft/sequences/fool/seq-02.md:15` - `[[UNCLEAR: It is not defined what the “nine” refers to (e.g., scenes, slots, uses) or what “angel level” means mechanically.]]`
+- `draft/sequences/fool/seq-02.md:69` - `[[UNCLEAR: The procedure for resolving “Miracle (Attribute)” checks via a “corresponding skill” is not fully defined (which skill, and when/why it replaces t...`
+- `draft/sequences/fool/seq-02.md:100` - `[[UNCLEAR: The phrase “make a wish to forget the past” is not defined (whether it is mandatory flavor, a separate wish, or a mechanical requirement).]]`
+- `draft/sequences/fool/seq-02.md:138` - `[[UNCLEAR: The “certain range” around the remains is not defined.]]`
+- `draft/sequences/fool/seq-03.md:20` - `[[UNCLEAR: “personality” is not defined as a stat/rank; unclear how to compare it.]]`
+- `draft/sequences/fool/seq-03.md:98` - `[[UNCLEAR: The above costs conflict with “consume 2 points of Spirituality” for the swift-action use; unclear whether 2 is a base cost, a minimum, or applies...`
+- `draft/sequences/fool/seq-03.md:124` - `[[UNCLEAR: “caps” is not defined; unclear what increases by 2.]]`
+- `draft/sequences/fool/seq-03.md:126` - `[[UNCLEAR: “upper limit has become 9” is not scoped (what limit? summons? scenes?); unclear what it applies to.]]`
+- `draft/sequences/fool/seq-03.md:139` - `[[UNCLEAR: “if he is told” is undefined (who is told, by whom, and what constitutes being told).]]`
+- `draft/sequences/fool/seq-04.md:52` - `[[UNCLEAR: “the control limit of the body's Secret Puppets” is not defined, so the maximum extended distance cannot be resolved from RAW.]]`
+- `draft/sequences/fool/seq-04.md:81` - `[[UNCLEAR: RAW states the Secret Puppet “can't move anything,” then later states Psychicism can make it move on its own; the exact scope/limits of movement a...`
+- `draft/sequences/fool/seq-04.md:93` - `[[UNCLEAR: The phrase “suffer the equivalent of your Sanity strikes … and enjoy a sanity check bonus” does not specify the exact mechanical procedure, timing...`
+- `draft/sequences/fool/seq-04.md:103` - `[[UNCLEAR: RAW does not specify the exact trigger window, method, or whether this recovery is part of a specific ability; it only states it can be done “as l...`
+- `draft/sequences/fool/seq-05.md:54` - `[[UNCLEAR: This concluding sentence is internally unclear/garbled and cannot be rephrased without guessing.]]`
+- `draft/sequences/fool/seq-05.md:55` - `[[UNCLEAR: This note states both that recently deceased corpses do not have astral threads and that they do.]]`
+- `draft/sequences/fool/seq-05.md:75` - `[[UNCLEAR: The sequencing of reductions, “additional identifications,” and “successful by default” across digestion milestones is ambiguous in timing and mea...`
+- `draft/sequences/fool/seq-06.md:31` - `[[UNCLEAR: The sentence is internally contradictory; it may mean “anyone but yourself,” but the RAW text is unclear.]]`
+- `draft/sequences/fool/seq-06.md:48` - `[[UNCLEAR: The last clause is grammatically unclear in RAW (“and even disguised him again”).]]`
+- `draft/sequences/fool/seq-06.md:66` - `[[UNCLEAR: “paper figurine substitute” may or may not refer to “Paper Doll Substitute,” but RAW uses different terms.]]`
+- `draft/sequences/fool/seq-06.md:67` - `[[UNCLEAR: The ability header says “Manipulate Flame,” but the rule text refers to “Manipulate Fire.”]]`
+- `draft/sequences/fool/seq-07.md:83` - `[[UNCLEAR: The interaction between Flame Jump, the paper doll double, and “will not suffer half the damage” is self-contradictory in phrasing and cannot be r...`
+- `draft/sequences/fool/seq-07.md:139` - `[[UNCLEAR: “free actions higher than 2 characters” is not a defined timing unit and cannot be interpreted reliably from RAW alone.]]`
+- `draft/sequences/fool/seq-07.md:162` - `[[UNCLEAR: “higher than 1-person” is not defined (rank/Sequence/creature size/other), so the threshold cannot be stated more precisely.]]`
+- `draft/sequences/fool/seq-07.md:180` - `[[UNCLEAR: “rd6” roll notation is not defined in RAW; the exact dice expression cannot be normalized safely.]]`
+- `draft/sequences/fool/seq-08.md:76` - `[[UNCLEAR: “danger from higher than 1 person” is unclear—likely “more than one person,” but the exact meaning (sources/targets/participants) is not explicit.]]`
+- `draft/sequences/fool/seq-08.md:90` - `[[UNCLEAR: RAW says “lose 2 disadvantages” on the second/third card; it is unclear whether this means you incur Disadvantages or remove them, though context ...`
+- `draft/sequences/fool/seq-08.md:100` - `[[UNCLEAR: “the confrontation is changed to +4 to benefit” is unclear on whether it replaces the auto-success in opposed situations or adds a bonus in place ...`
+- `draft/sequences/fool/seq-08.md:104` - `[[UNCLEAR: The progression “advanced to proficient” appears to reverse the ladder; the intended tier names/order are not explicit, but the required counts (2...`
+- `draft/sequences/fool/seq-09.md:45` - `[[UNCLEAR: The step “advanced → proficient” and the phrase “up to mastery” appear inconsistent; the destination level label for the 4-count step is unclear.]]`
+- `draft/sequences/fool/seq-09.md:50` - `[[UNCLEAR: “growth skill can be doubled … to add growth skills” is unclear in how it applies during character creation and what exactly is doubled.]]`
+- `draft/sequences/fool/seq-09.md:73` - `[[UNCLEAR: “higher than 1 person” is ambiguous (could mean higher level/Sequence than the diviner, or more than one entity/person).]]`
+- `draft/sequences/fool/seq-09.md:80` - `[[UNCLEAR: “targets higher than 1 character” is ambiguous (could mean higher level/Sequence than the diviner, or multiple characters).]]`
+- `draft/sequences/hanged-man/seq-01.md:47` - `[[UNCLEAR: The target/area procedure and the meaning/effect of “Fallen creatures” are not defined in this section.]]`
+- `draft/sequences/hanged-man/seq-01.md:65` - `[[UNCLEAR: It is unclear whether “-8” is a numeric penalty, “disadvantage,” or both, and how it is applied mechanically.]]`
+- `draft/sequences/hanged-man/seq-01.md:76` - `[[UNCLEAR: The final inheritance clause (“inherit it as a Secret Puppet or all the memories of the avatar era”) is grammatically unclear and may describe mul...`
+- `draft/sequences/hanged-man/seq-02.md:42` - `[[UNCLEAR: It is unclear whether the listed bonuses are fixed effects of this ability or only illustrative example values.]]`
+- `draft/sequences/hanged-man/seq-03.md:35` - `[[UNCLEAR: “-1, up to two times” during the madness time limit is not clearly defined (timing and how/when it stacks are ambiguous).]]`
+- `draft/sequences/hanged-man/seq-03.md:51` - `[[UNCLEAR: “1d3/1d6 sanity checks” does not specify when to use 1d3 vs 1d6, or whether it means one of the two, both, or a conditional choice.]]`
+- `draft/sequences/hanged-man/seq-03.md:60` - `[[UNCLEAR: “the reverse of Sequence 1 The Hanged Man” is not clearly defined (identity and rule scope are ambiguous).]]`
+- `draft/sequences/hanged-man/seq-04.md:26` - `[[UNCLEAR: RAW says “fighting and fighting (giant weapon)”; unclear whether this indicates two distinct skills or a duplicated term.]]`
+- `draft/sequences/hanged-man/seq-04.md:58` - `[[UNCLEAR: In this state, RAW says “deal additional and 1d2 sanity damage”; a value may be missing before “and”.]]`
+- `draft/sequences/hanged-man/seq-05.md:15` - `[[UNCLEAR: “Released directly” here overlaps with later “Release the soul” rules, but appears to describe a different effect (released yet still controlled).]]`
+- `draft/sequences/hanged-man/seq-05.md:33` - `[[UNCLEAR: “Biology” and “Erudition” are not defined here; unclear what “quickly upgraded” mechanically entails.]]`
+- `draft/sequences/hanged-man/seq-05.md:49` - `[[UNCLEAR: The exception clause is unclear about which abilities persist without remaining driven, and how “persistent” is determined.]]`
+- `draft/sequences/hanged-man/seq-05.md:51` - `[[UNCLEAR: “Released” here appears to mean a controlled, manifested soul with independent actions; its interaction with the separate “Release the soul” actio...`
+- `draft/sequences/hanged-man/seq-05.md:58` - `[[UNCLEAR: “Grazed extraordinary items” are not defined here; unclear what specifically is being switched.]]`
+- `draft/sequences/hanged-man/seq-05.md:71` - `[[UNCLEAR: “forced psychic psychics” and “problem opportunities” are unclear; trigger and exact meaning are not defined here.]]`
+- `draft/sequences/hanged-man/seq-06.md:39` - `[[UNCLEAR: Flesh Devour says Flesh Stacks equal a creature’s maximum health, but also provides a size-based Flesh Stack table with fixed/dice values.]]`
+- `draft/sequences/hanged-man/seq-06.md:50` - `[[UNCLEAR: The target/recipient of “restore their remaining Spirituality” and what “upper limit” refers to here is unclear.]]`
+- `draft/sequences/hanged-man/seq-06.md:61` - `[[UNCLEAR: The terms “promotion identification,” “jumping path,” and “Shepherd’s Grazing” are referenced without definitions here.]]`
+- `draft/sequences/hanged-man/seq-06.md:79` - `[[UNCLEAR: “+2 check” vs medium-sized creatures does not specify which checks or situations it applies to.]]`
+- `draft/sequences/hanged-man/seq-06.md:85` - `[[UNCLEAR: “upper limit of blood volume,” “life,” and “true health” are referenced without definitions here.]]`
+- `draft/sequences/hanged-man/seq-06.md:101` - `[[UNCLEAR: The limit “does not include beings higher than 1 person” is unclear.]]`
+- `draft/sequences/hanged-man/seq-06.md:103` - `[[UNCLEAR: “More than 1 digit will cause combat damage” is unclear.]]`
+- `draft/sequences/hanged-man/seq-06.md:113` - `[[UNCLEAR: Timing and consequences for “not digested and spit out in time” are not specified.]]`
+- `draft/sequences/hanged-man/seq-06.md:139` - `[[UNCLEAR: “Character higher” (difference thresholds and what counts as “holy” vs “divine power”) is undefined here, and the relationship between “20 Flesh S...`
+- `draft/sequences/hanged-man/seq-06.md:147` - `[[UNCLEAR: This cost does not clearly state whether it consumes blood, Flesh Stack, or both.]]`
+- `draft/sequences/hanged-man/seq-06.md:156` - `[[UNCLEAR: The meaning of “only consume blood or serve as a pile…as the upper limit of blood” is unclear.]]`
+- `draft/sequences/hanged-man/seq-06.md:161` - `[[UNCLEAR: “Flesh Mending” is referenced but not defined in this section.]]`
+- `draft/sequences/hanged-man/seq-06.md:172` - `[[UNCLEAR: It is unclear whether the detonation limit “equal to the number of Inspirations” is per action, per round, or per other interval.]]`
+- `draft/sequences/hanged-man/seq-06.md:229` - `[[UNCLEAR: “Burst” penalty timing (per shot vs per volley) is not fully specified.]]`
+- `draft/sequences/hanged-man/seq-07.md:35` - `[[UNCLEAR: Shadow Lurking lists effects with duplicated item numbering (②/③ repeated), making the intended grouping and ordering of sub-effects uncertain.]]`
+- `draft/sequences/hanged-man/seq-08.md:31` - `[[UNCLEAR: The clause “at the time of detection of 4 …” is unclear (what “detection of 4” refers to and how it modifies the above rule).]]`
+- `draft/sequences/hanged-man/seq-08.md:73` - `[[UNCLEAR: The success table says “rd8,” but the listed effects include two entries labeled “⑧,” implying more than eight outcomes or an alternate branch tha...`
+- `draft/sequences/hanged-man/seq-08.md:86` - `[[UNCLEAR: The failure text specifies “rd4,” but lists five outcomes (①–⑤), and it is unclear how the “luck check” interacts with the rd4 result.]]`
+- `draft/sequences/hanged-man/seq-09.md:27` - `[[UNCLEAR: This progression repeats “proficiency” and it is unclear which skill tier the final “proficiency” refers to.]]`
+- `draft/sequences/hanged-man/seq-09.md:79` - `[[UNCLEAR: “rd5” is not defined; it is unclear what die/roll method is intended.]]`
+- `draft/sequences/hanged-man/seq-09.md:106` - `[[UNCLEAR: The conditions list duplicates “③”, making later references to “③④⑤⑥” ambiguous.]]`
+- `draft/sequences/hanged-man/seq-09.md:142` - `[[UNCLEAR: The late-stage description is self-contradictory (“affect” vs “cannot affect”) and “changing” is unspecified.]]`
+- `draft/sequences/hanged-man/seq-09.md:147` - `[[UNCLEAR: “After its appearance” is not defined (conception vs manifestation), which affects the timing of the 1-month window.]]`
+- `draft/sequences/index.md:9` - `[[UNCLEAR: Source file contains no content; intended index structure is unknown.]]`
+- `draft/sequences/moon/seq-00.md:26` - `[[UNCLEAR: The text does not specify whether this removes Spirit costs you pay to affect the target, or the target’s own Spirit costs.]]`
+- `draft/sequences/moon/seq-00.md:33` - `[[UNCLEAR: The scope and exact mechanical impacts of these world-scale effects are not specified.]]`
+- `draft/sequences/moon/seq-01.md:26` - `[[UNCLEAR: RAW says Charm cannot be measured numerically, but also grants +4 and later references controlling a Charm value.]]`
+- `draft/sequences/moon/seq-01.md:46` - `[[UNCLEAR: “same personality” is undefined; the exact “disadvantages” here are not quantified; “identify it every round” is unclear in meaning and procedure.]]`
+- `draft/sequences/moon/seq-02.md:69` - `[[UNCLEAR: The text references “full activation” and “life grants” but does not clearly define what a “life grant” is or how it maps to actions/uses.]]`
+- `draft/sequences/moon/seq-02.md:101` - `[[UNCLEAR: “5 points above its height” is not clearly defined as a game value or what it is compared against.]]`
+- `draft/sequences/moon/seq-03.md:38` - `[[UNCLEAR: “difficulty is full” and “knowledge level of each month” are not defined here, so the trigger and scope of the +1 gain cannot be determined.]]`
+- `draft/sequences/moon/seq-03.md:48` - `[[UNCLEAR: It is unclear whether “If the difficulty is higher than 15” refers to the second Lucky Appraisal or another value.]]`
+- `draft/sequences/moon/seq-03.md:59` - `[[UNCLEAR: “restraint bonus of undead creatures” is not defined here (who gains what bonus, and how it applies).]]`
+- `draft/sequences/moon/seq-04.md:37` - `[[UNCLEAR: The restriction “only 1 for training” is not defined (what training is, and how it limits carrying/using figurines).]]`
+- `draft/sequences/moon/seq-04.md:39` - `[[UNCLEAR: “Consumed multiple times by the Stand-in described separately” references rules not present in this section.]]`
+- `draft/sequences/moon/seq-04.md:59` - `[[UNCLEAR: The RAW uses both “substitute state” and “avatar state” without explicitly stating they are the same state.]]`
+- `draft/sequences/moon/seq-04.md:62` - `[[UNCLEAR: The phrase “both the enemy and the enemy” is duplicative/self-contradictory and the intended affected sides are unclear.]]`
+- `draft/sequences/moon/seq-04.md:69` - `[[UNCLEAR: “Your damage” is not defined (what base value it refers to) and may depend on rules outside this section.]]`
+- `draft/sequences/moon/seq-04.md:90` - `[[UNCLEAR: “Each bat has 1 hit point equal to your current hit points” is internally inconsistent and may rely on missing swarm rules.]]`
+- `draft/sequences/moon/seq-04.md:92` - `[[UNCLEAR: “Cannot be hit hard” is undefined (likely refers to Hard Damage or a specific rules term).]]`
+- `draft/sequences/moon/seq-05.md:52` - `[[UNCLEAR: The note also states the first and last gemstones symbolize the crescent moon, which conflicts with the provided phase mapping where the first and...`
+- `draft/sequences/moon/seq-05.md:94` - `[[UNCLEAR: “Lunar lore level,” “in train,” and how the repeated +1 stacks with the base +1 are not fully defined.]]`
+- `draft/sequences/moon/seq-05.md:99` - `[[UNCLEAR: “equivalent to increasing his moon knowledge bonus” is not quantified.]]`
+- `draft/sequences/moon/seq-05.md:123` - `[[UNCLEAR: “at the disadvantage of being hit by the heart” and “holy attack is not greater than 1 character” are undefined.]]`
+- `draft/sequences/moon/seq-05.md:141` - `[[UNCLEAR: The text both permits and forbids free actions in the moonlight state.]]`
+- `draft/sequences/moon/seq-05.md:147` - `[[UNCLEAR: “one character” and how it combines with “two sequence levels below” are undefined.]]`
+- `draft/sequences/moon/seq-05.md:160` - `[[UNCLEAR: “excluding light/lightning” and “flash out of the range for range attack” are not precisely defined.]]`
+- `draft/sequences/moon/seq-05.md:173` - `[[UNCLEAR: How these multipliers stack with the Trained/Proficient/Advanced mobility scheme is not specified.]]`
+- `draft/sequences/moon/seq-06.md:82` - `[[UNCLEAR: “Stealth Potion” is referenced but not listed elsewhere in this section; it may refer to the Invisibility Potion or another potion.]]`
+- `draft/sequences/moon/seq-06.md:92` - `[[UNCLEAR: “higher than the drug maker” is unclear without the referenced comparison rules.]]`
+- `draft/sequences/moon/seq-07.md:12` - `[[UNCLEAR: The descriptor “blood adult” is not explained in RAW.]]`
+- `draft/sequences/moon/seq-07.md:22` - `[[UNCLEAR: “Bloodline legacy” as a replacement material is not defined in RAW.]]`
+- `draft/sequences/moon/seq-07.md:33` - `[[UNCLEAR: “Rapid growth category,” “up to proficiency,” “learned to erudition,” and the exact “number of growths” rule are not defined in RAW.]]`
+- `draft/sequences/moon/seq-07.md:74` - `[[UNCLEAR: The phrase “retain full physical defense against guns instead of light/lightning” is ambiguous in what it includes/excludes.]]`
+- `draft/sequences/moon/seq-07.md:81` - `[[UNCLEAR: The “light/lightning” interaction and what “avoid” means mechanically are not clearly defined in RAW.]]`
+- `draft/sequences/moon/seq-07.md:100` - `[[UNCLEAR: The condition phrasing around “moribund due to lack of health state” is unclear.]]`
+- `draft/sequences/moon/seq-07.md:134` - `[[UNCLEAR: “Jump path for promotion identification” is unclear.]]`
+- `draft/sequences/moon/seq-07.md:137` - `[[UNCLEAR: The trailing fragment “Object responsible” in RAW is not interpretable.]]`
+- `draft/sequences/moon/seq-07.md:218` - `[[UNCLEAR: “Follow the Player’s wishes” is unclear—whose wishes and what can be chosen is not specified.]]`
+- `draft/sequences/moon/seq-08.md:22` - `[[UNCLEAR: “rapid growth,” “proficiency,” and “growth” are referenced but not defined here.]]`
+- `draft/sequences/moon/seq-08.md:39` - `[[UNCLEAR: The meaning of “= inspired animals” and the intended limit are not defined here.]]`
+- `draft/sequences/moon/seq-08.md:42` - `[[UNCLEAR: “becomes a Sequence 9 Sanity Loss Identification -4 benefit” is not defined here.]]`
+- `draft/sequences/moon/seq-08.md:43` - `[[UNCLEAR: It is unclear who receives the -2 benefit and what “promoted” refers to.]]`
+- `draft/sequences/moon/seq-08.md:45` - `[[UNCLEAR: “1 character larger” is undefined (size category or wording artifact).]]`
+- `draft/sequences/moon/seq-09.md:36` - `[[UNCLEAR: “create higher Sequences” and “growth skills” are not defined here.]]`
+- `draft/sequences/moon/seq-09.md:49` - `[[UNCLEAR: “mod” is not defined here (e.g., module/adventure).]]`
+- `draft/sequences/moon/seq-09.md:50` - `[[UNCLEAR: “negligible” is not mechanically precise (does this remove the limit?).]]`
+- `draft/sequences/moon/seq-09.md:55` - `[[UNCLEAR: “credit appraisal” is not defined here.]]`
+- `draft/sequences/moon/seq-09.md:104` - `[[UNCLEAR: “uncertainty madness” and what “this benefit” refers to are not defined here.]]`
+- `draft/sequences/moon/seq-09.md:115` - `[[UNCLEAR: The drug-resistance rule is not clearly stated (especially “constitution/2” and timing).]]`
+- `draft/sequences/moon/seq-09.md:122` - `[[UNCLEAR: “Any damage can be recovered” is vague about scope and timing.]]`
+- `draft/sequences/moon/seq-09.md:128` - `[[UNCLEAR: When the repeated constitution checks occur is not specified here.]]`
+- `draft/sequences/moon/seq-09.md:164` - `[[UNCLEAR: “next judgment” is not specified (which check/roll).]]`
+- `draft/sequences/moon/seq-09.md:180` - `[[UNCLEAR: “1 higher than yours” is not defined here (e.g., Sequence/grade of material).]]`
+- `draft/sequences/mutant/seq-01.md:17` - `[[UNCLEAR: “near” may mean physically near or “close to becoming” a deity; the ritual target condition is ambiguous.]]`
+- `draft/sequences/mutant/seq-01.md:31` - `[[UNCLEAR: It is unclear what “deduct half of the sanity value” is deducted from (current Sanity, maximum Sanity, test result, or damage/loss from the test).]]`
+- `draft/sequences/mutant/seq-01.md:53` - `[[UNCLEAR: The method/timing for progressing between stages (and whether stages reset) is not specified.]]`
+- `draft/sequences/mutant/seq-02.md:17` - `[[UNCLEAR: Whether this “unofficial ceremony” is permitted by default or only with GM approval.]]`
+- `draft/sequences/mutant/seq-02.md:37` - `[[UNCLEAR: The RAW sentence is fragmented; this is the safest faithful reading.]]`
+- `draft/sequences/mutant/seq-02.md:43` - `[[UNCLEAR: The meaning of “(1/1d3) rationality test” is not defined here (difficulty vs. loss vs. other).]]`
+- `draft/sequences/mutant/seq-03.md:13` - `[[UNCLEAR: Source uses both “Disciple of Silence” and “Silent Disciple”; unclear if these refer to the same Sequence title or distinct terms.]]`
+- `draft/sequences/mutant/seq-03.md:36` - `[[UNCLEAR: The doll “can carry up to one” is missing an object (curse/ability/target/etc.).]]`
+- `draft/sequences/mutant/seq-04.md:42` - `[[UNCLEAR: “one level higher” and its interaction with “complete curse immunity” is not fully defined in the RAW.]]`
+- `draft/sequences/mutant/seq-04.md:58` - `[[UNCLEAR: “usually ignored” is not defined—unclear whether this is a play convention or a rules exception.]]`
+- `draft/sequences/mutant/seq-04.md:70` - `[[UNCLEAR: “identified” and what “attacking skills” means procedurally is not defined in the RAW.]]`
+- `draft/sequences/mutant/seq-04.md:72` - `[[UNCLEAR: RAW begins “If this is true” without a clear antecedent condition.]]`
+- `draft/sequences/mutant/seq-04.md:88` - `[[UNCLEAR: “Inspiration” and how it converts to “Strength damage dice” is not defined in the RAW.]]`
+- `draft/sequences/mutant/seq-04.md:111` - `[[UNCLEAR: “half of your health” and what it restores to is unclear as written in the RAW.]]`
+- `draft/sequences/mutant/seq-04.md:112` - `[[UNCLEAR: Meaning of “consume” here is not defined in the RAW.]]`
+- `draft/sequences/mutant/seq-05.md:40` - `[[UNCLEAR: “it” and the state change being referenced are not explicitly identified.]]`
+- `draft/sequences/mutant/seq-05.md:41` - `[[UNCLEAR: “it” and whether “spirit body” refers to shadow form or another state is not explicitly defined.]]`
+- `draft/sequences/mutant/seq-05.md:91` - `[[UNCLEAR: The exact meaning of “travel through the spirit world in the spirit world” is unclear as written.]]`
+- `draft/sequences/mutant/seq-05.md:102` - `[[UNCLEAR: “you don’t need to simply speak” is unclear as a rule statement.]]`
+- `draft/sequences/mutant/seq-05.md:109` - `[[UNCLEAR: “larger than you by one person” is not clearly defined.]]`
+- `draft/sequences/mutant/seq-05.md:125` - `[[UNCLEAR: The passive defense tradeoff “against firearms instead of light/lightning” is unclear as written.]]`
+- `draft/sequences/mutant/seq-05.md:137` - `[[UNCLEAR: The action type for possession at range conflicts with the stated “move action.”]]`
+- `draft/sequences/mutant/seq-05.md:212` - `[[UNCLEAR: “treat your Inspiration as Strength damage dice” is not fully specified (conversion method not stated).]]`
+- `draft/sequences/mutant/seq-05.md:216` - `[[UNCLEAR: “wronged soul” is not clearly defined; likely refers to a resentful soul/wraith state.]]`
+- `draft/sequences/mutant/seq-05.md:235` - `[[UNCLEAR: “higher than 1 person” is unclear.]]`
+- `draft/sequences/mutant/seq-05.md:244` - `[[UNCLEAR: “higher than 1 character” is unclear (level/Sequence?).]]`
+- `draft/sequences/mutant/seq-05.md:261` - `[[UNCLEAR: “spirit points” may be the same as “spirituality points,” but the text uses both terms.]]`
+- `draft/sequences/mutant/seq-06.md:47` - `[[UNCLEAR: “This physique can only consume your own physique” is not mechanically clear.]]`
+- `draft/sequences/mutant/seq-06.md:54` - `[[UNCLEAR: “die without a ghost” is not defined here.]]`
+- `draft/sequences/mutant/seq-06.md:154` - `[[UNCLEAR: “benefits of fake special action” is not defined here.]]`
+- `draft/sequences/mutant/seq-06.md:163` - `[[UNCLEAR: “you grid” is not mechanically clear.]]`
+- `draft/sequences/mutant/seq-06.md:166` - `[[UNCLEAR: “ignoring the ability to fight physical and will defense” is not mechanically clear.]]`
+- `draft/sequences/mutant/seq-07.md:35` - `[[UNCLEAR: “the physical of 1d6 curse + 1d6 poison + strength damage dice” is ambiguous about damage structure; preserved as-written in a clarified layout.]]`
+- `draft/sequences/mutant/seq-07.md:75` - `[[UNCLEAR: “excluding blows from more than 1 character” is ambiguous (multiple attackers vs. multiple hits vs. another rule term).]]`
+- `draft/sequences/mutant/seq-07.md:133` - `[[UNCLEAR: “If you don't” is ambiguous (fail the will test vs. refuse another option); phrasing preserved.]]`
+- `draft/sequences/mutant/seq-08.md:43` - `[[UNCLEAR: "rd20s" is undefined here (likely intended to indicate d20 rolls), but it changes how Sanity checks resolve.]]`
+- `draft/sequences/mutant/seq-09.md:49` - `[[UNCLEAR: The phrase “will not change from +2 to +2 4” is garbled; the intended stacking/bonus clarification cannot be resolved.]]`
+- `draft/sequences/mutant/seq-09.md:60` - `[[UNCLEAR: “a person greater than 1 of you” does not specify what is being compared (rank, attribute, or other).]]`
+- `draft/sequences/mutant/seq-09.md:84` - `[[UNCLEAR: “cannot be used… excluding divination functions” is internally unclear about what is excluded from the restriction.]]`
+- `draft/sequences/mutant/seq-09.md:107` - `[[UNCLEAR: The sentence about undead creatures is incomplete and ends abruptly.]]`
+- `draft/sequences/mystery-pryer/seq-01.md:32` - `[[UNCLEAR: The RAW sentence about “real meaning” is grammatically unclear; interpreted as the written knowledge becoming an extraordinary existence with powe...`
+- `draft/sequences/mystery-pryer/seq-01.md:36` - `[[UNCLEAR: It is unclear how the “separate calculation” relates to the 3-point cost; text preserved as written.]]`
+- `draft/sequences/mystery-pryer/seq-01.md:38` - `[[UNCLEAR: “The screen can only be used” appears mistranslated; kept verbatim.]]`
+- `draft/sequences/mystery-pryer/seq-02.md:44` - `[[UNCLEAR: RAW does not specify which “corresponding ability” this refers to.]]`
+- `draft/sequences/mystery-pryer/seq-02.md:62` - `[[UNCLEAR: RAW reads “marionette master My will defense”; the intended defender/possessor of the Will Defense is unclear.]]`
+- `draft/sequences/mystery-pryer/seq-03.md:14` - `[[UNCLEAR: RAW labels this as an "unofficial ceremony"; it is unclear whether it is required, optional, or non-canonical for advancement.]]`
+- `draft/sequences/mystery-pryer/seq-04.md:40` - `[[UNCLEAR: “uses the skill” could refer to the spot spell specifically or to a different detection skill, changing when detection is possible.]]`
+- `draft/sequences/mystery-pryer/seq-04.md:47` - `[[UNCLEAR: “its path” could mean the creature’s own path, a Pathway, or another classification used by the setting.]]`
+- `draft/sequences/mystery-pryer/seq-06.md:15` - `[[UNCLEAR: The term "erudition" is not defined here as a rank/value for Occult or Occult Language.]]`
+- `draft/sequences/mystery-pryer/seq-07.md:35` - `[[UNCLEAR: The interaction among “voyeur,” “recorder,” recording/stealing, and the “scroll” exception is mechanically unclear in the RAW.]]`
+- `draft/sequences/mystery-pryer/seq-07.md:49` - `[[UNCLEAR: Rounding for (Inspiration/2) is not specified when it is not an integer.]]`
+- `draft/sequences/mystery-pryer/seq-08.md:25` - `[[UNCLEAR: The phrase “will not change from +2 to +2 4” appears corrupted; intended modifier text cannot be resolved safely.]]`
+- `draft/sequences/mystery-pryer/seq-08.md:48` - `[[UNCLEAR: “Education or Inspiration + Occult” could mean choose Education or Inspiration (then add Occult), but the exact interpretation of “or” is not spec...`
+- `draft/sequences/mystery-pryer/seq-08.md:60` - `[[UNCLEAR: RAW text “24 Disappears after hours” is corrupted; duration is presented as 24 hours as the safest faithful reading.]]`
+- `draft/sequences/mystery-pryer/seq-08.md:97` - `[[UNCLEAR: The phrase “against guns instead of light/lightning” is unclear in meaning/context; the mechanical intent cannot be confidently resolved beyond th...`
+- `draft/sequences/mystery-pryer/seq-09.md:22` - `[[UNCLEAR: The RAW mixes “mysticism / mysticism language” and “learn it twice” without defining the exact skills/states or what “at most” restricts.]]`
+- `draft/sequences/mystery-pryer/seq-09.md:26` - `[[UNCLEAR: “2 times the inspiration” is not operationally defined (multiplier vs. bonus pool), and “occult-related growth skills” is not enumerated.]]`
+- `draft/sequences/mystery-pryer/seq-09.md:53` - `[[UNCLEAR: The RAW ends with “way.” and may be referring to “Pathway,” but the exact intent is unclear.]]`
+- `draft/sequences/mystery-pryer/seq-09.md:67` - `[[UNCLEAR: “Succeed or fail in this area” does not specify what roll/action is being resolved.]]`
+- `draft/sequences/mystery-pryer/seq-09.md:76` - `[[UNCLEAR: The RAW alternates between “Pryer” and “voyeur,” which may be referring to the same Pathway/role.]]`
+- `draft/sequences/mystery-pryer/seq-09.md:91` - `[[UNCLEAR: The exception “unless your reputation is proficient” does not state the alternative calculation.]]`
+- `draft/sequences/mystery-pryer/seq-09.md:119` - `[[UNCLEAR: “Voyeures” and “Sequences that mention ritual abilities” are not identified by name here.]]`
+- `draft/sequences/mystery-pryer/seq-09.md:139` - `[[UNCLEAR: “Higher than 1 person” is not a standard comparator and may mean “more than one” or “higher-level than you by 1,” but the RAW is not explicit.]]`
+- `draft/sequences/night/seq-01.md:11` - `[[UNCLEAR: The RAW lists two different titles for Sequence 1 (“Knight of misfortune” and “Angel of the Dark Path”), and it is not clear whether one is the Pa...`
+- `draft/sequences/night/seq-02.md:56` - `[[UNCLEAR: The source states “same level as you or one lower,” which is counterintuitive and may be a translation error about which levels are immune.]]`
+- `draft/sequences/night/seq-02.md:63` - `[[UNCLEAR: The procedure and requirements for “cooperating with the secretization” to extract characteristics are not defined.]]`
+- `draft/sequences/night/seq-03.md:55` - `[[UNCLEAR: Option 4 uses undefined terms (“identified,” “Substitute,” “incremental bonus of 1d8”) and the exact interaction between substitutes, remaining da...`
+- `draft/sequences/night/seq-04.md:38` - `[[UNCLEAR: “the target’s all skill identification -4” does not specify whether this penalty applies to a specific skill, to all identification-related checks...`
+- `draft/sequences/night/seq-06.md:30` - `[[UNCLEAR: “skill and attribute identification −4 is unfavorable” is not defined (what it applies to and what “unfavorable” means).]]`
+- `draft/sequences/night/seq-06.md:34` - `[[UNCLEAR: “other than this or higher than 1 undead creatures” is ambiguous (which undead qualify and what “higher than 1” refers to).]]`
+- `draft/sequences/night/seq-06.md:37` - `[[UNCLEAR: This special rule uses “higher than 1” and “full effect … is halved” without defining the category or which parts of Requiem are halved, and refer...`
+- `draft/sequences/night/seq-07.md:20` - `[[UNCLEAR: “skill growth of Sequence 9… learned to masters… growths increase sequentially” is not clearly defined as a mechanic here.]]`
+- `draft/sequences/night/seq-07.md:50` - `[[UNCLEAR: The text says “the awake target has advantages/disadvantages to it” without specifying direction or the exact interaction.]]`
+- `draft/sequences/night/seq-07.md:59` - `[[UNCLEAR: “exit the dream without any action” is stated without specifying timing/trigger beyond “by default”.]]`
+- `draft/sequences/night/seq-07.md:66` - `[[UNCLEAR: “within a short period of time” is not defined, and it is unclear when this “direct” Will test occurs relative to the per-round test above.]]`
+- `draft/sequences/night/seq-07.md:67` - `[[UNCLEAR: “the two checks” are not explicitly identified; interpreted as the two leave/realize checks described in this subsection.]]`
+- `draft/sequences/night/seq-07.md:102` - `[[UNCLEAR: The text uses both “Dexterity” (Attribute Gain) and “Agility” (+2 in dream) without clarifying whether they are the same attribute.]]`
+- `draft/sequences/night/seq-07.md:105` - `[[UNCLEAR: “Layer power capture” is not defined.]]`
+- `draft/sequences/night/seq-07.md:108` - `[[UNCLEAR: The relationship between “spirit body,” “real spirit body,” and the physical body is asserted but not mechanically defined here.]]`
+- `draft/sequences/night/seq-07.md:135` - `[[UNCLEAR: “manipulate the spirit body… while the main body controls the enemy” is not clearly defined as a mechanic here.]]`
+- `draft/sequences/night/seq-08.md:21` - `[[UNCLEAR: The “skill growth of Sequence 9… learned to be erudite” sentence is not clearly translated, so the exact rule being granted is unclear.]]`
+- `draft/sequences/night/seq-08.md:28` - `[[UNCLEAR: “Acceptable” and “affected within acceptable limits” are undefined, and the exact targeting beyond the facing direction is unclear.]]`
+- `draft/sequences/night/seq-08.md:43` - `[[UNCLEAR: The text uses “stupor state” and separately defines “Drowsy state,” but does not clearly state whether these are the same condition; “ordinary cre...`
+- `draft/sequences/night/seq-08.md:57` - `[[UNCLEAR: “0/1 Sanity loss” is ambiguous (unclear whether it is optional, random, conditional, or a notation for a specific rule).]]`
+- `draft/sequences/night/seq-09.md:49` - `[[UNCLEAR: “Complete physical defense against firearms instead of light/lightning” is ambiguous about how Light/Lightning interacts with firearm defense.]]`
+- `draft/sequences/night/seq-09.md:82` - `[[UNCLEAR: The stated “each Sequence is reduced by 1 hour” conflicts with the explicit Sequence 5 rest time of half an hour.]]`
+- `draft/sequences/night/seq-09.md:102` - `[[UNCLEAR: “Enjoy all surprises/sneaks at night benefit” is ambiguous about what specific benefit is gained.]]`
+- `draft/sequences/paragon/seq-00.md:9` - `[[UNCLEAR: The RAW text provides only the sequence title; the Pathway name and all mechanical sections (e.g., Advancement, Extraordinary Abilities) are not p...`
+- `draft/sequences/paragon/seq-03.md:25` - `[[UNCLEAR: The size/center/boundary of “the entire area” is not defined.]]`
+- `draft/sequences/paragon/seq-03.md:30` - `[[UNCLEAR: “physical contact with damage” is not precisely defined (e.g., whether you must be the source of the damage).]]`
+- `draft/sequences/paragon/seq-04.md:89` - `[[UNCLEAR: It is not stated whether this Constitution increase is permanent, temporary, or applies to the maker vs. the recipient.]]`
+- `draft/sequences/paragon/seq-04.md:101` - `[[UNCLEAR: “Temporary health” is not defined here; it may refer to temporary hit points, but the mapping is not explicitly stated.]]`
+- `draft/sequences/paragon/seq-04.md:119` - `[[UNCLEAR: “Characteristics of the same personality” and the exact calculation procedure are not defined here.]]`
+- `draft/sequences/paragon/seq-04.md:126` - `[[UNCLEAR: The subject and effect of this sentence are ambiguous (what item, and what “activity” sleeps).]]`
+- `draft/sequences/paragon/seq-05.md:11` - `[[UNCLEAR: The RAW does not state which **Pathway** this Sequence belongs to; the standard Sequence heading format requires a Pathway name.]]`
+- `draft/sequences/paragon/seq-05.md:21` - `[[UNCLEAR: Sentence is cut off in RAW; the ritual’s final step is incomplete.]]`
+- `draft/sequences/paragon/seq-05.md:50` - `[[UNCLEAR: “make the movement of these targets minus your movement” and “you will not be able to move” are not precisely defined in RAW.]]`
+- `draft/sequences/paragon/seq-05.md:67` - `[[UNCLEAR: The mapping of the +1d6/+2d6/+3d6 increases to “dark, fallen, and undead” is not explicitly stated.]]`
+- `draft/sequences/paragon/seq-05.md:113` - `[[UNCLEAR: “except for X and Y, all creatures are considered blind, including yourself” is self-conflicting if you are (or are not) among the exceptions.]]`
+- `draft/sequences/paragon/seq-05.md:128` - `[[UNCLEAR: “in the area outside the area” and “Saturn's satellite ring offset” are unclear; the interaction with Satellite Rings is not precisely stated.]]`
+- `draft/sequences/paragon/seq-05.md:137` - `[[UNCLEAR: The second target is both used for movement subtraction and also stated as “unaffected.”]]`
+- `draft/sequences/paragon/seq-05.md:156` - `[[UNCLEAR: “rd24” is not defined; RAW does not specify what die/mechanic “rd24” represents.]]`
+- `draft/sequences/paragon/seq-05.md:166` - `[[UNCLEAR: “rd24” is undefined, and “cycled in order from small to large” lacks a defined ordering list in RAW.]]`
+- `draft/sequences/paragon/seq-05.md:168` - `[[UNCLEAR: “God of War timeline,” “changed to 1d6,” and “moon is changed to stars” are not fully defined in RAW.]]`
+- `draft/sequences/paragon/seq-06.md:26` - `[[UNCLEAR: steam-material calculation references “reputation level,” “reputation value ×5,” “proficiency,” and “advanced” without defining how these tiers/va...`
+- `draft/sequences/paragon/seq-06.md:36` - `[[UNCLEAR: “represents part of the information” is not defined mechanically (what information, and how it is obtained)]]`
+- `draft/sequences/paragon/seq-06.md:58` - `[[UNCLEAR: “the holding Some move temporarily +3” is unclear (likely a movement-related bonus, but the stat/name is not defined)]]`
+- `draft/sequences/paragon/seq-06.md:80` - `[[UNCLEAR: unclear whether “6 bullets to 7 bullets” is an optional improvement, and how it coexists with “consumption of 6 bullets remains the same”]]`
+- `draft/sequences/paragon/seq-06.md:116` - `[[UNCLEAR: the difficulty-adjustment sentence contains fragments (“and one higher,” “difficulty of personality”) that do not specify exactly what they modify]]`
+- `draft/sequences/paragon/seq-06.md:165` - `[[UNCLEAR: RAW says “strength of these three effects” while the branch is “2–3 negative effects”]]`
+- `draft/sequences/paragon/seq-06.md:183` - `[[UNCLEAR: “1 indivual” is likely “1 individual ability,” but RAW wording is unclear]]`
+- `draft/sequences/paragon/seq-07.md:16` - `[[UNCLEAR: “rapid growth category of Sequence 9, up to mastery” is referenced but not defined here.]]`
+- `draft/sequences/paragon/seq-07.md:34` - `[[UNCLEAR: “larger than 1 character of you” is not defined (size/scale is ambiguous).]]`
+- `draft/sequences/paragon/seq-07.md:75` - `[[UNCLEAR: “every time a Sequence is improved” could refer to multiple triggers (character advancement vs. item state) and is not fully specified.]]`
+- `draft/sequences/paragon/seq-07.md:76` - `[[UNCLEAR: “upgrade of 1 character” and how it controls repeated benefits is not defined.]]`
+- `draft/sequences/paragon/seq-09.md:20` - `[[UNCLEAR: Skill-rank phrasing and the “proficient…proficient in training” wording is inconsistent in this section.]]`
+- `draft/sequences/paragon/seq-09.md:21` - `[[UNCLEAR: “Included… but calculated independently” and “not enjoyed repeatedly” are unclear in how they interact.]]`
+- `draft/sequences/paragon/seq-09.md:23` - `[[UNCLEAR: “Not just promoted,” “triple potion,” and “growth skills” are not defined in this section.]]`
+- `draft/sequences/paragon/seq-09.md:38` - `[[UNCLEAR: The “advanced to proficient” step reverses the apparent progression order, but the timing is reproduced as written.]]`
+- `draft/sequences/paragon/seq-09.md:81` - `[[UNCLEAR: “+1 is beneficial” is reproduced as written; whether these are separate effects is not defined here.]]`
+- `draft/sequences/reader/seq-01.md:54` - `[[UNCLEAR: “Ignores Personality” but also references “things higher than your Personality”; the threshold/interaction is not clearly defined.]]`
+- `draft/sequences/reader/seq-01.md:63` - `[[UNCLEAR: The “past or future separately once” restriction is ambiguous about whether both can be taken in the same round or only one total per round.]]`
+- `draft/sequences/reader/seq-02.md:30` - `[[UNCLEAR: The “100 per round” reading speed does not specify the unit (page, item, etc.).]]`
+- `draft/sequences/reader/seq-02.md:37` - `[[UNCLEAR: The trigger/decision procedure for whether an item activates is not fully specified beyond “relationship with its owner”.]]`
+- `draft/sequences/reader/seq-02.md:40` - `[[UNCLEAR: “Suppressed” is not defined here (method/threshold unclear).]]`
+- `draft/sequences/reader/seq-02.md:54` - `[[UNCLEAR: Distance scaling “five times your Strength away” lacks units/definition here.]]`
+- `draft/sequences/reader/seq-02.md:57` - `[[UNCLEAR: “Great Weapon” vs “Giant Weapon” terminology may be inconsistent.]]`
+- `draft/sequences/reader/seq-02.md:59` - `[[UNCLEAR: “take up all” is incomplete (all actions? all movement? other).]]`
+- `draft/sequences/reader/seq-02.md:62` - `[[UNCLEAR: “moving force” is not defined here (likely movement stat).]]`
+- `draft/sequences/reader/seq-02.md:65` - `[[UNCLEAR: It is unclear whether you choose one action type, the target’s next action, or all listed actions.]]`
+- `draft/sequences/reader/seq-02.md:73` - `[[UNCLEAR: The requirement that an invisible/hidden object be “exposed” is potentially contradictory.]]`
+- `draft/sequences/reader/seq-02.md:77` - `[[UNCLEAR: The meaning of “position in your known history” and “whether it is connected” is not defined here.]]`
+- `draft/sequences/reader/seq-03.md:49` - `[[UNCLEAR: “more reasoning content of the basic deduction” is referenced but not defined here.]]`
+- `draft/sequences/reader/seq-03.md:55` - `[[UNCLEAR: “lowest level 1” is unclear (always level 1 vs. example/typo).]]`
+- `draft/sequences/reader/seq-03.md:64` - `[[UNCLEAR: “gain an advantage” is not defined (type/bonus/duration not specified).]]`
+- `draft/sequences/reader/seq-03.md:72` - `[[UNCLEAR: “higher than 1 personality” is referenced but not defined here.]]`
+- `draft/sequences/reader/seq-04.md:72` - `[[UNCLEAR: “Used in reverse” and “go back to the previous things” are not precisely defined in the source text.]]`
+- `draft/sequences/reader/seq-05.md:47` - `[[UNCLEAR: The “Special” clause is self-contradictory/ambiguous about when effects are halved and what “meet your level” restricts.]]`
+- `draft/sequences/reader/seq-05.md:104` - `[[UNCLEAR: “Up to 1 character higher than you” is unclear (level/Sequence/other scaling).]]`
+- `draft/sequences/reader/seq-06.md:44` - `[[UNCLEAR: “analysis -1 disadvantage” and the “Sanity exceeds the upper limit” bonus condition are not defined clearly.]]`
+- `draft/sequences/reader/seq-06.md:45` - `[[UNCLEAR: “People who are higher than 2” and “for each character higher than you in this ability” do not specify the comparison measure.]]`
+- `draft/sequences/reader/seq-06.md:111` - `[[UNCLEAR: “higher than the Sequence or character,” “Sequence level or personality,” and “lose spellcasting actions” are not defined precisely enough to reso...`
+- `draft/sequences/reader/seq-07.md:36` - `[[UNCLEAR: The terms “blasting identification” and “Impact identification” are unclear (possible mistranslations or specific named checks).]]`
+- `draft/sequences/reader/seq-07.md:37` - `[[UNCLEAR: The stacking rule about actions that “gain benefits” (e.g., Gain Momentum, Aiming) is unclear; the text says they do not go from +2 to +4 except f...`
+- `draft/sequences/reader/seq-08.md:20` - `[[UNCLEAR: The text uses both “level” and “grade” for skill improvement; it is not clear whether these are distinct rank systems or synonymous.]]`
+- `draft/sequences/reader/seq-08.md:23` - `[[UNCLEAR: “Proficient” is listed twice in the progression (2 trainings and 4 trainings).]]`
+- `draft/sequences/reader/seq-08.md:27` - `[[UNCLEAR: “Not just promoted” and “add growth skills” are not clearly defined in this passage.]]`
+- `draft/sequences/reader/seq-08.md:68` - `[[UNCLEAR: This passage references Difficulty Value 15, but the listed Action Deduction result tiers start at Difficulty Value 20.]]`
+- `draft/sequences/reader/seq-09.md:75` - `[[UNCLEAR: “When picking up a reader with sequence 9 or higher” could mean character creation, recruitment, or another process; the rule below is preserved a...`
+- `draft/sequences/reader/seq-09.md:132` - `[[UNCLEAR: The text says each type of extraordinary knowledge can gain “a total of six skill levels” from the channels above, “that is, a +8 bonus,” which do...`
+- `draft/sequences/reader/seq-09.md:152` - `[[UNCLEAR: “identified” is not defined here; it is unclear what procedure triggers the +1 level.]]`
+- `draft/sequences/reader/seq-09.md:165` - `[[UNCLEAR: “Sequence level can be converted into the bonus value of reading knowledge… 9–0, a total of 10 sequence levels… can reach +10” does not specify th...`
+- `draft/sequences/red-priest/seq-00.md:16` - `[[UNCLEAR: The ritual outcome requirement is incomplete ("win enough" of what).]]`
+- `draft/sequences/red-priest/seq-01.md:9` - `[[UNCLEAR: The Pathway for this Sequence is not specified in the provided text.]]`
+- `draft/sequences/red-priest/seq-02.md:41` - `[[UNCLEAR: “lightning damage identification” is undefined, and the Thunderstorm movement hindrance has no specified mechanical modifier.]]`
+- `draft/sequences/red-priest/seq-02.md:67` - `[[UNCLEAR: “counter the opponent’s physical defenses” does not specify what defenses are negated or how the check is resolved.]]`
+- `draft/sequences/red-priest/seq-03.md:39` - `[[UNCLEAR: “Maximum success range” and what it means for its increase to be a “normal state” are not defined here.]]`
+- `draft/sequences/red-priest/seq-03.md:42` - `[[UNCLEAR: The “hard requirement on the number of people” is not stated for the normal use, so it is unclear what requirement is being removed.]]`
+- `draft/sequences/red-priest/seq-03.md:53` - `[[UNCLEAR: “Above additional contents” most naturally refers to the Extra list, but the reference is not explicit.]]`
+- `draft/sequences/red-priest/seq-04.md:55` - `[[UNCLEAR: In Flame form, it is unclear how the 1d10 damage for spellcasting/attack rolls interacts with the 2d10 damage for full-round actions when both cou...`
+- `draft/sequences/red-priest/seq-05.md:68` - `[[UNCLEAR: “identification > its 'Agility + Dodge'” uses “identification” as a threshold/check term that is not defined in this section.]]`
+- `draft/sequences/red-priest/seq-05.md:80` - `[[UNCLEAR: “Carnage” is later described as “Slaughter,” and it references “Critical Attack” despite the options here being “Weakness Attack” and “Fatal Attac...`
+- `draft/sequences/red-priest/seq-06.md:24` - `[[UNCLEAR: “The loss of” does not specify what is being lost (HP, resources, etc.), so the growth trigger cannot be precisely interpreted.]]`
+- `draft/sequences/red-priest/seq-07.md:74` - `[[UNCLEAR: The source text does not specify who/what “suffer 2d6 fire damage” applies to in the Spreading Flames option.]]`
+- `draft/sequences/red-priest/seq-07.md:109` - `[[UNCLEAR: The source text references “effect of = red flame spear” without defining what “red flame spear” is in this section.]]`
+- `draft/sequences/red-priest/seq-07.md:111` - `[[UNCLEAR: The source text says “turned into a musket” in this description despite describing a spear transformation; the intended term is unclear.]]`
+- `draft/sequences/red-priest/seq-08.md:18` - `[[UNCLEAR: The trigger sentence for gaining “growth” is grammatically unclear (“stronger than you complete”), so the exact condition for when “growth” is gai...`
+- `draft/sequences/red-priest/seq-08.md:45` - `[[UNCLEAR: “On the basis of the effect of only one side” references a choice or prior effect not defined in this excerpt, so what it modifies cannot be resol...`
+- `draft/sequences/red-priest/seq-08.md:56` - `[[UNCLEAR: The clause “if the provocateur does not cause 1 damage” is unclear about who must deal damage to whom, and how this interacts with relieving Rage.]]`
+- `draft/sequences/red-priest/seq-08.md:58` - `[[UNCLEAR: “Half meditation can be changed to (1) effect” does not specify what is being changed or how full meditation is “halved,” so the exact mechanical ...`
+- `draft/sequences/red-priest/seq-08.md:80` - `[[UNCLEAR: The text says the confrontation difficulty “is changed to the following,” but no “following” difficulty is provided within this excerpt.]]`
+- `draft/sequences/red-priest/seq-09.md:44` - `[[UNCLEAR: The text repeats “Proficiency” for two different training thresholds, making the intended progression ambiguous.]]`
+- `draft/sequences/red-priest/seq-09.md:72` - `[[UNCLEAR: This item mixes +2 and +4 modifiers with exclusions in a way that does not clearly specify which checks receive which bonus.]]`
+- `draft/sequences/red-priest/seq-09.md:84` - `[[UNCLEAR: “Multiply by 5; Proficiency does not count” is not clearly tied to a stated condition (e.g., when Reputation is Advanced), so its trigger is ambig...`
+- `draft/sequences/red-priest/seq-09.md:167` - `[[UNCLEAR: The text uses both “Fire Crow” and “Fire Raven” for what may be the same ability, but does not confirm whether they are identical.]]`
+- `draft/sequences/red-priest/seq-09.md:177` - `[[UNCLEAR: “guns instead of light/lightning” is unclear as written; the comparison category is not defined.]]`
+- `draft/sequences/red-priest/seq-09.md:184` - `[[UNCLEAR: This sentence states you “lose” agility/dodge defense yet also gain an additional dodge bonus; the intended net effect is ambiguous.]]`
+- `draft/sequences/red-priest/seq-09.md:217` - `[[UNCLEAR: The text alternates between “vision,” “spiritual vision,” and “Spirit Vision” without clearly defining whether these are identical states or disti...`
+- `draft/sequences/sun/seq-00.md:19` - `[[UNCLEAR: “Illuminate the entire world and an entire galaxy” may be setting flavor rather than a defined mechanical range.]]`
+- `draft/sequences/sun/seq-00.md:24` - `[[UNCLEAR: “Sway energy” is not mechanically defined in this text.]]`
+- `draft/sequences/sun/seq-00.md:29` - `[[UNCLEAR: “Ultra-high temperature” has no defined mechanical meaning here (e.g., damage, penetration, or special effects).]]`
+- `draft/sequences/sun/seq-02.md:35` - `[[UNCLEAR: “sacred damage lower than your personality” is undefined—unclear what “personality” threshold means and how “sacred damage” is ranked.]]`
+- `draft/sequences/sun/seq-02.md:39` - `[[UNCLEAR: “Darkness Spear and other solar powers” appears contradictory (Darkness vs solar); unclear which category is intended.]]`
+- `draft/sequences/sun/seq-03.md:38` - `[[UNCLEAR: “excluding the extra spirituality obtained by special” does not clearly define which bonuses are excluded.]]`
+- `draft/sequences/sun/seq-03.md:40` - `[[UNCLEAR: The “use without consuming justice” clause below does not state whether the 3 Spirituality cost is also waived.]]`
+- `draft/sequences/sun/seq-03.md:49` - `[[UNCLEAR: The RAW alternates between “can’t see your existence” and “can see it, but the light perception is shifted.”]]`
+- `draft/sequences/sun/seq-03.md:56` - `[[UNCLEAR: The clause about “glimpsing their release process in the invisible realm” is unclear as a requirement vs. an alternative condition.]]`
+- `draft/sequences/sun/seq-03.md:66` - `[[UNCLEAR: The distance-restoration example is difficult to parse and may imply contradictory positioning changes.]]`
+- `draft/sequences/sun/seq-03.md:75` - `[[UNCLEAR: It is unclear when to apply the +10 “identification difficulty” vs. the -10 “break free” difficulty, and to whom each applies.]]`
+- `draft/sequences/sun/seq-03.md:82` - `[[UNCLEAR: The “use restriction of justice ability” is referenced but not defined in this section.]]`
+- `draft/sequences/sun/seq-04.md:53` - `[[UNCLEAR: The Sequence 3 enhancement text contains multiple clause fragments; barrier interaction and the exact meaning of “invincible for you”/“shock throu...`
+- `draft/sequences/sun/seq-04.md:64` - `[[UNCLEAR: This ability alternates between “Spear of Darkness,” “gun of darkness,” and “Spear of Radiance”; it is unclear if these are naming variants of the...`
+- `draft/sequences/sun/seq-04.md:77` - `[[UNCLEAR: It is unclear whether “holy or fire damage” means choose one type or both, and what exactly qualifies for the “sun path” exemption.]]`
+- `draft/sequences/sun/seq-04.md:88` - `[[UNCLEAR: It is unclear whether the -4 penalty applies to the attacker’s check or the defender’s resistance when using Will Defense.]]`
+- `draft/sequences/sun/seq-04.md:101` - `[[UNCLEAR: It is unclear whether the increased Armor/DR applies against attacks *from* those domains, attacks *while in* those realms, or attacks of that cat...`
+- `draft/sequences/sun/seq-05.md:61` - `[[UNCLEAR: Whether this harmful resolution replaces the aura’s benefits for those creatures, or is an additional option applied at the same time.]]`
+- `draft/sequences/sun/seq-05.md:73` - `[[UNCLEAR: The trigger condition (“higher than 1 personality”) and what qualifies as “create disasters” or similar environments are not defined here.]]`
+- `draft/sequences/sun/seq-05.md:81` - `[[UNCLEAR: Resource name differs in this section (“Spirituality Points” vs “spirit points”).]]`
+- `draft/sequences/sun/seq-05.md:88` - `[[UNCLEAR: “More than 1 character / more than 2 characters” is undefined here—unclear what statistic or rating this refers to.]]`
+- `draft/sequences/sun/seq-05.md:102` - `[[UNCLEAR: Which specific “Sequence 7 ability” is being referenced is not specified here.]]`
+- `draft/sequences/sun/seq-05.md:105` - `[[UNCLEAR: “Edit two more divine spells” is not defined here (whether this means learn, modify, or create spells).]]`
+- `draft/sequences/sun/seq-06.md:49` - `[[UNCLEAR: the identification difficulty/success-level parenthetical is internally inconsistent and uses undefined terms (“level,” “success level,” “big hits...`
+- `draft/sequences/sun/seq-06.md:68` - `[[UNCLEAR: “higher than 1” is not defined (ability level? Sequence? tier?), so the scope of this limitation is unclear.]]`
+- `draft/sequences/sun/seq-06.md:84` - `[[UNCLEAR: the stated binding power vs. Sequence levels conflicts with the later procedure (“not higher than a notary”).]]`
+- `draft/sequences/sun/seq-06.md:102` - `[[UNCLEAR: “objects with more than 1 personality” is undefined.]]`
+- `draft/sequences/sun/seq-07.md:49` - `[[UNCLEAR: “larger than 1 character of you” is an unclear size/scale reference.]]`
+- `draft/sequences/sun/seq-07.md:104` - `[[UNCLEAR: The “qualitatively changed version” is referenced but not defined here.]]`
+- `draft/sequences/sun/seq-07.md:126` - `[[UNCLEAR: “1 character” is an unclear scaling reference.]]`
+- `draft/sequences/sun/seq-08.md:13` - `[[UNCLEAR: “Very restrained by dead bodies and ghosts” states a constraint but does not specify the mechanical effect (vulnerability, suppression, prohibitio...`
+- `draft/sequences/sun/seq-08.md:47` - `[[UNCLEAR: “1 spirituality every 1 minute” does not specify whether this is an activation cost, a maintenance cost, or how ending the effect works.]]`
+- `draft/sequences/sun/seq-08.md:63` - `[[UNCLEAR: The Sequence 7 replacement text does not clearly state what “it” refers to (the light, the entire effect, visibility to others, etc.).]]`
+- `draft/sequences/sun/seq-08.md:64` - `[[UNCLEAR: “Effects of darkness, corruption, and undead” is unclear about whether “undead” is an effect category, a creature type reference, or both.]]`
+- `draft/sequences/sun/seq-08.md:95` - `[[UNCLEAR: “Greater than 2 characters” is unclear (character levels? number of characters affected? something else).]]`
+- `draft/sequences/sun/seq-08.md:142` - `[[UNCLEAR: “More than two persons” is unclear (number of targets, number of participants, or a mistranslation of “more than two characters”).]]`
+- `draft/sequences/sun/seq-09.md:35` - `[[UNCLEAR: Training ranks are self-contradictory (“proficient, advanced, and proficient” and “maximum…proficient”).]]`
+- `draft/sequences/sun/seq-09.md:40` - `[[UNCLEAR: “twice the inspiration” is unclear (double the Inspiration attribute? double a resource? something else).]]`
+- `draft/sequences/sun/seq-09.md:49` - `[[UNCLEAR: The threshold “greater than 1 character or 2 Sequence levels of yours” is unclear.]]`
+- `draft/sequences/sun/seq-09.md:62` - `[[UNCLEAR: “ineffective for corresponding creatures that are 1 higher than you” is ambiguous (1 Sequence higher? other measure?).]]`
+- `draft/sequences/tyrant/seq-00.md:40` - `[[UNCLEAR: The exact procedure for “disaster-damage identification” is not defined here.]]`
+- `draft/sequences/tyrant/seq-01.md:21` - `[[UNCLEAR: “Thunder forests” and the exact scale of the defensive structure are not mechanically defined.]]`
+- `draft/sequences/tyrant/seq-01.md:44` - `[[UNCLEAR: The mechanical definition of “acceleration to a certain degree” is not specified.]]`
+- `draft/sequences/tyrant/seq-02.md:71` - `[[UNCLEAR: “disaster identification” is referenced but not defined here.]]`
+- `draft/sequences/tyrant/seq-03.md:54` - `[[UNCLEAR: “Strength damage die” is not defined—uncertain whether this refers to an attribute-based die or flat modifier.]]`
+- `draft/sequences/tyrant/seq-03.md:65` - `[[UNCLEAR: It is unclear whether this refers to the attacker’s or defender’s Sequence level.]]`
+- `draft/sequences/tyrant/seq-03.md:69` - `[[UNCLEAR: “Divide the identification into three times” interpreted as splitting damage into three separate damage instances.]]`
+- `draft/sequences/tyrant/seq-03.md:117` - `[[UNCLEAR: “City-sized” range is approximate and not mechanically defined.]]`
+- `draft/sequences/tyrant/seq-04.md:40` - `[[UNCLEAR: “Attack identification” method for resolving spillover damage is not defined here.]]`
+- `draft/sequences/tyrant/seq-04.md:59` - `[[UNCLEAR: “Disaster assessment” and targeting resolution terminology are not defined in this section.]]`
+- `draft/sequences/tyrant/seq-04.md:99` - `[[UNCLEAR: “Lucky appraisal” is undefined—assumed to be a Luck-based check.]]`
+- `draft/sequences/tyrant/seq-04.md:242` - `[[UNCLEAR: “Substitutes” and multi-attack resolution are not defined here.]]`
+- `draft/sequences/tyrant/seq-06.md:47` - `[[UNCLEAR: It is not specified where the normal duration limits are defined.]]`
+- `draft/sequences/tyrant/seq-07.md:52` - `[[UNCLEAR: The source sentence about “directly know two things in the field of vision… the relative distance” is truncated; exact scope is unclear.]]`
+- `draft/sequences/tyrant/seq-07.md:102` - `[[UNCLEAR: The phrase “and take upward all” is unclear; whether this also applies to lifting/upward movement is not reliably stated.]]`
+- `draft/sequences/tyrant/seq-07.md:132` - `[[UNCLEAR: “1 bit” is an undefined measurement/threshold in the source.]]`
+- `draft/sequences/tyrant/seq-08.md:18` - `[[UNCLEAR: “Free Action” that “spends 1 round without affecting your actions” is unclear—timing and action interaction need confirmation.]]`
+- `draft/sequences/tyrant/seq-08.md:21` - `[[UNCLEAR: “rage identification” is not defined; likely refers to the test to enter Rage, but the exact bonus application needs confirmation.]]`
+- `draft/sequences/tyrant/seq-08.md:24` - `[[UNCLEAR: The “charging” procedure (when you are allowed/required to roll) is not fully specified.]]`
+- `draft/sequences/tyrant/seq-08.md:29` - `[[UNCLEAR: “traumatizing your target” is undefined—what qualifies, and which check’s Difficulty Value is being halved?]]`
+- `draft/sequences/tyrant/seq-08.md:39` - `[[UNCLEAR: Both “Dexterity” and “Agility” appear as attributes; confirm whether Agility is separate or should match Dexterity.]]`
+- `draft/sequences/tyrant/seq-08.md:48` - `[[UNCLEAR: Exact action cost, success condition, and which skills qualify are not fully specified.]]`
+- `draft/sequences/tyrant/seq-08.md:50` - `[[UNCLEAR: “important things” is not defined.]]`
+- `draft/sequences/tyrant/seq-08.md:52` - `[[UNCLEAR: “instead of light/lightning” is unclear—needs the core defense/damage reference.]]`
+- `draft/sequences/tyrant/seq-08.md:65` - `[[UNCLEAR: “two combos” is not defined—needs the combo rules reference.]]`
+- `draft/sequences/tyrant/seq-08.md:67` - `[[UNCLEAR: What exactly “gains the effect of anger” adds beyond Furious Strike’s listed effect is not fully specified.]]`
+- `draft/sequences/tyrant/seq-09.md:33` - `[[UNCLEAR: “You need 2, 3, 4 times” is ambiguous—unclear what those counts apply to (per level? per threshold?).]]`
+- `draft/sequences/tyrant/seq-09.md:35` - `[[UNCLEAR: “When the character has not just been promoted… swimming growth skill… can be increased by the strength/agility of the potion; growth rate = inspi...`
+- `draft/sequences/visionary/seq-00.md:38` - `[[UNCLEAR: The section uses both “Spiritual Cap Points” and “points of Spirituality”; their relationship is not defined here.]]`
+- `draft/sequences/visionary/seq-01.md:18` - `[[UNCLEAR: The source text says “be convinced Potion”; the exact required action regarding the Potion is unclear.]]`
+- `draft/sequences/visionary/seq-03.md:11` - `[[UNCLEAR: The Pathway name for this Sequence is not provided in this chunk.]]`
+- `draft/sequences/visionary/seq-03.md:28` - `[[UNCLEAR: The source line is missing/unclear about the modifiers (if any) for Strength and Constitution.]]`
+- `draft/sequences/visionary/seq-03.md:37` - `[[UNCLEAR: “advantage: +2” mixes a named benefit with a numeric bonus; confirm how “advantage” is defined in your core rules.]]`
+- `draft/sequences/visionary/seq-03.md:65` - `[[UNCLEAR: The phantom is said to “cannot cause any substantial damage,” yet later can cause death; interpret this as non-physical (psychological) lethality ...`
+- `draft/sequences/visionary/seq-04.md:37` - `[[UNCLEAR: Attribute gain lists “agility” without a modifier; the source text does not specify a number.]]`
+- `draft/sequences/visionary/seq-04.md:71` - `[[UNCLEAR: The source text also calls this “a range of damage,” but does not specify the exact range/shape.]]`
+- `draft/sequences/visionary/seq-04.md:76` - `[[UNCLEAR: The source text uses “Psychic raids” here; it may refer to Psychic Breath, but the linkage is not explicit.]]`
+- `draft/sequences/visionary/seq-04.md:88` - `[[UNCLEAR: The source does not specify how the “corresponding weather” is selected from the list.]]`
+- `draft/sequences/visionary/seq-04.md:99` - `[[UNCLEAR: The source gives two “-4 disadvantage” clauses; whether they stack is not stated.]]`
+- `draft/sequences/visionary/seq-04.md:105` - `[[UNCLEAR: “One lower” is not defined (e.g., Sequence rank vs another metric).]]`
+- `draft/sequences/visionary/seq-04.md:150` - `[[UNCLEAR: It is not explicit whether this refers to the affected target’s interactions, or to other creatures’ interactions with the target.]]`
+- `draft/sequences/visionary/seq-04.md:154` - `[[UNCLEAR: A base duration/countdown is referenced but not defined in the source text.]]`
+- `draft/sequences/visionary/seq-04.md:165` - `[[UNCLEAR: The source’s description of how the restriction changes is internally unclear; the exact before/after limits are not cleanly stated.]]`
+- `draft/sequences/visionary/seq-05.md:55` - `[[UNCLEAR: “higher than 1 character” is undefined here (likely a level/Sequence comparison), and “psychic channeling usage only” is unclear without the refer...`
+- `draft/sequences/visionary/seq-05.md:60` - `[[UNCLEAR: The meaning of “personality” and the safety judgment rule is unclear/undefined here.]]`
+- `draft/sequences/visionary/seq-06.md:89` - `[[UNCLEAR: The method for this “countermeasure” and what “hypnosis is not higher than Personality” precisely compares are not specified.]]`
+- `draft/sequences/visionary/seq-06.md:103` - `[[UNCLEAR: The rule does not specify when to use 1d3 vs 1d6 Sanity loss.]]`
+- `draft/sequences/visionary/seq-07.md:16` - `[[UNCLEAR: The line about “skill growth of Sequence 9” is referenced but not defined in this section, so its exact meaning cannot be confirmed.]]`
+- `draft/sequences/visionary/seq-07.md:30` - `[[UNCLEAR: “Erudition” is not defined here; it is unclear whether this is a rank, proficiency tier, or a specific feature name.]]`
+- `draft/sequences/visionary/seq-07.md:60` - `[[UNCLEAR: The exact timing of the “3 rounds, then 1 round” duration change for result ④ is not fully specified.]]`
+- `draft/sequences/visionary/seq-07.md:72` - `[[UNCLEAR: It is unclear how to interpret “1/1d3 Sanity loss” (which value applies, and under what condition).]]`
+- `draft/sequences/visionary/seq-07.md:90` - `[[UNCLEAR: The phrase about “Repeat identification” is unclear; it may refer to retry limits, but the exact restriction is not stated cleanly.]]`
+- `draft/sequences/visionary/seq-07.md:99` - `[[UNCLEAR: “Thinking simulation” is referenced but not defined in this section, so its exact modifiers cannot be confirmed.]]`
+- `draft/sequences/visionary/seq-07.md:120` - `[[UNCLEAR: “For each sequence level you have” is ambiguous (counting method not defined here).]]`
+- `draft/sequences/visionary/seq-07.md:122` - `[[UNCLEAR: “Larger by 1 character” and the meaning of ignoring “big success” are not defined in this section.]]`
+- `draft/sequences/visionary/seq-07.md:137` - `[[UNCLEAR: The last sentence does not specify how vagueness changes what can be learned, only a narrative interpretation.]]`
+- `draft/sequences/visionary/seq-08.md:38` - `[[UNCLEAR: The +4 clause is self-contradictory about when it applies—especially regarding concealment via Performance/Deception.]]`
+- `draft/sequences/visionary/seq-08.md:40` - `[[UNCLEAR: “Hide their existence” is unclear—whether it hides emotion visibility, the user’s detection of them, or something else.]]`
+- `draft/sequences/visionary/seq-08.md:66` - `[[UNCLEAR: The “−8 disadvantage” rule and the reference to levels ③–⑧ in Psychological Guidance are not defined here and cannot be resolved from this text al...`
+- `draft/sequences/visionary/seq-09.md:65` - `[[UNCLEAR: The RAW line about “try to make you enter anger, fear, charm, excluding the identification of shock - 4 disadvantages” does not clearly state what...`
+- `draft/sequences/visionary/seq-09.md:130` - `[[UNCLEAR: “targets larger than 1 character” is not clearly defined (size? scale? multiple targets?).]]`
+- `draft/sequences/war-god/seq-00.md:16` - `[[UNCLEAR: The subject and meaning of “will decay, collapse, and perish” is ambiguous (it may refer to the created matter, the Pathway’s nature, or something...`
+- `draft/sequences/war-god/seq-02.md:41` - `[[UNCLEAR: The text describes both a one-on-one isolated “small world” and simultaneously managing multiple enemies; the exact partition/admission behavior i...`
+- `draft/sequences/war-god/seq-02.md:48` - `[[UNCLEAR: Attribute Gain lists Agility/Will, but this extra uses Dexterity/Willpower; it’s unclear whether these are the same attributes or separate ones.]]`
+- `draft/sequences/war-god/seq-03.md:33` - `[[UNCLEAR: “Break through” is not mechanically defined, and it is unclear what actions/rolls (if any) are possible while “both parties cannot perform any oth...`
+- `draft/sequences/war-god/seq-03.md:49` - `[[UNCLEAR: “Cannot be locked by this” and the exact mechanical meaning of “surprise behavior… established” are not defined here.]]`
+- `draft/sequences/war-god/seq-04.md:33` - `[[UNCLEAR: The scope and timeframe of “exist and have visited you” are not defined.]]`
+- `draft/sequences/war-god/seq-04.md:35` - `[[UNCLEAR: It is unclear whether the penalty applies based on the user, the target, or the situation.]]`
+- `draft/sequences/war-god/seq-04.md:44` - `[[UNCLEAR: “attack identification” is undefined (likely an attack roll/check or identification mechanic).]]`
+- `draft/sequences/war-god/seq-04.md:55` - `[[UNCLEAR: The target, timing, and meaning of “may cause a big failure” are not defined.]]`
+- `draft/sequences/war-god/seq-04.md:72` - `[[UNCLEAR: “within 5 points” and whether suppression vs. cure is chosen or automatic are not defined.]]`
+- `draft/sequences/war-god/seq-04.md:77` - `[[UNCLEAR: “dispels” is not defined (e.g., repels, banishes, weakens).]]`
+- `draft/sequences/war-god/seq-04.md:99` - `[[UNCLEAR: It is unclear who makes “the next skill check” (the target or another creature) and when it occurs.]]`
+- `draft/sequences/war-god/seq-04.md:105` - `[[UNCLEAR: The scope of what can be specified (targets, categories, objects) and how it is enforced are not defined.]]`
+- `draft/sequences/war-god/seq-04.md:114` - `[[UNCLEAR: The “except the Audience Pathway” stacking exception is not precisely defined (who qualifies, and what can stack).]]`
+- `draft/sequences/war-god/seq-04.md:121` - `[[UNCLEAR: The relationship between “imprints” and the listed marks is not defined, and “corresponding attributes” is unspecified.]]`
+- `draft/sequences/war-god/seq-04.md:125` - `[[UNCLEAR: The “God of War” rules appear unrelated to Sequence 4: Demon Hunter and may belong to another Pathway/Sequence.]]`
+- `draft/sequences/war-god/seq-04.md:135` - `[[UNCLEAR: “related identification penalty” and “without being affected action” are undefined/unclear in timing and meaning.]]`
+- `draft/sequences/war-god/seq-05.md:55` - `[[UNCLEAR: The text “Damage to the wall is equal to trying to hurt you, against your value” does not specify which statistic(s) are used to resolve attacks/d...`
+- `draft/sequences/war-god/seq-05.md:76` - `[[UNCLEAR: “Not higher than 1 person of you” is undefined (likely a level/Sequence comparison), so the exact threshold is ambiguous.]]`
+- `draft/sequences/war-god/seq-05.md:80` - `[[UNCLEAR: “Conspiratorial conspiracies (low mystery Spend)” is undefined and may refer to a separate mechanic or category.]]`
+- `draft/sequences/war-god/seq-06.md:36` - `[[UNCLEAR: “independent additional damage bonus” is not clearly scoped (whether it refers only to the 1d6 bonus on critical strikes or something broader).]]`
+- `draft/sequences/war-god/seq-06.md:52` - `[[UNCLEAR: “enemy is not larger than 1 character” is undefined (size/scale threshold is not clearly specified).]]`
+- `draft/sequences/war-god/seq-06.md:59` - `[[UNCLEAR: The “-2 to enemies in contact with 0 distance unfavorable” phrasing is ambiguous about whether it is a penalty to your Identification/attack, a mo...`
+- `draft/sequences/war-god/seq-06.md:60` - `[[UNCLEAR: The medium Sword of Dawn damage expression does not explicitly include Strength (only the large value shows “+Strength”).]]`
+- `draft/sequences/war-god/seq-06.md:69` - `[[UNCLEAR: “can only shoot 1 round” is unclear (likely means only 1 shot/arrow per attack action, but the text does not explicitly say).]]`
+- `draft/sequences/war-god/seq-06.md:80` - `[[UNCLEAR: This line mixes GM permission language with a definitive damage-type statement; the intended scope/authority is unclear.]]`
+- `draft/sequences/war-god/seq-06.md:94` - `[[UNCLEAR: “hallucinations no larger than 1 person of you” is undefined (size/strength/scale threshold unclear).]]`
+- `draft/sequences/war-god/seq-06.md:97` - `[[UNCLEAR: The terms “fallen/darkness,” “mystery,” and the exact mechanical impact of “feel uncomfortable at most” are not defined here.]]`
+- `draft/sequences/war-god/seq-06.md:112` - `[[UNCLEAR: The attack/check structure (“mysticism against physical defense”) and the clause “being regarded as for the light” are not fully coherent as writt...`
+- `draft/sequences/war-god/seq-07.md:12` - `[[UNCLEAR: The text does not specify which negative effects this applies to, or how damage is reduced beyond the explicit halving rule below.]]`
+- `draft/sequences/war-god/seq-07.md:24` - `[[UNCLEAR: “Promoted to Master” is not defined here; it is unclear whether this is an immediate gain or a capability/permission.]]`
+- `draft/sequences/war-god/seq-07.md:41` - `[[UNCLEAR: This subsection contains a “Sequence 6” clause inside a Sequence 7 entry; its timing/applicability relative to Sequence 7 is not defined here.]]`
+- `draft/sequences/war-god/seq-07.md:46` - `[[UNCLEAR: The sentence describing how “agility and dodge” apply to “Physical Defense” is grammatically unclear; the exact resolution procedure is not fully ...`
+- `draft/sequences/war-god/seq-07.md:57` - `[[UNCLEAR: “Cannot ignore negative numbers” is not explained; it is unclear what value(s) can be negative and how this limitation applies.]]`
+- `draft/sequences/war-god/seq-08.md:20` - `[[UNCLEAR: The rules do not specify what “quickly promoted to Master” changes mechanically (time, cost, checks, or prerequisites).]]`
+- `draft/sequences/war-god/seq-08.md:37` - `[[UNCLEAR: The text states “advantage/disadvantage” without specifying whether the effect grants Advantage, Disadvantage, or depends on context.]]`
+- `draft/sequences/war-god/seq-09.md:22` - `[[UNCLEAR: The tier progression lists “proficient” twice (“proficient, advanced, and proficient”), so the intended final tier for the 4-training step is ambi...`
+- `draft/sequences/war-god/seq-09.md:26` - `[[UNCLEAR: “use the strength/agility of the potion to add growth skills” does not specify how many skills/levels are added or what limits apply.]]`
+- `draft/sequences/war-god/seq-09.md:41` - `[[UNCLEAR: “retain complete physical defense against guns instead of Light/Lightning” is unclear about what is being replaced or compared.]]`
+- `draft/supplementary/supplementary-notes.md:9` - `[[UNCLEAR: Source file contains no content; intended notes are unknown.]]`
+- `draft/supplementary/supplementary-update-log.md:9` - `[[UNCLEAR: Source file contains no content; intended update log entries are unknown.]]`
+
+### `[[LINK LATER: ...]]` Markers
+
+- None found.
+
+### Unreferenced Heading Collisions
+
+- These collisions currently have no plain `[[Title]]` references, so they are lower-priority unless you plan to link to them by title.
+- `Extraordinary Abilities` (x198)
+- `Attribute Gain` (x191)
+- `Advancement` (x135)
+- `Advancement Ritual` (x104)
+- `Auxiliary Materials` (x38)
+- `Main Materials` (x12)
+- `Overview` (x12)
+- `Description` (x10)
+- `Spiritual Vision` (x10)
+- `Acting Rules` (x7)
+- `Ritual Mastery` (x7)
+- `Spirit Vision` (x7)
+- `Vision` (x7)
+- `Divine Gaze` (x5)
+- `Premonition of Danger` (x5)
+- `Sequence 4` (x5)
+- `Sequence abilities` (x5)
+- `Sequence abilities (overview)` (x5)
+- `Breeding Environment` (x4)
+- `Common Items` (x4)
+- `Full Moon Curse` (x4)
+- `Sequence 2` (x4)
+- `Abyss` (x3)
+- `Acting` (x3)
+- `Additional` (x3)
+- `Basic Data` (x3)
+- `Combat` (x3)
+- `Divination` (x3)
+- `Habits` (x3)
+- `Insight` (x3)
+- `Living Environment` (x3)
+- `Quick Dodge` (x3)
+- `Roleplay` (x3)
+- `Sequence 1` (x3)
+- `Sequence 3` (x3)
+- `Sequence 6` (x3)
+- `Taste` (x3)
+- `Tyrant` (x3)
+- `Visionary` (x3)
+- `Anti-Divination` (x2)
+- ... +53 more

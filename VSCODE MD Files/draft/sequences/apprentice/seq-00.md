@@ -38,9 +38,10 @@ tags: ["pathway:apprentice", "sequence:0"]
 - **Use:** **Spellcasting Action**
 - **Targeting and range:** Select an area.
 - **Limits:** Only has two encounters in one **Encounter**. [[UNCLEAR: “only has two encounters in one encounter” is grammatically self-contradictory and the intended usage limit cannot be determined.]]
-- **Effect:** You make space collapse and annihilate into nothingness. This is almost a death-level ability; even if the target is **Sequence 0** of the [[LINK LATER: Path of the Fool | type=pathway | hint=referenced as a Pathway]], they must lose all their [[LINK LATER: substitutes | type=mechanic | hint=survival/escape mechanic]] and, at the cost of being unable to maintain further survival, can barely avoid this blow.
+- **Effect:** You make space collapse and annihilate into nothingness. This is almost a death-level ability; even if the target is **Sequence 0** of the [[Path of the Fool]], they must lose all their [[substitutes]] and, at the cost of being unable to maintain further survival, can barely avoid this blow.
 
 ### Divine Gaze
-
-- **Use:** Triggered when any creature recites your **True Name**
+- **Use:** When any creature recites your **True Name**.
 - **Effect:** You can gaze at the surroundings of that creature, and use your extraordinary abilities to target the area at will.
+
+

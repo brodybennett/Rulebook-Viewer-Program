@@ -6,9 +6,9 @@ tags: ["pathway:death", "sequence:5"]
 
 # Sequence 5: The Gatekeeper
 
-A Gatekeeper can sense entrances to the [[LINK LATER: Underworld | type=location | hint=realm of death]] and create gates that overlap the [[LINK LATER: Spirit World | type=location | hint=spiritual realm]] and the Underworld. It can drive the [[LINK LATER: Undead | type=term | hint=undead creatures/spirits]] and summon many undead creatures.
+A Gatekeeper can sense entrances to the [[Underworld]] and create gates that overlap the [[Spirit World]] and the Underworld. It can drive the [[Undead]] and summon many undead creatures.
 
-It can also use its body as a “cage,” turning it into a small Underworld that can contain a certain number of souls, undead, and [[LINK LATER: Natural Spirits | type=term | hint=non-undead spirits]]. This inner realm prevents contained spirits from escaping, provides a suitable environment for them to exist, and can be used to gain unique abilities from them.
+It can also use its body as a “cage,” turning it into a small Underworld that can contain a certain number of souls, undead, and [[Natural Spirits]]. This inner realm prevents contained spirits from escaping, provides a suitable environment for them to exist, and can be used to gain unique abilities from them.
 
 ## Advancement
 
@@ -26,14 +26,14 @@ It can also use its body as a “cage,” turning it into a small Underworld tha
   - resists the Underworld’s undead-creature transformation, and
   - lets the soul adapt to the power of death without actually passing away.
 
-> **GM Note:** Possessing another person does not meet the requirements. First, a body that is not of the [[LINK LATER: Death Pathway | type=pathway | hint=Pathway associated with death]] cannot reach the “pseudo-dead” state. Second, that body may still have its own original spirit body, and conflicting thoughts may lead to loss of control.
+> **GM Note:** Possessing another person does not meet the requirements. First, a body that is not of the [[Death Pathway]] cannot reach the “pseudo-dead” state. Second, that body may still have its own original spirit body, and conflicting thoughts may lead to loss of control.
 
 ## Extraordinary Abilities
 
 ### Underworld Perception and Sign
 
 - You can perceive the location of the Underworld.
-- You gain an “Underworld in the body,” with a door as a symbol. The core of this inner Underworld is at the center of the forehead, representing the location of the [[LINK LATER: God of Death | type=term | hint=death deity figure]].
+- You gain an “Underworld in the body,” with a door as a symbol. The core of this inner Underworld is at the center of the forehead, representing the location of the [[God of Death]].
 
 [[UNCLEAR: The “door as a symbol” and “core in the center of the forehead” description is unclear on whether it has mechanical effects beyond being a sign.]]
 
@@ -41,10 +41,10 @@ It can also use its body as a “cage,” turning it into a small Underworld tha
 
 - **Effect:** You can use your body as a cage to provide a suitable environment for your own “Underworld.”
   - From now on, you can hold a certain number of dead, soul bodies, and natural spirits in your body.
-  - The number you can hold equals the number of dead you can drive using [[LINK LATER: Knowledge of the Dead | type=mechanic | hint=skill or lore used for controlling the dead]].
+  - The number you can hold equals the number of dead you can drive using [[Knowledge of the Dead]].
   - Contained dead are limited to spirit bodies; dead with physical bodies cannot enter your body.
 - **Use:** As a **swift action**, you can release any number of spirits contained within you.
-- **Special:** The Underworld in the body is an effect brought by the potion and cannot be [[LINK LATER: Stolen | type=mechanic | hint=steal/copy effects]] or [[LINK LATER: Recorded | type=mechanic | hint=record/copy abilities]].
+- **Special:** The Underworld in the body is an effect brought by the potion and cannot be [[Stolen]] or [[Recorded]].
 
 **Benefits:**
 1) Any soul contained in your body no longer needs to worry about its existence time. As long as it does not leave the inner Underworld, its existence time is unlimited.
@@ -52,7 +52,7 @@ It can also use its body as a “cage,” turning it into a small Underworld tha
    - This does not include spirit bodies higher than you by 1 level.
    - To use the abilities of a spirit body higher than you by 1 level, that spirit body must voluntarily lend you the ability each time.
    - Even if the borrowed ability is originally a swift action, you still need a casting action to use it. If it is a full-round action, it is still a **full-round action**.
-3) If someone intends to withdraw a spirit body attached to you, or a spirit body in the inner Underworld within your body, you can use “1 [[LINK LATER: Inspiration | type=mechanic | hint=resource/attribute]] + Knowledge of the Dead” to test against it (or against the same identification of Knowledge of the Dead). On a success, your body’s spirit is pulled back.
+3) If someone intends to withdraw a spirit body attached to you, or a spirit body in the inner Underworld within your body, you can use “1 [[Inspiration]] + Knowledge of the Dead” to test against it (or against the same identification of Knowledge of the Dead). On a success, your body’s spirit is pulled back.
    - **Special:** This does not include your own spirit body, because instability of your own spirit body causes you to no longer be able to effectively use the inner Underworld.
 
 [[UNCLEAR: “Use 1 Inspiration + Knowledge of the Dead to test” is unclear whether it means spending 1 Inspiration, adding Inspiration as a modifier, or making a combined check.]]
@@ -65,15 +65,15 @@ This ability has two uses.
 
 #### Use 1: Manifest Gate to Seize and Draw In
 
-- **Cost:** 5 points of [[LINK LATER: Spirituality | type=mechanic | hint=resource points]]
+- **Cost:** 5 points of [[Spirituality]]
 - **Use:** 1 **spell-casting action**. Spread five fingers and aim your palm at a target within 50 meters.
 - **Effect:** The Gatekeeper chooses one of the following effects to emerge from the gate, or both simultaneously (no action required):
 
 **A) Ghosts of the Underworld**
-- **Attack/Check:** “Inspiration + Knowledge of the Dead” against the target’s [[LINK LATER: Physical Defense | type=mechanic | hint=defense stat]], ignoring [[LINK LATER: Armor | type=mechanic | hint=armor rules]].
+- **Attack/Check:** “Inspiration + Knowledge of the Dead” against the target’s [[Physical Defense]], ignoring [[Armor]].
 - **On a successful catch:**
-  1) The target cannot use [[LINK LATER: Displacement Abilities | type=mechanic | hint=teleport/blink-like movement]], and cannot escape through [[LINK LATER: Blurring | type=condition | hint=blur/obscurement escape clause]].
-     - At the beginning of each round, the target must use Strength to oppose “Inspiration + Knowledge of the Dead identification,” or be pulled toward/into the gate by a distance equal to the Gatekeeper’s Knowledge of the Dead skill bonus. While caught, the target continues to be regarded as in a [[LINK LATER: Bound State | type=condition | hint=restrained/bound condition]].
+  1) The target cannot use [[Displacement Abilities]], and cannot escape through [[Blurring]].
+     - At the beginning of each round, the target must use Strength to oppose “Inspiration + Knowledge of the Dead identification,” or be pulled toward/into the gate by a distance equal to the Gatekeeper’s Knowledge of the Dead skill bonus. While caught, the target continues to be regarded as in a [[Bound State]].
   2) After being caught, the target’s normal movement action can only move closer to the gate.
      - Each time the caught creature suffers damage or a mental influence (e.g., “spiritual puncture,” “dragon power,” etc.), it immediately performs an additional pull check as in (1).
   3) Once completely pulled into the gate, the target is regarded as being sent to the Underworld immediately.
@@ -145,7 +145,7 @@ You turn an area around you into a portal to the Underworld and reality.
 - **Cost:** Indefinite Spirituality (see Duration/Upkeep below)
 - **Use:** 1 **full-round action**
 - **Targeting and range:** Ground or sea area within 100 meters
-- **Effect:** The affected area suddenly becomes dark, as if turning into the entrance of hell—like a deep, dark ocean. You summon any Underworld creatures; they occupy your [[LINK LATER: Manipulation Ceiling | type=mechanic | hint=minion/control limit]] and charge your enemies like a tidal wave.
+- **Effect:** The affected area suddenly becomes dark, as if turning into the entrance of hell—like a deep, dark ocean. You summon any Underworld creatures; they occupy your [[Manipulation Ceiling]] and charge your enemies like a tidal wave.
 
 **Duration/Upkeep:**
 1) Before using this ability, choose the number of rounds the wave will last. Each round consumes 5 points of Spirituality.

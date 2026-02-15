@@ -67,7 +67,7 @@ Apply the following to the Advancement Sanity / Rationality check (and where not
 9. Advancing under an astronomical phenomenon: full moon **-2** (favorable); blood moon **-4** (favorable). This does not guarantee whether it will attract anomalies (especially the latter). This is calculated independently from (7) and does not benefit from Beyonder Sequence-level influence, including such summoned astronomical phenomena.
 10. If the creature drinking the potion is a non-sapient animal: **+4** (unfavorable).
 
-See also [[LINK LATER: Digestion % | type=mechanic | hint=digestion rules]].
+See also [[Digestion]].
 
 ## Rituals and Followers
 
@@ -120,13 +120,13 @@ Immediately make 1 Willpower (WIL) check with Difficulty **15**.
      - If this additional loss brings total loss to **5** points, enter Loss-of-Control / Death State.
   2. This Sanity / Rationality check (limited to the semi-loss-of-control state) still enjoys all benefits from Advancement influences (1)(2)(3)(4)(5)(6)(7)(8)(9).
 
-See also [[LINK LATER: Madness and Losing Control | type=rule | hint=loss of control]].
+See also [[id:alias-madness-and-losing-control|Madness and Losing Control]].
 
 ### Loss-of-Control / Death State
 
 Make another Willpower (WIL) check with Difficulty **20**.
 
-- **Success:** You become an advancement-failed Beyonder; see [[LINK LATER: Expansion 5: Beyonders in Special States | type=other | hint=failed advancement]].
+- **Success:** You become an advancement-failed Beyonder; see [[Expansion 5: Beyonders in Special States]].
 - **Failure:** Roll **1d2**: on **1** you lose control; on **2** you die.
 
 ### Advancement Success
@@ -172,12 +172,12 @@ Exception: the Seer, Thief, and Apprentice pathways can only jump when advancing
 **Jump count:**
 - The number of Pathway Jumps is not limited to 1.
 - You can jump Seer -> Apprentice -> Thief -> back to Seer.
-- However, undigested potions in your body may increase in multiples and may affect your Advancement; see [[LINK LATER: Advancement Sanity / Rationality Check | type=mechanic | hint=advancement check]].
+- However, undigested potions in your body may increase in multiples and may affect your Advancement; see [[Advancement Sanity / Rationality Check]].
 
 **Forcible non-adjacent jumps or unmet conditions:**
 - Forcibly jumping to a non-adjacent pathway, or not meeting the jump conditions, inevitably causes you to become half-mad.
 - You lose the opportunity for further Advancement.
-- Any subsequent Advancement will inevitably lose control; see [[LINK LATER: Expansion 5: Beyonders in Special States | type=other | hint=failed advancement]].
+- Any subsequent Advancement will inevitably lose control; see [[Expansion 5: Beyonders in Special States]].
 
 ### Lower-Sequence Benefits After a Jump
 

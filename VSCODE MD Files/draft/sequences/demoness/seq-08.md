@@ -14,21 +14,21 @@ tags: ["pathway:Demoness", "sequence:8"]
 
 - **Attribute Gain:** Inspiration +2; Charisma +1.
 - **Rapid Growth (Sequence 9 Skills):**
-  - The following are treated as your [[LINK LATER: Sequence 9 | type=sequence | hint=skill growth rules (“grow rapidly”)]] skills and grow rapidly:
-    - [[LINK LATER: Charm | type=term | hint=skill]]
-    - [[LINK LATER: Persuasion | type=term | hint=skill]]
-    - [[LINK LATER: Speech | type=term | hint=skill]]
-    - [[LINK LATER: Pleasure | type=term | hint=skill used for “pleasing/charming” checks]]
-    - [[LINK LATER: Deception | type=term | hint=skill]]
-  - Each time you instigate a person to violate their [[LINK LATER: Personality | type=mechanic | hint=personality/ethical constraint system]], it also counts as **1** [[LINK LATER: Growth | type=mechanic | hint=skill growth counter]].
+  - The following are treated as your [[Sequence 9]] skills and grow rapidly:
+    - [[Charm]]
+    - [[Persuasion]]
+    - [[Speech]]
+    - [[Pleasure]]
+    - [[Deception]]
+  - Each time you instigate a person to violate their [[Personality]], it also counts as **1** [[Growth]].
 
 ### Charm
 
-- **Cost:** None (does not consume [[LINK LATER: Spirituality | type=term | hint=resource]]).
-- **Use:** 1 [[LINK LATER: Spellcasting Action | type=mechanic | hint=action type]].
+- **Cost:** None (does not consume [[Spirituality]]).
+- **Use:** 1 [[Spellcasting Action]].
 - **Effect:** You perform an action/words/body language that fits “pleasing” or “charming,” then attempt to charm a target.
 - **Targeting and range:** One creature you can interact with via performance/words/body language.
-- **Check:** Make a **Pleasure check** (RAW also calls this “pleasing verification” / “Pleasant check”) opposed by the target’s [[LINK LATER: Will Defense | type=mechanic | hint=defense used vs mental/social influence]].
+- **Check:** Make a **Pleasure check** (RAW also calls this “pleasing verification” / “Pleasant check”) opposed by the target’s [[Will Defense]].
 - **Bonuses and penalties:** Apply the following modifiers to the Pleasure check as appropriate:
   1. If you do not match the target’s sexual orientation: -4 unfavorable; and -2 unfavorable if the target has a family affair.
   2. If the target is hostile or vigilant toward you: -4 unfavorable.
@@ -40,28 +40,28 @@ tags: ["pathway:Demoness", "sequence:8"]
 - **Failure:**
   - If the check fails, you must change to another charm method or change your image, then attempt the check again.
   - If you fail again, then for 24 hours your Pleasure check against that target automatically fails.
-- **On success:** The target enters an **Enchanted** state toward you ([[LINK LATER: Enchanted | type=condition | hint=charmed state caused by this ability]]) with these effects:
+- **On success:** The target enters an **Enchanted** state toward you ([[Enchanted]]) with these effects:
   1. A continuous -4 detrimental modifier applies to “skill and attribute evaluation.” If the target is hostile to you, then in battle (until only you are left) they must prioritize others as targets of harm.  
      [[UNCLEAR: “Skill and attribute evaluation” is not defined here; the text only specifies a continuous -4 penalty while Enchanted.]]
-  2. You gain +4 advantage on any [[LINK LATER: Social Identification | type=mechanic | hint=social check category]] against the target.
-  3. As long as you make any successful Social Identification or successful [[LINK LATER: Social Roleplay | type=mechanic | hint=non-check social RP adjudication]] involving the target, they obey you in all non-contradictory actions.
+  2. You gain +4 advantage on any [[Social Identification]] against the target.
+  3. As long as you make any successful Social Identification or successful [[Social Roleplay]] involving the target, they obey you in all non-contradictory actions.
      - A target who is hostile/vigilant toward you does **not** gain this obedience benefit, even if affected by the Charm.
   4. A creature affected by (3) will try their best to help you in all conversational/social aspects, will look for ways to tell you when they detect clues unfavorable to you, and will not believe scandal about you.
      - Ordinary people who have nothing to do with the extraordinary or do not know your abilities usually fall under effect (3).
 - **Disenchantment:** Removing the Enchanted state is usually done by:
   - Replacing it with a stronger charm, **or**
-  - Making 1 [[LINK LATER: Mental Channel | type=term | hint=check/skill]] check opposed to the Pleasure check result from when the target was charmed.
-  - Other social checks with [[LINK LATER: Extraordinary Influence | type=mechanic | hint=social checks with supernatural influence]] can replace the effect of Mental Channel.
+  - Making 1 [[Mental Channel]] check opposed to the Pleasure check result from when the target was charmed.
+  - Other social checks with [[Extraordinary Influence]] can replace the effect of Mental Channel.
 - **Interaction note:** “Pure” Social Identification is only effective for targets that do **not** suffer from effect (3); otherwise it may arouse hostility.
-- **Calming the effect:** A target that does **not** suffer from effect (3) can use the [[LINK LATER: Full Meditation | type=mechanic | hint=special action]] / [[LINK LATER: Half Meditation | type=mechanic | hint=special action]] special action to directly calm down / half calm down the Charm effect.
+- **Calming the effect:** A target that does **not** suffer from effect (3) can use the [[Full Meditation]] / [[Half Meditation]] special action to directly calm down / half calm down the Charm effect.
 - > **GM Note:** If a Player character suffers the Enchanted state, apply a “charm filter” to how they perceive and interpret the instigator.
 
 ### Cognitive Misleading
 
 > **Lore:** You intensify conflicts and quietly shift concepts so the target slips into extreme cognitive fallacies.
 
-- **Use:** 1 [[LINK LATER: Free Action | type=mechanic | hint=action type]].
-- **Limits:** Only usable in a [[LINK LATER: Non-Combat State | type=mechanic | hint=out-of-combat condition]].
+- **Use:** 1 [[Free Action]].
+- **Limits:** Only usable in a [[Non-Combat State]].
 - **Check:** Make a Speech/Deception check opposed by the target’s Will Defense.
   - You must roleplay a cognition with the target: a non-contradictory and relevant argument.
 - **Bonuses and penalties:** Apply the same bonuses/penalties as **Charm**, except you do **not** apply Charm condition (1) (the sexual-orientation condition).
@@ -76,7 +76,7 @@ tags: ["pathway:Demoness", "sequence:8"]
 
 > **Lore:** You push the target from belief into action.
 
-- **Use:** 1 [[LINK LATER: Free Action | type=mechanic | hint=action type]].
+- **Use:** 1 [[Free Action]].
 - **Targeting and range:** Choose 1 or more targets and (for each) one of their current beliefs.
 - **Check:** Make a Persuasion check opposed by each target’s Will Defense.
 - **Bonuses and penalties:** Apply the same bonuses/penalties as **Cognitive Misleading**.

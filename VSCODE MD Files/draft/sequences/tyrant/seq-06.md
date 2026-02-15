@@ -29,7 +29,7 @@ tags: ["pathway:tyrant", "sequence:6"]
 - **Constitution** +1  
 - **Agility** +2  
 - **Inspiration** +1  
-- [[LINK LATER: Skills | type=rule | hint=Skill advancement rules]] related to piloting, swimming, and diving can be quickly promoted to erudition.  
+- [[Skills]] related to piloting, swimming, and diving can be quickly promoted to erudition.  
 
 ---
 
@@ -49,7 +49,7 @@ tags: ["pathway:tyrant", "sequence:6"]
 ---
 
 ### Wind Control  
-[[LINK LATER: Wind Domain | type=mechanic]]
+[[Wind Domain]]
 
 You gain the following wind-based abilities.
 
@@ -117,7 +117,7 @@ You gain the following wind-based abilities.
 - **Cost:** 1 spellcasting action, 3 spirituality  
 - **Target:** 1 creature  
 - **Check:** Inspiration vs target’s Agility  
-- **Effect:** On success, the target gains the [[LINK LATER: Bound | type=condition]] state and cannot perform movement actions.  
+- **Effect:** On success, the target gains the [[Bound]] state and cannot perform movement actions.  
 - **Escape:** At the start of each round, the target may attempt a Difficulty Value 20 skill check to break free.  
 
 ---
@@ -182,4 +182,4 @@ You gain the following wind-based abilities.
 ### Extended Wind Logic
 
 - With GM approval, other logical wind-control uses are allowed.  
-- If an ability that pushes creatures interacts with the [[LINK LATER: Sequence 7 Water Spell | type=sequence | hint=Lubrication effect]], pushing distance is increased accordingly.  
+- If an ability that pushes creatures interacts with the [[Sequence 7 Water Spell]], pushing distance is increased accordingly.  

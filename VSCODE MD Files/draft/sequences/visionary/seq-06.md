@@ -18,9 +18,9 @@ tags: ["pathway:visionary", "sequence:6"]
 ### Auxiliary Materials
 
 - **Auxiliary Materials:**
-  - [[LINK LATER: Pituitary Gland (Young Psychic Dragon) | type=item | hint=Main material]]
-  - [[LINK LATER: Spinal Fluid (Black Hunting Monitor Lizard) | type=item | hint=Main material]]
-  - [[LINK LATER: Psychedelic Wind Chime Tree Fruit | type=item | hint=Main material]]
+  - [[Pituitary Gland (Young Psychic Dragon)]]
+  - [[Spinal Fluid (Black Hunting Monitor Lizard)]]
+  - [[Psychedelic Wind Chime Tree Fruit]]
 
 ## Extraordinary Abilities
 
@@ -34,7 +34,7 @@ tags: ["pathway:visionary", "sequence:6"]
 - **Use:** 1 **Free Action** to toggle.
 - **Effect:** Your body surface condenses fine, strong golden scales. Gain **Armor** +3 and **External Damage Reduction** 5. The scales can be hidden within the skin.
 
-- **Sequence Scaling:** At [[LINK LATER: Youth Dragon Pathway Sequence 5 | type=sequence | hint=Dragon Scale passive/active values]], you do not need to display Dragon Scale; under normal circumstances (without using [[LINK LATER: Force | type=mechanic | hint=Piercing/penetration context]]), your skin is difficult to pierce and you gain **Armor** +3 and **External Damage Reduction** 5. When Dragon Scale is actually turned on, these become **Armor** +5 and **External Damage Reduction** 8.
+- **Sequence Scaling:** At [[Youth Dragon Pathway Sequence 5]], you do not need to display Dragon Scale; under normal circumstances (without using [[Force]]), your skin is difficult to pierce and you gain **Armor** +3 and **External Damage Reduction** 5. When Dragon Scale is actually turned on, these become **Armor** +5 and **External Damage Reduction** 8.
 
 ### Non-Combat Hypnosis
 
@@ -42,7 +42,7 @@ tags: ["pathway:visionary", "sequence:6"]
 - **Targeting and range:** Choose 1 target who is either:
   - **Focused** (see below), or
   - **Dazed / Semi-comatose** (see below).
-- **Limits:** Hypnosis is distinct from [[LINK LATER: Psychological Suggestion | type=mechanic | hint=Core Rules]] and can affect the subconscious.
+- **Limits:** Hypnosis is distinct from [[Psychological Suggestion]] and can affect the subconscious.
 - **Effect:** You use clear words the target can hear to formulate hypnotic content. Typically, you and the target must be within 5 meters.
 
 #### Valid Targets
@@ -60,7 +60,7 @@ tags: ["pathway:visionary", "sequence:6"]
 - You may formulate the following hypnotic content:
 
 1) **Forget Memory:** The target truly “does not remember” the chosen memory (this is not merely “not remembering”). You may set a condition under which the memory can be recalled, or set no recall condition.
-   - **Special:** If the forgotten memory is associated with important matters or leaves a serious psychological shadow, then when the target witnesses a stimulating reappearance related to that memory, they may attempt a [[LINK LATER: Will Test | type=mechanic | hint=Opposed check]] against the hypnotist’s “[[LINK LATER: Inspiration | type=term | hint=Attribute]] + [[LINK LATER: Charisma | type=term | hint=Attribute]] + [[LINK LATER: Psychological Guidance | type=term | hint=Skill bonus]]” as the difficulty to recall the memory.
+   - **Special:** If the forgotten memory is associated with important matters or leaves a serious psychological shadow, then when the target witnesses a stimulating reappearance related to that memory, they may attempt a [[Will Test]] against the hypnotist’s “[[Inspiration]] + [[Charisma]] + [[id:alias-psychological-guidance|Psychological Guidance]]” as the difficulty to recall the memory.
 
 2) **Subconscious Behavior:** Specify an action and trigger conditions. When the conditions are met, the target completes the action in an unconscious state. The action must be simple; complex processes must be built from multiple simple hypnotic instructions.
 
@@ -72,7 +72,7 @@ tags: ["pathway:visionary", "sequence:6"]
 
 6) **Hallucinations:** Specify a creature/object or a condition; you modify the target’s cognition of the corresponding object as they perceive it.
 
-7) **Mental Body Communication:** A hypnotic technique that still follows the corresponding identification. You may communicate directly with a target’s [[LINK LATER: Mental Body | type=term | hint=Hypnosis concept]] and feel the target’s current emotions (typically via coordinated, comforting words).
+7) **Mental Body Communication:** A hypnotic technique that still follows the corresponding identification. You may communicate directly with a target’s [[Mental Body]] and feel the target’s current emotions (typically via coordinated, comforting words).
 
 8) **Modify Memory:** Based on (1), you describe what the target “experienced (false)” in the vacated memory. If the false memory is not reasonable enough, it may lead to an identification to resist hypnosis.
 
@@ -80,12 +80,12 @@ tags: ["pathway:visionary", "sequence:6"]
 
 #### Other Factors Affecting Hypnosis
 
-1) **Target is not voluntary:** Hypnosis requires **Psychological Guidance** to contest [[LINK LATER: Will Defense | type=mechanic | hint=Core Rules defense]] and uses the same bonus/penalty logic as [[LINK LATER: Psychological Suggestion | type=mechanic | hint=Core Rules]].
+1) **Target is not voluntary:** Hypnosis requires **Psychological Guidance** to contest [[Will Defense]] and uses the same bonus/penalty logic as [[Psychological Suggestion]].
 
 2) **Hypnosis without satisfying any conditions:** The penalty to **Psychological Guidance** is doubled (round up).
 
-3) **Content involves life/important things/strong resistance:** When performing related actions, the hypnotized creature may use an rd20 + Will + [[LINK LATER: Inspiration | type=term | hint=Attribute]] appraisal to contest the difficulty of the hypnotist’s “Inspiration + Charisma + Psychological Guidance bonus” and release the hypnosis.
-   - **Special:** In other cases, the target cannot resist hypnosis. However, if the target’s Will ≥ 6 and the hypnosis is not higher than [[LINK LATER: Personality | type=term | hint=Attribute]], each time the target would perform an unwilling hypnotic action, they can attempt a countermeasure to not execute the content; 3 successful resistances break the hypnosis.  
+3) **Content involves life/important things/strong resistance:** When performing related actions, the hypnotized creature may use an rd20 + Will + [[Inspiration]] appraisal to contest the difficulty of the hypnotist’s “Inspiration + Charisma + Psychological Guidance bonus” and release the hypnosis.
+   - **Special:** In other cases, the target cannot resist hypnosis. However, if the target’s Will ≥ 6 and the hypnosis is not higher than [[Personality]], each time the target would perform an unwilling hypnotic action, they can attempt a countermeasure to not execute the content; 3 successful resistances break the hypnosis.  
      [[UNCLEAR: The method for this “countermeasure” and what “hypnosis is not higher than Personality” precisely compares are not specified.]]
 
 4) **Both target conditions met:** If the target is both Focused and Dazed/Semi-comatose, your **Psychological Guidance** appraisal gains +4 favorable.
@@ -93,20 +93,20 @@ tags: ["pathway:visionary", "sequence:6"]
 5) **Content too explicit:** If the hypnotic content is not euphemistic enough (e.g., directly mentions “hypnosis”), or is contrary to the target’s character/style, the target’s opposed identification gains +2 beneficial.
    - Example principle: indirect phrasing is less likely to trigger this modifier than directly instructing with conspicuously controlling language.
 
-6) **Indirect guidance avoids strong-resistance trigger:** If someone strongly resists going to the [[LINK LATER: Church of the Earth | type=faction | hint=Organization/location context]], directly mentioning that in hypnosis triggers Factor (3). If you instead say something like “follow someone,” and the followed person goes there, then (3) does not apply (indirect guidance prevents the (3) effect).
+6) **Indirect guidance avoids strong-resistance trigger:** If someone strongly resists going to the [[Church of the Earth]], directly mentioning that in hypnosis triggers Factor (3). If you instead say something like “follow someone,” and the followed person goes there, then (3) does not apply (indirect guidance prevents the (3) effect).
 
 7) **Release:** When hypnosis is broken or released, at that moment the target remembers all encounters that occurred during the hypnosis.
 
 8) **Capacity and complexity:** A single hypnosis may instill multiple items (“First… Second… Third…”). The total number of items a creature can bear cannot exceed Inspiration/2 (also related to the maximum number of times psychological hints can be shared). Compared to Psychological Suggestion, hypnosis can be slightly more complicated, but a single piece of content should not exceed 80 words.
 
-9) **Mental illness:** Hypnosis and Forget Memory cannot truly treat mental illness. The memory must later be reminded and the content accepted via **Psychological Guidance**; otherwise the target suffers 1d3/1d6 [[LINK LATER: Sanity | type=mechanic | hint=Sanity loss rules]] loss immediately upon remembering the memory.  
+9) **Mental illness:** Hypnosis and Forget Memory cannot truly treat mental illness. The memory must later be reminded and the content accepted via **Psychological Guidance**; otherwise the target suffers 1d3/1d6 [[Sanity]] loss immediately upon remembering the memory.  
    [[UNCLEAR: The rule does not specify when to use 1d3 vs 1d6 Sanity loss.]]
 
 ### Combat Hypnosis
 
 - **Cost:** 1 **Swift Action**; 3 **Spiritual Points**
 - **Use:** 1 time per round.
-- **Targeting and range:** Choose 1 target within your [[LINK LATER: Field of Vision | type=mechanic | hint=Core Rules targeting]].
+- **Targeting and range:** Choose 1 target within your [[Field of Vision]].
 - **Effect:** Compulsively hypnotize the enemy; contest with **Psychological Guidance** against **Will Defense**.
   - You formulate hypnotic content as in Non-Combat Hypnosis, but it **cannot** involve the target’s life/important matters; if it does, the hypnosis is invalid.
 - **Duration:** 1 round.
@@ -123,4 +123,4 @@ tags: ["pathway:visionary", "sequence:6"]
 - **Limits / Detection:**
   1) Psychological Invisibility is not real invisibility. Real invisibility means you cannot see the other party; Psychological Invisibility means you can see the other party but ignore them. Therefore, it ignores illusion/special visual detection.
   2) Psychological Invisibility only reduces presence. If your presence becomes stronger, you will be noticed. If you talk to people or interact with the environment while in Psychological Invisibility, anyone who perceives that interaction will discover your existence. If they discover you and then shout to tell others you exist here, you are completely exposed.
-  3) In addition to (2), discovery can occur via indirect factors (e.g., perceiving your malice). Footsteps and other detectable traces can expose you; for example, a listener may use [[LINK LATER: Listening | type=mechanic | hint=Skill/Check]] to contest your [[LINK LATER: Stealth | type=mechanic | hint=Skill/Check]]. Anything that cannot be concealed can lead to exposure.
+  3) In addition to (2), discovery can occur via indirect factors (e.g., perceiving your malice). Footsteps and other detectable traces can expose you; for example, a listener may use [[Listening]] to contest your [[Stealth]]. Anything that cannot be concealed can lead to exposure.

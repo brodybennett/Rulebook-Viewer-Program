@@ -10,13 +10,13 @@ tags: ["pathway:arbiter", "sequence:8"]
 
 - If you have seen a real person, a photo, or a sketch, you can firmly remember the target’s appearance and gain extra induction on the extraordinary level.
 - You can detect abnormal factors and grasp traces that are not obvious.
-- When close enough, you can detect unshielded things related to [[LINK LATER: Evil/Chaos/Madness | type=term | hint=extraordinary perception categories]].
+- When close enough, you can detect unshielded things related to [[Evil/Chaos/Madness]].
 
 ## Advancement
 
 ### Auxiliary Materials
 
-- **Auxiliary Materials:** A pair of eyes of the [[LINK LATER: Fear Insect | type=other | hint=creature material source]], the right palm of the [[LINK LATER: Silver-White War Bear | type=other | hint=creature material source]].
+- **Auxiliary Materials:** A pair of eyes of the [[Fear Insect]], the right palm of the [[Silver-White War Bear]].
 
 ## Extraordinary Abilities
 
@@ -26,9 +26,9 @@ tags: ["pathway:arbiter", "sequence:8"]
 - **Constitution** +1
 - **Agility** +1
 - **Inspiration** +1
-- **Tracking** and all attack skills increased by 1 level. [[LINK LATER: Tracking | type=term | hint=skill]]
+- **Tracking** and all attack skills increased by 1 level. [[Tracking]]
 
-- Whenever you apprehend/solve a non-repeating, challenging enemy by stalking or chasing clues, your Tracking skill goes up by 1 level, and the number of growth required is equal to the cap and the reputation boost of [[LINK LATER: Sequence 9 | type=sequence | hint=previous sequence reference]].  
+- Whenever you apprehend/solve a non-repeating, challenging enemy by stalking or chasing clues, your Tracking skill goes up by 1 level, and the number of growth required is equal to the cap and the reputation boost of [[Sequence 9]].  
   [[UNCLEAR: “the number of growth required is equal to the cap and the reputation boost of Sequence 9” is not defined here, so the exact requirement cannot be stated unambiguously.]]
 
 ### Extraordinary Reconnaissance
@@ -37,12 +37,12 @@ You gain extra senses at the extraordinary level. You can remember a target’s 
 
 - **Occult Memory**
   1. You acquire a photographic memory of portraits, real images, routes traveled, event clues, habits, and image features.
-  2. You can recall these things at any time, and you can see through the camouflage of living/dead things, but you can’t see through the camouflage that completely hides habits, smells, and characteristics (such as [[LINK LATER: Faceless People | type=other | hint=example of complete concealment]]). You can remember them by painting and other methods without identification. The content is reproduced.
+  2. You can recall these things at any time, and you can see through the camouflage of living/dead things, but you can’t see through the camouflage that completely hides habits, smells, and characteristics (such as [[Faceless People]]). You can remember them by painting and other methods without identification. The content is reproduced.
      - You can recognize each other based on their characteristics just by passing by, and you can also recognize them based on their previous appearance.
 
 - **Evil/Chaos/Madness-Related Perceptions**
   3. You can immediately detect the gaze on you within 50 meters, or detect the crime that just appeared in the line of sight, but the information is vague.
-  4. You can detect the cast/effect of abilities such as darkness, fall, immortality, and curse within 50 meters, and you can continue to lock the location until they disappear. This does not count as the upper limit of [[LINK LATER: Locking | type=mechanic | hint=location-lock mechanic]] and does not include corresponding creatures, but includes creatures that have [[LINK LATER: Lost Control | type=condition | hint=control-loss state]]/semi-runaway.
+  4. You can detect the cast/effect of abilities such as darkness, fall, immortality, and curse within 50 meters, and you can continue to lock the location until they disappear. This does not count as the upper limit of [[Locking]] and does not include corresponding creatures, but includes creatures that have [[Lost Control]]/semi-runaway.
      - Note: Ability (4) includes both distortion of order and chaos of rules, and the ability to isolate space with distortion is only noticed for a moment.
 
 - **Tracking/Reconnaissance**
@@ -50,8 +50,8 @@ You gain extra senses at the extraordinary level. You can remember a target’s 
   6. When you have this ability, your detection and listening will continue to be +2 beneficial, and you can include non-obvious clues into the scope of identification.
 
 - **Special**
-  - Only (4) applies for the perception of evil and heterogeneous things. If the corresponding thing is shielded by an [[LINK LATER: Anti-Divination | type=mechanic | hint=anti-divination measure]]/[[LINK LATER: Spiritual Wall | type=mechanic | hint=spiritual shielding]], it will not be perceived, and the spiritual wall cannot be used to continuously envelop the entire body.
-  - This is a [[LINK LATER: Potion Effect | type=mechanic | hint=non-transferable effect]]; it cannot be stolen or recorded, and the detection of extraordinary powers higher than 1 may cause [[LINK LATER: Spiritual Alarms | type=mechanic | hint=alarm consequence]].  
+  - Only (4) applies for the perception of evil and heterogeneous things. If the corresponding thing is shielded by an [[id:alias-anti-divination|Anti-Divination]]/[[Spiritual Wall]], it will not be perceived, and the spiritual wall cannot be used to continuously envelop the entire body.
+  - This is a [[Potion Effect]]; it cannot be stolen or recorded, and the detection of extraordinary powers higher than 1 may cause [[Spiritual Alarms]].  
     [[UNCLEAR: “extraordinary powers higher than 1” is not defined here (rank/Sequence/level is unclear).]]
 
 ## Jurisdiction
@@ -72,7 +72,7 @@ Within your Jurisdiction, you gain the following benefits:
 1. The perceivable range of Extraordinary Reconnaissance is doubled, but it cannot exceed the scope of Jurisdiction.
 2. Within Jurisdiction, all your skills and attribute appraisals gain an additional +2 benefit.
 3. Your reputation increases by 1 level, which can exceed the upper limit, but it still does not affect your assets.
-4. You will not fail in Jurisdiction, but the expansion of the probability of [[LINK LATER: Major Failure | type=mechanic | hint=critical failure tier]] can still cause you a major failure; the expanded probability of major failure is reduced by 1 value. For example, 1, 2, and 3 of rd20 are considered major failures; you only have 1, 2.
+4. You will not fail in Jurisdiction, but the expansion of the probability of [[Major Failure]] can still cause you a major failure; the expanded probability of major failure is reduced by 1 value. For example, 1, 2, and 3 of rd20 are considered major failures; you only have 1, 2.
 
-- **Sequence 6:** When in a Jurisdiction, the coverage of your [[LINK LATER: Law | type=mechanic | hint=Sequence 6 feature]] is doubled. [[LINK LATER: Sequence 6 | type=sequence | hint=higher sequence reference]]
-- **Sequence 5:** When in a Jurisdiction, the coverage of your [[LINK LATER: Punishment | type=mechanic | hint=Sequence 5 feature]] is doubled. [[LINK LATER: Sequence 5 | type=sequence | hint=higher sequence reference]]
+- **Sequence 6:** When in a Jurisdiction, the coverage of your [[Law]] is doubled. [[id:alias-sequence-6|Sequence 6]]
+- **Sequence 5:** When in a Jurisdiction, the coverage of your [[Punishment]] is doubled. [[Sequence 5]]

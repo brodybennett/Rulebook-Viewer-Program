@@ -30,14 +30,14 @@ The evil-striped black panther can hide in any shadow and only comes out to hunt
 
 - **Attributes:** Charisma 4; Strength 8; Luck 4; Dexterity 8; Constitution 5; Will 5; Inspiration 8; Education 3.
 - **Health:** 34
-- **Physical Defense Level:** 10 + 8 agility + 4 deflection = 22. [[LINK LATER: agility | type=term | hint=defense component used in Physical Defense calculation]] [[LINK LATER: deflection | type=term | hint=defense component used in Physical Defense calculation]]
+- **Physical Defense Level:** 10 + 8 agility + 4 deflection = 22. [[Agility]] [[deflection]]
   [[UNCLEAR: "agility" is used in the defense formula but does not appear as a listed attribute; it may be distinct from Dexterity or a translation mismatch.]]
 - **Skills:** Climbing; Swimming; Fighting; Intimidating; Jumping; Survival; Piloting (trained); Listening (proficiency); Reconnaissance (proficiency); Stealth (mastery).
 
 ## Sighting
 
 - **Trigger/When:** Sighting a fel-striped panther for the first time.
-- **Effect:** 1/1d3 SC. [[LINK LATER: SC | type=term | hint=sanity or shock cost track]]
+- **Effect:** 1/1d3 SC. [[SC]]
 
 ## Attack
 
@@ -105,7 +105,7 @@ This fur can be made into very expensive and comfortable clothing for at least t
 
 ### Spinal Fluid
 
-- **Crafting/Acquisition:** Its spinal fluid can be used to prepare the Fool's Pathway Sequence 7 magician's potion. [[LINK LATER: Fool's Pathway | type=pathway | hint=related to "magician" potion at Sequence 7]]
+- **Crafting/Acquisition:** Its spinal fluid can be used to prepare the Fool's Pathway Sequence 7 magician's potion. [[Fool's Pathway]]
 
 ## Note
 

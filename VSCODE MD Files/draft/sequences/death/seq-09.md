@@ -8,7 +8,7 @@ tags: ["pathway:death", "sequence:9"]
 
 ## Corpse Collector
 
-- See also: [[LINK LATER: Death Pathway | type=pathway | hint=Pathway overview]]
+- See also: [[Death Pathway]]
 
 > **Lore:** It was called the "Phoenix" approach in ancient times. The mythical creature form was originally a phoenix, but now it is a feathered snake, corresponding to the Tarot card "Reaper". A unique bird-shaped ornament made of gold.
 
@@ -52,7 +52,7 @@ tags: ["pathway:death", "sequence:9"]
 
 #### Using Knowledge of the Dead for Corpse Identification
 
-- Knowledge of the Dead can replace [[LINK LATER: Biology | type=term | hint=Skill used for corpse identification]] for corpse identification.
+- Knowledge of the Dead can replace [[Biology]] for corpse identification.
   - It is regarded as a subdivision skill of Biology.
 - Whenever you use Knowledge of the Dead on a corpse, you can quickly understand rough information such as:
   - Approximate cause of death
@@ -104,28 +104,29 @@ To learn more detailed information, you must spend at least **2 hours** to condu
 
 #### Using Knowledge of the Dead Against Undead Creatures
 
-- When you make any [[LINK LATER: Attack Roll | type=mechanic | hint=Rule for making an attack]] against an undead creature, Knowledge of the Dead translates into an additional attack roll bonus.
+- When you make any [[Attack Roll]] against an undead creature, Knowledge of the Dead translates into an additional attack roll bonus.
   - **Note:** You must have dissected an undead creature for which you gain the Knowledge of the Dead bonus, or know the corresponding information.
 - Example:
   - Original: rd20+dexterity+shooting
   - With Knowledge of the Dead: rd20+dexterity+shooting+knowledge of the dead
 - If the Corpse Collector's shot is untrained, then the apparent reason for the hit is based on anticipation of the undead's habits.
-- **Special:** When using Knowledge of the Dead to attack, the corpse collector can also perform a [[LINK LATER: Vital Blow | type=mechanic | hint=Called shot / critical-style mechanic]] against an undead creature that is not vital, but the undead creature is still immune to the corresponding damage.
-  - Example: Even if you use Knowledge of the Dead to shoot bullets, the spirit body is still immune to physical damage, unless you use [[LINK LATER: Enchanted Bullets | type=item | hint=Bullets that bypass spirit immunity]].
+- **Special:** When using Knowledge of the Dead to attack, the corpse collector can also perform a [[Vital Blow]] against an undead creature that is not vital, but the undead creature is still immune to the corresponding damage.
+  - Example: Even if you use Knowledge of the Dead to shoot bullets, the spirit body is still immune to physical damage, unless you use [[Enchanted Bullets]].
 
 ### Vision
 
 You gain **Vision**, but it is not as effective for you as your own inspiration.
-
 - **Use:** 1 free action.
-- **Cost:** Consuming 1 [[LINK LATER: Spirituality Point | type=term | hint=Resource spent to maintain powers]] per round.
-- **Effect:** When you activate Vision, your vision gains the following benefits:
+- **Cost:** Consuming 1 **spirituality point** per round.
+- **Effect:** You activate vision, and your vision gains the following benefits:
+
+
   1. **Etheric body:** You can directly see the health status of the target through the color of the aura, directly find out where the other party's body is uncomfortable, where there is a problem, specific to a certain organ, and you can directly see the soul of the dead.
-     - For more details, see [[LINK LATER: Spirit Body Field of View | type=mechanic | hint=Vision modes / aura bodies]].
+     - For more details, see [[Spirit Body Field of View]].
   2. **Spiritual body:** You can confirm whether an object/creature has spirituality, which cannot identify extraordinary people.
   3. **Mental body:** You can see whether the other party is thinking, but only so, and you cannot get more detailed information.
   4. **Astral body:** You cannot see the astral body.
-  5. When in the state of spiritual vision, your [[LINK LATER: Spiritual Intuition Test | type=mechanic | hint=Perception/intuition roll]] **+1 is beneficial**.
+  5. When in the state of spiritual vision, your [[Spiritual Intuition Test]] **+1 is beneficial**.
 
 - **Notes:**
   - Creatures that are dead are usually dull in color and cannot be identified.

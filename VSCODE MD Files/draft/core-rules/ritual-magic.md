@@ -11,7 +11,7 @@ tags: ["core", "chapter-9"]
 **Ritual Magic** is a prepared ritual that petitions high-ranking existences for power.
 
 - For low-**Sequence** Beyonders, Ritual Magic is an effective way to pray to deities for assistance when facing problems they cannot handle, and it is the common method for producing most Charms.
-- For high-**Sequence** Beyonders (starting from Sequence 3), they can pray to themselves and can use high-grade **Spirituality** materials they already possess to create more powerful Charms. See [[LINK LATER: Spirituality | type=term | hint=Spirituality attribute and materials]].
+- For high-**Sequence** Beyonders (starting from Sequence 3), they can pray to themselves and can use high-grade **Spirituality** materials they already possess to create more powerful Charms. See [[Spirituality]].
 
 ## Ritual Setup
 
@@ -50,9 +50,9 @@ A **Spirituality Wall** is an invisible wall formed using your own Spirituality 
 ### Holy Night Powder
 
 - **Build (5 meters):** **1 Casting Action**, consume **1** point of Spirituality; single-use material. Sprinkle it over the area you need to construct; it can build a Spirituality Wall that encloses items or encloses a **5-meter** space.
-- **Build (10 meters):** **1 Full-Round Action**, consume **2** points of Spirituality to create **10 meters**. See [[LINK LATER: Full-Round Action | type=mechanic | hint=action definitions]].
+- **Build (10 meters):** **1 Full-Round Action**, consume **2** points of Spirituality to create **10 meters**. See [[Full-Round Action]].
 - **Special:** The consumption is equivalent across different methods.
-- **Scent:** Smelling Holy Night Powder has a brief refreshing effect: Inspiration-related checks **+1 with Advantage** for **1 round**; cannot stack with other refreshing effects; cannot be used to resist Beyonder abilities; limited to refreshing once within **1 hour**. See [[LINK LATER: Advantage / Disadvantage | type=mechanic | hint=core roll modifiers]].
+- **Scent:** Smelling Holy Night Powder has a brief refreshing effect: Inspiration-related checks **+1 with Advantage** for **1 round**; cannot stack with other refreshing effects; cannot be used to resist Beyonder abilities; limited to refreshing once within **1 hour**. See [[Advantage / Disadvantage]].
 
 ### Small Silver Knife
 
@@ -94,7 +94,7 @@ Formally beginning the ritual:
 2. Insert the small silver knife into coarse salt, chant the incantation, sanctify the knife, and create the Spirituality Wall; you may also use Holy Night Powder. This step may be done in advance. At this time, phenomena corresponding to the deity will generally appear at the scene (example omitted).
 3. Drip the corresponding essential oil onto the candles, and burn the corresponding herbs in the vessel. If a response is guaranteed, you may do this perfunctorily or not at all.
 4. On the parchment, write the symbols/representations corresponding to the power you wish to petition for.
-5. Chant the deity's honorific name, **or** an honorific name you compile yourself that can equally point to Their authority and identity. The latter does not enjoy automatic responses, and hidden existences generally do not perform automatic responses anyway. For honorific names, see [[LINK LATER: Names and Honorific Titles of Mystical Deities and Angels | type=other | hint=honorific-name list]].
+5. Chant the deity's honorific name, **or** an honorific name you compile yourself that can equally point to Their authority and identity. The latter does not enjoy automatic responses, and hidden existences generally do not perform automatic responses anyway. For honorific names, see [[Names and Honorific Titles of Mystical Deities and Angels]].
 6. After finishing the honorific name, immediately chant the content you are petitioning for. As long as your words are respectful and not blasphemous, you may improvise this part.
 7. Chant the names of the herbs used to please the deity, and petition Them to bestow power upon you. If a response is guaranteed, you may skip this. **Interruptible Ritual Magic:** the interruption occurs at this step; Step 8 is the operation to continue the ritual after you return.
 8. Drip one drop of essential oil onto each of the three candles. Finally, throw the parchment bearing the symbol of the power you petition for into the large cauldron to burn. The casting is complete.
@@ -126,7 +126,7 @@ This section covers commonly used Ritual Magic and simplified check procedures.
 - **Mysticism check:** **Difficulty Value 20**. If you fully roleplay the ritual procedure, this Mysticism check is not required.
 - **Luck check (non-believed deity):** If what you petition is not a deity you believe in or a deity that will definitely respond to you, also make a Luck check (**Difficulty Value 25**). On a **Critical Failure**, your Ritual Magic effect will be distorted.
 - **Ordinary person or hidden existence:** Whether or not you meet the conditions, you must make a Luck check. Hidden existences generally will not give automatic responses.
-- **Materials to please the other party:** Luck check **+2 with Advantage**. See [[LINK LATER: Advantage / Disadvantage | type=mechanic | hint=core roll modifiers]].
+- **Materials to please the other party:** Luck check **+2 with Advantage**. See [[Advantage / Disadvantage]].
 
 [[UNCLEAR: Source text says "refer to Chapter 8: Ritual Magic"; treated here as a reference to the procedure in this chapter.]]
 
@@ -212,7 +212,7 @@ Cost notes:
 5. Petitioning a hidden existence (i.e., not among the Seven Deities), if you are not a Blessed of that hidden existence: that hidden existence generally will not proactively respond to you. Even if your ritual is responded to, Charm-making still needs to wait **1d24 hours** to succeed (response may be whimsical). Leave the materials on the altar overnight, unless you are guaranteed to obtain a response.
 6. Shelf life and storage: the finished Charm has a shelf life of **one week**; after one week, its Spirituality dissipates. You may pray again to recharge it. If the Charm is stored for more than **4 days**, the Charm's power is **halved**.
 7. Demigod and higher-level Charms require a more special carrier of Beyonder power to craft (e.g., a demigod's own blood), plus the materials listed above.
-8. For specific Charm effects, see [[LINK LATER: Expansion 2: Official Church Members | type=other | hint=charm effect list]] and [[LINK LATER: Charms | type=item | hint=charm effects]].
+8. For specific Charm effects, see [[Expansion 2: Official Church Members]] and [[Charms]].
 
 ---
 
@@ -238,7 +238,7 @@ After successfully performing an interruptible ritual:
 
 A **Power-Petition Ritual** is based on the Charm-making ritual, but you do not prepare materials, you do not petition to make a Charm, and you petition the corresponding deity to bestow power within the ritual's area.
 
-**Warning:** In a Power-Petition Ritual, all Spirituality consumed by the deity is paid by you. Petitioning abilities of too high a level of Rank may drain your Spirituality dry and bring loss of control. See [[LINK LATER: Extra: Rank Suppression | type=mechanic | hint=Rank suppression rules]].
+**Warning:** In a Power-Petition Ritual, all Spirituality consumed by the deity is paid by you. Petitioning abilities of too high a level of Rank may drain your Spirituality dry and bring loss of control. See [[Extra: Rank Suppression]].
 
 Detailed procedure recap for luring an enemy into the ritual area:
 
@@ -281,7 +281,7 @@ Any magic that petitions an existence through Ritual Magic to obtain answers bel
 
 Based on the universal procedure:
 - The area must have at least a spirit.
-- [[LINK LATER: Spirit Vision | type=mechanic | hint=detecting spirits]] can let you discover spirits that are not of a high level.
+- [[id:alias-spirit-vision|Spirit Vision]] can let you discover spirits that are not of a high level.
 
 ### Seancing the Dead
 
@@ -290,7 +290,7 @@ Based on the universal procedure:
 
 After successfully performing the ritual, you will sense thoughts and mind that have not yet dissipated.
 
-If you are not a Death Pathway Beyonder, you can perform the seance by using [[LINK LATER: Dream Divination | type=ritual | hint=divination method]]. Treat this as Dream Divination that satisfies all clues and conditions: write down the divination wording and use it to peer into the spirit's memories. Seance achieved through dialogue can only be done by a medium.
+If you are not a Death Pathway Beyonder, you can perform the seance by using [[Dream Divination]]. Treat this as Dream Divination that satisfies all clues and conditions: write down the divination wording and use it to peer into the spirit's memories. Seance achieved through dialogue can only be done by a medium.
 
 Limits and decay:
 - Such Dream Divination seance causes wear to the spirit; generally you can only obtain **1d2** answers in this way.
@@ -310,7 +310,7 @@ If you are not a medium, unlike seancing the dead, you can normally ask question
 
 **Manifestation:** Both parties' Spirituality communicate. Your Spirituality passes through the other party's storm of thoughts, and you see their illusory figure within the mental body.
 
-**Warning:** If you seance a living person who is already mad, you are very likely to suffer the same Sanity Loss check as the one that drove them mad, and the final madness symptoms will match theirs. See [[LINK LATER: Sanity / Rationality Loss Rolls | type=mechanic | hint=madness checks]]. Taking a "Tranquility Potion" can let you maintain lucidity and reason while seancing a target with madness symptoms. See [[LINK LATER: Chapter 15: List of Special Potions, Talismans, and Beyonder Items | type=item | hint=Tranquility Potion]]. If the target's madness involves contamination from a power **1 Rank higher than you**, you may still be affected. See [[LINK LATER: Extra: Rank Suppression | type=mechanic | hint=Rank suppression rules]].
+**Warning:** If you seance a living person who is already mad, you are very likely to suffer the same Sanity Loss check as the one that drove them mad, and the final madness symptoms will match theirs. See [[Sanity / Rationality Loss Rolls]]. Taking a "Tranquility Potion" can let you maintain lucidity and reason while seancing a target with madness symptoms. See [[Chapter 15: List of Special Potions, Talismans, and Beyonder Items]]. If the target's madness involves contamination from a power **1 Rank higher than you**, you may still be affected. See [[Extra: Rank Suppression]].
 
 ---
 
@@ -325,7 +325,7 @@ Two uses:
 
 Restriction: You cannot petition deities in this ritual. Honorific names of deities (e.g., "Goddess of the Night," "God of Knowledge and Wisdom") cannot appear in the ritual, otherwise it will inevitably fail.
 
-> **Lore:** The ritual is associated with the Seven Lights of the Spirit World; see [[LINK LATER: Chapter 12: Special Regions | type=location | hint=Seven Lights of the Spirit World]].
+> **Lore:** The ritual is associated with the Seven Lights of the Spirit World; see [[Chapter 12: Special Regions]].
 
 ---
 
@@ -394,7 +394,7 @@ Reverse the Sacrifice Ritual Magic: the opened bronze doorway, in reverse, has t
 Summoning Ritual Magic does not necessarily point to the Seven Deities; it may be praying to your own Spirituality or to the Spirit World.
 
 - What is usually summoned: Spirit World creatures (then you sign a contract with them), or (extremely rarely) a subordinate of some deity.
-- For summoning Spirit World creatures, see [[LINK LATER: Chapter 12: Special Regions | type=location | hint=Spirit World summoning rules]] and [[LINK LATER: Spirit World | type=location | hint=Spirit World reference]].
+- For summoning Spirit World creatures, see [[Chapter 12: Special Regions]] and [[Spirit World]].
 
 ---
 

@@ -17,6 +17,6 @@ It can make matter, and it will decay, collapse, and perish.
 
 ## Uniqueness
 
-**Uniqueness** [[LINK LATER: Uniqueness | type=term | hint=setting concept tied to a Pathway]] is manifested as the **Sword of Twilight** [[LINK LATER: Sword of Twilight | type=item | hint=symbolic sword form of this Uniqueness]].
+**Uniqueness** [[Uniqueness]] is manifested as the **Sword of Twilight** [[Sword of Twilight]].
 
 - Appearance: a huge long sword covered with orange light.

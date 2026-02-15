@@ -88,7 +88,7 @@ A commonly used calculation is:
 - For every **5** points of **Digestion %**, your Spirituality maximum **+1**.
 - Repeated-Sequence potions do **not** count.
 
-> **GM Note:** If you are using the auto character sheet from the [[LINK LATER: Companion Supplemental Rules | type=other | hint=auto character sheet]], the auto sheet will handle Spirituality and Vitality. Remember to select your current Sequence number in the upper-left corner, or calculations will be affected (example given: Sequence 7 -> select "7"). [[LINK LATER: Auto Character Sheet | type=other | hint=tool or sheet]]
+> **GM Note:** If you are using the auto character sheet from the [[Companion Supplemental Rules]], the auto sheet will handle Spirituality and Vitality. Remember to select your current Sequence number in the upper-left corner, or calculations will be affected (example given: Sequence 7 -> select "7"). [[Auto Character Sheet]]
 
 ### Sanity / Rationality
 
@@ -245,7 +245,7 @@ Common Damage Dice and Vitality: These damage dice are converted based on how mu
 
 ## Carrying Items
 
-Some Beyonder Abilities depend on the number of props/items you carry (examples given: a [[LINK LATER: Magician Pathway | type=pathway | hint=items like matches or paper figurines]]'s matches/paper figurines; a [[LINK LATER: Mystery Pryer Pathway | type=pathway | hint=spellcasting materials]]'s spellcasting materials). The number of items you carry is subject to quantity limits.
+Some Beyonder Abilities depend on the number of props/items you carry (examples given: a [[Magician Pathway]]'s matches/paper figurines; a [[Mystery Pryer Pathway]]'s spellcasting materials). The number of items you carry is subject to quantity limits.
 
 ### Item Carry Slots
 
@@ -282,7 +282,7 @@ The exact pocket count of the above clothing is decided by the **Player** (it ca
 
 **Hidden Pocket:** Items in hidden pockets are not considered valid selectable targets for checks such as Sleight of Hand, etc.
 
-- However, the [[LINK LATER: Thief Pathway | type=pathway | hint=can select hidden-pocket items]] can, by default, use excellent Investigation ability to select objects in your hidden pockets as valid selectable targets.
+- However, the [[Thief Pathway]] can, by default, use excellent Investigation ability to select objects in your hidden pockets as valid selectable targets.
 
 If you are unconscious and someone searches your body:
 

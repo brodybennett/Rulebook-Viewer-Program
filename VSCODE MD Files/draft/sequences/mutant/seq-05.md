@@ -10,7 +10,7 @@ tags: ["pathway:mutant", "sequence:5"]
 
 You can transform your state into a real shadow and gain corresponding abilities, including passing through obstacles, hiding in mirrors, directly attacking an opponent’s soul, and jumping to most places where images can be reflected.
 
-Unlike ordinary [[LINK LATER: Resentful Soul | type=term | hint=undead spirit state/creature type]], even if they have [[LINK LATER: Spiritual Vision | type=mechanic | hint=vision mode]], they cannot find this kind of ghost without a high-Sequence.
+Unlike ordinary [[Resentful Soul]], even if they have [[id:alias-spiritual-vision|Spiritual Vision]], they cannot find this kind of ghost without a high-Sequence.
 
 You also master many death-like spells and weird skills, such as forcibly possessing a body and controlling an enemy.
 
@@ -24,7 +24,7 @@ You also master many death-like spells and weird skills, such as forcibly posses
 
 ### Essence
 
-When being promoted to a [[LINK LATER: Resentful Soul | type=term | hint=promotion stage mentioned here]], the **Extraordinary** will forcefully burst out all the obsessions in their heart. They must fight with the opposite emotion; otherwise, the Extraordinary becomes a real resentful soul.
+When being promoted to a [[Resentful Soul]], the **Extraordinary** will forcefully burst out all the obsessions in their heart. They must fight with the opposite emotion; otherwise, the Extraordinary becomes a real resentful soul.
 
 ## Extraordinary Abilities
 
@@ -36,9 +36,9 @@ When being promoted to a [[LINK LATER: Resentful Soul | type=term | hint=promoti
 
 ### Sequence Traits and Overrides
 
-1. Becoming a Wraith overwrites the resident undead effect of the [[LINK LATER: Zombie Stage | type=sequence | hint=prior stage with resident undead effect]].
+1. Becoming a Wraith overwrites the resident undead effect of the [[Zombie Stage]].
 2. From now on, as long as you don’t become a ghost, your life form is considered normal and will not receive additional restraint effects; you are still considered undead when you use it. [[UNCLEAR: “it” and the state change being referenced are not explicitly identified.]]
-3. You don’t need to consume actions to activate your original ability, but the ability of the [[LINK LATER: Living Corpse | type=mechanic | hint=ability/state from earlier stage]] is contradictory to the state of the resentful soul, and it cannot be used when it is a spirit body. [[UNCLEAR: “it” and whether “spirit body” refers to shadow form or another state is not explicitly defined.]]
+3. You don’t need to consume actions to activate your original ability, but the ability of the [[Living Corpse]] is contradictory to the state of the resentful soul, and it cannot be used when it is a spirit body. [[UNCLEAR: “it” and whether “spirit body” refers to shadow form or another state is not explicitly defined.]]
 
 ### Full Moon Curse
 
@@ -78,11 +78,11 @@ Additional notes (while in shadow form):
 3. You can fly; speed equals your movement force. You can pass through objects, and you can still perform special actions even if you cannot cause physical damage.
 4. **Special:** In the state of resentment, you can store items in your body, and you can keep the state of resentment without eating for two weeks.
 5. The number of items that can be stored in your body equals your Constitution. Your body temperature is quite cold. You can actively create a cold wind without any obvious effect without any action, to scare people or show your existence.
-6. Wraith form has no physical vital points, so it cannot be critically hit by other paths other than the [[LINK LATER: Death Path | type=pathway | hint=referenced as exception to critical hits]].
+6. Wraith form has no physical vital points, so it cannot be critically hit by other paths other than the [[Death Path]].
 
 Extra (while in shadow form):
 
-- You can find the location of the [[LINK LATER: Spirit World | type=location | hint=otherworld plane]] and enter it, or come out of it in about 1 minute.
+- You can find the location of the [[Spirit World]] and enter it, or come out of it in about 1 minute.
 - You don’t have the ability to shuttle at high speed in the spirit world, but you usually won’t get lost.
 - Because of the time required, this ability is often ineffective in combat.
 
@@ -93,7 +93,7 @@ Higher-Sequence note:
 ### Advanced Shadow Invisibility
 
 - **Prerequisite:** You are in shadow form (from **Shapeshifting Shadow**).
-- **Effect:** Spirit visions other than [[LINK LATER: Eye of Mystery | type=term | hint=special vision]], [[LINK LATER: Reaper | type=term | hint=special vision or class]], and [[LINK LATER: Master Puppet | type=term | hint=special vision or class]] cannot discover your location.
+- **Effect:** Spirit visions other than [[Eye of Mystery]], [[Reaper]], and [[Master Puppet]] cannot discover your location.
 - **Use:** As a swift action, you can actively reveal yourself so others can observe you.
 
 Notes:
@@ -108,7 +108,7 @@ Special detection clause:
 
 - If there is a target larger than you by one person, then even if it is not a special vision, it can still find you. [[UNCLEAR: “larger than you by one person” is not clearly defined.]]
 - If you are possessed or hidden in objects or creatures, you can still avoid this kind of detection, only ordinary vision.
-- If attached to an object, it may be more secure to cover the object with a [[LINK LATER: Spiritual Wall | type=mechanic | hint=protective barrier]].
+- If attached to an object, it may be more secure to cover the object with a [[Spiritual Wall]].
 
 ### Wraith Scream
 
@@ -123,7 +123,7 @@ Special detection clause:
 - **Effect:** You can freely enter and exit the mirror, and use the mirror to help you resist attacks.
 
 1. **Passive:** Shuttle in the mirror image, retain complete physical defense against firearms instead of light/lightning, and gain an extra level of dodge. [[UNCLEAR: The passive defense tradeoff “against firearms instead of light/lightning” is unclear as written.]]
-2. **Active:** 1 swift action, 1 time per round: choose a mirror within 300 meters to perform a mirror jump. You can avoid the attack aimed at your original position. Range attack requires you to jump out of the corresponding range, just like a [[LINK LATER: Flame Jump | type=mechanic | hint=teleport/evade reference]].
+2. **Active:** 1 swift action, 1 time per round: choose a mirror within 300 meters to perform a mirror jump. You can avoid the attack aimed at your original position. Range attack requires you to jump out of the corresponding range, just like a [[Flame Jump]].
 
 Perception and definition notes:
 
@@ -157,14 +157,14 @@ Process notes:
 Limits on what can be used while possessed:
 
 - Being able to cast spells does not mean you can cast swift/free actions.
-  - Examples: the [[LINK LATER: Midnight Poet | type=term | hint=class/sequence]]’s chanting must be voluntary; the [[LINK LATER: Fool | type=term | hint=class/sequence]]’s flame jump must snap fingers or simulate snapping; the air cannon needs speech.
+  - Examples: the [[Midnight Poet]]’s chanting must be voluntary; the [[Fool]]’s flame jump must snap fingers or simulate snapping; the air cannon needs speech.
 - Therefore, in the possessed state, only abilities that do not require physical movements can be used at all. Spell-casting actions performed through extended spirituality usually do not require physical movements; if a verbal or physical action is clearly required, it cannot be used.
 
 Getting out of the possession state:
 
 - To get out, you must use special means to counter the extraordinary ability with extraordinary ability.
 - Mental influence (such as painful torture), holy attack, and lightning attack are effective means, but generally cause damage to both the possessed and the possessor; mental influence may be offset by crazy actions.
-- Teleporting or transforming one’s own form of existence (such as [[LINK LATER: Moonlighting | type=mechanic | hint=form/teleport reference]]) cannot get rid of the resentful spirit, because the spirit body is deeply bound.
+- Teleporting or transforming one’s own form of existence (such as [[Moonlighting]]) cannot get rid of the resentful spirit, because the spirit body is deeply bound.
 - Because possessor and possessed have independent actions, you can continue to use any remaining actions after breaking away from possession.
 
 Possession description limits:
@@ -214,7 +214,7 @@ Higher-Sequence notes:
 ### Spirit World Divination
 
 - **Prerequisite:** You are in the state of a wronged soul. [[UNCLEAR: “wronged soul” is not clearly defined; likely refers to a resentful soul/wraith state.]]
-- **Effect:** You can directly obtain the information you want through the [[LINK LATER: Spirit World | type=location | hint=divination medium]].
+- **Effect:** You can directly obtain the information you want through the [[Spirit World]].
 - **Special:** Usually, you don’t need tarot cards or coins as a medium to directly obtain information.
 
 Difficulty outcomes:
@@ -232,7 +232,7 @@ Resolution notes:
 
 Detection note:
 
-- Aware of the gaze requires a [[LINK LATER: Spiritual Intuition Test | type=mechanic | hint=awareness check]]; the existence of higher than 1 person is detected by default regardless of the difficulty. [[UNCLEAR: “higher than 1 person” is unclear.]]
+- Aware of the gaze requires a [[Spiritual Intuition Test]]; the existence of higher than 1 person is detected by default regardless of the difficulty. [[UNCLEAR: “higher than 1 person” is unclear.]]
 
 Special repetition clause:
 
@@ -257,7 +257,7 @@ You have mastered some death spells, or improved upon your previous death spells
 
 #### Manipulate Ghosts
 
-- It belongs to the sequence improvement of [[LINK LATER: Manipulating Living Corpses | type=mechanic | hint=prior spell/ability]].
+- It belongs to the sequence improvement of [[Manipulating Living Corpses]].
 - **Cost:** 3 spirit points. [[UNCLEAR: “spirit points” may be the same as “spirituality points,” but the text uses both terms.]]
 - **Use:** 1 casting action.
 - **Targeting:** Choose 1 corpse that has not been dead for more than 24 hours (spirit body still in the body / not requiemed), or an existing wandering shadow, and manipulate it as your puppet.
@@ -275,7 +275,7 @@ Shadow traits:
 
 Control notes:
 
-- The undead creatures driven by you are not equal to [[LINK LATER: Secret Puppets | type=term | hint=distinct undead/puppet category]] and may not necessarily share senses.
+- The undead creatures driven by you are not equal to [[Secret Puppets]] and may not necessarily share senses.
 - You can use your thoughts to give them orders within 100 meters without moving; they complete the orders even if they leave the range.
 
 #### Death Skull

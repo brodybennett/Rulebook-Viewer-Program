@@ -4,7 +4,7 @@ id: "fate-seq-01"
 tags: ["pathway:fate", "sequence:1"]
 ---
 
-# [[LINK LATER: Pathway for Serpent of Mercury | type=pathway | hint=Name of the Pathway that contains Sequence 1 “Serpent of Mercury”]] Pathway: Sequence 1
+# [[Pathway for Serpent of Mercury]] Pathway: Sequence 1
 
 ## Serpent of Mercury
 
@@ -49,24 +49,24 @@ Also known as the restart of destiny or the restart of all things. This is not a
 - **Targeting and range:** A certain area; you may also specify restarting only the state of one target.
 - **Limits:**
   - Maximum of two encounters.
-  - If you restart only one target’s state (examples given: an angel of the [[LINK LATER: Thief Pathway | type=pathway | hint=Referenced as “Thief path”]] or an angel of the [[LINK LATER: Seer Pathway | type=pathway | hint=Referenced as “Seer path”]]), their clone and secret puppet can usually appear jointly according to your wishes.
+  - If you restart only one target’s state (examples given: an angel of the [[Thief Pathway]] or an angel of the [[Seer Pathway]]), their clone and secret puppet can usually appear jointly according to your wishes.
 - **Aftereffects:**
   - All recorded consumption abilities, consumed spiritual abilities, and various states in your environment are reset.
   - Exception: the spirituality consumed by Restart is not returned.
 
 **Manifestation:**
 - This ability is usually restarted together with the surrounding environment, manifested as an illusory mercury snake connected end to end.
-- If you are in the form of a [[LINK LATER: Mythical Creature Form | type=term | hint=Referenced as “form of a mythic creature”]], the serpent transforms into you and turns to substance.
+- If you are in the form of a [[Mythical Creature Form]], the serpent transforms into you and turns to substance.
 
 **Extra: Self-Restart (internal use)**
 - In addition to being used on the entire environment, you can use Restart internally on yourself to restart your own life, allowing you to choose a couple and be born into their child.
 - This washes away your current madness and corresponding negative out-of-control tendencies or states, but requires a long period of recovery as you must grow back as a baby; during this time, you must hide yourself well so you won’t be discovered.
-- You cannot use this method to leap **Pathway**, because as long as you still have the [[LINK LATER: Extraordinary characteristic of conflict | type=term | hint=Referenced as producing ongoing mental pollution]] in your body, even if you restart, **mental pollution** will always be produced and will only be eliminated for a while.
+- You cannot use this method to leap **Pathway**, because as long as you still have the [[Extraordinary characteristic of conflict]] in your body, even if you restart, **mental pollution** will always be produced and will only be eliminated for a while.
 - While in the infant stage, the abilities you can use are extremely limited: almost all abilities can only be used initially, cannot achieve the desired effect, and may not even achieve half of the original effect.
-- Fortunately, you can still use some [[LINK LATER: Strong connection products | type=term | hint=Referenced as enabling angel-level good/bad luck effects]] to give the other party some [[LINK LATER: Angel | type=term | hint=Referenced as “angel-level”]] good luck or bad luck, and use your [[LINK LATER: Spiritual Vision | type=term | hint=Referenced as detecting abnormalities]] to detect abnormalities.
+- Fortunately, you can still use some [[Strong connection products]] to give the other party some [[Angel]] good luck or bad luck, and use your [[id:alias-spiritual-vision|Spiritual Vision]] to detect abnormalities.
 - Your power reduction does not mean your **Lowered**. [[UNCLEAR: “Lowered” is undefined here; unclear if it is a condition, rank, or attribute.]]
 
-> **GM Note:** At [[LINK LATER: Sequence 0 | type=sequence | hint=Upgrade note attached to Restart]], Restart is no longer limited; it includes restarting only your own state, and you can restart the entire world.
+> **GM Note:** At [[Sequence 0]], Restart is no longer limited; it includes restarting only your own state, and you can restart the entire world.
 
 ### Snake of Destiny
 

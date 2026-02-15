@@ -22,11 +22,11 @@ tags: ["pathway:black-emperor", "sequence:7"]
 
 - **Attribute Gain:** strength +1; constitution +1; agility +1; inspiration +1
 - Your **law and deceit** skill increases by 1 level.
-- At the same time, the upper limit of your [[LINK LATER: Sequence 9 Rapid Improvement | type=ability | hint=skill with an upper limit that can become advanced]] skill has reached advanced level.
+- At the same time, the upper limit of your [[Sequence 9 Rapid Improvement]] skill has reached advanced level.
 
 ### Bribe
 
-- **Cost:** 3 points of [[LINK LATER: Spirituality | type=term | hint=resource spent to use abilities]]
+- **Cost:** 3 points of [[Spirituality]]
 - **Targeting and range:** Maximum of 1 target affected at a time.
 - **Use:** You must accompany the effect with an act of giving things (an actual or symbolic “bribe”).
 - **Effect:** If any one of the following activation methods succeeds (see restrictions), you choose **one** bribe type (benefit) to apply.
@@ -34,11 +34,11 @@ tags: ["pathway:black-emperor", "sequence:7"]
 #### Activation Methods
 
 1. **Throwing**
-   - Make a confrontation against the target’s [[LINK LATER: Physical Defense | type=mechanic | hint=defense used in Throwing confrontation]].
-   - As long as the target cannot avoid “light/lightning,” the ability takes effect even if the [[LINK LATER: Identification | type=mechanic | hint=the check used to resist/confirm effects]] fails, but it does not cause damage.
+   - Make a confrontation against the target’s [[Physical Defense]].
+   - As long as the target cannot avoid “light/lightning,” the ability takes effect even if the [[Identification]] fails, but it does not cause damage.
    - If the target can avoid “light/lightning,” it only takes effect when it cannot dodge; the ability also takes effect if the Identification fails.
    - Additional restrictions:
-     - The throw must be made at the target within [[LINK LATER: Throwing Range | type=mechanic | hint=maximum distance for Throwing method]].
+     - The throw must be made at the target within [[Throwing Range]].
      - The confrontation can only be established (as written), and it can be blocked by others first.
 
 2. **Giving**
@@ -60,7 +60,7 @@ tags: ["pathway:black-emperor", "sequence:7"]
 #### Benefit Slots
 
 - Each bribe type below is a separate ability/benefit.
-- Through [[LINK LATER: Extraordinary Items | type=item | hint=items that can grant bribes/benefits]], [[LINK LATER: Grazing | type=mechanic | hint=system for storing/using powers via creatures/items]], etc., each bribe occupies a [[LINK LATER: Benefit Slot | type=mechanic | hint=limited slots that bribes occupy]].
+- Through [[Extraordinary Items]], [[Grazing]], etc., each bribe occupies a [[Benefit Slot]].
 - No matter what bribe type you choose, the activation methods (Throwing/Giving/Suggestion) work the same way, and only the Briber enjoys the benefits.
 
 #### Bribe Types
@@ -74,10 +74,10 @@ You weaken the target’s attack, defense, or control **against yourself** for a
    - This includes bullets and other effects that do not include the attacker’s subjective intention.
 
 2. **Weaken Defense**
-   - When the Briber takes any action against the target, the target’s [[LINK LATER: Three Defenses | type=mechanic | hint=the system’s three defense stats]] and [[LINK LATER: Confrontation Check | type=mechanic | hint=opposed roll/check]]s are -4 disadvantageous.
+   - When the Briber takes any action against the target, the target’s [[Three Defenses]] and [[Confrontation Check]]s are -4 disadvantageous.
 
 3. **Weaken Control**
-   - Only affects control effects on the Briber, including [[LINK LATER: Dream | type=condition | hint=control effect example]], [[LINK LATER: Epidemic | type=condition | hint=control effect example]], [[LINK LATER: Deterrence | type=condition | hint=control effect example]], etc.
+   - Only affects control effects on the Briber, including [[Dream]], [[Epidemic]], [[Deterrence]], etc.
    - For “takes effect” checks or “break free” checks made via Identification:
      - The difficulty of the Identification requirement is halved (round up).
    - For effects with marked durations, reduce duration as follows:
@@ -95,11 +95,11 @@ You weaken the target’s attack, defense, or control **against yourself** for a
      - Effects that lose 1 action → can only perform 1 swift action
      - Only 1 swift action → becomes invalid
    - Special cases of “Lost Actions” (and other similar situations) are decided by the GM with reference to:
-     1. [[LINK LATER: Spirit Body Thread Manipulation | type=mechanic | hint=control effect example]]  
+     1. [[Spirit Body Thread Manipulation]]  
         - You can still advance the manipulation progress as usual, but the effect of the extended action is reduced by 2 levels.  
         - Minimum: you can only perform 1 freedom per round.  
         - After being fully secreted, it is still considered dead and cannot perform actions.
-     2. [[LINK LATER: Possession | type=condition | hint=control effect example]]  
+     2. [[Possession]]  
         - In addition to casting spells, the possessed person can choose to attack/move as usual.
    - If a control effect meets multiple conditions at the same time, it suffers all reductions above.  
      - Example: shock changes from “last for 1 round, lose 1 action” to “last for 1 round, and only perform 1 swift action in 1 round.”
@@ -128,9 +128,9 @@ You establish a connection between two parties.
 1. You continuously know the target’s location.
    - This does not mean shared senses. You only know a specific location and distance, so you don’t know the name of the place they are going to unless you already know enough about it.
 2. You are considered to have established a mystical connection:
-   - You can perform [[LINK LATER: Divination | type=ritual | hint=performing mystical divination]] with [[LINK LATER: No-Clue Scrying | type=mechanic | hint=divination without clues]] (you gain the qualifications but no extra benefits).
+   - You can perform [[id:alias-divination|Divination]] with [[No-Clue Scrying]] (you gain the qualifications but no extra benefits).
    - This is not considered having flesh and blood, so you cannot get a completely successful result.
-   - You can’t [[LINK LATER: Curse | type=ritual | hint=cursing via mystical connection]].
+   - You can’t [[Curse]].
    - Divination for the same thing will still only get the same result until new clues are obtained.
 
 ## When the bribed target is “higher than 1 character”

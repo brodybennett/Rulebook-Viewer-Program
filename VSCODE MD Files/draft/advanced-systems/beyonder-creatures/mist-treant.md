@@ -12,7 +12,7 @@ tags: ["creature", "monster", "forest"]
 
 ## Habits
 
-Misty Treants are usually produced from the [[LINK LATER: polluted tree of life | type=location | hint=source of Misty Treants]]. They collect various creatures from the outside world, then place them into their own burl as a sacrifice to bring back the polluted tree of life - the remnant body left by the [[LINK LATER: desolate mistress | type=term | hint=entity tied to the polluted tree of life]].
+Misty Treants are usually produced from the [[polluted tree of life]]. They collect various creatures from the outside world, then place them into their own burl as a sacrifice to bring back the polluted tree of life - the remnant body left by the [[desolate mistress]].
 
 A Misty Treant has many phantasmagoric abilities. It can always use the skills and superpowers of the creatures in its burl, making it a formidable opponent.
 
@@ -32,10 +32,10 @@ Wherever one is found, endless mists cloud spiritual intuition. In the mists, Mi
 
 - **Basic Data:** Charm 1; Strength 8; Luck 4; Dexterity 4; Constitution 10; Will 5; Inspiration 0; Education 0.
 - **Health:** 80
-- **Physical Defense Level:** 10 + 4 agility + 4 armor + 4 deflection = 22. [[LINK LATER: agility | type=term | hint=defense component used in Physical Defense calculation]] [[LINK LATER: armor | type=term | hint=defense component used in Physical Defense calculation]] [[LINK LATER: deflection | type=term | hint=defense component used in Physical Defense calculation]]
+- **Physical Defense Level:** 10 + 4 agility + 4 armor + 4 deflection = 22. [[Agility]] [[armor]] [[deflection]]
   [[UNCLEAR: The defense formula references "agility," but the basic data lists "Dexterity".]]
 - **Skills:** None
-- **First Sighting:** 1/1d3 SC. [[LINK LATER: SC | type=term | hint=sanity or shock cost track]]
+- **First Sighting:** 1/1d3 SC. [[SC]]
 
 ## Turn Actions
 
@@ -72,4 +72,4 @@ There is a rhizome at the bottom of a Misty Treant. This rhizome absorbs the ess
 ### Common Items
 
 - There is a huge rhizome at the bottom of the Misty Treant. Cooking and eating this root can restore 1d6 life.
-- Its rhizome and juice can be used to prepare the [[LINK LATER: Fool's Pathway Sequence 7 Magician's Potion | type=sequence | hint=potion recipe requiring Misty Treant rhizome/juice]].
+- Its rhizome and juice can be used to prepare the [[Fool's Pathway Sequence 7 Magician's Potion]].

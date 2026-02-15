@@ -14,7 +14,7 @@ tags: ["pathway:fool", "sequence:9"]
 
 > **Lore:** Compared with other Sequences, Seers lack means to control the enemy. Seers are more professional and knowledgeable in mysticism and divination, mastering methods such as astrology, card divination, pendulums, spiritual vision, spiritual numbers, and palm reading.
 
-- See also: [[LINK LATER: Fool Pathway | type=pathway | hint=Pathway overview file/entry]]
+- See also: [[Fool Pathway]]
 
 ## Advancement
 
@@ -112,19 +112,21 @@ tags: ["pathway:fool", "sequence:9"]
   - If you are a newly promoted Seer, you need relevant classics or a teacher to master these, and you can only master one type per day.
 
 ### Ritual Mastery
+- **Effect:** While holding this ability, you gain access to ritual magic, regardless of whether your Occult skill is advanced or not.
 
-- **Effect:** You gain access to ritual magic, able to invoke power from the gods.
+
 - **Limits / Requirements:**
   - While you hold this ability, you are qualified to use ritual magic.
   - As long as you have at least been trained in **Occultism** and know how to use ritual magic, you can perform rituals regardless of whether your occult skills have reached advanced level.
-  - For the ritual magic you can use, refer to [[LINK LATER: Common Ritual Magic | type=ritual | hint=core ritual list referenced by Ritual Mastery]].
+  - For the ritual magic you can use, refer to [[Common Ritual Magic]].
   - This is the effect brought by 1 potion and cannot be stolen or recorded.
 
 ### Spiritual Vision
+- **Use:** 1 **free action** to activate.
+- **Cost:** 1 **spirituality point per round** while active.
+- **Effect:** While active, your vision gains the following benefits:
 
-- **Use:** 1 free action
-- **Cost:** Consumes 1 **Spirituality Point** per round
-- **Effect:** Activate vision; your vision gains the following benefits:
+
   1) Etheric body:
      - You can directly see the health status of the target through the color of the aura.
      - You can directly find where the other party’s body is uncomfortable and where there is a problem.

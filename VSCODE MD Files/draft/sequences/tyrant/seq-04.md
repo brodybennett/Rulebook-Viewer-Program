@@ -11,7 +11,7 @@ tags: ["pathway:tyrant", "sequence:4"]
 ### Advancement Ritual
 
 - **Advancement Ritual:** The ritual must be performed in the midst of an active natural disaster environment capable of producing earthquakes and tsunamis. The potion must be consumed and endured in this environment until the ritual concludes.  
-[[LINK LATER: Advancement Rituals | type=rule | hint=Core advancement rules]]
+[[Advancement Rituals]]
 
 ---
 
@@ -39,8 +39,8 @@ Choose one benefit:
   - If damage exceeding the wall’s remaining Health is dealt, excess damage may affect creatures hiding behind it.  
   [[UNCLEAR: “Attack identification” method for resolving spillover damage is not defined here.]]
 
-[[LINK LATER: Cover | type=rule]]
-[[LINK LATER: Terrain | type=rule]]
+[[Cover]]
+[[Terrain]]
 
 ---
 
@@ -49,7 +49,7 @@ Choose one benefit:
 - **Use:** Attack action.
 - **Targeting and Range:** All targets within 10–100 meters (excluding you).
 - **Effect:** You stomp, cracking the ground and triggering a magma eruption.
-  - Make a **Disaster Attack** with +20 [[LINK LATER: Disaster Attack | type=mechanic]] against each target’s Physical Defense.
+  - Make a **Disaster Attack** with +20 [[Disaster Attack]] against each target’s Physical Defense.
   - On success, magma erupts:
     - 5d6 fire area damage  
     - 2d6 physical damage  
@@ -110,8 +110,8 @@ Linked with: Lava, Tsunami, Rainstorm.
     - –2 to all checks
     - Lose 1d6 HP per round until escape or death.
 
-[[LINK LATER: Suffocation | type=rule]]
-[[LINK LATER: Conditions | type=rule]]
+[[Suffocation]]
+[[Conditions]]
 
 #### Tsunami
 
@@ -126,7 +126,7 @@ Linked with: Lava, Thunderstorm.
   - All affected creatures gain the **Wet** state.
   - Wet targets take +1d6 lightning damage.
 
-[[LINK LATER: Wet State | type=condition]]
+[[Wet State]]
 
 #### Rainstorm
 
@@ -166,7 +166,7 @@ You create a major disaster.
 
 - **Use:** 1 casting action, once per round.
 - **Cost:** 6 Spiritual Points.  
-[[LINK LATER: Spiritual Points | type=resource]]
+[[Spiritual Points]]
 - **Targeting:** Minimum area: a hall. Maximum: several-kilometer radius.
 - **Effect:** Choose one disaster type below.
   - Make a +20 Disaster Attack vs Physical Defense.
@@ -174,7 +174,7 @@ You create a major disaster.
 - **Limits:** Small-scale disasters usually cannot coexist; if they do, use Disaster Linkage Rules.
 - Each disaster type is an independent ability for purposes of theft or copying effects.
 
-[[LINK LATER: Theft Abilities | type=mechanic]]
+[[Theft Abilities]]
 
 ---
 
@@ -184,7 +184,7 @@ You create a major disaster.
   - Creature is in **Blown State** for 3 rounds (cannot move).
   - Wind shifts 50 m; may suffer 2d6 falling damage.
 
-[[LINK LATER: Falling Damage | type=rule]]
+[[Falling Damage]]
 
 ---
 
@@ -227,7 +227,7 @@ You create a major disaster.
   - –4 Perception.
   - Not considered fully Blind.
 
-[[LINK LATER: Movement Power | type=mechanic]]
+[[Movement Power]]
 
 ---
 

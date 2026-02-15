@@ -26,7 +26,7 @@ You can directly communicate with natural spirits and wandering spirits in the r
 - You can also communicate with natural spirits that exist naturally and are related to the **Spirit World**, and learn local clues. In general, you can find at least 5d6 natural spirits or undead in an area within 100 meters.
 - The undead you can communicate with do **not** include living corpses, water ghosts, skeletons, etc. They usually do not have real spirit bodies.
 - **Cost/Action:** 1 **spell-casting action**, consuming **3 spirituality points**. Without approaching, you can establish a psychic relationship with a spirit within your **field of vision**.
-  - **Check:** Inspiration + [[LINK LATER: Knowledge of the Dead | type=term | hint=skill/check]] vs its **Will Defense**.
+  - **Check:** Inspiration + [[Knowledge of the Dead]] vs its **Will Defense**.
   - The connection is established only on a success.
 
 > **GM Note:** “A psychic should actively communicate with all seeing spirits to achieve the effect of informants everywhere.”
@@ -45,7 +45,7 @@ There are two ways to communicate with a living person’s spirit:
 
 2. **Voluntary target**
    - **Duration/Setup:** For about 1 minute, affect the voluntary target.
-   - **Materials/Method:** Use essential oils such as [[LINK LATER: Amanda | type=item | hint=essential oil]] and [[LINK LATER: Spiritual Eye | type=item | hint=essential oil]]; drip a few drops into the candle flame to make the psychic gradually fall into a state of confusion, then start psychic communication.
+   - **Materials/Method:** Use essential oils such as [[Amanda]] and [[Spiritual Eye]]; drip a few drops into the candle flame to make the psychic gradually fall into a state of confusion, then start psychic communication.
    - **Effect:** The rest of the effects are the same as involuntary target.
    - The single dose of essential oil is very small (only a few drops), so it will not be completely consumed.
    - Creatures who can wake up in dreams ignore this effect.
@@ -69,7 +69,7 @@ You can use different spirits to achieve various magic.
 You can directly obtain information known to spirits within a certain range.
 
 - **Cost/Action:** 1 casting action; consume 3 spirituality points.
-- **Check:** Make a [[LINK LATER: Knowledge of the Dead | type=term | hint=skill/check]] identification to communicate with the local spirit and get the message of this place.
+- **Check:** Make a [[Knowledge of the Dead]] identification to communicate with the local spirit and get the message of this place.
   - When making this check, the relevant attribute is **Inspiration**, not education.
 
 **Results by Difficulty Value:**
@@ -111,7 +111,7 @@ You can communicate with and drive natural spirits, undead, and spirit creatures
 
 - **Undead:** spiritual beings transformed from emissaries who have not been properly buried and requiemed.
 
-> **GM Note:** Undead creatures driven by you are not equal to [[LINK LATER: Secret Puppets | type=mechanic | hint=comparison]] and may not necessarily share senses. You can use your thoughts to give them orders within 100 meters without moving, and they will complete the orders even if they leave the range.
+> **GM Note:** Undead creatures driven by you are not equal to [[Secret Puppets]] and may not necessarily share senses. You can use your thoughts to give them orders within 100 meters without moving, and they will complete the orders even if they leave the range.
 
 **Shadow**
 - 15 health
@@ -130,7 +130,7 @@ You can communicate with and drive natural spirits, undead, and spirit creatures
 - 5 points curse resistance
 - Ignores poison and physical damage
 - **Attack action:** 2d6 cold damage
-- **Possession:** Has Wraith Possession, but does not include mirror jumping, etc. Its determination is due to the content of [[LINK LATER: Alien Pathway — Sequence 5: Wraith | type=pathway | hint=referenced possession rules]].
+- **Possession:** Has Wraith Possession, but does not include mirror jumping, etc. Its determination is due to the content of [[Alien Pathway — Sequence 5: Wraith]].
 
 > **GM Note:** Different from resentful souls of different species: wild undead do not gain a series of abilities such as “advanced invisibility” because of their level; they can only cause cold damage. They can possess after a certain level; ordinary shadows do not even have the conditions for possession.
 
@@ -145,7 +145,7 @@ The following undead creatures can only be enslaved by naturally “awakened” 
 - 5 points resistance to cold, curse, and poison
 - **Attack:** 1d6 physical damage
 - Like a normal person but with multiple rotting corpses
-- (Against a Constitution defense of 15 to do so if there is a disease that can affect a living corpse, such as [[LINK LATER: Witch’s Plague | type=term | hint=disease]].)
+- (Against a Constitution defense of 15 to do so if there is a disease that can affect a living corpse, such as [[Witch’s Plague]].)
 
 **Skeleton**
 - 10 health
@@ -173,7 +173,7 @@ The following undead creatures can only be enslaved by naturally “awakened” 
 - If spiritual materials are contained instead of characteristics, the increase in corresponding existence time will only take effect once.
 - Charms/spiritual materials/extraordinary items can still be used for 1 day = 1 minute of existence time.
 - Items with extraordinary characteristics must be smashed back into characteristics to be effectively used through containment; otherwise they will suffer negative effects, and the spirit body will also follow the law of transfer path and lose control.
-  - [[LINK LATER: Transfer Path | type=mechanic | hint=loss-of-control rule]]
+  - [[Transfer Path]]
 
 ##### Natural Spirits
 
@@ -226,15 +226,16 @@ A more common natural spirit only has the above two abilities. This is the most 
 ### Ritual Mastery
 
 You gain access to ritual magic, able to invoke power from the gods.
-
 - **Effect:** While holding this ability, you gain access to ritual magic, regardless of whether your Occult skill is advanced or not.
-- For the ritual magic you can use, refer to [[LINK LATER: Common Ritual Magic | type=table | hint=ritual list]].
+
+
+- For the ritual magic you can use, refer to [[Common Ritual Magic]].
 - **Special:** When the ritual you perform is a psychic ritual/spiritual ritual/summoning ritual, the Occult identification succeeds by default.
 - **Limit:** This is the effect brought by 1 potion and cannot be stolen or recorded.
 
 ### Undead Army Battle Adjudication
 
-Because the [[LINK LATER: Reaper Pathway | type=pathway | hint=Pathway referenced by army rules]] starts from Sequence 7, and every time a Sequence is increased the subordinates you can drive and enslave increase explosively, you must decide the judgment method of your undead army in battle.
+Because the [[Reaper Pathway]] starts from Sequence 7, and every time a Sequence is increased the subordinates you can drive and enslave increase explosively, you must decide the judgment method of your undead army in battle.
 
 #### When the Undead Are Treated as an “Army”
 
@@ -268,7 +269,7 @@ Because the [[LINK LATER: Reaper Pathway | type=pathway | hint=Pathway reference
 #### Area Damage
 
 1. Area damage deducts blood volume from all species classifications of the undead army at the same time.
-   - Example: “Yang Yan” of the [[LINK LATER: Sun Pathway | type=pathway | hint=referenced demigod ability]] demigod—single damage from Yang Yan simultaneously reduces the life value of all classifications (living corpse, shadow, skeleton, etc.).
+   - Example: “Yang Yan” of the [[Sun Pathway]] demigod—single damage from Yang Yan simultaneously reduces the life value of all classifications (living corpse, shadow, skeleton, etc.).
 2. If a single-target attack says “Multiple targets standing together are considered the same target,” then that single-target attack’s damage to the undead army is doubled, but it is still deducted gradually according to priority 1, 2, and 3 rather than being deducted together.
 
 **Special:**

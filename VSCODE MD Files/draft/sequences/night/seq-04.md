@@ -28,20 +28,20 @@ tags: ["pathway:night", "sequence:4"]
 
 ### Grasp of Doom
 
-- **Cost:** 5 [[LINK LATER: Spirituality Points | type=term | hint=resource used by abilities]].
-- **Use:** 1 [[LINK LATER: Casting Action | type=term | hint=action economy]]; curse one creature.
-- **Effect:** Each time the cursed creature makes a [[LINK LATER: Skill Check | type=mechanic | hint=skill roll resolution]], it must also make an additional **Lucky Check** with **Difficulty Value** 15. On a failure, the triggering skill check drops by 1 **Success Level**.
+- **Cost:** 5 [[Spirituality]].
+- **Use:** 1 [[Casting Action]]; curse one creature.
+- **Effect:** Each time the cursed creature makes a [[Skill Check]], it must also make an additional **Lucky Check** with **Difficulty Value** 15. On a failure, the triggering skill check drops by 1 **Success Level**.
 
 - **Sequence Scaling:**
   - **Sequence 2:** Lucky check **Difficulty Value** becomes 20.
-  - **Sequence 1:** It can be cast synchronously by attacking, and additionally makes the target’s all [[LINK LATER: Skill Identification | type=mechanic | hint=the game’s identification-related skill/check term]] -4.
+  - **Sequence 1:** It can be cast synchronously by attacking, and additionally makes the target’s all [[Skill Identification]] -4.
     [[UNCLEAR: “the target’s all skill identification -4” does not specify whether this penalty applies to a specific skill, to all identification-related checks, or to something else.]]
 
 ### Ethereal Mastery
 
 - **Effect:** You are proficient at dealing with ethereal creatures.
-  - Your attacks ignore [[LINK LATER: Incorporeality | type=condition | hint=rule that normally affects attacking incorporeal targets]].
-  - You deal 5d6 more damage against creatures with the [[LINK LATER: Incorporeal Quality | type=condition | hint=creature trait/quality referenced by rules]].
+  - Your attacks ignore [[Incorporeality]].
+  - You deal 5d6 more damage against creatures with the [[Incorporeal Quality]].
 
 - **Sequence Scaling:**
-  - **Sequence 3:** At [[LINK LATER: Close Range | type=term | hint=range band definition]], you can pull out the [[LINK LATER: Spirit Body | type=term | hint=spiritual anatomy term]] of a [[LINK LATER: Helpless | type=condition | hint=unable to resist]] creature to [[LINK LATER: Channeling | type=mechanic | hint=the system’s channeling process]] directly, then stuff the spirit body back into its body after channeling; this is considered an [[LINK LATER: Injury | type=condition | hint=rules effect for being injured]].
+  - **Sequence 3:** At [[Close Range]], you can pull out the [[Spirit Body]] of a [[Helpless]] creature to [[Channeling]] directly, then stuff the spirit body back into its body after channeling; this is considered an [[Injury]].

@@ -34,14 +34,14 @@ The process by which gray goats impregnate creatures can often be dangerous and 
 
 ### Living Environment
 
-Hornacis gray goats like to live near mountains; for example, it is easy to find this kind of gray goat near the [[LINK LATER: Hornacis Mountains | type=location | hint=mountain range associated with these creatures]].
+Hornacis gray goats like to live near mountains; for example, it is easy to find this kind of gray goat near the [[Hornacis Mountains]].
 
 No matter where it is, the surrounding plants will grow rapidly into patches of dense forest, and the Hornacis Gray Goat will hide in the center of the dense forest.
 
 - **Flesh Forest:** Plants near the Hornacis Gray Goat look extremely weird, grow tentacles, or wriggle.
 - **Flesh Creation:** Creatures near the Hornacis Gray Goat will produce a Flesh Mutant. Mutant Flesh: Strength +2; gains 1 point of fast healing; and likely possesses the extraordinary ability of a Hornacis Gray Goat.
 
-> **GM Note:** This is a treasure trove for the Earth Sequence, because they often find suitable biological configuration potions and enslave some creatures. [[LINK LATER: Earth Sequence | type=sequence | hint=group or Pathway faction tied to "Earth"]]
+> **GM Note:** This is a treasure trove for the Earth Sequence, because they often find suitable biological configuration potions and enslave some creatures. [[Earth Sequence]]
 
 ## Basic Data
 
@@ -61,7 +61,7 @@ No matter where it is, the surrounding plants will grow rapidly into patches of 
 - **Health:** 40
 - **Physical Defense Level:** 10 + 4 natural armor + 4 agility = 18
 - **Skills:** Fighting +10; Survival +10
-- **Sanity cost (first sighting):** 1/1d3 SC [[LINK LATER: SC | type=term | hint=sanity or shock cost track]]
+- **Sanity cost (first sighting):** 1/1d3 SC [[SC]]
   [[UNCLEAR: "SC" is not defined in RAW.]]
 
 ## Combat
@@ -99,4 +99,4 @@ Hornacis gray goat meat is tender and tasty, but requires long and thorough cook
 
 ## Common Items
 
-There is a huge crystal inside the Hornacis Gray Goat, which can provide 10 points of spirituality. [[LINK LATER: spirituality | type=term | hint=resource gained from the crystal]]
+There is a huge crystal inside the Hornacis Gray Goat, which can provide 10 points of spirituality. [[spirituality]]

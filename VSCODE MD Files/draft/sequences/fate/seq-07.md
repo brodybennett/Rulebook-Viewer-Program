@@ -14,8 +14,8 @@ tags: ["pathway:fate", "sequence:7"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** [[LINK LATER: Inspiration | type=term | hint=attribute]] +1, [[LINK LATER: Luck | type=term | hint=attribute]] +3.
-- You may replace any **skill identification** with a **Luck identification**, excluding **attribute identification**. [[LINK LATER: Identification | type=mechanic | hint=check/roll system term]]
+- **Attribute Gain:** [[Inspiration]] +1, [[id:alias-luck|Luck]] +3.
+- You may replace any **skill identification** with a **Luck identification**, excluding **attribute identification**. [[Identification]]
 
 ### Luck
 
@@ -33,7 +33,7 @@ tags: ["pathway:fate", "sequence:7"]
 
 - **Special:**
   - **Disadvantage** only applies to you personally. Area attacks may harm both you and your teammates.
-  - The above benefits do not affect the **sanity loss test**. [[LINK LATER: Sanity Loss Test | type=mechanic | hint=mental stability check]]
+  - The above benefits do not affect the **sanity loss test**. [[Sanity Loss Test]]
 
 - **Special Good Luck:**
   - If you roll 1 (Extreme good luck) or 2 (Better luck), you gain **Special Good Luck** for the next 6 hours.
@@ -42,7 +42,7 @@ tags: ["pathway:fate", "sequence:7"]
 
 | 1d4 | Encountered good thing |
 |---:|---|
-| 1 | You pick up 1d10 money; roll 1d3 to decide whether it is a penny, a [[LINK LATER: Soli | type=term | hint=currency]], or a [[LINK LATER: Gold Pound | type=term | hint=currency (banknote)]] (banknote). |
+| 1 | You pick up 1d10 money; roll 1d3 to decide whether it is a penny, a [[Soli]], or a [[Gold Pound]] (banknote). |
 | 2 | You meet someone or something you wanted to see; it just passes by, but you notice it. |
 | 3 | You meet someone who will help you in the future, even if you don’t know the person. |
 | 4 | You overhear a piece of information of value to you. |

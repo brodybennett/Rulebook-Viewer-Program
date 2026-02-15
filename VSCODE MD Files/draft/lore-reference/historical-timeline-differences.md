@@ -6,7 +6,7 @@ tags: ["lore-reference", "timeline", "epochs", "organizations"]
 
 # Differences in the Lord of the Mysteries Historical Timeline
 
-This section summarizes the setting's major **Epochs** and key organizations for campaign reference. For system definitions of **Beyonders**, **Pathways**, **Sequences**, and **Beyonder Characteristics**, see [[LINK LATER: The Beyonder System | type=rule | hint=system overview]], [[LINK LATER: Chapter 10: Sequences | type=rule | hint=sequence rules chapter]], and [[LINK LATER: Beyonder Characteristics | type=term | hint=advancement materials]]. For artifact terminology, see [[LINK LATER: Sealed Artifacts and Containment | type=rule | hint=artifact terminology]].
+This section summarizes the setting's major **Epochs** and key organizations for campaign reference. For system definitions of **Beyonders**, **Pathways**, **Sequences**, and **Beyonder Characteristics**, see [[The Beyonder System]], [[Chapter 10: Sequences]], and [[id:alias-beyonder-characteristics|Beyonder Characteristics]]. For artifact terminology, see [[Sealed Artifacts and Containment]].
 
 > **GM Note:** This material is presented as setting reference. Some entries originated from external compilations and may be incomplete or inconsistent.
 
@@ -278,7 +278,7 @@ Apocalypse pressure (novel baseline):
 
 > **GM Note:** The above "recognition" statement is framed as an inference in the source text, not a direct historical claim.
 
-**Subordinate: Church of the Sea God** (see also [[LINK LATER: Church of the Sea God | type=faction | hint=church entry]] if present elsewhere)
+**Subordinate: Church of the Sea God** (see also [[Church of the Sea God]] if present elsewhere)
 - A local indigenous religion of the Rorsted Archipelago that believed in the "Sea God" Kalvetua.
 After Kalvetua's death:
 - Klein accepted the Characteristics left behind.

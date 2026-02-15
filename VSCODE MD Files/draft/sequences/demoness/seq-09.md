@@ -18,18 +18,18 @@ Assassins can briefly alter their body, move with feather-like lightness, harden
 
 - **Attribute gain:** Strength +2, Constitution +1, Agility +2.
 - You can better learn:
-  - [[LINK LATER: Fighting (Hand-to-Hand Combat) | type=mechanic | hint=skill]]
-  - [[LINK LATER: Detection | type=mechanic | hint=skill]]
-  - [[LINK LATER: Stealth | type=mechanic | hint=skill]]
-  - [[LINK LATER: Dodge | type=mechanic | hint=skill]]
-  - [[LINK LATER: Throwing | type=mechanic | hint=skill]]
-  - [[LINK LATER: Jumping | type=mechanic | hint=skill]]
-  - [[LINK LATER: Swimming | type=mechanic | hint=skill]]
+  - [[Fighting (Hand-to-Hand Combat)]]
+  - [[Detection]]
+  - [[Stealth]]
+  - [[Dodge]]
+  - [[Throwing]]
+  - [[Jumping]]
+  - [[Swimming]]
 - Every 2 hours, you receive non-repetitive, effective related guidance; the corresponding skills go up 1 level.
   1. You need to learn 2, 3, and 4 times from training to proficiency, advanced level, and proficiency respectively, and you can upgrade to proficiency at most.  
      [[UNCLEAR: The training ladder repeats “proficiency” and does not clearly distinguish the intermediate/advanced tiers; text is preserved verbatim.]]
   2. Every time you assassinate a target that is stronger than you, it is also considered as a growth. Selecting any of the above skills is regarded as a learning. The learning is limited to one time per day, but the growth brought by the assassination is not counted.
-- When creating a character that has not just been promoted, you can use the corresponding skill-related attributes brought by the [[LINK LATER: Potion | type=mechanic | hint=the consumed advancement item/effect]] to add growth skills, and the growth rate is regarded as inspiration.  
+- When creating a character that has not just been promoted, you can use the corresponding skill-related attributes brought by the [[Potion]] to add growth skills, and the growth rate is regarded as inspiration.  
   [[UNCLEAR: The “every 2 hours” guidance rule and the character-creation “growth rate is regarded as inspiration” clause lack defined procedures/terms in RAW.]]
 
 ### Body Change
@@ -39,8 +39,8 @@ Assassins can briefly alter their body, move with feather-like lightness, harden
   1. Within 1 round (6 seconds), your body can be as light as a feather walking on the moon. In this state, your climbing, jumping, swimming, and stealth identifications are all successful by default. When confronting, it will be changed to +4 favorable.
   2. Because the body is light and easy to control, at the height of about the fifth and sixth floors of modern times (18–28 meters), you will not be hurt by falling. You will fall slowly like a feather, and you will not lose your balance or suffer impact injury (e.g., carriage/car).
   3. Even at a higher height, you only need to find a few support points as a transfer during the fall, and you will not be hurt by the fall.
-- While in an altered state, you can make a [[LINK LATER: Stealth | type=mechanic | hint=skill check]] check as a **move action**, even if you are being watched.
-- At [[LINK LATER: Sequence 7 | type=sequence | hint=Demoness Pathway advancement]]: Body Change requires only 1 **swift action**.
+- While in an altered state, you can make a [[Stealth]] check as a **move action**, even if you are being watched.
+- At [[Sequence 7]]: Body Change requires only 1 **swift action**.
 
 ### Sharp Sight
 
@@ -53,10 +53,10 @@ Assassins can briefly alter their body, move with feather-like lightness, harden
 
 - **Effect:** You can dexterously fight and dodge attacks in battle, grasp vital points in observation, and kill with one blow.
   1. As long as you are in the shadow/darkness, your stealth test is successful by default, and it is beneficial to +4 when confronting; this can be superimposed.
-  2. It is beneficial to +2 special action appraisals such as [[LINK LATER: Critical Strike | type=mechanic | hint=special action]], [[LINK LATER: Double Strike | type=mechanic | hint=special action]], and [[LINK LATER: Close Shot | type=mechanic | hint=special action]], excluding first aid/surprise attack, and does not affect special actions that simply gain benefits. For example, gaining momentum and aiming will not change from +2 to +4. Only affects identification.
+  2. It is beneficial to +2 special action appraisals such as [[Critical Strike]], [[Double Strike]], and [[Close Shot]], excluding first aid/surprise attack, and does not affect special actions that simply gain benefits. For example, gaining momentum and aiming will not change from +2 to +4. Only affects identification.
   3. **Quick dodge:** You use skills to retain complete physical defense against guns instead of light/lightning, and get an extra level of dodge.
-- This is the effect brought by a [[LINK LATER: Potion | type=mechanic | hint=the consumed advancement item/effect]]; it cannot be stolen or recorded.
-  > **GM Note:** You should try more raids/sneak attacks. For details, see the benefits this can bring you in [[LINK LATER: Special Actions | type=table | hint=rules section for special actions and related benefits]], and the invisibility starting from [[LINK LATER: Sequence 7 | type=sequence | hint=Demoness Pathway advancement]] (more favorable conditions for raids).
+- This is the effect brought by a [[Potion]]; it cannot be stolen or recorded.
+  > **GM Note:** You should try more raids/sneak attacks. For details, see the benefits this can bring you in [[Special Actions]], and the invisibility starting from [[Sequence 7]] (more favorable conditions for raids).
 
 ### Poised Burst
 
@@ -72,10 +72,11 @@ Assassins can briefly alter their body, move with feather-like lightness, harden
   2. Therefore, assuming that this blow is used in the first round, then until the third round of the assassin's action, the assassin's strength attribute and strength damage dice are regarded as 0.
 
 ### Vision
-
-- **Use:** 1 **free action**.
+- **Use:** 1 free action.
 - **Cost:** Consuming 1 **spirituality point** per round.
 - **Effect:** You activate vision, and your vision gains the following benefits:
+
+
   1. **Etheric body:** You can roughly tell whether the other party’s body is good or bad through the color of the aura, but you can’t get detailed information.
   2. **Spiritual body:** You can confirm whether an object/creature has spirituality, which cannot identify extraordinary people.
   3. **Mental body:** You can see whether the other party is thinking, but only so, and you cannot get more detailed information.

@@ -24,10 +24,10 @@ tags: ["pathway:earth", "sequence:7"]
 - **Use:** 1 casting action
 - **Targeting and range:** Choose a plant within 10 meters of you **or** throw one or multiple seeds.
 - **Effect:**
-  - You read the [[LINK LATER: Language of Mysticism | type=term | hint=incantation/ritual language]] and catalyze rapid growth and reproduction.
+  - You read the [[Language of Mysticism]] and catalyze rapid growth and reproduction.
   - The chosen plant/seed(s) grow quickly to create jungles on any ground or ship, growing crazily to deal with enemies.
 - **Special:**
-  - In a land environment, you can directly harvest seeds contained in the land, excluding the “land abandoned by the gods.” [[LINK LATER: Land Abandoned by the Gods | type=location | hint=excluded terrain for harvesting]]
+  - In a land environment, you can directly harvest seeds contained in the land, excluding the “land abandoned by the gods.” [[Land Abandoned by the Gods]]
   - When **Harvest** is used to increase plant production, the number of harvests can be increased by five times.
   - You can specify the extent of growth (for example, maturing quickly without increasing production).
 
@@ -87,7 +87,7 @@ The Harvest Priest’s plants are regarded as a whole in battle. Once produced, 
 
 - Each time you use **Harvest**, you can harvest up to **5** seeds.
 - Land can provide up to **5** seeds per **100 meters** of land (you can choose the specific number).
-- The seeds carried by the Harvest Priest should be limited (seeds are equivalent to small volume). See [[LINK LATER: Carrying Items | type=table | hint=inventory size/volume rules]].
+- The seeds carried by the Harvest Priest should be limited (seeds are equivalent to small volume). See [[Carrying Items]].
 - **Bottled powder:** Equivalent to small and medium-sized items.
   - Bottled seeds: the amount of powder in a bottle is equivalent to **5** seeds.
 - At most **10** kinds of harvested plants can exist in an area of **100 meters** at the same time (space-size limitation).
@@ -131,7 +131,7 @@ When harvesting from land (as long as the land is not in a bad environment), rol
    - You use plants to cover your whereabouts.
    - If others have not found you, your stealth identification is successful by default.
    - If you have been found, it is beneficial to change the stealth identification to **+4**.
-   - This cannot be used to fight against effects such as [[LINK LATER: Spiritual Body Line Vision | type=mechanic | hint=vision/true-sight-like effect]].
+   - This cannot be used to fight against effects such as [[Spiritual Body Line Vision]].
 4. **Form Manipulation**
    - You coil plants into various shapes to do certain things on your behalf.
    - You do not share senses.

@@ -14,19 +14,20 @@ tags: ["pathway:visionary", "sequence:0"]
 
 ### Advancement Ritual
 
-- **Advancement Ritual:** Let the development of the times conform to your expectations. At key points—within the prescribed trend of the times—take the [[LINK LATER: Magic Potion | type=item | hint=Sequence 0 advancement]].
+- **Advancement Ritual:** Let the development of the times conform to your expectations. At key points—within the prescribed trend of the times—take the [[Magic Potion]].
 
 ## Extraordinary Abilities
 
 ### Attribute Gain
 
 - **Attribute Gain:** Inspiration +3; Charisma +2; Strength +1; Constitution +1; Agility +1.
-- **Skill Increase:** [[LINK LATER: Writing | type=term | hint=skill]] increases by 1 level.
+- **Skill Increase:** [[Writing]] increases by 1 level.
 
 ### Divine Gaze
+- **Use:** When any creature recites your **True Name**.
+- **Effect:** You can gaze at the surroundings of that creature, and use your extraordinary abilities to target the area at will.
 
-- **Trigger:** Any creature recites your [[LINK LATER: True Name | type=term | hint=recitation trigger]].
-- **Effect:** You may perceive the surroundings of that creature.
+
 - **Targeting:** While perceiving that area, you may target the area with your extraordinary abilities at will.
 
 ### Fantasy
@@ -41,7 +42,7 @@ tags: ["pathway:visionary", "sequence:0"]
 - **Cost:** Spend **Spiritual Cap Points** to conjure a once-fictional creation for 1 full round:
   - **Ordinary items:** 3
   - **Extraordinary characteristics:** 5
-  - **Fictitious, non-existent high-level authorities** (“[[LINK LATER: King of Angels | type=term | hint=high-level authority example]]” through Sequence 0): 10
+  - **Fictitious, non-existent high-level authorities** (“[[King of Angels]]” through Sequence 0): 10
 - **Use:** Conjure a once-fictional creation.
 - **Duration:** 1 full round.
 - **Limits (Spirituality Maximum):**

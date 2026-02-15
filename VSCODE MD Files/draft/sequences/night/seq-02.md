@@ -12,7 +12,7 @@ Mastering the secret can make things **secret** and become impossible to **see**
 
 ### Advancement Ritual
 
-- **Advancement Ritual:** To hide a grand event involving at least the [[LINK LATER: Angel Personality | type=term | hint=minimum involvement threshold for the ritual]], let it happen silently:
+- **Advancement Ritual:** To hide a grand event involving at least the [[Angel Personality]], let it happen silently:
   - Without any news being spread.
   - Not being spied on in any way.
   - In the end, you will “disappear” along with the event.
@@ -23,7 +23,7 @@ Mastering the secret can make things **secret** and become impossible to **see**
 ### Attribute Gain
 
 - **Attribute Gain:** inspiration +2, constitution +1, strength +1, agility +1.
-- Choose a skill and set it as [[LINK LATER: Proficient | type=term | hint=skill proficiency state]].
+- Choose a skill and set it as [[Proficient]].
 
 ### Stealth
 
@@ -32,12 +32,12 @@ Mastering the secret can make things **secret** and become impossible to **see**
 - **Use:** As a free action, once per round, choose one or more targets within your line of sight.
 - **Effect:** Stealth can produce the effects below, depending on what you are concealing.
 
-- **Make a person secret:** A person disappears from reality and is transferred to the [[LINK LATER: Hidden Kingdom | type=location | hint=realm of the Goddess of the Night]] of the [[LINK LATER: Goddess of the Night | type=faction | hint=deity associated with concealment/night]].
-  - > **Lore:** Usually an endless dark world with plants such as moon flowers and night herbs. If there was a red moon here before the [[LINK LATER: War of Gods | type=other | hint=setting-era conflict]], it was described as “highly illuminated.”
-  - This place can be interwoven with the real world, analogous to the [[LINK LATER: Spirit World | type=location | hint=mystical plane]]. It can be used for teleportation and movement, and can be considered an independent kingdom of God.
-  - **Limits within the hidden kingdom:** [[LINK LATER: Spiritual Teleportation | type=mechanic | hint=teleportation method]] is not available. [[LINK LATER: Divination | type=mechanic | hint=information-gathering power]] and [[LINK LATER: Wall Penetration | type=mechanic | hint=passing through barriers]] are still in effect.
+- **Make a person secret:** A person disappears from reality and is transferred to the [[Hidden Kingdom]] of the [[Goddess of the Night]].
+  - > **Lore:** Usually an endless dark world with plants such as moon flowers and night herbs. If there was a red moon here before the [[War of Gods]], it was described as “highly illuminated.”
+  - This place can be interwoven with the real world, analogous to the [[Spirit World]]. It can be used for teleportation and movement, and can be considered an independent kingdom of God.
+  - **Limits within the hidden kingdom:** [[Spiritual Teleportation]] is not available. [[id:alias-divination|Divination]] and [[Wall Penetration]] are still in effect.
 
-- **Conceal a supernatural ability:** Conceal a [[LINK LATER: Supernatural Ability | type=mechanic | hint=hostile effect/projectile/power]] in front of you to make it disappear.
+- **Conceal a supernatural ability:** Conceal a [[Supernatural Ability]] in front of you to make it disappear.
   - This can be used to avoid damage when a supernatural ability is about to hit you.
   - It must be visible, or you can detect it in some way.
   - It must be hidden in time.
@@ -47,7 +47,7 @@ Mastering the secret can make things **secret** and become impossible to **see**
   - It can be understood that the target becomes conceptually invisible, disappears, and does not exist. This is the hidden state.
   - This level of authority has absolute priority; it cannot be seen through any channel.
   - They are still in the original position, but they just disappeared.
-  - Hiding an event can make the matter no longer be seen by anyone, including via [[LINK LATER: Heart | type=mechanic | hint=method of perception/detection]].
+  - Hiding an event can make the matter no longer be seen by anyone, including via [[Heart]].
   - If you hide someone, you get absolute invisibility in many senses and can walk through obstacles.
     - While you’re invisible this way, you can’t take damage, and you can’t deal damage.
 
@@ -55,11 +55,11 @@ Mastering the secret can make things **secret** and become impossible to **see**
   - You cannot directly conceal a person who is the same level as you or one level lower than you, but you can conceal that person’s extraordinary power.
   [[UNCLEAR: The source states “same level as you or one lower,” which is counterintuitive and may be a translation error about which levels are immune.]]
 
-- **Anti-secretization:** Remove the secrecy of a thing, including “hiding” that other people want to carry out (e.g., the space hiding of the [[LINK LATER: Doorway | type=pathway | hint=pathway/ability involving hidden spaces]], the face covering of the [[LINK LATER: Faceless Person | type=term | hint=identity-masking ability/user]]).
+- **Anti-secretization:** Remove the secrecy of a thing, including “hiding” that other people want to carry out (e.g., the space hiding of the [[Doorway]], the face covering of the [[Faceless Person]]).
   - It can only act on the macro surface: you can make something that exists in one place but was deliberately hidden become exposed.
   - You cannot pry into the hearts of others this way, or directly know the truth by unlocking the secret of a thing.
 
-- **Extra:** Through the secretization and anti-secretization, [[LINK LATER: Extraordinary Characteristics | type=term | hint=mystical characteristics/residue]] without a [[LINK LATER: Spiritual Imprint | type=term | hint=owner-bound imprint]] can be directly extracted by cooperating with the secretization.
+- **Extra:** Through the secretization and anti-secretization, [[Extraordinary Characteristics]] without a [[Spiritual Imprint]] can be directly extracted by cooperating with the secretization.
   [[UNCLEAR: The procedure and requirements for “cooperating with the secretization” to extract characteristics are not defined.]]
 
 - Uncloaking an object means that you have at least included the object in the line of sight, which allows you to directly find any hidden things and secrets around you.
@@ -70,9 +70,9 @@ Mastering the secret can make things **secret** and become impossible to **see**
 
 - **Sending an area into a hidden country:** The inside and outside of the area are blocked, similar to an independent space.
   - The entire area is plunged into night and stars are twinkling; the stars can also be hidden and not reflected.
-  - > **Lore:** Before the plot of [[LINK LATER: God of War | type=other | hint=setting-era plot point]], there will be a round of red moon in the sky of the hidden country.
+  - > **Lore:** Before the plot of [[God of War]], there will be a round of red moon in the sky of the hidden country.
   - To put it simply, the entire area is plunged into darkness, and everything is covered with a dim “veil,” which is no longer real and will not shake naturally due to ordinary wind, as if it has become a “background wall” in the night.
-  - However, neither the [[LINK LATER: Error | type=faction | hint=entity capable of spying]] nor the [[LINK LATER: Audience | type=faction | hint=entity capable of spying]] can spy on the information that happened in the hidden country from the outside world; this is true isolation between the inside and the outside.
+  - However, neither the [[id:alias-error|Error]] nor the [[Audience]] can spy on the information that happened in the hidden country from the outside world; this is true isolation between the inside and the outside.
   - **Exit requirement:** This kind of space that isolates the inside and outside must leave an exit when making it (similar to the hidden space of the doorway). The form of the exit is up to you.
     - Example: You can use the moon in the sky as an escape exit; others must run into the red moon in the sky if they want to go out.
     - The distance between the two will not be as far away as the real earth and the moon.

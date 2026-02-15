@@ -23,7 +23,7 @@ tags: ["pathway:fate", "sequence:5"]
 
 ### Luck
 
-Your **Luck** ability during [[LINK LATER: Sequence 7 Luck | type=sequence | hint=Luck ability referenced as an earlier version]] has been improved.
+Your **Luck** ability during [[Sequence 7 Luck]] has been improved.
 
 **Luck level increased:**
 1) **Extreme luck:** changed to 2d3 bonus/penalty.
@@ -51,7 +51,7 @@ You can rely on moderation to accumulate a lot of “luck” to resolve crises i
 
 #### Resolve fatal crisis
 
-If a certain attack against your [[LINK LATER: Three Defenses | type=term | hint=the “three defenses” stat group]] is successfully identified, and can cause damage equal to or greater than half of the upper limit of your [[LINK LATER: HP | type=term | hint=hit points]] within 1 round, rounded up, the luck released will be automatically added to the defense value.
+If a certain attack against your [[Three Defenses]] is successfully identified, and can cause damage equal to or greater than half of the upper limit of your [[HP]] within 1 round, rounded up, the luck released will be automatically added to the defense value.
 
 1) **Example:** 30 attack identification > 25 physical defense, and can cause fatal damage to you, then the luck you release will automatically consume 5 points to make up the difference
 2) This ability can be triggered passively, in other words, this ability will passively release luck when suffering fatal damage
@@ -63,7 +63,7 @@ If a certain attack against your [[LINK LATER: Three Defenses | type=term | hint
 As long as there is luck you have released, then whenever your skill appraisal fails, the corresponding difficulty is not exceeded or the confrontation fails, the released luck will be added to the skill result to ensure success.  
 (Only good luck released to yourself, you can store it back)
 
-Release Luck and special action [[LINK LATER: Burn Luck | type=mechanic | hint=special action referenced as separate from Release]] are independent. The released Luck is not an effect that you actively choose. As long as any of the above two conditions are met, Luck will be consumed automatically. Refer to [[LINK LATER: Sequence 7 Luck | type=sequence | hint=expression form referenced]] for the expression form.
+Release Luck and special action [[id:alias-burn-luck|Burn Luck]] are independent. The released Luck is not an effect that you actively choose. As long as any of the above two conditions are met, Luck will be consumed automatically. Refer to [[Sequence 7 Luck]] for the expression form.
 
 ### Luck Grant
 

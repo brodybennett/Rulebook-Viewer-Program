@@ -8,7 +8,7 @@ tags: ["pathway:tyrant", "sequence:0"]
 
 ## Tyrant
 
-- See also: [[LINK LATER: Sequence | type=term]]
+- See also: [[Sequence]]
 
 > **Lore:** This **Sequence** represents dominion over lightning, oceans, fear, and large-scale natural catastrophe.
 
@@ -35,13 +35,13 @@ tags: ["pathway:tyrant", "sequence:0"]
 - **Effect:**  
   - You can create planet-level violent lightning waves.  
   - All lightning-related abilities you use deal **+1d10 lightning damage**. This bonus is calculated separately and also increases the base 5d6 lightning damage of your lightning abilities.  
-  - When you use [[LINK LATER: Yi Lei Wan Tang | type=mechanic]], although it requires a single primary body as the main target, you also deal significant damage each round to other nearby creatures besides the main target. This additional damage is treated as damage from [[LINK LATER: Lightning Storm | type=mechanic]].  
+  - When you use [[Yi Lei Wan Tang]], although it requires a single primary body as the main target, you also deal significant damage each round to other nearby creatures besides the main target. This additional damage is treated as damage from [[Lightning Storm]].  
   - This secondary damage benefits from **Celestial Thunder**’s bonus damage and requires a disaster-damage identification equivalent to Lightning Storm.  
     [[UNCLEAR: The exact procedure for “disaster-damage identification” is not defined here.]]  
 
 - **Targeting and range:**  
   - Within 100 meters of any lightning you create, a powerful electromagnetic storm accompanies it, destroying all information structures.  
-  - Informational creatures of the [[LINK LATER: Voyeur Pathway | type=pathway]] cannot avoid your lightning damage.  
+  - Informational creatures of the [[Voyeur Pathway]] cannot avoid your lightning damage.  
   - Your lightning can cover the entire world. If you choose, you can keep a planet continuously filled with your lightning storms.
 
 ---
@@ -66,5 +66,5 @@ tags: ["pathway:tyrant", "sequence:0"]
 - **Use:** Once per turn, as a free action.  
 
 - **Effect (Frightening Authority):**  
-  - Make a Strength check against the target’s [[LINK LATER: Will Defense | type=mechanic]].  
-  - On a success, the target enters a [[LINK LATER: Terrified State | type=condition]] that lasts for the entire encounter.
+  - Make a Strength check against the target’s [[Will Defense]].  
+  - On a success, the target enters a [[Terrified State]] that lasts for the entire encounter.

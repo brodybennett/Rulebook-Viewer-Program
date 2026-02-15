@@ -8,7 +8,7 @@ tags: ["pathway:sun", "sequence:6"]
 
 ## Notary
 
-Notaries specialize in **Notarization**—certifying the authenticity of [[LINK LATER: Extraordinary Knowledge | type=term]] (including [[LINK LATER: Potion Formula | type=term]]) and interacting with [[LINK LATER: Extraordinary Ability | type=mechanic]] effects as they are cast. They also excel at binding agreements through **Contracts**.
+Notaries specialize in **Notarization**—certifying the authenticity of [[Extraordinary Knowledge]] (including [[Potion Formula]]) and interacting with [[id:alias-extraordinary-ability|Extraordinary Ability]] effects as they are cast. They also excel at binding agreements through **Contracts**.
 
 > **Lore:** Notaries are support-focused Beyonders who “certify” truth and enforce binding terms.
 
@@ -24,27 +24,27 @@ Notaries specialize in **Notarization**—certifying the authenticity of [[LINK 
 ### Attribute Gain
 
 - **Attribute Gain:** Agility +1; Inspiration +1; Constitution +2
-- **Law:** Included in the category of [[LINK LATER: Rapid Improvement | type=mechanic | hint=advancement category]] up to [[LINK LATER: Mastery | type=mechanic | hint=proficiency tier]].
+- **Law:** Included in the category of [[Rapid Improvement]] up to [[Mastery]].
 
 ### Notarization
 
-“Notarize” the authenticity of [[LINK LATER: Extraordinary Knowledge | type=term]] or the casting of an [[LINK LATER: Extraordinary Ability | type=mechanic]].
+“Notarize” the authenticity of [[Extraordinary Knowledge]] or the casting of an [[id:alias-extraordinary-ability|Extraordinary Ability]].
 
-- **Cost:** 4 [[LINK LATER: Spirit Points | type=mechanic | hint=resource]]
-- **Use:** 1 [[LINK LATER: Swift Action | type=mechanic | hint=action type]]. Choose **one** option below each time you use Notarization.
+- **Cost:** 4 [[Spirit Points]]
+- **Use:** 1 [[Swift Action]]. Choose **one** option below each time you use Notarization.
 
 #### Valid Notarization (Effectiveness)
 
 You temporarily improve an extraordinary ability you notarize as “effective.”
 
-- **Use requirement:** Speak the keyword **“effective”** in the [[LINK LATER: Language of Mysticism | type=term]]. You may add your own prefix (example: “God said, it is effective!”).
+- **Use requirement:** Speak the keyword **“effective”** in the [[Language of Mysticism]]. You may add your own prefix (example: “God said, it is effective!”).
 - **Timing / limits:**
-  - When you cast an [[LINK LATER: Extraordinary Ability | type=mechanic]], you may use this immediately on that casting.
+  - When you cast an [[id:alias-extraordinary-ability|Extraordinary Ability]], you may use this immediately on that casting.
   - Notarization can only be used simultaneously with other abilities and only takes effect once.
 - **Effect (choose what applies to the notarized ability):**
-  1. **Damage-type ability:** Increase the damage by **+1d10**. The damage type is the same as the original [[LINK LATER: Damage Type | type=mechanic]].
+  1. **Damage-type ability:** Increase the damage by **+1d10**. The damage type is the same as the original [[Damage Type]].
   2. **Effect increase / assistance / change-type ability:** Increase the effect by **half** (rounded down).
-  3. **Consumables (e.g., [[LINK LATER: Extraordinary Potion | type=item]]):** At the moment they are used, they gain benefit (1) or (2) based on their specific effect.
+  3. **Consumables (e.g., [[Extraordinary Potion]]):** At the moment they are used, they gain benefit (1) or (2) based on their specific effect.
   4. **Manufacturing / detection abilities:** When identified, the “difficulty of success” increases by **1 level** (10, 15, 20; every 5 increases to 1 level), and “the success level increases from 20 to 25, and from 22 to 25,” excluding “big hits.”  
      [[UNCLEAR: the identification difficulty/success-level parenthetical is internally inconsistent and uses undefined terms (“level,” “success level,” “big hits”).]]
 
@@ -52,9 +52,9 @@ You temporarily improve an extraordinary ability you notarize as “effective.�
 
 You deem a cast extraordinary ability “invalid,” weakening it or forcibly dispersing it.
 
-- **Use requirement:** Speak the keyword **“invalid”** in the [[LINK LATER: Language of Mysticism | type=term]]. You may add your own prefix (example: “God said, invalid!”).
+- **Use requirement:** Speak the keyword **“invalid”** in the [[Language of Mysticism]]. You may add your own prefix (example: “God said, invalid!”).
 - **Timing / limits:**
-  - When an [[LINK LATER: Extraordinary Ability | type=mechanic]] is cast, you use this immediately.
+  - When an [[id:alias-extraordinary-ability|Extraordinary Ability]] is cast, you use this immediately.
   - Because “valid” and “invalid” must be used at the moment the ability is cast, it:
     - Cannot affect extraordinary abilities cast in advance, and
     - Cannot affect purely physical actions that are not extraordinary abilities.
@@ -69,7 +69,7 @@ You deem a cast extraordinary ability “invalid,” weakening it or forcibly di
 
 #### Notarize Extraordinary Knowledge
 
-You notarize whether **1** piece of [[LINK LATER: Extraordinary Knowledge | type=term]] is true.
+You notarize whether **1** piece of [[Extraordinary Knowledge]] is true.
 
 - **Requirement:** Whatever Beyonder knowledge is notarized, its specific content must be written down. You notarize based on the written content.
 - **Effect:**
@@ -102,4 +102,4 @@ There are two forms:
    [[UNCLEAR: “objects with more than 1 personality” is undefined.]]
 3. Contracts with more than 2 persons generally have no reliable effect and are mostly formalism.
 
-**Default penalty (if no breach price is written):** The party who violates the terms immediately loses all [[LINK LATER: Life Points | type=mechanic | hint=HP]], falls into a [[LINK LATER: Near-Death | type=condition | hint=state]], and this cannot be resisted by a [[LINK LATER: Substitute | type=mechanic | hint=death-avoidance]].
+**Default penalty (if no breach price is written):** The party who violates the terms immediately loses all [[Life Points]], falls into a [[Near-Death]], and this cannot be resisted by a [[Substitute]].

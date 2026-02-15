@@ -12,12 +12,12 @@ An Extraordinary becomes a mythical creature if any of the following occurs:
 
 - The Extraordinary is killed above Sequence 4. [[UNCLEAR: "above Sequence 4" could mean higher-ranked Sequences or numerically greater Sequence values.]]
 - Their sanity is cleared. [[UNCLEAR: "sanity is cleared" is not defined here (e.g., reduced to 0, reset, or otherwise removed).]]
-- The promotion ceremony fails. [[LINK LATER: Promotion Ceremony | type=rule | hint=advancement procedure]]
+- The promotion ceremony fails. [[Promotion Ceremony]]
 - They use the ability to manifest the form of a mythical creature.
 
 ## Witnessing a Mythical Creature Form
 
-Witnessing a mythical creature form requires an immediate Sanity Check (SC). [[LINK LATER: Sanity Check | type=mechanic | hint=SC procedure]] [[LINK LATER: Sanity | type=mechanic | hint=mental stability score and checks]]
+Witnessing a mythical creature form requires an immediate Sanity Check (SC). [[Sanity Check]] [[Sanity]]
 
 ### Witnessing Restrictions
 
@@ -99,7 +99,7 @@ You become a clock made of time worms; every tick seems to make people insane.
 - **Effect:** You entered any living being.
 - **Limits:** Once per turn.
 - **Use:** As a free action, you can spawn a worm of time into any living creature.
-- **Special cases:** Special methods must be used to find and destroy the worm of time. [[LINK LATER: Worm of Time | type=term | hint=implanted time-worm effect]]
+- **Special cases:** Special methods must be used to find and destroy the worm of time. [[Worm of Time]]
 
 #### Sequence 3
 
@@ -113,7 +113,7 @@ You become a clock made of time worms; every tick seems to make people insane.
 - **Effect:** Trojan Horse.
 - **Limits:** Once per turn.
 - **Use:** As a free action, you can steal an opponent's fate.
-- **Aftereffects/Consequences:** Creatures whose destiny has been stolen will not be recognized by anyone, and it will be difficult to relate to other things. [[LINK LATER: Fate | type=term | hint=destiny/fate mechanic]]
+- **Aftereffects/Consequences:** Creatures whose destiny has been stolen will not be recognized by anyone, and it will be difficult to relate to other things. [[Fate]]
 
 #### Sequence 1
 
@@ -193,8 +193,8 @@ Witness mythical creature forms and out-of-control forms at different Sequence l
 - Even through the secret puppet, as long as the owner of the secret puppet witnesses your mythical form, they are subject to sanity appraisal.
 - **Exception:** If it is an independent clone made like a wrongly made clone, the audience's personality separation will not affect the main body. [[UNCLEAR: This paragraph relies on undefined terms (e.g., "one personality different," "secret puppet," "wrongly made clone," "audience's personality separation") and an unclear causal chain.]]
 
-[[LINK LATER: Secret Puppet | type=term | hint=clone/puppet body]]
-[[LINK LATER: Clone | type=term | hint=duplicate body mechanics]]
+[[Secret Puppet]]
+[[Clone]]
 
 ### Sanity Attack Bonus by Sequence
 
@@ -252,10 +252,10 @@ All mythical creature forms share the following rule:
 - This is not a true personality change. A Sequence 3 Extraordinary opening mythical creature form does not become equal to a Sequence 2 angel. A Sequence 2 angel still suppresses them, and this does not change personality suppression.
 - **Special cases (penalties):** This increase in divinity affects penalties similar to when a thief steals abilities. Example (from RAW): If a thief tries to steal a Sequence 4 extraordinary ability, the identification penalty faced by the thief will be Sequence 3 instead of Sequence 4.
 
-[[LINK LATER: Persona | type=term | hint=power rank/personality metric]]
-[[LINK LATER: Divinity | type=term | hint=divine nature/power scaling]]
-[[LINK LATER: Ability Stealing | type=mechanic | hint=thief-like stealing rules]]
-[[LINK LATER: Identification Penalty | type=mechanic | hint=skill/ability identification DC penalty]]
+[[Persona]]
+[[Divinity]]
+[[Ability Stealing]]
+[[Identification Penalty]]
 
 ### Combat Action Conversion While in Mythical Form
 
@@ -321,8 +321,8 @@ If only one size difference:
 - **Effect:** Melee attack range is halved.
 - **Effect:** Skill identification advantage suffered is only +2.
 
-[[LINK LATER: Physique | type=term | hint=size/strength category and related rules]]
-[[LINK LATER: Skill Identification | type=mechanic | hint=hit/identify/accuracy system]]
+[[Physique]]
+[[Skill Identification]]
 
 #### Physique Classes (As Listed)
 
@@ -335,7 +335,7 @@ If only one size difference:
 
 > GM Note: Although enumerated, some volumes are not counted in volume advantages/disadvantages. Tiny and small volumes are collectively counted as small volume creatures. Medium volumes and medium-to-large volumes are collectively counted as medium and large volume creatures. Only large volume and super-large creatures are separated into two separate calculations. In practice, there are four volumes: small, medium, large, and super-large.
 
-[[LINK LATER: Feysacs | type=term | hint=creature/type mentioned in size classes]]
+[[Feysacs]]
 
 ## List of Mythic Forms
 
@@ -388,8 +388,8 @@ If only one size difference:
 - If the approached target is less than demigod, they may literally be dissolved directly.
 - The Golden Crow can fly; movement speed is doubled.
 
-[[LINK LATER: Fire of Light | type=mechanic | hint=enhances sunlight/fire damage]]
-[[LINK LATER: Blind | type=condition | hint=blinded by radiance]]
+[[Fire of Light]]
+[[Blind]]
 
 ### The White Tower
 
@@ -415,7 +415,7 @@ If only one size difference:
 - You can use wings to fly at twice your moving speed.
 - In performance, you can use giant claws to forcibly resist the attack of the ordinary silver knight; both bodies move backward together due to impact and glide for a distance. [[UNCLEAR: Mechanical resolution for resisting/gliding is not specified; "ordinary silver knight" is undefined here.]]
 
-[[LINK LATER: Silver Knight | type=term | hint=creature/NPC reference]]
+[[Silver Knight]]
 
 ### Darkness: Eight-Legged Magic Wolf
 
@@ -427,10 +427,10 @@ If only one size difference:
 - As long as the main body form is the eight-legged magic wolf, the Extraordinary's biological form is transformed into a dark creature, regardless of prior creature type.
 - The main form depends on belief or the more dominant or higher-level potion in the body.
 - Example (from RAW): If you have night potion of Sequence 4 and death potion of 5, the mythical creature form of night is prioritized.
-- These contents are explained in detail in subsequent chapters. [[LINK LATER: Subsequent Chapters on Mythical Forms | type=other | hint=rulebook cross-reference]]
+- These contents are explained in detail in subsequent chapters. [[Subsequent Chapters on Mythical Forms]]
 
-[[LINK LATER: Dark Creature | type=term | hint=creature tag/type]]
-[[LINK LATER: Potion | type=term | hint=advancement substance and dominance]]
+[[Dark Creature]]
+[[Potion]]
 
 ### Grim Reaper: Phoenix (Formerly) / Feathered Serpent (Now)
 
@@ -461,8 +461,8 @@ If only one size difference:
 - **Extra:** The process of mythical creature form is considered the state of summoning the full moon.
 - **Special:** Out-of-control vampires who believe in the primordial moon will become vampires with pus all over their bodies, or become meat mountains covered with various genitals all over their bodies, who can do nothing but reproduce.
 
-[[LINK LATER: Primordial Moon | type=term | hint=deity/belief reference]]
-[[LINK LATER: Vampire | type=term | hint=creature/out-of-control state]]
+[[Primordial Moon]]
+[[Vampire]]
 
 ### Wheel of Fortune: The Serpent of Mercury
 
@@ -471,8 +471,8 @@ A mercury-colored complex symbol chain forms a huge illusory scaleless snake. Pa
 - **Attribute gain:** HP and spiritual limit doubled; constitution +10; luck +10; inspiration +5.
 - **Extra:** The mercury snake can fly or levitate; movement speed is multiplied by 2.
 
-[[LINK LATER: Wheel of Fortune | type=pathway | hint=Pathway name]]
-[[LINK LATER: Luck | type=term | hint=attribute/stat]]
+[[Wheel of Fortune]]
+[[id:alias-luck|Luck]]
 
 ### The Bound: Spooky Rag Doll Entwined with Thorns
 
@@ -494,7 +494,7 @@ A mercury-colored complex symbol chain forms a huge illusory scaleless snake. Pa
 ### Perfect: Colorless Light of Illusory Colors (Undetermined)
 
 - **Attribute gain:** HP and spiritual limit doubled; constitution +10; inspiration +5; education +5.
-- **Special cases:** Labeled "Unofficial, undetermined, the appearance of the God of Steam." [[LINK LATER: God of Steam | type=term | hint=deity reference]]
+- **Special cases:** Labeled "Unofficial, undetermined, the appearance of the God of Steam." [[God of Steam]]
 
 ### Attribute Conversion Note
 
@@ -509,8 +509,8 @@ If you are a demigod who has not yet reached Sequence 2 (Sequence 4-3):
 - This can cause immediate loss of control.
 - Unless you have angel-level temporary shelter, you should not consider using your semi-mythic creature form unless your life is in danger.
 
-[[LINK LATER: Loss of Control | type=mechanic | hint=runaway/out-of-control rules]]
-[[LINK LATER: Angel-Level Temporary Shelter | type=term | hint=protection effect]]
+[[Loss of Control]]
+[[Angel-Level Temporary Shelter]]
 
 ### Special Control Methods (Audience and Fate)
 
@@ -518,10 +518,10 @@ If you are a demigod who has not yet reached Sequence 2 (Sequence 4-3):
 - **Effect:** This lets them control mythical creature form for one minute at the demigod stage and they will not be subject to sanity appraisal. One minute is the limit.
 - Other exceptions may exist; extremely strong willpower and experience can also initially control mythical creature form.
 
-[[LINK LATER: Audience Pathway | type=pathway | hint=Pathway name]]
-[[LINK LATER: Fate Pathway | type=pathway | hint=Pathway name]]
-[[LINK LATER: Hypnosis | type=mechanic | hint=mental influence]]
-[[LINK LATER: Psychological Suggestion | type=mechanic | hint=mental influence]]
+[[Audience Pathway]]
+[[Fate Pathway]]
+[[Hypnosis]]
+[[Psychological Suggestion]]
 
 ### Form Mixing (Transfer Paths) and Belief
 
@@ -537,7 +537,7 @@ Beliefs can change the mythical creature form to a certain extent.
 
 Repeating the trait increases trait strength; generally the semi-mythical creature form still retains some human appearance depending on the specific situation.
 
-[[LINK LATER: Evernight Goddess | type=term | hint=deity/belief reference]]
-[[LINK LATER: Reader Pathway | type=pathway | hint=Pathway name]]
-[[LINK LATER: Spectator Pathway | type=pathway | hint=Pathway name]]
-[[LINK LATER: Trait | type=term | hint=characteristic/extraordinary trait]]
+[[Evernight Goddess]]
+[[Reader Pathway]]
+[[Spectator Pathway]]
+[[Trait]]

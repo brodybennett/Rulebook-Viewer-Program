@@ -48,10 +48,10 @@ Also known as “group chaos.” You make enemies panic as if facing a dragon.
     1. **Ordinary people** with **Willpower** 2–3: gain **Fear** and **Awe**; immediately run wildly to get away from the source of fear.
     2. **Ordinary people** with Willpower 4: gain **Fear** and **Awe**; immediately flee to get away from the source of fear.
        > **GM Note:** “Above-average” targets in the Willpower 2–4 category may be frightened into incontinence.
-    3. **Ordinary people** with Willpower 6, or **Beyonders** with increased Inspiration or Willpower: gain **Fear** and **Awe**; they may resist the forced movement from Fear. If the resistance succeeds, they can only spin in place and cannot move. See [[LINK LATER: Special Status | type=rule | hint=Movement restrictions referenced here]].
+    3. **Ordinary people** with Willpower 6, or **Beyonders** with increased Inspiration or Willpower: gain **Fear** and **Awe**; they may resist the forced movement from Fear. If the resistance succeeds, they can only spin in place and cannot move. See [[Special Status]].
     4. **Beyonders** of Sequence 7, or Willpower 6+: gain **Shock** and **Fear**; resistance to forced movement is successful by default. They stand still trembling and spinning in place, but still cannot truly perform a moving action.
 - **Limits / Special:**
-  - When affecting more than 1 character, Will defense against the targets can only be effective with a [[LINK LATER: Psychology Check | type=mechanic | hint=Check required for multi-target Will defense]].
+  - When affecting more than 1 character, Will defense against the targets can only be effective with a [[Psychology Check]].
 - **Repeated Use (Dragon Might):** If Dragon Might is used continuously, the effect is downgraded:
   - Result ① becomes ②
   - Result ② becomes ③
@@ -85,7 +85,7 @@ You suggest the target through specific actions, language, and media.
   1. **Keep in good condition:** Set a time period or trigger condition. When met, for 5 minutes the target gains a +2 beneficial bonus to skill and attribute appraisals, and a beneficial -2 to Sanity loss.
   2. **Stay awake:** Set a time period or trigger condition. When the target enters a dream, they realize they are in a dream.
   3. **Answer questions:** Set a time period or trigger condition. For 5 minutes, the target strongly wants to answer questions and may lie.
-  4. **Follow the promise:** This can be your hint, or it can directly affect a promise made by the target. Breaking the promise requires a [[LINK LATER: Will Test | type=mechanic]]. The **Difficulty Value** is your “Inspiration + Charisma + Psychological Guidance bonus.”
+  4. **Follow the promise:** This can be your hint, or it can directly affect a promise made by the target. Breaking the promise requires a [[Will Test]]. The **Difficulty Value** is your “Inspiration + Charisma + Psychological Guidance bonus.”
      - “It cannot be done within 3 hours Repeat identification.”
      [[UNCLEAR: The phrase about “Repeat identification” is unclear; it may refer to retry limits, but the exact restriction is not stated cleanly.]]
   5. **Complete a certain action:** Set a time period or trigger condition, and select a certain identification in that period. This identification gains a +1 beneficial bonus, and this mental suggestion can be stacked.
@@ -95,7 +95,7 @@ You suggest the target through specific actions, language, and media.
   7. **Perform a certain behavior:** This can be long-term or short-term. The effect is equivalent to “Follow the promise,” such as going to a certain church at a certain time every day.
   8. Other more allowable and reasonable psychological hints set by the GM; refer to the above effects.
 - **Special suggestive situations:**
-  1. **Target is not voluntary:** Use 1 Psychological Guidance to resist the [[LINK LATER: Will Defense | type=mechanic | hint=Defense referenced in suggestion rules]] to succeed, and gain bonuses/penalties equivalent to [[LINK LATER: Thinking Simulation | type=mechanic | hint=Referenced but not defined here]].
+  1. **Target is not voluntary:** Use 1 Psychological Guidance to resist the [[Will Defense]] to succeed, and gain bonuses/penalties equivalent to [[Thinking Simulation]].
      [[UNCLEAR: “Thinking simulation” is referenced but not defined in this section, so its exact modifiers cannot be confirmed.]]
   2. **Suggestion involves life / the most important thing:** The mental suggestion is immediately dismissed by default and has no effect.
   3. **Suggestion in combat/chaos area:** The suggestion fails by default and cannot be executed successfully.
@@ -113,7 +113,7 @@ Helps Beyonders on the verge of losing control regain sanity and escape danger.
 - **Targeting and range:** Choose 1 target within 10 meters.
 - **Effect (choose/apply as appropriate):**
   1. Clear a creature’s emotional/crazy symptoms. The target gains 1 point of temporary Sanity for 1 hour; it cannot be stacked. It reappears later.
-     > **GM Note:** Soothe can only temporarily suppress mental illness. A real solution requires [[LINK LATER: Psychological Guidance | type=term | hint=Psychological treatment process]]; use guidance to gradually adjust the target’s mentality/viewpoint so things develop in a better direction. The GM decides whether the disease is truly cured.
+     > **GM Note:** Soothe can only temporarily suppress mental illness. A real solution requires [[id:alias-psychological-guidance|Psychological Guidance]]; use guidance to gradually adjust the target’s mentality/viewpoint so things develop in a better direction. The GM decides whether the disease is truly cured.
   2. Whenever there is a Beyonder beside you whose Sanity returns to 0, as long as you still have the action of casting spells, you are allowed to try to soothe them.
 - **Let a Beyonder about to lose control regain sanity:**
   - Make 1 Mental Guidance appraisal. Initial Difficulty Value is 40; for each sequence level you have, the Difficulty Value is -5.
@@ -132,6 +132,6 @@ You place the target in a semi-hypnotic state through candlelight, pure dew, and
   - Choose a target who is looking at the candle (or smelling the pure dew) in front of you and is looking at you. The target usually must be voluntary; they enter a trance.
 - **Trance State:**
   - A target in **Trance State** answers all your questions truthfully and cannot lie.
-  - This has no effect on a target who can [[LINK LATER: Stay Awake in Dream | type=mechanic | hint=Exception referenced in Mind Reading]].
+  - This has no effect on a target who can [[Stay Awake in Dream]].
   - If a question is vague and too broad, then if it is answered, it means the other party has the willingness to inform.
     [[UNCLEAR: The last sentence does not specify how vagueness changes what can be learned, only a narrative interpretation.]]

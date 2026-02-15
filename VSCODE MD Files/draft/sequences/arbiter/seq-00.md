@@ -12,7 +12,7 @@ tags: ["pathway:arbiter", "sequence:0"]
 
 ### Advancement Ritual
 
-- **Advancement Ritual (unofficial):** Make your existence and name (including your [[LINK LATER: True Name | type=term | hint=the name that can be recited to affect or target you]]) almost conceptual, becoming a proxy for the rules of the world. Initiate a trial of a god’s crimes that have had a long-term impact on the world, and cause punishment that can substantially affect the other party. After the god is punished or guilty, then take the [[LINK LATER: Potion | type=item | hint=Sequence advancement potion]].
+- **Advancement Ritual (unofficial):** Make your existence and name (including your [[True Name]]) almost conceptual, becoming a proxy for the rules of the world. Initiate a trial of a god’s crimes that have had a long-term impact on the world, and cause punishment that can substantially affect the other party. After the god is punished or guilty, then take the [[Potion]].
   [[UNCLEAR: The ritual’s completion condition (“punished or guilty”) is ambiguous in the source text.]]
 
 ## Extraordinary Abilities
@@ -20,11 +20,13 @@ tags: ["pathway:arbiter", "sequence:0"]
 ### Attribute Gain
 
 - **Attribute Gain:** Charisma +1, Inspiration +1, Dexterity +1, Strength +1, Constitution +1.
-- [[LINK LATER: Law skill | type=term | hint=skill and its “skill level” scale]] increased by 1 skill level.
+- [[Law skill]] increased by 1 skill level.
 
 ### Divine Gaze
+- **Use:** When any creature recites your **True Name**.
+- **Effect:** You can gaze at the surroundings of that creature, and use your extraordinary abilities to target the area at will.
 
-- **Effect:** You can gaze at the surroundings of any creature that recites your [[LINK LATER: True Name | type=term | hint=the name that can be recited to affect or target you]], and use your extraordinary ability to target the area at will.
+
   [[UNCLEAR: “Use your extraordinary ability to target the area at will” does not specify which abilities qualify or what normal targeting limits still apply.]]
 
 ### Origin of Order

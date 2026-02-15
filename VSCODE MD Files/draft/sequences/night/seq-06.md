@@ -41,14 +41,14 @@ tags: ["pathway:night", "sequence:6"]
 ### Spiritual Vision
 
 - After reaching the level of **Sequence 6**, your high Inspiration has really enhanced your spiritual vision.
-- From now on, you don’t need to activate your spirit vision; you can directly use normal vision to spot [[LINK LATER: spiritual creatures | type=term | hint=creature category visible via spirit/spiritual vision]].
-  - This does not include the advanced invisibility of [[LINK LATER: resentful souls | type=term | hint=spiritual entity with advanced invisibility]].
-  - This does not include [[LINK LATER: information creatures | type=term | hint=creature category excluded from this vision]].
+- From now on, you don’t need to activate your spirit vision; you can directly use normal vision to spot [[spiritual creatures]].
+  - This does not include the advanced invisibility of [[resentful souls]].
+  - This does not include [[information creatures]].
 - (This is the effect brought by 1 potion and cannot be stolen or recorded.)
 
 ### Ritual Mastery
 
 - You gain access to ritual magic, able to invoke power from the gods.
 - While holding this ability, you gain access to ritual magic, regardless of whether your occult skill is advanced or not.
-- For the ritual magic you can use, refer to [[LINK LATER: Common Ritual Magic | type=ritual | hint=ritual magic list referenced by this ability]].
+- For the ritual magic you can use, refer to [[Common Ritual Magic]].
 - (This is the effect brought by 1 potion and cannot be stolen or recorded.)

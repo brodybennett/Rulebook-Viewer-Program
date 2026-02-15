@@ -31,13 +31,13 @@ Different judgments are made according to the following conditions:
    - While that part has a Gap, a critical strike there ignores the benefits of Armor of Dawn and gains a damage bonus of 1d6.
 
 2. **Unbroken Defense Limit:** If the attack continues but does not meet the Gap condition above, Armor of Dawn can only provide you with 2 defenses at most on the same body part; from the third time, you can be hit by a vital blow.
-   - As long as the opponent’s [[LINK LATER: Identification | type=mechanic | hint=attack/strike resolution result used vs defenses]] result is > your Agility + [[LINK LATER: Dodge | type=mechanic | hint=defensive value added to Agility]], if it fails, it is regarded as being blocked by your armor.
+   - As long as the opponent’s [[Identification]] result is > your Agility + [[Dodge]], if it fails, it is regarded as being blocked by your armor.
    - The independent additional damage bonus in the Gap benefit does not apply to this Unbroken Defense condition.  
      [[UNCLEAR: “independent additional damage bonus” is not clearly scoped (whether it refers only to the 1d6 bonus on critical strikes or something broader).]]
 
 3. **Repair Armor:** Damage to Armor of Dawn is automatically repaired; a Gap is fully restored after 2 rounds.
 
-- At [[LINK LATER: Sequence 5 | type=sequence | hint=the next advancement tier referenced by this file]]: Armor of Dawn is changed to 7 points of armor, 5 points of external damage reduction, and the number of damages that have not broken through the defense is 3 times.
+- At [[Sequence 5]]: Armor of Dawn is changed to 7 points of armor, 5 points of external damage reduction, and the number of damages that have not broken through the defense is 3 times.
 
 ### Gather Dawn
 
@@ -46,7 +46,7 @@ You can gather (condense) different weapons. The strongest is a two-handed giant
 - **Use:** 1 swift action
 - **Cost:** 3 spiritual points
 - **Effect:** Condense any one of the weapons below. The weapon lasts for 8 rounds.
-- **Borrowing Protection:** When using these weapons to perform the special action of [[LINK LATER: Borrowing Protection | type=mechanic | hint=special action referenced by Dawn weapons]], you get the armor corresponding to the volume of the item.
+- **Borrowing Protection:** When using these weapons to perform the special action of [[Borrowing Protection]], you get the armor corresponding to the volume of the item.
 
 **Special:** As long as the enemy is not larger than 1 character, when the dawn weapon is about to be destroyed, you can use 1 spirituality to recast it immediately.  
 [[UNCLEAR: “enemy is not larger than 1 character” is undefined (size/scale threshold is not clearly specified).]]
@@ -75,8 +75,8 @@ Available weapons:
 
 **Special (Cleansing Effect):** Every hit of your Dawn weapon increases the restraint damage by 1d6 against spirit creatures.
 
-- At [[LINK LATER: Sequence 5 | type=sequence | hint=the next advancement tier referenced by this file]]: All your Dawn weapons add 1d2 to their base damage.
-- [[LINK LATER: GM Adjudication | type=other | hint=rules permission for adding reasonable Dawn weapons]] Other moderators allow and reasonable Dawn weapons; all Dawn weapons are holy damage.  
+- At [[Sequence 5]]: All your Dawn weapons add 1d2 to their base damage.
+- [[GM Adjudication]] Other moderators allow and reasonable Dawn weapons; all Dawn weapons are holy damage.  
   [[UNCLEAR: This line mixes GM permission language with a definitive damage-type statement; the intended scope/authority is unclear.]]
 
 ### Create Dawn
@@ -119,4 +119,4 @@ Choose one of the following:
 
 **Special:** Storm of Light increases 1d6 damage of divine restraint against spiritual enemies.
 
-- At [[LINK LATER: Sequence 5 | type=sequence | hint=the next advancement tier referenced by this file]]: Storm of Light is changed to 3d6 holy and 1d6 fire damage, and does not cause damage to you.
+- At [[Sequence 5]]: Storm of Light is changed to 3d6 holy and 1d6 fire damage, and does not cause damage to you.

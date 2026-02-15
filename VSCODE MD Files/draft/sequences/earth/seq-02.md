@@ -16,6 +16,6 @@ tags: ["pathway:earth", "sequence:2"]
 
 ### Attribute Gain
 
-[[LINK LATER: Attributes | type=mechanic | hint=Core attribute definitions and how bonuses apply]]
+[[Attributes]]
 
 - **Attribute Gain:** Strength +1, Constitution +2, Dexterity +1, Charisma +2, Inspiration +2.

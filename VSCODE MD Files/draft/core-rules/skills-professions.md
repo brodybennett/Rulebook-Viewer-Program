@@ -35,7 +35,7 @@ During character creation, allocate starting Skills using **Intuition (INT)** an
 - **Dodge** starts at **Trained** by default.
 - Choose a number of Skills equal to your **Intuition (INT)** to be **Trained**. Example: If your initial Intuition (INT) is 6, choose 6 Skills to be Trained.
 - Choose a number of **professional Skills** equal to your **Education** to be **Proficient**. Example: If your initial Education is 6, choose 6 professional Skills to be Proficient.
-- Increases to Education or Intuition (INT) from potions cannot be used to add starting Skills (unless a potion explicitly says otherwise). See [[LINK LATER: Potions and Advancement | type=rule | hint=starting skills vs potions]].
+- Increases to Education or Intuition (INT) from potions cannot be used to add starting Skills (unless a potion explicitly says otherwise). See [[Potions and Advancement]].
 
 ### Skill Slot Conversion
 
@@ -85,7 +85,7 @@ Most Skills have a **related attribute**. When you make a Skill check, roll **1d
 - Even if you are **Untrained**, a sufficiently high related attribute value can still allow success.
 - Conversely, training and attributes can reinforce each other.
 
-See [[LINK LATER: Chapter 2: Checks | type=rule | hint=core checks]] and [[LINK LATER: Chapter 3: Attributes | type=rule | hint=attributes overview]].
+See [[Chapter 2: Checks]] and [[Chapter 3: Attributes]].
 
 Skills are grouped by related attribute: Strength (STR), Agility (DEX), Intuition (INT), Education, Charisma (CHA).
 
@@ -246,7 +246,7 @@ The **Luck** attribute does not add to Skills, because Luck is universal.
 - Burned Luck recovers at a rate of **1 point per 24 hours**.
 - Luck cannot be lower than **0**.
 
-Unique Fate Pathway changes: Increasing the number of uses and changing Critical Failure are unique to the Fate Pathway. See [[LINK LATER: Fate Pathway | type=pathway | hint=unique Burn Luck changes]].
+Unique Fate Pathway changes: Increasing the number of uses and changing Critical Failure are unique to the Fate Pathway. See [[Fate Pathway]].
 
 ## Changing a Skill's Related Attribute
 

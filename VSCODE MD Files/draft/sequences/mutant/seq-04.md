@@ -29,14 +29,14 @@ You can manipulate inanimate objects within a certain range.
   - **Puppet transformation (free action):**
     - You appear as if crafted by a world-class craftsman.
     - Charm +3 and Physique +3.
-    - You are regarded as a [[LINK LATER: Fallen Creature | type=term | hint=creature type/status]].
-    - You gain part of the abilities of [[LINK LATER: Soul Control | type=mechanic | hint=ability set]] and [[LINK LATER: Indestructible Body | type=mechanic | hint=ability set]] of [[LINK LATER: Ghosts | type=term | hint=creature type]] and [[LINK LATER: Zombies | type=term | hint=creature type]].
+    - You are regarded as a [[fallen creature]].
+    - You gain part of the abilities of [[Soul Control]] and [[Indestructible Body]] of [[Ghosts]] and [[Zombies]].
     - You additionally gain **The Source of the Curse**.
     - You do **not** inherit the biological types and resistances of ghosts and zombies.
     - **Note:** The deformed appearance can be adjusted; it does not have to be a puppet (it can be a mysterious puppet, a magical paper man, or other items).
   - **Creating the curse relationship (spellcasting action, 4 spirituality points):**
-    - You must either (a) obtain the target’s hair or flesh, or (b) perform a [[LINK LATER: Ghost Possession | type=mechanic | hint=possession procedure]] in advance.
-    - The shared effect cannot be resisted by [[LINK LATER: Curse Resistance | type=mechanic | hint=defensive mechanic]] or [[LINK LATER: Curse Reduction | type=mechanic | hint=defensive mechanic]].
+    - You must either (a) obtain the target’s hair or flesh, or (b) perform a [[Ghost Possession]] in advance.
+    - The shared effect cannot be resisted by [[Curse Resistance]] or [[Curse Reduction]].
     - If a target is completely immune to curse damage, **The Source of the Curse** can still cause the target to suffer **half of the shared damage unilaterally**.
       - **Note:** This is half **shared damage**, not half **cursed damage**; damage immunity remains immune as usual.
     - If you are one level higher than the opponent, you can inflict the full Source of the Curse effect. [[UNCLEAR: “one level higher” and its interaction with “complete curse immunity” is not fully defined in the RAW.]]
@@ -45,7 +45,7 @@ You can manipulate inanimate objects within a certain range.
   - Once the connection is established, if it is not isolated, the target is usually affected even if it flees “to the ends of the earth.”
 - **Limits:**
   - Two ways to meet the curse condition:
-    1) **Ghost possession:** If you carry out a ghost possession of the target, regardless of whether the opponent breaks free, as long as the result of possession is achieved, the curse condition can be continuously met within one [[LINK LATER: Encounter | type=term | hint=scene/turn structure]].
+    1) **Ghost possession:** If you carry out a ghost possession of the target, regardless of whether the opponent breaks free, as long as the result of possession is achieved, the curse condition can be continuously met within one [[Encounter]].
     2) **Hair or flesh/blood:** You must properly preserve the hair and flesh/blood, and it must not have suffered severe natural weathering.
        - It is feasible to use a fresh blood sample collected a long time ago.
        - It is not feasible to use skin shed when it fell off, or hair that fell off a long time ago.
@@ -79,26 +79,26 @@ You can manipulate inanimate objects within a certain range.
 - **Use:** A **spellcasting action**.
 - **Effect:**
   - On the premise that you become a puppet, one or more inanimate objects within your line of sight that you specify instantly come to life (including enemy clothing).
-  - This does not necessarily cause mortal damage to the transcendent, but it briefly binds the target, preventing any action with a [[LINK LATER: Postural Component | type=mechanic | hint=action requirement]], except for one free action per turn.
+  - This does not necessarily cause mortal damage to the transcendent, but it briefly binds the target, preventing any action with a [[Postural Component]], except for one free action per turn.
   - If the target tries to escape through their clothing, this can cause them to run naked.
   - Escape requires at least one Strength check (Difficulty Value 20) immediately.
   - Countless flying objects also cause damage at the same time:
     - The damage of environmental items depends on the specific environment.
     - Reference standard: physical damage of 5d6 + Strength damage bonus.
-    - Treat your [[LINK LATER: Inspiration | type=term | hint=attribute/stat]] as a Strength damage die. [[UNCLEAR: “Inspiration” and how it converts to “Strength damage dice” is not defined in the RAW.]]
-    - [[LINK LATER: Occult | type=mechanic | hint=attack/defense interaction]] counters [[LINK LATER: Physical Defense | type=mechanic | hint=defense type]].
+    - Treat your [[Inspiration]] as a Strength damage die. [[UNCLEAR: “Inspiration” and how it converts to “Strength damage dice” is not defined in the RAW.]]
+    - [[Occult]] counters [[Physical Defense]].
     - If restrained, defense cannot gain bonus from agility.
 - **Targeting and range:** One or more specified inanimate objects within line of sight; affects the target those objects attack/bind.
 - **Limits / Restrictions:**
-  - You can attempt similar effects on some items and can try to manipulate [[LINK LATER: Extraordinary Items | type=item | hint=item category]], but the extraordinary item must be in an inactive, unowned state (not in the owner’s hand at the time, and the item itself is inactive; it can be knocked down nearby).
-  - This activation is regarded as a curse and will be nullified by the [[LINK LATER: Darknessless Realm | type=mechanic | hint=Sun Path Sequence 4]] of [[LINK LATER: Sun Path | type=pathway | hint=Pathway name]] Sequence 4.
-  - If you are in the state of [[LINK LATER: Wronged Soul | type=condition | hint=state/condition]], you can still use this skill at this stage; it is the upper version of your mind manipulation ability.
+  - You can attempt similar effects on some items and can try to manipulate [[Extraordinary Items]], but the extraordinary item must be in an inactive, unowned state (not in the owner’s hand at the time, and the item itself is inactive; it can be knocked down nearby).
+  - This activation is regarded as a curse and will be nullified by the [[Darknessless Realm]] of [[Sun Path]] Sequence 4.
+  - If you are in the state of [[Wronged Soul]], you can still use this skill at this stage; it is the upper version of your mind manipulation ability.
   - This ability can change the aiming direction of firearms and other non-Extraordinary items. If ammunition and shells are around, you can operate them to lift up and kill your target; in short, you can operate almost all non-special items.
   - Using a **free action** once per round, you can turn blood that has just left your body into an independent entity, cutting off its mystical connection with the main body so it cannot be used for divination and cursing.
 - **Notes:**
   - **Future Sequence Note:** Sequence 3: You do not have to become a puppet; the ability to manipulate objects is a norm.
   - **Future Sequence Note:** Sequence 1: You can not only activate entities, but also activate things or incorporeal bodies that do not have a specific form.
-  - > **GM Note:** RAW suggests that, under certain circumstances (after sufficient early roleplay), this could be used to interfere with a magician’s “flame jump,” turning their flame against them and binding them so they cannot continue to use it. [[LINK LATER: Flame Jump | type=mechanic | hint=spell/ability]]
+  - > **GM Note:** RAW suggests that, under certain circumstances (after sufficient early roleplay), this could be used to interfere with a magician’s “flame jump,” turning their flame against them and binding them so they cannot continue to use it. [[Flame Jump]]
 
 ### Immortal Body
 
@@ -113,4 +113,4 @@ You can manipulate inanimate objects within a certain range.
 - **Limits:**
   - If the end of your life is holy damage or lightning damage, it does not trigger Immortal Body.
   - The damage that ends your life must not put you in a dying state; it must directly end your life to be effective.
-  - For dying, see [[LINK LATER: Special State | type=rule | hint=dying rules]].
+  - For dying, see [[Special State]].

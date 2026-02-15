@@ -6,7 +6,7 @@ tags: ["core", "chapter-6"]
 
 # Special Actions
 
-In combat, you may take special actions. For any special condition mentioned below, see [[LINK LATER: Special Conditions | type=condition | hint=conditions list]].
+In combat, you may take special actions. For any special condition mentioned below, see [[Special Conditions]].
 
 ## Ambush
 
@@ -16,7 +16,7 @@ An **Ambush** is a battle suddenly initiated by the ambushing side against the a
 
 An ambush achieved before combat begins.
 
-Effect: The ambushing side gains **1 Ambush Round** (see [[LINK LATER: Chapter 6: Combat | type=rule | hint=ambush round]]). The ambushing side gains **Advantage** and the ambushed side gains **Disadvantage** until the Ambush Round ends (see [[LINK LATER: Advantage / Disadvantage | type=mechanic | hint=roll modifiers]]). If, during the Ambush Round, the ambushing side is not noticed/detected and their exact position is not discovered, the ambushed side suffers **Caught Off Guard** (see [[LINK LATER: Caught Off Guard | type=condition | hint=surprise penalty]]).
+Effect: The ambushing side gains **1 Ambush Round** (see [[Chapter 6: Combat]]). The ambushing side gains **Advantage** and the ambushed side gains **Disadvantage** until the Ambush Round ends (see [[Advantage / Disadvantage]]). If, during the Ambush Round, the ambushing side is not noticed/detected and their exact position is not discovered, the ambushed side suffers **Caught Off Guard** (see [[Caught Off Guard]]).
 
 ### Mid-Combat Ambush
 
@@ -85,7 +85,7 @@ As a demigod or angel, you reveal part of your Mythos markings.
 
 **Effect:**
 1. Without revealing a Mythos form, choose a limb or body part. Only a portion of your body (while in normal appearance) surfaces runes that represent Mythos symbols.
-2. Those who witness the runes immediately suffer a Mythos-witnessing check equal to the Rank gap between you. See [[LINK LATER: Witnessing Mythical Runes | type=mechanic | hint=mythos checks]] or [[LINK LATER: Chapter 11: Manifesting Mythical Creature Form | type=rule | hint=mythical form rules]].
+2. Those who witness the runes immediately suffer a Mythos-witnessing check equal to the Rank gap between you. See [[Witnessing Mythical Runes]] or [[Chapter 11: Manifesting Mythical Creature Form]].
 3. This is usually only applicable to targets at least 1 Rank below you. It does not apply to targets from **Sequence 2** onward, because from that stage onward they are all complete Mythos beings and can witness each other.
 
 ### Spiritual Intuition Reaction to Mythos Markings
@@ -106,7 +106,7 @@ While performing either type of meditation, you must (in your mind) sketch thing
 
 **Action:** 1 Casting Action.
 
-**During the action:** You are considered **Caught Off Guard** and you cannot take any other actions (see [[LINK LATER: Caught Off Guard | type=condition | hint=surprise penalty]]).
+**During the action:** You are considered **Caught Off Guard** and you cannot take any other actions (see [[Caught Off Guard]]).
 
 **After it ends:** Willpower (WIL) temporarily **+2**; Intuition (INT) temporarily **+1**; emotional effects on you are removed, but can be generated again.
 
@@ -130,7 +130,7 @@ You use your body to restrict an enemy's actions, making them hard to move.
 
 **Check:** Fighting contests Physical Defense, ignoring Armor.
 
-**Success:** You grapple the target, causing them to enter the **Restrained** condition. See [[LINK LATER: Restrained | type=condition | hint=grappled state]].
+**Success:** You grapple the target, causing them to enter the **Restrained** condition. See [[Restrained]].
 
 **Additional rules:**
 1. This usually also causes you to become Restrained as you are grappling them. Checks for both of you gain Advantage/Disadvantage.
@@ -179,9 +179,9 @@ You strike the target with a firearm at extremely close range.
 
 **Requirement:** The target must be within 1 meter of you.
 
-**Benefits (no Fast Dodge):** All three shots within your 1 Attack Action can gain the benefits of Build-Up Aim (no Swift Action required; cannot stack). The first attack check succeeds directly as long as it is greater than the target's Armor. See [[LINK LATER: Fast Dodge | type=skill | hint=bullet dodging]].
+**Benefits (no Fast Dodge):** All three shots within your 1 Attack Action can gain the benefits of Build-Up Aim (no Swift Action required; cannot stack). The first attack check succeeds directly as long as it is greater than the target's Armor. See [[id:alias-fast-dodge|Fast Dodge]].
 
-**Benefits (Fast Dodge):** As long as the target cannot dodge light or lightning, your first shot check ignores the Agility and Dodge values within their Physical Defense, and all three shot checks gain the benefits of Build-Up Aim (cannot stack). If the target can dodge light or lightning, then all three shots only gain the benefits of Build-Up Aim. See [[LINK LATER: Fast Dodge | type=skill | hint=bullet dodging]].
+**Benefits (Fast Dodge):** As long as the target cannot dodge light or lightning, your first shot check ignores the Agility and Dodge values within their Physical Defense, and all three shot checks gain the benefits of Build-Up Aim (cannot stack). If the target can dodge light or lightning, then all three shots only gain the benefits of Build-Up Aim. See [[id:alias-fast-dodge|Fast Dodge]].
 
 **Special:** If the enemy made an advance declaration and prepared in advance to dodge your point-blank shooting, you cannot gain the benefits.
 
@@ -252,7 +252,7 @@ You knock the target to the ground, causing them to lose balance.
 
 **Check:** Use your Strength (STR) to contest the charged creature's Strength or Agility (DEX) (representing standing firm or dodging).
 
-**Success:** The target enters the **Off-Balance** condition. See [[LINK LATER: Off-Balance | type=condition | hint=knockdown]].
+**Success:** The target enters the **Off-Balance** condition. See [[Off-Balance]].
 
 ### Off-Balance
 
@@ -270,7 +270,7 @@ You exploit a fatal mistake by an enemy who makes a close-range attack against y
 
 Uses:
 
-1. Only for targets where your Strength is not lower than theirs by 3 points, **or** where there is a 2-level build difference. You grab the wrist of their incoming strike and, with the momentum, flip them behind you. When they hit the ground, they take damage equal to **1d3 + Strength damage die**. The check succeeds by default. Special: If the target lacks a balance-type Beyonder ability, they must also make a Difficulty 20 Agility check. Otherwise, after landing they enter Off-Balance. If the Agility check is a critical failure, treat it as hitting their head; they enter **Stunned** for 1 round. See [[LINK LATER: Stunned | type=condition | hint=stun condition]].
+1. Only for targets where your Strength is not lower than theirs by 3 points, **or** where there is a 2-level build difference. You grab the wrist of their incoming strike and, with the momentum, flip them behind you. When they hit the ground, they take damage equal to **1d3 + Strength damage die**. The check succeeds by default. Special: If the target lacks a balance-type Beyonder ability, they must also make a Difficulty 20 Agility check. Otherwise, after landing they enter Off-Balance. If the Agility check is a critical failure, treat it as hitting their head; they enter **Stunned** for 1 round. See [[Stunned]].
 2. If you do not use (1), you immediately apply the effect of 1 Attack Action to them; the check succeeds by default.
 3. You cannot replace the attack check with 1 Casting Action, unless it is a wind-related Beyonder ability that can likewise flip them (using (1)). Otherwise it typically violates the intent of this special action.
 
@@ -327,7 +327,7 @@ You use a feint to deceive the opponent, catching them off guard.
 
 **Contest:** Against the target's Investigation or Intuition (INT).
 
-**Success:** You feint a punch or fake casting, then suddenly make the real attack. Against targets that cannot Fast Dodge, your next attack causes them to enter **Caught Off Guard** (their Physical Defense cannot gain the bonuses from Dodge and Agility (DEX)). See [[LINK LATER: Caught Off Guard | type=condition | hint=surprised defense]] and [[LINK LATER: Fast Dodge | type=skill | hint=bullet dodging]].
+**Success:** You feint a punch or fake casting, then suddenly make the real attack. Against targets that cannot Fast Dodge, your next attack causes them to enter **Caught Off Guard** (their Physical Defense cannot gain the bonuses from Dodge and Agility (DEX)). See [[Caught Off Guard]] and [[id:alias-fast-dodge|Fast Dodge]].
 
 **Special:** This is an ambush, so it gains the benefits of Advantage/Disadvantage.
 
@@ -337,7 +337,7 @@ You administer first aid to a creature to curb its injuries.
 
 **Action:** 1 Casting Action. If its HP is below half (rounded up), it instead requires 1 Full-Round Action.
 
-**Effect:** Ends the following conditions on the target: Bloodbath, Bleeding, Poisoned (only poisoning caused by external wounds). See [[LINK LATER: Bloodbath | type=condition | hint=bleed condition]], [[LINK LATER: Bleeding | type=condition | hint=bleed condition]], and [[LINK LATER: Poisoned | type=condition | hint=poison]].
+**Effect:** Ends the following conditions on the target: Bloodbath, Bleeding, Poisoned (only poisoning caused by external wounds). See [[Bloodbath]], [[Bleeding]], and [[Poisoned]].
 
 **Limits:** This does not restore HP. Before the creature gets 1 instance of adequate rest or leaves the corresponding injury, any damage type the same as the original will cause Bloodbath, Bleeding, Poisoned, and similar conditions to recur.
 
@@ -356,8 +356,8 @@ Body part effects:
 | Body Part | Effect |
 |---|---|
 | Head | Stuns for 1 round and deals an additional **2d6** damage. |
-| Eyes | After successfully hitting twice, the target enters Blinded (see [[LINK LATER: Blinded | type=condition | hint=vision loss]]). |
-| Ears | The target enters Deafened (see [[LINK LATER: Deafened | type=condition | hint=hearing loss]]). |
+| Eyes | After successfully hitting twice, the target enters Blinded (see [[Blinded]]). |
+| Ears | The target enters Deafened (see [[Deafened]]). |
 | Arms | The target's Fighting attack checks **-2**. This effect can stack additively. |
 | Legs | The target's movement speed is reduced by 50%. This effect can stack additively, reducing by 50% each time, but cannot make the target completely unable to move. |
 | Internal organs | Deals an additional **3d6** damage. |
@@ -398,7 +398,7 @@ Core rule:
 - Choose an amount (up to your current Luck). Subtract that amount from your Luck and add the same amount to any 1 basic skill check.
 - The added value cannot exceed the Luck you have.
 
-Additional note: Additional uses and changing a critical failure are unique to the Fate Sequence; see [[LINK LATER: Fate Pathway | type=pathway | hint=Burn Luck upgrades]] for details.
+Additional note: Additional uses and changing a critical failure are unique to the Fate Sequence; see [[Fate Pathway]] for details.
 
 Warnings and limits:
 
@@ -417,7 +417,7 @@ This section collects combination uses and edge-case clarifications, especially 
 
 **Pathway interactions:** For some special Pathways (example given: Witch), Ambush may gain additional benefits. If you can become invisible during combat and thereby make the opponent unable to determine your position, you can Ambush again during combat. This kind of Ambush does not create an additional Ambush Round. It can be used for some Pathways' additional effects for Ambush, and you still gain the benefits of Advantage/Disadvantage.
 
-**Position determined:** If the invisible combatant's position is judged to have been determined (e.g., the opponent succeeds at an Investigation check against invisibility), then the Ambush is considered a failure. It can only be treated as a normal attack or casting check during combat. The target who discovers the invisible character can also attack them even if the character is invisible. See [[LINK LATER: Special Conditions | type=condition | hint=invisibility rules]].
+**Position determined:** If the invisible combatant's position is judged to have been determined (e.g., the opponent succeeds at an Investigation check against invisibility), then the Ambush is considered a failure. It can only be treated as a normal attack or casting check during combat. The target who discovers the invisible character can also attack them even if the character is invisible. See [[Special Conditions]].
 
 **Movement/teleport ambush timing:**
 - If this action is the fuse that triggers combat, it can produce an Ambush Round.
@@ -439,7 +439,7 @@ Obstacle example (mechanical takeaways):
 1. You can use obstacles to block sight (example: lift a table) so the enemy cannot see you. This may be done using Improvised Cover and/or a simple Move Action, as appropriate.
 2. If you have not yet used an Attack/Casting Action on your turn (and have one prepared/unused via your declared play), then when the enemy comes around the obstacle you may be considered to have prepared the strike in advance and may make the attack check for that prepared, unused, delayed Attack/Casting Action before their attack check.
 3. If you have an extra Swift Action, the attack can also stack one Build-Up Aim.
-4. You can also make one more check: your Stealth opposed by the target's Investigation. If successful, this check can additionally apply one layer of **Caught Off Guard** to the opponent (see [[LINK LATER: Caught Off Guard | type=condition | hint=surprise penalty]]).
+4. You can also make one more check: your Stealth opposed by the target's Investigation. If successful, this check can additionally apply one layer of **Caught Off Guard** to the opponent (see [[Caught Off Guard]]).
 
 Vital Strike limitation (as written): Because the obstacle blocks vision for both sides, you cannot pre-aim at vital points. These benefits cannot let you ignore the penalties from a Vital Strike. If you still want to perform a Vital Strike, at most the above benefits can only narrow the disadvantage caused by the Vital Strike; they cannot remove the negative special effect of the Vital Strike.
 

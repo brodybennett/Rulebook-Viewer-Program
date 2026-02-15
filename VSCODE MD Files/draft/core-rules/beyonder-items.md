@@ -20,28 +20,28 @@ Roll **1d24** on the list below. If the GM does not allow **Outer Deity** / **Du
 
 | Roll | Result |
 |---:|---|
-| 1 | [[LINK LATER: Fool Pathway | type=pathway | hint=Pathway list]] |
-| 2 | [[LINK LATER: Apprentice Pathway | type=pathway | hint=Pathway list]] |
-| 3 | [[LINK LATER: Error Pathway | type=pathway | hint=Pathway list]] |
-| 4 | [[LINK LATER: Visionary Pathway | type=pathway | hint=Pathway list]] |
-| 5 | [[LINK LATER: Tyrant Pathway | type=pathway | hint=Pathway list]] |
-| 6 | [[LINK LATER: Sun Pathway | type=pathway | hint=Pathway list]] |
-| 7 | [[LINK LATER: Reader Pathway | type=pathway | hint=Pathway list]] |
-| 8 | [[LINK LATER: Hanged Man Pathway | type=pathway | hint=Pathway list]] |
-| 9 | [[LINK LATER: Death Pathway | type=pathway | hint=Pathway list]] |
-| 10 | [[LINK LATER: Night Pathway | type=pathway | hint=Pathway list]] |
-| 11 | [[LINK LATER: War God Pathway | type=pathway | hint=Pathway list]] |
-| 12 | [[LINK LATER: Black Emperor Pathway | type=pathway | hint=Pathway list]] |
-| 13 | [[LINK LATER: Arbiter Pathway | type=pathway | hint=Pathway list]] |
-| 14 | [[LINK LATER: Red Priest Pathway | type=pathway | hint=Pathway list]] |
-| 15 | [[LINK LATER: Demoness Pathway | type=pathway | hint=Pathway list]] |
-| 16 | [[LINK LATER: Abyss Pathway | type=pathway | hint=Pathway list]] |
-| 17 | [[LINK LATER: Mutant Pathway | type=pathway | hint=Pathway list]] |
-| 18 | [[LINK LATER: Mystery Pryer Pathway | type=pathway | hint=Pathway list]] |
-| 19 | [[LINK LATER: Paragon Pathway | type=pathway | hint=Pathway list]] |
-| 20 | [[LINK LATER: Moon Pathway | type=pathway | hint=Pathway list]] |
-| 21 | [[LINK LATER: Earth Pathway | type=pathway | hint=Pathway list]] |
-| 22 | [[LINK LATER: Fate Pathway | type=pathway | hint=Pathway list]] |
+| 1 | [[Fool Pathway]] |
+| 2 | [[Apprentice Pathway]] |
+| 3 | [[Error Pathway]] |
+| 4 | [[Visionary Pathway]] |
+| 5 | [[Tyrant Pathway]] |
+| 6 | [[Sun Pathway]] |
+| 7 | [[Reader Pathway]] |
+| 8 | [[Hanged Man Pathway]] |
+| 9 | [[Death Pathway]] |
+| 10 | [[Night Pathway]] |
+| 11 | [[War God Pathway]] |
+| 12 | [[Black Emperor Pathway]] |
+| 13 | [[Arbiter Pathway]] |
+| 14 | [[Red Priest Pathway]] |
+| 15 | [[Demoness Pathway]] |
+| 16 | [[Abyss Pathway]] |
+| 17 | [[Mutant Pathway]] |
+| 18 | [[Mystery Pryer Pathway]] |
+| 19 | [[Paragon Pathway]] |
+| 20 | [[Moon Pathway]] |
+| 21 | [[Earth Pathway]] |
+| 22 | [[Fate Pathway]] |
 | 23 | Outer Deities |
 | 24 | Dual-Pathway |
 
@@ -65,7 +65,7 @@ After determining the Sequence rank for a benefit, consult the rulebook for the 
 
 Notes (source): Some Beyonder Abilities marked as "from potion" are integrated into the potion's attribute and Skills increases. As long as you gain the potion's Skills increase, you gain these "from potion" benefits as well. After becoming a Beyonder Item, a Beyonder Ability's manifestation form may change.
 
-> **GM Note:** For example, [[LINK LATER: Sun Pathway | type=pathway | hint=ability manifestation]] holy light might manifest as continuous damage applied to a weapon rather than summoned holy light. Decide how the ability manifests case by case.
+> **GM Note:** For example, [[Sun Pathway]] holy light might manifest as continuous damage applied to a weapon rather than summoned holy light. Decide how the ability manifests case by case.
 
 ### Step 4: Living Traits
 
@@ -103,7 +103,7 @@ After completing the above, the Beyonder Item is generated.
 - It represents a Beyonder Item formed by natural combination of Beyonder Characteristics with surrounding things.
 - Its benefits are far inferior to artisan-made Beyonder Items.
 
-If you want artisan-made rules or further guidance, see [[LINK LATER: Omniscient Pathway: Sequence 6 "Mechanics Master" | type=sequence | hint=artisan rules]] (source notes this was formerly called "Artisan").
+If you want artisan-made rules or further guidance, see [[Omniscient Pathway: Sequence 6 "Mechanics Master"]] (source notes this was formerly called "Artisan").
 
 ## Natural vs Artisan-Made Items
 
@@ -127,7 +127,7 @@ Source method:
 
 ## Destruction and Extraction Warnings
 
-Warning (source): Once a potion main ingredient / Beyonder Characteristic becomes a Beyonder Item, only power of **Sequence 2 or above** can shatter it. You can no longer use it as other materials. [[LINK LATER: Sun Pathway: Sequence 4 | type=sequence | hint=characteristic extraction]] can also extract the characteristic from within the item.
+Warning (source): Once a potion main ingredient / Beyonder Characteristic becomes a Beyonder Item, only power of **Sequence 2 or above** can shatter it. You can no longer use it as other materials. [[Sun Pathway: Sequence 4]] can also extract the characteristic from within the item.
 
 ## Using a Matching Item
 
@@ -234,7 +234,7 @@ Fields:
 - Data
 - Appendix
 
-> **Lore:** The source references a separate "Beyonder Item Archive Template" as a higher-quality companion template. [[LINK LATER: Lord of the Mysteries Beyonder Item Archive Template | type=other | hint=archive template]].
+> **Lore:** The source references a separate "Beyonder Item Archive Template" as a higher-quality companion template. [[Lord of the Mysteries Beyonder Item Archive Template]].
 
 ## Customizing Beyonder Items
 
@@ -254,7 +254,7 @@ Notes (source): Abilities are usually random. Negative effects are usually not w
 
 ### Method 2: Paragon Artisan Forging
 
-A Paragon artisan can forge Beyonder Items. See [[LINK LATER: Paragon Pathway: Sequence 6 | type=sequence | hint=artisan rules]]. Artisan-made Beyonder Items have more controllable abilities and are closer to true Beyonders. Negative effects are usually not lethal.
+A Paragon artisan can forge Beyonder Items. See [[Paragon Pathway: Sequence 6]]. Artisan-made Beyonder Items have more controllable abilities and are closer to true Beyonders. Negative effects are usually not lethal.
 
 > **Lore:** The source states artisan crafting fees are not cheap, and artisans are often found via the Church of Steam and Machinery, with some private artisans at sea.
 
@@ -306,7 +306,7 @@ Rules/guidelines (source): These items no longer possess corresponding Pathway C
 
 A **Sealed Artifact** is a Beyonder Item whose negative effects are too great and must be sealed (source). It is a subtype of Beyonder Items.
 
-See also [[LINK LATER: Sealed Artifacts and Containment | type=rule | hint=sealed artifact handling]].
+See also [[Sealed Artifacts and Containment]].
 
 ### Sealed Artifact Grading (Orthodox Churches)
 
@@ -339,10 +339,10 @@ Operational use (source): Official Beyonders may apply to use a local Sealed Art
 
 ### Crafting Procedure
 
-1. Prepare corresponding Pathway materials equivalent to those used to make Charms. See [[LINK LATER: Charm Crafting in Common Ritual Magic | type=rule | hint=ritual charm materials]].
+1. Prepare corresponding Pathway materials equivalent to those used to make Charms. See [[Charm Crafting in Common Ritual Magic]].
 2. Carve the physical item shape (e.g., necklace, bracelet). This requires a Difficulty Value 15 Crafting (Manufacturing) roll.
 3. Spend **10 minutes** carving, above the finished product: the Mysticism symbol of a god of the corresponding Pathway and the incantation of the corresponding Beyonder power, using a "mystic language that can pry at natural forces." Requirements: you must have one such language at **Proficient**, and your Mysticism must be **Proficient**.
-4. Range constraint (source): If the owner of the honorific name you carve is only Sequence 3, you must be within the range of the same city as them. See [[LINK LATER: Names and Honorific Titles of Mystical Deities and Angels | type=other | hint=honorific-name list]].
+4. Range constraint (source): If the owner of the honorific name you carve is only Sequence 3, you must be within the range of the same city as them. See [[Names and Honorific Titles of Mystical Deities and Angels]].
 
 Result (source): The amulet is finished, and you immediately feel a vast and terrifying power appear in the room corresponding to that god. Duration is **1 year**. Once per year, it must be retraced once using Spirituality.
 
@@ -350,7 +350,7 @@ Result (source): The amulet is finished, and you immediately feel a vast and ter
 
 ### Amulet Effects Reference
 
-General effect (source): If the Pathway has an Intuition (INT) bonus at Sequence 9, then an ordinary-person wearer gains the qualification to use Spirituality Intuition. See [[LINK LATER: Spiritual Intuition | type=mechanic | hint=Spirituality-based intuition]] and [[LINK LATER: Special Actions | type=mechanic | hint=action options]].
+General effect (source): If the Pathway has an Intuition (INT) bonus at Sequence 9, then an ordinary-person wearer gains the qualification to use Spirituality Intuition. See [[Spiritual Intuition]] and [[Special Actions]].
 
 Other rules (source): An amulet's effect is unrelated to the Sequence level of the Beyonder who crafted it. Compared to Beyonders, amulets are more useful for ordinary people; Beyonders should generally consider Charms instead. If you use Spirituality materials to craft it in order to obtain Sequence abilities, that leaves the category of amulets and is closer to a Beyonder Item. All amulet effects cannot stack with the Pathway's original abilities.
 
@@ -370,7 +370,7 @@ Specific Pathway effects (source list):
 
 **Charms** are one-time consumables that store Beyonder Abilities and release them once (source).
 
-Crafting note (source): Crafting a charm usually requires ritual magic, praying to at least a Sequence 3 Beyonder of the corresponding Pathway. See [[LINK LATER: Common Ritual Magic | type=rule | hint=ritual charm crafting]].
+Crafting note (source): Crafting a charm usually requires ritual magic, praying to at least a Sequence 3 Beyonder of the corresponding Pathway. See [[Common Ritual Magic]].
 
 ### Setting the Activation Incantation
 
@@ -384,13 +384,13 @@ After crafting a charm (source): Set an activation incantation in any Mysticism 
 
 ### Special Use (Aura Infusion)
 
-Some charms may be used in other ways (source example: Arbiter Pathway charms). Using **1 swift action**, and continuously consuming **1 Spirituality each round**, you infuse Spirituality so the charm's aura spreads without being triggered. This causes a "Majesty-type" effect on surrounding creatures equal to the charm's Sequence level. See [[LINK LATER: Pathway charm rules | type=pathway | hint=corresponding Pathway charm details]].
+Some charms may be used in other ways (source example: Arbiter Pathway charms). Using **1 swift action**, and continuously consuming **1 Spirituality each round**, you infuse Spirituality so the charm's aura spreads without being triggered. This causes a "Majesty-type" effect on surrounding creatures equal to the charm's Sequence level. See [[Pathway charm rules]].
 
 Constraints (source): This requires continuously touching the charm with your hand. Although it is only a swift action each round, the Beyonder may be unable to perform a two-hit combo and can only fight one-handed.
 
 ### Offensive Charm Note
 
-Source example: [[LINK LATER: Sun Pathway: Sequence 4 | type=sequence | hint=Sunflame charm example]] Sunflame.
+Source example: [[Sun Pathway: Sequence 4]] Sunflame.
 
 Because a charm that targets others must first hit with a Throwing roll, an offensive charm may require two rolls: the Throwing roll, and then the original ability's hit roll. This encourages relying on auxiliary effects such as binding to maximize effect.
 
@@ -448,15 +448,15 @@ Key issue (source): re-consuming Characteristics.
 
 Source rule: A Beyonder Characteristic bearing a deceased person's mental imprint can be used to divine a potion formula known within that imprint. This usually causes the diviner to suffer the deceased person's Sanity / Rationality roll, which is very dangerous.
 
-Reference (source): Determine the diviner's Sanity / Rationality loss based on the deceased person's Sequence level in life. See [[LINK LATER: Sanity / Rationality Loss by Target Sequence | type=mechanic | hint=loss table]]. This may cause loss of control; only in sufficiently special and safe circumstances can this be done stably.
+Reference (source): Determine the diviner's Sanity / Rationality loss based on the deceased person's Sequence level in life. See [[Sanity / Rationality Loss by Target Sequence]]. This may cause loss of control; only in sufficiently special and safe circumstances can this be done stably.
 
 ### Other Ways to Precipitate Characteristics (Including While Alive)
 
 The source lists multiple methods:
 
-1. **Producing offspring:** Mainly starting from Sequence 6. Sequence 7 and below requires a Difficulty Value 20 Luck roll each time. At the instant pregnancy occurs, Characteristics pass to the child and the Beyonder feels the reduction. This is uncontrollable and usually limited to surplus Characteristics and does not cause a loss of power; if enough children are produced, loss of power may occur (amount decided by the GM). From Sequence 4 onward, whether a child with Beyonder power is conceived becomes controllable, and you can precisely control how much is inherited (one point / one-third / one-half / all). The child does not need to be carried to term to inherit, and becomes an innate Beyonder or an innately incomplete Beyonder. See [[LINK LATER: Expansion 3: Special Races | type=other | hint=offspring and special races]] and [[LINK LATER: Expansion 5: Beyonders in Special States | type=other | hint=special states]].
+1. **Producing offspring:** Mainly starting from Sequence 6. Sequence 7 and below requires a Difficulty Value 20 Luck roll each time. At the instant pregnancy occurs, Characteristics pass to the child and the Beyonder feels the reduction. This is uncontrollable and usually limited to surplus Characteristics and does not cause a loss of power; if enough children are produced, loss of power may occur (amount decided by the GM). From Sequence 4 onward, whether a child with Beyonder power is conceived becomes controllable, and you can precisely control how much is inherited (one point / one-third / one-half / all). The child does not need to be carried to term to inherit, and becomes an innate Beyonder or an innately incomplete Beyonder. See [[Expansion 3: Special Races]] and [[Expansion 5: Beyonders in Special States]].
 2. **Becoming an Angel:** Starting from Sequence 2, use **1 full-round action** to expel surplus Beyonder Characteristics from your body. Only duplicate Characteristics can be expelled. You cannot expel non-duplicate Characteristics to lower your own status.
-3. **Purification (Sun Pathway):** [[LINK LATER: Sun Pathway: Sequence 4 | type=sequence | hint=purification]] can precipitate Beyonder Characteristics. Timing must be precise; otherwise Sequence level may drop, because precipitation is prioritized from high to low. Special (source): Sun Pathway purification is ineffective against angels, unless the corresponding Sun Pathway is also an angel.
+3. **Purification (Sun Pathway):** [[Sun Pathway: Sequence 4]] can precipitate Beyonder Characteristics. Timing must be precise; otherwise Sequence level may drop, because precipitation is prioritized from high to low. Special (source): Sun Pathway purification is ineffective against angels, unless the corresponding Sun Pathway is also an angel.
 
 > **GM Note:** The source suggests that digesting surplus Characteristics is often the best option, as surplus Characteristics remain a burden if accumulated.
 

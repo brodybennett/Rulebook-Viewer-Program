@@ -14,25 +14,25 @@ Mechanical experts were called “craftsmen” in ancient times, also known as �
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +2. [[LINK LATER: Inspiration | type=term | hint=attribute]]
-- Craft manufacturing, engineering, and mechanical maintenance skills can be quickly upgraded to erudition. [[LINK LATER: Erudition | type=term | hint=skill proficiency tier]]
+- **Attribute Gain:** Inspiration +2. [[Inspiration]]
+- Craft manufacturing, engineering, and mechanical maintenance skills can be quickly upgraded to erudition. [[Erudition]]
 
 ### Wondercrafting
 
 You create ingenious mechanical wonders with a wealth of real-world knowledge.
 
-- **Use:** For at least 10 minutes, perform a **Difficulty Value** 25 crafting appraisal [[LINK LATER: Crafting Appraisal | type=mechanic | hint=check used for wondercrafting]] to create a **Mechanical Wonder**.
-- **Cost:** 1 **Steam Material** [[LINK LATER: Steam Material | type=term | hint=resource used to craft/repair wonders]] per production.
-- **Steam materials on hand:** You have Steam Materials equivalent to your reputation level instead of the reputation value multiplied by 5. If the reputation reaches proficiency, it will not be counted. If you are a **Beyonder** of the [[LINK LATER: Church of Steam | type=faction]] , then when calculating steam materials, your reputation will be considered advanced. [[LINK LATER: Reputation | type=mechanic | hint=reputation level/value; includes proficiency/advanced tiers]] [[UNCLEAR: steam-material calculation references “reputation level,” “reputation value ×5,” “proficiency,” and “advanced” without defining how these tiers/values interact or what “will not be counted” means]]
+- **Use:** For at least 10 minutes, perform a **Difficulty Value** 25 crafting appraisal [[Crafting Appraisal]] to create a **Mechanical Wonder**.
+- **Cost:** 1 **Steam Material** [[Steam Material]] per production.
+- **Steam materials on hand:** You have Steam Materials equivalent to your reputation level instead of the reputation value multiplied by 5. If the reputation reaches proficiency, it will not be counted. If you are a **Beyonder** of the [[Church of Steam]] , then when calculating steam materials, your reputation will be considered advanced. [[Reputation]] [[UNCLEAR: steam-material calculation references “reputation level,” “reputation value ×5,” “proficiency,” and “advanced” without defining how these tiers/values interact or what “will not be counted” means]]
 - **Repair/improvement:** Every time a Mechanical Wonder is repaired or improved, 1 Steam Material is consumed, and it will not occupy more slots.
-- **Carrying limit:** You can carry at most Steam Wonders equal to your [[LINK LATER: Strength | type=term | hint=attribute]] value. 1 point of Strength corresponds to 1 Steam Material (1 slot). If a Mechanical Wonder uses 2 Steam Materials, it occupies 2 slots.
+- **Carrying limit:** You can carry at most Steam Wonders equal to your [[Strength]] value. 1 point of Strength corresponds to 1 Steam Material (1 slot). If a Mechanical Wonder uses 2 Steam Materials, it occupies 2 slots.
 
 #### Mechanical Wonders
 
 1. **Steam Trolley**
    - **Cost:** 1 Steam Material.
-   - **Use:** 1 [[LINK LATER: Casting Action | type=mechanic | hint=action type]] to activate.
-   - **Effect:** You can order it to explore an area; the car has 10 points of movement. [[LINK LATER: Movement Points | type=mechanic | hint=movement-point system]]
+   - **Use:** 1 [[Casting Action]] to activate.
+   - **Effect:** You can order it to explore an area; the car has 10 points of movement. [[Movement Points]]
    - **Limits:** Its behavior in this process is uncontrollable, and it cannot be fed back to you on the screen; but if it is destroyed, it already represents part of the information. [[UNCLEAR: “represents part of the information” is not defined mechanically (what information, and how it is obtained)]]
    - The shape can be customized, and it is driven by steam.
 
@@ -45,37 +45,37 @@ You create ingenious mechanical wonders with a wealth of real-world knowledge.
 
 3. **Spring Fist**
    - **Cost:** 1 Steam Material.
-   - **Use:** 1 [[LINK LATER: Attack Action | type=mechanic | hint=action type]].
+   - **Use:** 1 [[Attack Action]].
    - **Targeting and range:** The spring fist can attack creatures within 5 meters of you as the center.
-   - **Effect:** Creatures facing the spring fist for the first time suffer the [[LINK LATER: Flat-Footed | type=condition | hint=flat-footed effect]] effect.
+   - **Effect:** Creatures facing the spring fist for the first time suffer the [[Flat-Footed]] effect.
    - **Damage:** Fixed 3d6 physical damage; automatically snaps back after striking.
    - The shape can be customized.
 
 4. **Steam Power Fist**
    - **Cost:** 2 parts of Steam Material.
    - **Damage:** A power fist can do 1d6+Strength damage dice and doesn’t stack with other weapons; you obviously can’t hit someone with a knife and a fist at the same time.
-   - **Use:** 1 [[LINK LATER: Full-Round Action | type=mechanic | hint=action type]] to store power.
+   - **Use:** 1 [[Full-Round Action]] to store power.
    - **Effect:** The steam gushing out from the back of the glove will bring the bearer to accelerate, and the burst of power will be roared out immediately, causing an additional 2d6 physical damage, and if it moves with the attack, the holding Some move temporarily +3. [[UNCLEAR: “the holding Some move temporarily +3” is unclear (likely a movement-related bonus, but the stat/name is not defined)]]
    - The appearance is a metal material that is a full circle larger than the fist.
 
 5. **Metal Exoskeleton**
    - **Cost:** 2 Steam Materials.
    - **Effect:** The exoskeleton can be hidden in the wearer’s clothes.
-   - **While wearing:** The wearer’s Strength and [[LINK LATER: Agility | type=term | hint=attribute]] are temporarily +1.
+   - **While wearing:** The wearer’s Strength and [[Agility]] are temporarily +1.
    - **Limits:** A metal exoskeleton can only be used for a target of similar size; otherwise it needs to be customized.
 
 6. **Hidden Hidden Blade**
    - **Cost:** 1 Steam Material.
    - **Form:** A bracelet; shape can be customized.
-   - **Use:** 1 [[LINK LATER: Swift Action | type=mechanic | hint=action type]] to cause the Hidden Blade to pop out; it has the same effect as a [[LINK LATER: Small Knife | type=item | hint=baseline weapon referenced by this ability]].
+   - **Use:** 1 [[Swift Action]] to cause the Hidden Blade to pop out; it has the same effect as a [[Small Knife]].
    - **Special:** If you eject the Hidden Blade while making physical contact with an opponent, the Hidden Blade alone deals 1d4 damage as a swift action.
 
 7. **Steam Semi-Automatic Machine Gun**
    - **Cost:** 2 parts of Steam Material.
    - **Damage:** Each bullet has 1d6 damage.
-   - **Requirement:** This requires a special “[[LINK LATER: Fire (Machine Gun) | type=mechanic | hint=special skill roll]]” skill roll.
+   - **Requirement:** This requires a special “[[Fire (Machine Gun)]]” skill roll.
    - **Use:** 1 attack action; the machine gun can fire up to 6 rounds in a row, but the chain has a full 30 rounds.
-   - **Targeting:** When using a semi-automatic machine gun, use 1 [[LINK LATER: Shot (Machine Gun) | type=mechanic | hint=identification/aiming roll]] to identify at most three targets standing together at the same time; no matter how many bullets are fired in a row, only 1 identification is required.
+   - **Targeting:** When using a semi-automatic machine gun, use 1 [[Shot (Machine Gun)]] to identify at most three targets standing together at the same time; no matter how many bullets are fired in a row, only 1 identification is required.
    - **Damage split:** You can split the damage by yourself and choose how many bullets hit different targets.
    - **Improvement limits:** The improvement of the machine gun can only increase the final damage; it cannot increase the damage by 1d6 for each bullet, and the consumption of 6 bullets remains the same. Of course, if the Beyonder is willing, it can also be regarded as changing from 6 bullets to 7 bullets. [[UNCLEAR: unclear whether “6 bullets to 7 bullets” is an optional improvement, and how it coexists with “consumption of 6 bullets remains the same”]]
 
@@ -92,7 +92,7 @@ You create ingenious mechanical wonders with a wealth of real-world knowledge.
    - **Cost:** 2 Steam Materials.
    - **Use:** 1 casting action to activate.
    - **Effect:** The jetpack will take you up 10 meters, or fly a short distance in a certain direction.
-   - **Limits:** The jetpack can only support you to fly for 1 [[LINK LATER: Movement Action | type=mechanic | hint=action type]] , and the [[LINK LATER: Movement Force | type=mechanic | hint=movement bonus stat]] +5 when flying.
+   - **Limits:** The jetpack can only support you to fly for 1 [[Movement Action]] , and the [[Movement Force]] +5 when flying.
    - **Recharge:** After the flight action is over, the jetpack needs to be recharged for 1 round.
    - **Safety:** You don’t have to worry about falling down because there is no energy; the jetpack will retain the steam to take you down slowly after your flight.
    - The appearance can be customized.
@@ -105,16 +105,16 @@ You create ingenious mechanical wonders with a wealth of real-world knowledge.
 
 You craft an **Extraordinary Item**.
 
-- **Prerequisite:** Before using this ability, make sure the artisan **Beyonder** has read [[LINK LATER: Chapter Eight: Extraordinary Items | type=rule | hint=rulebook chapter]] so they already know the different types of Extraordinary Items (e.g., spells, amulets, spiritual material Extraordinary Items, and Extraordinary characteristic Extraordinary Items). Although these products have different names, we collectively refer to them here as Extraordinary Items.
+- **Prerequisite:** Before using this ability, make sure the artisan **Beyonder** has read [[Chapter Eight: Extraordinary Items]] so they already know the different types of Extraordinary Items (e.g., spells, amulets, spiritual material Extraordinary Items, and Extraordinary characteristic Extraordinary Items). Although these products have different names, we collectively refer to them here as Extraordinary Items.
 
 #### Extraordinary Characteristic Items
 
 You create an Extraordinary Item according to the following procedure:
 
-- **Make the body:** With a **Difficulty Value** 15 crafting identification [[LINK LATER: Crafting Identification | type=mechanic | hint=crafting check type]] , make the shape of the item you want (a “body”). This may consume materials, but not necessarily Steam Materials; ready-made items can also be directly used as the body.
-- **Integrate the characteristic:** Prepare 1 [[LINK LATER: Extraordinary Characteristic | type=term | hint=characteristic integrated into items]] and carry out a **Difficulty Value** 20 crafting identification to integrate the characteristic into the item.
-  - For every characteristic lower than yours, the sequence difficulty is -5, and for each higher sequence difficulty, +5, and one higher. The difficulty of personality is +10. [[LINK LATER: Personality | type=term | hint=attribute/stat referenced by crafting difficulty]] [[UNCLEAR: the difficulty-adjustment sentence contains fragments (“and one higher,” “difficulty of personality”) that do not specify exactly what they modify]]
-- **Reclamation limit:** Crafted items can only be crushed again and return to Extraordinary Characteristics only when they are subjected to [[LINK LATER: Angel-Level Power | type=term | hint=power tier required for reclamation]].
+- **Make the body:** With a **Difficulty Value** 15 crafting identification [[Crafting Identification]] , make the shape of the item you want (a “body”). This may consume materials, but not necessarily Steam Materials; ready-made items can also be directly used as the body.
+- **Integrate the characteristic:** Prepare 1 [[Extraordinary Characteristic]] and carry out a **Difficulty Value** 20 crafting identification to integrate the characteristic into the item.
+  - For every characteristic lower than yours, the sequence difficulty is -5, and for each higher sequence difficulty, +5, and one higher. The difficulty of personality is +10. [[Personality]] [[UNCLEAR: the difficulty-adjustment sentence contains fragments (“and one higher,” “difficulty of personality”) that do not specify exactly what they modify]]
+- **Reclamation limit:** Crafted items can only be crushed again and return to Extraordinary Characteristics only when they are subjected to [[Angel-Level Power]].
 
 You determine the item’s extraordinary abilities as follows:
 
@@ -132,7 +132,7 @@ You determine the item’s extraordinary abilities as follows:
    - You have passed manufacturing appraisals with varying degrees of difficulty when manufacturing Extraordinary Items.
    - If the identification is successful, you can choose one extraordinary ability contained in this characteristic; the finished product must have this ability.
    - If the identification fails, the extraordinary ability of this item will be completely random.
-   - The attribute and skill improvement brought by the potion is also counted as a unified benefit, including both attribute improvement and skill improvement. [[LINK LATER: Potion Improvement | type=mechanic | hint=attribute/skill improvements granted by potions]]
+   - The attribute and skill improvement brought by the potion is also counted as a unified benefit, including both attribute improvement and skill improvement. [[Potion Improvement]]
    - If certain abilities are marked as unrecordable or stealable, then you must acquire potion stats and skill enhancements to obtain it.
    - You can get the potion improvement of a certain sequence level at most, but you cannot get the potion improvement of multiple sequence levels.
    - Every time the identification result is 5 higher than the required difficulty, the ability you can choose will increase by 1.
@@ -178,18 +178,18 @@ On the basis of the above, replace the Extraordinary Characteristics used for ma
 
 - The main ingredients of a potion come from Extraordinary creatures, and Extraordinary creatures are actually Extraordinary people who have eaten Extraordinary Characteristics, the only difference between humans and animals.
 - Which Sequence level a main material corresponds to represents which Sequence level ability it possesses.
-  - Example: if you directly use a [[LINK LATER: Red Priest Pathway | type=pathway | hint=Pathway referenced in example]] Sequence 5 main material to make Extraordinary Items, you can get the extraordinary ability of Red Priest 5; but unlike Extraordinary Characteristics, items made from the main material usually do not contain lower-Sequence abilities.
+  - Example: if you directly use a [[Red Priest Pathway]] Sequence 5 main material to make Extraordinary Items, you can get the extraordinary ability of Red Priest 5; but unlike Extraordinary Characteristics, items made from the main material usually do not contain lower-Sequence abilities.
   - (In the same example: although this main material represents Red Priest 5, it does not contain the ability of Sequence 9–6.)
 - **Judgment rule:** A main material can be directly regarded as an Extraordinary Characteristic that does not contain lower-Sequence abilities, so as to directly apply the production process of Extraordinary Characteristic Items; its benefits are naturally only regarded as having only one characteristic, initially only 1 indivual. [[UNCLEAR: “1 indivual” is likely “1 individual ability,” but RAW wording is unclear]]
 - **Special:** The main material of some Sequence levels may not be one, but two.
-  - Example: the main material of Sequence 4 of the [[LINK LATER: Artificer Pathway | type=pathway | hint=Pathway referenced in example]] has both the main eye of the trick monster and the real soul body of the predator of the spiritual world.
+  - Example: the main material of Sequence 4 of the [[Artificer Pathway]] has both the main eye of the trick monster and the real soul body of the predator of the spiritual world.
   - These two main materials each have half the ability of the crafty mage (e.g., one can jump with flames but the other can’t; the other can transform into a marionette and exchange positions with marionettes, while the one with flame jumps can’t do it).
   - If only half of the main materials are used, the produced items will naturally be incapacitated, or the effect will be halved.
 
 #### Spiritual Materials, Spells, and Amulets
 
-- For spiritual materials, Extraordinary Items, spells, and amulets, refer to [[LINK LATER: Chapter Eight: Extraordinary Items | type=rule | hint=rulebook chapter]] and [[LINK LATER: Common Ritual Magic | type=rule | hint=rule section]].
-- The levels of Extraordinary Items with [[LINK LATER: Spiritual Materials | type=term | hint=material tier system for extraordinary items]] are unified as:
+- For spiritual materials, Extraordinary Items, spells, and amulets, refer to [[Chapter Eight: Extraordinary Items]] and [[Common Ritual Magic]].
+- The levels of Extraordinary Items with [[Spiritual Materials]] are unified as:
   - Sequence 9 (low-Sequence materials)
   - Sequence 8 (medium-Sequence materials)
   - Sequence 7 (high-Sequence materials)

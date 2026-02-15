@@ -10,6 +10,9 @@ Features
 - Sidebar navigation + search
 - Read-only: never modifies your markdown files
 
+python "VSCODE MD Files/rulebook_viewer.py" --source "VSCODE MD Files" --content-root draft
+
+
 Usage examples
   python rulebook_viewer.py
   python rulebook_viewer.py --source /path/to/repo

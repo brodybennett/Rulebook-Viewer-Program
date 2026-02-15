@@ -15,15 +15,15 @@ tags: ["pathway:fool", "sequence:6"]
 
 ### Main Materials
 
-- The mutated pituitary gland of the [[LINK LATER: Thousand-Faced Hunter | type=other | hint=source creature for mutated pituitary gland and blood]]
-- The characteristics of the [[LINK LATER: human-skinned shadow | type=other | hint=source creature/being]]
+- The mutated pituitary gland of the [[Thousand-Faced Hunter]]
+- The characteristics of the [[human-skinned shadow]]
 
 ### Auxiliary Materials
 
-- 80ml of the blood of the hunter with thousands of faces [[LINK LATER: Thousand-Faced Hunter | type=other | hint=alternate naming: “hunter with thousands of faces”]]
-- 5 drops of [[LINK LATER: black mandala juice | type=item | hint=alchemy ingredient]]
-- 10g of [[LINK LATER: dragon tooth grass powder | type=item | hint=herbal ingredient]]
-- 3 hairs of [[LINK LATER: deep sea naga | type=other | hint=source creature]]
+- 80ml of the blood of the hunter with thousands of faces [[Thousand-Faced Hunter]]
+- 5 drops of [[black mandala juice]]
+- 10g of [[dragon tooth grass powder]]
+- 3 hairs of [[deep sea naga]]
 
 ## Acting
 

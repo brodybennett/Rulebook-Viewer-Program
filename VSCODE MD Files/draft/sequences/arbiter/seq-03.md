@@ -29,7 +29,7 @@ tags: ["pathway:arbiter", "sequence:3"]
 
 - **Effect:**
   - From now on, you and your disciplinary knights gain a +4 bonus in skill identification and damage identification for all criminals and undead, corrupt, dark, and other natural forces that affect order.
-  - For the [[LINK LATER: Black Emperor Pathway | type=pathway | hint=referenced as “Black Emperor path”]]: +8 skill bonus, +4 attribute check; damage check bonus unchanged.  
+  - For the [[Black Emperor Pathway]]: +8 skill bonus, +4 attribute check; damage check bonus unchanged.  
     [[UNCLEAR: The “damage check bonus unchanged” line conflicts with/does not cleanly map to the earlier “damage identification” bonus language.]]
   - **Order’s sight:** Within a kilometer of you, or when you are in your **jurisdiction**, order becomes your eyes.
     - You make up to two laws based on the realms of unholy, undead, fallen, and dark.
@@ -37,9 +37,9 @@ tags: ["pathway:arbiter", "sequence:3"]
     - You can immediately cast sight from a distance and perform a **trial**.
       - If a trial is held, your connection with the other party is reduced, immediately interrupted, and cannot be tracked again within half a day.
       - Without a trial, you can continue to observe the criminal through the boundaries of the district.
-  - This is considered a [[LINK LATER: Divination | type=mechanic | hint=“divination or prophecy effect”]] or [[LINK LATER: Prophecy | type=mechanic | hint=“divination or prophecy effect”]] effect and will be affected by corresponding [[LINK LATER: Counter-Divination | type=mechanic | hint=opposes divination/prophecy]].
+  - This is considered a [[id:alias-divination|Divination]] or [[id:alias-prophecy|Prophecy]] effect and will be affected by corresponding [[Counter-Divination]].
     - It usually does not work well for spirit creatures and spirits.
-    - It will not trigger the [[LINK LATER: Witch’s Curse | type=condition | hint=referenced as “the witch’s curse”]].
+    - It will not trigger the [[Witch’s Curse]].
 - **Limits:**
   - Up to two laws may be made (as above).
   - After you hold a trial (as above), you cannot track that target again within half a day.
@@ -48,7 +48,7 @@ tags: ["pathway:arbiter", "sequence:3"]
 
 ### Messenger of Order
 
-- **Use:** Once per [[LINK LATER: Round | type=mechanic | hint=turn structure timing]], as a [[LINK LATER: Free Action | type=mechanic | hint=action type]], eliminate:
+- **Use:** Once per [[Round]], as a [[Free Action]], eliminate:
   - a power related to darkness, corruption, and undead domains, **and**
   - curses on your body.
 - **Limits / Modifiers:**

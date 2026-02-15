@@ -10,6 +10,6 @@ tags: ["pathway:death", "sequence:0"]
 
 > **Lore:** Also known as "Eternal Sleeper".
 
-- [[LINK LATER: Deathmark | type=term | hint=referenced in Sequence 0: Death]]
+- [[Deathmark]]
 - Deathmark is the only one.
   - [[UNCLEAR: “Deathmark is the only one” lacks context (only one what—person, title, ability, or something else?).]]

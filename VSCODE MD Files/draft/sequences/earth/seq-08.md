@@ -17,7 +17,7 @@ tags: ["pathway:earth", "sequence:8"]
 
 ### Rapid Growth
 
-- Your Medical Guidance / Psychological Guidance are included in the rapid growth category of [[LINK LATER: Sequence 9 | type=sequence | hint=rapid growth category referenced here]].
+- Your Medical Guidance / Psychological Guidance are included in the rapid growth category of [[Sequence 9]].
 - Each time you cure a disease/injury that:
   - does **not** repeat the type, and
   - has at least moderate injuries,
@@ -74,12 +74,12 @@ A seriously injured patient needs to be treated once, turning the serious injury
 
 #### Scaling by Sequence (Future Improvements)
 
-- [[LINK LATER: Sequence 7 | type=sequence | hint=Healing scaling]]: Recover 3d6 HP instead; 2d6 for moderate wounds; 1d6 for critical wounds.
-- [[LINK LATER: Sequence 6 | type=sequence | hint=Healing scaling]]:
+- [[Sequence 7]]: Recover 3d6 HP instead; 2d6 for moderate wounds; 1d6 for critical wounds.
+- [[id:alias-sequence-6|Sequence 6]]:
   - Slander will no longer suffer recovery reduction.
   - The witch’s upper limit of healing is raised to infection level 3.
   - The rest of the toxins can still be cleared even if they miss the golden healing time, as long as it does not exceed 5 minutes.
-- [[LINK LATER: Sequence 5 | type=sequence | hint=Healing scaling]]:
+- [[Sequence 5]]:
   - Restored HP changes to 4d6.
   - Serious injuries are also included in the scope of treatment; as long as it is not terminally ill, it can be treated.
 

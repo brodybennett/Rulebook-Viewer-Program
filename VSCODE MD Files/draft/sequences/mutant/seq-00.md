@@ -8,6 +8,6 @@ tags: ["pathway:prisoner", "sequence:0"]
 
 ## The Bound
 
-- See also: [[LINK LATER: Prisoner Pathway | type=pathway | hint=core Pathway overview]]
+- See also: [[Prisoner Pathway]]
 
 > **Lore:** The Bound is the **True God** of the Prisoner Pathway.

@@ -20,7 +20,7 @@ tags: ["pathway:paragon", "sequence:9"]
   1. Unlike other methods, your learning takes effect immediately after the 2-hour course ends. You only need to learn once to be proficient, advanced, and proficient in training, and you can learn up to 2 skills a day when you reach proficiency at most. [[UNCLEAR: Skill-rank phrasing and the “proficient…proficient in training” wording is inconsistent in this section.]]
   2. This benefit has been included in the rapid learning skills, but it is only calculated independently, so the benefits will not be enjoyed repeatedly. [[UNCLEAR: “Included… but calculated independently” and “not enjoyed repeatedly” are unclear in how they interact.]]
 
-- **Character Creation (not newly promoted):** When creating a character who is not just promoted, use the Inspiration from the [[LINK LATER: Triple Potion | type=item | hint=character creation / starting resources]] to add [[LINK LATER: Growth Skills | type=mechanic | hint=character creation skill advancement]]. [[UNCLEAR: “Not just promoted,” “triple potion,” and “growth skills” are not defined in this section.]]
+- **Character Creation (not newly promoted):** When creating a character who is not just promoted, use the Inspiration from the [[Triple Potion]] to add [[Growth Skills]]. [[UNCLEAR: “Not just promoted,” “triple potion,” and “growth skills” are not defined in this section.]]
 
 ### Wake Up Memory
 
@@ -42,13 +42,13 @@ tags: ["pathway:paragon", "sequence:9"]
 ### Practical Assemblies
 
 - **Special:** Strictly speaking, this is not a transcendent ability, but an introduction to applying awakened memory. Therefore, this ability cannot be stolen or recorded. Having awakened memory means possessing this ability.
-- **Requirements:** Prepare enough materials, usually obtained in the [[LINK LATER: Black Market | type=location | hint=materials source]], [[LINK LATER: Steam Church | type=faction | hint=materials source]], or from informal vendors.
+- **Requirements:** Prepare enough materials, usually obtained in the [[Black Market]], [[Steam Church]], or from informal vendors.
 - **Use (assembly time):**
   - Perform 1 **Full-Round Action** to assemble items such as firearms, rifles, nitroglycerin.
   - Large devices (such as textile machines) require 10 minute.
 
 - **Examples (checks and results):**
-  - **Difficulty Value 15** craft manufacturing appraisal: Assemble a pocket watch, or a pistol (appearance fully customizable depending on whether it is steam style or not). Weapon-related damage is taken from [[LINK LATER: Weapon Paradigm | type=table | hint=weapon damage reference]].
+  - **Difficulty Value 15** craft manufacturing appraisal: Assemble a pocket watch, or a pistol (appearance fully customizable depending on whether it is steam style or not). Weapon-related damage is taken from [[Weapon Paradigm]].
   - **Difficulty Value 20** chemical identification: Produce aqua regia and nitroglycerin.
     1. If you want to use them in battle, you need to roll identification; you produce an explosion. Damage is 2d6 poison and 1d6 fire, ignoring 2 points of armor. Two people standing together are regarded as the same target.
     2. Because they are inherently dangerous, your throws will definitely have a -4 disadvantage, and a big failure will hurt yourself. These are more suitable for non-combat or exploration.
@@ -69,10 +69,11 @@ tags: ["pathway:paragon", "sequence:9"]
   - If you temporarily create during combat, you cannot take any other actions, including free actions, until the creation is complete. The “1 full round” time usually refers to your next turn.
 
 ### Spirit Vision
-
-- **Cost:** 1 **Spirituality Point** per round.
 - **Use:** 1 **Free Action** to activate.
-- **Effect:** While active, your vision gains the following benefits:
+- **Cost:** 1 **Spirituality Point** per round.
+- **Effect:** While Spirit Vision is active, you gain the following benefits:
+
+
   1. **Etheric body:** You can roughly tell whether the other party’s body is good or bad through aura color, but you can’t get detailed information.
   2. **Spiritual body:** You can confirm whether an object/creature has spirituality; this cannot identify extraordinary people.
   3. **Mental body:** You can see whether the other party is thinking, but only that; you cannot get more detailed information.
@@ -83,5 +84,5 @@ tags: ["pathway:paragon", "sequence:9"]
   - Creatures that are dead are usually dull in color and cannot be identified.
   - Spiritual materials are usually spiritual, but you cannot determine the corresponding path.
   - The colors seen by Spirit Vision allow you to see each other in the dark, but you can only see the existence of colors; it is still possible to get lost in the dark because the colors you can see are limited. You cannot use them to distinguish the undead biology.
-  - **Sequence 7:** You can determine the path corresponding to extraordinary objects; see [[LINK LATER: Spiritual Perception | type=mechanic | hint=rules reference]] for details.
+  - **Sequence 7:** You can determine the path corresponding to extraordinary objects; see [[Spiritual Perception]] for details.
   - Spirit Vision can see some ordinary spirit bodies by default if they have not dissipated for 24 hours, and cannot be recorded or stolen.

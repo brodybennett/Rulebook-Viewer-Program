@@ -31,7 +31,7 @@ tags: ["pathway:Demoness", "sequence:5"]
 
 > **GM Note:** The RAW describes an intense “promotion ordeal” centered on extreme pain and love, framed as fitting the Witch Path’s transformation themes. This text is narrative guidance and does not add numeric modifiers.
 
-- **Effect (narrative):** When promoted to the [[LINK LATER: Witch of Pain | type=sequence | hint=the next promotion name referenced here]], the Extraordinary will suffer extreme pain shaped by past experience, “engraved on your heart,” tearing away self-maintained “fig leafs,” exposing and destroying the twisted heart again and again. Love is described as the “optimal solution” for resisting this power, and the ritual is described as “extremely distorted” yet “romantic.”
+- **Effect (narrative):** When promoted to the [[Witch of Pain]], the Extraordinary will suffer extreme pain shaped by past experience, “engraved on your heart,” tearing away self-maintained “fig leafs,” exposing and destroying the twisted heart again and again. Love is described as the “optimal solution” for resisting this power, and the ritual is described as “extremely distorted” yet “romantic.”
 - **Post-promotion acting (narrative):** The RAW notes that after promotion, the witch wants to make others full of pain, and a “faster performance” has to make herself feel the pain again, ending in rejection/tearing/farewell.
 
 ## Extraordinary Abilities
@@ -40,9 +40,9 @@ tags: ["pathway:Demoness", "sequence:5"]
 
 - **Attribute Gain:** strength +1, constitution +1, agility +1, inspiration +1, will +1, charisma +1
 - **Skill advancement notes:**
-  - your [[LINK LATER: Mysticism | type=term | hint=skill]] can be quickly promoted to master
-  - the skills involved in Sequence 9/8 can be promoted to [[LINK LATER: Erudition | type=term | hint=skill rank]]
-  - [[LINK LATER: Pleasing | type=term | hint=skill]] can be promoted to [[LINK LATER: Master | type=term | hint=skill rank]]
+  - your [[Mysticism]] can be quickly promoted to master
+  - the skills involved in Sequence 9/8 can be promoted to [[Erudition]]
+  - [[Pleasing]] can be promoted to [[Master]]
 
 ### Plague Aura
 
@@ -55,11 +55,11 @@ tags: ["pathway:Demoness", "sequence:5"]
   - Flesh creatures within 50 meters of you will begin to be infected with disease.
   - **Warning:** The plague itself does not depend on your will. You can only decide the direction of the plague. Therefore, all creatures within 5 meters of the area you designate will be regarded as the target of the plague. There is no distinction between the enemy and the enemy except you. You can keep a distance from the enemy to avoid.
 - **Effect (per turn):**
-  - ① Every time it is your turn to act, you can use 1 [[LINK LATER: Mystic Identification | type=mechanic | hint=the identification/check used here]] against the [[LINK LATER: Physical Defense | type=mechanic | hint=defense targeted by the identification]] of the creature within the range of the disease you specify.
+  - ① Every time it is your turn to act, you can use 1 [[Mystic Identification]] against the [[Physical Defense]] of the creature within the range of the disease you specify.
     - If the identification is successful:
-      - it will cause 1d6 [[LINK LATER: Poison Damage | type=mechanic | hint=damage type]]
+      - it will cause 1d6 [[Poison Damage]]
       - the degree of infection will be increased by 1 level
-    - (If a creature’s [[LINK LATER: Damage Reduction | type=mechanic | hint=poison damage negation clause]] resists all poison damage, the infection level does not increase.)
+    - (If a creature’s [[Damage Reduction]] resists all poison damage, the infection level does not increase.)
 - **Undead exception:**
   - ② Undead creatures with entities are generally unable to be affected by the disease, but the witch’s disease ability is quite strange.
   - When infected to a certain stage, the disease can affect the actions of the muscles.
@@ -67,8 +67,8 @@ tags: ["pathway:Demoness", "sequence:5"]
     - It will lose two actions at the infection level of 5.
     - It is not affected by the effects of other diseases.
 - **Scaling with potion digestion:**
-  - For every 5 points in the progress of [[LINK LATER: Potion Digestion | type=mechanic | hint=progress-based scaling]]: the range of the aura increases by 10 meters.
-  - [[LINK LATER: Potion Completely Digested | type=mechanic | hint=the completion threshold referenced here]]: Increased to 100m range.
+  - For every 5 points in the progress of [[Potion Digestion]]: the range of the aura increases by 10 meters.
+  - [[Potion Completely Digested]]: Increased to 100m range.
 
 #### Effects of epidemics of different infection levels
 
@@ -87,29 +87,29 @@ tags: ["pathway:Demoness", "sequence:5"]
 
 4) **④ Severe infection**
    - **Rules:** Every time a creature caught in a severe infection performs a spellcasting or attacking action, it needs a Difficulty Value 20 will test or a Difficulty Value 25 constitution test, otherwise it is equivalent to an infection level 3 situation.
-     - **Major failure of Will/Constitution:** Coughing up blood, loss of 1d6 [[LINK LATER: Hit Points | type=mechanic | hint=HP terminology]].
+     - **Major failure of Will/Constitution:** Coughing up blood, loss of 1d6 [[Hit Points]].
    - **Symptoms:** The cold symptoms of the infected person have deteriorated into severe pneumonia.
 
 5) **⑤ Fatal infection**
    - **Rules:**
      - Movement actions also require will or constitution identification, otherwise they will cough until they cannot support, curl up and fall to the ground in pain.
      - If they still do not receive first aid or escape from the range of the disease aura after three minutes, they will lose 3d6 HP per round.
-     - **Will/Physical Failure:** Sudden cerebral infarction and myocardial infarction, no matter how much life is left, is considered to be in a state of [[LINK LATER: Near Death | type=condition | hint=condition/state referenced here]].
+     - **Will/Physical Failure:** Sudden cerebral infarction and myocardial infarction, no matter how much life is left, is considered to be in a state of [[Near Death]].
    - **Symptoms:** In this state, the infected person has a high fever of 40 degrees, and pneumonia and myocardial infarction are in a life-threatening state.
 
 #### Curing disease
 
-- A successful [[LINK LATER: Medical Check | type=mechanic | hint=the check used to treat infection]] reduces the infection level by one.
+- A successful [[Medical Check]] reduces the infection level by one.
   - usually takes 1d3 hours
   - can only be done once per day
-- ① Even if you escape the aura of plague, you will still be subject to the plague attack test of the [[LINK LATER: Witch of Pain | type=sequence | hint=promotion name referenced here]] every 24 hours, causing 1d6 poison damage, and thus deepening the infection level, until someone removes all your infection levels.
+- ① Even if you escape the aura of plague, you will still be subject to the plague attack test of the [[Witch of Pain]] every 24 hours, causing 1d6 poison damage, and thus deepening the infection level, until someone removes all your infection levels.
 - ② If someone has taken care of the infected person for 12 hours, then a physical fitness appraisal with a Difficulty Value of 20 is required, otherwise the infection will be deepened at level 1.
   - If you take good protection, it will only have a Difficulty Value of 5.
   - Unless you fail, you will usually not be infected.
 
 ### Frost Control
 
-- **Cost:** consumes 4 [[LINK LATER: Spirituality Points | type=term | hint=resource cost]].
+- **Cost:** consumes 4 [[Spirituality]].
 - **Use:** 1 **Casting Action**; emits an invisible scream; a blue illusory aura gushes out from your body.
 - **Effect:**
   - wherever it goes, frost condenses
@@ -118,13 +118,13 @@ tags: ["pathway:Demoness", "sequence:5"]
 
 #### Cold environment
 
-- **Cold environment:** All creatures that do not have [[LINK LATER: Cold Resistance | type=mechanic | hint=immunity/resistance to cold environments]] have:
+- **Cold environment:** All creatures that do not have [[Cold Resistance]] have:
   - -2 skill and attribute appraisal
   - slow thinking, and frozen actions
   - the agility and dodge part of the physical defense will last -2
   - the movement power will be halved
   - (these effects last) until a way to resist the cold environment is found.
 - **Stacking rules:**
-  - The effect of the cold environment can be superimposed with the effect of the [[LINK LATER: Ice Gun | type=other | hint=referenced cold effect source]].
+  - The effect of the cold environment can be superimposed with the effect of the [[Ice Gun]].
   - It cannot be superimposed with other cold environments.
   - The cold environment will be covered by a stronger cold environment.

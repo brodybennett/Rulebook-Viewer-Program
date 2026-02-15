@@ -40,7 +40,7 @@ These seven auroras represent seven mysterious existences that are friendly to h
 - They belong to the "great master above the Spirit World."
 - They have incarnations in human society, such as teachers or professors.
 
-If you desire mystical knowledge, you can use them as summoning targets in [[LINK LATER: Ritual Magic | type=ritual | hint=summoning/prayer procedures]], chant the corresponding Honorable Name, and pray for what you wish to know.
+If you desire mystical knowledge, you can use them as summoning targets in [[Ritual Magic]], chant the corresponding Honorable Name, and pray for what you wish to know.
 
 #### Caution: Knowledge by Possession
 
@@ -69,7 +69,7 @@ The red of authority and will
 | Fourth Light - Yellow Light | Rationality and adaptation, and produces harmonious light through conflict. |
 | Fifth Light - Orange Light | Practical science, technology, and occult knowledge. |
 | Sixth Ray - Blue Light | Idealism and devotion. |
-| Seventh Ray - Fuchsia | Ritual, ceremony, and magic (including [[LINK LATER: Ritual Magic | type=ritual | hint=includes ritual summoning]]). |
+| Seventh Ray - Fuchsia | Ritual, ceremony, and magic (including [[Ritual Magic]]). |
 
 To summon other colors, replace the third line of the Honorable Name with the corresponding symbolic knowledge and color content. No additional lines may be added.
 
@@ -86,7 +86,7 @@ The Seven Lights are usually depicted as old men wearing robes of different colo
 The Spirit World naturally contains countless Spirit World creatures. Dead souls that have nowhere else to go after death will eventually return to the Spirit World or the Underworld.
 
 - These creatures can be understood as undead creatures.
-- Detailed types can be found in the abilities of the "death path." [[LINK LATER: Death Pathway | type=pathway | hint=path referenced for undead/spirit creatures]]
+- Detailed types can be found in the abilities of the "death path." [[Death Pathway]]
 
 Spirit World creatures can be contracted and used as messengers or for other purposes.
 
@@ -109,7 +109,7 @@ You must be vigilant when roaming in the Spirit World.
 
 - The probability of encountering hostile Spirit World creatures is extremely high.
 - Even if you do not encounter threats immediately upon entry, exploring deeper makes encounters likely.
-- Some creatures may have [[LINK LATER: Sequence | type=term | hint=power ranks]] [[LINK LATER: Pathway | type=term | hint=power routes]] systems, and even if some do not, they may have reached demigod status.
+- Some creatures may have [[Sequence]] [[Pathway]] systems, and even if some do not, they may have reached demigod status.
 
 > GM Note: RAW note - Spirit World creatures that live in the Spirit World have the ability to travel through it, but some beings that are still "Extraordinary in nature" may not be able to do so even if they can enter. Example given: "the unjust soul of the alien Sequence 5." [[UNCLEAR: "unjust soul of the alien Sequence 5" is referenced without context or definition.]]
 
@@ -131,9 +131,9 @@ Divination has some uses in the Spirit World, but it is only auxiliary.
 
 Only the following are described as able to safely explore and travel with Spirit World travel and location capability:
 
-- Sequence 5 Traveler of the [[LINK LATER: Door Pathway | type=pathway | hint=spirit world travel/door methods]]
-- Sequence 4 Undead of the [[LINK LATER: Death Pathway | type=pathway | hint=spirit world travel]]
-- Sequence 5 Master of Secret Arts of the [[LINK LATER: Reader Pathway | type=pathway | hint=spirit world travel/location]]
+- Sequence 5 Traveler of the [[Door Pathway]]
+- Sequence 4 Undead of the [[Death Pathway]]
+- Sequence 5 Master of Secret Arts of the [[Reader Pathway]]
 
 ### Correspondence to Reality
 
@@ -191,11 +191,11 @@ Spirit World creatures are intelligent and have emotions. They divide territory 
 Contracting creatures in the Spirit World requires:
 
 - The power of the Necromancer Domain, or
-- The power of the Sun Pathway or Judge Pathway, which can create a contract. [[LINK LATER: Sun Pathway | type=pathway | hint=contract creation]] [[LINK LATER: Judge Pathway | type=pathway | hint=contract creation]]
+- The power of the Sun Pathway or Judge Pathway, which can create a contract. [[Sun Pathway]] [[Judge Pathway]]
 
 #### Two Ways to Find a Suitable Creature
 
-1. Summon a creature using a three-segment summoning language through [[LINK LATER: Ritual Magic | type=ritual | hint=three-line summoning]].
+1. Summon a creature using a three-segment summoning language through [[Ritual Magic]].
 2. Go directly to the Spirit World, find a suitable creature, communicate on the spot, and sign a contract.
 
 The latter is described as extremely dangerous.
@@ -235,7 +235,7 @@ The entire summoning process must use:
 - Ancient Hermes (described as a language that can leverage natural power), or
 - Other languages that can leverage natural power.
 
-If a Beyonder lacks sufficient mystic knowledge background, they may be unable to perform ritual summons. [[LINK LATER: Beyonder | type=term | hint=people with extraordinary powers]]
+If a Beyonder lacks sufficient mystic knowledge background, they may be unable to perform ritual summons. [[Beyonder]]
 
 #### Negotiation and Written Clauses
 
@@ -250,8 +250,8 @@ After a creature is successfully summoned:
 
 Finally, write the name of the god who witnesses and is responsible for the contract on the parchment, such as:
 
-- the Goddess of the Night [[LINK LATER: Goddess of the Night | type=other | hint=god used as contract witness]]
-- the Lord of Storms [[LINK LATER: Lord of Storms | type=other | hint=god used as contract witness]]
+- the Goddess of the Night [[Goddess of the Night]]
+- the Lord of Storms [[Lord of Storms]]
 
 If there is no corresponding god to appeal to, you can use the name of the Spirit World or the name of the Underworld. This is described as less binding than a god's name, but usable as an alternative series.
 
@@ -274,7 +274,7 @@ Additional notes:
 
 #### Skipping the Process via Crafted Props
 
-If you want to skip the above process, you can entrust a Sequence 6 of the Perfection Pathway (also called a craftsman) to make reusable props that can be directly summoned and signed. [[LINK LATER: Perfection Pathway | type=pathway | hint=Sequence 6 craftsman]]
+If you want to skip the above process, you can entrust a Sequence 6 of the Perfection Pathway (also called a craftsman) to make reusable props that can be directly summoned and signed. [[Perfection Pathway]]
 
 #### Risk: Overpowering Contracted Creature
 
@@ -286,7 +286,7 @@ If you want to skip the above process, you can entrust a Sequence 6 of the Perfe
 
 ### Description
 
-The Underworld is part of the Spirit World: a unique area opened within it by the ancestor of the phoenix, an ancient god (Death Pathway + Door Pathway) in the second era. [[LINK LATER: Death Pathway | type=pathway | hint=underworld authority]] [[LINK LATER: Door Pathway | type=pathway | hint=underworld authority]]
+The Underworld is part of the Spirit World: a unique area opened within it by the ancestor of the phoenix, an ancient god (Death Pathway + Door Pathway) in the second era. [[Death Pathway]] [[Door Pathway]]
 
 Because of the existence of the Underworld:
 
@@ -345,7 +345,7 @@ In terms of existence:
 
 - The Astral World can be roughly understood as a kind of Spirit World.
 - The Spirit World cannot touch the universe; that is the Astral World.
-- High-Sequence Beyonders of the Gate/Door Pathway can carry out "astral shuttle" through the Astral World to travel to other planets. [[LINK LATER: Astral Shuttle | type=mechanic | hint=Gate/Door high-sequence travel via Astral World]]
+- High-Sequence Beyonders of the Gate/Door Pathway can carry out "astral shuttle" through the Astral World to travel to other planets. [[Astral Shuttle]]
 
 Era note:
 
@@ -420,9 +420,9 @@ Consequences described:
 
 ### Additional Characteristics
 
-**Prayer limits:** Gods other than the True Creator cannot answer prayers here (not including the Fool). [[LINK LATER: True Creator | type=other | hint=god with authority here]] [[LINK LATER: The Fool | type=other | hint=exception noted by RAW]] The reason given is that the place is completely isolated; the True Creator has authority to open entrance or exit and is sealed here.
+**Prayer limits:** Gods other than the True Creator cannot answer prayers here (not including the Fool). [[True Creator]] [[id:alias-the-fool|The Fool]] The reason given is that the place is completely isolated; the True Creator has authority to open entrance or exit and is sealed here.
 
-**Aurora Society access:** Saints of the Aurora Society (Sequence 4-3) can enter and leave at will with the help of the True Creator, and may bring other believers in to hide. [[LINK LATER: Aurora Society | type=faction | hint=saints Sequence 4-3 can enter/leave]] This is given as one reason the Aurora Society cannot be completely wiped out despite terrorist actions.
+**Aurora Society access:** Saints of the Aurora Society (Sequence 4-3) can enter and leave at will with the help of the True Creator, and may bring other believers in to hide. [[Aurora Society]] This is given as one reason the Aurora Society cannot be completely wiped out despite terrorist actions.
 
 **Spirit World limitations:**
 
@@ -446,7 +446,7 @@ Consequences described:
 
 - If someone pronounces the real name of the Goddess of the Night, they cannot say it; they open their mouth but the sound disappears out of thin air.
 - The name of the Eternal Blazing Sun causes the person to be killed by holy flame immediately.
-- The name of the Lord of Storms attracts a Sequence 0 level thunder strike. [[LINK LATER: Eternal Blazing Sun | type=other | hint=real name danger here]] [[LINK LATER: Lord of Storms | type=other | hint=Sequence 0 thunder strike if named here]] [[LINK LATER: Goddess of the Night | type=other | hint=voice disappears if named here]]
+- The name of the Lord of Storms attracts a Sequence 0 level thunder strike. [[Eternal Blazing Sun]] [[Lord of Storms]] [[Goddess of the Night]]
 
 **Weird phenomena may occur:**
 
@@ -472,7 +472,7 @@ Consequences described:
 - People generally believed in the ancient Sun God, and a small number turned to the True Creator.
 - Residents still perform sacrifice ceremonies to the ancient Sun God to ask for response, though it has been fruitless for thousands of years.
 
-There are no spiritual materials and potion formulas for the Sun Pathway in the Land Abandoned by God. [[LINK LATER: Sun Pathway | type=pathway | hint=no materials/formulas here]]
+There are no spiritual materials and potion formulas for the Sun Pathway in the Land Abandoned by God. [[Sun Pathway]]
 
 ### Entrance and Exit
 
@@ -480,7 +480,7 @@ There are no spiritual materials and potion formulas for the Sun Pathway in the 
 - After entering, you appear near the Giant King's Court.
 - People in reality have a probability of entering by mistake.
 - After entering, the only exit is the Giant King's Court.
-- If the "dark angel evil spirit" is still there, it is impossible to leave through the Giant King's Court before it is eliminated. [[LINK LATER: Giant King's Court | type=location | hint=entry/only exit point]] [[LINK LATER: Ruins of God War | type=location | hint=sea entrance in reality]] [[LINK LATER: dark angel evil spirit | type=other | hint=blocks exit if present]]
+- If the "dark angel evil spirit" is still there, it is impossible to leave through the Giant King's Court before it is eliminated. [[Giant King's Court]] [[Ruins of God War]] [[dark angel evil spirit]]
 
 ---
 
@@ -522,7 +522,7 @@ Although it is a dream:
 - It cannot be imagined and changed at will.
 - A mythical temple city-state can be seen in the distance.
 
-If you do not enter the dreamland and choose to stay in the dark until you disappear, you usually enter the "hidden town." [[LINK LATER: hidden town | type=location | hint=entered by refusing dream in Evernight residual darkness]]
+If you do not enter the dreamland and choose to stay in the dark until you disappear, you usually enter the "hidden town." [[hidden town]]
 
 > GM Note: For more specific situations, the RAW cites "Chapter 165 'Sea of Ruins'" in Volume 3 Traveler through "Chapter 183 Spiritual Body," and for hidden town details, "Chapter 100 Town" through "Chapter 113 Return" in Volume 4 Undead.
 
@@ -531,8 +531,8 @@ If you do not enter the dreamland and choose to stay in the dark until you disap
 - Even on ordinary islands, you can encounter many mid-Sequence extraordinary creatures or "Grahams," such as a giant stone statue with the ability of a Sequence 5 guardian. [[UNCLEAR: "Grahams" is referenced without definition/context; may be a translation term or typo.]]
 - A proportion of extraordinary creatures here are non-real existences (illusions). They may have mid-Sequence ability. After defeat, they do not yield corresponding extraordinary characteristics.
 - Due to lack of exploration, islands may contain treasures from the third era and various relics. Because of residual divine power and the illusion or reality boundary, exploration is usually very dangerous and proportional to opportunity. Beyonders below mid-Sequence should not attempt to explore.
-- Even a demigod may encounter an obvious crisis here. Example: a demigod of the Aurora Order was trapped here, showing danger at demigod level. [[LINK LATER: Aurora Order | type=faction | hint=demigod trapped here]]
-- The sea area also contains many normal (non-hallucinatory) extraordinary creatures, such as mermaids. They are almost impossible to find outside, but can be found here. They are described as "one of the ceremonies" for a Sequence 6 Faceless Man of the Fool Pathway to advance to Sequence 5 Puppet Master. The Church of Evernight also breeds mermaids, but they will not be used by wild Beyonders; official Beyonders need to accumulate meritorious service for promotion. [[LINK LATER: Fool Pathway | type=pathway | hint=Faceless Man to Puppet Master advancement ceremony]] [[LINK LATER: Church of Evernight | type=faction | hint=breeds mermaids]]
+- Even a demigod may encounter an obvious crisis here. Example: a demigod of the Aurora Order was trapped here, showing danger at demigod level. [[Aurora Order]]
+- The sea area also contains many normal (non-hallucinatory) extraordinary creatures, such as mermaids. They are almost impossible to find outside, but can be found here. They are described as "one of the ceremonies" for a Sequence 6 Faceless Man of the Fool Pathway to advance to Sequence 5 Puppet Master. The Church of Evernight also breeds mermaids, but they will not be used by wild Beyonders; official Beyonders need to accumulate meritorious service for promotion. [[Fool Pathway]] [[Church of Evernight]]
 - There is a hidden intersection leading to the Land Abandoned by God, but depending on timeline, reaching it often means you can never return.
 
 Suggested minimum exploration capability:
@@ -586,11 +586,11 @@ Even if you have enough strength, do not explore rashly.
 - The Abyss itself was blocked in the second era.
 - To enter now, you must cross the sea of mist in the west.
 
-[[LINK LATER: Fabuti | type=other | hint=demon king, owner of Abyss]]
-[[LINK LATER: Mother Tree of Desire | type=other | hint=outer god polluting Fabuti/Abyss]]
-[[LINK LATER: Misty Sea | type=location | hint=rumored entrance region]]
-[[LINK LATER: Emperor Roselle | type=other | hint=explored Abyss]]
-[[LINK LATER: Black Emperor | type=other | hint=Fourth Epoch demigod-level explorer]]
+[[Fabuti]]
+[[Mother Tree of Desire]]
+[[Misty Sea]]
+[[Emperor Roselle]]
+[[Black Emperor]]
 
 ---
 
@@ -615,7 +615,7 @@ Because everyone's islands are hidden in the same ocean:
 If you are a Beyonder of the Spectator Pathway and enter your own island of consciousness, you can also:
 
 - Descend via your island into the seabed.
-- Reach other people's islands through the common sea that belongs to collective consciousness. [[LINK LATER: Spectator Pathway | type=pathway | hint=enter consciousness islands/collective sea]]
+- Reach other people's islands through the common sea that belongs to collective consciousness. [[Spectator Pathway]]
 
 ### Nature of the "Sea" and Connection to the Spirit World
 
@@ -740,7 +740,7 @@ At a higher level of the Spectator Pathway:
 - You do not need to visit an island of consciousness.
 - You can gain insight into thoughts by relying on movement in the collective subconscious sea.
 - Every word spoken subtly impacts the collective subconscious sea; the Spectator Pathway can search through that subtle influence (described as a "big data search").
-- This is distinguished from the "insights" of the Reader Pathway. [[LINK LATER: Reader Pathway | type=pathway | hint=contrasted with spectator "big data" insight]]
+- This is distinguished from the "insights" of the Reader Pathway. [[Reader Pathway]]
 
 #### Sequence 0: Global Psychological Hints
 

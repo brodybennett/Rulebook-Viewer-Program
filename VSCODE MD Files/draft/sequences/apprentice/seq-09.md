@@ -40,7 +40,7 @@ tags: ["pathway:apprentice", "sequence:9"]
 2) **Create a passage through a barrier**
    - Without using the main entrance, without opening a lock, or where there is no door, you press your hand on a wall (or other barrier) **not more than 1 meter thick** to create a vague blue door.
    - Only you can pass through it, like a curtain of water, going straight through the barrier.
-   - **Special:** This effect is equivalent to [[LINK LATER: Through the Wall | type=mechanic | hint=movement through solid barriers]].
+   - **Special:** This effect is equivalent to [[Through the Wall]].
      - Eliminating the door is a **free action**.
      - The blue door will not appear if you go through the wall alone.
 
@@ -54,17 +54,18 @@ tags: ["pathway:apprentice", "sequence:9"]
 - **At Sequence 7:** You can bring other creatures to go through the wall together.
 
 ### Ritual Mastery
+- **Effect:** While holding this ability, you gain access to ritual magic, regardless of whether your Occult skill is advanced or not.
 
-- **Effect:** You gain access to **ritual magic**, able to invoke power from the gods.
+
 - While holding this ability, you gain access to ritual magic regardless of whether your **Occult** skill is advanced or not.
-- For the ritual magic you can use, refer to [[LINK LATER: Common Ritual Magic | type=table | hint=ritual list and rules]].
+- For the ritual magic you can use, refer to [[Common Ritual Magic]].
 - **Special:** This is the effect brought by 1 potion and cannot be stolen or recorded.
 
 ### Spiritual Vision
-
 - **Use:** 1 **free action** to activate.
 - **Cost:** 1 **spirituality point per round** while active.
 - **Effect:** While active, your vision gains the following benefits:
+
 
 1) **Etheric Body**
    - You can directly see the target’s health status through the color of the aura.

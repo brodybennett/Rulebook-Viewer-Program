@@ -8,7 +8,7 @@ tags: ["pathway:moon", "sequence:3"]
 
 ## Summoner Master (Blood Marquis)
 
-> **Lore:** With the influence of the moon on the [[LINK LATER: Spirit World | type=location | hint=spirit realm/plane]], the Summoner Master summons powerful creatures from its depths to help them. If the summoner’s “popularity” is good enough, they can even sign a [[LINK LATER: Contract | type=mechanic | hint=summoning contract]] with [[LINK LATER: Angels | type=other | hint=celestial beings]] and summon them directly.  
+> **Lore:** With the influence of the moon on the [[Spirit World]], the Summoner Master summons powerful creatures from its depths to help them. If the summoner’s “popularity” is good enough, they can even sign a [[Contract]] with [[Angels]] and summon them directly.  
 > Occasionally, uncontrollable changes occur during a Summoner Master’s summoning, causing strange creatures that do not come from the Spirit World—and have not signed a contract—to descend into reality. Rumors say this points to a boundless, dark universe. Some Summoner Masters died because of these mutations; others gained powerful abilities or items different from the twenty-two sequences.  
 > In addition to summoning, Summoner Masters are also outstanding magic masters in moon and dark realms.
 
@@ -16,7 +16,7 @@ tags: ["pathway:moon", "sequence:3"]
 
 ### Advancement Ritual
 
-- **Advancement Ritual:** In a full moon or blood moon, the reality and the Spirit World in a certain area are completely blended together, and countless powerful beings from the depths of the Spirit World are subdued alone, and the Spirit World and reality are separated again, but an entrance of interweaving between reality and the Spirit World is left behind. In the dividing line of the two worlds—being in the real world and the spirit world at the same time—take the [[LINK LATER: Potion | type=item | hint=advancement potion]] under the illumination of the full moon. (unofficial ceremony)
+- **Advancement Ritual:** In a full moon or blood moon, the reality and the Spirit World in a certain area are completely blended together, and countless powerful beings from the depths of the Spirit World are subdued alone, and the Spirit World and reality are separated again, but an entrance of interweaving between reality and the Spirit World is left behind. In the dividing line of the two worlds—being in the real world and the spirit world at the same time—take the [[Potion]] under the illumination of the full moon. (unofficial ceremony)
 
 ## Extraordinary Abilities
 
@@ -28,12 +28,12 @@ tags: ["pathway:moon", "sequence:3"]
 
 The **Gate of Summoning** opens an illusory door to the depths of the Spirit World so you can contract a creature into service.
 
-- **Cost:** Consume 5 points of **Spirituality**. [[LINK LATER: Spirituality | type=term | hint=resource pool]]
-- **Use:** Through a **casting action**, open the illusory door leading to the depths of the Spirit World, sign a contract with the creature, and let it come to the real world to serve. [[LINK LATER: Casting Action | type=mechanic | hint=action economy]]
-- **Limits:** Only one per [[LINK LATER: Encounter | type=mechanic | hint=scene-length rules]].
+- **Cost:** Consume 5 points of **Spirituality**. [[Spirituality]]
+- **Use:** Through a **casting action**, open the illusory door leading to the depths of the Spirit World, sign a contract with the creature, and let it come to the real world to serve. [[Casting Action]]
+- **Limits:** Only one per [[Encounter]].
 
 **Summoned creature determination**
-- Use a **Lucky Appraisal** to determine the type of creature to be summoned. [[LINK LATER: Lucky Appraisal | type=mechanic | hint=fortune/check system]]
+- Use a **Lucky Appraisal** to determine the type of creature to be summoned. [[Lucky Appraisal]]
 - For ease of calculation, its panel is equal to the summoner itself.
 - When the difficulty is full, a +1 gain will be obtained based on the knowledge level of each month. [[UNCLEAR: “difficulty is full” and “knowledge level of each month” are not defined here, so the trigger and scope of the +1 gain cannot be determined.]]
 
@@ -45,7 +45,7 @@ The **Gate of Summoning** opens an illusory door to the depths of the Spirit Wor
 
 **Great success**
 - The Spirit World creatures chosen one Sequence higher than oneself will be in a controllable state for the entire encounter, and +10 HP on this basis.
-- At this time, the second Lucky Appraisal is performed. If the difficulty is higher than 15, the [[LINK LATER: Alien Pathway | type=pathway | hint=non-standard/other pathway]] will be summoned. (GM draws themselves, not necessarily higher or lower than their own Sequence level; the Alien Pathway will usually directly be an alien creature, not a Spirit World creature.) [[UNCLEAR: It is unclear whether “If the difficulty is higher than 15” refers to the second Lucky Appraisal or another value.]]
+- At this time, the second Lucky Appraisal is performed. If the difficulty is higher than 15, the [[Alien Pathway]] will be summoned. (GM draws themselves, not necessarily higher or lower than their own Sequence level; the Alien Pathway will usually directly be an alien creature, not a Spirit World creature.) [[UNCLEAR: It is unclear whether “If the difficulty is higher than 15” refers to the second Lucky Appraisal or another value.]]
 
 **Big failure**
 - Summon a high-path spirit creature that attacks indiscriminately; pass a Difficulty 15 Lucky Appraisal again to judge whether it is stronger than the summoner, and conduct a third Difficulty 20 Lucky Appraisal to determine whether it is an Alien Pathway, or aliens. (GM self-made; big failure summons are usually extremely dangerous enemies.)
@@ -56,13 +56,13 @@ The **Gate of Summoning** opens an illusory door to the depths of the Spirit Wor
 
 **Summoning Gate statistics and interactions**
 - The **Summoning Gate**’s HP is regarded as half of the Summoner Master’s HP.
-- The Summoning Gate enjoys the Summoner Master’s life recovery and its weaknesses, and it will receive the restraint bonus of [[LINK LATER: Undead Creatures | type=other | hint=undead trait/keyword]]. [[UNCLEAR: “restraint bonus of undead creatures” is not defined here (who gains what bonus, and how it applies).]]
-- If the summoner themself is not Sequence 3, then the Summoning Gate’s HP defaults to 40, and it enjoys the same [[LINK LATER: Defense Value | type=term | hint=defense stat]] as the summoner themself.
+- The Summoning Gate enjoys the Summoner Master’s life recovery and its weaknesses, and it will receive the restraint bonus of [[Undead creatures]]. [[UNCLEAR: “restraint bonus of undead creatures” is not defined here (who gains what bonus, and how it applies).]]
+- If the summoner themself is not Sequence 3, then the Summoning Gate’s HP defaults to 40, and it enjoys the same [[Defense Value]] as the summoner themself.
 - If half of the life value of the summoner in Sequence 3 is less than 40, the door’s life value will be processed as 40 by default.
 
 **Defense Value inheritance and item scaling**
 - The Defense Value inherited by the Summoning Gate is the base value of the summoner themself.
-- If it is improved through [[LINK LATER: Extraordinary Items | type=item | hint=equipment category]], a similar effect needs to be exerted on the Summoning Gate in order for it to obtain the corresponding bonus.
+- If it is improved through [[Extraordinary Items]], a similar effect needs to be exerted on the Summoning Gate in order for it to obtain the corresponding bonus.
 - Unless the addition of this item itself includes the Gate of Summoning, or the improvement obtained is the improvement of one’s own personality or the level of spellcasting, the Gate of Summoning can also be strengthened accordingly.
 
 **Targeting and empowerment**

@@ -6,7 +6,7 @@ tags: ["front-matter", "lore"]
 
 # Lord of the Mysteries Worldview
 
-This section introduces the setting assumptions for Investigators who have not read the original *Lord of the Mysteries* novel. If you want a rules-first overview, see [[LINK LATER: Beyonders in Play | type=rule | hint=player-facing overview]].
+This section introduces the setting assumptions for Investigators who have not read the original *Lord of the Mysteries* novel. If you want a rules-first overview, see [[Beyonders in Play]].
 
 ## Purpose and Scope
 

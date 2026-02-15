@@ -14,10 +14,10 @@ This entry describes **Sequence** 1: Conqueror.
 
 ### Advancement Ritual
 
-- **Advancement Ritual:** Conquer a hostile nation of considerable power. [[LINK LATER: Advancement Rituals | type=ritual | hint=general rules for advancement rituals]]
+- **Advancement Ritual:** Conquer a hostile nation of considerable power. [[Advancement Rituals]]
 
 > **GM Note:** The source labels this ritual as an “unofficial ceremony.”
 
 ## Descriptive Notes
 
-> **Lore:** Extraordinary characteristic appearance (see [[LINK LATER: Beyonder Characteristic | type=term | hint=definition and manifestations of Beyonder characteristics]]): a strange crown full of rust and blood.
+> **Lore:** Extraordinary characteristic appearance (see [[Beyonder Characteristic]]): a strange crown full of rust and blood.

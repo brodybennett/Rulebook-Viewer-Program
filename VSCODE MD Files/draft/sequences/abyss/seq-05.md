@@ -10,9 +10,9 @@ tags: ["pathway:abyss", "sequence:5"]
 
 Capable of exploiting and manipulating emotions and desires, inducing corruption. If an enemy has overly intense mood swings or obvious desires, you can remotely control them, plant seeds, or directly catalyze those emotions—exposing problems, causing gradual degeneration, or triggering emotional loss of control at critical moments.
 
-You can also forcibly impact an enemy’s spirit to make them inevitably feel certain emotions. You can transform into a pitch-black liquid, possess “filthy words” with different effects, and summon a magma sword. [[LINK LATER: Filthy Words | type=mechanic | hint=Referenced capability; effects not defined here]] [[LINK LATER: Magma Sword | type=item | hint=Referenced capability; mechanics not defined here]]
+You can also forcibly impact an enemy’s spirit to make them inevitably feel certain emotions. You can transform into a pitch-black liquid, possess “filthy words” with different effects, and summon a magma sword. [[Filthy Words]] [[Magma Sword]]
 
-- See also: [[LINK LATER: Abyss Pathway | type=pathway | hint=Parent pathway overview]]
+- See also: [[Abyss Pathway]]
 
 ## Advancement
 
@@ -26,9 +26,9 @@ You can also forcibly impact an enemy’s spirit to make them inevitably feel ce
   - From then on, you will always be in a state of violent bloodthirst, wanting to hurt others, until that desire is satisfied again.
 
 - **Ritual Nature (loss of control / sanity):**
-  - “Abyss” is extremely easy to lose control from Sequence 6 and loses conventional emotional empathy. [[LINK LATER: Abyss | type=term | hint=Referenced as a nature/state; may be a Pathway or concept]] [[LINK LATER: Sequence 6 | type=sequence | hint=Referenced breakpoint for loss of control]]
+  - “Abyss” is extremely easy to lose control from Sequence 6 and loses conventional emotional empathy. [[id:alias-abyss|Abyss]] [[id:alias-sequence-6|Sequence 6]]
   - Only through killing can one regain sanity; this must be offset by the pleasure brought by serial murders and the loss of sanity during promotion.
-  - Starting from Sequence 6, the demon’s sanity test must fail; if the promotion to Sequence 5 fails the sanity test, **1d10** sanity will be lost. [[LINK LATER: Sanity Test | type=mechanic | hint=Rules for sanity checks and failure]] [[LINK LATER: Sanity | type=term | hint=Sanity value/track rules]]
+  - Starting from Sequence 6, the demon’s sanity test must fail; if the promotion to Sequence 5 fails the sanity test, **1d10** sanity will be lost. [[sanity test]] [[Sanity]]
   - Therefore, the extra intellectual resistance through intoxication and sinking is the essence of the ritual. [[UNCLEAR: “extra intellectual resistance through intoxication and sinking” is referenced as essential, but no concrete mechanical procedure is given here.]]
 
 ## Extraordinary Abilities
@@ -43,7 +43,7 @@ You exploit and manipulate emotions and desires, inducing corruption.
 
 #### Catalyze Emotions
 
-- **Cost:** 2 spirituality points. [[LINK LATER: Spirituality Points | type=mechanic | hint=Resource rules]]
+- **Cost:** 2 spirituality points. [[Spirituality]]
 - **Use:** 1 casting action.
 - **Targeting and range:** Choose 1 target in your field of vision who is already in an emotional state.
 - **Limits:**
@@ -62,7 +62,7 @@ You exploit and manipulate emotions and desires, inducing corruption.
   - **Fear state:**
     - The movement action can only escape in the direction opposite to any one source of fear.
     - If the source of fear is not found, move in a direction considered safe.
-    - Skill assessment related to the source of fear is **-4** disadvantageous until reaching a safe area, or until a **Difficulty Value 15** psychological guidance or **Difficulty Value 20** social identification cancels this effect. [[LINK LATER: Psychological Guidance | type=mechanic | hint=Check definition and timing]] [[LINK LATER: Social Identification | type=mechanic | hint=Check definition and timing]]
+    - Skill assessment related to the source of fear is **-4** disadvantageous until reaching a safe area, or until a **Difficulty Value 15** psychological guidance or **Difficulty Value 20** social identification cancels this effect. [[id:alias-psychological-guidance|Psychological Guidance]] [[Social Identification]]
   - **Special:** Strategic retreats cannot be catalyzed, and retreats are not considered a form of escape.
 
 - **Showing anxiety and timidity → Fear state (no forced opposite-direction movement)**
@@ -126,7 +126,7 @@ You exploit and manipulate emotions and desires, inducing corruption.
 - **Desire state:**
   - Make a **Difficulty Value 15** will test; otherwise, you will take action towards the thing you desire.
   - Unlike greed, this may be a compliment, satisfaction, or approval.
-  - Dismisses when the source of desire is gained, the chance to obtain the source of desire is lost, or a **Difficulty Value 15** Social or Mental Channel check is made. [[LINK LATER: Mental Channel | type=mechanic | hint=Check definition and timing]]
+  - Dismisses when the source of desire is gained, the chance to obtain the source of desire is lost, or a **Difficulty Value 15** Social or Mental Channel check is made. [[Mental Channel]]
   - If the GM can’t define an effect for special catalyzed scenarios, it can be treated as desire state (includes desire to eat, evil thoughts, and desire to do good).
 
 #### Detonate Desire
@@ -137,7 +137,7 @@ You exploit and manipulate emotions and desires, inducing corruption.
 - **Effect:**
   - After the detonated emotion is over, the original corresponding emotional state is cleared until it is catalyzed again.
 - **Special:**
-  - No matter which desire is detonated, the detonated person continues to lose an action within one encounter, is extremely weak, cannot be superimposed, and any effect that needs to be maintained all the time (such as marionette or wraith possession) will terminate on the spot. [[LINK LATER: Marionette | type=mechanic | hint=Maintenance-based effect referenced]] [[LINK LATER: Wraith Possession | type=mechanic | hint=Maintenance-based effect referenced]]
+  - No matter which desire is detonated, the detonated person continues to lose an action within one encounter, is extremely weak, cannot be superimposed, and any effect that needs to be maintained all the time (such as marionette or wraith possession) will terminate on the spot. [[Marionette]] [[Wraith Possession]]
   - If you detonate desire under extreme emotions (not merely catalyzed emotions), this usage is considered a desire explosion.
 
 ##### Explosion of Desire
@@ -214,7 +214,7 @@ You exploit and manipulate emotions and desires, inducing corruption.
   - After casting, you clear an emotional state you specify; it no longer has any effect.
   - The cleared emotional state becomes a potential emotional seed hidden in the target’s soul, and the target enters a depraved latent state.
 - **Depraved latent state:** One or more latent emotional seeds exist in the soul, equivalent to a mental illness with an infinite incubation period. As long as the Apostle of Desire wants to, they can treat it as a catalyzed detonation of desire at any time; the detonation corresponds to the original emotional state.
-- **Special:** Extraordinary people who can enter the spiritual island through the spectator path can clear the seed, and the separated and fallen thoughts of the Hanged Man path can also clear the seed. [[LINK LATER: Spectator Pathway | type=pathway | hint=Referenced for seed-clearing method]] [[LINK LATER: Spiritual Island | type=location | hint=Spiritual realm accessed via Spectator Pathway]] [[LINK LATER: Hanged Man Pathway | type=pathway | hint=Referenced for seed-clearing method]] [[LINK LATER: Separated and Fallen Thoughts | type=mechanic | hint=Seed-clearing method; exact rule elsewhere]]
+- **Special:** Extraordinary people who can enter the spiritual island through the spectator path can clear the seed, and the separated and fallen thoughts of the Hanged Man path can also clear the seed. [[Spectator Pathway]] [[Spiritual Island]] [[Hanged Man Pathway]] [[Separated and Fallen Thoughts]]
 
 ### Sense of Depravity
 
@@ -247,5 +247,5 @@ You transform your body into an illusory, viscous black liquid of various emotio
   - All non-spiritual damage you receive is halved.
   - **Special:** In the face of an extraordinary ability greater than one of you, change to **10** points of non-spiritual damage reduction. [[UNCLEAR: “extraordinary ability greater than one of you” is not precisely defined (comparison basis and timing unclear).]]
 - **Perception effect:**
-  - Any creature that sees you witnesses a combination of fear, anger, greed, jealousy, hunger, lust, etc.; seeing you head-on leads to abnormal perception. [[LINK LATER: Abnormal Perception | type=condition | hint=Condition/effects defined elsewhere]]
-- **Special action:** You can grapple; each round, the grappled target is given a mental shock effect equal to that of the horn of arrogance. [[LINK LATER: Horn of Arrogance | type=item | hint=Defines the referenced mental shock effect]]
+  - Any creature that sees you witnesses a combination of fear, anger, greed, jealousy, hunger, lust, etc.; seeing you head-on leads to abnormal perception. [[Abnormal Perception]]
+- **Special action:** You can grapple; each round, the grappled target is given a mental shock effect equal to that of the horn of arrogance. [[Horn of Arrogance]]

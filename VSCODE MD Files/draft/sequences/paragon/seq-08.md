@@ -17,11 +17,11 @@ You possess sufficient historical knowledge, wilderness survival knowledge, and 
 
 ### Ritual Use
 
-You can barely use some [[LINK LATER: Ritual Magic | type=mechanic | hint=ritual system, qualification, restrictions]].
+You can barely use some [[Ritual Magic]].
 
 - **Effect:**
   1. While you hold this ability, you are qualified to use ritual magic. As long as you are trained in mysticism and know how to use rituals, you can use them regardless of whether the skill has reached the advanced level.
-  2. For the ritual magic you can use, refer to [[LINK LATER: Common Ritual Magic | type=table | hint=list of commonly used rituals]]. Unlike [[LINK LATER: Voyeur | type=sequence | hint=comparison class that can develop rituals]] and [[LINK LATER: Fortune-Teller | type=sequence | hint=comparison class that can develop rituals]], you cannot develop more ritual magic based on these commonly used ritual magic unless someone directly tells you the corresponding Knowledge.
+  2. For the ritual magic you can use, refer to [[Common Ritual Magic]]. Unlike [[Voyeur]] and [[Fortune-Teller]], you cannot develop more ritual magic based on these commonly used ritual magic unless someone directly tells you the corresponding Knowledge.
 - **Special:** Only when using ritual magic, if your mysticism has not reached the advanced level, then your occultism identification suffers -2 disadvantage. This includes making spells, etc.
 - **Sequence 6:** Regardless of whether your mysticism has reached the advanced stage or not, you will no longer suffer from the restrictions related to ritual magic, and you can use ritual magic normally.
 
@@ -30,10 +30,10 @@ You can barely use some [[LINK LATER: Ritual Magic | type=mechanic | hint=ritual
 You know or can decipher the history sealed by the church.
 
 - **Effect:** When you conduct historical and archaeological appraisal of a historical relic or mural, even if the relic involves secrets that you don’t know, you can dig out the surface information contained in it and learn the approximate age of its origin.
-- This information is usually destroyed and prohibited by the [[LINK LATER: Seven Gods | type=faction | hint=deities who suppress/prohibit certain histories]]. You are considered to have known the basic common sense of these histories, so you can learn the superficial meaning of these cultural relics.
-- **Special:** When obtaining age information, the age information you can obtain is limited to the [[LINK LATER: Quaternary Epoch | type=term | hint=time period/era]], [[LINK LATER: Tertiary Epoch | type=term | hint=time period/era]], and [[LINK LATER: Second Epoch | type=term | hint=time period/era]]. Before the Second Epoch, you can only know that it came from before the Second Epoch, but not the more specific time.
+- This information is usually destroyed and prohibited by the [[Seven Gods]]. You are considered to have known the basic common sense of these histories, so you can learn the superficial meaning of these cultural relics.
+- **Special:** When obtaining age information, the age information you can obtain is limited to the [[Quaternary Epoch]], [[Tertiary Epoch]], and [[Second Epoch]]. Before the Second Epoch, you can only know that it came from before the Second Epoch, but not the more specific time.
 
-> **Lore:** Example: You know the [[LINK LATER: Amon Family | type=faction | hint=Fourth Epoch family/lineage]] of the [[LINK LATER: Fourth Epoch | type=term | hint=time period/era]], but you don’t know the truth that the Amon family actually has only one person. You know that the gods were not represented by holy brilliance in the past, but you don’t know that the gods used to be represented by sculptures. Why are they sculptures?
+> **Lore:** Example: You know the [[Amon Family]] of the [[Fourth Epoch]], but you don’t know the truth that the Amon family actually has only one person. You know that the gods were not represented by holy brilliance in the past, but you don’t know that the gods used to be represented by sculptures. Why are they sculptures?
 
 ### Organ Investigation
 

@@ -13,7 +13,7 @@ tags: ["pathway:tyrant", "sequence:1"]
 > **Lore:** A ceremony of standing before the overwhelming force of nature and accepting one’s insignificance before thunder.
 
 - **Advancement Ritual:**  
-  Create or find a location capable of resisting thunderstorms approaching [[LINK LATER: Sequence 0 | type=sequence]] intensity. Attract a vast number of thunder-attributed phenomena (described as “thunder forests”).  
+  Create or find a location capable of resisting thunderstorms approaching [[Sequence 0]] intensity. Attract a vast number of thunder-attributed phenomena (described as “thunder forests”).  
   As the location’s layered defenses are destroyed one layer at a time, the participant must:
   - Experience fear and surrender.
   - Recognize their own insignificance before nature.  
@@ -34,12 +34,12 @@ tags: ["pathway:tyrant", "sequence:1"]
 
 - **Cost:** 5 Spiritual Points  
 - **Use:** Full-round action  
-- **Duration:** 2 rounds (3 rounds at [[LINK LATER: Sequence 0 | type=sequence]])  
+- **Duration:** 2 rounds (3 rounds at [[Sequence 0]])  
 - **Effect:**  
   You transform into a thunderbolt and move at light speed. Your movement rate becomes the speed of light (described as ~300,000 kilometers of movement power), allowing you to reach any intended destination at light speed. This movement can be used to initiate a surprise attack.
 
   Upon ending movement:
-  - You may deal double the damage of [[LINK LATER: Lightning Control | type=ability]] **or**
+  - You may deal double the damage of [[Lightning Control]] **or**
   - Directly trigger a lightning storm, which requires prior acceleration to a sufficient degree before use.  
   [[UNCLEAR: The mechanical definition of “acceleration to a certain degree” is not specified.]]
 

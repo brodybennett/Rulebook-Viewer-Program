@@ -39,7 +39,7 @@ tags: ["pathway:error-path", "sequence:2"]
 #### Steal Cognition
 
 - **Effect:** You steal the target’s self-cognition, making the target temporarily unaware of who they are.
-- **Notes:** The effect is similar to stealing ideas. [[LINK LATER: Stealing Ideas | type=mechanic | hint=reference effect used as a comparison]]
+- **Notes:** The effect is similar to stealing ideas. [[Stealing Ideas]]
 
 #### Stealing Extraordinary Characteristics
 
@@ -66,7 +66,7 @@ tags: ["pathway:error-path", "sequence:2"]
   - Another case: a special effect applied to you in the middle of the grafting is regarded as applied to the transferred person; the essence is on the transferred person, so after the grafting ends, it still remains on the transferred person.
 - **Note:** Effects larger than one person of yours can only be transferred in half.  
   [[UNCLEAR: The RAW does not define what “effects larger than one person of yours” means or how to “transfer in half.”]]
-- [[LINK LATER: Special Effects | type=mechanic | hint=buffs/debuffs/status effects referenced throughout grafting rules]]
+- [[Special Effects]]
 
 #### Steal Fate
 
@@ -83,10 +83,10 @@ tags: ["pathway:error-path", "sequence:2"]
 - **Typical requirement:** Because the subject of a stolen fate must be voluntary or helpless, stealing fate usually requires a “worm of separation time.” It can only take effect by parasitizing the target into a state of default helplessness for you. Stealing authentication in this way succeeds by default.  
   [[UNCLEAR: The RAW uses “worm of separation time” and “stealing authentication” without defining them in this section; context suggests a connection to Detached Worm of Time and/or parasitism.]]
 - **Lower-level targets:** If the target is lower than two of you (two **Sequence** levels lower than you), you do not need to do the above; you can directly steal the opponent’s fate.
-- [[LINK LATER: Detached Worm of Time | type=mechanic | hint=parasitism tool often used to render targets helpless]]
-- [[LINK LATER: Parasitism | type=mechanic | hint=shallow/deep parasite states referenced repeatedly]]
-- [[LINK LATER: Clone | type=mechanic | hint=avatar/clone interaction discussed below]]
-- [[LINK LATER: Avatar | type=mechanic | hint=body replacement interaction discussed below]]
+- [[Detached Worm of Time]]
+- [[Parasitism]]
+- [[Clone]]
+- [[Avatar]]
 
 ##### Clarification: Stealing Fate vs. Clones (Mechanical Notes)
 
@@ -106,8 +106,8 @@ tags: ["pathway:error-path", "sequence:2"]
     - All abilities can only be used initially.
 - **Note:** The number of clones you can create is proportional to the extra extraordinary characteristics of the wrong path you devour; that is, the number of extraordinary stacked skills represents the number of weak clones you have.
 - If you have the wrong extraordinary characteristic corresponding to a high **Sequence** level, then you can give it to raise that Worm of Time clone to the corresponding level.
-- [[LINK LATER: Wrong Path | type=term | hint=pathway label used in clone/characteristic rules]]
-- [[LINK LATER: Extraordinary Stacked Skills | type=mechanic | hint=quantity that sets clone count]]
+- [[Wrong Path]]
+- [[Extraordinary Stacked Skills]]
 
 ### Detached Worm of Time
 
@@ -129,12 +129,12 @@ tags: ["pathway:error-path", "sequence:2"]
     - Moving: a swap with a secret puppet or a flame jump.
   - If the evasion fails, they are immediately treated as a shallow parasite.
   - You can allow the Worm of Time to lurk within them, or you can instantly transform into a deep parasite as a free action.
-- [[LINK LATER: Worm of Time | type=mechanic | hint=detached parasite entity that reaches targets]]
-- [[LINK LATER: Shallow Parasite | type=condition | hint=initial parasitic state]]
-- [[LINK LATER: Deep Parasite | type=condition | hint=deeper control state]]
-- [[LINK LATER: Secret Puppet | type=mechanic | hint=swap target used as an example escape]]
-- [[LINK LATER: Flame Jump | type=mechanic | hint=movement ability used as an example escape]]
-- [[LINK LATER: Demigod | type=term | hint=power tier referenced in resistance rules]]
+- [[Worm of Time]]
+- [[Shallow Parasite]]
+- [[Deep Parasite]]
+- [[Secret Puppet]]
+- [[Flame Jump]]
+- [[Demigod]]
 
 #### Diversion Effects (to Avoid Awareness)
 
@@ -146,12 +146,12 @@ tags: ["pathway:error-path", "sequence:2"]
   - If the opponent is the Fool, Spectator, Reader, Secret Peer, and Destiny Path: **Inspiration** identification difficulty -5.  
     (This type of approach usually has high inspiration, can quickly detect something is wrong, or can quickly discover the power of the mysterious field.)
   - If the opponent’s remaining spiritual value is 10 or below, and they are weak and helpless: the **Inspiration** test fails by default and parasitism is basically guaranteed to succeed. Only the same level has a chance to resist with free actions.
-- [[LINK LATER: Fool | type=pathway | hint=pathway/class referenced for detection modifier]]
-- [[LINK LATER: Spectator | type=pathway | hint=pathway/class referenced for detection modifier]]
-- [[LINK LATER: Reader | type=pathway | hint=pathway/class referenced for detection modifier]]
-- [[LINK LATER: Secret Peer | type=pathway | hint=pathway/class referenced for detection modifier]]
-- [[LINK LATER: Destiny Path | type=pathway | hint=pathway/class referenced for detection modifier]]
-- [[LINK LATER: Spiritual Value | type=term | hint=remaining spirituality threshold used for default failure]]
+- [[Fool]]
+- [[Spectator]]
+- [[Reader]]
+- [[Secret Peer]]
+- [[Destiny Path]]
+- [[Spiritual Value]]
 
 #### Targets Two Levels Lower
 
@@ -177,10 +177,10 @@ tags: ["pathway:error-path", "sequence:2"]
   3. Make a target and an area lose contact with the outside world, so that no one can detect changes in them and the environment, unless it is other angels of the same **Sequence** level as you. (This ability can also be used on yourself to achieve a similar psychological invisibility effect.)
   4. Make mistakes in the trajectory of fate and the arrangement of the reservation. For example, the writer of **Sequence** 1 arranged for a person to be attacked on the third day; you can turn it into the second day, but you cannot just leave it alone unless you intervene, and the change is reasonable enough.
 - Other effects based on the principle of fate error and allowed by **GM**.
-- [[LINK LATER: Divination | type=mechanic | hint=targeted by fate-error effect]]
-- [[LINK LATER: Prophecy | type=mechanic | hint=targeted by fate-error effect]]
-- [[LINK LATER: Angel | type=term | hint=power tier that can still detect isolation effect]]
-- [[LINK LATER: Writer | type=pathway | hint=Sequence 1 example referenced in reservation change]]
+- [[id:alias-divination|Divination]]
+- [[id:alias-prophecy|Prophecy]]
+- [[Angel]]
+- [[Writer]]
 
 > **GM Note:** The RAW also states that the scope of “stealing” expands to include destiny, identity, self-knowledge, and extraordinary characteristics, and describes grafting and replacement as related expressions of the same principle. Use this as framing; the specific mechanical options above are the concrete implementations.
 
@@ -206,5 +206,5 @@ tags: ["pathway:error-path", "sequence:2"]
 - **Detecting parasitism by level:**
   - For a target parasitized by a person lower than you, you can detect “something is wrong.”
   - For a parasitic target of an angel person, even if you are the king of angels, you cannot see it and cannot detect “something is wrong,” unless some evidence of their being parasitized is found directly; then identification can be carried out.
-- [[LINK LATER: Library | type=term | hint=skill used for Insight of Destiny check]]
-- [[LINK LATER: King of Angels | type=term | hint=power tier referenced in detection limits]]
+- [[Library]]
+- [[King of Angels]]

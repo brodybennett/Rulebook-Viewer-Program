@@ -8,15 +8,15 @@ tags: ["pathway:visionary", "sequence:4"]
 
 ## Manipulator
 
-> **Lore:** The Manipulator’s core gifts center on **manipulation** and **virtual personalities**, expressed through a corresponding mental body that can resist many influences in the spiritual field. Practitioners are known to invade a target’s [[LINK LATER: Consciousness Island | type=location | hint=Sea of Collective Subconscious]], tamper with the subconscious, read thoughts, and drive targets toward actions without obvious external pressure.
+> **Lore:** The Manipulator’s core gifts center on **manipulation** and **virtual personalities**, expressed through a corresponding mental body that can resist many influences in the spiritual field. Practitioners are known to invade a target’s [[Consciousness Island]], tamper with the subconscious, read thoughts, and drive targets toward actions without obvious external pressure.
 
 Commonly associated techniques include:
-- [[LINK LATER: Consciousness Walking | type=mechanic | hint=Sea of Collective Subconscious travel]]
-- [[LINK LATER: Dragon Transformation | type=mechanic | hint=Psychological suggestion shapeshift]]
-- [[LINK LATER: Mental Deprivation | type=condition | hint=Upgraded Longwei effect]]
-- [[LINK LATER: Psychic Storm | type=mechanic | hint=Collective subconscious weather]]
-- [[LINK LATER: Spiritual Plague | type=condition | hint=Contagious madness seeds]]
-- [[LINK LATER: Psychological Invisibility | type=mechanic | hint=Giant dragon breath origin]]
+- [[Consciousness Walking]]
+- [[Dragon Transformation]]
+- [[Mental Deprivation]]
+- [[Psychic Storm]]
+- [[Spiritual Plague]]
+- [[Psychological Invisibility]]
 
 ## Advancement
 
@@ -43,14 +43,14 @@ You possess a large number of **virtual personalities** that help resist attacks
 - **Passive benefits:**
   - You can conduct multiple skill appraisals at the same time (e.g., pick a lock while reading a book).
   - In combat, you can take an **Attack action** and a **Spellcasting action** respectively.
-  - You may use a virtual personality as a stand-in to resist influences in the spiritual field. This does **not** resist damage from direct blows to the spirit body (e.g., [[LINK LATER: Spiritual Puncture | type=mechanic]], [[LINK LATER: Spiritual Breath | type=mechanic]]).
+  - You may use a virtual personality as a stand-in to resist influences in the spiritual field. This does **not** resist damage from direct blows to the spirit body (e.g., [[Spiritual Puncture]], [[Spiritual Breath]]).
   - You have 13 virtual personalities in Sequence 4, and 16 after digesting the potion.
   - All values of the virtual personality are equal to yours.
-- **Note:** If all your avatars are insane or otherwise unusable, you lose the above multiple-action benefits; [[LINK LATER: Psychic Strike | type=mechanic]] begins to affect you; and avatars that fall into madness cannot continue to be used.
+- **Note:** If all your avatars are insane or otherwise unusable, you lose the above multiple-action benefits; [[Psychic Strike]] begins to affect you; and avatars that fall into madness cannot continue to be used.
 
 - **Active (implant a virtual personality):** Implant a virtual personality into a creature; you gain:
   - Shared vision with that creature.
-  - You may use that creature as a focal point to use: [[LINK LATER: Mind Channeling | type=mechanic]], [[LINK LATER: Stun | type=condition]], [[LINK LATER: Frenzy | type=condition]], [[LINK LATER: Mind Reading | type=mechanic]], [[LINK LATER: Psychic Storm | type=mechanic | hint=Ability use]], and [[LINK LATER: Dream Manipulation | type=mechanic]].
+  - You may use that creature as a focal point to use: [[Mind Channeling]], [[Stun]], [[id:alias-frenzy|Frenzy]], [[Mind Reading]], [[Psychic Storm]], and [[Dream Manipulation]].
 - **Note (detection/counterplay):** Implanting an avatar in an identical target allows the target’s spiritual intuition to attempt an **Inspiration check** (Difficulty Value 15) to perceive it. This may allow the other party to counterattack. If implanting into a target of the same personality, the act must be sufficiently concealed.
 
 - **Sequence 3 (separating identities):**
@@ -67,12 +67,12 @@ You breathe out an invisible but searing flame.
 - **Cost:** 6 points of **Spirituality**.
 - **Use:** **Spellcasting action**.
 - **Effect:**
-  - Make a psychological attack against the target’s [[LINK LATER: Will Defense | type=mechanic]] with disadvantage (-4).  
+  - Make a psychological attack against the target’s [[Will Defense]] with disadvantage (-4).  
     [[UNCLEAR: The source text also calls this “a range of damage,” but does not specify the exact range/shape.]]
   - Deal 5d6 fire damage with invisible mental fire.
   - This damage cannot be reduced by any kind of fire resistance.
   - You do not gain the double effect of burning plants and webs.
-  - “Psychic raids” cause enemies to take a -4 penalty on their next check for the [[LINK LATER: Penetrating Blow That Pierces the Soul | type=mechanic]].  
+  - “Psychic raids” cause enemies to take a -4 penalty on their next check for the [[Penetrating Blow That Pierces the Soul]].  
     [[UNCLEAR: The source text uses “Psychic raids” here; it may refer to Psychic Breath, but the linkage is not explicit.]]
 
 ### Psychic Storm
@@ -86,30 +86,30 @@ You create an invisible wind, forming a psychic storm. This ability can be used 
   - **Effect:**
     - The mental storm immediately produces the corresponding weather: heavy rain, strong wind, thunder, sunny day.  
       [[UNCLEAR: The source does not specify how the “corresponding weather” is selected from the list.]]
-    - The storm does not appear in reality; it appears in the [[LINK LATER: Sea of Collective Subconscious | type=location]], but affects the corresponding position in reality, sweeping around and repeatedly slapping the enemy’s [[LINK LATER: Consciousness Island | type=location | hint=Sea of Collective Subconscious]].
-    - You destroy “[[LINK LATER: Divination Interference | type=mechanic]]” type abilities of creatures in the area for 1d3 days.
-    - Any creature that makes an **Inspiration check** in the storm immediately suffers a [[LINK LATER: Sanity Attack | type=mechanic | hint=Sequence effect]] and takes half of the Sanity damage.
-  - **Extra:** During the storm, any additional sanity protection other than the caster loses 1d3 value per round (does not affect sanity beyond sanity protection). Examples include the [[LINK LATER: Black Emperor Sanity Shield | type=mechanic]] and sanity shields applied to oneself by other Audience channels.
+    - The storm does not appear in reality; it appears in the [[Sea of Collective Subconscious]], but affects the corresponding position in reality, sweeping around and repeatedly slapping the enemy’s [[Consciousness Island]].
+    - You destroy “[[Divination Interference]]” type abilities of creatures in the area for 1d3 days.
+    - Any creature that makes an **Inspiration check** in the storm immediately suffers a [[Sanity Attack]] and takes half of the Sanity damage.
+  - **Extra:** During the storm, any additional sanity protection other than the caster loses 1d3 value per round (does not affect sanity beyond sanity protection). Examples include the [[Black Emperor Sanity Shield]] and sanity shields applied to oneself by other Audience channels.
 
 - **Mode 2: Use information flow to wash away the enemy’s spirit**
   - **Cost:** 5 **Spirituality**.
   - **Use:** **Spellcasting action**.
   - **Targeting:** Choose a target or an area.
-  - **Check:** Psychological Guidance against [[LINK LATER: Will Defense | type=mechanic]] with disadvantage (-4). If you are known to be a [[LINK LATER: Spectator | type=pathway]], then -4 disadvantage.  
+  - **Check:** Psychological Guidance against [[Will Defense]] with disadvantage (-4). If you are known to be a [[Spectator]], then -4 disadvantage.  
     [[UNCLEAR: The source gives two “-4 disadvantage” clauses; whether they stack is not stated.]]
   - **Effect:**
     - Instill a large amount of information into the target’s mind (meaningless bombardment or meaningful specific information; customized).
-    - On a successful Psychological Guidance check: the target must immediately make a [[LINK LATER: Sanity Check | type=mechanic]] (1/1d2) and is [[LINK LATER: Stunned | type=condition]]. The stunned state cannot be stacked.
+    - On a successful Psychological Guidance check: the target must immediately make a [[Sanity Check]] (1/1d2) and is [[Stunned]]. The stunned state cannot be stacked.
   - **Note:** If you cram compelling secret or important knowledge into the storm in this mode, the target is drawn to it and gains the knowledge as a result. If you hide in the dark, the target’s detection of the environment also fails by default because their attention is drawn away.
-  - **Sequence interaction:** If the target suffering from the mental storm is one lower than you, the special effect of the sanity test is directly replaced by the [[LINK LATER: Frenzy | type=condition]] effect.  
+  - **Sequence interaction:** If the target suffering from the mental storm is one lower than you, the special effect of the sanity test is directly replaced by the [[id:alias-frenzy|Frenzy]] effect.  
     [[UNCLEAR: “One lower” is not defined (e.g., Sequence rank vs another metric).]]
 
 ### Consciousness Walking
 
-Allows your consciousness and spiritual body to swim in the [[LINK LATER: Sea of Collective Subconscious | type=location]], but it cannot bring your physical body into it.
+Allows your consciousness and spiritual body to swim in the [[Sea of Collective Subconscious]], but it cannot bring your physical body into it.
 
-- **Sequence 3:** You can bring in your physical body by transforming it into an [[LINK LATER: Incorporeal Body | type=condition]]; in this state you cannot receive physical damage, nor can you cause physical damage.
-- For details about the Sea of Collective Subconscious and Consciousness Islands, see [[LINK LATER: Chapter Twelve: Special Regions | type=location | hint=Core chapter]].
+- **Sequence 3:** You can bring in your physical body by transforming it into an [[Incorporeal Body]]; in this state you cannot receive physical damage, nor can you cause physical damage.
+- For details about the Sea of Collective Subconscious and Consciousness Islands, see [[Chapter Twelve: Special Regions]].
 
 ### Accurate Grasp
 
@@ -125,7 +125,7 @@ You can precisely control your own psychology and spirit; premonition-like abili
 
 Your psychic cloaking advances further.
 
-- **Use:** 1 **Swift action**, once per round, only available during the instant of [[LINK LATER: Psychological Invisibility | type=mechanic]] exposure.
+- **Use:** 1 **Swift action**, once per round, only available during the instant of [[Psychological Invisibility]] exposure.
 - **Effect:** While psychologically invisible, you consume an avatar to create a phantom beside you that shares the objects affected by psychological invisibility. Only for the moment when the psychic cloak is discovered and attacked, attacks on you (except area attacks) are directed at the phantom instead.
 - The phantom takes no real damage—only Sanity damage—and goes insane. After the ability ends, the avatar returns to your body.
 
@@ -135,17 +135,17 @@ Quietly plant seeds of “Contagious Madness” in the target’s mental island.
 
 - **Cost:** 3 points of **Spirituality**.
 - **Use:** **Swift action**, once per round.
-- **Effect:** Plant a “spiritual plague seed” in the target’s spiritual island. After detonation, the resulting madness can spread through the [[LINK LATER: Spiritual Body Thread | type=mechanic]].
+- **Effect:** Plant a “spiritual plague seed” in the target’s spiritual island. After detonation, the resulting madness can spread through the [[Spiritual Body Thread]].
 
 - **Maturation:** Seeds require two rounds to mature, then detonate on their own.
 - **On detonation:** The detonated creature is immediately regarded as being in a state of mental plague.
   > **Lore:** The condition presents as extreme mood volatility (manic spikes and depressive crashes), including profound hopelessness and self-destructive thoughts.
 
 - **Ongoing effect (each round, until mental healing is obtained):**
-  - The target makes a [[LINK LATER: Sanity Check | type=mechanic]] (0/1).
+  - The target makes a [[Sanity Check]] (0/1).
   - The target must also make a Will check (Difficulty Value 20). On failure, it cannot perform any actions other than **Swift**/**Free** actions.
   - Even if it passes the Will check, the next round still requires another sanity check and Will check.
-  - The symptom can be relieved by a [[LINK LATER: Psychoanalysis | type=mechanic]] check (Difficulty Value 20). Psychoanalysis is a **Free action** once per round.
+  - The symptom can be relieved by a [[Psychoanalysis]] check (Difficulty Value 20). Psychoanalysis is a **Free action** once per round.
 - **Insanity rules:** This is considered a form of insanity; the insane creature gains disadvantage against it and all other creatures gain advantage over it.  
   [[UNCLEAR: It is not explicit whether this refers to the affected target’s interactions, or to other creatures’ interactions with the target.]]
 
@@ -154,14 +154,14 @@ Quietly plant seeds of “Contagious Madness” in the target’s mental island.
     [[UNCLEAR: A base duration/countdown is referenced but not defined in the source text.]]
   - Each round, the afflicted creature uses a **Free action** to spread the plague, randomly spreading a biological plague seed within line of sight. The seed takes effect after two rounds and cannot be controlled.
   - Spread can also occur via the Spiritual Body Thread; you do not need line of sight to spread through that thread.
-  - Seeds planted on the [[LINK LATER: Secret Puppet | type=mechanic]] do not take effect on the Secret Puppet after detonation, but they can still spread.
+  - Seeds planted on the [[Secret Puppet]] do not take effect on the Secret Puppet after detonation, but they can still spread.
 
 - **Audience interaction:**
-  - For a target in the mental plague state, the Audience can ignore whether the target is in [[LINK LATER: Shock | type=condition]], directly detonate emotions, and use a Spellcasting action to use [[LINK LATER: Madness | type=mechanic]] on them.
+  - For a target in the mental plague state, the Audience can ignore whether the target is in [[Shock]], directly detonate emotions, and use a Spellcasting action to use [[Madness]] on them.
 
 - **Evasion, mitigation, and counters:**
   - The mental plague cannot be evaded by a substitute.
   - Half of its influence can be offset through the virtual personality—changing its restriction “from only using swift/free action to losing an action.”  
     [[UNCLEAR: The source’s description of how the restriction changes is internally unclear; the exact before/after limits are not cleanly stated.]]
-  - It can be evaded in advance by [[LINK LATER: Teleportation | type=mechanic]] or swapping positions, provided the target is aware of it.
+  - It can be evaded in advance by [[Teleportation]] or swapping positions, provided the target is aware of it.
   - With a specific shelter, it can only delay maturity time by 2 rounds, and the impact is halved.

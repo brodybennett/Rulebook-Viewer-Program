@@ -16,26 +16,26 @@ tags: ["pathway:hanged-man", "sequence:6"]
 
 - **Attribute Gain:** Constitution +2, Strength +2, Agility +1, Inspiration +1.
 - **Skills:**
-  - Your Biology is included in your [[LINK LATER: Rapid Improvement Category | type=mechanic | hint=skill advancement bracket]] (up to [[LINK LATER: Proficient | type=term | hint=skill rank]]).
-  - Occult can be promoted to [[LINK LATER: Master | type=term | hint=skill rank]].
+  - Your Biology is included in your [[Rapid Improvement Category]] (up to [[Proficient]]).
+  - Occult can be promoted to [[Master]].
 
 ### Bishop Rose Traits
 
-- You are long-term considered a **Corrupted Creature** [[LINK LATER: Corrupted Creature | type=condition | hint=creature classification]].
-  - You cannot be critically hit [[LINK LATER: Critical Hit | type=mechanic | hint=rule for critical damage/effects]] by effects other than the [[LINK LATER: Weakness Attack | type=mechanic | hint=Red Priest feature]] of the [[LINK LATER: Red Priest | type=pathway | hint=Pathway or class]].
+- You are long-term considered a **Corrupted Creature** [[Corrupted Creature]].
+  - You cannot be critically hit [[Critical Hit]] by effects other than the [[Weakness Attack]] of the [[Red Priest]].
 - Your physical state no longer represents your remaining health, and you can survive even if you are almost turned into a corpse.
 - This is a potion effect and cannot be stolen or recorded.
 
 ### Flesh Devour
 
-- **Cost:** No **Sanity** [[LINK LATER: Sanity | type=mechanic | hint=resource]].
+- **Cost:** No **Sanity** [[Sanity]].
 - **Use:** Varies by creature size (swift / casting / full-round; see “Devouring time by size” below).
 - **Targeting and range:** Touch; one helpless creature.
 - **Effect:**
   - The target is brought into your flesh.
-  - Creatures brought into your flesh become your **Flesh Stack** and provide **Satiety** [[LINK LATER: Satiety | type=mechanic | hint=hunger/replenishment measure]].
+  - Creatures brought into your flesh become your **Flesh Stack** and provide **Satiety** [[Satiety]].
   - **Flesh Stack** is the value that determines how much flesh and blood you can hold; you can stack it up to 150.
-  - A creature provides as many Flesh Stacks as its maximum health. Excluding [[LINK LATER: Extraordinary | type=term | hint=supernatural classification]], larger creatures usually provide more Flesh Stacks.  
+  - A creature provides as many Flesh Stacks as its maximum health. Excluding [[Extraordinary]], larger creatures usually provide more Flesh Stacks.  
     [[UNCLEAR: Flesh Devour says Flesh Stacks equal a creature’s maximum health, but also provides a size-based Flesh Stack table with fixed/dice values.]]
 - **Flesh Stacks by size (life limit):**
   - (If the following creatures die tragically and their limbs are mutilated, the host will judge how much flesh and blood are left.)
@@ -46,7 +46,7 @@ tags: ["pathway:hanged-man", "sequence:6"]
   5. Medium and large creatures (adult lions, tigers, bears, cows): 20 Flesh Stacks; meat pigs, etc. +1d5.
   6. Large creatures (giants, large creatures, Feysacs): 20+2d4 Flesh Stacks.
   7. Very large creatures (creatures comparable in size to a ship, 4-meter or 6-meter giants, creatures that can cause ship destruction): 60+10d2 Flesh Stacks, or even more.
-  8. Extraordinary-related creatures: Directly calculate the upper limit of blood volume [[LINK LATER: Blood Volume | type=mechanic | hint=life/blood-volume cap]], and restore their remaining **Spirituality** [[LINK LATER: Spirituality | type=mechanic | hint=resource]]; the spiritual recovery can exceed half of the upper limit.  
+  8. Extraordinary-related creatures: Directly calculate the upper limit of blood volume [[Blood Volume]], and restore their remaining **Spirituality** [[Spirituality]]; the spiritual recovery can exceed half of the upper limit.  
      [[UNCLEAR: The target/recipient of “restore their remaining Spirituality” and what “upper limit” refers to here is unclear.]]
   - The above random values determine individual differences.
 - **Devouring time by size:**
@@ -56,8 +56,8 @@ tags: ["pathway:hanged-man", "sequence:6"]
   - ⑥: 2 full-round actions.
   - ⑦: At least 3 full-round actions (depending on the situation).
 - **Special (Extraordinary-related creatures):**
-  - Ensure their characteristics [[LINK LATER: Characteristics | type=term | hint=extractable essence/trait for Extraordinary creatures]] have been extracted first; otherwise devouring may lead to promotion identification.
-  - Because characteristics become extraordinary in the body of the [[LINK LATER: Jumping Path | type=pathway | hint=“jumping path” reference]], the [[LINK LATER: Shepherd's Grazing | type=mechanic | hint=method that separates characteristics]] can directly solve this problem, allowing characteristics to be separated immediately.  
+  - Ensure their characteristics [[Characteristics]] have been extracted first; otherwise devouring may lead to promotion identification.
+  - Because characteristics become extraordinary in the body of the [[Jumping Path]], the [[Shepherd's Grazing]] can directly solve this problem, allowing characteristics to be separated immediately.  
     [[UNCLEAR: The terms “promotion identification,” “jumping path,” and “Shepherd’s Grazing” are referenced without definitions here.]]
 
 ### Flesh Alteration
@@ -68,11 +68,11 @@ tags: ["pathway:hanged-man", "sequence:6"]
   - This passive part cannot be recorded. Stealing will not cause flesh and blood to disintegrate.
   - This is a permanent physical change; it does not require continued spell consumption to maintain.
   - When your Flesh Stack reaches 50:
-    - Gain 3 Armor [[LINK LATER: Armor | type=mechanic | hint=defense stat]] and 3 Physical Damage Reduction [[LINK LATER: Physical Damage Reduction | type=mechanic | hint=reduces incoming physical damage]].
+    - Gain 3 Armor [[Armor]] and 3 Physical Damage Reduction [[Physical Damage Reduction]].
     - These do not stack with other physical benefits.
   - When your Flesh Stack reaches 120:
     - Strength +1; Constitution +1.
-    - You are considered a **Big Volume Creature** [[LINK LATER: Big Volume Creature | type=condition | hint=bulky/large-bodied state]].
+    - You are considered a **Big Volume Creature** [[Big Volume Creature]].
     - **Large creature benefits (while considered a Big Volume Creature):**
       - Melee against medium-sized creatures increases damage by 1d3 and attack range by 1 meter.
       - Medium-sized creatures give you +2 check.  
@@ -87,7 +87,7 @@ tags: ["pathway:hanged-man", "sequence:6"]
   1. **Appearance adjustment:** You can change your initial charm from 1 to 6.
      - Changing 1 point takes 1 day.
      - Changing a major appearance takes 1 week.
-     - Unlike [[LINK LATER: Faceless | type=sequence | hint=appearance-changing ability/Sequence]], this change is gradual “pinching and modeling” little by little.
+     - Unlike [[Faceless]], this change is gradual “pinching and modeling” little by little.
   2. **Incarnation of flesh and blood:** 1 move action.
      - Change from a human form into a wriggling pool of flesh and blood.
      - You can enter places that are usually inaccessible, or enter the body of a helpless, voluntary target.
@@ -96,7 +96,7 @@ tags: ["pathway:hanged-man", "sequence:6"]
   3. **Fusion of flesh and blood:** 1 spellcasting action.
      - Prerequisite: You are incarnated inside the host’s body.
      - You and the host’s flesh and blood fuse; the threads of the spirit body overlap.
-     - This cannot be discovered by the [[LINK LATER: Marionette Master | type=term | hint=detection/control archetype]], the [[LINK LATER: Eye of the Secret | type=term | hint=detection method]], etc.
+     - This cannot be discovered by the [[Marionette Master]], the [[Eye of the Secret]], etc.
      - This does not include beings higher than 1 person.  
        [[UNCLEAR: The limit “does not include beings higher than 1 person” is unclear.]]
      - **Warning:** If you perform flesh and blood fusion, getting out of the body causes the death of the host; “more than 1 digit” causes combat damage.  
@@ -117,24 +117,24 @@ tags: ["pathway:hanged-man", "sequence:6"]
 - **Effect:** Your cells grow faster than normal living organisms.
 - **Passive (Flesh Stack regeneration):**
   1. Based on your Flesh Stack, every 12 hours, even if you don’t devour any flesh and blood, your Flesh Stack value can also be +10.
-  2. This auto-recovering Flesh Stack ends when your upper limit of life reaches 80 [[LINK LATER: Life Cap | type=mechanic | hint=maximum life/health limit]], because the upper limit of life brought by Flesh Stack increases with Sequence; at higher Sequence this becomes the corresponding higher upper limit of life.
+  2. This auto-recovering Flesh Stack ends when your upper limit of life reaches 80 [[Life Cap]], because the upper limit of life brought by Flesh Stack increases with Sequence; at higher Sequence this becomes the corresponding higher upper limit of life.
 
-**Flesh Magic:** You gain the following flesh magic; every “Rose Bishop” is an expert in flesh magic. The following flesh and blood magic are all separate abilities, and only one benefit can be selected when creating [[LINK LATER: Extraordinary Items | type=item | hint=item crafting category]].
+**Flesh Magic:** You gain the following flesh magic; every “Rose Bishop” is an expert in flesh magic. The following flesh and blood magic are all separate abilities, and only one benefit can be selected when creating [[Extraordinary Items]].
 
 ### Flesh Cloak
 
 - **Cost:** 3 points of **Spirituality**; 20 Flesh Stacks once a round.
 - **Use:** 1 swift action.
 - **Effect:** Weave scarlet flesh and fallen blood into a strange, viscous red cloak that wraps your body and grants:
-  1. Gain 5 points of external damage reduction [[LINK LATER: External Damage Reduction | type=mechanic | hint=reduces incoming damage]]; this can be superimposed with the reduction from Flesh Stack.
+  1. Gain 5 points of external damage reduction [[External Damage Reduction]]; this can be superimposed with the reduction from Flesh Stack.
   2. The cloak can withstand a limited number of damages equal to the value of Flesh Stack consumed.
      - Each time it suffers non-physical damage, deduct 1 time.
-     - If it suffers from divine power [[LINK LATER: Divine Power | type=mechanic | hint=damage/energy category]], deduct 5 times each time.
+     - If it suffers from divine power [[Divine Power]], deduct 5 times each time.
      - It can be repaired by repeated casting.
   3. Making the Flesh Cloak consumes up to 40 Flesh Stacks; consuming more than 40 does not grant additional benefits.
   4. The Flesh Stacks of the Flesh Cloak can be recovered by devouring flesh and blood, which consumes 1 full-round action.
 - **Special:**
-  - Damage higher than 1 character of yours consumes 3 more resist times; holy damage [[LINK LATER: Holy Damage | type=mechanic | hint=damage category]] consumes 5 more times.
+  - Damage higher than 1 character of yours consumes 3 more resist times; holy damage [[Holy Damage]] consumes 5 more times.
   - If it is 2 characters higher than you, regardless of damage type, the cloak is annihilated after resisting 1 effect; holy causes the cloak to not even take effect.  
     [[UNCLEAR: “Character higher” (difference thresholds and what counts as “holy” vs “divine power”) is undefined here, and the relationship between “20 Flesh Stacks once a round” and “consumes up to 40 Flesh Stacks” is ambiguous.]]
 
@@ -146,9 +146,9 @@ tags: ["pathway:hanged-man", "sequence:6"]
    - **Cost:** Consumes 5 points of blood and flesh stack.  
      [[UNCLEAR: This cost does not clearly state whether it consumes blood, Flesh Stack, or both.]]
    - **Use:** 1 spellcasting action.
-   - **Targeting and range:** Choose 1 target; “throw” against physical defense [[LINK LATER: Physical Defense | type=mechanic | hint=defense value against physical attacks]].
+   - **Targeting and range:** Choose 1 target; “throw” against physical defense [[Physical Defense]].
    - **Effect:**
-     - Deal 3d6 physical damage and 1d6 poison damage [[LINK LATER: Poison Damage | type=mechanic | hint=damage category]].
+     - Deal 3d6 physical damage and 1d6 poison damage [[Poison Damage]].
      - On failure, damage is halved (rounded up).
      - Two creatures standing next to each other count as the same target.
    - **Special:**
@@ -157,7 +157,7 @@ tags: ["pathway:hanged-man", "sequence:6"]
      - You may tear off one of your limbs and throw it:
        - The bomb’s damage is doubled.
        - This usage can affect all creatures within a 10-meter area.
-       - You take a -4 penalty each time you fight or roll; movement is halved, until you use [[LINK LATER: Flesh Mending | type=mechanic | hint=healing/restoration referenced by Flesh Bomb]].  
+       - You take a -4 penalty each time you fight or roll; movement is halved, until you use [[Flesh Mending]].  
          [[UNCLEAR: “Flesh Mending” is referenced but not defined in this section.]]
 2. **Planted flesh bomb**
    - **Cost:** Consumes 5 Flesh Stacks.
@@ -178,7 +178,7 @@ tags: ["pathway:hanged-man", "sequence:6"]
 
 - **Use:** 1 swift action; once per round.
 - **Effect:** Animate the flesh and blood of a lifeless host to perform 1 action.
-  - Example: You can use your Flesh Cloak or [[LINK LATER: Flesh Blanket | type=mechanic | hint=referenced name; see Blanket of Flesh]] to grapple [[LINK LATER: Grapple | type=mechanic | hint=grappling special action]] the enemy.
+  - Example: You can use your Flesh Cloak or [[Flesh Blanket]] to grapple [[Grapple]] the enemy.
     - The bonus of flesh is its Flesh Stack/2.
     - The Flesh Stack also represents its HP.
     - For the rest, refer to Flesh Blanket.

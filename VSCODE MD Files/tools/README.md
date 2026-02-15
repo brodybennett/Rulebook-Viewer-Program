@@ -38,7 +38,24 @@ python tools/find_ambiguous_wikilinks.py --repo . --content-root draft
 These links are risky with the current viewer (title-based resolution). Convert them to id-links:
 `[[id:<anchor-id>|Text]]`.
 
-## 4) Merge TAG DELTA into the main registry
+## 4) Congruence audit (cross-file consistency risks)
+
+Generate a severity-grouped report (High/Medium/Low) for:
+- `[[UNCLEAR: ...]]` and `[[LINK LATER: ...]]` counts + locations
+- heading collisions
+- bold-term definition drift (`**Term:** ...`)
+- repeated block title field drift (`**Cost:**`, `**Use:**`, `**Effect:**`)
+
+```bash
+python tools/congruence_audit.py --repo .
+python tools/congruence_audit.py --repo . --content-root draft --out congruence_report.md
+python tools/congruence_audit.py --repo . --out reports/congruence_report.md --json
+python tools/congruence_audit.py --repo . --out -   # print markdown report to stdout
+```
+
+`--json` accepts an optional path. If omitted, JSON is written next to `--out` with a `.json` suffix.
+
+## 5) Merge TAG DELTA into the main registry
 
 Dry run:
 
@@ -52,7 +69,7 @@ Apply:
 python tools/merge_tag_delta.py --repo . --delta tag-delta.yml --write
 ```
 
-## 5) Prune alias bloat
+## 6) Prune alias bloat
 
 Dry run:
 
@@ -66,7 +83,7 @@ Apply:
 python tools/prune_registry_aliases.py --repo . --write
 ```
 
-## 6) Bootstrap style guide + template
+## 7) Bootstrap style guide + template
 
 ```bash
 python tools/bootstrap_style_guide.py --repo . --write --write-template

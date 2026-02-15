@@ -22,14 +22,14 @@ Only by satisfying other people’s wishes can one’s own wishes be satisfied; 
 
 ### Main Material
 
-- A heart of the [[LINK LATER: Dark Demonic Wolf | type=other | hint=Main material creature; “God of Wishes”]] (God of Wishes), **or**
-- A copy of the [[LINK LATER: Extraordinary Feature | type=term | hint=Advancement material type]] of “Master of Miracles”.
+- A heart of the [[Dark Demonic Wolf]] (God of Wishes), **or**
+- A copy of the [[Extraordinary Feature]] of “Master of Miracles”.
 
 ### Auxiliary Materials
 
 - 300 milliliters of dark demonic wolf blood
-- [[LINK LATER: Worm of Time | type=item | hint=Auxiliary material]] ×1
-- [[LINK LATER: Worm of Star | type=item | hint=Auxiliary material]] ×1
+- [[Worm of Time]] ×1
+- [[Worm of Star]] ×1
 
 ### Advancement Ritual
 
@@ -73,19 +73,19 @@ After just being promoted:
 - Whenever you fulfill someone else’s wish, choose a miracle skill that corresponds to that wish and raise it by one level.
 - Because your miracle skills are basically untrained at the beginning, the way to fulfill other people’s wishes cannot rely on miracle abilities, but through other methods.
 
-> **GM Note:** The RAW gives examples of “other methods,” such as using [[LINK LATER: Mask | type=other | hint=Source of Extraordinary items used in example]] Extraordinary items to adjust appearance, or using [[LINK LATER: Witch | type=other | hint=Source of items used in example]] items to make someone “Super Super Beautiful.”
+> **GM Note:** The RAW gives examples of “other methods,” such as using [[Mask]] Extraordinary items to adjust appearance, or using [[Witch]] items to make someone “Super Super Beautiful.”
 
 > **Lore:** Just like the core of Master of Miracles: “accumulate small wishes and realize big wishes”.
 
 #### Using miracles (skill thresholds and caps)
 
 - Only when one of your miracle skills is proficient (+4) can you use the miracles below; otherwise they cannot be used.
-- A miracle skill can reach up to master (+8). After that, the bonus usually cannot continue to increase unless you complete a [[LINK LATER: grand miracle | type=mechanic | hint=Condition that can raise a Miracle skill beyond +8]].
+- A miracle skill can reach up to master (+8). After that, the bonus usually cannot continue to increase unless you complete a [[grand miracle]].
 - A miracle skill enjoys the additional value of the attribute corresponding to the original skill. Therefore, the miracle master will have certain advantages when performing miracles related to Inspiration.
 
 #### Casting miracles (examples)
 
-- A skill test transformed into a miracle can directly complete the result through a [[LINK LATER: casting action | type=mechanic | hint=Action used to resolve Miracle results]] regardless of material and time constraints.
+- A skill test transformed into a miracle can directly complete the result through a [[Casting Action]] regardless of material and time constraints.
 
 Examples of successful Miracle checks:
 
@@ -93,7 +93,7 @@ Examples of successful Miracle checks:
 - With a successful **Miracle (psychological)** test, you can gain insight into another person’s heart.
 - With a successful **Miracle (psychological channeling)** check, you instantly regain all of your spirituality and sanity.
 - With a successful **Miracle (Medicine)** check, you can completely heal a person instantly.
-- Through a successful **Miracle (mystery) identification**, you can wish that the [[LINK LATER: divinity | type=term | hint=Suppressed by this Miracle effect]] of this place disappears:
+- Through a successful **Miracle (mystery) identification**, you can wish that the [[Divinity]] of this place disappears:
   - Everyone present cannot use the ability of **Sequence 5** or higher.
   - Duration: 4 rounds.
   - Abilities that have already been displayed will not be affected (e.g., a spirit worm already separated for a secret puppet can still exchange positions with the secret puppet; a mythical form that has been opened will not directly change back to the original state).
@@ -130,7 +130,7 @@ Examples of successful Miracle checks:
   - Place it at the position that needs to be resurrected.
 - After you die, you will regenerate at the resurrection point set by you, and integrate this Sequence 2 characteristic to become a Master of Miracles with this Sequence 2 characteristic.
 - The Extraordinary characteristic of 9–3 is optional in the characteristic; it does not affect resurrection, but it is better to have it, otherwise it may be difficult to effectively use the low-sequence ability.
-  - For details, see [[LINK LATER: Explanation of Sequence Replacement | type=rule | hint=Referenced section]].
+  - For details, see [[Explanation of Sequence Replacement]].
 
 #### Additional constraints and setup
 
@@ -139,7 +139,7 @@ Examples of successful Miracle checks:
 
 To make a resurrection point, you need to leave the following at the location to be resurrected:
 
-- At least one [[LINK LATER: spirit worm | type=term | hint=Clone component for Resurrection]] as a clone
+- At least one [[Spirit Worm]] as a clone
 - A copy of the miracle master characteristic of **Sequence 2**
 - A bottle of your blood or your body tissue
 

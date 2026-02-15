@@ -17,13 +17,13 @@ A **Beyonder** at this **Sequence** can manifest a demon-like form—often growi
 ### Attribute Gain
 
 - **Attribute Gain:** Strength +2, Dexterity +1, Constitution +2, Inspiration +1
-- **Growth:** [[LINK LATER: Sequence 9 potion skills | type=sequence | hint=the Sequence 9 potion in this Pathway]] can be grown to proficiency; mysticism can be grown to erudition.
+- **Growth:** [[Sequence 9 potion skills]] can be grown to proficiency; mysticism can be grown to erudition.
 
 ### Dehumanization
 
 - **Effect:** Your humanity and emotions have been almost completely wiped out.
-- **Effect (upgrade):** On the basis of [[LINK LATER: Sequence 8 Dehumanization | type=sequence | hint=earlier Dehumanization benefit]], you will no longer fall into states of [[LINK LATER: charm | type=condition]], [[LINK LATER: fear | type=condition]], [[LINK LATER: anger | type=condition]], etc. These states can no longer have any effect on you.
-- **Sanity:** Every time you make a [[LINK LATER: sanity loss | type=mechanic | hint=system sanity damage]], the **sanity loss check** is **+4 disadvantageous**, and the maximum loss limit for the success and failure of the **sanity check** is doubled.  
+- **Effect (upgrade):** On the basis of [[Sequence 8 Dehumanization]], you will no longer fall into states of [[charm]], [[fear]], [[anger]], etc. These states can no longer have any effect on you.
+- **Sanity:** Every time you make a [[Sanity Loss]], the **sanity loss check** is **+4 disadvantageous**, and the maximum loss limit for the success and failure of the **sanity check** is doubled.  
   - Example: a sanity loss of **1d2/1d4** becomes **1d4/1d8**.  
   - (Sanity loss of class **0/1** becomes **1/1d2**; **1/1d3** sanity loss becomes **1d2/1d6**, etc.)
 - **Special:** Emotional states created by one person higher than you have half the effect on you, and two persons higher than normal.
@@ -37,7 +37,7 @@ A **Beyonder** at this **Sequence** can manifest a demon-like form—often growi
   - You can choose the classic demon image with goat horns, or you can choose various grotesque appearances from mythology.
   - These demon images represent part of your abilities. For example, some demons may turn into water bodies on the basis of being able to control fire, and some may control thunder.
 - **Demonized state benefits:** The demon form will become huge, making you nearly 3 meters tall, and at the same time, you get the following benefits:
-  - **Demonized state:** Your strength +2, agility +2, constitution +2, gain 10 extra health, become a [[LINK LATER: fallen creature | type=condition | hint=creature type/state]].
+  - **Demonized state:** Your strength +2, agility +2, constitution +2, gain 10 extra health, become a [[fallen creature]].
   - At the moment of demonization, you break free from physical and spiritual shackles. The former is like the shackles of the abyss, and the latter is like torture, awe, marionette (it can only immediately reduce the operation level by 1).  
     [[UNCLEAR: “reduce the operation level by 1” is not defined in this text, and the list of examples (“torture, awe, marionette”) is unclear about what is being reduced.]]
   - **Size rules:** You are treated as a **Large** creature:
@@ -50,14 +50,14 @@ A **Beyonder** at this **Sequence** can manifest a demon-like form—often growi
 ### Arrogance: Flaming Horns
 
 - **Effect:** The goat horns on the top of your head are curved and protruding, covered with countless mysterious patterns.
-- **Limits:** The image of the Flaming Horn can be customized, but the following content can only be used after reaching [[LINK LATER: Sequence 5 | type=sequence | hint=required Sequence for Flaming Horns feature]]:
+- **Limits:** The image of the Flaming Horn can be customized, but the following content can only be used after reaching [[Sequence 5]]:
   - **Cost:** 1 casting action; consume 2 spirituality points.
   - **Targeting and range:** Choose 1 target within the field of vision.
   - **Check:** Inspiration against will defense.
   - **Effect:** You burn the goat horns on your head, and forcefully impact the enemy's spirit. After the identification is successful, based on the content of the catalyzed emotion, you give the other party an emotion that has not been catalyzed, which lasts until the end of the encounter, so that the emotion can be catalyzed and detonated later.
     - If the target spends 1 cast/move to meditate, the duration changes to end after your next turn.
     - The specific emotion is decided by the devil himself, but just like the content of the catalyzed emotion, this emotion must be reasonable and in line with the situation. For example, if the target must fight you quickly, then you can make him feel uneasy because he is worried about the arrival of reinforcements.
-  - **Special:** If the ability to control desire is lost, the ability will also disappear (this is a branch of controlling desire). [[LINK LATER: control desire | type=mechanic | hint=ability/discipline referenced by multiple effects]]
+  - **Special:** If the ability to control desire is lost, the ability will also disappear (this is a branch of controlling desire). [[control desire]]
 
 ### Fallen Wings
 
@@ -83,9 +83,9 @@ A **Beyonder** at this **Sequence** can manifest a demon-like form—often growi
 ### Body of the Abyss
 
 - **Effect:** You are immune to most poisons, and you are not afraid of curses and flames to a certain extent.
-- **Effect:** You automatically gain [[LINK LATER: magma attachment | type=condition | hint=automatic attachment gained from this ability]]. You gain **10** poison resistance and **5** curse resistance.
+- **Effect:** You automatically gain [[magma attachment]]. You gain **10** poison resistance and **5** curse resistance.
 - **Fast dodge:** You retain full agility and dodge defenses against guns but not light/lightning, but you still cannot dodge those extraordinary abilities that cannot be dodged.
-- **Extra:** When you face non-gun-like high-speed attacks, such as [[LINK LATER: Red Priest's Flame | type=other | hint=high-speed attack example]] or [[LINK LATER: Witch's Ice Lance | type=other | hint=high-speed attack example]]:
+- **Extra:** When you face non-gun-like high-speed attacks, such as [[Red Priest's Flame]] or [[Witch's Ice Lance]]:
   - For any attack whose described speed does not reach the level of a gun, unless it must be hit, not only will you not lose your agility and dodge defense, but you will also get an additional dodge bonus.
   - Note: When facing firearms, your extra evasion is invalid, but the original full agility and evasion defenses are still retained.
 - **Demonized state:** Gain a rank in the bonus dodge skill.
@@ -107,7 +107,7 @@ Your demonic spells are already true demonic spells, and are in part superior ve
 - **Cost:** 1 swift action; consume 2 points of spirituality; once per round, you can only choose one foul language to use in one round.
 - **Targeting and range:** Within 8 meters of you as the center, regardless of enemy or friend.
 - **Check:** Inspiration **-4** is disadvantageous against the will defense of all creatures.
-- **Effect:** Resulting in a state of [[LINK LATER: shock | type=condition | hint=1-round condition]] for 1 round.
+- **Effect:** Resulting in a state of [[Shock]] for 1 round.
 
 #### Foul language "Degenerate"
 
@@ -115,7 +115,7 @@ Your demonic spells are already true demonic spells, and are in part superior ve
 - **Targeting and range:** Choose an area within 8 meters, and choose a target as the main body.
 - **Check:** Inspiration **-4** is disadvantageous against the main body's will defense, and the rest of the targets are against the physical defense. Use the result of one identification to compare the two defenses at the same time. Multiple identifications are not allowed.
 - **Effect:** If the check is successful, you deal **3d6** curse damage in an area, ignoring **5** points of curse resistance.
-- **Limits/Notes:** (The three filthy words are not the same Extraordinary ability; they can only be recorded and stolen in stages, and "degenerate" into the [[LINK LATER: Pollution of the Abyss | type=mechanic | hint=referenced transformation/upgrade path]].)
+- **Limits/Notes:** (The three filthy words are not the same Extraordinary ability; they can only be recorded and stolen in stages, and "degenerate" into the [[Pollution of the Abyss]].)
 
 #### Manipulate the poisonous flame
 
@@ -123,7 +123,7 @@ Your demonic spells are already true demonic spells, and are in part superior ve
 - **Targeting and range:** Choose 1 target.
 - **Check:** Occult against physical defenses.
 - **Damage:** Deal **2d6** fire and **2d6** poison damage.
-- **Aftereffects:** A creature traumatized by poison damage takes **1d6** points of poison damage each round until a Medicine check (Difficulty Value **15**) is made. [[LINK LATER: Difficulty Value | type=term | hint=core check difficulty term]]
+- **Aftereffects:** A creature traumatized by poison damage takes **1d6** points of poison damage each round until a Medicine check (Difficulty Value **15**) is made. [[Difficulty Value]]
 - **Special:** This pair is twice as effective on plants, cobwebs, and silk hair.
 
 #### Toxic steam
@@ -172,7 +172,7 @@ Your demonic spells are already true demonic spells, and are in part superior ve
 - **Cost:** 1 swift action; 1 time per round; consume 2 spiritual points.
 - **Effect:** You create a flame cage in the palm of your hand, resisting a long-range attack with a medium that you recognize, which includes the following content:
   - Bullets, air bombs, ice-throwing guns, and musket-throwing guns
-  - Excluding beams of light on [[LINK LATER: Path of the Sun | type=pathway | hint=excluded ranged medium/source]], lightning and wind blades on [[LINK LATER: Path of Storms | type=pathway | hint=excluded ranged medium/source]]
+  - Excluding beams of light on [[Path of the Sun]], lightning and wind blades on [[Path of Storms]]
 - **Special:** If this attack is enchanted with a divine power 1 higher than yours, it cannot be blocked.
 
 #### Volcanic eruption
@@ -185,13 +185,13 @@ Your demonic spells are already true demonic spells, and are in part superior ve
 - **Damage:** Burst inflicting fire damage (based on the health-to-dice conversion above).
 - **Special (active volcano):** If you find an active volcano that is about to erupt, you can jump into the crater and use the eruption ability to cause **50** points of fire damage at one time, causing it to erupt immediately (the amount of damage must be caused at one time).
   - This will cause you to suffer half of the damage caused by the volcanic eruption ability, which may cause you to die on the spot.
-  - The effect of this will refer to the high-sequence disaster of the [[LINK LATER: Tyrant Path | type=pathway | hint=referenced for eruption effects]].
+  - The effect of this will refer to the high-sequence disaster of the [[Tyrant Path]].
 - **Sequence 4 note:** Sequence 4: You can cause a volcanic eruption without taking damage from the volcanic eruption ability, but you will still lose the ability to cast it and consume life points.  
   [[UNCLEAR: It is unclear how “without taking damage” interacts with “still lose the ability to cast it and consume life points,” and whether this changes the health-to-damage conversion.]]
 
 #### Others
 
-- **Effect:** 1 Sequence 6 version of a custom demon-like spell you made before. [[LINK LATER: custom demon-like spell | type=mechanic | hint=player-defined spell upgraded at Sequence 6]]
+- **Effect:** 1 Sequence 6 version of a custom demon-like spell you made before. [[custom demon-like spell]]
 - **Notes:**
   - (You can still use incomplete demonic spells before Sequence 6. The order of demonic spells is the same as that of Sequence 8's demon-like spells, so you can tell which ability is the upper version of which demon-like spell.)
   - (If you are a Sequence 7 and are strengthening your abilities through the sacrificial ceremony, then you only need to pay attention: you can only choose to evolve into one of the corrupted words for hurting people, and the flame cage and volcanic eruption cannot be suppressed. Strengthen the acquired ability)  

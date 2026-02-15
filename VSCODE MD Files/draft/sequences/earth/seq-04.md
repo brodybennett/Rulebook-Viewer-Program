@@ -12,19 +12,19 @@ tags: ["pathway:earth", "sequence:4"]
 
 ### Advancement Ritual
 
-- **Advancement Ritual:** Refine a **Life Stone** by yourself. [[LINK LATER: Life Stone | type=item | hint=advancement ritual object]]
+- **Advancement Ritual:** Refine a **Life Stone** by yourself. [[Life Stone]]
 
 ## Extraordinary Abilities
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +2, Dexterity +1, Inspiration +2, **Biology** +1 skill level. [[LINK LATER: Biology | type=term | hint=skill/attribute used for checks]]
+- **Attribute Gain:** Strength +1, Constitution +2, Dexterity +1, Inspiration +2, **Biology** +1 skill level. [[Biology]]
 
 ### Alchemy of Life
 
 You use incomplete spirits and materials to create a life.
 
-- **Cost:** 4 **spirituality points**. [[LINK LATER: spirituality points | type=mechanic | hint=resource spent to cast abilities]]
+- **Cost:** 4 **spirituality points**. [[Spirituality]]
 - **Use:** As a **casting action**; takes 1d2 hours.
 - **Effect:** Make a Biology check (**Difficulty Value** 20). On a success, you create one of the following alchemical creatures.
 
@@ -43,7 +43,7 @@ The creatures made from life tend to be a “template.” You can achieve the fi
   - **Armor Defense:** 15+5
   - **Attack damage:** 2d6 physical damage
   - Helps you complete various transportation or combat operations.
-  - **Immunity:** fire damage (Black Flame is not included). [[LINK LATER: Black Flame | type=term | hint=specific fire-type effect excluded from immunity]]
+  - **Immunity:** fire damage (Black Flame is not included). [[Black Flame]]
 
 - **Earth Golem:**
   - **Health Points:** 20
@@ -55,7 +55,7 @@ The creatures made from life tend to be a “template.” You can achieve the fi
   - **Damage taken:** fire damage received is halved
   - Perfectly integrates with the natural environment:
     - In a natural environment, +8 stealth identification
-    - Considered invisible before being discovered. [[LINK LATER: invisibility | type=condition | hint=considered invisible before discovery]]
+    - Considered invisible before being discovered. [[invisibility]]
 
 - **Steel Golem:**
   - **Health Points:** 35
@@ -64,13 +64,13 @@ The creatures made from life tend to be a “template.” You can achieve the fi
   - **Attack damage:** 2d6+3 physical damage
   - **Damage taken:** fire damage it takes is halved
   - Helps you complete various transport or combat operations.
-  - 10 consumable damage reduction. [[UNCLEAR: “10 consumable damage reduction” is not defined (what consumes it, and when it refreshes).]] [[LINK LATER: damage reduction | type=mechanic | hint=reduces incoming damage; 'consumable' qualifier unclear]]
+  - 10 consumable damage reduction. [[UNCLEAR: “10 consumable damage reduction” is not defined (what consumes it, and when it refreshes).]] [[damage reduction]]
 
 - **Other original biological templates approved by GM.**
 
 **Additional notes:**
 - If you can find more suitable extraordinary materials and spiritual bodies, you can create a better existence on this basis.
-- Note that, including Graeme, all creatures made by Life Refining have **spiritual threads**. [[UNCLEAR: “Graeme” is unclear in context (possibly a mistranslation or specific named example).]] [[LINK LATER: Life Refining | type=mechanic | hint=process referenced within Alchemy of Life]] [[LINK LATER: spiritual threads | type=term | hint=spiritual connection/constraint shared by created beings]]
+- Note that, including Graeme, all creatures made by Life Refining have **spiritual threads**. [[UNCLEAR: “Graeme” is unclear in context (possibly a mistranslation or specific named example).]] [[Life Refining]] [[spiritual threads]]
 
 **Limits and practical constraints:**
 - Generally, there is no clear limit to the number of creatures you can create except that it takes time to refine.
@@ -83,8 +83,8 @@ Increases the madness and out-of-control tendency of the person attacked.
 
 - **Use:** Usually accompanied by an **attack action**; once per round.
 - **Effect:** This takes effect on enemies who have suffered sanity checks in this round.
-  - The enemy you attacked enters **temporary madness** if its **sanity damage** reaches 2 when it suffers a **sanity test** in this round. [[LINK LATER: sanity damage | type=mechanic | hint=madness-related damage track]] [[LINK LATER: sanity test | type=mechanic | hint=check associated with sanity damage]] [[LINK LATER: temporary madness | type=condition | hint=madness state triggered at threshold]]
-  - The enemy you attacked enters **indeterminate madness** if its sanity damage reaches 5. [[LINK LATER: indeterminate madness | type=condition | hint=madness state triggered at higher threshold]]
-  - If its sanity is less than 30%, it enters a state of **out of control**. [[UNCLEAR: RAW contains “its sanity is less than 100%. 30,” which appears to intend “less than 30%.”]] [[LINK LATER: out of control | type=condition | hint=loss-of-control state triggered by low sanity]]
+  - The enemy you attacked enters **temporary madness** if its **sanity damage** reaches 2 when it suffers a **sanity test** in this round. [[Sanity Damage]] [[sanity test]] [[Temporary Madness]]
+  - The enemy you attacked enters **indeterminate madness** if its sanity damage reaches 5. [[indeterminate madness]]
+  - If its sanity is less than 30%, it enters a state of **out of control**. [[UNCLEAR: RAW contains “its sanity is less than 100%. 30,” which appears to intend “less than 30%.”]] [[out of control]]
 
-- **Special:** A **Beyonder** of the **Spectator Pathway** can circumvent this effect by passing a successful **Mental Channeling** identification. [[LINK LATER: Spectator Pathway | type=pathway | hint=pathway with a mitigation for Crazy Induction]] [[LINK LATER: Mental Channeling | type=term | hint=identification/check used to bypass effect]]
+- **Special:** A **Beyonder** of the **Spectator Pathway** can circumvent this effect by passing a successful **Mental Channeling** identification. [[Spectator Pathway]] [[Mental Channeling]]

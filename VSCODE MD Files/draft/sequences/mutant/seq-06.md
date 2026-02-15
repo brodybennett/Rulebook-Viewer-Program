@@ -24,7 +24,7 @@ After taking the potion:
 2. You are regarded as an **Undead Creature** for a long time, gaining 5 points of resistance to curse, cold, and poison damage.
 3. You get blade swing, fast dodge, night vision, and fast healing in **Werewolf Form**.
 
-Note: In **Living Corpse** form, you will appear cold and gloomy, unlike a living creature. For details, refer to [[LINK LATER: Death Pathway Sequence 9 | type=sequence | hint=“performance” reference for living corpse form]].
+Note: In **Living Corpse** form, you will appear cold and gloomy, unlike a living creature. For details, refer to [[Death Pathway: Sequence 9]].
 
 You gain the power of the undead, a frost aura, an **Immortal Body**, and the extraordinary ability to summon undead.
 
@@ -49,7 +49,7 @@ Even though you get werewolf-based enhancements, that doesn’t mean you’ll st
   3. If the end of your life is holy damage or lightning damage, **Immortal Body** also cannot be triggered.
   4. The damage that ends your life must not put you in a near-death state, but directly end your life to take effect.
 
-For dying, see [[LINK LATER: Special State | type=mechanic | hint=dying/near-death rules]].
+For dying, see [[Special State]].
 
 **Sequence 5: Wraith state** (reference): Because it is a spirit body, physical regeneration is meaningless, so it cannot use **Immortal Body**. But despite this, if the resentful soul dies, or even gets a headshot, it can still continue to perform a round of operations without a head and is almost considered dead. This ability has no effect if you die without a ghost. [[UNCLEAR: “die without a ghost” is not defined here.]]
 
@@ -66,7 +66,7 @@ For dying, see [[LINK LATER: Special State | type=mechanic | hint=dying/near-dea
 - **Defense-breaking and exceptions:**
   1. If you have suffered five critical blows, and all five critical blows hit the same part, then the last critical blow can break the defense.
   2. Blade swipe/corroding claws and other attacks that can ignore defense can still hit you vitally, and are effective with great success.
-  3. The guaranteed weak point attack in [[LINK LATER: Reaper’s Fatal Attack | type=mechanic | hint=guaranteed weak point attack]] is still valid for you.
+  3. The guaranteed weak point attack in [[Reaper’s Fatal Attack]] is still valid for you.
 
 ### Extraordinary Weight
 
@@ -101,7 +101,7 @@ At the same time, this is controllable to a certain extent. When you don’t nee
 - **Special:**
   - Extra damage only; double the effect on plants, spider silk, and hair.
   - If you buff the soles of your boots, the place you walk takes on a rotten smell, the ground shows rotten mud, and creatures that move where you walk have a movement speed of -2.
-  - Even if it is metal, there will be some signs of decay under the power of decay, unless it is a [[LINK LATER: Beyonder material | type=term | hint=material category with special resistance]].
+  - Even if it is metal, there will be some signs of decay under the power of decay, unless it is a [[Beyonder material]].
   - If you are one level above the material, the decay still applies.
 
 ### Spreading Ice
@@ -140,7 +140,7 @@ You can also use this to freeze an inorganic substance; the frozen inorganic sub
   1. Choose a body part; attacks with it deal an additional 1d6 cold damage, permeating your fist or other parts with bursts of cold air.
   2. This also causes the victim’s muscles to tremble and hoarfrost to condense; their next check takes a -2 penalty.
   3. A significant layer of ice quickly condenses on the wall hit by a fist blessed with cold power.
-- **Soles option:** If you buff the soles, thin ice condenses wherever you walk. Targets without cold resistance or balance ability will lose their balance if there is a big failure on the thin ice you walk on. (See [[LINK LATER: Special Status | type=mechanic | hint=big failure + balance/ice rules]].)
+- **Soles option:** If you buff the soles, thin ice condenses wherever you walk. Targets without cold resistance or balance ability will lose their balance if there is a big failure on the thin ice you walk on. (See [[Special Status]].)
 
 Note: Cold Buff is contradictory to Rot Bless, in the sense that they cannot be used on the same body part. The most you can do is spread ice on the soles of your boots, add rot to your fists, and use these two abilities on different body parts, instead of giving one part both frost and rot at the same time. You can have a rotten left hand and a cold right hand, but an attack action can only use one of them.
 
@@ -159,18 +159,18 @@ You can easily wake up dead corpses and cultivate puppets. This is a death-like 
 
 - **Cost:** 3 spirituality points
 - **Use:** 1 casting action; choose:
-  - 1 corpse that has not been [[LINK LATER: requiemed | type=term | hint=corpse rite/state requirement]] and has been dead for less than 1 month, **or**
+  - 1 corpse that has not been [[requiemed]] and has been dead for less than 1 month, **or**
   - an existing **Living Corpse** (the living corpse should have no owner, or the owner is 1 rank lower than you grid). [[UNCLEAR: “you grid” is not mechanically clear.]]
 - **Effect:** You make it your puppet.
 
 **Zombie** (puppet stats): 15 health, 15 physical defense (5 points for agility and dodge), ignoring the ability to fight physical and will defense. [[UNCLEAR: “ignoring the ability to fight physical and will defense” is not mechanically clear.]]
 
 1. A living corpse has 5 points of resistance to cold, curse, and poison. Its attack causes 1d6 physical damage. It looks like an ordinary person but has many places on its body.
-2. If there is a disease that can affect the living corpse, then it can be done against physical defense of **Difficulty Value 15**, such as the [[LINK LATER: Witch’s Plague | type=mechanic | hint=disease example]].
+2. If there is a disease that can affect the living corpse, then it can be done against physical defense of **Difficulty Value 15**, such as the [[Witch’s Plague]].
 
 Note: You should not wake up a living corpse that has been dead for too long; the standard is more than 1 week. A living corpse awakened this way generally has many places of decay. Any investigation and appraisal against it that succeeds at **Difficulty Value 15** will find festering on its body. (Decomposition within 1 week can be covered with clothing.)
 
-The undead creatures driven by you are not equal to [[LINK LATER: secret puppets | type=term | hint=distinct puppet category]], and may not necessarily share senses. However, you can use your thoughts to give them orders within 100 meters without moving, and they will complete the orders even if they leave the range.
+The undead creatures driven by you are not equal to [[Secret Puppets]], and may not necessarily share senses. However, you can use your thoughts to give them orders within 100 meters without moving, and they will complete the orders even if they leave the range.
 
 ### Full Moon Curse
 

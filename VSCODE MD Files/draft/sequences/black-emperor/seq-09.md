@@ -8,7 +8,7 @@ tags: ["pathway:black-emperor", "sequence:9"]
 
 ## Lawyer
 
-> **Lore:** Represents the shadow of order and the dark side of rules, corresponding to the Tarot card "Emperor". [[LINK LATER: Tarot (Emperor) | type=term | hint=Tarot card reference]]
+> **Lore:** Represents the shadow of order and the dark side of rules, corresponding to the Tarot card "Emperor". [[Tarot (Emperor)]]
 
 - Good at discovering and exploiting loopholes in rules and opponents’ weaknesses; possesses excellent eloquence and speculative logic; adept at using the power of order.
 
@@ -18,8 +18,8 @@ tags: ["pathway:black-emperor", "sequence:9"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** [[LINK LATER: Inspiration | type=term | hint=attribute/points]] +2.
-- **Skill Increase:** [[LINK LATER: Persuasion | type=term | hint=social skill]], [[LINK LATER: Speech | type=term | hint=social skill]], [[LINK LATER: Intimidation | type=term | hint=social skill]], [[LINK LATER: Pleasing | type=term | hint=social skill]], and other possible social skills increase by 1 level.
+- **Attribute Gain:** **Inspiration** [[Inspiration]] +2.
+- **Skill Increase:** [[Persuasion]], [[Speech]], [[Intimidation]], [[Pleasing]], and other possible social skills increase by 1 level.
 
 - **Skill Growth (Guidance):**
   - ① Whenever you receive at least 2 hours of real and effective guidance, your legal skills increase by 1 level. You can only learn this once a day.
@@ -31,15 +31,15 @@ tags: ["pathway:black-emperor", "sequence:9"]
   - Growth limit, efficiency, and number of times are the same as ①.
   - > **GM Note:** Examples include secretly changing concepts with words, avoiding the important and focusing on the minor, generalizing the whole, or putting the cart before the horse.
 
-- When creating a character who has not just been promoted, the growth skill can use twice the Inspiration points brought by the potion. [[LINK LATER: Potion | type=item | hint=Beyonder potion/sequence potion]]
+- When creating a character who has not just been promoted, the growth skill can use twice the Inspiration points brought by the potion. [[Potion]]
 - [[UNCLEAR: “Use twice the Inspiration points brought by the potion” is not defined—unclear how the doubling is applied during character creation.]]
 
 ### Conversational and Eloquent
 
 > **Lore:** You are gracious and trustworthy.
 
-- ① Whenever you make a [[LINK LATER: Social Identification | type=mechanic | hint=social check/test]], you gain a +2 **Charisma** [[LINK LATER: Charisma | type=term | hint=attribute]] bonus. This is Charisma and does not affect appearance.
-- ② Others will suffer a penalty of your Charisma value to your [[LINK LATER: Psychology | type=term | hint=skill/test]] / [[LINK LATER: Reconnaissance | type=term | hint=skill/test]] test, and your Charisma enjoys the bonus of ①.
+- ① Whenever you make a [[Social Identification]], you gain a +2 **Charisma** [[Charisma]] bonus. This is Charisma and does not affect appearance.
+- ② Others will suffer a penalty of your Charisma value to your [[Psychology]] / [[Reconnaissance]] test, and your Charisma enjoys the bonus of ①.
   - If the test fails, the judgment of you will be in a good direction instead of a bad one.
   - Ineffective against wary, hostile targets.
 - (This is a benefit from the potion and cannot be stolen or recorded.)
@@ -75,14 +75,14 @@ tags: ["pathway:black-emperor", "sequence:9"]
 - **Untwisted guide:**
   - Any intelligent creature that encounters distortion guidance must act according to the result of distortion guidance before receiving information or reminders that contradict existing cognition.
   - There are two ways to release distortion guidance:
-    - ① **Self-detection:** Whenever you plan to do something that is not in line with your original intention, you can use an Inspiration test (**Difficulty Value** [[LINK LATER: Difficulty Value | type=mechanic | hint=check threshold]] 25) to detect something is wrong.
+    - ① **Self-detection:** Whenever you plan to do something that is not in line with your original intention, you can use an Inspiration test (**Difficulty Value** [[Difficulty Value]] 25) to detect something is wrong.
       - For example, you plan to protect your family but start to prepare for imprisonment; arrest threats but plan to kill on the spot.
       - Special: If the distorted cognition has two similar meanings to your own original meaning, then the difficulty of perception -5, and so on.
       - [[UNCLEAR: “Difficulty of perception -5, and so on” does not define what “perception” refers to here or how “and so on” scales.]]
     - ② **Obtaining information:** Once you get any information or reminder that reminds you of your original intention, you will immediately notice that something is wrong.
-      - For example, you plan to go to [[LINK LATER: Backlund | type=location | hint=city/region]] but realize that you have already set foot on another land; or you are about to be captured alive but your teammates question why you pulled out a gun.
+      - For example, you plan to go to [[Backlund]] but realize that you have already set foot on another land; or you are about to be captured alive but your teammates question why you pulled out a gun.
       - Special: Generally, for things that you don’t know at all (such as whether a person is innocent), once you believe they are innocent due to distortion guidance (because the subject of this matter is not yourself), then basically you cannot rely on self-detection; you can only obtain information.
-    - ③ **Higher than 1 level:** Targets higher than 1 level can immediately conduct a [[LINK LATER: Spiritual Intuition | type=mechanic | hint=identification/test]] identification at the moment of being guided.
+    - ③ **Higher than 1 level:** Targets higher than 1 level can immediately conduct a [[Spiritual Intuition]] identification at the moment of being guided.
       - If the identification is successful, it will immediately detect something wrong.
       - Even if the identification fails, the difficulty of subsequent awareness will also be reduced by half, rounded up.
       - [[UNCLEAR: “Targets higher than 1 level” does not specify higher than whom or by what measure (Sequence, level, or other).]]
@@ -97,14 +97,14 @@ tags: ["pathway:black-emperor", "sequence:9"]
       - But selling at a high price can turn into a normal sale, and then a normal sale can turn into a low-price sale.
       - Employment can become a long-term employment, and a long-term employment can become a permanent employment.
   - “Distortion” can be cast if the above conditions are met, and whether it meets the above criteria is decided by the GM.
-  - The difference between this and the wrong path is that the wrong path has the same affixes but does not have contradictory affixes, while the Black Emperor needs to have similar meanings while having the same affixes. [[LINK LATER: Wrong Pathway | type=pathway | hint=pathway contrasted with Black Emperor “distortion” rules]]
+  - The difference between this and the wrong path is that the wrong path has the same affixes but does not have contradictory affixes, while the Black Emperor needs to have similar meanings while having the same affixes. [[Wrong Pathway]]
   - Regarding spans which have two closely related meanings:
     - Specifically refers to the special situation that is self-perceived during distortion guidance, such as: the original intention is to sell normally, but it is distorted to sell at a low price, and on the basis of selling at a low price, it becomes free again, which is considered to be too far from the original intention.
     - However, if it is distorted to sell at a low price, then distorted to be free, and then changed from free to sell at a low price, it will only be regarded as distorting the similar meaning of level 1, and it will not be affected by the self-perception special difficulty reduction effect if it is calculated based on the original intention.
 
 ### Spotting Loopholes
 
-- **Use:** 1 [[LINK LATER: Spellcasting Action | type=mechanic | hint=action type]], without consuming **Spirituality** [[LINK LATER: Spirituality | type=term | hint=resource points]]. Choose 1 target, conduct 1 [[LINK LATER: Legal Appraisal | type=mechanic | hint=legal appraisal check]], and determine the result based on the appraisal.
+- **Use:** 1 [[Spellcasting Action]], without consuming **Spirituality** [[Spirituality]]. Choose 1 target, conduct 1 [[Legal Appraisal]], and determine the result based on the appraisal.
 - **Results (by Difficulty Value):**
   - Difficulty Value 15: You have discovered the contradictions in the other party's words, the ambiguity of your own requirements, and found an opportunity to take advantage of.
   - Difficulty Value 20: You find out whether a thing or a place is easy to be taken advantage of in terms of jurisdiction, such as: the hotel does not count the names of the residents (easy to disguise identities, confuse the public), the ticket inspection is not rigorous, whether the character or work of others is slack and not serious.
@@ -117,9 +117,11 @@ tags: ["pathway:black-emperor", "sequence:9"]
 - (This is a benefit from the potion and cannot be stolen or recorded.)
 
 ### Vision
+- **Use:** 1 free action.
+- **Cost:** Consuming 1 **spirituality point** per round.
+- **Effect:** You activate vision, and your vision gains the following benefits:
 
-- **Effect:** You gain vision, but it is not as effective for you as your own Inspiration.
-- **Use:** 1 [[LINK LATER: Free Action | type=mechanic | hint=action type]]. While active, consume 1 Spirituality point per round.
+
 - When in the state of spiritual vision, your Spiritual Intuition test +1 is beneficial.
 - Your vision gains the following benefits:
   - ① **Etheric body:** You can roughly tell whether the other party’s body is good or bad through the color of the aura, but you can’t get detailed information.

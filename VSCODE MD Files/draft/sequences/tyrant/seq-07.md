@@ -8,7 +8,7 @@ tags: ["pathway:tyrant", "sequence:7"]
 
 ## Overview
 
-> **Lore:** Called “Priest Storm” in ancient times, Navigators are scholars of astronomy and geography. Their gifts are tied to the sea and to the [[LINK LATER: Lord of Storms | type=faction | hint=source of some water gifts]].
+> **Lore:** Called “Priest Storm” in ancient times, Navigators are scholars of astronomy and geography. Their gifts are tied to the sea and to the [[Lord of Storms]].
 
 - You have an intuitive grasp of magnetic fields, ocean currents, wind direction, and clouds.
 - You can move freely underwater for **more than half an hour**.
@@ -25,12 +25,12 @@ tags: ["pathway:tyrant", "sequence:7"]
 ### Attribute Gain
 
 - **Attribute Gain:** Strength +1, Constitution +1, Dexterity +1, Inspiration +2.
-- Your [[LINK LATER: Navigator | type=term | hint=skill]] skill increases by 1 level.
+- Your [[Navigator]] skill increases by 1 level.
 
 ### Rapid Promotion Compatibility
 
-- The Navigator is in the [[LINK LATER: Rapid Promotion | type=mechanic | hint=Sequence 9 category]] system and is **not** treated as a newly promoted character.
-- The [[LINK LATER: Potion | type=term | hint=advancement and growth]] attribute used to increase the growth of this skill is **Inspiration**.
+- The Navigator is in the [[Rapid Promotion]] system and is **not** treated as a newly promoted character.
+- The [[Potion]] attribute used to increase the growth of this skill is **Inspiration**.
 
 ### Perfect Recall and Orientation
 
@@ -52,19 +52,19 @@ tags: ["pathway:tyrant", "sequence:7"]
 - [[UNCLEAR: The source sentence about “directly know two things in the field of vision… the relative distance” is truncated; exact scope is unclear.]]
   - Safest reading: You can determine the relative distance between up to two things within your field of vision without an identification check.
 
-- **Special (Blind):** Even if you are [[LINK LATER: Blind | type=condition | hint=blind state]], if you confirmed the enemy’s position before becoming blind and the enemy has not moved significantly, you can use the calculated relative distance to attack without being affected by the blind state.
+- **Special (Blind):** Even if you are [[Blind]], if you confirmed the enemy’s position before becoming blind and the enemy has not moved significantly, you can use the calculated relative distance to attack without being affected by the blind state.
 
 ### Intuitive Grasp
 
 - **Effect:** You have an intuitive grasp of magnetic fields, ocean currents, wind direction, and clouds.
-- **Skill Substitution:** You may use **Inspiration + [[LINK LATER: Piloting | type=term | hint=skill]]** instead of **Education + Piloting** for relevant identifications.
+- **Skill Substitution:** You may use **Inspiration + [[Piloting]]** instead of **Education + Piloting** for relevant identifications.
 - **Typical Difficulty:** For reading ocean currents, wind direction, and clouds, this is usually a **Piloting** identification at **Difficulty Value 15**.
 - **Limits:** This is a potion benefit; it cannot be stolen or recorded.
 
 ### Ocean Blessed
 
 - **Effect:** You are a higher-ranked Blessed One of the ocean and gain all-round improvement at sea.
-- **Limits (Environment):** This is passive and only applies in an [[LINK LATER: Ocean Environment | type=term | hint=GM-defined “marine environment”]].
+- **Limits (Environment):** This is passive and only applies in an [[Ocean Environment]].
 - **Bonuses (while applicable):**
   - All attributes +1.
   - Skill identifications and attribute identifications gain a +2 bonus.
@@ -75,7 +75,7 @@ tags: ["pathway:tyrant", "sequence:7"]
 
 ### Washing
 
-- **Cost:** 1 point of [[LINK LATER: Spirituality | type=mechanic | hint=resource]].
+- **Cost:** 1 point of [[Spirituality]].
 - **Use:** 1 spellcasting action.
 - **Effect:** The area you wipe is immediately cleaned; corresponding stains are removed and it looks brand new.
 
@@ -84,9 +84,9 @@ tags: ["pathway:tyrant", "sequence:7"]
 - **Cost:** 3 points of Spirituality.
 - **Use:** 1 spellcasting action.
 - **Targeting and range:** Choose 1 target; up to 3 targets standing together are considered the same target.
-- **Effect:** Make an **Inspiration + Navigator** check against the target’s [[LINK LATER: Physical Defense | type=mechanic | hint=defense value]]. On success, deal **3d6 physical damage**.
+- **Effect:** Make an **Inspiration + Navigator** check against the target’s [[Physical Defense]]. On success, deal **3d6 physical damage**.
 - **Scaling:** For every Sequence you upgrade, this spell’s physical damage increases by **+1d6**. The wave’s volume is at most equal to the height of the cabin.
-- **Aftereffects:** Targets affected by this spell fall into a [[LINK LATER: Wet State | type=condition | hint=from water spells]].
+- **Aftereffects:** Targets affected by this spell fall into a [[Wet State]].
 
 ### Manipulation of Water
 
@@ -103,7 +103,7 @@ tags: ["pathway:tyrant", "sequence:7"]
 4) **Collapsing Waves:** You can make waves (not of super-large volume) collapse into short-term pouring rain.
 5) **Other Reasonable Uses:** The lubrication can also force others to make an **Agility** identification at **Difficulty Value 15** or lose their balance on it. Catching the opponent may require fighting against Physical Defense.
 
-- **Aftereffects:** Creatures affected by this spell (including via lubrication effects) fall into a [[LINK LATER: Wet State | type=condition | hint=from water spells]].
+- **Aftereffects:** Creatures affected by this spell (including via lubrication effects) fall into a [[Wet State]].
 
 ### Water Body Healing
 
@@ -119,7 +119,7 @@ tags: ["pathway:tyrant", "sequence:7"]
    - Can only guarantee a +1 benefit to **Physical Fitness** identification.
 3) **Enhanced Benefits (per ②):** If there are minor injuries and “slander” injuries requiring Physical Fitness appraisal, provide +3 and +2 benefits respectively.
 
-- See [[LINK LATER: Recovery of Spirituality and Other States | type=rule | hint=definitions of injury categories and recovery]] for the definitions of trauma recovery and minor injury, “slander,” and serious injury.
+- See [[Recovery of Spirituality and Other States]] for the definitions of trauma recovery and minor injury, “slander,” and serious injury.
 
 ### Deep Sea Film
 
@@ -130,7 +130,7 @@ tags: ["pathway:tyrant", "sequence:7"]
 
 1) While covered, the target is isolated from environmental influences other than temperature, and will not be corroded by stepping into substances such as acid—unless the corresponding substance is larger than “1 bit.”  
    [[UNCLEAR: “1 bit” is an undefined measurement/threshold in the source.]]
-2) The water film grants the same underwater action effect as your [[LINK LATER: Phantom Scale | type=mechanic | hint=previous sequence ability]], and does not stack with it (making it especially effective for others).
+2) The water film grants the same underwater action effect as your [[Phantom Scale]], and does not stack with it (making it especially effective for others).
 3) If a creature is voluntary or helpless, the water film can wrap around its head, gradually reducing the air inside. After 1 round, it begins suffocating and loses **1d6 hit points per round**.
 
 ### Corrosive Rain
@@ -138,13 +138,13 @@ tags: ["pathway:tyrant", "sequence:7"]
 - **Cost:** 3 points of Spirituality.
 - **Use:** 1 spellcasting action.
 - **Targeting and range:** Choose a 10-meter area.
-- **Effect:** Make a **d20 + 15** identification using a [[LINK LATER: Disaster Bonus | type=mechanic | hint=spell resolution bonus]]. This resists the Physical Defense of all creatures in the area. Creatures that fail take **2d6 poison damage** (double damage to spider webs, plants, and hair).
+- **Effect:** Make a **d20 + 15** identification using a [[Disaster Bonus]]. This resists the Physical Defense of all creatures in the area. Creatures that fail take **2d6 poison damage** (double damage to spider webs, plants, and hair).
 - **Sequence Scaling:**
-  - At [[LINK LATER: Sequence 6 | type=sequence | hint=Corrosive Rain scaling]], poison damage increases by +1d6.
-  - At [[LINK LATER: Sequence 5 | type=sequence | hint=Corrosive Rain scaling]], the Disaster bonus becomes +20.
-- **Aftereffects:** Creatures affected by this spell fall into a [[LINK LATER: Wet State | type=condition | hint=from water spells]].
+  - At [[id:alias-sequence-6|Sequence 6]], poison damage increases by +1d6.
+  - At [[Sequence 5]], the Disaster bonus becomes +20.
+- **Aftereffects:** Creatures affected by this spell fall into a [[Wet State]].
 
 ### Other Water Spells
 
 - Other GM-approved reasonable water spells may exist.
-- **Rule Note:** The **water film** created by spells is **not** considered a wet state. However, **Corrosive Rain**, **Manipulation of Water**, and **Create Huge Wave** cause affected enemies to fall into a [[LINK LATER: Wet State | type=condition | hint=from water spells]].
+- **Rule Note:** The **water film** created by spells is **not** considered a wet state. However, **Corrosive Rain**, **Manipulation of Water**, and **Create Huge Wave** cause affected enemies to fall into a [[Wet State]].

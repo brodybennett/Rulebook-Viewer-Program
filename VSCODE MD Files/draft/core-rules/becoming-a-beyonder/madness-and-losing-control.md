@@ -58,7 +58,7 @@ If you lose 3 points of Sanity / Rationality from a single instance of loss, you
 
 **Start-of-turn Willpower test:** At the start of your turn each round, make 1 Willpower (WIL) Roll (Difficulty Value 10). On failure, suffer 0/1 Sanity / Rationality loss.
 
-**Mythical symptoms and recovery:** From the start of this state, your body shows mythical / out-of-control symptoms (for example, nails or hair growing wildly, or sensations like insects beneath the skin). For specific appearance, see [[LINK LATER: Chapter 11: Manifesting Mythical Creature Form | type=rule | hint=out-of-control appearance]]. When this state ends, you return to normal actions. The bodily changes require 5 minutes of sufficient rest to recover. Hair and nail overgrowth and similar changes remain until cut off.
+**Mythical symptoms and recovery:** From the start of this state, your body shows mythical / out-of-control symptoms (for example, nails or hair growing wildly, or sensations like insects beneath the skin). For specific appearance, see [[Chapter 11: Manifesting Mythical Creature Form]]. When this state ends, you return to normal actions. The bodily changes require 5 minutes of sufficient rest to recover. Hair and nail overgrowth and similar changes remain until cut off.
 
 **Madness tendency during the state:**
 - Roll 1 ".ti" to determine your madness tendency. If you do not have the ".ti" command, roll on the Madness List below.
@@ -97,7 +97,7 @@ By any method of recovering Sanity / Rationality, restore your Sanity / Rational
 
 **Ongoing effects:**
 - Every 24 hours, you must suffer 1 instance of 0/1 Sanity / Rationality loss.
-- Sufficient sleep can no longer restore your Sanity / Rationality unless the sleep has Beyonder factors helping (the [[LINK LATER: Night Pathway | type=pathway | hint=sanity recovery during sleep]] has this by default). You will be in a state of anxiety, insomnia, and similar symptoms.
+- Sufficient sleep can no longer restore your Sanity / Rationality unless the sleep has Beyonder factors helping (the [[Night Pathway]] has this by default). You will be in a state of anxiety, insomnia, and similar symptoms.
 
 **Split-personality trigger:** If, because of indeterminate madness, your remaining Sanity / Rationality is below 3, or you are in indeterminate madness for 1 week, you develop split-personality symptoms and a second personality appears within you.
 
@@ -112,13 +112,13 @@ By any method of recovering Sanity / Rationality, restore your Sanity / Rational
 - It knows everything you know.
 - It uses what you worry about most and least want to face to deny you, making you gradually fall into the abyss of Loss of Control.
 
-**Required response:** The second personality is played by the GM and only you can hear its voice. You must immediately undergo either at least 1 month of psychotherapy, or if you are [[LINK LATER: Spectator Pathway | type=pathway | hint=psychological guidance]] Sequence 7 or above, at least 2 weeks of psychological guidance once per day. You can also find a way to directly enter your own mind and confront the second personality to eliminate it; it currently cannot resist.
+**Required response:** The second personality is played by the GM and only you can hear its voice. You must immediately undergo either at least 1 month of psychotherapy, or if you are [[Spectator Pathway]] Sequence 7 or above, at least 2 weeks of psychological guidance once per day. You can also find a way to directly enter your own mind and confront the second personality to eliminate it; it currently cannot resist.
 
 **Persistence after growth:** If the second personality continues to grow for 1 month, then even if you are no longer in indeterminate madness it continues to exist and you still suffer all disadvantages brought by indeterminate madness. You must frequently recover Sanity / Rationality to maintain Sanity / Rationality.
 
 ## Eliminating the Second Personality
 
-1. Continuously receiving normal psychotherapy can only make you no longer suffer the disadvantages brought by indeterminate madness. For a [[LINK LATER: Spectator Pathway | type=pathway | hint=psychotherapy duration]] Sequence 7, psychotherapy requires 5 years to be cured.
+1. Continuously receiving normal psychotherapy can only make you no longer suffer the disadvantages brought by indeterminate madness. For a [[Spectator Pathway]] Sequence 7, psychotherapy requires 5 years to be cured.
 2. On this basis, for each additional Sequence level the Spectator has, reduce the required time by 1 year. For each additional Rank, reduce the required time by another 1 year. Minimum time: 1 week, with treatment once per day.
 3. Another cure method is to enter the deepest part of your mind (the bottom layer of dreams) and fight the second personality. Its strength is equal to yours. If you die here, the challenger becomes a vegetative state. Psychological suggestion prepared in advance also takes effect on it. If the second personality is killed, your illness is cured. Because its strength is equal to yours, generally only others can resolve it.
 
@@ -126,7 +126,7 @@ By any method of recovering Sanity / Rationality, restore your Sanity / Rational
 
 If, under any circumstances, your Sanity / Rationality reaches 0, you immediately suffer Loss of Control.
 
-- You immediately transform into the corresponding out-of-control being. For appearance, see [[LINK LATER: Chapter 11: Manifesting Mythical Creature Form | type=rule | hint=out-of-control appearance]].
+- You immediately transform into the corresponding out-of-control being. For appearance, see [[Chapter 11: Manifesting Mythical Creature Form]].
 - Your character sheet is considered dead.
 - Loss of Control is, in essence, becoming a monster in the corresponding mythical form.
 

@@ -10,7 +10,7 @@ tags: ["pathway:night", "sequence:1"]
 
 [[UNCLEAR: The RAW lists two different titles for Sequence 1 (“Knight of misfortune” and “Angel of the Dark Path”), and it is not clear whether one is the Pathway name or an alternate Sequence name.]]
 
-- See also: [[LINK LATER: Dark Path Pathway | type=pathway | hint=Pathway overview]]
+- See also: [[Dark Path Pathway]]
 
 ## Extraordinary Abilities
 
@@ -21,4 +21,4 @@ tags: ["pathway:night", "sequence:1"]
   - **Constitution** +2
   - **Strength** +2
   - **Agility** +2
-  - Choose a skill and set it as **proficient**. [[LINK LATER: Proficiency | type=mechanic | hint=skill proficiency rules]]
+  - Choose a skill and set it as **proficient**. [[Proficiency]]

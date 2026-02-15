@@ -10,13 +10,13 @@ tags: ["pathway:war-god", "sequence:5"]
 
 > **Lore:** It is rare for a Guardian to be hurt.
 
-- When you enter a **Guardian State** and give up attacking, few beings below [[LINK LATER: High Sequence | type=term | hint=power tier]] can break your defense; your defense applies the same against all types of damage.
-- When you attack, the corresponding defense is greatly reduced (still stronger than [[LINK LATER: Refined Full-Body Armor | type=item | hint=full-body armor]]).
+- When you enter a **Guardian State** and give up attacking, few beings below [[High Sequence]] can break your defense; your defense applies the same against all types of damage.
+- When you attack, the corresponding defense is greatly reduced (still stronger than [[Refined Full-Body Armor]]).
 
-You possess extraordinary abilities including [[LINK LATER: Sword of Dawn | type=ability | hint=Guardian ability]] and [[LINK LATER: Storm of Light | type=ability | hint=Guardian ability]], enabling you to:
+You possess extraordinary abilities including [[Sword of Dawn]] and [[Storm of Light]], enabling you to:
 
 - Deal damage to any type of monster.
-- Avoid being confused by [[LINK LATER: Illusions | type=mechanic | hint=illusion effects]].
+- Avoid being confused by [[Illusions]].
 - Help companions within a certain range bear damage and protect them.
 
 ## Advancement
@@ -49,10 +49,10 @@ You possess extraordinary abilities including [[LINK LATER: Sword of Dawn | type
 
 ### Wall of Protection
 
-- **Cost:** 3 [[LINK LATER: Spiritual Points | type=mechanic | hint=resource]].
-- **Use:** 1 [[LINK LATER: Casting Action | type=mechanic | hint=action type]].
+- **Cost:** 3 [[Spiritual Points]].
+- **Use:** 1 [[Casting Action]].
 - **Effect:** Insert a giant sword in front of your body. Morning light emerges, erecting an unbreakable invisible wall to your left and right.
-- The wall shares [[LINK LATER: Health | type=mechanic | hint=hit points]] with you: damage to the wall damages you. [[UNCLEAR: The text “Damage to the wall is equal to trying to hurt you, against your value” does not specify which statistic(s) are used to resolve attacks/damage against the wall.]]
+- The wall shares [[Health]] with you: damage to the wall damages you. [[UNCLEAR: The text “Damage to the wall is equal to trying to hurt you, against your value” does not specify which statistic(s) are used to resolve attacks/damage against the wall.]]
 
 The wall is used in one of the following ways:
 
@@ -66,15 +66,15 @@ The wall is used in one of the following ways:
 2. **Guardian Status**
    - If you protect yourself instead of companions, you can no longer perform any actions.
    - You gain:
-     - +8 [[LINK LATER: External Damage Reduction | type=mechanic | hint=damage mitigation]].
-     - +5 [[LINK LATER: Armor | type=mechanic | hint=defense stat]].
+     - +8 [[External Damage Reduction]].
+     - +5 [[Armor]].
    - A **Guardian Wall** isolates you from the inside and outside of the surrounding area.
-   - **Special:** In **Guardian State**, even if [[LINK LATER: Armor of Dawn | type=item | hint=dawn-themed armor]] is broken through the defense, it is not damaged.
+   - **Special:** In **Guardian State**, even if [[Armor of Dawn]] is broken through the defense, it is not damaged.
 
 ### Ignore Hallucinations
 
-- **Effect:** As long as the source is not higher than “1 person” above you, their [[LINK LATER: Hallucination Abilities | type=mechanic | hint=hallucination effects]] are invalid against you by default. [[UNCLEAR: “Not higher than 1 person of you” is undefined (likely a level/Sequence comparison), so the exact threshold is ambiguous.]]
+- **Effect:** As long as the source is not higher than “1 person” above you, their [[Hallucination Abilities]] are invalid against you by default. [[UNCLEAR: “Not higher than 1 person of you” is undefined (likely a level/Sequence comparison), so the exact threshold is ambiguous.]]
 - This also applies to:
   - Extraordinary abilities of pleasing/deceiving.
-  - The distortion of thinking by the [[LINK LATER: Black Emperor | type=pathway | hint=Pathway/authority that distorts thinking]].
+  - The distortion of thinking by the [[Black Emperor]].
 - It does **not** include conspiratorial conspiracies (“low mystery Spend”). [[UNCLEAR: “Conspiratorial conspiracies (low mystery Spend)” is undefined and may refer to a separate mechanic or category.]]

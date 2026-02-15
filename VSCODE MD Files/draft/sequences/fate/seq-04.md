@@ -8,7 +8,7 @@ tags: ["pathway:fate", "sequence:4"]
 
 ## Misfortune Mage
 
-The Sequence 4 Saint of the [[LINK LATER: Wheel of Fortune Pathway | type=pathway | hint=pathway overview]].
+The Sequence 4 Saint of the [[Wheel of Fortune Pathway]].
 
 ## Advancement
 
@@ -40,13 +40,13 @@ The Sequence 4 Saint of the [[LINK LATER: Wheel of Fortune Pathway | type=pathwa
   - When this value produces a big failure, it is bound to produce a disaster that is only for the big loser.
 - **Limits:** Ends when the bad luck points are exhausted.
 
-> **GM Note:** Unlike [[LINK LATER: Omen of Doom | type=mechanic | hint=ability that requires a living target]], this does not require specifying a living target. You can create an area of doom in advance as a trap, or prepare for the infliction of doom in advance, without needing to be present.
+> **GM Note:** Unlike [[Omen of Doom]], this does not require specifying a living target. You can create an area of doom in advance as a trap, or prepare for the infliction of doom in advance, without needing to be present.
 
 ### Disaster Field
 
 - **Cost:** 4 **spirituality points**
 - **Use:** Free action; once per round
-- **Targeting and range:** Select a **doom check**; a creature within your [[LINK LATER: line of sight | type=term | hint=targeting requirement]]
+- **Targeting and range:** Select a **doom check**; a creature within your [[line of sight]]
 - **Effect:** With the same amount of **bad luck** expended, you double the bad luck penalty the target suffers, changing the base numerical penalty from 1d6 to 2d6.
 
 [[UNCLEAR: “Select a doom check” is not defined in this section, so it is unclear what qualifies as a doom check or how it is chosen.]]
@@ -63,9 +63,9 @@ The Sequence 4 Saint of the [[LINK LATER: Wheel of Fortune Pathway | type=pathwa
   - The target treats the added extra luck as a separate stat.
   - While the target has extra luck, it is automatically consumed on each of the target’s checks:
     - Each time the target makes a skill check, this luck automatically burns 1d3, adding to the target’s 1d20 base check.
-    - On the premise of automatic burning, the target can also manually burn these lucks as a normal [[LINK LATER: Burning Luck | type=mechanic | hint=standard luck-burning rules]] effect.
+    - On the premise of automatic burning, the target can also manually burn these lucks as a normal [[Burning Luck]] effect.
   - After 24 hours, the attached extra luck disappears.
-  - A target can gain no more than half the target’s [[LINK LATER: Spirituality | type=term | hint=resource/stat that sets the cap]] in extra luck.
+  - A target can gain no more than half the target’s [[Spirituality]] in extra luck.
 
 - **At Sequence 2:**
   - You can specify the strength of this luck. When you grant luck, choose a grant strength so that this luck burns 1d3, 1d6, or 2d3 at a time.
@@ -79,7 +79,7 @@ The Sequence 4 Saint of the [[LINK LATER: Wheel of Fortune Pathway | type=pathwa
 
 - **Effect:**
   - Your doom is no longer tied to luck.
-  - You gain a separate **bad luck** value for storage. Each time you [[LINK LATER: Burning Luck | type=mechanic | hint=standard luck-burning rules]], the corresponding luck is directly converted into the same amount of stored bad luck value.
+  - You gain a separate **bad luck** value for storage. Each time you [[Burning Luck]], the corresponding luck is directly converted into the same amount of stored bad luck value.
   - The maximum stored bad luck value is half of your Spirituality limit.
   - You are allowed to directly use this stored bad luck value instead of luck consumption for bad luck used in spells in the domain.
   - This kind of luck also affects yourself. As the messenger of bad luck, you will also be affected by bad luck.
@@ -99,11 +99,11 @@ The Sequence 4 Saint of the [[LINK LATER: Wheel of Fortune Pathway | type=pathwa
 - **Order:** Burning Luck always happens after doom effects.
 
 - **Temporary suppression (dispelling doom):**
-  - This doom effect is allowed to be temporarily suppressed by [[LINK LATER: dispelling doom | type=mechanic | hint=temporary suppression of doom effects]] once a day, lasting for one encounter, at a cost of 10 spirituality.
+  - This doom effect is allowed to be temporarily suppressed by [[dispelling doom]] once a day, lasting for one encounter, at a cost of 10 spirituality.
   - If you still have not stored doom below 40 after the encounter is over, you suffer a geometric multiple of the backlash effect: the torrent of fate flows upstream against you, and you will suffer three immediately. The calamity effect takes effect, and a special calamity will be generated immediately.
 
 [[UNCLEAR: The 61–80 doom effect includes garbled text (“lasts by default Er”) and its exact meaning is not recoverable from the RAW.]]
 [[UNCLEAR: The “dispelling doom” suppression (10 spirituality, once/day, one encounter) is not clearly tied to or distinguished from Remove Doom (3 spirituality points, free action, once/round).]]
 [[UNCLEAR: The backlash clause (“you will suffer three immediately”) is incomplete/unclear about what happens three times and how “geometric multiple” is applied.]]
 
-> **GM Note:** The RAW states the specific ability of the doom mage is not clearly shown in *Lord of Mysteries*, and that (starting at this Sequence) some extraordinary abilities for [[LINK LATER: Destiny Pathway | type=pathway | hint=referenced as “Destiny Pathway 4–2”]] are original supplementer creations.
+> **GM Note:** The RAW states the specific ability of the doom mage is not clearly shown in *Lord of Mysteries*, and that (starting at this Sequence) some extraordinary abilities for [[Destiny Pathway]] are original supplementer creations.

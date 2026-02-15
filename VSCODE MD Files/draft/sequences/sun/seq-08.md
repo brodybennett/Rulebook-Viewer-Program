@@ -8,8 +8,8 @@ tags: ["pathway:sun", "sequence:8"]
 
 ## The Light Suppliant
 
-- You can perform some spells and rituals in the [[LINK LATER: Solar Realm | type=location]].
-- You are very restrained by dead bodies and [[LINK LATER: Ghosts | type=term]]. [[MISSING REF: 9]]
+- You can perform some spells and rituals in the [[Solar Realm]].
+- You are very restrained by dead bodies and [[Ghosts]]. [[MISSING REF: 9]]
 - [[UNCLEAR: “Very restrained by dead bodies and ghosts” states a constraint but does not specify the mechanical effect (vulnerability, suppression, prohibition, etc.).]]
 
 ## Advancement
@@ -17,32 +17,32 @@ tags: ["pathway:sun", "sequence:8"]
 ### Auxiliary Materials
 
 - **Main Materials (choose one):**
-  - [[LINK LATER: Glowstone | type=item | hint=Main material (piece)]]
-  - [[LINK LATER: Blazing Soul Powder | type=item | hint=Main material (powder)]]
-  - [[LINK LATER: Mirror Hedgehog Blood | type=item | hint=Main material (blood)]]
-  - [[LINK LATER: Lava Troll Heart | type=item | hint=Main material (heart)]]
+  - [[Glowstone]]
+  - [[Blazing Soul Powder]]
+  - [[Mirror Hedgehog Blood]]
+  - [[Lava Troll Heart]]
 - **Auxiliary Materials:**
-  - [[LINK LATER: Phnom Penh Sunflower | type=item]] ×1
-  - [[LINK LATER: Aconite Juice | type=item]] ×3 drops
+  - [[Phnom Penh Sunflower]] ×1
+  - [[Aconite Juice]] ×3 drops
 
 ## Extraordinary Abilities
 
 ### Attribute Gain
 
 - **Attribute Gain:** Strength +1; Agility +1; Inspiration +1; Constitution +1.
-- **Rapid Improvement:** Mysticism is included in the category of [[LINK LATER: Rapid Improvement | type=mechanic]] and can be quickly improved to [[LINK LATER: Proficiency | type=mechanic]].
+- **Rapid Improvement:** Mysticism is included in the category of [[Rapid Improvement]] and can be quickly improved to [[Proficiency]].
 
 ### White Vision
 
 > **Lore:** Golden sunlight gathers in your eyes until they resemble two miniature suns.
 
-- **Cost:** 1 **[[LINK LATER: Spirituality | type=mechanic]]** every 1 minute.
-- **Use:** 1 **[[LINK LATER: Swift Action | type=mechanic | hint=Actions rules]]** to activate.
+- **Cost:** 1 **[[Spirituality]]** every 1 minute.
+- **Use:** 1 **[[Swift Action]]** to activate.
 - **Effect:**
   - You can see in total darkness.
   - Anything hidden by darkness or shadow is revealed.
 - **Limits:**
-  - This ability belongs to **[[LINK LATER: Summoning Light | type=mechanic | hint=Sun Path ability group]]**.
+  - This ability belongs to **[[Summoning Light]]**.
   - If Summoning Light is lost, this ability disappears (and vice versa).
 - [[UNCLEAR: “1 spirituality every 1 minute” does not specify whether this is an activation cost, a maintenance cost, or how ending the effect works.]]
 
@@ -50,14 +50,14 @@ tags: ["pathway:sun", "sequence:8"]
 
 > **Lore:** You raise your arms in prayer and emit pure, clear radiance.
 
-- **Use:** 1 **[[LINK LATER: Casting Action | type=mechanic | hint=Actions rules]]**.
-- **Cost:** Each round consumes 2 **[[LINK LATER: Spirituality | type=mechanic]]**.
+- **Use:** 1 **[[Casting Action]]**.
+- **Cost:** Each round consumes 2 **[[Spirituality]]**.
 - **Duration:** Maintenance continues to consume Casting Actions.
 - **Targeting and range:** With you as the center, you illuminate a 10-meter area with divine power.
 - **Effect:**
   - In this area, the effects of darkness, corruption, and undead that are not higher than you by 1 character level or 2 Sequence levels will be cleared.
-  - As long as the radiance is maintained, dark, corrupted, and undead creatures in the area begin to suffer **[[LINK LATER: Holy Damage | type=mechanic]]** equal to your **Restrained Damage** each round.
-  - [[LINK LATER: Resentful Soul | type=term]] is exposed to spiritual vision; when taking damage, its body begins to “vaporize.”
+  - As long as the radiance is maintained, dark, corrupted, and undead creatures in the area begin to suffer **[[Holy Damage]]** equal to your **Restrained Damage** each round.
+  - [[Resentful Soul]] is exposed to spiritual vision; when taking damage, its body begins to “vaporize.”
 - **Sequence 7:**
   - It can be replaced by a clear and warm power that ordinary people cannot detect, and it does not need to bloom.
   - [[UNCLEAR: The Sequence 7 replacement text does not clearly state what “it” refers to (the light, the entire effect, visibility to others, etc.).]]
@@ -67,10 +67,10 @@ tags: ["pathway:sun", "sequence:8"]
 
 > **Lore:** A pure beam of light wrapped in flames descends from the roof or sky.
 
-- **Use:** 1 **[[LINK LATER: Casting Action | type=mechanic | hint=Actions rules]]**.
-- **Cost:** Consume 3 **[[LINK LATER: Spirituality | type=mechanic]]**.
+- **Use:** 1 **[[Casting Action]]**.
+- **Cost:** Consume 3 **[[Spirituality]]**.
 - **Targeting and range:** Choose 1 target within your field of vision.
-- **Resolution:** **[[LINK LATER: Occult vs Physical Defense | type=mechanic | hint=Attack/defense resolution]]**, ignoring Agility and Evasion in Physical Defense.
+- **Resolution:** **[[Occult vs Physical Defense]]**, ignoring Agility and Evasion in Physical Defense.
 - **Effect:** Deal 2d6 Holy damage and 1d6 Fire damage.
 - **Sequence 7:** Damage changes to 3d6 Holy damage and 1d6 Fire damage.
 
@@ -78,16 +78,16 @@ tags: ["pathway:sun", "sequence:8"]
 
 > **Lore:** You pray to cleanse filth and corruption.
 
-- **Use:** 1 **[[LINK LATER: Casting Action | type=mechanic | hint=Actions rules]]**.
-- **Cost:** Consume 2 **[[LINK LATER: Spirituality | type=mechanic]]**.
+- **Use:** 1 **[[Casting Action]]**.
+- **Cost:** Consume 2 **[[Spirituality]]**.
 - **Targeting and range:** Choose 1 target within 10 meters.
 - **Limits:** Unlike “Call the Holy Light,” this ability does not cause damage to ordinary creatures (except as noted below).
 - **Effect (Voluntary target):** Purification succeeds by default and removes the following effects (excluding out-of-control, near-out-of-control, permanent madness, etc.):
-  - See **[[LINK LATER: Conditions | type=rule | hint=Core rules (fear/curse/darkness/corruption/immortality/toxins/madness)]]**.
+  - See **[[Conditions]]**.
 - **Special (Voluntary restrained creature):**
   - It deals 1d6 Holy damage and the creature is restrained, although it also clears the effect.
 - **Effect (Involuntary target):**
-  - Resolve with **[[LINK LATER: Occult vs Physical Defense | type=mechanic | hint=Attack/defense resolution]]**; on success, apply the same clearing effect as above.
+  - Resolve with **[[Occult vs Physical Defense]]**; on success, apply the same clearing effect as above.
 - **Clearing stronger effects:**
   - An effect caused by more than 1 character level or 2 Sequence levels above yours needs 4 uses to be completely cleared.
   - After 2 uses, the effect is halved (rounded down).
@@ -100,26 +100,26 @@ tags: ["pathway:sun", "sequence:8"]
 ### Sun Path Restraint
 
 - **Restraint Rule:** **Holy Damage** is restrained against three creature types—dark, corrupted, and undead—and causes additional effects.
-- When you hit a dark, corrupted, or undead creature with an offensive Sun Path extraordinary ability (including [[LINK LATER: Solar Holy Water | type=item | hint=Created by Holy Water Prayer]]), increase damage as follows:
+- When you hit a dark, corrupted, or undead creature with an offensive Sun Path extraordinary ability (including [[Solar Holy Water]]), increase damage as follows:
   - **Dark creatures:** +1d6 Holy damage.
   - **Corrupted creatures:** +2d6 Holy damage.
   - **Undead:** +3d6 Holy damage.
 - **Restrained Damage:** The bonus Holy damage from the restraint rule above.
 - If a holy effect is a “transmutation ability,” its secondary effect (which may deal Holy damage equal to Restrained Damage) is listed separately (e.g., Brightness).
-- Creature typing is marked in the corresponding pathways (example: [[LINK LATER: Moon Pathway Sequence 7 | type=sequence | hint=Creature type: dark]]).
+- Creature typing is marked in the corresponding pathways (example: [[Moon Pathway: Sequence 7]]).
 
 ### Solar Rituals
 
 - You have mastered some rituals in the solar realm.
 - This is knowledge brought by the potion, so it cannot be stolen or recorded.
-- In the Fifth Age, the object of prayer is **[[LINK LATER: Eternal Sun | type=other | hint=Default prayer target]]** by default. [[LINK LATER: Fifth Age | type=other]]
+- In the Fifth Age, the object of prayer is **[[Eternal Sun]]** by default. [[Fifth Age]]
 
 **Holy Water Prayer**
 
 > **Lore:** Golden rainwater emerges above the altar and converges into a bottle of sun-blessed liquid.
 
 - **Process:** A general ritual process of about 5 minutes.
-- **Creates:** 1 bottle of [[LINK LATER: Solar Holy Water | type=item]] (golden liquid).
+- **Creates:** 1 bottle of [[Solar Holy Water]] (golden liquid).
 - **Solar Holy Water (use):**
   - **Resolution:** Throwing against Physical Defense.
   - **Effect on normal creatures:** No effect.
@@ -133,7 +133,7 @@ tags: ["pathway:sun", "sequence:8"]
 
 - **Process:** A general ritual process of about 5 minutes.
 - **Effect:** You entrust the gods to solve power you cannot cleanse.
-  1. When the ritual is completed, the god you prayed to performs purification; the target must be within the area of the **[[LINK LATER: Ritual Magic | type=rule]]**.
+  1. When the ritual is completed, the god you prayed to performs purification; the target must be within the area of the **[[Ritual Magic]]**.
   2. If the effects of the purified darkness, corruption, and immortality are not higher than the prayed-to target by 2 characters, they can be completely cleared.
 - **Special:**
   - In the case of more than two persons, it usually depends on the severity of the pollution.
@@ -151,6 +151,6 @@ tags: ["pathway:sun", "sequence:8"]
 
 **Using Solar Rituals Without Following the Eternal Blazing Sun**
 
-- A Sun Path Extraordinary who is not a follower of the **[[LINK LATER: Eternal Blazing Sun | type=other]]** can still use the rituals above if they have mastered sufficient methods to please the relevant gods.
-- Even so, they must make a **[[LINK LATER: Lucky Appraisal | type=mechanic | hint=Difficulty Value 10]]** to get a response.
+- A Sun Path Extraordinary who is not a follower of the **[[Eternal Blazing Sun]]** can still use the rituals above if they have mastered sufficient methods to please the relevant gods.
+- Even so, they must make a **[[Lucky Appraisal]]** to get a response.
 - If you believe in a god hostile to the Eternal Blazing Sun, there may be no response at all.

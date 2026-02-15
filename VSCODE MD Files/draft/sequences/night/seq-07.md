@@ -7,7 +7,7 @@ tags: ["pathway:night", "sequence:7"]
 # Sequence 7: Nightmare
 
 - You can forcibly pull other people into a dream.
-- You can also freely enter and exit the dreams of any sleeping person across a huge range. [[LINK LATER: Enter/exit dreams | type=mechanic | hint=freely enter and exit sleeping people’s dreams; range not specified here]]
+- You can also freely enter and exit the dreams of any sleeping person across a huge range. [[Enter/exit dreams]]
 - Forcibly dragging people into dreams has a limited range and usually appears in head-to-head confrontations, but you do **not** need to be face-to-face to attempt it.
 - Within 100 meters, this influence takes time and a process and cannot be completed all at once—like coaxing a child to sleep.
 
@@ -21,36 +21,36 @@ tags: ["pathway:night", "sequence:7"]
 
 ### Forcibly Pull People Into Dreams
 
-- **Use:** 1 casting action. [[LINK LATER: Casting action | type=mechanic | hint=action type]]
-- **Cost:** Consume 3 **Spirituality points**. [[LINK LATER: Spirituality points | type=mechanic | hint=resource spent on abilities]]
-- **Targeting and range:** Select 1 or more targets within 100 meters and within your field of vision. [[LINK LATER: Field of vision | type=term | hint=targeting requirement]]
+- **Use:** 1 casting action. [[Casting Action]]
+- **Cost:** Consume 3 **Spirituality points**. [[Spirituality]]
+- **Targeting and range:** Select 1 or more targets within 100 meters and within your field of vision. [[Field of Vision]]
 - **Limits:**
   - No more than 10 targets in your field of vision are immediately dreamed.
   - No identification is required.
-  - Undead creatures are also affected. [[LINK LATER: Undead creatures | type=term | hint=creature type]]
+  - Undead creatures are also affected. [[Undead creatures]]
 - **Effect:** Force the selected targets into a dream.
 
 #### Dreaming Rules
 
-1. You can freely weave the content of the dream, but you cannot directly spy on the mind of the dreamed person through the dream. The owner of the dream is still the dreamed person. If you want to obtain information in the dream, you can “guide.” [[LINK LATER: Guide (dream) | type=mechanic | hint=indirectly obtaining information in a dream]]
+1. You can freely weave the content of the dream, but you cannot directly spy on the mind of the dreamed person through the dream. The owner of the dream is still the dreamed person. If you want to obtain information in the dream, you can “guide.” [[Guide (dream)]]
    > **GM Note:** Example of “guide”: create a picture frame in the dream and imply it contains someone’s appearance. If the dreamed person believes it, they will fill in the corresponding appearance with their own mind for you to see.
 
 2. Conversation with the dreamed person in the dream state is similar to reality. In a confused state, unless it involves deep conscious content that makes the subconscious resist speaking, the dreamed person will generally not lie.
 
 3. If the target you want to drag into the dream is not within your field of vision, you can still pull it into the dream:
-   - **Use:** 1 full-round action. [[LINK LATER: Full-round action | type=mechanic | hint=action type]]
+   - **Use:** 1 full-round action. [[Full-round action]]
    - **Range:** Cannot exceed 100 meters.
    - This cannot be done all at once; it takes time and a process (like putting a child to sleep).
 
-4. Usually only in non-combat situations, you can use the Nightmare ability so the dreamer only vaguely remembers what kind of dream they had, but not the specific content—excluding targets who can stay awake in the dream. [[LINK LATER: Stay awake in the dream | type=mechanic | hint=targets immune to vague-memory effect]]
-   - If you participate too deeply in the dream, a **Difficulty Value** 25 Inspiration test may remind the dreamer of some clues (not including your appearance, but possibly including your general attire). [[LINK LATER: Inspiration test | type=mechanic | hint=check type]]
+4. Usually only in non-combat situations, you can use the Nightmare ability so the dreamer only vaguely remembers what kind of dream they had, but not the specific content—excluding targets who can stay awake in the dream. [[Stay awake in the dream]]
+   - If you participate too deeply in the dream, a **Difficulty Value** 25 Inspiration test may remind the dreamer of some clues (not including your appearance, but possibly including your general attire). [[Inspiration Test]]
 
-**Falling into a dream** is considered a **bound** state (a “bondage state”). [[LINK LATER: Bound | type=condition | hint=“bondage state” / “considered bound” in this section]]
+**Falling into a dream** is considered a **bound** state (a “bondage state”). [[Bound]]
 - External manifestation is close to sleepwalking.
-- “Awake” targets have advantage/disadvantage against it. [[UNCLEAR: The text says “the awake target has advantages/disadvantages to it” without specifying direction or the exact interaction.]] [[LINK LATER: Advantage/Disadvantage | type=mechanic | hint=core resolution modifier]]
+- “Awake” targets have advantage/disadvantage against it. [[UNCLEAR: The text says “the awake target has advantages/disadvantages to it” without specifying direction or the exact interaction.]] [[Advantage / Disadvantage]]
 
-A dreamed target wakes up immediately if it suffers damage or mental influence. [[LINK LATER: Mental influence | type=mechanic | hint=effects that count as “mental impact/influence”]]
-- If there is too much noise in reality, it can immediately make an extra Inspiration test to realize the dream or a Will test to awaken from the dream. [[LINK LATER: Will test | type=mechanic | hint=check type]]
+A dreamed target wakes up immediately if it suffers damage or mental influence. [[Mental influence]]
+- If there is too much noise in reality, it can immediately make an extra Inspiration test to realize the dream or a Will test to awaken from the dream. [[Will Test]]
 
 #### Leaving a Dream
 
@@ -71,7 +71,7 @@ Additional rules:
 From the moment you fall into a dream, you can perceive both the dream state and reality to a certain extent. You must also maintain the dream, which brings a large burden and makes it difficult to distinguish dream from reality.
 
 While maintaining the dream state, you suffer the following disadvantages:
-- You cannot perform free/attack/casting/move/full-round actions, and you cannot speak; you must be out of the dream state to do so. [[LINK LATER: Free action | type=mechanic | hint=action type]] [[LINK LATER: Attack action | type=mechanic | hint=action type]] [[LINK LATER: Move action | type=mechanic | hint=action type]]
+- You cannot perform free/attack/casting/move/full-round actions, and you cannot speak; you must be out of the dream state to do so. [[Free Action]] [[Attack Action]] [[Move Action]]
 - Although you can perceive reality, the actions you can perform are negligible.
 - You can still faintly hear voices in reality.
 - You can leave the dream state without any action at any time; doing so causes targets you forced into the dream to wake up immediately.
@@ -83,7 +83,7 @@ While maintaining the dream state, you suffer the following disadvantages:
 
 - **Use:** 1 full-round action.
 - **Cost:** No Spirituality expenditure.
-- **Requirement:** You must fall asleep in reality; your spirit body enters the dream world. [[LINK LATER: Spirit body | type=term | hint=separated/acting body in dream world]]
+- **Requirement:** You must fall asleep in reality; your spirit body enters the dream world. [[Spirit body]]
 
 **Dream world:** A world that looks the same as reality, shrouded in mist; the range you can reach is a city. The city in this world is composed of the common cognition of countless dreamers.
 
@@ -98,7 +98,7 @@ In the dream world:
 - In the dream world, you can use your extraordinary abilities as usual, but they have no actual impact.
 - Because the premise of being in the dream world is already having entered a dream, you cannot find people who have not entered a dream here, and you cannot force them to enter a dream.
 - In a dream:
-  - Your blood volume equals your Spirituality. [[LINK LATER: Blood volume | type=term | hint=HP/health equivalent; defined here as equal to Spirituality]]
+  - Your blood volume equals your Spirituality. [[Blood Volume]]
   - Your Agility is +2. [[UNCLEAR: The text uses both “Dexterity” (Attribute Gain) and “Agility” (+2 in dream) without clarifying whether they are the same attribute.]]
   - You can fly.
   - Generally, you don’t enjoy more benefits; unless you have entered someone else’s dream, you can’t realize what you imagined.
@@ -109,12 +109,12 @@ Special:
 
 ### Dream Perception
 
-- **Use:** 1 swift action. [[LINK LATER: Swift action | type=mechanic | hint=action type]]
+- **Use:** 1 swift action. [[Swift Action]]
 - **Effect:** Open Dream Perception to see clusters of illusory oval balls of light that hide or appear, representing the sources of dreams.
 
 Each ball of light represents a dream:
-1. The balls of light can be seen through barriers. You can tell whether a creature is asleep—and can also tell if it is not asleep—so this can be used to some extent to detect whether living things exist in a place. [[LINK LATER: Living things | type=term | hint=creature category implied by this detection]]
-2. The dreams you perceive allow you to enter them with Invasion Dreams and use Nightmare abilities to guide them. Even if you directly destroy some things in the dreams, the dream owner can no longer manifest them in that dream. [[LINK LATER: Invasion Dreams | type=mechanic | hint=enter a perceived dream]]
+1. The balls of light can be seen through barriers. You can tell whether a creature is asleep—and can also tell if it is not asleep—so this can be used to some extent to detect whether living things exist in a place. [[Living things]]
+2. The dreams you perceive allow you to enter them with Invasion Dreams and use Nightmare abilities to guide them. Even if you directly destroy some things in the dreams, the dream owner can no longer manifest them in that dream. [[Invasion Dreams]]
 3. The range of dreams you can perceive is the same as the range you can pull into dreams.
 
 ## Later Sequence Upgrades (Reference)
@@ -125,7 +125,7 @@ Each ball of light represents a dream:
 - You can pull up to 13 people into the dream.
 - While maintaining the dream state, you can perform 1 free action every round.
   - It is difficult to say a word.
-  - This free action cannot be used to drive extraordinary items. [[LINK LATER: Extraordinary items | type=item | hint=items with extraordinary effects]]
+  - This free action cannot be used to drive extraordinary items. [[Extraordinary Items]]
 
 ### Sequence 5
 
@@ -136,4 +136,4 @@ Each ball of light represents a dream:
 
 ### Sequence 4
 
-- The memory problem described under “Maintaining the Dream State” is not completely resolved until Sequence 4. [[LINK LATER: Sequence 4 | type=sequence | hint=the point at which dream/reality memory issue is fully resolved]]
+- The memory problem described under “Maintaining the Dream State” is not completely resolved until Sequence 4. [[id:alias-sequence-4|Sequence 4]]

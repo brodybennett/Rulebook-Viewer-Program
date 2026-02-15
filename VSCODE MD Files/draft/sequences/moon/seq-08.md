@@ -12,21 +12,21 @@ tags: ["pathway:moon", "sequence:8"]
 
 ### Auxiliary Materials
 
-- **Main Material:** [[LINK LATER: Medulla Crystal of the Spring of Elves | type=item | hint=main advancement material]]
+- **Main Material:** [[Medulla Crystal of the Spring of Elves]]
 
 ## Extraordinary Abilities
 
 ### Attribute Gain
 
 - **Attribute Gain:** Strength +2, Constitution +2, Agility +2.
-- Your animal taming incorporates the rapid growth of [[LINK LATER: Sequence 9 | type=sequence | hint=preceding Sequence for this Pathway]], up to proficiency. Every time you tame a non-repeating animal, it is considered as 1 growth. [[UNCLEAR: “rapid growth,” “proficiency,” and “growth” are referenced but not defined here.]]
+- Your animal taming incorporates the rapid growth of [[Sequence 9]], up to proficiency. Every time you tame a non-repeating animal, it is considered as 1 growth. [[UNCLEAR: “rapid growth,” “proficiency,” and “growth” are referenced but not defined here.]]
 
 ### Animal Senses
 
-- **Cost:** 3 [[LINK LATER: Spiritual Points | type=mechanic | hint=resource spent to use abilities]]
-- **Use:** 1 [[LINK LATER: Casting Action | type=mechanic | hint=action economy]]
+- **Cost:** 3 [[Spiritual Points]]
+- **Use:** 1 [[Casting Action]]
 - **Targeting and range:** Choose 1 animal / extraordinary creature / insect (even mosquito) within 20 meters.
-- **Check:** Tame the beast against its [[LINK LATER: Will Defense | type=mechanic | hint=defense stat used to resist]]
+- **Check:** Tame the beast against its [[Will Defense]]
 - **Effect:** If you succeed, you share the senses with it and gain the effects below for 5 minutes.
 - **Limits:**
   - The following effects cannot be more than 100 meters away from the animal.
@@ -35,13 +35,13 @@ tags: ["pathway:moon", "sequence:8"]
 #### Effects
 
 1. **Communicating animals:** You can let you understand each other directly without words, and let it act instead of you.
-2. **Share the senses:** Directly see what it sees/hears. Even if the other party’s vision (such as mosquitoes) works differently from humans, the picture in front of you can be recombined into a scene that you understand, which may lead you to share [[LINK LATER: Sanity Loss | type=mechanic | hint=mental/sanity rules]].
+2. **Share the senses:** Directly see what it sees/hears. Even if the other party’s vision (such as mosquitoes) works differently from humans, the picture in front of you can be recombined into a scene that you understand, which may lead you to share [[Sanity Loss]].
 3. **Drive animals:** In battle, the actions of animals are independent of you, and you can maintain = inspired animals share the senses at the same time. [[UNCLEAR: The meaning of “= inspired animals” and the intended limit are not defined here.]]
-   - Non-intelligent animals can usually be regarded as your subordinates directly after the successful identification of animal taming, and provide you with benefits. [[LINK LATER: Animal Taming Identification | type=mechanic | hint=identification check/procedure]]
+   - Non-intelligent animals can usually be regarded as your subordinates directly after the successful identification of animal taming, and provide you with benefits. [[Animal Taming Identification]]
 4. **Auxiliary Potion:** When you share the senses with an intelligent animal:
-   - A common animal becomes a Sequence 9 [[LINK LATER: Sanity Loss Identification | type=mechanic | hint=identification mechanic with modifiers]] -4 benefit. [[UNCLEAR: “becomes a Sequence 9 Sanity Loss Identification -4 benefit” is not defined here.]]
+   - A common animal becomes a Sequence 9 [[Sanity Loss Identification]] -4 benefit. [[UNCLEAR: “becomes a Sequence 9 Sanity Loss Identification -4 benefit” is not defined here.]]
    - Only when your Sequence level is greater than it, it will provide it with a -2 benefit when it is promoted. [[UNCLEAR: It is unclear who receives the -2 benefit and what “promoted” refers to.]]
-   - If the creature’s [[LINK LATER: Pathway | type=term | hint=character advancement track]] is the same as yours, gain an additional -2 benefit.
+   - If the creature’s [[Pathway]] is the same as yours, gain an additional -2 benefit.
    - You can also get this benefit if you are 1 character larger than it. [[UNCLEAR: “1 character larger” is undefined (size category or wording artifact).]]
 
 #### Special
@@ -62,7 +62,7 @@ tags: ["pathway:moon", "sequence:8"]
    - Faced with range/psychic damage, they will die directly by default.
 2. **Rats/birds:**
    - 2d2 HP.
-   - 5 points in [[LINK LATER: Three Defenses | type=mechanic | hint=defense stats used by creatures]] (both attributes are 2).
+   - 5 points in [[Three Defenses]] (both attributes are 2).
 3. **Cat/Dog:**
    - 7+1d3 HP.
    - 8 points in Three Defenses (all attributes are 3).
@@ -75,7 +75,7 @@ tags: ["pathway:moon", "sequence:8"]
 
 #### Domestication conditions
 
-- Non-intelligent / [[LINK LATER: Semi-crazy | type=condition | hint=creature mental state category]] creatures can be domesticated by you for a long time by default.
+- Non-intelligent / [[Semi-crazy]] creatures can be domesticated by you for a long time by default.
 - Other creatures must be voluntary if you want to domesticate them for a long time.
 
 #### Long-term domesticated animal character cards
@@ -90,4 +90,4 @@ tags: ["pathway:moon", "sequence:8"]
   - You can fill in the corresponding data in the extra life/defense of the character card with additional values,
   - or negative values to dynamically adjust.
 
-> **GM Note:** More creatures can be referenced in the [[LINK LATER: Injury/Health Volume Example | type=table | hint=examples for creature HP/defense]]. The value is determined by the GM. Animal trainers who want to patrol bears/lions and other dangerous creatures need the consent of the GM, and raising such creatures requires at least a [[LINK LATER: Credit Rating | type=mechanic | hint=wealth/credit system]] order.
+> **GM Note:** More creatures can be referenced in the [[Injury/Health Volume Example]]. The value is determined by the GM. Animal trainers who want to patrol bears/lions and other dangerous creatures need the consent of the GM, and raising such creatures requires at least a [[Credit Rating]] order.

@@ -11,7 +11,7 @@ tags: ["pathway:tyrant", "sequence:2"]
 ### Advancement Ritual
 
 - **Advancement Ritual:** Contend against a real scourge and defeat it in its own right (unofficial rite).  
-  [[LINK LATER: Scourge | type=term]]
+  [[Scourge]]
 
 ---
 
@@ -27,13 +27,13 @@ tags: ["pathway:tyrant", "sequence:2"]
 ### Avatar of Scourge
 
 - **Cost:** 10 Spirituality Points.  
-  [[LINK LATER: Spirituality Points | type=term]]
+  [[Spirituality]]
 - **Use:** 1/round, 1 casting action.
 - **Effect:** Choose one natural disaster; it manifests as a real, large-scale disaster as if natural. You gain **+25** to **Disaster Attack** rolls against physical defenses.  
-  [[LINK LATER: Disaster Attack | type=mechanic]]
+  [[Disaster Attack]]
 - **Targeting and Range:** All natural disasters affect a minimum area of **1 kilometer** and may extend up to **one country** in scope.
 - **Limits:** The scope is typically too large to confine to a small area; using this ability may devastate an entire port city or larger region.
-- **Interaction:** Each Scourge-type disaster is a separate ability. [[LINK LATER: Steal | type=mechanic]] and [[LINK LATER: Record | type=mechanic]] can affect only one such disaster ability at a time.
+- **Interaction:** Each Scourge-type disaster is a separate ability. [[Steal]] and [[Record]] can affect only one such disaster ability at a time.
 - **Disaster Options:**
 
 #### 1. Volcanic Eruption
@@ -45,7 +45,7 @@ tags: ["pathway:tyrant", "sequence:2"]
     - Ash cloud expands from the crater at **0.5 km per round**, up to **100 m** high.
     - Area becomes a volcanic ash environment.
     - Creatures inside suffer **4d6 fire damage/round**, **1d6 poison damage/round**, and are **Blinded**, disoriented, and effectively trapped.  
-      [[LINK LATER: Blinded | type=condition]]
+      [[Blinded]]
 
   - **Magma**
     - Magma advances at **5 m/round**.
@@ -55,11 +55,11 @@ tags: ["pathway:tyrant", "sequence:2"]
 
   - **Earthquake**
     - Equivalent to a raging disaster earthquake effect.  
-      [[LINK LATER: Earthquake | type=mechanic | hint=disaster effect]]
+      [[id:alias-earthquake|Earthquake]]
 
   - **Tsunami**
     - Equivalent to a raging disaster tsunami affecting surrounding seas and coastal areas.  
-      [[LINK LATER: Tsunami | type=mechanic | hint=disaster effect]]
+      [[id:alias-tsunami|Tsunami]]
 
 ---
 
@@ -79,7 +79,7 @@ tags: ["pathway:tyrant", "sequence:2"]
 - Creatures and debris are drawn toward the typhoon.
 - Each round: **1d6 physical damage** and forced movement **50 m toward the typhoon**.
 - Avoid forced movement with a **Dexterity check (DV 20)**.  
-  [[LINK LATER: DV | type=term]]
+  [[DV]]
 - **Additional Effect — Heavy Rain:** Cities near or within the typhoon experience continuous heavy rain equivalent to a disaster-level rainfall.
 
 ---
@@ -90,9 +90,9 @@ tags: ["pathway:tyrant", "sequence:2"]
 - Forms a massive rift spanning kilometers; nearby buildings and creatures fall toward it.
 - On creation, creatures must make a **Dexterity check (DV 20)** or fall.
 - **Warning:** The rift may connect to the **Chaos Sea**.  
-  [[LINK LATER: Chaos Sea | type=location]]
+  [[Chaos Sea]]
   - Beyonders not of the Moon, Earth, Alien, Abyss, Judge, Black Emperor, or Extraterrestrial-related pathways suffer underground pollution when approaching and have a strong tendency toward personality splitting.  
-    [[LINK LATER: Underground Pollution | type=condition]]
+    [[Underground Pollution]]
 
 ---
 
@@ -101,7 +101,7 @@ tags: ["pathway:tyrant", "sequence:2"]
 - Within **5 minutes**, the area is covered by hail, snow, and blizzard conditions.
 - Non-demigod creatures without cold resistance rapidly suffer hypothermia and die.
 - Creatures in the area take **2d6 cold damage/round** and a **–2 penalty to all checks**; these stack with blizzard effects.  
-  [[LINK LATER: Blizzard | type=mechanic]]
+  [[Blizzard]]
 - Avalanches may occur, dealing **5d6 cold damage**.
 - When mobs near mountains catastrophically fail checks, an avalanche triggers immediately.
 - If the winter lasts **3 days**, most life and objects freeze; the region’s sea and ecology become Antarctic-like for an epoch.
@@ -115,7 +115,7 @@ tags: ["pathway:tyrant", "sequence:2"]
 - Plants die rapidly; plant-based abilities from non-homologous land Pathways cannot be activated here.
 - Water evaporates quickly; related water abilities cannot be used.
 - Creatures without fire resistance suffer a **parched state**.  
-  [[LINK LATER: Parched | type=condition]]
+  [[Parched]]
 - Creatures below demigod level die quickly from dehydration.
 - Demigods and above take a **–4 penalty to all checks** due to exhaustion and dehydration.
 
@@ -132,7 +132,7 @@ tags: ["pathway:tyrant", "sequence:2"]
 #### Other Disasters
 
 - Other natural disasters may be allowed by the GM.  
-  [[LINK LATER: GM | type=term]]
+  [[GM]]
 - Man-made disasters (e.g., smog) are excluded.
 
 ---
@@ -143,7 +143,7 @@ tags: ["pathway:tyrant", "sequence:2"]
 - **Use:** 1 casting action.
 - **Targeting and Range:** Area from **100 m to 1 km** radius.
 - **Effect:** A single meteor strikes the area. You gain **+20** on the disaster check against physical defense.  
-  [[LINK LATER: Disaster Check | type=mechanic]]
+  [[Disaster Check]]
   - On success: all creatures take **5d6 fire damage** and **5d6 physical damage**.
   - On failure: creatures unable to leave the area still take **half damage**.
 - **Aftereffects:** Can destroy a ship, building, or city block; leaves a large crater.

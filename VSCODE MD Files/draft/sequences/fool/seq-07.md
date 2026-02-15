@@ -8,7 +8,7 @@ tags: ["pathway:fool", "sequence:7"]
 
 ## Magician
 
-- See also: [[LINK LATER: Pathway containing Sequence 7: Magician | type=pathway | hint=Pathway name not provided in RAW]]
+- See also: [[Pathway containing Sequence 7: Magician]]
 
 You possess fast casting skills: no need to chant spells, no need to infuse spirituality—just a simple action lets you cast the corresponding spell or spell-like ability, including:
 - Injury Transfer
@@ -59,14 +59,14 @@ Performance improvement:
 - **Cost:** 2 **spirit points**
 - **Targeting and range:** Choose 1 living creature whose wound your limb touched.
 - **Effect:** You transfer the wound in the vital position to less important places such as the arm, turning the fatal injury into a minor injury.
-  - [[LINK LATER: Vital Strike | type=mechanic | hint=vital strike effect / vital blow referenced throughout]]
+  - [[Vital Strike]]
 
 1. If the creature is under one type of vital strike effect, you can transfer the vital strike effect of this part to another limb part (e.g., transfer the vital strike effect of the head to the arm), and the shock and extra damage brought by the vital strike will be transferred remove.  
    - The creature suffers the vital blow effect of the arm, and the additional damage that is not originally included will also be reflected in the arm.
 2. If the creature is dying, the fatal injury can be transferred to the non-fatal part; multiple fatal injuries can be transferred multiple times to terminate the dying.  
-   - [[LINK LATER: Dying | type=condition | hint=state referenced by Injury Transfer]]
+   - [[Dying]]
 3. If you want to transfer the wound on the enemy’s arm to his head, fighting against physical defense, you will be able to do it successfully and cause corresponding additional damage, but this usually can only expose the other person’s skin and bones at most, unless the transfer is fatal hurt.  
-   - [[LINK LATER: Physical Defense | type=mechanic | hint=defense used for multiple abilities]]
+   - [[Physical Defense]]
 4. A creature’s wound can only be transferred on itself; the wound cannot be transferred from one person to another.
 
 ### Flame Jump
@@ -139,7 +139,7 @@ Special:
      [[UNCLEAR: “free actions higher than 2 characters” is not a defined timing unit and cannot be interpreted reliably from RAW alone.]]
 2. You destroy a paper figurine with flames, etc., and choose 1 item of specific mystic information related to you (e.g., you plan to attack someone next). Realize anti-divination, and conduct a mystic appraisal as the difficulty of anti-divination.
    - When successful, this information will be excluded in related divination, spiritual intuition, prophecy, unless it exceeds the corresponding difficulty.
-   - [[LINK LATER: Anti-Divination | type=mechanic | hint=used with mystic appraisal and “difficulty”]]
+   - [[id:alias-anti-divination|Anti-Divination]]
 3. You turn a paper figurine into an image that is exactly the same as you. In the eyes of others, it is another you, but closer to a wax figure that is completely the same but does not move. Hallucinations can bring it to life.
    - Creating hallucinations can last for **half an hour** in this usage.
    - Can fake the color of the aura, the ups and downs of the limbs, etc.
@@ -188,7 +188,7 @@ You can turn paper into sharp objects, and also into sticks, bricks, and other w
 - **Requirements:** As long as you prepare paper corresponding to the approximate shape, you can make it sharp immediately after “shaking” and turn it into a weapon.
 
 1. The effect of the manufactured weapon is equal to that in “Weapon Paradigm,” but you can only manufacture cold weapons, not complex hot weapons. The effect lasts **five minutes**, and can be used by others.  
-   - [[LINK LATER: Weapon Paradigm | type=rule | hint=reference for weapon effects/stats]]
+   - [[Weapon Paradigm]]
 2. Although it becomes sharper, it still does not get rid of the characteristics of paper. If a paper weapon hits a hard object such as armor, it will be damaged after being used **three times**.
 3. Different weapons require different shapes of paper. Example: whips need long strips of paper; sticks need to roll the paper together first. You need to cut it in advance or use it according to the situation.
 

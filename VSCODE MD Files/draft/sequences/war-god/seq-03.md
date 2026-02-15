@@ -16,7 +16,7 @@ tags: ["pathway:war-god", "sequence:3"]
 
 ### Advancement Ritual
 
-- **Advancement Ritual:** Arrange a complex altar. Place the remains of six powerful creatures that you hunted and killed in the correct positions, and receive blessings from [[LINK LATER: Angels | type=term | hint=ranked beings; includes “and above”]] and above.
+- **Advancement Ritual:** Arrange a complex altar. Place the remains of six powerful creatures that you hunted and killed in the correct positions, and receive blessings from [[Angels]] and above.
 
 ## Extraordinary Abilities
 
@@ -38,11 +38,11 @@ tags: ["pathway:war-god", "sequence:3"]
 
 ### Silver Rapier
 
-- **Cost:** 3 [[LINK LATER: Spirituality | type=term | hint=resource spent as points]] points per attack action.
-- **Use:** This attack counts as a **[[LINK LATER: Raid effect | type=mechanic | hint=tag applied to certain attacks]]** and must be used with a **[[LINK LATER: Raid action | type=mechanic | hint=action used to apply raid effects]]**.
+- **Cost:** 3 [[Spirituality]] points per attack action.
+- **Use:** This attack counts as a **[[Raid effect]]** and must be used with a **[[Raid action]]**.
 - **Targeting and range:** With “teleportation (flash),” it can bypass most barriers, directly attack the target, and even explode from the target’s body. There are almost no signs of condensation, so it is difficult to predict in advance.
-- **Check:** Fights against [[LINK LATER: Physical Defense | type=term | hint=defense value used vs physical attacks]].
-- **Effect:** A sharp silver light flashes out of thin air on the target. The damage ignores any [[LINK LATER: Armor | type=term | hint=armor rules]], [[LINK LATER: Cover | type=term | hint=cover rules]], and [[LINK LATER: Danger Intuition | type=mechanic | hint=non-malicious perception]] (non-malicious perception).
+- **Check:** Fights against [[Physical Defense]].
+- **Effect:** A sharp silver light flashes out of thin air on the target. The damage ignores any [[Armor]], [[Cover]], and [[Danger Intuition]] (non-malicious perception).
 - **Damage:** 3d12 + raid + Strength damage bonus, as physical or divine damage (choose one).
 
 > **GM Note:** Combined with **Hidden by Light**, if an encounter has already started and you can make yourself disappear in others’ cognition again—and you cannot be locked onto by this—then surprise behavior in the battle can be established.  
@@ -50,7 +50,7 @@ tags: ["pathway:war-god", "sequence:3"]
 
 ### Hidden by Light
 
-- **Cost:** 3 [[LINK LATER: Spirituality | type=term | hint=resource spent as points]] points.
+- **Cost:** 3 [[Spirituality]] points.
 - **Use:** Free action.
 - **Effect:** You achieve optical invisibility.
 
@@ -61,5 +61,5 @@ tags: ["pathway:war-god", "sequence:3"]
   - Silver Knights blessed by gods of a “god of war” Pathway may have certain enhancements in their various abilities, making them slightly stronger than other Silver Knights of the same level.
   - Your attacks may produce random, preferred, and unpredictable changes under certain circumstances.
   - You may gain a small amount of good or bad luck that can be applied for a short period of time.
-- **Reference:** For specific effects in this regard, refer to [[LINK LATER: Sequence 4: Mysticist | type=sequence | hint=Mystic Pathway]].
+- **Reference:** For specific effects in this regard, refer to [[Sequence 4: Mysticist]].
 - **General rule:** This kind of mutation will only have a small impact and will not cause a decisive effect.

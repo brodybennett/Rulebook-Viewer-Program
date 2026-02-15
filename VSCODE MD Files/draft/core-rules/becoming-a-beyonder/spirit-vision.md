@@ -12,7 +12,7 @@ Spirit Vision is a special sight possessed by every Beyonder. Its strength and a
 
 ## Activation
 
-- **Action:** Spend 1 free action to activate Spirit Vision. See [[LINK LATER: Special Actions | type=mechanic | hint=free action]].
+- **Action:** Spend 1 free action to activate Spirit Vision. See [[Special Actions]].
 - **Suggestion switch:** Before using it, you must decide a personal suggestion switch (a consistent cue that "turns it on"). Examples include pinching the space between your eyebrows or lightly tapping your teeth.
 
 ## General Effects
@@ -25,12 +25,12 @@ While Spirit Vision is active, you can:
 
 ## Maintenance Cost
 
-- Each round you maintain Spirit Vision, you consume 1 Spirituality. See [[LINK LATER: Spirituality and Beyonder Abilities | type=rule | hint=spirituality recovery]].
+- Each round you maintain Spirit Vision, you consume 1 Spirituality. See [[Spirituality and Beyonder Abilities]].
 - Because of this ongoing cost, Spirit Vision should be used with restraint and turned off in time.
 
 ## Not the Same as Other Special Sights
 
-Some special sights are not Spirit Vision (for example, "Spirit Body Threads" vision). Such special sights require their own separate suggestion switch and are not equivalent to Spirit Vision. See [[LINK LATER: Spirit Body Threads | type=mechanic | hint=separate sight]].
+Some special sights are not Spirit Vision (for example, "Spirit Body Threads" vision). Such special sights require their own separate suggestion switch and are not equivalent to Spirit Vision. See [[Spirit Body Threads]].
 
 ## Mysticism Reference: What Spirit Vision Shows
 
@@ -50,7 +50,7 @@ The Astral Body is the way the Spirit Body communicates with the spirit world an
 
 > Lore: Scenes seen after ingesting a potion are images seen by the Astral Body wandering the spirit world. This is connected to divination; the spirit world does not follow material rules, and past, present, and future may overlap.
 
-> GM Note: Only higher-Sequence Inspiration-type Pathway can directly see the Astral Body through Spirit Vision. The Eye of Secrets belongs to this type. See [[LINK LATER: Eye of Secrets | type=ability | hint=inspiration sight]].
+> GM Note: Only higher-Sequence Inspiration-type Pathway can directly see the Astral Body through Spirit Vision. The Eye of Secrets belongs to this type. See [[Eye of Secrets]].
 
 ### Mental Body
 

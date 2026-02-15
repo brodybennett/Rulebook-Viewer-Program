@@ -6,7 +6,7 @@ tags: ["pathway:red-priest", "sequence:0"]
 
 # Sequence 0: Red Priest
 
-## Priestess of the Source of Power [[LINK LATER: Source of Power | type=other | hint=proper noun used in this Sequence title]]
+## Priestess of the Source of Power [[Source of Power]]
 
 ## Advancement
 

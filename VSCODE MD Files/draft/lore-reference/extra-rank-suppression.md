@@ -33,20 +33,20 @@ This section defines Status/Rank tiers and the rules for Rank Suppression (the m
 
 - **Status/Rank:** Demigod Status/Rank.
 - **Traits:** Possesses divinity.
-- **Lifespan:** Significantly increased (average 300+ years), roughly comparable to [[LINK LATER: Moon Pathway Sequence 7 | type=sequence | hint=lifespan comparison]]; Moon Pathway Demigods can live even longer.
+- **Lifespan:** Significantly increased (average 300+ years), roughly comparable to [[Moon Pathway: Sequence 7]]; Moon Pathway Demigods can live even longer.
 - **Beyonder items below Demigod tier:** For the Demigod themself only, the negative effects of those items are halved.
-- **Honorific Name:** Only at Sequence 3 does a Beyonder begin to be able to write their own Honorific Name and receive responses within the scope of a city. [[LINK LATER: Honorific Name | type=term | hint=prayer name used for responses]]
+- **Honorific Name:** Only at Sequence 3 does a Beyonder begin to be able to write their own Honorific Name and receive responses within the scope of a city. [[Honorific Name]]
 
 ### Angel (Sequence 2-1)
 
 - **Status/Rank:** Angel.
-- **Mythical Form:** Able to open Mythical Form without cost; possesses complete divinity. [[LINK LATER: Chapter 11: Manifesting Mythical Creature Form | type=rule | hint=full mythical form rules]]
+- **Mythical Form:** Able to open Mythical Form without cost; possesses complete divinity. [[Chapter 11: Manifesting Mythical Creature Form]]
 - **Beyonder items lower by one Status/Rank:** The effects they suffer are equal to those when a Demigod faces a non-Demigod Beyonder item.
-- **Prayer range:** Can listen to followers' prayers; can respond to prayers globally (except specially isolated locations, e.g., the [[LINK LATER: Forsaken Land of the Gods | type=location | hint=isolated region]] unless currently inside it or bypassing the restriction by other means).
+- **Prayer range:** Can listen to followers' prayers; can respond to prayers globally (except specially isolated locations, e.g., the [[Forsaken Land of the Gods]] unless currently inside it or bypassing the restriction by other means).
 
 ### Angel King
 
-- **Definition:** Various methods surpassing Sequence 1 without reaching Sequence 0 (see also [[LINK LATER: Uniqueness and Sefirah Reference | type=rule | hint=section below]]).
+- **Definition:** Various methods surpassing Sequence 1 without reaching Sequence 0 (see also [[Uniqueness and Sefirah Reference]]).
 - **Examples:** Accommodating a Uniqueness, multiple portions of Sequence 1 characteristics, or mastering a Sefirah.
 - **Sequence 1 characteristics:** At most three portions.
 - **Sefirah interaction:** Only within the range the Sefirah can affect, the Beyonder's Status/Rank is temporarily +1, and they are treated as an Angel King.
@@ -93,15 +93,15 @@ Starting from Sequence 4, Beyonders begin to gain Status/Rank.
 
 In a Rank Suppression matchup, when a higher-Status/Rank Beyonder faces a lower one, the higher side typically gains the following benefits.
 
-- **Defense:** All three Defense Ratings gain +10 base value: [[LINK LATER: Physical Defense | type=mechanic | hint=defense rating]], Constitution (CON) Defense, and Willpower (WIL) Defense. See also [[LINK LATER: Other Defenses | type=rule | hint=defense variants]].
-- **Attacks vs lower Sequences:** Attack-related skill checks +3, and damage +1d6. See [[LINK LATER: Scaling and High-Sequence Additions | type=rule | hint=attack bonus scaling and special cases]].
-- **Action Protection:** Gain two layers of Action Protection. See [[LINK LATER: Action Protection | type=mechanic | hint=action-loss protection]].
+- **Defense:** All three Defense Ratings gain +10 base value: [[Physical Defense]], Constitution (CON) Defense, and Willpower (WIL) Defense. See also [[Other Defenses]].
+- **Attacks vs lower Sequences:** Attack-related skill checks +3, and damage +1d6. See [[Scaling and High-Sequence Additions]].
+- **Action Protection:** Gain two layers of Action Protection. See [[Action Protection]].
 - **Restricting-type abilities (opposed checks):** Against restricting-type abilities (examples given: "Tight Shut," Moon's Abyss Shackles, Pain Torment), you gain a +5 bonus on the relevant opposed checks.
 - **Anti-divination:** Against targets lower than you by one Status/Rank, you inherently have an anti-divination effect.
-- **Sanity / Rationality:** If the Sanity / Rationality check you suffer comes from a Status/Rank lower than yours, apply a modifier to the 1d20 roll equal to -4 per Status/Rank difference (examples: lower by 1 Status/Rank = -4; lower by 2 Status/Ranks = -8). See [[LINK LATER: Sanity / Rationality | type=mechanic | hint=sanity check rules]].
-- **Death Pathway / undead special rule:** See [[LINK LATER: Death Pathway: Undead Command | type=mechanic | hint=rank-based undead control]].
+- **Sanity / Rationality:** If the Sanity / Rationality check you suffer comes from a Status/Rank lower than yours, apply a modifier to the 1d20 roll equal to -4 per Status/Rank difference (examples: lower by 1 Status/Rank = -4; lower by 2 Status/Ranks = -8). See [[Sanity / Rationality]].
+- **Death Pathway / undead special rule:** See [[Death Pathway: Undead Command]].
 
-> **GM Note:** In [[LINK LATER: High-Sequence Vitality Calculation | type=rule | hint=high-sequence HP rules]] and [[LINK LATER: Vitality | type=term | hint=HP term]] rules, the Vitality (HP) gained from each Status/Rank increase is doubled.
+> **GM Note:** In [[High-Sequence Vitality Calculation]] and [[Vitality]] rules, the Vitality (HP) gained from each Status/Rank increase is doubled.
 
 ### Action Protection
 
@@ -164,7 +164,7 @@ Special note on "advantage effects in special states": The advantages of Status/
 
 ### Sequence 1 Special Skill: Convergence Law Control
 
-Upon reaching the Sequence 1 tier, against existences lower than yourself in Status/Rank, you also gain an additional skill: control the Beyonder Characteristic Convergence Law. [[LINK LATER: Beyonder Characteristic Convergence Law | type=mechanic | hint=sequence 1 special control]]
+Upon reaching the Sequence 1 tier, against existences lower than yourself in Status/Rank, you also gain an additional skill: control the Beyonder Characteristic Convergence Law. [[Beyonder Characteristic Convergence Law]]
 
 **Special Skill (Convergence Law Control):**
 - **Use:** Use a spellcasting action to control the Beyonder Characteristic Convergence Law.
@@ -172,7 +172,7 @@ Upon reaching the Sequence 1 tier, against existences lower than yourself in Sta
 - **Timing:** If the distance spans an entire city, it takes one full round.
 - **Adjacent-Pathway limitation:** If you yourself are a Sequence 1 Angel of a Pathway, using this ability on other Angels of adjacent Pathways can only serve to draw their attention.
 
-For the concept of adjacent Pathways, see [[LINK LATER: Chapter 16: Explanation of Switching Sequences | type=rule | hint=adjacent Pathways concept]].
+For the concept of adjacent Pathways, see [[Chapter 16: Explanation of Switching Sequences]].
 
 ### Sequence 0 and Beyond
 
@@ -184,11 +184,11 @@ For the concept of adjacent Pathways, see [[LINK LATER: Chapter 16: Explanation 
 
 > **GM Note:** The source text marks the following material as "under revision and not yet complete; for reference only."
 
-**Stated framework:** From Sequence 4 onward you can obtain divinity and are regarded as an incomplete Mythical Creature. From Sequence 2 onward you are regarded as a complete Mythical Creature. Sequence 0 is considered a true deity. See also [[LINK LATER: Chapter 11: Manifesting Mythical Creature Form | type=rule | hint=full mythical form rules]].
+**Stated framework:** From Sequence 4 onward you can obtain divinity and are regarded as an incomplete Mythical Creature. From Sequence 2 onward you are regarded as a complete Mythical Creature. Sequence 0 is considered a true deity. See also [[Chapter 11: Manifesting Mythical Creature Form]].
 
 **Mental-state premise (as written):** As Sequence rises, sanity gradually enters a crisis; the "Primordial" within may awaken. Taking Sequence 2 as a node, higher Sequences do not necessarily mean stronger in every respect; mental state may worsen and require maintaining sanity balance.
 
-**Purpose (as written):** Before truly becoming a deity, gather followers and obtain "anchors" to stabilize sanity (even "false anchors"). Without these, advancing to Sequence 2 may cause you to lose control on the spot. See also [[LINK LATER: Rituals and Followers | type=rule | hint=followers and anchors]] and [[LINK LATER: Gods and Faith | type=rule | hint=faith and anchors]].
+**Purpose (as written):** Before truly becoming a deity, gather followers and obtain "anchors" to stabilize sanity (even "false anchors"). Without these, advancing to Sequence 2 may cause you to lose control on the spot. See also [[Rituals and Followers]] and [[Gods and Faith]].
 
 ### Drafting an Honorific Name
 
@@ -203,7 +203,7 @@ At Sequence 3, in addition to the ritual, you also need to spread faith. Followe
 
 **Three-part name restriction (as written):** Three-part Honorific Names usually fit cases where either (1) the owner has obtained Uniqueness or a Sefirah/Sefirot, or (2) the owner is subordinate to or attendant of someone who has Uniqueness or a Sefirah/Sefirot (borrowing that level).
 
-Examples are discussed in [[LINK LATER: Names and Honorific Titles of Mystical Deities and Angels | type=rule | hint=honorific name examples]].
+Examples are discussed in [[Names and Honorific Titles of Mystical Deities and Angels]].
 
 > **Lore (example provided by the source text; "do not plagiarize"):**
 > "The all-knowing book yet to be filled,
@@ -223,7 +223,7 @@ Uniqueness and Sefirah/Sefirot are key concepts for advancement beyond Sequence 
 
 **Additional restrictions (as written):** For Beyonders below the level of an Old One, it is impossible to summon or copy Uniqueness via historical projection (indirect summoning may be possible via summoning an empowered holder). Anything involving Uniqueness cannot be affected by "Restart" or "Reverse Time" abilities; anything related to Uniqueness is invalid under those effects. Example given: if someone who has accommodated Uniqueness participates in a battle, then from the time they arrived, fate can no longer be "Restarted".
 
-> **Lore (analogy included in the source text):** A sphere analogy is used: shell = Sefirot, flesh = Beyonder Characteristics, core = Uniqueness. This describes a "split" and the process an Old One reverses by re-accommodating key parts. (See also [[LINK LATER: Beyonder Characteristics | type=term | hint=core advancement materials]].)
+> **Lore (analogy included in the source text):** A sphere analogy is used: shell = Sefirot, flesh = Beyonder Characteristics, core = Uniqueness. This describes a "split" and the process an Old One reverses by re-accommodating key parts. (See also [[id:alias-beyonder-characteristics|Beyonder Characteristics]].)
 
 ### Accommodating Uniqueness
 
@@ -236,7 +236,7 @@ Uniqueness and Sefirah/Sefirot are key concepts for advancement beyond Sequence 
 ### Benefits of Accommodating Any Uniqueness (as written)
 
 - **Accommodation effect:** Your Status/Rank rises to an Angel King. You can use Sequence 0 Beyonder abilities at half effect, rounding up.
-- **Pathway adjustment:** You begin to be able to adjust parts of this Pathway. Adjusting takes 1 [[LINK LATER: Full-Round Action | type=mechanic | hint=action timing]]. Adjustable content includes:
+- **Pathway adjustment:** You begin to be able to adjust parts of this Pathway. Adjusting takes 1 [[Full-Round Action]]. Adjustable content includes:
 1. Any ability effect can be reproduced at full effect through recording, simulation, and similar means; conversely, you can halve an effect.
 2. Add or remove the knowledge gained when advancing in this Pathway.
 3. Make an "all-channel broadcast" to Beyonders of this Pathway, delivering your voice to all Beyonders of the Pathway in a manner similar to responding to prayers; you can also decide that some Beyonders cannot hear it. Beyonders of the same Sequence level as you in the same Pathway or adjacent Pathways can hear it with a Spiritual Intuition check even if you did not broadcast to them.

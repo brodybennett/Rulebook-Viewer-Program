@@ -8,4 +8,4 @@ tags: ["pathway:sun", "sequence:1"]
 
 ## Pure White Angel
 
-> **Lore:** An [[LINK LATER: Archangel | type=term | hint=Rank/role]] on the [[LINK LATER: Sun Pathway | type=pathway | hint=Referenced as “way of the sun”]].
+> **Lore:** An [[Archangel]] on the [[Sun Pathway]].

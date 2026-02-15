@@ -27,8 +27,8 @@ tags: ["pathway:apprentice", "sequence:3"]
 
 - **Effect:** No effect can imprison the Wanderer.
 - **Effect:** You are immune to bondage, binding, and all adverse effects of the environment on you.
-- **Limits:** The [[LINK LATER: spiritual body thread | type=mechanic | hint=Effect that reduces movement and can create a puppet]] has no effect on reducing your movements, but it can still turn you into a [[LINK LATER: secret puppet | type=condition | hint=Result of spiritual body thread]].
-- **Limits:** The [[LINK LATER: Judge | type=other | hint=Entity/ability that restrains actions]] and the [[LINK LATER: Black Emperor | type=pathway | hint=Pathway/authority that restrains actions]] cannot restrain your actions.
+- **Limits:** The [[Spiritual Body Thread]] has no effect on reducing your movements, but it can still turn you into a [[Secret Puppet]].
+- **Limits:** The [[Judge]] and the [[Black Emperor]] cannot restrain your actions.
 
 ### Tolerate the Environment
 
@@ -41,7 +41,7 @@ tags: ["pathway:apprentice", "sequence:3"]
 - **Use:** This is actively triggered and cannot be passively sensed.
 - **Limits:** You can only sense the change at the moment when the symbol appears or the symbol is destroyed: you notice that someone has drawn the corresponding symbol, or the corresponding symbol disappears—nothing else.
 - **Limits:** If you put the symbol in a territory that is not under your control, it may cause detection of you by an equal or higher level without concealment.
-- **Effect:** As long as the symbol exists in a certain location, the location of the symbol is considered to be a coordinate in the [[LINK LATER: spirit world | type=location | hint=Cosmological realm]] or [[LINK LATER: astral world | type=location | hint=Cosmological realm]]. You can sense the specific location and travel long distances to get there as a **casting action**.
+- **Effect:** As long as the symbol exists in a certain location, the location of the symbol is considered to be a coordinate in the [[spirit world]] or [[astral world]]. You can sense the specific location and travel long distances to get there as a **casting action**.
 - **Limits:** The initial isolation of the spirit world may lead to the invalidation of this symbol. But because the spirit world cannot be completely isolated, its vague connection with you still exists.
 
 ### Fly
@@ -50,5 +50,5 @@ tags: ["pathway:apprentice", "sequence:3"]
 
 ### Teleportation (Astral Shuttle)
 
-- **Effect:** Your teleportation ability is greatly enhanced, and you can even use [[LINK LATER: astral teleportation | type=mechanic | hint=Teleportation via astral travel]] to travel to other starry skies and planets.
-- **See also:** For details about the [[LINK LATER: star realm | type=location | hint=Special region]], see [[LINK LATER: Chapter Twelve: Special Regions | type=other | hint=Referenced chapter for star realm details]].
+- **Effect:** Your teleportation ability is greatly enhanced, and you can even use [[astral teleportation]] to travel to other starry skies and planets.
+- **See also:** For details about the [[Star Realm]], see [[Chapter Twelve: Special Regions]].

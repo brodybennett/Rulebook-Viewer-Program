@@ -28,7 +28,7 @@ For a rest period **shorter than 1 hour**, use the following:
 
 **Warning:** If your Spirituality is emptied, and **Beyonder** abilities continue to be forcibly used, it begins to consume your **Sanity / Rationality**.
 
-**Special (example: [[LINK LATER: Night Pathway | type=pathway | hint=shorter rest]]):** Some effects reduce the rest duration needed for full Spirituality recovery. In such cases, each hour restores **(total Spirituality / maximum rest time)**. Example: if **3 hours** of sufficient rest is the maximum rest time, you restore **one-third** per hour.
+**Special (example: [[Night Pathway]]):** Some effects reduce the rest duration needed for full Spirituality recovery. In such cases, each hour restores **(total Spirituality / maximum rest time)**. Example: if **3 hours** of sufficient rest is the maximum rest time, you restore **one-third** per hour.
 
 [[UNCLEAR: "Maximum rest time" and rounding for this formula are not defined here.]]
 
@@ -67,7 +67,7 @@ For a rest period **shorter than 1 hour**, use the following:
 1. A successful **Medicine Roll** can only allow the patient to recover Vitality equal to **Constitution (CON)** **within 24 hours**. After **24 hours**, you should make **1 more** successful Medicine Roll (for changing medicine or re-bandaging); otherwise, it reverts to only recovering **half** of Constitution (CON) per **12 hours**.
    [[UNCLEAR: This "CON per 24 hours" limit appears to conflict with "every 12 hours recover Vitality equal to CON."]]
 2. For **ordinary people**, with **moderate injury**, **severe injury**, or **fractures**: the **first** Medicine Roll cannot restore Vitality; it can only prevent the situation from worsening. You must be in a hospital with a suitable medical environment (or similar), then make **1 more** successful Medicine Roll to restore Vitality.
-3. For **Beyonders**: only **severe injuries** require the special treatment in (2). **Sequence 4 and above** Beyonders do not need special treatment (see [[LINK LATER: Chapter 10: Sequences | type=rule | hint=sequence rules]]). Even so, for a Beyonder to gain this benefit, within their Sequence there must be some Sequence level that provides a **Constitution (CON)** increase.
+3. For **Beyonders**: only **severe injuries** require the special treatment in (2). **Sequence 4 and above** Beyonders do not need special treatment (see [[Chapter 10: Sequences]]). Even so, for a Beyonder to gain this benefit, within their Sequence there must be some Sequence level that provides a **Constitution (CON)** increase.
    [[UNCLEAR: It is not specified which part of (3) is gated by the "Sequence level that provides a CON increase" condition.]]
 
 ### Poison and Toxins
@@ -75,7 +75,7 @@ For a rest period **shorter than 1 hour**, use the following:
 - Poison damage without external wounds must be handled by taking medicine that can deal with toxins.
 - If the medicine taken is a **Beyonder** medicine, **no Medicine Roll** is needed.
 - If it is an ordinary medicine, replace the Medicine Roll with a **Constitution (CON) Roll** of the corresponding Difficulty Value.
-- The Witch's plague is calculated separately in the corresponding Sequence description (see [[LINK LATER: Witch's plague | type=ability | hint=sequence effect]]).
+- The Witch's plague is calculated separately in the corresponding Sequence description (see [[Witch's plague]]).
 
 ## Sanity / Rationality Recovery
 
@@ -89,7 +89,7 @@ You may use methods (1), (2), and (3) within the same 24 hours (recovering a tot
 - Each time you receive at least **2 hours** of psychotherapy, the Psychiatrist treating you makes **1** Psychological Guidance Roll against that Difficulty Value.
   - On success, you recover **1** point of Sanity / Rationality.
 - You may attempt multiple times until success, but you can only recover **once per 24 hours** this way.
-- Special: For [[LINK LATER: Spectator Pathway | type=pathway | hint=psychotherapy time]] Beyonders, psychotherapy time is **1 hour**; starting at **Sequence 7** it is **half an hour**.
+- Special: For [[Spectator Pathway]] Beyonders, psychotherapy time is **1 hour**; starting at **Sequence 7** it is **half an hour**.
 
 ### Rest
 

@@ -31,7 +31,7 @@ tags: ["pathway:myster-pryer", "sequence:9"]
 - **Outcome Modifiers:**
   - **Big Success:** You figure out how to act in your best interest.
   - **Big Failure:** You accidentally see something you shouldn’t.
-- **Limits:** This ability does not only reveal symbolic meanings; it can also reveal accurate and clear partial pictures. This prophecy is extremely strong, and it can even predict some matters related to [[LINK LATER: Uniqueness | type=term | hint=high-level concept]] and the [[LINK LATER: King of Angels | type=term | hint=high-level beings]].
-- **Aftereffects:** Trying to predict something higher than oneself may bring a certain amount of [[LINK LATER: Backlash | type=mechanic | hint=negative consequence]] whether it fails or not. If there are too many predictions at one time, the **GM** should warn of [[LINK LATER: Temporary Madness | type=condition | hint=short-term mental instability]] according to the situation.
+- **Limits:** This ability does not only reveal symbolic meanings; it can also reveal accurate and clear partial pictures. This prophecy is extremely strong, and it can even predict some matters related to [[Uniqueness]] and the [[King of Angels]].
+- **Aftereffects:** Trying to predict something higher than oneself may bring a certain amount of [[Backlash]] whether it fails or not. If there are too many predictions at one time, the **GM** should warn of [[Temporary Madness]] according to the situation.
 
 > **GM Note:** This prophecy can reveal accurate and clear partial pictures and may touch on very high-level matters (including Uniqueness and the King of Angels). The **GM** should control what information is given to the user of Prophecy—what can be predicted and what cannot—and should be careful not to allow predictions of things that should not be seen.

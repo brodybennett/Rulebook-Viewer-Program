@@ -28,19 +28,19 @@ tags: ["pathway:war-god", "sequence:4"]
 ### Detect Evil
 
 - **Use:** **Free Action**
-- **Check:** **Difficulty Value 15** [[LINK LATER: Inspiration | type=term | hint=skill/attribute used for checks]] + [[LINK LATER: Spot | type=term | hint=skill used for perception/spotting]] check.
+- **Check:** **Difficulty Value 15** [[Inspiration]] + [[Spot]] check.
 - **Effect:** Look for signs of evil, corruption, and contamination; see if any evil creatures exist and have visited you.  
   [[UNCLEAR: The scope and timeframe of “exist and have visited you” are not defined.]]
-- **Limits/Modifiers:** This ability is penalized by the [[LINK LATER: Avoidance of Scrying | type=mechanic | hint=trait that penalizes detection/scrying]] trait.  
+- **Limits/Modifiers:** This ability is penalized by the [[Avoidance of Scrying]] trait.  
   [[UNCLEAR: It is unclear whether the penalty applies based on the user, the target, or the situation.]]
 
 ### Demon Hunt Ritual
 
 - **Use:** Perform a ritual where you hunt demons.
 - **Time:** 10 minutes.
-- **Cost:** 4 [[LINK LATER: Spirituality Points | type=mechanic | hint=resource spent to fuel abilities/rituals]].
+- **Cost:** 4 [[Spirituality]].
 - **Requirements:** Find the traces of demons and understand the types of demons.
-- **Effect:** After the ceremony takes effect, your attack identification results of 18, 19, 20 are considered a [[LINK LATER: Big Success | type=mechanic | hint=enhanced success tier]].
+- **Effect:** After the ceremony takes effect, your attack identification results of 18, 19, 20 are considered a [[Big Success]].
   [[UNCLEAR: “attack identification” is undefined (likely an attack roll/check or identification mechanic).]]
 
 ### Mind Barrier
@@ -51,14 +51,14 @@ tags: ["pathway:war-god", "sequence:4"]
 
 ### Spiritual Disturbance
 
-- **Effect:** Against your [[LINK LATER: Inspiration | type=term | hint=skill/attribute used for checks]] check, the base check of its Inspiration skill is -5, and may cause a [[LINK LATER: Big Failure | type=mechanic | hint=enhanced failure tier]].  
+- **Effect:** Against your [[Inspiration]] check, the base check of its Inspiration skill is -5, and may cause a [[Big Failure]].  
   [[UNCLEAR: The target, timing, and meaning of “may cause a big failure” are not defined.]]
 
 ### Material Identification
 
 - **Effect:** Identify the uses of various materials and prepare corresponding magical potions, holy ointments, essential oils, and special marks.
 - **Time:** 1d20 minutes.
-- **Check:** **Difficulty Value 20** [[LINK LATER: Inspiration | type=term | hint=skill/attribute used for checks]] check.
+- **Check:** **Difficulty Value 20** [[Inspiration]] check.
 - **Limits:** Create up to five magical items per day.
 - **Storage/Duration:** Unless otherwise specified, magical potions can only be stored or effective for 24 hours.
 
@@ -109,13 +109,13 @@ Here’s a list of the magical items you can craft:
 
 - **Purification Potion**
   - **Effect:** Immediately heals all poisons and minor diseases, as well as curses.
-  - **Effect:** Causes 3d6 damage to the [[LINK LATER: Wraiths | type=term | hint=wraiths in the body]] in the body.
-  - **Effect:** Provides 1d3 [[LINK LATER: Sanity Armor | type=mechanic | hint=protective buffer tied to sanity]] (cannot be superimposed with sanity armor except the [[LINK LATER: Audience Pathway | type=pathway | hint=pathway exception for sanity armor stacking]]).  
+  - **Effect:** Causes 3d6 damage to the [[Wraiths]] in the body.
+  - **Effect:** Provides 1d3 [[Sanity Armor]] (cannot be superimposed with sanity armor except the [[Audience Pathway]]).  
     [[UNCLEAR: The “except the Audience Pathway” stacking exception is not precisely defined (who qualifies, and what can stack).]]
 
 > **GM Note:** Other special item effects require approval by the GM.
 
-> **GM Note:** Under special circumstances, you can refer to the [[LINK LATER: Potions Professor | type=term | hint=source list of medicines]] list of medicines for making new medicines. However, the [[LINK LATER: God of War Pathway | type=pathway | hint=pathway suitability for research]] is not a Sequence Pathway suitable for research, so the development of new medicines should be greatly restricted.
+> **GM Note:** Under special circumstances, you can refer to the [[Potions Professor]] list of medicines for making new medicines. However, the [[God of War Pathway]] is not a Sequence Pathway suitable for research, so the development of new medicines should be greatly restricted.
 
 - **Imprint Form Variation:** You can change the manufacturing form of different imprints so they grant 10 points of resistance to the corresponding attributes. This cannot be superimposed.  
   [[UNCLEAR: The relationship between “imprints” and the listed marks is not defined, and “corresponding attributes” is unspecified.]]
@@ -124,14 +124,14 @@ Here’s a list of the magical items you can craft:
 
 [[UNCLEAR: The “God of War” rules appear unrelated to Sequence 4: Demon Hunter and may belong to another Pathway/Sequence.]]
 
-- **Trigger:** Whenever you fall into [[LINK LATER: Madness | type=condition | hint=madness state/trigger]].
+- **Trigger:** Whenever you fall into [[Madness]].
 - **Effect:** Temporarily consume 3 points of **Will Cap** to continue fighting in a normal state.
 - **Limits:** This does not affect your **Will Defense**.
-- **Failure Condition:** If your [[LINK LATER: Sanity | type=mechanic | hint=sanity value/track]] reaches a negative value, you immediately lose the will to fight and cannot continue fighting.
+- **Failure Condition:** If your [[Sanity]] reaches a negative value, you immediately lose the will to fight and cannot continue fighting.
 - **Recovery:** The lost Will Cap can be restored after an hour.
-- **Status Interaction:** You no longer suffer negative effects from blindness, deafness, fear, anger, etc., including negative emotions bestowed by the [[LINK LATER: Black Emperor | type=faction | hint=source of negative emotions/effects]], and will not suffer impairments—although these negative states still exist (e.g., you are still theoretically blind or deaf), you can still act normally through rich combat experience.
-- **Limits:** This does not affect [[LINK LATER: Dreaming | type=mechanic | hint=dream-related effects]]; you will be awakened as usual if you are dreamed.
-- **Special:** If the enemy that triggers these effects is of a higher sequence level than yours, or is an [[LINK LATER: Audience Pathway | type=pathway | hint=audience-path extraordinary]] Extraordinary of the same level as yours, then you will only be affected by its related identification penalty, and you can still work normally without being affected action.  
+- **Status Interaction:** You no longer suffer negative effects from blindness, deafness, fear, anger, etc., including negative emotions bestowed by the [[Black Emperor]], and will not suffer impairments—although these negative states still exist (e.g., you are still theoretically blind or deaf), you can still act normally through rich combat experience.
+- **Limits:** This does not affect [[Dreaming]]; you will be awakened as usual if you are dreamed.
+- **Special:** If the enemy that triggers these effects is of a higher sequence level than yours, or is an [[Audience Pathway]] Extraordinary of the same level as yours, then you will only be affected by its related identification penalty, and you can still work normally without being affected action.  
   [[UNCLEAR: “related identification penalty” and “without being affected action” are undefined/unclear in timing and meaning.]]
 
 - **Sequence 3 Update:** The lost upper limit of will is restored after half an hour.

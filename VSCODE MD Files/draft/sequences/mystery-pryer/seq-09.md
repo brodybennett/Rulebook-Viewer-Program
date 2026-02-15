@@ -20,7 +20,7 @@ You have a comprehensive but preliminary understanding and mastery of mysterious
 
 1. Every time you receive **2 hours** of non-repetitive and effective guidance, your corresponding mysticism / mysticism language rises by **1 level**. You need to learn it **twice** to become proficient in training, and you can learn it quickly to become proficient at most.  
    [[UNCLEAR: The RAW mixes “mysticism / mysticism language” and “learn it twice” without defining the exact skills/states or what “at most” restricts.]]
-2. Learning quickly to become proficient does not prevent deeper study. See [[LINK LATER: Skill Growth/Relationship | type=mechanic | hint=rules for continued study beyond quick proficiency]].
+2. Learning quickly to become proficient does not prevent deeper study. See [[Skill Growth/Relationship]].
 3. Potions only give you qualifications to learn and a channel to quickly understand; you can still study further.
 4. When creating a character that has not just been promoted, you can use **2 times** the inspiration brought by the potion to add points to your occult-related growth skills.  
    [[UNCLEAR: “2 times the inspiration” is not operationally defined (multiplier vs. bonus pool), and “occult-related growth skills” is not enumerated.]]
@@ -34,21 +34,22 @@ You have a comprehensive but preliminary understanding and mastery of mysterious
 ### Spiritual Vision
 
 You obtain more outstanding **Spiritual Vision** because of your inspiration.
-
-- **Use:** 1 [[LINK LATER: Free Action | type=mechanic | hint=action type]] to activate.
-- **Cost:** Spend **1** [[LINK LATER: Spirituality Point | type=term | hint=resource spent to fuel abilities]] per round.
+- **Use:** 1 **free action** to activate.
+- **Cost:** 1 **spirituality point per round** while active.
 - **Effect:** While active, your vision gains the following benefits:
+
+
   1. **Etheric Body:** You can directly see a target’s health status through aura color, identify where their body is uncomfortable or has a problem, and (when it comes to a certain organ) you can see the inside through an unthickened door. You can confirm the number of people inside.
-  2. **Spiritual Body:** You can confirm whether an object/creature has spirituality. You cannot identify extraordinary people. You can also see through a door to view the inside, identify whether there is ritual magic power within, and you can penetrate the spiritual wall. [[LINK LATER: Spiritual Wall | type=mechanic | hint=barrier against spiritual perception]]
+  2. **Spiritual Body:** You can confirm whether an object/creature has spirituality. You cannot identify extraordinary people. You can also see through a door to view the inside, identify whether there is ritual magic power within, and you can penetrate the spiritual wall. [[Spiritual Wall]]
   3. **Mental Body:** You can see the color represented by another person’s emotions, but only in general content (e.g., whether they are depressed or uneasy). Negative emotions are usually a dark tone.
   4. **Astral Body:** You cannot see the astral body.
-  5. While in **Spiritual Vision**, your [[LINK LATER: Spiritual Intuition Test | type=mechanic | hint=check for sensing danger/presence]] gains **+2 beneficial**.
+  5. While in **Spiritual Vision**, your [[Spiritual Intuition Test]] gains **+2 beneficial**.
 
 Additional rules and limitations:
 
 - Dead creatures are usually only dull in color and cannot be identified.
 - Spiritual materials usually have spirituality.
-- The color of materials in **Spiritual Vision** usually represents its corresponding path. This does not mean you can see the power of a [[LINK LATER: Beyonder | type=term | hint=extraordinary being]]. way.  
+- The color of materials in **Spiritual Vision** usually represents its corresponding path. This does not mean you can see the power of a [[Beyonder]]. way.  
   [[UNCLEAR: The RAW ends with “way.” and may be referring to “Pathway,” but the exact intent is unclear.]]
 - The colors seen by **Spiritual Vision** allow you to see each other in the dark, but you can only see the existence of colors; it is still possible to get lost in the dark because the colors you can see are limited.
 - You cannot use these colors to distinguish undead biology.
@@ -66,9 +67,9 @@ Additional rules and limitations:
   [[UNCLEAR: “Succeed or fail in this area” does not specify what roll/action is being resolved.]]
 
 - **Outcome by result (Great success vs. Big failure):**
-  1. **Great Success** [[LINK LATER: Great Success | type=mechanic | hint=degree of success]]: You saw something you shouldn’t have noticed, but fortunately it did not cause a sanity check. You only see some kind of power carrier of the other party, or part of the outline, or you feel the pressure of inspiration—someone is peeping here.  
+  1. **Great Success** [[Great Success]]: You saw something you shouldn’t have noticed, but fortunately it did not cause a sanity check. You only see some kind of power carrier of the other party, or part of the outline, or you feel the pressure of inspiration—someone is peeping here.  
      Great success only lets you unilaterally detect the other party. Unless you actively show any problems, you will not be noticed.
-  2. **Big Failure** [[LINK LATER: Big Failure | type=mechanic | hint=degree of failure]]: In addition to the above, you are aware of the other party, and the other party is also aware of you—you are exposed. This may cause that being to approach or remember you, and you may be bewitched step by step, falling into the abyss of depravity, and even going crazy or out of control on the spot.  
+  2. **Big Failure** [[Big Failure]]: In addition to the above, you are aware of the other party, and the other party is also aware of you—you are exposed. This may cause that being to approach or remember you, and you may be bewitched step by step, falling into the abyss of depravity, and even going crazy or out of control on the spot.  
      “You must be careful and be in awe of extraordinary power.” Praying for the protection of the gods is the only way you can solve this matter.
 
 - **Limitations:** Curtain Peeping is an interpretation of the voyeur’s spiritual intuition and therefore cannot be recorded or stolen.  
@@ -78,7 +79,7 @@ Additional rules and limitations:
 
 You quickly cast a ritual spell.
 
-- **Use:** As a [[LINK LATER: Full-Round Action | type=mechanic | hint=action type]], expend **1** [[LINK LATER: Spellcasting Material | type=item | hint=consumed ingredient for rituals]] to quickly perform a ritual spell.
+- **Use:** As a [[Full-Round Action]], expend **1** [[Spellcasting Material]] to quickly perform a ritual spell.
 
 > **Lore:** In expression, you quickly sprinkle something similar to holy night powder around so it naturally and quickly forms a spiritual wall, then immediately start praying and chanting honorable names, without complicated processes such as altars.
 
@@ -86,7 +87,7 @@ You quickly cast a ritual spell.
 
 **Spellcasting Materials** (concepts applied to higher Sequences):
 
-- Your spellcasting ingredients are equal to **five times** your [[LINK LATER: Reputation Rating | type=mechanic | hint=rating used for social standing/credit]], unless your reputation is proficient.  
+- Your spellcasting ingredients are equal to **five times** your [[Reputation Rating]], unless your reputation is proficient.  
   [[UNCLEAR: The exception “unless your reputation is proficient” does not state the alternative calculation.]]
 - Replenishment:
   1. Whenever your materials are lost, you can go to the market to replenish these common materials.
@@ -94,25 +95,25 @@ You quickly cast a ritual spell.
   3. If you are an official Extraordinary, then even if your reputation is not advanced enough, it will still be counted as advanced when calculating materials.  
      > **GM Note:** This is regarded as reimbursement to the official church. Without a valid application reason for private experiments or “shady” actions, you can only go to the market to buy according to your own credit.
 
-- Compared to [[LINK LATER: Apothecary | type=term | hint=class/role that uses unusual ingredients]], your spellcasting materials do not include cockroach shells or weird/rare-but-useful things, so acquisition is not as demanding.
+- Compared to [[Apothecary]], your spellcasting materials do not include cockroach shells or weird/rare-but-useful things, so acquisition is not as demanding.
 - You should care more about how many materials you can carry than how many you have.
 
 Carrying capacity by clothing:
 
 | Clothing | Spellcasting components you can carry (max) |
 |---|---:|
-| [[LINK LATER: Ordinary Clothes | type=item | hint=clothing category]] | 4 |
-| [[LINK LATER: Performance Tuxedo | type=item | hint=clothing category]] | 8 |
-| [[LINK LATER: Spellcasting Wizard Robes | type=item | hint=clothing category]] | 12 |
+| [[Ordinary Clothes]] | 4 |
+| [[Performance Tuxedo]] | 8 |
+| [[Spellcasting Wizard Robes]] | 12 |
 
 ### Ritual Proficiency
 
 You are proficient in the use of ritual magic.
 
-1. As long as you have been trained in [[LINK LATER: Occultism | type=term | hint=skill for ritual magic]] and know how to use ritual magic, even if you have not reached the advanced level, you can still perform it.
-2. When you cast ritual magic, as long as your occultism is trained, your [[LINK LATER: Occult Identification | type=mechanic | hint=identification check for occult effects]] is successful by default. This only includes the occult identification when performing the ritual magic, and does not include subsequent occult identification when casting borrowed power.
+1. As long as you have been trained in [[Occultism]] and know how to use ritual magic, even if you have not reached the advanced level, you can still perform it.
+2. When you cast ritual magic, as long as your occultism is trained, your [[Occult Identification]] is successful by default. This only includes the occult identification when performing the ritual magic, and does not include subsequent occult identification when casting borrowed power.
 
-- For the ritual magic you can cast, see [[LINK LATER: Chapter Nine: Ritual Magic | type=location | hint=core rules chapter]] and [[LINK LATER: Common Ritual Magic | type=table | hint=ritual list]].
+- For the ritual magic you can cast, see [[Chapter Nine: Ritual Magic]] and [[Common Ritual Magic]].
 - Ritual magic prepared in advance can make an enemy step into your trap, or perform anti-divination on the situation on the scene.
 - Ritual magic is not only available to voyeurs, but they are better at it, have better effects, and can cast it quickly. Sequences that mention ritual abilities in the sequence description can use ritual magic.  
   [[UNCLEAR: “Voyeures” and “Sequences that mention ritual abilities” are not identified by name here.]]
@@ -121,19 +122,19 @@ You are proficient in the use of ritual magic.
 
 You gain the basic ability of **Divination**, but not as strongly as a diviner in this area.
 
-- **Use:** 1 [[LINK LATER: Casting Action | type=mechanic | hint=action type]].
-- **Cost:** Spend **2** [[LINK LATER: Spirituality Point | type=term | hint=resource spent to fuel abilities]].
-- **Procedure:** Choose **1** divination method, then conduct **1** [[LINK LATER: Occult Identification | type=mechanic | hint=identification check for occult effects]].
+- **Use:** 1 [[Casting Action]].
+- **Cost:** Spend **2** [[Spirituality]].
+- **Procedure:** Choose **1** divination method, then conduct **1** [[Occult Identification]].
 
 Difficulty outcomes:
 
-- **Difficulty Value (DV)** [[LINK LATER: Difficulty Value | type=term | hint=target number for checks]]:
+- **Difficulty Value (DV)** [[Difficulty Value]]:
   - DV **15**: Get a very general result (e.g., finding objects only tells you a city).
   - DV **20**: Get a more general result that usually gives a general direction.
 - **Identification failure:** Repeated divination only gets the same result; you need to obtain new clues to divinate again.
 - **Great success:** Get a fairly accurate result (object finding accurate to a certain street).
 - **Big failure:** According to the final value of the appraisal, you still obtain the corresponding content, but attract the attention of related beings. If the corresponding content did not involve hidden beings, then a directly or indirectly related Extraordinary notices being watched.
-  - Aware of the gaze requires a [[LINK LATER: Spiritual Intuition Test | type=mechanic | hint=check for sensing danger/presence]].
+  - Aware of the gaze requires a [[Spiritual Intuition Test]].
   - The existence of higher than **1 person** is detected by default regardless of the difficulty.  
     [[UNCLEAR: “Higher than 1 person” is not a standard comparator and may mean “more than one” or “higher-level than you by 1,” but the RAW is not explicit.]]
 - **Special:** Before obtaining new clues, repeated divination in the same direct

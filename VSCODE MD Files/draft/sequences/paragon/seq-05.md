@@ -26,7 +26,7 @@ tags: ["pathway:paragon", "sequence:5"]
 - These naturally occurring astronomical phenomena do not belong to the Extraordinary. You cannot fully understand the logic and specific composition of these phenomena, so you cannot distinguish between reality and illusion in hallucinations, and use rigorous dialectical logic to find the anchor point of reality.
 - The astronomical phenomenon reproduced through the physical model is also a kind of astronomical phenomenon that extraordinary people have witnessed. With the help of this scale model that can fully understand the principle, process, and duration, Astronomers can distinguish in hallucinations that have been understood and practiced a model of astronomical phenomena, discovering its difference from other astronomical phenomena, so as to find the real anchor, stabilize the self, and complete the promotion.
 
-> **Lore:** Astronomers and astrologers in the [[LINK LATER: Secret Voyeurs Pathway | type=pathway | hint=mentioned as “path of secret voyeurs”]] are similar in purpose. When promoted, they use false knowledge to avoid risks, but one is to imitate falsehood through practice, and the other is to create falsehood through knowledge theory.
+> **Lore:** Astronomers and astrologers in the [[Secret Voyeurs Pathway]] are similar in purpose. When promoted, they use false knowledge to avoid risks, but one is to imitate falsehood through practice, and the other is to create falsehood through knowledge theory.
 
 ## Extraordinary Abilities
 
@@ -81,7 +81,7 @@ tags: ["pathway:paragon", "sequence:5"]
   - **Check:** astronomy against physical defenses.
   - **Effect:** creatures in the area immediately suffer 4d6 fire and 2d6 physical damage.
   - **Duration:** Creatures you attack are breathless for 1 round.
-  - **Condition:** [[LINK LATER: Dyspnea | type=condition | hint=defined here as “Dyspnea state”]]
+  - **Condition:** [[Dyspnea]]
     - **Dyspnea state:** Creatures are unable to communicate, but they can still barely release their language abilities. All creatures with dyspnea have a -2 disadvantage in skill and attribute evaluation.
 
 - **Cerulean Agate**
@@ -96,20 +96,20 @@ tags: ["pathway:paragon", "sequence:5"]
   - **Cost:** consumes 2 points of spirituality.
   - **Targeting and range:** affects an area with a radius of 8 meters centered on you indiscriminately.
   - **Effect:** all creatures in this area gain 5 points of cold resistance, which cannot be superimposed, and lasts for 1 round.
-  - **During the duration:** the wind in the area will increase, the flying movement of the [[LINK LATER: Storm Path | type=pathway | hint=referenced for flying movement]] will be doubled, and the [[LINK LATER: Wind Blade | type=ability | hint=referenced for +1d6 physical damage]] will increase the physical damage by 1d6.
+  - **During the duration:** the wind in the area will increase, the flying movement of the [[Storm Path]] will be doubled, and the [[Wind Blade]] will increase the physical damage by 1d6.
 
 - **Star wood atmosphere**
   - **Effect:** Your body is filled with a dense atmosphere, which hinders others from observing you.
   - This ability has the following uses:
     - **Use:** 1 swift action.
       - **Cost:** consuming 2 points of spirituality.
-      - **Effect:** your body is covered by a dense air layer, which will cover your appearance; only the [[LINK LATER: Peeping Eye | type=term | hint=an observing power/ability]], fate, or the vision of one higher than you can see your real face.
+      - **Effect:** your body is covered by a dense air layer, which will cover your appearance; only the [[Peeping Eye]], fate, or the vision of one higher than you can see your real face.
       - **Special:** Your gaseous appearance appears bulky to others, and you are considered a creature of bulk only in appearance. While in this state, you deal -1d6 physical damage.
     - **Use:** 1 casting action.
       - **Cost:** consuming 2 spirituality points.
       - **Effect:** you create an endless fog of air, covering the entire area, and the air escapes after 1 round if the area is not sealed.
       - **Aftereffects:** Creatures exposed to the fog begin each round with 1d6 points of radiation damage, which affects living creatures only.
-      - **Special:** At the same time, except for the [[LINK LATER: Eye of Mystery | type=term | hint=exception to blindness]] and the [[LINK LATER: One with Extraordinary Destiny | type=term | hint=exception to blindness]], all creatures are considered blind, including yourself.
+      - **Special:** At the same time, except for the [[Eye of Mystery]] and the [[One with Extraordinary Destiny]], all creatures are considered blind, including yourself.
       - [[UNCLEAR: “except for X and Y, all creatures are considered blind, including yourself” is self-conflicting if you are (or are not) among the exceptions.]]
 
 - **Satellite Rings**
@@ -142,7 +142,7 @@ tags: ["pathway:paragon", "sequence:5"]
   - **Trigger:** When you make a close-contact attack with a target.
   - **Effect:** your attack will cause a small explosion, causing an additional 2d6 physical and 1d6 fire damage.
   - **Special:** only for extra damage, you will also suffer half of it, round up, and lose the corresponding HP.
-  - **Special:** If you have the satellite protection of the [[LINK LATER: Sagittarius ring | type=mechanic | hint=referenced as a satellite protection/ring]], the damage you suffer can be offset by consuming a satellite.
+  - **Special:** If you have the satellite protection of the [[Sagittarius ring]], the damage you suffer can be offset by consuming a satellite.
 
 - Other astrology reproductions based on actual astronomical knowledge and concepts. An astronomer recommended that 3 more original astrology can be created if necessary and allowed by the **GM**.
 
@@ -151,16 +151,16 @@ tags: ["pathway:paragon", "sequence:5"]
 - **Effect:** You can predict the future astronomical phenomena to meet the requirements of Mysticism and exert stronger power in a specific period of time.
 - **Use:** 1 casting action.
 - **Cost:** consuming 2 points of spirituality.
-- **Effect:** you get celestial information for the next week, which does not include [[LINK LATER: Blood Moon | type=term | hint=excluded from prediction]]s.
+- **Effect:** you get celestial information for the next week, which does not include [[Blood Moon]]s.
 - Afterwards, roll an rd24 to determine how many hours after a particular star reaches its correct position.
   - [[UNCLEAR: “rd24” is not defined; RAW does not specify what die/mechanic “rd24” represents.]]
 - Perform another 1d7; the random effect will take effect 1 hour after the time is up:
   - **Saturn (Goddess of the Earth):** During the effective period, your strength and constitution +1, restore 1d2 HP every round, and increase your biology by 1 level.
   - **Jupiter (Lord of the Storm):** During the effective period, you get 2 points of damage reduction, strength and agility +1, and those who try to catch you will be like catching a swimming fish, and you cannot be grappled.
   - **Mars (God of War):** During the effective period, your Strength and Constitution +1, and all attack skills increase by one level.
-  - **Sun (Eternal Blazing Sun):** During the effective period, you gain 3 points of resistance to fire, curse, and poison, which cannot be superimposed, and you can see the faint divine breath by the [[LINK LATER: Spirit Vision | type=ability | hint=referenced as a sensing mode]].
+  - **Sun (Eternal Blazing Sun):** During the effective period, you gain 3 points of resistance to fire, curse, and poison, which cannot be superimposed, and you can see the faint divine breath by the [[id:alias-spirit-vision|Spirit Vision]].
   - **Venus (God of Steam and Machinery):** During the effective period, your education will be +2, and craft manufacturing and mechanical maintenance will increase by one level.
-  - **Mercury (God of Knowledge and Wisdom):** During the effective time, your inspiration +1, education +1, and short-term memory, which is only valid for things you see during the effective time, but you can Recall with [[LINK LATER: Wake Up Memory | type=ability | hint=used for Recall]].
+  - **Mercury (God of Knowledge and Wisdom):** During the effective time, your inspiration +1, education +1, and short-term memory, which is only valid for things you see during the effective time, but you can Recall with [[Wake Up Memory]].
   - **Moon (Goddess of the Night):** During the effective period, your strength, constitution, and agility +1, and you can temporarily enter a state where you can maintain your spirit without sleep.
 - (When the first celestial phenomenon effect ends, you can perform another rd24 to determine the next celestial phenomenon time, but 1d7 is no longer needed, and the next celestial phenomenon effect will be directly cycled in order from small to large, until all cycles are 1 time)
   - [[UNCLEAR: “rd24” is undefined, and “cycled in order from small to large” lacks a defined ordering list in RAW.]]

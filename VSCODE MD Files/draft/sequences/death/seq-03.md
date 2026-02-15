@@ -21,11 +21,11 @@ tags: ["pathway:death", "sequence:3"]
 - **Advancement Ritual:** Guide wandering spirits to the underworld; bury tens of thousands of corpses and souls; after fulfilling an angel’s last wish, lead the angel’s remaining spirits to the underworld to rest in peace.
   - (Marked “unofficial ceremony” in RAW.)
 
-- **Substitute Ritual:** Create an upside-down mausoleum at the location of the [[LINK LATER: River of Eternal Darkness | type=location | hint=cosmic river referenced by this Sequence]]. After entering the mausoleum:
-  - Connect yourself with the [[LINK LATER: River of Eternal Darkness | type=location | hint=cosmic river referenced by this Sequence]].
-  - Step into the [[LINK LATER: River of Eternal Darkness | type=location | hint=cosmic river referenced by this Sequence]] to become part of the [[LINK LATER: River Styx | type=location | hint=river name used in this ritual]].
+- **Substitute Ritual:** Create an upside-down mausoleum at the location of the [[River of Eternal Darkness]]. After entering the mausoleum:
+  - Connect yourself with the [[River of Eternal Darkness]].
+  - Step into the [[River of Eternal Darkness]] to become part of the [[River Styx]].
   - Flow up to the end of the river.
-  - Leave an immediate imprint on the [[LINK LATER: River of Darkness | type=location | hint=name used in RAW; may be same as River of Eternal Darkness]].
+  - Leave an immediate imprint on the [[River of Darkness]].
   - (Marked “unofficial ritual” and “reference to some of the original incomplete rituals” in RAW.)
 
 ## Extraordinary Abilities
@@ -39,8 +39,8 @@ tags: ["pathway:death", "sequence:3"]
 - **Effect:**
   - You have become the real dead.
   - Your malice, thoughts, and behavior tendencies are hidden; you become a dead person without thoughts.
-  - No one can read your thoughts except a Beyonder of the [[LINK LATER: Audience Pathway | type=pathway | hint=reads thoughts; same-Sequence exception]] at the same Sequence as you.
-  - The malicious perception of the [[LINK LATER: Abyss Pathway | type=pathway | hint=malicious perception]] is no longer effective against you.
+  - No one can read your thoughts except a Beyonder of the [[Audience Pathway]] at the same Sequence as you.
+  - The malicious perception of the [[Abyss Pathway]] is no longer effective against you.
 
 - **Defenses and damage interactions:**
   - Most attacks except **holy attacks** are no longer effective against you.
@@ -60,10 +60,10 @@ tags: ["pathway:death", "sequence:3"]
   - If the attacker is 1 Sequence higher than you: except for damage types you are immune to, their attacks can have normal effects.
 
 - **Special (damage sharing):**
-  - Damage sharing from the [[LINK LATER: Secret Puppet | type=mechanic | hint=puppet/clone with damage sharing]] with the same personality and different Pathways is still valid for you.
+  - Damage sharing from the [[Secret Puppet]] with the same personality and different Pathways is still valid for you.
   - However, damage applied to you via damage sharing is unilaterally halved; the puppet still receives the full damage.
   - This is not limited to curse damage from sharing; all types of shared damage are unilaterally halved.
-  - If the [[LINK LATER: xenomorph | type=term | hint=term used in RAW for a higher-level case]] is 1 level higher than you, you take full shared damage.
+  - If the [[xenomorph]] is 1 level higher than you, you take full shared damage.
 
 ### River of Eternal Darkness
 
@@ -86,11 +86,11 @@ tags: ["pathway:death", "sequence:3"]
   - [[UNCLEAR: “no limit to the number of times the damage can be lost continuously in each round” is unclear about whether/how damage repeats within a single round.]]
 
 - **Damage type and resistance:**
-  - This is **curse damage**, but it ignores the effects of [[LINK LATER: curse resistance | type=mechanic | hint=resistance to curse damage]] and [[LINK LATER: curse reduction | type=mechanic | hint=damage reduction for curses/curse damage]].
+  - This is **curse damage**, but it ignores the effects of [[Curse Resistance]] and [[Curse Reduction]].
 
 - **Clones and indirect viewing:**
-  - Even through a clone like [[LINK LATER: Secret Puppet | type=mechanic | hint=clone/puppet reference]], if the Secret Puppet owner dares to look directly at you, they suffer half of the damage of looking at you.
-  - The clone of the [[LINK LATER: Mistake Pathway | type=pathway | hint=called “mistake” in RAW]] and the [[LINK LATER: Audience Pathway | type=pathway | hint=independent clone exception]] will not affect the main body because they are very independent.
+  - Even through a clone like [[Secret Puppet]], if the Secret Puppet owner dares to look directly at you, they suffer half of the damage of looking at you.
+  - The clone of the [[Mistake Pathway]] and the [[Audience Pathway]] will not affect the main body because they are very independent.
 
 - **Sequence 2 reference (RAW text):**
   - **Sequence 2:** There is no need to look at each other. Except for the target of the same personality, all creatures you see suffer the damage of the river of death and die almost immediately.
@@ -99,7 +99,7 @@ tags: ["pathway:death", "sequence:3"]
 
 - **Extra:**
   - **Use:** Consume a **casting action**.
-  - **Cost:** 3 [[LINK LATER: Spirituality Points | type=mechanic | hint=resource spent for abilities]].
+  - **Cost:** 3 [[Spirituality]].
   - **Effect:** Endow the Ferryman “no longer thinking” property to one or more designated targets.
     - Halve their physical damage.
     - Make them immune to vital blows.
@@ -119,8 +119,8 @@ tags: ["pathway:death", "sequence:3"]
   - [[UNCLEAR: “1d4/1d6+1” does not specify when to use 1d4 vs 1d6, or how this expression is determined.]]
 
 - **Interaction with Words of the Dead / rebuke:**
-  - It can be released at the same time as the previous [[LINK LATER: Words of the Dead | type=mechanic | hint=prior effect referenced but not included here]] effect.
-  - If released at the same time, the effect of rebuke and negotiation against the attack of its [[LINK LATER: Will defense | type=mechanic | hint=defense targeted by checks]] can allow the above sanity appraisal to be used for the easy-to-crazy effect of the [[LINK LATER: Audience Pathway | type=pathway | hint=easy-to-crazy effect reference]].
+  - It can be released at the same time as the previous [[Words of the Dead]] effect.
+  - If released at the same time, the effect of rebuke and negotiation against the attack of its [[Will Defense]] can allow the above sanity appraisal to be used for the easy-to-crazy effect of the [[Audience Pathway]].
   - [[UNCLEAR: The exact procedure linking “rebuke and negotiation” vs Will defense to the “easy-to-crazy effect” is unclear in RAW.]]
 
 - **RAW clarification text (kept, condensed without changing mechanics):**
@@ -133,13 +133,13 @@ tags: ["pathway:death", "sequence:3"]
   - **Use:** As a **full-round action**, directly transform a creature into your slave.
   - **Effect:** The creature is regarded as an undead creature.
   - **Time/limits:**
-    - It takes 3 minutes for a Beyonder who is not a demigod or lower in the [[LINK LATER: Death Pathway | type=pathway | hint=death-themed Pathway referenced in RAW]].
+    - It takes 3 minutes for a Beyonder who is not a demigod or lower in the [[Death Pathway]].
     - An undead creature of your strength is only a full-round action.
     - The converted creature must be weaker than you.
     - You cannot directly convert a demigod.
     - [[UNCLEAR: The clause “not a demigod or lower in the Death Path” is unclear about which targets require 3 minutes.]]
 
   - **Special case (RAW text):**
-    - If a creature grants you undead qualities, and is one person lower than you, this requires two of your -4 [[LINK LATER: Words of the Dead check | type=mechanic | hint=check referenced in RAW]] against their Will defense.
+    - If a creature grants you undead qualities, and is one person lower than you, this requires two of your -4 [[Words of the Dead check]] against their Will defense.
     - This does not take three minutes; it is achieved with a full-round action, for as long as they are undead.
     - [[UNCLEAR: “one person lower,” “two of your -4 Words of the Dead check,” and duration/maintenance conditions are unclear in RAW.]]

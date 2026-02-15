@@ -10,6 +10,6 @@ tags: ["pathway:myster-pryer", "sequence:0"]
 
 - **Pathway:** Hermit  
 - **Sequence:** 0  
-- See also: [[LINK LATER: Hermit Pathway | type=pathway | hint=core pathway entry]]
+- See also: [[Hermit Pathway]]
 
-> **Lore:** The [[LINK LATER: True God | type=term | hint=cosmology title/rank]] of the Hermit Pathway. It can be transformed into a stream of complex information, and it is a torrent of information in an illusory posture.
+> **Lore:** The [[True God]] of the Hermit Pathway. It can be transformed into a stream of complex information, and it is a torrent of information in an illusory posture.

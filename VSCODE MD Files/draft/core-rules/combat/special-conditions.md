@@ -20,7 +20,7 @@ You are **Off Balance** when you lose your balance and fall to the ground.
 You are **Helpless** when you lose all mental and physical capacity to resist.
 
 - You have completely lost the ability to act. This may be passive fainting/death, or being unable to escape an overwhelmingly powerful enemy. The standard is whether you cannot even move at all.
-- Attacking a helpless creature gains **Advantage**. See [[LINK LATER: Advantage / Disadvantage | type=mechanic | hint=roll modifiers]].
+- Attacking a helpless creature gains **Advantage**. See [[Advantage / Disadvantage]].
 - A helpless creature is treated as being in the **Restrained** condition. Its **Physical Defense** cannot gain the numerical bonuses from Agility (DEX) and Dodge.
 - If a helpless creature has no allies protecting it, then even making a **Vital Strike** against it has no Disadvantage.
 - If a creature still has any means of resistance (and is not completely fainted or dead), even with only vague consciousness, it should **not** be treated as helpless.
@@ -68,7 +68,7 @@ You are **Caught Off Guard** when you suffer an attack outside your predicted ra
 
 **Prerequisite:** Advantage and Disadvantage generally can only be achieved through:
 - Ambush
-- Siege, encirclement, or flanking (see [[LINK LATER: Special Actions | type=rule | hint=flanking rules]])
+- Siege, encirclement, or flanking (see [[Special Actions]])
 
 The GM may also expand trigger conditions based on circumstances.
 
@@ -112,7 +112,7 @@ You are **Blinded** when your eyes are completely blinded; you cannot see the su
    - If the enemy has moved and intentionally concealed their sound, use **Listening opposed by their Stealth** check.
 3. You normally cannot perform **Vital Strike**.
    - If you cannot locate the source of attacks targeting you, you are treated as Caught Off Guard.
-4. If you are better at Intuition (INT), you may replace the Listening check with a **Spiritual Intuition** check (see [[LINK LATER: Special Actions | type=rule | hint=Spiritual Intuition]]).
+4. If you are better at Intuition (INT), you may replace the Listening check with a **Spiritual Intuition** check (see [[Special Actions]]).
 
 > **GM Note:** Sounds with a clear source (gunshots, shouts, screams, glass breaking, metal collisions) do not require a check to lock direction.
 
@@ -239,7 +239,7 @@ HP reduced to 0 or below 0 is treated as **Dying**.
 - Use your Constitution (CON) value as your **death threshold**; this is a negative value.
 - If your HP is below 0 and also less than that negative value: ordinary people die on the spot; Beyonders are adjudicated as ordinary people in the Dying state.
 - If your current negative HP exceeds **twice** your threshold, then even Beyonders die on the spot.
-- After a Beyonder dies, a Beyonder Characteristic will precipitate after **5 minutes**; see [[LINK LATER: Beyonder Characteristics | type=rule | hint=characteristic precipitation]] for details.
+- After a Beyonder dies, a Beyonder Characteristic will precipitate after **5 minutes**; see [[id:alias-beyonder-characteristics|Beyonder Characteristics]] for details.
   - Beyonder creatures are treated the same as Beyonders.
 - Within **24 hours** after a corpse dies, the spirit body usually still remains in the body. After 24 hours, the spirit body begins to leave the corpse. A corpse that has been given a requiem usually cannot be raised as an undead creature.
 

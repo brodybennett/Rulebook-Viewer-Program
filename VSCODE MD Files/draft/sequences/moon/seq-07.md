@@ -11,7 +11,7 @@ tags: ["pathway:moon", "sequence:7"]
 - Obtain a long life, excellent physique, excellent appearance, and master a variety of dark spells.  
   [[UNCLEAR: The descriptor “blood adult” is not explained in RAW.]]
 
-- See also: [[LINK LATER: Moon Pathway | type=pathway | hint=Pathway overview]], [[LINK LATER: Sequence 8 | type=sequence | hint=preceding sequence]], [[LINK LATER: Sequence 6 | type=sequence | hint=subsequent sequence]]
+- See also: [[Moon Pathway]], [[Sequence 8]], [[id:alias-sequence-6|Sequence 6]]
 
 ## Advancement
 
@@ -21,15 +21,15 @@ tags: ["pathway:moon", "sequence:7"]
 - **Replacement:** The main material of the subsequent **Sequence** can be replaced by the bloodline “legacy” of the corresponding **Sequence**.  
   [[UNCLEAR: “Bloodline legacy” as a replacement material is not defined in RAW.]]
 
-> **GM Note:** This main material does not originate from an extraordinary creature, but a vampire. If changing from **Sequence 8** to **Sequence 7**, it usually means you must hunt a vampire to become an artificial vampire, or accept **First Embrace**. [[LINK LATER: Artificial Vampire | type=term|other | hint=sequence advancement method]] [[LINK LATER: First Embrace | type=ritual|mechanic | hint=vampire initiation]]
+> **GM Note:** This main material does not originate from an extraordinary creature, but a vampire. If changing from **Sequence 8** to **Sequence 7**, it usually means you must hunt a vampire to become an artificial vampire, or accept **First Embrace**. [[Artificial Vampire]] [[First Embrace]]
 
 ## Extraordinary Abilities
 
 ### Attribute Gain
 
 - **Attribute Gain:** Strength +2, Constitution +2, Dexterity +2, Charm +2, Inspiration +1.
-- Your [[LINK LATER: Mysticism | type=term|mechanic | hint=skill/stat]] is included in your rapid growth category, up to [[LINK LATER: Proficiency | type=term|mechanic | hint=skill tier]].
-- Skill growth of [[LINK LATER: Sequence 9 | type=sequence | hint=prior sequence]] can start to be learned to [[LINK LATER: Erudition | type=term|mechanic | hint=skill tier]]. The number of growths increases sequentially.  
+- Your [[Mysticism]] is included in your rapid growth category, up to [[Proficiency]].
+- Skill growth of [[Sequence 9]] can start to be learned to [[Erudition]]. The number of growths increases sequentially.  
   [[UNCLEAR: “Rapid growth category,” “up to proficiency,” “learned to erudition,” and the exact “number of growths” rule are not defined in RAW.]]
 
 ### Extraordinary Sense of Smell
@@ -63,7 +63,7 @@ tags: ["pathway:moon", "sequence:7"]
   - **Sequence 6** and **Sequence 5:** The lifespan of each **Sequence** is increased by 100 years.
   - **Sequence 4:** The limit lifespan is increased to 1200 years; the situation is normal for the first 1000 years. After 1000 years, there will be a gradual decline in physical condition, irreversible old age, and the decline and decay of the spirit body.
 
-> **Lore:** Belief in the [[LINK LATER: Primordial Moon (Fallen Mother Goddess) | type=term|faction|other | hint=deity/faith]] will further extend lifespan.
+> **Lore:** Belief in the [[Primordial Moon (Fallen Mother Goddess)]] will further extend lifespan.
 
 ### High-Speed Movement
 
@@ -98,18 +98,18 @@ tags: ["pathway:moon", "sequence:7"]
 
 - **Special:** This allows you to survive even if your head is twisted 180 degrees, as long as the head is not uprooted; you will not be considered moribund for anything other than “moribund due to lack of health state.”  
   [[UNCLEAR: The condition phrasing around “moribund due to lack of health state” is unclear.]]
-  - Even so, you suffer 1/1d2 [[LINK LATER: Sanity | type=term|mechanic | hint=mental stat/resource]] loss each time this forced dying effect occurs.
+  - Even so, you suffer 1/1d2 [[Sanity]] loss each time this forced dying effect occurs.
 
 - **Sequence scaling:**
   - **Sequence 4:** Restore hit points increases to 2d6.
 
 ### Lunar Spells
 
-- You have mastered the spells of the [[LINK LATER: Lunar Realm | type=location|other | hint=spell domain]].
+- You have mastered the spells of the [[Lunar Realm]].
 
 #### Golem Transformation
 
-- **Use:** You transform a creature into your [[LINK LATER: Familia | type=term|mechanic | hint=bound servant]], similar to **First Embrace**. [[LINK LATER: First Embrace | type=ritual|mechanic | hint=vampire initiation]]
+- **Use:** You transform a creature into your [[Familia]], similar to **First Embrace**. [[First Embrace]]
 - **Action:** 1 full-round action.
 - **Targeting and range:** Choose 1 willing/helpless creature.
 - **Effect:** You bite off one of its veins, transforming it into a golem.
@@ -125,7 +125,7 @@ tags: ["pathway:moon", "sequence:7"]
 
 #### First Embrace
 
-- **Use:** You give a creature [[LINK LATER: Extraordinary Traits | type=term|mechanic | hint=bestowed traits]], making it a member of the [[LINK LATER: Pack | type=faction|other | hint=bloodline group]].
+- **Use:** You give a creature [[Extraordinary Traits]], making it a member of the [[Pack]].
 - **Duration:** For at least 1 hour.
 - **Requirements:** In a safe environment, choose a willing/helpless creature that comes into contact with you.
 - **Effect:** You give the target a **Sequence 7** Moon Path Extraordinary Feature; you need to take this feature yourself first:
@@ -136,7 +136,7 @@ tags: ["pathway:moon", "sequence:7"]
   3. Under normal circumstances, the target who enjoys this benefit should be divorced from human society. Changing the name and surname, especially the surname, is regarded as joining your family, but this is only a social style.  
      [[UNCLEAR: The trailing fragment “Object responsible” in RAW is not interpretable.]]
 
-> **Lore:** During the [[LINK LATER: Quaternary Epoch | type=other | hint=historical era]], blood races had extensive friendships with humans, which led to the generation of [[LINK LATER: Half Blood Race | type=term|other | hint=human lineage]]: ordinary humans with red eyes and other characteristics but no extraordinary abilities. Some families of this kind of humans are still connected with blood races, and perhaps they can get First Embrace.
+> **Lore:** During the [[Quaternary Epoch]], blood races had extensive friendships with humans, which led to the generation of [[Half Blood Race]]: ordinary humans with red eyes and other characteristics but no extraordinary abilities. Some families of this kind of humans are still connected with blood races, and perhaps they can get First Embrace.
 
 ### Dark Spells
 

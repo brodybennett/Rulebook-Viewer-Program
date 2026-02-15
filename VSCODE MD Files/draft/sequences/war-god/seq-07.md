@@ -30,7 +30,7 @@ You gain a series of weapon-specific **special moves**:
 - **Sweep:** You sweep all targets in an area.
   - **Use:** 1 **attack action**
   - **Effect:** Your melee attack can select all targets within 1 meter in front of you (large knife: 2 meters).
-  - **Resolution:** Use 1 corresponding skill identification to attack the [[LINK LATER: Physical Defense | type=mechanic | hint=defense targeted by physical attacks]] of all targets at the same time.
+  - **Resolution:** Use 1 corresponding skill identification to attack the [[Physical Defense]] of all targets at the same time.
   - **Targeting and range:** All targets within the stated distance in front of you (see above).
 
 - **Vertical Slash:** You aim at a target with the weapon from top to bottom, chopping at the target as if cutting off a building.
@@ -47,17 +47,17 @@ You gain a series of weapon-specific **special moves**:
 
 - **Straight Thrust:** You direct your attack at the target with precise aim.
   - **Use:** 1 **attack action**
-  - **Effect:** When you use this attack to perform a [[LINK LATER: Critical Strike | type=mechanic | hint=critical hit/strike resolution]], you take a **-2** penalty on the critical strike.
+  - **Effect:** When you use this attack to perform a [[Critical Strike]], you take a **-2** penalty on the critical strike.
 
 - **Slap:** You switch from the blade to the side and blast the target with a slap.
   - **Use:** 1 **attack action**
-  - **Damage:** This attack will only cause damage = [[LINK LATER: Strength Damage Dice | type=mechanic | hint=damage dice based on Strength]].
-  - **Effect:** Ignore **3** points of [[LINK LATER: Armor | type=mechanic | hint=armor value reduced/ignored by some attacks]].
+  - **Damage:** This attack will only cause damage = [[Strength Damage Dice]].
+  - **Effect:** Ignore **3** points of [[Armor]].
   - **Limit:** Cannot ignore negative numbers.
   [[UNCLEAR: “Cannot ignore negative numbers” is not explained; it is unclear what value(s) can be negative and how this limitation applies.]]
 
-- All the above-mentioned special moves get a bonus of [[LINK LATER: Extraordinary Fighting | type=mechanic | hint=bonus applied to special moves]].
-- When used in combination with [[LINK LATER: Double Attack | type=mechanic | hint=two attacks made together]], you can choose different weapons to use the special move for the two attacks.
+- All the above-mentioned special moves get a bonus of [[id:alias-extraordinary-fighting|Extraordinary Fighting]].
+- When used in combination with [[Double Attack]], you can choose different weapons to use the special move for the two attacks.
 
 > **GM Note:** Other GMs allow reasonable special moves.
 

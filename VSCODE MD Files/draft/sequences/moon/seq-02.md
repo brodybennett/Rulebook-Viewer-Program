@@ -10,7 +10,7 @@ tags: ["pathway:moon", "sequence:2"]
 
 > **Lore:** You master the “power of creation,” making the life around you feel the joy of growth and the arrival of new life.
 
-- See also: [[LINK LATER: Blood Duke Pathway | type=pathway | hint=top-level pathway page]]
+- See also: [[Blood Duke Pathway]]
 
 ## Advancement
 

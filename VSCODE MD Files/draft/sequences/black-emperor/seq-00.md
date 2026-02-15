@@ -41,7 +41,7 @@ To advance to **Sequence 0**, the candidate must complete all of the following:
 
 There are **three stages** in the resurrection process of the **Black Emperor**.
 
-- The “Black Emperor” of sex reappeared in the [[LINK LATER: Star Realm | type=location | hint=cosmological realm]].
+- The “Black Emperor” of sex reappeared in the [[Star Realm]].
 - The **three Sequence 1 Extraordinary Characteristics** automatically returned to their emperors.
 - This is an order that **no other true god** can reverse or stop.
 

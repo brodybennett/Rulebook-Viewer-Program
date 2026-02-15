@@ -6,7 +6,7 @@ tags: ["pathway:error-path", "sequence:1"]
 
 # Sequence 1: The Worm of Time
 
-- See also: [[LINK LATER: Pathway | type=pathway | hint=The Pathway for this Sequence is not stated in the RAW.]]
+- See also: [[Pathway]]
 
 ## Advancement
 
@@ -24,9 +24,9 @@ tags: ["pathway:error-path", "sequence:1"]
 
 ### Time Authority
 
-- **Cost:** 5 **spirituality points**. [[LINK LATER: spirituality points | type=term | hint=Resource spent to use abilities]]
-- **Use:** 1 **casting action**. [[LINK LATER: casting action | type=mechanic | hint=Action type used to activate abilities]]
-- **Limits:** Twice per **encounter**. [[LINK LATER: encounter | type=mechanic | hint=Combat/scene time unit used for limits]]
+- **Cost:** 5 **spirituality points**. [[Spirituality]]
+- **Use:** 1 **casting action**. [[Casting Action]]
+- **Limits:** Twice per **encounter**. [[Encounter]]
 - **Targeting and range:** Choose a **scene** or a single **target**. [[UNCLEAR: The RAW also says “can be used only for one target” while allowing scene-based use; it is unclear how these statements reconcile.]]
 
 > **Lore:** An ancient mottled huge phantom forms behind you, like a stone-carved wall clock face divided into twelve grids (gray/black, alternating, each with different symbols). An indescribable invisible torrent emerges, as if traveling through a long history.
@@ -37,7 +37,7 @@ Choose one of the following effects when you use **Time Authority**:
   - The pointer moves forward rapidly, and time acceleration appears in the largest city within the range you specify; the specific state time will be advanced according to your spiritual consumption, as if you have experienced the erosion of time.
   - During combat, the time state of the designated target is considered to have passed 5 rounds, approximately equal to one encounter.
   - This is only a reference: as long as the special effects on the designated target have a duration, then these special effects will usually be cleared when the effective time expires, unless these effects can last for a year.
-  - **Extra:** If there is an **Extraordinary** with **Sequence** 3 or below [[LINK LATER: Sequence | type=term | hint=General Sequence rules and definitions]] and a remaining lifespan of less than 300 years on the field, he will immediately turn into a hunchbacked white-haired old man. If he has no ability to counteract in this state, he will become a Truly becoming an old man; this is a permanent effect. [[UNCLEAR: The RAW phrasing “become a Truly becoming an old man” is unclear; it appears to indicate a permanent transformation if not counteracted.]]
+  - **Extra:** If there is an **Extraordinary** with **Sequence** 3 or below [[Sequence]] and a remaining lifespan of less than 300 years on the field, he will immediately turn into a hunchbacked white-haired old man. If he has no ability to counteract in this state, he will become a Truly becoming an old man; this is a permanent effect. [[UNCLEAR: The RAW phrasing “become a Truly becoming an old man” is unclear; it appears to indicate a permanent transformation if not counteracted.]]
 
 - **Time Stagnation:**
   - The pointer gradually stagnates here.
@@ -50,6 +50,6 @@ Choose one of the following effects when you use **Time Authority**:
 
 ### Stealing
 
-- **Effect:** If you become the **King of Angels** [[LINK LATER: King of Angels | type=term | hint=Rank/advancement state]] (multiple copies of **Sequence** 1 characteristics [[LINK LATER: Sequence 1 characteristics | type=term | hint=What counts as a Sequence 1 characteristic]] or accommodate **uniqueness** [[LINK LATER: uniqueness | type=term | hint=Rules for accommodating uniqueness]]), then your stealing can try to steal the authority of **Sequence** 0 [[LINK LATER: Sequence 0 | type=sequence | hint=General rules for Sequence 0 authority]] for a short time.
-- Even if you’re not, you can already steal other people’s time, and steal other people’s **anchors** [[LINK LATER: anchors | type=term | hint=What an “anchor” is and how it can be stolen]] on a large scale.
-  - The latter requires you to steal in a concentration place of believers. [[LINK LATER: concentration place of believers | type=location | hint=Definition/requirements for a believer concentration place]]
+- **Effect:** If you become the **King of Angels** [[King of Angels]] (multiple copies of **Sequence** 1 characteristics [[Sequence 1 characteristics]] or accommodate **uniqueness** [[uniqueness]]), then your stealing can try to steal the authority of **Sequence** 0 [[Sequence 0]] for a short time.
+- Even if you’re not, you can already steal other people’s time, and steal other people’s **anchors** [[anchors]] on a large scale.
+  - The latter requires you to steal in a concentration place of believers. [[concentration place of believers]]

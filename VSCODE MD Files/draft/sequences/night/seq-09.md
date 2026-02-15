@@ -12,7 +12,7 @@ tags: ["pathway:night", "sequence:9"]
 
 The favored ones of the night have excellent eyesight even without light. They require only three to four hours of rest per day, and become increasingly energetic as night deepens—growing superior in strength, agility, thinking, and inspiration compared to ordinary people. They can also keenly sense unknown dangers and hidden existences in darkness.
 
-- See also: [[LINK LATER: Darkness Pathway | type=pathway | hint=Pathway overview]]
+- See also: [[Darkness Pathway]]
 
 ## Extraordinary Abilities
 
@@ -58,13 +58,13 @@ Special timing definitions:
 
 Sequence scaling note:
 
-- [[LINK LATER: Darkness Pathway Sequence 8 | type=sequence | hint=Quick Dodge permanence]]: Quick Dodge changes from limited (night/late night) to permanent; even if you lose **Blessed of the Night**, it will not disappear.
+- [[Darkness Pathway Sequence 8]]: Quick Dodge changes from limited (night/late night) to permanent; even if you lose **Blessed of the Night**, it will not disappear.
 
 Related mechanics:
-- [[LINK LATER: Attribute and Skill Identification | type=mechanic | hint=definition of identification and “beneficial”】【type=mechanic | hint=advantage-like tag?]]
-- [[LINK LATER: Dodge | type=mechanic | hint=levels and effects]]
-- [[LINK LATER: Physical Defense | type=mechanic | hint=how complete defense works]]
-- [[LINK LATER: Light/Lightning Modification | type=mechanic | hint=attack modification interaction]]
+- [[Attribute and Skill Identification]]
+- [[Dodge]]
+- [[Physical Defense]]
+- [[Light/Lightning Modification]]
 
 ### No Sleep
 
@@ -77,20 +77,20 @@ Related mechanics:
 
 Sequence scaling notes:
 
-- [[LINK LATER: Darkness Pathway Sequence 8 | type=sequence | hint=rest duration scaling]]–[[LINK LATER: Darkness Pathway Sequence 6 | type=sequence | hint=rest duration scaling]]: It only takes **3 hours** to rest starting from Sequence 8 (may differ by **5 minutes**), and each Sequence is reduced by **1 hour**.
-- [[LINK LATER: Darkness Pathway Sequence 5 | type=sequence | hint=rest duration scaling]]: It only takes **half an hour** to rest (difference can be **10 minutes**).  
+- [[Darkness Pathway Sequence 8]]–[[Darkness Pathway Sequence 6]]: It only takes **3 hours** to rest starting from Sequence 8 (may differ by **5 minutes**), and each Sequence is reduced by **1 hour**.
+- [[Darkness Pathway Sequence 5]]: It only takes **half an hour** to rest (difference can be **10 minutes**).  
   [[UNCLEAR: The stated “each Sequence is reduced by 1 hour” conflicts with the explicit Sequence 5 rest time of half an hour.]]
 
 Related mechanics:
-- [[LINK LATER: Spirituality | type=mechanic | hint=resource restored by rest]]
-- [[LINK LATER: Energy | type=mechanic | hint=resource restored by rest]]
+- [[Spirituality]]
+- [[Energy]]
 
 ### Darkvision
 
 **Darkvision:** Even in a completely dark environment, you can maintain normal vision. This does not mean you can directly ignore extraordinary abilities that hide using shadows or darkness.
 
 Related mechanics:
-- [[LINK LATER: Concealment by Shadows/Darkness | type=mechanic | hint=extraordinary hiding rules]]
+- [[Concealment by Shadows/Darkness]]
 
 ### Premonition of Danger
 
@@ -107,27 +107,27 @@ Whenever you are about to suffer a surprise/sneak attack from within darkness/sh
 
 Sequence scaling notes:
 
-- [[LINK LATER: Darkness Pathway Sequence 8 | type=sequence | hint=premonition display change]]: The thought no longer flashes through the mind; the corresponding screen flashes instead. On the premise that you don’t dodge, you can see the corresponding result.
-- [[LINK LATER: Darkness Pathway Sequence 7 | type=sequence | hint=inspiration identification auto-success]]: Your Inspiration identification is successful by default.
-- [[LINK LATER: Darkness Pathway Sequence 6 | type=sequence | hint=perceive higher-sequence targets]]: You can perceive the danger of a person higher than you.
+- [[Darkness Pathway Sequence 8]]: The thought no longer flashes through the mind; the corresponding screen flashes instead. On the premise that you don’t dodge, you can see the corresponding result.
+- [[Darkness Pathway Sequence 7]]: Your Inspiration identification is successful by default.
+- [[Darkness Pathway Sequence 6]]: You can perceive the danger of a person higher than you.
 
 Related mechanics:
-- [[LINK LATER: Surprise | type=mechanic | hint=surprise rules]]
-- [[LINK LATER: Sneak Attack | type=mechanic | hint=sneak rules]]
-- [[LINK LATER: Blood Volume | type=mechanic | hint=maximum blood volume and rounding]]
-- [[LINK LATER: Inspiration Appraisal | type=mechanic | hint=how to resolve appraisals/identification]]
-- [[LINK LATER: Difficulty Value | type=term | hint=DV resolution rules]]
-- [[LINK LATER: Temporary Bonus | type=mechanic | hint=stacking and duration rules]]
+- [[Surprise]]
+- [[Sneak Attack]]
+- [[Blood Volume]]
+- [[Inspiration Appraisal]]
+- [[Difficulty Value]]
+- [[Temporary Bonus]]
 
 ### Vision
 
 **Vision:** You gain vision, but it is not as effective for you as your own inspiration.
 
 Activation:
+- **Use:** 1 free action.
+- **Cost:** Consuming 1 **spirituality point** per round.
+- **Effect:** You activate vision, and your vision gains the following benefits:
 
-- **Use:** 1 [[LINK LATER: Free Action | type=mechanic | hint=action economy definition]]
-- **Cost:** 1 [[LINK LATER: Spirituality Points | type=mechanic | hint=resource spent to sustain]] per round
-- **Effect:** Activate vision (enter the **Spirit Vision** state) and gain the following benefits:
 
 1. **Etheric body:** You can roughly tell whether the target’s body is good or bad through aura color, but you can’t get detailed information.
 2. **Spiritual body:** You can confirm whether an object/creature has spirituality; this cannot identify extraordinary people.
@@ -142,14 +142,14 @@ Notes:
 
 Sequence scaling notes:
 
-- [[LINK LATER: Darkness Pathway Sequence 6 | type=sequence | hint=expanded spirit vision]]:
+- [[Darkness Pathway Sequence 6]]:
   - Observing the etheric body can directly see spiritual organisms and the physical condition of different parts of the target.
   - When examining a specific organ in detail: the mental body can begin to distinguish the corresponding Pathways of different spiritual materials.
   - The mental body can see the target’s general emotions.
 - Spirit Vision can see some ordinary spirit bodies by default (not dissipated for 24 hours) and cannot be recorded or stolen.
 
 Related mechanics:
-- [[LINK LATER: Spirit Vision | type=mechanic | hint=state definition and limits]]
-- [[LINK LATER: Spiritual Intuition Test | type=mechanic | hint=test procedure and “beneficial”】【type=mechanic | hint=advantage-like tag?]]
-- [[LINK LATER: Spiritual Materials | type=term | hint=what counts as spiritual material]]
-- [[LINK LATER: Extraordinary People | type=term | hint=definition/criteria]]
+- [[id:alias-spirit-vision|Spirit Vision]]
+- [[Spiritual Intuition Test]]
+- [[Spiritual Materials]]
+- [[Extraordinary People]]

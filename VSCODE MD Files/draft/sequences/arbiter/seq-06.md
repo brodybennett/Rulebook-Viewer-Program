@@ -21,11 +21,11 @@ Set new rules for a certain area. Everything in the area must abide by the rules
 - You can start to learn **Law** more quickly.
 
 - Whenever you, as a judge, sum up the guilt of a certain type of non-repetitive case and pronounce a verdict based on appropriate reasons and standards that meet the crime, your legal skills will rise by 1 level.
-- For growth and restrictions, refer to [[LINK LATER: Sequence 9: Most Knowledgeable | type=sequence | hint=growth and restrictions reference]].
+- For growth and restrictions, refer to [[Sequence 9: Most Knowledgeable]].
 
 ### Authority
 
-> **Lore:** You have indescribable majesty, which is a qualitative change in the ability of the [[LINK LATER: Arbitrator | type=ability | hint=prior extraordinary ability that Authority upgrades]].
+> **Lore:** You have indescribable majesty, which is a qualitative change in the ability of the [[Arbitrator]].
 
 - **Cost:** None (no **Spirituality Points** required).
 - **Use:** 1 **Free Action** to turn on/off.
@@ -35,14 +35,14 @@ Set new rules for a certain area. Everything in the area must abide by the rules
   2. Except for the fear caused by you, the emotions of all creatures within the range will not have a substantial impact, but they still exist. Exploding desires can still force people to act, but continuous compulsory action will only take effect once, and the explosion of desires will still be effective.
   3. Targets lower than your Sequence level will not be able to look directly at you, and targets lower than your level will directly bow their heads and feel oppressed.
 - **At Sequence 5:** The effect of (1) is changed to a real fear effect, but it will not force the target to move.  
-  [[LINK LATER: Sequence 5 | type=sequence | hint=Authority upgrade point within the same Pathway]]
+  [[Sequence 5]]
 
 ### Prohibition!
 
 You set new rules for a certain area; everything in the area must follow the rules and act.
 
 All Laws below require speaking the language that leverages the power of nature to use.  
-[[LINK LATER: Language that leverages the power of nature | type=term | hint=required spoken language for Laws]]
+[[Language that leverages the power of nature]]
 
 - **Cost:** 2 Spirituality Points.
 - **Use:** 1 **Swift Action**, 1 time per round.
@@ -67,8 +67,8 @@ All Laws below require speaking the language that leverages the power of nature 
 1. **Prohibited ability/behavior**
    - You read out a type of extraordinary ability or prohibited behavior; the two are not contradictory.
    - Examples:
-     - “Teleportation is prohibited here!”: [[LINK LATER: Spirit World Shuttle | type=ability | hint=example teleportation ability]], [[LINK LATER: Flame Leap | type=ability | hint=example teleportation ability]], [[LINK LATER: Moon Flash | type=ability | hint=example teleportation ability]], etc. cannot be executed, but does not include swapping positions.
-     - “Hiding is prohibited here!”: [[LINK LATER: Invisibility | type=ability | hint=example hiding ability]] / [[LINK LATER: Shadow hiding | type=ability | hint=example hiding ability]] is forced to reveal. [[LINK LATER: Wraith | type=ability | hint=spirit-body state/ability]] is still a spirit body but exposed. Stealth behavior in the conventional sense will also force the body to leave the bunker so that the appearance is exposed to everyone.
+     - “Teleportation is prohibited here!”: [[Spirit World Shuttle]], [[Flame Leap]], [[Moon Flash]], etc. cannot be executed, but does not include swapping positions.
+     - “Hiding is prohibited here!”: [[Invisibility]] / [[shadow hiding]] is forced to reveal. [[Wraith]] is still a spirit body but exposed. Stealth behavior in the conventional sense will also force the body to leave the bunker so that the appearance is exposed to everyone.
      - “Flying is prohibited here!”: Flying units will immediately begin falling to the ground, but gliding/floating is not considered flying.
    - A sentence of prohibition does not necessarily have only one content, but at most two. (Example: “Flying and floating are prohibited here!”)  
      The two concepts banned together should be similar (example: flying is similar to floating; stealing is not similar to cheating).
@@ -95,7 +95,7 @@ All Laws below require speaking the language that leverages the power of nature 
 - **Targeting and range:** Choose 1 target.
 - **Check:** Inspiration + Law against physical defense; ignores armor.
 - **Effect:**
-  - The target is considered to be in a [[LINK LATER: Bound State | type=condition | hint=state applied by Imprisoned]].
+  - The target is considered to be in a [[Bound State]].
   - The target’s attack/displacement cannot reach the outside world, but the outside world can attack the target.
   - To escape, it needs to cause damage equal to the judge’s “rd20 + Inspiration + Law” to the wall. The external damage will also damage the wall when it hits the target.
   - **Special:**
@@ -136,7 +136,7 @@ This ability has two uses:
      - For non-spiritual binding/sealing effects: Inspiration + Legal substitution corresponding break-away identification; if not, against the caster’s Inspiration + Will identification.
      - For each Sequence the caster is higher than you: Inspiration + Legal Check -2 disadvantage.
      - For every 1 character higher than you, the caster: Inspiration + Legal identification -2 disadvantages; 2 higher than you ignore great success.
-     - The binding/closing effect achieved by the [[LINK LATER: Black Emperor | type=pathway | hint=approach that creates distortion-based binding/sealing]] approach through distortion falls into this category.
+     - The binding/closing effect achieved by the [[Black Emperor]] approach through distortion falls into this category.
      - Distortion of behavior/intent, or an effect of loss of action similar to shock/spiritual body string, as long as there is no material restraint, does not belong to this category.  
   [[UNCLEAR: “Legal substitution corresponding break-away identification,” the stacking of the Sequence/“character” disadvantage rules, and “ignore great success” are not defined clearly in this section.]]
 
@@ -154,7 +154,7 @@ This ability has two uses:
   - You can attack up to three times in a row and make three identifications. Each additional identification consumes 1 more Spirituality Point.
 - **Special:**
   - This essentially allows you to hold an invisible soft whip as a weapon, so your original weapon has no effect.
-  - (Whiplashes created with the Law cannot be synergized with [[LINK LATER: Whip of Pain | type=ability | hint=synergy restriction]].)
+  - (Whiplashes created with the Law cannot be synergized with [[Whip of Pain]].)
 
 ### Exile!
 
@@ -181,7 +181,7 @@ After declaring the target dead, you cause powerful damage.
 1. **Melee collision**
    - **Cost:** 8 points of Spirituality.
    - **Use:** 1 **Attack Action**.
-   - **Check:** Inspiration + Legal identification against physical defense, ignoring agility and dodge; excluding targets that can [[LINK LATER: Avoid light/lightning | type=mechanic | hint=exclusion clause for Death]].
+   - **Check:** Inspiration + Legal identification against physical defense, ignoring agility and dodge; excluding targets that can [[Avoid light/lightning]].
    - **Effect:**
      - Your body is united with some strange power, dragging afterimages to collide to the enemy.
      - This is a melee effect.
@@ -190,7 +190,7 @@ After declaring the target dead, you cause powerful damage.
 2. **Ranged body-part judgment**
    - **Cost:** 8 Spirituality Points.
    - **Use:** 1 **Spell-casting Action**.
-   - **Check:** Inspiration + Legal identification against physical defense, ignoring agility and dodge; excluding targets that can [[LINK LATER: Avoid light/lightning | type=mechanic | hint=exclusion clause for Death]].
+   - **Check:** Inspiration + Legal identification against physical defense, ignoring agility and dodge; excluding targets that can [[Avoid light/lightning]].
    - **Effect:**
      - You specify 1 of its body parts to only cause “Inspiration + Law” fixation value damage.
      - This is a ranged effect (only for ranged use).

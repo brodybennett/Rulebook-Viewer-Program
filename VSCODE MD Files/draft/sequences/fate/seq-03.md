@@ -8,7 +8,7 @@ tags: ["pathway:fate", "sequence:3"]
 
 ## Chaos Walker
 
-- You are a **Sequence** 3 **Saint** of the [[LINK LATER: Wheel of Fortune Pathway | type=pathway | hint=pathway overview]].
+- You are a **Sequence** 3 **Saint** of the [[Wheel of Fortune Pathway]].
 
 ## Advancement
 

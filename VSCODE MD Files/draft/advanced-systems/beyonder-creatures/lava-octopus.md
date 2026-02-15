@@ -14,7 +14,7 @@ A pale, bloodless, translucent octopus. Its flesh-and-blood brain sits at the ce
 
 ## Habits and Society
 
-> **Lore:** Rava octopuses are arrogant and curious, and they enjoy spying on other creatures' privacy to "reveal the truth." They often publicize a victim's private matters to various creatures in the [[LINK LATER: Astral World | type=location | hint=plane or realm referenced by extraordinary creatures]] as a joke.
+> **Lore:** Rava octopuses are arrogant and curious, and they enjoy spying on other creatures' privacy to "reveal the truth." They often publicize a victim's private matters to various creatures in the [[Astral World]] as a joke.
 
 > **Lore:** Rava octopuses possess a strong level of technology. By "revealing the future," they produce unreasonable technological creations.
 
@@ -39,10 +39,10 @@ In dungeons, you can occasionally find high-tech items made by gold pounds or Ra
 ## Basic Data
 
 - **Attributes:** Charisma 4; Strength 2; Luck 4; Dexterity 2; Constitution 4; Will 5; Inspiration 5; Education 4.
-- **Physical Defense:** 16 (10 + 4 deflection + 2 agility). [[LINK LATER: deflection | type=term | hint=defense component used in Physical Defense calculation]] [[LINK LATER: agility | type=term | hint=defense component used in Physical Defense calculation]]
+- **Physical Defense:** 16 (10 + 4 deflection + 2 agility). [[deflection]] [[Agility]]
 - **Health:** 14
 - **Skills:** Swimming; scouting; history; shooting proficiency; Intimidate; Pleasure; Deception; any two science skills trained.
-- **First sighting:** A creature that first encounters a Rava Octopus suffers 0/1 SC. [[LINK LATER: SC | type=mechanic | hint=check referenced as X/YdZ throughout this entry]]
+- **First sighting:** A creature that first encounters a Rava Octopus suffers 0/1 SC. [[SC]]
 
 ## Extraordinary Ability
 
@@ -56,7 +56,7 @@ In dungeons, you can occasionally find high-tech items made by gold pounds or Ra
 2. **Second hit:** Triggers SC (1/1d3) for seeing internal organs or other things.
 3. **Third hit:** The victim is automatically blind (the light passes through the eyeball, so they can't see anything).
 4. **Fourth hit:** The victim is automatically stunned.
-- **Duration:** Ray-induced transparency is usually permanent until dispelled, or until the Rava octopus uses a [[LINK LATER: Reversal Ray | type=mechanic | hint=effect that dispels ray-induced transparency]].
+- **Duration:** Ray-induced transparency is usually permanent until dispelled, or until the Rava octopus uses a [[Reversal Ray]].
 
 ## Common Items
 

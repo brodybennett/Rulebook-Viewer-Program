@@ -8,7 +8,7 @@ tags: ["pathway:myster-pryer", "sequence:5"]
 
 ## Astrologer
 
-- **Pathway:** [[LINK LATER: Secret-Seeker Pathway | type=pathway | hint=Referenced as “secret-seeker's path” and “secret-seeking eye”]]
+- **Pathway:** [[Secret-Seeker Pathway]]
 - **Sequence:** 5
 
 ## Advancement

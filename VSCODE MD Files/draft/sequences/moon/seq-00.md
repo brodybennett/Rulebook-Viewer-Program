@@ -13,9 +13,10 @@ tags: ["pathway:moon", "sequence:0"]
 ## Extraordinary Abilities
 
 ### Divine Gaze
-
 - **Use:** When any creature recites your **True Name**.
-- **Effect:** You can gaze at the surroundings of that creature.
+- **Effect:** You can gaze at the surroundings of that creature, and use your extraordinary abilities to target the area at will.
+
+
 - **Targeting and range:** The area around the creature you are gazing through; you may use your extraordinary abilities to target that area at will.
 
 ### Mother of All Spirits
@@ -31,4 +32,4 @@ tags: ["pathway:moon", "sequence:0"]
 - **Aftereffects:** The negative power can ravage the earth, allowing the **Spirit World** to interact with reality for a long time, releasing countless unspeakable monsters and evil spirits.  
   [[UNCLEAR: The scope and exact mechanical impacts of these world-scale effects are not specified.]]
 - **Additional effect:** At the same time, you can also turn the red moon into **Bright Moonlight**.
-- **Limits:** A **White Moon** will not have any mystic effects, equivalent to a “dispelled moonlight block.” [[LINK LATER: Moonlight Block | type=mechanic | hint=referenced as “dispelled moonlight block”]]
+- **Limits:** A **White Moon** will not have any mystic effects, equivalent to a “dispelled moonlight block.” [[Moonlight Block]]

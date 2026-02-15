@@ -34,16 +34,16 @@ A Beyonder can complete a character sheet in about 5 minutes using the steps bel
 
 1. **Download a character sheet.**
 2. **Roll starting attributes.** In the group, enter the command: `.r 8#2d3`  
-   The system generates 8 numbers. Fill them into your character sheet's attribute boxes in left-to-right order. (See [[LINK LATER: Chapter 3: Attributes | type=rule | hint=attributes chapter]].)
-3. **Set Inspiration and Education.** Determine your **Inspiration** and **Education** values. Choose a number of **Trained Skills** equal to your Inspiration (example: if you have 6 starting Inspiration, choose 6 skills to be trained). Choose a number of proficient core-profession skills equal to your Education (example: if you have 6 starting Education, choose 6 skills to be proficient). (See [[LINK LATER: Chapter 4: Trained Skills and Professions | type=rule | hint=skills and professions chapter]].)
-4. **Choose a Sequence.** Choose the **Sequence** you like. (See [[LINK LATER: Chapter 10: Sequences | type=rule | hint=sequence chapter]].) Add the attributes directly, then fill all **Beyonder Abilities** into the "Profession Description" section.
+   The system generates 8 numbers. Fill them into your character sheet's attribute boxes in left-to-right order. (See [[Chapter 3: Attributes]].)
+3. **Set Inspiration and Education.** Determine your **Inspiration** and **Education** values. Choose a number of **Trained Skills** equal to your Inspiration (example: if you have 6 starting Inspiration, choose 6 skills to be trained). Choose a number of proficient core-profession skills equal to your Education (example: if you have 6 starting Education, choose 6 skills to be proficient). (See [[Chapter 4: Trained Skills and Professions]].)
+4. **Choose a Sequence.** Choose the **Sequence** you like. (See [[Chapter 10: Sequences]].) Add the attributes directly, then fill all **Beyonder Abilities** into the "Profession Description" section.
 5. **Write your background and character concept.**
 
 At this point, character creation is complete. Next, find a **GM** to start the game.
 
 ### Optional Reading
 
-- In [[LINK LATER: Chapter 14: "Bombard and Kill Beyonders" Module Guide | type=rule | hint=module guide chapter]], find the Sequence you chose and read its general introduction, core [[LINK LATER: Acting | type=mechanic | hint=acting rules]] guidelines, and play style.
+- In [[Chapter 14: "Bombard and Kill Beyonders" Module Guide]], find the Sequence you chose and read its general introduction, core [[id:alias-acting|Acting]] guidelines, and play style.
 
 [[UNCLEAR: Some editions reference Chapter 14 under a different title ("The Hidden Sage's Diary"); confirm this crosslink points to the intended module guide.]]
 

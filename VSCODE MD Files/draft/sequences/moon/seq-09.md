@@ -8,7 +8,7 @@ tags: ["pathway:moon", "sequence:9"]
 
 ## Pharmacist
 
-> **Lore:** Another negative Pathway corresponds to the [[LINK LATER: Tarot - Moon | type=term | hint=Tarot card "Moon"]]. Its [[LINK LATER: Uniqueness | type=term | hint=pathway uniqueness]] manifests as a crimson moon.
+> **Lore:** Another negative Pathway corresponds to the [[Tarot - Moon]]. Its [[Uniqueness]] manifests as a crimson moon.
 
 - Skilled at preparing potions; domesticating and using plants and certain parts of deceased animals to treat people.
 - Strong resistance to toxins.
@@ -43,20 +43,20 @@ tags: ["pathway:moon", "sequence:9"]
 - **Check:** Pharmacy or chemistry skill identification, Difficulty 20.
 - **Cost:** Use enough materials to concoct the potion.
 
-- **Potion Capacity (by [[LINK LATER: Reputation | type=mechanic | hint=levels incl. trained/proficient/advanced/mastered]]):**
+- **Potion Capacity (by [[Reputation]]):**
   - Multiply your reputation level by 10 (not the reputation value). The final result equals the total number of potions you can concoct.
   - Example: Trained = 10 bottles; proficient = 20 bottles; advanced = 30 bottles.
 - Whenever the total number of potions is exhausted for the first time in the mod, roll 1d7 to determine how many days until the medicinal material supplier you cooperate with arrives to replenish the amount of potions you can deploy; subsequent replenishment time is fixed every 7 days. [[UNCLEAR: “mod” is not defined here (e.g., module/adventure).]]
 - If your reputation is mastered, the total number of potions you can craft can be negligible. [[UNCLEAR: “negligible” is not mechanically precise (does this remove the limit?).]]
 - If you are wanted, have no way to establish a supply channel for medicinal materials, or leave your long-term settlement (without negotiating a new supplier), medicinal materials will not be able to circulate in a normal form.
 - If you don’t have time to wait for the source of goods, you can go to the local market to obtain medicinal materials:
-  - The total amount of medicinal materials you can obtain immediately equals 5 × your [[LINK LATER: Credit | type=mechanic | hint=credit value/credit level]] value.
+  - The total amount of medicinal materials you can obtain immediately equals 5 × your [[Credit]] value.
   - You can choose to burn the credit level to expand the total amount of medicinal materials you can obtain immediately. Each time you lower your credit level, you can overdraw to obtain 10 more medicinal materials.
   - The temporarily reduced credit level affects your credit appraisal until funds are replenished; only then can it be restored. [[UNCLEAR: “credit appraisal” is not defined here.]]
 
 ### Drinking a Potion
 
-- **Action:** Drinking a potion is a [[LINK LATER: Move Action | type=rule | hint=action economy]], or **2** [[LINK LATER: Swift Action | type=rule | hint=action economy]]s.
+- **Action:** Drinking a potion is a [[Move Action]], or **2** [[Swift Action]]s.
 
 ### Pharmaceutical Agents
 
@@ -77,7 +77,7 @@ tags: ["pathway:moon", "sequence:9"]
    > **Lore:** “Healing secret medicine” is a general term. Different diseases require different medicines and materials, so it usually cannot be made in advance; the right medicine can only be prescribed immediately after confirming the cause of the lesion. The form can be quite “evil” (e.g., cockroach shells, chicken blood), and may look dark green/black or smell/taste terrible.
 2. **Healing Potion:**
    - Can be stored in advance.
-   - Restore 2d6 [[LINK LATER: HP | type=mechanic | hint=hit points]].
+   - Restore 2d6 [[HP]].
    - Promote rapid healing of wounds.
    - Can be taken orally or sprinkled on the wound.
 3. **Analgesic essential oil:**
@@ -87,7 +87,7 @@ tags: ["pathway:moon", "sequence:9"]
    - Can also be used as a local anesthetic (applied for local anesthesia; taken internally for general anesthesia).
    - About an hour to take effect; other constitution-related will tests will usually also enjoy benefits.
    - Note: This is just analgesic; apart from allowing Extraordinary people to maintain their actions, it will not bring any positive effect on the actual damage to the body.
-   - If the wound is not healed after the time is over, it will bring tearing pain to the Extraordinary, causing 0/1 [[LINK LATER: Sanity | type=mechanic | hint=sanity loss]] loss.
+   - If the wound is not healed after the time is over, it will bring tearing pain to the Extraordinary, causing 0/1 [[Sanity]] loss.
    - Smelling it will not consume the potion; smearing it consumes half; taking it consumes it all.
 4. **Refreshing Medicinal Wine:**
    - Takes effect only after taking it.
@@ -95,7 +95,7 @@ tags: ["pathway:moon", "sequence:9"]
    - Lasts for 5 minutes; after 5 minutes, you fall into a state of fatigue.
    - Divided into alcohol and non-alcohol versions; effect is the same.
 5. **Preventive Potion:**
-   - The basic value of [[LINK LATER: Physical Defense | type=mechanic | hint=defense value]] +4.
+   - The basic value of [[Physical Defense]] +4.
    - Does not affect physical attributes.
    - Lasts for half an hour.
 6. **Sleep Aid Potion:**
@@ -105,12 +105,12 @@ tags: ["pathway:moon", "sequence:9"]
 7. **Sedative Potion:**
    - Versions: injections and internal.
    - Injections usually require fights against a type of Extraordinary with tough skin to fight against their physical defenses.
-   - Narcotics will keep the user in a semi-meditative state (see [[LINK LATER: Special Actions | type=rule | hint=meditation states]]).
+   - Narcotics will keep the user in a semi-meditative state (see [[Special Actions]]).
    - Taking 2 will put you in a fully meditative state.
    - If you are in any emotional/crazy symptoms, you need to take 3 to fully meditate.
    - This full meditative state supports your normal actions. Excessive consumption will cause you to fall into a state of fatigue.
    - Exhausted state: You lose 1 cast/attack/move over time, or 2 swift actions.
-   - [[LINK LATER: Malevolence Perception | type=mechanic | hint=detecting malice]] can still perceive your malice, but each time malice appears, you can use your will against its inspiration to determine whether it is perceived. You must fully meditate to gain this benefit.
+   - [[Malevolence Perception]] can still perceive your malice, but each time malice appears, you can use your will against its inspiration to determine whether it is perceived. You must fully meditate to gain this benefit.
    - Tranquility potions give you a -1 benefit on sanity loss checks, but have no effect on promotions.
    - To the anesthetic of the same raw material, drug resistance will develop if it is used multiple times, and the amount of its constitution/2 will take effect after three subsequent injections. [[UNCLEAR: The drug-resistance rule is not clearly stated (especially “constitution/2” and timing).]]
 8. **Anesthesia:**
@@ -119,16 +119,16 @@ tags: ["pathway:moon", "sequence:9"]
    - Two anesthesia can cause the voluntary/helpless target to lose consciousness for 5 minutes.
      - The disadvantage can be changed to -4 at most.
      - It will not cause complete loss of pain sensation.
-     - Any damage can be recovered with 15 [[LINK LATER: Will Test | type=mechanic | hint=check vs DV]]. [[UNCLEAR: “Any damage can be recovered” is vague about scope and timing.]]
+     - Any damage can be recovered with 15 [[Will Test]]. [[UNCLEAR: “Any damage can be recovered” is vague about scope and timing.]]
    - An anesthetic drug can also achieve local anesthesia, so that the will test of part of the body to replace the constitution is successful by default.
    - Adverse effects do not affect Wisdom checks or will checks made in place of constitution.
 9. **Heart-strengthening secret medicine:**
-   - Only for targets in a [[LINK LATER: Blood Bath | type=condition | hint=critical injury state]] or [[LINK LATER: Dying | type=condition | hint=dying state]] state: their constitution appraisal +2.
+   - Only for targets in a [[Blood Bath]] or [[Dying]] state: their constitution appraisal +2.
    - Otherwise: constitution appraisal -2.
    - (Essence is the goal of dealing with heart failure. Once the constitution check is -2, every time the constitution fails, 1d6 health points will be lost.) [[UNCLEAR: When the repeated constitution checks occur is not specified here.]]
 10. **Muscle relaxation secret medicine:**
    - After taking it, starting next round: the user's strength is -2; the muscles of the whole body begin to relax; the moving force is halved.
-   - Note: Muscle relaxant, [[LINK LATER: Requiem | type=item | hint=potion/medicine]], and analgesic essential oils taken orally in sequence can produce a complete anesthesia effect for half an hour, equivalent to complete fainting of a creature. If there is no breathing method similar to a ventilator, it will suffocate after 5 minutes and die.
+   - Note: Muscle relaxant, [[Requiem]], and analgesic essential oils taken orally in sequence can produce a complete anesthesia effect for half an hour, equivalent to complete fainting of a creature. If there is no breathing method similar to a ventilator, it will suffocate after 5 minutes and die.
    > **GM Note:** This is difficult to use for murder. To avoid chemical reactions, the three bottles of potions cannot be mixed together, so it needs to be taken/injected three times.
 
 - Other medicines allowed and reasonable by GM.
@@ -139,9 +139,9 @@ tags: ["pathway:moon", "sequence:9"]
 
 1. **Poison bottle:**
    - Throwing skills against Physical Defense.
-   - Causes 1d6 poison damage each round until the opponent uses a successful [[LINK LATER: First Aid | type=skill | hint=identification action to cleanse poison]] identification action to cleanse the poison.
+   - Causes 1d6 poison damage each round until the opponent uses a successful [[First Aid]] identification action to cleanse the poison.
    - Can be applied to other weapons; poison damage cannot be superimposed with any poison damage.
-   - Applying it to a semi-biological weapon like the [[LINK LATER: Talon of Corruption | type=item | hint=semi-biological weapon]] will cause you to be affected by the poison as well.
+   - Applying it to a semi-biological weapon like the [[Talon of Corruption]] will cause you to be affected by the poison as well.
 2. **Flame Explosion Bottle:**
    - Throw against Physical Defense.
    - Creates a miniature explosion; causes 1d6 fire damage and 1d6 physical damage.
@@ -165,7 +165,7 @@ tags: ["pathway:moon", "sequence:9"]
 7. **Sublimation steam:**
    - After throwing, the hot and cold liquid in the bottle expands and sublimates; warm white mist fills the whole room.
    - If the room is not sealed, sublimation steam escapes after 1 round; it is difficult to find remote targets in the steam.
-   - Except for the special perception of [[LINK LATER: Mystery Eye | type=term | hint=special perception]] / [[LINK LATER: Destiny | type=term | hint=special perception]], if there is no way to confirm the location in other ways, and the [[LINK LATER: Spirit Vision | type=mechanic | hint=vision ability; Sequence 7 reference]] does not reach Sequence 7, it results in -2 for long-range attack and -4 for detection.
+   - Except for the special perception of [[Mystery Eye]] / [[Destiny]], if there is no way to confirm the location in other ways, and the [[id:alias-spirit-vision|Spirit Vision]] does not reach Sequence 7, it results in -2 for long-range attack and -4 for detection.
 
 - Other GM permitted and reasonable chemicals.
 
@@ -181,7 +181,7 @@ tags: ["pathway:moon", "sequence:9"]
 
 ### Vision (Health-Focused)
 
-- **Activation:** 1 free action; consume 1 [[LINK LATER: Spirituality Points | type=mechanic | hint=resource]] per round.
+- **Activation:** 1 free action; consume 1 [[Spirituality]] per round.
 - While active, your vision gains the following benefits:
   1. **Etheric body:** You can directly see through the aura field of the target where they have specific physical defects, down to a certain organ in detail. After being confirmed in this way, it will be beneficial for you to identify +2 when you specially prepare medicines for their diseases.
      - (But even if you can determine the cause/disease and prescribe the right medicine, you still don’t know exactly where they got sick.)

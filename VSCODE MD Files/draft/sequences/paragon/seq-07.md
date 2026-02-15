@@ -30,7 +30,7 @@ You judge the type and function of a thing or item.
      - an extraordinary item made of spiritual materials, or
      - an extraordinary item made of extraordinary characteristics.
    - If it is one of the first three forms, you can identify the specific remaining effective time.
-   - For the difference between these extraordinary items, refer to [[LINK LATER: Chapter Eight: Extraordinary Items | type=other | hint=rules reference for extraordinary item categories]].
+   - For the difference between these extraordinary items, refer to [[Chapter Eight: Extraordinary Items]].
    - **Special:** For extraordinary items larger than 1 character of you, you can only get 1d2 items of information at most. You can use 1 hour of identification to get up to 2d3 items of information; the latter overlaps with the former. [[UNCLEAR: “larger than 1 character of you” is not defined (size/scale is ambiguous).]]
 
 2. **Identification of extraordinary materials:** You immediately know the **Pathway**, purpose, and name of the extraordinary materials, or whether they are the main and auxiliary materials of the potion.
@@ -47,7 +47,7 @@ You can detect whether an object within your field of vision is spiritual, or wh
   - see whether an item has spirituality, then judge whether it belongs to extraordinary items; or
   - see whether an item has defects, including whether it has a delicate and complex structure.
 - **Special:** When you witness an extraordinary material/characteristic/item, you can directly determine the **Pathway** it belongs to, provided that you already know the existence of this Pathway.
-  - Example: you can tell which material belongs to the [[LINK LATER: Red Priest Pathway | type=pathway | hint=example Pathway named in this ability]] only after you know the Pathway of the Red Priest.
+  - Example: you can tell which material belongs to the [[Red Priest Pathway]] only after you know the Pathway of the Red Priest.
 - **Limits:** This can only give the most basic information above. To obtain detailed information, you must use **Spiritual Identification**.
   - This includes not only mechanical items, but also whether some artworks have obvious signs of forgery.
   - This explanation of the vision cannot be recorded or stolen.

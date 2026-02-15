@@ -6,7 +6,7 @@ tags: ["pathway:mutant", "sequence:9"]
 
 # Mutant Pathway: Sequence 9
 
-> **Lore:** The Mutant Pathway represents unbridled desire, corresponding to the Tarot card [[LINK LATER: Temperance | type=term | hint=Tarot card]].
+> **Lore:** The Mutant Pathway represents unbridled desire, corresponding to the Tarot card [[Temperance]].
 >
 > **Lore:** Extraordinary people of this Pathway are also called heterogeneous. They are transformed into various monsters due to the negative effects brought about by Extraordinary characteristics. An instinctive, distorted, and suppressed bloodthirsty desire hides in their hearts. If they do not control themselves and vent desire wantonly, they become increasingly ruthless until their minds are completely distorted.
 
@@ -52,10 +52,10 @@ What they have in common are the preconditions for crimes or a criminal action.
 
 ### Restrain Your Desires and Gain Momentum
 
-- **Prerequisite:** This can only be obtained by the [[LINK LATER: Temperance faction | type=faction | hint=specified subfaction]] of the [[LINK LATER: xenopath | type=other | hint=term used in RAW]].
+- **Prerequisite:** This can only be obtained by the [[Temperance faction]] of the [[xenopath]].
 - **Effect:**
   1. You will not be affected by emotional states such as anger, fear, charm, etc., but you are still considered to have these emotional states. For example, you are considered to be in a state of anger, but you will not get any benefits and disadvantages from the state of anger.
-  2. In addition, when you fall into a state of madness, as long as you do not lose control, you can maintain normal actions, excluding the [[LINK LATER: full moon curse | type=condition | hint=madness-related]] and [[LINK LATER: uncertain madness | type=condition | hint=madness subtype]]. Uncertain madness will not force you to act, but will make you lose 1 action continuously to suppress.
+  2. In addition, when you fall into a state of madness, as long as you do not lose control, you can maintain normal actions, excluding the [[id:alias-full-moon-curse|full moon curse]] and [[uncertain madness]]. Uncertain madness will not force you to act, but will make you lose 1 action continuously to suppress.
 - **Special:** The emotional impact of a person greater than 1 of you is only halved, rounded up.
   - [[UNCLEAR: “a person greater than 1 of you” does not specify what is being compared (rank, attribute, or other).]]
 
@@ -63,19 +63,19 @@ What they have in common are the preconditions for crimes or a criminal action.
 
 ### Sexual Behavior
 
-- **Prerequisite:** This can only be obtained by the [[LINK LATER: heterosexual pathway | type=pathway | hint=term used in RAW; may be a translation label]].
+- **Prerequisite:** This can only be obtained by the [[heterosexual pathway]].
 - **Effect:**
   1. Unless there are special circumstances, your insane state defaults to violent tendencies, which is regarded as a kind of anger without effects. After falling into a state of insanity, you must use your freedom, spellcasting, and attack to deal with your enemies or vent.
   2. Unless your remaining HP < your total HP divided by 4, or you or someone else has passed the Difficulty Value 20 psychological guidance test with 1 spellcasting, otherwise you cannot retreat, nor can you save your teammates, and you cannot show mercy.
 - **Special:** Once you suffer mental damage, you will fall into madness, unless the enemy is 2 ranks or 1 rank higher than you.
-- **Benefit:** No matter how much sanity you lose, you won't go into [[LINK LATER: indeterminate madness | type=condition | hint=madness subtype]].
+- **Benefit:** No matter how much sanity you lose, you won't go into [[indeterminate madness]].
 
 > **GM Note:** You should not suppress your desires in normal times, and do it immediately when you have the idea of action, but this does not mean that you are a fool. When facing things that threaten your life, you will still try your best repress yourself.
 
 ### Favor of the Starry Sky
 
-- **Prerequisite:** Only Extraordinary people who belong to the [[LINK LATER: Rose School of Thought | type=faction | hint=organization]] are available.
-- **Setting Constraint:** The module timeline should be the period when the [[LINK LATER: Fifth Epoch | type=term | hint=era]] Rose School split, when the [[LINK LATER: Indulgence School | type=faction | hint=subgroup]] dominated and the [[LINK LATER: Temperance School | type=faction | hint=subgroup]] fled.
+- **Prerequisite:** Only Extraordinary people who belong to the [[Rose School of Thought]] are available.
+- **Setting Constraint:** The module timeline should be the period when the [[Fifth Epoch]] Rose School split, when the [[Indulgence School]] dominated and the [[Temperance School]] fled.
 - **Effect:** By default, your divination appraisal can only reach the minimum success level, and a big success can only increase the success level by 1.
 - **Death:** If you die, the psychic cannot obtain direct and effective information from you.
 
@@ -86,10 +86,11 @@ What they have in common are the preconditions for crimes or a criminal action.
 - Some Temperance Schools who escaped from the Rose School of Thought have mastered the method of releasing this bondage. Angels who have not mastered the method can only reduce the impact. If it is a Beyonder characteristic, it can be smashed repeatedly until it has almost no impact, but it is also unable to divination formulas and information.
 
 ### Vision
-
 - **Use:** 1 free action.
-- **Cost:** Consuming 1 spirituality point per round.
+- **Cost:** Consuming 1 **spirituality point** per round.
 - **Effect:** You activate vision, and your vision gains the following benefits:
+
+
   1. **Etheric body:** You can directly see the health status of the target through the color of the aura, and directly find out where the other party's body is uncomfortable, where there is a problem, and it is specific to a certain organ.
   2. **Spiritual body:** You can confirm whether an object/creature has spirituality, which cannot identify extraordinary people.
   3. **Mental Body:** You can confirm whether the other person is thinking, but you cannot see more content.

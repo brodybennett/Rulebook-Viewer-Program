@@ -21,27 +21,27 @@ tags: ["pathway:arbiter", "sequence:2"]
 ### Attribute Gain
 
 - **Attribute Gain:** Charisma +3; Inspiration +1; Dexterity +1; Strength +1; Constitution +1.
-- **Skill Gain:** [[LINK LATER: Law skill | type=term | hint=skill]] +1 skill level.
+- **Skill Gain:** [[Law skill]] +1 skill level.
 
 ### Sage's Balance
 
-- **Use:** **Free Action** [[LINK LATER: Free Action | type=mechanic | hint=action economy]].
-- **Cost:** 5 **spiritual points** [[LINK LATER: spiritual points | type=term | hint=resource pool]] (total).
+- **Use:** **Free Action** [[Free Action]].
+- **Cost:** 5 **spiritual points** [[Spiritual Points]] (total).
 - **Targeting and range:** Choose a designated area within 1 kilometer of you as the center (includes you and everyone in the area).
 - **Effect:**
-  - You “balance” the designated area by speaking the corresponding **law** (decree). [[LINK LATER: law (decree) | type=mechanic | hint=spoken law used to apply balancing]]
+  - You “balance” the designated area by speaking the corresponding **law** (decree). [[law (decree)]]
   - Determine the **strongest** and **weakest** Sequence levels present in the area and use them as the benchmark.
   - Set everyone in the area (including you) to the same “intensity” Sequence level:
     - Add the strongest and weakest Sequence levels, divide by 2, and **round up** to a whole Sequence level.
     - Example: if the strongest is Sequence 1 and the weakest is Sequence 9, then (1 + 9) ÷ 2 = 5, so everyone becomes Sequence 5.
   - Existing higher-Sequence abilities do not disappear, but their **strength** is reduced to match the balanced Sequence level.
   - Any Beyonder weaker than the balanced Sequence level is promoted to that level immediately in **personality** and strength, but does **not** gain higher-Sequence abilities.
-  - Within the affected area, there is no more **personality suppression**. [[LINK LATER: personality suppression | type=mechanic | hint=coercion/suppression between differing personalities]]
+  - Within the affected area, there is no more **personality suppression**. [[Personality Suppression]]
   - Additional adjustment for targets above your Sequence:
     - For each Sequence level an affected person is higher than you, their resulting balanced Sequence level is **-1**.
     - Example (using the Sequence 1 vs Sequence 9 case above): even if others become Sequence 5, if you are Sequence 2 and apply this to a Sequence 1, that target’s resulting level becomes Sequence 4 (not Sequence 5).
   - Special case—**King of Angels**:
-    - A King of Angels is treated as a separate personality improvement. If the enemy is a King of Angels, their personality is raised by another level on the basis of Sequence 1. [[LINK LATER: King of Angels | type=term | hint=entity classification tied to personality beyond Sequence 1]]
+    - A King of Angels is treated as a separate personality improvement. If the enemy is a King of Angels, their personality is raised by another level on the basis of Sequence 1. [[King of Angels]]
   - This does not change the outcome for other low-Sequence Beyonders in the area: all low-Sequence Beyonders are still promoted to the corresponding Sequence 5 level, regardless of whether the strongest exceeds your Sequence level.
   - Leader adjustment when an existence “breaks through the limit”:
     - If there is an existence that breaks through restrictions via high-level status, then **only for you**, your Sequence level in this law is **+1**; otherwise, calculate as usual.
@@ -60,14 +60,14 @@ tags: ["pathway:arbiter", "sequence:2"]
   - Example: if an ordinary person becomes a “transcendent” at Sequence 5, but someone breaks through the limit and reaches Sequence 4, they will still suffer suppression of Sequence 4 against Sequence 5, but they will be suppressed by the “substitute person.”
   [[UNCLEAR: The meaning of “substitute person” in this example is not defined.]]
 
-> **GM Note:** This decree can take effect in any city, but if you are a “wild” Beyonder, it may cause the city’s forces to chase you. [[LINK LATER: wild Beyonder | type=term | hint=unaffiliated Beyonder]]
+> **GM Note:** This decree can take effect in any city, but if you are a “wild” Beyonder, it may cause the city’s forces to chase you. [[wild Beyonder]]
 
 ### Balancer
 
 - **Effect:** You sense imbalances in the order around you.
 - **Use:** When hidden, invisible, corrupted, dark, undead, or other forces that violate the order are present, you may immediately make a **legal appraisal** against the enemy’s **will defense** and locate the corresponding target.
-  - [[LINK LATER: legal appraisal | type=mechanic | hint=check/test used to detect targets]]
-  - [[LINK LATER: will defense | type=mechanic | hint=defense opposed by legal appraisal]]
+  - [[Legal Appraisal]]
+  - [[Will Defense]]
 - **Targeting and range:** 1 kilometer radius.
 
-- **At Sequence 1:** Expands to a city, and you can know how the corresponding imbalance appeared and the general ins and outs of the subsequent whole thing. [[LINK LATER: Sequence 1 | type=sequence | hint=upgrade to this ability in the same Pathway]]
+- **At Sequence 1:** Expands to a city, and you can know how the corresponding imbalance appeared and the general ins and outs of the subsequent whole thing. [[id:alias-sequence-1|Sequence 1]]

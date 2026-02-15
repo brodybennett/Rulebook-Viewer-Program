@@ -25,7 +25,7 @@ Alchemists can infuse souls into crafted items, grant them a measure of life, an
 
 ### Life Drain
 
-- **Cost:** 6 [[LINK LATER: Spirituality Points | type=term | hint=resource spent to use abilities]]
+- **Cost:** 6 [[Spirituality]]
 - **Use:** **spellcasting action**
 - **Targeting and range:**
   - Area centered on you with a **diameter** of about 1–5 kilometers, or
@@ -40,26 +40,26 @@ Alchemists can infuse souls into crafted items, grant them a measure of life, an
   - This extraction turns soil into deserts, dries up lakes, and makes life unsuitable for survival.
   - Instead of an area, you can use this effect to attack an individual for **1d6–5d6** damage, at your choice.
 - **Aftereffects:**
-  - You gain [[LINK LATER: Temporary Hit Points | type=term | hint=temporary HP rules]] equal to **2d6–10d6**.
+  - You gain [[Temporary Hit Points]] equal to **2d6–10d6**.
   - These hit points heal your wounds first; hit points beyond the damage quickly fade after a few minutes.
 
 ### Forged Formation
 
 - **Use:** **spellcasting action**
-- **Check:** Pass a [[LINK LATER: Crafting Check | type=mechanic | hint=skill check used for crafting]] with [[LINK LATER: Difficulty Value | type=term | hint=check difficulty system]] 20.
+- **Check:** Pass a [[Crafting Check]] with [[Difficulty Value]] 20.
 - Extra crafting time can improve your skill check, assuming you work 4 hours a day:
-  - Day 1: [[LINK LATER: Identification | type=term | hint=skill or check name]] +5
+  - Day 1: [[Identification]] +5
   - 1 week: Identification +5
-  - 1 month: [[LINK LATER: Appraisal | type=term | hint=skill or check name]] +5
+  - 1 month: [[Appraisal]] +5
   - 1 year: Appraisal +5
   - 10 years: Appraisal +5
   - 100 years: Identification +5; after that, Identification +5 every 100 years.
 - Successful skill identification allows you to manufacture:
-  - [[LINK LATER: Alchemy Arm | type=item | hint=mechanical arm replacement/add-on]]
-  - [[LINK LATER: Alchemy Eye | type=item | hint=mechanical eye replacement/add-on]]
-  - [[LINK LATER: Alchemy Heart | type=item | hint=secondary/replacement heart]]
-  - [[LINK LATER: Alchemy Brain | type=item | hint=alchemy machinery component]]
-  - [[LINK LATER: Alchemy Vehicle | type=item | hint=alchemy machinery vehicle]]
+  - [[Alchemy Arm]]
+  - [[Alchemy Eye]]
+  - [[Alchemy Heart]]
+  - [[Alchemy Brain]]
+  - [[Alchemy Vehicle]]
   - Other alchemy machinery
 
 #### Alchemy Arm
@@ -68,8 +68,8 @@ A mechanical arm that can automatically combine with the human body to replace o
 
 - Each arm beyond the creature’s natural number of arms can perform an additional attack action.
 - A robotic arm deals **2d6** damage.
-- Its [[LINK LATER: Strength | type=term | hint=attribute]] counts as 5 points.
-- Each additional arm requires an additional use of a [[LINK LATER: Special Fighting Skill | type=term | hint=skill referenced by extra arms]].
+- Its [[Strength]] counts as 5 points.
+- Each additional arm requires an additional use of a [[Special Fighting Skill]].
 - For every 5 of your skill check above 20, you can make and fit an additional arm for a creature or machine (e.g., skill check 25 allows two alchemical arms for a human).
 
 #### Alchemy Eye
@@ -77,7 +77,7 @@ A mechanical arm that can automatically combine with the human body to replace o
 A mechanical eye that can see everything around it. It can replace the eyeball of a living body, or be additionally installed on other people or machines.
 
 - All alchemy eyes can transmit information to your body.
-- You can use the [[LINK LATER: Spot | type=term | hint=skill name]] skill with the mechanical eye to find what is around you.
+- You can use the [[Spot]] skill with the mechanical eye to find what is around you.
 - For every 5 of your skill check higher than 20, you can manufacture and install an additional mechanical eye for a creature or machine.
 - If your skill check is 25, you can get two alchemical eyes, which will always pass the signal to you.
 
@@ -86,13 +86,13 @@ A mechanical eye that can see everything around it. It can replace the eyeball o
 A second heart that replaces the normal heart. It can replace the heart of a living being, or be additionally installed on other people or machines, thereby completely changing their physique.
 
 - The physique of a living being carrying an alchemical heart becomes 6.
-- When making an alchemy heart, your [[LINK LATER: Constitution | type=term | hint=attribute]] +1 for every 5 higher than 20 in your skill check. [[UNCLEAR: It is not stated whether this Constitution increase is permanent, temporary, or applies to the maker vs. the recipient.]]
+- When making an alchemy heart, your [[Constitution]] +1 for every 5 higher than 20 in your skill check. [[UNCLEAR: It is not stated whether this Constitution increase is permanent, temporary, or applies to the maker vs. the recipient.]]
 
 ### Animate Object
 
 You create and animate an object.
 
-- You imbue an object you create with all of your [[LINK LATER: Temporary Hit Points | type=term | hint=temporary HP rules]], giving it life and movement.
+- You imbue an object you create with all of your [[Temporary Hit Points]], giving it life and movement.
 
 ### Animate a Puppet
 
@@ -105,7 +105,7 @@ You create and animate a puppet.
 You practice an object.
 
 - You use a craft to make an identification or to create an object you expect. This usually does not involve creatures.
-- This is the field opposite to the [[LINK LATER: Ancient Alchemist | type=term | hint=referenced counterpart]] of the [[LINK LATER: Earth Path | type=pathway | hint=referenced pathway/context]]: “Ancient alchemist” is life refining, and you make objects.
+- This is the field opposite to the [[Ancient Alchemist]] of the [[Earth Path]]: “Ancient alchemist” is life refining, and you make objects.
 
 ### Cycle of Life
 
@@ -114,15 +114,15 @@ Alchemists can give or strip life force from items.
 #### Empower
 
 - Alchemists can grant life force by touching a target.
-- If it is an [[LINK LATER: Extraordinary Item | type=item | hint=item category]], an item composed of a single [[LINK LATER: Characteristic | type=term | hint=building-block trait]] will go out of control, and an item composed of multiple characteristics will explode.
+- If it is an [[Extraordinary Item]], an item composed of a single [[Characteristic]] will go out of control, and an item composed of multiple characteristics will explode.
 - The explosion value and range depend on (extraordinary craft level × number of characteristics that make up the item).
-- If it is not the characteristics of the same personality, it needs to be calculated separately; after summing, the range takes the highest [[LINK LATER: Sequence Characteristic | type=term | hint=highest-sequence characteristic]] of the item. [[UNCLEAR: “Characteristics of the same personality” and the exact calculation procedure are not defined here.]]
+- If it is not the characteristics of the same personality, it needs to be calculated separately; after summing, the range takes the highest [[Sequence Characteristic]] of the item. [[UNCLEAR: “Characteristics of the same personality” and the exact calculation procedure are not defined here.]]
 
 #### Stripping
 
 - By consuming spirituality, the alchemist strips the target's vitality from the surrounding environment into itself.
 - Alchemists can draw life force from the surrounding environment at a ratio of **1:2** to supplement their own lost life points.
-- Alchemists can also pay **20** points of spirituality at a time to completely suppress [[LINK LATER: Out-of-Control Monsters | type=condition | hint=state referenced here]] whose highest level characteristics do not exceed those of alchemists.
+- Alchemists can also pay **20** points of spirituality at a time to completely suppress [[Out-of-Control Monsters]] whose highest level characteristics do not exceed those of alchemists.
 - The Extraordinary item of its own sequence makes the activity on it temporarily fall asleep. [[UNCLEAR: The subject and effect of this sentence are ambiguous (what item, and what “activity” sleeps).]]
 
 ### Alchemy
@@ -133,7 +133,7 @@ Alchemists use a **free-casting action** that consumes spirituality to complete 
 
 - **Cost:** 4 points of spirituality
 - **Effect:** Decompose matter by manipulating the gap between materials.
-  - Can dismantle mechanical enemies (causing damage after deducting [[LINK LATER: Armor Damage Reduction | type=mechanic | hint=damage mitigation rule]] × 2), or
+  - Can dismantle mechanical enemies (causing damage after deducting [[Armor Damage Reduction]] × 2), or
   - Non-living matter (such as some walls blocking the way).
 
 #### Qualitative Change

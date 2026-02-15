@@ -10,7 +10,7 @@ tags: ["pathway:abyss", "sequence:8"]
 
 > **Lore:** Known as “Cold-Blooded One” in ancient times, this Beyonder has lost their conscience and grown more inhuman, gaining demonic, magic-like abilities.
 
-- See also: [[LINK LATER: Abyss Pathway | type=pathway | hint=Sequence list and overview]]
+- See also: [[Abyss Pathway]]
 
 ## Extraordinary Abilities
 
@@ -19,13 +19,13 @@ tags: ["pathway:abyss", "sequence:8"]
 - **Attribute Gain:** Strength +1, Agility +1, Constitution +2, Inspiration +1.
 - Your **Mysticism** is added to the **Quick Learning** category of Sequence 9, which can be improved to **Proficiency**.
 - The **Sequence 9 potion** skill can be upgraded to **Advanced**.
-  - [[LINK LATER: Quick Learning | type=term | hint=skill category]]
-  - [[LINK LATER: Sequence 9 | type=sequence | hint=referenced for skill category and potion skill]]
+  - [[Quick Learning]]
+  - [[Sequence 9]]
 
 ### Inhuman Body
 
 - **Effect:** You recover health much faster than others.
-- **Natural recovery time:** The time required for your body to naturally restore life is only **10 hours**, **rounded up**. See [[LINK LATER: Recovery of Spirituality and Other States | type=mechanic | hint=natural recovery rules]] for details.
+- **Natural recovery time:** The time required for your body to naturally restore life is only **10 hours**, **rounded up**. See [[Recovery of Spirituality and Other States]] for details.
 - **Sequence scaling:**
   - **Sequence 7:** Changed to every **8 hours**.
   - **Sequence 6:** Changed to every **6 hours**.
@@ -40,9 +40,9 @@ tags: ["pathway:abyss", "sequence:8"]
 - **Forced/restrictive effects:** If these conditions have any special effect on you, such as forcing or restricting your actions, you can ignore such incidents.
 - **Special:** Targets one level higher than you have the full effect on you normally.
 - *(This is a potion benefit that cannot be recorded or stolen.)*
-  - [[LINK LATER: Charm | type=condition]]
-  - [[LINK LATER: Anger | type=condition]]
-  - [[LINK LATER: Fear | type=condition]]
+  - [[Charm]]
+  - [[anger]]
+  - [[Fear]]
 
 ### Broken Wings
 
@@ -68,8 +68,8 @@ tags: ["pathway:abyss", "sequence:8"]
   - **Potion Completely Digested:** Choose another demon-like spell to get it.
   - Every time a **Sequence** or **position** is promoted: choose **1** more demon-like spell to get.
   - When you upgrade the **position**, you can get **2** more.
-  - [[LINK LATER: Potion Completely Digested | type=mechanic | hint=digestion milestone]]
-  - [[LINK LATER: Position | type=mechanic | hint=promotion/upgrade track used in this ruleset]]
+  - [[Potion Completely Digested]]
+  - [[Position]]
 - Choose the corresponding quantity from the following demonic spells:
 
 - **Bad Words Hurt People**
@@ -110,8 +110,8 @@ tags: ["pathway:abyss", "sequence:8"]
   - **Effect (on success):** The opponent cannot gain the advantages brought by the surprise round and surprise attack, and the spiritual intuition will be triggered steadily at this time.
   - **Sequence scaling:**
     - **Sequence 7:** Changed to **DV 20** Inspiration identification, and you can tell whether the enemy is a fallen person or a fallen creature.
-  - [[LINK LATER: Surprise Round | type=mechanic | hint=initiative/ambush rules]]
-  - [[LINK LATER: Spiritual Intuition | type=mechanic | hint=intuition appraisal/identification]]
+  - [[Surprise Round]]
+  - [[Spiritual Intuition]]
 
 - **Create Fireballs**
   - **Cost:** 1 Spirituality Point.
@@ -121,13 +121,13 @@ tags: ["pathway:abyss", "sequence:8"]
   - **Effect:** Deal **3d6 fire damage**.
   - **Sequence scaling:**
     - **Sequence 7:** The fireball acquires the properties of brimstone, appears slightly light blue, and creates a small explosion, increases poison damage by **1d6**, and can select two targets standing together.
-  - [[LINK LATER: Brimstone | type=term | hint=property applied to fireball at Sequence 7]]
+  - [[Brimstone]]
 
 - **Customized Demon-Like Spell**
   - If you are not satisfied with the above-mentioned demon-like spells, you can get **only one** custom-made demon-like spell that is unique to you.
   - This requires the consent of the **GM** and must be reasonable.
   - It occupies the spell slot.
-  - [[LINK LATER: Spell Slot | type=mechanic | hint=spell capacity/slot rules]]
+  - [[Spell Slot]]
 
 > **GM Note:** Explanation about demon-like spells (Abyss Pathway)
 >
@@ -136,4 +136,4 @@ tags: ["pathway:abyss", "sequence:8"]
 > - You can design a meaningful unique ability based on your character background (for customized demon-like spells).
 > - All demon-like spells listed above are lower-level versions of Sequence 6 abilities; custom abilities will also have a more complete body mutation when reaching a higher Sequence. You can design an upgraded version in advance based on this idea.
 >
-> [[LINK LATER: Shan Hai Jing | type=other | hint=real-world myth reference]]
+> [[Shan Hai Jing]]

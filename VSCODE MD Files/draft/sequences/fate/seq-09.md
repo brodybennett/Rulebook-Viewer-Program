@@ -8,7 +8,7 @@ tags: ["pathway:fate", "sequence:9"]
 
 - **Non-interchangeable:** This Pathway is the only one that is not interchangeable.
 
-> **Lore:** “Uniqueness” is solidified into [[LINK LATER: Dice of Probability | type=item | hint=Path of Fate uniqueness]], and its mythical creature is a mercury snake corresponding to the Tarot card [[LINK LATER: Wheel of Fortune | type=term | hint=Tarot card]].
+> **Lore:** “Uniqueness” is solidified into [[Dice of Probability]], and its mythical creature is a mercury snake corresponding to the Tarot card [[Wheel of Fortune]].
 
 ## Monster
 
@@ -63,10 +63,11 @@ You gain the following extraordinary abilities.
   - The Inspiration test for danger premonition does not cause the Semi-Trance state.
 
 ### Spiritual Vision
+- **Use:** 1 **free action** to activate.
+- **Cost:** 1 **spirituality point per round** while active.
+- **Effect:** While active, your vision gains the following benefits:
 
-- **Use:** 1 **Free Action** to activate.
-- **Cost:** 1 **Spirituality Point** per round (while active).
-- **Effect:** While in Spiritual Vision, you gain the following benefits:
+
   1. **Etheric body:** You can directly see the health status of the target through aura color; directly find where the other party’s body is uncomfortable/has a problem; and, when it comes to a certain organ, you can see the inside through a door that is not thickened, confirming the number of people inside. [[UNCLEAR: The “organ” clause and “door not thickened” phrasing appear conflated; the intended scope of “seeing inside” is unclear.]]
   2. **Spiritual body:** You can confirm whether an object/creature has spirituality. This cannot identify extraordinary people. It can also penetrate a door to see inside, identify whether there is ritual magic power in it, and penetrate the spiritual wall.
   3. **Mental Body:** You can see the color represented by the other person’s emotions, but only general content (for example, whether the other person is depressed or uneasy). This kind of negative emotion is usually a dark tone.

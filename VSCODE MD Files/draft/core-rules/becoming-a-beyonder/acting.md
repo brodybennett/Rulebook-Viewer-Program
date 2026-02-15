@@ -6,7 +6,7 @@ tags: ["core", "chapter-5"]
 
 # Acting
 
-**Acting** is a method for digesting a potion and mastering its power. See also [[LINK LATER: Acting Method and Digestion | type=rule | hint=digestion overview]].
+**Acting** is a method for digesting a potion and mastering its power. See also [[Acting Method and Digestion]].
 
 ## Learning the Acting Method
 

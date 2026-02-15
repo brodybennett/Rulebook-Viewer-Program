@@ -4,7 +4,7 @@ id: "black-emperor-seq-04"
 tags: ["pathway:black-emperor", "sequence:4"]
 ---
 
-# [[LINK LATER: Black Emperor Pathway | type=pathway | hint=Pathway overview]]: Sequence 4
+# [[Black Emperor Pathway]]: Sequence 4
 
 ## Fallen (Count)
 
@@ -16,8 +16,8 @@ tags: ["pathway:black-emperor", "sequence:4"]
   - becoming greedy and eager,
   - losing fighting spirit,
   - focusing only on money.
-- Through **Zoom In**, **Exploitation**, and **Distortion**, you can (to a certain extent) do things normally only possible for the [[LINK LATER: Judge Pathway | type=pathway | hint=Referenced as “judge” path]].
-- You also retain [[LINK LATER: Bribery | type=mechanic | hint=Mid-to-low Sequence extraordinary ability]] and other mid-to-low Sequence extraordinary abilities; they are stronger at this Sequence.
+- Through **Zoom In**, **Exploitation**, and **Distortion**, you can (to a certain extent) do things normally only possible for the [[Judge Pathway]].
+- You also retain [[Bribery]] and other mid-to-low Sequence extraordinary abilities; they are stronger at this Sequence.
 
 ## Advancement
 
@@ -85,14 +85,14 @@ tags: ["pathway:black-emperor", "sequence:4"]
   - Examples: turn an ordinary blow into an “execution”; turn an air hug at a distance into a “shackle”; pull back with hands separated by several meters to straighten the target directly in front of the target.
 - Skills affected by the “magnification” effect will take effect regardless of distance and objective conditions, can produce stronger consequences, and can have stronger influence.
 - Amplified skills can only be used on yourself according to their effect description, and usually cannot be exempted from this restriction by adding affixes.
-  - Exception: if a target can be equal to yourself in a practical sense (such as the [[LINK LATER: Secret Puppet of the Worm | type=mechanic | hint=Example target treated as “self”]] in Sequence 4, or a person who is deeply [[LINK LATER: Parasitized | type=condition | hint=Referenced as “deeply parasitic”]]), then this effect can take effect on other targets of this type in this case.
+  - Exception: if a target can be equal to yourself in a practical sense (such as the [[Secret Puppet of the Worm]] in Sequence 4, or a person who is deeply [[Parasitized]]), then this effect can take effect on other targets of this type in this case.
 - For the extraordinary items you carry, the improvement of the skill effect can take effect.
 
 > **Lore:** In expression, zoom in can turn a flower into a cannonball. You throw a flower lightly; its speed accelerates suddenly, and the effect of “bribery” can even be added at the same time. The bouquet—like a sharp arrow—tears the air and blasts the ground into a huge crater. Even a light punch can be magnified into a fatal blow.
 
 — **Gift (Unreasonable Gift):** Give a target something that happened to you.
 - **Bestowed Thought:** On the target’s next turn, it performs the action you specify, which cannot be clearly against its will.
-  - Special: False; [[LINK LATER: Visionary Pathway | type=pathway | hint=Referenced as “Visionary Path”]] Sequence 4 and above ignore this ability.  
+  - Special: False; [[Visionary Pathway]] Sequence 4 and above ignore this ability.  
     [[UNCLEAR: The meaning of “False” in this Special line is not explained.]]
 - **Bestow Negative Status:** You give a negative status on your body to the opponent.
 - **Gift of Madness:** You gift your madness to the opponent.

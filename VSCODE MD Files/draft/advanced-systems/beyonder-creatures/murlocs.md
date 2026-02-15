@@ -31,6 +31,6 @@ A murloc's protection is very thick. As long as it is prepared, hunters who are 
 
 ## Materials and Value
 
-- The swim bladder of murlocs is the main material of Sequence 9 sailors. [[LINK LATER: Sailor | type=sequence | hint=Sequence 9; crafting or material use referenced]]
+- The swim bladder of murlocs is the main material of Sequence 9 sailors. [[Sailor]]
 - It can be eaten except for the main ingredients. [[UNCLEAR: "main ingredients" is referenced but not specified (e.g., which parts are excluded).]]
 - A whole murloc can usually be sold at a market price of 150-200 pounds.

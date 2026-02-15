@@ -11,12 +11,12 @@ tags: ["pathway:earth", "sequence:6"]
 ### Attribute Gain
 
 - **Attribute Gain:** Strength +2, Constitution +2, Dexterity +1, Inspiration +1
-- [[LINK LATER: Biology (skill) | type=term | hint=skill that increases by 1 level here]] increased by 1 level.
+- [[Biology (skill)]] increased by 1 level.
 
 ### Rapid Growth Research
 
-- Your Biology has been included in the rapid growth category of [[LINK LATER: Sequence 9 rapid growth category | type=mechanic | hint=the “rapid growth category” referenced here]].
-- Biology can be upgraded to [[LINK LATER: Erudition | type=term | hint=skill rank/cap]] at most, and [[LINK LATER: Botany (skill) | type=term | hint=skill that can also be upgraded to Erudition]] can also be upgraded to Erudition.
+- Your Biology has been included in the rapid growth category of [[Sequence 9 rapid growth category]].
+- Biology can be upgraded to [[Erudition]] at most, and [[Botany (skill)]] can also be upgraded to Erudition.
 - Every time you complete a complete research without repeating the type, it is regarded as a growth.
 
 ### Biological Hybridization
@@ -69,14 +69,14 @@ To use Biological Hybridization, complete all stages below to finish one transfo
 
 #### Hybrid Extraordinary Creatures
 
-- If Biologists transfer the entry of a certain [[LINK LATER: Extraordinary creature | type=term | hint=source species with extraordinary properties]] / Extraordinary to another species, they need to obtain samples of the corresponding entry of the Extraordinary.
-  - Example: If they want to transfer the cell proliferation of the [[LINK LATER: Rose Bishop | type=other | hint=extraordinary entity cited as an example]], they must obtain the flesh and blood of the Rose Bishop.
+- If Biologists transfer the entry of a certain [[Extraordinary creature]] / Extraordinary to another species, they need to obtain samples of the corresponding entry of the Extraordinary.
+  - Example: If they want to transfer the cell proliferation of the [[Rose Bishop]], they must obtain the flesh and blood of the Rose Bishop.
 - This is considered to have passed on the Rose Bishop’s flesh and blood growth entry.
-- The species after transformation is not regarded as Extraordinary items / [[LINK LATER: spiritual materials | type=term | hint=crafting/material category referenced here]], and has become an independent species that does not contain [[LINK LATER: Extraordinary characteristics | type=term | hint=core trait that the new species explicitly does not contain]], but has corresponding properties.
+- The species after transformation is not regarded as Extraordinary items / [[Spiritual Materials]], and has become an independent species that does not contain [[Extraordinary characteristics]], but has corresponding properties.
 - Whether the entry to be transferred is an extraordinary creature or a normal transformation, the content must be specific and cannot be broad.
   - Example: You can transfer the cell proliferation of the Rose Bishop, but you cannot transfer the entry of the Rose Bishop Sequence 6 (representing all abilities).
 - After being transferred, the new species inherits the special type represented by the transferred entry (for example, a mushroom inheriting the Rose Bishop’s cell proliferation ability).
-  - Even if it does not have Extraordinary characteristics, it is still regarded as a [[LINK LATER: fallen creature | type=condition | hint=classification applied to the new species]] and belongs to [[LINK LATER: evil | type=term | hint=alignment/classification referenced here]].
+  - Even if it does not have Extraordinary characteristics, it is still regarded as a [[fallen creature]] and belongs to [[evil]].
 
 > **GM Note:** Because failure of the experiment can face serious consequences, organisms that fail the experiment may die or leave serious sequelae.
 
@@ -84,7 +84,7 @@ To use Biological Hybridization, complete all stages below to finish one transfo
 
 Your hair can be highly toxic.
 
-- **Cost:** 3 [[LINK LATER: spiritual points | type=term | hint=resource spent to use Highly Toxic]]
+- **Cost:** 3 [[Spiritual Points]]
 - **Use:** 1 attack action. Tear off a handful of your hair, designate one effect below, then throw it at the target.
 - **Targeting and range:** The throw resists physical defense.
 - **Effect:** Deals **2d6** poison damage, and the designated effect takes effect.
@@ -109,6 +109,6 @@ Your hair can be highly toxic.
 
 #### Detoxification
 
-- **Use:** Use 1 casting action to perform any [[LINK LATER: Medicine (skill) | type=term | hint=check used for detoxification]] (Difficulty Value **20**) within **2 rounds**, or take a potion that can detoxify.
+- **Use:** Use 1 casting action to perform any [[Medicine (skill)]] (Difficulty Value **20**) within **2 rounds**, or take a potion that can detoxify.
 - **Effect:** The effect will continue after this time, until you get **1 hour** or extraordinary medicine Rescue. [[UNCLEAR: The duration/endpoint for detoxification is unclear (“until you get 1 hour or extraordinary medicine Rescue”).]]
 - **Special:** Biological effects of more than **1** character are effective for only **1 round**, even without medical assistance, and effects of more than **2** characters have no effect. [[UNCLEAR: It is unclear what “effects of more than 1/2 character(s)” means (stacking, multiple sources, or multiple targets).]]

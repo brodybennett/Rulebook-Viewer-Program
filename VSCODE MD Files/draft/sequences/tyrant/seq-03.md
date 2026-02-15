@@ -37,39 +37,39 @@ tags: ["pathway:tyrant", "sequence:3"]
 - **Limits:**  
   - These creatures usually cannot leave the sea.  
   - Applies only to sea creatures.  
-  [[LINK LATER: Sea Creatures | type=term]]
+  [[Sea Creatures]]
 
 ### Lightning Immunity
 
 - **Effect:** You are immune to lightning damage.  
-  [[LINK LATER: Damage Types | type=rule | hint=Lightning damage]]
+  [[Damage Types]]
 
 ### Lightning Storm
 
-- **Cost:** 6 [[LINK LATER: Spirituality Points | type=mechanic]]  
+- **Cost:** 6 [[Spirituality]]  
 - **Use:** Casting action  
 - **Effect:**  
   You create a storm of lightning over an area:
   - Damage: 1d10 + 1d10 + 1d10 + Strength damage die as area lightning damage  
     [[UNCLEAR: “Strength damage die” is not defined—uncertain whether this refers to an attribute-based die or flat modifier.]]
-  - Attack Roll: +20 [[LINK LATER: Disaster Attack Roll | type=mechanic]] vs target’s [[LINK LATER: Physical Defense | type=mechanic]]  
+  - Attack Roll: +20 [[Disaster Attack Roll]] vs target’s [[Physical Defense]]  
   - This attack ignores Dexterity and evasion.  
-    [[LINK LATER: Evasion | type=mechanic]]
+    [[Evasion]]
 
 - **Multi-Attack Interaction:**  
   - Lightning Storm is treated as making **at least 5 attacks** for the purpose of substitute-type defenses.  
   - To fully avoid it using substitute skills, at least **3 substitutes** are required, but the confrontation test is performed only once.  
-    [[LINK LATER: Substitute Skills | type=mechanic]]  
-    [[LINK LATER: Confrontation Test | type=mechanic]]  
-  - If the Player’s level is one [[LINK LATER: Sequence | type=rule]] lower, the number of substitutes required increases by +1.  
+    [[Substitute Skills]]  
+    [[Confrontation Test]]  
+  - If the Player’s level is one [[Sequence]] lower, the number of substitutes required increases by +1.  
     [[UNCLEAR: It is unclear whether this refers to the attacker’s or defender’s Sequence level.]]
 
 - **Split Resolution:**  
   You may divide the effect into three separate instances of lightning damage, calculated separately.  
   [[UNCLEAR: “Divide the identification into three times” interpreted as splitting damage into three separate damage instances.]]
 
-  This also interacts with luck consumption by a [[LINK LATER: Destiny Pathway | type=pathway]] Sequence 5 ability used to avoid a demigod domain ability, doubling the luck consumption.  
-  [[LINK LATER: Demigod Domain | type=mechanic]]
+  This also interacts with luck consumption by a [[Destiny Pathway]] Sequence 5 ability used to avoid a demigod domain ability, doubling the luck consumption.  
+  [[Demigod Domain]]
 
 - **Weather Interaction:**  
   - In heavy rain, Lightning Storm counts as 5 attacks.  
@@ -78,29 +78,29 @@ tags: ["pathway:tyrant", "sequence:3"]
   > **Lore:** At Sequence 2, the lightning storm becomes a “sea of thunder.”  
   - Damage increases by +1d10.  
   - Base number of attacks becomes 5 (6 in rainy weather).  
-  [[LINK LATER: Sequence 2 | type=sequence]]
+  [[id:alias-sequence-2|Sequence 2]]
 
 - **Special Targets:**  
   - Airborne or undead targets take an additional **2d10 lightning damage**.  
-    [[LINK LATER: Undead | type=term]]  
+    [[Undead]]  
   - Targets in a lightning state take an additional **1d10 lightning damage**.  
-    [[LINK LATER: Lightning State | type=condition]]
+    [[Lightning State]]
 
 - **Damage Reduction Interaction:**  
   - Damage reduction is applied separately to each lightning damage instance.  
   - Each 1d10 component is reduced individually, including extra damage and Strength-based damage.  
-    [[LINK LATER: Damage Reduction | type=mechanic]]
+    [[Damage Reduction]]
 
 - **Aftereffects (Paralysis):**  
   - Lightning inflicts a paralyzing effect.  
   - Targets with lightning resistance are unaffected by this paralysis.  
-    [[LINK LATER: Lightning Resistance | type=mechanic]]  
+    [[Lightning Resistance]]  
   - To remove paralysis, the target must use an action (not a free action) to pass a Constitution test with Difficulty 15.  
-    [[LINK LATER: Constitution Test | type=mechanic]]  
-    [[LINK LATER: Difficulty Value | type=term]]  
+    [[Constitution Test]]  
+    [[Difficulty Value]]  
   - On failure, the target cannot perform attack or movement actions and does not return to normal until after the opponent’s next round of actions.  
   - If the target is in a wet state, the Difficulty increases to 20.  
-    [[LINK LATER: Wet State | type=condition]]
+    [[Wet State]]
 
 ### Ocean Perception
 
@@ -112,6 +112,6 @@ tags: ["pathway:tyrant", "sequence:3"]
 
 - **Limits:**  
   - This perception can be affected by anti-divination.  
-    [[LINK LATER: Anti-Divination | type=mechanic]]  
+    [[id:alias-anti-divination|Anti-Divination]]  
   - The effective range is approximately the size of a city.  
     [[UNCLEAR: “City-sized” range is approximate and not mechanically defined.]]

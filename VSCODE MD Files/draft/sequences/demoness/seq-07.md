@@ -37,15 +37,15 @@ You gain the following **extraordinary abilities**.
 
 ### Mysticism Growth and Identity Effects
 
-- ① Your [[LINK LATER: Mysticism | type=term | hint=skill/check progression category mentioned here]] has been included in the rapid growth category of [[LINK LATER: Sequence 9 | type=sequence | hint=rapid growth category reference]], and it can be upgraded to proficient at most.
+- ① Your [[Mysticism]] has been included in the rapid growth category of [[Sequence 9]], and it can be upgraded to proficient at most.
 - ② If you were originally a male, then when you transform into a female, divination, prophecy, etc. that point to your original male identity (excluding past occult information) will be invalid because of the wrong gender designation, as if you “evaporated.”
   - Only correct divinations that assume you are female and point to your new name (if any) will work.
 
 ### Curse
 
-You can add a **curse** to the target or perform a curse ceremony through various mystical information such as flesh and blood and [[LINK LATER: True Name | type=term | hint=real/true name used for targeting]].
+You can add a **curse** to the target or perform a curse ceremony through various mystical information such as flesh and blood and [[True Name]].
 
-- **Cost:** 3 [[LINK LATER: Spirituality Points | type=term | hint=resource spent to activate abilities]]
+- **Cost:** 3 [[Spirituality]]
 - **Use:** As a casting action, choose a target of flesh and blood whose true name you know.
 - **Effect:**
   - ① If you only know the real name, you need to sacrifice your life and cast curse-related ritual magic to complete the curse.
@@ -54,29 +54,29 @@ You can add a **curse** to the target or perform a curse ceremony through variou
 
 #### Cursed State
 
-- ① The target in the Cursed State is immediately regarded as having established a mystical connection with you. You can cast an extraordinary ability on the cursed target at any time regardless of distance limits, and this extraordinary ability is bound to be a [[LINK LATER: Great Success | type=mechanic | hint=success grade]].
-- ② This extraordinary ability will be converted into curse damage, and this kind of great success can still be saved by a [[LINK LATER: Substitute | type=mechanic | hint=substitution/stand-in effect]].
+- ① The target in the Cursed State is immediately regarded as having established a mystical connection with you. You can cast an extraordinary ability on the cursed target at any time regardless of distance limits, and this extraordinary ability is bound to be a [[Great Success]].
+- ② This extraordinary ability will be converted into curse damage, and this kind of great success can still be saved by a [[Substitute]].
 - ③ After the spell is cast, the Cursed State ends immediately. A second degree of curse must be completed by obtaining flesh and blood or performing a ritual, and the flesh and blood used for casting the spell will be consumed.
 - ④ There is no point in hoarding flesh and blood, because after the first casting of the spell, the target will know that they are under the curse, and will therefore have enough time to immediately cast the ritual magic to cut off the connection between the flesh and blood.
 
 **Sequence scaling:**
 
-- [[LINK LATER: Sequence 6 | type=sequence | hint=upgrade note]]: With a quick action once in a round, a curse connection can be established through flesh and blood.
+- [[id:alias-sequence-6|Sequence 6]]: With a quick action once in a round, a curse connection can be established through flesh and blood.
 
 ### Ritual of Curse
 
 You cast a large area-specific curse through ritual magic.
 
-- **Duration/Upkeep:** For about 1 week, consume 5 points of [[LINK LATER: Spirituality Points | type=term | hint=resource spent per day]] every day.
+- **Duration/Upkeep:** For about 1 week, consume 5 points of [[Spirituality]] every day.
 - **Range:** The casting range covers a city.
-- **Rules status:** This is essentially [[LINK LATER: Ritual Magic | type=mechanic | hint=ritual magic knowledge]], not a Beyonder ability; therefore, even if the Curse ability is lost, the ritual can still be performed.
+- **Rules status:** This is essentially [[Ritual Magic]], not a Beyonder ability; therefore, even if the Curse ability is lost, the ritual can still be performed.
 - **Prayed God:** The default is Chick, the Primordial Witch.
 
 #### Site Setup
 
 - First select an altar area with a radius of 10 meters.
 - Prepare the initial ceremony in 5 minutes.
-- Wrap the altar area (10-meter radius) with a [[LINK LATER: Spiritual Wall | type=mechanic | hint=barrier created during ritual]].
+- Wrap the altar area (10-meter radius) with a [[Spiritual Wall]].
 - At the same time, it is best to ensure that the surrounding area within the range of about one house 10 meters away is silent people.
   [[UNCLEAR: “about one house 10 meters away is silent people” is unclear in meaning/requirements.]]
 
@@ -86,7 +86,7 @@ After the initial ceremony is ready, you need to start harvesting human life.
 
 - If you choose animals, usually five animals equals one person, unless you can find something similar to a dire bear.
 - Every time you kill a target:
-  - The target’s soul will be attracted to the altar’s 10-meter radius, blocked by the spiritual wall, and turned into a [[LINK LATER: Ghost | type=term | hint=spirits accumulated as sacrifices]] that wanders within the ceremony’s scope, waiting for the ceremony to start as a sacrifice for the burnt offering.
+  - The target’s soul will be attracted to the altar’s 10-meter radius, blocked by the spiritual wall, and turned into a [[Ghost]] that wanders within the ceremony’s scope, waiting for the ceremony to start as a sacrifice for the burnt offering.
 
 A ritual requires at least 8 human lives.
 
@@ -115,7 +115,7 @@ You have been favored by the **Black Flame**.
 - A hot and treacherous black flame emerges from your spirituality. From this moment on, you will annihilate ghosts and rot creatures.
 - Black Flame spreads like a real flame, but there is no sound during the spreading process.
 - It only burns flames with spirituality and life.
-- It ignores 5 points of [[LINK LATER: Curse Resistance | type=term | hint=resistance stat reduced/ignored by effects]].
+- It ignores 5 points of [[Curse Resistance]].
 - It can be used to deal with the scene: burning corpses and traces as if they never existed.
 
 - When the target has no curse resistance and the ignored resistance therefore overflows, the ignored resistance is changed to a damage bonus.
@@ -123,9 +123,9 @@ You have been favored by the **Black Flame**.
 #### Remote Attack
 
 - **Use:** 1 spellcasting action
-- **Cost:** 2 [[LINK LATER: Spirituality Points | type=term | hint=resource]]
+- **Cost:** 2 [[Spirituality]]
 - **Targeting and range:** Choose 1 target within 30 meters
-- **Check:** [[LINK LATER: Mysticism | type=term | hint=check/skill used for spell attacks]] against [[LINK LATER: Physical Defense | type=term | hint=defense stat opposed by attacks]]
+- **Check:** [[Mysticism]] against [[Physical Defense]]
 - **Effect:** Deal 3d6 curse damage.
 
 #### Black Flame Circles
@@ -141,19 +141,19 @@ You have been favored by the **Black Flame**.
 #### Melee Attack
 
 - **Use:** 1 attack action
-- **Check:** Changed to fight against [[LINK LATER: Physical Defense | type=term | hint=defense stat opposed by attacks]]
+- **Check:** Changed to fight against [[Physical Defense]]
 - **Effect:** Both hands shoot up evil black flames for close-range attacks. Because the black flames penetrate into the body, they ignore armor and deal curse damage of 2d6 + strength damage dice. This can double hit.
 - The black flame of the melee attack can also wrap around the weapon, so the melee attack can also increase the damage of the weapon.
 
 #### Covered by Black Flames
 
-- When there are any black flames around your body, you are considered to have 5 points of [[LINK LATER: Cold Resistance | type=term | hint=resistance to cold damage/effects]].
+- When there are any black flames around your body, you are considered to have 5 points of [[Cold Resistance]].
 
 **Sequence scaling:**
 
-- [[LINK LATER: Sequence 6 | type=sequence | hint=upgrade note]]: Black Flame damage increased by 1d6.
-- [[LINK LATER: Sequence 5 | type=sequence | hint=upgrade note]]: Black Flame damage increased by 1d6.
-- [[LINK LATER: Sequence 4 | type=sequence | hint=upgrade note]]: Black Flame damage increases by 2d6, and you can specify which kind of spiritual and life-bearing things the black flame burns.
+- [[id:alias-sequence-6|Sequence 6]]: Black Flame damage increased by 1d6.
+- [[Sequence 5]]: Black Flame damage increased by 1d6.
+- [[id:alias-sequence-4|Sequence 4]]: Black Flame damage increases by 2d6, and you can specify which kind of spiritual and life-bearing things the black flame burns.
 
 #### Other Usages / Deepening Usages of Black Flame
 
@@ -171,11 +171,11 @@ You have gained the favor of ice. Ice can condense on your body surface; places 
 #### Long-Range Attack
 
 - **Use:** An attack action
-- **Cost:** 2 [[LINK LATER: Spirituality Points | type=term | hint=resource]]
+- **Cost:** 2 [[Spirituality]]
 - **Effect:** Ice bursts from your palm; frost quickly condenses into an ice spear filled with hoarfrost and surrounded by cold smoke.
-- **Check:** Roll against [[LINK LATER: Physical Defense | type=term | hint=defense stat opposed by attacks]]
+- **Check:** Roll against [[Physical Defense]]
 - **Damage:** 3d6 + strength damage dice cold damage
-- **Aftereffects:** The target’s muscles tremble; frost cascades; ice crystals condense. The target’s next check within 1 round is -2 disadvantageous, and has no effect on targets with [[LINK LATER: Cold Resistance | type=term | hint=resistance to cold damage/effects]].
+- **Aftereffects:** The target’s muscles tremble; frost cascades; ice crystals condense. The target’s next check within 1 round is -2 disadvantageous, and has no effect on targets with [[Cold Resistance]].
 - **Miss:** If it misses, the surrounding environment will also be filled with frost and freeze.
 
 #### Melee Attack
@@ -185,32 +185,32 @@ You have gained the favor of ice. Ice can condense on your body surface; places 
 #### Area Attack
 
 - **Use:** A spellcasting action
-- **Cost:** 2 [[LINK LATER: Spirituality Points | type=term | hint=resource]]
+- **Cost:** 2 [[Spirituality]]
 - **Effect:** Create a blizzard; choose an area with a radius of 10 meters.
-- **Check:** [[LINK LATER: Mysticism | type=term | hint=check/skill used for spell attacks]] against [[LINK LATER: Physical Defense | type=term | hint=defense stat opposed by attacks]]
+- **Check:** [[Mysticism]] against [[Physical Defense]]
 - **On success:** Deal 2d6 cold damage to all creatures within the range except you.
 - **Aftereffects:** Creatures successfully attacked by the blizzard and with no cold resistance suffer a -2 penalty to their next check within 1 round.
 
-- **Note:** Because Black Flame affects things with spirits, it cannot be enchanted on Ice Lances before [[LINK LATER: Demigod | type=term | hint=rank/threshold referenced here]].
+- **Note:** Because Black Flame affects things with spirits, it cannot be enchanted on Ice Lances before [[Demigod]].
 
 **Sequence scaling:**
 
-- [[LINK LATER: Sequence 6 | type=sequence | hint=upgrade note]]: Damage increased by 1d6.
-- [[LINK LATER: Sequence 5 | type=sequence | hint=upgrade note]]: Damage increased by 1d6.
-- [[LINK LATER: Sequence 4 | type=sequence | hint=upgrade note]]: Damage increased by 2d6.
+- [[id:alias-sequence-6|Sequence 6]]: Damage increased by 1d6.
+- [[Sequence 5]]: Damage increased by 1d6.
+- [[id:alias-sequence-4|Sequence 4]]: Damage increased by 2d6.
 
 ### Mirror Stand-in
 
 You use a mirror as your **stand-in**.
 
 - **Use:** 1 casting action
-- **Cost:** Consumes 4 [[LINK LATER: Spirituality Limit | type=term | hint=maximum spirituality (also called cap/upper limit)]]
+- **Cost:** Consumes 4 [[Spirituality Limit]]
 - **Requirement:** Prepare a complete mirror (vanity mirror, silver mirror, or a large floor-to-ceiling mirror).
 
 #### Use a Mirror
 
 - **Use:** 1 free action
-- **Cost:** 2 [[LINK LATER: Spirituality Points | type=term | hint=resource]]
+- **Cost:** 2 [[Spirituality]]
 - **Targeting and range:** Choose a mirror within 10 meters.
 - **Timing:** 1 second before you are about to be attacked.
 - **Effect:** Use the mirror instead of yourself to resist 1 attack or other effects; the effect is completely neutralized.
@@ -226,7 +226,7 @@ You use a mirror as your **stand-in**.
 
 - **Use:** Destroy a mirror.
 - **Choose:** A specific mystical piece of information related to you (e.g., “you plan to attack someone next”).
-- **Check:** Conduct a [[LINK LATER: Mystic Appraisal | type=mechanic | hint=appraisal/check type]] as the Difficulty Value of anti-divination.
+- **Check:** Conduct a [[Mystic Appraisal]] as the Difficulty Value of anti-divination.
 - **Effect (on success):** This information is excluded in related divination, spiritual intuition, and prophecy, unless it exceeds the corresponding difficulty.
 - **After the mirror is shattered:** Your spirituality limit is restored; your body that was hit becomes a shattered mirror; your figure reappears about one meter away.
 
@@ -234,7 +234,7 @@ You use a mirror as your **stand-in**.
 
 - **Use:** 1 casting action
 - **Targeting:** Shine a mirror that you have applied the stand-in effect on, or the fragments of a shattered mirror, to a creature.
-- **Check:** [[LINK LATER: Mysticism | type=term | hint=check/skill used for spell attacks]] against [[LINK LATER: Physical Defense | type=term | hint=defense stat opposed by attacks]]
+- **Check:** [[Mysticism]] against [[Physical Defense]]
 - **Effect (on success):** Create a Cursed State, using the mirror or fragments as the medium.
 - The curse relationship established this way supports melee attacks and directly grabbing into the mirror to directly attack the cursed target.
 
@@ -243,15 +243,15 @@ You use a mirror as your **stand-in**.
 You craft a wand as a **stand-in**.
 
 - **Use:** About 5 minutes
-- **Cost:** Consume 3 points of [[LINK LATER: Spirituality Limit | type=term | hint=maximum spirituality (also called cap/upper limit)]]
-- **Crafting requirement:** Crafting a wand requires two [[LINK LATER: Credits | type=term | hint=crafting resource/levels referenced here]] levels; proficient and above credits will not be consumed.
+- **Cost:** Consume 3 points of [[Spirituality Limit]]
+- **Crafting requirement:** Crafting a wand requires two [[Credits]] levels; proficient and above credits will not be consumed.
 - **Materials:** You must bring your own wood or other raw materials, or directly use a walking stick.
 - **Form:** The wand can be an ordinary black wand, or a gorgeous cane (mastery and above are basically the latter).
 
 #### Use the Wand
 
 - **Use:** A free action
-- **Cost:** 2 [[LINK LATER: Spirituality Points | type=term | hint=resource]]
+- **Cost:** 2 [[Spirituality]]
 - **Trigger:** When you suffer an attack.
 - **Effect:** Gain the equivalent effect of a mirror stand-in; it can also be used for anti-divination.
 - **Range condition:** The wand does not have to be carried with you; as long as the wand is within a 10-meter radius of you, it can be used as a stand-in.
@@ -259,7 +259,7 @@ You craft a wand as a **stand-in**.
 
 #### Spellcasting While Holding the Wand
 
-- When holding the wand, if you take out the wand and use it to cast spells, your [[LINK LATER: Occultism | type=term | hint=stat/skill that can increase by one level here]] will temporarily increase by one level.
+- When holding the wand, if you take out the wand and use it to cast spells, your [[Occultism]] will temporarily increase by one level.
 
 ### Invisibility
 
@@ -268,8 +268,8 @@ You gain **invisibility** through special magic powder.
 #### Hide Face
 
 - **Use:** 1 casting action
-- **Cost:** 1 [[LINK LATER: Spirituality Points | type=term | hint=resource]]
-- **Effect:** Make the face hazy and blurred. Except for the special vision of the [[LINK LATER: Eye of Mystery/Fate | type=term | hint=special vision that can see faces]], others usually cannot see your face clearly.
+- **Cost:** 1 [[Spirituality]]
+- **Effect:** Make the face hazy and blurred. Except for the special vision of the [[Eye of Mystery/Fate]], others usually cannot see your face clearly.
 - **Duration:** 1 minute
 - **Limits:** Excluding more than personal goals.
   [[UNCLEAR: “excluding more than personal goals” is unclear in meaning/limits.]]
@@ -277,7 +277,7 @@ You gain **invisibility** through special magic powder.
 #### Hidden Body Shape
 
 - **Use:** 1 casting action
-- **Cost:** 1 [[LINK LATER: Spirituality Points | type=term | hint=resource]]
+- **Cost:** 1 [[Spirituality]]
 - **Targeting:** Sprinkle fluorescent powder on yourself or others, and chant to achieve invisibility.
 - **Duration:** 1 minute
 - **Break conditions:** Once you take damage or launch an attack during the stealth process, the stealth is released immediately.
@@ -286,11 +286,11 @@ You gain **invisibility** through special magic powder.
   - The maximum amount of powder is equal to your Inspiration.
 - **Effect:**
   - You immediately disappear into the air and cannot be selected as a target by sight-based abilities.
-  - However, the psionic effects of [[LINK LATER: Voyeur | type=pathway | hint=entity that can still see invisibility]], [[LINK LATER: Spectator | type=pathway | hint=entity that can still see invisibility]], and [[LINK LATER: Puppet Master | type=pathway | hint=entity that can still see invisibility]] can still see your existence, and the [[LINK LATER: Hanged Man | type=pathway | hint=entity that may hear your voice]] may be able to hear your voice.
-  - You gain [[LINK LATER: Attack Advantage | type=mechanic | hint=advantage on attacks]] against creatures that are unaware of your presence.
+  - However, the psionic effects of [[Voyeur]], [[Spectator]], and [[Puppet Master]] can still see your existence, and the [[Hanged Man]] may be able to hear your voice.
+  - You gain [[Attack Advantage]] against creatures that are unaware of your presence.
 
 **Sequence scaling:**
 
-- [[LINK LATER: Sequence 6 | type=sequence | hint=upgrade note]]: You no longer need to scatter dust. You can make yourself or others invisible through a swift action. The others must be within 10 meters of you, and it consumes 1 spirituality point each time.
+- [[id:alias-sequence-6|Sequence 6]]: You no longer need to scatter dust. You can make yourself or others invisible through a swift action. The others must be within 10 meters of you, and it consumes 1 spirituality point each time.
 
-> **GM Note:** About repeated sneak attacks in battle: If you become invisible again in official battle after a sneak attack, as long as you can make the enemy unable to accurately detect your movements and use this to launch a sneak attack or surprise attack, then the sneak attack in the battle is still valid and may take effect repeatedly. The same goes for other raid or sneak attack operations with similar sequences. See [[LINK LATER: Special Actions | type=table | hint=rules for sneak/surprise actions]] for details, and [[LINK LATER: Special State | type=condition | hint=rules for seeing through invisibility]] for how to see through invisibility.
+> **GM Note:** About repeated sneak attacks in battle: If you become invisible again in official battle after a sneak attack, as long as you can make the enemy unable to accurately detect your movements and use this to launch a sneak attack or surprise attack, then the sneak attack in the battle is still valid and may take effect repeatedly. The same goes for other raid or sneak attack operations with similar sequences. See [[Special Actions]] for details, and [[Special State]] for how to see through invisibility.

@@ -21,12 +21,12 @@ You can seek help from history in two ways:
 
 Limits for images summoned from the pores of history:
 
-- **Simultaneous limit:** You can maintain **up to 3** historical images at the same time, including those summoned by **marionettes** [[LINK LATER: marionette | type=mechanic | hint=puppet/minion system term]].
+- **Simultaneous limit:** You can maintain **up to 3** historical images at the same time, including those summoned by **marionettes** [[Marionette]].
 - **Maximum duration:** A summoned image can last **up to 1/4 hour**.
 
 ### Paper Doll Substitute Additions
 
-In addition to transferring diseases, wounds, curses, attacks, prophecies, and gazing, **paper doll substitute** [[LINK LATER: paper doll substitute | type=mechanic | hint=substitution/transfer technique]] can also transfer a certain part of the paper doll to the target:
+In addition to transferring diseases, wounds, curses, attacks, prophecies, and gazing, **paper doll substitute** [[paper doll substitute]] can also transfer a certain part of the paper doll to the target:
 
 - The transferred part runs like a real one before it is found to be fake.
 
@@ -35,8 +35,8 @@ Additional parameters and related effects:
 - **Initial control time:** 2 seconds.
 - **Then:** transformed into a puppet for 10 seconds.
 - **Control range:** 500 meters.
-- **Marionette driven; position exchange limit:** 5 kilometers. [[LINK LATER: position exchange | type=mechanic | hint=swap positions mechanic]]
-- **“Flame jump” distance:** 5 kilometers. [[LINK LATER: flame jump | type=mechanic | hint=movement/teleport ability]]
+- **Marionette driven; position exchange limit:** 5 kilometers. [[position exchange]]
+- **“Flame jump” distance:** 5 kilometers. [[flame jump]]
 - There is a certain limit to the difference in body size.
 - Simulated organs may be useful or just for display.
 - Create fog and lower the temperature.
@@ -45,14 +45,14 @@ Additional parameters and related effects:
 
 ### Main Materials
 
-- A pair of eyes of Fulgrim's dog (also known as the Guardian of Origin Castle) [[LINK LATER: Fulgrim's dog | type=other | hint=creature; also called Guardian of Origin Castle]] [[LINK LATER: Origin Castle | type=location | hint=Origin Castle]]
-- A flocculated heart of the Mist Demon Wolf [[LINK LATER: Mist Demon Wolf | type=other | hint=creature]]
+- A pair of eyes of Fulgrim's dog (also known as the Guardian of Origin Castle) [[Fulgrim's dog]] [[Origin Castle]]
+- A flocculated heart of the Mist Demon Wolf [[Mist Demon Wolf]]
 
 ### Auxiliary Materials
 
-- 100 ml of Fulgrim's dog's blood [[LINK LATER: Fulgrim's dog's blood | type=item | hint=material]]
-- 30 g of hoarfrost crystals from Mist Demon Wolf [[LINK LATER: hoarfrost crystals | type=item | hint=material]]
-- A large number of real ancient historical records [[LINK LATER: ancient historical records | type=item | hint=research materials]]
+- 100 ml of Fulgrim's dog's blood [[Fulgrim's dog's blood]]
+- 30 g of hoarfrost crystals from Mist Demon Wolf [[hoarfrost crystals]]
+- A large number of real ancient historical records [[ancient historical records]]
 
 ### Advancement Ritual
 
@@ -70,23 +70,23 @@ Additional parameters and related effects:
 
 ### Attribute Gain
 
-- **Inspiration** [[LINK LATER: Inspiration | type=term | hint=attribute]] +1
-- **Education** [[LINK LATER: Education | type=term | hint=attribute]] +2
-- **History skill** [[LINK LATER: History skill | type=term | hint=skill]] increased by 1 skill level
+- **Inspiration** [[Inspiration]] +1
+- **Education** [[Education]] +2
+- **History skill** [[History skill]] increased by 1 skill level
 
 ### Summon Historical Images
 
 - **Use:** Once per round; **swift action**.
-- **Cost:** Consume 2 points of **Spirituality** [[LINK LATER: Spirituality | type=term | hint=resource/points]].
-- **Check:** Perform a **historical appraisal** [[LINK LATER: historical appraisal | type=mechanic | hint=check used to summon from history]] with **Difficulty Value** [[LINK LATER: Difficulty Value | type=term | hint=DV system]] 20.
+- **Cost:** Consume 2 points of **Spirituality** [[Spirituality]].
+- **Check:** Perform a **historical appraisal** [[historical appraisal]] with **Difficulty Value** [[Difficulty Value]] 20.
 - **Effect (on success):** Summon up to 1 of the following from history:
   - Items you once owned, or
   - Humans you knew.
 
 Additional usage modes and actions:
 
-- **Fog of history:** You may enter the **fog of history** [[LINK LATER: fog of history | type=mechanic | hint=concealment/hiding state]] that you know and hide in a historical scene you once knew. In reality, it is difficult to find your body without similar means.
-- **False existence via self-projection:** You can enter the **historical projection** [[LINK LATER: historical projection | type=mechanic | hint=summoned image/proxy]] of yourself that you summoned in the fog of history, make it your substitute in reality, become a “false” existence, and gain your consciousness.
+- **Fog of history:** You may enter the **fog of history** [[fog of history]] that you know and hide in a historical scene you once knew. In reality, it is difficult to find your body without similar means.
+- **False existence via self-projection:** You can enter the **historical projection** [[historical projection]] of yourself that you summoned in the fog of history, make it your substitute in reality, become a “false” existence, and gain your consciousness.
 - **Entering the fog of history:** **move action**.
 - **Dismissing the historical projection:** **free action**.
 
@@ -108,22 +108,22 @@ Operational limitations and risks:
 - The Spirituality used by historical projection consumes your own Spirituality, including the summoned characters.
 - Summoned characters have no intelligence and no dialogue—only instinct. Combat is fought only through instinct or your manipulation.
 - If you communicate with the owner of the historical projection in advance and make arrangements in advance, then they can feel the historical projection after you summon it, resonate with it, and then manipulate the historical projection to join the battle and fight on behalf of you.
-  - In other words, especially angel-level existence, when you summon the historical projection, they can perceive that the historical projection is summoned. [[LINK LATER: angel-level | type=term | hint=power tier/rank]]
+  - In other words, especially angel-level existence, when you summon the historical projection, they can perceive that the historical projection is summoned. [[Angel-Level]]
 - The object you summon should not be your enemy—at least, they cannot be your enemy in the period you summoned—because the historical projection relies only on instinctive actions. If you do not control it (or at the moment you come out), its instinct may attack you, potentially causing you to be backstabbed by your own projection.
 - The maintenance time of historical projection is limited. If you use it to summon food, it will disappear after you eat it.
 - The historical projection can’t play the full ability. When the historical projection is identified:
   - Total identification is -4.
   - Damage caused each time is -4 (calculated according to the number of times damage is caused; if an attack is 1d4+2d10, there is more than one damage die, but as long as it is a single attack that only hits once, rather than several hits, the damage reduction takes effect only once).
-- The historical projection cannot exert the effect of full ability, and it is still effective when the historical projection has obtained the consciousness of the ontology. [[LINK LATER: ontology | type=term | hint=true body/self term]]
+- The historical projection cannot exert the effect of full ability, and it is still effective when the historical projection has obtained the consciousness of the ontology. [[Ontology]]
 - If someone summons your historical projection, you can also participate in the battle in a similar way (by resonating/manipulating through it), but your will may also be captured through the historical projection.
-  - Across the historical projection can usually halve the **sanity blow** [[LINK LATER: sanity blow | type=mechanic | hint=sanity damage/impact]] you suffer, but it also means that if you do not enter the fog of history to hide in advance, your body may be in danger because your will has entered the historical projection.
+  - Across the historical projection can usually halve the **sanity blow** [[sanity blow]] you suffer, but it also means that if you do not enter the fog of history to hide in advance, your body may be in danger because your will has entered the historical projection.
 - **Warning:** If you enter the hole of your historical image and are cut off from your ontology, it is almost predictable that your ontology will inevitably lose control.
 
 Progress notes (as written):
 
 - **Completely digested potion:** 2 caps added. [[UNCLEAR: “caps” is not defined; unclear what increases by 2.]]
 
-- **Master of Miracles** [[LINK LATER: Master of Miracles | type=term | hint=title/ability referenced here]]: The upper limit has become 9, and you can summon familiar scenes, but there are still only three summons at the angel level. [[UNCLEAR: “upper limit has become 9” is not scoped (what limit? summons? scenes?); unclear what it applies to.]]
+- **Master of Miracles** [[Master of Miracles]]: The upper limit has become 9, and you can summon familiar scenes, but there are still only three summons at the angel level. [[UNCLEAR: “upper limit has become 9” is not scoped (what limit? summons? scenes?); unclear what it applies to.]]
 
 ### Restoring Your Self
 
@@ -134,7 +134,7 @@ Progress notes (as written):
 ### Paper Doll Stand
 
 - **Use:** Once per round; **swift action**.
-- **Cost:** 8 Spirituality points, and a paper figure [[LINK LATER: paper figure | type=item | hint=consumed focus/material]].
+- **Cost:** 8 Spirituality points, and a paper figure [[paper figure]].
 - **Effect:** You can keep a physically disabled creature moving. You instantly restore a creature’s full hit points and remove any disadvantage it has from critical attacks.
 - **Limit/Truth check:** The restored hit points are false if he is told, or discerns the truth with a Difficulty Value 15 Inspiration check; then these restored HP disappear instantly. [[UNCLEAR: “if he is told” is undefined (who is told, by whom, and what constitutes being told).]]
 
@@ -145,11 +145,11 @@ Progress notes (as written):
 - **Effect:** Fill a certain area around you with gray mist (fog from history).
   - The fog can make people hallucinate to a certain extent; most content comes from the past, but usually cannot have effective effects.
   - **Range:** Usually only 100 meters in radius.
-  - It can block the vision and spiritual vision [[LINK LATER: spiritual vision | type=mechanic | hint=enhanced perception sense]] of demigods [[LINK LATER: demigod | type=term | hint=power tier/rank]] and below in the area.
+  - It can block the vision and spiritual vision [[id:alias-spiritual-vision|spiritual vision]] of demigods [[Demigod]] and below in the area.
   - From the demigod stage, one can use spiritual vision to see through the fog.
-  - Only the spirit vision of the fate path [[LINK LATER: fate path | type=pathway | hint=Fate-related Pathway]] can still exert its normal effect in this fog, barely identifying the target.
+  - Only the spirit vision of the fate path [[fate path]] can still exert its normal effect in this fog, barely identifying the target.
   - It can reduce the surrounding temperature and extinguish flames to a certain extent.
 
 > **GM Note:** Other than the effects listed above, this is described as having no more uses and being a non-core skill.
 
-- **Sequence 2 note:** The range of the fog is increased to a radius of one kilometer. [[LINK LATER: Sequence 2 | type=sequence | hint=reference to earlier sequence upgrade]]
+- **Sequence 2 note:** The range of the fog is increased to a radius of one kilometer. [[id:alias-sequence-2|Sequence 2]]

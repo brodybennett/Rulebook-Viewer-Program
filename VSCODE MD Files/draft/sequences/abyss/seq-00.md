@@ -8,4 +8,4 @@ tags: ["pathway:abyss", "sequence:1"]
 
 ## Abyss
 
-> **Lore:** Master the authority of [[LINK LATER: Corruption | type=term | hint=authority/domain tied to Abyss]] and [[LINK LATER: Curse | type=term | hint=authority/domain tied to Abyss]], [[LINK LATER: Alien | type=term | hint=authority/domain tied to Abyss]], and so on.
+> **Lore:** Master the authority of [[Corruption]] and [[Curse]], [[Alien]], and so on.

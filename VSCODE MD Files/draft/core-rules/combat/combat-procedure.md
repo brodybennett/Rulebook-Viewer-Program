@@ -12,8 +12,8 @@ A single combat round is approximately **6 seconds**.
 
 1. If one side ambushes the other **and is not discovered**, the ambushing side gains **1 Surprise Round**. Otherwise, skip this step and start at Regular Combat Round.
 2. During the Surprise Round, each character on the ambushing side may take **one** of the following: **1 Attack/Cast/Move Action** or **2 Swift Actions**. The ambushed side **cannot take any actions**.
-3. If, during the Surprise Round, the ambushing side is not exposed within the target's line of sight **or** its presence is not noticed, the ambushed side suffers the [[LINK LATER: Caught Off Guard | type=condition | hint=surprise penalty]] effect during the Surprise Round.
-4. The ambushing side has **Advantage** and the ambushed side has **Disadvantage** only during the Surprise Round. After the actions in Step 2 resolve, the Surprise Round ends. Ongoing sources of Advantage/Disadvantage (such as surrounding/flanking or invisibility) may still apply after the Surprise Round ends. See [[LINK LATER: Advantage / Disadvantage | type=mechanic | hint=roll modifiers]].
+3. If, during the Surprise Round, the ambushing side is not exposed within the target's line of sight **or** its presence is not noticed, the ambushed side suffers the [[Caught Off Guard]] effect during the Surprise Round.
+4. The ambushing side has **Advantage** and the ambushed side has **Disadvantage** only during the Surprise Round. After the actions in Step 2 resolve, the Surprise Round ends. Ongoing sources of Advantage/Disadvantage (such as surrounding/flanking or invisibility) may still apply after the Surprise Round ends. See [[Advantage / Disadvantage]].
 
 ## Regular Combat Round
 
@@ -103,15 +103,15 @@ If you have the **Quick Dodge** skill, you can dodge bullets. When facing firear
 
 **Physical Defense = 10 + Armor + Agility (DEX) + Dodge**
 
-See [[LINK LATER: Quick Dodge | type=skill | hint=bullet dodging]].
+See [[id:alias-quick-dodge|Quick Dodge]].
 
 ### Other Defenses
 
-Some Beyonder Abilities oppose **Constitution Defense** or **Willpower Defense** instead of Physical Defense. For how these defenses are calculated, see [[LINK LATER: Chapter 3: Attributes | type=rule | hint=defense formulas]]. Such attacks will be marked in the relevant ability text.
+Some Beyonder Abilities oppose **Constitution Defense** or **Willpower Defense** instead of Physical Defense. For how these defenses are calculated, see [[Chapter 3: Attributes]]. Such attacks will be marked in the relevant ability text.
 
 ## Movement
 
-- **1 Move Action** lets you move a distance equal to your **movement distance**. See [[LINK LATER: Chapter 3: Attributes | type=rule | hint=movement distance]].
+- **1 Move Action** lets you move a distance equal to your **movement distance**. See [[Chapter 3: Attributes]].
 - Generally: **movement distance = Strength (STR) + Agility (DEX)**.
 - A Move Action can be used during other people's turns, but cannot be banked into the next round.
 
@@ -124,21 +124,21 @@ Movement-distance costs (within the same Move Action):
 | Picking up an item on your person | 1 |
 | Grabbing or moving something nearby | 2 |
 
-Example: Movement distance 8. You grab a nearby wooden crate (2 movement distance) to use [[LINK LATER: Borrowed-Object Protection | type=mechanic | hint=blocking with objects]]. Remaining movement distance: **8 - 2 = 6**.
+Example: Movement distance 8. You grab a nearby wooden crate (2 movement distance) to use [[Borrowed-Object Protection]]. Remaining movement distance: **8 - 2 = 6**.
 
 ## GM Guidance
 
 ### Encounter Balance and Rewards
 
-> **GM Note:** Beyonder power comes from Beyonder Characteristics. Aside from special cases (e.g., regions described in [[LINK LATER: Chapter 12: Special Regions | type=location | hint=region effects]]), arranging too many enemies can create excessively large rewards because enemies may drop Beyonder Characteristics. Have enemies behave intelligently: probe, retreat if they cannot win, and avoid making rewards "too cheap."
+> **GM Note:** Beyonder power comes from Beyonder Characteristics. Aside from special cases (e.g., regions described in [[Chapter 12: Special Regions]]), arranging too many enemies can create excessively large rewards because enemies may drop Beyonder Characteristics. Have enemies behave intelligently: probe, retreat if they cannot win, and avoid making rewards "too cheap."
 
 ### Tuning Enemy Stats
 
-> **GM Note:** When arranging enemies, dynamically adjust enemies' Dodge and Fighting values against the PCs' Physical Defense and skill modifiers. Avoid "dance fighting" (no one can hit) and "guaranteed hits" (every strike lands). During session prep, you may do private test checks and aim for roughly a **50/50** hit rate and damage such that it takes **2-3 hits or more** to reach the [[LINK LATER: Dying Threshold | type=mechanic | hint=death threshold]] (except boss fights). Enemy stat assignments must be reasonable for the PCs' Sequences (e.g., don't keep PCs at Sequence 9 while enemies have Physical Defense values that are unrealistically high).
+> **GM Note:** When arranging enemies, dynamically adjust enemies' Dodge and Fighting values against the PCs' Physical Defense and skill modifiers. Avoid "dance fighting" (no one can hit) and "guaranteed hits" (every strike lands). During session prep, you may do private test checks and aim for roughly a **50/50** hit rate and damage such that it takes **2-3 hits or more** to reach the [[Dying Threshold]] (except boss fights). Enemy stat assignments must be reasonable for the PCs' Sequences (e.g., don't keep PCs at Sequence 9 while enemies have Physical Defense values that are unrealistically high).
 
 ### Use Special Actions
 
-> **GM Note:** Make good use of [[LINK LATER: Special Actions | type=mechanic | hint=combat options]]. They can provide check modifier bonuses, restrict enemies' actions, and more. Skill-based advantages can narrow gaps between low-Sequence and high-Sequence opponents.
+> **GM Note:** Make good use of [[Special Actions]]. They can provide check modifier bonuses, restrict enemies' actions, and more. Skill-based advantages can narrow gaps between low-Sequence and high-Sequence opponents.
 
 ## Group Battle Variant
 
@@ -168,8 +168,8 @@ Additional rules and exceptions (as written):
 
 - An attack made as a Free Action generally cannot interrupt an ongoing Move Action or Attack/Cast Action; at most, it resolves simultaneously and adds damage.
 - If two characters simultaneously use Free Actions to attack each other, order is determined by initiative or Agility (DEX). If equal, both Free Actions take effect simultaneously.
-- Some control abilities can interrupt an Attack Action currently in progress (Free Actions are difficult to interrupt due to speed). Example: Moon Pathway "Abyss Shackles." The restrained target makes the relevant opposed check to determine whether the attack still succeeds; on failure, the attack for that round is interrupted. Whether the target can still use Free Actions that round depends on the control ability's description. See [[LINK LATER: Abyss Shackles | type=ability | hint=control example]] and [[LINK LATER: Moon Pathway | type=pathway | hint=control abilities]].
-- "Agile Hand" exception: an attack or casting action gained through **Agile Hand** is treated as requiring only the time of a Free Action, so it may interrupt an attack in some cases. "Dual Action" (Marauder Pathway) includes one original action plus one attack or move action gained through Agile Hand; only the latter is Free-action time. The original attack/cast remains standard time. See [[LINK LATER: Agile Hand | type=ability | hint=action speed]] and [[LINK LATER: Dual Action | type=ability | hint=paired actions]] and [[LINK LATER: Marauder Pathway | type=pathway | hint=ability source]].
+- Some control abilities can interrupt an Attack Action currently in progress (Free Actions are difficult to interrupt due to speed). Example: Moon Pathway "Abyss Shackles." The restrained target makes the relevant opposed check to determine whether the attack still succeeds; on failure, the attack for that round is interrupted. Whether the target can still use Free Actions that round depends on the control ability's description. See [[Abyss Shackles]] and [[Moon Pathway]].
+- "Agile Hand" exception: an attack or casting action gained through **Agile Hand** is treated as requiring only the time of a Free Action, so it may interrupt an attack in some cases. "Dual Action" (Marauder Pathway) includes one original action plus one attack or move action gained through Agile Hand; only the latter is Free-action time. The original attack/cast remains standard time. See [[Agile Hand]] and [[Dual Action]] and [[Marauder Pathway]].
 - Extra Attack Actions gained through other means (example given: a Great Success on an Intuition ability) are treated as requiring standard action time and cannot interrupt others' progress. The user may choose to fire all extra actions gained within the time of one standard action, but those extra actions cannot be saved to the next round.
 
 ### Handling Confusion
@@ -324,7 +324,7 @@ Example logic (as written):
 - If you can dodge bullets (Quick Dodge), you retain full Physical Defense (**10 + Armor + Agility (DEX) + Dodge**) even against firearms.
 - Against slower attacks (e.g., a fist), Extra Dodge may apply because if you can dodge bullets, you should dodge slower attacks even more easily.
 
-See [[LINK LATER: High-Speed Dodge | type=skill | hint=extra dodge]] and [[LINK LATER: Quick Dodge | type=skill | hint=bullet dodging]].
+See [[High-Speed Dodge]] and [[id:alias-quick-dodge|Quick Dodge]].
 
 #### Rise by 1 Dodge Tier
 

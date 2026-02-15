@@ -8,7 +8,7 @@ tags: ["pathway:reader", "sequence:9"]
 
 ## Reader
 
-> **Lore:** Represents omniscience and omnipotence. The mythical creature takes the form of a tall tower of books with brass-colored eyes, corresponding to the [[LINK LATER: Tarot — Tower | type=term | hint=Tarot card]].
+> **Lore:** Represents omniscience and omnipotence. The mythical creature takes the form of a tall tower of books with brass-colored eyes, corresponding to the [[Tarot — Tower]].
 
 You gain the following extraordinary abilities.
 
@@ -18,13 +18,13 @@ You gain the following extraordinary abilities.
 
 - **Attribute Gain:** **Inspiration** +2.
 - **Effect:**
-  - Your [[LINK LATER: Library Use | type=term | hint=skill]] can be improved quickly.
-  - For every two skills you have reached **Master** (including previous skills), increase your **Library Use** by +1 level (maximum **Master**). [[LINK LATER: Skill Ranks | type=rule | hint=Proficiency/Advanced/Master]]
-  - When creating a character that has not just been promoted, you can use three times the **Inspiration** brought by the potion to add Growth skills. See [[LINK LATER: Skill Association/Growth | type=rule | hint=Education improvement]].
+  - Your [[Library Use]] can be improved quickly.
+  - For every two skills you have reached **Master** (including previous skills), increase your **Library Use** by +1 level (maximum **Master**). [[Skill Ranks]]
+  - When creating a character that has not just been promoted, you can use three times the **Inspiration** brought by the potion to add Growth skills. See [[Skill Association/Growth]].
 
 ### Thinking Palace (Memory Palace)
 
-- **Cost:** 1 [[LINK LATER: Free Action | type=mechanic | hint=Action economy]].
+- **Cost:** 1 [[Free Action]].
 - **Use:** Enter your Thinking Palace mentally at any time.
 - **Effect:**
   - You enter an imaginary space that exists only in your mind; external time continues as usual.
@@ -38,30 +38,31 @@ You gain the following extraordinary abilities.
 > **GM Note:** Under special circumstances, ordinary people can also master this memory method.
 
 ### Ritual Mastery
+- **Effect:** While holding this ability, you gain access to ritual magic, regardless of whether your Occult skill is advanced or not.
 
-- **Effect:**
-  - You gain access to [[LINK LATER: Ritual Magic | type=mechanic]], able to invoke power from the gods.
+
+  - You gain access to [[Ritual Magic]], able to invoke power from the gods.
   - While you have this ability, you can use ritual magic regardless of whether your occult skill is advanced.
-- **Reference:** For ritual magic you can use, see [[LINK LATER: Common Ritual Magic | type=ritual]].
-- **Sequence Upgrades:** At **Sequence 8**, your [[LINK LATER: Occult Identification | type=mechanic | hint=ritual check]] is successful by default when performing ritual magic.
+- **Reference:** For ritual magic you can use, see [[Common Ritual Magic]].
+- **Sequence Upgrades:** At **Sequence 8**, your [[Occult Identification]] is successful by default when performing ritual magic.
 - **Limits:** This effect is brought by a potion and cannot be stolen or recorded.
 
 ### Proficiency in Languages
 
 - **Effect:**
   - You are proficient in all language skills by default, even alien languages.
-  - This does not mean you can speak alien languages casually; when you encounter alien creatures, you can still communicate smoothly through the influence of the [[LINK LATER: Spirit World | type=location]], as long as the relevant information exists in the Spirit World.
-- **Limits:** This does not include the “language of the old days.” [[LINK LATER: Language of the Old Days | type=term | hint=excluded by Proficiency in Languages]]
+  - This does not mean you can speak alien languages casually; when you encounter alien creatures, you can still communicate smoothly through the influence of the [[Spirit World]], as long as the relevant information exists in the Spirit World.
+- **Limits:** This does not include the “language of the old days.” [[Language of the Old Days]]
 
 ### Speed Reading
 
 - **Effect:**
-  - Your Library Identification can be completed in 30 minutes, no matter how rare the book you’re looking for is, as long as it exists. [[LINK LATER: Library Identification | type=mechanic | hint=find books]]
+  - Your Library Identification can be completed in 30 minutes, no matter how rare the book you’re looking for is, as long as it exists. [[Library Identification]]
   - You can read in 1 hour what would take 1 week to read.
 - **Reading Outcomes (by book type):**
   - **Books with simple knowledge:** After reading, the corresponding skills can be directly trained.
-  - **Books with rich knowledge:** After reading, the corresponding skills can directly reach **Proficiency**. [[LINK LATER: Skill Ranks | type=rule | hint=Proficiency/Advanced/Master]]
-  - **Books with deepening knowledge:** You must be **Proficient** in the corresponding skills before you can read them. After reading, you rise by +1 level. [[LINK LATER: Skill Ranks | type=rule | hint=Proficiency/Advanced/Master]]
+  - **Books with rich knowledge:** After reading, the corresponding skills can directly reach **Proficiency**. [[Skill Ranks]]
+  - **Books with deepening knowledge:** You must be **Proficient** in the corresponding skills before you can read them. After reading, you rise by +1 level. [[Skill Ranks]]
 - **Limits (Advanced and beyond):**
   - From reaching the **Advanced** level, if you want to continue learning corresponding knowledge, you must continue to obtain books with deepening knowledge.
   - The content direction of these books cannot be repeated.
@@ -69,16 +70,16 @@ You gain the following extraordinary abilities.
   - **Sequence 8:** The time required to read books becomes 30 minutes; Library Identification becomes 15 minutes.
   - **Sequence 6:** The time required to read books becomes 15 minutes; Library Identification becomes 5 minutes.
 
-> **GM Note:** The same broad field can split into many non-overlapping directions at higher levels (e.g., “Medicine” versus “Medicine (Anesthesia)”). If needed, refer to [[LINK LATER: Chapter 4 — Trained Skills | type=rule | hint=Segment rules]] to learn knowledge.
+> **GM Note:** The same broad field can split into many non-overlapping directions at higher levels (e.g., “Medicine” versus “Medicine (Anesthesia)”). If needed, refer to [[Chapter 4 — Trained Skills]] to learn knowledge.
 
 [[UNCLEAR: “When picking up a reader with sequence 9 or higher” could mean character creation, recruitment, or another process; the rule below is preserved as written but the trigger is ambiguous.]]
 
 - **Special:** When picking up a Reader with Sequence 9 or higher, the Extraordinary can use twice the **Inspiration** points brought by the potion to train or become proficient in skills (limit: **Proficiency**) to solve the problem that a higher-sequence Reader has not accumulated knowledge.
-  - This doubled Inspiration should not be used to increase [[LINK LATER: Reputation | type=term | hint=character stat]], but can be used to increase extraordinary knowledge.
+  - This doubled Inspiration should not be used to increase [[Reputation]], but can be used to increase extraordinary knowledge.
 
 ### Knowledgeable
 
-- **Cost:** 1 [[LINK LATER: Free Action | type=mechanic | hint=Action economy]].
+- **Cost:** 1 [[Free Action]].
 - **Use:** Open your vision.
 - **Effect:**
   - You see carriers of knowledge (words, pictures, etc.) as if written in a certain way; they exude a brass or silver symbolic aura.
@@ -90,35 +91,35 @@ You gain the following extraordinary abilities.
 
 - **Skill:** You gain a new **Extraordinary Knowledge** skill. Key attribute: **Education**.
 - **Extraordinary Knowledge Types (by Pathway):**
-  - Divination Knowledge: corresponds to the Fool Pathway. [[LINK LATER: Fool Pathway | type=pathway]]
-  - Apprentice Knowledge: corresponds to the Apprentice Pathway. [[LINK LATER: Apprentice Pathway | type=pathway]]
-  - Stealing Knowledge: corresponds to the Wrong Path. [[LINK LATER: Wrong Pathway | type=pathway | hint=“wrong path”】【sic】]]
-  - Writing Knowledge: corresponds to the Visionary Pathway. [[LINK LATER: Visionary Pathway | type=pathway]]
-  - Sailor Knowledge: corresponds to the Tyrant Pathway. [[LINK LATER: Tyrant Pathway | type=pathway]]
-  - Sun Knowledge: corresponds to the Sun Pathway. [[LINK LATER: Sun Pathway | type=pathway]]
-  - Flesh Knowledge: corresponds to the Hanged Man Pathway. [[LINK LATER: Hanged Man Pathway | type=pathway]]
-  - Knowledge of Death: corresponds to the Death Pathway. [[LINK LATER: Death Pathway | type=pathway]]
-  - Knowledge of the Night: corresponds to the Night Pathway. [[LINK LATER: Night Pathway | type=pathway]]
-  - Knowledge of Combat: corresponds to the God of War Pathway. [[LINK LATER: God of War Pathway | type=pathway]]
-  - Knowledge of the Law: corresponds to the Black Emperor Pathway. [[LINK LATER: Black Emperor Pathway | type=pathway]]
-  - Judgment Knowledge: corresponds to the Judge Pathway. [[LINK LATER: Judge Pathway | type=pathway]]
-  - Hunting Knowledge: corresponds to the Red Priest Pathway. [[LINK LATER: Red Priest Pathway | type=pathway]]
-  - Witchcraft Knowledge: corresponds to the Witch Pathway. [[LINK LATER: Witch Pathway | type=pathway]]
-  - Abyss Knowledge: corresponds to the Abyss Pathway. [[LINK LATER: Abyss Pathway | type=pathway]]
-  - Heterogeneous Knowledge: corresponds to the Heterogeneous Pathway. [[LINK LATER: Heterogeneous Pathway | type=pathway]]
-  - Moon Knowledge: corresponds to the Moon Pathway. [[LINK LATER: Moon Pathway | type=pathway]]
-  - Knowledge of the Earth: corresponds to the Earth Pathway. [[LINK LATER: Earth Pathway | type=pathway]]
-  - Knowledge of Destiny: corresponds to the Destiny Pathway. [[LINK LATER: Destiny Pathway | type=pathway]]
-  - Knowledge of Secrets: corresponds to the Secret Peer Pathway. [[LINK LATER: Secret Peer Pathway | type=pathway]]
-  - Artisan Knowledge: corresponds to the Perfect Pathway. [[LINK LATER: Perfect Pathway | type=pathway]]
-  - Space Knowledge: corresponds to more paths (if they exist and are known). [[LINK LATER: Space Knowledge | type=term | hint=multi-path mapping]]
+  - Divination Knowledge: corresponds to the Fool Pathway. [[Fool Pathway]]
+  - Apprentice Knowledge: corresponds to the Apprentice Pathway. [[Apprentice Pathway]]
+  - Stealing Knowledge: corresponds to the Wrong Path. [[Wrong Pathway]]
+  - Writing Knowledge: corresponds to the Visionary Pathway. [[Visionary Pathway]]
+  - Sailor Knowledge: corresponds to the Tyrant Pathway. [[Tyrant Pathway]]
+  - Sun Knowledge: corresponds to the Sun Pathway. [[Sun Pathway]]
+  - Flesh Knowledge: corresponds to the Hanged Man Pathway. [[Hanged Man Pathway]]
+  - Knowledge of Death: corresponds to the Death Pathway. [[Death Pathway]]
+  - Knowledge of the Night: corresponds to the Night Pathway. [[Night Pathway]]
+  - Knowledge of Combat: corresponds to the God of War Pathway. [[God of War Pathway]]
+  - Knowledge of the Law: corresponds to the Black Emperor Pathway. [[Black Emperor Pathway]]
+  - Judgment Knowledge: corresponds to the Judge Pathway. [[Judge Pathway]]
+  - Hunting Knowledge: corresponds to the Red Priest Pathway. [[Red Priest Pathway]]
+  - Witchcraft Knowledge: corresponds to the Witch Pathway. [[Witch Pathway]]
+  - Abyss Knowledge: corresponds to the Abyss Pathway. [[Abyss Pathway]]
+  - Heterogeneous Knowledge: corresponds to the Heterogeneous Pathway. [[Heterogeneous Pathway]]
+  - Moon Knowledge: corresponds to the Moon Pathway. [[Moon Pathway]]
+  - Knowledge of the Earth: corresponds to the Earth Pathway. [[Earth Pathway]]
+  - Knowledge of Destiny: corresponds to the Destiny Pathway. [[Destiny Pathway]]
+  - Knowledge of Secrets: corresponds to the Secret Peer Pathway. [[Secret Peer Pathway]]
+  - Artisan Knowledge: corresponds to the Perfect Pathway. [[Perfect Pathway]]
+  - Space Knowledge: corresponds to more paths (if they exist and are known). [[Space Knowledge]]
 
 - **Training Limits:**
   - The skills above cannot be trained by normal means.
   - Only when the Reader is above Sequence 9 may it be allowed to use the attributes brought by the potion to add skill points.
 
 - **Gaining Skill Levels (usually via the following actions):**
-  1. Read 3, 6, and 9 potion formulas of this Pathway: +1 skill level. [[LINK LATER: Potion Formulas | type=term | hint=3/6/9 formulas]]
+  1. Read 3, 6, and 9 potion formulas of this Pathway: +1 skill level. [[Potion Formulas]]
   2. Those who have seen the way to fight: +1 skill level.
   3. The battle of those who know the way: +1 skill level.
   4. Experience extraordinary events dominated by the existence of this Pathway: +1 skill level.
@@ -169,14 +170,16 @@ You gain the following extraordinary abilities.
   - A Reader simulates other Pathway abilities or occult skills that another Reader simulates should correspond to knowledge other than reading knowledge.
 
 ### Spiritual Vision
-
-- **Cost:** 1 [[LINK LATER: Free Action | type=mechanic | hint=Action economy]] to activate; while active, consume 1 [[LINK LATER: Spirituality Points | type=mechanic | hint=resource]] per round.
+- **Use:** 1 **free action** to activate.
+- **Cost:** 1 **spirituality point per round** while active.
 - **Effect:** While active, your vision gains the following benefits:
+
+
   1. **Etheric Body:** You can directly see the target’s health status through aura color, and directly find where the other party’s body is uncomfortable or has a problem. When it comes to a certain organ, you can see the inside through the unthickened door and confirm the number of people inside.
-  2. **Spiritual Body:** You can confirm whether an object/creature has spirituality. This cannot identify Extraordinary people. You can also penetrate the door to see the inside, identify whether there is ritual magic power, and penetrate the [[LINK LATER: Spiritual Wall | type=term | hint=barrier]].
+  2. **Spiritual Body:** You can confirm whether an object/creature has spirituality. This cannot identify Extraordinary people. You can also penetrate the door to see the inside, identify whether there is ritual magic power, and penetrate the [[Spiritual Wall]].
   3. **Mental Body:** You can see the color represented by the other person’s emotions, but only as general content (e.g., depressed or uneasy). Negative emotions are usually dark tones.
   4. **Astral Body:** You cannot see the astral body.
-  5. While in Spiritual Vision, your [[LINK LATER: Spiritual Intuition | type=mechanic | hint=test]] test gains +2.
+  5. While in Spiritual Vision, your [[Spiritual Intuition]] test gains +2.
 
 - **Additional Notes:**
   - Dead creatures are usually dull in color and cannot be recognized.

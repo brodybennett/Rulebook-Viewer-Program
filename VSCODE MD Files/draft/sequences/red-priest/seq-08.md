@@ -13,8 +13,8 @@ tags: ["pathway:red-priest", "sequence:8"]
 ### Attribute Gain
 
 - **Attribute Gain:** Dexterity +1, Constitution +1, Inspiration +2.
-- Deception / Speaking / Persuasion are included in the growth range of your Sequence 9 skills [[LINK LATER: Sequence 9 | type=sequence | hint=skill growth rules referenced by Sequence 9]], up to proficiency.
-- Every time you succeed in making an intelligent creature stronger than you complete for the first time due to provocation, losing sanity counts as 1 growth. [[LINK LATER: Sanity | type=term | hint=losing sanity referenced as growth]]
+- Deception / Speaking / Persuasion are included in the growth range of your Sequence 9 skills [[Sequence 9]], up to proficiency.
+- Every time you succeed in making an intelligent creature stronger than you complete for the first time due to provocation, losing sanity counts as 1 growth. [[Sanity]]
 [[UNCLEAR: The trigger sentence for gaining “growth” is grammatically unclear (“stronger than you complete”), so the exact condition for when “growth” is gained cannot be resolved from this excerpt.]]
 
 ### Provoke
@@ -25,16 +25,16 @@ This ability is divided into three situations.
 
 #### Situation 1: Complete Strangers / Newly Met Friends
 
-1. **Action:** 1 casting action. [[LINK LATER: Casting Action | type=mechanic | hint=action type]]
-2. **Cost:** 2 spirituality points. [[LINK LATER: Spirituality | type=term | hint=resource points spent to activate abilities]]
-3. **Check:** Inspiration -4 vs the target’s Will Defense. [[LINK LATER: Inspiration | type=term | hint=attribute/check used for Provoke]] [[LINK LATER: Will Defense | type=mechanic | hint=defense used against Inspiration]]
+1. **Action:** 1 casting action. [[Casting Action]]
+2. **Cost:** 2 spirituality points. [[Spirituality]]
+3. **Check:** Inspiration -4 vs the target’s Will Defense. [[Inspiration]] [[Will Defense]]
 4. **Effect:**
-   1. The target’s next action involving attacks and negative effects (e.g., shooting, fighting, using extraordinary abilities) must target you, unless you have fallen into a state of death, fainting, or helplessness. [[LINK LATER: Death | type=condition | hint=state that ends forced targeting]] [[LINK LATER: Fainting | type=condition | hint=state that ends forced targeting]] [[LINK LATER: Helplessness | type=condition | hint=state that ends forced targeting]]
+   1. The target’s next action involving attacks and negative effects (e.g., shooting, fighting, using extraordinary abilities) must target you, unless you have fallen into a state of death, fainting, or helplessness. [[id:alias-death|Death]] [[Fainting]] [[Helplessness]]
 5. **Special Targets (beasts/monsters/out-of-control persons):**
    1. You can only use the first level of provocation against them.
    2. No words are required; more in-depth provocations are invalid for these targets (this is the use of actively exuding disgusting feelings).
    3. For intelligent beings, this unspoken feeling of disgust is not provocative, but it does make you more conspicuous.
-   4. For beasts and insane targets only: if you have already dealt two critical blows to it, the provocation automatically counts as a second tier of provocation, not a first tier. [[LINK LATER: Critical Blow | type=mechanic | hint=critical hit/critical strike rule]]
+   4. For beasts and insane targets only: if you have already dealt two critical blows to it, the provocation automatically counts as a second tier of provocation, not a first tier. [[Critical Blow]]
 
 #### Situation 2: Target Has Some Understanding of the Provocateur
 
@@ -48,16 +48,16 @@ This ability is divided into three situations.
 
 **Rage state:**
 - You suffer a -4 penalty on skill checks.
-- Move actions can only move toward the source of rage. [[LINK LATER: Move Action | type=mechanic | hint=action type]]
+- Move actions can only move toward the source of rage. [[Move Action]]
 - You must attack the source of rage or blockers first, until you regain your composure or the source of rage dies, faints, or falls into a helpless state.
 
-1. If the remaining HP of the recipient of the anger state ≤ the total HP divided by 4 (rounded up), the subject will only suffer from the anger state, and the anger state does not have the effect of restricting actions. [[LINK LATER: HP | type=term | hint=health/hit points]]
-2. Different from normal anger: if the provocateur does not cause 1 damage, or use 1 Will/Psychological Guidance appraisal to identify the result of provoking against the provocateur at the beginning of each round, the anger cannot be relieved. [[LINK LATER: Will (Attribute/Check) | type=term | hint=used in Will/Psychological Guidance appraisal]] [[LINK LATER: Psychological Guidance | type=term | hint=skill/check used to resolve provocation]]
+1. If the remaining HP of the recipient of the anger state ≤ the total HP divided by 4 (rounded up), the subject will only suffer from the anger state, and the anger state does not have the effect of restricting actions. [[HP]]
+2. Different from normal anger: if the provocateur does not cause 1 damage, or use 1 Will/Psychological Guidance appraisal to identify the result of provoking against the provocateur at the beginning of each round, the anger cannot be relieved. [[Will (Attribute/Check)]] [[id:alias-psychological-guidance|Psychological Guidance]]
 [[UNCLEAR: The clause “if the provocateur does not cause 1 damage” is unclear about who must deal damage to whom, and how this interacts with relieving Rage.]]
-3. Half meditation can be changed to (1) effect, and full meditation will be halved on this basis. [[LINK LATER: Meditation | type=mechanic | hint=half meditation and full meditation rules]]
+3. Half meditation can be changed to (1) effect, and full meditation will be halved on this basis. [[Meditation]]
 [[UNCLEAR: “Half meditation can be changed to (1) effect” does not specify what is being changed or how full meditation is “halved,” so the exact mechanical operation cannot be resolved from this excerpt.]]
-4. Others can also use 1 Psychological Guidance / Social Identification to help resolve the provocation, against the result of the inspirational identification when the provocateur provokes. [[LINK LATER: Social Identification | type=term | hint=skill/check used to resolve provocation]]
-5. For 1 round, a target that has made a successful Mental Channel check cannot be provoked. [[LINK LATER: Mental Channel | type=mechanic | hint=check that can prevent being provoked for 1 round]]
+4. Others can also use 1 Psychological Guidance / Social Identification to help resolve the provocation, against the result of the inspirational identification when the provocateur provokes. [[Social Identification]]
+5. For 1 round, a target that has made a successful Mental Channel check cannot be provoked. [[Mental Channel]]
 
 #### Defining “Some Understanding” vs “Full Knowledge”
 
@@ -68,7 +68,7 @@ This ability is divided into three situations.
 
 #### Situation 3: Target Fully Known to the Provocateur
 
-- **Action:** 1 swift action. [[LINK LATER: Swift Action | type=mechanic | hint=action type]]
+- **Action:** 1 swift action. [[Swift Action]]
 - **Cost:** 2 spirituality points.
 - **Check:** The provocation is successful by default.
 - **Roleplay:** You use the other party’s name or weakness in roleplay words.
@@ -86,4 +86,4 @@ This ability is divided into three situations.
 
 - **Action:** 1 Psychological Guidance / Social Identification.
 - **Effect:** In this state, provocation (including anger state) can still be lifted, but the identification difficulty of Psychological Guidance must exceed “the Will Defense of the provoked object + the Inspiration of the provocateur.”
-- If the Mental Guidance check succeeds, the provocateur cannot provoke the target again for 1 round. [[LINK LATER: Mental Guidance | type=mechanic | hint=check referenced when others remove anger]]
+- If the Mental Guidance check succeeds, the provocateur cannot provoke the target again for 1 round. [[Mental Guidance]]

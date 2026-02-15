@@ -69,7 +69,7 @@ You must convey information in some way (such as letters/words) to make the othe
 
 You plan a conspiracy and start to implement the plan.
 
-- **Cost:** This usage does not need to consume actions and [[LINK LATER: Spirituality | type=term | hint=resource mentioned as normally spendable]] as long as you give suitable content.
+- **Cost:** This usage does not need to consume actions and [[Spirituality]] as long as you give suitable content.
 - **Use:** For a certain future encounter, designate a detailed plan and give it to your **GM** for review.
 - **Limits (plan quality):**
   - The plan should not be too general.

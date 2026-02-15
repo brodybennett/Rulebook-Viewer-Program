@@ -9,7 +9,7 @@ tags: ["pathway:myster-pryer", "sequence:4"]
 ## Mysticologist
 
 - There are different specialties depending on the analyzed blood.
-- The [[LINK LATER: Secret Eye | type=term | hint=upgraded eye that can be opened/closed and placed on others]] is upgraded in essence: it can be opened/closed freely and placed on others.
+- The [[Secret Eye]] is upgraded in essence: it can be opened/closed freely and placed on others.
 - **Mysterious Reappearance** draws power from mastered occult knowledge to create magic or witchcraft; the less known and less widespread the corresponding occult knowledge is, the more powerful the spell.
 - Among all Sequence 4, this “profession” is the most likely to encounter danger: it often sees things that should not be seen, hears voices that should not be heard, and touches secrets that should not be touched. To live for a long time, you must restrain curiosity and control corresponding behavior.
 
@@ -17,7 +17,7 @@ tags: ["pathway:myster-pryer", "sequence:4"]
 
 ### Advancement Ritual
 
-- **Advancement Ritual:** Completely dissect a drop of [[LINK LATER: mythical creature | type=term | hint=source of mythical blood used for advancement]]’s blood and gain complex and vast knowledge from it.
+- **Advancement Ritual:** Completely dissect a drop of [[mythical creature]]’s blood and gain complex and vast knowledge from it.
 
 ## Extraordinary Abilities
 
@@ -35,19 +35,19 @@ tags: ["pathway:myster-pryer", "sequence:4"]
 - **Effect:**
   - If the prying eye sees, the user sees.
   - The prying eye may enter a hidden state.
-  - The hidden eye cannot be found by [[LINK LATER: Spirit Vision | type=mechanic | hint=perceives spiritual/hidden phenomena]] except by [[LINK LATER: Fate | type=term | hint=means of perceiving hidden eye]] and the [[LINK LATER: Voyeur | type=term | hint=entity/role that can perceive hidden eye]].
+  - The hidden eye cannot be found by [[id:alias-spirit-vision|Spirit Vision]] except by [[Fate]] and the [[Voyeur]].
 - **Limits / Exceptions:**
-  - A [[LINK LATER: Reader | type=pathway | hint=can detect prying eye via spot spell]] is allowed to spot the prying eye with a [[LINK LATER: spot spell | type=mechanic | hint=detection spell/skill used to spot prying eye]], but only if they use the skill either voluntarily or by accident; otherwise, they cannot detect it. [[UNCLEAR: “uses the skill” could refer to the spot spell specifically or to a different detection skill, changing when detection is possible.]]
-  - Under certain or suspected circumstances, a Reader of the [[LINK LATER: Middle Sequence | type=term | hint=non-low/non-high Sequence tier]] may be permitted to make a **Difficulty Value** 25 Inspiration check to detect something amiss.
+  - A [[Reader]] is allowed to spot the prying eye with a [[spot spell]], but only if they use the skill either voluntarily or by accident; otherwise, they cannot detect it. [[UNCLEAR: “uses the skill” could refer to the spot spell specifically or to a different detection skill, changing when detection is possible.]]
+  - Under certain or suspected circumstances, a Reader of the [[Middle Sequence]] may be permitted to make a **Difficulty Value** 25 Inspiration check to detect something amiss.
 
 ### Mythical Blood
 
 - **Use:** A free action.
-- **Cost:** 3 **spirituality points** [[LINK LATER: spirituality points | type=mechanic | hint=resource spent to activate abilities]].
+- **Cost:** 3 **spirituality points** [[Spirituality]].
 - **Effect:** Based on the mythical creature blood you parsed when you ascended, you are allowed to have a core ability corresponding to its path. [[UNCLEAR: “its path” could mean the creature’s own path, a Pathway, or another classification used by the setting.]]
 - **Example (Serpent of Destiny blood):**
-  - In one encounter, you can get 15 points of luck [[LINK LATER: luck | type=mechanic | hint=points gained from certain mythical blood; can be spent/burned]].
-  - This luck can be used to [[LINK LATER: burn luck | type=mechanic | hint=spending luck for outcomes]], or you can use all 15 points of luck in one round to gain one chance—because of luck—to completely avoid a whole round of damage.
+  - In one encounter, you can get 15 points of luck [[id:alias-luck|luck]].
+  - This luck can be used to [[id:alias-burn-luck|burn luck]], or you can use all 15 points of luck in one round to gain one chance—because of luck—to completely avoid a whole round of damage.
   - Damage can only be avoided for a full round.
   - If you have used some of the 15 points of luck and still need to avoid damage, the missing luck will be replaced by your own luck.
 - Mythical blood abilities within a reasonable range are allowed by other GMs.
@@ -67,7 +67,7 @@ tags: ["pathway:myster-pryer", "sequence:4"]
   - Under normal circumstances, without specific channels, these fairytale magics are difficult to know and master.
   - **The Little Match Girl:** Condensate to make a burning match; hallucinate the enemy.
   - **Cinderella:** Change your appearance, image, and temperament.
-  - **The Feast of Betrayal:** Condenses the picture of the ancient sun god being eaten; it comes from the mystic knowledge of the death of the ancient sun god. Its function is to temporarily awaken or endow the objects in the target’s hands with intelligence, making them betray. [[LINK LATER: Ancient Sun God | type=term | hint=deity whose death-knowledge powers “Feast of Betrayal”]]
+  - **The Feast of Betrayal:** Condenses the picture of the ancient sun god being eaten; it comes from the mystic knowledge of the death of the ancient sun god. Its function is to temporarily awaken or endow the objects in the target’s hands with intelligence, making them betray. [[Ancient Sun God]]
   - **Magical Horn:** Condenses a dark ancient horn carrying a very heavy and powerful connotation. When blown, the horn of destruction emits a low-pitched sound; the superposition of sound waves can crush enemies and space.
   - **Ugly Duckling:** Condenses pieces of pure white, illusory feathers on the back. A powerful magic that allows the user to reveal the incomplete form of mythical creatures, once a day, for ten seconds each time.
   - **The Spear of Longinus:** Condenses a long gun with an ancient style; from tip to handle are clusters of blood-colored dark red spears burning. The attack power is extremely strong.
@@ -82,6 +82,6 @@ tags: ["pathway:myster-pryer", "sequence:4"]
   - **Hades’s Invisibility Hat:** A hat that makes you invisible.
   - > **GM Note:** The Feast of Betrayal is listed here as an enumeration; it is stated to not be fairytale magic.
 - **Reenactments vs. fairytale magic:**
-  - Without knowledge from [[LINK LATER: Earth | type=location | hint=source of fairytale knowledge]], an occultist usually cannot master fairytale magic. Instead, they create Mysterious Reappearances of real mystic events that have occurred in history.
-  - The resulting creations are called [[LINK LATER: mystical reenactments | type=term | hint=reappearance of real historical mystic events]] rather than fairytale magic.
+  - Without knowledge from [[id:alias-earth|Earth]], an occultist usually cannot master fairytale magic. Instead, they create Mysterious Reappearances of real mystic events that have occurred in history.
+  - The resulting creations are called [[mystical reenactments]] rather than fairytale magic.
   - The mystic knowledge to be reproduced must be real enough to have happened exactly; the less it is known, the stronger it is. Conversely, the more people know about it and the less secret it is, the less effective it will be.

@@ -38,11 +38,11 @@ Also known as intuitive premonition. You can predict others’ actions at critic
 - **Special:**
   - Dangers higher than 1 level cannot be foreseen.
   - Hazards dependent on luck are foreseeable but gain no benefit.
-  - Danger premonition is a kind of spiritual intuition, so it is invalidated by [[LINK LATER: Anti-Divination | type=mechanic | hint=effects that block divination/intuition]] and [[LINK LATER: Anti-Prophecy | type=mechanic | hint=effects that block prophecy/intuition]].
+  - Danger premonition is a kind of spiritual intuition, so it is invalidated by [[id:alias-anti-divination|Anti-Divination]] and [[Anti-Prophecy]].
 
 - **Sequence scaling:**
-  - **Sequence 6:** Your Inspiration appraisal is successful by default, and the flashing thought becomes a flashing picture, letting you know the manifestation of danger. [[LINK LATER: Sequence 6 | type=sequence | hint=Premonition of Danger upgrade]]
-  - **Sequence 5:** You can perceive danger higher than 1 personality. [[UNCLEAR: “higher than 1 personality” is not defined (stat name/threshold unclear).]] [[LINK LATER: Sequence 5 | type=sequence | hint=Premonition of Danger upgrade]] [[LINK LATER: Personality | type=term | hint=attribute/stat referenced by danger perception]]
+  - **Sequence 6:** Your Inspiration appraisal is successful by default, and the flashing thought becomes a flashing picture, letting you know the manifestation of danger. [[id:alias-sequence-6|Sequence 6]]
+  - **Sequence 5:** You can perceive danger higher than 1 personality. [[UNCLEAR: “higher than 1 personality” is not defined (stat name/threshold unclear).]] [[Sequence 5]] [[Personality]]
 
 ### Decryption
 
@@ -89,8 +89,8 @@ You can analyze many mysteries (such as dreams and illusions), and you can also 
   - Judge whether the caster is far stronger or weaker than your own.
 
 - **About Decryption:**
-  - Decryption is not a kind of [[LINK LATER: Divination | type=mechanic | hint=divination category]]. It is pure deduction in the mind.
-  - Therefore, Decryption ignores [[LINK LATER: Anti-Divination | type=mechanic | hint=effects that block divination/intuition]] and [[LINK LATER: Anti-Prophecy | type=mechanic | hint=effects that block prophecy/intuition]], and generally does not arouse spiritual responses. [[LINK LATER: Spiritual Responses | type=mechanic | hint=system for backlash/feedback from spirituality]]
+  - Decryption is not a kind of [[id:alias-divination|Divination]]. It is pure deduction in the mind.
+  - Therefore, Decryption ignores [[id:alias-anti-divination|Anti-Divination]] and [[Anti-Prophecy]], and generally does not arouse spiritual responses. [[Spiritual Responses]]
 
 - **About Anti-Divination:**
   - You can use one Decryption skill and choose one item of specific mystical information related to you (for example: you plan to attack someone next) to realize anti-divination.

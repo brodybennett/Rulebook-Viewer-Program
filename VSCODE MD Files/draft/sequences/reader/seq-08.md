@@ -14,9 +14,9 @@ tags: ["pathway:reader", "sequence:8"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** [[LINK LATER: Inspiration | type=term | hint=Attribute]] +2.
-- **Skill Increases:** [[LINK LATER: Investigation | type=term | hint=Skill]] +1 level; [[LINK LATER: Psychology | type=term | hint=Skill]] +1 level.
-- **Rapid Skill Growth:** [[LINK LATER: Mysticism | type=term | hint=Skill]], Investigation, and Psychology can grow rapidly. Each time you receive **2 hours** of non-repetitive, effective guidance relevant to one of these skills, choose one guided skill; it increases by **1 grade**.  
+- **Attribute Gain:** [[Inspiration]] +2.
+- **Skill Increases:** [[Investigation]] +1 level; [[Psychology]] +1 level.
+- **Rapid Skill Growth:** [[Mysticism]], Investigation, and Psychology can grow rapidly. Each time you receive **2 hours** of non-repetitive, effective guidance relevant to one of these skills, choose one guided skill; it increases by **1 grade**.  
   [[UNCLEAR: The text uses both “level” and “grade” for skill improvement; it is not clear whether these are distinct rank systems or synonymous.]]
 
 - **Training Thresholds:** It takes **2**, **3**, and **4** trainings to become **proficient**, **advanced**, and **proficient** respectively. At most, you can quickly reach **proficiency** temporarily.  
@@ -30,8 +30,8 @@ tags: ["pathway:reader", "sequence:8"]
 
 **Basic Deduction** reversely restores a person’s characteristics through details.
 
-- **Cost:** 1 [[LINK LATER: Spellcasting Action | type=mechanic | hint=Action economy]].
-- **Use:** Make a [[LINK LATER: Detection Check | type=mechanic | hint=Check type]] and choose 1 target. If deducing from a portrait, the maximum [[LINK LATER: Difficulty Value | type=term | hint=Core resolution]] is 25.
+- **Cost:** 1 [[Spellcasting Action]].
+- **Use:** Make a [[Detection Check]] and choose 1 target. If deducing from a portrait, the maximum [[Difficulty Value]] is 25.
 - **Effect:** You “know people by details,” gaining information based on the Difficulty Value achieved.
 - **Limits:**
   - Repeated deductions do not grant new clues until the result is the same; you only obtain new clues once circumstances/clues change enough to alter the result.
@@ -49,7 +49,7 @@ tags: ["pathway:reader", "sequence:8"]
 
 **More Reasoning (Difficulty Value 30):** This may involve passwords, places where important items are hidden, etc. There must be clues to deduce.
 
-- **Warning:** This is not considered [[LINK LATER: Divination | type=mechanic | hint=Core magic category]] and is not affected by [[LINK LATER: Anti-Divination | type=mechanic | hint=Countermeasures]]. However, if false clues are obtained or the target deliberately disguises themselves, your reasoning may still lead in a false direction even without a Big Failure.
+- **Warning:** This is not considered [[id:alias-divination|Divination]] and is not affected by [[id:alias-anti-divination|Anti-Divination]]. However, if false clues are obtained or the target deliberately disguises themselves, your reasoning may still lead in a false direction even without a Big Failure.
 
 > **Lore:** Example ways to describe your reasoning to others include pointing to concrete details (hands, smells, habits, living spaces) and explaining how each detail supports your conclusion.
 
@@ -57,8 +57,8 @@ tags: ["pathway:reader", "sequence:8"]
 
 **Action Deduction** imagines a creature’s next actions.
 
-- **Cost:** 1 [[LINK LATER: Spellcasting Action | type=mechanic | hint=Action economy]].
-- **Use:** Conduct a [[LINK LATER: Psychology Appraisal | type=mechanic | hint=Check type]].
+- **Cost:** 1 [[Spellcasting Action]].
+- **Use:** Conduct a [[Psychology Appraisal]].
 - **Targeting and range:** Choose a target you have performed **Basic Deduction** on within the last **12 hours** (in your mind).
 - **Effect:** Predict what the target will do, based on the Difficulty Value achieved.
 - **Limits:**
@@ -83,7 +83,7 @@ tags: ["pathway:reader", "sequence:8"]
 
 **Thinking Intuition** gives you unique revelations through spirituality.
 
-- **Trigger:** Whenever you make a **Difficulty Value 25** [[LINK LATER: Inspiration Appraisal | type=mechanic | hint=Check type]], you can detect whether something you have experienced before has a sense of incongruity and whether you have missed something.
+- **Trigger:** Whenever you make a **Difficulty Value 25** [[Inspiration Appraisal]], you can detect whether something you have experienced before has a sense of incongruity and whether you have missed something.
 - **Great Success / Higher Difficulty:** If the Inspiration Appraisal is a Great Success **or** the Difficulty Value exceeds **30**, you can judge the source of the incongruity, but you do not know more specific information.
 
 > **Lore:** Ordinary people occasionally have a weaker version of this; it reflects the brain producing a correct result without a conscious reasoning chain. This extraordinary version still relies on valid facts.

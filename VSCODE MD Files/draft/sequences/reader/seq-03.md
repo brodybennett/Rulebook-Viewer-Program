@@ -28,7 +28,7 @@ tags: ["pathway:reader", "sequence:3"]
 
 - **Effect:**
   - You “see” the rules of the world and master many deep mysteries.
-  - From now on, regardless of what you were like before, you know most mystic knowledge in this world by default (including [[LINK LATER: Sequence 0 | type=sequence]], [[LINK LATER: King of Angels | type=other]], [[LINK LATER: Higher Sequences | type=sequence | hint=“sequence above”]], and part of the [[LINK LATER: Starry Sky | type=location | hint=cosmology]]).
+  - From now on, regardless of what you were like before, you know most mystic knowledge in this world by default (including [[Sequence 0]], [[King of Angels]], [[Higher Sequences]], and part of the [[Starry Sky]]).
   - Most esoteric setting knowledge you know as a Player can be summarized on your character sheet.
   - Your Education-related skill checks and attribute checks **automatically succeed** when they are not contested and you are not using an ability.
 - **Limits:**
@@ -36,16 +36,16 @@ tags: ["pathway:reader", "sequence:3"]
 
 ### Insight
 
-- **Cost:** 8 points of [[LINK LATER: Spirituality | type=term | hint=resource points]].
-- **Use:** 1 [[LINK LATER: Spell-Casting Action | type=mechanic | hint=action economy]].
-- **Targeting and range:** Choose 1 target object you can see (within your [[LINK LATER: Field of Vision | type=rule | hint=visibility/line of sight]]).
+- **Cost:** 8 points of [[Spirituality]].
+- **Use:** 1 [[Spell-Casting Action]].
+- **Targeting and range:** Choose 1 target object you can see (within your [[Field of Vision]]).
 - **Effect:**
   - Conduct a Detection appraisal on the target.
-  - This ability ignores [[LINK LATER: Anti-Divination | type=rule]].
-  - “Same as the previous ability,” but ordinary misleading/incorrect information cannot cause Insight’s information to be wrong; Insight can only be affected by other extraordinary abilities (e.g., [[LINK LATER: Secret | type=mechanic | hint=hide clues]]).  
+  - This ability ignores [[id:alias-anti-divination|Anti-Divination]].
+  - “Same as the previous ability,” but ordinary misleading/incorrect information cannot cause Insight’s information to be wrong; Insight can only be affected by other extraordinary abilities (e.g., [[Secret]]).  
     [[MISSING REF: Insight references a “previous ability” it is “the same as,” but that ability is not included in this chunk.]]
   - Repeated Insights yield the same results unless new leads are obtained.
-  - If the selected target is only a portrait/image, resolve Insight according to [[LINK LATER: Basic Deduction | type=mechanic | hint=core deduction rules]] with no Success Level restrictions; however, you cannot use “more reasoning content” of Basic Deduction.  
+  - If the selected target is only a portrait/image, resolve Insight according to [[Basic Deduction]] with no Success Level restrictions; however, you cannot use “more reasoning content” of Basic Deduction.  
     [[UNCLEAR: “more reasoning content of the basic deduction” is referenced but not defined here.]]
 
 - **Appraisal Results (by Difficulty):**
@@ -56,7 +56,7 @@ tags: ["pathway:reader", "sequence:3"]
   - **Difficulty 35:** In addition to the above, learn whether the target has extraordinary items; the item’s current Path and approximate Sequence level; and judge the item’s current state (semi-crazy, on the verge of losing control, or other special states).
   - **Difficulty 40:** In addition to the above, learn the target’s highest and lowest attributes; current blood volume, spirituality, and sanity; and the upper limits of blood volume, spirituality, and sanity.
   - **Difficulty 45:** In addition to the above, learn the specific values of the target’s resistance, reduction, and the three defenses (physics, constitution, and will), as well as the target’s approximate personality.  
-    [[LINK LATER: Personality | type=term | hint=attribute/trait referenced by Insight]]
+    [[Personality]]
 
 - **Success/Failure Extremes:**
   - **Big Success:** Based on your Success Level, you gain the detailed part of any information you could have obtained (e.g., complete skill list and levels; whether the target has changed Pathway and what it was; or the complete 6 attribute values).  
@@ -68,7 +68,7 @@ tags: ["pathway:reader", "sequence:3"]
   - More Insights generally require clues, and can confirm the Path and level involved in an extraordinary event, whether it involves secrets, whether the truth is false, and so on.
 
 - **Special Situations:**
-  - Understanding the mythical form of [[LINK LATER: Sequence 2 and Above | type=sequence | hint=threshold]], [[LINK LATER: Informational Creatures | type=other | hint=“information creatures”]], and “higher than 1 personality” of the [[LINK LATER: Voyeur Pathway | type=pathway]] immediately causes you to suffer a corresponding sanity blow, even if you have already suffered a blow.  
+  - Understanding the mythical form of [[Sequence 2 and Above]], [[Informational Creatures]], and “higher than 1 personality” of the [[Voyeur Pathway]] immediately causes you to suffer a corresponding sanity blow, even if you have already suffered a blow.  
     [[UNCLEAR: “higher than 1 personality” is referenced but not defined here.]]
-  - Knowledge obtained through Insight can only be within the scope of your knowledge. If the target is not within the [[LINK LATER: 22 Pathways | type=rule | hint=setting’s pathway list]] and you do not have the corresponding knowledge, you only get false information that fits within your scope of knowledge and similar pathways (you do not realize the incongruity until you get new leads).
+  - Knowledge obtained through Insight can only be within the scope of your knowledge. If the target is not within the [[22 Pathways]] and you do not have the corresponding knowledge, you only get false information that fits within your scope of knowledge and similar pathways (you do not realize the incongruity until you get new leads).
   - For skills/strengths/weaknesses not within your knowledge, you can only know what they are like, but not what they are.

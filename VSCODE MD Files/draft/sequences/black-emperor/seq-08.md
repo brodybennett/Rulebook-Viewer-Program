@@ -44,9 +44,9 @@ tags: ["pathway:black-emperor", "sequence:8"]
 
 - For Barbarians, power is also a kind of rule—another rule besides law.
 
-1. Gain a beneficial +2 to Strength-related skills and [[LINK LATER: Attribute Identification | type=mechanic | hint=the check used to identify attributes]]; Fighting damage increases by +1d6. This is described as being enough to blow the wall out of “spider web” traces with one punch and make the building tremble. [[LINK LATER: Spider Web | type=mechanic | hint=the “spider web” traces mentioned here]]
-2. Gain [[LINK LATER: Fast Dodge | type=mechanic | hint=evasion/defense feature]]; maintain complete physical defense against firearms, excluding light and lightning; and gain +1 **Dodge** level. [[UNCLEAR: “complete physical defense against firearms, excluding light and lightning” is unclear about what is excluded and how it applies.]] [[LINK LATER: Dodge | type=mechanic | hint=dodge levels and their effects]] [[LINK LATER: Firearms | type=item | hint=ranged weapons category]]
-3. Whenever you look for water, food, or other survival resources in a primitive or social environment, gain a beneficial +2 to [[LINK LATER: Survival Identification | type=mechanic | hint=the check used to identify survival resources]].
+1. Gain a beneficial +2 to Strength-related skills and [[Attribute Identification]]; Fighting damage increases by +1d6. This is described as being enough to blow the wall out of “spider web” traces with one punch and make the building tremble. [[Spider Web]]
+2. Gain [[id:alias-fast-dodge|Fast Dodge]]; maintain complete physical defense against firearms, excluding light and lightning; and gain +1 **Dodge** level. [[UNCLEAR: “complete physical defense against firearms, excluding light and lightning” is unclear about what is excluded and how it applies.]] [[Dodge]] [[Firearms]]
+3. Whenever you look for water, food, or other survival resources in a primitive or social environment, gain a beneficial +2 to [[Survival Identification]].
 
 > **GM Note:** “Survival resources” must be direct materials (excluding written materials) and may include various animals and creatures. The definition is broad: you may search for a species (including humans) and identify whether food is edible.
 
@@ -55,11 +55,11 @@ tags: ["pathway:black-emperor", "sequence:8"]
 ### Mental Resistance
 
 - You have fairly high resistance to mental influences.
-- Whenever your **Sanity** is deducted [[LINK LATER: Sanity | type=term | hint=the character’s sanity value]]:
+- Whenever your **Sanity** is deducted [[Sanity]]:
   - Reduce the deducted Sanity value by 1 (treat it as “-1”).
   - The deduction cannot be reduced below 0.
-- Example: If you suffer a Sanity loss of **1/1d3**, you lose 1 Sanity on a successful [[LINK LATER: Sanity Loss Test | type=mechanic | hint=the check referenced by “sanity loss test”]] and 1d3 Sanity on a failure. With this ability:
+- Example: If you suffer a Sanity loss of **1/1d3**, you lose 1 Sanity on a successful [[Sanity Loss Test]] and 1d3 Sanity on a failure. With this ability:
   - On a success: 1 − 1 = 0 (no Sanity loss).
   - On a failure: 1d3 − 1 Sanity.
 
-> **GM Note:** This effect is brought by the potion and cannot be stolen or recorded. See [[LINK LATER: Madness and Loss of Control | type=rule | hint=rules section describing sanity loss]] for details on Sanity loss.
+> **GM Note:** This effect is brought by the potion and cannot be stolen or recorded. See [[Madness and Loss of Control]] for details on Sanity loss.
