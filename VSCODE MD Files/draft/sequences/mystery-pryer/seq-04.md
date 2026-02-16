@@ -37,14 +37,14 @@ tags: ["pathway:myster-pryer", "sequence:4"]
   - The prying eye may enter a hidden state.
   - The hidden eye cannot be found by [[id:alias-spirit-vision|Spirit Vision]] except by [[Fate]] and the [[Voyeur]].
 - **Limits / Exceptions:**
-  - A [[Reader]] is allowed to spot the prying eye with a [[spot spell]], but only if they use the skill either voluntarily or by accident; otherwise, they cannot detect it. [[UNCLEAR: “uses the skill” could refer to the spot spell specifically or to a different detection skill, changing when detection is possible.]]
+  - A [[Reader]] is allowed to spot the prying eye with a [[spot spell]], but only if they cast that spot spell voluntarily or by accident; otherwise, they cannot detect it.
   - Under certain or suspected circumstances, a Reader of the [[Middle Sequence]] may be permitted to make a **Difficulty Value** 25 Inspiration check to detect something amiss.
 
 ### Mythical Blood
 
 - **Use:** A free action.
 - **Cost:** 3 **spirituality points** [[Spirituality]].
-- **Effect:** Based on the mythical creature blood you parsed when you ascended, you are allowed to have a core ability corresponding to its path. [[UNCLEAR: “its path” could mean the creature’s own path, a Pathway, or another classification used by the setting.]]
+- **Effect:** Based on the mythical creature blood you parsed when you ascended, you are allowed to have a core ability corresponding to that creature's Pathway.
 - **Example (Serpent of Destiny blood):**
   - In one encounter, you can get 15 points of luck [[id:alias-luck|luck]].
   - This luck can be used to [[id:alias-burn-luck|burn luck]], or you can use all 15 points of luck in one round to gain one chance—because of luck—to completely avoid a whole round of damage.

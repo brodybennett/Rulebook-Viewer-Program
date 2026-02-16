@@ -27,22 +27,19 @@ tags: ["pathway:reader", "sequence:6"]
 - **Use:** **Free Action** ([[Actions]]). Whenever you recognize the use of an extraordinary ability, you may immediately conduct a corresponding [[Extraordinary Knowledge Identification]].
 - **Check:** Initial Difficulty 20.
   - For each Sequence level this ability is higher than yours: Difficulty +5.
-  - For each character higher than you in this ability: Difficulty +5.
 - **Requirements:** Some passives or abilities are difficult to recognize or observe, and may require the Beyonder to explain it to you.
-- **Aftereffects:** When you lose **Sanity** ([[Sanity]]) while analyzing an ability: for every 1 Sanity lost, “analysis -1 disadvantage”. If the Sanity exceeds the upper limit, a bonus will be obtained.
+- **Aftereffects:** When you lose **Sanity** ([[Sanity]]) while analyzing an ability: for every 1 Sanity lost, apply **-1** to the Analysis check. If the Sanity loss would reduce you below 1, you still complete the Analysis and gain **+2** on the Analysis result.
   - Sanity loss from Analysis does not affect other abilities.
   > **Lore:** “Practice” is closer to experience than “theory.”
 - **Effect (On Success):**
   - You reveal the specific effects of the extraordinary ability, including strengths and weaknesses.
-  - People who are higher than 2 can only know part of the effects and cannot simulate them, but they still enjoy the second benefit.
+  - Targets **2 or more Sequences higher** than you can only be partially analyzed and cannot be simulated, but they still enjoy the second benefit.
   - From the next time onwards, when you are hit by this extraordinary ability, you gain 4 points of **Deflection Defense** ([[Deflection Defense]]), **or** a +4 advantage in [[Countermeasures]], [[Awakening]], etc. checks.
   - This ability is included in the range of abilities that can be simulated by you, and you can write this ability into your [[Character Card]].
 - **Special:** When creating a higher-sequence reader character card, it can be regarded as having as many extraordinary knowledge bonuses as there are corresponding resolved abilities.
   - Example: a certain path knowledge of +8 means that most abilities can be selected.
   - Generally, such benefits obtained when creating a character cannot exceed your own Sequence limit.
 
-[[UNCLEAR: “analysis -1 disadvantage” and the “Sanity exceeds the upper limit” bonus condition are not defined clearly.]]
-[[UNCLEAR: “People who are higher than 2” and “for each character higher than you in this ability” do not specify the comparison measure.]]
 
 ### Simulation
 
@@ -82,12 +79,14 @@ tags: ["pathway:reader", "sequence:6"]
 - **Path Knowledge thresholds (which gaps apply):**
   - Proficiency in Pathway knowledge and below: suffer all of 1–5.
   - Path knowledge advancement: suffer 2–5.
-  - Path Knowledge Mastery: suffer 3–5, but do not suffer 4 for abilities not higher than Sequence or person.
-  - Path knowledge and erudition: suffer 4–5, but abilities not higher than personal ability do not suffer 4.
+  - Path Knowledge Mastery: suffer 3–5, but do not suffer 4 for abilities not higher than your **Sequence** or **Personality**.
+  - Path knowledge and erudition: suffer 4–5, but abilities not higher than your **Sequence** or **Personality** do not suffer 4.
   - Path to Master of Knowledge: suffer only 5.
-  - If the simulated ability is lower than your own Sequence level or personality: no disadvantages, but Path Knowledge must be at least Erudition and above.
+  - If the simulated ability's Sequence is lower than yours or its Personality is lower than yours: no disadvantages, but Path Knowledge must be at least Erudition.
 
 - **Special Simulation Situations:**
+- **Note:** “Lose spellcasting actions” means you must spend **1 spellcasting action each round** to maintain the effect.
+- **Note:** "Lose spellcasting actions" means you must spend 1 spellcasting action each round to maintain the effect.
   1. [[Secret Puppet]]: After successful [[Marionette]], you need to continue to lose spellcasting actions to manipulate it.
      - If you suffer from gap (4), the secret puppet will be very stuck during operation (like a weird puppet show / frame drop), and each action of the secret puppet during battle needs to be identified by gap (4).
   2. [[Herding]]: After successful grazing, you must continue to lose spellcasting actions to maintain it. Otherwise, due to extraordinary characteristics entering the body, immediately undergo a [[Promotion Appraisal]], and may become a Beyonder of the [[Jumping Pathway]].
@@ -108,4 +107,4 @@ tags: ["pathway:reader", "sequence:6"]
 > **GM Note:** More special simulations are decided by the **GM**. As long as an ability does not gain benefits permanently like grazing, secret puppet, and recording, or the benefit has nothing to do with extraordinary results (such as faceless man), then there is no need to continue to maintain it.
 > **GM Note:** A common point of the above abilities is that most of them have certain permanent passive effects.
 
-[[UNCLEAR: “higher than the Sequence or character,” “Sequence level or personality,” and “lose spellcasting actions” are not defined precisely enough to resolve comparisons or action-economy details.]]
+

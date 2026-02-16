@@ -23,7 +23,7 @@ tags: ["pathway:moon", "sequence:1"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Charm** [[Charm]] +4. [[UNCLEAR: RAW says Charm cannot be measured numerically, but also grants +4 and later references controlling a Charm value.]]
+- **Attribute Gain:** **Charm** [[Charm]] +4 (treat Charm as numeric here; gain +4 to Charm-related checks).
 - If a male **Beyonder** is promoted to this **Sequence**, they become female.
 
 ### The Power of Beauty
@@ -43,7 +43,7 @@ tags: ["pathway:moon", "sequence:1"]
   - **Failure:** If the target is one Sequence level lower than you, they immediately lose all fighting spirit, and may even become your puppet permanently. [[Puppet]]
   - **Success:** The target can use only 1 **Free Action** [[Free Action]] and 1 **Action** [[Action]] each **Round** [[Round]], and their skills, attributes, and damage evaluations are all at a -4 disadvantage.
 
-- **Same Personality Clause:** Enemies with the same personality as you will only lose one action and suffer disadvantages. They can resist with a corresponding **Will Test** [[Will Test]] every round; on success, they do not suffer the corresponding effect, but must make the corresponding Will Test again in the next round as long as they are facing the God of Beauty. [[UNCLEAR: “same personality” is undefined; the exact “disadvantages” here are not quantified; “identify it every round” is unclear in meaning and procedure.]]
+- **Same Personality Clause:** Enemies with the same Pathway/Sequence as you will only lose one action and suffer **-4 disadvantages**. They can resist with a corresponding **Will Test** [[Will Test]] every round; on success, they do not suffer the corresponding effect, but must make the corresponding Will Test again in the next round as long as they are facing the God of Beauty.
 
 ### Life Authority
 

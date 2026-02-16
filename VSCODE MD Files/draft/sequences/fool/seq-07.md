@@ -1,4 +1,4 @@
----
+﻿---
 title: "Sequence 7: Magician"
 id: "fool-seq-07"
 tags: ["pathway:fool", "sequence:7"]
@@ -10,7 +10,7 @@ tags: ["pathway:fool", "sequence:7"]
 
 - See also: [[Pathway containing Sequence 7: Magician]]
 
-You possess fast casting skills: no need to chant spells, no need to infuse spirituality—just a simple action lets you cast the corresponding spell or spell-like ability, including:
+You possess fast casting skills: no need to chant spells, no need to infuse spiritualityâ€”just a simple action lets you cast the corresponding spell or spell-like ability, including:
 - Injury Transfer
 - Flame Jump
 - Manipulate Flames
@@ -30,15 +30,15 @@ You possess fast casting skills: no need to chant spells, no need to infuse spir
 
 ### Auxiliary Materials
 
-- Pure water ×60ml
-- Misty treant juice ×30ml
-- Water-shaped gem powder ×3g
-- Psychedelic essential oil ×4 drops
+- Pure water Ã—60ml
+- Misty treant juice Ã—30ml
+- Water-shaped gem powder Ã—3g
+- Psychedelic essential oil Ã—4 drops
 
 ### Acting Rules
 
-- Do more active performances, but don’t do unprepared performances.
-- Challenge the impossible—even if the final result is only false, try to get the applause of the audience.
+- Do more active performances, but donâ€™t do unprepared performances.
+- Challenge the impossibleâ€”even if the final result is only false, try to get the applause of the audience.
 - Control the attention of the target.
 
 ## Extraordinary Abilities
@@ -51,7 +51,7 @@ You possess fast casting skills: no need to chant spells, no need to infuse spir
 
 Performance improvement:
 - Every time you complete a well-prepared performance that conforms to the rules of magician impersonation, your **performance skill** increases by 1 level.
-- From advanced → proficient, proficient → erudite, and erudite → master, it takes **2**, **3**, and **4** times to improve respectively.
+- From advanced â†’ proficient, proficient â†’ erudite, and erudite â†’ master, it takes **2**, **3**, and **4** times to improve respectively.
 
 ### Injury Transfer
 
@@ -65,9 +65,9 @@ Performance improvement:
    - The creature suffers the vital blow effect of the arm, and the additional damage that is not originally included will also be reflected in the arm.
 2. If the creature is dying, the fatal injury can be transferred to the non-fatal part; multiple fatal injuries can be transferred multiple times to terminate the dying.  
    - [[Dying]]
-3. If you want to transfer the wound on the enemy’s arm to his head, fighting against physical defense, you will be able to do it successfully and cause corresponding additional damage, but this usually can only expose the other person’s skin and bones at most, unless the transfer is fatal hurt.  
+3. If you want to transfer the wound on the enemyâ€™s arm to his head, fighting against physical defense, you will be able to do it successfully and cause corresponding additional damage, but this usually can only expose the other personâ€™s skin and bones at most, unless the transfer is fatal hurt.  
    - [[Physical Defense]]
-4. A creature’s wound can only be transferred on itself; the wound cannot be transferred from one person to another.
+4. A creatureâ€™s wound can only be transferred on itself; the wound cannot be transferred from one person to another.
 
 ### Flame Jump
 
@@ -79,8 +79,7 @@ Performance improvement:
 
 1. If there is an ignited flame within 30 meters, after casting, your body will be covered by flames, and the flame you selected will immediately rise to the size of a human figure, allowing you to jump out of it.
 2. If there is fire (matches and other combustibles) within 30 meters, you need to use the fire to ignite it first before using this ability on it.
-3. This ability can be used to avoid damage with the same priority as a free action, but does not include bullets, lights, lightning, or similar high-speed damage. You cannot dodge quickly during the flame jump, but you can cooperate with a paper doll double to complete the jump. For area damage, as long as the flame jump can jump out of the range, you will not suffer half the damage from the paper doll double.  
-   [[UNCLEAR: The interaction between Flame Jump, the paper doll double, and “will not suffer half the damage” is self-contradictory in phrasing and cannot be resolved from RAW alone.]]
+3. This ability can be used to avoid damage with free-action priority, except against bullets, light, lightning, or similar high-speed damage. You cannot also use quick dodge during Flame Jump. You may combine it with a paper doll double; for area damage, if Flame Jump exits the affected area, you do not take the paper-doll half-damage transfer.
 4. The flames you can jump include poisonous flames and black flames, and you will not be hurt by them only at the moment when your flames jump.
 
 Special:
@@ -110,7 +109,7 @@ Special:
    - Make the final value of the corresponding identification **-4**.
 
 Special:
-- The magician can only control fire for a moment; you can’t shape fire for a long time, or create a wall of fire.
+- The magician can only control fire for a moment; you canâ€™t shape fire for a long time, or create a wall of fire.
 - After the potion is digested or promoted: you can start to summon flame out of thin air; no fire is needed, but it can only last for a moment unless there is a combustible object. It is too late to use this method to jump the flame.
 
 ### Air Bomb
@@ -132,11 +131,10 @@ Special:
 - **Effect:** Choose one of the following effects to take effect:
 
 1. Immediately before you are about to be attacked, you take the initiative to replace yourself with a paper doll, resisting an attack or other effects, completely nullifying the effect. You reappear at most **8 meters** away; the latter is incidental displacement effect.
-   - Special (area attacks): If the double’s displacement doesn’t allow you to leave the area of influence, you take **half damage**. Half damage is rounded up.
+   - Special (area attacks): If the doubleâ€™s displacement doesnâ€™t allow you to leave the area of influence, you take **half damage**. Half damage is rounded up.
    - Must be used immediately. Because it is an active ability, you must recognize the corresponding threat to be a substitute.
    - An effect that has already taken effect on you cannot be a substitute. Example: once the plague of the witch takes effect, the subsequent deterioration cannot be a substitute.
-   - Note: The ability of free actions higher than 2 characters will be too late for the substitute.  
-     [[UNCLEAR: “free actions higher than 2 characters” is not a defined timing unit and cannot be interpreted reliably from RAW alone.]]
+  - Note: Against targets higher than your Sequence by 2+, this substitute is too late to apply.
 2. You destroy a paper figurine with flames, etc., and choose 1 item of specific mystic information related to you (e.g., you plan to attack someone next). Realize anti-divination, and conduct a mystic appraisal as the difficulty of anti-divination.
    - When successful, this information will be excluded in related divination, spiritual intuition, prophecy, unless it exceeds the corresponding difficulty.
    - [[id:alias-anti-divination|Anti-Divination]]
@@ -158,8 +156,7 @@ Special:
 3. Confrontation is a deception against detection/inspiration identification. Because this ability will generally be exposed after being used once, the subject deceived by the illusion will continue to have doubts about the illusion; creating illusions is usually only used once for the same person.
 
 Special:
-- Beings higher than 1-person default to directly perceiving hallucinations as false.  
-  [[UNCLEAR: “higher than 1-person” is not defined (rank/Sequence/creature size/other), so the threshold cannot be stated more precisely.]]
+- Beings higher than your Sequence by 1+ default to directly perceiving hallucinations as false.
 
 ### False "breathing underwater"
 
@@ -176,8 +173,7 @@ You soften your bones, freeing you from handcuffs, ropes, and boxes.
 1. **Use:** 1 **casting action**. Whenever you fall into a grapple, or get restrained by handcuffs, ropes, and other small things, you can soften your bones and break free immediately.
    - This does not include oversize bondage where the xeno demigod lets your clothing bind yourself.
 2. **Use:** 1 **casting action**. Whenever you realize that you are about to fall into a critical blow, even if you are in a state of physical restraint, you can soften your bones, barely bend your waist, and your upper body will fall backwards, avoiding this time vital blow.
-   - Exclude the vital parts that you avoided, and perform an rd6: 1–5 is other vital points; 6 means the vital points are not hit.  
-     [[UNCLEAR: “rd6” roll notation is not defined in RAW; the exact dice expression cannot be normalized safely.]]
+   - Exclude the vital parts that you avoided, and perform a 1d6: 1â€“5 is other vital points; 6 means the vital points are not hit.
 
 ### Turn Paper into Soldiers
 
@@ -185,9 +181,9 @@ You can turn paper into sharp objects, and also into sticks, bricks, and other w
 
 - **Use:** 1 **casting action**
 - **Cost:** 1 point of **spirituality**
-- **Requirements:** As long as you prepare paper corresponding to the approximate shape, you can make it sharp immediately after “shaking” and turn it into a weapon.
+- **Requirements:** As long as you prepare paper corresponding to the approximate shape, you can make it sharp immediately after â€œshakingâ€ and turn it into a weapon.
 
-1. The effect of the manufactured weapon is equal to that in “Weapon Paradigm,” but you can only manufacture cold weapons, not complex hot weapons. The effect lasts **five minutes**, and can be used by others.  
+1. The effect of the manufactured weapon is equal to that in â€œWeapon Paradigm,â€ but you can only manufacture cold weapons, not complex hot weapons. The effect lasts **five minutes**, and can be used by others.  
    - [[Weapon Paradigm]]
 2. Although it becomes sharper, it still does not get rid of the characteristics of paper. If a paper weapon hits a hard object such as armor, it will be damaged after being used **three times**.
 3. Different weapons require different shapes of paper. Example: whips need long strips of paper; sticks need to roll the paper together first. You need to cut it in advance or use it according to the situation.
@@ -205,13 +201,13 @@ You can turn paper into sharp objects, and also into sticks, bricks, and other w
   - Injury Transfer
 - (This is a potion benefit that cannot be stolen or recorded.)
 
-### Magician’s performance props
+### Magicianâ€™s performance props
 
 A prepared magician is completely different from an unprepared magician. Many abilities need corresponding materials prepared for consumption in advance. Excluding other items you usually carry, the number of props you can prepare is:
 
-- Wearing normal clothes: **4 material slots** with 2–4 pockets.
-- Wear a performance tuxedo: **8 material slots**, with 4–8 pockets, including hidden pockets.
-- Wearing Spellcasting Wizard Robes: **12 material slots** with 8–12 pockets, including secret pockets.
+- Wearing normal clothes: **4 material slots** with 2â€“4 pockets.
+- Wear a performance tuxedo: **8 material slots**, with 4â€“8 pockets, including hidden pockets.
+- Wearing Spellcasting Wizard Robes: **12 material slots** with 8â€“12 pockets, including secret pockets.
 
 The props do not need to be determined by your reputation because they are cheap. Slots occupied by different props:
 

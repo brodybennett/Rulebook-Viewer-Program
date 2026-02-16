@@ -28,8 +28,7 @@ tags: ["pathway:Demoness", "sequence:3"]
 
 - You will not grow old or die; your lifespan will exceed at least 1400 years without weakening.
 - Whenever you die, you will be reborn in the **Mirror World** [[Mirror World]], recovering 2d10 **Health Points** [[Health Points]].
-- The number of resurrections is up to you. Each time you resurrect, you need to advance your **Spiritual Limit** [[Spiritual Limit]] by 5 points, that is, your limit -5. You get one chance at your resurrection.
-  - [[UNCLEAR: The text says “advance your spiritual limit by 5 points” but also “your limit -5”; it is unclear whether this is an increase or a decrease, though “-5” is explicit.]]
+- The number of resurrections is up to you. Each time you resurrect, reduce your **Spiritual Limit** [[Spiritual Limit]] by 5 points (your limit -5). You get one chance at your resurrection.
 - Rebirth from the Mirror World appears in the nearest mirror, or a mirror you have set in advance.
 - If your death is in the Mirror World, you will not be able to resurrect.
 
@@ -39,8 +38,7 @@ tags: ["pathway:Demoness", "sequence:3"]
 - **Use:** Once per round.
 - **Effect:** You cause all targets within your line of sight to begin petrifying. This is a **curse** [[Curse]] effect that can be dispelled [[Dispel]] or resisted by **Resistance** [[Resistance]].
 - **Targeting and range:** All targets within your line of sight.
-- **Progression:** Each round, use your Charisma to attack the **physical defenses** [[Physical Defense]] of all creatures within range, and if successful, increase the **Petrification Level** by 1.
-  - [[UNCLEAR: The ability defines “line of sight” targeting but then refers to “within range”; this section does not define whether “range” differs from “line of sight.”]]
+- **Progression:** Each round, use your Charisma to attack the **physical defenses** [[Physical Defense]] of all creatures within your line of sight, and if successful, increase the **Petrification Level** by 1.
 
 - **Petrification Level 1:** The creature's skin is partially stained with lime, leaving only one **Free Action** [[Free Action]] per round.
 - **Petrification Level 2:** The creature's limbs are almost frozen, and it takes two turns to move and attack. At this time, it can give up one of the actions to complete one of the actions in one turn, and there is still one **Free Action** [[Free Action]].

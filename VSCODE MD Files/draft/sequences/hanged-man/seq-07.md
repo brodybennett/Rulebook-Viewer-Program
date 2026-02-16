@@ -28,11 +28,10 @@ tags: ["pathway:hanged-man", "sequence:7"]
   - ① You become a movable shadow; agility +3, affecting **physical defense** [[Physical Defense]] and mobility.
   - ② Gain **high-speed dodge** [[High-Speed Dodge]], keep complete **physical defense** against guns instead of light and lightning, and gain an extra level of **dodge** [[Dodge]] when facing attacks that are slower than guns; but in **shadow state**, you cannot perform actions other than using shadow abilities [[Shadow Abilities]].
   - ③ Even in an environment without other shadows, you can move freely as an independent shadow; but if you hide in a dark area or in an existing shadow, you will be considered **invisible** [[Invisible]], and exposure will result in detection and tracking.
-  - ② In this state, you can pass through places that cannot be entered under normal circumstances, but you can still be hit by abilities.
-  - ③ Exiting the **shadow state** is also a **movement action**, and the form of expression is to "grow" out of the shadow.
+  - ④ In this state, you can pass through places that cannot be entered under normal circumstances, but you can still be hit by abilities.
+  - ⑤ Exiting the **shadow state** is also a **movement action**, and the form of expression is to "grow" out of the shadow.
 - **Special:** [[Master Puppet]], [[Eye of Mystery]], and [[id:alias-spirit-vision|Spirit Vision]] of the [[Path of Fate]] can directly discover you.
 
-[[UNCLEAR: Shadow Lurking lists effects with duplicated item numbering (②/③ repeated), making the intended grouping and ordering of sub-effects uncertain.]]
 
 ### Shadow Package
 

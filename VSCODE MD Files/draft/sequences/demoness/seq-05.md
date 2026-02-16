@@ -15,9 +15,8 @@ tags: ["pathway:Demoness", "sequence:5"]
 - **Effect:** Covering nearly 50 meters, organisms within this range will gradually be infected, and the degree will become more and more serious.
   - At the beginning, it may be just skin allergies, cold and fever.
   - After 20 or 30 seconds, it may turn to severe pneumonia and other diseases.
-  - Myocardial infarction and cerebral infarction will occur at any time after two or three minutes pass.
-
-[[UNCLEAR: The section presents multiple time-to-severity descriptions (Illness overview vs. Infection Level 5 “three minutes” clause) without explicitly stating how they align mechanically.]]
+- Myocardial infarction and cerebral infarction will occur at any time after two or three minutes pass.
+- These timings are narrative examples; use the Infection Level rules below for mechanics.
 
 ## Advancement
 

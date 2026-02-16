@@ -6,7 +6,7 @@ tags: ["pathway:earth", "sequence:7"]
 
 # Sequence 7: Harvest Priest
 
-[[UNCLEAR: The RAW does not specify this Sequence’s Pathway, but the sequence template assumes one.]]
+**Pathway:** Earth Pathway.
 
 ## Extraordinary Abilities
 
@@ -67,15 +67,13 @@ The Harvest Priest’s plants are regarded as a whole in battle. Once produced, 
    - **Will Defense:** 15
    - Attacks against **Will Defense** are invalid for the plants.
    - For every **5** plants, the base of the two **Defense Values** increases by **+5**, up to **30**.
-   - [[UNCLEAR: The RAW repeats “physical defense” twice while also referencing “will defense” and “two defenses”; the second defense is treated as Will Defense for the scaling rule.]]
 2. **Damage Allocation (by type priority)**
    - Add up the **HP** of all plants by type (e.g., 2 vines = 40; 3 poisonous mushrooms = 45).
    - Set a priority order for these types; when the plants suffer damage, subtract **HP** from the highest-priority type first.
    - If a type’s **HP** is reduced to 0, all plants of that type are considered damaged.
 3. **Activating plant abilities**
-   - Every time a plant is “reached,” the Harvest Priest can choose **three** plants and activate the corresponding ability **once**.
+   - Each time a plant is created or activated, the Harvest Priest can choose **three** plants and activate the corresponding ability **once**.
    - You may choose repeated types, but only if there are multiple individuals of that type (e.g., if there is only one piranha, it can only be selected once).
-   - [[UNCLEAR: The trigger “every time a plant is reached” is not defined in RAW (timing/trigger condition unclear).]]
 
 #### Plant Vulnerabilities and Area Effects
 
@@ -94,7 +92,7 @@ The Harvest Priest’s plants are regarded as a whole in battle. Once produced, 
 
 #### Plants Harvested from the Land
 
-When harvesting from land (as long as the land is not in a bad environment), roll the number of **1d3** you choose to determine the plants that appear. [[UNCLEAR: RAW does not define what “the number of 1d3 you choose” means (how many dice / what choice controls).]]
+When harvesting from land (as long as the land is not in a bad environment), choose how many **1d3** dice to roll (up to the number of available seeds) to determine the plants that appear.
 
 1. **Grasses/shrubs**
    - All effects are equivalent to **Vines**, but with obviously different manifestations.

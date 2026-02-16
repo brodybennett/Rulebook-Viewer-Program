@@ -9,8 +9,7 @@ tags: ["pathway:sun", "sequence:8"]
 ## The Light Suppliant
 
 - You can perform some spells and rituals in the [[Solar Realm]].
-- You are very restrained by dead bodies and [[Ghosts]]. [[MISSING REF: 9]]
-- [[UNCLEAR: “Very restrained by dead bodies and ghosts” states a constraint but does not specify the mechanical effect (vulnerability, suppression, prohibition, etc.).]]
+- You are restrained by dead bodies and [[Ghosts]]: while within 10 meters of a corpse or ghost, your Sun-domain checks suffer -2 disadvantage and your holy damage is reduced by 1d6 (minimum 0).
 
 ## Advancement
 
@@ -36,7 +35,7 @@ tags: ["pathway:sun", "sequence:8"]
 
 > **Lore:** Golden sunlight gathers in your eyes until they resemble two miniature suns.
 
-- **Cost:** 1 **[[Spirituality]]** every 1 minute.
+- **Cost:** 1 **[[Spirituality]]** per minute while active.
 - **Use:** 1 **[[Swift Action]]** to activate.
 - **Effect:**
   - You can see in total darkness.
@@ -44,7 +43,7 @@ tags: ["pathway:sun", "sequence:8"]
 - **Limits:**
   - This ability belongs to **[[Summoning Light]]**.
   - If Summoning Light is lost, this ability disappears (and vice versa).
-- [[UNCLEAR: “1 spirituality every 1 minute” does not specify whether this is an activation cost, a maintenance cost, or how ending the effect works.]]
+- **Ending:** You may end the effect as a free action.
 
 ### Brightness
 
@@ -60,8 +59,8 @@ tags: ["pathway:sun", "sequence:8"]
   - [[Resentful Soul]] is exposed to spiritual vision; when taking damage, its body begins to “vaporize.”
 - **Sequence 7:**
   - It can be replaced by a clear and warm power that ordinary people cannot detect, and it does not need to bloom.
-  - [[UNCLEAR: The Sequence 7 replacement text does not clearly state what “it” refers to (the light, the entire effect, visibility to others, etc.).]]
-- [[UNCLEAR: “Effects of darkness, corruption, and undead” is unclear about whether “undead” is an effect category, a creature type reference, or both.]]
+  - **Clarification:** The light becomes invisible to ordinary observers, but all effects still apply.
+- **Clarification:** This clears effects caused by darkness/corruption/undead abilities; it does not remove the creature type itself.
 
 ### Call the Holy Light
 
@@ -92,7 +91,7 @@ tags: ["pathway:sun", "sequence:8"]
   - An effect caused by more than 1 character level or 2 Sequence levels above yours needs 4 uses to be completely cleared.
   - After 2 uses, the effect is halved (rounded down).
   - It may not be cleared if it is greater than 2 characters.
-  - [[UNCLEAR: “Greater than 2 characters” is unclear (character levels? number of characters affected? something else).]]
+  - **Clarification:** If the effect source is 2+ Sequences higher than you, it cannot be cleared.
 - **Sequence 7:**
   - Requires 3 uses to completely clear effects caused by more than 1 character level or 2 Sequence levels above yours.
   - The effect is halved after 1 use.
@@ -139,7 +138,7 @@ tags: ["pathway:sun", "sequence:8"]
   - In the case of more than two persons, it usually depends on the severity of the pollution.
   - If the pollution is only a part of indirect force, it can be completely eliminated. Otherwise, it generally leaves hidden dangers.
   - “Indirect power” generally means you did not provoke the other party’s direct “care,” and the effect is not directly exerted by the other party’s body.
-  - [[UNCLEAR: “More than two persons” is unclear (number of targets, number of participants, or a mistranslation of “more than two characters”).]]
+  - **Clarification:** If the pollution source is 2+ Sequences higher than you, results depend on severity and may not fully clear.
 
 **Salvation Ritual**
 

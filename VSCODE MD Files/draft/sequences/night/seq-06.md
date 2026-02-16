@@ -26,15 +26,12 @@ tags: ["pathway:night", "sequence:6"]
      - This does not include shock and awe.
      - This includes stimulants, psychological hints, and the benefits of losing sanity.
      - **Special:** Even if a target that has been permanently insane and out of control undergoes a Requiem, the corresponding madness will reappear after the Requiem ends.
-  2. Skill and attribute identification −4 is unfavorable, and 1 attack/casting/movement is lost. This lasts until the end of the **Requiemer**’s next action.  
-     [[UNCLEAR: “skill and attribute identification −4 is unfavorable” is not defined (what it applies to and what “unfavorable” means).]]
+  2. Skill and attribute identification checks suffer **-4**, and 1 attack/casting/movement is lost. This lasts until the end of the **Requiemer**’s next action.
   3. Ordinary undead creatures (shadows, living corpses, etc.) will immediately lose all attack desires, and lose their activity and turn back to ordinary dead bodies or dissipate.
-     - Other than this or higher than 1 undead creatures: mobility halved; damage halved.
-     - **Note:** The effect of halving is rounded up. The undead creature transformed from an **Extraordinary** is essentially a living thing and will not suffer from the effect of (3).  
-       [[UNCLEAR: “other than this or higher than 1 undead creatures” is ambiguous (which undead qualify and what “higher than 1” refers to).]]
+     - Stronger undead (Sequence 1+): movement halved; damage halved.
+     - **Note:** The effect of halving is rounded up. The undead creature transformed from an **Extraordinary** is essentially a living thing and will not suffer from the effect of (3).
   4. If the Requiem is an ordinary person or other ordinary creatures, it will lose all desires and cannot perform any actions.
-     - **Special:** In addition to the effect of (3), the full effect of the target higher than 1 character is halved, and no action will be lost. Only the mental state caused by the extraordinary ability of the higher than 1 character can also only have the effect halved, rounded up, to clear the forced movement effect.  
-       [[UNCLEAR: This special rule uses “higher than 1” and “full effect … is halved” without defining the category or which parts of Requiem are halved, and references “forced movement effect” unclearly.]]
+     - **Special:** For targets at least **1 Sequence** higher, the effects of (3) and (4) are **halved** (rounded up), and no action will be lost.
 
 > **Lore:** The invisible fluctuations dissipated unsmoothly, and the surrounding suddenly darkened, as if it was late at night, and the feeling of tranquility and serenity came with a little bit of starlight.
 

@@ -33,9 +33,7 @@ It can also use its body as a “cage,” turning it into a small Underworld tha
 ### Underworld Perception and Sign
 
 - You can perceive the location of the Underworld.
-- You gain an “Underworld in the body,” with a door as a symbol. The core of this inner Underworld is at the center of the forehead, representing the location of the [[God of Death]].
-
-[[UNCLEAR: The “door as a symbol” and “core in the center of the forehead” description is unclear on whether it has mechanical effects beyond being a sign.]]
+- You gain an “Underworld in the body,” with a door as a symbol. The core of this inner Underworld is at the center of the forehead, representing the location of the [[God of Death]]. This description is cosmetic only and has no mechanical effect.
 
 ### Inner Underworld
 
@@ -52,10 +50,9 @@ It can also use its body as a “cage,” turning it into a small Underworld tha
    - This does not include spirit bodies higher than you by 1 level.
    - To use the abilities of a spirit body higher than you by 1 level, that spirit body must voluntarily lend you the ability each time.
    - Even if the borrowed ability is originally a swift action, you still need a casting action to use it. If it is a full-round action, it is still a **full-round action**.
-3) If someone intends to withdraw a spirit body attached to you, or a spirit body in the inner Underworld within your body, you can use “1 [[Inspiration]] + Knowledge of the Dead” to test against it (or against the same identification of Knowledge of the Dead). On a success, your body’s spirit is pulled back.
+3) If someone intends to withdraw a spirit body attached to you, or a spirit body in the inner Underworld within your body, you can make a **Knowledge of the Dead** test with **Inspiration** added as a modifier against it (or against the same identification of Knowledge of the Dead). On a success, your body’s spirit is pulled back.
    - **Special:** This does not include your own spirit body, because instability of your own spirit body causes you to no longer be able to effectively use the inner Underworld.
 
-[[UNCLEAR: “Use 1 Inspiration + Knowledge of the Dead to test” is unclear whether it means spending 1 Inspiration, adding Inspiration as a modifier, or making a combined check.]]
 
 ### Gate to the Underworld
 
@@ -104,12 +101,9 @@ This ability has two uses.
 - To escape the gate of the Underworld, a creature must attack the gate.
 
 **Gate and revenant hit points and targeting:**
-- The gate has the same hit points as the summoner’s hit points, but is independent of the summoner.
-- The “nether revenant” has a total of 20 hit points.
+- The gate has hit points equal to the summoner’s **maximum** HP, but is independent of the summoner.
+- The “nether revenant” is a separate summoned entity with a total of 20 hit points.
 - Both are considered undead.
-
-[[UNCLEAR: The text is unclear on what exactly counts as the “nether revenant” (e.g., the Ghosts of the Underworld effect, a separate entity, or a component of the gate).]]
-[[UNCLEAR: The “same hit points as the summoner, but independently” phrasing is ambiguous on whether the gate inherits current HP, max HP, or some other value.]]
 
 **Why “treated as a whole” but separate:**
 - If an attack is made against the gate, it may cause the nether revenant to disappear, but not necessarily cause the gate itself to disappear.
@@ -127,7 +121,7 @@ This ability has two uses.
 - The Gatekeeper is only affected by the suction of the vortex of the Underworld.
 - Gates of the Underworld made by extraordinary items generally need to consume spells to maintain.
 
-[[UNCLEAR: The final sentence fragment about “goal of the gate” is incomplete in the source text.]]
+GM decides the gate’s specific goal beyond the rules above.
 
 #### Use 2: Overlapping Gate for Travel
 
@@ -149,11 +143,10 @@ You turn an area around you into a portal to the Underworld and reality.
 
 **Duration/Upkeep:**
 1) Before using this ability, choose the number of rounds the wave will last. Each round consumes 5 points of Spirituality.
-2) The end of the continuation does not mean the summoned creatures disappear. Instead, within a certain period of time, each species will die or half of the total number of troops will be lost (round up). You can immediately decide to add any number of Underworld creatures.
-3) The type and quantity of Underworld creatures “filled in the time” are up to you. After the end, you need to use a full-round action to summon.
+2) The end of the continuation does not mean the summoned creatures disappear. Instead, within **1 minute** after the wave ends, each species will die or half of the total number of troops will be lost (round up). During this 1-minute window, you can immediately decide to add any number of Underworld creatures.
+3) The type and quantity of Underworld creatures “filled in the time” are up to you. After that 1-minute window ends, you need to use a full-round action to summon.
 4) If you leave the 100-meter range, the Nether Wave closes immediately.
 
-[[UNCLEAR: Items (2) and (3) are unclear on timing and procedure—especially what “within a certain period of time” and “filled in the time” mean, and when additional creatures can be added versus requiring a new full-round action.]]
 
 **Summoned Underworld creatures:**
 - Blood Corpse:

@@ -6,4 +6,10 @@ tags: ["core-rules", "combat", "index"]
 
 # Combat
 
-[[UNCLEAR: Source file contains no content; intended index structure is unknown.]]
+## Files
+- `combat-procedure.md`
+- `special-actions.md`
+- `special-conditions.md`
+- `weapon-examples.md`
+
+This page is intentionally structural and does not add rules content.

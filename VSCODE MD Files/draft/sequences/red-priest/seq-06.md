@@ -20,8 +20,7 @@ tags: ["pathway:red-priest", "sequence:6"]
 
 - **Attribute Gain:** strength +1, constitution +1, agility +1, inspiration +2.
 - detection, deception, persuasion, and speaking skills can quickly grow to a master.
-- Every time you target a target stronger than you, you will bring him significant damage through conspiracy. The loss of is also regarded as 1 growth.  
-  [[UNCLEAR: “The loss of” does not specify what is being lost (HP, resources, etc.), so the growth trigger cannot be precisely interpreted.]]
+- Every time you target a target stronger than you, you will bring them significant damage through conspiracy. The loss of HP is also regarded as 1 growth.
 
 ### Insight
 

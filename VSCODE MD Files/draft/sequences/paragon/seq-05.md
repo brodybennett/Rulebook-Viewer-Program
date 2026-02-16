@@ -4,11 +4,10 @@ id: "paragon-seq-05"
 tags: ["pathway:paragon", "sequence:5"]
 ---
 
-# **Sequence** 5: Astronomer
+# Paragon Pathway: **Sequence** 5: Astronomer
 
 > **Lore:** Known as “star magician” (“star warlock”) in ancient times; it can guide the power of stars to bless itself.
 
-[[UNCLEAR: The RAW does not state which **Pathway** this Sequence belongs to; the standard Sequence heading format requires a Pathway name.]]
 
 ## Advancement
 
@@ -18,7 +17,7 @@ tags: ["pathway:paragon", "sequence:5"]
   - the distance between the stars,
   - the specific process of the astronomical phenomenon,
   - the duration of the maintenance.
-- Taking the potion (unofficial ritual) at the end of [[UNCLEAR: Sentence is cut off in RAW; the ritual’s final step is incomplete.]]
+- Taking the potion (unofficial ritual) at the end of the above model ritual.
 
 ### Promotion Effect
 
@@ -46,8 +45,7 @@ tags: ["pathway:paragon", "sequence:5"]
   - **Cost:** consumes 2 spirit points.
   - **Targeting and range:** chooses up to 8 targets.
   - **Check:** astronomy against will defense.
-  - **Effect:** you make the movement of these targets minus your movement, you will not be able to move, but the movement action still exists for 1 round.
-  - [[UNCLEAR: “make the movement of these targets minus your movement” and “you will not be able to move” are not precisely defined in RAW.]]
+  - **Effect:** Reduce each target's movement by your movement value for **1 round**. You cannot move for that round, but your movement action still exists (spent maintaining the effect).
 
 - **Stellar Outer Light**
   - **Use:** 1 casting action.
@@ -63,8 +61,7 @@ tags: ["pathway:paragon", "sequence:5"]
   - **Targeting and range:** the area with a radius of 8 meters centered on you will be hit indiscriminately.
   - **Check:** astronomy against physical defense.
   - **Effect:** causing 2d6 fire damage and 3d6 holy damage.
-  - **Special:** against dark, fallen, and undead creatures, holy damage increases by 1d6, 2d6, and 3d6 in sequence.
-  - [[UNCLEAR: The mapping of the +1d6/+2d6/+3d6 increases to “dark, fallen, and undead” is not explicitly stated.]]
+  - **Special:** against **dark** creatures, holy damage increases by **+1d6**; against **fallen**, **+2d6**; against **undead**, **+3d6**.
 
 - **Mercury is extremely hot**
   - **Use:** 1 swift action, once in a round.
@@ -110,7 +107,6 @@ tags: ["pathway:paragon", "sequence:5"]
       - **Effect:** you create an endless fog of air, covering the entire area, and the air escapes after 1 round if the area is not sealed.
       - **Aftereffects:** Creatures exposed to the fog begin each round with 1d6 points of radiation damage, which affects living creatures only.
       - **Special:** At the same time, except for the [[Eye of Mystery]] and the [[One with Extraordinary Destiny]], all creatures are considered blind, including yourself.
-      - [[UNCLEAR: “except for X and Y, all creatures are considered blind, including yourself” is self-conflicting if you are (or are not) among the exceptions.]]
 
 - **Satellite Rings**
   - **Use:** 1 casting action.
@@ -124,17 +120,15 @@ tags: ["pathway:paragon", "sequence:5"]
   - **Cost:** consumes 3 spirituality points.
   - **Targeting and range:** a strong magnetic field appears in an area with a radius of 8 meters centered on you.
   - **Duration:** lasts for 1 round.
-  - **Effect:** the damage to fire, sacred, and lightning in the area outside the area is reduced by 1d6, which can be compared with the damage of Saturn's satellite ring offset.
-  - [[UNCLEAR: “in the area outside the area” and “Saturn's satellite ring offset” are unclear; the interaction with Satellite Rings is not precisely stated.]]
+  - **Effect:** Fire/sacred/lightning damage **outside** the 8-meter area is reduced by **1d6**; compare with **Satellite Rings** and use the better reduction.
 
 - **Neptune and Tianwei**
   - **Use:** 1 casting action.
   - **Cost:** consuming 2 points of spirituality.
   - **Targeting and range:** you choose two targets.
-  - **Effect:** let one of the targets gain 3 points of armor, which can be superimposed, and at the same time, the movement of this target is subtracted from the movement of the other target you choose.
+  - **Effect:** One target gains 3 points of armor (stacking). That target's movement is reduced by the **other** target's movement value.
   - **Duration:** the effect lasts for 1 round.
-  - **Special/Note:** The other target is unaffected.
-  - [[UNCLEAR: The second target is both used for movement subtraction and also stated as “unaffected.”]]
+  - **Special/Note:** The other target is otherwise unaffected.
 
 - **Roche Limit**
   - **Use:** 1 attack action.
@@ -152,8 +146,7 @@ tags: ["pathway:paragon", "sequence:5"]
 - **Use:** 1 casting action.
 - **Cost:** consuming 2 points of spirituality.
 - **Effect:** you get celestial information for the next week, which does not include [[Blood Moon]]s.
-- Afterwards, roll an rd24 to determine how many hours after a particular star reaches its correct position.
-  - [[UNCLEAR: “rd24” is not defined; RAW does not specify what die/mechanic “rd24” represents.]]
+- Afterwards, roll **1d24** to determine how many hours after a particular star reaches its correct position.
 - Perform another 1d7; the random effect will take effect 1 hour after the time is up:
   - **Saturn (Goddess of the Earth):** During the effective period, your strength and constitution +1, restore 1d2 HP every round, and increase your biology by 1 level.
   - **Jupiter (Lord of the Storm):** During the effective period, you get 2 points of damage reduction, strength and agility +1, and those who try to catch you will be like catching a swimming fish, and you cannot be grappled.
@@ -162,7 +155,6 @@ tags: ["pathway:paragon", "sequence:5"]
   - **Venus (God of Steam and Machinery):** During the effective period, your education will be +2, and craft manufacturing and mechanical maintenance will increase by one level.
   - **Mercury (God of Knowledge and Wisdom):** During the effective time, your inspiration +1, education +1, and short-term memory, which is only valid for things you see during the effective time, but you can Recall with [[Wake Up Memory]].
   - **Moon (Goddess of the Night):** During the effective period, your strength, constitution, and agility +1, and you can temporarily enter a state where you can maintain your spirit without sleep.
-- (When the first celestial phenomenon effect ends, you can perform another rd24 to determine the next celestial phenomenon time, but 1d7 is no longer needed, and the next celestial phenomenon effect will be directly cycled in order from small to large, until all cycles are 1 time)
-  - [[UNCLEAR: “rd24” is undefined, and “cycled in order from small to large” lacks a defined ordering list in RAW.]]
-- **Special:** After the God of War timeline, the effect of the God of War will be invalid and changed to 1d6, but the Goddess of the Night is still valid, but the moon is changed to stars.
-  - [[UNCLEAR: “God of War timeline,” “changed to 1d6,” and “moon is changed to stars” are not fully defined in RAW.]]
+- (When the first celestial phenomenon effect ends, you can perform another **1d24** to determine the next celestial phenomenon time, but 1d7 is no longer needed; the next celestial phenomenon effect cycles in the order listed above until all effects have occurred once.)
+- **Special:** After the God of War timeline, the Mars result changes to a **1d6** bonus effect, and the Moon result is renamed **Stars** but keeps its effect.
+

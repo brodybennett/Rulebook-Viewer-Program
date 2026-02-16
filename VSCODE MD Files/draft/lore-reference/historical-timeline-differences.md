@@ -179,7 +179,7 @@ Apocalypse pressure (novel baseline):
 - One must not approach casually (risk of erosion by the sealing core).
 - Contains potion formulas of certain Sequences, mystical materials/items, and Sealed Artifacts; also temporarily holds heretics, untranslated Chinese term, cultists, and secret-organization members for transfer.
 
-[[UNCLEAR: The term "untranslated Chinese term" (used in the Chanis Gate description) is not translated; intended category is unclear.]]
+Source note: one detainee-category term appears untranslated in the raw source; the exact category label is not recoverable from the provided text.
 
 ### Church of the Lord of Storms
 
@@ -368,7 +368,7 @@ After Kalvetua's death:
 - Andre Ladd / Andre Rade
 - Belya / Beiliya
 
-[[UNCLEAR: Demon-family names appear with inconsistent transliterations (Andre Ladd/Andre Rade; Belya/Beiliya).]]
+Transliteration note: this draft treats Andre Ladd/Andre Rade as one family name variant, and Belya/Beiliya as one family name variant.
 
 **Notable members (examples):**
 - Patrick Jason Beiliya/Belya - Abyss Pathway, **Sequence 5** Desire Apostle; assassinated Duke Negan after incitement (as stated).

@@ -35,9 +35,7 @@ tags: ["pathway:visionary", "sequence:8"]
   - You can directly see the target’s [[Aura]] / emotional color without relying on vision (see [[id:alias-spirit-vision|Spirit Vision]] for details).
   - Your [[Observation]] status while observing a target’s mental/aura state remains **+4 beneficial**.
   - Only for those who can conceal themselves related to [[Performance]] / [[Deception]] ability, the bonus exists but does not apply.  
-    [[UNCLEAR: The +4 clause is self-contradictory about when it applies—especially regarding concealment via Performance/Deception.]]
-  - **Observing Emotions:** You can see the other person’s real-time emotions by default, but [[Instigator]] / [[Trickster]] / [[Clown]] can hide their existence.  
-    [[UNCLEAR: “Hide their existence” is unclear—whether it hides emotion visibility, the user’s detection of them, or something else.]]
+  - **Observing Emotions:** You can see the other person's real-time emotions by default, but [[Instigator]] / [[Trickster]] / [[Clown]] can conceal their emotional aura from you.
 
 - **Active:**
   - As long as you take the initiative to roleplay (RP) the false emotions you want to show, any behavior that tries to guess your [[Psychology]] has its identification Difficulty increased by your **(Inspiration + Charm + Psychology)** bonus.
@@ -62,6 +60,5 @@ tags: ["pathway:visionary", "sequence:8"]
 - **Other Rules (Thinking Simulation):**
   1. **A target you don’t understand:** You can’t mentally simulate it.
   2. **Repeated thinking simulation:** Before getting new clues, repeated thinking simulation only gets the same result.
-  3. **Bonus of understanding level:** Your Thinking Simulation appraisal is equal to **−8 disadvantage** of [[id:alias-psychological-guidance|Psychological Guidance]]. Every time you meet the ③④⑤⑥⑦⑧ in Psychological Guidance, your appraisal is reduced disadvantageously like Psychological Guidance.  
-     [[UNCLEAR: The “−8 disadvantage” rule and the reference to levels ③–⑧ in Psychological Guidance are not defined here and cannot be resolved from this text alone.]]
+  3. **Bonus of understanding level:** Your Thinking Simulation appraisal starts at **-8 disadvantage**. Apply the same modifier steps as [[id:alias-psychological-guidance|Psychological Guidance]] when you meet the corresponding understanding levels.
   4. **Things you don’t know:** Like other mental abilities, the content you simulate does not involve information you don’t know, so there may be half-truths and half-false content.

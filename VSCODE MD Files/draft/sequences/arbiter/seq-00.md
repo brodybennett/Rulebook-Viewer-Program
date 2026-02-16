@@ -12,8 +12,7 @@ tags: ["pathway:arbiter", "sequence:0"]
 
 ### Advancement Ritual
 
-- **Advancement Ritual (unofficial):** Make your existence and name (including your [[True Name]]) almost conceptual, becoming a proxy for the rules of the world. Initiate a trial of a god’s crimes that have had a long-term impact on the world, and cause punishment that can substantially affect the other party. After the god is punished or guilty, then take the [[Potion]].
-  [[UNCLEAR: The ritual’s completion condition (“punished or guilty”) is ambiguous in the source text.]]
+- **Advancement Ritual (unofficial):** Make your existence and name (including your [[True Name]]) almost conceptual, becoming a proxy for the rules of the world. Initiate a trial of a god’s crimes that have had a long-term impact on the world, and cause punishment that can substantially affect the other party. After the god is punished or judged guilty (completion criteria are GM-defined), then take the [[Potion]].
 
 ## Extraordinary Abilities
 
@@ -24,10 +23,7 @@ tags: ["pathway:arbiter", "sequence:0"]
 
 ### Divine Gaze
 - **Use:** When any creature recites your **True Name**.
-- **Effect:** You can gaze at the surroundings of that creature, and use your extraordinary abilities to target the area at will.
-
-
-  [[UNCLEAR: “Use your extraordinary ability to target the area at will” does not specify which abilities qualify or what normal targeting limits still apply.]]
+- **Effect:** You can gaze at the surroundings of that creature, and use extraordinary abilities that normally target an area to target that area (normal range limits still apply).
 
 ### Origin of Order
 

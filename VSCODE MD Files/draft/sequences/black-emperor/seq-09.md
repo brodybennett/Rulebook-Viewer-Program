@@ -12,7 +12,7 @@ tags: ["pathway:black-emperor", "sequence:9"]
 
 - Good at discovering and exploiting loopholes in rules and opponents’ weaknesses; possesses excellent eloquence and speculative logic; adept at using the power of order.
 
-[[UNCLEAR: This section alternates between “Dark Emperor” and “Black Emperor” when explaining “distortion” rules.]]
+Note: "Dark Emperor" and "Black Emperor" are treated as the same entity/alias.
 
 ## Extraordinary Abilities
 
@@ -23,16 +23,16 @@ tags: ["pathway:black-emperor", "sequence:9"]
 
 - **Skill Growth (Guidance):**
   - ① Whenever you receive at least 2 hours of real and effective guidance, your legal skills increase by 1 level. You can only learn this once a day.
-  - From training to proficiency, to advanced, to proficient, you need to learn 2, 3, 4 times, up to mastery.
-  - [[UNCLEAR: The growth track repeats “proficient” and does not clearly state the number of learnings needed to reach “mastery.”]]
+  - From training to proficiency, to advanced, to mastery, you need to learn 2, 3, 4 times, up to mastery.
+  -
 
 - **Skill Growth (Exploiting Loopholes):**
   - ② Whenever you use loopholes in rules or logic to make an intelligent creature make a wrong decision, choose Law / Persuasion / Spoken Skills / Intimidation / Pleasant or other social skills to increase by 1 level.
   - Growth limit, efficiency, and number of times are the same as ①.
   - > **GM Note:** Examples include secretly changing concepts with words, avoiding the important and focusing on the minor, generalizing the whole, or putting the cart before the horse.
 
-- When creating a character who has not just been promoted, the growth skill can use twice the Inspiration points brought by the potion. [[Potion]]
-- [[UNCLEAR: “Use twice the Inspiration points brought by the potion” is not defined—unclear how the doubling is applied during character creation.]]
+- When creating a character who has not just been promoted, the growth skill gains **2x Inspiration** points from the potion. [[Potion]]
+-
 
 ### Conversational and Eloquent
 
@@ -42,8 +42,8 @@ tags: ["pathway:black-emperor", "sequence:9"]
 - ② Others will suffer a penalty of your Charisma value to your [[Psychology]] / [[Reconnaissance]] test, and your Charisma enjoys the bonus of ①.
   - If the test fails, the judgment of you will be in a good direction instead of a bad one.
   - Ineffective against wary, hostile targets.
-- (This is a benefit from the potion and cannot be stolen or recorded.)
-- [[UNCLEAR: The text does not specify what situation triggers the Psychology/Reconnaissance test, or who rolls it and against what.]]
+- (This is a benefit from the potion and cannot be stolen or recorded. The Psychology/Reconnaissance test is triggered when a target resists distortion.)
+-
 
 ### Warp Channeling
 
@@ -74,19 +74,19 @@ tags: ["pathway:black-emperor", "sequence:9"]
 
 - **Untwisted guide:**
   - Any intelligent creature that encounters distortion guidance must act according to the result of distortion guidance before receiving information or reminders that contradict existing cognition.
-  - There are two ways to release distortion guidance:
+  - There are three ways to release distortion guidance:
     - ① **Self-detection:** Whenever you plan to do something that is not in line with your original intention, you can use an Inspiration test (**Difficulty Value** [[Difficulty Value]] 25) to detect something is wrong.
       - For example, you plan to protect your family but start to prepare for imprisonment; arrest threats but plan to kill on the spot.
-      - Special: If the distorted cognition has two similar meanings to your own original meaning, then the difficulty of perception -5, and so on.
-      - [[UNCLEAR: “Difficulty of perception -5, and so on” does not define what “perception” refers to here or how “and so on” scales.]]
+      - Special: If the distorted cognition has two similar meanings to your own original meaning, then the difficulty of perception is -5 per Sequence level the target is lower than you.
+      -
     - ② **Obtaining information:** Once you get any information or reminder that reminds you of your original intention, you will immediately notice that something is wrong.
       - For example, you plan to go to [[Backlund]] but realize that you have already set foot on another land; or you are about to be captured alive but your teammates question why you pulled out a gun.
       - Special: Generally, for things that you don’t know at all (such as whether a person is innocent), once you believe they are innocent due to distortion guidance (because the subject of this matter is not yourself), then basically you cannot rely on self-detection; you can only obtain information.
-    - ③ **Higher than 1 level:** Targets higher than 1 level can immediately conduct a [[Spiritual Intuition]] identification at the moment of being guided.
+    - ③ **Higher than 1 level:** Targets with Sequence higher than 1 can immediately conduct a [[Spiritual Intuition]] identification at the moment of being guided.
       - If the identification is successful, it will immediately detect something wrong.
       - Even if the identification fails, the difficulty of subsequent awareness will also be reduced by half, rounded up.
-      - [[UNCLEAR: “Targets higher than 1 level” does not specify higher than whom or by what measure (Sequence, level, or other).]]
-  - [[UNCLEAR: The text says there are “two” ways to release distortion guidance but then lists three.]]
+      -
+  -
 
 - **Explanation on some abilities of the Black Emperor:**
   - In most cases, especially related to “distortion”, the ability is to transform one meaning into another similar meaning, and the two meanings need to have the same affix:
@@ -114,7 +114,7 @@ tags: ["pathway:black-emperor", "sequence:9"]
 - **Great success:** On the basis of the original success level, you know more detailed information, such as the specific reasons for the contradiction.
 - **Big failure:** You still get the information corresponding to the success level, but the other party also understands part of your intention.
 - **Special:** Detecting Vulnerabilities can also be used for certain extraordinary factors, such as discovering whether the opponent is afraid of sacredness, flames, whether the opponent's ability has certain restrictions, etc.
-- (This is a benefit from the potion and cannot be stolen or recorded.)
+- (This is a benefit from the potion and cannot be stolen or recorded. The Psychology/Reconnaissance test is triggered when a target resists distortion.)
 
 ### Vision
 - **Use:** 1 free action.

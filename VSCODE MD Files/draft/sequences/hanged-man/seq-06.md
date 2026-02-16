@@ -35,8 +35,7 @@ tags: ["pathway:hanged-man", "sequence:6"]
   - The target is brought into your flesh.
   - Creatures brought into your flesh become your **Flesh Stack** and provide **Satiety** [[Satiety]].
   - **Flesh Stack** is the value that determines how much flesh and blood you can hold; you can stack it up to 150.
-  - A creature provides as many Flesh Stacks as its maximum health. Excluding [[Extraordinary]], larger creatures usually provide more Flesh Stacks.  
-    [[UNCLEAR: Flesh Devour says Flesh Stacks equal a creature’s maximum health, but also provides a size-based Flesh Stack table with fixed/dice values.]]
+  - A creature provides Flesh Stacks based on the size table below. Excluding [[Extraordinary]], larger creatures usually provide more Flesh Stacks.
 - **Flesh Stacks by size (life limit):**
   - (If the following creatures die tragically and their limbs are mutilated, the host will judge how much flesh and blood are left.)
   1. Tiny creatures (bugs, ants): Count every 10 as 1; 1 Flesh Stack per ten.
@@ -46,8 +45,7 @@ tags: ["pathway:hanged-man", "sequence:6"]
   5. Medium and large creatures (adult lions, tigers, bears, cows): 20 Flesh Stacks; meat pigs, etc. +1d5.
   6. Large creatures (giants, large creatures, Feysacs): 20+2d4 Flesh Stacks.
   7. Very large creatures (creatures comparable in size to a ship, 4-meter or 6-meter giants, creatures that can cause ship destruction): 60+10d2 Flesh Stacks, or even more.
-  8. Extraordinary-related creatures: Directly calculate the upper limit of blood volume [[Blood Volume]], and restore their remaining **Spirituality** [[Spirituality]]; the spiritual recovery can exceed half of the upper limit.  
-     [[UNCLEAR: The target/recipient of “restore their remaining Spirituality” and what “upper limit” refers to here is unclear.]]
+  8. Extraordinary-related creatures: Directly calculate the upper limit of blood volume [[Blood Volume]], and restore their **Spirituality** up to the target’s maximum; the spiritual recovery can exceed half of the upper limit.
   - The above random values determine individual differences.
 - **Devouring time by size:**
   - Devouring ① requires only 1 swift action.
@@ -57,8 +55,7 @@ tags: ["pathway:hanged-man", "sequence:6"]
   - ⑦: At least 3 full-round actions (depending on the situation).
 - **Special (Extraordinary-related creatures):**
   - Ensure their characteristics [[Characteristics]] have been extracted first; otherwise devouring may lead to promotion identification.
-  - Because characteristics become extraordinary in the body of the [[Jumping Path]], the [[Shepherd's Grazing]] can directly solve this problem, allowing characteristics to be separated immediately.  
-    [[UNCLEAR: The terms “promotion identification,” “jumping path,” and “Shepherd’s Grazing” are referenced without definitions here.]]
+  - If characteristics are not extracted first, devouring may trigger a standard promotion check when grazing ends.
 
 ### Flesh Alteration
 
@@ -75,14 +72,12 @@ tags: ["pathway:hanged-man", "sequence:6"]
     - You are considered a **Big Volume Creature** [[Big Volume Creature]].
     - **Large creature benefits (while considered a Big Volume Creature):**
       - Melee against medium-sized creatures increases damage by 1d3 and attack range by 1 meter.
-      - Medium-sized creatures give you +2 check.  
-        [[UNCLEAR: “+2 check” vs medium-sized creatures does not specify which checks or situations it applies to.]]
+      - Medium-sized creatures give you +2 to identification and attack checks.
   - Being bulky affects your appearance, but you can compress flesh so that the benefits of bulky creatures disappear.
     - Compressing flesh increases flesh density to avoid changes in appearance.
     - Compressing flesh does not affect the attribute bonuses gained from Flesh Stack.
-  - Flesh Stack contributes to your upper limit of blood volume first, until your upper limit of blood volume reaches 80.
-    - Given a Flesh Stack cap of 150, on the premise of not affecting life, the Flesh Stack you can freely use is: `150-(80-your true health)`.  
-      [[UNCLEAR: “upper limit of blood volume,” “life,” and “true health” are referenced without definitions here.]]
+  - Flesh Stack contributes to your maximum HP first, until your max HP reaches 80.
+    - Given a Flesh Stack cap of 150, on the premise of not affecting max HP, the Flesh Stack you can freely use is: `150-(80-your max HP)`.
 - **Active:** You can change the appearance and form of your physical body.
   1. **Appearance adjustment:** You can change your initial charm from 1 to 6.
      - Changing 1 point takes 1 day.
@@ -97,10 +92,8 @@ tags: ["pathway:hanged-man", "sequence:6"]
      - Prerequisite: You are incarnated inside the host’s body.
      - You and the host’s flesh and blood fuse; the threads of the spirit body overlap.
      - This cannot be discovered by the [[Marionette Master]], the [[Eye of the Secret]], etc.
-     - This does not include beings higher than 1 person.  
-       [[UNCLEAR: The limit “does not include beings higher than 1 person” is unclear.]]
-     - **Warning:** If you perform flesh and blood fusion, getting out of the body causes the death of the host; “more than 1 digit” causes combat damage.  
-       [[UNCLEAR: “More than 1 digit will cause combat damage” is unclear.]]
+     - This does not include beings higher than Sequence 1.
+     - **Warning:** If you perform flesh and blood fusion, getting out of the body causes the death of the host; for each point above 1, you take combat damage.
   4. **Flesh shaping:** 1 casting action.
      - Change your body into various shapes and perform corresponding functions (e.g., turn your upper body into a vortex to draw the gas in the area onto you alone; block in front of others to resist damage).
      - You can turn body parts into tools like blades; the effect corresponds to the usual version, excluding precision firearms.
@@ -109,8 +102,7 @@ tags: ["pathway:hanged-man", "sequence:6"]
      - Wrap objects that have not been transformed into flesh piles inside your body to store or transport them to a safe location for further processing.
      - Wrapped objects cannot be compressed; wrapping objects taller than you can leave them exposed.
      - You can digest wrapped objects at any time.
-     - As long as the contaminated object is not digested and spit out in time afterward, it will not cause too much damage.  
-       [[UNCLEAR: Timing and consequences for “not digested and spit out in time” are not specified.]]
+     - If a contaminated object is not digested in time, the effect ends and it is expelled with damage.
 
 ### Cellular Proliferation
 
@@ -123,7 +115,7 @@ tags: ["pathway:hanged-man", "sequence:6"]
 
 ### Flesh Cloak
 
-- **Cost:** 3 points of **Spirituality**; 20 Flesh Stacks once a round.
+- **Cost:** 3 points of **Spirituality**; 20 Flesh Stacks total (max 40 per encounter).
 - **Use:** 1 swift action.
 - **Effect:** Weave scarlet flesh and fallen blood into a strange, viscous red cloak that wraps your body and grants:
   1. Gain 5 points of external damage reduction [[External Damage Reduction]]; this can be superimposed with the reduction from Flesh Stack.
@@ -131,20 +123,18 @@ tags: ["pathway:hanged-man", "sequence:6"]
      - Each time it suffers non-physical damage, deduct 1 time.
      - If it suffers from divine power [[Divine Power]], deduct 5 times each time.
      - It can be repaired by repeated casting.
-  3. Making the Flesh Cloak consumes up to 40 Flesh Stacks; consuming more than 40 does not grant additional benefits.
+  3. Making the Flesh Cloak consumes 20 Flesh Stacks; you can consume up to 40 Flesh Stacks per encounter; consuming more than 40 does not grant additional benefits.
   4. The Flesh Stacks of the Flesh Cloak can be recovered by devouring flesh and blood, which consumes 1 full-round action.
 - **Special:**
-  - Damage higher than 1 character of yours consumes 3 more resist times; holy damage [[Holy Damage]] consumes 5 more times.
+  - Damage from a target with Status/Rank higher than yours consumes 3 more resist times; holy damage [[Holy Damage]] consumes 5 more times.
   - If it is 2 characters higher than you, regardless of damage type, the cloak is annihilated after resisting 1 effect; holy causes the cloak to not even take effect.  
-    [[UNCLEAR: “Character higher” (difference thresholds and what counts as “holy” vs “divine power”) is undefined here, and the relationship between “20 Flesh Stacks once a round” and “consumes up to 40 Flesh Stacks” is ambiguous.]]
 
 ### Flesh Bomb
 
 - This ability has two uses.
 
 1. **Thrown flesh bomb**
-   - **Cost:** Consumes 5 points of blood and flesh stack.  
-     [[UNCLEAR: This cost does not clearly state whether it consumes blood, Flesh Stack, or both.]]
+   - **Cost:** Consumes 5 points of blood.
    - **Use:** 1 spellcasting action.
    - **Targeting and range:** Choose 1 target; “throw” against physical defense [[Physical Defense]].
    - **Effect:**
@@ -152,13 +142,11 @@ tags: ["pathway:hanged-man", "sequence:6"]
      - On failure, damage is halved (rounded up).
      - Two creatures standing next to each other count as the same target.
    - **Special:**
-     - It can only consume blood or serve as a pile of flesh and blood as the upper limit of blood.  
-       [[UNCLEAR: The meaning of “only consume blood or serve as a pile…as the upper limit of blood” is unclear.]]
+     - It consumes blood only; ignore the pile limit.
      - You may tear off one of your limbs and throw it:
        - The bomb’s damage is doubled.
        - This usage can affect all creatures within a 10-meter area.
-       - You take a -4 penalty each time you fight or roll; movement is halved, until you use [[Flesh Mending]].  
-         [[UNCLEAR: “Flesh Mending” is referenced but not defined in this section.]]
+       - You take a -4 penalty each time you fight or roll; movement is halved, until you use [[Flesh Mending]] (restores Flesh Stacks up to max).
 2. **Planted flesh bomb**
    - **Cost:** Consumes 5 Flesh Stacks.
    - **Use:** 1 spellcasting action; requires physical contact.
@@ -168,8 +156,7 @@ tags: ["pathway:hanged-man", "sequence:6"]
        - Creatures that are less than large in size are only allowed to stack 5 points of flesh.
        - The owner of the flesh bomb can detonate them at any time within a range of 100 meters.
        - Damage caused by the bomb in the body is doubled.
-     - **Detonate:** Detonating a bomb is a casting action; costs 3 points of Spirituality; you can detonate at most equal to the number of Inspirations.  
-       [[UNCLEAR: It is unclear whether the detonation limit “equal to the number of Inspirations” is per action, per round, or per other interval.]]
+     - **Detonate:** Detonating a bomb is a casting action; costs 3 points of Spirituality; per round, you can detonate at most equal to the number of Inspirations.
      - Ordinary people who are detonated die on the spot by default and become a blood storm.
        - The corpse causes another 1 time of damage to creatures around 5 meters away from the conventional blood bomb; it is no longer an explosion, but depends on the harmful substances of the blood storm and the human body.
    - (Generally speaking, this use can’t work on yourself, because the bomb will also hurt you, and the damage caused is not worth the loss.)
@@ -225,5 +212,4 @@ tags: ["pathway:hanged-man", "sequence:6"]
   - Meat sticks protrude from your body and shoot at targets.
   - Make an attack of Inspiration + shooting against physical defense, ignoring agility and evasion in physical defense.
   - Each meat stick deals 1d6 physical damage.
-- **Aftereffects:** Gain a -2 penalty for each burst, starting with the second shot.  
-  [[UNCLEAR: “Burst” penalty timing (per shot vs per volley) is not fully specified.]]
+- **Aftereffects:** Gain a -2 penalty per shot in a burst, starting with the second shot.

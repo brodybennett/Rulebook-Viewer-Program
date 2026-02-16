@@ -49,10 +49,9 @@ tags: ["pathway:night", "sequence:3"]
   3. **Dreaming:** Release the dreaming effect at the same time, but only the target you hit will fall into the dream after it is judged that the hit has caused damage. This does not trigger the awakening of the damaged one.  
      [[Dreaming effect]]  
      [[Awakening]]
-  4. **Unavoidable darkness (alternate damage):** Your damage becomes **3d8+5**. Choose one of the above three benefits to take effect, but your attack does not need to be identified this time; the darkness in all directions is completely unavoidable. You directly cause damage and gain the chosen benefit. **Substitute** is allowed but consumes three substitutes, and the target still suffers **1d8+5** damage for each substitute that is insufficient.  
+  4. **Unavoidable darkness (alternate damage):** Your damage becomes **3d8+5**. Choose one of the above three benefits to take effect; this attack does **not** require identification and is unavoidable. **Substitute** is allowed but consumes **3** substitutes; for each missing substitute, the target suffers **1d8+5** damage.  
      - (Incremental bonus of **1d8**. Choosing vital strike cannot increase damage, but still gives negative effects other than damage in the case of insufficient substitutes.)  
-     [[Substitute]]  
-     [[UNCLEAR: Option 4 uses undefined terms (“identified,” “Substitute,” “incremental bonus of 1d8”) and the exact interaction between substitutes, remaining damage (1d8+5 per insufficiency), and the parenthetical note is not fully specified.]]
+     [[Substitute]]
 - **Avoidance:** Long-distance displacement skills of **Spirit World Shuttle** can still avoid the damage, including the **Flash of the Moon** of the **Moon Pathway**.  
   [[Spirit World Shuttle]]  
   [[Moon Pathway]]  

@@ -29,7 +29,7 @@ You can also forcibly impact an enemy’s spirit to make them inevitably feel ce
   - “Abyss” is extremely easy to lose control from Sequence 6 and loses conventional emotional empathy. [[id:alias-abyss|Abyss]] [[id:alias-sequence-6|Sequence 6]]
   - Only through killing can one regain sanity; this must be offset by the pleasure brought by serial murders and the loss of sanity during promotion.
   - Starting from Sequence 6, the demon’s sanity test must fail; if the promotion to Sequence 5 fails the sanity test, **1d10** sanity will be lost. [[sanity test]] [[Sanity]]
-  - Therefore, the extra intellectual resistance through intoxication and sinking is the essence of the ritual. [[UNCLEAR: “extra intellectual resistance through intoxication and sinking” is referenced as essential, but no concrete mechanical procedure is given here.]]
+- Therefore, the extra intellectual resistance through intoxication and sinking grants **Advantage** on Sanity checks during the ritual.
 
 ## Extraordinary Abilities
 
@@ -54,7 +54,7 @@ You exploit and manipulate emotions and desires, inducing corruption.
 **Catalyzed outcomes (examples and defined states):**
 
 - **Vigilance behavior in progress → Nervous state**
-  - The original vigilance becomes nervous; subjective perception seems to slow down, entering nervousness, lasting until the danger disappears, appears, or reaches a safe zone. [[UNCLEAR: “danger disappears, appears or reaches a safe zone” is internally unclear as a duration condition.]]
+  - The original vigilance becomes nervous; subjective perception seems to slow down, entering nervousness, lasting until the danger disappears or the target reaches a safe zone.
   - **Nervous state:** Investigative and Listening identification **-4** is unfavorable, and **1, 2, and 3** of these two identifications are all big failures.
 
 - **Expressing a desire to escape → Fear state**
@@ -140,9 +140,9 @@ You exploit and manipulate emotions and desires, inducing corruption.
   - No matter which desire is detonated, the detonated person continues to lose an action within one encounter, is extremely weak, cannot be superimposed, and any effect that needs to be maintained all the time (such as marionette or wraith possession) will terminate on the spot. [[Marionette]] [[Wraith Possession]]
   - If you detonate desire under extreme emotions (not merely catalyzed emotions), this usage is considered a desire explosion.
 
-##### Explosion of Desire
+- **Effect:** The target of the explosion will immediately lose **(20 - target constitution)**; the remaining value becomes the number of **1d6** damage dice.
 
-- **Effect:** The target of the explosion will immediately lose **(20 - target constitution)**, and “the remaining value of each point is equal to the life value of 1d6 damage dice.” [[UNCLEAR: The “Explosion of Desire” loss formula and how the “remaining value” converts into 1d6 damage dice is not mechanically unambiguous as written.]]
+- **Effect:** The target of the explosion will immediately lose **(20 - target constitution)**; the remaining value becomes the number of **1d6** damage dice.
 - Desire explosion usually cannot be replaced; if fatal, it may explode the brain and be dismembered by emotions.
 
 > **GM Note:** Example given: a creature under extreme hormonal charm that is exploded by desire may burst into flames, suffer sudden heart compression, intense flushing/sweating, loss of mind, myocardial infarction, cerebral hemorrhage, and die on the spot.
@@ -153,7 +153,7 @@ You exploit and manipulate emotions and desires, inducing corruption.
 
 1. **Nervousness (detonated):**
    - A non-existent enemy appears in the target’s eyes; any thing (including items) in the selected scene is regarded as an enemy, but teammates are not included unless suspected to be part of the enemy.
-   - After the emotion is detonated, you let the target perform an action designated by you as Player, aligned with dealing with the enemy. [[UNCLEAR: “designated by you as Player” could refer to the caster choosing the action, but controller/authority is not explicitly defined.]]
+    - After the emotion is detonated, the target performs an action consistent with the emotion; the **GM** chooses the action.
    - *(Extreme allergy: The source of danger has not been found while continuing to cause harm to oneself; the person cannot reach a safe zone for a long time; teammates disappear one by one; helpless, or unable to provide effective help—this is considered extreme.)*
 
 2. **Fear state (detonated):**
@@ -245,7 +245,7 @@ You transform your body into an illusory, viscous black liquid of various emotio
   - You cannot use any supernatural abilities in this state.
   - Whether you enter this state in demon form or human form, you lose all your armor, resistance, and reduction.
   - All non-spiritual damage you receive is halved.
-  - **Special:** In the face of an extraordinary ability greater than one of you, change to **10** points of non-spiritual damage reduction. [[UNCLEAR: “extraordinary ability greater than one of you” is not precisely defined (comparison basis and timing unclear).]]
+- **Limits:** If the target has a higher **Sequence level** than you, this effect fails.
 - **Perception effect:**
   - Any creature that sees you witnesses a combination of fear, anger, greed, jealousy, hunger, lust, etc.; seeing you head-on leads to abnormal perception. [[Abnormal Perception]]
 - **Special action:** You can grapple; each round, the grappled target is given a mental shock effect equal to that of the horn of arrogance. [[Horn of Arrogance]]

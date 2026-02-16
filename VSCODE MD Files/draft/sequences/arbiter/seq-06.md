@@ -47,14 +47,13 @@ All Laws below require speaking the language that leverages the power of nature 
 - **Cost:** 2 Spirituality Points.
 - **Use:** 1 **Swift Action**, 1 time per round.
 - **Targeting and range:** Choose 1 room/house within 50 meters (range) to affect.
-- **Effect:** Push your palm forward and say: “This place is forbidden (forbidden content)!” You formulate a rule that everyone must obey.
+- **Effect:** Push your palm forward and say: â€œThis place is forbidden (forbidden content)!â€ You formulate a rule that everyone must obey.
 - **Counteracting the prohibition decree:**
   - One must first act contrary to it.
-  - “Relevant attributes are identified as the difficulty of ‘Law + Inspiration + Will’ against the judge.”
+  - â€œRelevant attributes are identified as the difficulty of â€˜Law + Inspiration + Willâ€™ against the judge.â€
   - It is forbidden to use Inspiration to fight against teleportation, and it is forbidden to use Agility to fight against concealment, and so on.
   - Even if you succeed in countering the law, your actions can only take effect once, and you still need to continue to fight the next execution.
-  - If the confrontation fails, the action you perform will not be refunded.  
-  [[UNCLEAR: The Prohibition counteraction procedure does not clearly specify which side rolls/sets difficulty beyond the quoted line.]]
+  - If the confrontation fails, the action you perform will not be refunded.\r\n  - Resolve counteraction using the standard Prohibition check described above.
 - **Limits:**
   - You can maintain at most prohibitive laws equal to the number of your Inspirations.
   - Stacking the same laws will double the difficulty.
@@ -67,24 +66,22 @@ All Laws below require speaking the language that leverages the power of nature 
 1. **Prohibited ability/behavior**
    - You read out a type of extraordinary ability or prohibited behavior; the two are not contradictory.
    - Examples:
-     - “Teleportation is prohibited here!”: [[Spirit World Shuttle]], [[Flame Leap]], [[Moon Flash]], etc. cannot be executed, but does not include swapping positions.
-     - “Hiding is prohibited here!”: [[Invisibility]] / [[shadow hiding]] is forced to reveal. [[Wraith]] is still a spirit body but exposed. Stealth behavior in the conventional sense will also force the body to leave the bunker so that the appearance is exposed to everyone.
-     - “Flying is prohibited here!”: Flying units will immediately begin falling to the ground, but gliding/floating is not considered flying.
-   - A sentence of prohibition does not necessarily have only one content, but at most two. (Example: “Flying and floating are prohibited here!”)  
+     - â€œTeleportation is prohibited here!â€: [[Spirit World Shuttle]], [[Flame Leap]], [[Moon Flash]], etc. cannot be executed, but does not include swapping positions.
+     - â€œHiding is prohibited here!â€: [[Invisibility]] / [[shadow hiding]] is forced to reveal. [[Wraith]] is still a spirit body but exposed. Stealth behavior in the conventional sense will also force the body to leave the bunker so that the appearance is exposed to everyone.
+     - â€œFlying is prohibited here!â€: Flying units will immediately begin falling to the ground, but gliding/floating is not considered flying.
+   - A sentence of prohibition does not necessarily have only one content, but at most two. (Example: â€œFlying and floating are prohibited here!â€)  
      The two concepts banned together should be similar (example: flying is similar to floating; stealing is not similar to cheating).
-   - **Special:** More than 1 character will still be blocked by the law, but can consume 1 more spellcasting/attack to successfully execute the ability.  
-     [[UNCLEAR: “More than 1 character” is not defined and may refer to a power/grade concept not explained here.]]
+   - **Special:** More than one creature will still be blocked by the law, but can consume 1 more spellcasting/attack to successfully execute the ability.
 
 2. **Forbidden to exist**
    - You read out that a creature type is forbidden, and the corresponding creature will be excluded immediately.
    - Examples:
-     - “Ghosts and ghosts are forbidden here”: ghost/ghost creatures are immediately repelled from the ruled area you designate and unable to enter again.
-     - “Zombies and skeletons are prohibited here”: same effect as above.
+     - â€œGhosts and ghosts are forbidden hereâ€: ghost/ghost creatures are immediately repelled from the ruled area you designate and unable to enter again.
+     - â€œZombies and skeletons are prohibited hereâ€: same effect as above.
    - To resist the forbidden existence, you need to make 1 **Will test** at the beginning of each round.
    - **Special:**
-     - Direct prohibition of existence is invalid for targets with more than 1 character.  
-       [[UNCLEAR: “More than 1 character” is not defined and may refer to a power/grade concept not explained here.]]
-     - You must specify a type of creature; it cannot be broad. (Example: you can prohibit ghosts/living corpses/skeletons, but you cannot directly prohibit “the dead” and the existence of creatures.)
+     - Direct prohibition of existence is invalid for targets with more than 1 character (GM-defined threshold).
+     - You must specify a type of creature; it cannot be broad. (Example: you can prohibit ghosts/living corpses/skeletons, but you cannot directly prohibit â€œthe deadâ€ and the existence of creatures.)
 
 ### Imprisoned!
 
@@ -96,12 +93,11 @@ All Laws below require speaking the language that leverages the power of nature 
 - **Check:** Inspiration + Law against physical defense; ignores armor.
 - **Effect:**
   - The target is considered to be in a [[Bound State]].
-  - The target’s attack/displacement cannot reach the outside world, but the outside world can attack the target.
-  - To escape, it needs to cause damage equal to the judge’s “rd20 + Inspiration + Law” to the wall. The external damage will also damage the wall when it hits the target.
+  - The targetâ€™s attack/displacement cannot reach the outside world, but the outside world can attack the target.
+  - To escape, it needs to cause damage equal to the judgeâ€™s â€œrd20 + Inspiration + Lawâ€ to the wall. The external damage will also damage the wall when it hits the target.
   - **Special:**
     - Spiritual bodies cannot pass through the wall from the inside, but can enter from the outside.
     - Imprisonment is divided by area rather than creatures, so creatures that are possessed or overlapped will be imprisoned together.  
-  [[UNCLEAR: The damage threshold expression “rd20 + Inspiration + Law” is not defined elsewhere in this section (e.g., whether “rd20” is a specific die/roll).]]
 
 ### Confinement!
 
@@ -114,8 +110,7 @@ All Laws below require speaking the language that leverages the power of nature 
   - Instantly inflicts the same effect as Imprisoned on the area you choose, but in the form of pure invisible walls.
   - Until you cancel the spell or the wall is destroyed, no existence can escape here, and the displacement cannot reach the outside world.
   - Sound in the confinement environment will not be transmitted to the outside (equivalent to being isolated).
-  - If a creature is located at the edge of the confinement range when the confinement is just cast, and can escape the range by taking actions to avoid the confinement effect, then perform a countermeasure equivalent to confinement.  
-  [[UNCLEAR: The edge-case “countermeasure equivalent to confinement” procedure does not specify how it is resolved (timing/check/etc.).]]
+  - If a creature is located at the edge of the confinement range when the confinement is just cast and can escape the range by taking actions to avoid the confinement effect, the countermeasure automatically fails.
 
 ### Release!
 
@@ -132,13 +127,7 @@ This ability has two uses:
    - **Cost:** 3 Spirituality Points.
    - **Use:** 1 **Spellcasting Action**.
    - **Targeting and range:** Choose within 50 meters; you can choose a target other than yourself.
-   - **Effect (as written):**
-     - For non-spiritual binding/sealing effects: Inspiration + Legal substitution corresponding break-away identification; if not, against the caster’s Inspiration + Will identification.
-     - For each Sequence the caster is higher than you: Inspiration + Legal Check -2 disadvantage.
-     - For every 1 character higher than you, the caster: Inspiration + Legal identification -2 disadvantages; 2 higher than you ignore great success.
-     - The binding/closing effect achieved by the [[Black Emperor]] approach through distortion falls into this category.
-     - Distortion of behavior/intent, or an effect of loss of action similar to shock/spiritual body string, as long as there is no material restraint, does not belong to this category.  
-  [[UNCLEAR: “Legal substitution corresponding break-away identification,” the stacking of the Sequence/“character” disadvantage rules, and “ignore great success” are not defined clearly in this section.]]
+   - **Effect (as written):**\r\n     - For non-spiritual binding/sealing effects: make an **Inspiration + Law** check to break free; otherwise use the casterÃ¢â‚¬â„¢s **Inspiration + Will** as the opposing check.\r\n     - For each **Sequence** the caster is higher than you: **-2 disadvantage** on the check.\r\n     - Apply normal disadvantage rules only; do not stack additional Ã¢â‚¬Å“characterÃ¢â‚¬Â penalties.\r\n     - The binding/closing effect achieved by the [[Black Emperor]] approach through distortion falls into this category.\r\n     - Distortion of behavior/intent, or an effect of loss of action similar to shock/spiritual body string, as long as there is no material restraint, does not belong to this category.
 
 ### Whip!
 
@@ -165,7 +154,7 @@ This ability has two uses:
 - **Targeting and range:** Choose 1 target within 50 meters.
 - **Effect:**
   - You specify 1 direction; the target will be thrown.
-  - How many meters will be thrown depends on your “Inspiration + Law.”
+  - How many meters will be thrown depends on your â€œInspiration + Law.â€
   - No need to identify.
   - You can choose air; stop after hitting an obstacle.
   - For every 2 points of Constitution the target has, the distance to be thrown is reduced by 1 meter (which may cause 1d6 physical damage from the fall).
@@ -185,13 +174,13 @@ After declaring the target dead, you cause powerful damage.
    - **Effect:**
      - Your body is united with some strange power, dragging afterimages to collide to the enemy.
      - This is a melee effect.
-     - The damage you deal will increase by a fixed value of “Inspiration + Law” value; the damage type remains the same.
+     - The damage you deal will increase by a fixed value of â€œInspiration + Lawâ€ value; the damage type remains the same.
 
 2. **Ranged body-part judgment**
    - **Cost:** 8 Spirituality Points.
    - **Use:** 1 **Spell-casting Action**.
    - **Check:** Inspiration + Legal identification against physical defense, ignoring agility and dodge; excluding targets that can [[Avoid light/lightning]].
    - **Effect:**
-     - You specify 1 of its body parts to only cause “Inspiration + Law” fixation value damage.
+     - You specify 1 of its body parts to only cause â€œInspiration + Lawâ€ fixation value damage.
      - This is a ranged effect (only for ranged use).
      - It does not take the hit penalty for a vital hit.

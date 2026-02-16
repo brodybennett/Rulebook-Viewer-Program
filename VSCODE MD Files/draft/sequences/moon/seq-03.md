@@ -35,7 +35,7 @@ The **Gate of Summoning** opens an illusory door to the depths of the Spirit Wor
 **Summoned creature determination**
 - Use a **Lucky Appraisal** to determine the type of creature to be summoned. [[Lucky Appraisal]]
 - For ease of calculation, its panel is equal to the summoner itself.
-- When the difficulty is full, a +1 gain will be obtained based on the knowledge level of each month. [[UNCLEAR: “difficulty is full” and “knowledge level of each month” are not defined here, so the trigger and scope of the +1 gain cannot be determined.]]
+- When the difficulty is full, a +1 gain will be obtained based on the knowledge level of each month. GM decides the exact trigger and scope.
 
 **Difficulty outcomes**
 - **Difficulty 10:** Spirit World creatures that are one Sequence weaker than themselves.
@@ -45,7 +45,7 @@ The **Gate of Summoning** opens an illusory door to the depths of the Spirit Wor
 
 **Great success**
 - The Spirit World creatures chosen one Sequence higher than oneself will be in a controllable state for the entire encounter, and +10 HP on this basis.
-- At this time, the second Lucky Appraisal is performed. If the difficulty is higher than 15, the [[Alien Pathway]] will be summoned. (GM draws themselves, not necessarily higher or lower than their own Sequence level; the Alien Pathway will usually directly be an alien creature, not a Spirit World creature.) [[UNCLEAR: It is unclear whether “If the difficulty is higher than 15” refers to the second Lucky Appraisal or another value.]]
+- At this time, the second Lucky Appraisal is performed. If the difficulty is higher than 15, the [[Alien Pathway]] will be summoned. (GM draws themselves, not necessarily higher or lower than their own Sequence level; the Alien Pathway will usually directly be an alien creature, not a Spirit World creature.)
 
 **Big failure**
 - Summon a high-path spirit creature that attacks indiscriminately; pass a Difficulty 15 Lucky Appraisal again to judge whether it is stronger than the summoner, and conduct a third Difficulty 20 Lucky Appraisal to determine whether it is an Alien Pathway, or aliens. (GM self-made; big failure summons are usually extremely dangerous enemies.)
@@ -56,7 +56,7 @@ The **Gate of Summoning** opens an illusory door to the depths of the Spirit Wor
 
 **Summoning Gate statistics and interactions**
 - The **Summoning Gate**’s HP is regarded as half of the Summoner Master’s HP.
-- The Summoning Gate enjoys the Summoner Master’s life recovery and its weaknesses, and it will receive the restraint bonus of [[Undead creatures]]. [[UNCLEAR: “restraint bonus of undead creatures” is not defined here (who gains what bonus, and how it applies).]]
+- The Summoning Gate enjoys the Summoner Master’s life recovery and its weaknesses, and it gains the same restraint bonuses against undead that the summoner has.
 - If the summoner themself is not Sequence 3, then the Summoning Gate’s HP defaults to 40, and it enjoys the same [[Defense Value]] as the summoner themself.
 - If half of the life value of the summoner in Sequence 3 is less than 40, the door’s life value will be processed as 40 by default.
 

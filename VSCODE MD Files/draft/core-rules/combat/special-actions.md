@@ -138,7 +138,7 @@ You use your body to restrict an enemy's actions, making them hard to move.
 3. While in a grapple, you and the grappled creature cannot take Attack or Move actions. However, on each of your turns, you may use Brawling contested against their Constitution (CON) and squeeze them with Strength, dealing damage equal to your Strength damage die. This is the only permitted Attack action. It cannot be used if the opposed Strength is halved.
 4. You may grapple the target with one hand to restrict their movement. You may then take normal Attack actions, but your Strength contest check is halved as a result, rounded down. Changing the grapple posture from two-handed to one-handed is 1 Swift Action.
 
-[[UNCLEAR: The text states both sides gain "advantage/disadvantage" while grappling, but does not specify which rolls get which modifier.]]
+While grappling, both sides are Restrained; no additional advantage/disadvantage applies beyond the Restrained condition.
 
 **Warning:** Some abilities that state "creatures standing together are treated as the same target" will injure both of you.
 

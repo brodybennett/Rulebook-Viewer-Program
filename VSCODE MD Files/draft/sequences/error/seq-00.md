@@ -23,7 +23,7 @@ You gain the following extraordinary abilities:
 ### Attribute Gain
 
 - **Attribute Gain:** Inspiration +1, Dexterity +1.
-- Your deceit and skill level up by one skill level. [[UNCLEAR: It is not specified whether “deceit” and “skill” are specific skills/ratings or a general description of skill increases.]]
+- Your **Deceit** skill increases by 1 skill level, and one other skill of your choice increases by 1 skill level.
 
 ### BUG
 
@@ -32,7 +32,7 @@ You gain the following extraordinary abilities:
 - **Effect:** You can make any loopholes in the logic of rules and destiny come true.
 - **Effect notes:**
   - The stronger the connection and association is, the more feasible it is. Otherwise, it is difficult to succeed.
-  - It is difficult to succeed, especially for the same personality; but you can almost use this ability without any logic in the face of low-level personality, especially the Sequence that even the king of angels has not yet reached. [[King of Angels]] [[UNCLEAR: The trailing “1.” appears to be a misplaced Sequence reference or footnote marker.]]
+  - It is difficult to succeed, especially for the same personality; but you can almost use this ability without any logic in the face of low-level personality, especially the Sequence that even the king of angels has not yet reached. [[King of Angels]]
 - **Example:**
   - Your main body [[Main Body]] is teleported, and your avatar [[Avatar]] is the main body to some extent, so all your avatars and main body can be teleported.
 

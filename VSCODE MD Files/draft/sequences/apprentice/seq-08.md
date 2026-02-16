@@ -45,8 +45,7 @@ tags: ["pathway:apprentice", "sequence:8"]
 - To improve between the following levels, you must meet the above condition this many times:
   - Training → Proficiency: 2 times
   - Proficiency → Advanced level: 3 times
-  - Advanced level → Proficiency: 4 times  
-    [[UNCLEAR: The last tier transition repeats “Proficiency” instead of specifying the next higher level.]]
+  - Advanced level  Mastery: 4 times
 
 ### Spells
 
@@ -67,8 +66,7 @@ You wield a variety of strange but not powerful spells.
 - **Use:** 1 **Casting Action**.
 - **Cost:** Consume 2 **Spirituality Points**.
 - **Effect:** You make the whistling sound of wind suddenly appear, and all light objects are blown away.
-- **Benefit selection:** You choose 1 of the following benefits to take effect.  
-  [[UNCLEAR: Wind Blowing Skill says “choose 1 of the following benefits,” but only one benefit is listed.]]
+- **Benefit:** The following effect applies.
   - Choose a wind direction within a range of **10 meters** and gain **6 points of forced movement**, forcing creatures in this range to move **6 meters** in the wind’s direction.  
     [[Forced Movement]]
   - For each point of the creature’s size, the forced movement is **-1**, excluding Tiny volume (ants, spider).  
@@ -84,8 +82,7 @@ You wield a variety of strange but not powerful spells.
   - A total of **6** volumes that can reduce the effects of the wind spell.
 - **Special:** Any creature that loses balance will receive double the force of forced movement.  
   [[Unbalanced]]
-- **Special:** Among them, once the small volume and small volume are affected by the wind, they will lose their balance by default, and thus the forced movement force will be doubled.  
-  [[UNCLEAR: “small volume and small volume” is duplicated and unclear which size categories are intended.]]
+- **Special:** Among them, once the small volume and large volume are affected by the wind, they will lose their balance by default, and thus the forced movement force will be doubled.
 
 #### Fall
 
@@ -113,10 +110,7 @@ You wield a variety of strange but not powerful spells.
   - Unless the action targeting other things is an indiscriminate strike, it needs a **Difficulty Value 15** Inspiration test (according to the memory recall direction) to be successfully executed.  
     [[Difficulty Value]]  
     [[Indiscriminate Strike]]
-  - The detection test is **-8** disadvantageous. [[Detection]]
-  - “The gain is disadvantageous.”  
-    [[UNCLEAR: The phrase “the gain is disadvantageous” is not clearly defined in context of Blind.]]
-  - Others have an advantage over it.
+  - The detection test is **-8** disadvantageous. [[Detection]]  - Others have an advantage over it.
 
 #### Fog Creation
 
@@ -144,13 +138,11 @@ You wield a variety of strange but not powerful spells.
 - **Notes:** Although this counts as lightning, you’re not getting thunder; you’re creating electricity “out of thin air.”
 - **Special:** Shock can’t make a vital strike. [[Vital Strike]]
 - **Special:** If the target is an undead creature, increase the lightning damage by **1d6**.
-- **Special:** If the target is wet, you can make another check to paralyze it successfully.  
-  [[UNCLEAR: Electric Shock allows “another check” to paralyze a wet target but does not specify what check is used or what it is checked against.]]
+- **Special:** If the target is wet, you can make a **Constitution** check vs **Difficulty Value 15** to paralyze it.
 - **Condition: Paralyzed**
   [[Paralyzed]]
   - Make a physical examination with a **Difficulty Value 15** to get rid of paralysis; otherwise you cannot perform attack and movement actions.
-  - It will not return to normal until the opponent’s next round of actions.  
-    [[UNCLEAR: “Opponent’s next round of actions” is unclear about whose turn ends the Paralyzed state.]]
+  - It will not return to normal until the end of the target's next turn.
 
 #### Incinerate
 

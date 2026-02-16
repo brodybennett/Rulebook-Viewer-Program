@@ -32,8 +32,7 @@ Wherever one is found, endless mists cloud spiritual intuition. In the mists, Mi
 
 - **Basic Data:** Charm 1; Strength 8; Luck 4; Dexterity 4; Constitution 10; Will 5; Inspiration 0; Education 0.
 - **Health:** 80
-- **Physical Defense Level:** 10 + 4 agility + 4 armor + 4 deflection = 22. [[Agility]] [[armor]] [[deflection]]
-  [[UNCLEAR: The defense formula references "agility," but the basic data lists "Dexterity".]]
+- **Physical Defense Level:** 10 + 4 Dexterity + 4 armor + 4 deflection = 22. [[Dexterity]] [[armor]] [[deflection]]
 - **Skills:** None
 - **First Sighting:** 1/1d3 SC. [[SC]]
 
@@ -42,11 +41,10 @@ Wherever one is found, endless mists cloud spiritual intuition. In the mists, Mi
 Each turn, the Misty Treant has 4 actions. It randomly performs one of the following 6 actions:
 
 1. **Move:** Move 2 meters in one direction. Creatures in this direction must pass a Dexterity check with Difficulty 20; otherwise, they suffer 3d6 damage.
-2. **Use Pustule Human Ability:** Use the extraordinary abilities of a human in a pustule. [[UNCLEAR: "a human in a pustule" is not defined; the exact source and limits of these abilities are unclear.]]
-3. **Throw Stones.**
-4. **Hit with Sticks:** Deal 2d6 damage.
-5. **Spray Thick Fog:** Visibility of the scene is reduced, and everything is considered invisible.
-6. **Project Phantom:** Randomly project an image the Misty Treant has seen; this effect will change the scene.
+2. **Use Pustule Human Ability:** Use the extraordinary abilities of a trapped Beyonder if known; otherwise, GM chooses a reasonable set.
+3. **Hit with Sticks:** Deal 2d6 damage.
+4. **Spray Thick Fog:** Visibility of the scene is reduced, and everything is considered invisible.
+5. **Project Phantom:** Randomly project an image the Misty Treant has seen; this effect will change the scene.
 
 > **GM Note:** In some cases, you can learn secrets of the past through the Misty Treant.
 

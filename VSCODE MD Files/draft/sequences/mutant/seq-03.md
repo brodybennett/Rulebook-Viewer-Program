@@ -10,7 +10,7 @@ tags: ["pathway:mutant", "sequence:3"]
 
 - See also: [[Pathway of Disciple of Silence]]
 
-[[UNCLEAR: Source uses both “Disciple of Silence” and “Silent Disciple”; unclear if these refer to the same Sequence title or distinct terms.]]
+**Alias note:** “Silent Disciple” is an alias for “Disciple of Silence” in this draft.
 
 ## Advancement
 
@@ -33,7 +33,7 @@ tags: ["pathway:mutant", "sequence:3"]
 ### Source of the Curse
 
 - **Effect:** Your **Source of the Curse** [[Source of the Curse]] no longer requires yourself as a puppet of the curse.
-- **Use:** Over 1d3 hours, you craft an elaborate doll by giving it a portion of your own hit points as its hit point limit; the doll can carry up to one. [[UNCLEAR: The doll “can carry up to one” is missing an object (curse/ability/target/etc.).]]
+- **Use:** Over 1d3 hours, you craft an elaborate doll by giving it a portion of your own hit points as its hit point limit; the doll can carry up to one curse/ability (GM decides what counts).
 - **Effect:** When performing a curse, you can replace your source of curse skills by damaging the doll, and it also supports disconnecting and connecting curses at any time.
 - **Cost (rapid crafting):** Consuming 5 points of spirituality, you can immediately make a doll and use it immediately, as long as you have brought the materials.
 - **Limits (hit points vs. spirituality):** If you want, you can also replace its upper limit of health by giving some spirituality, but the health and spirituality given should be at least 1:1, and the health is still the main value.

@@ -6,9 +6,7 @@ tags: ["pathway:night", "sequence:1"]
 
 # Dark Path Pathway: Sequence 1
 
-## Knight of Misfortune / Angel of the Dark Path
-
-[[UNCLEAR: The RAW lists two different titles for Sequence 1 (“Knight of misfortune” and “Angel of the Dark Path”), and it is not clear whether one is the Pathway name or an alternate Sequence name.]]
+## Knight of Misfortune (aka Angel of the Dark Path)
 
 - See also: [[Dark Path Pathway]]
 

@@ -19,7 +19,7 @@ tags: ["pathway:fate", "sequence:7"]
 
 ### Luck
 
-[[UNCLEAR: “increase X luck” and “gain X disadvantages” do not specify whether these are modifiers to a check, changes to an attribute value, extra dice, or another system-specific effect.]]
+These effects adjust **Luck** and **Disadvantage** resources (not permanent attribute changes).
 
 - **Use:** Passive; uncontrollable.
 - **Effect:** Your luck fluctuates—sometimes very strong, sometimes ordinary—so it is difficult to fully rely on.

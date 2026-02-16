@@ -23,7 +23,7 @@ You create ingenious mechanical wonders with a wealth of real-world knowledge.
 
 - **Use:** For at least 10 minutes, perform a **Difficulty Value** 25 crafting appraisal [[Crafting Appraisal]] to create a **Mechanical Wonder**.
 - **Cost:** 1 **Steam Material** [[Steam Material]] per production.
-- **Steam materials on hand:** You have Steam Materials equivalent to your reputation level instead of the reputation value multiplied by 5. If the reputation reaches proficiency, it will not be counted. If you are a **Beyonder** of the [[Church of Steam]] , then when calculating steam materials, your reputation will be considered advanced. [[Reputation]] [[UNCLEAR: steam-material calculation references “reputation level,” “reputation value ×5,” “proficiency,” and “advanced” without defining how these tiers/values interact or what “will not be counted” means]]
+- **Steam materials on hand:** You have Steam Materials equal to your **reputation rank** (not reputation rating ×5). If your reputation is **Proficient** or higher, ignore this cap. If you are a **Beyonder** of the [[Church of Steam]], treat your reputation as **Advanced** when calculating materials. [[Reputation]]
 - **Repair/improvement:** Every time a Mechanical Wonder is repaired or improved, 1 Steam Material is consumed, and it will not occupy more slots.
 - **Carrying limit:** You can carry at most Steam Wonders equal to your [[Strength]] value. 1 point of Strength corresponds to 1 Steam Material (1 slot). If a Mechanical Wonder uses 2 Steam Materials, it occupies 2 slots.
 
@@ -33,7 +33,7 @@ You create ingenious mechanical wonders with a wealth of real-world knowledge.
    - **Cost:** 1 Steam Material.
    - **Use:** 1 [[Casting Action]] to activate.
    - **Effect:** You can order it to explore an area; the car has 10 points of movement. [[Movement Points]]
-   - **Limits:** Its behavior in this process is uncontrollable, and it cannot be fed back to you on the screen; but if it is destroyed, it already represents part of the information. [[UNCLEAR: “represents part of the information” is not defined mechanically (what information, and how it is obtained)]]
+   - **Limits:** Its behavior in this process is uncontrollable, and it cannot be fed back to you on the screen; if it is destroyed, you still receive partial information (general layout/last known position) but no details.
    - The shape can be customized, and it is driven by steam.
 
 2. **Gliding Drone**
@@ -55,7 +55,7 @@ You create ingenious mechanical wonders with a wealth of real-world knowledge.
    - **Cost:** 2 parts of Steam Material.
    - **Damage:** A power fist can do 1d6+Strength damage dice and doesn’t stack with other weapons; you obviously can’t hit someone with a knife and a fist at the same time.
    - **Use:** 1 [[Full-Round Action]] to store power.
-   - **Effect:** The steam gushing out from the back of the glove will bring the bearer to accelerate, and the burst of power will be roared out immediately, causing an additional 2d6 physical damage, and if it moves with the attack, the holding Some move temporarily +3. [[UNCLEAR: “the holding Some move temporarily +3” is unclear (likely a movement-related bonus, but the stat/name is not defined)]]
+   - **Effect:** The steam gushing out from the back of the glove accelerates the bearer; the burst of power roars out immediately, causing an additional 2d6 physical damage. If you move with the attack, you gain **+3 Movement Points** for that action.
    - The appearance is a metal material that is a full circle larger than the fist.
 
 5. **Metal Exoskeleton**
@@ -77,7 +77,7 @@ You create ingenious mechanical wonders with a wealth of real-world knowledge.
    - **Use:** 1 attack action; the machine gun can fire up to 6 rounds in a row, but the chain has a full 30 rounds.
    - **Targeting:** When using a semi-automatic machine gun, use 1 [[Shot (Machine Gun)]] to identify at most three targets standing together at the same time; no matter how many bullets are fired in a row, only 1 identification is required.
    - **Damage split:** You can split the damage by yourself and choose how many bullets hit different targets.
-   - **Improvement limits:** The improvement of the machine gun can only increase the final damage; it cannot increase the damage by 1d6 for each bullet, and the consumption of 6 bullets remains the same. Of course, if the Beyonder is willing, it can also be regarded as changing from 6 bullets to 7 bullets. [[UNCLEAR: unclear whether “6 bullets to 7 bullets” is an optional improvement, and how it coexists with “consumption of 6 bullets remains the same”]]
+   - **Improvement limits:** The improvement of the machine gun can only increase the final damage; it cannot increase the damage by 1d6 for each bullet, and the consumption of 6 bullets remains the same. **Optional upgrade:** increase the burst to 7 bullets; if so, it consumes 7 bullets.
 
    > **GM Note:** The text’s rationale for “only 1 identification” compares this to real machine guns (slow muzzle movement/aim; missing early makes later hits harder), but does not add extra mechanics beyond the rules above.
 
@@ -113,7 +113,7 @@ You create an Extraordinary Item according to the following procedure:
 
 - **Make the body:** With a **Difficulty Value** 15 crafting identification [[Crafting Identification]] , make the shape of the item you want (a “body”). This may consume materials, but not necessarily Steam Materials; ready-made items can also be directly used as the body.
 - **Integrate the characteristic:** Prepare 1 [[Extraordinary Characteristic]] and carry out a **Difficulty Value** 20 crafting identification to integrate the characteristic into the item.
-  - For every characteristic lower than yours, the sequence difficulty is -5, and for each higher sequence difficulty, +5, and one higher. The difficulty of personality is +10. [[Personality]] [[UNCLEAR: the difficulty-adjustment sentence contains fragments (“and one higher,” “difficulty of personality”) that do not specify exactly what they modify]]
+  - For each Sequence level the characteristic is **lower** than yours, the difficulty is **-5**; for each Sequence level **higher**, the difficulty is **+5**. If the characteristic’s **Personality** is higher than yours, add **+10**. [[Personality]]
 - **Reclamation limit:** Crafted items can only be crushed again and return to Extraordinary Characteristics only when they are subjected to [[Angel-Level Power]].
 
 You determine the item’s extraordinary abilities as follows:
@@ -162,7 +162,7 @@ You determine the item’s extraordinary abilities as follows:
          1. Put the user into a negative effect that may cause death, or permanently and permanently distort the personality.
          2. Carrying it for more than a certain period of time will almost certainly kill the user, or permanently distort the personality.
          3. It will implicate the death of people around the user due to unknown reasons, which occurs almost regularly and instantaneously or lasts for a period of time.
-       - If there are **2–3** negative effects: instead roll 1d2 to determine the strength of these effects. [[UNCLEAR: RAW says “strength of these three effects” while the branch is “2–3 negative effects”]]
+       - If there are **2–3** negative effects: instead roll 1d2 to determine the strength of these effects.
          1. It will cause the holder to suffer the negative effect of the extraordinary ability under certain conditions or at regular intervals (the range ability may be hit regardless of the enemy or the enemy).
          2. On the basis of the previous article, this negative effect will also put the holder in a dangerous situation.
    - If the highest Sequence level of Extraordinary Characteristics is equal to or lower than the creator:
@@ -180,7 +180,7 @@ On the basis of the above, replace the Extraordinary Characteristics used for ma
 - Which Sequence level a main material corresponds to represents which Sequence level ability it possesses.
   - Example: if you directly use a [[Red Priest Pathway]] Sequence 5 main material to make Extraordinary Items, you can get the extraordinary ability of Red Priest 5; but unlike Extraordinary Characteristics, items made from the main material usually do not contain lower-Sequence abilities.
   - (In the same example: although this main material represents Red Priest 5, it does not contain the ability of Sequence 9–6.)
-- **Judgment rule:** A main material can be directly regarded as an Extraordinary Characteristic that does not contain lower-Sequence abilities, so as to directly apply the production process of Extraordinary Characteristic Items; its benefits are naturally only regarded as having only one characteristic, initially only 1 indivual. [[UNCLEAR: “1 indivual” is likely “1 individual ability,” but RAW wording is unclear]]
+- **Judgment rule:** A main material can be directly regarded as an Extraordinary Characteristic that does not contain lower-Sequence abilities, so as to directly apply the production process of Extraordinary Characteristic Items; its benefits are naturally only regarded as having only one characteristic, initially only **1 individual ability**.
 - **Special:** The main material of some Sequence levels may not be one, but two.
   - Example: the main material of Sequence 4 of the [[Artificer Pathway]] has both the main eye of the trick monster and the real soul body of the predator of the spiritual world.
   - These two main materials each have half the ability of the crafty mage (e.g., one can jump with flames but the other can’t; the other can transform into a marionette and exchange positions with marionettes, while the one with flame jumps can’t do it).

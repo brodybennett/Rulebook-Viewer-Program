@@ -35,11 +35,9 @@ tags: ["pathway:red-priest", "sequence:3"]
 2. Team members who are weaker than you can use your skills and attribute points for attributes and skills, without affecting **[[HP]]** or **[[Spirituality]]** values.
 3. For every 10 people, the HP limit of all members of the team is +2 (up to 40).
 4. For every 10 people, the Spirituality limit of all members of the team is +2 (up to 40).
-5. When the number of troops reaches 200, the skill **[[Hunting Mark]]** is considered to be given to everyone, and the increase of the **[[Maximum Success Range]]** is regarded as a normal state.  
-   [[UNCLEAR: “Maximum success range” and what it means for its increase to be a “normal state” are not defined here.]]
+5. When the number of troops reaches 200, the skill **[[Hunting Mark]]** is considered to be given to everyone, and any increase to **[[Maximum Success Range]]** from that skill is always active (no activation required).
 
-- **Extra (alternate use):** You can choose another way to use this skill, which no longer has a hard requirement on the number of people.  
-  [[UNCLEAR: The “hard requirement on the number of people” is not stated for the normal use, so it is unclear what requirement is being removed.]]
+- **Extra (alternate use):** You can choose another way to use this skill that works on a small team or party, removing any minimum army-size requirement.
 
 1. Choose two attributes to give to all other teammates. (Teammates whose attribute is higher than this are not subject to the bonus.)
 2. The upper limit of HP of everyone in your team is increased by 15.
@@ -48,6 +46,5 @@ tags: ["pathway:red-priest", "sequence:3"]
 5. You can communicate with each other without any action, and when you are a whole, the skills of all members are +2.
 
 - **Duration:** 2 hours.
-- **Resident effect (non-combat):** In the **[[Non-Combat State]]**, you can choose one of the above additional contents as a **[[Resident Effect]]**, and switch every half a day.  
+- **Resident effect (non-combat):** In the **[[Non-Combat State]]**, you can choose one of the Extra options above as a **[[Resident Effect]]**, and switch every half a day.  
   The bonus in battle and the resident bonus are calculated separately (i.e., bonus selections for combat do not affect benefits already selected outside of combat).
-  [[UNCLEAR: “Above additional contents” most naturally refers to the Extra list, but the reference is not explicit.]]

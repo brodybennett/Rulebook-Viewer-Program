@@ -6,7 +6,7 @@ tags: ["pathway:error-path", "sequence:7"]
 
 # Sequence 7: Cryptologist
 
-A Cryptologist can analyze many mysteries (such as dreams and illusions) and can also determine an enemy’s location through analysis.
+A Cryptologist can analyze many mysteries (such as dreams and illusions) and can also determine an enemyâ€™s location through analysis.
 
 ## Extraordinary Abilities
 
@@ -23,16 +23,16 @@ A Cryptologist can analyze many mysteries (such as dreams and illusions) and can
 
 ### Premonition of Danger
 
-Also known as intuitive premonition. You can predict others’ actions at critical moments and perceive danger.
+Also known as intuitive premonition. You can predict othersâ€™ actions at critical moments and perceive danger.
 
 - **Use:** Triggered whenever you are raided, sneak attacked, or there is something on the scene that is about to put the raid or sneak attack into action.
 - **Use:** If 1 damage exceeds half of your maximum health (rounded up), this ability can also be triggered.
 - **Effect:**
   1) Make an Inspiration appraisal (**Difficulty Value** 15). If you succeed, an idea flashes in your mind immediately, telling you the form of danger.
      - After you succeed, you will not be able to be raided or ambushed.
-     - Threats that you mistakenly think are “safe” will not trigger this ability.
+     - Threats that you mistakenly think are â€œsafeâ€ will not trigger this ability.
   2) Under the above premise, as long as you are not restrained or affected by other reasons, your **physical defense** gains a +4 **temporary bonus**.
-     - In the face of light and lightning, you will retain the agility and dodge in physical defense instead of +4 added value. [[UNCLEAR: How “retain the agility and dodge in physical defense” replaces the +4 bonus is not mechanically defined.]]
+     - In the face of light and lightning, use normal Agility and Dodge in Physical Defense instead of the +4 bonus.
   3) If the danger range is large enough (for example, a gas explosion in the entire area in an instant), even if you are alarmed by the danger, you will not be able to gain benefits.
 
 - **Special:**
@@ -42,23 +42,23 @@ Also known as intuitive premonition. You can predict others’ actions at critic
 
 - **Sequence scaling:**
   - **Sequence 6:** Your Inspiration appraisal is successful by default, and the flashing thought becomes a flashing picture, letting you know the manifestation of danger. [[id:alias-sequence-6|Sequence 6]]
-  - **Sequence 5:** You can perceive danger higher than 1 personality. [[UNCLEAR: “higher than 1 personality” is not defined (stat name/threshold unclear).]] [[Sequence 5]] [[Personality]]
+  - **Sequence 5:** You can perceive danger higher than Sequence 1. [[Sequence 5]] [[Personality]]
 
 ### Decryption
 
-You can analyze many mysteries (such as dreams and illusions), and you can also find out an enemy’s location through analysis.
+You can analyze many mysteries (such as dreams and illusions), and you can also find out an enemyâ€™s location through analysis.
 
 - **Use:** 1 **casting action**
 - **Cost:** 3 **spirituality points**
 - **Effect:** Choose 1 of the following effects:
 
-  ① **Detection and appraisal** (**Difficulty Value** 20): Choose a clue. You learn:
+  â‘  **Detection and appraisal** (**Difficulty Value** 20): Choose a clue. You learn:
   - The information represented by the clue.
   - Whether it involves an extraordinary event.
   - A rough answer at Difficulty Value 20.
   - Each time the appraisal exceeds 5 points of appraisal difficulty, the content you get becomes clearer.
 
-  ② **Detection test** (**Difficulty Value** 30): Choose a creature. You reveal its full name, identity, and other people’s nickname or nickname for it.
+  â‘¡ **Detection test** (**Difficulty Value** 30): Choose a creature. You reveal its full name, identity, and other peopleâ€™s nickname or nickname for it.
   - This test must obtain any of the following clues to proceed:
     - Know what other people call it / nickname / first name / surname.
     - Know its general experience, past, or identity information, or important things.
@@ -68,9 +68,9 @@ You can analyze many mysteries (such as dreams and illusions), and you can also 
   - For every 1 clue, your detection identification gains a +2 favorable bonus.
   - The content of obtained clues must be true. If it is contrary to the truth, it is a disguise, and what you get will also be false information.
 
-  ③ **Detection appraisal** (**Difficulty Value** 35): You restore the complete truth of a matter and calculate the next development and result of this matter.
+  â‘¢ **Detection appraisal** (**Difficulty Value** 35): You restore the complete truth of a matter and calculate the next development and result of this matter.
   - Each time you have a clue whose meaning you already know, your detection appraisal gains a +2 beneficial bonus.
-  - Clues include the real names, identities, and general past of the people involved in the incident (each clue in ② is calculated independently).
+  - Clues include the real names, identities, and general past of the people involved in the incident (each clue in â‘¡ is calculated independently).
   - If you do not truly grasp all the clues, the restored truth is also incomplete truth, and there will be some false content.
 
 - **Special:** The truth that can be restored includes:
@@ -80,9 +80,9 @@ You can analyze many mysteries (such as dreams and illusions), and you can also 
   - The map of an area,
   - The principle of a maze,
   - Etc.
-  - There will be no unknown unknowns in the restored truth clue. [[UNCLEAR: The final sentence is self-contradictory/grammatically unclear; the intended restriction on “unknown unknowns” is not precisely defined.]]
+  - Restored truth can only cover information contained in your available clues; it does not infer facts outside that clue scope.
 
-- **Other uses of ①:**
+- **Other uses of â‘ :**
   - Distinguish between hallucinations and falsehoods.
   - Reveal the meaning of hallucinations or dream content.
   - Reveal the type of extraordinary ability that a clue may represent (such as illusion, flame, ability strength, etc.).
@@ -94,5 +94,5 @@ You can analyze many mysteries (such as dreams and illusions), and you can also 
 
 - **About Anti-Divination:**
   - You can use one Decryption skill and choose one item of specific mystical information related to you (for example: you plan to attack someone next) to realize anti-divination.
-  - Conduct detection and appraisal, and set it as the difficulty of anti-divination. [[UNCLEAR: Whether this sets the anti-divination Difficulty Value equal to the check result or uses the same stated Difficulty Value is not specified.]]
+  - Conduct detection and appraisal; the check result becomes the difficulty of anti-divination.
   - When successful, this information is excluded in related divination, spiritual intuition, and prophecy unless it exceeds the corresponding difficulty.

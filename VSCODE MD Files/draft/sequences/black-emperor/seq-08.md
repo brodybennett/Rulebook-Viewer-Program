@@ -37,15 +37,14 @@ tags: ["pathway:black-emperor", "sequence:8"]
 - This does not include bullying.
 - “Challenging” means you tried to rely on the law, but the matter was beyond what the law can handle.
 - Each skill can be quickly upgraded to **Proficient** at most.
-- The number of growths (not just promotions) is equal to Sequence 9.  
-  [[UNCLEAR: “the number of growths … is equal to Sequence 9” references an undefined limit and cannot be resolved from this section alone.]]
+- The number of growths (not just promotions) follows Sequence 9’s reputation growth rules.
 
 ### Law of Wildness
 
 - For Barbarians, power is also a kind of rule—another rule besides law.
 
 1. Gain a beneficial +2 to Strength-related skills and [[Attribute Identification]]; Fighting damage increases by +1d6. This is described as being enough to blow the wall out of “spider web” traces with one punch and make the building tremble. [[Spider Web]]
-2. Gain [[id:alias-fast-dodge|Fast Dodge]]; maintain complete physical defense against firearms, excluding light and lightning; and gain +1 **Dodge** level. [[UNCLEAR: “complete physical defense against firearms, excluding light and lightning” is unclear about what is excluded and how it applies.]] [[Dodge]] [[Firearms]]
+2. Gain [[id:alias-fast-dodge|Fast Dodge]]; against firearms, retain full Physical Defense; light and lightning are unaffected; and gain +1 **Dodge** level. [[Dodge]] [[Firearms]]
 3. Whenever you look for water, food, or other survival resources in a primitive or social environment, gain a beneficial +2 to [[Survival Identification]].
 
 > **GM Note:** “Survival resources” must be direct materials (excluding written materials) and may include various animals and creatures. The definition is broad: you may search for a species (including humans) and identify whether food is edible.

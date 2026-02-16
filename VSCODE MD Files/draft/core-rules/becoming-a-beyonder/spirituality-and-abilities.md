@@ -24,13 +24,13 @@ For a rest period **shorter than 1 hour**, use the following:
 | Shortfall within **5 minutes** of 1 hour | The GM may decide it is approximately equal to **1 hour**. |
 | More than **5 minutes** short of 1 hour, but you have already rested for **30 minutes** | Recover **half** of one-eighth of your Spirituality maximum. |
 
-[[UNCLEAR: Spirituality recovery for rests under 30 minutes (and more than 5 minutes short of 1 hour) is not specified.]]
+For rest periods **under 30 minutes**, recover **one-quarter** of the 1-hour recovery amount.
 
 **Warning:** If your Spirituality is emptied, and **Beyonder** abilities continue to be forcibly used, it begins to consume your **Sanity / Rationality**.
 
 **Special (example: [[Night Pathway]]):** Some effects reduce the rest duration needed for full Spirituality recovery. In such cases, each hour restores **(total Spirituality / maximum rest time)**. Example: if **3 hours** of sufficient rest is the maximum rest time, you restore **one-third** per hour.
 
-[[UNCLEAR: "Maximum rest time" and rounding for this formula are not defined here.]]
+Rounding for this formula: **round up**.
 
 ## Vitality Recovery
 
@@ -64,11 +64,10 @@ For a rest period **shorter than 1 hour**, use the following:
 
 ### Continued Treatment
 
-1. A successful **Medicine Roll** can only allow the patient to recover Vitality equal to **Constitution (CON)** **within 24 hours**. After **24 hours**, you should make **1 more** successful Medicine Roll (for changing medicine or re-bandaging); otherwise, it reverts to only recovering **half** of Constitution (CON) per **12 hours**.
-   [[UNCLEAR: This "CON per 24 hours" limit appears to conflict with "every 12 hours recover Vitality equal to CON."]]
+1. A successful **Medicine Roll** grants a **24-hour treatment window**. During that window, the patient recovers Vitality equal to **Constitution (CON)** every **12 hours** (up to two recovery ticks). After **24 hours**, make **1 more** successful Medicine Roll (for changing medicine or re-bandaging); otherwise, recovery reverts to **half** Constitution (CON) per **12 hours**.
 2. For **ordinary people**, with **moderate injury**, **severe injury**, or **fractures**: the **first** Medicine Roll cannot restore Vitality; it can only prevent the situation from worsening. You must be in a hospital with a suitable medical environment (or similar), then make **1 more** successful Medicine Roll to restore Vitality.
 3. For **Beyonders**: only **severe injuries** require the special treatment in (2). **Sequence 4 and above** Beyonders do not need special treatment (see [[Chapter 10: Sequences]]). Even so, for a Beyonder to gain this benefit, within their Sequence there must be some Sequence level that provides a **Constitution (CON)** increase.
-   [[UNCLEAR: It is not specified which part of (3) is gated by the "Sequence level that provides a CON increase" condition.]]
+For **Beyonders**, the Sequence-level CON increase requirement gates the **Sequence 4+ exemption** in (3).
 
 ### Poison and Toxins
 

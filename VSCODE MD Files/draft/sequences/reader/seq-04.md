@@ -58,7 +58,7 @@ tags: ["pathway:reader", "sequence:4"]
     - **Difficulty 30:** Predict exactly what will happen in the next 12 hours, excluding the effects of making changes accordingly.
     - **Difficulty 35:** Accurately predict what will happen in the next 24 hours, excluding the impact of making changes based on it. After 12 hours, the information begins to blur or contain certain errors.
     - **Difficulty 40 (Long-Term Prediction):** Predict things that will happen in at least one month, up to ten years or decades. The content will be very general, and unless there are enough [[Clues]] the predicted matters must be strongly related to you.
-    - **Difficulty 30 (Other Uses):** Prophecy can be used in reverse, and can be used with previous abilities to “go back to the previous things.”
+    - **Difficulty 30 (Other Uses):** Prophecy can be used in reverse to infer prior events that led to the current outcome, and can be combined with previous abilities to retrace earlier steps.
 - **Limits:**
   - Before obtaining new clues, repeating the same prophecy does not change the result.
   - Foretelling others requires obtaining clues first.
@@ -69,7 +69,6 @@ tags: ["pathway:reader", "sequence:4"]
   - **Great Success** [[Great Success]]: Your prediction involves a key piece of information. If you did not have a clue for that key piece of information when you made the prediction, it changes to a key piece of information involving a clue you do have.
   - **Big Failure** [[Big Failure]]: Your prophecy leads in a half-true or terribly wrong direction, and you must believe it until you get new clues.
 
-[[UNCLEAR: “Used in reverse” and “go back to the previous things” are not precisely defined in the source text.]]
 
 > **GM Note:** Long-term prophecy example: you can predict you will encounter a desperate situation, and that “someone you know somewhere” will help you, but you do not know what the situation is or who will help you. If the indicated place involves someone you do not already know, you may need to go there and befriend people to establish the connection—if you do not, the rescuer may not appear when you encounter difficulties.
 >

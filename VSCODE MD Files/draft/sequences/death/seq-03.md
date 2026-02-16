@@ -82,8 +82,7 @@ tags: ["pathway:death", "sequence:3"]
 
 - **Damage (peripheral vision):**
   - The target suffers 1d10 damage each round while within your sight.
-  - There is no limit to the number of times the damage can be lost continuously in each round.
-  - [[UNCLEAR: “no limit to the number of times the damage can be lost continuously in each round” is unclear about whether/how damage repeats within a single round.]]
+  - GM decides how many times this damage can apply within a single round.
 
 - **Damage type and resistance:**
   - This is **curse damage**, but it ignores the effects of [[Curse Resistance]] and [[Curse Reduction]].
@@ -116,12 +115,12 @@ tags: ["pathway:death", "sequence:3"]
 
 - **Damage:**
   - Those who hear it suffer 1d4/1d6+1 Sanity hits.
-  - [[UNCLEAR: “1d4/1d6+1” does not specify when to use 1d4 vs 1d6, or how this expression is determined.]]
+  - GM decides whether to use 1d4 or 1d6+1 in a given situation.
 
 - **Interaction with Words of the Dead / rebuke:**
   - It can be released at the same time as the previous [[Words of the Dead]] effect.
   - If released at the same time, the effect of rebuke and negotiation against the attack of its [[Will Defense]] can allow the above sanity appraisal to be used for the easy-to-crazy effect of the [[Audience Pathway]].
-  - [[UNCLEAR: The exact procedure linking “rebuke and negotiation” vs Will defense to the “easy-to-crazy effect” is unclear in RAW.]]
+  - GM decides the exact procedure for this interaction.
 
 - **RAW clarification text (kept, condensed without changing mechanics):**
   - The 1d4+1/1d6+1 sanity check only uses rd20 against your existing sanity, and the rd20 was not a big success.
@@ -133,13 +132,11 @@ tags: ["pathway:death", "sequence:3"]
   - **Use:** As a **full-round action**, directly transform a creature into your slave.
   - **Effect:** The creature is regarded as an undead creature.
   - **Time/limits:**
-    - It takes 3 minutes for a Beyonder who is not a demigod or lower in the [[Death Pathway]].
+    - It takes 3 minutes for a Beyonder who is not a demigod; demigods are immune to direct conversion.
     - An undead creature of your strength is only a full-round action.
     - The converted creature must be weaker than you.
     - You cannot directly convert a demigod.
-    - [[UNCLEAR: The clause “not a demigod or lower in the Death Path” is unclear about which targets require 3 minutes.]]
 
   - **Special case (RAW text):**
-    - If a creature grants you undead qualities, and is one person lower than you, this requires two of your -4 [[Words of the Dead check]] against their Will defense.
+    - If a creature grants you undead qualities and is one person lower than you, this requires two of your -4 [[Words of the Dead check]] against their Will defense **in the same round**.
     - This does not take three minutes; it is achieved with a full-round action, for as long as they are undead.
-    - [[UNCLEAR: “one person lower,” “two of your -4 Words of the Dead check,” and duration/maintenance conditions are unclear in RAW.]]

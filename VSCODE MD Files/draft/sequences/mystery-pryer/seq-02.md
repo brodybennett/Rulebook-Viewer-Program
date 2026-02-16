@@ -41,7 +41,7 @@ Detection/visibility notes:
 - **Beyonders** without demigod abilities cannot detect your existence through simple observation.
 - Only **Beyonders** with the [[Mystic Path]] and [[Reader Path]] can try to detect you through detection and the rules of invisible creatures—and only if they encountered a clear threat and realized there were invisible creatures.
 
-- **At Sequence 1:** You no longer have to become an information creature to use the corresponding ability. [[UNCLEAR: RAW does not specify which “corresponding ability” this refers to.]]
+- **At Sequence 1:** You no longer have to become an information creature to use abilities that normally require Informatization (e.g., **Information Storm** and **Tampering**).
 
 ### Information Storm
 
@@ -59,5 +59,5 @@ You affect the dissemination of any information, directly shielding the will and
 
 - **Prerequisite:** While in **Informatization** (Knowledge Goblin).
 - **Targeting and range:** Within **Line of Sight**.
-- **Effect/Resolution:** This requires a [[Mysticism]] to fight against the marionette master “My” will defense. [[UNCLEAR: RAW reads “marionette master My will defense”; the intended defender/possessor of the Will Defense is unclear.]]
+- **Effect/Resolution:** This requires a [[Mysticism]] check against the marionette master's Will Defense (or the target's Will Defense, GM decides).
 - Also affects other secret puppet-like effects or effects of manipulating animals and dependents.

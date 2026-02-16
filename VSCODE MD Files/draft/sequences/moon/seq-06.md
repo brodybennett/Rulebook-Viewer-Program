@@ -78,8 +78,8 @@ tags: ["pathway:moon", "sequence:6"]
    - **Effect:** You are immediately considered invisible, but only your body is invisible; your clothes and carrying items will not be invisible. [[Invisible]]
 
 8. **Stealth Spray**
-   - **Effect:** The place where it is sprayed will become invisible.
-   - **Use:** Generally, this needs to be combined with the Stealth Potion: first drink the Stealth Potion, then use the spray to make yourself invisible. [[UNCLEAR: “Stealth Potion” is referenced but not listed elsewhere in this section; it may refer to the Invisibility Potion or another potion.]]
+- **Effect:** The place where it is sprayed will become invisible.
+- **Use:** Generally, this needs to be combined with a distinct **Stealth Potion** (GM-defined): first drink the Stealth Potion, then use the spray to make yourself invisible.
    - **Limits:** The spray and perfume can be sprayed three times.
    - **Effect:** Not using the spray directly is explained as: under the cover of clothes, some dead corners of the body may not be completely invisible with a simple spray, and the eyes may also need to be sprayed.
 
@@ -89,7 +89,7 @@ tags: ["pathway:moon", "sequence:6"]
 
 10. **Healing Potion**
    - **Effect:** Eliminates all toxins and diseases. [[Toxins]] [[Diseases]]
-   - It takes two courses of treatment to be higher than the drug maker. [[UNCLEAR: “higher than the drug maker” is unclear without the referenced comparison rules.]]
+- It takes two courses of treatment to be higher than the drug maker (GM decides the comparison used here).
    - The first bottle can treat toxins and diseases as if they were gone.
    - Terminally ill patients only need two courses of treatment to be asymptomatic; three courses of treatment completely recovered. [[Terminal Illness]]
 

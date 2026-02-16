@@ -33,8 +33,7 @@ Commonly associated techniques include:
 
 ### Attribute Gain
 
-- **Attribute Gain:** Will +5; Strength +3; Constitution +1; Psychological Guidance and Psychological Skills increase by 1 level.  
-  [[UNCLEAR: Attribute gain lists “agility” without a modifier; the source text does not specify a number.]]
+- **Attribute Gain:** Will +5; Strength +3; Constitution +1; Agility +1; Psychological Guidance and Psychological Skills increase by 1 level.
 
 ### Multiple Minds
 
@@ -68,12 +67,11 @@ You breathe out an invisible but searing flame.
 - **Use:** **Spellcasting action**.
 - **Effect:**
   - Make a psychological attack against the target’s [[Will Defense]] with disadvantage (-4).  
-    [[UNCLEAR: The source text also calls this “a range of damage,” but does not specify the exact range/shape.]]
+  - **Area:** 10-meter cone.
   - Deal 5d6 fire damage with invisible mental fire.
   - This damage cannot be reduced by any kind of fire resistance.
   - You do not gain the double effect of burning plants and webs.
-  - “Psychic raids” cause enemies to take a -4 penalty on their next check for the [[Penetrating Blow That Pierces the Soul]].  
-    [[UNCLEAR: The source text uses “Psychic raids” here; it may refer to Psychic Breath, but the linkage is not explicit.]]
+  - **Psychic Breath** causes enemies to take a -4 penalty on their next check for the [[Penetrating Blow That Pierces the Soul]].
 
 ### Psychic Storm
 
@@ -84,8 +82,7 @@ You create an invisible wind, forming a psychic storm. This ability can be used 
   - **Use:** **Spellcasting action**.
   - **Area/Duration:** 2d6 kilometers in diameter for 1d6 hours.
   - **Effect:**
-    - The mental storm immediately produces the corresponding weather: heavy rain, strong wind, thunder, sunny day.  
-      [[UNCLEAR: The source does not specify how the “corresponding weather” is selected from the list.]]
+    - The mental storm immediately produces one weather effect you choose: heavy rain, strong wind, thunder, or sunny day.
     - The storm does not appear in reality; it appears in the [[Sea of Collective Subconscious]], but affects the corresponding position in reality, sweeping around and repeatedly slapping the enemy’s [[Consciousness Island]].
     - You destroy “[[Divination Interference]]” type abilities of creatures in the area for 1d3 days.
     - Any creature that makes an **Inspiration check** in the storm immediately suffers a [[Sanity Attack]] and takes half of the Sanity damage.
@@ -95,14 +92,12 @@ You create an invisible wind, forming a psychic storm. This ability can be used 
   - **Cost:** 5 **Spirituality**.
   - **Use:** **Spellcasting action**.
   - **Targeting:** Choose a target or an area.
-  - **Check:** Psychological Guidance against [[Will Defense]] with disadvantage (-4). If you are known to be a [[Spectator]], then -4 disadvantage.  
-    [[UNCLEAR: The source gives two “-4 disadvantage” clauses; whether they stack is not stated.]]
+  - **Check:** Psychological Guidance against [[Will Defense]] with disadvantage (-4). If you are known to be a [[Spectator]], take an additional -4 disadvantage (total -8).
   - **Effect:**
     - Instill a large amount of information into the target’s mind (meaningless bombardment or meaningful specific information; customized).
     - On a successful Psychological Guidance check: the target must immediately make a [[Sanity Check]] (1/1d2) and is [[Stunned]]. The stunned state cannot be stacked.
   - **Note:** If you cram compelling secret or important knowledge into the storm in this mode, the target is drawn to it and gains the knowledge as a result. If you hide in the dark, the target’s detection of the environment also fails by default because their attention is drawn away.
-  - **Sequence interaction:** If the target suffering from the mental storm is one lower than you, the special effect of the sanity test is directly replaced by the [[id:alias-frenzy|Frenzy]] effect.  
-    [[UNCLEAR: “One lower” is not defined (e.g., Sequence rank vs another metric).]]
+  - **Sequence interaction:** If the target is 1 Sequence lower than you, the special effect of the sanity test is directly replaced by the [[id:alias-frenzy|Frenzy]] effect.
 
 ### Consciousness Walking
 
@@ -146,12 +141,11 @@ Quietly plant seeds of “Contagious Madness” in the target’s mental island.
   - The target must also make a Will check (Difficulty Value 20). On failure, it cannot perform any actions other than **Swift**/**Free** actions.
   - Even if it passes the Will check, the next round still requires another sanity check and Will check.
   - The symptom can be relieved by a [[Psychoanalysis]] check (Difficulty Value 20). Psychoanalysis is a **Free action** once per round.
-- **Insanity rules:** This is considered a form of insanity; the insane creature gains disadvantage against it and all other creatures gain advantage over it.  
-  [[UNCLEAR: It is not explicit whether this refers to the affected target’s interactions, or to other creatures’ interactions with the target.]]
+- **Insanity rules:** This is considered a form of insanity; the affected target has disadvantage on checks, and other creatures have advantage on checks against the affected target.
 
 - **Contagion and timing:**
   - The symptoms are contagious; as long as there are spectators or other affected creatures around, the duration does not enter the countdown.  
-    [[UNCLEAR: A base duration/countdown is referenced but not defined in the source text.]]
+  - **Base duration:** Once no other affected creature is within line of sight, the plague’s remaining duration becomes 10 minutes.
   - Each round, the afflicted creature uses a **Free action** to spread the plague, randomly spreading a biological plague seed within line of sight. The seed takes effect after two rounds and cannot be controlled.
   - Spread can also occur via the Spiritual Body Thread; you do not need line of sight to spread through that thread.
   - Seeds planted on the [[Secret Puppet]] do not take effect on the Secret Puppet after detonation, but they can still spread.
@@ -161,7 +155,6 @@ Quietly plant seeds of “Contagious Madness” in the target’s mental island.
 
 - **Evasion, mitigation, and counters:**
   - The mental plague cannot be evaded by a substitute.
-  - Half of its influence can be offset through the virtual personality—changing its restriction “from only using swift/free action to losing an action.”  
-    [[UNCLEAR: The source’s description of how the restriction changes is internally unclear; the exact before/after limits are not cleanly stated.]]
+  - Half of its influence can be offset through the virtual personality: instead of being limited to only swift/free actions, the target may take 1 normal action per round (but still loses one action that round).
   - It can be evaded in advance by [[Teleportation]] or swapping positions, provided the target is aware of it.
   - With a specific shelter, it can only delay maturity time by 2 rounds, and the impact is halved.

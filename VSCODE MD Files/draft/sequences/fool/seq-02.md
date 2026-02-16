@@ -12,7 +12,7 @@ A **Master of Miracles** can:
 
 - **Resurrection:** Resurrect with the help of the past “spirit worm” (also called “worm of spirit”); this becomes invalid after four times.
 - **Influence the Future:** Exert influence on the future by increasing or decreasing the probability of certain things happening, equivalent to interfering with a target’s fate.
-- **Historical Pores Summoning:** What is summoned in the historical pores is no longer just objects, but also familiar scenes. There are nine in total, but only three at the angel level. [[UNCLEAR: It is not defined what the “nine” refers to (e.g., scenes, slots, uses) or what “angel level” means mechanically.]]
+- **Historical Pores Summoning:** What is summoned in the historical pores is no longer just objects, but also familiar scenes. There are nine total summon slots/scenes, but only three can be angel level.
 
 ### Desire
 
@@ -66,7 +66,7 @@ After just being promoted:
 
 - An attribute you transform is regarded as a new skill, such as “Miracle (Inspiration)”.
 - Unlike transformed skills, these are initially regarded as trained.
-- If you need to use them for miracle determination, you can judge the corresponding skill; this will not affect the attribute bonus of your other skills. [[UNCLEAR: The procedure for resolving “Miracle (Attribute)” checks via a “corresponding skill” is not fully defined (which skill, and when/why it replaces the check).]]
+- If you need to use them for miracle determination, you can judge the corresponding skill; this will not affect the attribute bonus of your other skills. The **GM** decides which corresponding skill applies.
 
 #### Growth by fulfilling wishes
 
@@ -97,7 +97,7 @@ Examples of successful Miracle checks:
   - Everyone present cannot use the ability of **Sequence 5** or higher.
   - Duration: 4 rounds.
   - Abilities that have already been displayed will not be affected (e.g., a spirit worm already separated for a secret puppet can still exchange positions with the secret puppet; a mythical form that has been opened will not directly change back to the original state).
-  - This is because “existence” is reasonable, and for the abilities that have been exerted, make a wish to forget the past. [[UNCLEAR: The phrase “make a wish to forget the past” is not defined (whether it is mandatory flavor, a separate wish, or a mechanical requirement).]]
+- This is because “existence” is reasonable, and for the abilities that have been exerted, make a wish to forget the past (flavor only; no extra action required).
 
 - This will not affect the skill level. For example, even if the divinity disappears, the **Sequence 3** air cannon will still be at the Sequence 3 level of damage.
 
@@ -135,7 +135,7 @@ Examples of successful Miracle checks:
 #### Additional constraints and setup
 
 - The miracle of “dead and back” is essentially a deep-seated exploitation of the powers of the past, but after four times it will be invalid.
-- The resurrection of the body can only take effect in the real world, and must be within a certain range of the remains. [[UNCLEAR: The “certain range” around the remains is not defined.]]
+- The resurrection of the body can only take effect in the real world, and must be within a certain range of the remains (GM decides the range).
 
 To make a resurrection point, you need to leave the following at the location to be resurrected:
 

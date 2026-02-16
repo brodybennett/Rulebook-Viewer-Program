@@ -43,9 +43,9 @@ At this point, character creation is complete. Next, find a **GM** to start the 
 
 ### Optional Reading
 
-- In [[Chapter 14: "Bombard and Kill Beyonders" Module Guide]], find the Sequence you chose and read its general introduction, core [[id:alias-acting|Acting]] guidelines, and play style.
+- In [[Chapter 14: "Bombard and Kill Beyonders" Module Guide ("The Hidden Sage's Diary") ("The Hidden Sage's Diary")]], find the Sequence you chose and read its general introduction, core [[id:alias-acting|Acting]] guidelines, and play style.
 
-[[UNCLEAR: Some editions reference Chapter 14 under a different title ("The Hidden Sage's Diary"); confirm this crosslink points to the intended module guide.]]
+
 
 ## Supplementer's Note
 

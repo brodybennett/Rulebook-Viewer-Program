@@ -8,7 +8,7 @@ tags: ["pathway:earth", "sequence:2"]
 
 ## Mother of Desolation
 
-[[UNCLEAR: RAW does not specify which Pathway this Sequence belongs to.]]
+**Pathway:** Earth Pathway.
 
 - When promoted to this **Sequence**, an Extraordinary who is male becomes female.
 

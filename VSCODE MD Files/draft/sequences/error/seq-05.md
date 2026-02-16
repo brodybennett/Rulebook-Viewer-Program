@@ -78,14 +78,14 @@ tags: ["pathway:error-path", "sequence:5"]
 - **Cost:** Consume 2 points of spirituality [[Spirituality]].
 - **Use:** 1 casting action [[Casting Action]].
 - **Targeting and range:** Choose 1 target. Skillfully fight against Physical Defense [[Physical Defense]].
-- **Effect:** You steal the other party's talent. The stealing times of the same target, the maintenance time, and the recovery time of the stolen person are equal to the stealing fire, and the stealing times of the same target are also shared with the stealing fire. [[UNCLEAR: This ability references “stealing fire” for uses/duration/recovery sharing, but “stealing fire” is not defined in this section.]]
+- **Effect:** You steal the other party's talent. The stealing times of the same target, the maintenance time, and the recovery time of the stolen person are the same as **Stealing Fire**, and the stealing times of the same target are shared with it.
   1. **Steal vision:** You steal the opponent's vision, reducing the opponent's casting/attack range to within 1 meter. You can observe the surroundings with the vision of the other party. If you steal the vision of an eagle, you can see things 1 km away without occlusion.
   2. **Steal action:** The opponent's mobility [[Mobility]] is only 2. The agility and dodge in physical defense are halved, rounded up, and you use the opponent's mobility to move.
   3. **Steal volume:** The opponent's volume [[Volume]] drops by 1 level, and you are regarded as a creature of the corresponding volume, which will not substantially change anyone's appearance.
   4. **Stealing hearing:** The other party's listening appraisal can only reach a success level [[Success Level]] of 10, and you use the other party's attributes and skills to conduct the listening appraisal. Stealing the listener's hearing will cause you to suffer from the corresponding listening perception.
   5. **Steal flight:** For any creature that has or temporarily has the ability to fly, its single flight time cannot exceed its movement power [[Movement Power]], and it will not gain the benefits of flying. You can use the opponent's flight ability and flight time, etc. fly.
   6. **Stealing Art:** You choose an art that the other party has mastered. The corresponding art identification of the other party can only reach a success level [[Success Level]] of 10, and you use its attributes and skills when making the corresponding identification.
-- **Special:** For targets higher than 1 character, stealing the ideal can only halve its ability or appraisal result, rounded up. [[UNCLEAR: “targets higher than 1 character” is ambiguous (size, rank, or another measure).]]
+- **Special:** For targets higher than Sequence 1, stealing the ideal can only halve its ability or appraisal result, rounded up.
 
 #### About More Stealing Talents
 

@@ -15,7 +15,7 @@ tags: ["pathway:error-path", "sequence:3"]
 ### Advancement Ritual
 
 - **Ritual:** Create a grand phenomenon that would not normally occur, and have at least a few thousand people witness and believe it. The more people are deceived, the better the effect.
-> **GM Note:** The RAW labels this as an “unofficial ceremony.”
+> **GM Note:** The RAW labels this as an â€œunofficial ceremony.â€
 
 ## Extraordinary Abilities
 
@@ -34,7 +34,7 @@ tags: ["pathway:error-path", "sequence:3"]
     - Example: If you now have two spellcasting actions, and you can only use one spellcasting action because of shock, then the spellcasting action you lost at this time can still be used, but it can only be used on the thing written into your instinct.
   - **Create a False Resurrection Point:** If you need to be resurrected and the original resurrection point cannot be used, you can choose a place with your fresh body tissue (the body tissue must be properly preserved) and change it to your new resurrection point. [[Resurrection Point]]
   - **Extend the Duration of an Effect:** You change:
-    - an effect that lasts one round to one round,
+    - an instantaneous effect to one round,
     - an effect that lasts one round to three rounds,
     - an effect that lasts three rounds or more to an encounter,
     - an encounter to 1d2 hours,
@@ -45,9 +45,8 @@ tags: ["pathway:error-path", "sequence:3"]
     - half a month to one month,
     - one month to half a year,
     - half a year to one year,
-    - one year to five years…
+    - one year to five yearsâ€¦
     - (By analogy, an effect can only be cheated once.)
-    [[UNCLEAR: The extension list contains both “one round to one round” and “one round to three rounds,” which appears self-contradictory or duplicated.]]
   - **Shorten the Duration of an Effect:** Reverse the judgment of the above effect; the effect that can only last for one round will end on the spot. An effect can only be cheated once.
   - **Connect Two Portals with the Same Principle:** You can connect two portals with the same principle and treat them as intercommunicating gates.
     - It must be two portals with the same principle (example: two Apprentice Sequence 9 doors to the Spirit World). [[Apprentice Pathway]] [[Spirit World]]
@@ -61,42 +60,41 @@ tags: ["pathway:error-path", "sequence:3"]
     - Because this is too instant and random, usually the ability of the decryption scholar is too late to decrypt the result of the jump position, so usually you can't consider doing this. [[Decryption Scholar]]
   - **Increase the Success Level of a Skill Identification:** Only for skills that have already been successful.
     - Example: If a skill that reaches Difficulty Value 15 is counted as a normal success, and Difficulty Value 20 is counted as a hard success, then when this identification is thrown to 15, you perform a fraud rule, turning it into 20 successes.
-    - Because the increase is a first-level success level, this cannot be simply understood as final value +5. Example: If a skill rolls 17, it is still in the range of 15–20 and has not yet reached 20. Do a rule cheat at this point and it will only turn 20 (i.e., +3 in that example), to the next level of success, instead of +5.
-    - Every 5 values is a success level. Although in the example of “Chapter 2: Judgment” in the rule book, the success level is only 30, there are success levels higher than 30: 35, 40, 45. When any authentication value reaches one of the intervals, the fraud rule can make it just reach the next interval (example: 38 becomes 40). [[Success Level]] [[Chapter 2: Judgment]]
-    - This can only cheat successful things: it cannot change a failed check to a success, nor change a successful check to a failure. Any fraud has to have an almost equally high correlation, so the similarity between “failure” and “success” isn't that great.
-    - The definition of “success” is:
+    - Because the increase is a first-level success level, this cannot be simply understood as final value +5. Example: If a skill rolls 17, it is still in the range of 15â€“20 and has not yet reached 20. Do a rule cheat at this point and it will only turn 20 (i.e., +3 in that example), to the next level of success, instead of +5.
+    - Every 5 values is a success level. Although in the example of â€œChapter 2: Judgmentâ€ in the rule book, the success level is only 30, there are success levels higher than 30: 35, 40, 45. When any authentication value reaches one of the intervals, the fraud rule can make it just reach the next interval (example: 38 becomes 40). [[Success Level]] [[Chapter 2: Judgment]]
+    - This can only cheat successful things: it cannot change a failed check to a success, nor change a successful check to a failure. Any fraud has to have an almost equally high correlation, so the similarity between â€œfailureâ€ and â€œsuccessâ€ isn't that great.
+    - The definition of â€œsuccessâ€ is:
       - In attack identification, the identification exceeds the opponent's defense Difficulty Value. [[Attack Identification]] [[Defense Difficulty Value]]
       - In divination identification, it has reached the minimum value that divination can give a divination result (then it will be considered successful). [[Divination Identification]]
     - This ability doesn't change the base value of 1d20, only the final check, so it doesn't affect critical success or critical failure. [[Critical Success]] [[Critical Failure]]
-  - **Lower the Success Level of the First-Level Skill Appraisal:** Same as above: it can only reduce the value of the failure, but cannot change the success into a failure, nor can it affect the 1d20 basic appraisal, turning the failure into a big failure.
-    [[UNCLEAR: This clause says it “can only reduce the value of the failure” while also stating it cannot change success into failure and cannot affect the 1d20 base; how this interacts with “turning the failure into a big failure” is unclear.]]
+  - **Lower the Success Level of the First-Level Skill Appraisal:** Same as above: it can only reduce failure severity; it cannot change success into a failure, and it does not affect the 1d20 base.
 
-- **Aftereffects:** Fraud rules are a temporary ability, but the results achieved during the process of fraud rules will not be restored after the rules return to normal (example: resurrection through a false resurrection point will not be “bounced back” after restoration).
-> **Lore:** The essence of this law is: “existence is reasonable”.
+- **Aftereffects:** Fraud rules are a temporary ability, but the results achieved during the process of fraud rules will not be restored after the rules return to normal (example: resurrection through a false resurrection point will not be â€œbounced backâ€ after restoration).
+> **Lore:** The essence of this law is: â€œexistence is reasonableâ€.
 
 ## GM Notes
 
-> **GM Note:** The fraud rules themselves are not without restrictions and have clear logic. In general, the things being cheated are usually highly related to each other, or there must be something “exactly the same” in them (not merely similar). This principle is common to most of the fraud rule uses described above.
+> **GM Note:** The fraud rules themselves are not without restrictions and have clear logic. In general, the things being cheated are usually highly related to each other, or there must be something â€œexactly the sameâ€ in them (not merely similar). This principle is common to most of the fraud rule uses described above.
 >
 > **GM Note:** Examples from the original book:
-> - Klein could only be resurrected in his real body at that time, but the real body was guarded by Amon, so he used fraud rules to resurrect elsewhere; the “false body” treated by the law was a bottle of Klein’s own fresh blood (properly preserved), considered “exactly the same” at the core for fraud-rule purposes.
-> - Amon connected entrances of two Doorway hidden spaces separated by great distance by treating their principles as “exactly the same,” achieving teleportation via connected hidden spaces.
+> - Klein could only be resurrected in his real body at that time, but the real body was guarded by Amon, so he used fraud rules to resurrect elsewhere; the â€œfalse bodyâ€ treated by the law was a bottle of Kleinâ€™s own fresh blood (properly preserved), considered â€œexactly the sameâ€ at the core for fraud-rule purposes.
+> - Amon connected entrances of two Doorway hidden spaces separated by great distance by treating their principles as â€œexactly the same,â€ achieving teleportation via connected hidden spaces.
 >
-> **GM Note:** Player adjudication guidance drawn from the RAW: Players can conduct fraud based on the above principle. The things that are cheated must have a “strong correlation,” otherwise the fraud rules cannot be established.
+> **GM Note:** Player adjudication guidance drawn from the RAW: Players can conduct fraud based on the above principle. The things that are cheated must have a â€œstrong correlation,â€ otherwise the fraud rules cannot be established.
 
 > **GM Note:** Other fraud rules that can be achieved through extraordinary power at the Sequence 2 level (RAW reference list):
 >
-> - Turn one’s avatar into the main body:
+> - Turn oneâ€™s avatar into the main body:
 >   - Prepare a clone of the same level as yourself (if you are a Sequence 2, your clone is at least a Sequence 2, because only Sequence 2 has the ability to steal fate and transfer fate).
 >   - Let this double steal your identity, steal your consciousness, steal your destiny, and steal your self-knowledge.
->   - Only on the basis of such a strong connection can an avatar be considered “completely consistent” with you in terms of rules.
+>   - Only on the basis of such a strong connection can an avatar be considered â€œcompletely consistentâ€ with you in terms of rules.
 >   - On this basis, perform a fraud rule so the clone becomes your main body.
 >   [[Fate Trojan Horse]]
 >
-> - Transferring other people’s spiritual body threads to oneself:
->   - The RAW notes there is no definite evidence, but argues it is supported by passages involving Amon and a “transfer” (an exchange), where the user’s own spiritual body thread is lost while the other party’s remains.
+> - Transferring other peopleâ€™s spiritual body threads to oneself:
+>   - The RAW notes there is no definite evidence, but argues it is supported by passages involving Amon and a â€œtransferâ€ (an exchange), where the userâ€™s own spiritual body thread is lost while the other partyâ€™s remains.
 >   - The RAW suggests this may involve transferring part of fate between oneself and a clone using the Sequence 2 Destiny Trojan Horse ability, then using fraud rules to affect only the astral thread rather than the whole body.
 >   - The RAW notes this may be a compound application of Fate Trojan Horse and fraud rules, or it may be done by Fate Trojan Horse alone.
 >   [[Spiritual Body Thread]] [[Astral Thread]] [[Destiny Trojan Horse]]
 >
-> **GM Note:** The RAW also references “Miracle Master of the Fool’s Path Sequence 2” and “judges” as examples of the broader world-law principle that what has already happened and results already achieved are not pursued or undone. [[Miracle Master]] [[Judge]]
+> **GM Note:** The RAW also references â€œMiracle Master of the Foolâ€™s Path Sequence 2â€ and â€œjudgesâ€ as examples of the broader world-law principle that what has already happened and results already achieved are not pursued or undone. [[Miracle Master]] [[Judge]]

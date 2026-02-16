@@ -14,8 +14,7 @@ tags: ["pathway:visionary", "sequence:1"]
 
 ### Advancement Ritual
 
-- **Ritual (Unofficial Ceremony):** Write a script that includes all “man-made characters” in a city, then make it reality. Reality should not deviate too much from the script’s development. Under a dramatic plot arrangement, at the end of the story—or in the emotional aftermath after it ends—“be convinced” [[Potion]].  
-  [[UNCLEAR: The source text says “be convinced Potion”; the exact required action regarding the Potion is unclear.]]
+- **Ritual (Unofficial Ceremony):** Write a script that includes all “man-made characters” in a city, then make it reality. Reality should not deviate too much from the script’s development. Under a dramatic plot arrangement, at the end of the story—or in the emotional aftermath after it ends—drink the [[Potion]] once you are fully convinced the story has become reality.
 
 ## Extraordinary Abilities
 

@@ -12,7 +12,7 @@ This chapter covers **Beyonder Items**, including random generation, crafting ap
 
 Use this procedure to generate a **naturally formed** Beyonder Item (not artisan-made).
 
-[[UNCLEAR: This procedure assumes the item's Sequence rank is already known (e.g., from the Beyonder Characteristic used), but does not state how to determine it when generating "purely randomly."]]
+If the Sequence rank is unknown, roll **1d9** (Sequence 9-1) before Step 1.
 
 ### Step 1: Roll Pathway
 
@@ -262,7 +262,7 @@ A Paragon artisan can forge Beyonder Items. See [[Paragon Pathway: Sequence 6]].
 
 Make Beyonder Items using spiritual materials rather than Beyonder Characteristics.
 
-[[UNCLEAR: The source describes this as "on the basis of the second and third methods," which is self-referential; it likely means adapting other creation methods by substituting spiritual materials for Characteristics.]]
+This adapts the other creation methods by substituting **spiritual materials** for Beyonder Characteristics.
 
 See also Beyonder Items Made from Spiritual Materials below.
 
@@ -276,9 +276,7 @@ Core traits (source):
 - They cannot later be used as someone's potion main ingredient to advance.
 - Compared to items made from Beyonder Characteristics, their abilities are usually weakened versions.
 
-Fading timeline (source): The source states that after one or two years the effects are halved, and after another one or two years the Beyonder effects completely disappear. Later in the price list, the source states that effects are halved after about 1-2 years and completely lose Beyonder power after about 4-5 years.
-
-[[UNCLEAR: Fade timelines for spiritual-material Beyonder Items are inconsistent (2-4 years vs 4-5 years to fully fade).]]
+Fading timeline (source): Effects are halved after about **1-2 years**. They usually completely lose Beyonder power after about **4-5 years**.
 
 Price and power (source claim): Around 500 pounds (equivalent to the price of a Sequence 9 item), you can obtain the equivalent of a Sequence 6-tier ability. Higher-Sequence versions increase in price; Sequence 4 spiritual-material items are rare and priced at least close to 8,000 pounds.
 

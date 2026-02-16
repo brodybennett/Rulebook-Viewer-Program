@@ -8,15 +8,13 @@ tags: ["pathway:arbiter", "sequence:3"]
 
 ## Chaos Hunter
 
-> **GM Note:** “The number of Extraordinary abilities that can be taken away has greatly increased.” appears in the source, but no procedure, limits, or target rules are provided in this section.  
-> [[UNCLEAR: The text references “taking away” Extraordinary abilities without stating how that mechanic works.]]
+> **GM Note:** â€œThe number of Extraordinary abilities that can be taken away has greatly increased.â€ appears in the source; treat this as using the **Invalidation Law** procedure.
 
 ## Advancement
 
 ### Advancement Ritual
 
-- **Advancement Ritual:** Based on the law, resolve a state-level chaos that has been swept up, **or** hunt and bring to justice an angel-level or near-angel-level existence with “chaos” as its core, greater than the Sequence 3 level. (unofficial ceremony)  
-  [[UNCLEAR: “greater than the Sequence 3 level” is unclear in scope/criteria (e.g., how to measure or apply it).]]
+- **Advancement Ritual:** Based on the law, resolve a state-level chaos that has been swept up, **or** hunt and bring to justice an angel-level or near-angel-level existence with â€œchaosâ€ as its core, **Sequence 2 or higher**. (unofficial ceremony)
 
 ## Extraordinary Abilities
 
@@ -29,9 +27,8 @@ tags: ["pathway:arbiter", "sequence:3"]
 
 - **Effect:**
   - From now on, you and your disciplinary knights gain a +4 bonus in skill identification and damage identification for all criminals and undead, corrupt, dark, and other natural forces that affect order.
-  - For the [[Black Emperor Pathway]]: +8 skill bonus, +4 attribute check; damage check bonus unchanged.  
-    [[UNCLEAR: The “damage check bonus unchanged” line conflicts with/does not cleanly map to the earlier “damage identification” bonus language.]]
-  - **Order’s sight:** Within a kilometer of you, or when you are in your **jurisdiction**, order becomes your eyes.
+  - For the [[Black Emperor Pathway]]: +8 skill bonus, +4 attribute check; damage identification bonus remains **+4** (unchanged from the baseline above).  
+  - **Orderâ€™s sight:** Within a kilometer of you, or when you are in your **jurisdiction**, order becomes your eyes.
     - You make up to two laws based on the realms of unholy, undead, fallen, and dark.
     - When corresponding behaviors or creatures appear in your jurisdiction, they are considered violators of the law and become criminals.
     - You can immediately cast sight from a distance and perform a **trial**.
@@ -39,7 +36,7 @@ tags: ["pathway:arbiter", "sequence:3"]
       - Without a trial, you can continue to observe the criminal through the boundaries of the district.
   - This is considered a [[id:alias-divination|Divination]] or [[id:alias-prophecy|Prophecy]] effect and will be affected by corresponding [[Counter-Divination]].
     - It usually does not work well for spirit creatures and spirits.
-    - It will not trigger the [[Witch’s Curse]].
+    - It will not trigger the [[Witchâ€™s Curse]].
 - **Limits:**
   - Up to two laws may be made (as above).
   - After you hold a trial (as above), you cannot track that target again within half a day.
@@ -54,4 +51,4 @@ tags: ["pathway:arbiter", "sequence:3"]
 - **Limits / Modifiers:**
   - For curses higher than your Sequence level, the effect is halved, and a free action is also consumed.
 
-> **GM Note:** Starting from this Sequence, due to a lack of information on the extraordinary abilities in the original work, some abilities of the Judge Pathway (Sequence 3–0) are original to the supplementers.
+> **GM Note:** Starting from this Sequence, due to a lack of information on the extraordinary abilities in the original work, some abilities of the Judge Pathway (Sequence 3â€“0) are original to the supplementers.

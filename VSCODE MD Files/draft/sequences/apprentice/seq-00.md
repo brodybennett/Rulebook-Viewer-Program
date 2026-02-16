@@ -37,7 +37,7 @@ tags: ["pathway:apprentice", "sequence:0"]
 - **Cost:** 50 points of **Spirituality**
 - **Use:** **Spellcasting Action**
 - **Targeting and range:** Select an area.
-- **Limits:** Only has two encounters in one **Encounter**. [[UNCLEAR: “only has two encounters in one encounter” is grammatically self-contradictory and the intended usage limit cannot be determined.]]
+- **Limits:** You can use this ability at most **2 times per Encounter**.
 - **Effect:** You make space collapse and annihilate into nothingness. This is almost a death-level ability; even if the target is **Sequence 0** of the [[Path of the Fool]], they must lose all their [[substitutes]] and, at the cost of being unable to maintain further survival, can barely avoid this blow.
 
 ### Divine Gaze

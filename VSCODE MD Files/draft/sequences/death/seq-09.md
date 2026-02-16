@@ -96,11 +96,9 @@ To learn more detailed information, you must spend at least **2 hours** to condu
 
 - Whenever you conduct a **2-hour** autopsy on a corpse or undead creature (the type cannot be repeated), your Knowledge of the Dead will increase by **1 level**.
   - A type of corpse or undead creature can only be upgraded once.
-  - It takes **2, 3, 4 times**.  
-    [[UNCLEAR: What “2, 3, 4 times” refers to (number of autopsies per level, per creature type, or another progression step) is not specified.]]
+  - From training to proficiency, to advanced, to mastery, you need to learn **2, 3, 4** times.
 - For the time being, it can only be upgraded to mastery.
-- If you create a character that is not just promoted, you can use twice the inspiration of the potion to improve the growth skills.  
-  [[UNCLEAR: The meaning of “twice the inspiration of the potion” and how it improves “growth skills” is not defined here.]]
+- When creating a character who has not just been promoted, growth skills gain **2x Inspiration** points from the potion.
 
 #### Using Knowledge of the Dead Against Undead Creatures
 

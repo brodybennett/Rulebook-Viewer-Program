@@ -14,7 +14,7 @@ These tentacles are full of power and have a strong reproductive ability. They c
 
 In the middle of the black tentacles of the black goat, there is a crystal. According to rumors, this crystal has incredible power.
 
-[[UNCLEAR: RAW describes the tentacles as both gray and black.]]
+Terminology note: source phrasing uses both gray and black; this entry treats the tentacles as dark gray-black.
 
 ## Habits
 
@@ -62,7 +62,7 @@ No matter where it is, the surrounding plants will grow rapidly into patches of 
 - **Physical Defense Level:** 10 + 4 natural armor + 4 agility = 18
 - **Skills:** Fighting +10; Survival +10
 - **Sanity cost (first sighting):** 1/1d3 SC [[SC]]
-  [[UNCLEAR: "SC" is not defined in RAW.]]
+    - **Clarification:** SC means **Sanity Check**. [[Sanity Check]]
 
 ## Combat
 
@@ -83,7 +83,7 @@ Each turn, a Hornacis Gray Goat can make the following attacks:
 
 - **Trigger/When:** If a stunned creature is next to a Hornacis Gray Goat for a full round.
 - **Effect:** The Hornacis Gray Goat automatically swallows that creature into its body. It usually does not immediately digest the creature, but keeps it as a plaything and satisfies all forms of tyrannical desires.
-- [[UNCLEAR: RAW text "but with Back to being a plaything" is corrupted; the intended meaning is unclear.]]
+- **Note:** A trailing source fragment is corrupted here; no additional mechanical effect is specified beyond the swallowing effect above.
 
 ## Extraordinary Ability
 

@@ -21,7 +21,7 @@ tags: ["pathway:fate", "sequence:6"]
 - **Passive:**
   - At **0:00** every day, roll **1d3** to determine how many disasters you encounter today.
   - For each disaster, roll **1d24** to determine the time of day when the disaster will occur.
-  - By default, you can foresee the time of the disaster. [[UNCLEAR: RAW says you can foresee the “time and time” of the disaster (duplicated); it may intend additional information (e.g., type/location), but only “time” is clear.]]
+  - By default, you can foresee the time and location of the disaster.
   - Note: In addition to **1d24**, roll **1d59** for each disaster to determine how many minutes per hour.
 - **Active:**
   - **Use:** 1 casting action
@@ -53,7 +53,7 @@ tags: ["pathway:fate", "sequence:6"]
   - Other reasonable disasters allowed by the **GM**.
 
 - **Duration:** The above disasters only last for **1 round**.
-- **Special:** For every target higher than 1 character, the difficulty of all **Luck** checks is **halved (rounded up)**. [[UNCLEAR: “for every target higher than 1 character” is not clear about what counts as a target or how the scaling applies.]]
+- **Special:** For every target higher than you by 1+ Sequence, the difficulty of all **Luck** checks is **halved (rounded up)**.
 
 ### Spiritual Storm
 
@@ -64,9 +64,9 @@ tags: ["pathway:fate", "sequence:6"]
 - **Targeting and range:** All targets within 20 meters from you as the center
 - **Effect:**
   - Make an **Inspiration** check against **physical defense**.
-  - On success, it will cause a shock effect, and cause all affected targets to suffer a common disaster. [[UNCLEAR: “common disaster” is not defined; it is unclear how the disaster is chosen and whether it references the Disasters list.]]
+  - On success, it will cause a shock effect, and cause all affected targets to suffer a common disaster from the **Disasters** list (GM chooses).
 
 - **Special:**
   - For a creature suffering from a mental storm, within **1 round**, the basic value of the big failure judgment is increased by **2** points (that is, **1, 2, and 3** are all big failures).
   - The **Omen magnification** disaster is changed to **1–7** being regarded as a big failure.
-  - It will lead to more and more disasters. [[UNCLEAR: RAW uses “mental storm” here while this ability is “Spiritual Storm”; the relationship between these terms is not explicit.]]
+  - It will lead to more and more disasters. “Mental storm” here refers to this **Spiritual Storm** ability.

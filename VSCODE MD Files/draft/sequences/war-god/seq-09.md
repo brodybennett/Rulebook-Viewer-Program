@@ -19,11 +19,11 @@ You gain the following extraordinary abilities.
 - **Attribute Gain:** Strength +1, Constitution +2, Agility +1.
 - **Rapid Combat Learning:** You can quickly learn combat-related skills.
   1. Whenever you receive **2 hours** of non-repetitive, effective corresponding guidance, your fighting/weapon use/throwing skills corresponding to the guidance content increase by **1 level**.
-     - You need **2**, **3**, and **4** times to be trained to be **proficient**, **advanced**, and **proficient** respectively, up to **mastery**. [[UNCLEAR: The tier progression lists “proficient” twice (“proficient, advanced, and proficient”), so the intended final tier for the 4-training step is ambiguous.]]
+     - You need **2**, **3**, and **4** times to be trained to be **proficient**, **advanced**, and **mastery** respectively.
      - [[Skill Levels]]
   2. Each time you conduct an actual battle, the enemy must be stronger than you. When you defeat them, this is also regarded as skill growth, and you can only get this once for each enemy.
      - [[id:alias-skill-growth|Skill Growth]]
-  3. When creating a [[Character Card]] that has not just been promoted, you can use the Strength/Agility of the [[Potion]] to add growth skills, and the growth rate is regarded as [[Inspiration]]. [[UNCLEAR: “use the strength/agility of the potion to add growth skills” does not specify how many skills/levels are added or what limits apply.]]
+3. When creating a [[Character Card]] that has not just been promoted, you can add growth-skill points equal to the potion’s Strength + Agility bonuses, and the growth rate is regarded as [[Inspiration]].
 
 ### Extraordinary Fighting
 
@@ -38,7 +38,7 @@ You gain the following extraordinary abilities.
      - When you perform feints, you can use [[Fighting Identification]] instead of [[Acting Identification]] / [[Cheating Identification]], no matter whether Fighting is proficient or not.
      - When using firearms, if the target is less than **5 meters** away from you, [[Shooting]] can be changed to Fighting Identification, but the related attribute is **Agility**.
   4. **Mastery of Various Martial Arts:** When you use a weapon, the minimum skill level to use it is **training**, no matter whether it is really trained or not.
-  5. **Quick Dodge:** You use skills to retain complete physical defense against guns instead of Light/Lightning, and get an extra level of dodge. [[UNCLEAR: “retain complete physical defense against guns instead of Light/Lightning” is unclear about what is being replaced or compared.]]
+5. **Quick Dodge:** Against guns, you retain full Physical Defense; light and lightning do not benefit, and you get an extra level of dodge.
      - [[Dodge]]
 - **Sequence Upgrade:** At [[Sequence 7]], your Armed Identification can see extraordinary factors, and Quick Dodge is increased by **1** extra level of dodge.
   - [[Extraordinary Factors]]

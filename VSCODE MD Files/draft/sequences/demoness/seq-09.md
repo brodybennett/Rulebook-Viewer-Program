@@ -1,4 +1,4 @@
----
+﻿---
 title: "Sequence 9: Assassin"
 id: "demoness-seq-09"
 tags: ["pathway:Demoness", "sequence:9"]
@@ -10,7 +10,7 @@ tags: ["pathway:Demoness", "sequence:9"]
 
 > **Lore:** The form of mythical creatures is female sexuality, thick hair like a snake, and spider silk coiled around the body, corresponding to the Tarot card as "Queen".
 
-Assassins can briefly alter their body, move with feather-like lightness, harden sharp sight and dark vision, excel at fighting and dodging, and hide in shadows with dexterous steps—bursting with full power in a single blow.
+Assassins can briefly alter their body, move with feather-like lightness, harden sharp sight and dark vision, excel at fighting and dodging, and hide in shadows with dexterous stepsâ€”bursting with full power in a single blow.
 
 ## Extraordinary Abilities
 
@@ -25,19 +25,17 @@ Assassins can briefly alter their body, move with feather-like lightness, harden
   - [[Throwing]]
   - [[Jumping]]
   - [[Swimming]]
-- Every 2 hours, you receive non-repetitive, effective related guidance; the corresponding skills go up 1 level.
-  1. You need to learn 2, 3, and 4 times from training to proficiency, advanced level, and proficiency respectively, and you can upgrade to proficiency at most.  
-     [[UNCLEAR: The training ladder repeats “proficiency” and does not clearly distinguish the intermediate/advanced tiers; text is preserved verbatim.]]
+- Every 2 hours, you receive non-repetitive, effective related guidance; gain 1 growth point for the corresponding skill.
+  1. To reach **Proficient**, you must complete 2 + 3 + 4 learnings in order; you cannot advance beyond **Proficient**.
   2. Every time you assassinate a target that is stronger than you, it is also considered as a growth. Selecting any of the above skills is regarded as a learning. The learning is limited to one time per day, but the growth brought by the assassination is not counted.
-- When creating a character that has not just been promoted, you can use the corresponding skill-related attributes brought by the [[Potion]] to add growth skills, and the growth rate is regarded as inspiration.  
-  [[UNCLEAR: The “every 2 hours” guidance rule and the character-creation “growth rate is regarded as inspiration” clause lack defined procedures/terms in RAW.]]
+- When creating a character that has not just been promoted, you can use the corresponding skill-related attributes brought by the [[Potion]] to add growth skills; treat **Inspiration** as growth points.
 
 ### Body Change
 
 - **Use:** 1 **casting action**.
 - **Effect:** You adjust your physiology to gain the properties of feathers, hawk-like lightness.
   1. Within 1 round (6 seconds), your body can be as light as a feather walking on the moon. In this state, your climbing, jumping, swimming, and stealth identifications are all successful by default. When confronting, it will be changed to +4 favorable.
-  2. Because the body is light and easy to control, at the height of about the fifth and sixth floors of modern times (18–28 meters), you will not be hurt by falling. You will fall slowly like a feather, and you will not lose your balance or suffer impact injury (e.g., carriage/car).
+  2. Because the body is light and easy to control, at the height of about the fifth and sixth floors of modern times (18â€“28 meters), you will not be hurt by falling. You will fall slowly like a feather, and you will not lose your balance or suffer impact injury (e.g., carriage/car).
   3. Even at a higher height, you only need to find a few support points as a transfer during the fall, and you will not be hurt by the fall.
 - While in an altered state, you can make a [[Stealth]] check as a **move action**, even if you are being watched.
 - At [[Sequence 7]]: Body Change requires only 1 **swift action**.
@@ -77,7 +75,7 @@ Assassins can briefly alter their body, move with feather-like lightness, harden
 - **Effect:** You activate vision, and your vision gains the following benefits:
 
 
-  1. **Etheric body:** You can roughly tell whether the other party’s body is good or bad through the color of the aura, but you can’t get detailed information.
+  1. **Etheric body:** You can roughly tell whether the other partyâ€™s body is good or bad through the color of the aura, but you canâ€™t get detailed information.
   2. **Spiritual body:** You can confirm whether an object/creature has spirituality, which cannot identify extraordinary people.
   3. **Mental body:** You can see whether the other party is thinking, but only so, and you cannot get more detailed information.
   4. **Astral body:** You cannot see the astral body.
@@ -87,4 +85,4 @@ Assassins can briefly alter their body, move with feather-like lightness, harden
   - Spiritual materials are usually spiritual, but you cannot determine the corresponding path.
   - The colors seen by the spirit vision allow you to see each other in the dark, but you can only see the existence of colors. It is still possible to get lost in the dark because the colors you can see are limited, so you cannot use them to distinguish the undead biology.
 - Spirit Vision can see some ordinary spirit bodies by default, which have not dissipated for 24 hours, and cannot be recorded or stolen.  
-  [[UNCLEAR: RAW uses “Vision,” “spiritual vision,” and “Spirit Vision” inconsistently; treated as the same ability/state here.]]
+  - In this section, "Vision," "spiritual vision," and "Spirit Vision" all refer to [[id:alias-spirit-vision|Spirit Vision]].

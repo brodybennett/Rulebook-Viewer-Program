@@ -80,7 +80,7 @@ tags: ["pathway:abyss", "sequence:8"]
   - **Effect:** Before casting, you need to RP out insults, bad words, and curses on the target, causing **1d4 curse damage**.
   - **Sequence scaling:**
     - **Sequence 7:** When it is a big success, swearing and hurting people causes a deterrent effect lasting **1 round**, and the damage caused is **doubled**.
-    - **Sequence 6:** After using swear words, you cannot use swear words to hurt people, occupying the same number of uses. [[UNCLEAR: This clause does not specify whether it restricts only this spell’s reuse, or interacts with another “swear words” ability/usage pool.]]
+- **Limits:** This restriction is **per target** and does not share a pool with other abilities.
 
 - **Create Poison Flame**
   - **Cost:** 2 Spirituality Points.

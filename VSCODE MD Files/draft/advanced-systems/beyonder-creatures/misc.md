@@ -13,8 +13,7 @@ This section lists creatures and entities and the potion materials or associatio
 ### Widow Spider
 
 - **Material:** silk glands.
-- **Used for:** potions for the joy of Sequence 6 of the [[Witch Pathway Sequence 6]].
-- [[UNCLEAR: The phrase "potions for the joy" is unclear (potion name vs. effect).]]
+- **Used for:** potion material for Sequence 6 of the [[Witch Pathway Sequence 6]] (joy/pleasure line).
 
 ### Treant Mentor
 
@@ -26,33 +25,28 @@ This section lists creatures and entities and the potion materials or associatio
 - **Material:** core crystal.
 - **Used for:** main material of the potion of the [[Fool's Pathway Sequence 5]].
 - **Material:** eyes.
-- **Used for:** the potion of the "Puppet Master".
-- [[UNCLEAR: "Puppet Master" potion reference does not specify its Pathway or Sequence.]]
+- **Used for:** potion material for [[Secret Puppet Master]] ([[Fool's Pathway Sequence 5]]).
 
 ### Falsman Rabbit
 
 - **Also known as:** half-ghost rabbit (ancient name).
 - **Material:** spinal fluid.
-- **Used for:** potion material for Sequence 8 "mind readers".
-- [[UNCLEAR: "mind readers" is not capitalized or otherwise defined as a formal title here.]]
+- **Used for:** potion material for Sequence 8 [[Mind Reader]].
 
 ### Manhal Fish
 
 - **Material:** eyes.
-- **Used for:** potion materials for Sequence 9 "viewers".
-- [[UNCLEAR: "viewers" is not capitalized or otherwise defined as a formal title here.]]
+- **Used for:** potion materials for Sequence 9 [[Spectator]] (viewer).
 
 ### Claw Blackfish
 
 - **Material:** blood.
-- **Used for:** potion material for Sequence 9 "viewers".
-- [[UNCLEAR: "viewers" is not capitalized or otherwise defined as a formal title here.]]
+- **Used for:** potion material for Sequence 9 [[Spectator]] (viewer).
 
 ### Black Hunting Monitor Lizard
 
 - **Material:** spinal fluid.
-- **Used for:** potion material of Sequence 6 "hypnotist".
-- [[UNCLEAR: "hypnotist" is not capitalized or otherwise defined as a formal title here.]]
+- **Used for:** potion material of Sequence 6 [[Hypnotist]].
 
 ### Blue Shadow Falcon
 
@@ -88,27 +82,27 @@ This section lists creatures and entities and the potion materials or associatio
 ### Deep Sea Naga
 
 - **Association:** [[Fool's Pathway Sequence 6 Faceless Man]].
-- [[UNCLEAR: RAW lists only the association; it does not specify any usable material.]]
+- **Note:** Source lists only the association and does not provide a specific usable material.
 
 ### Mermaid
 
 - **Association:** [[Storm Pathway Sequence 5 Multi-Ocean Singer]].
-- [[UNCLEAR: RAW lists only the association; it does not specify any usable material.]]
+- **Note:** Source lists only the association and does not provide a specific usable material.
 
 ### Dogs of Fulgrim
 
 - **Association:** [[Fool's Pathway Sequence 3 Ancient Scholar]].
-- [[UNCLEAR: RAW lists only the association; it does not specify any usable material.]]
+- **Note:** Source lists only the association and does not provide a specific usable material.
 
 ### Dreamcatcher
 
 - **Association:** "Dreamwalker" of an [[Incomplete Audience Pathway Sequence 5]].
-- [[UNCLEAR: RAW lists only the association; it does not specify any usable material.]]
+- **Note:** Source lists only the association and does not provide a specific usable material.
 
 ### Harpies
 
 - **Association:** "Dreamwalkers" of an [[Incomplete Audience Pathway Sequence 5]].
-- [[UNCLEAR: RAW lists only the association; it does not specify any usable material.]]
+- **Note:** Source lists only the association and does not provide a specific usable material.
 
 ## Creatures and Notes (Described)
 
@@ -118,7 +112,7 @@ Also known as a shapeshifter.
 
 - **Traits:** does not have the wisdom to communicate; good at setting traps and dealing with targets.
 - **Corresponds to:** a Sequence 4 "crafty mage" who is "half of the Fool's Pathway," and has incomplete abilities.
-- [[UNCLEAR: "crafty mage," "half of the Fool's Pathway," and "incomplete abilities" are not defined here.]]
+- **Corresponds to:** a crafty mid-Sequence Beyonder with partial Fool Pathway characteristics and incomplete abilities.
 
 ### Spirit Realm Predator
 
@@ -132,13 +126,13 @@ Also known as a shapeshifter.
 - **Capability:** The spirituality of the real soul body itself is very strong, and it can often gain a lot of advantages in related confrontations.
 - **Encounter note:** difficult to find; only one place has traces of their activities - the city of [[Calderon]].
 - **Potion material:** its real soul body can be used to make potions for "crafty mages".
-- [[UNCLEAR: Several terms and fragments are unclear (e.g., "soul split," "marionette," "spirituality," and "similar performance"), and RAW sentence structure is partially broken.]]
+- **Potion material:** its real soul body can be used to make potions for crafty mages. (Flavor only.)
 
 ### Psychic Dragon
 
 Existing psychic dragons of the Fifth Epoch usually belong to the presence of demigods or higher in the Audience Pathway.
 
-- [[UNCLEAR: "belong to the presence of demigods or higher" is unclear as a classification statement.]]
+- These creatures are classified as demigod-level or higher.
 
 ## Other Entries (Names Only)
 

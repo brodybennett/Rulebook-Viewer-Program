@@ -43,8 +43,7 @@ tags: ["pathway:hanged-man", "sequence:1"]
 - **Special: Winged State**
   - While in **Winged state**, there is no longer a limit to the number of abilities you can [[Graze On Abilities]].
 - **Special: Sea of Wings (Curse)**
-  - You can use a **casting action** to select a target or an area, and let the sea of wings gradually cover the surface of others. “Fallen creatures.”
-    [[UNCLEAR: The target/area procedure and the meaning/effect of “Fallen creatures” are not defined in this section.]]
+  - You can use a **casting action** to select a target or an area, and let the sea of wings gradually cover the surface of others; affected creatures gain the **Fallen** status.
     - [[Casting Action]]
     - [[Fallen]]
   - If a creature continues to suffer from this effect:
@@ -61,8 +60,7 @@ tags: ["pathway:hanged-man", "sequence:1"]
 ### Corruption
 
 - **Use:** A **spellcasting action**.
-- **Check:** [[Mysticism]] against [[Will Defense]]; “minus -8 disadvantage.”
-  [[UNCLEAR: It is unclear whether “-8” is a numeric penalty, “disadvantage,” or both, and how it is applied mechanically.]]
+- **Check:** [[Mysticism]] against [[Will Defense]]; with a -8 penalty.
 - **Effect: Betrayal**
   - You designate a target to corrupt and betray its master.
   - For the same level, you can make the target’s [[Extraordinary Items]] betray, or make part of the target’s [[Marionettes]] or [[Clones]] betray.
@@ -72,6 +70,5 @@ tags: ["pathway:hanged-man", "sequence:1"]
 - **Special: Secret Puppet Betrayal**
   - You can also let a [[Secret Puppet]] whose personality is inferior to yours betray on the spot and disconnect the [[Thread of the Spirit Body]].
   - Similar products are also suitable for this use method.
-  - This is a high-level application of [[Separating the Fallen Mind]], and it will inherit it as a Secret Puppet or all the memories of the avatar era.
-    [[UNCLEAR: The final inheritance clause (“inherit it as a Secret Puppet or all the memories of the avatar era”) is grammatically unclear and may describe multiple distinct outcomes.]]
+  - This is a high-level application of [[Separating the Fallen Mind]], and it will inherit it as a Secret Puppet.
     - [[Avatar Era]]

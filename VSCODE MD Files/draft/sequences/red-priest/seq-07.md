@@ -71,7 +71,7 @@ You can control your fire flexibly and freely, shaping it into different forms f
    - **Effect:** Press your hands on the ground to spread flames; choose one effect:
      - **Create a Wall of Fire:** Choose an area up to 10 meters within your field of vision. Create a wall of fire that burns on all sides in this area. You must maintain it all the time, without continuously consuming spirituality. Passing through the wall of fire takes 2d6 fire damage.
      - **Spreading Flames:** Choose a direction within your field of vision to create a raging flame that spreads by itself. You can control the direction in which the flames spread; only the direction of spread needs to be maintained. After the flames, suffer 2d6 fire damage.
-       [[UNCLEAR: The source text does not specify who/what “suffer 2d6 fire damage” applies to in the Spreading Flames option.]]
+       Creatures the flames pass over suffer 2d6 fire damage.
 
 7. **Flame Compression**
    - **Use:** 1 [[Swift Action]] per compression layer.
@@ -105,12 +105,10 @@ You can control your fire flexibly and freely, shaping it into different forms f
 - **Cost:** 3 [[Spirituality]].
 - **Effect:** Blaze heat waves from head to toe; the heat waves envelop you and turn into flames, casting your body into a blazing flaming spear. This is a melee attack.
 - **Targeting and range:** Fight or throw against [[Physical Defense]].
-- **Result:** Resulting effect = [[Red Flame Spear]]; can also be compressed.
-  [[UNCLEAR: The source text references “effect of = red flame spear” without defining what “red flame spear” is in this section.]]
+- **Result:** Use the same damage and properties as **Blazing Lance** (red flame spear); it can also be compressed.
 - **Displacement during attack:** After the throw, you will fly out directly, land and cause damage, then reorganize directly back into human form. This is considered [[Displacement]] while you are attacking and does not consume your [[Movement Action]].
-  [[UNCLEAR: The source text says “turned into a musket” in this description despite describing a spear transformation; the intended term is unclear.]]
 - **Sequence scaling (Sequence 4):**
   - After turning into a blazing spear, the throwable range reaches a radius of 1 kilometer, equivalent to a certain kind of flight.
   - The “flying” speed after throwing is five times your [[Movement Power]].
-  - After the “musket” falls to the ground, it will not hurt a piece of wood or a grain of dust.
+  - After the spear falls to the ground, it will not hurt a piece of wood or a grain of dust.
   - You can let the flame collapse back to yourself immediately when it lands gracefully, without causing any damage.

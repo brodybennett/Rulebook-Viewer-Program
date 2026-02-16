@@ -18,12 +18,10 @@ You have a comprehensive but preliminary understanding and mastery of mysterious
 
 ### Learning and Qualification
 
-1. Every time you receive **2 hours** of non-repetitive and effective guidance, your corresponding mysticism / mysticism language rises by **1 level**. You need to learn it **twice** to become proficient in training, and you can learn it quickly to become proficient at most.  
-   [[UNCLEAR: The RAW mixes “mysticism / mysticism language” and “learn it twice” without defining the exact skills/states or what “at most” restricts.]]
+1. Every time you receive **2 hours** of non-repetitive and effective guidance, you increase either **Mysticism** or **Mysticism Language** by **1 level** (choose one). Two trainings raise that skill to **Proficient**; fast-track learning caps at **Proficient**.
 2. Learning quickly to become proficient does not prevent deeper study. See [[Skill Growth/Relationship]].
 3. Potions only give you qualifications to learn and a channel to quickly understand; you can still study further.
-4. When creating a character that has not just been promoted, you can use **2 times** the inspiration brought by the potion to add points to your occult-related growth skills.  
-   [[UNCLEAR: “2 times the inspiration” is not operationally defined (multiplier vs. bonus pool), and “occult-related growth skills” is not enumerated.]]
+4. When creating a character that has not just been promoted, you may **double** the Inspiration points granted by the potion when spending them on occult-related growth skills.
 
 ## Extraordinary Abilities
 
@@ -49,8 +47,7 @@ Additional rules and limitations:
 
 - Dead creatures are usually only dull in color and cannot be identified.
 - Spiritual materials usually have spirituality.
-- The color of materials in **Spiritual Vision** usually represents its corresponding path. This does not mean you can see the power of a [[Beyonder]]. way.  
-  [[UNCLEAR: The RAW ends with “way.” and may be referring to “Pathway,” but the exact intent is unclear.]]
+- The color of materials in **Spiritual Vision** usually represents its corresponding path. This does not mean you can see the power of a [[Beyonder]] Pathway.
 - The colors seen by **Spiritual Vision** allow you to see each other in the dark, but you can only see the existence of colors; it is still possible to get lost in the dark because the colors you can see are limited.
 - You cannot use these colors to distinguish undead biology.
 - **Spiritual Vision** can see some ordinary spirit bodies by default if they have not dissipated for **24 hours**.
@@ -63,8 +60,7 @@ Additional rules and limitations:
 - **Trigger Conditions:**
   1. You are in an area involving the power of demigods and above, **or**
   2. There is an existence at least at the demigod level on the scene who is peeping here through extraordinary abilities.
-- **Trigger Timing:** Once you succeed or fail in this area, you will notice them. If you are trying to interpret a book or thing involving demigod and above power, this effect is also triggered.  
-  [[UNCLEAR: “Succeed or fail in this area” does not specify what roll/action is being resolved.]]
+- **Trigger Timing:** Once you resolve the first relevant Identification/Occult check in this area, you will notice them. If you are trying to interpret a book or thing involving demigod and above power, this effect is also triggered.
 
 - **Outcome by result (Great success vs. Big failure):**
   1. **Great Success** [[Great Success]]: You saw something you shouldn’t have noticed, but fortunately it did not cause a sanity check. You only see some kind of power carrier of the other party, or part of the outline, or you feel the pressure of inspiration—someone is peeping here.  
@@ -72,8 +68,7 @@ Additional rules and limitations:
   2. **Big Failure** [[Big Failure]]: In addition to the above, you are aware of the other party, and the other party is also aware of you—you are exposed. This may cause that being to approach or remember you, and you may be bewitched step by step, falling into the abyss of depravity, and even going crazy or out of control on the spot.  
      “You must be careful and be in awe of extraordinary power.” Praying for the protection of the gods is the only way you can solve this matter.
 
-- **Limitations:** Curtain Peeping is an interpretation of the voyeur’s spiritual intuition and therefore cannot be recorded or stolen.  
-  [[UNCLEAR: The RAW alternates between “Pryer” and “voyeur,” which may be referring to the same Pathway/role.]]
+- **Limitations:** Curtain Peeping is an interpretation of the **Mystery Pryer’s** spiritual intuition and therefore cannot be recorded or stolen.
 
 ### Fast Ritual Spell
 
@@ -87,8 +82,7 @@ You quickly cast a ritual spell.
 
 **Spellcasting Materials** (concepts applied to higher Sequences):
 
-- Your spellcasting ingredients are equal to **five times** your [[Reputation Rating]], unless your reputation is proficient.  
-  [[UNCLEAR: The exception “unless your reputation is proficient” does not state the alternative calculation.]]
+- Your spellcasting ingredients are equal to **five times** your [[Reputation Rating]]. If your reputation is **Proficient** or higher, materials instead equal your reputation **level** (not rating x5).
 - Replenishment:
   1. Whenever your materials are lost, you can go to the market to replenish these common materials.
   2. If you are an official Extraordinary, you can directly go to the official Extraordinary material inventory to replenish.
@@ -115,8 +109,7 @@ You are proficient in the use of ritual magic.
 
 - For the ritual magic you can cast, see [[Chapter Nine: Ritual Magic]] and [[Common Ritual Magic]].
 - Ritual magic prepared in advance can make an enemy step into your trap, or perform anti-divination on the situation on the scene.
-- Ritual magic is not only available to voyeurs, but they are better at it, have better effects, and can cast it quickly. Sequences that mention ritual abilities in the sequence description can use ritual magic.  
-  [[UNCLEAR: “Voyeures” and “Sequences that mention ritual abilities” are not identified by name here.]]
+- Ritual magic is not only available to **Mystery Pryers** (who are better at it and can cast it quickly), but also to any Sequence that explicitly lists ritual abilities in its abilities section.
 
 ### Divination
 
@@ -135,6 +128,5 @@ Difficulty outcomes:
 - **Great success:** Get a fairly accurate result (object finding accurate to a certain street).
 - **Big failure:** According to the final value of the appraisal, you still obtain the corresponding content, but attract the attention of related beings. If the corresponding content did not involve hidden beings, then a directly or indirectly related Extraordinary notices being watched.
   - Aware of the gaze requires a [[Spiritual Intuition Test]].
-  - The existence of higher than **1 person** is detected by default regardless of the difficulty.  
-    [[UNCLEAR: “Higher than 1 person” is not a standard comparator and may mean “more than one” or “higher-level than you by 1,” but the RAW is not explicit.]]
+  - The existence of targets **one Sequence higher than you** is detected by default regardless of the difficulty.
 - **Special:** Before obtaining new clues, repeated divination in the same direct

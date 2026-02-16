@@ -58,7 +58,7 @@ Your halo-like effect dyes the surroundings golden, spreading outward layer by l
 - **Resistance:** Creatures in the aura gain 5 points of resistance to curse, cold, and poison for 3 rounds.
 - **Stacking:** This cannot be superimposed with holy water and the [[Body of the Sun]].
 - **Against dark/fallen/undead:** If there are dark, fallen, undead, and other creatures in range, and you intend not to let light surround them, then the occult resists [[Physical Defense]], ignores agility and evasion, and successfully deals holy damage equal to the restrained damage. You can decide whether they enjoy the benefits too.  
-  [[UNCLEAR: Whether this harmful resolution replaces the aura’s benefits for those creatures, or is an additional option applied at the same time.]]
+  - **Clarification:** If you choose to harm them, they do not receive the aura’s benefits; the restrained damage replaces the benefits for those creatures.
 
 ### Holy Rain
 
@@ -70,22 +70,21 @@ You create a rain of solar holy water.
 - **Effect:** Let the light shine brightly, as if a round of the sun is rising; holy and pure water drops pour down like rain. This creates a **Holy Water Rain Environment** (see [[Holy Water Rain Environment]]).
 - **Holy Water Rain Environment:** At the beginning of each round, dark, corrupt, undead, and other creatures in this area suffer holy damage equivalent to the restrained damage. At the same time, normal creatures continue to gain 5 points of curse, cold, and poison resistance.
 - **Special:** This is a celestial phenomenon and environmental effect. Therefore, if there is a creature higher than 1 [[Personality]] of the caster that creates disasters, cold, and other environments, the rain of holy water quickly disappears because it cannot be maintained.  
-  [[UNCLEAR: The trigger condition (“higher than 1 personality”) and what qualifies as “create disasters” or similar environments are not defined here.]]
+  - **Clarification:** If a creature more than 1 Sequence higher than the caster creates a disaster‑level or environment‑overriding effect (e.g., severe cold, storm, or similar), Holy Rain ends immediately.
 
 ### Holy Baptism
 
 You purify the uncleanness and depravity of a creature.
 
 - **Use:** 1 casting action.
-- **Cost:** 4 spirit points.  
-  [[UNCLEAR: Resource name differs in this section (“Spirituality Points” vs “spirit points”).]]
+- **Cost:** 4 **Spirituality Points**.
 - **Targeting:** Choose the creature in front of you or yourself.
 - **Effect:** Clear the following effects: fear, anger, charm, awe, curse, depravity, poison, darkness, temporary madness, uncertain madness, psychological suggestion, hypnosis, etc., excluding out-of-control, near-out-of-control, and permanent madness (see [[Conditions]]).
 - **Unwilling target:** If the affected target is unwilling, the occult counters [[Physical Defense]].
 - **Aftereffects:** The purified creature gains **1d3 temporary sanity** (cannot be superimposed) for 5 minutes (see [[Sanity]]). This can offset the sanity loss of calculation madness, and it can be converted into sanity protection for promotion (see [[Promotion]]).
 - **Restrained target:** If the creature being baptized is a restrained creature, then deal restraint effect damage at the same time (see [[Restraint Effect]]).
 - **Special:** The effect of more than 1 character needs to be purified twice; the effect of 1 time is halved; the effect of more than 2 characters cannot be processed.  
-  [[UNCLEAR: “More than 1 character / more than 2 characters” is undefined here—unclear what statistic or rating this refers to.]]
+  - **Clarification:** Targets 1 Sequence higher require two applications; targets 2+ Sequences higher cannot be purified by this ability.
 
 ### "God Loves the World"
 
@@ -98,8 +97,6 @@ You change celestial phenomena to a certain extent and call out sunshine.
 
 ### Additional Sun Domain Spells
 
-- For other Sun Domain spells, see the effects of the Sequence 5 period listed in the Sequence 7 ability (see [[Sequence 7 Ability List]]).  
-  [[UNCLEAR: Which specific “Sequence 7 ability” is being referenced is not specified here.]]
+- For other Sun Domain spells, see the **Sequence 7** Sun Domain spell list in the Sun pathway. [[Sequence 7 Ability List]]
 
-> **GM Note:** If a priest of light has obtained the permission of the [[GM]], they can also edit two more divine spells of the Sun Domain. This requires the GM’s permission and must be reasonable.  
-> [[UNCLEAR: “Edit two more divine spells” is not defined here (whether this means learn, modify, or create spells).]]
+> **GM Note:** With [[GM]] permission, a priest of light can learn or create two additional Sun Domain divine spells beyond the default list. This must be reasonable and approved.

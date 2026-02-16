@@ -1,4 +1,4 @@
----
+﻿---
 title: "Sequence 3: Ancient Scholar"
 id: "fool-seq-03"
 tags: ["pathway:fool", "sequence:3"]
@@ -8,7 +8,7 @@ tags: ["pathway:fool", "sequence:3"]
 
 ## Ancient Scholar
 
-> **Lore:** Scholars from antiquity who study antiquity—witnessing fate, influencing the present, and never reversing the past.
+> **Lore:** Scholars from antiquity who study antiquityâ€”witnessing fate, influencing the present, and never reversing the past.
 
 ### Help from History
 
@@ -17,7 +17,7 @@ You can seek help from history in two ways:
 - **Borrow strength from your past self:** Each use lasts **5 minutes**.
 - **Summon images from the pores of history:** You can summon images of **people** or **objects**.
   - The more detailed and true your understanding of the relevant history and subject, the greater the probability of success and the longer the duration.
-  - When summoning people or objects whose **personality** is higher than your own, the projection manifests only part of the power and characteristics. [[UNCLEAR: “personality” is not defined as a stat/rank; unclear how to compare it.]]
+  - When summoning people or objects of a higher **Sequence** than your own, the projection manifests only part of the power and characteristics.
 
 Limits for images summoned from the pores of history:
 
@@ -36,7 +36,7 @@ Additional parameters and related effects:
 - **Then:** transformed into a puppet for 10 seconds.
 - **Control range:** 500 meters.
 - **Marionette driven; position exchange limit:** 5 kilometers. [[position exchange]]
-- **“Flame jump” distance:** 5 kilometers. [[flame jump]]
+- **â€œFlame jumpâ€ distance:** 5 kilometers. [[flame jump]]
 - There is a certain limit to the difference in body size.
 - Simulated organs may be useful or just for display.
 - Create fog and lower the temperature.
@@ -57,7 +57,7 @@ Additional parameters and related effects:
 ### Advancement Ritual
 
 - Completely divorced from reality for at least three hundred years.
-- Take potions after you have become history and do not belong to the current era. [3] [[UNCLEAR: Reference “[3]” has no source here; unclear what it points to.]]
+- Take potions after you have become history and do not belong to the current era.
 
 ### Playing the Code
 
@@ -86,7 +86,7 @@ Additional parameters and related effects:
 Additional usage modes and actions:
 
 - **Fog of history:** You may enter the **fog of history** [[fog of history]] that you know and hide in a historical scene you once knew. In reality, it is difficult to find your body without similar means.
-- **False existence via self-projection:** You can enter the **historical projection** [[historical projection]] of yourself that you summoned in the fog of history, make it your substitute in reality, become a “false” existence, and gain your consciousness.
+- **False existence via self-projection:** You can enter the **historical projection** [[historical projection]] of yourself that you summoned in the fog of history, make it your substitute in reality, become a â€œfalseâ€ existence, and gain your consciousness.
 - **Entering the fog of history:** **move action**.
 - **Dismissing the historical projection:** **free action**.
 
@@ -95,7 +95,7 @@ Costs and difficulty adjustments (as stated):
 - Summoning ordinary objects requires almost no consumption of Spirituality.
 - If you want to summon extraordinary items, you need 1 Spirituality point.
 - To summon extraordinary creatures, you need at least 3 Spirituality points.
-- Consuming 2 points of Spirituality, extraordinary creatures need to consume more Spirituality to display extraordinary abilities. [[UNCLEAR: The above costs conflict with “consume 2 points of Spirituality” for the swift-action use; unclear whether 2 is a base cost, a minimum, or applies only to some summons.]]
+- When a summoned extraordinary creature uses extraordinary abilities, treat **2 Spirituality** as the base additional cost; stronger abilities may require more at GM discretion.
 
 Difficulty modifications by familiarity:
 
@@ -106,12 +106,12 @@ Difficulty modifications by familiarity:
 Operational limitations and risks:
 
 - The Spirituality used by historical projection consumes your own Spirituality, including the summoned characters.
-- Summoned characters have no intelligence and no dialogue—only instinct. Combat is fought only through instinct or your manipulation.
+- Summoned characters have no intelligence and no dialogueâ€”only instinct. Combat is fought only through instinct or your manipulation.
 - If you communicate with the owner of the historical projection in advance and make arrangements in advance, then they can feel the historical projection after you summon it, resonate with it, and then manipulate the historical projection to join the battle and fight on behalf of you.
   - In other words, especially angel-level existence, when you summon the historical projection, they can perceive that the historical projection is summoned. [[Angel-Level]]
-- The object you summon should not be your enemy—at least, they cannot be your enemy in the period you summoned—because the historical projection relies only on instinctive actions. If you do not control it (or at the moment you come out), its instinct may attack you, potentially causing you to be backstabbed by your own projection.
+- The object you summon should not be your enemyâ€”at least, they cannot be your enemy in the period you summonedâ€”because the historical projection relies only on instinctive actions. If you do not control it (or at the moment you come out), its instinct may attack you, potentially causing you to be backstabbed by your own projection.
 - The maintenance time of historical projection is limited. If you use it to summon food, it will disappear after you eat it.
-- The historical projection can’t play the full ability. When the historical projection is identified:
+- The historical projection canâ€™t play the full ability. When the historical projection is identified:
   - Total identification is -4.
   - Damage caused each time is -4 (calculated according to the number of times damage is caused; if an attack is 1d4+2d10, there is more than one damage die, but as long as it is a single attack that only hits once, rather than several hits, the damage reduction takes effect only once).
 - The historical projection cannot exert the effect of full ability, and it is still effective when the historical projection has obtained the consciousness of the ontology. [[Ontology]]
@@ -121,9 +121,9 @@ Operational limitations and risks:
 
 Progress notes (as written):
 
-- **Completely digested potion:** 2 caps added. [[UNCLEAR: “caps” is not defined; unclear what increases by 2.]]
+- **Completely digested potion:** Increase your total summon/scene limit by 2.
 
-- **Master of Miracles** [[Master of Miracles]]: The upper limit has become 9, and you can summon familiar scenes, but there are still only three summons at the angel level. [[UNCLEAR: “upper limit has become 9” is not scoped (what limit? summons? scenes?); unclear what it applies to.]]
+- **Master of Miracles** [[Master of Miracles]]: Your total summon/scene limit becomes 9, and you can summon familiar scenes, but there are still only three summons at the angel level.
 
 ### Restoring Your Self
 
@@ -135,8 +135,8 @@ Progress notes (as written):
 
 - **Use:** Once per round; **swift action**.
 - **Cost:** 8 Spirituality points, and a paper figure [[paper figure]].
-- **Effect:** You can keep a physically disabled creature moving. You instantly restore a creature’s full hit points and remove any disadvantage it has from critical attacks.
-- **Limit/Truth check:** The restored hit points are false if he is told, or discerns the truth with a Difficulty Value 15 Inspiration check; then these restored HP disappear instantly. [[UNCLEAR: “if he is told” is undefined (who is told, by whom, and what constitutes being told).]]
+- **Effect:** You can keep a physically disabled creature moving. You instantly restore a creatureâ€™s full hit points and remove any disadvantage it has from critical attacks.
+- **Limit/Truth check:** The restored hit points are false if the target becomes aware (told or realizes), or discerns the truth with a Difficulty Value 15 Inspiration check; then these restored HP disappear instantly.
 
 ### Fog Creation
 

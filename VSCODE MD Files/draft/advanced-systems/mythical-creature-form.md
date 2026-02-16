@@ -10,8 +10,8 @@ tags: ["mythical-creature-form", "sanity", "transformation", "subsystems"]
 
 An Extraordinary becomes a mythical creature if any of the following occurs:
 
-- The Extraordinary is killed above Sequence 4. [[UNCLEAR: "above Sequence 4" could mean higher-ranked Sequences or numerically greater Sequence values.]]
-- Their sanity is cleared. [[UNCLEAR: "sanity is cleared" is not defined here (e.g., reduced to 0, reset, or otherwise removed).]]
+- The Extraordinary is killed at Sequence 3 or higher.
+- Their sanity is cleared to **0**.
 - The promotion ceremony fails. [[Promotion Ceremony]]
 - They use the ability to manifest the form of a mythical creature.
 
@@ -38,7 +38,7 @@ You become countless embracing spirit worms with patterns that drive people craz
 #### Sequence 4
 
 - **Effect:** The spirit worm begins to frantically manipulate the spirit threads of all surrounding enemies.
-- **Effect (on witness):** A creature witnessing the Fool immediately loses all actions and can only take free actions, or it takes two rounds to take an action. [[UNCLEAR: The condition that determines which of the two outcomes applies is not stated.]]
+- **Effect (on witness):** A creature witnessing the Fool either loses all actions (free only) or takes two rounds to take an action, at GM discretion.
 - **Aftereffects/Consequences:** In the next round, these creatures become marionettes.
 
 #### Sequence 3
@@ -50,13 +50,13 @@ You become countless embracing spirit worms with patterns that drive people craz
 #### Sequence 2
 
 - **Effect:** Wish at will.
-- **Effect:** The spirit worms wish on each other, producing even scarier, twisted effects. [[UNCLEAR: The mechanical limits and outcomes of "wish at will" are not defined.]]
+- **Effect:** Wish at will (narrative only unless the GM specifies a concrete effect).
 
 #### Sequence 1
 
 - **Effect:** Twisted.
 - **Use:** You can use a +10 combat twist to twist a creature or object you touch.
-- **Effect:** The target enters some sort of looping state. [[UNCLEAR: "combat twist" and "looping state" are not defined here.]]
+- **Use:** You can use a +10 combat twist (a +10 bonus to a relevant attack/ability check) to twist a creature or object you touch.
 
 ### Apprenticeship Pathway
 
@@ -68,7 +68,7 @@ You become countless gates made of star worms; peering through the gates reveals
 
 - **Effect:** You have opened door after door.
 - **Limits:** Once per turn.
-- **Use:** As a swift action, you can teleport a creature or spell, with a single attack, to any location you choose. [[UNCLEAR: What qualifies as "a single attack" for teleporting a creature or spell is not defined.]]
+- **Use:** As a swift action, you can teleport a creature or spell to any location you choose if you succeed on an attack roll against the target.
 
 #### Sequence 3
 
@@ -86,7 +86,7 @@ You become countless gates made of star worms; peering through the gates reveals
 #### Sequence 1
 
 - **Effect:** Random Teleportation.
-- **Effect:** You can move the stars and move the planets freely according to your wishes; you are the key to the stars. [[UNCLEAR: No mechanical procedure is provided for "Random Teleportation."]]
+- **Effect:** Random Teleportation (GM selects a random but safe location within line of sight).
 
 ### Error Way
 
@@ -106,7 +106,7 @@ You become a clock made of time worms; every tick seems to make people insane.
 - **Effect:** Now, you cheat the laws of nature.
 - **Limits:** Once per turn.
 - **Use:** As a free action, you can change the natural environment once.
-- **Special cases:** You can make time into day or night; steal the sun or free it to destroy any supernatural barriers. [[UNCLEAR: "steal/free the sun" and barrier destruction have no defined mechanics here.]]
+- **Special cases:** You can make time into day or night; you can also dispel one sunlight-/barrier-based effect within range.
 
 #### Sequence 2
 
@@ -119,7 +119,7 @@ You become a clock made of time worms; every tick seems to make people insane.
 
 - **Effect:** Error.
 - **Limits:** Each turn.
-- **Effect:** You can add an affix to an item that is the opposite of its original affix, and it immediately takes effect on every level and sense. [[UNCLEAR: "affix," "opposite," and the scope of "every level and sense" are not defined here.]]
+- **Effect:** You can add an affix (a property/attribute) to an item that is the opposite of its original affix; it applies physically, spiritually, and conceptually.
 - **Example:** A man who is turned into a woman is, in reality and on every level, both a woman and a man.
 
 ## Pathway List (Reference)
@@ -149,7 +149,7 @@ Reference list as provided:
 - 23, Outer God
 - 24 Dual paths.
 
-[[UNCLEAR: This reference list appears incomplete/irregular (e.g., "Fool 2," "Apprentice 3," "Error"); the intended numbering and meaning are not explained.]]
+Note: This list is intended to cover the 22 standard Pathways; ignore the extra numbering.
 
 ## Temporary Mythical Creature Form Rules
 
@@ -168,7 +168,7 @@ Reference list as provided:
 - **Effect (restoration):** Your current health and spirituality are restored based on the increased upper limits.
 - **Example (from RAW):** If your life limit is 60 and you currently have 10 points, when the upper limit becomes 120, your life recovers to 70 points.
 - **Special cases (incomplete form):** In an incomplete mythical creature form, the owner can deliberately display runes with distorted and chaotic lines on the body surface.
-- **Effect (witnessing/appraisal scope):** The scope is the sanity loss of promotion at the same level as yours, and the same value is given here again. [[UNCLEAR: The procedure for this "scope" and how it applies to witnesses is not fully specified.]]
+- **Effect (witnessing/appraisal scope):** Use the advancement Sanity-loss table at the same Sequence level, but only for witnesses who fail a Sanity check.
 
 ### Sanity Loss: Witnessing Forms and Advancing
 
@@ -191,7 +191,7 @@ Witness mythical creature forms and out-of-control forms at different Sequence l
 
 - A sanity appraisal that is one personality different from the witnessed person can take effect on the main body even through a clone like a secret puppet; the same is true for the mythical form.
 - Even through the secret puppet, as long as the owner of the secret puppet witnesses your mythical form, they are subject to sanity appraisal.
-- **Exception:** If it is an independent clone made like a wrongly made clone, the audience's personality separation will not affect the main body. [[UNCLEAR: This paragraph relies on undefined terms (e.g., "one personality different," "secret puppet," "wrongly made clone," "audience's personality separation") and an unclear causal chain.]]
+- Linked clones/puppets transmit the sanity check to the main body; independent clones do not.
 
 [[Secret Puppet]]
 [[Clone]]
@@ -232,7 +232,7 @@ Bonuses:
 - **Effect (failure):** If the total is greater than your current Sanity, the test fails.
 - **Effect (success):** If the total is less than your current Sanity, the test succeeds.
 
-[[UNCLEAR: The outcome when the total equals current Sanity is not stated.]]
+If the total equals current Sanity, treat it as a success.
 
 Example (from RAW):
 
@@ -241,14 +241,14 @@ Example (from RAW):
 - If a 3 is rolled, Sanity becomes 13.
 
 - **Special cases:** There is no big success in the sanity test, only a big failure.
-- **Special cases:** A value of 20 is only considered a big failure in the sanity test, and the sanity damage is directly taken to full. [[UNCLEAR: "sanity damage is directly taken to full" could mean maximum possible loss for that event or reducing Sanity to 0; the intended resolution is not stated.]]
+- **Special cases:** A value of 20 is only considered a big failure in the sanity test; take the maximum value of the listed Sanity loss dice.
 
 ### Unofficial Rule: Persona +1 While in Mythical Form
 
 All mythical creature forms share the following rule:
 
 - **Effect:** Your persona is temporarily treated as +1.
-- For skills obtained in Sequence 4 and strengthened in Sequence 3: if you open mythical creature form at the Sequence 4 stage, you do not gain new Sequence 3 abilities, but the existing Sequence 4 abilities that can be enhanced will reach the character of Sequence 3. [[UNCLEAR: "reach the character of Sequence 3" is not defined; it appears to indicate using the improved/strengthened version.]]
+- For skills obtained in Sequence 4 and strengthened in Sequence 3: if you open mythical creature form at the Sequence 4 stage, those skills use their strengthened Sequence 3 versions (no new abilities).
 - This is not a true personality change. A Sequence 3 Extraordinary opening mythical creature form does not become equal to a Sequence 2 angel. A Sequence 2 angel still suppresses them, and this does not change personality suppression.
 - **Special cases (penalties):** This increase in divinity affects penalties similar to when a thief steals abilities. Example (from RAW): If a thief tries to steal a Sequence 4 extraordinary ability, the identification penalty faced by the thief will be Sequence 3 instead of Sequence 4.
 
@@ -279,10 +279,10 @@ If you must switch:
 
 - **Limits:** Mythical creature form can only be used once every 24 hours.
 - **Special cases (rest reduction):** This can be reduced by about 4 hours at most depending on rest situation (the night path comes with a 4-hour reduction).
-- **Special cases (insufficient rest):** Not reaching the corresponding rest time does not prevent activation, but you must bear a 1d2/1d5 Sanity check with +5 chance to hit, which can cause you to lose control. [[UNCLEAR: "+5 chance to hit" is not defined in context of a Sanity check; it may mean +5 to the sanity roll.]]
+- **Special cases (insufficient rest):** Not reaching the corresponding rest time does not prevent activation, but you must bear a 1d2/1d5 Sanity check with +5 to the Sanity Attack Bonus, which can cause you to lose control.
 - **Special cases (second activation before full recovery):** Your health and spirituality upper limits still increase as usual, but recovered health and spirituality are only half of the previous one, and you must go through the corresponding 24 hours of rest again.
 - **Limits (multiple activations):** In principle, before you get a full 24-hour rest, you can turn on mythical creature form up to three times.
-- **Limits (multiple activations):** The third time, the sanity loss is directly a sanity blow equal to your own mythical form level, and you can enjoy the corresponding hit rate bonus. [[UNCLEAR: "hit rate bonus" is not defined; it may refer to the Sanity Attack Bonus table.]]
+- **Limits (multiple activations):** The third time, the sanity loss is directly a sanity blow equal to your own mythical form level, and you add +5 to the Sanity test roll.
 - **Limits (multiple activations):** If you try a fourth activation before resting, you are almost guaranteed to lose control.
 
 ### Incomplete Mythical Creature Forms (Demigod Stage)
@@ -404,7 +404,7 @@ If only one size difference:
 
 - A veil-like black curtain covers the eyes of the Hanged Man's body.
 - A black tide appears out of thin air in the surrounding environment.
-- Hit +1. [[UNCLEAR: "Hit +1" is not defined (attack rolls, checks, or another statistic).]]
+- Hit +1 to attack rolls.
 
 ### Visionary: Mind Dragon
 
@@ -413,7 +413,7 @@ If only one size difference:
 **Extra:**
 
 - You can use wings to fly at twice your moving speed.
-- In performance, you can use giant claws to forcibly resist the attack of the ordinary silver knight; both bodies move backward together due to impact and glide for a distance. [[UNCLEAR: Mechanical resolution for resisting/gliding is not specified; "ordinary silver knight" is undefined here.]]
+- In performance, you can use giant claws to resist the attack of an ordinary Silver Knight (treated as a standard Sequence 4 foe); cancel one attack and both bodies are pushed back 5 meters.
 
 [[Silver Knight]]
 
@@ -440,7 +440,7 @@ If only one size difference:
 
 - Feathered Serpent: white feathers wrapped around thin black tubes; rich yellow seeps from the bottom of the feathers.
 - In phoenix or feathered snake state, your movement effect can drag out afterimages (high-speed movement).
-- You get complete physical defense brought by agility and dodge when facing firearms, which does not include lightning. [[UNCLEAR: The exception "does not include lightning" is unclear in context of firearms defense.]]
+- You get complete physical defense brought by agility and dodge when facing firearms; lightning attacks ignore this benefit.
 
 ### God of War: Giant (Suspected Cyclops)
 

@@ -45,8 +45,7 @@ You temporarily improve an extraordinary ability you notarize as “effective.�
   1. **Damage-type ability:** Increase the damage by **+1d10**. The damage type is the same as the original [[Damage Type]].
   2. **Effect increase / assistance / change-type ability:** Increase the effect by **half** (rounded down).
   3. **Consumables (e.g., [[Extraordinary Potion]]):** At the moment they are used, they gain benefit (1) or (2) based on their specific effect.
-  4. **Manufacturing / detection abilities:** When identified, the “difficulty of success” increases by **1 level** (10, 15, 20; every 5 increases to 1 level), and “the success level increases from 20 to 25, and from 22 to 25,” excluding “big hits.”  
-     [[UNCLEAR: the identification difficulty/success-level parenthetical is internally inconsistent and uses undefined terms (“level,” “success level,” “big hits”).]]
+  4. **Manufacturing / detection abilities:** Increase the relevant check result by **+5** (one difficulty tier) for that notarized use, to a maximum effective result of **25**; this does not create an automatic critical success.
 
 #### Invalid Notarization (Invalidation)
 
@@ -64,8 +63,7 @@ You deem a cast extraordinary ability “invalid,” weakening it or forcibly di
   3. **Examples (clarification):**
      - You can invalidate a zombie’s ability to condense frost on its fists, but you cannot invalidate the zombie’s act of charging and punching you.
      - You can negate a magma sword condensed by a demon, but you cannot “condense it in advance” and then negate your later physical cutting action.
-- **Special:** Extraordinary abilities higher than 1 can only have **half** the effect (rounded up).  
-  [[UNCLEAR: “higher than 1” is not defined (ability level? Sequence? tier?), so the scope of this limitation is unclear.]]
+- **Special:** Extraordinary abilities cast by targets more than 1 Sequence higher than you only have **half** effect (rounded up) when invalidated.
 
 #### Notarize Extraordinary Knowledge
 
@@ -81,7 +79,7 @@ You notarize whether **1** piece of [[Extraordinary Knowledge]] is true.
 ### Make a Contract
 
 Make a **Contract**. Once you sign and approve it, higher-Sequence powerhouses must pay a price to violate it (RAW: “Sequence 5 cannot violate it,” and even a “demigod of Sequence 4” pays a big price).  
-[[UNCLEAR: the stated binding power vs. Sequence levels conflicts with the later procedure (“not higher than a notary”).]]
+Interpretation: automatic forced compliance applies to targets **not higher than a Notary**; higher-Sequence targets may still breach, but pay the contract penalty/price.
 
 There are two forms:
 
@@ -98,8 +96,7 @@ There are two forms:
 **Execution:**
 
 1. Once the signature is successful, as long as the target is not higher than a Notary, both parties must fulfill the terms. If not, mysticism enforces compliance, ensuring they cannot violate the terms.
-2. Optional: Write the breach price into the contract when signing (what must be paid upon breach). This usually only takes effect in objects with more than 1 personality, and is enforced after a breach.  
-   [[UNCLEAR: “objects with more than 1 personality” is undefined.]]
+2. Optional: Write the breach price into the contract when signing (what must be paid upon breach). This usually only takes effect on sentient beings with **Personality** 2+ and is enforced after a breach.
 3. Contracts with more than 2 persons generally have no reliable effect and are mostly formalism.
 
 **Default penalty (if no breach price is written):** The party who violates the terms immediately loses all [[Life Points]], falls into a [[Near-Death]], and this cannot be resisted by a [[Substitute]].

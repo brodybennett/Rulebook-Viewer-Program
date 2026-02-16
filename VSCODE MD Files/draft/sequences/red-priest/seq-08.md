@@ -14,8 +14,7 @@ tags: ["pathway:red-priest", "sequence:8"]
 
 - **Attribute Gain:** Dexterity +1, Constitution +1, Inspiration +2.
 - Deception / Speaking / Persuasion are included in the growth range of your Sequence 9 skills [[Sequence 9]], up to proficiency.
-- Every time you succeed in making an intelligent creature stronger than you complete for the first time due to provocation, losing sanity counts as 1 growth. [[Sanity]]
-[[UNCLEAR: The trigger sentence for gaining “growth” is grammatically unclear (“stronger than you complete”), so the exact condition for when “growth” is gained cannot be resolved from this excerpt.]]
+- Each time you successfully provoke an intelligent creature stronger than you for the first time, you may lose 1 [[Sanity]] to count it as 1 growth.
 
 ### Provoke
 
@@ -41,8 +40,7 @@ This ability is divided into three situations.
 1. **Action:** 1 casting action.
 2. **Cost:** 2 spirituality points.
 3. **Check:** Inspiration vs the target’s Will Defense.
-4. **Effect:** On the basis of the effect of only one side, the target additionally falls into a state of anger (Rage state).
-[[UNCLEAR: “On the basis of the effect of only one side” references a choice or prior effect not defined in this excerpt, so what it modifies cannot be resolved here.]]
+4. **Effect:** In addition to the Situation 1 effect, the target also falls into a state of anger (Rage state).
 
 - If the provoked object successfully causes an effective damage to the source of anger, the anger state will end.
 
@@ -52,10 +50,8 @@ This ability is divided into three situations.
 - You must attack the source of rage or blockers first, until you regain your composure or the source of rage dies, faints, or falls into a helpless state.
 
 1. If the remaining HP of the recipient of the anger state ≤ the total HP divided by 4 (rounded up), the subject will only suffer from the anger state, and the anger state does not have the effect of restricting actions. [[HP]]
-2. Different from normal anger: if the provocateur does not cause 1 damage, or use 1 Will/Psychological Guidance appraisal to identify the result of provoking against the provocateur at the beginning of each round, the anger cannot be relieved. [[Will (Attribute/Check)]] [[id:alias-psychological-guidance|Psychological Guidance]]
-[[UNCLEAR: The clause “if the provocateur does not cause 1 damage” is unclear about who must deal damage to whom, and how this interacts with relieving Rage.]]
-3. Half meditation can be changed to (1) effect, and full meditation will be halved on this basis. [[Meditation]]
-[[UNCLEAR: “Half meditation can be changed to (1) effect” does not specify what is being changed or how full meditation is “halved,” so the exact mechanical operation cannot be resolved from this excerpt.]]
+2. Different from normal anger: Rage can be relieved only if (a) the provocateur has dealt at least 1 damage to the target since the last round, or (b) the target succeeds on a Will/Psychological Guidance appraisal at the beginning of each round. [[Will (Attribute/Check)]] [[id:alias-psychological-guidance|Psychological Guidance]]
+3. Half meditation suppresses the action-restricting portion of Rage for 1 round. Full meditation halves the remaining Rage duration (round up). [[Meditation]]
 4. Others can also use 1 Psychological Guidance / Social Identification to help resolve the provocation, against the result of the inspirational identification when the provocateur provokes. [[Social Identification]]
 5. For 1 round, a target that has made a successful Mental Channel check cannot be provoked. [[Mental Channel]]
 
@@ -76,8 +72,7 @@ This ability is divided into three situations.
   1. All actions involving attacks and negative effects must take you as the top priority, unless you fall into a state of death, fainting, or helplessness, or the remaining HP of the provoked object ≤ the total HP divided by 4 (rounded up).
   2. The provoked person continues to be in a state of anger. If the provoked creature is provoked when the remaining HP ≤ total HP divided by 4 (rounded up), it will only suffer the effect of anger, but this state of anger does not contain any restrictions on actions.
   3. If someone obstructs the person being provoked, then only when the obstruction is being executed, the obstructer is also included in the attackable range.
-  4. At the beginning of each round, the provoked person can still use the Will/Psychological Guidance appraisal to try to remove the provocation (anger) effect independently, but the difficulty of the confrontation is changed to the following; if the confrontation is successful once, the effect is only halved, it will not be forced to move, and it can be removed after two times.
-  [[UNCLEAR: The text says the confrontation difficulty “is changed to the following,” but no “following” difficulty is provided within this excerpt.]]
+  4. At the beginning of each round, the provoked person can still use the Will/Psychological Guidance appraisal to try to remove the provocation (anger) effect independently, but the difficulty becomes **Will Defense + the provocateur’s Inspiration**. If the confrontation succeeds once, the effect is only halved (no forced movement), and it can be removed after two successes.
   5. Half-meditation is no longer effective. Full meditation is regarded as (4), but you must meditate twice in a row, and the provocateur in the middle can provoke again.
 
 - This rage state doesn't end just by doing damage to you simply successfully.

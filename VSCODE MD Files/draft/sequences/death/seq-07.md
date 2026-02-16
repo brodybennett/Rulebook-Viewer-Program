@@ -1,4 +1,4 @@
----
+﻿---
 title: "Sequence 7: The Psychic"
 id: "death-seq-07"
 tags: ["pathway:death", "sequence:7"]
@@ -29,18 +29,18 @@ You can directly communicate with natural spirits and wandering spirits in the r
   - **Check:** Inspiration + [[Knowledge of the Dead]] vs its **Will Defense**.
   - The connection is established only on a success.
 
-> **GM Note:** “A psychic should actively communicate with all seeing spirits to achieve the effect of informants everywhere.”
+> **GM Note:** â€œA psychic should actively communicate with all seeing spirits to achieve the effect of informants everywhere.â€
 
 ### Psychic Communication with Living People
 
-A living person’s spirit can also be an object of psychic communication.
+A living personâ€™s spirit can also be an object of psychic communication.
 
-There are two ways to communicate with a living person’s spirit:
+There are two ways to communicate with a living personâ€™s spirit:
 
 1. **Involuntary target**
    - **Cost/Action:** 1 spell-casting action; no spiritual consumption.
    - **Target:** Choose 1 **helpless** target.
-   - **Effect:** You establish a psychic relationship and communicate as a normal psychic, but everyone can hear the other party’s response.
+   - **Effect:** You establish a psychic relationship and communicate as a normal psychic, but everyone can hear the other partyâ€™s response.
    - Helplessness may be achieved violently, and causes the channeled target to suffer a **Sanity** loss of 1/1d2.
 
 2. **Voluntary target**
@@ -61,8 +61,7 @@ You can use different spirits to achieve various magic.
 - **Effect:** The spirit you are currently in will remind you in time when you are about to encounter danger.
 - **Requirement:** As long as there is a spirit body in the current area, whenever you are about to encounter a surprise attack/sneak attack, the local spirit body or Spirit World will tell you the corresponding information when such things are about to happen, so that you immediately know the next time you will encounter a surprise attack/sneak attack and its specific form.
 - **Passive:** If someone intends to do harm to you and has already started to do something about it, the ubiquitous spirits who can see these will immediately come and tell you about it (maybe through the Spirit World), but you can only get the information they have seen.
-  - This generally ignores distance, but what happens at a distance of more than 1 city can only be known “at noon in the morning”.
-  - [[UNCLEAR: “at noon in the morning” is internally contradictory timing language.]]
+  - This generally ignores distance, but events more than one city away are normally only known at **noon** (once per day).
 
 #### Regional Psychic
 
@@ -76,7 +75,7 @@ You can directly obtain information known to spirits within a certain range.
 - **Difficulty Value 15:** You know what kind of area the local area is, the general environment around it, and what things exist.
   - If you are in the Spirit World, you can use this to know the environment of the corresponding area in reality.
 - **Difficulty Value 20:** You know the local customs, landforms, and what kind of clothes and looks the people here.
-- **Difficulty Value 25:** You know more detailed information—what happened recently, and the detailed types of things.
+- **Difficulty Value 25:** You know more detailed informationâ€”what happened recently, and the detailed types of things.
 - **Difficulty Value 30:** You know more detailed local information and have obtained relevant direct information, such as the location of the deceased.
 - **Great success:** You know almost everything about the place, including the degree of danger here, the size of the degree.
 - **Big failure:** The spirits gave you wrong information, possibly because events were disguised or their judgment was wrong.
@@ -85,7 +84,7 @@ You can directly obtain information known to spirits within a certain range.
 **Special:**
 - If you ask the same thing within 24 hours, you will get the same result.
 - Generally speaking, spirits can only know about what happened in one day on the next day, unless the place you ask is near the scene of the incident.
-- Regional psychic covers 100 meters at a time. Spirits in a specific area may know unique information. In a city, if you ask spirits within different 100-meter ranges about the city’s status, because the information is general, there is a high probability that you will get the same information.
+- Regional psychic covers 100 meters at a time. Spirits in a specific area may know unique information. In a city, if you ask spirits within different 100-meter ranges about the cityâ€™s status, because the information is general, there is a high probability that you will get the same information.
 
 #### Spiritual Body Assistance
 
@@ -99,12 +98,10 @@ You can directly obtain information known to spirits within a certain range.
 You can communicate with and drive natural spirits, undead, and spirit creatures.
 
 - **Cost/Action:** 1 spell-casting action; consuming 3 spirituality points.
-- **Effect:** You control 1 undead creature that has “awakened” by itself. This kind of undead creature does not have enough wisdom. Natural spirits and spirit bodies with certain wisdom follow the content below:
+- **Effect:** You control 1 undead creature that has â€œawakenedâ€ by itself. This kind of undead creature does not have enough wisdom. Natural spirits and spirit bodies with certain wisdom follow the content below:
   1. **Premise:** You communicate with a spirit body. As long as the other party is willing, it will be regarded as a member of the spirit body that you can drive. The calculation represents your spirit strength.
-  2. The spirits you can drive include natural spirits, undead, Spirit World creatures, and undead creatures, but you cannot actively summon undead creatures unless it is a “resurrected” living corpse, water ghost, etc., and it should have no owner or the owner is low for you 1 person.
-     [[UNCLEAR: “the owner is low for you 1 person” is unclear as a restriction/threshold.]]
-  3. If you drive the undead, unless an undead is effectively replenished, it will lose its ability to move after 72 hours and cannot participate in battle. It can only be channeled; the information it gets is only fragments at first; and it will completely dissipate after 24 hours.
-     [[UNCLEAR: The 72-hour and 24-hour time limits appear to conflict without additional context.]]
+  2. The spirits you can drive include natural spirits, undead, Spirit World creatures, and undead creatures, but you cannot actively summon undead creatures unless it is a â€œresurrectedâ€ living corpse, water ghost, etc., and it should have no owner or the owner is at least 1 rank/Sequence lower than you.
+  3. If you drive undead without replenishment, they can act and fight for up to **24 hours**. After that, they can only be channeled and provide fragmented information; they completely dissipate after **72 hours**.
   4. To replenish an undead, allow it to attach itself to a creature to extract its spirituality and body temperature. For every point of spirituality extracted, the duration of the undead increases by 1 minute. Undead generally refers to resentful souls/evil spirits. Shadows do not have the ability to possess.
 
 ##### Driven Undead Templates
@@ -130,13 +127,13 @@ You can communicate with and drive natural spirits, undead, and spirit creatures
 - 5 points curse resistance
 - Ignores poison and physical damage
 - **Attack action:** 2d6 cold damage
-- **Possession:** Has Wraith Possession, but does not include mirror jumping, etc. Its determination is due to the content of [[Alien Pathway — Sequence 5: Wraith]].
+- **Possession:** Has Wraith Possession, but does not include mirror jumping, etc. Its determination is due to the content of [[Alien Pathway â€” Sequence 5: Wraith]].
 
-> **GM Note:** Different from resentful souls of different species: wild undead do not gain a series of abilities such as “advanced invisibility” because of their level; they can only cause cold damage. They can possess after a certain level; ordinary shadows do not even have the conditions for possession.
+> **GM Note:** Different from resentful souls of different species: wild undead do not gain a series of abilities such as â€œadvanced invisibilityâ€ because of their level; they can only cause cold damage. They can possess after a certain level; ordinary shadows do not even have the conditions for possession.
 
 ##### Living Corpse, Skeleton, Water Ghost
 
-The following undead creatures can only be enslaved by naturally “awakened” individuals, or created by possessing resentful spirits/evil spirits on corpses. When the spirits dissipate, they return to the corpses. The latter cannot affect those who have been taught to requiem corpse.
+The following undead creatures can only be enslaved by naturally â€œawakenedâ€ individuals, or created by possessing resentful spirits/evil spirits on corpses. When the spirits dissipate, they return to the corpses. The latter cannot affect those who have been taught to requiem corpse.
 
 **Living corpse**
 - 15 health
@@ -145,7 +142,7 @@ The following undead creatures can only be enslaved by naturally “awakened” 
 - 5 points resistance to cold, curse, and poison
 - **Attack:** 1d6 physical damage
 - Like a normal person but with multiple rotting corpses
-- (Against a Constitution defense of 15 to do so if there is a disease that can affect a living corpse, such as [[Witch’s Plague]].)
+- (Against a Constitution defense of 15 to do so if there is a disease that can affect a living corpse, such as [[Witchâ€™s Plague]].)
 
 **Skeleton**
 - 10 health
@@ -161,7 +158,7 @@ The following undead creatures can only be enslaved by naturally “awakened” 
 - Ignores the ability to resist physical and Will Defense
 - 5 points cold, curse, and poison resistance
 - **Attack:** 1d6 physical damage
-- A body swelling and drowning “living corpse” in the water; can maintain normal mobility underwater.
+- A body swelling and drowning â€œliving corpseâ€ in the water; can maintain normal mobility underwater.
 
 ##### Special Rules: Characteristics, Containment, and Existence Time
 
@@ -183,7 +180,7 @@ Natural spirits are different from undead: undead are transformed after the deat
 
 Because the description of natural spirits is lacking, you can create a natural spirit in the following way:
 
-1. Roll 2d10 to determine a natural spirit’s blood volume, Physical Defense, and Will Defense.
+1. Roll 2d10 to determine a natural spiritâ€™s blood volume, Physical Defense, and Will Defense.
    - The agility and dodge in Physical Defense are the values after Physical Defense -10.
 2. Customize the ability of the natural spirit or randomize its ability:
    - Roll 1d2 to randomly generate the following abilities:
@@ -212,8 +209,7 @@ A more common natural spirit only has the above two abilities. This is the most 
   1. Within 1 round, the next skill and attribute appraisal +2 will be beneficial.
   2. For 1 round, one of the three defenses gets a +2 bonus.
   3. Within 1 round, gain 5 points of extra life, or extra spirituality (only one item can be obtained at the same time; cannot be superimposed).
-  4. Within 1 round, the mental influence (fear, anger, etc., other than shock) suffered by the target is halved; the effect of forced movement is cleared, rounded up, and completely removed after the second application of the ability. Mental influence includes temporary madness but not other crazy.
-     [[UNCLEAR: “forced movement is cleared, rounded up” is unclear about what is being rounded and how forced movement interacts with halving/clearing.]]
+  4. Within 1 round, the mental influence (fear, anger, etc., other than shock) suffered by the target is halved; forced movement is halved (round up) on the first application and completely removed after the second application of the ability. Mental influence includes temporary madness but not other crazy.
 
 > **GM Note:** Other possible natural spirits vary widely (e.g., land stealth, sensory sharing, etc.). More natural spirits are written by you and handed over to the GM for review; it is only logical and approved by your GM.
 
@@ -237,12 +233,12 @@ You gain access to ritual magic, able to invoke power from the gods.
 
 Because the [[Reaper Pathway]] starts from Sequence 7, and every time a Sequence is increased the subordinates you can drive and enslave increase explosively, you must decide the judgment method of your undead army in battle.
 
-#### When the Undead Are Treated as an “Army”
+#### When the Undead Are Treated as an â€œArmyâ€
 
 1. As long as the total number of dead people driven by you is more than 3, then all the dead people driven by you are considered as a whole.
 2. You add the blood volume of all your dead people together, but it cannot be added together at one time; it needs to be classified and added.
-3. Example method: first add the HP of all living corpses together, then add the HP of all shadows together. After adding the values of the dead of the same kind, record their blood volume respectively (e.g., using “.st living corpse (blood volume value)”).
-4. Decide the priority of your undead army’s constituent species (example priority order given in RAW: living corpses 1, skeletons 2, wraith 3, water ghost 4).
+3. Example method: first add the HP of all living corpses together, then add the HP of all shadows together. After adding the values of the dead of the same kind, record their blood volume respectively (e.g., using â€œ.st living corpse (blood volume value)â€).
+4. Decide the priority of your undead armyâ€™s constituent species (example priority order given in RAW: living corpses 1, skeletons 2, wraith 3, water ghost 4).
 
 #### Official Battle Judgment
 
@@ -252,27 +248,23 @@ Because the [[Reaper Pathway]] starts from Sequence 7, and every time a Sequence
    - You may freely choose which of the 3 appraisals are species; the same species can be selected as long as that species still exists.
 4. When the total number of the undead army is 10, the damage caused by three identifications increases by 1d6 each time.
    - Example scaling given: shadow damage is 1d6 when total number <10; at 10 it is 2d6; at 20 it is 3d6; at 50 it is 6d6; and so on.
-5. The actions of the undead army are independent and do not consume your body’s actions.
+5. The actions of the undead army are independent and do not consume your bodyâ€™s actions.
    - They have 1 attack/casting action and 1 movement action.
-   - The **swift action** can consume any of these actions to convert 2 of them.
-   - [[UNCLEAR: The swift-action conversion (“convert 2 of them”) is unclear about the resulting action economy.]]
+   - You can spend a **swift action** to convert one of these actions into **two** swift actions.
 6. All skill and attribute appraisals of the undead army use your Inspiration.
-   - The identification of the undead army gains “a bonus value divided by the number of its army species divided by 2.”
-   - [[UNCLEAR: The bonus formula (“divided by the number of its army species divided by 2”) is unclear in application.]]
+   - The identification of the undead army gains a bonus equal to (base bonus / number of its army species) / 2 (round down).
 
 #### Siege
 
-1. As long as the undead army exists, you and your teammates will continue to get the siege effect of siege/flanking—i.e., continue to gain advantage/disadvantage—unless the opponent also has the same number of undead troops.
-2. If the enemy has a target with more than 1 character, the undead army can only offset the advantage/disadvantage effect of the target with more than 1 character, unless the opponent has basically lost the ability to resist.
-   [[UNCLEAR: The interaction between “target with more than 1 character” and offsetting advantage/disadvantage is unclear.]]
+1. As long as the undead army exists, you and your teammates will continue to get the siege effect of siege/flankingâ€”i.e., continue to gain advantage/disadvantageâ€”unless the opponent also has the same number of undead troops.
+2. If the enemy has a target higher than you by 1+ Sequence, the undead army can only offset the advantage/disadvantage effect of that target, unless the opponent has basically lost the ability to resist.
 
 #### Area Damage
 
 1. Area damage deducts blood volume from all species classifications of the undead army at the same time.
-   - Example: “Yang Yan” of the [[Sun Pathway]] demigod—single damage from Yang Yan simultaneously reduces the life value of all classifications (living corpse, shadow, skeleton, etc.).
-2. If a single-target attack says “Multiple targets standing together are considered the same target,” then that single-target attack’s damage to the undead army is doubled, but it is still deducted gradually according to priority 1, 2, and 3 rather than being deducted together.
+   - Example: â€œYang Yanâ€ of the [[Sun Pathway]] demigodâ€”single damage from Yang Yan simultaneously reduces the life value of all classifications (living corpse, shadow, skeleton, etc.).
+2. If a single-target attack says â€œMultiple targets standing together are considered the same target,â€ then that single-target attackâ€™s damage to the undead army is doubled, but it is still deducted gradually according to priority 1, 2, and 3 rather than being deducted together.
 
 **Special:**
-- Each unit of the undead army can count up to 50. Redundant subordinates of more than 50 need to be recalculated: no more than 3 are regarded as independent individuals, and more than 3 are regarded as a whole.
-  [[UNCLEAR: This “up to 50” unit rule conflicts with or reframes the earlier “more than 3 = army” rule without clarifying how they interact.]]
+- Each species block in the undead army can count up to 50 units. If a species exceeds 50, split it into additional blocks; army-mode rules still trigger whenever your total driven undead exceed 3.
 - Unless an area attack can cover the whole field, it can only affect one of the undead army at a time by default.

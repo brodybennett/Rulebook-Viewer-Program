@@ -43,7 +43,7 @@ tags: ["pathway:abyss", "sequence:9"]
 - Notes:
   - Dead creatures are usually only dull in color and cannot be identified.
   - Spiritual materials usually have spirituality.
-  - The color of the material in Spirit Vision usually represents its corresponding Pathway. This does not mean that you can see the power of a Beyonder. [[UNCLEAR: Source text is garbled (“Beyonder. way.”); interpreted as “you cannot see a Beyonder’s power/Pathway.”]]
+  - The color of the material in Spirit Vision usually represents its corresponding Pathway. This does not mean that you can directly read a Beyonder's power/Pathway details.
   - The color seen by Spirit Vision allows you to see each other in the dark, but you can only see the existence of color, and it is still possible to get lost in the dark.
   - Unlike dead creatures, undead creatures have deep black spirituality color instead of no color. [[Undead]]
   - Spirit Vision can see some ordinary spirit bodies by default, which have not dissipated for 24 hours, and cannot be recorded or stolen.

@@ -44,7 +44,6 @@ You master magical, diverse, unique, and rare **Mysteries** [[Mystery]].
 - **Ongoing development:** A qualified Mystic Instructor should frequently develop their own secret techniques.
 - **Special:**
   - If you have analyzed 1 [[Demigod]] ability or above, the secret technique you can make can only meet your level, otherwise the effect will still be halved.
-  - [[UNCLEAR: The “Special” clause is self-contradictory/ambiguous about when effects are halved and what “meet your level” restricts.]]
 
 #### Example Secret Techniques
 
@@ -100,8 +99,7 @@ If you analyze a technique’s “prototype,” it can be used even if the corre
   - **Purge**
     - **Use:** 1 casting action.
     - **Cost:** 2 Spirituality Points.
-    - **Effect:** Clear a target of [[Curse]], [[Toxin]], and [[Fear]] up to 1 character higher than you.
-    - [[UNCLEAR: “Up to 1 character higher than you” is unclear (level/Sequence/other scaling).]]
+    - **Effect:** Clear a target of [[Curse]], [[Toxin]], and [[Fear]] up to 1 Sequence higher than you.
 
 - **Earth knowledge reaches Erudition and above:**
   - **Healing**
@@ -148,3 +146,4 @@ You channel occult power into [[Ritual Magic]].
   5. Distance limit for demigods in this ceremony: 926 kilometers (500 nautical miles).
 
 - More secret art rituals that match “weird but effective” are within the scope of allowing originality. It is recommended that original rituals and ordinary secret arts occupy the same “column.”
+

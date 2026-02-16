@@ -43,15 +43,14 @@ You can manifest the brass-colored all-seeing eye to examine a target’s past a
 #### All-Seeing Eye State Benefits
 
 1) **Past sight (no identification required):** You spy on the past information of a target you choose within visible range.  
-   - This ignores anti-divination and anti-prophecy effects, and even Personality.  
+   - This ignores anti-divination and anti-prophecy effects, and ignores Personality for access.  
      [[Identification]]  
      [[id:alias-anti-divination|Anti-Divination]]  
      [[Anti-Prophecy]]  
      [[Personality]]
-   - Things higher than your Personality can be spied on, but there is no guarantee you will not be counterattacked or polluted.  
+   - Targets with Personality higher than yours can still be spied on, but there is no guarantee you will not be counterattacked or polluted.  
      [[Counterattack]]  
      [[Pollution]]
-   [[UNCLEAR: “Ignores Personality” but also references “things higher than your Personality”; the threshold/interaction is not clearly defined.]]
 
    > **GM Note:** A timely counterattack causes you to only know what is preventing the prying, and only information directly related to that thing will be counterattacked. (Example: Klein’s fate and identity can be spied on, but it is blocked when it involves source quality.)  
    > [[Source Quality]]
@@ -59,8 +58,7 @@ You can manifest the brass-colored all-seeing eye to examine a target’s past a
 2) **Future sight (no identification required):** On the basis of the above, you can also choose the target’s future information.
 
 3) **Official spying (once per round):** Officially starting to spy on information is a free action once in a round. Each round, choose **one** of the following information categories about the target you chose.  
-   - You can only choose to spy on the past or future separately once.  
-   [[UNCLEAR: The “past or future separately once” restriction is ambiguous about whether both can be taken in the same round or only one total per round.]]
+   - You can only choose **past or future** once per round (not both).
 
    **Choose one category:**
    - All existences that intersect with the target’s destiny, including all the previous identities of the target, belong to a kind of attachment.  

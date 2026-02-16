@@ -40,5 +40,5 @@ tags: ["pathway:mutant", "sequence:8"]
 - **Trigger:** When you are illuminated by a full moon, you immediately take an **SC** (1/1d3) that does not retrigger, and you become vulnerable to [[loss of control]].
 - **Easy to Lose Control:**
   - You gain a +2 bonus on **Sanity checks**. [[Sanity checks]]
-  - rd20s on Sanity checks of 18, 19, or 20 are considered catastrophic failures. [[UNCLEAR: "rd20s" is undefined here (likely intended to indicate d20 rolls), but it changes how Sanity checks resolve.]]
+  - d20 rolls on Sanity checks of 18, 19, or 20 are considered catastrophic failures.
 - **Special:** When acquiring a new full moon curse, the original full moon curse will be overwritten.

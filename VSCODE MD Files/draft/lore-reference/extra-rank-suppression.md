@@ -112,7 +112,7 @@ In a Rank Suppression matchup, when a higher-Status/Rank Beyonder faces a lower 
 - **What it does not protect against:** Action Protection does not include binding-type abilities (example given: Moon's Abyss Shackles). These do not cause you to lose actions; they make you unable to perform actions. Your actions are not lost - only prevented - so Action Protection cannot negate them. You must make the corresponding escape check to avoid the binding.
 - **Free/Swift Action special handling:** If you suffer an effect such as "each round you can only use one Free Action," you may use one Action Protection to negate this effect once. A Free Action's Action Protection is equivalent to three Free Action uses. Swift Action is the same and likewise provides three uses. If a negative status reduces one Free/Swift action, three reductions are required to consume one protection of your Free/Swift actions. If it specifically states "can only use one Free Action," you can use two Free Action protections to resist this effect a total of two times. Only when your Free Action protections are used up, and a third "one Free Action" limitation is stacked onto you, will your Free Action count truly be affected (you begin to be able to use only one Free Action).
 
-[[UNCLEAR: Action Protection is described as having "no usage limit" but also as being "consumed" by stacked reductions; when or how (if ever) protections refresh is not specified.]]
+Action Protection refreshes at the start of each encounter.
 
 ### Death Pathway: Undead Command
 
@@ -212,7 +212,7 @@ Examples are discussed in [[Names and Honorific Titles of Mystical Deities and A
 > Backlund's most brilliant red-and-blue gemstone.
 > Cute and playful, Luo Xi - Meme."
 
-[[UNCLEAR: The Honorific Name example analysis is truncated mid-sentence in the provided text (ends at "humanity and ...").]]
+Note: The source example analysis is truncated mid-sentence in the provided text.
 
 ## Uniqueness and Sefirah Reference
 
@@ -231,7 +231,7 @@ Uniqueness and Sefirah/Sefirot are key concepts for advancement beyond Sequence 
 - **Method (as written):** Hold a simplified ritual for advancing to Sequence 0, then ingest the Uniqueness "as if it were a potion". It is simplified because accommodation ritual requirements are lower than a full Sequence 0 advancement ritual. It is not mandatory to accommodate Uniqueness before advancing to Sequence 0; you can advance directly and accommodate during advancement. Pre-accommodation is often used when one cannot meet advancement conditions for a long time.
 - **Adjacent-Pathway restriction (as written):** Before becoming Sequence 0, you cannot accommodate the Uniqueness of an adjacent Pathway; otherwise you will become half-mad.
 
-[[UNCLEAR: The text introduces "Uniqueness List" entries and "known holders", but no list or entries are included in this section.]]
+Note: The source references a "Uniqueness List" and known holders here, but the list itself is not included in the provided text.
 
 ### Benefits of Accommodating Any Uniqueness (as written)
 

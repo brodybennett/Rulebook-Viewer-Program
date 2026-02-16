@@ -101,7 +101,7 @@ Some are friendly; some are extremely threatening and hostile to other creatures
 
 Their existence has an anti-divination effect:
 
-- Divinations that do not have a sufficient "level difference" from the divination target will usually be disturbed. [[UNCLEAR: RAW references a "certain level of difference" required for divination to avoid interference but does not define what constitutes that difference.]]
+- Divinations that do not have at least a **1 Sequence** level difference from the target will usually be disturbed.
 
 #### Threat Level and Roaming Risk
 
@@ -111,7 +111,7 @@ You must be vigilant when roaming in the Spirit World.
 - Even if you do not encounter threats immediately upon entry, exploring deeper makes encounters likely.
 - Some creatures may have [[Sequence]] [[Pathway]] systems, and even if some do not, they may have reached demigod status.
 
-> GM Note: RAW note - Spirit World creatures that live in the Spirit World have the ability to travel through it, but some beings that are still "Extraordinary in nature" may not be able to do so even if they can enter. Example given: "the unjust soul of the alien Sequence 5." [[UNCLEAR: "unjust soul of the alien Sequence 5" is referenced without context or definition.]]
+> GM Note: RAW note - Spirit World creatures that live in the Spirit World have the ability to travel through it, but some beings that are still "Extraordinary in nature" may not be able to do so even if they can enter. Example given: "the unjust soul of the Alien Pathway Sequence 5."
 
 ### Navigation, Direction, and Getting Lost
 
@@ -169,7 +169,7 @@ If completely isolated from the Spirit World:
 However, the RAW states that reality and the Spirit World are usually not completely separated and can often be used at a shallow level:
 
 - Even if the Spirit World is almost destroyed, or reality is cut off from it, a fortune-teller's divination is usually not affected because it is "shallow use."
-- The Door Pathway may be unable to "shuttle," but can still be used for Sequence-based "Through the Wall." [[UNCLEAR: RAW uses "Sequential 'Through the Wall'" without defining the term/effect beyond the phrase.]]
+- The Door Pathway may be unable to "shuttle," but can still use the Sequence-scaled "Through the Wall" effect (see Doorway abilities).
 
 If even these do not function, the connection with the Spirit World has been completely cut off.
 
@@ -528,7 +528,7 @@ If you do not enter the dreamland and choose to stay in the dark until you disap
 
 ### Additional
 
-- Even on ordinary islands, you can encounter many mid-Sequence extraordinary creatures or "Grahams," such as a giant stone statue with the ability of a Sequence 5 guardian. [[UNCLEAR: "Grahams" is referenced without definition/context; may be a translation term or typo.]]
+- Even on ordinary islands, you can encounter many mid-Sequence extraordinary creatures, such as a giant stone statue with the ability of a Sequence 5 guardian.
 - A proportion of extraordinary creatures here are non-real existences (illusions). They may have mid-Sequence ability. After defeat, they do not yield corresponding extraordinary characteristics.
 - Due to lack of exploration, islands may contain treasures from the third era and various relics. Because of residual divine power and the illusion or reality boundary, exploration is usually very dangerous and proportional to opportunity. Beyonders below mid-Sequence should not attempt to explore.
 - Even a demigod may encounter an obvious crisis here. Example: a demigod of the Aurora Order was trapped here, showing danger at demigod level. [[Aurora Order]]

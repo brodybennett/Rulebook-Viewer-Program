@@ -52,7 +52,7 @@ tags: ["pathway:red-priest", "sequence:4"]
   - Your full-round actions gain 2d10 points of damage.
 - **Limits:**
   - You cannot be steel and flame at the same time.
-[[UNCLEAR: In Flame form, it is unclear how the 1d10 damage for spellcasting/attack rolls interacts with the 2d10 damage for full-round actions when both could apply.]]
+  - For full-round actions, use the 2d10 damage bonus instead of 1d10.
 
 ### Iron-Blooded Army
 

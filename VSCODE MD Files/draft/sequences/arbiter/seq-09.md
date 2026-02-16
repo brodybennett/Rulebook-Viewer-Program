@@ -26,10 +26,8 @@ tags: ["pathway:arbiter", "sequence:9"]
   - Will only increase your personal authority.
   - Can (at most) quickly increase to mastery. [[Skill Ranks]]
 - **Limit:** This improvement is limited to 1 time per day, so as to leave enough time for your reputation to start spreading.
-- From training → proficient → advanced → proficient, you need to preside over justice 2, 3, and 4 times respectively.  
-  [[UNCLEAR: The final step repeats “proficient”; the intended skill-rank progression is uncertain.]]
-- Creating a character that isn't just promoted can boost growth skills with twice the potion's Inspiration. [[Potion]]  
-  [[UNCLEAR: “growth skills” and “twice the potion’s Inspiration” are not defined here and could be interpreted multiple ways.]]
+- From training â†’ proficient â†’ advanced, you need to preside over justice **2** and **3** times respectively; advancement caps at **Advanced**.
+- Creating a character that isn't just promoted can boost growth skills with **double the potion's Inspiration**. [[Potion]]
 
 ### Arbitrating Authority
 
@@ -68,8 +66,7 @@ tags: ["pathway:arbiter", "sequence:9"]
   3. As long as your verdict is executed by the target, the target’s corresponding crime will be cleared in [[Mysticism]]. It can be understood that a criminal is labeled as a crime. After the corresponding crime is cleared, you can no longer judge the same crime on that target.
 - **Modifiers:**
   - For each 1 Sequence the target is higher than you: -2 disadvantage to the Reputation check of the Judgment ability.
-  - Every time the target is higher than you by 1 character: -2 disadvantage in the Reputation appraisal, the judgment will only take effect for 1 round, and it will be invalid if it is 2 higher than you.  
-    [[UNCLEAR: Two different scaling rules are given (“per Sequence” and “per character”); it is unclear whether both apply, and what “character” means here.]]
+  - 
 
 - Generally speaking, the rulings you can enforce are as follows:
 

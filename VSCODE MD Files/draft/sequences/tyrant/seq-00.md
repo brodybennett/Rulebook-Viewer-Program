@@ -36,8 +36,7 @@ tags: ["pathway:tyrant", "sequence:0"]
   - You can create planet-level violent lightning waves.  
   - All lightning-related abilities you use deal **+1d10 lightning damage**. This bonus is calculated separately and also increases the base 5d6 lightning damage of your lightning abilities.  
   - When you use [[Yi Lei Wan Tang]], although it requires a single primary body as the main target, you also deal significant damage each round to other nearby creatures besides the main target. This additional damage is treated as damage from [[Lightning Storm]].  
-  - This secondary damage benefits from **Celestial Thunder**’s bonus damage and requires a disaster-damage identification equivalent to Lightning Storm.  
-    [[UNCLEAR: The exact procedure for “disaster-damage identification” is not defined here.]]  
+  - This secondary damage benefits from **Celestial Thunder**’s bonus damage and is resolved using the same Disaster Attack procedure as **Lightning Storm** (check vs Physical Defense).  
 
 - **Targeting and range:**  
   - Within 100 meters of any lightning you create, a powerful electromagnetic storm accompanies it, destroying all information structures.  

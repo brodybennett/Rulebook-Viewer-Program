@@ -41,7 +41,7 @@ tags: ["pathway:arbiter", "sequence:7"]
 
 > **Lore:** Manifestation form: two lightning bolts suddenly light up in your eyes; the enemy will scream, and the spirit will be pierced by a sharp knife.
 
-[[UNCLEAR: The ability is described as targeting the “spirit body,” but its mechanics reference “mental puncture” and deal “mental damage,” and the relationship between these terms is not defined here.]]
+Treat this as **psychic damage** to the spirit body (GM-defined).
 
 1. **Preparation (Fear)**
    - **Use:** 1 **swift action** [[Swift Action]]
@@ -62,7 +62,7 @@ tags: ["pathway:arbiter", "sequence:7"]
    - **Effect (on success):** Deal 1d6 mental damage and apply a **Stunned** state. [[Mental Damage]] [[Stunned]]
    - **Interaction with (1):** The use of (2) does not need to consume 1 more swift action due to (1), but therefore (2) will not cause the fear effect.
 
-[[UNCLEAR: It is not stated whether step (2) requires step (1) to be active, or how the “maintenance period” timing interacts with using step (2).]]
+Whether step (2) requires step (1) to be active is GM-defined.
 
 ### Whip of Pain
 
@@ -88,8 +88,7 @@ tags: ["pathway:arbiter", "sequence:7"]
        - **Check:** inspiration + intimidation check against physical defense; ignores armor. [[Inspiration]] [[Intimidation]] [[Physical Defense]] [[Armor]]
        - **Effect (on success):** Cause 1d6 mental damage. [[Mental Damage]]
        - **After damage:** The target’s movement is halved for 1 round, rounded up. [[id:alias-movement|Movement]] [[Round]]
-       - Other creatures gain advantages/disadvantages against them, which cannot be superimposed. [[Advantage / Disadvantage]]
-       [[UNCLEAR: “Other creatures gain advantages/disadvantages against them” does not specify which applies (advantage vs disadvantage), to what rolls, or under what conditions.]]
+       - Other creatures gain **disadvantage** against them; this cannot be superimposed. [[Advantage / Disadvantage]]
 
      - **Accompanying weapon (attacking action):**
        - Perform the confrontation identification corresponding to the weapon, and cause corresponding damage. [[Confrontation Identification]]

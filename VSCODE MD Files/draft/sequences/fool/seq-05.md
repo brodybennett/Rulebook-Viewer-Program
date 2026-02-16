@@ -51,8 +51,8 @@ You can use the **spiritual thread** that exists in creatures with spiritual bod
   1. You can see countless illusory black lines from each creature with a spirit body, corresponding to different limbs, densely packed, extending to infinite heights, reaching the end of the void. The lines of the spirit body can be seen through walls and are not blocked by matter.
   2. These illusory black lines cannot be hidden by [[invisibility]] and other abilities. Therefore, by locating the spiritual body line, you can find targets in states such as [[advanced invisibility]], [[shadow hiding]], [[information creature]], etc., excluding [[Psychological Invisibility]].
   3. You can only see spiritual threads within 100 meters. If you trace the source of a spiritual thread within your field of vision, you can see the appearance and location of the owner of the spiritual thread, even if the target is hiding in shadows or invisible.
-  4. Plants, gremlins, and undead do not have spiritual body threads, but ghosts, resentful souls, spirit world creatures, and undead creatures transformed from extraordinary people (not dead in essence) all have spiritual body threads. In other words, they have no spiritual body threads. The existence of the body does not have the thread of the astral body. [[UNCLEAR: This concluding sentence is internally unclear/garbled and cannot be rephrased without guessing.]]
-- **Note:** Corpses or recently deceased corpses obviously do not have astral threads, but the astral threads of recently deceased corpses do. [[UNCLEAR: This note states both that recently deceased corpses do not have astral threads and that they do.]]
+  4. Plants, gremlins, and undead do not have spiritual body threads, but ghosts, resentful souls, spirit world creatures, and undead creatures transformed from extraordinary people (not dead in essence) do. The **GM** decides edge cases.
+- **Note:** Corpses do not have astral threads; the **GM** decides whether recently deceased corpses do.
 - **Potion digestion progress:**  
   - Potion digestion progress 10: changed to be able to see the thread of the spirit within 120 meters.  
   - Potion digestion progress 15: changed to be able to see the thread of the spirit within 200 meters.  
@@ -72,7 +72,7 @@ You control the target’s body by manipulating the target’s **ethereal thread
   ⑤ Targets lower than 2 levels: After 2 successful identifications, the manipulation level increases by 1.  
   ⑥ Ordinary people and ordinary creatures: After 1 successful identification, the manipulation level increases by 1.
 - **Special (bloodbath):** For creatures in a [[bloodbath state]], the number of identification successes required is reduced by 1.
-- **Potion digestion progress 10, 15, 20:** ①②③④⑤⑥ The number of required successes is reduced by 1 time, and the level with only 1 time left is changed to 1 additional identification, and after digestion, the additional and original identifications are both successful by default, and then changed to 2 additional times and all are successful by default. [[UNCLEAR: The sequencing of reductions, “additional identifications,” and “successful by default” across digestion milestones is ambiguous in timing and meaning.]]
+- **Potion digestion progress 10, 15, 20:** ①②③④⑤⑥ The number of required successes is reduced by 1; when only 1 remains, add 1 additional identification; after digestion, add 2 additional identifications and all are successful by default.
 - **Level note:** Low Sequence (9-8), Middle Sequence (7-5), Saints (4-3), Angels (2-1) are all different levels; ordinary people are a separate level; subdivided there is the “[[King of Angels]]” hierarchy.  
   For details, refer to [[Extra: Personal Suppression]]. Here this is only a separate judgment. Like the content of this chapter, only the middle and low sequences will have the benefits of three defenses +10 when facing demigods.
 

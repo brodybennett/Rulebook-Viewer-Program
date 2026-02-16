@@ -45,9 +45,7 @@ Choose one of the following effects:
 
 Special:
 
-[[UNCLEAR: The text says chaos is “limited to ② effects,” but this ability also lists effects ①, ③, ④, and ⑤; it’s unclear whether the limitation applies to the whole ability or only to the reversal logic below.]]
-
-- The essence of chaos is to make stable order chaotic, resulting in mutations, so it is limited to ② effects. If some things are already chaotic enough (such as a lucky appraisal), the difficulty of the appraisal will not decrease but increase; the potion will be promoted so it will be.
+- The essence of chaos is to make stable order chaotic, resulting in mutations, so this ability is limited to effect ② only; ignore effects ①, ③, ④, and ⑤. If some things are already chaotic enough (such as a lucky appraisal), the difficulty of the appraisal will not decrease but increase; the potion will be promoted so it will be.
 - Logic (as given): normal chaos seeks chaos from order to create opportunities. If a thing is already chaotic enough, your purpose is no longer to seek chaos, but to seek order from chaos, then the effect of the ability will be the opposite.
 
 > **GM Note:** Among the effects above, the most manipulable effect is ②, because the rules of extraordinary abilities can also be confused, making the impossible possible. Example: an ability might restrict you to creating only one true/false phantom that can be seen at a glance; once that rule is confused and becomes unstable, this restriction is no longer stable and creating a realistic phantom may become feasible. The GM decides whether this usage is feasible, and it still has similar meaning restrictions: the range of effects before chaos and after chaos cannot be too large. You must have the prerequisite ability (you can’t create something out of nothing). For example, if you “smash the space with a punch,” you simply don’t have the ability to do this—maybe chaos at an older/higher level can.
@@ -64,12 +62,10 @@ Special:
 
 Effects:
 
-1. Affected creatures are unfavorable to skill and attribute appraisals by -2, and unconsciously lower their figures. Creatures that are not at the same level as you (Sequence 6-5) will not even be able to look directly at you; at the same level, they will have the urge to lower their heads—this is fear.
+1. Affected creatures are unfavorable to skill and attribute appraisals by -2, and unconsciously lower their figures. Creatures that are not at the same level as you (Sequence 6 or 5) will not even be able to look directly at you; at the same level, they will have the urge to lower their heads—this is fear.
 2. You are beneficial to the affected creature’s reputation and social identification by +2 ([[Reputation and Social Identification]]). This will not affect your assets, but only authority.
 
 Special:
-
-[[UNCLEAR: “Sequence 6-5” is unclear as written (it may indicate a Sequence range or a relative level comparison), so the exact grouping of who can/can’t look directly at you cannot be resolved confidently from this text alone.]]
 
 - Targets 1 level higher than you are unaffected.
 - This is the effect brought by the potion and cannot be stolen or recorded.

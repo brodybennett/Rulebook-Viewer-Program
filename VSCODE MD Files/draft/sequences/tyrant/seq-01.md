@@ -18,7 +18,7 @@ tags: ["pathway:tyrant", "sequence:1"]
   - Experience fear and surrender.
   - Recognize their own insignificance before nature.  
   Consume the potion when only the final defensive layer remains. After consumption, the user merges with the thunder that breaks the final defense, releasing a dazzling thunderburst that can reach back toward those thunder phenomena.  
-  [[UNCLEAR: “Thunder forests” and the exact scale of the defensive structure are not mechanically defined.]]
+  - **Clarification:** “Thunder forests” refers to a dense field of thunder phenomena across at least a 1 km radius. The defensive structure should have multiple layered defenses (at least 3 layers) that are destroyed one by one.
 
 ---
 
@@ -41,7 +41,7 @@ tags: ["pathway:tyrant", "sequence:1"]
   Upon ending movement:
   - You may deal double the damage of [[Lightning Control]] **or**
   - Directly trigger a lightning storm, which requires prior acceleration to a sufficient degree before use.  
-  [[UNCLEAR: The mechanical definition of “acceleration to a certain degree” is not specified.]]
+  - **Requirement:** You must have moved in lightning form for at least 1 full round (or an equivalent long-distance surge) before triggering the lightning storm.
 
 - **Limits:**
   - While in lightning form, you cannot use other extraordinary abilities.

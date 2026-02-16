@@ -1,4 +1,4 @@
----
+﻿---
 title: "Sequence 9: Savant"
 id: "paragon-seq-09"
 tags: ["pathway:paragon", "sequence:9"]
@@ -8,7 +8,7 @@ tags: ["pathway:paragon", "sequence:9"]
 
 ## Savant
 
-> **Lore:** Believing that knowledge is power, Savants have a cursory grasp of the occult and a stronger proficiency in chemicals and intricate mechanisms—seeming to “know it all.” Their core talent is awakening memory: recalling everything they have read while improving comprehension and learning speed.
+> **Lore:** Believing that knowledge is power, Savants have a cursory grasp of the occult and a stronger proficiency in chemicals and intricate mechanismsâ€”seeming to â€œknow it all.â€ Their core talent is awakening memory: recalling everything they have read while improving comprehension and learning speed.
 
 ## Extraordinary Abilities
 
@@ -17,10 +17,10 @@ tags: ["pathway:paragon", "sequence:9"]
 - **Attribute Gain:** Inspiration +2.
 - **Rapid Learning (skills):** Process manufacturing, physics, engineering, mechanical maintenance, and chemistry can be quickly learned.
 - **Course-Based Skill Increase:** Each time you receive at least 2 hours of non-repetitive and effective corresponding guidance, choose one skill that matches the course; that skill increases by 1 grade.
-  1. Unlike other methods, your learning takes effect immediately after the 2-hour course ends. You only need to learn once to be proficient, advanced, and proficient in training, and you can learn up to 2 skills a day when you reach proficiency at most. [[UNCLEAR: Skill-rank phrasing and the “proficient…proficient in training” wording is inconsistent in this section.]]
-  2. This benefit has been included in the rapid learning skills, but it is only calculated independently, so the benefits will not be enjoyed repeatedly. [[UNCLEAR: “Included… but calculated independently” and “not enjoyed repeatedly” are unclear in how they interact.]]
+  1. Unlike other methods, learning takes effect immediately after each 2-hour course ends. Skill-rank progression follows the normal ladder (training -> proficient -> advanced -> mastery), and you can improve at most 2 skills per day.
+  2. This course-based increase is **separate** from rapid learning; you do not apply both to the same 2-hour course.
 
-- **Character Creation (not newly promoted):** When creating a character who is not just promoted, use the Inspiration from the [[Triple Potion]] to add [[Growth Skills]]. [[UNCLEAR: “Not just promoted,” “triple potion,” and “growth skills” are not defined in this section.]]
+- **Character Creation (not newly promoted):** When creating a character above Sequence 9 (not newly promoted), use the Inspiration from the [[Triple Potion]] as a pool to buy [[Growth Skills]].
 
 ### Wake Up Memory
 
@@ -35,9 +35,9 @@ tags: ["pathway:paragon", "sequence:9"]
 ### Fast Learning
 
 - **Effect (training time):**
-  1. You can use one day to train a skill to be trained, and one week to train to be proficient. It takes two weeks from proficiency to advanced, four weeks from advanced to proficient, two months from proficient to erudite, and half a year from erudite to master. [[UNCLEAR: The “advanced to proficient” step reverses the apparent progression order, but the timing is reproduced as written.]]
+  1. You can use one day to train a skill to be trained, and one week to train to be proficient. It takes two weeks from proficient to advanced, four weeks from advanced to erudite, two months from erudite to master.
   2. The **GM** can limit the stacking skills. For example, investigators can only learn a few skills at most, and several skills can be advanced.
-     - Usually, except for potions, the group can’t learn more than 3 kinds, and can’t exceed advanced level.
+     - Usually, except for potions, the group canâ€™t learn more than 3 kinds, and canâ€™t exceed advanced level.
 
 ### Practical Assemblies
 
@@ -63,10 +63,10 @@ tags: ["pathway:paragon", "sequence:9"]
   - During battle, heavy weapons generally cannot be temporarily assembled because 1 set of materials is difficult to carry. If the Extraordinary brings almost nothing else, or brings a large backpack, they are allowed to carry at most 1 set.
 
 - **Feasibility and research time:**
-  - The identification of the feasibility of other theories should be in line with this era. Even if you know more advanced knowledge, it usually takes a month of research and trial and error because no one explores—unless you are a time traveler.
+  - The identification of the feasibility of other theories should be in line with this era. Even if you know more advanced knowledge, it usually takes a month of research and trial and error because no one exploresâ€”unless you are a time traveler.
 
 - **Combat timing note:**
-  - If you temporarily create during combat, you cannot take any other actions, including free actions, until the creation is complete. The “1 full round” time usually refers to your next turn.
+  - If you temporarily create during combat, you cannot take any other actions, including free actions, until the creation is complete. The â€œ1 full roundâ€ time usually refers to your next turn.
 
 ### Spirit Vision
 - **Use:** 1 **Free Action** to activate.
@@ -74,11 +74,11 @@ tags: ["pathway:paragon", "sequence:9"]
 - **Effect:** While Spirit Vision is active, you gain the following benefits:
 
 
-  1. **Etheric body:** You can roughly tell whether the other party’s body is good or bad through aura color, but you can’t get detailed information.
+  1. **Etheric body:** You can roughly tell whether the other partyâ€™s body is good or bad through aura color, but you canâ€™t get detailed information.
   2. **Spiritual body:** You can confirm whether an object/creature has spirituality; this cannot identify extraordinary people.
   3. **Mental body:** You can see whether the other party is thinking, but only that; you cannot get more detailed information.
   4. **Astral body:** You cannot see the astral body.
-  5. While in the state of spiritual vision, your spiritual intuition test +1 is beneficial. [[UNCLEAR: “+1 is beneficial” is reproduced as written; whether these are separate effects is not defined here.]]
+  5. While in the state of spiritual vision, your **Spiritual Intuition** test gains **+1** (beneficial).
 
 - **Notes:**
   - Creatures that are dead are usually dull in color and cannot be identified.

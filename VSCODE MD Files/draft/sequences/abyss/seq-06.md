@@ -38,8 +38,8 @@ A **Beyonder** at this **Sequence** can manifest a demon-like form—often growi
   - These demon images represent part of your abilities. For example, some demons may turn into water bodies on the basis of being able to control fire, and some may control thunder.
 - **Demonized state benefits:** The demon form will become huge, making you nearly 3 meters tall, and at the same time, you get the following benefits:
   - **Demonized state:** Your strength +2, agility +2, constitution +2, gain 10 extra health, become a [[fallen creature]].
-  - At the moment of demonization, you break free from physical and spiritual shackles. The former is like the shackles of the abyss, and the latter is like torture, awe, marionette (it can only immediately reduce the operation level by 1).  
-    [[UNCLEAR: “reduce the operation level by 1” is not defined in this text, and the list of examples (“torture, awe, marionette”) is unclear about what is being reduced.]]
+  - At the moment of demonization, you break free from physical and spiritual shackles (e.g., torture, awe, marionette), reducing their damage dice by **one die size**.
+  - At the moment of demonization, you break free from physical and spiritual shackles (e.g., torture, awe, marionette), reducing their damage dice by **one die size**.
   - **Size rules:** You are treated as a **Large** creature:
     - With melee damage increased by **1d3** against **Medium** creatures.
     - Attack range halved.
@@ -70,8 +70,8 @@ A **Beyonder** at this **Sequence** can manifest a demon-like form—often growi
   - **Damage:** Each fireball causes **3d6** fire and **1d6** poison damage.
   - **Area/Explosion:** The brimstone fireball will create an explosion, and two mobs standing next to each other are considered the same target.
   - **Limits (same target):** If the same target is identified consecutively, starting from the second fireball, the mysticism assessment will be **-4 disadvantageous**, the third time **-6**, and the fourth fireball will fail by default.
-  - **Calculation note:** For ease of calculation, the first fireball can only use one appraisal against the physical defenses of all targets selected by the second fireball, and the second fireball can use one appraisal against the physical defenses of all targets selected by the second fireball.  
-    [[UNCLEAR: The calculation note references “targets selected by the second fireball” twice, including for the first fireball; the intended targeting/appraisal shortcut is unclear.]]
+  - **Calculation note:** For ease of calculation, each fireball makes one appraisal against the Physical Defense of its selected targets.
+
   - (Because the third fireball fails by default, that is, a maximum of 3 identifications can be made, instead of 8–12 identifications.)
 
 ### Magic Scale Armor
@@ -156,8 +156,7 @@ Your demonic spells are already true demonic spells, and are in part superior ve
   - **10 Inspiration:** detect malice within 1 km after 1 minute, and detect malice beyond 1 km after 4 hours
   - **11 Inspiration:** detect malice within 1 km after half a minute, and detect malice beyond 1 km after 2 hours
   - **Higher Inspiration:** Immediately detect malice within 1 kilometer, and detect malice beyond 1 kilometer after 1 hour
-- **Notes:** (Because malicious perception is a passive skill, it may not be remembered by the host at any time. Extraordinary people can apply to actively trigger it hair.)  
-  [[UNCLEAR: The final word “hair” appears to be a stray fragment; the intended sentence ending is unclear.]]
+- **Notes:** (Because malicious perception is a passive skill, it may not be remembered by the host at any time. Extraordinary people can apply to actively trigger it.)  
 
 #### Brimstone Fireball
 
@@ -186,13 +185,13 @@ Your demonic spells are already true demonic spells, and are in part superior ve
 - **Special (active volcano):** If you find an active volcano that is about to erupt, you can jump into the crater and use the eruption ability to cause **50** points of fire damage at one time, causing it to erupt immediately (the amount of damage must be caused at one time).
   - This will cause you to suffer half of the damage caused by the volcanic eruption ability, which may cause you to die on the spot.
   - The effect of this will refer to the high-sequence disaster of the [[Tyrant Path]].
-- **Sequence 4 note:** Sequence 4: You can cause a volcanic eruption without taking damage from the volcanic eruption ability, but you will still lose the ability to cast it and consume life points.  
-  [[UNCLEAR: It is unclear how “without taking damage” interacts with “still lose the ability to cast it and consume life points,” and whether this changes the health-to-damage conversion.]]
+- **Sequence 4 note:** Sequence 4: You can cause a volcanic eruption without taking self-damage; you still expend the ability and consume life points.
+- **Sequence 4 note:** Sequence 4: You can cause a volcanic eruption without taking self-damage; you still expend the ability and consume life points.
 
 #### Others
 
 - **Effect:** 1 Sequence 6 version of a custom demon-like spell you made before. [[custom demon-like spell]]
 - **Notes:**
   - (You can still use incomplete demonic spells before Sequence 6. The order of demonic spells is the same as that of Sequence 8's demon-like spells, so you can tell which ability is the upper version of which demon-like spell.)
-  - (If you are a Sequence 7 and are strengthening your abilities through the sacrificial ceremony, then you only need to pay attention: you can only choose to evolve into one of the corrupted words for hurting people, and the flame cage and volcanic eruption cannot be suppressed. Strengthen the acquired ability)  
-    [[UNCLEAR: “corrupted words for hurting people” and “cannot be suppressed” are not defined here; the scope and procedure of this Sequence 7 strengthening rule are unclear.]]
+  - (If you are a Sequence 7 and strengthening abilities through the sacrificial ceremony: you can only evolve into one of the corrupted words for hurting people; these cannot be suppressed by silence and still take effect. Strengthen the acquired ability)
+

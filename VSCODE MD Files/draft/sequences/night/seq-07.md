@@ -17,7 +17,7 @@ tags: ["pathway:night", "sequence:7"]
 
 - **Attribute Gain:** Strength +1, Constitution +1, Dexterity +1, Inspiration +2.
 - **Skill Gain:** Fighting +1 level, Shooting +1 level, Climbing +1 level.
-- The skill growth of Sequence 9 can be learned to masters at the beginning, and the number of growths increases sequentially. [[UNCLEAR: “skill growth of Sequence 9… learned to masters… growths increase sequentially” is not clearly defined as a mechanic here.]]
+- The skill growth of Sequence 9 follows the rapid growth rules; cap at **Master**; growth count increases sequentially (2/3/4).
 
 ### Forcibly Pull People Into Dreams
 
@@ -47,7 +47,7 @@ tags: ["pathway:night", "sequence:7"]
 
 **Falling into a dream** is considered a **bound** state (a “bondage state”). [[Bound]]
 - External manifestation is close to sleepwalking.
-- “Awake” targets have advantage/disadvantage against it. [[UNCLEAR: The text says “the awake target has advantages/disadvantages to it” without specifying direction or the exact interaction.]] [[Advantage / Disadvantage]]
+- “Awake” targets have **advantage** on the resistance test against it. [[Advantage / Disadvantage]]
 
 A dreamed target wakes up immediately if it suffers damage or mental influence. [[Mental influence]]
 - If there is too much noise in reality, it can immediately make an extra Inspiration test to realize the dream or a Will test to awaken from the dream. [[Will Test]]
@@ -56,15 +56,15 @@ A dreamed target wakes up immediately if it suffers damage or mental influence. 
 
 1. In a dream, if the dreamed person actively realizes this is a dream, they can perform a **Difficulty Value** 15 Will test to wake up from the dream every round. Extraordinary ability in the dream generally has no practical effect.
 
-2. Extraordinary people with extraordinary abilities in the dream field stay awake in the dream by default, and exit the dream without any action. [[UNCLEAR: “exit the dream without any action” is stated without specifying timing/trigger beyond “by default”.]]
+2. Extraordinary people with extraordinary abilities in the dream field stay awake in the dream by default, and may exit immediately as a **free action**.
 
 3. If the Nightmare suffers any damage or mental impact, the dream ends immediately because it cannot be maintained.
 
 4. If the dreamer is not aware of the dream: whenever there is an unreasonable passage in the dream content, the host can let the dreamer realize it with a **Difficulty Value** 15 Inspiration test.
 
 Additional rules:
-- If the same creature is dreamed twice within a short period of time, then by default it can directly make a Will test to wake up. [[UNCLEAR: “within a short period of time” is not defined, and it is unclear when this “direct” Will test occurs relative to the per-round test above.]]
-- If the dreamed creature is out of sight and was dragged into a dream with a full-round action, then the difficulty of the two checks is -5. If it is dreamed twice, it also enjoys this benefit; this benefit can be superimposed. [[UNCLEAR: “the two checks” are not explicitly identified; interpreted as the two leave/realize checks described in this subsection.]]
+- If the same creature is dreamed twice within the **same encounter**, it can immediately make a Will test to wake up on the second attempt.
+- If the dreamed creature is out of sight and was dragged into a dream with a full-round action, then the difficulty of the two leave/realize checks in this subsection is **-5**. If it is dreamed twice, it also enjoys this benefit; this benefit can be superimposed.
 
 #### Maintaining the Dream State
 
@@ -99,13 +99,13 @@ In the dream world:
 - Because the premise of being in the dream world is already having entered a dream, you cannot find people who have not entered a dream here, and you cannot force them to enter a dream.
 - In a dream:
   - Your blood volume equals your Spirituality. [[Blood Volume]]
-  - Your Agility is +2. [[UNCLEAR: The text uses both “Dexterity” (Attribute Gain) and “Agility” (+2 in dream) without clarifying whether they are the same attribute.]]
+  - Your **Agility (Dexterity)** is +2.
   - You can fly.
   - Generally, you don’t enjoy more benefits; unless you have entered someone else’s dream, you can’t realize what you imagined.
-  - As a spirit body, you may be overwhelmed by “Layer power capture.” [[UNCLEAR: “Layer power capture” is not defined.]]
+  - As a spirit body, you may be overwhelmed by “Layer power capture” (GM-defined hazard).
 
 Special:
-- Although your spirit body has entered the dream world, it does not mean your real spirit body has left your body; it can exist in the dream world without the body. [[UNCLEAR: The relationship between “spirit body,” “real spirit body,” and the physical body is asserted but not mechanically defined here.]]
+- Although your spirit body has entered the dream world, your real spirit body remains with your physical body; the dream spirit body is a projection.
 
 ### Dream Perception
 
@@ -132,7 +132,7 @@ Each ball of light represents a dream:
 - The range that can be pulled into the dream increases to 180 meters.
 - A maximum of 20 people can be pulled into the dream.
 - The free actions per round while maintaining the dream remain unchanged.
-- You can now manipulate the spirit body to act on the premise that the main body controls the enemy. [[UNCLEAR: “manipulate the spirit body… while the main body controls the enemy” is not clearly defined as a mechanic here.]]
+- You can now manipulate the enemy’s spirit body only while you maintain control of their main body.
 
 ### Sequence 4
 

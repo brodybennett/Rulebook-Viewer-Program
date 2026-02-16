@@ -8,8 +8,7 @@ tags: ["pathway:visionary", "sequence:3"]
 
 ## Dream Weaver
 
-[[UNCLEAR: The Pathway name for this Sequence is not provided in this chunk.]]
-
+**Pathway:** [[Visionary Pathway]].
 > **Lore:** You can weave dreams and pull objects into them, shaping near-real images that strike at spiritual weaknesses and erode spiritual defenses.
 
 ## Advancement
@@ -24,8 +23,7 @@ tags: ["pathway:visionary", "sequence:3"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +1; Strength; Constitution; Agility +1.  
-  [[UNCLEAR: The source line is missing/unclear about the modifiers (if any) for Strength and Constitution.]]
+- **Attribute Gain:** Inspiration +1; Strength +1; Constitution +1; Agility +1.
 
 ### Dream Weaving
 
@@ -33,8 +31,7 @@ tags: ["pathway:visionary", "sequence:3"]
 - **Use:** [[Casting Action]]
 - **Targeting and range:** One or more creatures within sight
 - **Effect:** Drag the targets into a dream. The targets immediately fall asleep and are pulled into the dream state.
-- **Sleeping targets:** Attacking a sleeping target grants “advantage: +2,” and the target is considered [[Bound]]. The target gains no bonus to [[Physical Defense]] from [[Agility]].
-  [[UNCLEAR: “advantage: +2” mixes a named benefit with a numeric bonus; confirm how “advantage” is defined in your core rules.]]
+- **Sleeping targets:** Attacking a sleeping target grants a **+2 beneficial** bonus, and the target is considered [[Bound]]. The target gains no bonus to [[Physical Defense]] from [[Agility]].
 - **Dream world behavior:** In the dream world, things are usually no different from the real world. You are free to negotiate, but people in the dream usually do not lie.
 - **Realizing it is a dream:** A creature that passes a [[Inspiration Test]] (Difficulty Value 15) realizes it is in a dream.
 - **Waking by effort:** A creature that is aware it is in a dream can use a [[Free Action]] each round to make a [[Will Test]] (Difficulty Value 15). On success, it wakes up from the dream.
@@ -61,5 +58,4 @@ tags: ["pathway:visionary", "sequence:3"]
   - It can exist in reality within your sight or within your [[Range of Influence]].
   - As long as the enemy thinks it is real, then it is real (to the affected object). The phantom cannot cause any substantial damage, but in the eyes of the affected object it provides feedback as real, allowing the affected target to fight it “out of thin air.”
 - **Seeing through the illusion:** A creature that realizes it is false can, each round as a free action, make a [[Will Test]] (Difficulty Value 15) to see through the illusion. If successful, all damage previously dealt is negated.
-- **If never realized to be false:** If the phantom is never realized to be false, then the phantom’s damage does not cause any physical manifestation. Eventually, the target will die in a psychological sense (they think they are dead), which cannot be broken. This is described as true brain death; the target dies strangely without knowing it.
-  [[UNCLEAR: The phantom is said to “cannot cause any substantial damage,” yet later can cause death; interpret this as non-physical (psychological) lethality only, but confirm intent.]]
+- **If never realized to be false:** If the phantom is never realized to be false, then the phantom�s damage does not cause any physical manifestation. Eventually, the target may die from psychological shock (no physical damage is recorded); immunity to mind-affecting effects prevents this outcome.

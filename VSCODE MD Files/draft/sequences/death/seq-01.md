@@ -16,8 +16,7 @@ tags: ["pathway:death", "sequence:1"]
 
 ### Advancement Ritual
 
-- **Advancement Ritual:** Transfer countless [[Undead]] to the [[Stage of Reality]]; establish a kingdom of the [[Underworld]] named after [[id:alias-death|Death]], named after the emperor, and started with paleness.  
-  [[UNCLEAR: The ritual description’s naming phrase (“named after death…emperor…paleness”) is unclear in meaning and sequence.]]
+- **Advancement Ritual:** Transfer countless [[Undead]] to the [[Stage of Reality]]; establish a kingdom of the [[Underworld]] named after [[id:alias-death|Death]], named after the emperor, and started with paleness. The naming phrase is poetic flavor only.
 
 > **GM Note:** Labeled as an “unofficial ceremony” in the source text.
 

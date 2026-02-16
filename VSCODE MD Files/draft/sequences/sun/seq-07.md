@@ -46,7 +46,7 @@ Your spells and ritual abilities are greatly improved.
   - Fear states do not arise on you.
   - Existing fear states on you are cleared.
 - **Special:** Fear effects “larger than 1 character of you” can still be generated, but their effect is halved (round up).  
-  [[UNCLEAR: “larger than 1 character of you” is an unclear size/scale reference.]]
+  - **Clarification:** Fear effects from targets more than 1 Sequence higher than you can still be generated, but their effect is halved (round up).
 
 ### Fire of Light
 
@@ -101,7 +101,7 @@ Your spells and ritual abilities are greatly improved.
   2. Effects of fear, cold, curse, poison, darkness, corruption, and undead in their bodies are cleared. Dark, corrupted, and undead creatures immediately suffer sacred damage equal to the restrained damage, and continue losing it each round if they do not leave the range.
   3. If using this ability to attack and the opponent intends to dodge, [[Mysticism]] counters physical defense, ignoring agility and dodge.
 - **Scaling:** [[Sequence 5]]: Affects friendly units within 50 meters and gains a “qualitatively changed” version of the purification aura.  
-  [[UNCLEAR: The “qualitatively changed version” is referenced but not defined here.]]
+  - **Clarification:** The Sequence 5 version also grants the **Purification Aura** benefits to allies in range and continuously applies the restrained‑damage effect to dark/fallen/undead in range each round.
 
 ### Make Holy Water
 
@@ -123,7 +123,7 @@ Your spells and ritual abilities are greatly improved.
 - **Effect:** You obtain a special [[Sun Path]], making it difficult to be possessed or polluted by evil spirit-like monsters.
   - You gain 5 points of resistance to curse, cold, and poison; this cannot be superimposed with [[Holy Water]].
   - Only [[Wraith Shadow]] higher than your sequence level (or “1 character” higher) can possess you.  
-    [[UNCLEAR: “1 character” is an unclear scaling reference.]]
+    - **Clarification:** Treat “1 character higher” as 1 Sequence higher.
 - **When a wraith shadow attempts possession:**
   - It immediately senses the breath of the sun.
   - If it is not higher than your sequence level: if it forcibly possesses you, it fails and suffers sacred damage equal to the restrained damage.

@@ -6,8 +6,7 @@ tags: ["pathway:death", "sequence:4"]
 
 # Sequence 4: Undying
 
-- You die once every 60 years, resurrect once, and forget most of your past memories; these memories must be slowly retrieved afterward, as if starting a new life.  
-  [[UNCLEAR: The opening summary says “resurrect once,” but the Immortality rules below describe repeating 60-year death/resurrection cycles.]]
+- You die every 60 years, resurrect, and forget most of your past memories; these memories must be slowly retrieved afterward, as if starting a new life.
 
 ## Advancement
 
@@ -80,6 +79,5 @@ tags: ["pathway:death", "sequence:4"]
 
 - **Effect:**
   - Your **Necromancy** [[Necromancy]] damage is increased by 1d6.
-  - The cost is reduced to 4 spirit.  
-    [[UNCLEAR: The resource name varies between “Spirituality” (spent as points) and “spirit” (used as a cost).]]
+  - The cost is reduced to 4 **Spirituality** points.
   - Necromancy use changes from 1 time per round to twice per round.

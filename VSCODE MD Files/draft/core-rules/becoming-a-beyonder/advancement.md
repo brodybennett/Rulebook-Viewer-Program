@@ -63,7 +63,7 @@ Apply the following to the Advancement Sanity / Rationality check (and where not
 5. If you are in a madness state, the final Sanity / Rationality loss is increased by half (rounded up).
 6. For each undigested potion in your body that is below your Sequence level: **+1** (unfavorable). Once fully digested, it does not count. If the repeated potion you consumed is the same as your Sequence level, the unfavorable modifier for the Advancement check changes from **+20** to **+40** until digestion is complete.
 7. A Beyonder of the same Sequence or higher can, via edicts, requiem, psychological suggestion, etc., create a better Advancement environment: **-2** (favorable). For each Sequence level they are higher than you: additionally **-1** (favorable). For each Rank they are higher: additionally **-2** (favorable).
-8. On the basis of (7), if a Beyonder of higher Sequence can influence you, they may invert the effect of (5). [[UNCLEAR: "invert the effect of (5)" does not specify the exact calculation.]]
+8. On the basis of (7), if a Beyonder of higher Sequence can influence you, they may invert the effect of (5), reducing the +50% loss to -50% (i.e., halve the loss instead of increasing it).
 9. Advancing under an astronomical phenomenon: full moon **-2** (favorable); blood moon **-4** (favorable). This does not guarantee whether it will attract anomalies (especially the latter). This is calculated independently from (7) and does not benefit from Beyonder Sequence-level influence, including such summoned astronomical phenomena.
 10. If the creature drinking the potion is a non-sapient animal: **+4** (unfavorable).
 
@@ -230,7 +230,7 @@ When the characteristic used for the Pathway Jump does not include lower-Sequenc
 9. **Key of Light**: Single Pathway.
    1. Fate
 
-[[UNCLEAR: The text says the names in parentheses are "aliases for Sequence names," but the parentheses here appear to function as common aliases for the listed names.]]
+Note: Names in parentheses are common aliases for the listed Pathway names.
 
 > **Lore:** Fate has no adjacent pathway that can interchange - alone and solitary.
 

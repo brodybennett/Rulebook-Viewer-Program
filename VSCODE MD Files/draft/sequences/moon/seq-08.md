@@ -19,7 +19,7 @@ tags: ["pathway:moon", "sequence:8"]
 ### Attribute Gain
 
 - **Attribute Gain:** Strength +2, Constitution +2, Agility +2.
-- Your animal taming incorporates the rapid growth of [[Sequence 9]], up to proficiency. Every time you tame a non-repeating animal, it is considered as 1 growth. [[UNCLEAR: “rapid growth,” “proficiency,” and “growth” are referenced but not defined here.]]
+- Your animal taming uses Sequence 9 rapid growth rules: cap at **Proficient**, and each non-repeating tame counts as 1 growth.
 
 ### Animal Senses
 
@@ -36,13 +36,13 @@ tags: ["pathway:moon", "sequence:8"]
 
 1. **Communicating animals:** You can let you understand each other directly without words, and let it act instead of you.
 2. **Share the senses:** Directly see what it sees/hears. Even if the other party’s vision (such as mosquitoes) works differently from humans, the picture in front of you can be recombined into a scene that you understand, which may lead you to share [[Sanity Loss]].
-3. **Drive animals:** In battle, the actions of animals are independent of you, and you can maintain = inspired animals share the senses at the same time. [[UNCLEAR: The meaning of “= inspired animals” and the intended limit are not defined here.]]
+3. **Drive animals:** In battle, the actions of animals are independent of you, and you can maintain inspired animals equal to your **Inspiration**; they share senses at the same time.
    - Non-intelligent animals can usually be regarded as your subordinates directly after the successful identification of animal taming, and provide you with benefits. [[Animal Taming Identification]]
 4. **Auxiliary Potion:** When you share the senses with an intelligent animal:
-   - A common animal becomes a Sequence 9 [[Sanity Loss Identification]] -4 benefit. [[UNCLEAR: “becomes a Sequence 9 Sanity Loss Identification -4 benefit” is not defined here.]]
-   - Only when your Sequence level is greater than it, it will provide it with a -2 benefit when it is promoted. [[UNCLEAR: It is unclear who receives the -2 benefit and what “promoted” refers to.]]
+   - A common animal imposes a **-4 penalty** to the target’s [[Sanity Loss Identification]].
+   - Only when your Sequence level is greater than it, the **animal** receives a -2 benefit when it is promoted.
    - If the creature’s [[Pathway]] is the same as yours, gain an additional -2 benefit.
-   - You can also get this benefit if you are 1 character larger than it. [[UNCLEAR: “1 character larger” is undefined (size category or wording artifact).]]
+   - You can also get this benefit if you are 1 Sequence higher than it.
 
 #### Special
 

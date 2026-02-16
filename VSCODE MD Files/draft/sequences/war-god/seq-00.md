@@ -12,8 +12,7 @@ tags: ["pathway:war-god", "sequence:0"]
 
 ## Nature
 
-It can make matter, and it will decay, collapse, and perish.  
-[[UNCLEAR: The subject and meaning of “will decay, collapse, and perish” is ambiguous (it may refer to the created matter, the Pathway’s nature, or something else).]]
+It can create matter; created matter inevitably decays, collapses, and perishes.
 
 ## Uniqueness
 

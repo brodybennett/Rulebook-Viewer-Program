@@ -16,15 +16,12 @@ tags: ["pathway:reader", "sequence:8"]
 
 - **Attribute Gain:** [[Inspiration]] +2.
 - **Skill Increases:** [[Investigation]] +1 level; [[Psychology]] +1 level.
-- **Rapid Skill Growth:** [[Mysticism]], Investigation, and Psychology can grow rapidly. Each time you receive **2 hours** of non-repetitive, effective guidance relevant to one of these skills, choose one guided skill; it increases by **1 grade**.  
-  [[UNCLEAR: The text uses both “level” and “grade” for skill improvement; it is not clear whether these are distinct rank systems or synonymous.]]
+- **Rapid Skill Growth:** [[Mysticism]], Investigation, and Psychology can grow rapidly. Each time you receive **2 hours** of non-repetitive, effective guidance relevant to one of these skills, choose one guided skill; it increases by **1 level** (grade).  
 
-- **Training Thresholds:** It takes **2**, **3**, and **4** trainings to become **proficient**, **advanced**, and **proficient** respectively. At most, you can quickly reach **proficiency** temporarily.  
-  [[UNCLEAR: “Proficient” is listed twice in the progression (2 trainings and 4 trainings).]]
+- **Training Thresholds:** It takes **2**, **3**, and **4** trainings to become **proficient**, **advanced**, and **mastery** respectively. At most, you can quickly reach **proficiency** temporarily.  
 
 - **Deduction-Based Improvement:** Each time you fully deduce almost all of a person’s experiences **and** at least one important secret—and the experience/secret *types* are not repeated—this also counts as a skill improvement (as above).
-- **Spending Inspiration:** If you are not just promoted, you can use **twice** the Inspiration to add growth skills.  
-  [[UNCLEAR: “Not just promoted” and “add growth skills” are not clearly defined in this passage.]]
+- **Spending Inspiration:** If you are creating a character above Sequence 9 (not just promoted), you can use **twice** the Inspiration to add growth skills.  
 
 ### Basic Deduction
 
@@ -65,14 +62,14 @@ tags: ["pathway:reader", "sequence:8"]
   - If the Basic Deduction information is wrong, the Action Deduction information is also wrong.
   - Repeated deductions yield the same result until new clues are obtained.
   - If your Basic Deduction of the target only reaches Difficulty Value **15**, then Action Deduction can also reach Difficulty Value **15** at most.  
-    [[UNCLEAR: This passage references Difficulty Value 15, but the listed Action Deduction result tiers start at Difficulty Value 20.]]
 
 **Difficulty Value Results:**
 
-1. **Difficulty Value 20:** Deduce what the target will do within **5 minutes** from the moment you separate.
-2. **Difficulty Value 25:** Deduce what the target will do within **half an hour** of separation.
-3. **Difficulty Value 30:** Deduce what the target will do within **2 hours** of separation (information is vague).
-4. **Difficulty Value 35:** Deduce what the target will do within **6 hours** of separation (there is a big gap with the actual situation).
+1. **Difficulty Value 15:** Deduce the target's immediate intent within **1 minute** (very vague).
+2. **Difficulty Value 20:** Deduce what the target will do within **5 minutes** from the moment you separate.
+3. **Difficulty Value 25:** Deduce what the target will do within **half an hour** of separation.
+4. **Difficulty Value 30:** Deduce what the target will do within **2 hours** of separation (information is vague).
+5. **Difficulty Value 35:** Deduce what the target will do within **6 hours** of separation (there is a big gap with the actual situation).
 
 - **Great Success:** You directly obtain the complete and detailed action process of the target within **half an hour**, and the approximate process of the final result of your appraisal after half an hour. Your maximum time horizon is still limited by your appraisal result (example given: even on Great Success, if your total appraisal result is only 25, then the information can only be up to 2 hours).
 - **Big Failure:** The content is completely wrong and very different from reality, but you must believe it until you get new clues.

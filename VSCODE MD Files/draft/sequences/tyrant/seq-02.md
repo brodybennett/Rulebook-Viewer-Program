@@ -67,8 +67,7 @@ tags: ["pathway:tyrant", "sequence:2"]
 
 - Each round, roll **1d3** to determine how many meteorites directly threaten the immediate area.
 - Each meteorite deals **6d10 damage** against physical defense.
-- Targets unable to avoid the impact take **half damage** even if the disaster identification fails.  
-  [[UNCLEAR: “disaster identification” is referenced but not defined here.]]
+- Targets unable to avoid the impact take **half damage** even if the disaster attack roll fails.
 - In fiction, tens of thousands of meteorites fall nearby (within ~100 m), but only the rolled ones directly threaten creatures.
 - After about **5 minutes**, the affected region becomes a blazing disaster zone, often reduced to flames or ruins.
 

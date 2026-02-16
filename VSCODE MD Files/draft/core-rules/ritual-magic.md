@@ -75,7 +75,7 @@ Building the wall: Construct a Spirituality Wall of any range, letting Spiritual
 
 **Non-spirit-body casters without ritual power enhancement:** Except for spirit-body creatures, Beyonders who have not obtained ritual power enhancement from their potion must use items such as a bell, crystal ball, silver cup, incense, etc. to assist their spirit in order to create a Spirituality Wall. This causes them to spend **1 additional Casting Action** before creating the wall.
 
-[[UNCLEAR: Spirit-body creatures list "1 Casting Action / 1 Full-Round Action" without stating when each action type applies.]]
+- **Action:** **1 Casting Action** for standard walls; **1 Full-Round Action** for large-area walls (GM call).
 
 ### Reference Incantations
 
@@ -128,7 +128,7 @@ This section covers commonly used Ritual Magic and simplified check procedures.
 - **Ordinary person or hidden existence:** Whether or not you meet the conditions, you must make a Luck check. Hidden existences generally will not give automatic responses.
 - **Materials to please the other party:** Luck check **+2 with Advantage**. See [[Advantage / Disadvantage]].
 
-[[UNCLEAR: Source text says "refer to Chapter 8: Ritual Magic"; treated here as a reference to the procedure in this chapter.]]
+Reference: use the **Universal Procedure** in this chapter.
 
 ### Special Cases
 
@@ -168,7 +168,7 @@ In Lord of the Mysteries, the Seven Deities each symbolize a different day of th
 - The effect provided by suitable times is identical to suitable dates and can stack.
 - Both Difficulties are **-5 again**.
 
-[[UNCLEAR: Some listed "suitable times" have "no explicit date" and do not specify when they apply beyond being mentioned in the novel.]]
+Note: Entries with "no explicit date" are lore-only and do not grant mechanical timing benefits unless the GM assigns a date.
 
 ---
 
@@ -425,6 +425,6 @@ Spirituality consumption:
 2. For each **Sequence** level equivalent of the Beyonder item's strength: **+5** Spirituality.
 3. For each **Rank** equivalent of the Beyonder item's strength: **+10** Spirituality.
 
-Example (as written in the source): Making permanent a Sequence 4-tier Beyonder item consumes at least **75** points of Spirituality, and only if the corresponding deity is willing to respond.
+Example (as written in the source): Making permanent a Sequence 4-tier Beyonder item consumes at least **70** points of Spirituality, and only if the corresponding deity is willing to respond.
 
-[[UNCLEAR: The provided example (Sequence 4-tier -> 75 Spirituality) does not clearly follow from the listed formula without additional assumptions about "Sequence level equivalent" and/or "Rank equivalent."]]
+

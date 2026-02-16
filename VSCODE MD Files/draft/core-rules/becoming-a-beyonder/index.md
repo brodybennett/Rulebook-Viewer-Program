@@ -6,4 +6,12 @@ tags: ["core-rules", "beyonder", "index"]
 
 # Becoming a Beyonder
 
-[[UNCLEAR: Source file contains no content; intended index structure is unknown.]]
+## Files
+- `acting.md`
+- `advancement.md`
+- `digestion.md`
+- `madness-and-losing-control.md`
+- `spirit-vision.md`
+- `spirituality-and-abilities.md`
+
+This page is intentionally structural and does not add rules content.

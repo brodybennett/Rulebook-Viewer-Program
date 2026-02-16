@@ -83,7 +83,7 @@ Explosives generally require the Throwing Skill to take effect; they are one-tim
 
 | Explosive | Damage | Notes |
 |---|---|---|
-| Fragmentation Grenade | **2d6** explosive damage | Ignore Armor by 2 points; excess becomes a Damage Bonus. Affects a 5-meter radius. Make 1 additional roll to deal **1d6** physical damage. [[UNCLEAR: The "1 additional roll" does not specify the target(s) or whether it applies per creature in the area.]] |
+| Fragmentation Grenade | **2d6** explosive damage | Ignore Armor by 2 points; excess becomes a Damage Bonus. Affects a 5-meter radius. Each creature in the radius takes an additional **1d6** physical damage. |
 | Demolition Grenade | **3d6** explosive damage | Ignore Armor by 3 points; otherwise the same as above. Affects a 5-meter radius. |
 | Explosives / Detonator | **2d6** explosive damage | Ignore Armor by 3 points; otherwise the same as above. Affects a 5-meter radius. Generally placed somewhere and detonated. |
 | Molotov Cocktail | **1d6** fire damage | Affects a 5-meter radius. At the start of each round, deals **1d6** fire damage, lasting up to 2 rounds. Use 1 **Move Action** to roll on the ground to extinguish the flames. |

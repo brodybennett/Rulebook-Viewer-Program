@@ -26,15 +26,13 @@ tags: ["pathway:reader", "sequence:7"]
 
 - **Effect:**
   - Your Fighting (including subdivisions) deals **+1d6** damage of the same type as the attack’s normal damage.
-  - You gain **+2 Favorable** [[Favorable]] to Throwing, Shooting (including subdivisions), Gunnery, and “blasting identification.”
+  - You gain **+2 Favorable** [[Favorable]] to Throwing, Shooting (including subdivisions), Gunnery, and **Explosion identification** (blasting identification).
   - You gain **+2 Favorable** to the following special actions: Critical Strike, Two Combo, Approximate Shooting. [[Critical Strike]] [[Two Combo]] [[Approximate Shooting]]
     - This bonus does **not** apply to First Aid or Surprise Attack. [[First Aid]] [[Surprise Attack]]
-    - It also does **not** increase special actions that “simply gain benefits” (examples: Gain Momentum, Aiming) from +2 to +4; only “Impact identification” is affected. [[Gain Momentum]] [[Aiming]] [[Impact Identification]]
+    - It also does **not** increase special actions that “simply gain benefits” (examples: Gain Momentum, Aiming) from +2 to +4; only **Impact Identification** can increase to +4. [[Gain Momentum]] [[Aiming]] [[Impact Identification]]
 - **Limits:**
   - This is a potion effect; it cannot be stolen or recorded. [[Stolen or Recorded]]
 
-[[UNCLEAR: The terms “blasting identification” and “Impact identification” are unclear (possible mistranslations or specific named checks).]]
-[[UNCLEAR: The stacking rule about actions that “gain benefits” (e.g., Gain Momentum, Aiming) is unclear; the text says they do not go from +2 to +4 except for “Impact identification,” but the exact interaction is ambiguous.]]
 
 ### On-site Restoration
 
@@ -66,3 +64,4 @@ tags: ["pathway:reader", "sequence:7"]
     - Timing: Saturday, 11:00 to 12:00. [[Ritual Timing]]
 - **Limits:**
   - This cannot be stolen or recorded because it is knowledge. [[Stolen or Recorded]]
+

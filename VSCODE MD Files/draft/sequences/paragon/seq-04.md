@@ -86,7 +86,7 @@ A mechanical eye that can see everything around it. It can replace the eyeball o
 A second heart that replaces the normal heart. It can replace the heart of a living being, or be additionally installed on other people or machines, thereby completely changing their physique.
 
 - The physique of a living being carrying an alchemical heart becomes 6.
-- When making an alchemy heart, your [[Constitution]] +1 for every 5 higher than 20 in your skill check. [[UNCLEAR: It is not stated whether this Constitution increase is permanent, temporary, or applies to the maker vs. the recipient.]]
+- When making an alchemy heart, the **recipient** gains **+1 Constitution** for every 5 points your skill check exceeds 20 (while the heart remains installed).
 
 ### Animate Object
 
@@ -98,7 +98,7 @@ You create and animate an object.
 
 You create and animate a puppet.
 
-- You infuse all your temporary health into a mechanical puppet you made, so that it can gain “life” and can move, similar to an intelligent robot in the sense of mysticism. [[UNCLEAR: “Temporary health” is not defined here; it may refer to temporary hit points, but the mapping is not explicitly stated.]]
+- You infuse all your **temporary hit points** into a mechanical puppet you made, so that it can gain “life” and can move, similar to an intelligent robot in the sense of mysticism.
 
 ### Object Refining
 
@@ -116,14 +116,14 @@ Alchemists can give or strip life force from items.
 - Alchemists can grant life force by touching a target.
 - If it is an [[Extraordinary Item]], an item composed of a single [[Characteristic]] will go out of control, and an item composed of multiple characteristics will explode.
 - The explosion value and range depend on (extraordinary craft level × number of characteristics that make up the item).
-- If it is not the characteristics of the same personality, it needs to be calculated separately; after summing, the range takes the highest [[Sequence Characteristic]] of the item. [[UNCLEAR: “Characteristics of the same personality” and the exact calculation procedure are not defined here.]]
+- If the characteristics are not from the same **Pathway**, calculate them separately; after summing, the range takes the highest [[Sequence Characteristic]] of the item.
 
 #### Stripping
 
 - By consuming spirituality, the alchemist strips the target's vitality from the surrounding environment into itself.
 - Alchemists can draw life force from the surrounding environment at a ratio of **1:2** to supplement their own lost life points.
 - Alchemists can also pay **20** points of spirituality at a time to completely suppress [[Out-of-Control Monsters]] whose highest level characteristics do not exceed those of alchemists.
-- The Extraordinary item of its own sequence makes the activity on it temporarily fall asleep. [[UNCLEAR: The subject and effect of this sentence are ambiguous (what item, and what “activity” sleeps).]]
+- Using an Extraordinary item of its own Sequence temporarily suppresses its active ability.
 
 ### Alchemy
 

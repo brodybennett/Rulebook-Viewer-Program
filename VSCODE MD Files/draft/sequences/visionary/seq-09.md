@@ -62,7 +62,7 @@ You can enter a detached observational mode to read others’ real thoughts from
 - **Effect:** While in Spectator State, you observe others’ real thoughts through details.
 - **End Condition:** Your Spectator State ends when you fall into an emotion or [[Shock]]. [[Conditions]]
 
-[[UNCLEAR: The RAW line about “try to make you enter anger, fear, charm, excluding the identification of shock - 4 disadvantages” does not clearly state what roll takes the -4 or who it applies to.]]
+- **Resistance:** When a creature attempts to make you enter **anger**, **fear**, or **charm** (but not **shock**), their identification/check is at **-4 disadvantage** against you.
 
 ### Remove Emotional Effects
 
@@ -127,7 +127,7 @@ You subtly influence and secretly guide things to develop in the direction you w
 7) You know the target’s habits: +2 beneficial.  
 8) You know the target’s weakness: +2 beneficial; only applies when the guidance content is related to that weakness.
 
-- If the Psychological Guidance penalty becomes 0 due to the advantages/disadvantages above, Psychological Guidance succeeds by default, excluding targets larger than 1 character. [[UNCLEAR: “targets larger than 1 character” is not clearly defined (size? scale? multiple targets?).]]
+- If the Psychological Guidance penalty becomes 0 due to the advantages/disadvantages above, Psychological Guidance succeeds by default, excluding targets more than 1 Sequence higher than you.
 
 **On Success**
 - The guided creature must act according to the guided content, but cannot detect abnormalities.

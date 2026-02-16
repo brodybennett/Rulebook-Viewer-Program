@@ -1,4 +1,4 @@
----
+﻿---
 title: "Sequence 9: Seer"
 id: "fool-seq-09"
 tags: ["pathway:fool", "sequence:9"]
@@ -8,7 +8,7 @@ tags: ["pathway:fool", "sequence:9"]
 
 ## Seer
 
-> **Lore:** The Fool Pathway’s mythical creature is described as an “embracing spirit worm,” corresponding to the Tarot card “The Fool.” Its Uniqueness evolves into a mythical creature.
+> **Lore:** The Fool Pathwayâ€™s mythical creature is described as an â€œembracing spirit worm,â€ corresponding to the Tarot card â€œThe Fool.â€ Its Uniqueness evolves into a mythical creature.
 
 - **Mythical Creature Form:** You transform into countless embracing spirit worms with crazy patterns on them.
 
@@ -20,8 +20,8 @@ tags: ["pathway:fool", "sequence:9"]
 
 ### Auxiliary Materials
 
-- **Main ingredients (potion):** Rava Octopus blood ×10ml; Star Crystal ×50g
-- **Auxiliary materials (potion):** pure water ×100ml; night vanilla juice ×13 drops; golden mint leaves ×7 pieces; poison violet juice ×3 drops; dracaena powder ×9 grams
+- **Main ingredients (potion):** Rava Octopus blood Ã—10ml; Star Crystal Ã—50g
+- **Auxiliary materials (potion):** pure water Ã—100ml; night vanilla juice Ã—13 drops; golden mint leaves Ã—7 pieces; poison violet juice Ã—3 drops; dracaena powder Ã—9 grams
 
 - **Acting rules:**
   - Help others interpret revelations and guide them toward a good direction.
@@ -40,14 +40,14 @@ tags: ["pathway:fool", "sequence:9"]
 - **Learning (Occultism):**
   1) Each time you receive effective, authentic, non-repetitive occult guidance lasting at least 2 hours, your **Occultism** increases by 1 level.
      - Required learning counts by level:
-       - training → proficiency: 2
-       - proficiency → advanced: 3
-       - advanced → proficient: 4, up to mastery. [[UNCLEAR: The step “advanced → proficient” and the phrase “up to mastery” appear inconsistent; the destination level label for the 4-count step is unclear.]]
+       - training â†’ proficiency: 2
+       - proficiency â†’ advanced: 3
+       - advanced -> mastery: 4, up to mastery.
   2) Learning is limited to 1 time per day for knowledge digestion.
      - If you have mastered all divination skills listed under **Divination**, treat this as 1 learning immediately, and it is not counted in the number of times limited to 1 time per day.
   - **Special:** If you obtain a book of esoteric knowledge written by a **Beyonder** whose own esotericism has reached erudition and master, then this learning can be extended to the level of the author.
     - Erudite and master require 5 and 6 studies respectively, and generally require special channels to obtain.
-  - When directly creating a character of a higher Sequence, the growth skill can be doubled by the inspiration brought by the potion to add growth skills. [[UNCLEAR: “growth skill can be doubled … to add growth skills” is unclear in how it applies during character creation and what exactly is doubled.]]
+  - When directly creating a character of a higher Sequence, double the growth-skill points gained from the potion’s Inspiration when adding growth skills.
 
 ### Divination
 
@@ -70,14 +70,14 @@ tags: ["pathway:fool", "sequence:9"]
 - **Big failure:**
   - Based on the final value of the appraisal, you still obtain the corresponding content, but attract the attention of related beings.
   - If the content did not involve hidden beings, then directly or indirectly related **Beyonders** notice being watched.
-  - Becoming aware of the gaze requires a **Spiritual Intuition** test, and the existence of higher than 1 person is detected by default regardless of difficulty. [[UNCLEAR: “higher than 1 person” is ambiguous (could mean higher level/Sequence than the diviner, or more than one entity/person).]]
+  - Becoming aware of the gaze requires a **Spiritual Intuition** test, and the existence of targets higher than your Sequence by 1+ is detected by default regardless of difficulty.
 
 - **Special:**
   - Before obtaining new clues, repeated divination in the same direction only yields the same result, regardless of difficulty.
 
 - **Other divination factors:**
   1) Divination of things involving other people fails by default if there is no clue, and succeeds by default if there is their blood or belongings.
-  2) For each clue obtained, divination of related events is +2 beneficial, but divination of targets higher than 1 character fails by default. [[UNCLEAR: “targets higher than 1 character” is ambiguous (could mean higher level/Sequence than the diviner, or multiple characters).]]
+  2) For each clue obtained, divination of related events is +2 beneficial, but divination of group targets (more than one person) fails by default.
   3) The reason for detection and failure of the higher level is that under special circumstances, it is possible for the lower level to divine for the higher level.
   4) Whenever you are in deep sleep, you can perform an **Inspiration** appraisal with Difficulty Value 20.
      - If it succeeds, and something directly related to you has happened in the current period, you will see a general picture that needs to be interpreted. This is the first step of dream divination.
@@ -129,7 +129,7 @@ tags: ["pathway:fool", "sequence:9"]
 
   1) Etheric body:
      - You can directly see the health status of the target through the color of the aura.
-     - You can directly find where the other party’s body is uncomfortable and where there is a problem.
+     - You can directly find where the other partyâ€™s body is uncomfortable and where there is a problem.
      - When it comes to a certain organ, you can see the inside through the unthickened door and confirm the number of people inside.
   2) Spiritual body:
      - You can confirm whether an object/creature has spirituality.

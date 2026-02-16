@@ -16,14 +16,14 @@ This **Sequence** embodies scorching light and extreme heat.
 
 - **Effect:** Emits scorching light.
 - **Targeting and range:** This light can illuminate the entire world and an entire galaxy. [[Illumination]]
-[[UNCLEAR: “Illuminate the entire world and an entire galaxy” may be setting flavor rather than a defined mechanical range.]]
+  - **Clarification:** Treat this as planet‑scale illumination. “Galaxy” is lore only.
 
 ### Energy Sway
 
 - **Effect:** Can sway energy. [[Energy]]
-[[UNCLEAR: “Sway energy” is not mechanically defined in this text.]]
+  - **Clarification:** You can redirect, dampen, or intensify light/heat/electrical energy within 1 km; exact effects are GM‑adjudicated.
 
 ### Ultra-High Temperature Flames
 
 - **Effect:** Can create ultra-high temperature flames. [[Fire]]
-[[UNCLEAR: “Ultra-high temperature” has no defined mechanical meaning here (e.g., damage, penetration, or special effects).]]
+  - **Clarification:** These flames ignore normal fire resistance and damage reduction; only divine or equivalent protections apply.

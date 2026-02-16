@@ -6,7 +6,7 @@ tags: ["pathway:earth", "sequence:3"]
 
 # Sequence 3: Pallbearers
 
-[[UNCLEAR: The RAW does not specify the Pathway name for this Sequence.]]
+**Pathway:** Earth Pathway.
 
 ## Pallbearers
 

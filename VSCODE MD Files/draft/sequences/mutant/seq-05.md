@@ -1,4 +1,4 @@
----
+﻿---
 title: "Sequence 5: Wraith"
 id: "mutant-seq-05"
 tags: ["pathway:mutant", "sequence:5"]
@@ -8,7 +8,7 @@ tags: ["pathway:mutant", "sequence:5"]
 
 ## Wraith
 
-You can transform your state into a real shadow and gain corresponding abilities, including passing through obstacles, hiding in mirrors, directly attacking an opponent’s soul, and jumping to most places where images can be reflected.
+You can transform your state into a real shadow and gain corresponding abilities, including passing through obstacles, hiding in mirrors, directly attacking an opponentâ€™s soul, and jumping to most places where images can be reflected.
 
 Unlike ordinary [[Resentful Soul]], even if they have [[id:alias-spiritual-vision|Spiritual Vision]], they cannot find this kind of ghost without a high-Sequence.
 
@@ -37,8 +37,8 @@ When being promoted to a [[Resentful Soul]], the **Extraordinary** will forceful
 ### Sequence Traits and Overrides
 
 1. Becoming a Wraith overwrites the resident undead effect of the [[Zombie Stage]].
-2. From now on, as long as you don’t become a ghost, your life form is considered normal and will not receive additional restraint effects; you are still considered undead when you use it. [[UNCLEAR: “it” and the state change being referenced are not explicitly identified.]]
-3. You don’t need to consume actions to activate your original ability, but the ability of the [[Living Corpse]] is contradictory to the state of the resentful soul, and it cannot be used when it is a spirit body. [[UNCLEAR: “it” and whether “spirit body” refers to shadow form or another state is not explicitly defined.]]
+2. From now on, as long as you donâ€™t become a ghost, your life form is considered normal and will not receive additional restraint effects; you are still considered undead when you use Wraith abilities.
+3. You donâ€™t need to consume actions to activate your original ability, but the ability of the [[Living Corpse]] is contradictory to the state of the resentful soul, and it cannot be used while you are in a spirit-body state.
 
 ### Full Moon Curse
 
@@ -47,9 +47,9 @@ When being promoted to a [[Resentful Soul]], the **Extraordinary** will forceful
 The Curse of the Full Moon is an inherent effect once one has the ability of a Wraith, and cannot be recorded or stolen.
 
 1. Under the full moon, you immediately fall into violent madness and thirst for soul.
-2. Unlike the previous full moon curse, in the Wraith stage, if you are exposed to the full moon, you must start to suck people’s souls.
+2. Unlike the previous full moon curse, in the Wraith stage, if you are exposed to the full moon, you must start to suck peopleâ€™s souls.
 
-- **If you don’t:** You can only use 1 swift action per round, and 1 cast/attack/move action; you become extremely weak, can only collapse on the ground, and return from Wraith to human form, no longer enjoying the benefits and traits of Wraiths.
+- **If you donâ€™t:** You can only use 1 swift action per round, and 1 cast/attack/move action; you become extremely weak, can only collapse on the ground, and return from Wraith to human form, no longer enjoying the benefits and traits of Wraiths.
 
 Resentful souls who do not consume souls for a long time become weak immediately under the full moon. Resentful souls who often consume souls go crazy first and completely lose their minds; the latter will also fall into a weakened state if the goal is not reached within 1 hour.
 
@@ -83,12 +83,12 @@ Additional notes (while in shadow form):
 Extra (while in shadow form):
 
 - You can find the location of the [[Spirit World]] and enter it, or come out of it in about 1 minute.
-- You don’t have the ability to shuttle at high speed in the spirit world, but you usually won’t get lost.
+- You donâ€™t have the ability to shuttle at high speed in the spirit world, but you usually wonâ€™t get lost.
 - Because of the time required, this ability is often ineffective in combat.
 
 Higher-Sequence note:
 
-- **Sequence 2:** You can travel through the spirit world in the spirit world, and you must first enter the spirit world to take effect. [[UNCLEAR: The exact meaning of “travel through the spirit world in the spirit world” is unclear as written.]]
+- **Sequence 2:** You can travel through the Spirit World; you must first enter the Spirit World for this to take effect.
 
 ### Advanced Shadow Invisibility
 
@@ -99,14 +99,14 @@ Higher-Sequence note:
 Notes:
 
 1. If you receive holy damage or lightning damage, you appear briefly and need a swift action to re-invisibility.
-2. If you want to take something while in the Wraith state, you also need to show your body; you don’t need to simply speak. [[UNCLEAR: “you don’t need to simply speak” is unclear as a rule statement.]]
-3. It’s not that you can’t touch the item without being visible, but because the item is not invisible.
+2. If you want to take something while in the Wraith state, you also need to show your body; you cannot do it by speech alone.
+3. Itâ€™s not that you canâ€™t touch the item without being visible, but because the item is not invisible.
 4. If you take it directly, others will see something floating out of thin air; it is not considered part of your body and will not become invisible with you the moment you touch it.
 5. Therefore, this reveals your location. If you first remove invisibility, get the item, and then invisibility, it is regarded as part of you and disappears with you. If you place an item instead of taking it, you can make it appear out of thin air without being visible.
 
 Special detection clause:
 
-- If there is a target larger than you by one person, then even if it is not a special vision, it can still find you. [[UNCLEAR: “larger than you by one person” is not clearly defined.]]
+- If there is a target one size category larger than you, then even if it is not a special vision, it can still find you.
 - If you are possessed or hidden in objects or creatures, you can still avoid this kind of detection, only ordinary vision.
 - If attached to an object, it may be more secure to cover the object with a [[Spiritual Wall]].
 
@@ -122,7 +122,7 @@ Special detection clause:
 - **Prerequisite:** You are in shadow form (from **Shapeshifting Shadow**).
 - **Effect:** You can freely enter and exit the mirror, and use the mirror to help you resist attacks.
 
-1. **Passive:** Shuttle in the mirror image, retain complete physical defense against firearms instead of light/lightning, and gain an extra level of dodge. [[UNCLEAR: The passive defense tradeoff “against firearms instead of light/lightning” is unclear as written.]]
+1. **Passive:** Shuttle in the mirror image, retain complete physical defense against firearms (light/lightning bypass this), and gain an extra level of dodge.
 2. **Active:** 1 swift action, 1 time per round: choose a mirror within 300 meters to perform a mirror jump. You can avoid the attack aimed at your original position. Range attack requires you to jump out of the corresponding range, just like a [[Flame Jump]].
 
 Perception and definition notes:
@@ -134,7 +134,7 @@ Perception and definition notes:
 
 - **Prerequisite:** You are in shadow form (from **Shapeshifting Shadow**).
 - **Use:** A move action that selects an animate or inanimate object.
-- **Targeting and range:** You can possess a target within a range of 30 meters, which is considered as a casting action. [[UNCLEAR: The action type for possession at range conflicts with the stated “move action.”]]
+- **Targeting and range:** You can possess a target within 30 meters. This is still a **move action**, but it is treated as spellcasting for interruption/response rules.
 
 Process notes:
 
@@ -143,9 +143,9 @@ Process notes:
 
 **Possession status** (while you are possessing):
 
-- The possessor can use the opponent’s body, display the opponent’s ability, and perform actions with the opponent’s body.
-- The possessor can only use their own attack, spellcasting, movement, swiftness, and free actions to control the opponent’s body when possessing.
-  - Example: If a resentful spirit uses a move action to possess a target, then even if already possessing the target, their own move action is still lost, and they do not gain the target’s move action.
+- The possessor can use the opponentâ€™s body, display the opponentâ€™s ability, and perform actions with the opponentâ€™s body.
+- The possessor can only use their own attack, spellcasting, movement, swiftness, and free actions to control the opponentâ€™s body when possessing.
+  - Example: If a resentful spirit uses a move action to possess a target, then even if already possessing the target, their own move action is still lost, and they do not gain the targetâ€™s move action.
   - If the possessed target has an ability or effect that can increase extra actions, the possessor can also enjoy it.
 
 **Possessed state** (effects on the possessed target):
@@ -157,28 +157,28 @@ Process notes:
 Limits on what can be used while possessed:
 
 - Being able to cast spells does not mean you can cast swift/free actions.
-  - Examples: the [[Midnight Poet]]’s chanting must be voluntary; the [[Fool]]’s flame jump must snap fingers or simulate snapping; the air cannon needs speech.
+  - Examples: the [[Midnight Poet]]â€™s chanting must be voluntary; the [[Fool]]â€™s flame jump must snap fingers or simulate snapping; the air cannon needs speech.
 - Therefore, in the possessed state, only abilities that do not require physical movements can be used at all. Spell-casting actions performed through extended spirituality usually do not require physical movements; if a verbal or physical action is clearly required, it cannot be used.
 
 Getting out of the possession state:
 
 - To get out, you must use special means to counter the extraordinary ability with extraordinary ability.
 - Mental influence (such as painful torture), holy attack, and lightning attack are effective means, but generally cause damage to both the possessed and the possessor; mental influence may be offset by crazy actions.
-- Teleporting or transforming one’s own form of existence (such as [[Moonlighting]]) cannot get rid of the resentful spirit, because the spirit body is deeply bound.
+- Teleporting or transforming oneâ€™s own form of existence (such as [[Moonlighting]]) cannot get rid of the resentful spirit, because the spirit body is deeply bound.
 - Because possessor and possessed have independent actions, you can continue to use any remaining actions after breaking away from possession.
 
 Possession description limits:
 
 - When you possess a creature or an inanimate object, you cannot do things that the creature or object would not otherwise be able to do.
   - Example: Possessing a person does not let you twist their head 180 degrees without external force, but you can strangle them with their hands or beat them.
-  - Possession does not change the possessed target’s attributes (e.g., it doesn’t enable a 10-meter jump).
+  - Possession does not change the possessed targetâ€™s attributes (e.g., it doesnâ€™t enable a 10-meter jump).
   - You can attach a carriage to make it run without a horse, and attach a camera to shock parts so there is no flash.
 
 Special:
 
 - If possessing the corpse of an Extraordinary, the resentful soul can accelerate the precipitation of Extraordinary characteristics, turning five minutes into one minute.
 
-> **GM Note:** The text suggests prevention measures (e.g., “summon the full moon” or “prepare a substitute”) but does not fully define these as mechanics; treat them cautiously unless defined elsewhere.
+> **GM Note:** The text suggests prevention measures (e.g., â€œsummon the full moonâ€ or â€œprepare a substituteâ€) but does not fully define these as mechanics; treat them cautiously unless defined elsewhere.
 
 ### Devour Soul
 
@@ -199,7 +199,7 @@ Special use (against an ethereal body):
 Higher-Sequence notes:
 
 - **Sequence 4:** You can directly pull out the spirit body possessed by others without summoning vines, but this does not have the effects of binding and sucking, and devouring the soul of a person lower than you will not fall into temporary madness.
-- **Sequence 2:** 1 spell-casting action, consuming 3 spirituality points: you open your mouth, take a breath in, blow a cold wind, and forcibly pull the enemy’s spirit body.
+- **Sequence 2:** 1 spell-casting action, consuming 3 spirituality points: you open your mouth, take a breath in, blow a cold wind, and forcibly pull the enemyâ€™s spirit body.
   - Occult minus -10 is unfavorable against its will defense, causing 6d6 mental damage, and making it unable to maintain a state and possession that are difficult for others to see.
   - For spirit bodies that are two lower than yours, you can directly pull them out and swallow.
   - In this way, you can now also accommodate as many objects as hills directly into your body (such as tens of thousands of gold coins).
@@ -209,13 +209,13 @@ Higher-Sequence notes:
 - **Prerequisite:** You are in shadow form (from **Shapeshifting Shadow**).
 - **Effect:** You make objects levitate out of thin air and control objects to kill opponents.
 - **Targeting and resolution:** Occult attacks physical defense.
-- **Damage:** Deal 4d6 + Strength damage bonus physical damage; treat your Inspiration as Strength damage dice. [[UNCLEAR: “treat your Inspiration as Strength damage dice” is not fully specified (conversion method not stated).]]
+- **Damage:** Deal 4d6 + Strength damage bonus physical damage; add Strength damage dice equal to your Inspiration.
 
 ### Spirit World Divination
 
-- **Prerequisite:** You are in the state of a wronged soul. [[UNCLEAR: “wronged soul” is not clearly defined; likely refers to a resentful soul/wraith state.]]
+- **Prerequisite:** You are in the state of a wronged soul (Wraith state).
 - **Effect:** You can directly obtain the information you want through the [[Spirit World]].
-- **Special:** Usually, you don’t need tarot cards or coins as a medium to directly obtain information.
+- **Special:** Usually, you donâ€™t need tarot cards or coins as a medium to directly obtain information.
 
 Difficulty outcomes:
 
@@ -232,7 +232,7 @@ Resolution notes:
 
 Detection note:
 
-- Aware of the gaze requires a [[Spiritual Intuition Test]]; the existence of higher than 1 person is detected by default regardless of the difficulty. [[UNCLEAR: “higher than 1 person” is unclear.]]
+- Aware of the gaze requires a [[Spiritual Intuition Test]]; the existence of targets one Sequence higher than you is detected by default regardless of the difficulty.
 
 Special repetition clause:
 
@@ -241,7 +241,7 @@ Special repetition clause:
 Other divination factors:
 
 1. Divination involving other people fails by default if there is no clue, and succeeds by default if there is their blood or belongings.
-2. For each clue obtained, divination related events are +2 beneficial, but divination of targets higher than 1 character fails by default. [[UNCLEAR: “higher than 1 character” is unclear (level/Sequence?).]]
+2. For each clue obtained, divination related events are +2 beneficial, but divination of targets at least 1 Sequence higher than you fails by default.
 3. The reason for detection and failure of the higher level is that under special circumstances, it is possible for the lower level to divinate for the higher level.
 4. Whenever you are in a deep sleep, you can conduct an Inspiration appraisal with a Difficulty Value 20. If it succeeds, and something directly related to you has happened in the current period, you will see a general picture that needs to be interpreted. This is the first step of dream interpretation.
 
@@ -258,7 +258,7 @@ You have mastered some death spells, or improved upon your previous death spells
 #### Manipulate Ghosts
 
 - It belongs to the sequence improvement of [[Manipulating Living Corpses]].
-- **Cost:** 3 spirit points. [[UNCLEAR: “spirit points” may be the same as “spirituality points,” but the text uses both terms.]]
+- **Cost:** 3 spirit points (GM decides whether these are the same as spirituality points).
 - **Use:** 1 casting action.
 - **Targeting:** Choose 1 corpse that has not been dead for more than 24 hours (spirit body still in the body / not requiemed), or an existing wandering shadow, and manipulate it as your puppet.
 

@@ -30,9 +30,9 @@ tags: ["pathway:fate", "sequence:3"]
 - **Use:** **Free Action**.
 - **Effect:** In your environment, you reverse the course of events around you. Within a maximum of 1 kilometer of you, a **Big Success** is considered a **Big Failure**, and a **Big Failure** is considered a **Big Success**.
 - **Limits:**
-  - If a check has already been made and you use this ability at that time, rolls that have already been checked before that time are not affected by this ability, except for additional uses. [[UNCLEAR: “except for additional uses” does not specify what qualifies as an “additional use,” or how it changes this limitation.]]
+  - If a check has already been made and you use this ability at that time, rolls that have already been checked before that time are not affected by this ability, except for uses from other abilities that refer to this check.
   - Each inversion reduces your stored **Bad Luck** by 5 points or your stored **Luck** by 5 points. When only one of these values is insufficient, **Bad Luck** points will be used as **Luck** points, and **Luck** points will also be used as **Bad Luck** points.
-  - When the consumption of your stored **Luck** or **Bad Luck** reaches the threshold, this ability becomes invalid. [[UNCLEAR: The “threshold” that invalidates the ability is referenced but not defined.]]
+  - When your stored **Luck** or **Bad Luck** reaches 0 (you cannot pay the cost), this ability becomes invalid.
 - **Duration:** Until you end it.
 - **Aftereffects:** You can end the **Big Failure**/**Big Success** reversal as a **Casting Action**.
 

@@ -13,7 +13,7 @@ Upon successful promotion, **The Dark Emperor** will not truly die until **all n
 - Even if The Dark Emperor dies, they can still awaken from **one** of the Secret Tombs and return.
 - After destroying all **nine** mausoleums, if the **order established by the god** still has a certain amount of remnants, The Dark Emperor may also be revived in a strange way. This appears to be a loophole of death.
 
-[[UNCLEAR: The RAW alternates between “Dark Emperor” and “Black Emperor” in the same Sequence 0 context without clarifying whether they are the same entity or distinct.]]
+Note: "Dark Emperor" and "Black Emperor" are treated as the same entity/alias.
 
 ## Advancement
 
@@ -45,4 +45,4 @@ There are **three stages** in the resurrection process of the **Black Emperor**.
 - The **three Sequence 1 Extraordinary Characteristics** automatically returned to their emperors.
 - This is an order that **no other true god** can reverse or stop.
 
-[[UNCLEAR: The RAW states there are “three stages” but only provides partial/uncertain stage details, including the phrase “of sex,” which is not interpretable with confidence.]]
+Note: The stage list is incomplete; details are GM-adjudicated.

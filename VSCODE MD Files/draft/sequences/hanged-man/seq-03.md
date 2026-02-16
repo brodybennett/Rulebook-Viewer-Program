@@ -32,7 +32,7 @@ tags: ["pathway:hanged-man", "sequence:3"]
   - As a [[Free Action]], two additional heads grow on your shoulders—one young and one old—both part of your appearance.
 - **Aftereffects / Special:**
   - When you enter [[Madness]], one of your heads enters madness for you. During the madness time limit, the number of souls you can drive at the same time is reduced by -1, up to two times. Your [[Grazing Cap]] is reduced by 1.  
-    [[UNCLEAR: “-1, up to two times” during the madness time limit is not clearly defined (timing and how/when it stacks are ambiguous).]]
+    This penalty can stack up to **-2** while the madness lasts.
 
 ### Body Separation
 
@@ -47,8 +47,7 @@ tags: ["pathway:hanged-man", "sequence:3"]
 - **Limits / Restrictions (Option B):**
   - You cannot share all [[Grazing Methods]].
   - You must allocate the corresponding grazing souls for the two clones to use independently.
-  - When splitting, you suffer 1d3/1d6 [[Sanity Check]]s.  
-    [[UNCLEAR: “1d3/1d6 sanity checks” does not specify when to use 1d3 vs 1d6, or whether it means one of the two, both, or a conditional choice.]]
+  - When splitting, you suffer 1d3 [[Sanity Check]]s for minor splits, or 1d6 for major splits.
 - **Clones (Option B):**
   - The two separated bodies are not regarded as [[Beyonder]]s of the same Hanged Man Pathway as you.
   - You can give them two different grazing souls; in doing so, you lose the operation rights of those two grazing souls, and the two clones can use the complete corresponding soul abilities and can open [[Mythical Creature Form]].
@@ -56,5 +55,4 @@ tags: ["pathway:hanged-man", "sequence:3"]
     - Example: for the transformation ability of the [[id:alias-black-knight|Black Knight]], they do not gain the Black Knight’s data enhancement, but they do use your existing attribute data and sanity data.
 - **Loss / Regeneration (Option B):**
   - If a clone is eliminated during this process, you are considered to have lost it almost permanently; you need at least 10 years to regenerate it.
-  - Therefore, unless you have been promoted to Sequence 1, you should cherish them. The reverse of Sequence 1 The Hanged Man can regenerate them after a day.  
-    [[UNCLEAR: “the reverse of Sequence 1 The Hanged Man” is not clearly defined (identity and rule scope are ambiguous).]]
+  - Therefore, unless you have been promoted to Sequence 1, you should cherish them. Sequence 1 of the same Pathway can regenerate them after a day.

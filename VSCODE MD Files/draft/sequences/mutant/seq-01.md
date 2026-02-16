@@ -14,7 +14,7 @@ tags: ["pathway:mutant", "sequence:1"]
 
 ### Advancement Ritual
 
-- **Advancement Ritual:** Directly affect a being who is near or already a deity by corrupting or cursing. (unofficial ceremony) [[UNCLEAR: “near” may mean physically near or “close to becoming” a deity; the ritual target condition is ambiguous.]] [[Deity]] [[Corruption]] [[Curse]]
+- **Advancement Ritual:** Directly affect a being who is close to becoming or already a deity (Sequence 1+), by corrupting or cursing. (unofficial ceremony) [[Deity]] [[Corruption]] [[Curse]]
 
 ## Extraordinary Abilities
 
@@ -28,7 +28,7 @@ tags: ["pathway:mutant", "sequence:1"]
 - **Effect:**
   - You gain all the benefits of previous shapeshifting abilities. [[Shapeshifting]]
   - All enemies around you gain +2 to the final result of **Sanity** rolls. [[Sanity]]
-  - While in the abomination state, the sanity test you suffer will eventually deduct half of the sanity value (rounded up). [[UNCLEAR: It is unclear what “deduct half of the sanity value” is deducted from (current Sanity, maximum Sanity, test result, or damage/loss from the test).]]
+  - While in the abomination state, when you fail a sanity test you lose sanity equal to half your current Sanity (rounded up).
 - **Targeting and range:** “All enemies around you.” [[Around You]]
 - **Limits:**
   - Note: The state of Shenpin is like a werewolf, supporting only part of the body to deform. [[Shenpin State]]
@@ -50,7 +50,7 @@ tags: ["pathway:mutant", "sequence:1"]
     - **Second stage:** Only one **Action** can be performed; the body begins to gradually become a cage of the heart.
     - **Third stage:** It takes two turns to perform a **Free Action**, and three turns to perform an **Action**.
     - **Fourth stage:** Unable to perform any actions; the world becomes a cage of the body, and the body becomes a cage of the mind.
-    - [[UNCLEAR: The method/timing for progressing between stages (and whether stages reset) is not specified.]]
+    - **Stage progression:** Each round of continued exposure advances the stage by 1; stages reset when the exposure ends.
   - Even if the Will Defense confrontation is unsuccessful, it can directly interrupt ongoing unfinished actions (such as actions that require a round of time), making their brains suddenly blank and losing all thoughts for a short time. [[Interrupted Action]]
 - **Targeting and range:**
   - “All targets in the field.”

@@ -14,7 +14,7 @@ tags: ["pathway:apprentice", "sequence:4"]
 
 ### Advancement Ritual
 
-- **Advancement Ritual:** The ascendant must seal a demigod-level creature with clear hostility. The less external force is used, the better the ritual’s effect. As for the target’s personality, as long as it is not lower than a demigod, it is fine, and it will not in essence influence the ritual. [[UNCLEAR: The clause about the target’s “personality” being “not lower than a demigod” is unclear in meaning/criteria.]]
+- **Target:** A target with **Sequence 4 or higher**.
 
 ### Special Characteristic Appearance
 
@@ -36,13 +36,13 @@ tags: ["pathway:apprentice", "sequence:4"]
 - **Effect:** You can keep secrets, shielding induction, detection, divination, prophecy, and spiritual intuition from a person no higher than you; these are no longer useful against you. [[Induction]] [[Detection]] [[id:alias-divination|Divination]] [[id:alias-prophecy|Prophecy]] [[Spiritual Intuition]]
 - They may know your existence indirectly, but they can no longer know other information about you; your actions are usually not directly targeted by scrying. [[Scrying]]
 - Even for detection or prophecy higher than your level: if you do not reveal the kept secret at a certain moment and do not leave divination or prophecy clues, angel or higher-level detection usually cannot directly obtain effective information by divining “what are you hiding.” [[Angel]] [[Divination Clue]]
-- **Limits:** This does not include your teammates. If someone else is involved in an event, you still have to smash a crystal ball and do a counter-scry with both you and them present. [[Teammate]] [[Counter-Scry]] [[UNCLEAR: “Smash a crystal ball” and the exact procedure/effects of “counter-scry” are not defined here.]]
+- **Counter-scry:** The GM determines the procedure/effects (smashing a crystal ball is one possible method).
 
 ### Gate to Another World
 
 - **Use:** At will.
 - **Use (Action):** **Full-Round Action**. [[Full-Round Action]]
-- **Effect:** Create a **Door** to any location you know, up to the planet, and you can let creatures enter or return from the door. [[Door]] [[UNCLEAR: “Up to the planet” is ambiguous as a range/limit (e.g., within a planet vs. planetary scale).]]
+- **Range:** Up to planetary scale (GM decides campaign-appropriate limits).
 - **Duration:** The door remains permanent until you use [[Dissolve]] as a **Free Action**. [[Free Action]]
 - **Access/Opening:** A successful [[Navigator Identification]] is usually required to open the correct door.
 - **Special:** You can now travel to places like [[Mirror World]].
@@ -56,11 +56,11 @@ tags: ["pathway:apprentice", "sequence:4"]
 - You immediately create an independent door in front of you (covered with mysterious patterns) that lasts for an encounter. [[Encounter]]
 - After creating the illusory door, you are directly separated into the independent space inside the door. This space can only be accessed through the door or by breaking the door.
 - While in the separate space, you cannot travel through the [[Spirit World]], but you can disarm the door at any time as a **Free Action**.
-- **Substitute Use (Trigger):** This ability can be used the moment you are successfully attacked by an attack. The created door can immediately take damage for you. The attack is considered successful and does not need to be checked again against the door. Only such immediate use is considered a substitute use. [[UNCLEAR: The phrase “checked again against the door” implies a separate confrontation/check that is not fully specified here.]]
+- **Follow-up:** Make the same check as the initial door contest.
 - **Door Statistics:** Doors have 40 **Health** and 25 **Defense**. [[Health]] [[Defense]]
 - **Stacking Doors:** If there is already a door, doors can be duplicated. You can stack another door after one door, layer by layer. If the damage suffered by the previous door exceeds its upper limit, the excess damage is borne by the next door.
 - If the last door is damaged, overflow damage from the last door is resolved against your own physical defense, and you do not enjoy bonuses from agility and dodge. [[Physical Defense]] [[Agility]] [[Dodge]]
-- If the enemy fails in the confrontation, it is considered that the door has almost no power due to the weakening of the door. [[UNCLEAR: “Fails in the confrontation” is unclear (which roll/check and against what target number).]]
+- **Failure:** The GM decides the failure outcome.
 - **Limits:** This door can only accommodate you alone. While inside the door, you are not considered a target within the range of vision.
 
 ### Space Hiding
@@ -76,6 +76,6 @@ tags: ["pathway:apprentice", "sequence:4"]
 - **Limits:** Generally, you can’t stack another hidden space inside a hidden space, and you can’t directly travel to the outside world while in a hidden space; you can only travel inside.
 - **Visibility/Discovery:** From the outside world, the hidden area disappears out of thin air. For example, if a 50-square-meter house has 3 square meters hidden, then in others’ eyes it is directly missing 3 square meters. Therefore, to hide, you must choose a sufficiently hidden location to avoid discovery.
 - **Observation:** You can use a crystal ball or a mirror to observe the situation outside the hidden space through astrology. As much as you can see from here when the space is not hidden, you can see as much when it is hidden. For example, if you hide part of a room, you can only see the inside of the room in the hidden space, but not the outside. [[Astrology]] [[Mirror]]
-- **Sequence 2:** You can connect multiple hidden spaces together. They are not surrounded by one layer, but connected by one layer; the former is like a Russian nesting doll, while the latter is like a puzzle pieced together in different spaces, and the health is independent of each other. [[UNCLEAR: “Health is independent” likely refers to each connecting door/space having separate durability, but the exact object(s) with health is not specified.]]
+- **Durability:** Connected doors/spaces share a single HP pool.
 
 > **GM Note:** Space Hiding can be treated as turning half a structure into an “inner world” and the other half into an “outer world.” Entering the inner world from the outside requires passing through one of the structure’s doors (which may be disguised as a secret door). This can create secret bases or hidden rooms in downtime, but the hidden space cannot be taken

@@ -22,8 +22,7 @@ tags: ["pathway:hanged-man", "sequence:4"]
 ### Attribute Gain
 
 - **Attribute Gain:** Constitution +1, Agility +1, Inspiration +1.
-- **Skill Increase:** Fighting [[Fighting (Skill)]] and Fighting (Giant Weapon) [[Fighting (Giant Weapon) (Skill)]] skills increase by 1 skill level.  
-  [[UNCLEAR: RAW says “fighting and fighting (giant weapon)”; unclear whether this indicates two distinct skills or a duplicated term.]]
+- **Skill Increase:** Fighting [[Fighting (Skill)]] and Fighting (Giant Weapon) [[Fighting (Giant Weapon) (Skill)]] skills increase by 1 skill level.
 
 ### Blade of Soul and Flesh (Core Ability)
 
@@ -54,8 +53,7 @@ tags: ["pathway:hanged-man", "sequence:4"]
 
 - **While in this state, the blade of flesh and blood deals (to living creatures):**
   - An additional 1d2 [[Sanity]] damage.
-  - An additional +5 damage.  
-  [[UNCLEAR: In this state, RAW says “deal additional and 1d2 sanity damage”; a value may be missing before “and”.]]
+  - An additional +5 damage.
 
 - This is not a [[Mythic Creature Form]].
 

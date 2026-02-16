@@ -11,7 +11,7 @@ This chapter presents guidance for running Lord of the Mysteries-style modules a
 
 > Lore: A Beyonder of the Mystery Pryer pathway begged the Hidden Sage for knowledge of each pathway. The Hidden Sage poured knowledge directly into his mind until it "swelled and swelled." After learning it, the Beyonder's head exploded, and his Beyonder Characteristic condensed together with the diary book beside him into a Beyonder Item. This item records the content below and is named "The Hidden Sage's Diary Book."
 
-[[UNCLEAR: The text says it "expand[s] and explain[s] the traits and characteristics of 22 Sequences," but the surrounding context discusses pathways; the exact intended meaning of "22 Sequences" is unclear.]]
+This section expands and explains traits and characteristics across the **22 Pathways**.
 
 # Module Guidance for Extraordinary Abilities
 
@@ -610,7 +610,7 @@ Multi-person melee performs excellently. It can modify casting targets, and the 
 - Mid-Sequence Fate should prioritize survival and concealment: hide, change locations frequently, avoid discovery. It has divination and anti-divination; with Luck and relocation, even discovered enemies find it hard to kill.
 - Pursuit: currently pursued by members of the Rose School of Thought due to Fate Council split.
 - High-Sequence Fate: no exact data; may represent changes in game rules (great success reversal, dice chaos). Sequence 2 can, to a certain extent, foresee the future.
-- Spirit Vision constraint: at mid-to-low Sequence, Fate Spirit Vision can only see a person's Luck or misfortune. Fate cannot look directly at a Mythical Creature existence and would go insane on the spot. On first encounter, Spiritual intuition forces you (first time only) not to open your eyes; afterward, inattention may trigger an SC. [[UNCLEAR: "SC" is not defined in this excerpt.]]
+- Spirit Vision constraint: at mid-to-low Sequence, Fate Spirit Vision can only see a person's Luck or misfortune. Fate cannot look directly at a Mythical Creature existence and would go insane on the spot. On first encounter, Spiritual intuition forces you (first time only) not to open your eyes; afterward, inattention may trigger an SC. (**Clarification:** SC means **Sanity Check**. [[Sanity Check]])
 - Demigod and above: can roughly see direction of fate flow (general, not clear). Sequence 1 can notice abnormal signs and make prophecies; prophecies may be affected by other fate-related abilities.
 - Rituals are "simplest and hardest": with good luck, easy to become a demigod; with bad luck or time, an entire life may be wasted.
 - Core problem: Fate Spirit Vision cannot be turned off even at high Sequence, but can be blocked. First priority is to avoid seeing things you should not see and learning things you should not learn.

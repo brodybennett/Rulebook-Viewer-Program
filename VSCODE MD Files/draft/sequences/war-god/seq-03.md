@@ -30,7 +30,7 @@ tags: ["pathway:war-god", "sequence:3"]
 - **Alternate effect:** You can turn into viscous and heavy mercury and flood an enemy, making the opponent seem to be wearing a silver full-body armor without revealing the slightest gap. The armor attempts to suffocate the wearer; the specific effect depends on the specific situation.
 - **Limits:** A binding effect occurs first; during the process, both parties cannot perform any other actions.
 - **Duration:** If the submerged target does not break through within three rounds, the target may be stunned or suffocated.
-[[UNCLEAR: “Break through” is not mechanically defined, and it is unclear what actions/rolls (if any) are possible while “both parties cannot perform any other actions.”]]
+  - **Escape:** The target can attempt to break through once per round with a Strength or Physical Defense check against your [[Physical Defense]]. On a success, the effect ends. While bound, both parties may only take the escape attempt (no other actions).
 
 ### Sword of Dawn
 
@@ -45,8 +45,7 @@ tags: ["pathway:war-god", "sequence:3"]
 - **Effect:** A sharp silver light flashes out of thin air on the target. The damage ignores any [[Armor]], [[Cover]], and [[Danger Intuition]] (non-malicious perception).
 - **Damage:** 3d12 + raid + Strength damage bonus, as physical or divine damage (choose one).
 
-> **GM Note:** Combined with **Hidden by Light**, if an encounter has already started and you can make yourself disappear in others’ cognition again—and you cannot be locked onto by this—then surprise behavior in the battle can be established.  
-> [[UNCLEAR: “Cannot be locked by this” and the exact mechanical meaning of “surprise behavior… established” are not defined here.]]
+> **GM Note:** Combined with **Hidden by Light**, if an encounter has already started and you can make yourself disappear in others’ cognition again (so you cannot be locked onto), your next attack can be treated as a surprise attack.
 
 ### Hidden by Light
 

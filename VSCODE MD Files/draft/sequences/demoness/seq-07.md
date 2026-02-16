@@ -77,8 +77,7 @@ You cast a large area-specific curse through ritual magic.
 - First select an altar area with a radius of 10 meters.
 - Prepare the initial ceremony in 5 minutes.
 - Wrap the altar area (10-meter radius) with a [[Spiritual Wall]].
-- At the same time, it is best to ensure that the surrounding area within the range of about one house 10 meters away is silent people.
-  [[UNCLEAR: “about one house 10 meters away is silent people” is unclear in meaning/requirements.]]
+- At the same time, it is best to ensure that the surrounding area within about 10 meters (roughly one house) is silent; the **GM** decides the exact requirement.
 
 #### Procedure
 
@@ -132,11 +131,9 @@ You have been favored by the **Black Flame**.
 
 - **Use:** 1 swift action
 - **Limits:** 1 time per round
-- **Effect:** You let a group of black flames hover around you in advance. In your next long-range attack, the hovering black flames are regarded as guns when fired, ignoring the agility of physical defense with Dodge, and the range is increased to 50 meters.
-  [[UNCLEAR: “ignoring the agility of physical defense with Dodge” is unclear in exact mechanical terms.]]
+- **Effect:** You let a group of black flames hover around you in advance. In your next long-range attack, the hovering black flames are regarded as guns when fired, ignoring Agility and Dodge in Physical Defense, and the range is increased to 50 meters.
 
-- **Special:** Every 1d6 of Black Flame’s damage can be divided into 1 identification, up to 3 identifications. Overflow damage can be added to a certain identification at your discretion (e.g., first hit is 2d6, follow-up is 1d6), which is a combo.
-  [[UNCLEAR: “identification” is unclear; likely refers to separate hit/instance splits of the same damage roll.]]
+- **Special:** Every 1d6 of Black Flame’s damage can be resolved as a separate identification/attack roll, up to 3 identifications. Overflow damage can be added to a certain identification at your discretion (e.g., first hit is 2d6, follow-up is 1d6), which is a combo.
 
 #### Melee Attack
 
@@ -219,8 +216,7 @@ You use a mirror as your **stand-in**.
 - **Limits/conditions:**
   - The stand-in must be used immediately. Because it is an active ability, you must recognize the corresponding threat to use it.
   - Effects that have already taken effect on you cannot be substituted. Example: once the witch’s plague takes effect, the subsequent deterioration cannot be substituted.
-  - Special: The ability to act freely with more than 2 characters will be too late for the substitute.
-    [[UNCLEAR: “act freely with more than 2 characters” is unclear in meaning and when it applies.]]
+  - Special: If the target is higher than your Sequence by 2+, the ability to act freely is too late for the substitute.
 
 #### Anti-Divination
 
@@ -271,8 +267,7 @@ You gain **invisibility** through special magic powder.
 - **Cost:** 1 [[Spirituality]]
 - **Effect:** Make the face hazy and blurred. Except for the special vision of the [[Eye of Mystery/Fate]], others usually cannot see your face clearly.
 - **Duration:** 1 minute
-- **Limits:** Excluding more than personal goals.
-  [[UNCLEAR: “excluding more than personal goals” is unclear in meaning/limits.]]
+- **Limits:** Personal goals only.
 
 #### Hidden Body Shape
 

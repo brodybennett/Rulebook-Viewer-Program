@@ -33,7 +33,7 @@ This ability can be used in two ways:
 
 1) **Long-distance Spirit World travel**
    - **Use:** One **casting action**.
-   - **Cost:** 3 points of **spirituality**.
+- **Cost:** "Spirit" refers to **Spirituality** in this section.
    - **Effect:**
      - You can travel long distances in the **Spirit World**, and you can always sense the reality of the outside world while in the **Spirit World**.
      - You can transmit up to “inspiration + will + half constitution (rounded up)” km.
@@ -43,7 +43,7 @@ This ability can be used in two ways:
 2) **Short-distance continuous flashing**
    - **Use:** 1 **swift action**, up to 12 times in one round. Its priority is regarded as a **free action**. The swift action is the sum of 12 flashes; less than 12 times still occupy a swift.
    - **Effect:** You perform short-distance continuous flashing (no more than 6 meters), which not only allows you to avoid attacks, but also allows you to create a siege effect by yourself, and gain the following benefits:
-     - As long as you keep flashing and outflanking the enemy, you and your allies will continue to get the special action effect of enveloping/flanking; that is, you will gain an advantage throughout the process, and the enemy will gain a disadvantage—excluding situations where the enemy is higher than 1 character, and the enemy also has travelers. [[enveloping/flanking]] [[UNCLEAR: “higher than 1 character” and “enemy also has travelers” are not defined clearly enough to determine the exact exclusion condition.]]
+- **Limits:** If the enemy has any Door Pathway travelers, this exclusion applies (more than one character present).
      - Any **Extraordinary Ability** that targets you cannot hit you, including abilities that do not require identification—excluding area attacks, light, and lightning; but you retain the agility and evasion of the full physical defense against them.
      - Under the premise of the second article, if you maintain the flashing state and trigger **Premonition of Danger**, the original physical defense of **Premonition of Danger** against light and lightning can be replaced by a temporary +4 effect of physical defense. [[id:alias-premonition-of-danger|Premonition of Danger]]
      - If there is a situation where your 12 flashes in one round are consumed, it will be considered that the attacks have become so dense that you cannot dodge them, and you will be hit, because only 6 seconds have actually passed in one round.
@@ -51,7 +51,7 @@ This ability can be used in two ways:
 
 ### Invisible Hand
 
-- **Cost:** Consuming 1 **spirit** per round. [[UNCLEAR: RAW uses both “spirituality” and “spirit” as costs without clarifying whether they are the same resource.]]
+
 - **Effect:**
   - You can take pictures from a distance.
   - You are considered to be able to capture objects at any position equal to the range of **Inspiration**, perform attack actions, or perform abilities that require physical contact (such as opening doors).

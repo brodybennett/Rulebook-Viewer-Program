@@ -58,23 +58,21 @@ tags: ["pathway:red-priest", "sequence:5"]
 - **Use:** 1 attack/casting/swift action that causes damage.
 - **Effect:** The eyes will also appear in color.
   1. This strike has the effect of **Weak Point Attack** by default. [[Weak Point Attack]] As long as it hits the opponent, no matter where it hits (even if it is armor), it is considered to cause a weak point attack.  
-     (So as long as the identification > its "Agility + Dodge", even if it does not penetrate the armor, it can still cause 3d6 default damage.) [[Agility]] [[Dodge]] [[Armor Penetration]]
+     (So as long as your attack Identification roll exceeds the target’s Agility + Dodge, even if it does not penetrate the armor, it can still cause 3d6 default damage.) [[Agility]] [[Dodge]] [[Armor Penetration]]
      - But because the real damage does not penetrate, no matter how much damage you could have caused, it is only 3d6 at this time.
   2. On the basis of 1, you are considered to have performed a real **Critical Strike** special action, but this critical strike also only has a -8 disadvantage, and the effects of the **Vital Strike** special action can be superimposed with the weak point attack. [[Critical Strike special action]] [[Vital Strike special action]]
 
 > **GM Note:** Example: The initial attack that will cause 1d6+2d6 damage can add +3d6 damage due to the weak point, but if it does not penetrate the armor while hitting the opponent, the 1d6+2d6 damage is invalid—only 3d6.  
 > (If the armor is penetrated, the vital blow effect of internal organs will be superimposed, causing 1d6+2d6+3d6+3d6 damage.)
 
-[[UNCLEAR: “identification > its 'Agility + Dodge'” uses “identification” as a threshold/check term that is not defined in this section.]]
 
-#### Carnage
+#### Carnage (Slaughter)
 
 > **Lore:** You change your damage to area kills.
 
-- **Trigger/requirement:** This is based on Weakness Attack/Critical Attack. When you perform either of these attacks, if you give [[Doubled aura]], it can cause a more lethal effect.
+- **Trigger/requirement:** This is based on Weakness Attack/Fatal Attack. When you perform either of these attacks, if you give [[Doubled aura]], it can cause a more lethal effect.
 - **Effect:**
   1. Weak point attack: change to consume 4 **Spirituality**, and your single-target attack is changed to attack within 10 meters in front of you.
-  2. Deadly attack: instead of consuming 12 **Spirituality**, on the basis of 1, the attack has the effect of fatal attack.
+  2. Fatal attack: instead of consuming 12 **Spirituality**, on the basis of 1, the attack has the effect of Fatal Attack.
 - (The main effect of Slaughter is to change single-target damage to group damage. If the ability you originally cast is group damage, then you must use Slaughter to enjoy the benefits of weak point/fatal attack; otherwise the ranged damage will not enjoy the harvest effect.)
 
-[[UNCLEAR: “Carnage” is later described as “Slaughter,” and it references “Critical Attack” despite the options here being “Weakness Attack” and “Fatal Attack.”]]

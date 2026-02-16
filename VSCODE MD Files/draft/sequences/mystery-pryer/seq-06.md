@@ -11,8 +11,7 @@ tags: ["pathway:myster-pryer", "sequence:6"]
 ### Attribute Gain
 
 - **Attribute Gain:** [[Inspiration]] +2
-- Your [[Occult]] / [[Occult Language]] can be quickly raised to [[Erudition]].
-  [[UNCLEAR: The term "erudition" is not defined here as a rank/value for Occult or Occult Language.]]
+- Your [[Occult]] / [[Occult Language]] can be quickly raised to [[Erudition]] (treat Erudition as the standard skill rank).
 
 ### Scroll Scribe
 

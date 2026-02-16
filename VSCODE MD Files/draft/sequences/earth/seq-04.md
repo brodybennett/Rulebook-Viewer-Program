@@ -64,13 +64,13 @@ The creatures made from life tend to be a “template.” You can achieve the fi
   - **Attack damage:** 2d6+3 physical damage
   - **Damage taken:** fire damage it takes is halved
   - Helps you complete various transport or combat operations.
-  - 10 consumable damage reduction. [[UNCLEAR: “10 consumable damage reduction” is not defined (what consumes it, and when it refreshes).]] [[damage reduction]]
+- 10 consumable damage reduction (GM decides how it is spent and refreshed). [[damage reduction]]
 
 - **Other original biological templates approved by GM.**
 
 **Additional notes:**
 - If you can find more suitable extraordinary materials and spiritual bodies, you can create a better existence on this basis.
-- Note that, including Graeme, all creatures made by Life Refining have **spiritual threads**. [[UNCLEAR: “Graeme” is unclear in context (possibly a mistranslation or specific named example).]] [[Life Refining]] [[spiritual threads]]
+- Note that all creatures made by Life Refining have **spiritual threads**. [[Life Refining]] [[spiritual threads]]
 
 **Limits and practical constraints:**
 - Generally, there is no clear limit to the number of creatures you can create except that it takes time to refine.
@@ -85,6 +85,6 @@ Increases the madness and out-of-control tendency of the person attacked.
 - **Effect:** This takes effect on enemies who have suffered sanity checks in this round.
   - The enemy you attacked enters **temporary madness** if its **sanity damage** reaches 2 when it suffers a **sanity test** in this round. [[Sanity Damage]] [[sanity test]] [[Temporary Madness]]
   - The enemy you attacked enters **indeterminate madness** if its sanity damage reaches 5. [[indeterminate madness]]
-  - If its sanity is less than 30%, it enters a state of **out of control**. [[UNCLEAR: RAW contains “its sanity is less than 100%. 30,” which appears to intend “less than 30%.”]] [[out of control]]
+- If its sanity is less than 30%, it enters a state of **out of control**. [[out of control]]
 
 - **Special:** A **Beyonder** of the **Spectator Pathway** can circumvent this effect by passing a successful **Mental Channeling** identification. [[Spectator Pathway]] [[Mental Channeling]]

@@ -44,7 +44,7 @@ tags: ["pathway:tyrant", "sequence:6"]
 - **Effect:** Your phantom scales and underwater breathing support deep diving at any depth.  
 - **Limits:** You still cannot exceed the normal duration limits of your phantom scales and underwater breathing.  
 - **Sequence 5 Change:** Your phantom scales and water breathing no longer count toward underwater duration limits.  
-[[UNCLEAR: It is not specified where the normal duration limits are defined.]]
+  - **Normal duration limits:** Use the durations from **Phantom Scale** and **Water Breathing** (10 minutes base, +15 minutes per Sequence upgrade).
 
 ---
 

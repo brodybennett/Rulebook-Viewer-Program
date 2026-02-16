@@ -33,7 +33,7 @@ tags: ["pathway:moon", "sequence:9"]
 3. You gain **Poison Resistance** 5, and you are more resistant to poison.
 
 - Learning can only be done once a day.
-- Characters who create higher Sequences can use twice the Inspiration brought by potions to improve their growth skills. [[UNCLEAR: “create higher Sequences” and “growth skills” are not defined here.]]
+- At character creation for higher Sequences, you can use twice the Inspiration brought by potions to improve growth skills.
 
 ### Pharmacy Preparation
 
@@ -46,13 +46,13 @@ tags: ["pathway:moon", "sequence:9"]
 - **Potion Capacity (by [[Reputation]]):**
   - Multiply your reputation level by 10 (not the reputation value). The final result equals the total number of potions you can concoct.
   - Example: Trained = 10 bottles; proficient = 20 bottles; advanced = 30 bottles.
-- Whenever the total number of potions is exhausted for the first time in the mod, roll 1d7 to determine how many days until the medicinal material supplier you cooperate with arrives to replenish the amount of potions you can deploy; subsequent replenishment time is fixed every 7 days. [[UNCLEAR: “mod” is not defined here (e.g., module/adventure).]]
-- If your reputation is mastered, the total number of potions you can craft can be negligible. [[UNCLEAR: “negligible” is not mechanically precise (does this remove the limit?).]]
+- Whenever the total number of potions is exhausted for the first time in the current **module/adventure**, roll 1d7 to determine how many days until the medicinal material supplier you cooperate with arrives to replenish the amount of potions you can deploy; subsequent replenishment time is fixed every 7 days.
+- If your reputation is mastered, the total number of potions you can craft can be negligible (GM decides the exact limit).
 - If you are wanted, have no way to establish a supply channel for medicinal materials, or leave your long-term settlement (without negotiating a new supplier), medicinal materials will not be able to circulate in a normal form.
 - If you don’t have time to wait for the source of goods, you can go to the local market to obtain medicinal materials:
   - The total amount of medicinal materials you can obtain immediately equals 5 × your [[Credit]] value.
   - You can choose to burn the credit level to expand the total amount of medicinal materials you can obtain immediately. Each time you lower your credit level, you can overdraw to obtain 10 more medicinal materials.
-  - The temporarily reduced credit level affects your credit appraisal until funds are replenished; only then can it be restored. [[UNCLEAR: “credit appraisal” is not defined here.]]
+- The temporarily reduced credit level affects your **Reputation/Credit** appraisal until funds are replenished; only then can it be restored.
 
 ### Drinking a Potion
 
@@ -101,7 +101,7 @@ tags: ["pathway:moon", "sequence:9"]
 6. **Sleep Aid Potion:**
    - Your next sleep will definitely be a dream (ineffective for those who cannot dream).
    - When you wake up or face hypnosis and sleep abilities, the will test and will defense value -2 will be disadvantageous for one hour.
-   - Special: If the user cannot restore sanity through sleep due to uncertainty madness, the sleep aid potion can restore this benefit once. [[UNCLEAR: “uncertainty madness” and what “this benefit” refers to are not defined here.]]
+   - Special: If the user cannot restore sanity through sleep due to **indeterminate madness**, the sleep aid potion can restore this benefit once.
 7. **Sedative Potion:**
    - Versions: injections and internal.
    - Injections usually require fights against a type of Extraordinary with tough skin to fight against their physical defenses.
@@ -112,20 +112,20 @@ tags: ["pathway:moon", "sequence:9"]
    - Exhausted state: You lose 1 cast/attack/move over time, or 2 swift actions.
    - [[Malevolence Perception]] can still perceive your malice, but each time malice appears, you can use your will against its inspiration to determine whether it is perceived. You must fully meditate to gain this benefit.
    - Tranquility potions give you a -1 benefit on sanity loss checks, but have no effect on promotions.
-   - To the anesthetic of the same raw material, drug resistance will develop if it is used multiple times, and the amount of its constitution/2 will take effect after three subsequent injections. [[UNCLEAR: The drug-resistance rule is not clearly stated (especially “constitution/2” and timing).]]
+   - For anesthetic made from the same raw material, drug resistance develops if it is used multiple times; after three subsequent injections, effectiveness is reduced by **Constitution/2**.
 8. **Anesthesia:**
    - After taking it: skill and attribute identification / will defense against dreaming -2 disadvantage; cannot be superimposed; lasts for 5 minutes.
    - Physical identification that does not involve death/blood loss can be replaced by will; analgesia is a type of anesthesia.
    - Two anesthesia can cause the voluntary/helpless target to lose consciousness for 5 minutes.
      - The disadvantage can be changed to -4 at most.
      - It will not cause complete loss of pain sensation.
-     - Any damage can be recovered with 15 [[Will Test]]. [[UNCLEAR: “Any damage can be recovered” is vague about scope and timing.]]
+     - Any damage (from any source) can be recovered by passing a **Difficulty Value 15** [[Will Test]] each time damage is taken.
    - An anesthetic drug can also achieve local anesthesia, so that the will test of part of the body to replace the constitution is successful by default.
    - Adverse effects do not affect Wisdom checks or will checks made in place of constitution.
 9. **Heart-strengthening secret medicine:**
    - Only for targets in a [[Blood Bath]] or [[Dying]] state: their constitution appraisal +2.
    - Otherwise: constitution appraisal -2.
-   - (Essence is the goal of dealing with heart failure. Once the constitution check is -2, every time the constitution fails, 1d6 health points will be lost.) [[UNCLEAR: When the repeated constitution checks occur is not specified here.]]
+  - (Essence is the goal of dealing with heart failure. Once the constitution check is -2, make a Constitution check each round; each failure loses 1d6 health points.)
 10. **Muscle relaxation secret medicine:**
    - After taking it, starting next round: the user's strength is -2; the muscles of the whole body begin to relax; the moving force is halved.
    - Note: Muscle relaxant, [[Requiem]], and analgesic essential oils taken orally in sequence can produce a complete anesthesia effect for half an hour, equivalent to complete fainting of a creature. If there is no breathing method similar to a ventilator, it will suffocate after 5 minutes and die.
@@ -161,7 +161,7 @@ tags: ["pathway:moon", "sequence:9"]
 6. **Liquid Nitrogen Bottle:**
    - Throwing skill against Physical Defense.
    - On success: causes 2d4 cold damage.
-   - If the target is a creature without cold resistance: causes muscle trembling, condensation and frost, and the next judgment will be -2 disadvantageous. [[UNCLEAR: “next judgment” is not specified (which check/roll).]]
+   - If the target is a creature without cold resistance: causes muscle trembling, condensation and frost, and the target's next check/roll suffers a -2 penalty.
 7. **Sublimation steam:**
    - After throwing, the hot and cold liquid in the bottle expands and sublimates; warm white mist fills the whole room.
    - If the room is not sealed, sublimation steam escapes after 1 round; it is difficult to find remote targets in the steam.
@@ -177,7 +177,7 @@ tags: ["pathway:moon", "sequence:9"]
 - Formula:
   - 10 minutes of component research; Difficulty 20 corresponding identification to know the components of the drug and how to configure it.
   - If special spiritual materials are involved: even if you know the formula, you need to obtain the corresponding materials before you can configure them.
-  - For every material involved in a drug that is 1 higher than yours, the corresponding identification difficulty is +10. [[UNCLEAR: “1 higher than yours” is not defined here (e.g., Sequence/grade of material).]]
+  - For every material involved in a drug that is 1 **Sequence** level higher than you, the corresponding identification difficulty is +10.
 
 ### Vision (Health-Focused)
 

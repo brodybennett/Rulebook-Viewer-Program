@@ -49,8 +49,7 @@ tags: ["pathway:tyrant", "sequence:7"]
 - **Use:** Make an **Inspiration** check at **Difficulty Value 20**.
 - **Effect:** You calculate a “fuzzy” probability about a matter.
 - **Clues:** Each relevant clue provides a +2 bonus.
-- [[UNCLEAR: The source sentence about “directly know two things in the field of vision… the relative distance” is truncated; exact scope is unclear.]]
-  - Safest reading: You can determine the relative distance between up to two things within your field of vision without an identification check.
+  - You can determine the relative distance between up to two things within your field of vision without an identification check.
 
 - **Special (Blind):** Even if you are [[Blind]], if you confirmed the enemy’s position before becoming blind and the enemy has not moved significantly, you can use the calculated relative distance to attack without being affected by the blind state.
 
@@ -99,7 +98,7 @@ tags: ["pathway:tyrant", "sequence:7"]
 3) **Create Water Body (Lubrication):** Affecting something you touch, you create a layer of water at a designated position. This can create lubrication:
    - Pushing-object identification gains a +2 bonus.
    - The distance of pushing is halved.
-   - [[UNCLEAR: The phrase “and take upward all” is unclear; whether this also applies to lifting/upward movement is not reliably stated.]]
+   - This also applies to lifting/upward movement (distance is halved).
 4) **Collapsing Waves:** You can make waves (not of super-large volume) collapse into short-term pouring rain.
 5) **Other Reasonable Uses:** The lubrication can also force others to make an **Agility** identification at **Difficulty Value 15** or lose their balance on it. Catching the opponent may require fighting against Physical Defense.
 
@@ -128,8 +127,7 @@ tags: ["pathway:tyrant", "sequence:7"]
 - **Targeting and range:** Choose 1 target.
 - **Effect:** Create a layer of water film that covers the body surface (or forms into a ball), granting:
 
-1) While covered, the target is isolated from environmental influences other than temperature, and will not be corroded by stepping into substances such as acid—unless the corresponding substance is larger than “1 bit.”  
-   [[UNCLEAR: “1 bit” is an undefined measurement/threshold in the source.]]
+1) While covered, the target is isolated from environmental influences other than temperature, and will not be corroded by stepping into substances such as acid—unless the substance layer is more than 1 meter thick.
 2) The water film grants the same underwater action effect as your [[Phantom Scale]], and does not stack with it (making it especially effective for others).
 3) If a creature is voluntary or helpless, the water film can wrap around its head, gradually reducing the air inside. After 1 round, it begins suffocating and loses **1d6 hit points per round**.
 

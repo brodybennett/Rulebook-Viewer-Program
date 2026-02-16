@@ -45,8 +45,7 @@ Time-based benefits:
    - All attributes +2
    - Attribute and skill identification +2 (beneficial)
    - You will only become exhausted due to extraordinary factors.
-4. **Quick Dodge (Fast dodge):** At night/late night, have complete physical defense against firearms instead of light/lightning; gain 1 extra level of dodge.  
-   [[UNCLEAR: “Complete physical defense against firearms instead of light/lightning” is ambiguous about how Light/Lightning interacts with firearm defense.]]
+4. **Quick Dodge (Fast dodge):** At night/late night, have complete physical defense against firearms (light/lightning bypass this); gain 1 extra level of dodge.
 
 Special timing definitions:
 
@@ -77,9 +76,8 @@ Related mechanics:
 
 Sequence scaling notes:
 
-- [[Darkness Pathway Sequence 8]]–[[Darkness Pathway Sequence 6]]: It only takes **3 hours** to rest starting from Sequence 8 (may differ by **5 minutes**), and each Sequence is reduced by **1 hour**.
+- [[Darkness Pathway Sequence 8]]-[[Darkness Pathway Sequence 6]]: Rest time is 3h at Sequence 8, then reduces by 1h per Sequence (Sequence 7: 2h; Sequence 6: 1h).
 - [[Darkness Pathway Sequence 5]]: It only takes **half an hour** to rest (difference can be **10 minutes**).  
-  [[UNCLEAR: The stated “each Sequence is reduced by 1 hour” conflicts with the explicit Sequence 5 rest time of half an hour.]]
 
 Related mechanics:
 - [[Spirituality]]
@@ -98,8 +96,7 @@ Related mechanics:
 
 Whenever you are about to suffer a surprise/sneak attack from within darkness/shadow, you gain the following benefits:
 
-1. Immediately perceive the source of danger in your mind; flashing thoughts tell you the location, source, and form of the danger. You will not be attacked/sneaked by things in the dark/shadow, and you can enjoy all surprises/sneaks at night benefit.  
-   [[UNCLEAR: “Enjoy all surprises/sneaks at night benefit” is ambiguous about what specific benefit is gained.]]
+1. Immediately perceive the source of danger in your mind; flashing thoughts tell you the location, source, and form of the danger. You will not be attacked/sneaked by things in the dark/shadow; you are immune to surprise/sneak attacks from darkness at night (treat as always warned).
 2. If at night/late night, if one attack can lose half of your maximum blood volume (round up):
    - Perform an Inspiration appraisal at **Difficulty Value 15**.
    - If successful, your physical defense gains a **+4 temporary bonus**; facing Light/Lightning modification to preserve complete physical defense.
@@ -153,3 +150,4 @@ Related mechanics:
 - [[Spiritual Intuition Test]]
 - [[Spiritual Materials]]
 - [[Extraordinary People]]
+

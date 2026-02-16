@@ -28,9 +28,8 @@ tags: ["pathway:Demoness", "sequence:1"]
   - You can combine your original abilities to create new disasters.
   - In one [[Encounter]], you can:
     - Mix and superimpose three disasters, **or**
-    - Make one disaster appear three times.
+    - Make one disaster appear three times in the same encounter (resolve as three instances; for damage, treat it as triple damage).
       - Example: Meteorites become a meteor shower, dealing triple damage.
-      [[UNCLEAR: “appear three times” could mean three repetitions, three simultaneous instances, or another form of tripling; the example only clarifies “triple damage.”]]
 - **Cost:**
   - Each [[Spell-Casting Action]] consumes 15 points of [[Spirituality]].
 

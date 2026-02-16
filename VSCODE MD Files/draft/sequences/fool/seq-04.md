@@ -49,7 +49,7 @@ At this **Sequence**, you gain or improve the following capabilities:
 - **Use:** You can complete the initial control of the **Spirit Body Thread** within three seconds. [[Spirit Body Thread]]
 - **Effect:** You can completely transform the target into a puppet within fifteen seconds. [[Puppet]]
 - **Targeting and range:** Your control range is 150 meters.
-- **Limits:** With the help of **Secret Puppets**, you can increase the control distance of the **Spirit Body Thread** beyond 150 meters, but it cannot exceed the control limit of the body's **Secret Puppets**. [[UNCLEAR: “the control limit of the body's Secret Puppets” is not defined, so the maximum extended distance cannot be resolved from RAW.]]
+- **Limits:** With the help of **Secret Puppets**, you can increase the control distance of the **Spirit Body Thread** beyond 150 meters, but it cannot exceed your normal Secret Puppet control distance.
 - **Limits:** When first promoted, you can control up to 50 **Secret Puppets**.
 
 ### Exchange Positions
@@ -78,7 +78,7 @@ At this **Sequence**, you gain or improve the following capabilities:
 - **Initiative:** You can also use this to give the marionette a certain degree of initiative, depending on its consciousness.
 
 - **State of the Secret Puppet:** The **Secret Puppet** can see, hear, and feel, but can't move anything.
-- **Psychicism and Movement:** Psychicism can make the **Secret Puppet** move on its own. [[UNCLEAR: RAW states the Secret Puppet “can't move anything,” then later states Psychicism can make it move on its own; the exact scope/limits of movement are not specified.]]
+- **Psychicism and Movement:** Psychicism can make the **Secret Puppet** move on its own; the **GM** decides the exact scope of movement/actions.
 
 > **GM Note:** If a PC in the group is about to die or lose control, you can consider making them a Secret Puppet, and let the PC recover its own consciousness through psychic communication to live on. However, they can no longer leave your range of one kilometer, and they may be lost in danger. Consider this if another Player is willing to accept it. [[Lose Control]]
 
@@ -90,7 +90,7 @@ At this **Sequence**, you gain or improve the following capabilities:
 #### Loss Effects
 
 - **Self-Connection:** **Spirit Worms** separated to marionettes are considered part of yourself. Therefore, if the **Secret Puppet** with the **Spirit Worm** suffers a loss, you will also be affected to a certain extent.
-- **Major Loss Threshold:** When more than 6 **Spirit Worms** are lost at one time, you will immediately suffer the equivalent of your Sanity strikes of mythic creature forms at this level, and enjoy a sanity check bonus. [[Sanity]] [[Sanity Strike]] [[Mythic Creature Form]] [[Sanity Check]] [[UNCLEAR: The phrase “suffer the equivalent of your Sanity strikes … and enjoy a sanity check bonus” does not specify the exact mechanical procedure, timing, or bonus value.]]
+- **Major Loss Threshold:** When more than 6 **Spirit Worms** are lost at one time, you immediately suffer one **Sanity Strike** at this level, and gain **Advantage** on your next **Sanity Check**. [[Sanity]] [[Sanity Strike]] [[Mythic Creature Form]] [[Sanity Check]]
 - **6 or Less:** As long as the loss of **Spirit Worms** is 6 or less, there will be no major problems: it will only give you headaches and signs of out-of-control tendencies that can be suppressed. One or two losses will not affect the latter; losses in this range can be suppressed for you, especially when your potion digestion is higher. [[Potion Digestion]] [[Out-of-Control]]
 
 #### When a Spirit Worm Is Actually Lost
@@ -100,7 +100,7 @@ At this **Sequence**, you gain or improve the following capabilities:
 
 #### Recovering Spirit Worms
 
-- **Free-Action Recovery:** Even if there is a spike strike, as long as you still have time to use a free action, you can immediately recover these **Spirit Worms**, thus directly avoiding similar attacks. [[UNCLEAR: RAW does not specify the exact trigger window, method, or whether this recovery is part of a specific ability; it only states it can be done “as long as you still have time to use a free action.”]]
+- **Free-Action Recovery:** Even if there is a spike strike, you can immediately recover these **Spirit Worms** in the same round as a free action, thus directly avoiding similar attacks.
 
 #### Tolerance by Sequence and Digestion
 

@@ -41,8 +41,7 @@ tags: ["pathway:Demoness", "sequence:8"]
   - If the check fails, you must change to another charm method or change your image, then attempt the check again.
   - If you fail again, then for 24 hours your Pleasure check against that target automatically fails.
 - **On success:** The target enters an **Enchanted** state toward you ([[Enchanted]]) with these effects:
-  1. A continuous -4 detrimental modifier applies to “skill and attribute evaluation.” If the target is hostile to you, then in battle (until only you are left) they must prioritize others as targets of harm.  
-     [[UNCLEAR: “Skill and attribute evaluation” is not defined here; the text only specifies a continuous -4 penalty while Enchanted.]]
+  1. A continuous -4 detrimental modifier applies to skill and attribute checks opposed by you or involving you. If the target is hostile to you, then in battle (until only you are left) they must prioritize others as targets of harm.
   2. You gain +4 advantage on any [[Social Identification]] against the target.
   3. As long as you make any successful Social Identification or successful [[Social Roleplay]] involving the target, they obey you in all non-contradictory actions.
      - A target who is hostile/vigilant toward you does **not** gain this obedience benefit, even if affected by the Charm.
@@ -82,5 +81,4 @@ tags: ["pathway:Demoness", "sequence:8"]
 - **Bonuses and penalties:** Apply the same bonuses/penalties as **Cognitive Misleading**.
 - **Effect:**
   1. On success, the target must act according to what they believe to be true (not simply believe it) until they notice logical loopholes and roleplay out where the loopholes are; the GM should try not to remind them.
-  2. Using this ability, you can make a person in the Cognitive Misleading “bumped into” scenario carry out the behavior you instigated, so that people who don’t want to harm innocent people really kill people. This usually works by default.  
-     [[UNCLEAR: “Works by default” is not defined here; it is unclear whether it indicates automatic success or a typical GM adjudication outcome.]]
+  2. Using this ability, you can make a person in the Cognitive Misleading “bumped into” scenario carry out the behavior you instigated, so that people who don’t want to harm innocent people really kill people. This usually works by default (GM can override).

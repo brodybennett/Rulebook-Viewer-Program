@@ -50,8 +50,7 @@ tags: ["pathway:tyrant", "sequence:3"]
 - **Use:** Casting action  
 - **Effect:**  
   You create a storm of lightning over an area:
-  - Damage: 1d10 + 1d10 + 1d10 + Strength damage die as area lightning damage  
-    [[UNCLEAR: “Strength damage die” is not defined—uncertain whether this refers to an attribute-based die or flat modifier.]]
+  - Damage: 3d10 + your Strength damage bonus as area lightning damage.
   - Attack Roll: +20 [[Disaster Attack Roll]] vs target’s [[Physical Defense]]  
   - This attack ignores Dexterity and evasion.  
     [[Evasion]]
@@ -61,12 +60,10 @@ tags: ["pathway:tyrant", "sequence:3"]
   - To fully avoid it using substitute skills, at least **3 substitutes** are required, but the confrontation test is performed only once.  
     [[Substitute Skills]]  
     [[Confrontation Test]]  
-  - If the Player’s level is one [[Sequence]] lower, the number of substitutes required increases by +1.  
-    [[UNCLEAR: It is unclear whether this refers to the attacker’s or defender’s Sequence level.]]
+  - If the target is one [[Sequence]] lower than you, the number of substitutes required increases by +1.
 
 - **Split Resolution:**  
-  You may divide the effect into three separate instances of lightning damage, calculated separately.  
-  [[UNCLEAR: “Divide the identification into three times” interpreted as splitting damage into three separate damage instances.]]
+  You may divide the effect into three separate instances of lightning damage; roll damage separately for each instance (and apply damage reduction separately).
 
   This also interacts with luck consumption by a [[Destiny Pathway]] Sequence 5 ability used to avoid a demigod domain ability, doubling the luck consumption.  
   [[Demigod Domain]]
@@ -113,5 +110,5 @@ tags: ["pathway:tyrant", "sequence:3"]
 - **Limits:**  
   - This perception can be affected by anti-divination.  
     [[id:alias-anti-divination|Anti-Divination]]  
-  - The effective range is approximately the size of a city.  
-    [[UNCLEAR: “City-sized” range is approximate and not mechanically defined.]]
+- The effective range is approximately the size of a city.  
+  - **Clarification:** Treat this as roughly a 5 km radius of connected sea.

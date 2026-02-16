@@ -8,7 +8,7 @@ tags: ["bestiary", "creature", "extraordinary"]
 
 A beast covered in black texture - fast, very agile, and capable of shape-shifting. It lurks in the shadows, sneaks up, bites, then bites off its throat, and especially likes to eat human brains. Like an endless shadow, it pounced on the human body and began to bite quickly.
 
-[[UNCLEAR: The RAW alternates between "Black Panther," "Vile Panther," "evil-striped/evil-patterned black panther," and "fel-striped panther," and it is not fully clear whether these are all the same creature or variants.]]
+Terminology note: this entry treats "Black Panther," "Vile Panther," "evil-striped/evil-patterned black panther," and "fel-striped panther" as variant names for the same creature.
 
 ## Habits
 
@@ -30,8 +30,7 @@ The evil-striped black panther can hide in any shadow and only comes out to hunt
 
 - **Attributes:** Charisma 4; Strength 8; Luck 4; Dexterity 8; Constitution 5; Will 5; Inspiration 8; Education 3.
 - **Health:** 34
-- **Physical Defense Level:** 10 + 8 agility + 4 deflection = 22. [[Agility]] [[deflection]]
-  [[UNCLEAR: "agility" is used in the defense formula but does not appear as a listed attribute; it may be distinct from Dexterity or a translation mismatch.]]
+- **Physical Defense Level:** 10 + 8 Dexterity + 4 deflection = 22. [[Dexterity]] [[deflection]]
 - **Skills:** Climbing; Swimming; Fighting; Intimidating; Jumping; Survival; Piloting (trained); Listening (proficiency); Reconnaissance (proficiency); Stealth (mastery).
 
 ## Sighting
@@ -96,7 +95,7 @@ This fur can be made into very expensive and comfortable clothing for at least t
 - **Effect:** The curse damage will first be applied to this piece of clothing.
 - **Limits/Charges:** This piece of clothing can absorb and store 10 points of curse damage in total.
 - **Special cases:** When the curse damage storage is full, your stealth test will be +2 for 8 hours, and then the curse damage can be stored again.
-  [[UNCLEAR: It is not specified when or how "curse damage" is applied first to the clothing (e.g., worn vs. carried, single wearer vs. shared garment).]]
+  - **Clarification:** While worn, this clothing absorbs incoming curse damage first, up to its storage limit.
 
 ### Black Panther Blood
 

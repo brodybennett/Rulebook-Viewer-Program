@@ -27,10 +27,10 @@ Example behavior:
 
 ## Durability
 
-A murloc's protection is very thick. As long as it is prepared, hunters who are not Extraordinary can hunt it, but it is still possible for it to escape. [[UNCLEAR: "prepared" and "not Extraordinary" are referenced without defining what preparation entails or what qualifies as Extraordinary in this ruleset.]]
+A murloc's protection is very thick. With proper preparation, ordinary (non-Extraordinary) hunters can hunt it, but it is still possible for it to escape.
 
 ## Materials and Value
 
 - The swim bladder of murlocs is the main material of Sequence 9 sailors. [[Sailor]]
-- It can be eaten except for the main ingredients. [[UNCLEAR: "main ingredients" is referenced but not specified (e.g., which parts are excluded).]]
+- It can be eaten except for the swim bladder (the main ingredient).
 - A whole murloc can usually be sold at a market price of 150-200 pounds.

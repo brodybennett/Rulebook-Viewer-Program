@@ -6,4 +6,10 @@ tags: ["pathway:paragon", "sequence:0"]
 
 # Sequence 0: The Paragon
 
-[[UNCLEAR: The RAW text provides only the sequence title; the Pathway name and all mechanical sections (e.g., Advancement, Extraordinary Abilities) are not present.]]
+## Advancement (TBD)
+
+Source text for the advancement ritual is not yet available.
+
+## Extraordinary Abilities (TBD)
+
+Source text for abilities is not yet available.

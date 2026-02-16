@@ -6,4 +6,6 @@ tags: ["supplementary", "changelog"]
 
 # Supplementary Update Log
 
-[[UNCLEAR: Source file contains no content; intended update log entries are unknown.]]
+No supplementary update-log entries have been curated yet.
+
+This page is intentionally structural and does not add rules content.

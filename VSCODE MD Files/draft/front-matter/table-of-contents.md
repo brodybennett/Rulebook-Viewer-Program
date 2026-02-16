@@ -6,4 +6,14 @@ tags: ["front-matter", "toc"]
 
 # Table of Contents
 
-[[UNCLEAR: Source file contains no content; intended table of contents is unknown.]]
+This page is a draft placeholder for a future curated table of contents.
+
+## Current Draft Sections
+- `front-matter/`
+- `core-rules/`
+- `advanced-systems/`
+- `sequences/`
+- `lore-reference/`
+- `supplementary/`
+
+This page is intentionally structural and does not add rules content.

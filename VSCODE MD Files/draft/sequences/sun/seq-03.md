@@ -35,10 +35,8 @@ tags: ["pathway:sun", "sequence:3"]
   - Sequence 2 evil existence: +40.
   - Sequence 1 evil existence: +80.
   - Perform an act of justice: +1d8.
-- **Maximum Justice Value:** Your maximum Justice Value equals your maximum **Spirituality** [[Spirituality]] (excluding extra Spirituality obtained by special sources). [[UNCLEAR: “excluding the extra spirituality obtained by special” does not clearly define which bonuses are excluded.]]
-- **Spending Justice Value:** Your accumulated Justice Value is described as an ocean of light within your body. By consuming Justice Value, you can use the Justice abilities below.
-  - **Additional Cost:** Each Justice ability costs 3 points of Spirituality per use. [[UNCLEAR: The “use without consuming justice” clause below does not state whether the 3 Spirituality cost is also waived.]]
-- **Free Use (Daily):** If you performed an act of justice that day, you have at most one chance to use a Justice ability without consuming Justice Value; this resets the next day.
+- **Maximum Justice Value:** Your maximum Justice Value equals your maximum **Spirituality** [[Spirituality]] (excluding temporary or external bonuses such as items, buffs, or one-off effects).
+  - **Additional Cost:** Each Justice ability costs 3 points of Spirituality per use. Free uses waive Justice Value only; the 3 Spirituality cost still applies.
   - Sequence 2: The maximum number of chances increases to 3; these chances can be continuously saved until consumed.
 
 ### Hide by Light
@@ -46,15 +44,13 @@ tags: ["pathway:sun", "sequence:3"]
 - **Cost:** 10 Justice Value; 3 Spirituality [[Spirituality]].
 - **Use:** **Swift action** [[Swift Action]].
 - **Duration:** Maintain an encounter [[Encounter]].
-- **Effect:** You directly become invisible through precise control of optics. Non-**demigod**-level [[Demigod]] mystics and monsters can’t see your existence. Even a secret **Master Puppet** [[Master Puppet]] must be demigod level to detect you, because you hide the thread of the **spirit body** [[Spirit Body]] to a certain extent—*or* they can see you, but the light perception is shifted. [[UNCLEAR: The RAW alternates between “can’t see your existence” and “can see it, but the light perception is shifted.”]]
-
+- **Effect:** You directly become invisible through precise control of optics. Non-**demigod**-level [[Demigod]] mystics and monsters can�t see your existence. Demigod-level detection can perceive a distorted light outline but does not grant clear sight of you.
 ### Actification
 
 - **Cost:** 20 Justice Value; 3 Spirituality.
 - **Use:** Swift action.
 - **Trigger:** An impending **non-holy domain** attack [[Non-Holy Domain]].
-- **Effect:** You nullify the triggering attack, but it must be embodied in reality (material or elemental). It cannot be an intangible, conceptual attack. [[UNCLEAR: The clause about “glimpsing their release process in the invisible realm” is unclear as a requirement vs. an alternative condition.]]
-  - After use, the corresponding attack immediately turns into dazzling golden light in mid-air, gathers into an “ocean,” and is purified.
+- **Effect:** You nullify the triggering attack, but it must be embodied in reality (material or elemental). It cannot be an intangible, conceptual attack. You must be able to perceive the attack being released (line of sight or spiritual perception).
   - When facing ranged artillery, this can directly turn multiple artillery and bullets into light.
   - The radiance immediately purifies surrounding curses and evil influences [[Curse]].
 
@@ -63,7 +59,7 @@ tags: ["pathway:sun", "sequence:3"]
 - **Cost:** 15 Justice Value; 3 Spirituality.
 - **Use:** Swift action.
 - **Effect:** Choose one thing that suffers loss. You repair changes in reality that were lost due to improper supernatural means.
-  - Example: You can restore stolen distance in a round of action—restoring it to the enemy’s rear—and make the enemy “reach” in front of you in disguise, indirectly shortening the distance between the enemy and you by shortening the distance between the enemy and rear objects. [[UNCLEAR: The distance-restoration example is difficult to parse and may imply contradictory positioning changes.]]
+  - Example: You can restore stolen distance to its original state in one round (e.g., restore the enemy's rear-position distance), thereby returning relative positions to their proper spacing.
 - **Limits:** A swift action can only choose one type and target of restoration. Restoring distance cannot restore other things.
 - **Additional Effects:**
   - You can choose a target to restore supernatural powers stolen in previous rounds, up to 1d4+1 at a time.
@@ -72,15 +68,13 @@ tags: ["pathway:sun", "sequence:3"]
     - 1d10 **hit points** [[Hit Points]] (if any **unholy damage** [[Unholy Damage]]) and
     - 1d3 **Sanity** [[Sanity]] (if any unholy damage)
     to damage caused by such things.
-  - The target you restore is protected for 1 round: evil or stealing behaviors performed on the target again in this round will increase the identification difficulty by 10 points **or** reduce the difficulty of breaking free by 10 points. [[UNCLEAR: It is unclear when to apply the +10 “identification difficulty” vs. the -10 “break free” difficulty, and to whom each applies.]]
-
+  - The target you restore is protected for 1 round: any new evil/stealing effect targeting them has its identification difficulty increased by 10 points; if the target must break free, reduce that break-free difficulty by 10 points.
 ### Zhengyao Wings
 
 - **Cost:** 15 Justice Value; 3 Spirituality.
 - **Use:** **Free action** [[Free Action]].
 - **Limits:**
-  - Not subject to the use restriction of Justice abilities; the use restriction is calculated separately. [[UNCLEAR: The “use restriction of justice ability” is referenced but not defined in this section.]]
-  - Once per round.
+  - Not subject to the daily free-use limit of Justice abilities; this ability�s uses are tracked separately.
 - **Effect:** Once per round, you strengthen the spell effect of your **Sun domain** [[Sun Domain]] once. This can be superimposed with **Fire of Light** [[Fire of Light]].
   > **Lore:** Two pure white wings spread out on the front of the effect (for example, the **Darkness Spear** [[Darkness Spear]]), with clustered tips like angels.
 - **Bonuses (apply to the strengthened effect):**

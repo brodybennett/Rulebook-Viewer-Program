@@ -12,7 +12,7 @@ tags: ["pathway:hanged-man", "sequence:5"]
 - You can then **Drive** a grazed soul in a unique way (like shepherding lambs for the gods), selectively using three abilities from that soul.
 - You can graze up to 7 souls.
 - You can drive only 1 soul at a time, but you can change the driven soul instantly.
-- If the herding target is demigod-level, it can be released directly because of its strong spirit body, but only 1 at a time. [[UNCLEAR: “Released directly” here overlaps with later “Release the soul” rules, but appears to describe a different effect (released yet still controlled).]]
+- If the herding target is demigod-level, it can be released directly because of its strong spirit body, but only 1 at a time; the soul manifests but remains under your control.
 
 ## Advancement
 
@@ -30,7 +30,7 @@ tags: ["pathway:hanged-man", "sequence:5"]
 ### Attribute Gain
 
 - **Attribute Gain:** Strength +1, Constitution +1, Agility +1, Inspiration +1.
-- Biology can be quickly upgraded to Erudition. [[UNCLEAR: “Biology” and “Erudition” are not defined here; unclear what “quickly upgraded” mechanically entails.]]
+- Biology can be rapidly trained up to Erudition (reduced training counts).
 
 ### Herding
 
@@ -46,16 +46,16 @@ tags: ["pathway:hanged-man", "sequence:5"]
      - improvements brought by potions, and
      - subdivided skills (e.g., all categories in Sun spells): you may choose only one subdivided skill to obtain. [[Sun spells]]
   3. You may use the soul’s abilities immediately, but you can drive at most 1 soul at the same time. If you have two souls (e.g., Abyss and Witch), when you switch from Abyss to Witch, Abyss abilities disappear immediately.
-     - This includes demonization, unless it is an ability like Divine Oath, which does not need to be a persistent effect that lasts forever. [[UNCLEAR: The exception clause is unclear about which abilities persist without remaining driven, and how “persistent” is determined.]]
+     - This includes demonization; abilities like Divine Oath do not require persistence to remain.
   4. You can graze up to 7 souls, and support 1 Sequence 4 soul.
-     - Sequence 4 and above souls can be released because of their strong spirit body, and can still be manipulated by you; this can bring you independent spellcasting/attack/movement/number of free actions. [[UNCLEAR: “Released” here appears to mean a controlled, manifested soul with independent actions; its interaction with the separate “Release the soul” action is unclear.]]
+     - Sequence 4 and above souls can be released because of their strong spirit body, and can still be manipulated by you; the released soul acts with its own action economy while under your control.
   5. Grazed souls continue to be tortured, in excruciating pain, and are forced to be your lambs.
   6. You cannot graze spirit bodies and characteristics with [[spiritual pollution]], which may cause you to suffer corresponding pollution.
 
 - **Drive a Soul (no action):**
   - No action is required: choose 1 grazed soul to drive.
   - While driving it, you can use the 3 extraordinary abilities you selected from that soul; you do not need to switch between those three abilities.
-  - However, switching related to grazed extraordinary items usually requires 1 [[Free Action]]; up to 6 times in 1 round. [[UNCLEAR: “Grazed extraordinary items” are not defined here; unclear what specifically is being switched.]]
+- However, switching which grazed extraordinary item is active usually requires 1 [[Free Action]]; up to 6 times in 1 round.
 
 - **Benefits While Using a Driven Soul’s Abilities:**
   1. When you switch to the soul of the corresponding Pathway, you immediately show the corresponding characteristics. For example:
@@ -68,6 +68,6 @@ tags: ["pathway:hanged-man", "sequence:5"]
 - **Release the Soul ([[full-round action]]):**
   - As a full-round action, you **Release** one of the spirits you graze, freeing it from suffering.
   - The freed soul remembers its experience during the herding, can be channeled, and dissipates after 3d2 questions. [[channeling a soul]]
-  - Dream divination for forced psychic psychics results in a loss of 3 problem opportunities, and the soul is insufficient to maintain itself and quickly dissipates. [[UNCLEAR: “forced psychic psychics” and “problem opportunities” are unclear; trigger and exact meaning are not defined here.]]
+- Dream divination for forced psychic psychics results in a 3-point penalty, and the soul is insufficient to maintain itself and quickly dissipates.
   - The Extraordinary characteristics are discharged from your body at the moment the soul is released, and do not affect you.
   - If you die, all souls are released immediately, faster than the time for Extraordinary characteristics to be released.

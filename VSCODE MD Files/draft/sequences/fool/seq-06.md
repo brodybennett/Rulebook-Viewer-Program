@@ -1,4 +1,4 @@
----
+﻿---
 title: "Sequence 6: Faceless Man"
 id: "fool-seq-06"
 tags: ["pathway:fool", "sequence:6"]
@@ -28,7 +28,7 @@ tags: ["pathway:fool", "sequence:6"]
 ## Acting
 
 - **Acting principle:** pretending to be someone else.
-- You can pretend to be anyone but only yourself. [[UNCLEAR: The sentence is internally contradictory; it may mean “anyone but yourself,” but the RAW text is unclear.]]
+- You can pretend to be anyone except yourself.
 - While integrating into the role and trying to play it, withdraw from emotion and examine it indifferently; through bit-by-bit comparison, recognize yourself and find the truest self, and avoid being negatively affected by the role due to long-term performance.
 
 ## Extraordinary Abilities
@@ -45,16 +45,16 @@ tags: ["pathway:fool", "sequence:6"]
    - You can also recall this information from people you met before being promoted.
    - If you have only seen a portrait, you may only remember appearance.
 2. If the person you have met is disguised, you can only remember the information of the disguise.
-   - As long as they can't completely cover up their temperament and behavior habits, even if you don't know their true face, you can find them from the crowd at a glance, even if they disguise themselves again. [[UNCLEAR: The last clause is grammatically unclear in RAW (“and even disguised him again”).]]
+   - As long as they can't completely cover up their temperament and behavior habits, even if you don't know their true face, you can find them from the crowd at a glance; the **GM** decides whether this still applies if they disguise again.
 
 ### Metamorphosis
 
 - **Use:** 1 casting action.
 - **Cost:** Without expending **spirituality**.
 - **Effect:** You undergo a physically permanently altered disguise. You can permanently change into someone with a different appearance, but it is only a superficial change, not a real one.
-- **Additional effects:** This allows you to freely adjust **Charisma** between 1–6, but does not involve extraordinary strength.
+- **Additional effects:** This allows you to freely adjust **Charisma** between 1â€“6, but does not involve extraordinary strength.
 - **Limits and rules:**
-  1. You can’t drastically change your body shape. You can only increase or decrease your height by 10 centimeters.
+  1. You canâ€™t drastically change your body shape. You can only increase or decrease your height by 10 centimeters.
      > **Lore:** This essentially fills your body with excess flesh and blood; increasing outward height implies losing the flesh and blood that previously filled your body.
   2. Transformation does not affect the essence; it only changes appearance, and cannot change with the clothes. At this stage, your change range is not enough to deform the clothes; at most, it is like painting the surface of the body with a layer of oil paint with the same color as the clothes.
   3. The essence and process of deformation is to adjust the position, color, smell, and characteristics of flesh and blood. Therefore, flesh and blood will wriggle and change to a certain extent; you can change skin color and become the appearance of the opposite sex, but it cannot affect your primary sexual characteristics.
@@ -63,8 +63,8 @@ tags: ["pathway:fool", "sequence:6"]
 
 ### Other Extraordinary Ability Improvements
 
-- **Anti-divination:** You don’t need a paper figurine substitute; you can use any divination props for anti-divination. This usage will not damage the divination props (for example, coin divination can be achieved by making coins roll and jump in the hand), but the occult identification is changed to inspiration identification. [[UNCLEAR: “paper figurine substitute” may or may not refer to “Paper Doll Substitute,” but RAW uses different terms.]]
-- **Manipulate Flame:** The range of Manipulate Fire has been increased to 40 meters. [[UNCLEAR: The ability header says “Manipulate Flame,” but the rule text refers to “Manipulate Fire.”]]
+- **Anti-divination:** You donâ€™t need a [[Paper Doll Substitute]]; you can use any divination props for anti-divination. This usage will not damage the divination props (for example, coin divination can be achieved by making coins roll and jump in the hand), but the occult identification is changed to inspiration identification.
+- **Manipulate Fire:** The range of Manipulate Fire has been increased to 40 meters.
 - **Flame Leap:** The range of Flame Leap is increased to 40 meters.
 - **Air bomb:** Changed to 2d6 physical damage, comparable to the latest rifle.
 - **False "breathing underwater":** The thin air tube is changed to a length of 10 meters.

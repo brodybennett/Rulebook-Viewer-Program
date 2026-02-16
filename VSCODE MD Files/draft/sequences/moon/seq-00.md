@@ -22,14 +22,12 @@ tags: ["pathway:moon", "sequence:0"]
 ### Mother of All Spirits
 
 - **Use:** While your gaze is upon your chosen target; especially while a **Full Moon** is present.
-- **Effect:** The **Spirit cost** of your chosen target “will no longer exist as a rule.”  
-  [[UNCLEAR: The text does not specify whether this removes Spirit costs you pay to affect the target, or the target’s own Spirit costs.]]
+- **Effect:** The **Spirit cost** of your chosen target no longer applies while under your gaze.
 
 ### Unique Red Moon
 
 - **Cost:** One thought.
 - **Effect:** You can use the moon to cover up the sun’s brilliance, making it a **Red Moon** or **Blood Moon** 24 hours a day, or even forever.
-- **Aftereffects:** The negative power can ravage the earth, allowing the **Spirit World** to interact with reality for a long time, releasing countless unspeakable monsters and evil spirits.  
-  [[UNCLEAR: The scope and exact mechanical impacts of these world-scale effects are not specified.]]
+- **Aftereffects:** The negative power can ravage the earth, allowing the **Spirit World** to interact with reality for a long time, releasing countless unspeakable monsters and evil spirits. This is a world-scale regional effect defined by the GM.
 - **Additional effect:** At the same time, you can also turn the red moon into **Bright Moonlight**.
 - **Limits:** A **White Moon** will not have any mystic effects, equivalent to a “dispelled moonlight block.” [[Moonlight Block]]

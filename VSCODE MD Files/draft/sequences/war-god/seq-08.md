@@ -16,8 +16,7 @@ tags: ["pathway:war-god", "sequence:8"]
 - **Constitution** +2
 - **Agility** +1
 - **Inspiration** +1
-- Fighting (Melee Combat) can be quickly promoted to Master.  
-  [[UNCLEAR: The rules do not specify what “quickly promoted to Master” changes mechanically (time, cost, checks, or prerequisites).]]
+- Fighting (Melee Combat) can be promoted to Mastery immediately upon meeting prerequisites.
 
 ### Extraordinary Fighting
 
@@ -33,9 +32,8 @@ Your Sequence 9 fighting ability has been improved, so you can master more fight
   2. If the Agility test of your body resistance is successful, and the enemy is attacking you in melee, then you can use a **Swift Action** to immediately perform a special action of **Grapple** or **Attack With Force**. For Attack With Force, the Strength bonus is halved.  
      [[Agility Test]] [[Body Resistance]] [[Swift Action]] [[Grapple]] [[Attack With Force]]
 
-- **Winning Pursuit:** You have an **Advantage/Disadvantage** against the enemies you keep hitting. [[Advantage / Disadvantage]]
-  [[UNCLEAR: The text states “advantage/disadvantage” without specifying whether the effect grants Advantage, Disadvantage, or depends on context.]]
-  1. If you choose the same target with the Fighting (Hand-to-Hand) skill for 2 or more consecutive times, and the continuous identification is successful, then from the second time, you will continue to gain the advantage/disadvantage of him until the continuous attack is interrupted.  
+- **Winning Pursuit:** You have **Advantage** against the enemies you keep hitting. [[Advantage / Disadvantage]]
+  1. If you choose the same target with the Fighting (Hand-to-Hand) skill for 2 or more consecutive times, and the continuous identification is successful, then from the second time, you will continue to gain Advantage against them until the continuous attack is interrupted.  
      [[Fighting (Hand-to-Hand)]] [[Continuous Identification]]
   2. If you have achieved a **Great Success** in any attack identification in 2 or more consecutive blows, you will be able to hook his legs and sweep his legs, causing him to fall into an **Unbalanced** state.  
      [[Great Success]] [[Attack Identification]] [[Unbalanced]]

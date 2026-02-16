@@ -11,7 +11,7 @@ tags: ["pathway:myster-pryer", "sequence:9"]
 ### Advancement Ritual
 
 - **Advancement Ritual:** To see the occurrence of a major event, to study the precise results and after-effects of this event in advance, and to solve the source of this event before it happens. (unofficial ceremony)  
-  [[UNCLEAR: RAW labels this as an "unofficial ceremony"; it is unclear whether it is required, optional, or non-canonical for advancement.]]
+  **Unofficial ceremony:** Optional alternative; requires GM approval.
 
 ## Extraordinary Abilities
 

@@ -30,7 +30,7 @@ tags: ["pathway:arbiter", "sequence:5"]
 - Only when all crimes are punished as they should be punished can the Beyonder be promoted safely.
 - Generally speaking, anyone will break the law inadvertently in their life, so it is dangerous to assume one’s ordinary life is just and straightforward.
 - The fewer sins left unpaid, the easier it is to succeed in promotion.
-- Generally speaking, it is safe to have **3 sins** left unpaid. [[UNCLEAR: The text says all crimes must be punished for safe promotion, yet also says having 3 unpaid sins is generally safe.]]
+- What counts as a â€œsafeâ€ number of unpaid sins is GM-defined based on severity.
 - Because it is generally impossible to completely count unconscious violations, it is normal to feel at least intense torture during promotion.
 - Once the promotion is completely completed, the Beyonder will feel a new life.
 
@@ -41,7 +41,7 @@ tags: ["pathway:arbiter", "sequence:5"]
 ### Attribute Gain
 
 - **Attribute Gain:** Strength +2, Constitution +2, Agility +1.
-- All your attack skills can be learned to upgrade to knowledge. [[UNCLEAR: “upgrade to knowledge” is undefined and may reference another subsystem.]]
+- All your attack skills can be learned as **Knowledge** skills at **Proficient**.
 
 - **Retribution:** You gain the following laws related to punishment. [[Laws]]
 
@@ -77,7 +77,7 @@ tags: ["pathway:arbiter", "sequence:5"]
 3. **Cold damage:** [[Cold Damage]]
    - Change when the punishment target is gargoyle/golem/any creature with the lowest cold resistance.
    - The hit creature suffers **-2 disadvantage** on the next identification within **1 round**, and its movement power is halved (round up). [[Disadvantage]] [[Identification]] [[Movement Power]]
-   - Sexual creatures are void. [[UNCLEAR: “Sexual creatures are void” is undefined (unclear which creatures are exempt or how).]]
+   - Sexual creatures are exempt at the GM's discretion.
 4. **Fire damage:** [[Fire Damage]]
    - Change when the punishment target is a frozen creature/spider silk/plant/any creature with the lowest fire resistance.
 5. **Poison damage:** [[Poison Damage]]
@@ -93,7 +93,7 @@ tags: ["pathway:arbiter", "sequence:5"]
 - **Targeting and range:** Choose 1 target within 50 meters.
 - **Effect:**
   - Choose the crime of the target and announce the crime (e.g., “illegal trespassing into another person’s house is a crime”), then connect with “the guilty shall be restricted!”
-  - Different crimes separate sentence. [[UNCLEAR: “Different crimes separate sentence” is unclear (how to segment, and whether multiple crimes can be applied in one use).]]
+  - Different crimes can be handled in **one use**, with separate sentences for each.
 - **Restraint (choose by crime severity):**
   - **Minor crime:** Dexterity and evasion in mobility/physical defense **-2 disadvantage**. [[Dexterity]] [[Evasion]] [[Mobility]] [[Physical Defense]] [[Disadvantage]]
   - **Moderate crime:** Dexterity and evasion in mobility/physical defense **-4 disadvantage**. [[Disadvantage]]

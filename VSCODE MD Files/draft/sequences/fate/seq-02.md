@@ -34,7 +34,7 @@ tags: ["pathway:fate", "sequence:2"]
 - **Difficulty Value 30:** You almost figure out what’s going on.
 - **Big success:** You figure out how to act in your best interest.
 - **Big failure:** You accidentally see something you shouldn’t.
-- **Limits:** Every time a **Sequence** or character is promoted: the number of prophetic predictions +2, but **Sequence** 0 will be promoted to ten times. [[UNCLEAR: “ten times” is not clearly defined (flat 10 uses vs a multiplier, and what it modifies).]]
+- **Limits:** Every time a **Sequence** or character is promoted: the number of prophetic predictions +2, but at **Sequence** 0 this increase is multiplied by 10.
 - **Aftereffects:** Prying on high-level persons may be detected and cause corresponding reactions.
 - **Extra:** You increase or decrease the chance that the scene you spy on will or won’t happen. For the picture you see, you can control the content in the picture, and you can apply the ability of your [[Destiny Domain]] to the future: endow bad luck or good luck, or reverse good luck and bad luck, so that this thing will happen—or will not happen—when it appears. So you can pretty much manipulate the future orientation, pointing the future where you want it before it happens.
 

@@ -35,7 +35,7 @@ tags: ["pathway:visionary", "sequence:0"]
 > **Lore:** You present an epic that is your own fantasy.  
 > **Lore:** “Using fantasy to create the whole world.”
 
-[[UNCLEAR: The section uses both “Spiritual Cap Points” and “points of Spirituality”; their relationship is not defined here.]]
+**Spiritual Cap Points:** Points taken from your **maximum Spirituality**. Spending Spiritual Cap Points temporarily reduces your maximum Spirituality until the conjured item ends.
 
 ### The Imaginary Items Will Surely Appear
 

@@ -25,8 +25,7 @@ tags: ["pathway:death", "sequence:6"]
 - **Capacity:** from now on, the number of dead you can drive is no longer equal to your inspiration; instead, it equals your **Spirit Body Strength**.
   - **Spirit Body Strength:** your (inspiration + will + half constitution, rounded up) multiplied by twice.
   - This calculation represents the strength of your spirit body. [[Spirit Body Strength]]
-- **Sequence 5:** the multiple of undead that can be driven based on the strength of the spirit body is multiplied by 3 times.  
-  [[UNCLEAR: It is not clear whether the “×3” at Sequence 5 replaces the “×2” multiplier or is applied in addition.]]
+- **Sequence 5:** replace the **×2** multiplier with **×3**.
 
 ### Language of the Dead
 
@@ -36,8 +35,7 @@ tags: ["pathway:death", "sequence:6"]
 - **Effect:** you chant awkward, jerky, and piercing words the living can never understand, bypassing the physical body and affecting the spiritual body. While you continue chanting, communication with the spirit body is upgraded to drive, even slavery.
 - You choose one of the following effects to use:
   1. **Living creature (spirit-body separation)**
-     - Check **Knowledge of the Dead** against the target’s spirit body strength (inspiration + will + half constitution). If you succeed, the target’s spirit body floats up uncontrollably and separates from the body inch by inch.  
-       [[UNCLEAR: “Spirit Body Strength” is defined earlier with rounding and “×2,” but here it is given as (inspiration + will + half constitution) without rounding or “×2”; the relationship is unclear.]]
+- Check **Knowledge of the Dead** against the target’s spirit body strength (inspiration + will + half constitution, rounded up, then ×2). If you succeed, the target’s spirit body floats up uncontrollably and separates from the body inch by inch.
      - Judgment of the situation:
        - Each Sequence level the chosen target is higher than yours: -2 penalty on **Knowledge of the Dead** checks.
        - For every 1 character the chosen target is higher than you: -2 disadvantage to the **Knowledge of the Dead** check; if the chosen target is 2 higher than you, ignore the great success.
@@ -65,14 +63,12 @@ tags: ["pathway:death", "sequence:6"]
      - This is based on the premise that an undead creature does not take the initiative to obey your orders.
      - If its level is lower than Sequence 6–5, then as long as your **Knowledge of the Dead** is successfully identified, it will be directly enslaved by you, and it will be regarded as the dead you commanded.
      - Even if it doesn’t take the initiative to obey your orders, if it falls into a helpless state and you use this ability again, you can still enslave it. [[Helpless State]]
-     - For a spirit body that has separated from its own body: if it is separated from its body for 72 hours and cannot return, its body is considered dead. time dissipated.  
-       [[UNCLEAR: The phrase “time dissipated” is unclear in the 72-hour rule (what dissipates and when).]]
+- For a spirit body that has separated from its own body: if it is separated from its body for 72 hours and cannot return, its body is considered dead and the spirit body dissipates.
      - The **Words of the Dead** only have the effect of coercive action on natural spirits; because the natural spirits are not dead in essence, and cannot be compelled to enslave.
 
 ### Entering the Spirit World
 
-- **Use:** you can enter the Spirit World at the beginning.  
-  [[UNCLEAR: The timing/trigger for “at the beginning” is not specified.]]
+- **Use:** you can enter the Spirit World at the beginning of your turn.
 - **Effect:** in about 5 minutes, you find the entrance of the Spirit World and thus enter the Spirit World.
 - **Benefits:** you can directly communicate with spirit bodies and recruit messengers; you may also get help from some Spirit World creatures.
 - **Limits:** you will also get lost in the Spirit World, so you should refrain from exploring or ask spirit bodies for directions, and can’t travel through the Spirit World.

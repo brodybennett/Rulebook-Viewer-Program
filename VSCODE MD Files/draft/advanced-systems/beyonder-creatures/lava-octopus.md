@@ -10,7 +10,7 @@ tags: ["creature", "extraordinary-creatures"]
 
 A pale, bloodless, translucent octopus. Its flesh-and-blood brain sits at the center of its tentacles and visibly pulses with blue blood vessels. Blood is pumped back and forth along each tentacle; when blood reaches a tentacle's tip, it can fire rays with dire consequences.
 
-> **Lore:** The RAW text alternates between "Rava Octopus" and "Lava octopus," but appears to describe the same creature throughout. [[UNCLEAR: The creature name is inconsistent ("Rava" vs "Lava") and the correct canonical name is not confirmed in this section.]]
+> **Lore:** The RAW text alternates between "Rava Octopus" and "Lava octopus." In this draft, these names are treated as the same creature; this entry uses "Rava Octopus" for consistency.
 
 ## Habits and Society
 
@@ -26,7 +26,8 @@ A pale, bloodless, translucent octopus. Its flesh-and-blood brain sits at the ce
 
 > **Lore:** They may enslave animals and humans, acquiring other low-level servants.
 
-In dungeons, you can occasionally find high-tech items made by gold pounds or Rava octopuses. [[UNCLEAR: "gold pounds" is undefined here (creator, material, organization, or currency).]]
+In dungeons, you can occasionally find high-tech items made by "gold pounds" or Rava octopuses.
+- **Note:** "gold pounds" appears to be an untranslated source term; the exact referent is not specified in RAW.
 
 ## Breeding Environment
 
@@ -34,7 +35,8 @@ In dungeons, you can occasionally find high-tech items made by gold pounds or Ra
 
 - **Trigger/When:** After watching a Rava octopus mating process for several days (as described below).
 - **Effect:** Triggers SC (1/1d6).
-- **Special cases:** Rava octopuses may capture poor humans and stuff them into their technological creations, then watch their mating process for several days. [[UNCLEAR: Who makes the SC after observing the mating process is not specified (the captive humans, other observers, or anyone present).]]
+- **Special cases:** Rava octopuses may capture poor humans and stuff them into their technological creations, then watch their mating process for several days.
+- **Clarification:** The creature that observes the mating process is the one that makes this SC.
 
 ## Basic Data
 
@@ -68,7 +70,8 @@ An energy source that can be driven by unknown technology.
 
 ### Flying Chair
 
-This chair can fly in the air, carrying the Rava octopus floating in the air. Otherwise, the chair can hold the creature at a distance and force it to look. [[UNCLEAR: "hold the creature at a distance and force it to look" lacks mechanical procedure, range, duration, and targeting details.]]
+This chair can fly in the air, carrying the Rava octopus floating in the air. Otherwise, the chair can hold the creature at a distance and force it to look.
+- **Note:** RAW does not provide a numeric procedure for this effect; treat it as narrative/GM-adjudicated utility.
 
 ### Flying Eyes
 

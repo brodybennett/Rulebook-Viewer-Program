@@ -30,9 +30,9 @@ tags: ["pathway:tyrant", "sequence:9"]
 - **Effect:**
   - Each time you receive **2 hours** of non-repetitive, effective guidance relevant to swimming/diving, your Swimming/Diving skill increases by **+1 level**.
   - You can improve “quickly” up to **Proficiency** at most. [[Skill Levels]]
-  - [[UNCLEAR: “You need 2, 3, 4 times” is ambiguous—unclear what those counts apply to (per level? per threshold?).]]
+  - To reach **Proficiency/Advanced/Master**, you need **2/3/4** successful training periods respectively.
 - **Notes:**
-  - [[UNCLEAR: “When the character has not just been promoted… swimming growth skill… can be increased by the strength/agility of the potion; growth rate = inspiration” is unclear in timing and application.]]
+  - For characters not just promoted, you may use the potion’s Strength/Agility bonuses as Inspiration to add points to Swimming/Diving growth; use standard [[Inspiration]] growth rules.
   - [[Potions]]
   - [[Inspiration]]
 

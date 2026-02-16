@@ -34,8 +34,7 @@ tags: ["pathway:night", "sequence:4"]
 
 - **Sequence Scaling:**
   - **Sequence 2:** Lucky check **Difficulty Value** becomes 20.
-  - **Sequence 1:** It can be cast synchronously by attacking, and additionally makes the target’s all [[Skill Identification]] -4.
-    [[UNCLEAR: “the target’s all skill identification -4” does not specify whether this penalty applies to a specific skill, to all identification-related checks, or to something else.]]
+  - **Sequence 1:** It can be cast synchronously by attacking, and additionally applies **-4** to all identification-related checks made by the target.
 
 ### Ethereal Mastery
 

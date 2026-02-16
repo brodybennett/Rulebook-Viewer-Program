@@ -8,7 +8,7 @@ tags: ["pathway:abyss", "sequence:3"]
 
 ## Blatherer
 
-> **Lore:** Your voice and every word you speak can directly drive **Beyonders** to lose control, suffer severe injuries, become mentally confused, or have curses added to their bodies.
+- **Effect:** On a failed **Will Defense**, roll **1d4** to choose one listed outcome; the listener also suffers **1d6** Sanity loss.
 
 ## Advancement
 
@@ -32,18 +32,18 @@ tags: ["pathway:abyss", "sequence:3"]
 
 - **Cost:** 1 point of **Spirituality**.
 - **Use:** Free action; once per round.
-- **Effect:** Make an **Inspiration** test against **Will Defense**. [[UNCLEAR: The RAW does not specify whose Will Defense is used (one target vs each listener vs another rule).]]
-- **Effect:** Each time you utter a raving from the [[id:alias-abyss|Abyss]], the people present who hear your raving lose 1 point of **Sanity** per round. [[UNCLEAR: The RAW does not state how long this “per round” loss persists or what ends it.]]
-- **Effect:** Your voice and every word you speak can make **Beyonders** who hear you lose control directly, suffer severe injuries, become mentally confused, or have curses added to their bodies. [[UNCLEAR: The RAW lists outcomes but provides no mechanical triggers, tests, or quantified effects for these outcomes.]]
+- **Effect:** Make an **Inspiration** test against each listener's **Will Defense**.
+- **Effect:** Each time you utter a raving from the [[id:alias-abyss|Abyss]], the people present who hear your raving lose 1 point of **Sanity** per round for **1 minute** after the last babble.
+- **Effect:** On a failed **Will Defense**, roll **1d4** to choose one listed outcome; the listener also suffers **1d6** Sanity loss.
 
-- **Extra:** If someone establishes contact with you by using occult means such as [[id:alias-divination|Divination]] and [[Cursing]], you can immediately reverse the influence of ravings. [[UNCLEAR: The RAW does not define what “reverse the influence” entails mechanically.]]
+- **Extra:** If someone establishes contact with you by using occult means such as [[id:alias-divination|Divination]] and [[Cursing]], you can negate the influence and reveal the source.
 
 ### Whisperer
 
-- **Effect:** If a connection is established, the “Whisperer” can transmit their voice to the target’s ears across a very long distance, causing the target to die violently in a safe place without knowing why. [[UNCLEAR: The RAW does not define how a connection is established, any costs/tests/limits, or the mechanical meaning of “die violently.”]]
+- **Effect:** If a connection is established (GM decides), the ?Whisperer? can transmit their voice to the target?s ears across a very long distance, causing severe injuries rather than guaranteed instant death.
 
 ### Danger Countermeasure
 
 - **Effect:** Your danger perception range covers a city.
-- **Use:** If you sense a clear source of danger and pass the corresponding **Inspiration** identification, you can directly use your extraordinary ability on the source. [[UNCLEAR: The RAW does not define what “Inspiration identification” is (test type, DC/target, or procedure).]]
-- **Effect:** If you foresee the source of danger, you have the opportunity to reverse the influence on the spot. [[UNCLEAR: The RAW does not define what influence is being reversed here, or the action/test required.]]
+- **Use:** If you sense a clear source of danger and pass an **Inspiration** check against the target's **Will Defense**, you can directly use your extraordinary ability on the source.
+- **Effect:** If you foresee the source of danger, you can reverse the influence by reflecting the effect back to the source.

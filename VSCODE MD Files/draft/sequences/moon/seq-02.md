@@ -65,8 +65,7 @@ You can speed up the metabolism and recovery speed of creatures, and give all li
     - The ferryman retains the life drain of each round.
     - Maintaining this means you need to continue to pay **Spirituality**.
     - Suppression of undead creatures is incidental.
-  - Full activation of an undead creature is limited to creatures less than a demigod in a round; creatures above a demigod follow the times below.  
-    [[UNCLEAR: The text references “full activation” and “life grants” but does not clearly define what a “life grant” is or how it maps to actions/uses.]]
+  - Full activation of an undead creature is limited to creatures less than a demigod in a round; creatures above a demigod follow the times below. GM decides how “life grants” map to full activation uses.
 
 - **Life grants by target Sequence (for creatures above a demigod):**
   - **Sequence 4:** Three life grants; temporary transformation into normal creatures.
@@ -97,8 +96,7 @@ You can make incredible modifications to creatures, and this modification will b
 - **Outcome:**
   - **Big Fail:** Instantly randomly spawns a horrible monster.
   - **Difficulty Value 10:** You can swap the limbs of two creatures, or swap a certain trait (e.g., make a human grow fish gills).
-  - **Difficulty Value 15:** You can cause a creature to grow an extra limb like a normal creature’s, at a rate of one limb for every 5 points above its height.  
-    [[UNCLEAR: “5 points above its height” is not clearly defined as a game value or what it is compared against.]]
+  - **Difficulty Value 15:** You can cause a creature to grow an extra limb like a normal creature’s, at a rate of one limb for every 5 points above **Difficulty Value 15**.
     - Using an additional physical attack always requires a new special fighting skill; otherwise it is considered untrained.
   - **Difficulty Value 20:** You give a creature a trait that cannot exist in nature, and that trait lasts forever.
   - **Difficulty Value 25:** Even more incredible transformations.

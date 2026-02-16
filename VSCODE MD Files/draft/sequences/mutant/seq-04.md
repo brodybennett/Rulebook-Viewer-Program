@@ -39,7 +39,7 @@ You can manipulate inanimate objects within a certain range.
     - The shared effect cannot be resisted by [[Curse Resistance]] or [[Curse Reduction]].
     - If a target is completely immune to curse damage, **The Source of the Curse** can still cause the target to suffer **half of the shared damage unilaterally**.
       - **Note:** This is half **shared damage**, not half **cursed damage**; damage immunity remains immune as usual.
-    - If you are one level higher than the opponent, you can inflict the full Source of the Curse effect. [[UNCLEAR: “one level higher” and its interaction with “complete curse immunity” is not fully defined in the RAW.]]
+    - If you are one **Sequence** level higher than the opponent, you can inflict the full Source of the Curse effect even against complete curse immunity.
 - **Targeting and range:**
   - Target is the creature you form a curse relationship with.
   - Once the connection is established, if it is not isolated, the target is usually affected even if it flees “to the ends of the earth.”
@@ -55,7 +55,7 @@ You can manipulate inanimate objects within a certain range.
   - A connection (whether established by possession or by flesh/blood) can last up to **two hours**.
 - **Aftereffects / Ongoing sharing rules:**
   - Your damaged Health and abnormal status continue to be shared with the cursed target.
-    - From the moment you become a cursed puppet, all damage and status you receive from each other appear on each other (this is usually ignored). [[UNCLEAR: “usually ignored” is not defined—unclear whether this is a play convention or a rules exception.]]
+    - From the moment you become a cursed puppet, all damage and status you receive from each other appear on each other (this interaction is usually ignored unless the GM rules it is relevant).
   - Because the sharing is two-way, your damage is shared with the other party, and the other party’s damage is shared with you; you can switch the damage sharing on/off at any time until the two-hour maintenance time ends (no need to get flesh or possess again).
   - The Health loss caused by sharing is **not** considered curse damage:
     - If the puppet’s self-inflicted damage is physical damage, the shared target also receives physical damage.
@@ -67,9 +67,9 @@ You can manipulate inanimate objects within a certain range.
     - The target’s lightning/fire resistances do not transfer to you (and vice versa).
     - Resistances and reductions depend on each creature’s own ontology.
   - If you harm others by self-mutilation through damage sharing, you also suffer the corresponding damage. If your remaining Health is less than the cursed person’s, it is likely that you (the caster) will die first.
-  - If the attack you suffer comes from voluntarily being hit, and the distance between you is close enough with no external factors, you can make the attacking skills not need to be identified according to your wishes. [[UNCLEAR: “identified” and what “attacking skills” means procedurally is not defined in the RAW.]]
+  - If the attack you suffer comes from voluntarily being hit, and the distance between you is close enough with no external factors, you can choose to skip identifying the attacking skill.
 - **Notes:**
-  - If this is true, as long as you are in a puppet state, your appearance becomes exactly the same as your cursed target, but this does not affect the essence; your extraordinary ability shows the corresponding effect. [[UNCLEAR: RAW begins “If this is true” without a clear antecedent condition.]]
+  - If you voluntarily accept the attack under the above conditions, then as long as you are in a puppet state, your appearance becomes exactly the same as your cursed target, but this does not affect the essence; your extraordinary ability shows the corresponding effect.
   - **Future Sequence Note:** Sequence 3: You no longer need to self-mutilate; you can replace this substitute attack with the cursed puppet made in advance.
   - **Future Sequence Note:** At Sequence 3 there will be a qualitative change; the current stage belongs to the type that hurts the enemy and also hurts itself.
 
@@ -85,7 +85,7 @@ You can manipulate inanimate objects within a certain range.
   - Countless flying objects also cause damage at the same time:
     - The damage of environmental items depends on the specific environment.
     - Reference standard: physical damage of 5d6 + Strength damage bonus.
-    - Treat your [[Inspiration]] as a Strength damage die. [[UNCLEAR: “Inspiration” and how it converts to “Strength damage dice” is not defined in the RAW.]]
+    - Add a number of Strength damage dice equal to your [[Inspiration]].
     - [[Occult]] counters [[Physical Defense]].
     - If restrained, defense cannot gain bonus from agility.
 - **Targeting and range:** One or more specified inanimate objects within line of sight; affects the target those objects attack/bind.
@@ -108,8 +108,8 @@ You can manipulate inanimate objects within a certain range.
   - **Special (Sequence 4):** You can actively trigger it as a **free action** once per round, consuming the number of passive triggers.
 - **Effect (on trigger):**
   - Your Physique is temporarily -3.
-  - Half of your Health is restored to your Health. [[UNCLEAR: “half of your health” and what it restores to is unclear as written in the RAW.]]
-  - This Physique can only consume your own Physique. [[UNCLEAR: Meaning of “consume” here is not defined in the RAW.]]
+  - Restore HP equal to half your maximum Health (rounded up).
+  - The Physique reduction can only be paid by you (it cannot be transferred or offset by others).
 - **Limits:**
   - If the end of your life is holy damage or lightning damage, it does not trigger Immortal Body.
   - The damage that ends your life must not put you in a dying state; it must directly end your life to be effective.

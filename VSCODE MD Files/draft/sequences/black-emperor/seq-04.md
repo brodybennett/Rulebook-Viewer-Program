@@ -34,8 +34,7 @@ tags: ["pathway:black-emperor", "sequence:4"]
 ### Chaotic Order
 
 - **Cost:** Consume 5 **Spirit points**.
-- **Use:** 1 **casting action** to cast one of the supernatural effects below. Once per round, you can cast one of the following effects as a **free action**.  
-  [[UNCLEAR: It is not specified whether the “once per round” free action still requires the listed cost and casting action, or replaces them.]]
+- **Use:** 1 **casting action** to cast one of the supernatural effects below. Once per round, you can cast one of the following effects as a **free action**; the free action still requires the listed cost and replaces the casting action.
 - **Effect:** Choose one of the following supernatural effects:
 
 — **Confusion (Distortion):** You confuse the form of an object.
@@ -48,8 +47,7 @@ tags: ["pathway:black-emperor", "sequence:4"]
 - Contradictory affixes overwrite earlier affixes you added:
   - If you add “very short” to the distance between you and the streetlight, adding “very far” immediately after overrides the effect you just added.
 - You cannot use this to warp any extraordinary ability, nor can you directly add affixes to living creatures.
-  - You may be able to indirectly affect the outcome of an extraordinary ability by distorting the object affected by that extraordinary ability.  
-  [[UNCLEAR: Confusion says you “choose an object,” but the example applies an affix to a distance/relationship.]]
+  - You may be able to indirectly affect the outcome of an extraordinary ability by distorting the object affected by that extraordinary ability. Target validity (including abstract targets like distance/relationship) is GM-defined.
 
 > **GM Note:** About the deepening application of chaos: for a demigod of the Black Emperor Pathway, this kind of distortion should actually be called “chaos.” In essence, it causes a certain degree of chaos in the order, and this can be used logically. For demigods, using “chaos” to shorten the distance between two points is the norm. You can use chaos to walk a few hundred meters in two or three steps (e.g., from a manor garden to the manor hall). You can also use this ability to make an item shorten the distance between each other and reach you directly in hand or in your designated area. You can also pull away or close the distance between you and an enemy—retreating a few hundred meters in two or three steps, or shrinking an enemy hundreds of meters away so they reach your palm. You can also perform indiscriminate chaos in a closed enchantment: by the law of mysticism, a closed space must have an exit, and this exit will not be easily affected—so if you do indiscriminate chaos, that which is not affected by the chaos is the outlet.
 
@@ -79,8 +77,7 @@ tags: ["pathway:black-emperor", "sequence:4"]
   - You can increase Sequence 5 items by one Sequence level, letting their effect reach Sequence 4.
   - This will not newly acquire the skills of Sequence 4, but only affects the strength of the item’s ability.
   - In this way, you can use the extraordinary items of Sequence 5 in a demigod battle, and can make them be used normally without being suppressed by the person through amplification; the items of Sequence 5 are put into the battle of demigods.
-- You amplify the negative effect of the extraordinary item in your hand, doubling it in all directions, which is the same as 3.  
-  [[UNCLEAR: “the same as 3” is not defined in this section.]]
+- You amplify the negative effect of the extraordinary item in your hand, doubling it in all directions, which is the same as effect ③ (increase the extraordinary ability by one Sequence level).
 - You amplify a reasonable action to achieve a stronger effect, which is determined by the **GM**.
   - Examples: turn an ordinary blow into an “execution”; turn an air hug at a distance into a “shackle”; pull back with hands separated by several meters to straighten the target directly in front of the target.
 - Skills affected by the “magnification” effect will take effect regardless of distance and objective conditions, can produce stronger consequences, and can have stronger influence.
@@ -92,12 +89,10 @@ tags: ["pathway:black-emperor", "sequence:4"]
 
 — **Gift (Unreasonable Gift):** Give a target something that happened to you.
 - **Bestowed Thought:** On the target’s next turn, it performs the action you specify, which cannot be clearly against its will.
-  - Special: False; [[Visionary Pathway]] Sequence 4 and above ignore this ability.  
-    [[UNCLEAR: The meaning of “False” in this Special line is not explained.]]
+  - Special: [[Visionary Pathway]] Sequence 4 and above ignore this ability.
 - **Bestow Negative Status:** You give a negative status on your body to the opponent.
 - **Gift of Madness:** You gift your madness to the opponent.
 - Extra (negative status gifting):
   - The actual situation can also make people passive and slow down, or greedy and eager, or lose fighting spirit, or only focus on money.
-  - The performance of demigods at the same level is to make the other party’s next identification -5.
-  - By using this effect, it can even last, but it can also be resisted by extraordinary abilities.  
-    [[UNCLEAR: “identification” is not defined here, and the duration/trigger for “it can even last” is not specified.]]
+- The performance of demigods at the same level is to make the other party’s next identification -5.
+- By using this effect, the -5 applies to the target’s next identification for 1 round, and it can also be resisted by extraordinary abilities.

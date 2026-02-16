@@ -31,8 +31,7 @@ tags: ["pathway:myster-pryer", "sequence:7"]
   - Generally, Knowledge Enhancement can strengthen one layer at most, and cannot be stacked infinitely.
   - Cumulative casting is more in line with high-level ritual magic.
   - Knowledge Enhancement is only an explanation of the spell cast and cannot be stolen or recorded.
-  - (But it also means that even if you obtained the voyeur’s ability through stealing or recording, you can also perform Knowledge Enhancement when you use the ability. The recorder can only record the ability that has not been enhanced, but it is a scroll that records the knowledge that has been enhanced. exception)
-  - [[UNCLEAR: The interaction among “voyeur,” “recorder,” recording/stealing, and the “scroll” exception is mechanically unclear in the RAW.]]
+  - Recording/stealing captures only the base ability; Knowledge Enhancement must be applied by the user. Scrolls can store enhanced effects.
   - [[Voyeur ability]]
   - [[Recorder]]
   - [[Scroll casting]]
@@ -45,8 +44,7 @@ You have learned to manipulate supernatural forces, and you gain the following s
   - **Cost:** Consumes **2 spirit points**, **1 casting action**.
   - **Use:** Choose a target.
   - **Effect:** Unleash a ball of fire that counters the target’s [[Physical Defense]] with [[Occultism]] and deals **1d10 fire damage**.
-  - **Benefits of Knowledge Enhancement:** Spirit consumption +1; the number of fireballs changes from one to (**Inspiration/2**); you can attack multiple targets, but each target can only be hit once.
-    - [[UNCLEAR: Rounding for (Inspiration/2) is not specified when it is not an integer.]]
+  - **Benefits of Knowledge Enhancement:** Spirit consumption +1; the number of fireballs changes from one to (**Inspiration/2**, rounded up); you can attack multiple targets, but each target can only be hit once.
 
 - **Frost**
   - **Cost:** Consumes **3 Spirit points**, **1 casting action**.

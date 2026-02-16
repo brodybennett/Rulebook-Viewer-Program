@@ -28,8 +28,7 @@ tags: ["pathway:arbiter", "sequence:8"]
 - **Inspiration** +1
 - **Tracking** and all attack skills increased by 1 level. [[Tracking]]
 
-- Whenever you apprehend/solve a non-repeating, challenging enemy by stalking or chasing clues, your Tracking skill goes up by 1 level, and the number of growth required is equal to the cap and the reputation boost of [[Sequence 9]].  
-  [[UNCLEAR: “the number of growth required is equal to the cap and the reputation boost of Sequence 9” is not defined here, so the exact requirement cannot be stated unambiguously.]]
+- Whenever you apprehend/solve a non-repeating, challenging enemy by stalking or chasing clues, your Tracking skill goes up by 1 level; the number of growths required is GM-defined (typically based on the Sequence 9 cap and reputation boost).
 
 ### Extraordinary Reconnaissance
 
@@ -51,8 +50,7 @@ You gain extra senses at the extraordinary level. You can remember a target’s 
 
 - **Special**
   - Only (4) applies for the perception of evil and heterogeneous things. If the corresponding thing is shielded by an [[id:alias-anti-divination|Anti-Divination]]/[[Spiritual Wall]], it will not be perceived, and the spiritual wall cannot be used to continuously envelop the entire body.
-  - This is a [[Potion Effect]]; it cannot be stolen or recorded, and the detection of extraordinary powers higher than 1 may cause [[Spiritual Alarms]].  
-    [[UNCLEAR: “extraordinary powers higher than 1” is not defined here (rank/Sequence/level is unclear).]]
+  - This is a [[Potion Effect]]; it cannot be stolen or recorded, and the detection of extraordinary powers with **Status/Rank higher than 1** may cause [[Spiritual Alarms]].
 
 ## Jurisdiction
 

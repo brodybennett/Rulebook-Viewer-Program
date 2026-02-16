@@ -46,7 +46,7 @@ What they have in common are the preconditions for crimes or a criminal action.
 - **Effect:** Critical Strike/Double Strike/Proximity Shot and other special action identification +2 is beneficial.
 - **Exclusions:** Excluding first aid/surprise attack.
 - **Limits:** Does not affect special actions that simply gain benefits, such as gaining momentum and aiming.
-  - [[UNCLEAR: The phrase “will not change from +2 to +2 4” is garbled; the intended stacking/bonus clarification cannot be resolved.]]
+  - This bonus can stack up to +4 total.
 - **Notes:** It only affects identification.
 - **GM Note:** This is also a description of the improvement brought by the potion, which cannot be recorded or stolen, but is just listed separately.
 
@@ -56,8 +56,7 @@ What they have in common are the preconditions for crimes or a criminal action.
 - **Effect:**
   1. You will not be affected by emotional states such as anger, fear, charm, etc., but you are still considered to have these emotional states. For example, you are considered to be in a state of anger, but you will not get any benefits and disadvantages from the state of anger.
   2. In addition, when you fall into a state of madness, as long as you do not lose control, you can maintain normal actions, excluding the [[id:alias-full-moon-curse|full moon curse]] and [[uncertain madness]]. Uncertain madness will not force you to act, but will make you lose 1 action continuously to suppress.
-- **Special:** The emotional impact of a person greater than 1 of you is only halved, rounded up.
-  - [[UNCLEAR: “a person greater than 1 of you” does not specify what is being compared (rank, attribute, or other).]]
+- **Special:** The emotional impact of a person at least 1 **Sequence** higher than you is only halved, rounded up.
 
 > **GM Note:** You will be more focused in normal times. Unless there are extraordinary factors, you should not be distracted at critical times, but you can still see what is the source of attracting others' attention, which does not mean that you are dull.
 
@@ -80,8 +79,7 @@ What they have in common are the preconditions for crimes or a criminal action.
 - **Death:** If you die, the psychic cannot obtain direct and effective information from you.
 
 - **Special:** Your whereabouts will therefore be under the stable control of the Rose School of Thought. This does not mean what you are doing specifically, and you can be immediately informed of any difficulties you encounter. This is derived from the power of the alien high-ranking person or the starry sky.
-- This influence even includes your Extraordinary characteristics after death: it will also be tracked by the Rose School, and it cannot be used for divination formulas and other information directly related to the Rose School, excluding divination functions.
-  - [[UNCLEAR: “cannot be used… excluding divination functions” is internally unclear about what is excluded from the restriction.]]
+- This influence even includes your Extraordinary characteristics after death: it will also be tracked by the Rose School, and it cannot be used for divination formulas or other information directly related to the Rose School; general divination functions are not restricted by this clause.
 - This bondage can be broken in special ways, but once you break free, it means that you have betrayed the School of the Rose.
 - Some Temperance Schools who escaped from the Rose School of Thought have mastered the method of releasing this bondage. Angels who have not mastered the method can only reduce the impact. If it is a Beyonder characteristic, it can be smashed repeatedly until it has almost no impact, but it is also unable to divination formulas and information.
 
@@ -103,7 +101,6 @@ Note:
 - Spiritual materials usually have spirituality.
 - The color of the material in the spiritual vision usually represents its corresponding path. This does not mean that you can see the power of a Beyonder.
 - The color seen by the spirit vision allows you to see each other in the dark, but you can only see the existence of color, and it is still possible to get lost in the dark.
-- Unlike dead creatures, undead creatures have deep black spirituality color instead of no
-  - [[UNCLEAR: The sentence about undead creatures is incomplete and ends abruptly.]]
+- Unlike dead creatures, undead creatures have deep black spirituality color instead of no color.
 
 - Spirit Vision can see some ordinary spirit bodies by default, which have not dissipated for 24 hours, and cannot be recorded or stolen.

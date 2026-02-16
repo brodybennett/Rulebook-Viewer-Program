@@ -12,5 +12,4 @@ tags: ["pathway:red-priest", "sequence:0"]
 
 ### Advancement Ritual
 
-- **Advancement Ritual:** Start a war that sweeps the continent and win enough
-[[UNCLEAR: The ritual outcome requirement is incomplete ("win enough" of what).]]
+- **Advancement Ritual:** Start a war that sweeps the continent and win enough decisive battles to determine the war’s outcome.

@@ -37,8 +37,7 @@ tags: ["pathway:red-priest", "sequence:2"]
 
 - **Weather options (examples):**
   - **Fog:** All vision is blocked. -8 to ranged attack checks; -5 to ranged damage checks, unless the fog is broken by other means.
-  - **Thunderstorm:** Hidden thunder and dark clouds cover the entire sky; the lightning damage identification is additionally enhanced by 1d10. Cold wind sweeps across the entire land, making it difficult for people to move.  
-    [[UNCLEAR: “lightning damage identification” is undefined, and the Thunderstorm movement hindrance has no specified mechanical modifier.]]
+  - **Thunderstorm:** Hidden thunder and dark clouds cover the entire sky; lightning damage rolls gain +1d10. Cold wind sweeps across the land; movement speed is halved.
   - **Squall:** The cold wind sweeps across the entire land, making it difficult for people to move an inch. Those who go against the wind will have half their movement power, while those with the wind will double.
   - **Blizzard:** The sky turns into a piece of “hoarfrost”, and visible snow quickly piles up on the ground. Those who couldn’t keep out the cold have -4 to all skill assessments, and their mobility is halved.
   - **Hailstorm:** Deals 1d4 damage per round to unprotected humans, on top of the previous snowstorm.
@@ -63,8 +62,7 @@ tags: ["pathway:red-priest", "sequence:2"]
 
 - **Cost:** 3 **Spirituality**.
 - **Use:** **attack action** [[Attack Action]].
-- **Effect:** You can shape the frost into whatever you want. With a successful [[Throwing]] or other reasonable check, you counter the opponent’s [[Physical Defense]]. You deal 8d6 + your Strength damage bonus cold damage.  
-  [[UNCLEAR: “counter the opponent’s physical defenses” does not specify what defenses are negated or how the check is resolved.]]
+- **Effect:** You can shape the frost into whatever you want. Make a [[Throwing]] (or other reasonable) check against the opponent’s [[Physical Defense]]. On success, deal 8d6 + your Strength damage bonus cold damage.
 
 ### Frozen
 

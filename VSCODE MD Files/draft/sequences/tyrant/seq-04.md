@@ -37,7 +37,7 @@ Choose one benefit:
   - Defense: 20  
   - Health: 25  
   - If damage exceeding the wall’s remaining Health is dealt, excess damage may affect creatures hiding behind it.  
-  [[UNCLEAR: “Attack identification” method for resolving spillover damage is not defined here.]]
+  - Resolve spillover using the same attack Identification that hit the wall; excess damage applies to one creature directly behind it.
 
 [[Cover]]
 [[Terrain]]
@@ -56,7 +56,6 @@ Choose one benefit:
 - **Limits:** Only functions on ground or seabed.
 - **Aftereffects:** Fire damage is halved when used on the seabed.
 
-[[UNCLEAR: “Disaster assessment” and targeting resolution terminology are not defined in this section.]]
 
 ---
 
@@ -95,8 +94,7 @@ Linked with: Lava, Tsunami, Rainstorm.
 
 **Undercurrent Rules**
 
-- Moving in affected water requires a Difficulty 15 Luck check.  
-  [[UNCLEAR: “Lucky appraisal” is undefined—assumed to be a Luck-based check.]]
+- Moving in affected water requires a Difficulty 15 [[Luck]] check.
 - On failure, the creature is pulled underwater.
 - Each round underwater, make:
   - Difficulty 15 Agility check **or**
@@ -235,11 +233,10 @@ You create a major disaster.
 
 - Deals 5d6 lightning damage to most creatures.
 - Ignores Physical Defense from Agility or Dodge.
-- Counts as 3 attacks (consumes 3 substitutes; reduction applied 3 times).
+- Counts as 3 separate attacks (consume 3 substitutes; apply reduction separately for each).
 - Damage vs undead: 6d6.
 - If cast during heavy rain: counts as 5 attacks.
 
-[[UNCLEAR: “Substitutes” and multi-attack resolution are not defined here.]]
 
 ---
 

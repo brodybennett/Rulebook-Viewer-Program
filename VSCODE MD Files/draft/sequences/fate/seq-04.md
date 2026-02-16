@@ -49,12 +49,12 @@ The Sequence 4 Saint of the [[Wheel of Fortune Pathway]].
 - **Targeting and range:** Select a **doom check**; a creature within your [[line of sight]]
 - **Effect:** With the same amount of **bad luck** expended, you double the bad luck penalty the target suffers, changing the base numerical penalty from 1d6 to 2d6.
 
-[[UNCLEAR: “Select a doom check” is not defined in this section, so it is unclear what qualifies as a doom check or how it is chosen.]]
+GM decides what qualifies as a doom check.
 
 ### Lucky Blessing
 
 - **Cost:** Spellcasting action; 3 **spirituality points**, plus optional **Luck** to grant extra luck at a 2:1 ratio
-- **Targeting and range:** Choose the lucky numbers you specify; bestow them on a target
+- **Targeting and range:** Choose the lucky numbers you specify; bestow them on a target. You may designate one roll these lucky numbers apply to, treating it as a lucky roll.
 - **Effect:**
   - 2 points of **Luck** spent grants the target 1 point of extra luck; 4 points of **Luck** spent grants the target 2 points of extra luck.
   - If you spend 1 point or 3 points of **Luck**, then:
@@ -73,7 +73,6 @@ The Sequence 4 Saint of the [[Wheel of Fortune Pathway]].
   - Luck attached to a single thing cannot exceed 20 points (converted by two to one; that is, 20 points of luck equals your 40 points of luck), and it can only last for 24 hours.
   - The cap that a target can gain no more than half the target’s Spirituality in extra luck remains unchanged.
 
-[[UNCLEAR: “Choose the lucky numbers you specify” is not mechanically defined here (it is unclear what choosing numbers changes, if anything).]]
 
 ### Doom Mage
 
@@ -93,17 +92,13 @@ The Sequence 4 Saint of the [[Wheel of Fortune Pathway]].
   | 11–20 doom points | You suffer a base score penalty of 1d3 for each skill and ability score. |
   | 21–40 doom points | You take a base numerical penalty of 1d6 on every skill and ability check you make, and a critical failure creates a disaster that affects only you. |
   | 41–60 doom points | You take a 2d6 base numerical penalty on every skill and ability check you make, and a critical failure creates two disasters that affect only you. |
-  | 61–80 points of bad luck | You suffer a base numerical penalty of 3d6 for each skill and attribute check; when you fail, two disasters will only affect you; you also suffer a special disaster that lasts by default Er, but it only takes effect once a day. You may be very unlucky at a critical time (e.g., unable to get out of trouble due to coincidences, getting lost suddenly, or bumping into the person or thing you least want to encounter). |
+  | 61–80 points of bad luck | You suffer a base numerical penalty of 3d6 for each skill and attribute check; when you fail, two disasters will only affect you. You may be very unlucky at a critical time (e.g., unable to get out of trouble due to coincidences, getting lost suddenly, or bumping into the person or thing you least want to encounter). |
   | 81 points of bad luck and above | Your bad luck effect is based on the 61–80 effect, and the special disaster will continue forever. It may take effect in each of your appraisals. A big success of burning luck can offset it once this effect, but you are likely to encounter extremely serious difficulties unless the bad luck is released. |
 
 - **Order:** Burning Luck always happens after doom effects.
 
 - **Temporary suppression (dispelling doom):**
-  - This doom effect is allowed to be temporarily suppressed by [[dispelling doom]] once a day, lasting for one encounter, at a cost of 10 spirituality.
-  - If you still have not stored doom below 40 after the encounter is over, you suffer a geometric multiple of the backlash effect: the torrent of fate flows upstream against you, and you will suffer three immediately. The calamity effect takes effect, and a special calamity will be generated immediately.
-
-[[UNCLEAR: The 61–80 doom effect includes garbled text (“lasts by default Er”) and its exact meaning is not recoverable from the RAW.]]
-[[UNCLEAR: The “dispelling doom” suppression (10 spirituality, once/day, one encounter) is not clearly tied to or distinguished from Remove Doom (3 spirituality points, free action, once/round).]]
-[[UNCLEAR: The backlash clause (“you will suffer three immediately”) is incomplete/unclear about what happens three times and how “geometric multiple” is applied.]]
+  - This doom effect can be temporarily suppressed by [[dispelling doom]] once a day, lasting for one encounter, at a cost of 10 spirituality. This is an **alternative** to Remove Doom for that encounter (choose one).
+  - If you still have not stored doom below 40 after the encounter is over, you suffer a geometric multiple of the backlash effect: the torrent of fate flows upstream against you, and you suffer three **doom level increases** immediately. The calamity effect takes effect, and a special calamity is generated immediately.
 
 > **GM Note:** The RAW states the specific ability of the doom mage is not clearly shown in *Lord of Mysteries*, and that (starting at this Sequence) some extraordinary abilities for [[Destiny Pathway]] are original supplementer creations.

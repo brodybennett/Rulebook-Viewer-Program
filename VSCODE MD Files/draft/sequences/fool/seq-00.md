@@ -42,7 +42,7 @@ tags: ["pathway:fool", "sequence:0"]
 
 ### Aura of Foolishness
 
-- **Effect:** All creatures within your **field of vision** have their **Inspiration** locked at 1. [[Field of Vision]] [[UNCLEAR: “locked at 1” could mean “set to 1” or “cannot change from 1”; RAW does not specify.]]
+- **Effect:** All creatures within your **field of vision** have their **Inspiration** capped at 1 (cannot exceed 1). [[Field of Vision]]
 - If a creature becomes insane due to a **Sanity roll**, it is immediately **incapacitated** and cannot take any actions until the insanity ends. [[Sanity Roll]] [[Incapacitated]] [[Insanity]]
 
 ### Fooling

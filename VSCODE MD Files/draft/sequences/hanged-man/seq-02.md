@@ -39,7 +39,7 @@ tags: ["pathway:hanged-man", "sequence:2"]
 - Example:
   - You claim to be a king of angels, which gives you +1 personality (but not as much as the real king of angels).
   - At the same time, you gain +4 on all skill checks for one [[Encounter]].
-  - [[UNCLEAR: It is unclear whether the listed bonuses are fixed effects of this ability or only illustrative example values.]]
+  - These bonuses are examples; the GM sets the exact values.
 
 #### Word Interception (Additional)
 

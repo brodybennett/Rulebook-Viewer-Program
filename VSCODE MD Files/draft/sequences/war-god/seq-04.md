@@ -29,10 +29,8 @@ tags: ["pathway:war-god", "sequence:4"]
 
 - **Use:** **Free Action**
 - **Check:** **Difficulty Value 15** [[Inspiration]] + [[Spot]] check.
-- **Effect:** Look for signs of evil, corruption, and contamination; see if any evil creatures exist and have visited you.  
-  [[UNCLEAR: The scope and timeframe of “exist and have visited you” are not defined.]]
-- **Limits/Modifiers:** This ability is penalized by the [[Avoidance of Scrying]] trait.  
-  [[UNCLEAR: It is unclear whether the penalty applies based on the user, the target, or the situation.]]
+- **Effect:** Look for signs of evil, corruption, and contamination; detect evil creatures currently within the scene or that have been in the area within the last 24 hours.
+- **Limits/Modifiers:** If a target has the [[Avoidance of Scrying]] trait, apply its penalty to this check.
 
 ### Demon Hunt Ritual
 
@@ -40,8 +38,7 @@ tags: ["pathway:war-god", "sequence:4"]
 - **Time:** 10 minutes.
 - **Cost:** 4 [[Spirituality]].
 - **Requirements:** Find the traces of demons and understand the types of demons.
-- **Effect:** After the ceremony takes effect, your attack identification results of 18, 19, 20 are considered a [[Big Success]].
-  [[UNCLEAR: “attack identification” is undefined (likely an attack roll/check or identification mechanic).]]
+- **Effect:** After the ceremony takes effect, your attack Identification checks of 18, 19, or 20 are considered a [[Big Success]].
 
 ### Mind Barrier
 
@@ -51,8 +48,7 @@ tags: ["pathway:war-god", "sequence:4"]
 
 ### Spiritual Disturbance
 
-- **Effect:** Against your [[Inspiration]] check, the base check of its Inspiration skill is -5, and may cause a [[Big Failure]].  
-  [[UNCLEAR: The target, timing, and meaning of “may cause a big failure” are not defined.]]
+- **Effect:** The target makes an [[Inspiration]] check at -5; on failure, treat the result as a [[Big Failure]].
 
 ### Material Identification
 
@@ -68,13 +64,11 @@ Here’s a list of the magical items you can craft:
   - **Use:** **Full Round** to apply.
   - **Effect:** The applier gains 5 **cold resistance** and 5 **curse resistance** for 24 hours.
   - **Limits:** Can only take effect twice.
-  - **Additional Effect:** Curse, cold, and poison within 5 points can be suppressed or cured.  
-    [[UNCLEAR: “within 5 points” and whether suppression vs. cure is chosen or automatic are not defined.]]
+  - **Additional Effect:** If the curse/cold/poison’s Difficulty Value is within 5 points of your [[Inspiration]] score, you may choose to suppress or cure it.
 
 - **Essential Oil**
   - **Use:** 1 **Round**.
-  - **Effect:** The diffused aroma dispels dark, corrupted, and undead creatures below **Sequence 7** (can be actively resisted).  
-    [[UNCLEAR: “dispels” is not defined (e.g., repels, banishes, weakens).]]
+  - **Effect:** The diffused aroma repels dark, corrupted, and undead creatures below **Sequence 7**; on a failed resistance, they must leave the area and cannot enter while the aroma persists.
   - **Additional Uses:** Refreshes the mind so users can continue to act for a period of time when they are tired.
   - **Additional Uses:** Can be dripped on teammates to distinguish friend from foe through the unique aroma.
 
@@ -95,14 +89,12 @@ Here’s a list of the magical items you can craft:
 - **Frozen Mark**
   - **Use:** An action other than a **Free Action**; attaches to a weapon or object.
   - **Effect:** The subsequent three attacks cause **cold damage**.
-  - **Aftereffects:** Muscles tremble, frost condenses, and the next skill check is -4.  
-    [[UNCLEAR: It is unclear who makes “the next skill check” (the target or another creature) and when it occurs.]]
+  - **Aftereffects:** Muscles tremble and frost condenses; the target’s next skill check is at -4 disadvantage.
 
 - **Mark of the Curse**
   - **Use:** An action other than a **Free Action**; attaches to a weapon or item.
   - **Effect:** The damage of the next three attacks is converted into **curse damage**.
-  - **Additional Effect:** You can specify what not to hurt, but what to hurt.  
-    [[UNCLEAR: The scope of what can be specified (targets, categories, objects) and how it is enforced are not defined.]]
+  - **Additional Effect:** When applying the mark, specify a category or set of targets that the curse damage will not affect; all other targets are affected normally.
 
 - **Healing Potion**
   - **Effect:** Restores 2d6 health.
@@ -110,19 +102,15 @@ Here’s a list of the magical items you can craft:
 - **Purification Potion**
   - **Effect:** Immediately heals all poisons and minor diseases, as well as curses.
   - **Effect:** Causes 3d6 damage to the [[Wraiths]] in the body.
-  - **Effect:** Provides 1d3 [[Sanity Armor]] (cannot be superimposed with sanity armor except the [[Audience Pathway]]).  
-    [[UNCLEAR: The “except the Audience Pathway” stacking exception is not precisely defined (who qualifies, and what can stack).]]
+  - **Effect:** Provides 1d3 [[Sanity Armor]] (this does not stack with other Sanity Armor sources; it can stack only for targets with the [[Audience Pathway]]).
 
 > **GM Note:** Other special item effects require approval by the GM.
 
 > **GM Note:** Under special circumstances, you can refer to the [[Potions Professor]] list of medicines for making new medicines. However, the [[God of War Pathway]] is not a Sequence Pathway suitable for research, so the development of new medicines should be greatly restricted.
 
-- **Imprint Form Variation:** You can change the manufacturing form of different imprints so they grant 10 points of resistance to the corresponding attributes. This cannot be superimposed.  
-  [[UNCLEAR: The relationship between “imprints” and the listed marks is not defined, and “corresponding attributes” is unspecified.]]
+- **Imprint Form Variation:** You can craft a resistance imprint instead of a mark; it grants 10 points of resistance to the corresponding damage/condition type (holy, lightning, cold, or curse). This cannot be superimposed.
 
 ### God of War
-
-[[UNCLEAR: The “God of War” rules appear unrelated to Sequence 4: Demon Hunter and may belong to another Pathway/Sequence.]]
 
 - **Trigger:** Whenever you fall into [[Madness]].
 - **Effect:** Temporarily consume 3 points of **Will Cap** to continue fighting in a normal state.
@@ -131,7 +119,6 @@ Here’s a list of the magical items you can craft:
 - **Recovery:** The lost Will Cap can be restored after an hour.
 - **Status Interaction:** You no longer suffer negative effects from blindness, deafness, fear, anger, etc., including negative emotions bestowed by the [[Black Emperor]], and will not suffer impairments—although these negative states still exist (e.g., you are still theoretically blind or deaf), you can still act normally through rich combat experience.
 - **Limits:** This does not affect [[Dreaming]]; you will be awakened as usual if you are dreamed.
-- **Special:** If the enemy that triggers these effects is of a higher sequence level than yours, or is an [[Audience Pathway]] Extraordinary of the same level as yours, then you will only be affected by its related identification penalty, and you can still work normally without being affected action.  
-  [[UNCLEAR: “related identification penalty” and “without being affected action” are undefined/unclear in timing and meaning.]]
+- **Special:** If the enemy that triggers these effects is of a higher Sequence than you, or is an [[Audience Pathway]] Extraordinary of the same Sequence, you only suffer the enemy’s related Identification penalty; you do not lose actions or become unable to act.
 
 - **Sequence 3 Update:** The lost upper limit of will is restored after half an hour.

@@ -40,8 +40,7 @@ tags: ["pathway:red-priest", "sequence:9"]
    - Listening  
    This increase **cannot exceed Proficiency**. [[Proficiency]]
 
-2. **Hunting Growth:** It takes **2, 3, and 4 times** to be trained to be **Proficiency, Advanced, and Proficiency** respectively.  
-   [[UNCLEAR: The text repeats “Proficiency” for two different training thresholds, making the intended progression ambiguous.]]  
+2. **Hunting Growth:** It takes **2, 3, and 4 times** to be trained to be **Proficiency, Advanced, and Master** respectively.  
    Each time you successfully hunt an enemy stronger than you, it is also regarded as a skill growth. Choose any one of the above skills as the growth skill; apply the growth.
 
 - Note on newly promoted characters and Inspiration:
@@ -68,8 +67,7 @@ tags: ["pathway:red-priest", "sequence:9"]
 
 5. **Special Actions:** Special Actions such as [[Critical Strike]], [[Double Hit]], and [[Proximity Shooting]] are **+2 beneficial**, excluding [[First Aid]] / [[Surprise Attack]].
    - Does not affect special actions that simply gain benefits.
-   - **+4, affects identification only.**  
-   [[UNCLEAR: This item mixes +2 and +4 modifiers with exclusions in a way that does not clearly specify which checks receive which bonus.]]
+   - If a special action requires an Identification check, use **+4** on that Identification check instead of +2.
 
 > **GM Note:** As a hunter, there may be more skill usages; the above content corresponds to ordinary people who are proficient in skills.
 
@@ -80,10 +78,7 @@ tags: ["pathway:red-priest", "sequence:9"]
 
 #### Trap Placement Conditions
 
-1. The number of traps depends on your materials, and your materials depend on your [[Reputation]]. If your reputation is not advanced, your trap upper limit equals your reputation level × 3. **Multiply by 5; Proficiency does not count.**  
-   [[UNCLEAR: “Multiply by 5; Proficiency does not count” is not clearly tied to a stated condition (e.g., when Reputation is Advanced), so its trigger is ambiguous.]]
-
-2. This does not mean you can arrange traps endlessly. If there is more than 1 trap in the same area, then for each additional trap, the difficulty of identifying the trap is **-2**.
+1. The number of traps depends on your materials, and your materials depend on your [[Reputation]]. If your reputation is not Advanced, your trap upper limit equals your reputation level × 3. If your Reputation is Advanced or higher, multiply by 5 (Proficiency does not count as Advanced).
 
 3. When a creature that is not blind and can see the surrounding environment is close to the trap, it can use a **Difficulty Value 25** Detection / Survival / Crafting check to find the trap. If you are in the field or in the ruins, you can use **Difficulty Value 20** Geology and Archeology respectively instead.  
    [[Detection]]  
@@ -163,8 +158,7 @@ tags: ["pathway:red-priest", "sequence:9"]
 - **Special (from now on):** Your traps gain some occult effects, and the damage vectors in the traps can be replaced with your different types of fire.
   1. **Hunting Trap:** Can be turned into fire damage (e.g., hidden rockets shot out when triggered).
   2. **Explosive Trap:** You can directly use your [[Fireball]] or [[Fire Crow]] to replace the bomb. They can also be compressed, but you must pay the spirituality cost of making and compressing them when placing them.
-     - When the [[Fire Raven]] is used instead of a bomb, if the Fire Raven is divided into three checks, at least one of the targets of the check must be the triggerer. Fireballs are similar to bombs and explode immediately when triggered.  
-       [[UNCLEAR: The text uses both “Fire Crow” and “Fire Raven” for what may be the same ability, but does not confirm whether they are identical.]]
+     - When the [[Fire Crow]] is used instead of a bomb, if the Fire Crow is divided into three checks, at least one of the targets of the check must be the triggerer. Fireballs are similar to bombs and explode immediately when triggered.
      - Regardless of the identification of the previous flame type, when used as a trap, they are uniformly replaced with a Crafting identification.
      - This kind of flame storage trap is only effective for **24 hours**; after 24 hours the flame cannot be maintained and disintegrates.  
        [[Spirituality]]
@@ -173,15 +167,13 @@ tags: ["pathway:red-priest", "sequence:9"]
 
 - **Quick Dodge:** You can dodge firearms.
 
-1. When you face guns instead of light/lightning, you retain complete agility and dodge in Physical Defense.  
-   [[UNCLEAR: “guns instead of light/lightning” is unclear as written; the comparison category is not defined.]]
+1. Against firearms (rather than light/lightning-type attacks), you retain full Agility and Dodge in Physical Defense.
 
 2. When you face non-gun-like high-speed attacks, such as the flames of the Red Priest and the ice spear of the Witch.  
    [[Red Priest]]  
    [[Witch]]
 
-3. For any attack whose described speed does not reach the level of a gun, unless it must be hit, you will not only lose your agility and dodge defense, but will also get an additional dodge bonus.  
-   [[UNCLEAR: This sentence states you “lose” agility/dodge defense yet also gain an additional dodge bonus; the intended net effect is ambiguous.]]
+3. For any attack whose described speed does not reach the level of a gun, unless it must be hit, you retain your Agility and Dodge defenses and also gain an additional dodge bonus.
 
 - Note: When facing firearms, your extra evasion is invalid, but the original full agility and evasion defenses are still retained.
 
@@ -193,13 +185,13 @@ tags: ["pathway:red-priest", "sequence:9"]
 
 - This is the benefit of the potion; it cannot be stolen or recorded.
 
-### Vision
+### Spiritual Vision
 - **Use:** 1 free action.
 - **Cost:** Consuming 1 **spirituality point** per round.
-- **Effect:** You activate vision, and your vision gains the following benefits:
+- **Effect:** You activate Spiritual Vision, and your vision gains the following benefits:
 
 
-- You gain vision, but it is not as effective for you as your own Inspiration.
+- You gain Spiritual Vision, but it is not as effective for you as your own Inspiration.
 
   1. **Etheric body:** You can roughly tell whether the other party’s body is good or bad through the color of the aura, but you can’t get detailed information.
   2. **Spiritual body:** You can confirm whether an object/creature has spirituality; this cannot identify extraordinary people.
@@ -213,5 +205,4 @@ tags: ["pathway:red-priest", "sequence:9"]
   - The colors seen by spirit vision allow you to see each other in the dark, but you can only see the existence of colors; it is still possible to get lost in the dark because the colors you can see are limited.
   - You cannot use the colors to distinguish undead biology.
 
-- Spirit Vision can see some ordinary spirit bodies by default (which have not dissipated for **24 hours**) and cannot be recorded or stolen.  
-  [[UNCLEAR: The text alternates between “vision,” “spiritual vision,” and “Spirit Vision” without clearly defining whether these are identical states or distinct abilities.]]
+- Spiritual Vision can see some ordinary spirit bodies by default (which have not dissipated for **24 hours**) and cannot be recorded or stolen.

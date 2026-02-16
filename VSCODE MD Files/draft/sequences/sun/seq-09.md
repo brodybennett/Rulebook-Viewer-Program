@@ -32,13 +32,11 @@ tags: ["pathway:sun", "sequence:9"]
 ### Singing Training
 
 - Each time you receive 2 hours of effective guidance (no repetition), your Singing level increases by 1.
-- [[UNCLEAR: Training ranks are self-contradictory (“proficient, advanced, and proficient” and “maximum…proficient”).]]  
-  It takes 2, 3, and 4 training sessions to become proficient, advanced, and proficient respectively; the maximum can be improved to proficient.
+  It takes 2, 3, and 4 training sessions to become proficient, advanced, and mastery respectively; the maximum is mastery.
 
 ### Potion-Assisted Growth
 
-- [[UNCLEAR: “twice the inspiration” is unclear (double the Inspiration attribute? double a resource? something else).]]  
-  When creating a character that is not “just promoted,” you can use the [[Bard Potion]] to bring twice the inspiration to add growth skills.
+- When creating a character that is not "just promoted," you can use the [[Bard Potion]] to apply **double the potion's Inspiration bonus** to add growth skills.
 
 ### Song of Courage
 
@@ -46,8 +44,7 @@ tags: ["pathway:sun", "sequence:9"]
 - **Use:** 1 **[[Spell-Casting Action]]**; perform a **[[Singing Identification]]** ( **[[Difficulty Value]]** 15 ); roleplay the corresponding chant. The chant must be themed around praising the sun.
 - **Effect:** On a success, you and any friendly unit that heard the singing gain +1 Strength and +1 Agility for 1 **[[Encounter]]**.
 - **Effect:** Also clears the physical effects of [[Fear]], [[Poisoning]], [[Curse]], [[Darkness]], [[Corruption]], and [[Undeath]] from affected targets. These effects can be applied again later.
-- **Limits:** [[UNCLEAR: The threshold “greater than 1 character or 2 Sequence levels of yours” is unclear.]]  
-  Fears, poisons, and curses greater than 1 character or 2 Sequence levels of yours are unaffected.
+- **Limits:** Fears, poisons, and curses from sources 2+ Sequences higher than you are unaffected.
 
 ### Sing Piety
 
@@ -59,8 +56,7 @@ tags: ["pathway:sun", "sequence:9"]
   - **Benefit B (Opposition):** Use your Singing Identification result against the **[[Will Defense]]** of an enemy who heard the singing; this benefit takes effect only if it succeeds.  
     Dark, corrupt, and undead beings who hear the singing become hard to fight against you: you and friendly units gain **[[Advantage]]** against enemies affected by the singing (i.e., +2 to [[Skill Check]] and [[Attribute Check]]). The enemy does not gain disadvantage. Duration: 1 Encounter.
 
-- **Limits:** [[UNCLEAR: “ineffective for corresponding creatures that are 1 higher than you” is ambiguous (1 Sequence higher? other measure?).]]  
-  The effect is ineffective for corresponding creatures that are 1 higher than you; they only feel uncomfortable.
+- **Limits:** The effect is ineffective for corresponding creatures that are 1 Sequence higher than you; they only feel uncomfortable.
 
 ### Spirit Vision
 - **Use:** 1 **Free Action** to activate.

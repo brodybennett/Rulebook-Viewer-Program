@@ -25,10 +25,10 @@ tags: ["pathway:earth", "sequence:9"]
 - Every time you receive at least **2 hours** of real, non-repetitive related guidance, choose [[Agriculture]] or [[Botany]]; the chosen skill increases by **1 level**.
   - Botany can be promoted up to [[Proficient]] at most.
   - Agriculture can be rapidly promoted up to [[Proficient]] at most.
-  - It takes **2, 3, 4 times**. [[UNCLEAR: The text states “It takes 2, 3, 4 times” but does not specify what those counts measure (e.g., per level, per tier, or per promotion step).]]
+  - From training to proficiency, to advanced, to mastery, you need to learn **2, 3, 4** times; this section caps growth at **Proficient**.
 - Successfully cultivating a seed through the stage of flowering and fruiting is also regarded as a growth.
 - Cultivating duplicate seeds does not improve growth.
-- Creating a character that is not just promoted can use the inspiration/education of potions to add growth skills. [[UNCLEAR: “Not just promoted” and “inspiration/education of potions” are referenced without definitions in this section.]]
+- When creating a character who has not just been promoted, growth skills gain **2x Inspiration** points from the potion.
 
 ### Identify Seeds
 
@@ -124,7 +124,7 @@ Obtain the recuperation benefits of the corresponding spiritual fruit according 
 
 - If you leave your plants alone for **24 hours** in any of these severe weather results (**heavy snow**, **thunderstorm**, **severe cold**), then to provide them with shelter you must succeed on a **lucky check** [[Lucky check]] of **Difficulty Value 20** [[Difficulty Value]]; otherwise they die.
 - If you are in any of the above moderately severe weather (except the severe weather listed above), and you have not taken care of your plants for **24 hours**, you must take care of them for **1 hour** in the next **24 hours**, without identification.
-- **Nursing:** Late care of the previous bullet causes crops to reduce yield by **1d6**. Reducing yield **3 times** or **48 hours** without nursing will cause crops to wither. [[UNCLEAR: The “reduce 3 times or 48 hours without nursing” clause is unclear about whether these are alternative thresholds and how they combine with the 1d6 yield reduction.]]
+- **Nursing:** Late care of the previous bullet causes crops to reduce yield by **1d6**. Crops wither after **3** yield reductions or **48 hours** without nursing (whichever comes first).
 
 ### Severe Cold and Hot Effect
 

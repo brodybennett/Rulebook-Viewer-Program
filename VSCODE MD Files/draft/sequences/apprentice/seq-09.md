@@ -18,12 +18,10 @@ tags: ["pathway:apprentice", "sequence:9"]
 - **Skill Increase:** Your **Locksmith** skill increases by 1 level.
 - **Occult Training (Guidance):**
   - Each time you receive **effective**, **authentic**, and **non-repetitive** occult guidance that lasts at least **2 hours**, your **Occult** level increases by **1 level**.
-  - You must gain this benefit **2 times** to become proficient in training, and it cannot exceed proficiency.  
-    [[UNCLEAR: “need 2 times to become proficient in training” is unclear on what qualifies as “proficient” and how it’s tracked.]]
+  - You must gain this benefit **2 times** to reach **Proficiency**, **3 times** to reach **Advanced**, and **4 times** to reach **Mastery**.
   - **Limit:** This learning is limited to **1 time per day**.
   - **Cap:** This cannot increase the skill level beyond your tutor or book.
-- **Character Creation (Higher Sequence Start):** When directly creating a character with a higher **Sequence**, the growth skill can be added twice as much as the inspiration of the potion to make up for the gap in growth.  
-  [[UNCLEAR: “growth skill can be added twice as much as the inspiration of the potion” is unclear on the exact calculation and what is being increased.]]
+- **Character Creation (Higher Sequence Start):** When directly creating a character with a higher **Sequence**, the growth-skill increase is determined by the GM (typically based on the potion's Inspiration) to make up for the gap in growth.
 
 ### Open the Door
 
@@ -33,8 +31,7 @@ tags: ["pathway:apprentice", "sequence:9"]
 
 1) **Open a lock**
    - You can open any lock that does not have extraordinary power.
-   - For a lock that has extraordinary power but is not higher than your 1 personality, you can attempt to open it with an **Inspiration + Locksmith** test at **Difficulty Value 20**.  
-     [[UNCLEAR: “not higher than your 1 personality” is undefined (stat/threshold) in the source.]]
+   - For a lock that has extraordinary power but is not higher than your **Sequence level**, you can attempt to open it with an **Inspiration + Locksmith** test at **Difficulty Value 20**.
    - In special cases, it may be against the identification of the person who locked the lock.
 
 2) **Create a passage through a barrier**
@@ -48,8 +45,7 @@ tags: ["pathway:apprentice", "sequence:9"]
    - **Use:** 1 **free action**.
    - **Cost:** 1 **spirituality point**.
    - You create an eye-sized door for peeping. You must touch the wall or other barrier.
-   - You can only make smaller doors; not carriages through the door.  
-     [[UNCLEAR: The last clause is a fragment; it likely restricts size (e.g., not large enough for a carriage), but the exact meaning is unclear.]]
+- You can only make smaller doors, not large enough for a carriage.
 
 - **At Sequence 7:** You can bring other creatures to go through the wall together.
 

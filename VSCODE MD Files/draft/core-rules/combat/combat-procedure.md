@@ -24,7 +24,7 @@ A single combat round is approximately **6 seconds**.
 - You may alternatively sort directly by all creatures' **Agility (DEX)**.
 - Clear initiative values with: `.init clr`.
 
-[[UNCLEAR: The text uses "1d20 + Agility (DEX)" once; this appears to mean the same initiative roll as ".ri+Agility (DEX)", but the dice notation is inconsistent.]]
+For command syntax, `.ri+Agility (DEX)` is shorthand for rolling `1d20 + Agility (DEX)`.
 
 ### Actions Per Round
 
@@ -204,9 +204,8 @@ When a creature has **Armor** and **damage reduction**, calculate Armor Break un
 **Armor Recovery (Skin Armor):**
 - After a Beyonder restores **10 HP**, it no longer suffers the Wound Widening penalty reduction.
 - After restoring **20 HP**, it repairs the Armor and damage reduction effects.
-- Once HP is fully restored, gain all recovery benefits.
+- Once HP is fully restored, no additional effects are gained beyond complete repair.
 
-[[UNCLEAR: "Once HP is fully restored, gain all recovery benefits" is redundant with the prior lines and does not specify an additional effect beyond full repair.]]
 
 ## HP and Damage Examples
 

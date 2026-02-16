@@ -64,7 +64,7 @@ Also known as the restart of destiny or the restart of all things. This is not a
 - You cannot use this method to leap **Pathway**, because as long as you still have the [[Extraordinary characteristic of conflict]] in your body, even if you restart, **mental pollution** will always be produced and will only be eliminated for a while.
 - While in the infant stage, the abilities you can use are extremely limited: almost all abilities can only be used initially, cannot achieve the desired effect, and may not even achieve half of the original effect.
 - Fortunately, you can still use some [[Strong connection products]] to give the other party some [[Angel]] good luck or bad luck, and use your [[id:alias-spiritual-vision|Spiritual Vision]] to detect abnormalities.
-- Your power reduction does not mean your **Lowered**. [[UNCLEAR: “Lowered” is undefined here; unclear if it is a condition, rank, or attribute.]]
+- Your power reduction does not mean your **Lowered** (the **GM** decides how this applies).
 
 > **GM Note:** At [[Sequence 0]], Restart is no longer limited; it includes restarting only your own state, and you can restart the entire world.
 

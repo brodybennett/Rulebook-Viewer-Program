@@ -72,9 +72,7 @@ You gain the following extraordinary abilities.
 
 > **GM Note:** The same broad field can split into many non-overlapping directions at higher levels (e.g., “Medicine” versus “Medicine (Anesthesia)”). If needed, refer to [[Chapter 4 — Trained Skills]] to learn knowledge.
 
-[[UNCLEAR: “When picking up a reader with sequence 9 or higher” could mean character creation, recruitment, or another process; the rule below is preserved as written but the trigger is ambiguous.]]
-
-- **Special:** When picking up a Reader with Sequence 9 or higher, the Extraordinary can use twice the **Inspiration** points brought by the potion to train or become proficient in skills (limit: **Proficiency**) to solve the problem that a higher-sequence Reader has not accumulated knowledge.
+- **Special (clarified):** When creating a Reader at Sequence 9 or higher (and the character has not just been promoted), the Extraordinary can use twice the **Inspiration** points brought by the potion to train or become proficient in skills (limit: **Proficiency**) to solve the problem that a higher-sequence Reader has not accumulated knowledge.
   - This doubled Inspiration should not be used to increase [[Reputation]], but can be used to increase extraordinary knowledge.
 
 ### Knowledgeable
@@ -129,9 +127,7 @@ You gain the following extraordinary abilities.
      - The method of analysis can be observing the opponent’s performance, habits, and ability characteristics.
      - This requires the mind to summarize or write a report: speculate on principles/logic and behaviors, explain supernatural phenomena in scientific terms from a mysticism perspective, and explain the effects of acting and why it is effective.
 
-[[UNCLEAR: The text says each type of extraordinary knowledge can gain “a total of six skill levels” from the channels above, “that is, a +8 bonus,” which does not match unless additional bonuses exist elsewhere.]]
-
-- **Maximum Gains:** Each type of extraordinary knowledge can gain a total of six skill levels from any of the channels above (“that is, a +8 bonus”).
+- **Maximum Gains:** Each type of extraordinary knowledge can gain a total of six skill levels from any of the channels above (maximum +6 bonus).
 
 - **Substitution Rule:**
   - You can use **Education + Extraordinary Knowledge** to replace other attributes + skills.
@@ -149,7 +145,7 @@ You gain the following extraordinary abilities.
   - Reading Knowledge: Alternative Libraries, (Scout, Track).
   - Knowledge of Death: Alternative Survival, (Pilot).
   - Lore of the Night: Replaces Stealth.
-  - Combat Knowledge: Instead of full Fighting, full Shooting, and Throwing; it is considered as an extra +1 level only when these skills are identified. [[UNCLEAR: “identified” is not defined here; it is unclear what procedure triggers the +1 level.]]
+  - Combat Knowledge: Instead of full Fighting, full Shooting, and Throwing; it is considered an extra +1 level only when making Identification checks with those skills.
   - Legal Knowledge: Alternatives to Persuasion, Deception, Law.
   - Trial Knowledge: Alternative Law (Credit).
   - Hunting Knowledge: Alternative Survival, Tracking, Crafting (traps only).
@@ -162,10 +158,8 @@ You gain the following extraordinary abilities.
   - Prying Knowledge: Alternative Occultism, (Combat).
   - Artisan Knowledge: Alternative Craft Manufacturing, Mechanical Repair, (Archaeology, History).
 
-[[UNCLEAR: “Sequence level can be converted into the bonus value of reading knowledge… 9–0, a total of 10 sequence levels… can reach +10” does not specify the exact conversion formula.]]
-
 - **Special (Reading Knowledge):**
-  - If there is a “reading knowledge” situation, the extraordinary person’s Sequence level can be converted into the bonus value of reading knowledge (9–0, a total of 10 Sequence levels). Reading knowledge is different from other knowledge and can reach +10.
+  - If there is a “reading knowledge” situation, the extraordinary person’s Sequence level can be converted into the bonus value of reading knowledge. Use this formula: reading-knowledge bonus = (10 - Sequence number). Example: Sequence 9 = +1, Sequence 8 = +2, ... Sequence 0 = +10.
   - “Reading knowledge” should not be used except in special cases, because this is yourself—an understanding of the way.
   - A Reader simulates other Pathway abilities or occult skills that another Reader simulates should correspond to knowledge other than reading knowledge.
 

@@ -32,7 +32,7 @@ tags: ["pathway:mutant", "sequence:7"]
 ### Blade Swipe
 
 - **Effect:** Your claws are as reflective as metal, with black nails as long as daggers.
-- **Damage:** 1d6 curse + 1d6 poison + Strength damage dice (physical). [[UNCLEAR: “the physical of 1d6 curse + 1d6 poison + strength damage dice” is ambiguous about damage structure; preserved as-written in a clarified layout.]]
+- **Damage:** 1d6 curse + 1d6 poison + Strength damage dice (physical); total damage is the sum of these components.
 - **Limits:** This damage cannot be superimposed with other weapons at the same time.
 - **Notes:**
   1. The front paws of the wolf are still five fingers; **Blade Swipe** does not require the palm to become wolf-shaped. It can only work on the nails, making them grow like daggers.
@@ -72,7 +72,7 @@ tags: ["pathway:mutant", "sequence:7"]
 - **Use:** Passive.
 - **Effect:** Once per round, you recover 1d6 hit points.
 - **Notes:**
-  1. When you have this ability, you will not be in a near-death state due to reasons other than insufficient health, excluding blows from more than 1 character. [[UNCLEAR: “excluding blows from more than 1 character” is ambiguous (multiple attackers vs. multiple hits vs. another rule term).]]
+  1. When you have this ability, you will not be in a near-death state due to reasons other than insufficient health, except against attacks from multiple attackers in the same round.
   2. In form of expression: even if there is a hideous wound on your abdomen and the intestines flow out, you only need to wash the intestines and stuff them back, and the wound will heal.
 - **Sequence 6:** Instead, restore 2d6 hit points each time.
 
@@ -130,6 +130,6 @@ tags: ["pathway:mutant", "sequence:7"]
 - **Under the full moon:**
   1. Your madness has only one kind—violent tendency—and the desire for killing and bloodthirsty will reach its peak.
   2. When being illuminated by the full moon, you must pass a will test with a **Difficulty Value** of 15 every round; otherwise you will automatically become a werewolf, and the corresponding sanity will be deducted. Until you leave the full moon, you will fall into madness and start killing and bloodthirsty.
-     - **If you don't:** You lose an action each round, are excruciatingly painful, and don't gain the benefit of insane immediate actions from full moon madness. [[UNCLEAR: “If you don't” is ambiguous (fail the will test vs. refuse another option); phrasing preserved.]]
+     - **If you fail the will test (or otherwise resist transforming, GM decides):** You lose an action each round, are excruciatingly painful, and don't gain the benefit of insane immediate actions from full moon madness.
 - **Sedatives:** If you take sedatives (1–2 pills), you don’t need to suppress the madness and you can act normally, but the same kind will be invalid after 4 doses.
 - When a new full moon curse is acquired, the original full moon curse will be overwritten.

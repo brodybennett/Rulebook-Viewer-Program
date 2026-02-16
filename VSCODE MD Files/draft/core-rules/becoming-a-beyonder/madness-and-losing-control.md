@@ -130,7 +130,7 @@ If, under any circumstances, your Sanity / Rationality reaches 0, you immediatel
 - Your character sheet is considered dead.
 - Loss of Control is, in essence, becoming a monster in the corresponding mythical form.
 
-[[UNCLEAR: The text states the out-of-control state cannot be reversed, but later states Loss of Control can be reversed starting from Sequence 2 with outside help; confirm the intended exception and its limits.]]
+Rule: Loss of Control is irreversible **except** starting at **Sequence 2**, where outside help can restore Sanity / Rationality (see below).
 
 ## Becoming Out of Control
 
@@ -182,19 +182,19 @@ In addition, you gain the corresponding knowledge contained within the Mythical 
 
 | Situation | Loss |
 |---|---|
-| Witnessing mid/low-Sequence Out-of-Control Beyonders | 0/1. Starting from Sequence 4, you do not suffer Sanity / Rationality loss, and you will not gain knowledge. |
+| Witnessing mid/low-Sequence Out-of-Control Beyonders | 0/1. No mythic knowledge is gained from this case. |
 | Witnessing a Mythical Rune 1 Rank higher than yourself | 1d8/2d8; Sanity / Rationality loss Roll is +4 unfavorable. |
 | Witnessing a Mythical Rune 2 Ranks higher than yourself | 1d12/2d12; Sanity / Rationality loss Roll is +6 unfavorable. |
 | Witnessing a Mythical Rune 3 Ranks higher than yourself | 2d12/3d12. |
 | Witnessing a Mythical Rune 4 Ranks higher than yourself | 3d10/4d10. |
 
-[[UNCLEAR: This entry conflicts with the preceding general rule that witnessing Mythical Creature form causes loss and that knowledge is gained starting at Sequence 4; confirm what applies when witnessing a Sequence 4+ out-of-control being.]]
+Resolution: For Sequence 4+ out-of-control beings, use the rank-difference rows below; mythic knowledge follows the normal Sequence 4+ witnessing rules.
 
 From the following onward, if you witness Mythical Runes with no protection, you are by default immediately Out-of-Control / dead:
 - Witnessing a Mythical Rune 3 Ranks higher than yourself.
 - Witnessing a Mythical Rune 4 Ranks higher than yourself.
 
-[[UNCLEAR: The text assigns loss values for 3-4 Ranks higher but also states that witnessing with no protection is by default immediately Out-of-Control/dead; confirm when to apply the listed loss values.]]
+Resolution: With no protection, witnessing a Mythical Rune 3-4 ranks higher causes immediate Out-of-Control/death; listed loss values apply only when protection allows a Sanity / Rationality roll.
 
 **Special:**
 - Between Sequence 4 and Sequence 3, witnessing incomplete mythos to each other does not cause Sanity / Rationality loss.

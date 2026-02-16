@@ -21,8 +21,7 @@ tags: ["pathway:myster-pryer", "sequence:8"]
 
 Additionally, you gain the following benefits:
 
-1. **Special action identification bonus:** Your critical strike / double strike / proximity shooting and other special action identification +2 is beneficial, excluding first aid / surprise attack, and does not affect special actions that simply gain benefits, such as gaining momentum and aiming will not change from +2 to +2 4. It only affects identification.  
-   [[UNCLEAR: The phrase “will not change from +2 to +2 4” appears corrupted; intended modifier text cannot be resolved safely.]]  
+1. **Special action identification bonus:** Your critical strike / double strike / proximity shooting and other special action identification +2 is beneficial, excluding first aid / surprise attack, and does not affect special actions that simply gain benefits, such as gaining momentum and aiming. The +2 bonus does not stack beyond +4 total. It only affects identification.  
    - [[Special Action Identification]]
    - [[Critical Strike]]
    - [[Double Strike]]
@@ -44,8 +43,7 @@ Additionally, you gain the following benefits:
 - **Effect:** Intangible, undecipherable knowledge protects you from harm. You gain Armor of Knowledge for 1 round.
 - **Targeting and range:** Self
 - **Duration:** 1 round
-- **Limits:** Your **physical defense** gains ⌊(Education or Inspiration + Occult) / 3⌋ Armor, rounded down.  
-  [[UNCLEAR: “Education or Inspiration + Occult” could mean choose Education or Inspiration (then add Occult), but the exact interpretation of “or” is not specified.]]  
+- **Limits:** Your **physical defense** gains Armor equal to ⌊(max(Education, Inspiration) + Occult) / 3⌋, rounded down.  
   - [[Physical Defense]]
   - [[Armor]]
 
@@ -56,8 +54,7 @@ Additionally, you gain the following benefits:
 - **Effect:** You create an invisible servant. It can pass through small gaps and can do relatively simple things, such as moving goods, picking locks, etc.
 - **Limits:** The servant has 12 HP (every 1 point of Inspiration, life value +1).  
   - [[HP]]
-- **Duration:** Disappears after 24 hours.  
-  [[UNCLEAR: RAW text “24 Disappears after hours” is corrupted; duration is presented as 24 hours as the safest faithful reading.]]
+- **Duration:** Disappears after 24 hours.
 
 ### Fist of Fighting
 
@@ -93,7 +90,6 @@ Additionally, you gain the following benefits:
 
 ### Fast Dodge
 
-- **Effect:** You retain full **physical defense** against guns instead of light / lightning with the help of skill, and gain 1 extra level of dodge.  
-  [[UNCLEAR: The phrase “against guns instead of light/lightning” is unclear in meaning/context; the mechanical intent cannot be confidently resolved beyond the literal wording.]]
+- **Effect:** You retain full **physical defense** against guns (light / lightning bypass this), and gain 1 extra level of dodge.  
 - **Reference:** (For extra dodge, see “Defense and Dodge Types”)  
   - [[Defense and Dodge Types]]

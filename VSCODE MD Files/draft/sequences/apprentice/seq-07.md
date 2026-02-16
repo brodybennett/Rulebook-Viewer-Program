@@ -26,7 +26,7 @@ tags: ["pathway:apprentice", "sequence:7"]
 - When you receive guidance on astrology-related knowledge that is **non-repetitive**, **effective**, and **true**, and the course lasts **at least 2 hours**, your **Astrology** increases by **1 level**.
   - This increase **cannot exceed** the skill level of your instructor or books.
 - You can only learn **once per day** to digest knowledge.
-- From **proficiency to advanced level**, and from **advanced level to proficiency**, you need to learn **2** and **3** times respectively. [[UNCLEAR: “advanced level to proficiency” appears reversed, but the RAW text is mechanically specific.]]
+- From **proficiency to advanced level**, and from **advanced level to mastery**, you need to learn **2** and **3** times respectively.
 - To further improve the skill, you must obtain a book or Extraordinary guidance where the skill itself has reached a higher level.
   - It takes **4** and **5** times to reach **erudition** and **master** respectively.
 
@@ -41,7 +41,7 @@ This ability can be used in the following ways:
 
 1. **Horoscope / Appraisal**
    - You ask your own spirituality to perform a horoscope, conduct an [[Inspiration Appraisal]], and get feedback based on the results.
-   - **Special (advanced crystal ball):** If you use an [[advanced crystal ball]], (purchase consumes **3 levels of reputation**, proficiency consumes **1 level**, and knowledge does not consume), the skill identification of Astrology changes from **Inspiration** to **Inspiration + Astrology identification**. [[UNCLEAR: The RAW mixes “purchase/proficiency/knowledge” with “reputation” in a way that does not clearly state when each cost applies.]]
+   - **Special (advanced crystal ball):** If you use an [[advanced crystal ball]], the skill identification of Astrology changes from **Inspiration** to **Inspiration + Astrology identification**. (The reputation costs listed - purchase consumes **3 levels**, proficiency consumes **1 level**, and knowledge consumes none - apply only when learning Reputation-based skills.)
      - The [[Astrology identification]] of [[ordinary crystal balls]] is limited to **proficiency**.
 
    - **Divination outcomes by Difficulty Value**
@@ -53,13 +53,13 @@ This ability can be used in the following ways:
      - **Great success:** Results are extremely accurate; content is specific, and time, place, and people are revealed.
      - **Big failure:** Based on the final value of the appraisal, you still obtain the corresponding content, but attract the attention of related beings. If the content did not involve hidden beings, then the directly or indirectly related Extraordinary notices being watched.
        - Becoming aware of the gaze requires a spiritual intuition test.
-       - The existence of higher than **1 person** is detected by default regardless of the Difficulty Value. [[UNCLEAR: “higher than 1 person” is not defined (level/Sequence/other).]]
+       - The existence of targets with Sequence higher than **1** is detected by default regardless of the Difficulty Value.
      - **Special:** Before obtaining new clues, repeated divination in the same direction only gets the same result, regardless of Difficulty Value.
 
    - **Other divination factors**
      1. Divination of things involving other people fails by default if there is no clue, and succeeds by default if there is their blood or belongings.
-     2. For each clue obtained, divination related events gain a **+2 beneficial** modifier, but divination of targets higher than **1 character** fails by default. [[UNCLEAR: “higher than 1 character” is not defined (Sequence/level/other).]]
-     3. The reason for detection and failure of the higher level is that under special circumstances, it is possible for the lower level to divine for the higher level. [[UNCLEAR: The RAW references “higher level” without specifying the governing rule or threshold.]]
+     2. For each clue obtained, divination related events gain a **+2 beneficial** modifier, but divination of targets higher than **1 character** fails by default (GM-defined threshold).
+     3. The reason for detection and failure of the higher Status/Rank tier is that under special circumstances, it is possible for the lower level to divine for the higher level.
      4. Whenever you are in a deep sleep, you can conduct an Inspiration appraisal with **Difficulty Value 20**. If it succeeds, and something directly related to you has happened in the current period, you see a general picture that needs to be interpreted. This is the first step of [[dream interpretation]].
 
      > **GM Note:** Example given in RAW: if you are related to the god in charge of the moon, you will see a red moon; blood represents misfortune; tombstones represent the direct implication of certain events.
@@ -87,7 +87,7 @@ This ability can be used in the following ways:
           - Mage robes: up to **8**
      2. **Rely purely on spirituality**
         - Purely rely on spirituality (do not smash anything).
-        - The identification of anti-divination Difficulty Value changes from Astrology to **Inspiration**. [[UNCLEAR: The RAW alternates between using Astrology vs Inspiration to set/identify anti-divination Difficulty Value, and does not clearly define which applies when.]]
+        - Set and identify the anti-divination Difficulty Value using **Inspiration**.
 
    - **On success:** This information is excluded in related divination, spiritual intuition, and prophecy, unless it exceeds the corresponding Difficulty Value.
 
@@ -117,4 +117,4 @@ When triggered:
   - Your Inspiration appraisal is successful by default.
   - The flashing thought changes to flashing the picture, so as to know the manifestation of danger.
 - **Sequence 5:**
-  - You can perceive danger higher than **1 personality**. [[UNCLEAR: “personality” is not defined and may be a mistranslation, but the RAW text is mechanically specific.]]
+  - You can perceive danger higher than **1 personality** (alignment/temperament compatibility).

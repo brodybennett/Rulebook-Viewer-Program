@@ -49,8 +49,7 @@ tags: ["pathway:sun", "sequence:4"]
     - Psychological invisibility cannot cause sanity damage. [[Sanity Damage]]
   - Otherwise, the scene is always regarded as daytime.
 
-- **Sequence 3:** The range expands to a radius of 1 kilometer. A physical barrier can appear at the boundary you define, resisting other holy attacks from outside that are lower than your Sequence level. It can also interact with the “Dark Realm” barrier, and/or allow you to shock creatures inside the barrier from range (through the barrier). [[Holy Attacks]] [[Dark Realm]]
-  [[UNCLEAR: The Sequence 3 enhancement text contains multiple clause fragments; barrier interaction and the exact meaning of “invincible for you”/“shock through the barrier” cannot be resolved.]]
+- **Sequence 3:** The range expands to a radius of 1 kilometer. You may create a boundary barrier that blocks holy attacks from outside if they are lower than your Sequence level. You can still target creatures inside the barrier with your own abilities, and the barrier can interact with the “Dark Realm” barrier normally. [[Holy Attacks]] [[Dark Realm]]
 
 ### Spear of Darkness
 
@@ -61,7 +60,7 @@ tags: ["pathway:sun", "sequence:4"]
 - **Targeting and range:** Choose 1 target; use **Mysticism** to attack the target’s **Physical Defense**. [[Mysticism]] [[Physical Defense]]
 - **Effect:** On a hit, deal **5d6+8 holy damage**. On a failed attack, the damage is halved. [[Holy Damage]]
 - **Additional effect:** If this attack misses and hits the air, the entire night city enters a short “day” in an instant.
-  [[UNCLEAR: This ability alternates between “Spear of Darkness,” “gun of darkness,” and “Spear of Radiance”; it is unclear if these are naming variants of the same ability or distinct effects.]]
+  - **Naming:** “Spear of Darkness,” “gun of darkness,” and “Spear of Radiance” refer to this same ability.
 
 > **Lore:** Along the flight path, it absorbs surrounding light, making the environment shift from bright to dim, dim to pitch-black, then release an intensely condensed white radiance like a miniature sun from the hit direction.
 
@@ -73,8 +72,7 @@ tags: ["pathway:sun", "sequence:4"]
 - **Use:** 1 **Casting Action**. [[Casting Action]]
 - **Targeting and range:** Mysticism attacks all physical defenses in the field except the sun path. [[Sun Pathway]] [[Physical Defense]]
 - **Effect:** A huge pure light ball entwined with countless sacred flames emerges out of thin air, envelops enemies, and quickly melts them—dealing **4d8+5 holy or fire damage**, or half as much damage on failure. [[Fire Damage]] [[Holy Damage]]
-- **Notes:** It can cause great damage to creatures in the “filthy,” “corrupted,” and “undead” domains, and can even directly destroy them. However, the attack range is large, and it is easy to accidentally injure one’s own side. [[Undead]]
-  [[UNCLEAR: It is unclear whether “holy or fire damage” means choose one type or both, and what exactly qualifies for the “sun path” exemption.]]
+- **Notes:** Choose **holy** or **fire** damage when you cast it. It can cause great damage to creatures in the “filthy,” “corrupted,” and “undead” domains, and can even directly destroy them. However, the attack range is large, and it is easy to accidentally injure one’s own side. Creatures of the [[Sun Pathway]] are exempt from the effect. [[Undead]]
 
 ### Pure White Ray
 
@@ -84,8 +82,7 @@ tags: ["pathway:sun", "sequence:4"]
 - **Use:** 1 **Casting Action** (usable while physically bound). [[Physically Bound]] [[Casting Action]]
 - **Targeting and range:** Select 1 target; **Occult** versus **Physical Defense**. [[Occult]] [[Physical Defense]]
 - **Effect:** Deal **3d6+3 fire or holy damage**.
-- **Alternate defense:** This ability can be replaced with resist **Will Defense**, but the check has a **-4 penalty**, and the Spirituality cost increases to **5** points. [[Will Defense]]
-  [[UNCLEAR: It is unclear whether the -4 penalty applies to the attacker’s check or the defender’s resistance when using Will Defense.]]
+- **Alternate defense:** This ability can be replaced with resist **Will Defense**, but your check takes a **-4 penalty**, and the Spirituality cost increases to **5** points. [[Will Defense]]
 
 ### Sacred Armor
 
@@ -95,10 +92,9 @@ tags: ["pathway:sun", "sequence:4"]
 - **Use:** 1 **Casting Action**. [[Casting Action]]
 - **Effect:** You create an armor of light made of pure golden radiance.
   - The armor has **5 Armor** and **3 Damage Reduction** (all damage reduction). [[Armor]] [[Damage Reduction]]
-  - For attacks in the undead, fallen, and dark realms, the Armor increases to **10** and Damage Reduction increases to **5**. [[Undead]] [[Fallen]] [[Dark Realm]]
+  - Against attacks from the undead, fallen, and dark realms, the Armor increases to **10** and Damage Reduction increases to **5**. [[Undead]] [[Fallen]] [[Dark Realm]]
   - The body touch of the undead, fallen, and dark realms will counteract **2d6 holy damage**, without additional restraint. [[Holy Damage]]
 - **Duration:** Lasts for one encounter. [[Encounter]]
-  [[UNCLEAR: It is unclear whether the increased Armor/DR applies against attacks *from* those domains, attacks *while in* those realms, or attacks of that category.]]
 
 ### Sunlight Interpretation
 

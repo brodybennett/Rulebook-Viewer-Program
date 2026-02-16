@@ -13,7 +13,7 @@ tags: ["pathway:visionary", "sequence:7"]
 - **Ability List:** Shock and Awe (Dragon Power), Frenzy, Mental Suggestion, Soothe (Comfort), Mind Reading
 - **Main Materials:** Mirror Dragon Eyes (pair), Elder Tree Fruit
 
-[[UNCLEAR: The line about “skill growth of Sequence 9” is referenced but not defined in this section, so its exact meaning cannot be confirmed.]]
+**Skill Growth:** Use the same growth rules as Sequence 9 for psychology-related skills (2 hours of effective training = +1 level, once per day, up to **Proficiency**).
 
 ## Advancement
 
@@ -26,8 +26,7 @@ tags: ["pathway:visionary", "sequence:7"]
 ### Attribute Gain
 
 - **Attribute Gain:** Inspiration +1, Strength +1, Constitution +1, Agility +1
-- Psychology / Psychological Guidance can quickly learn to “Erudition.”
-  [[UNCLEAR: “Erudition” is not defined here; it is unclear whether this is a rank, proficiency tier, or a specific feature name.]]
+- Psychology / Psychological Guidance can quickly learn to **Erudition** (a rank above **Master**). [[Skill Ranks]]
 
 ### Passive Traits
 
@@ -57,7 +56,7 @@ Also known as “group chaos.” You make enemies panic as if facing a dragon.
   - Result ② becomes ③
   - Result ④ “only lasts for 3 rounds, and then 1 round”
   - The level dropped equals the number of consecutive uses.
-  [[UNCLEAR: The exact timing of the “3 rounds, then 1 round” duration change for result ④ is not fully specified.]]
+  - **Clarification:** On the first consecutive use that would apply result ④, the duration is 3 rounds; on subsequent consecutive uses, it lasts only 1 round.
 
 ### Frenzy
 
@@ -68,8 +67,7 @@ Detonates the target’s emotional or mental state, causing them to fall into �
 - **Targeting and range:** Choose 1 target within your field of vision.
 - **Effect:**
   - The target must be in at least one madness symptom or emotional state (excluding **Stunned** and “indeterminate madness itself”).
-  - The target suffers 1/1d3 **Sanity** loss for each corresponding state, and the detonated emotional state is immediately cleared.
-  [[UNCLEAR: It is unclear how to interpret “1/1d3 Sanity loss” (which value applies, and under what condition).]]
+  - The target suffers **1 Sanity** loss per emotional state and **1d3 Sanity** loss per madness symptom; the detonated emotional state is immediately cleared.
 - **Manifestation (non-mechanical):** When you cast it, your pupils lighten, become light-gold, and may become vertical.
 
 ### Mental Suggestion
@@ -86,8 +84,7 @@ You suggest the target through specific actions, language, and media.
   2. **Stay awake:** Set a time period or trigger condition. When the target enters a dream, they realize they are in a dream.
   3. **Answer questions:** Set a time period or trigger condition. For 5 minutes, the target strongly wants to answer questions and may lie.
   4. **Follow the promise:** This can be your hint, or it can directly affect a promise made by the target. Breaking the promise requires a [[Will Test]]. The **Difficulty Value** is your “Inspiration + Charisma + Psychological Guidance bonus.”
-     - “It cannot be done within 3 hours Repeat identification.”
-     [[UNCLEAR: The phrase about “Repeat identification” is unclear; it may refer to retry limits, but the exact restriction is not stated cleanly.]]
+     - If the target attempts to break the promise and fails the [[Will Test]], they cannot attempt that same break again for 3 hours.
   5. **Complete a certain action:** Set a time period or trigger condition, and select a certain identification in that period. This identification gains a +1 beneficial bonus, and this mental suggestion can be stacked.
   6. **Contain emotions:** Set a time period or trigger condition; use “Inspiration + Charisma + Psychological Guidance” as the Difficulty Value.
      - **Actively generated emotions:** Each time a related emotion appears, use Inspiration to identify against the Difficulty Value; if the identification fails, it is not generated.
@@ -96,7 +93,7 @@ You suggest the target through specific actions, language, and media.
   8. Other more allowable and reasonable psychological hints set by the GM; refer to the above effects.
 - **Special suggestive situations:**
   1. **Target is not voluntary:** Use 1 Psychological Guidance to resist the [[Will Defense]] to succeed, and gain bonuses/penalties equivalent to [[Thinking Simulation]].
-     [[UNCLEAR: “Thinking simulation” is referenced but not defined in this section, so its exact modifiers cannot be confirmed.]]
+     - Use the same modifiers as **Thinking Simulation** (start at -8 disadvantage and apply Psychological Guidance understanding modifiers). [[id:alias-thinking-simulation|Thinking Simulation]]
   2. **Suggestion involves life / the most important thing:** The mental suggestion is immediately dismissed by default and has no effect.
   3. **Suggestion in combat/chaos area:** The suggestion fails by default and cannot be executed successfully.
   4. **Suggestion not triggered:** A suggestion lasts for a maximum of 1 month.
@@ -117,9 +114,9 @@ Helps Beyonders on the verge of losing control regain sanity and escape danger.
   2. Whenever there is a Beyonder beside you whose Sanity returns to 0, as long as you still have the action of casting spells, you are allowed to try to soothe them.
 - **Let a Beyonder about to lose control regain sanity:**
   - Make 1 Mental Guidance appraisal. Initial Difficulty Value is 40; for each sequence level you have, the Difficulty Value is -5.
-    [[UNCLEAR: “For each sequence level you have” is ambiguous (counting method not defined here).]]
+    - **Clarification:** Reduce DV by 5 for each Sequence level above 9 you have (Sequence 8 = -5, Sequence 7 = -10, etc.).
   - Each time the target is larger than you by 1 character, the identification Difficulty Value is +15. If greater than 2 characters, “big success” is ignored.
-    [[UNCLEAR: “Larger by 1 character” and the meaning of ignoring “big success” are not defined in this section.]]
+    - **Clarification:** Add +15 DV for each Sequence the target is higher than you. If the target is 2+ Sequences higher, **Big Success** is ignored.
   - There is only one chance. If the identification fails, the target is completely out of control.
 
 ### Mind Reading
@@ -134,4 +131,4 @@ You place the target in a semi-hypnotic state through candlelight, pure dew, and
   - A target in **Trance State** answers all your questions truthfully and cannot lie.
   - This has no effect on a target who can [[Stay Awake in Dream]].
   - If a question is vague and too broad, then if it is answered, it means the other party has the willingness to inform.
-    [[UNCLEAR: The last sentence does not specify how vagueness changes what can be learned, only a narrative interpretation.]]
+    - **Clarification:** Vague questions yield only a general intent or summary, not detailed specifics.

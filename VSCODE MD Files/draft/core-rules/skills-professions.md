@@ -52,9 +52,9 @@ During character creation, allocate starting Skills using **Intuition (INT)** an
 
 > **Lore:** This reflects the possibility of a royal background, but Reputation does not automatically equal family wealth.
 
-**Exception: Dodge (limited stacking):** Using Education on Dodge can only make it **Proficient**. Dodge cannot become **Advanced** just because it "starts at +2." Selecting Dodge with Intuition (INT) has no practical use, because the newly gained Trained duplicates the original Trained. However, if the GM allows stacking, **two** Intuition (INT) can make Dodge reach **Proficient**, because 1 Intuition (INT) represents 1 Skill level.
+**Exception: Dodge (stacking allowed, GM discretion):** Using Education on Dodge can make it **Proficient**. With GM approval, selecting Dodge with Intuition (INT) can stack further up to **Master**, similar to Reputation (each INT slot = +1 Skill level).
 
-[[UNCLEAR: The text both states Dodge cannot be selected using Intuition (INT) and later discusses selecting it with Intuition (including stacking).]]
+
 
 > **GM Note:** If there is a special need, discuss with the GM. With GM approval, Skills may be allowed to stack to a higher extent, but the recommendation is to limit starting Skill Level to at most **Advanced**, or it may cause imbalance (potions' extra Skills are already sufficient).
 

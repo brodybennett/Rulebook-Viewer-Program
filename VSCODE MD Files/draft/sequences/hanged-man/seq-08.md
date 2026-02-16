@@ -28,8 +28,7 @@ tags: ["pathway:hanged-man", "sequence:8"]
   - You can perform a listening detection with **Difficulty Value** [[Difficulty Value]] 20.
   - The **Difficulty Value** is -1 for every 1 meter closer, until the default is successful; it will also cause **Sanity** loss.
 
-[[UNCLEAR: The clause “at the time of detection of 4 …” is unclear (what “detection of 4” refers to and how it modifies the above rule).]]
-- At the time of detection of 4, if the target 1 higher than you does not release pollution and mythical runes [[Mythical Rune]], then only when the target with pollution is detected will cause **Sanity** loss.
+- At a Detection result of 4+, if the target 1 higher than you does not release pollution and mythical runes [[Mythical Rune]], then only when the target with pollution is detected will cause **Sanity** loss.
 
 > **GM Note:** (This is an explanation, ancillary to the ability of listening, which disappears when the latter disappears.)
 
@@ -67,14 +66,12 @@ Effects (rd8):
 - ⑥ Select a target within the field of vision; their shadow suddenly activates and restrains them, and uses movement and attack actions to fight against their own strength attribute until they escape.  
   (Shadow rolls are made by you or the GM.)
 - ⑦ Lasts 1 hour: you can use 1 round of freedom to become a shadow or escape, and lose the ability after 1 round.
-- ⑧ You can shoot flesh and blood bullets at 1 or more targets, up to 3 rounds; identify the corresponding number of times. Each round, lose 1d2 HP [[HP]]. Inspiration + shooting (against physical defense); there is no disadvantage and it is regarded as a firearm [[Firearm]]. Each round causes 1d6 physical damage.
-- ⑧ If you hear the ravings of other existences of the real Creator, the effect obtained will be determined by the GM, generally not including the Seven Gods. [[Seven Gods]]
+- ⑧ You can shoot flesh and blood bullets at 1 or more targets, up to 3 rounds; identify the corresponding number of times. Each round, lose 1d2 HP [[HP]]. Inspiration + shooting (against physical defense); there is no disadvantage and it is regarded as a firearm [[Firearm]]. Each round causes 1d6 physical damage. If you hear the ravings of other existences of the real Creator, the effect obtained will be determined by the GM, generally not including the Seven Gods. [[Seven Gods]]
 
-[[UNCLEAR: The success table says “rd8,” but the listed effects include two entries labeled “⑧,” implying more than eight outcomes or an alternate branch that is not clearly separated.]]
 
 #### Listening appraisal failure
 
-- Make an rd4 [[rd4]] to determine what happens if you fail your luck check. [[Luck Check]]
+- Make an rd5 [[rd5]] to determine what happens if you fail your luck check. [[Luck Check]]
 
 Outcomes:
 - ① You immediately suffer 2d6 curse damage [[Curse Damage]] and suffer 1/1d2 **Sanity** loss.
@@ -83,4 +80,3 @@ Outcomes:
 - ④ You immediately fall into an extraordinary madness and suffer a **Sanity** loss of 1/1d3.
 - ⑤ You heard ravings from other than the real Creator, and the effect is determined by the GM, generally not including the Seven Gods.
 
-[[UNCLEAR: The failure text specifies “rd4,” but lists five outcomes (①–⑤), and it is unclear how the “luck check” interacts with the rd4 result.]]

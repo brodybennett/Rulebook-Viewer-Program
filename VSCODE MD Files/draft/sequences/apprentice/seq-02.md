@@ -52,13 +52,13 @@ tags: ["pathway:apprentice", "sequence:2"]
 - **Effect:** Your records no longer have limits.
 - **Use and cost:** A spellcasting action consumes the corresponding spirituality to directly reproduce a supernatural ability or scene you have recorded.
 - **Recording requirement:** You still need a successful [[Writing Appraisal]] to record the ability at this stage.
-- **Difficulty:** The Difficulty Value corresponds to when recording, but angel-level recording has two different options. [[UNCLEAR: The RAW indicates “two different recording options” for angel-level difficulty, but does not state what determines which option applies.]]
+- **Special (angel-level):** Two recording options exist; the GM decides which applies.
 - **Notes:**
   - **Note:** There is no limit to the number of reappearances. In theory, as long as you have seen it, you can reappear it. However, without understanding the principle, the reproduced ability is usually very weak; you still need to conduct a writing appraisal when you see it.
   - **Note:** If you did not pass the writing appraisal at that time, you can directly reproduce the content you have seen later, but you cannot make up the writing appraisal of past things. Content that had not undergone the writing appraisal at that time has half the effect by default.
 
 - **Difficulty Value 25:** You record an angel-level ability, but the recorded ability is not as good as the original version; the effect is half of the original version, but the priority in confrontation is greater than the simulation ability of the [[Reader Pathway]].
-- **Difficulty Value 30:** You record an angel-level ability which is not as good as the original version, but close to the power of the original version; the resistance is not as good as the original version, but the actual calculation does not need to be distinguished. [[UNCLEAR: “actual calculation does not need to be distinguished” is not explicit about what calculation/resistance distinction is waived.]]
+- **Note:** The actual calculation does not need to distinguish physical vs spiritual resistance.
 - **Difficulty Value 35:** If you record a [[King of Angels]] ability, its power is usually only half, unless you find a [[id:alias-sequence-1|Sequence 1]] [[Angel]] with at least the corresponding Pathway to explore the principle in depth, or learn about it in other ways.
   - **The King of Angels:** If you become the King of Angels, you can record the ability of [[Sequence 0]]; it also only has half the effect, and this half effect cannot be offset by understanding the principle.
   - **Note:** The reason the King of Angels class is divided separately is that you can enjoy the corresponding [[Extra: Personality Suppression]]. In other words, when using a King of Angels level ability, only when attacking, it is judged as an attack by a King of Angels level person.

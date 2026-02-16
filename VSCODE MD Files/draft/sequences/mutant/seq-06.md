@@ -44,14 +44,14 @@ Even though you get werewolf-based enhancements, that doesn’t mean you’ll st
 
 - **Effect:** Your body heals quickly.
 - **Trigger:** Once per round, it triggers automatically whenever your HP reaches 0.
-  1. Your physique is temporarily -3, and half of your health is restored to your health. This physique can only consume your own physique. [[UNCLEAR: “This physique can only consume your own physique” is not mechanically clear.]]
+  1. Your physique is temporarily -3, and half of your health is restored to your health. The Physique reduction can only be paid by you (it cannot be transferred or offset by others).
   2. If the end of your life is an effective, vital blow to your head, then **Immortal Body** cannot be triggered.
   3. If the end of your life is holy damage or lightning damage, **Immortal Body** also cannot be triggered.
   4. The damage that ends your life must not put you in a near-death state, but directly end your life to take effect.
 
 For dying, see [[Special State]].
 
-**Sequence 5: Wraith state** (reference): Because it is a spirit body, physical regeneration is meaningless, so it cannot use **Immortal Body**. But despite this, if the resentful soul dies, or even gets a headshot, it can still continue to perform a round of operations without a head and is almost considered dead. This ability has no effect if you die without a ghost. [[UNCLEAR: “die without a ghost” is not defined here.]]
+**Sequence 5: Wraith state** (reference): Because it is a spirit body, physical regeneration is meaningless, so it cannot use **Immortal Body**. But despite this, if the resentful soul dies, or even gets a headshot, it can still continue to perform a round of operations without a head and is almost considered dead. This ability has no effect if you die without entering a ghost/spirit-body state.
 
 ### Steel Skin
 
@@ -151,7 +151,7 @@ Note: Cold Buff is contradictory to Rot Bless, in the sense that they cannot be 
 - **Use:** 1 casting action; occult vs. physical defense; choose 1 target.
 - **Effect:**
   1. Occultism against physical defense. Speed is regarded as a gun. This ice crystal thin arrow is close to transparency and needs detection and identification of **Difficulty Value 25**; otherwise, it enjoys the effect of being caught off guard.
-  2. 1 quick action: you can suddenly change the direction of this ice crystal thin arrow and get the benefits of fake special action. [[UNCLEAR: “benefits of fake special action” is not defined here.]]
+  2. 1 quick action: you can suddenly change the direction of this ice crystal thin arrow and treat it as a special action without consuming your special-action slot.
 
 ### Manipulate Living Corpses
 
@@ -160,10 +160,10 @@ You can easily wake up dead corpses and cultivate puppets. This is a death-like 
 - **Cost:** 3 spirituality points
 - **Use:** 1 casting action; choose:
   - 1 corpse that has not been [[requiemed]] and has been dead for less than 1 month, **or**
-  - an existing **Living Corpse** (the living corpse should have no owner, or the owner is 1 rank lower than you grid). [[UNCLEAR: “you grid” is not mechanically clear.]]
+  - an existing **Living Corpse** (the living corpse should have no owner, or the owner is 1 rank lower than you).
 - **Effect:** You make it your puppet.
 
-**Zombie** (puppet stats): 15 health, 15 physical defense (5 points for agility and dodge), ignoring the ability to fight physical and will defense. [[UNCLEAR: “ignoring the ability to fight physical and will defense” is not mechanically clear.]]
+**Zombie** (puppet stats): 15 health, 15 physical defense (5 points for agility and dodge); it has no Fighting or Will Defense rolls (use its flat defenses).
 
 1. A living corpse has 5 points of resistance to cold, curse, and poison. Its attack causes 1d6 physical damage. It looks like an ordinary person but has many places on its body.
 2. If there is a disease that can affect the living corpse, then it can be done against physical defense of **Difficulty Value 15**, such as the [[Witch’s Plague]].

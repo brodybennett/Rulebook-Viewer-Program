@@ -1,4 +1,4 @@
----
+﻿---
 title: "Sequence 5: Crimson Scholar"
 id: "moon-seq-05"
 tags: ["pathway:moon", "sequence:5"]
@@ -11,10 +11,10 @@ tags: ["pathway:moon", "sequence:5"]
 - See also: [[Viscount Bloodline Pathway]]
 
 There are two core abilities:
-- Create an environment beneficial to yourself by creating a “full moon” effect or hiding the moon.
+- Create an environment beneficial to yourself by creating a â€œfull moonâ€ effect or hiding the moon.
 - Within a certain range illuminated by moonlight, gain the ability to teleport/flash and enter a moonlight state; even if crushed by someone, you can be reassembled in the moonlight.
 
-The strength of these abilities depends on your understanding and research of the “Moon” field. Darkness spells become stronger, potions are more effective, and you gain resistance to nightmare effects. [[Nightmare effects]]
+The strength of these abilities depends on your understanding and research of the â€œMoonâ€ field. Darkness spells become stronger, potions are more effective, and you gain resistance to nightmare effects. [[Nightmare effects]]
 
 ## Advancement
 
@@ -23,7 +23,7 @@ The strength of these abilities depends on your understanding and research of th
 - **Auxiliary Materials (unofficial examples):** Metals, gemstones, and blood of supernatural beings representing different moon states.
 
 **Metal (moon symbol, mysticism):**
-- Pure silver (about 10–40 grams)
+- Pure silver (about 10â€“40 grams)
 
 **Gemstones (moon symbol, occultism):**
 
@@ -46,15 +46,15 @@ The strength of these abilities depends on your understanding and research of th
 - The blood of vampires or artificial vampires
 
 > **GM Note:** Ritual gem description:
-> - Because there are many branches of gemstones symbolizing a single moon phase (e.g., more than one gemstone can symbolize the new moon or first quarter moon), the moon-phase name is used collectively here. You may buy several different kinds, but any one that meets the requirement can symbolize that moon phase—choose one.
-> - Because the astronomical moon phase is a cycle, a full cycle requires two different gems that symbolize the “new moon,” so they can connect end to end. (Analogy given: if gathering “East Rising” for the sun, you would need two “East Rising” to meet a cycle.)
-> - In the gemstone list, the first and last gems are intended to fulfill the “two new moon” requirement (e.g., star moon stone and garnet), so there is no need to buy two star moon stones separately—use the list to buy.
-> - [[UNCLEAR: The note also states the first and last gemstones symbolize the crescent moon, which conflicts with the provided phase mapping where the first and last correspond to the new moon.]]
+> - Because there are many branches of gemstones symbolizing a single moon phase (e.g., more than one gemstone can symbolize the new moon or first quarter moon), the moon-phase name is used collectively here. You may buy several different kinds, but any one that meets the requirement can symbolize that moon phaseâ€”choose one.
+> - Because the astronomical moon phase is a cycle, a full cycle requires two different gems that symbolize the â€œnew moon,â€ so they can connect end to end. (Analogy given: if gathering â€œEast Risingâ€ for the sun, you would need two â€œEast Risingâ€ to meet a cycle.)
+> - In the gemstone list, the first and last gems are intended to fulfill the â€œtwo new moonâ€ requirement (e.g., star moon stone and garnet), so there is no need to buy two star moon stones separatelyâ€”use the list to buy.
+> - Use the phase mapping where the first and last gemstones represent the **new moon** (not crescent moon) to close the cycle.
 
 > **GM Note:** Price guidance (setting-facing):
 > - Average unit price of metals and gems is not expensive in the Lord of Mysteries worldview.
-> - A single gem will not exceed 1–2 pounds if the need is not much.
-> - Because extraordinary creature blood is not the main material, costs are reduced; you can collect them for about 50–100 pounds.
+> - A single gem will not exceed 1â€“2 pounds if the need is not much.
+> - Because extraordinary creature blood is not the main material, costs are reduced; you can collect them for about 50â€“100 pounds.
 > - Under normal circumstances, total consumption will not exceed 100 pounds.
 > - The point is there is no market price: gems/metals can be found in a few different jewelry stores on average; blood can be collected by attending a few extraordinary parties (common material).
 
@@ -86,17 +86,15 @@ From now on, against attempts to force you with sleep-related abilities:
 - **Use:** 1 **swift action**. [[Swift Action]]
 - **Cost:** 3 points of **spirituality**. [[Spirituality]]
 - **Targeting and range:** Affecting an area within a few hundred meters.
-- **Effect:** You unleash a crimson moonglow (a “full moon” effect), or cause the moon to disappear into the sky. At this time, it is regarded as a full moon state. All creatures illuminated by the moonlight, and all identifications related to **Inspiration**, gain +1.
+- **Effect:** You unleash a crimson moonglow (a â€œfull moonâ€ effect), or cause the moon to disappear into the sky. At this time, it is regarded as a full moon state. All creatures illuminated by the moonlight, and all identifications related to **Inspiration**, gain +1.
 
 **Moon Knowledge scaling**
-- For every “Lunar lore level” you have (i.e., Moon Knowledge level), all checks related to **Inspiration** get +1 again.
-- Thus, while your Lunar lore is “in train,” all friendly creatures gain +2 to inspiration-related checks.
-- [[UNCLEAR: “Lunar lore level,” “in train,” and how the repeated +1 stacks with the base +1 are not fully defined.]]
+- For every â€œLunar lore levelâ€ you have (i.e., Moon Knowledge level), all checks related to **Inspiration** get an additional +1 on top of the base +1 from moonlight.
+- Thus, while your Lunar lore is **Trained**, all friendly creatures gain +2 to Inspiration-related checks.
 
 **Advantages of other full moon astronomical phenomena**
 1. **Extra spirituality:** Under the full moon, everyone who is illuminated can get 1d6 temporary extra spirituality; during a blood moon, they can get 2d6 temporary extra spirituality. [[Blood Moon]]
-2. The Crimson Scholar of **Sequence 5** can add an additional amount of spirituality equivalent to increasing their moon knowledge bonus on top of this base value.  
-   [[UNCLEAR: “equivalent to increasing his moon knowledge bonus” is not quantified.]]
+2. The Crimson Scholar of **Sequence 5** can add an additional amount of spirituality equal to **+1 per Moon Knowledge level** on top of this base value.
 
 > **GM Note:** When polluted by the primordial moon, or when the transcendent of the moon path is a believer of the primordial moon (Fallen Goddess), the moon summoned by it is mostly a blood-red full moon. [[Primordial Moon]] [[Fallen Goddess]]
 
@@ -116,11 +114,10 @@ From now on, against attempts to force you with sleep-related abilities:
 
 1. **Reorganization:** Whenever your health value is reduced to 0, if you are in the moonlight you recover 2d6 life and transform into the moonlight form, provided that:
    - you have not been hit by the heart,
-   - you are at the disadvantage of being hit by the heart, or
+   - attackers are at disadvantage to hit the heart, or
    - you are hit by heart to die.  
    [[Hit by the heart]]  
-   This also applies under holy attack as long as you are under moonlight, and the holy attack is not greater than 1 character.  
-   [[UNCLEAR: “at the disadvantage of being hit by the heart” and “holy attack is not greater than 1 character” are undefined.]]
+   This also applies under holy attack as long as you are under moonlight, and the holy attack is not greater than 1 character above you.
 
 2. **Movement:** In the moonlight state:
    - You gain the ability to fly.
@@ -134,17 +131,15 @@ From now on, against attempts to force you with sleep-related abilities:
    Trying to discover your location requires a successful spiritual intuition identification. Normal detection of invisible creatures is not applicable to you. [[Spiritual Intuition identification]]
 
 4. **Action:** In the moonlight state:
-   - You can only perform movement actions/free actions.
+   - You can only perform movement actions and free actions.
    - You can fly and move a distance equal to your movement force. [[Movement Force]]
-   - You cannot perform free/quick/attack/casting spells.
+   - You cannot perform quick/attack/casting actions.
    - You can use the extraordinary ability of the flash of the moon (see **Lunar Blink**).
-   - [[UNCLEAR: The text both permits and forbids free actions in the moonlight state.]]
 
 **Moon Knowledge improvement**
 - Each level of Moon Knowledge provides an additional chance to reorganize, and this reorganization will not consume spirituality.
 - If you suffer a holy blow in the moonlight state, you will be forced to reorganize because the surrounding moonlight disappears, and you will be transformed back to the original form. This forcefully consumes your spirituality or reorganization opportunities; if not, it consumes your sanity. [[Sanity]]
-- Holy Strikes that are one character or two sequence levels below you can't do this. [[Holy Strike]]  
-  [[UNCLEAR: “one character” and how it combines with “two sequence levels below” are undefined.]]
+- Holy Strikes that are **one character** or **two sequence levels** below you can't do this. [[Holy Strike]]
 
 **If the moonlight does not fully illuminate the entire scene**
 - You will be targeted by single-target attacks due to your limited range of movement or being too visible as a lone moonlight, provided the enemy is aware of your presence.
@@ -156,8 +151,7 @@ From now on, against attempts to force you with sleep-related abilities:
 - **Cost:** 3 points of **spirituality**.
 - **Effect:** You are broken into crimson moonlight fragments. Choose a distance not exceeding your movement power, flash to the corresponding position, and reorganize into a human form at the corresponding position. [[Movement Power]]
 
-1. **Reactive use:** If you use this ability when you are about to be attacked, you can jump like a flame, directly avoiding the attack on your current position, excluding light/lightning, and you must flash out of the range for range attack.  
-   [[UNCLEAR: “excluding light/lightning” and “flash out of the range for range attack” are not precisely defined.]]
+1. **Reactive use:** If you use this ability when you are about to be attacked, you can jump like a flame, directly avoiding the attack on your current position. You cannot avoid light/lightning with this; you must flash out of the range for ranged attacks.
 
 2. **Moon Knowledge scaling:** Every time you increase the level of Moon Knowledge, your flashable distance increases:
    - Trained = your mobility
@@ -170,7 +164,7 @@ From now on, against attempts to force you with sleep-related abilities:
 **Additional scaling**
 - Every time a sequence level is increased: the mobile power multiplier of the teleportation flash of each moon knowledge level +1.
 - Every upgrade of 1 character: the mobile power multiplier of the teleportation flash of each moon knowledge level +2.
-- [[UNCLEAR: How these multipliers stack with the Trained/Proficient/Advanced mobility scheme is not specified.]]
+- These multipliers stack on top of the Trained/Proficient/Advanced mobility scheme.
 
 ### Potion Effect Enhancement
 

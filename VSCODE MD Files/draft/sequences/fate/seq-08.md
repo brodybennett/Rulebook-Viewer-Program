@@ -19,9 +19,9 @@ tags: ["pathway:fate", "sequence:8"]
 
 - **Use:** When receiving qualifying instruction.
 - **Effect:**
-  1. Whenever you receive at least **2 hours** of non-repetitive and effective related courses, you can choose the Strength/Agility related skills corresponding to the course content to increase by **1 level**. It takes **2**, **3**, and **4** times to be trained to be proficient, advanced, and proficient respectively. [[UNCLEAR: The third training tier repeats “proficient,” suggesting a mistranslation of the final tier name.]]
-  2. You can only learn once a day to digest knowledge, and you can learn quickly to master at most, and you will no longer lose your balance. [[UNCLEAR: “Master at most” is not defined (cap, tier name, or other limit is unclear).]]
-- **Special:** When creating a character that is not just promoted, you can use twice the Inspiration brought by the potion to add growth skills. [[UNCLEAR: “Not just promoted” and “growth skills” are referenced without definitions or procedures.]]
+  1. Whenever you receive at least **2 hours** of non-repetitive and effective related courses, you can choose the Strength/Agility related skills corresponding to the course content to increase by **1 level**. To reach **Proficient**, you must complete **2 + 3 + 4** learnings in order; you cannot advance beyond **Proficient**.
+  2. You can only learn once a day to digest knowledge, and you can learn quickly to master at most, and you will no longer lose your balance. GM decides the precise cap implied by “master” here.
+ - **Special:** When creating a character that is not just promoted, you can use twice the Inspiration brought by the potion to add growth skills. GM decides how this applies at character creation.
 
 ### Divination
 
@@ -36,21 +36,21 @@ tags: ["pathway:fate", "sequence:8"]
 - **Identification failure:** Repeated divination will only get the same result; you need to obtain new clues to do divination again. [[Clues]]
 - **Great success:** The results obtained are extremely accurate; content is specific, and time, place, and people are revealed. [[Great Success]]
 - **Big failure:** According to the final value of the appraisal, you still obtain the corresponding content, but attract the attention of related beings. If the corresponding content did not involve hidden beings, instead, the directly or indirectly related Extraordinary noticed being watched. [[Big Failure]] [[Extraordinary]]
-- **Aware of the gaze:** Requires a **spiritual intuition test**; the existence of higher than 1 person is detected by default regardless of the difficulty. [[Spiritual Intuition Test]] [[UNCLEAR: “Higher than 1 person” is not defined (Sequence, rank, category, or other threshold is unclear).]]
+- **Aware of the gaze:** Requires a **spiritual intuition test**; the existence of targets higher than your Sequence by 1+ is detected by default regardless of the difficulty. [[Spiritual Intuition Test]]
 - **Special:** Before obtaining new clues, repeated divination in the same direction will only get the same result, regardless of difficulty.
 
 #### Other divination factors
 
 1. Divination of things involving other people fails by default if there is no clue, and succeeds by default if there is their blood or belongings. [[divination clues]]
-2. For each clue obtained, divination related events will be **+2 beneficial**, but the divination of targets higher than 1 character will fail by default. [[UNCLEAR: “Targets higher than 1 character” is not defined (Sequence threshold, rank, or other classification is unclear).]]
-3. The reason for the detection and failure of the higher level is that under special circumstances, it is possible for the lower level to divination for the higher level. [[UNCLEAR: “Higher/lower level” is referenced without defining what level represents in this context.]]
+2. For each clue obtained, divination related events will be **+2 beneficial**, but the divination of targets higher than you by 1+ Sequence will fail by default.
+3. The reason for the detection and failure of the higher level is that under special circumstances, it is possible for the lower level (character tier) to divination for the higher level.
 4. Whenever you are in a deep sleep, you can conduct an Inspiration appraisal with a difficulty of **20**. If it succeeds, and something directly related to you has happened in the current period, you will see a general picture that needs to be interpreted. This is the first step of dream interpretation kind of use. [[dream interpretation]] [[deep sleep]]
 
 ### Anti-divination
 
 - **Cost:** Spend **3 points of Spirituality**. [[Spirituality]]
 - **Use:** **1 casting action**. [[Casting Action]]
-- **Effect:** Choose 1 specific mystical information related to you (e.g., you plan to attack someone next), realize anti-divination, and conduct Inspiration identification, as the difficulty of anti-divination. [[Inspiration identification]] [[UNCLEAR: “Conduct Inspiration identification, as the difficulty of anti-divination” does not specify what sets the target DV or how the result is compared.]]
+- **Effect:** Choose 1 specific mystical information related to you (e.g., you plan to attack someone next), realize anti-divination, and make an opposed check: your **Inspiration** identification against their divination check. [[Inspiration identification]]
 - **Special:** The divination of the machine is directly related to the river of fate/spiritual world, so there is no need for divination media such as tarot cards. [[spiritual world]] [[divination media]]
 
 ### Calculation
@@ -61,7 +61,7 @@ tags: ["pathway:fate", "sequence:8"]
   3. **Explain the status quo:** You will no longer fall into a semi-trance state due to extremely high Inspiration, and you can distinguish the difference between the divination picture and reality. [[semi-trance state]]
   4. **Deduce things:** **1 spell-casting action**, **Difficulty Value 20** Inspiration identification. You can make the fuzzy memory in your mind clear again through deduction; in this way, you will never forget, and you can guess the next approximate event without divination develop.
      - **Special:** For every clue, this identification is **+2 beneficial**, but if the memory content involves extraordinary factors, or when you speculate on the development of the event, you do not get all the information, you may get wrong information, and you cannot guess what you don’t know clue. [[Extraordinary Factors]]
-  5. **Quick dodge:** You use deduction to retain complete physical defense against firearms instead of light/lightning, and get an extra level of dodge. [[firearms]] [[Dodge]] [[UNCLEAR: “Instead of light/lightning” is unclear (damage type, effect type, or mistranslation).]]
+  5. **Quick dodge:** You use deduction to retain complete physical defense against light/lightning instead of firearms, and get an extra level of dodge. [[firearms]] [[Dodge]]
   6. Use of other reasonable computing power that is permitted by the **GM**.
 
 - **Limits:**

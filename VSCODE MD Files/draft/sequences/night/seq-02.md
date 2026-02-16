@@ -52,15 +52,13 @@ Mastering the secret can make things **secret** and become impossible to **see**
     - While you’re invisible this way, you can’t take damage, and you can’t deal damage.
 
 - **Limits:**
-  - You cannot directly conceal a person who is the same level as you or one level lower than you, but you can conceal that person’s extraordinary power.
-  [[UNCLEAR: The source states “same level as you or one lower,” which is counterintuitive and may be a translation error about which levels are immune.]]
+  - You cannot directly conceal a person who is the same level as you or higher, but you can conceal that person’s extraordinary power.
 
 - **Anti-secretization:** Remove the secrecy of a thing, including “hiding” that other people want to carry out (e.g., the space hiding of the [[Doorway]], the face covering of the [[Faceless Person]]).
   - It can only act on the macro surface: you can make something that exists in one place but was deliberately hidden become exposed.
   - You cannot pry into the hearts of others this way, or directly know the truth by unlocking the secret of a thing.
 
-- **Extra:** Through the secretization and anti-secretization, [[Extraordinary Characteristics]] without a [[Spiritual Imprint]] can be directly extracted by cooperating with the secretization.
-  [[UNCLEAR: The procedure and requirements for “cooperating with the secretization” to extract characteristics are not defined.]]
+- **Extra:** If a target is under your **secretization**, you may extract [[Extraordinary Characteristics]] without a [[Spiritual Imprint]] as if no imprint were present.
 
 - Uncloaking an object means that you have at least included the object in the line of sight, which allows you to directly find any hidden things and secrets around you.
   - In essence, this is to perceive whether a thing or event has signs of being covered up.

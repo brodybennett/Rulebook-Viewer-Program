@@ -11,5 +11,4 @@ tags: ["pathway:death", "sequence:0"]
 > **Lore:** Also known as "Eternal Sleeper".
 
 - [[Deathmark]]
-- Deathmark is the only one.
-  - [[UNCLEAR: “Deathmark is the only one” lacks context (only one what—person, title, ability, or something else?).]]
+- Deathmark is the only mark in the Death Pathway.

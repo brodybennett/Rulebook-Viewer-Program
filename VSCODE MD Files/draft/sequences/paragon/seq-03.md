@@ -22,9 +22,9 @@ tags: ["pathway:paragon", "sequence:3"]
 - **Cost:** 5 points of **Spirituality**.
 - **Use:** A spell-casting action.
 - **Effect:** You reproduce a real phenomenon and explain its mystery. The following **Astronomical** phenomena are available:
-  - **Transit:** The sun or moon is obscured in the sky, and the entire area is covered by sudden shadows. From everyone's point of view, there seems to be a huge black shadow in the entire sky; its outline seems to be a planet or a star that covers the sun or moon and covers this area. [[UNCLEAR: The size/center/boundary of “the entire area” is not defined.]]
+  - **Transit:** The sun or moon is obscured in the sky, and a **100-meter radius** area centered on you is covered by sudden shadows. From everyone's point of view, there seems to be a huge black shadow in the entire sky; its outline seems to be a planet or a star that covers the sun or moon and covers this area.
   - **Roche Limit:**
     - **Targeting and range:** Choose a target within 5 meters of you.
     - **Resolution:** **Astronomical** against the target’s **Physical Defense**.
     - **Effect (on success):** Your body produces a strong gravitational force that drags the target directly to your side; during the process the target is torn by gravity and takes 3d6 + **Strength** damage die. Treat your **Inspiration** as **Strength** for this damage.
-  - **Theia:** When used on any physical contact with damage, you restore **Health** equal to half of the damage dealt. [[UNCLEAR: “physical contact with damage” is not precisely defined (e.g., whether you must be the source of the damage).]]
+  - **Theia:** When you deal damage through physical contact, you restore **Health** equal to half of the damage dealt.

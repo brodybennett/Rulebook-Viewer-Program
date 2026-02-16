@@ -40,7 +40,7 @@ You gain the following extraordinary abilities.
 - **Effect:** You can often hear voices others cannot hear and see things others cannot see.
 - **Effect (choose/apply as triggered):**
   1. **Peeping:** You can see the “specialness” of others and determine whether the other party belongs to the realm of immortality/corruption/darkness/sacred/cursed, but the information is not specific enough (for example, you can find a person who died a few days ago, but you don’t know the specific reason).
-     - **Special:** If the witnessed special is greater than 1 person of you, or has pollution, you immediately suffer the corresponding **Sanity** loss. [[UNCLEAR: The clause “greater than 1 person of you” is not interpretable as written (comparison target/meaning unclear).]]
+    - **Special:** If the witnessed special is higher than your Sequence by 1+, or has pollution, you immediately suffer the corresponding **Sanity** loss.
   2. **Listening:** Whenever you carry out an Inspiration-related skill appraisal and the result is ≥20, if there is a spirit within a 20-meter area, you can discover its existence through normally inaudible sound, or hear normally inaudible sound due to extraordinary factors.
      - **Special:** This often only takes effect for a moment; its existence can only be found within 1 second, or a small amount of sound can be heard.
   3. **Trance:** Whenever you see a future picture or listen to extraordinary content, you fall into a short **Semi-Trance** state: you whisper the information you got and enter a round of **Surprised**. You wake up when you receive any stimulus or hear a reminder.
@@ -68,7 +68,7 @@ You gain the following extraordinary abilities.
 - **Effect:** While active, your vision gains the following benefits:
 
 
-  1. **Etheric body:** You can directly see the health status of the target through aura color; directly find where the other party’s body is uncomfortable/has a problem; and, when it comes to a certain organ, you can see the inside through a door that is not thickened, confirming the number of people inside. [[UNCLEAR: The “organ” clause and “door not thickened” phrasing appear conflated; the intended scope of “seeing inside” is unclear.]]
+  1. **Etheric body:** You can directly see the health status of the target through aura color; directly find where the other party’s body is uncomfortable/has a problem; and, through thin doors, confirm the number of people inside.
   2. **Spiritual body:** You can confirm whether an object/creature has spirituality. This cannot identify extraordinary people. It can also penetrate a door to see inside, identify whether there is ritual magic power in it, and penetrate the spiritual wall.
   3. **Mental Body:** You can see the color represented by the other person’s emotions, but only general content (for example, whether the other person is depressed or uneasy). This kind of negative emotion is usually a dark tone.
   4. **Astral body:** You cannot see the astral body.

@@ -36,14 +36,13 @@ tags: ["pathway:Demoness", "sequence:6"]
 - **Agility** +1
 - **Inspiration** +1
 - **Charisma** +2
-- Biology and pleasing skills increase by 1 level.
+- Biology and **Pleasing** skills increase by 1 level.
 - Your mysticism can be quickly upgraded to erudition.
-- For every 3 hours of pleasure you bring to a non-repeating intelligent creature, your pleasure or biology counts as 1 growth.
-  - You choose to grow Pleasant or Biology.
+- For every 3 hours of pleasure you bring to a non-repeating intelligent creature, your **Pleasing** or Biology counts as 1 growth.
+  - You choose to grow **Pleasing** or Biology.
   - Biology grows up to Proficiency.
-  - Pleasure to Learned.
-
-[[UNCLEAR: RAW alternates between “pleasure”, “Pleasure”, and “Pleasant” for the growth-tracked capability/skill, and it’s unclear whether these are the same term.]]
+  - **Pleasing** grows up to Learned.
+  - Use **Pleasing** as the canonical term; all "pleasure/pleasant" mentions in this section refer to **Pleasing**.
 
 ### Web Creation
 
@@ -91,10 +90,8 @@ tags: ["pathway:Demoness", "sequence:6"]
 - Breaking free:
   - Once entangled, the creature can break free by performing a **Difficulty Value** 15 strength test every time it takes action, or achieve a teleportation; otherwise, it cannot break free. [[Strength test]] [[Teleportation]]
   - Even if it breaks free, the Witch of Pleasure can try to entangle again.
-- If the Witch of Pleasure falls into a state of dreaming, awe, or fear, the difficulty of identification is reduced to 10. [[Dreaming]] [[awe]] [[Fear]]
-- Continuous use: This usage can be used continuously. If the identification is successful 2 times and the target does not break free halfway, it will be truly regarded as a bound state (like a cocoon), and it will be changed to a strength identification of difficulty 20 to break free. [[Bound State]]
-
-[[UNCLEAR: “identification” is referenced multiple times in the binding use, but RAW does not clearly specify whether it refers to the Charisma check, a separate check, or another mechanic.]]
+- If the Witch of Pleasure falls into a state of dreaming, awe, or fear, the difficulty of the **binding Charisma check** is reduced to 10. [[Dreaming]] [[awe]] [[Fear]]
+- Continuous use: This usage can be used continuously. If the binding Charisma check succeeds 2 times and the target does not break free halfway, it will be truly regarded as a bound state (like a cocoon), and it will be changed to a strength identification of difficulty 20 to break free. [[Bound State]]
 
 #### Use 3: Use silk hair to move quickly
 
@@ -120,8 +117,7 @@ tags: ["pathway:Demoness", "sequence:6"]
 - Treat their remaining life as your extra life, and resist the damage you receive.
 - The damage to be resisted must also have a certain entity (it can resist bullets), but light/lightning is obviously not among them. [[Light/lightning damage]]
 - If you take fire damage, they are destroyed immediately, which in turn burns you back, the same as if you took fire damage from webs or hair.
-
-[[UNCLEAR: RAW states Touch of Pleasure has four incompatible uses, but then presents “Use silk hair to resist damage” as an additional option without clarifying whether it is one of the four or separate.]]
+- This defensive use is separate from the four **Touch of Pleasure** uses and can be used independently.
 
 **Pleasant behavior in conjunction with spider silk and other things (Special)**
 

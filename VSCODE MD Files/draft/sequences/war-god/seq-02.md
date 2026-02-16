@@ -37,14 +37,12 @@ tags: ["pathway:war-god", "sequence:2"]
 - **Targeting and range:**
   - Envelops an entire city-state.
 - **Limits and interactions:**
-  - The shield can also create a situation where you have more than one enemy, “holding all other scattered enemies,” and allowing you to disarm or release others to enter at any time.
-    [[UNCLEAR: The text describes both a one-on-one isolated “small world” and simultaneously managing multiple enemies; the exact partition/admission behavior is not fully specified.]]
+  - You can isolate yourself with a single chosen enemy for a one-on-one duel while all other creatures are held outside the shield. You may open or close the barrier as a free action (once per round) to allow additional enemies to enter or to release them.
   - Disabling or otherwise changing the shield requires another **full-round action** [[Full-Round Action]] to achieve it, which may cause you to be attacked.
   - If there is any attempt to leave within the shield, you can use a **free action** [[Free Action]] (once per round) to immediately sprint over and perform a **combat attack test** [[Combat Attack Test]] on the target to try to directly interrupt the escape behavior.
     - This does not include ethereal teleportation that is only within the shield’s range and has no real effect.
   - Even if there is an escape, the Glory Shield will immediately repair it and re-seal it immediately, and only that person can escape.
 - **Extra:**
-  - While in the Glory Shield, your Dexterity and Willpower are +2 by default.
-    [[UNCLEAR: Attribute Gain lists Agility/Will, but this extra uses Dexterity/Willpower; it’s unclear whether these are the same attributes or separate ones.]]
+  - While in the Glory Shield, your Agility and Will are +2 by default.
 
 > **Lore:** “The city is there, the shield is there, and the glory is there… In a frontal battle, no one can escape. There is only one thing they can do: face you and defeat you.”

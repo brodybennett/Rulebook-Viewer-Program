@@ -14,7 +14,7 @@ tags: ["pathway:mutant", "sequence:2"]
 
 > **GM Note:** The RAW labels the following as an “unofficial ceremony.”  
 > In the second half, it is also feasible to take away all the dead bodies or cursed people, transfer all the curses they carry to yourself, let yourself bear the curse, and take the potion.  
-> [[UNCLEAR: Whether this “unofficial ceremony” is permitted by default or only with GM approval.]]
+> **Unofficial ceremony:** This alternative is optional and requires GM approval.
 
 ## Extraordinary Abilities
 
@@ -34,13 +34,13 @@ tags: ["pathway:mutant", "sequence:2"]
 - **Limits:**
   - You can have only one anchor point (upper limit 1).
   - When you die, you can abandon your physical body and be reincarnated in the Spirit World as a spirit creature.
-  - This requires you to prepare a Sequence 2 extraordinary characteristic of the same level for your new spirit body in advance; only then can reincarnation be completed. [[UNCLEAR: The RAW sentence is fragmented; this is the safest faithful reading.]]
+  - This requires you to prepare (and consume) a Sequence 2 extraordinary characteristic of the same level for your new spirit body in advance; only then can reincarnation be completed.
 
 > **Lore:** After reincarnation, although your appearance is still human, your body will have the alienation of Spirit World creatures. For example, there will be no more head on the neck, but your head will become four. When you usually move, you need to lift up two heads and let them speak separately.
 
 - **Aftereffects (Unrecovered State):**
   - After becoming this state, although you are still an angel, you will not be able to make any waves for a long time.
-  - Each time you use any ability of a demigod or above, you suffer a **(1/1d3) rationality test**; this is required every time you use such an ability. [[UNCLEAR: The meaning of “(1/1d3) rationality test” is not defined here (difficulty vs. loss vs. other).]]
+  - Each time you use any ability of a demigod or above, you suffer **1d3 rationality tests**; this is required every time you use such an ability.
     - **Exception:** This does not include (a) the activation of objects based on the power of wronged souls, or (b) the Reverse Inhalation of Spirit Bodies of Sequence 2, because both are based on the upper version of wronged souls of Sequence 5 and are essentially Sequence 5 abilities; they are not affected.
   - The madness brought about can be avoided by crazy actions, but at the same time you can no longer continue to open the mythical form.
     - Opening the mythical form causes you to suffer a sanity test equivalent to your Sequence promotion—i.e., the sanity test you suffered when you promoted to Sequence 2.

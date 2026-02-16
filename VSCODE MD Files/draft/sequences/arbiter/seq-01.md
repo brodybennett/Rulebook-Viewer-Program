@@ -53,5 +53,4 @@ You can make the rules of the world to a certain extent—rules that cannot usua
 #### Penalties to Break Through
 
 - Breaking through this order requires a **-4** penalty.
-- For each **Sequence** level the enemy is lower than you, the identification of violating this order will suffer another **-4** penalty.  
-  [[UNCLEAR: “identification of violating this order” is not defined—unclear what roll it applies to and how it differs from breaking through the Difficulty Value.]]
+- The violator makes a **Law** check vs the targetâ€™s **Will Defense**. For each **Sequence** level the enemy is lower than you, that check suffers another **-4** penalty.

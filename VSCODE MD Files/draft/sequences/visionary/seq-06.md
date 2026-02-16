@@ -85,8 +85,7 @@ tags: ["pathway:visionary", "sequence:6"]
 2) **Hypnosis without satisfying any conditions:** The penalty to **Psychological Guidance** is doubled (round up).
 
 3) **Content involves life/important things/strong resistance:** When performing related actions, the hypnotized creature may use an rd20 + Will + [[Inspiration]] appraisal to contest the difficulty of the hypnotist’s “Inspiration + Charisma + Psychological Guidance bonus” and release the hypnosis.
-   - **Special:** In other cases, the target cannot resist hypnosis. However, if the target’s Will ≥ 6 and the hypnosis is not higher than [[Personality]], each time the target would perform an unwilling hypnotic action, they can attempt a countermeasure to not execute the content; 3 successful resistances break the hypnosis.  
-     [[UNCLEAR: The method for this “countermeasure” and what “hypnosis is not higher than Personality” precisely compares are not specified.]]
+   - **Special:** In other cases, the target cannot resist hypnosis. However, if the target�s Will = 6 and your Sequence is not higher than the target�s Personality, each time the target would perform an unwilling action they may attempt a Will Test against your hypnosis Difficulty (Inspiration + Charisma + Psychological Guidance). On a success, the action is not performed; 3 total successes break the hypnosis.
 
 4) **Both target conditions met:** If the target is both Focused and Dazed/Semi-comatose, your **Psychological Guidance** appraisal gains +4 favorable.
 
@@ -99,8 +98,7 @@ tags: ["pathway:visionary", "sequence:6"]
 
 8) **Capacity and complexity:** A single hypnosis may instill multiple items (“First… Second… Third…”). The total number of items a creature can bear cannot exceed Inspiration/2 (also related to the maximum number of times psychological hints can be shared). Compared to Psychological Suggestion, hypnosis can be slightly more complicated, but a single piece of content should not exceed 80 words.
 
-9) **Mental illness:** Hypnosis and Forget Memory cannot truly treat mental illness. The memory must later be reminded and the content accepted via **Psychological Guidance**; otherwise the target suffers 1d3/1d6 [[Sanity]] loss immediately upon remembering the memory.  
-   [[UNCLEAR: The rule does not specify when to use 1d3 vs 1d6 Sanity loss.]]
+9) **Mental illness:** Hypnosis and Forget Memory cannot truly treat mental illness. The memory must later be reminded and the content accepted via **Psychological Guidance**; otherwise the target suffers 1d3/1d6 [[Sanity]] loss immediately upon remembering the memory (1d3 for minor memories, 1d6 for major or traumatic memories).
 
 ### Combat Hypnosis
 

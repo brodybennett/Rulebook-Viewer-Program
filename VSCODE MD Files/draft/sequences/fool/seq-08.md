@@ -73,7 +73,7 @@ When triggered, resolve the following:
 **Sequence progression (future improvements):**
 - Sequence 7: The mind changes from flashing thoughts to flashing images, directly showing the manifestation of danger if not avoided.
 - Sequence 6: Your Inspiration identification succeeds by default. [[Identification]]
-- Sequence 5: You can foresee danger from more than 1 person. [[UNCLEAR: “danger from higher than 1 person” is unclear—likely “more than one person,” but the exact meaning (sources/targets/participants) is not explicit.]]
+- Sequence 5: You can foresee danger from multiple persons (more than one attacker).
 
 ### Turn Paper into Flying Knives
 
@@ -87,7 +87,7 @@ Additional rules:
 1. Strength damage dice are rounded up to cause physical damage, and are rolled against physical defense. [[Physical Damage]]
 2. You can hit consecutively with flying blades and choose multiple targets.
    - You can shoot 3 cards in a row with one attack action.
-   - Starting from the second card, you “lose 2 disadvantages” when making the identification throw; you “lose 4 disadvantages” for the third card, and so on, increasing. [[Disadvantages]] [[UNCLEAR: RAW says “lose 2 disadvantages” on the second/third card; it is unclear whether this means you incur Disadvantages or remove them, though context suggests a worsening penalty as you continue.]]
+   - Starting from the second card, you take 2 **Disadvantages** when making the identification throw; you take 4 **Disadvantages** for the third card, and so on, increasing. [[Disadvantages]]
 
 ### Muscle Mastery
 
@@ -97,9 +97,9 @@ Your precise mastery of muscles gives you an advantage in learning and fighting.
    - Your stealth makes no sound.
    - When listening against stealth, listening without extraordinary factors fails against you by default. [[Listening]] [[Extraordinary Factors]]
 2. You get fast dodge, keep complete physical defense against firearms (excluding light and lightning), and gain an extra level of dodge. [[id:alias-fast-dodge|Fast dodge]] [[Firearms]] [[Dodge level]]
-3. 1 quick action; does not consume **Spirituality**: your Performance/Climbing/Jumping identification succeeds by default, and the confrontation changes to +4 to benefit. [[Quick Action]] [[Spirituality]] [[Climbing]] [[Jumping]] [[Confrontation]] [[UNCLEAR: “the confrontation is changed to +4 to benefit” is unclear on whether it replaces the auto-success in opposed situations or adds a bonus in place of a normal opposed-roll procedure.]]
+3. 1 quick action; does not consume **Spirituality**: your Performance/Climbing/Jumping identification succeeds by default, and in confrontations the result is treated as +4 favorable. [[Quick Action]] [[Spirituality]] [[Climbing]] [[Jumping]] [[Confrontation]]
 4. The Extraordinary of the Audience Path cannot read your thoughts through body language by default. [[Audience Path]] [[Read thoughts through body language]]
 5. You learn muscle-related skills faster, once every 24 hours:
    - If you receive relevant courses and guidance, and the content is effective, authentic, non-repetitive, and lasts more than 2 hours, your related skills increase by 1 level. [[Skill level]]
-   - From training to proficiency, proficiency to advanced, and advanced to proficient, you need to learn 2, 3, and 4 times respectively; you can reach proficiency at most. [[UNCLEAR: The progression “advanced to proficient” appears to reverse the ladder; the intended tier names/order are not explicit, but the required counts (2/3/4) and cap (“at most proficiency”) are preserved verbatim.]]
+  - To reach **Proficient**, you must complete 2 + 3 + 4 learnings in order; you cannot advance beyond **Proficient**.
    - (This is a potion benefit that cannot be recorded or stolen.) [[Potion benefit]]

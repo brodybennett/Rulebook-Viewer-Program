@@ -21,8 +21,7 @@ tags: ["pathway:death", "sequence:8"]
 ### Training and Learning Benefits
 
 1. Fighting, shooting, throwing, and their subdivision skills are included in your quick learning scope. You need to receive at least 2 hours of real and effective related guidance to improve a level. You can only learn once a day to digest Knowledge.
-2. The number of times of learning from training to proficiency, to advanced level, to proficiency is also increased, and the maximum is to be proficient.  
-   [[UNCLEAR: The RAW’s skill-progression phrasing (“…to advanced level, to proficiency…”) is internally unclear, so the precise mechanical meaning cannot be resolved confidently.]]
+2. From training to proficiency, you must learn **2 times**; the maximum remains **Proficient**.
 3. Character cards that have not just been promoted can use twice the Inspiration brought by potions to add growth skills.
 
 ### Eyes of Death

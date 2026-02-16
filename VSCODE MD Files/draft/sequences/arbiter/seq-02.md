@@ -44,8 +44,7 @@ tags: ["pathway:arbiter", "sequence:2"]
     - A King of Angels is treated as a separate personality improvement. If the enemy is a King of Angels, their personality is raised by another level on the basis of Sequence 1. [[King of Angels]]
   - This does not change the outcome for other low-Sequence Beyonders in the area: all low-Sequence Beyonders are still promoted to the corresponding Sequence 5 level, regardless of whether the strongest exceeds your Sequence level.
   - Leader adjustment when an existence “breaks through the limit”:
-    - If there is an existence that breaks through restrictions via high-level status, then **only for you**, your Sequence level in this law is **+1**; otherwise, calculate as usual.
-    [[UNCLEAR: What specifically qualifies as “breaking through the limit/restrictions,” and exactly when this +1 applies within the balancing calculation.]]
+    - If an existence successfully breaks through your restriction via high-level status, then **only for you**, your Sequence level in this law is **+1**; otherwise, calculate as usual.
 
 - **Limits and calculation notes:**
   - All resulting Sequence levels are **rounded up**.
@@ -57,10 +56,7 @@ tags: ["pathway:arbiter", "sequence:2"]
 - **Effect on ordinary people:**
   - Ordinary people do not gain any supernatural powers.
   - They avoid the personality coercion brought by supernatural powers, but whether they still suffer suppression depends on the final promoted personality present.
-  - Example: if an ordinary person becomes a “transcendent” at Sequence 5, but someone breaks through the limit and reaches Sequence 4, they will still suffer suppression of Sequence 4 against Sequence 5, but they will be suppressed by the “substitute person.”
-  [[UNCLEAR: The meaning of “substitute person” in this example is not defined.]]
-
-> **GM Note:** This decree can take effect in any city, but if you are a “wild” Beyonder, it may cause the city’s forces to chase you. [[wild Beyonder]]
+  - Example: if an ordinary person becomes a “transcendent” at Sequence 5, but someone breaks through the limit and reaches Sequence 4, they will still suffer suppression of Sequence 4 against Sequence 5, but they will be suppressed by the “substitute person.”> **GM Note:** This decree can take effect in any city, but if you are a “wild” Beyonder, it may cause the city’s forces to chase you. [[wild Beyonder]]
 
 ### Balancer
 

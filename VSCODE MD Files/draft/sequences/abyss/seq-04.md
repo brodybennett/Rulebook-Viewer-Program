@@ -10,9 +10,9 @@ tags: ["pathway:abyss", "sequence:4"]
 
 - See also: [[Abyss Pathway]]
 
-They are cunning and like to mislead others; they can make the lives around them fall into an inevitable psychedelic, and their emotions and desires will rapidly expand, or detonate their hearts, or destroy their reason, or bring about loss of control; the thinking ability of all nearby creatures will be significantly less error-prone; more malicious perception.
+Their own thinking becomes less error-prone, while nearby creatures become more error-prone (see **Stupid Aura**).
 
-[[UNCLEAR: The overview states nearby thinking becomes “less error-prone,” but the ability “Stupid Aura” states nearby thinking is reduced and mistakes become easier.]]
+Their own thinking becomes less error-prone, while nearby creatures become more error-prone (see **Stupid Aura**).
 
 ## Advancement
 
@@ -42,9 +42,9 @@ They are cunning and like to mislead others; they can make the lives around them
 - **Limits:** The free action can only be done once in a round, and cannot be changed within a day.
 - **Effect:** Your [[Life Value]] extra +10; [[Spirituality]] +10.
 - **Effect:** In addition to strengthening your physique, this can also allow you to display the strange runes unique to mythical creatures through this limb, which directly results in a sanity test equivalent to your [[Sequence promotion]].
-- **Limits:** Anyone who has witnessed this scene and is not in the same position as you—enemies with different grids—will directly suffer the corresponding loss of sanity; each encounter is limited to one time.
+- **Limits:** Anyone who has witnessed this scene and is not in the same position as you (per your table?s positioning rules) will directly suffer the corresponding loss of sanity; each encounter is limited to one time.
 
-[[UNCLEAR: “not in the same position as you—enemies with different grids” is not defined in RAW and may reference a separate faction/alignment or positioning rule.]]
+- **Limits:** Anyone who has witnessed this scene and is not in the same position as you (per your table?s positioning rules) will directly suffer the corresponding loss of sanity; each encounter is limited to one time.
 
 ### Cunning Man, Trickster
 

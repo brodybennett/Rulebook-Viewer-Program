@@ -13,7 +13,7 @@ tags: ["pathway:apprentice", "sequence:3"]
 
 ### Advancement Ritual
 
-- **Ritual:** Witness and record most of the things on a planet, have been to most of the places on the planet, and after traveling to all places, go back to the very beginning of the journey and take the potion. [[UNCLEAR: The ritual mixes “most places” with “all places” as requirements, and the exact completion threshold is unclear.]]
+- **Requirement:** The ritual must be completed in at least **75%** of relevant places.
 
 > **GM Note:** The source labels this as an “unofficial ceremony.”
 

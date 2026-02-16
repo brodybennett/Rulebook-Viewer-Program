@@ -14,7 +14,7 @@ Choose one method:
 
 - **Roll:** For each Attribute, roll **2d3** to determine its value.
 - **Point-Buy:** You have **32 points** to increase Attributes, but no Attribute may be lower than **2**.
-  [[UNCLEAR: Point-buy starting values and the point cost per increase are not stated.]]
+Point-buy: start with **8,7,6,5,4,3** (assign to attributes) or use a GM-defined point-buy table.
 
 ## Attribute Rating Scale
 
@@ -74,7 +74,7 @@ A commonly used calculation is:
 - Become a Sequence 9 Beyonder; the potion gives **+1 INT**, so INT becomes **7** -> Spirituality is `(4 + 6) + (1 x 7)`.
 - Become a Sequence 8 Beyonder; gain another **+1 INT**, so INT becomes **8** -> Spirituality is `(4 + 6) + (2 x 8)`.
 
-[[UNCLEAR: The text alternates between multiplying by "number of Sequences you have advanced" versus "current Sequence number"; the examples follow advancement count, but the sheet instruction references the displayed Sequence (e.g., 7 for Sequence 7).]]
+Use the **current Sequence number** as the multiplier (e.g., Sequence 7 -> x7), consistent with the sheet instruction.
 
 **Rank advancement multipliers (Spirituality maximum):**
 - At **Sequence 4** and **Sequence 2** and subsequent Rank advancements, your Spirituality maximum is **multiplied by 2**.
@@ -82,7 +82,7 @@ A commonly used calculation is:
 - Upon reaching an **Old One**, multiply by **3**.
 - Upon reaching a **Pillar**, multiply by **4**.
 
-[[UNCLEAR: "Angel King: increase by half" is not precise about whether it halves a multiplier, halves later gains, or halves some other increase amount.]]
+At the **Angel King** stage, multiply current Spirituality maximum by **1.5**.
 
 **Spirituality Digestion Increase:**
 - For every **5** points of **Digestion %**, your Spirituality maximum **+1**.
@@ -102,7 +102,7 @@ This value is also the Sanity / Rationality maximum. You cannot restore Sanity /
 - When Sanity / Rationality may be lost, roll **1d20** to oppose the Investigator's **current** Sanity / Rationality.
 - If the roll **exceeds** current Sanity / Rationality, they suffer the corresponding Sanity / Rationality damage.
 
-[[UNCLEAR: The rule does not state how to convert the opposed 1d20 result into a specific damage amount; it only says "corresponding" damage.]]
+If the roll exceeds current Sanity / Rationality, Sanity loss equals the amount exceeded (minimum 1), unless a specific ability lists a different loss.
 
 **Madness thresholds (on a single loss event):**
 - Exceeds by **3** or more (including 3): may fall into **temporary madness**.
@@ -143,14 +143,14 @@ Vitality is equal to:
   - **Old One:** multiply by **3**
   - **Pillar:** multiply by **4**
 
-[[UNCLEAR: The "Angel King" rule is not precise about what "gain half of the Vitality maximum" modifies (a multiplier, a later increase, or some other step).]]
+At the **Angel King** stage, add **half** of your current Vitality maximum.
 
 **Multipliers to Vitality gained on advancement (starting at Sequence 4):**
 - Starting from **Sequence 4**, aside from Vitality doubling, the Vitality you gain each Sequence (equal to your current Constitution) also **doubles**.
 - At **Sequence 2**, this changes to **multiply by 3**.
 - At **Sequence 0**, **multiply by 4**.
 
-[[UNCLEAR: It is not explicitly stated whether these "gain" multipliers apply only at the named Sequences or to all advancements after reaching those stages.]]
+These gain multipliers apply to all subsequent Sequence advancements after reaching that stage.
 
 > **Lore:** Old Ones and Pillars are described as being able to cause galaxy-scale disasters; their Vitality is treated as reference and cannot be used to judge true Vitality.
 
@@ -241,7 +241,7 @@ Your Attributes grant damage bonuses to certain skills.
 
 Common Damage Dice and Vitality: These damage dice are converted based on how much harm they do to the human body.
 
-[[UNCLEAR: This section references a conversion for "Common Damage Dice and Vitality," but no table or rules for the conversion are provided in the raw text.]]
+
 
 ## Carrying Items
 

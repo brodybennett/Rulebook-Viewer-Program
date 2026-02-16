@@ -13,7 +13,7 @@ You can quickly identify magical items, intuitively grasp the abilities and prob
 ### Attribute Gain
 
 - **Attribute Gain:** Inspiration +2.
-- Your mysticism has been included in the rapid growth category of Sequence 9, up to mastery. [[UNCLEAR: “rapid growth category of Sequence 9, up to mastery” is referenced but not defined here.]]
+- Your Mysticism follows Sequence 9 rapid growth rules; cap at **Master**; growth count increases sequentially (2/3/4).
 
 ### Spiritual Identification
 
@@ -31,7 +31,7 @@ You judge the type and function of a thing or item.
      - an extraordinary item made of extraordinary characteristics.
    - If it is one of the first three forms, you can identify the specific remaining effective time.
    - For the difference between these extraordinary items, refer to [[Chapter Eight: Extraordinary Items]].
-   - **Special:** For extraordinary items larger than 1 character of you, you can only get 1d2 items of information at most. You can use 1 hour of identification to get up to 2d3 items of information; the latter overlaps with the former. [[UNCLEAR: “larger than 1 character of you” is not defined (size/scale is ambiguous).]]
+   - **Special:** For extraordinary items **one size category larger than you**, you can only get 1d2 items of information at most. You can use 1 hour of identification to get up to 2d3 items of information; the latter overlaps with the former.
 
 2. **Identification of extraordinary materials:** You immediately know the **Pathway**, purpose, and name of the extraordinary materials, or whether they are the main and auxiliary materials of the potion.
 
@@ -72,5 +72,5 @@ You improve the things you hold; this benefit comes from understanding an item t
     - If it is made by you, no **Spiritual Identification** is required before improvement.
 - **Limits:** This is a potion effect and cannot be recorded or stolen.
 - **Progression:**
-  - Every time a Sequence is improved: an item can be improved with a non-repeating benefit. [[UNCLEAR: “every time a Sequence is improved” could refer to multiple triggers (character advancement vs. item state) and is not fully specified.]]
-  - Every upgrade of 1 character: the item improved by you can have a total of 3 repeated benefits. [[UNCLEAR: “upgrade of 1 character” and how it controls repeated benefits is not defined.]]
+  - Each time you advance **1 Sequence**, you may add one additional **non‑repeating** benefit to an improved item.
+  - Each time you advance **1 Sequence**, an item improved by you can have up to **3 repeated benefits** total.

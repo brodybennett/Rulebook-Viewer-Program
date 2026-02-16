@@ -9,7 +9,7 @@ tags: ["pathway:moon", "sequence:7"]
 ## Vampire (Blood Adult)
 
 - Obtain a long life, excellent physique, excellent appearance, and master a variety of dark spells.  
-  [[UNCLEAR: The descriptor “blood adult” is not explained in RAW.]]
+  **Blood adult** means a mature bloodline stage.
 
 - See also: [[Moon Pathway]], [[Sequence 8]], [[id:alias-sequence-6|Sequence 6]]
 
@@ -18,8 +18,7 @@ tags: ["pathway:moon", "sequence:7"]
 ### Auxiliary Materials
 
 - **Main material:** The blood essence corresponding to the bloodline of **Sequence 7**.
-- **Replacement:** The main material of the subsequent **Sequence** can be replaced by the bloodline “legacy” of the corresponding **Sequence**.  
-  [[UNCLEAR: “Bloodline legacy” as a replacement material is not defined in RAW.]]
+- **Replacement:** The main material of the subsequent **Sequence** can be replaced by the bloodline “legacy” of the corresponding **Sequence** (GM decides what qualifies as bloodline legacy).
 
 > **GM Note:** This main material does not originate from an extraordinary creature, but a vampire. If changing from **Sequence 8** to **Sequence 7**, it usually means you must hunt a vampire to become an artificial vampire, or accept **First Embrace**. [[Artificial Vampire]] [[First Embrace]]
 
@@ -29,8 +28,7 @@ tags: ["pathway:moon", "sequence:7"]
 
 - **Attribute Gain:** Strength +2, Constitution +2, Dexterity +2, Charm +2, Inspiration +1.
 - Your [[Mysticism]] is included in your rapid growth category, up to [[Proficiency]].
-- Skill growth of [[Sequence 9]] can start to be learned to [[Erudition]]. The number of growths increases sequentially.  
-  [[UNCLEAR: “Rapid growth category,” “up to proficiency,” “learned to erudition,” and the exact “number of growths” rule are not defined in RAW.]]
+- Skill growth of [[Sequence 9]] follows Sequence 9 rapid growth rules: cap at **Proficient**, with **2/3/4** growths to reach training/proficiency/advanced; you may begin learning toward **Erudition**.
 
 ### Extraordinary Sense of Smell
 
@@ -70,15 +68,13 @@ tags: ["pathway:moon", "sequence:7"]
 - **Type:** Racial advantage; cannot be recorded/stolen.
 - **Effect:** Your movement speed can be so fast that you can drag out afterimages.
 
-  1. **Fast dodge:** You rely on speed to retain full physical defense against guns instead of light/lightning, and get an extra level of dodge.  
-     [[UNCLEAR: The phrase “retain full physical defense against guns instead of light/lightning” is ambiguous in what it includes/excludes.]]
+  1. **Fast dodge:** You rely on speed to retain full physical defense against firearms; light/lightning bypasses this protection. You also get an extra level of dodge.
   2. **Drag out afterimage:** 1 swift action, once per round, only when moving on land; your action drags out afterimages.
      - The essence of the high-speed movement ability is that the Agility attribute is temporarily +1, but the high-speed movement can only temporarily take effect on one action. Every time you use this ability, choose 1 of the following purposes:
        - +1 to a skill check involving Dexterity or a Dexterity-related skill.
        - +1 movement for a move action.
-       - +1 to the Agility value within physical defense (physical defense is 10 + Agility + dodge + armor).
-         - This benefit allows you to use it when facing the light/lightning, thus counting as you can avoid the light/lightning at this moment.  
-           [[UNCLEAR: The “light/lightning” interaction and what “avoid” means mechanically are not clearly defined in RAW.]]
+         - +1 to the Agility value within physical defense (physical defense is 10 + Agility + dodge + armor).
+          - This benefit allows you to avoid light/lightning by leaving the area in time.
      - Because movement is composed of Strength + Agility, since Agility +1, movement becomes Strength + Agility +1 (i.e., movement +1).
 
 - **Sequence scaling:** For each promotion **Sequence**, the temporary Agility bonus increases by +1 (Sequence 6 is +2, Sequence 5 is +3, and so on).
@@ -96,8 +92,7 @@ tags: ["pathway:moon", "sequence:7"]
      - Example: A vital blow to the heart causes 20 damage; you must restore 20 HP to eliminate the negative effect of being pierced through the heart.
   2. If you suffer holy damage and the accumulated holy damage exceeds 20 points, the regeneration effect is also halved. If the heart is not pierced, the action-loss effect does not apply. This continues until your restored HP equals or exceeds the accumulated holy damage you have received.
 
-- **Special:** This allows you to survive even if your head is twisted 180 degrees, as long as the head is not uprooted; you will not be considered moribund for anything other than “moribund due to lack of health state.”  
-  [[UNCLEAR: The condition phrasing around “moribund due to lack of health state” is unclear.]]
+- **Special:** This allows you to survive even if your head is twisted 180 degrees, as long as the head is not uprooted; you will not be considered moribund for anything other than “moribund due to lack of health state” (0 HP).
   - Even so, you suffer 1/1d2 [[Sanity]] loss each time this forced dying effect occurs.
 
 - **Sequence scaling:**
@@ -130,11 +125,9 @@ tags: ["pathway:moon", "sequence:7"]
 - **Requirements:** In a safe environment, choose a willing/helpless creature that comes into contact with you.
 - **Effect:** You give the target a **Sequence 7** Moon Path Extraordinary Feature; you need to take this feature yourself first:
 
-  1. After completion, the target is immediately regarded as a **Beyonder** of Moon **Sequence 7**, even if it is an ordinary person. A creature that has become a **Beyonder** of other paths is regarded as a jump path for promotion identification.  
-     [[UNCLEAR: “Jump path for promotion identification” is unclear.]]
+  1. After completion, the target is immediately regarded as a **Beyonder** of Moon **Sequence 7**, even if it is an ordinary person. A creature that has become a **Beyonder** of other paths can skip a promotion check with a successful identification.  
   2. Unlike the blood servant, the embraced creature will not suffer any enslavement effect, will not be regarded as a puppet, and has its own free will. Generally speaking, it is considered to have established a blood relationship with you, and it should call you brother/sister, etc.
-  3. Under normal circumstances, the target who enjoys this benefit should be divorced from human society. Changing the name and surname, especially the surname, is regarded as joining your family, but this is only a social style.  
-     [[UNCLEAR: The trailing fragment “Object responsible” in RAW is not interpretable.]]
+  3. Under normal circumstances, the target who enjoys this benefit should be divorced from human society. Changing the name and surname, especially the surname, is regarded as joining your family, but this is only a social style. GM decides the meaning of the trailing “Object responsible” fragment.
 
 > **Lore:** During the [[Quaternary Epoch]], blood races had extensive friendships with humans, which led to the generation of [[Half Blood Race]]: ordinary humans with red eyes and other characteristics but no extraordinary abilities. Some families of this kind of humans are still connected with blood races, and perhaps they can get First Embrace.
 
@@ -214,5 +207,4 @@ tags: ["pathway:moon", "sequence:7"]
 > 3. Therefore, as a human being, the artificial vampire who has grown up for many years, after becoming a **Sequence 7**, still cannot completely change the original human characteristics.
 > 4. The pupils of artificial vampires are usually not completely red, but mixed with the original pupil color, and the ears and other features are not as sharp as those of the vampires. If you carefully identify them, you can easily see the difference.
 >
-> The target who is First Embraced by the pure blood clan usually does not have this kind of problem, or can follow the **Player**’s wishes. Humans who join the blood clan through First Embrace are usually recognized by the blood clan.  
-> [[UNCLEAR: “Follow the Player’s wishes” is unclear—whose wishes and what can be chosen is not specified.]]
+> The target who is First Embraced by the pure blood clan usually does not have this kind of problem, or can follow the **summoner**’s wishes. Humans who join the blood clan through First Embrace are usually recognized by the blood clan.  

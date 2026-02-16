@@ -52,7 +52,7 @@ You possess extraordinary abilities including [[Sword of Dawn]] and [[Storm of L
 - **Cost:** 3 [[Spiritual Points]].
 - **Use:** 1 [[Casting Action]].
 - **Effect:** Insert a giant sword in front of your body. Morning light emerges, erecting an unbreakable invisible wall to your left and right.
-- The wall shares [[Health]] with you: damage to the wall damages you. [[UNCLEAR: The text “Damage to the wall is equal to trying to hurt you, against your value” does not specify which statistic(s) are used to resolve attacks/damage against the wall.]]
+- The wall shares [[Health]] with you: damage to the wall damages you. Attacks against the wall are resolved as attacks against your Physical Defense (including Armor/DR), and the damage is applied to you.
 
 The wall is used in one of the following ways:
 
@@ -73,8 +73,8 @@ The wall is used in one of the following ways:
 
 ### Ignore Hallucinations
 
-- **Effect:** As long as the source is not higher than “1 person” above you, their [[Hallucination Abilities]] are invalid against you by default. [[UNCLEAR: “Not higher than 1 person of you” is undefined (likely a level/Sequence comparison), so the exact threshold is ambiguous.]]
+- **Effect:** As long as the source is no more than 1 Sequence higher than you, their [[Hallucination Abilities]] are invalid against you by default.
 - This also applies to:
   - Extraordinary abilities of pleasing/deceiving.
   - The distortion of thinking by the [[Black Emperor]].
-- It does **not** include conspiratorial conspiracies (“low mystery Spend”). [[UNCLEAR: “Conspiratorial conspiracies (low mystery Spend)” is undefined and may refer to a separate mechanic or category.]]
+- It does **not** include low-mystery conspiracies; those effects can still apply.

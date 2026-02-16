@@ -52,12 +52,12 @@ tags: ["pathway:visionary", "sequence:5"]
   - **5 identifications:** If psychological guidance skill identification is successful against the identification for a total of 5 times, you are deemed to have successfully performed the psychological guidance ability once. The target will follow the development action you arranged when encountering the corresponding event in reality; the rest of the judgments follow the psychological guidance ability. [[id:alias-psychological-guidance|Psychological Guidance]]
 - **Special (rules text):**
   - You can use your hypnosis ability in other people’s dreams, then use Dream Modification and/or Dream Guidance to cover up the image of you hypnotizing them in the dream. After hypnosis is lifted, they cannot lock onto you as the source; the changes become “soft hypnosis.” [[Hypnosis]]
-  - “Psychic channeling usage only”: As long as you are not found in the dream, you can affect targets higher than “1 character.” [[UNCLEAR: “higher than 1 character” is undefined here (likely a level/Sequence comparison), and “psychic channeling usage only” is unclear without the referenced rules.]]
+  - **Psychic channeling only:** As long as you are not discovered in the dream, you may affect targets up to 1 Sequence higher than you when using **Psychological Channeling**.
 - > **Lore:** Example from the rules text: To make the target fall in love at first sight, fabricate a beautiful relationship in the dream where the lover resembles the real person; when they meet in reality, they feel an indescribable affection.
 
 ### Dream Shuttle
 
-- **Passive:** You can perceive the dreams of intelligent creatures within 500 meters. Before you shuttle into a dream, you can perceive the dream owner’s fuzzy Sequence level (or that they are an ordinary person). Dreams with a “personality” higher than yours are judged as safe by your level. [[UNCLEAR: The meaning of “personality” and the safety judgment rule is unclear/undefined here.]]
+- **Passive:** You can perceive the dreams of intelligent creatures within 500 meters. Before you shuttle into a dream, you can perceive the dream owner’s fuzzy Sequence level (or that they are an ordinary person). If the dream owner’s **Personality** is higher than yours, the dream is judged unsafe; otherwise it is judged safe.
 - **Active**
   - **Cost:** 1 **Spell-Casting Action**; 2 **Spirituality Points**. [[Spell-Casting Action]] [[Spirituality]]
   - **Targeting and range:** An intelligent creature within 500 meters. [5]

@@ -41,11 +41,11 @@ Your mutated “brain” reproduces an extraordinary ability used by a target an
 - **Use:** 1 **free action**, whenever you witness an active extraordinary ability, you can immediately record it.
 - **Check:** Recording an Extraordinary Ability is an [[Inspiration Appraisal]] with an initial difficulty of **20**.
   - ① Every time your recording ability increases by 1 Sequence: identification difficulty **+5**.
-  - ② The ability to record is increased by 1 character: identification difficulty **+5**. [[UNCLEAR: “character” is not defined (rank/level/attribute?)]]
-  - ③ The ability to record is equal to your level: the difficulty of the initial 20 appraisals remains unchanged. [[UNCLEAR: “level” is not defined (Sequence? character level?)]]
+- **Limits:** "Character" refers to **Sequence level** in this section.
+
   - ④ The ability to record is reduced by 1 Sequence: identification difficulty **-5**.
-  - ⑤ Every time your record ability is lowered by 1 character: the difficulty of identification **-5**, until the default is successful. [[UNCLEAR: “default is successful” condition is not defined]]
-- **Special:** Ability records higher than two of yours fail by default, or the probability is extremely low to almost none. [[UNCLEAR: “higher than two of yours” is ambiguous without a defined comparison method]]
+  - ⑤ Every time your record ability is lowered by 1 character: the difficulty of identification **-5**, until the Difficulty Value is **10** or lower, at which point it succeeds by default.
+- **Special:** Ability records higher than two of yours (comparison method determined by the GM) fail by default, or the probability is extremely low to almost none.
 - **On success:** This extraordinary ability is considered owned by you as a **one-time ability**; it disappears after being used.
 
 #### Casting a Recorded Extraordinary Ability
@@ -55,8 +55,8 @@ The following rules must be followed to cast a Recorded Extraordinary Ability:
 1. ① Summon an illusory book in front of you. Each extraordinary ability corresponds to one page. Read: “I came, I saw, I recorded.”
 2. ② When using the ability, you must use the action the ability originally required. You must also pay **1 additional swift action** to cast it; flipping through pages is a **free action**.
 3. ③ If you roleplay in advance, inform your **GM** of the ability you plan to use next and prepare in advance; as long as it is within your prediction range, the ability you prepared in advance does not need to pay extra free actions.
-4. ④ No matter what identification this ability used to be, you can only cast it with [[Mystical Identification]]. If it involves strength damage dice, your [[Inspiration]] value should be treated as strength. [[UNCLEAR: “identification this ability used to be” is not defined (what categories exist?)]]
-5. ⑤ The recorded ability is definitely not as good as the original version, but even if the ability below your level is not as good as the original version, this gap is negligible. When you first promoted, your recorded Sequence 6–5 ability and Sequence 4–3 ability will be cut in half. [[UNCLEAR: “when you first promoted” duration/endpoint is not defined]]
+4. ④ You can only cast recorded abilities with [[Mystical Identification]]. If it involves strength damage dice, your [[Inspiration]] value should be treated as strength.
+5. ⑤ The recorded ability is definitely not as good as the original version, but even if the ability below your level is not as good as the original version, this gap is negligible. For **24 hours** after promotion, your recorded Sequence 6-5 ability and Sequence 4-3 ability will be cut in half.
 
 #### Record Capacity
 

@@ -133,9 +133,7 @@ You establish a connection between two parties.
    - You can’t [[Curse]].
    - Divination for the same thing will still only get the same result until new clues are obtained.
 
-## When the bribed target is “higher than 1 character”
-
-[[UNCLEAR: The phrase “when the bribe is higher than 1 character target” does not specify what “higher” is comparing (e.g., level/Sequence/rank), so the trigger condition cannot be resolved confidently.]]
+## When the bribed target is higher than Sequence 1
 
 When this condition applies, modify the chosen bribe type as follows:
 

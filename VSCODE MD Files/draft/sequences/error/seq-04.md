@@ -14,7 +14,7 @@ tags: ["pathway:error-path", "sequence:4"]
 
 ### Advancement Ritual
 
-- **Advancement Ritual:** Replace a demigod’s closest person, or the demigod themself, without the knowledge of others; experience an important event involving the closest person without being found out; consume the potion at the end of the event. *(unofficial ceremony)*  
+- **Advancement Ritual:** Replace a demigodâ€™s closest person, or the demigod themself, without the knowledge of others; experience an important event involving the closest person without being found out; consume the potion at the end of the event. *(unofficial ceremony)*  
   [[Demigod]]  
   [[Potion]]
 
@@ -30,8 +30,7 @@ tags: ["pathway:error-path", "sequence:4"]
 ### Steal (Improved)
 
 - **Effect:** **Steal** is substantially improved. You can steal some conceptual things (such as position, distance, etc.) to achieve incredible effects in battle.
-- **Stealing ideas:** When you steal the other party’s ideas, you don’t need to take corresponding actions.  
-  [[UNCLEAR: “don’t need to take corresponding actions” is not defined—unclear what actions are being waived.]]
+- **Stealing ideas:** When you steal the other partyâ€™s ideas, you donâ€™t need to take the corresponding action (action cost is waived).
 - **Stealing abilities:** You can steal the desired ability from the target more accurately.
 - **Choice limit:** Generally, you can choose one of the three.
 - **Success:** The more you know, the higher the probability of success.
@@ -41,8 +40,7 @@ tags: ["pathway:error-path", "sequence:4"]
 
 - **Use:** [[Spellcasting Action]]
 - **Cost:** 3 points of [[Spirituality]]
-- **Effect:** You can steal unimaginable concepts. Attack the opponent’s [[Physical defense]] with skillful hands.  
-  [[UNCLEAR: It is unclear whether the 3 Spirituality cost and “attack physical defense” apply only to Greater Steal or to Steal actions generally.]]
+- **Effect:** You can steal unimaginable concepts. Attack the opponentâ€™s [[Physical defense]] with skillful hands. (This cost and attack apply only to Greater Steal.)
 
 ### Steal Location
 
@@ -63,21 +61,19 @@ tags: ["pathway:error-path", "sequence:4"]
 
 - **Effect:** Causes 1 round of silence.
 - **Scale:** This ability can be used on a large scale, making an area of half a kilometer completely silent.
-- **Storage:** Although the stolen voice can be stored, it will be reviewed in your mind first. In other words, only you can hear the judge’s decrees, and only you can hear the voices of other people.  
-  [[Judge’s decrees]]
-- **Limits:** A stolen law sheet has no effect as a sound unless you steal the law’s prowess alone.  
+- **Storage:** Although the stolen voice can be stored, it will be reviewed in your mind first. In other words, only you can hear the judgeâ€™s decrees, and only you can hear the voices of other people.  
+  [[Judgeâ€™s decrees]]
+- **Limits:** A stolen law sheet has no effect as a sound unless you also steal the Law skill/identification itself.  
   [[Law sheet]]  
-  [[Law’s prowess]]  
-  [[UNCLEAR: “law sheet” and “law’s prowess” are not defined; interaction is unclear.]]
+  [[Lawâ€™s prowess]]
 
 ### Steal Action
 
 - **Duration:** 1 round.
 - **Effect:** The target becomes unable to move with limbs for 1 round and is immediately regarded as [[Bound]]. The target cannot gain the defense bonus of [[Agility]] and [[Dodge]].
 - **Exception:** If the target uses extraordinary abilities to move, they will still be able to gain the defense brought by agility and dodge.
-- **Limits:** In this state, the target cannot use limbs to move, but can still use the movement for special actions; even if used for special actions, the movement cannot change the target’s position.
+- **Limits:** In this state, the target cannot use limbs to move, but can still use the movement for special actions; even if used for special actions, the movement cannot change the targetâ€™s position.
 - **Aftereffect:** You get an extra [[Move Action]] after stealing, at the cost of the extra action.  
-  [[UNCLEAR: “at the cost of the extra action” is self-contradictory/undefined—unclear what is paid or lost.]]
 
 ### Steal Sight
 
@@ -94,14 +90,13 @@ tags: ["pathway:error-path", "sequence:4"]
   [[Inquisitor]]  
   [[Law (Inquisitor)]]
 - **Clarification:** This not only refers to the concept of hearing in the ear, but also a series of hearing concepts such as bone conduction; it is completely inaudible in the true sense.
-- > **GM Note:** If you steal the hearing of the Hanged Man path, you may hear things you shouldn’t hear—heard the voice.  
+- > **GM Note:** If you steal the hearing of the Hanged Man path, you may hear things you shouldnâ€™t hearâ€”heard the voice.  
   [[Hanged Man Pathway]]
 
 ### Steal Flight
 
-- **Effect:** Steal the bird’s flight ability, allowing yourself to fly with twice the movement; this usually only lasts 2–3 minutes.
-- **Additional:** Equivalent to the Steal Action, but also gains an additional move action.  
-  [[UNCLEAR: “equivalent to the Steal Action” could mean action economy, effect structure, or another rule; the equivalence is not specified.]]
+- **Effect:** Steal the birdâ€™s flight ability, allowing yourself to fly with twice the movement; this usually only lasts 2â€“3 minutes.
+- **Additional:** Equivalent to the Steal Action in action economy, but also gains an additional move action.
 
 ### Lifespan Stealing
 
@@ -112,9 +107,8 @@ tags: ["pathway:error-path", "sequence:4"]
 
 - **Effect:** Steal a skill from the opponent. The corresponding skill of the stolen target is regarded as untrained, and it will recover after 1 round.
 - **Use:** You need to use this ability immediately, or save it and release it when you need it.
-- **Limits:** Each stolen ability can only be used once. This does not steal reputation skills.  
-  [[Reputation skills]]  
-  [[UNCLEAR: The text alternates between “skill” and “ability”; it is unclear whether “each stolen ability can only be used once” refers to the stolen skill use or a broader category.]]
+- **Limits:** Each stolen ability can only be used once per theft. This does not steal reputation skills.  
+  [[Reputation skills]]
 
 ### Range Steal
 
@@ -129,15 +123,13 @@ tags: ["pathway:error-path", "sequence:4"]
 
 ### Steal Storage
 
-- **Effect:** **Steal Storage** lets you always keep the things you have stolen and let them appear at the right time, including the ideas you have stolen. You can store up to the amount of intangible substances, extraordinary abilities, extraordinary effects, thoughts, memories, destiny.  
-  [[UNCLEAR: “store up to the amount of intangible substances” is not quantified; storage capacity basis is unclear.]]
+- **Effect:** **Steal Storage** lets you always keep the things you have stolen and let them appear at the right time, including the ideas you have stolen. You can store up to a number of intangible substances equal to your Sequence level, as well as extraordinary abilities, extraordinary effects, thoughts, memories, and destiny.
 - **Storage limit increases:**
   - Sequence 4 potion digested completely: your storage limit +3.
   - Every time you upgrade a sequence: your storage limit +3.
 - **Releasing and gifting:**
   - Releasing the stolen item to yourself is a [[Free Action]].
-  - Gifting it to another is a spellcasting action, and inspiration is successful against [[Will Defense]] unless the other party chooses to.  
-    [[UNCLEAR: The resolution method for “inspiration is successful against Will defense” is unclear (check vs defense? auto-success if target consents?).]]
+  - Gifting it to another is a spellcasting action; make an Inspiration check vs [[Will Defense]] unless the other party consents.
   - The person to be gifted does not have to be the original owner.
   - Extraordinary abilities are usually only allowed to be gifted (returned) to the original owner, or released and used by yourself.
   - If the original owner has already lost the qualification to use this ability, then they can only use it for two hours at most.  
@@ -148,33 +140,31 @@ tags: ["pathway:error-path", "sequence:4"]
 - Examples of matter are the mystical sun and light, which are intangible products that you cannot carry with you.
 - When using supernatural powers, it is equivalent to the usable time you have stolen before, and cannot be recycled after release, because you cannot steal your own extraordinary ability.
 - After the idea is returned, because it has already started to execute, it will also lose its timeliness.
-- If you use your clone to steal a transcendent ability you unleash, the ability you gain is also diminished to ten minutes of use, followed by an encounter, and then only for one turn.  
-  [[Clone]]  
-  [[UNCLEAR: “followed by an encounter, and then only for one turn” is unclear in timing and meaning.]]
+- If you use your clone to steal a transcendent ability you unleash, the ability you gain is also diminished to ten minutes of use, lasts until the next encounter, and then only for one turn.  
+  [[Clone]]
 - These things share your inspiration cap for storage, and thoughts and ideas also occupy that cap, and you can release them whenever you see fit.  
   [[Inspiration cap]]
 - You cannot store items with entities, and items with entities still need to be kept by you or obtained additionally.
 
 - When your storage slot is full and you continue to steal, you can choose stored items to replace and release unnecessary items.
 - You can also directly discard unnecessary abilities and ideas, which is essentially a kind of release, but the return of ideas or abilities to non-original owners will be directly regarded as invalid actions: they are released, but nothing happens.
-- Thoughts can be released directly in your mind and read silently, and then you don’t act on it.
+- Thoughts can be released directly in your mind and read silently, and then you donâ€™t act on it.
 
 ### Parasitism
 
 - **Definition:** **Parasitism** is a kind of stealing; what you steal is life.
-- **Use:** A [[Full-round action]] to parasitize into a person’s body or a plant’s body.
-- **Effect on your body:** Your body becomes invisible, overlapping with the host’s spirit body, and even the thread of the spirit body is also hidden.
+- **Use:** A [[Full-round action]] to parasitize into a personâ€™s body or a plantâ€™s body.
+- **Effect on your body:** Your body becomes invisible, overlapping with the hostâ€™s spirit body, and even the thread of the spirit body is also hidden.
 
 #### Levels of Parasitism
 
 - **Preliminary Parasitism:**
   - Use the host to hide yourself, prolong your life, and recover from injuries.
   - You can see everything the host sees and hear all the sounds the host hears.
-  - You can’t interfere with the host’s thinking and steal their thoughts, so if you want to communicate with the parasite, you must actively speak up.  
-    [[UNCLEAR: The text elsewhere suggests the parasite “steals” the host’s thoughts in preliminary parasitism; whether thoughts can be stolen/read is inconsistent.]]
+  - In preliminary parasitism, you can share the host's senses but cannot read or steal thoughts; thought-reading requires **Deep Parasitism**.
 - **Deep Parasitism:**
-  - More comprehensive control, almost fused with the host’s spirit body.
-  - Directly monitor the host’s thoughts, understand their intentions, and actively take over the body.
+  - More comprehensive control, almost fused with the hostâ€™s spirit body.
+  - Directly monitor the hostâ€™s thoughts, understand their intentions, and actively take over the body.
   - The host is no longer in control except for their own thoughts.
 
 #### Switching Between Levels
@@ -185,17 +175,17 @@ tags: ["pathway:error-path", "sequence:4"]
 
 #### Limitations and Guidance
 
-- > **GM Note:** Do not substitute the parasite of Sequence 4 into Amon’s parasite at will. At the level of Sequence 4, the thief has not yet created the power to create countless clones at will, which needs to be done at the angel level. Therefore, this parasitism is to make your body virtual, become a spirit body, enter a person’s body, and overlap with their soul—so you can only parasitize one.  
+- > **GM Note:** Do not substitute the parasite of Sequence 4 into Amonâ€™s parasite at will. At the level of Sequence 4, the thief has not yet created the power to create countless clones at will, which needs to be done at the angel level. Therefore, this parasitism is to make your body virtual, become a spirit body, enter a personâ€™s body, and overlap with their soulâ€”so you can only parasitize one.  
   [[Amon]]  
   [[Angel]]  
   [[Thief Pathway]]
-- > **GM Note:** If you parasitize animals and plants for a long time, it will cause your cognition to be confused (you can’t tell who you are), you will gradually forget your own positioning, and maybe because there is no one to communicate with, you gradually go crazy—on the verge of losing control, and gradually overwhelmed by these crazy tendencies.
+- > **GM Note:** If you parasitize animals and plants for a long time, it will cause your cognition to be confused (you canâ€™t tell who you are), you will gradually forget your own positioning, and maybe because there is no one to communicate with, you gradually go crazyâ€”on the verge of losing control, and gradually overwhelmed by these crazy tendencies.
 - **Sequence 2:** You can parasitize microorganisms in the air.
 
 #### Detection and Divination
 
-- When you successfully parasitize, you and the host’s spirit body are regarded as one.
-- Even [[id:alias-divination|Divination]] can’t directly know where you are and who you are parasitizing. There is a problem, but it is very difficult to find this person in the vast crowd, and people who are not as good as you usually can’t divine any information.
+- When you successfully parasitize, you and the hostâ€™s spirit body are regarded as one.
+- Even [[id:alias-divination|Divination]] canâ€™t directly know where you are and who you are parasitizing. There is a problem, but it is very difficult to find this person in the vast crowd, and people who are not as good as you usually canâ€™t divine any information.
 - This usually only parasitizes weaker targets than you, because the same level of parasitism is very easy to cause others to notice.
   - A demigod can usually find that you are parasitizing them through a **Difficulty Value** 15 [[Inspiration check]] (the shallow parasitism has not been completed at this time, just started the first step).
 - But once the parasitism is complete, your own existence is extremely hidden and difficult to detect.
@@ -203,6 +193,6 @@ tags: ["pathway:error-path", "sequence:4"]
 
 #### Interaction and Removal
 
-- > **GM Note:** In the face of the first type of “parasite,” you can remind the host through dreams, subconscious dialogues, etc., without worrying about being discovered, because the parasite must rely on the senses of the host to perceive things around it.
+- > **GM Note:** In the face of the first type of â€œparasite,â€ you can remind the host through dreams, subconscious dialogues, etc., without worrying about being discovered, because the parasite must rely on the senses of the host to perceive things around it.
 - > **GM Note:** In the second state, there is no way to bypass the parasite to talk to the host, but there is also a chance to clear it: an object of faith that relies on the host. When you let go of your heart and pray, the object of faith can find the existence of parasites and give feedback with the help of certain rituals to complete the separation or removal.
 - > **GM Note:** The prerequisite is that the host itself does not know what will happen; otherwise the parasite must be alert and stop it.
