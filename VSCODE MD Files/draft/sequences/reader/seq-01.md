@@ -1,8 +1,14 @@
 ---
-title: "Sequence 1: Omniscient Eye"
-id: "reader-seq-01"
-tags: ["pathway:reader", "sequence:1"]
+title: 'Sequence 1: Omniscient Eye'
+id: reader-seq-01
+tags:
+- pathway:reader
+- sequence:1
 ---
+
+
+
+
 
 # White Tower Pathway: Sequence 1
 
@@ -32,6 +38,35 @@ tags: ["pathway:reader", "sequence:1"]
 - **Attribute Gain:** **Intuition (INT)** +2; **Education** +2; all your skills increase by 1 level.
 
 ### All-Seeing Eye
+
+```yaml ability
+id: reader-seq-01-all-seeing-eye
+name: All-Seeing Eye
+pathway: reader
+sequence: 1
+type: toggle
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- divination
+text: 'You can manifest the brass-colored all-seeing eye to examine a targets past
+  and future. Cost: 1 free action to open or close, unconditionally. Free Action Use:
+  When opened, your pupils become brass eyes. If you are not human, the all-seeing
+  eyes can also materialize from your body out of thin air. Effect: While active,
+  you are in the All-Seeing Eye State and gain the benefits below. #### All-Seeing
+  Eye State Benefits 1) Past sight (no identification required): You spy on the past
+  information of a target you choose within visible range. This ignores anti-divination
+  and anti-prophecy effects, and ignores Personality for access.'
+```
+
+
+
 
 You can manifest the brass-colored all-seeing eye to examine a target’s past and future.
 
@@ -94,3 +129,5 @@ The content that has already been spied can be spied again. Repeated snooping yi
   - Then: all skills and levels mastered.
   - Finally: you are allowed to directly view the corresponding character card.  
   [[Character Card]]
+
+- **Limits:** As described in this section's prose.

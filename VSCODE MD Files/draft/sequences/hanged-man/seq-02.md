@@ -1,10 +1,16 @@
 ---
-title: "Sequence 2: Profane Presbyter"
-id: "hanged-man-seq-02"
-tags: ["pathway:hanged-man", "sequence:2"]
+title: 'Sequence 2: Profane Presbyter'
+id: hanged-man-seq-02
+tags:
+- pathway:hanged-man
+- sequence:2
 ---
 
-# Sequence 2: Profane Presbyter
+
+
+
+
+# Hanged Man Pathway: Sequence 2
 
 ## Profane Presbyter
 
@@ -27,6 +33,32 @@ tags: ["pathway:hanged-man", "sequence:2"]
 - **Attribute Gain:** Constitution +1, Agility (DEX) +1, Intuition (INT) +1.
 
 ### Evil Words
+
+```yaml ability
+id: hanged-man-seq-02-evil-words
+name: Evil Words
+pathway: hanged-man
+sequence: 2
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Effect: The words you speak distort reality. #### Self-Blessing Use: Free Action
+  Cost: 1 point of [[Spirituality]] Effect: You can use this power to bless yourself;
+  it takes subtlety to influence others. Example: You claim to be a king of angels,
+  which gives you +1 personality (but not as much as the real king of angels). At
+  the same time, you gain +4 on all skill checks for one Encounter.'
+```
+
+
+
 
 - **Effect:** The words you speak distort reality.
 
@@ -51,3 +83,5 @@ tags: ["pathway:hanged-man", "sequence:2"]
   - A person said: “I don’t know where [[Backlund]] is.”
   - As a free action, you distort their words to read: “I don’t know where.”
   - Result: They immediately obtain the effect of [[Imprisonment]]—they are isolated from the outside world. This does not affect their movements, but they are unable to leave this place within an encounter.
+
+- **Limits:** As described in this section's prose.

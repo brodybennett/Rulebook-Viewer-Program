@@ -1,12 +1,20 @@
 ---
-title: "Sequence 4: Puppet"
-id: "mutant-seq-04"
-tags: ["pathway:mutant", "sequence:4"]
+title: 'Sequence 4: Disciple of Silence'
+id: mutant-seq-04
+tags:
+- pathway:mutant
+- sequence:4
 ---
 
-# Sequence 4: Puppet
+
+
+
+
+# Chained Pathway: Sequence 4
 
 You can manipulate inanimate objects within a certain range.
+
+## Disciple of Silence
 
 ## Advancement
 
@@ -19,6 +27,36 @@ You can manipulate inanimate objects within a certain range.
 - **Attribute Gain:** Constitution +3, Willpower (WIL) +2, Charisma +1; Occultism increases by 1 level.
 
 ### The Source of the Curse
+
+```yaml ability
+id: mutant-seq-04-the-source-of-the-curse
+name: The Source of the Curse
+pathway: mutant
+sequence: 4
+type: active
+action: free
+cost:
+  spirituality: 8
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- debuff
+- offense
+text: 'Cost: 4 spirituality points. Use: Use a free action to transform into an extremely
+  delicate humanoid puppet. Use a spellcasting action to create a dispellable curse
+  relationship with a target. Turning off the damage-sharing aspect is an unlimited
+  number of free actions; turning it on is also a free action (does not affect an
+  already-established bond). Effect: Puppet transformation (free action): You appear
+  as if crafted by a world-class craftsman.'
+```
+
+
+
 
 - **Cost:** 4 spirituality points.
 - **Use:**
@@ -75,6 +113,40 @@ You can manipulate inanimate objects within a certain range.
 
 ### Object Activation (Mind Control)
 
+```yaml ability
+id: mutant-seq-04-object-activation-mind-control
+name: Object Activation (Mind Control)
+pathway: mutant
+sequence: 4
+type: active
+action: free
+cost:
+  spirituality: 6
+roll: null
+opposed_by: difficulty_value
+range: One or more specified inanimate objects within line of sight; affects the target
+  those objects attack/bind.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- mobility
+- control
+- offense
+text: 'Cost: 3 spirituality points. Use: A spellcasting action. Effect: On the premise
+  that you become a puppet, one or more inanimate objects within your line of sight
+  that you specify instantly come to life (including enemy clothing). This does not
+  necessarily cause mortal damage to the transcendent, but it briefly binds the target,
+  preventing any action with a [[Postural Component]], except for one free action
+  per turn. If the target tries to escape through their clothing, this can cause them
+  to run naked. Escape requires at least one Strength check (Difficulty Value 20)
+  immediately. Countless flying objects also cause damage at the same time:'
+```
+
+
+
+
 - **Cost:** 3 spirituality points.
 - **Use:** A **spellcasting action**.
 - **Effect:**
@@ -100,7 +172,37 @@ You can manipulate inanimate objects within a certain range.
   - **Future Sequence Note:** Sequence 1: You can not only activate entities, but also activate things or incorporeal bodies that do not have a specific form.
   - > **GM Note:** RAW suggests that, under certain circumstances (after sufficient early roleplay), this could be used to interfere with a magician’s “flame jump,” turning their flame against them and binding them so they cannot continue to use it. [[Flame Jump]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### Immortal Body
+
+```yaml ability
+id: mutant-seq-04-immortal-body
+name: Immortal Body
+pathway: mutant
+sequence: 4
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- healing
+text: 'Effect: Your body heals quickly. Use / Trigger: Once per round, it triggers
+  automatically whenever your Vitality reaches 0. Special (Sequence 4): You can actively
+  trigger it as a free action once per round, consuming the number of passive triggers.
+  Effect (on trigger): Your Constitution (CON) is temporarily -3. Restore Vitality
+  equal to half your maximum Vitality (rounded up). The Constitution (CON) reduction
+  can only be paid by you (it cannot be transferred or offset by others).'
+```
+
+
+
 
 - **Effect:** Your body heals quickly.
 - **Use / Trigger:**

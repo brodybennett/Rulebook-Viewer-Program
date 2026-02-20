@@ -1,12 +1,18 @@
 ---
-title: "Sequence 2: The Balancer"
-id: "arbiter-seq-02"
-tags: ["pathway:arbiter", "sequence:2"]
+title: 'Sequence 2: Justiciar'
+id: arbiter-seq-02
+tags:
+- pathway:arbiter
+- sequence:2
 ---
 
-# Sequence 2: The Balancer
 
-## Overview
+
+
+
+# Justiciar Pathway: Sequence 2
+
+## Justiciar
 
 - You can sense imbalances in the surrounding area and detect hidden targets.
 
@@ -24,6 +30,36 @@ tags: ["pathway:arbiter", "sequence:2"]
 - **Skill Gain:** [[Law skill]] +1 skill level.
 
 ### Sage's Balance
+
+```yaml ability
+id: arbiter-seq-02-sage-s-balance
+name: Sage's Balance
+pathway: arbiter
+sequence: 2
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: Choose a designated area within 1 kilometer of you as the center (includes
+  you and everyone in the area).
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Use: Free Action Free Action. Cost: 5 spiritual points [[Spirituality]] (total).
+  Targeting and range: Choose a designated area within 1 kilometer of you as the center
+  (includes you and everyone in the area). Effect: You balance the designated area
+  by speaking the corresponding law (decree). [[law (decree)]] Determine the strongest
+  and weakest Sequence levels present in the area and use them as the benchmark. Set
+  everyone in the area (including you) to the same intensity Sequence level: Add the
+  strongest and weakest Sequence levels, divide by 2, and round up to a whole Sequence
+  level.'
+```
+
+
+
 
 - **Use:** **Free Action** Free Action.
 - **Cost:** 5 **spiritual points** [[Spirituality]] (total).
@@ -58,7 +94,40 @@ tags: ["pathway:arbiter", "sequence:2"]
   - They avoid the personality coercion brought by supernatural powers, but whether they still suffer suppression depends on the final promoted personality present.
   - Example: if an ordinary person becomes a “transcendent” at Sequence 5, but someone breaks through the limit and reaches Sequence 4, they will still suffer suppression of Sequence 4 against Sequence 5, but they will be suppressed by the “substitute person.”> **GM Note:** This decree can take effect in any city, but if you are a “wild” Beyonder, it may cause the city’s forces to chase you. [[wild Beyonder]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### Balancer
+
+```yaml ability
+id: arbiter-seq-02-balancer
+name: Balancer
+pathway: arbiter
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: 1 kilometer radius.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- detection
+- stealth
+- defense
+text: 'Effect: You sense imbalances in the order around you. Use: When hidden, invisible,
+  corrupted, dark, undead, or other forces that violate the order are present, you
+  may immediately make a legal appraisal against the enemys will defense and locate
+  the corresponding target. [[Legal Appraisal]] Willpower Defense Targeting and range:
+  1 kilometer radius. At Sequence 1: Expands to a city, and you can know how the corresponding
+  imbalance appeared and the general ins and outs of the subsequent whole thing. [[id:alias-sequence-1|Sequence
+  1]]'
+```
+
+
+
 
 - **Effect:** You sense imbalances in the order around you.
 - **Use:** When hidden, invisible, corrupted, dark, undead, or other forces that violate the order are present, you may immediately make a **legal appraisal** against the enemy’s **will defense** and locate the corresponding target.
@@ -67,3 +136,5 @@ tags: ["pathway:arbiter", "sequence:2"]
 - **Targeting and range:** 1 kilometer radius.
 
 - **At Sequence 1:** Expands to a city, and you can know how the corresponding imbalance appeared and the general ins and outs of the subsequent whole thing. [[id:alias-sequence-1|Sequence 1]]
+
+- **Limits:** As described in this section's prose.

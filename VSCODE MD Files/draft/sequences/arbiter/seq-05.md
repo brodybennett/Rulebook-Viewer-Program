@@ -1,12 +1,20 @@
 ---
-title: "Sequence 5: Discipline Paladin"
-id: "arbiter-seq-05"
-tags: ["pathway:arbiter", "sequence:5"]
+title: 'Sequence 5: Disciplinary Paladin'
+id: arbiter-seq-05
+tags:
+- pathway:arbiter
+- sequence:5
 ---
 
-# Sequence 5: Discipline Paladin
+
+
+
+
+# Justiciar Pathway: Sequence 5
 
 > **Lore:** Violators should be punished.
+
+## Disciplinary Paladin
 
 ## Advancement
 
@@ -47,6 +55,34 @@ tags: ["pathway:arbiter", "sequence:5"]
 
 ### The Violator Shall Be Punished!
 
+```yaml ability
+id: arbiter-seq-05-the-violator-shall-be-punished
+name: The Violator Shall Be Punished!
+pathway: arbiter
+sequence: 5
+type: active
+action: attack
+cost: {}
+roll: null
+opposed_by: none
+range: Choose 1 target within 50 meters that violates your **Forbidden Law**. [[Forbidden
+  Law]]
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- offense
+text: 'Use: 1 Attack Action. Attack Action Cost: Consume 2 Spirituality. [[Spirituality]]
+  Targeting and range: Choose 1 target within 50 meters that violates your Forbidden
+  Law. [[Forbidden Law]] Effect: Make 1 Melee Attack. [[id:alias-melee-attack|Melee
+  Attack]] This attack must hit (guaranteed hit). Limits: This cannot be used with
+  [[id:alias-death|Death]] / [[Whiplash]] and other laws.'
+```
+
+
+
+
 - **Use:** 1 **Attack Action**. Attack Action
 - **Cost:** Consume 2 **Spirituality**. [[Spirituality]]
 - **Targeting and range:** Choose 1 target within 50 meters that violates your **Forbidden Law**. [[Forbidden Law]]
@@ -56,6 +92,36 @@ tags: ["pathway:arbiter", "sequence:5"]
 > **GM Note:** Example: even if a giant dragon is flying in the air, you can bounce up at once, jump higher than the dragon can fly, and achieve the inevitable-hit effect in an unreasonable form.
 
 ### Punishment Target: Biological Type
+
+```yaml ability
+id: arbiter-seq-05-punishment-target-biological-type
+name: 'Punishment Target: Biological Type'
+pathway: arbiter
+sequence: 5
+type: active
+action: attack
+cost: {}
+roll: null
+opposed_by: none
+range: Designate 1 target within 50 meters, then name the corresponding **creature
+  type**. [[Creature Type]]
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- buff
+- offense
+text: 'Use: 1 Attack Action. Attack Action Cost: Consume 3 Spirituality. [[Spirituality]]
+  Targeting and range: Designate 1 target within 50 meters, then name the corresponding
+  creature type. [[Creature Type]] Effect: Perform 1 Melee Attack. [[id:alias-melee-attack|Melee
+  Attack]] Increase damage by 1d6. Change the damage type to the type that can traumatize
+  the enemy to the greatest extent (see below). [[Damage Type]] Limits: This change
+  excludes psychic damage. [[psychic damage]] #### Damage Type Conversion'
+```
+
+
+
 
 - **Use:** 1 **Attack Action**. Attack Action
 - **Cost:** Consume 3 **Spirituality**. [[Spirituality]]
@@ -87,6 +153,37 @@ tags: ["pathway:arbiter", "sequence:5"]
 - When multiple resistances of a certain creature are the same, the GM chooses one of the most effective damage types to change. [[Resistance]]
 
 ### The Guilty Shall Be Restrained!
+
+```yaml ability
+id: arbiter-seq-05-the-guilty-shall-be-restrained
+name: The Guilty Shall Be Restrained!
+pathway: arbiter
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: Choose 1 target within 50 meters.
+target: designated target(s)
+duration: The restriction effect lasts for **1 round**.
+scaling: []
+tags:
+- ritual
+- control
+- defense
+text: 'Use: 1 Spellcasting Action. Spellcasting Action Cost: Consume 3 Spirituality.
+  [[Spirituality]] Targeting and range: Choose 1 target within 50 meters. Effect:
+  Choose the crime of the target and announce the crime (e.g., illegal trespassing
+  into another persons house is a crime), then connect with the guilty shall be restricted!
+  Different crimes can be handled in one use, with separate sentences for each. Restraint
+  (choose by crime severity): Minor crime: Agility (DEX) and evasion in mobility/physical
+  defense -2 disadvantage. Agility (DEX) [[Evasion]] [[Mobility]] [[Physical Defense]]
+  Disadvantage'
+```
+
+
+
 
 - **Use:** 1 **Spellcasting Action**. Spellcasting Action
 - **Cost:** Consume 3 **Spirituality**. [[Spirituality]]

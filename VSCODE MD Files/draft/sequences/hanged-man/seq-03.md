@@ -1,8 +1,14 @@
 ---
-title: "Sequence 3: Trinity Templar"
-id: "hanged-man-seq-03"
-tags: ["pathway:hanged-man", "sequence:3"]
+title: 'Sequence 3: Trinity Templar'
+id: hanged-man-seq-03
+tags:
+- pathway:hanged-man
+- sequence:3
 ---
+
+
+
+
 
 # Hanged Man Pathway: Sequence 3
 
@@ -25,6 +31,36 @@ tags: ["pathway:hanged-man", "sequence:3"]
 
 ### Three Songs
 
+```yaml ability
+id: hanged-man-seq-03-three-songs
+name: Three Songs
+pathway: hanged-man
+sequence: 3
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- control
+text: 'Effect: You can drive three [[Soul]]s at the same time. In one Round, you can
+  use the skills of three different souls. You gain 3 additional Casting Actions;
+  these casting actions can only activate active abilities of [[Spirit]]s you control.
+  As a Free Action, two additional heads grow on your shouldersone young and one oldboth
+  part of your appearance. Aftereffects / Special: When you enter [[Madness]], one
+  of your heads enters madness for you. During the madness time limit, the number
+  of souls you can drive at the same time is reduced by -1, up to two times. Your
+  [[Grazing Cap]] is reduced by 1. This penalty can stack up to -2 while the madness
+  lasts.'
+```
+
+
+
+
 - **Effect:**
   - You can drive three [[Soul]]s at the same time.
   - In one Round, you can use the skills of three different souls.
@@ -34,7 +70,38 @@ tags: ["pathway:hanged-man", "sequence:3"]
   - When you enter [[Madness]], one of your heads enters madness for you. During the madness time limit, the number of souls you can drive at the same time is reduced by -1, up to two times. Your [[Grazing Cap]] is reduced by 1.  
     This penalty can stack up to **-2** while the madness lasts.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Body Separation
+
+```yaml ability
+id: hanged-man-seq-03-body-separation
+name: Body Separation
+pathway: hanged-man
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- control
+text: 'Trigger: When your [[Blood Bar]] is empty. Effect (choose one): Option A (survive
+  fatal injury): Permanently reduce the number of souls you can drive at the same
+  time by -1; you are immune to this [[Fatal Injury]]. Option B (split into three
+  bodies): Have your other two heads take away one-third of your body. This consumes
+  a whole round of actions. Then, through the principle of [[Flesh and Blood Magic]],
+  each of you turns back into a complete single body. From now on, you can control
+  three different you at the same time.'
+```
+
+
+
 
 - **Trigger:** When your [[Blood Bar]] is empty.
 - **Effect (choose one):**
@@ -56,3 +123,6 @@ tags: ["pathway:hanged-man", "sequence:3"]
 - **Loss / Regeneration (Option B):**
   - If a clone is eliminated during this process, you are considered to have lost it almost permanently; you need at least 10 years to regenerate it.
   - Therefore, unless you have been promoted to Sequence 1, you should cherish them. Sequence 1 of the same Pathway can regenerate them after a day.
+
+- **Effect:** Body Separation resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

@@ -1,10 +1,16 @@
 ---
-title: "Sequence 6: Hypnotist"
-id: "visionary-seq-06"
-tags: ["pathway:visionary", "sequence:6"]
+title: 'Sequence 6: Hypnotist'
+id: visionary-seq-06
+tags:
+- pathway:visionary
+- sequence:6
 ---
 
-# Youth Dragon Pathway: Sequence 6
+
+
+
+
+# Visionary Pathway: Sequence 6
 
 ## Hypnotist
 
@@ -31,12 +37,72 @@ tags: ["pathway:visionary", "sequence:6"]
 
 ### Dragon Scale
 
+```yaml ability
+id: visionary-seq-06-dragon-scale
+name: Dragon Scale
+pathway: visionary
+sequence: 6
+type: toggle
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- defense
+- offense
+text: 'Use: 1 Free Action to toggle. Effect: Your body surface condenses fine, strong
+  golden scales. Gain Armor +3 and External Damage Reduction 5. The scales can be
+  hidden within the skin. Sequence Scaling: At Youth Dragon Pathway Sequence 5, you
+  do not need to display Dragon Scale; under normal circumstances (without using [[Force]]),
+  your skin is difficult to pierce and you gain Armor +3 and External Damage Reduction
+  5. When Dragon Scale is actually turned on, these become Armor +5 and External Damage
+  Reduction 8.'
+```
+
+
+
+
 - **Use:** 1 **Free Action** to toggle.
 - **Effect:** Your body surface condenses fine, strong golden scales. Gain **Armor** +3 and **External Damage Reduction** 5. The scales can be hidden within the skin.
 
 - **Sequence Scaling:** At Youth Dragon Pathway Sequence 5, you do not need to display Dragon Scale; under normal circumstances (without using [[Force]]), your skin is difficult to pierce and you gain **Armor** +3 and **External Damage Reduction** 5. When Dragon Scale is actually turned on, these become **Armor** +5 and **External Damage Reduction** 8.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Non-Combat Hypnosis
+
+```yaml ability
+id: visionary-seq-06-non-combat-hypnosis
+name: Non-Combat Hypnosis
+pathway: visionary
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: 'Choose 1 target who is either:'
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Cost: 1 Casting Action; 3 Spirituality Targeting and range: Choose 1 target
+  who is either: Focused (see below), or Dazed / Semi-comatose (see below). Limits:
+  Hypnosis is distinct from [[Psychological Suggestion]] and can affect the subconscious.
+  Effect: You use clear words the target can hear to formulate hypnotic content. Typically,
+  you and the target must be within 5 meters. #### Valid Targets Focused (Concentrated
+  Attention): A creature is considered to be concentrating as long as they are in
+  front of you and have not roleplayed keep their minds active and divergent.'
+```
+
+
+
 
 - **Cost:** 1 **Casting Action**; 3 **Spirituality**
 - **Targeting and range:** Choose 1 target who is either:
@@ -102,6 +168,36 @@ tags: ["pathway:visionary", "sequence:6"]
 
 ### Combat Hypnosis
 
+```yaml ability
+id: visionary-seq-06-combat-hypnosis
+name: Combat Hypnosis
+pathway: visionary
+sequence: 6
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: Choose 1 target within your [[Field of Vision]].
+target: designated target(s)
+duration: 1 round.
+scaling: []
+tags:
+- ritual
+- detection
+- defense
+- offense
+text: 'Cost: 1 Swift Action; 3 Spirituality Use: 1 time per round. Targeting and range:
+  Choose 1 target within your [[Field of Vision]]. Effect: Compulsively hypnotize
+  the enemy; contest with Psychological Guidance against Willpower Defense. You formulate
+  hypnotic content as in Non-Combat Hypnosis, but it cannot involve the targets life/important
+  matters; if it does, the hypnosis is invalid. Duration: 1 round. Limits / Aftereffects:
+  The target can be made to attack teammates, but cannot be made to attack itself.'
+```
+
+
+
+
 - **Cost:** 1 **Swift Action**; 3 **Spirituality**
 - **Use:** 1 time per round.
 - **Targeting and range:** Choose 1 target within your [[Field of Vision]].
@@ -113,7 +209,42 @@ tags: ["pathway:visionary", "sequence:6"]
   - After performing the compelled action, the target wakes immediately.
   - You can also make the target’s attack fail to hit; after execution, the target is wide awake.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Psychological Stealth
+
+```yaml ability
+id: visionary-seq-06-psychological-stealth
+name: Psychological Stealth
+pathway: visionary
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: You may include companions within 5 meters.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- stealth
+text: 'Cost: 1 Casting Action; 3 Spirituality Targeting and range: You may include
+  companions within 5 meters. Effect: You and chosen companions enter Psychological
+  Invisibility (not true invisibility). Limits / Detection: 1) Psychological Invisibility
+  is not real invisibility. Real invisibility means you cannot see the other party;
+  Psychological Invisibility means you can see the other party but ignore them. Therefore,
+  it ignores illusion/special visual detection. 2) Psychological Invisibility only
+  reduces presence. If your presence becomes stronger, you will be noticed. If you
+  talk to people or interact with the environment while in Psychological Invisibility,
+  anyone who perceives that interac...'
+```
+
+
+
 
 - **Cost:** 1 **Casting Action**; 3 **Spirituality**
 - **Targeting and range:** You may include companions within 5 meters.
@@ -122,3 +253,5 @@ tags: ["pathway:visionary", "sequence:6"]
   1) Psychological Invisibility is not real invisibility. Real invisibility means you cannot see the other party; Psychological Invisibility means you can see the other party but ignore them. Therefore, it ignores illusion/special visual detection.
   2) Psychological Invisibility only reduces presence. If your presence becomes stronger, you will be noticed. If you talk to people or interact with the environment while in Psychological Invisibility, anyone who perceives that interaction will discover your existence. If they discover you and then shout to tell others you exist here, you are completely exposed.
   3) In addition to (2), discovery can occur via indirect factors (e.g., perceiving your malice). Footsteps and other detectable traces can expose you; for example, a listener may use [[Listening]] to contest your [[Stealth]]. Anything that cannot be concealed can lead to exposure.
+
+- **Limits:** As described in this section's prose.

@@ -1,12 +1,18 @@
 ---
-title: "Sequence 1: Writer"
-id: "visionary-seq-01"
-tags: ["pathway:visionary", "sequence:1"]
+title: 'Sequence 1: Author'
+id: visionary-seq-01
+tags:
+- pathway:visionary
+- sequence:1
 ---
 
-# Sequence 1: Writer
 
-## Writer
+
+
+
+# Visionary Pathway: Sequence 1
+
+## Author
 
 > **Lore:** A Writer can subtly steer others’ thoughts and actions so they feel like their own ideas, making the influence hard to detect. They can also weave “real nightmares” into reality, drawing many creatures into the unfolding story without noticing—until it ends in the cruelest, most frightening way. Through layered coincidences, a Writer can turn many lives toward tragedy.
 
@@ -28,6 +34,37 @@ tags: ["pathway:visionary", "sequence:1"]
 - **Writing Skill** increases by two levels. [[Writing Skill]]
 
 ### Fate Weaving
+
+```yaml ability
+id: visionary-seq-01-fate-weaving
+name: Fate Weaving
+pathway: visionary
+sequence: 1
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+- divination
+text: 'Cost: 3 points of Spirituality. [[Spirituality]] Use: Free Action. [[Actions]]
+  Usable once per Round. Round You must use pen and paper or spoken words to make
+  the arrangement. Effect: You directly arrange a reasonable piece of content to become
+  reality, creating coincidences and developments that follow the logic of the world.
+  Limits: The content you write or say must conform to realitys logic and be organized
+  in a reasonable way; whether it is reasonable enough is a subjective judgment. If
+  what you wrote is more unreasonable and does not properly take hold, you must pay
+  3 more points of Spirituality to correct and achieve it, and explicitly add the
+  line: this is a reasonable development....'
+```
+
+
+
 
 - **Cost:** 3 points of **Spirituality**. [[Spirituality]]
 - **Use:** **Free Action**. [[Actions]] Usable once per **Round**. Round You must use pen and paper or spoken words to make the arrangement.

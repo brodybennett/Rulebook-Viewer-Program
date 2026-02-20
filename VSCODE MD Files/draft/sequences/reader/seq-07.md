@@ -1,14 +1,34 @@
 ---
-title: "Sequence 7: Keeper of the Knowledge"
-id: "reader-seq-07"
-tags: ["pathway:reader", "sequence:7"]
+title: 'Sequence 7: Meletes'
+id: reader-seq-07
+tags:
+- pathway:reader
+- sequence:7
 ---
 
-# Sequence 7: Keeper of the Knowledge
 
-## Keeper of the Knowledge
+
+
+
+# White Tower Pathway: Sequence 7
+
+## Meletes
 
 > **Lore:** Also known as “Detective.” A profession emphasizing knowledge mastery and reasoning, supported by solid combat training and equipment use, and capable of reconstructing events through extraordinary means.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -21,6 +41,38 @@ tags: ["pathway:reader", "sequence:7"]
   - **Potion Skill** [[Potion Skill]] (see Sequence 8): **Erudition** [[Erudition]].
 
 ### Fighting Skills
+
+```yaml ability
+id: reader-seq-07-fighting-skills
+name: Fighting Skills
+pathway: reader
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- buff
+- offense
+text: 'Effect: Your Fighting (including subdivisions) deals +1d6 damage of the same
+  type as the attacks normal damage. You gain +2 Favorable [[Favorable]] to Throwing,
+  Shooting (including subdivisions), Gunnery, and Explosion identification (blasting
+  identification). You gain +2 Favorable to the following special actions: Critical
+  Strike, Two Combo, Approximate Shooting. [[Critical Strike]] [[Two Combo]] [[Approximate
+  Shooting]] This bonus does not apply to First Aid or Surprise Attack. [[First Aid]]
+  [[Surprise Attack]] It also does not increase special actions that simply gain benefits
+  (examples: Gain Momentum, Aiming) from +2 to +4; only Impact Identification can
+  increase to +4. [[Gain Momentu...'
+```
+
+
+
 
 > **Lore:** Your training balances offense and defense, making it difficult to be overwhelmed in a fight.
 
@@ -35,6 +87,39 @@ tags: ["pathway:reader", "sequence:7"]
 
 
 ### On-site Restoration
+
+```yaml ability
+id: reader-seq-07-on-site-restoration
+name: On-site Restoration
+pathway: reader
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: An area up to 100 meters centered on you.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- healing
+- offense
+text: 'Cost: 2 points of Spirituality [[Spirituality]]. Use: 1 Casting Action Casting
+  Action. Targeting and range: An area up to 100 meters centered on you. Effect: You
+  immediately learn information that helps analyze and restore events that occurred
+  in the area, including: Which sacred, dark, corrupt, and undead forces appeared
+  in the area within the last 3 days; you can identify their specific types and approximate
+  strength, roughly corresponding to several Sequence levels. [[Sacred/Dark/Corrupt/Undead
+  Forces]] Sequence What weapon a corpse died from, or what type of extraordinary
+  ability caused the death (example: flames). [[Damage Types]] If an Extraordinary
+  battle occurred: how many Extraor...'
+```
+
+
+
 
 - **Cost:** 2 points of **Spirituality** [[Spirituality]].
 - **Use:** 1 **Casting Action** Casting Action.
@@ -52,6 +137,36 @@ tags: ["pathway:reader", "sequence:7"]
 > **GM Note:** This ability is primarily for generating investigative clues, not for delivering complete answers.
 
 ### Ritual Mastery
+```yaml ability
+id: reader-seq-07-ritual-mastery
+name: Ritual Mastery
+pathway: reader
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Effect: While holding this ability, you gain access to ritual magic, regardless
+  of whether your Occult skill is advanced or not. When you perform Ritual Magic [[Ritual
+  Magic]], you may pray not only to the gods you believe in; if conditions are right,
+  you may also cause other righteous gods to respond to you in the same way. [[Righteous
+  Gods]] Essence: This response comes from extraordinary mastery of the preferences
+  and rituals associated with this path: you know how to please gods enough to gain
+  a response even without being a believer. Example (God of Knowledge and Wisdom):
+  [[God of Knowledge and Wisdom]] Corresponding celestial body: the blue star. [[Blue
+  Star]] Materials: mercury, br...'
+```
+
+
+
+
 - **Effect:** While holding this ability, you gain access to ritual magic, regardless of whether your Occult skill is advanced or not.
 
 
@@ -64,4 +179,3 @@ tags: ["pathway:reader", "sequence:7"]
     - Timing: Saturday, 11:00 to 12:00. [[Ritual Timing]]
 - **Limits:**
   - This cannot be stolen or recorded because it is knowledge. [[Stolen or Recorded]]
-

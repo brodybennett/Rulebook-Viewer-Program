@@ -1,12 +1,18 @@
 ---
-title: "Sequence 1: Serpent of Mercury"
-id: "fate-seq-01"
-tags: ["pathway:fate", "sequence:1"]
+title: 'Sequence 1: Snake of Mercury'
+id: fate-seq-01
+tags:
+- pathway:fate
+- sequence:1
 ---
 
-# Pathway for Serpent of Mercury Pathway: Sequence 1
 
-## Serpent of Mercury
+
+
+
+# Wheel of Fortune Pathway: Sequence 1
+
+## Snake of Mercury
 
 Also known as the “Snake of Destiny.” The tail-swallowing snake of fate can **restart** a cycle and reverse into an embryo when it encounters an inescapable danger.
 
@@ -30,6 +36,38 @@ When encountering a danger that is difficult to get rid of, the cycle can be res
 
 ### Loop of Fate
 
+```yaml ability
+id: fate-seq-01-loop-of-fate
+name: Loop of Fate
+pathway: fate
+sequence: 1
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: One target or an area (you may affect a person, an event, or a range).
+target: designated target(s)
+duration: Continues until a specified event result you set is achieved, or if there
+  is no clear event result, it may or may not be terminated.
+scaling: []
+tags:
+- ritual
+- divination
+text: 'Cost: 10 points of spirituality. Use: A spellcasting action; choose a target
+  or an area. Effect: The target person, event, or range falls into a state of continuous
+  looping and repetition within the specified time. Time maintains a degree of flow,
+  but is fixed within a certain range; the cycle goes back and forth and remains relatively
+  static. Targeting and range: One target or an area (you may affect a person, an
+  event, or a range). Limits: Unless the personality is extremely high, the affected
+  person will not clearly realize what happened. The affected person cycles repeatedly
+  and has their memory cleared again and again. Duration: Continues until a specified
+  event result you set is ach...'
+```
+
+
+
+
 - **Cost:** 10 points of **spirituality**.
 - **Use:** A **spellcasting action**; choose a target or an area.
 - **Effect:** The target person, event, or range falls into a state of continuous looping and repetition within the specified time. Time maintains a degree of flow, but is fixed within a certain range; the cycle goes back and forth and remains relatively static.
@@ -40,6 +78,36 @@ When encountering a danger that is difficult to get rid of, the cycle can be res
 - **Duration:** Continues until a specified event result you set is achieved, or if there is no clear event result, it may or may not be terminated.
 
 ### Restart
+
+```yaml ability
+id: fate-seq-01-restart
+name: Restart
+pathway: fate
+sequence: 1
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: A certain area; you may also specify restarting only the state of one target.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Also known as the restart of destiny or the restart of all things. This is
+  not a time reversal; it is closer to overwriting the current save with a previously
+  saved save. Cost: 10 points of spirituality. Use: A spellcasting action. Effect:
+  You restart the state or what happened in a certain area, directly restarting what
+  happened during this period and bringing the scene back to a situation you specified.
+  Targeting and range: A certain area; you may also specify restarting only the state
+  of one target. Limits: Maximum of two encounters. If you restart only one targets
+  state (examples given: an angel of the Error pathway or an angel of the Fool pathway),
+  their clone and secret puppet can u...'
+```
+
+
+
 
 Also known as the restart of destiny or the restart of all things. This is not a time reversal; it is closer to overwriting the current “save” with a previously saved “save.”
 
@@ -69,6 +137,34 @@ Also known as the restart of destiny or the restart of all things. This is not a
 > **GM Note:** At [[Sequence 0]], Restart is no longer limited; it includes restarting only your own state, and you can restart the entire world.
 
 ### Snake of Destiny
+
+```yaml ability
+id: fate-seq-01-snake-of-destiny
+name: Snake of Destiny
+pathway: fate
+sequence: 1
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- divination
+- stealth
+text: 'Effect: You can mask the specialness of your destiny (a peculiarity that can
+  conceal your own destiny). Limits: Methods such as divination and prophecy can no
+  longer find your location. Even if the other party has the same personality as you,
+  or even one or two more than you, as long as you hide, they can no longer find you
+  with extraordinary means. This does not mean your position cannot be coerced if
+  you create confusion.'
+```
+
+
+
 
 - **Effect:** You can mask the specialness of your destiny (a peculiarity that can conceal your own destiny).
 - **Limits:**

@@ -1,12 +1,18 @@
 ---
-title: "Sequence 1: Emperor of Knowledge"
-id: "myster-pryer-seq-01"
-tags: ["pathway:myster-pryer", "sequence:1"]
+title: 'Sequence 1: Sage'
+id: mystery-pryer-seq-01
+tags:
+- pathway:mystery-pryer
+- sequence:1
 ---
 
-# Sequence 1: Emperor of Knowledge
 
-## Emperor of Knowledge
+
+
+
+# Hermit Pathway: Sequence 1
+
+## Sage
 
 - (Reference only.)
 - Can impart substantial power to abstract knowledge.
@@ -27,6 +33,37 @@ tags: ["pathway:myster-pryer", "sequence:1"]
 
 ### Empowering Knowledge
 
+```yaml ability
+id: mystery-pryer-seq-01-empowering-knowledge
+name: Empowering Knowledge
+pathway: mystery-pryer
+sequence: 1
+type: active
+action: cast
+cost:
+  spirituality: 6
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Cost: 3 spirituality points. [[Spirituality]] Use: A Casting Action. Effect:
+  You put written knowledge into substance. You write down secret knowledge related
+  to the extraordinary (such as the potion formula). After that, this knowledge takes
+  on part of your personality and becomes an extraordinary existence of this Pathway,
+  carrying real power. Limits: The degree to which you can use it depends on your
+  knowledge reserve, with effects based on what is written: Potion formula: It can
+  only cause the effect of the [[Law of Convergence of Extraordinary characteristics]]
+  of this Pathway, and provide a +2 [[Identification Bonus]] for the existence of
+  this Pathway. Mythological knowledge of the...'
+```
+
+
+
+
 - **Cost:** 3 spirituality points. [[Spirituality]]
 - **Use:** A Casting Action.
 - **Effect:** You put written knowledge into substance. You write down secret knowledge related to the extraordinary (such as the potion formula). After that, this knowledge takes on part of your personality and becomes an extraordinary existence of this Pathway, carrying real power.
@@ -38,6 +75,34 @@ tags: ["pathway:myster-pryer", "sequence:1"]
     - Example: the last one is like the Codex. Users may have to read it for a year, read it repeatedly from various angles, and truly understand all the contents in it. They can even conceive accurate ideas in their minds without this book. This item can only be used after such study; otherwise, at most it will bring only a small amount of ability and personality improvement.
 
 ### Knowledge into Power
+
+```yaml ability
+id: mystery-pryer-seq-01-knowledge-into-power
+name: Knowledge into Power
+pathway: mystery-pryer
+sequence: 1
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- healing
+text: 'Effect: You can directly restore the hidden mythological scene at that time
+  through the known knowledge. The content inside is lifelike. The more secret, detailed,
+  and real the knowledge, the better the restoration effect; otherwise it may be just
+  useless the illusion of the table. The specific reference standard is the same as
+  above. Limits: Legends and myths that can be seen everywhere cannot achieve the
+  desired effect, because they are more or less seriously embellished and cannot be
+  used as a feasible knowledge.'
+```
+
+
+
 
 - **Effect:** You can directly restore the hidden mythological scene at that time through the known knowledge. The content inside is lifelike. The more secret, detailed, and real the knowledge, the better the restoration effect; otherwise it may be just useless the illusion of the table. The specific reference standard is the same as above.
 - **Limits:** Legends and myths that can be seen everywhere cannot achieve the desired effect, because they are more or less seriously embellished and cannot be used as a feasible knowledge.

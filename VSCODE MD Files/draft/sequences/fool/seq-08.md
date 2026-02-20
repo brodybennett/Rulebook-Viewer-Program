@@ -1,14 +1,20 @@
 ---
-title: "Sequence 8: Clown"
-id: "fool-seq-08"
-tags: ["pathway:fool", "sequence:8"]
+title: 'Sequence 8: Clown'
+id: fool-seq-08
+tags:
+- pathway:fool
+- sequence:8
 ---
 
-# Sequence 8: Clown
+
+
+
+
+# Fool Pathway: Sequence 8
 
 > **Lore:** A Clown buries sorrow behind a smile—reading people, defying balance, and trusting intuition even when fate feels unchangeable.
 
-## Overview
+## Clown
 
 - Skilled in deft combat with exceptional physical coordination, agility, and speed, and decent Strength.
 - Can rely on intuition to predict a target’s next move.
@@ -49,6 +55,38 @@ In addition, from now on you will not lose your balance. If you fall, one of you
 
 ### Premonition of Danger
 
+```yaml ability
+id: fool-seq-08-premonition-of-danger
+name: Premonition of Danger
+pathway: fool
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- divination
+- healing
+- offense
+text: 'Also known as intuitive premonition: you can predict the actions of others
+  at critical moments and perceive danger. Use: Triggered whenever you are raided,
+  sneak attacked, or something on the scene is about to put a raid or sneak attack
+  into action. [[Raid]] [[Sneak Attack]] Use (additional trigger): If a single instance
+  of damage exceeds half of your maximum health (rounded up), this ability can also
+  be triggered. [[Maximum health]] [[Damage instance]] When triggered, resolve the
+  following: Make an Intuition (INT) appraisal (Difficulty Value 15). [[Appraisal]]
+  Difficulty Value On success, an idea flashes in your mind immediately, telling you
+  the form the danger will take. After you succe...'
+```
+
+
+
+
 Also known as intuitive premonition: you can predict the actions of others at critical moments and perceive danger.
 
 - **Use:** Triggered whenever you are raided, sneak attacked, or something on the scene is about to put a raid or sneak attack into action. [[Raid]] [[Sneak Attack]]
@@ -75,7 +113,42 @@ When triggered, resolve the following:
 - Sequence 6: Your Intuition (INT) identification succeeds by default. Identification
 - Sequence 5: You can foresee danger from multiple persons (more than one attacker).
 
+- **Effect:** Premonition of Danger resolves using its yaml ability block and section prose.
+
+
 ### Turn Paper into Flying Knives
+
+```yaml ability
+id: fool-seq-08-turn-paper-into-flying-knives
+name: Turn Paper into Flying Knives
+pathway: fool
+sequence: 8
+type: active
+action: attack
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- mobility
+- defense
+- offense
+text: 'The soft paper in your hand can turn into flying knives and fly out; this belongs
+  to the magic class. [[Magic class]] Use: 1 Attack Action. Attack Action Effect:
+  Turn paper and tarot cards into flying blades and throw them, dealing 1d4 + half
+  Strength damage die. [[Strength Damage Die]] [[Tarot Cards]] Additional rules: Strength
+  damage dice are rounded up to cause physical damage, and are rolled against physical
+  defense. [[Physical Damage]] You can hit consecutively with flying blades and choose
+  multiple targets. You can shoot 3 cards in a row with one Attack Action. Starting
+  from the second card, you take 2 Disadvantages when making the identification throw;
+  you take 4 Disadvantages for...'
+```
+
+
+
 
 The soft paper in your hand can turn into flying knives and fly out; this belongs to the magic class. [[Magic class]]
 
@@ -89,7 +162,43 @@ Additional rules:
    - You can shoot 3 cards in a row with one Attack Action.
    - Starting from the second card, you take 2 **Disadvantages** when making the identification throw; you take 4 **Disadvantages** for the third card, and so on, increasing. [[Disadvantages]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### Muscle Mastery
+
+```yaml ability
+id: fool-seq-08-muscle-mastery
+name: Muscle Mastery
+pathway: fool
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- stealth
+- mobility
+- defense
+text: 'Your precise mastery of muscles gives you an advantage in learning and fighting.
+  Your muscle-related identification is +2 beneficial, including: fighting, throwing,
+  shooting, performing, deceiving, stealth, etc. [[Beneficial]] Your stealth makes
+  no sound. When listening against stealth, listening without extraordinary factors
+  fails against you by default. [[Listening]] [[Extraordinary Factors]] You get fast
+  dodge, keep complete physical defense against firearms (excluding light and lightning),
+  and gain an extra level of dodge. [[id:alias-fast-dodge|Fast dodge]] [[Firearms]]
+  [[Dodge level]] 1 quick action; does not consume Spirituality: your Performance/Climbing/Jumping
+  identification succ...'
+```
+
+
+
 
 Your precise mastery of muscles gives you an advantage in learning and fighting.
 
@@ -103,3 +212,6 @@ Your precise mastery of muscles gives you an advantage in learning and fighting.
    - If you receive relevant courses and guidance, and the content is effective, authentic, non-repetitive, and lasts more than 2 hours, your related skills increase by 1 level. [[Skill level]]
   - To reach **Proficient**, you must complete 2 + 3 + 4 learnings in order; you cannot advance beyond **Proficient**.
    - (This is a potion benefit that cannot be recorded or stolen.) [[Potion benefit]]
+
+- **Effect:** Muscle Mastery resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

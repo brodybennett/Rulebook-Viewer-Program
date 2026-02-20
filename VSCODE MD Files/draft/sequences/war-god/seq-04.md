@@ -1,10 +1,16 @@
 ---
-title: "Sequence 4: Demon Hunter"
-id: "war-god-seq-04"
-tags: ["pathway:war-god", "sequence:4"]
+title: 'Sequence 4: Demon Hunter'
+id: war-god-seq-04
+tags:
+- pathway:war-god
+- sequence:4
 ---
 
-# Sequence 4: Demon Hunter
+
+
+
+
+# Twilight Giant Pathway: Sequence 4
 
 ## Demon Hunter
 
@@ -27,12 +33,66 @@ tags: ["pathway:war-god", "sequence:4"]
 
 ### Detect Evil
 
+```yaml ability
+id: war-god-seq-04-detect-evil
+name: Detect Evil
+pathway: war-god
+sequence: 4
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- detection
+text: 'Use: Free Action Check: Difficulty Value 15 Intuition + [[Spot]] check. Effect:
+  Look for signs of evil, corruption, and contamination; detect evil creatures currently
+  within the scene or that have been in the area within the last 24 hours. Limits/Modifiers:
+  If a target has the [[Avoidance of Scrying]] trait, apply its penalty to this check.'
+```
+
+
+
+
 - **Use:** **Free Action**
 - **Check:** **Difficulty Value 15** Intuition + [[Spot]] check.
 - **Effect:** Look for signs of evil, corruption, and contamination; detect evil creatures currently within the scene or that have been in the area within the last 24 hours.
 - **Limits/Modifiers:** If a target has the [[Avoidance of Scrying]] trait, apply its penalty to this check.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Demon Hunt Ritual
+
+```yaml ability
+id: war-god-seq-04-demon-hunt-ritual
+name: Demon Hunt Ritual
+pathway: war-god
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- offense
+text: 'Use: Perform a ritual where you hunt demons. Time: 10 minutes. Cost: 4 [[Spirituality]].
+  Requirements: Find the traces of demons and understand the types of demons. Effect:
+  After the ceremony takes effect, your attack Identification checks of 18, 19, or
+  20 are considered a [[Big Success]].'
+```
+
+
+
 
 - **Use:** Perform a ritual where you hunt demons.
 - **Time:** 10 minutes.
@@ -40,17 +100,100 @@ tags: ["pathway:war-god", "sequence:4"]
 - **Requirements:** Find the traces of demons and understand the types of demons.
 - **Effect:** After the ceremony takes effect, your attack Identification checks of 18, 19, or 20 are considered a [[Big Success]].
 
+- **Limits:** As described in this section's prose.
+
+
 ### Mind Barrier
+
+```yaml ability
+id: war-god-seq-04-mind-barrier
+name: Mind Barrier
+pathway: war-god
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- stealth
+text: 'Effect: Conceal your intentions. You can surprise creatures that would not
+  otherwise be surprised. A demons danger perception no longer applies to you.'
+```
+
+
+
 
 - **Effect:** Conceal your intentions.
   - You can surprise creatures that would not otherwise be surprised.
   - A demon’s danger perception no longer applies to you.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Spiritual Disturbance
+
+```yaml ability
+id: war-god-seq-04-spiritual-disturbance
+name: Spiritual Disturbance
+pathway: war-god
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Effect: The target makes an Intuition check at -5; on failure, treat the result
+  as a Big Failure.'
+```
+
+
+
 
 - **Effect:** The target makes an Intuition check at -5; on failure, treat the result as a Big Failure.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Material Identification
+
+```yaml ability
+id: war-god-seq-04-material-identification
+name: Material Identification
+pathway: war-god
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+text: 'Effect: Identify the uses of various materials and prepare corresponding magical
+  potions, holy ointments, essential oils, and special marks. Time: 1d20 minutes.
+  Check: Difficulty Value 20 Intuition check. Limits: Create up to five magical items
+  per day. Storage/Duration: Unless otherwise specified, magical potions can only
+  be stored or effective for 24 hours. Heres a list of the magical items you can craft:
+  Holy Anointing Use: Full Round to apply.'
+```
+
+
+
 
 - **Effect:** Identify the uses of various materials and prepare corresponding magical potions, holy ointments, essential oils, and special marks.
 - **Time:** 1d20 minutes.
@@ -111,6 +254,38 @@ Here’s a list of the magical items you can craft:
 - **Imprint Form Variation:** You can craft a resistance imprint instead of a mark; it grants 10 points of resistance to the corresponding damage/condition type (holy, lightning, cold, or curse). This cannot be superimposed.
 
 ### God of War
+
+```yaml ability
+id: war-god-seq-04-god-of-war
+name: God of War
+pathway: war-god
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- healing
+- debuff
+- defense
+text: 'Trigger: Whenever you fall into [[Madness]]. Effect: Temporarily consume 3
+  points of Will Cap to continue fighting in a normal state. Limits: This does not
+  affect your Willpower Defense. Failure Condition: If your [[Sanity / Rationality]]
+  reaches a negative value, you immediately lose the will to fight and cannot continue
+  fighting. Recovery: The lost Will Cap can be restored after an hour. Status Interaction:
+  You no longer suffer negative effects from blindness, deafness, fear, anger, etc.,
+  including negative emotions bestowed by the [[Black Emperor]], and will not suffer
+  impairmentsalthough these negative states still exist (e.g., you are still theoretically
+  blind or deaf), you can still...'
+```
+
+
+
 
 - **Trigger:** Whenever you fall into [[Madness]].
 - **Effect:** Temporarily consume 3 points of **Will Cap** to continue fighting in a normal state.

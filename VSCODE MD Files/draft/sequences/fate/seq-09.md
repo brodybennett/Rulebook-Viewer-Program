@@ -1,10 +1,16 @@
 ---
-title: "Sequence 9: Monster"
-id: "fate-seq-09"
-tags: ["pathway:fate", "sequence:9"]
+title: 'Sequence 9: Monster'
+id: fate-seq-09
+tags:
+- pathway:fate
+- sequence:9
 ---
 
-# Path of Fate Pathway: Sequence 9
+
+
+
+
+# Wheel of Fortune Pathway: Sequence 9
 
 - **Non-interchangeable:** This Pathway is the only one that is not interchangeable.
 
@@ -16,6 +22,20 @@ tags: ["pathway:fate", "sequence:9"]
 
 You gain the following extraordinary abilities.
 
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
+
 ## Extraordinary Abilities
 
 ### Attribute Gain
@@ -24,6 +44,35 @@ You gain the following extraordinary abilities.
 - **Effect:** You can occasionally glimpse the future.
 
 ### Glimpse of the Future
+
+```yaml ability
+id: fate-seq-09-glimpse-of-the-future
+name: Glimpse of the Future
+pathway: fate
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Use: Triggered when you conduct an Intuition (INT)/Spiritual Intuition identification
+  and the identification is a big success or big failure. Effect: When triggered,
+  you see a future screen; the content is determined by the GM. If the Intuition (INT)
+  identification exceeds 30, you can see ordinary future events, with results that
+  are good for you. A big success usually represents a picture beneficial to you.
+  A big failure represents a picture that is not good for you (it may be a crisis
+  that does not tell you the solution). Whenever you take at least 3 hours of sufficient
+  rest, this also triggers in your dream (the same effect as above). Limits:'
+```
+
+
+
 
 - **Use:** Triggered when you conduct an **Intuition (INT)**/**Spiritual Intuition** identification and the identification is a big success or big failure.
 - **Effect:**
@@ -37,6 +86,35 @@ You gain the following extraordinary abilities.
 
 ### Very High Intuition (INT)
 
+```yaml ability
+id: fate-seq-09-very-high-intuition-int
+name: Very High Intuition (INT)
+pathway: fate
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- debuff
+text: 'Effect: You can often hear voices others cannot hear and see things others
+  cannot see. Effect (choose/apply as triggered): Peeping: You can see the specialness
+  of others and determine whether the other party belongs to the realm of immortality/corruption/darkness/sacred/cursed,
+  but the information is not specific enough (for example, you can find a person who
+  died a few days ago, but you dont know the specific reason). Special: If the witnessed
+  special is higher than your Sequence by 1+, or has pollution, you immediately suffer
+  the corresponding Sanity / Rationality loss. Listening: Whenever you carry out an
+  Intuition (INT)-related skill appraisal and the result is 20, if there is a spiri...'
+```
+
+
+
+
 - **Effect:** You can often hear voices others cannot hear and see things others cannot see.
 - **Effect (choose/apply as triggered):**
   1. **Peeping:** You can see the “specialness” of others and determine whether the other party belongs to the realm of immortality/corruption/darkness/sacred/cursed, but the information is not specific enough (for example, you can find a person who died a few days ago, but you don’t know the specific reason).
@@ -47,6 +125,38 @@ You gain the following extraordinary abilities.
      - **Limits:** This is passive, bound to potion benefits, and cannot be stolen or recorded.
 
 ### Premonition of Danger
+
+```yaml ability
+id: fate-seq-09-premonition-of-danger
+name: Premonition of Danger
+pathway: fate
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- divination
+- defense
+- offense
+text: 'Effect: You have a keen intuition for danger and can foresee danger beyond
+  your personality. Effect: Whenever you suffer any Surprised/Sneak Attack, you must
+  perform a Difficulty Value 20 Intuition (INT) test. On a success, you are immediately
+  told what you should do next to avoid the surprised/sneak attack. You usually dont
+  know why you do this. Any attack that can cause half of your Vitality loss (rounded
+  up) in one instance, or half of your Sanity / Rationality loss, is also included
+  in the effect of (1). When this applies, your Physical Defense gains an additional
+  +4 correction (affecting your Constitution Defense/Willpower Defense). When the
+  effect of (2) is used against light/lightn...'
+```
+
+
+
 
 - **Effect:** You have a keen intuition for danger and can foresee danger beyond your personality.
 - **Effect:**
@@ -63,6 +173,39 @@ You gain the following extraordinary abilities.
   - The Intuition (INT) test for danger premonition does not cause the Semi-Trance state.
 
 ### Spiritual Vision
+```yaml ability
+id: fate-seq-09-spiritual-vision
+name: Spiritual Vision
+pathway: fate
+sequence: 9
+type: toggle
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+- healing
+- mobility
+text: 'Use: 1 free action to activate. Cost: 1 spirituality point per round while
+  active. Effect: While active, your vision gains the following benefits: Etheric
+  body: You can directly see the health status of the target through aura color; directly
+  find where the other partys body is uncomfortable/has a problem; and, through thin
+  doors, confirm the number of people inside. Spiritual body: You can confirm whether
+  an object/creature has spirituality. This cannot identify extraordinary people.
+  It can also penetrate a door to see inside, identify whether there is ritual magic
+  power in it, and penetrate the spiritual wall. Mental Body: You can see the color
+  represented by the other persons emotions,...'
+```
+
+
+
+
 - **Use:** 1 **free action** to activate.
 - **Cost:** 1 **spirituality point per round** while active.
 - **Effect:** While active, your vision gains the following benefits:
@@ -81,3 +224,5 @@ You gain the following extraordinary abilities.
 - **Special:**
   - Spiritual Vision can see some ordinary spirit bodies by default (those that have not dissipated for 24 hours).
   - This cannot be recorded or stolen.
+
+- **Limits:** As described in this section's prose.

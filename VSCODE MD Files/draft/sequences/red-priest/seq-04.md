@@ -1,12 +1,18 @@
 ---
-title: "Sequence 4: Iron Knight"
-id: "red-priest-seq-04"
-tags: ["pathway:red-priest", "sequence:4"]
+title: 'Sequence 4: Iron-blooded Knight'
+id: red-priest-seq-04
+tags:
+- pathway:red-priest
+- sequence:4
 ---
 
-# Sequence 4: Iron Knight
 
-## Iron Knight
+
+
+
+# Red Priest Pathway: Sequence 4
+
+## Iron-blooded Knight
 
 > **Lore:** This Sequence hardens the body and will, grants mastery over steel and flame, and forges a special bond with an organized force.
 
@@ -31,6 +37,36 @@ tags: ["pathway:red-priest", "sequence:4"]
 
 ### Steel
 
+```yaml ability
+id: red-priest-seq-04-steel
+name: Steel
+pathway: red-priest
+sequence: 4
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- mobility
+- buff
+- defense
+- offense
+text: 'Use: A Full-Round Action. [[Full-Round Action]] Effect: You become steel. Gain
+  +3 Armor [[Armor]] and +3 Damage Reduction. [[Damage Reduction]] You can also increase
+  the Hardness of your body at the same time. [[Hardness]] You may lower your Agility
+  (DEX) at will: For every 2 points of Agility (DEX) you reduce, you gain +2 Armor
+  and +1 point of physical Damage Reduction. Reducing Agility (DEX) reduces your movement
+  speed.'
+```
+
+
+
+
 - **Use:** A **Full-Round Action**. [[Full-Round Action]]
 - **Effect:**
   - You become steel.
@@ -41,7 +77,37 @@ tags: ["pathway:red-priest", "sequence:4"]
     - Reducing Agility (DEX) reduces your movement speed.
     - If your Agility (DEX) is 0, you cannot move.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Flame
+
+```yaml ability
+id: red-priest-seq-04-flame
+name: Flame
+pathway: red-priest
+sequence: 4
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- mobility
+- debuff
+- offense
+text: 'Use: A Full-Round Action. [[Full-Round Action]] Effect: You are immune to poison
+  [[Poison]] and disease. [[Disease]] You move three times faster. You can pass through
+  otherwise impenetrable openings. Your spellcasting and attack rolls gain 1d10 points
+  of damage. Your full-round actions gain 2d10 points of damage. Limits:'
+```
+
+
+
 
 - **Use:** A **Full-Round Action**. [[Full-Round Action]]
 - **Effect:**
@@ -56,8 +122,37 @@ tags: ["pathway:red-priest", "sequence:4"]
 
 ### Iron-Blooded Army
 
+```yaml ability
+id: red-priest-seq-04-iron-blooded-army
+name: Iron-Blooded Army
+pathway: red-priest
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- offense
+text: 'You and your companions gain the following benefits: When you and your companions
+  are hurt, you can share the damage with everyone at will. [[Share Damage]] Your
+  companions share vision with each other. [[Shared Vision]] The strength of you and
+  your companions is always the value of the person with the highest value.'
+```
+
+
+
+
 You and your **companions** gain the following benefits:
 
 - When you and your companions are hurt, you can share the damage with everyone at will. [[Share Damage]]
 - Your companions share vision with each other. [[Shared Vision]]
 - The strength of you and your companions is always the value of the person with the highest value.
+
+- **Effect:** Iron-Blooded Army resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

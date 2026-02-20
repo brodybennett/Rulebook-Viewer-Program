@@ -1,12 +1,20 @@
 ---
-title: "Sequence 8: Beast Tamer"
-id: "moon-seq-08"
-tags: ["pathway:moon", "sequence:8"]
+title: 'Sequence 8: Beast Tamer'
+id: moon-seq-08
+tags:
+- pathway:moon
+- sequence:8
 ---
 
-# Sequence 8: Beast Tamer
+
+
+
+
+# Moon Pathway: Sequence 8
 
 > **Lore:** Domesticate and use living animals, including extraordinary creatures; greatly improve physical fitness.
+
+## Beast Tamer
 
 ## Advancement
 
@@ -22,6 +30,36 @@ tags: ["pathway:moon", "sequence:8"]
 - Your animal taming uses Sequence 9 rapid growth rules: cap at **Proficient**, and each non-repeating tame counts as 1 growth.
 
 ### Animal Senses
+
+```yaml ability
+id: moon-seq-08-animal-senses
+name: Animal Senses
+pathway: moon
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: Choose 1 animal / extraordinary creature / insect (even mosquito) within 20
+  meters.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- defense
+text: 'Cost: 3 [[Spirituality]] Use: 1 Casting Action Targeting and range: Choose
+  1 animal / extraordinary creature / insect (even mosquito) within 20 meters. Check:
+  Tame the beast against its Willpower Defense Effect: If you succeed, you share the
+  senses with it and gain the effects below for 5 minutes. Limits: The following effects
+  cannot be more than 100 meters away from the animal. It can complete the instructions
+  even if it is more than 100 meters away.'
+```
+
+
+
 
 - **Cost:** 3 [[Spirituality]]
 - **Use:** 1 Casting Action
@@ -51,6 +89,34 @@ tags: ["pathway:moon", "sequence:8"]
   - However, animals without intelligence may cause you to no longer be able to give instructions to it.
 
 ### Domesticated Animal Examples
+
+```yaml ability
+id: moon-seq-08-domesticated-animal-examples
+name: Domesticated Animal Examples
+pathway: moon
+sequence: 8
+type: active
+action: cast
+cost:
+  vitality: 2
+roll: null
+opposed_by: physical_defense
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- defense
+- offense
+text: '#### List of regular animals that may be domesticated Bugs/ants: By default,
+  they die when they are hit. Only fast-moving bugs can calculate physical defense
+  against (such as mosquitoes), with 10 points of physical defense (10 agility), and
+  fast dodge. Faced with range/psychic damage, they will die directly by default.
+  Rats/birds: 2d2 Vitality. 5 points in Three Defenses (both attributes are 2).'
+```
+
+
+
 
 > **GM Note:** Defaults for regular animals that may be domesticated.
 
@@ -91,3 +157,6 @@ tags: ["pathway:moon", "sequence:8"]
   - or negative values to dynamically adjust.
 
 > **GM Note:** More creatures can be referenced in the [[Injury/Vitality Volume Example]]. The value is determined by the GM. Animal trainers who want to patrol bears/lions and other dangerous creatures need the consent of the GM, and raising such creatures requires at least a [[Credit Rating]] order.
+
+- **Effect:** Domesticated Animal Examples resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

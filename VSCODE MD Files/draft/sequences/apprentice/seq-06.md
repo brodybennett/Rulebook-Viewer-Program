@@ -1,12 +1,18 @@
 ---
-title: "Sequence 6: Recorder"
-id: "apprentice-seq-06"
-tags: ["pathway:apprentice", "sequence:6"]
+title: 'Sequence 6: Scribe'
+id: apprentice-seq-06
+tags:
+- pathway:apprentice
+- sequence:6
 ---
 
-# Sequence 6
 
-## Recorder
+
+
+
+# Door Pathway: Sequence 6
+
+## Scribe
 
 > **Lore:** The mutated “brain” reproduces the extraordinary ability used by the target, and then drives the activated part of the cells to form the corresponding symbols, patterns, and logos to complete the storage. Let the spirit be the pen and the spirit body be the paper: “I come, I see, I record.”
 
@@ -35,6 +41,36 @@ tags: ["pathway:apprentice", "sequence:6"]
 - Your [[Occult]] can be quickly upgraded to Proficient.
 
 ### Record
+
+```yaml ability
+id: apprentice-seq-06-record
+name: Record
+pathway: apprentice
+sequence: 6
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- buff
+text: 'Your mutated brain reproduces an extraordinary ability used by a target and
+  constructs a corresponding pattern for storage. Use: 1 free action, whenever you
+  witness an active extraordinary ability, you can immediately record it. Check: Recording
+  an Extraordinary Ability is an Intuition Appraisal with an initial difficulty of
+  20. 1 Every time your recording ability increases by 1 Sequence: identification
+  difficulty +5. Limits: "Character" refers to Sequence level in this section. 4 The
+  ability to record is reduced by 1 Sequence: identification difficulty -5. 5 Every
+  time your record ability is lowered by 1 character: the difficulty of identification
+  -5, until the Difficulty Value is 10 or...'
+```
+
+
+
 
 Your mutated “brain” reproduces an extraordinary ability used by a target and constructs a corresponding pattern for storage.
 
@@ -65,3 +101,5 @@ The following rules must be followed to cast a Recorded Extraordinary Ability:
   - [[Potion digestion progress]] 15: 2 Sequence 4–3 abilities, 9 Sequence 6–5 abilities, 22 Sequence 9–7 abilities.
   - [[Complete Potion Digestion]]: 3 Sequence 4–3 abilities, 10 Sequence 6–5 abilities, 25 Sequence 9–7 abilities.
 - **Special:** When the potion is fully digested, the recorded Sequence 6–5 abilities will no longer be halved.
+
+- **Effect:** Record resolves using its yaml ability block and section prose.

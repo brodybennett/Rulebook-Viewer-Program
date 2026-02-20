@@ -1,8 +1,14 @@
 ---
-title: "Sequence 9: Seer"
-id: "fool-seq-09"
-tags: ["pathway:fool", "sequence:9"]
+title: 'Sequence 9: Seer'
+id: fool-seq-09
+tags:
+- pathway:fool
+- sequence:9
 ---
+
+
+
+
 
 # Fool Pathway: Sequence 9
 
@@ -50,6 +56,35 @@ tags: ["pathway:fool", "sequence:9"]
   - When directly creating a character of a higher Sequence, double the growth-skill points gained from the potion’s Intuition (INT) when adding growth skills.
 
 ### Divination
+
+```yaml ability
+id: fool-seq-09-divination
+name: Divination
+pathway: fool
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- divination
+text: 'Use: 1 Casting Action Cost: 2 Spirituality Effect: Choose 1 divination method
+  and conduct 1 Occult Identification. Results by Difficulty Value: Difficulty Value
+  15: Get a very general result (e.g., finding objects only tells you a city). Difficulty
+  Value 20: Get a more general result, usually giving a general direction. Difficulty
+  Value 25: Obtain a fairly accurate result; finding objects is accurate to a certain
+  street. Difficulty Value 30: Obtain a very accurate result; divination reveals specific
+  content.'
+```
+
+
+
 
 - **Use:** 1 Casting Action
 - **Cost:** 2 **Spirituality**
@@ -111,7 +146,38 @@ tags: ["pathway:fool", "sequence:9"]
   - The knowledge of divination is not mastered at the moment of becoming a **Beyonder**.
   - If you are a newly promoted Seer, you need relevant classics or a teacher to master these, and you can only master one type per day.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Ritual Mastery
+```yaml ability
+id: fool-seq-09-ritual-mastery
+name: Ritual Mastery
+pathway: fool
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Effect: While holding this ability, you gain access to ritual magic, regardless
+  of whether your Occult skill is advanced or not. Limits / Requirements: While you
+  hold this ability, you are qualified to use ritual magic. As long as you have at
+  least been trained in Occultism and know how to use ritual magic, you can perform
+  rituals regardless of whether your occult skills have reached advanced level. For
+  the ritual magic you can use, refer to [[Common Ritual Magic]]. This is the effect
+  brought by 1 potion and cannot be stolen or recorded.'
+```
+
+
+
+
 - **Effect:** While holding this ability, you gain access to ritual magic, regardless of whether your Occult skill is advanced or not.
 
 
@@ -121,7 +187,41 @@ tags: ["pathway:fool", "sequence:9"]
   - For the ritual magic you can use, refer to [[Common Ritual Magic]].
   - This is the effect brought by 1 potion and cannot be stolen or recorded.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Spiritual Vision
+```yaml ability
+id: fool-seq-09-spiritual-vision
+name: Spiritual Vision
+pathway: fool
+sequence: 9
+type: toggle
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+- healing
+- mobility
+text: 'Use: 1 free action to activate. Cost: 1 spirituality point per round while
+  active. Effect: While active, your vision gains the following benefits: 1) Etheric
+  body: You can directly see the health status of the target through the color of
+  the aura. You can directly find where the other partyaTMs body is uncomfortable
+  and where there is a problem. When it comes to a certain organ, you can see the
+  inside through the unthickened door and confirm the number of people inside. 2)
+  Spiritual body:'
+```
+
+
+
+
 - **Use:** 1 **free action** to activate.
 - **Cost:** 1 **spirituality point per round** while active.
 - **Effect:** While active, your vision gains the following benefits:
@@ -154,3 +254,5 @@ tags: ["pathway:fool", "sequence:9"]
 - **Special:**
   - **Spiritual Vision** can see some ordinary spirit bodies by default; those that have not dissipated for 24 hours.
   - It cannot be recorded or stolen.
+
+- **Limits:** As described in this section's prose.

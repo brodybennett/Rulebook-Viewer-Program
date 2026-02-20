@@ -1,14 +1,22 @@
 ---
-title: "Sequence 5: The Gatekeeper"
-id: "death-seq-05"
-tags: ["pathway:death", "sequence:5"]
+title: 'Sequence 5: Spirit Guide'
+id: death-seq-05
+tags:
+- pathway:death
+- sequence:5
 ---
 
-# Sequence 5: The Gatekeeper
+
+
+
+
+# Death Pathway: Sequence 5
 
 A Gatekeeper can sense entrances to the [[Underworld]] and create gates that overlap the [[Spirit World]] and the Underworld. It can drive the [[Undead]] and summon many undead creatures.
 
 It can also use its body as a “cage,” turning it into a small Underworld that can contain a certain number of souls, undead, and [[Natural Spirits]]. This inner realm prevents contained spirits from escaping, provides a suitable environment for them to exist, and can be used to gain unique abilities from them.
+
+## Spirit Guide
 
 ## Advancement
 
@@ -29,13 +37,77 @@ It can also use its body as a “cage,” turning it into a small Underworld tha
 > **GM Note:** Possessing another person does not meet the requirements. First, a body that is not of the Death cannot reach the “pseudo-dead” state. Second, that body may still have its own original spirit body, and conflicting thoughts may lead to loss of control.
 
 ## Extraordinary Abilities
+### Attribute Gain
+
+- **Attribute Gain:** Not explicitly specified in source (schema placeholder).
+
 
 ### Underworld Perception and Sign
+
+```yaml ability
+id: death-seq-05-underworld-perception-and-sign
+name: Underworld Perception and Sign
+pathway: death
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- mobility
+text: You can perceive the location of the Underworld. You gain an Underworld in the
+  body, with a door as a symbol. The core of this inner Underworld is at the center
+  of the forehead, representing the location of the [[God of Death]]. This description
+  is cosmetic only and has no mechanical effect.
+```
+
+
+
 
 - You can perceive the location of the Underworld.
 - You gain an “Underworld in the body,” with a door as a symbol. The core of this inner Underworld is at the center of the forehead, representing the location of the [[God of Death]]. This description is cosmetic only and has no mechanical effect.
 
+- **Effect:** Underworld Perception and Sign resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Inner Underworld
+
+```yaml ability
+id: death-seq-05-inner-underworld
+name: Inner Underworld
+pathway: death
+sequence: 5
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: You can use your body as a cage to provide a suitable environment for
+  your own Underworld. From now on, you can hold a certain number of dead, soul bodies,
+  and natural spirits in your body. The number you can hold equals the number of dead
+  you can drive using [[Knowledge of the Dead]]. Contained dead are limited to spirit
+  bodies; dead with physical bodies cannot enter your body. Use: As a Swift Action,
+  you can release any number of spirits contained within you. Special: The Underworld
+  in the body is an effect brought by the potion and cannot be [[Stolen]] or [[Recorded]].
+  *Benefits: 1) Any soul contained in your body no longer needs to worry about its
+  existence time. As long as it...'
+```
+
+
+
 
 - **Effect:** You can use your body as a cage to provide a suitable environment for your own “Underworld.”
   - From now on, you can hold a certain number of dead, soul bodies, and natural spirits in your body.
@@ -53,8 +125,41 @@ It can also use its body as a “cage,” turning it into a small Underworld tha
 3) If someone intends to withdraw a spirit body attached to you, or a spirit body in the inner Underworld within your body, you can make a **Knowledge of the Dead** test with **Intuition (INT)** added as a modifier against it (or against the same identification of Knowledge of the Dead). On a success, your body’s spirit is pulled back.
    - **Special:** This does not include your own spirit body, because instability of your own spirit body causes you to no longer be able to effectively use the inner Underworld.
 
+- **Limits:** As described in this section's prose.
+
+
 
 ### Gate to the Underworld
+
+```yaml ability
+id: death-seq-05-gate-to-the-underworld
+name: Gate to the Underworld
+pathway: death
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: 50m
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'You construct a slightly obscured, bisected bronze gate that creates an entrance
+  to the Underworld. This ability has two uses. #### Use 1: Manifest Gate to Seize
+  and Draw In Cost: 5 points of [[Spirituality]] Use: 1 Casting Action. Spread five
+  fingers and aim your palm at a target within 50 meters. Effect: The Gatekeeper chooses
+  one of the following effects to emerge from the gate, or both simultaneously (no
+  action required): *A) Ghosts of the Underworld Attack/Check: Intuition (INT) + Knowledge
+  of the Dead against the targets [[Physical Defense]], ignoring [[Armor]].'
+```
+
+
+
 
 You construct a slightly obscured, bisected bronze gate that creates an entrance to the Underworld.
 
@@ -132,7 +237,40 @@ GM decides the gate’s specific goal beyond the rules above.
   - It can be used to freely enter and exit between reality and the Spirit World/Underworld without needing to find an entrance.
   - Before demigods, if your body tries to enter the Underworld, you still die as a living creature.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Nether Wave
+
+```yaml ability
+id: death-seq-05-nether-wave
+name: Nether Wave
+pathway: death
+sequence: 5
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: Ground or sea area within 100 meters
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'You turn an area around you into a portal to the Underworld and reality. Cost:
+  Indefinite Spirituality (see Duration/Upkeep below) Use: 1 Full-Round Action Targeting
+  and range: Ground or sea area within 100 meters Effect: The affected area suddenly
+  becomes dark, as if turning into the entrance of helllike a deep, dark ocean. You
+  summon any Underworld creatures; they occupy your [[Manipulation Ceiling]] and charge
+  your enemies like a tidal wave. *Duration/Upkeep: 1) Before using this ability,
+  choose the number of rounds the wave will last. Each round consumes 5 points of
+  Spirituality. 2) The end of the continuation does not mean the summoned creatures
+  disappear. Instead, within 1 minute af...'
+```
+
+
+
 
 You turn an area around you into a portal to the Underworld and reality.
 
@@ -178,3 +316,5 @@ You turn an area around you into a portal to the Underworld and reality.
 **Special:**
 - Underworld creatures cannot exist in reality for more than 1 hour.
 - If any combat is carried out during this period, they return to the Spirit World immediately after the encounter due to excessive consumption.
+
+- **Limits:** As described in this section's prose.

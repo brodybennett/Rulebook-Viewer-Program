@@ -1,12 +1,18 @@
 ---
-title: "Sequence 5: Ocean Singer"
-id: "tyrant-seq-05"
-tags: ["pathway:tyrant", "sequence:5"]
+title: 'Sequence 5: Ocean Songster'
+id: tyrant-seq-05
+tags:
+- pathway:tyrant
+- sequence:5
 ---
 
-# Ocean Pathway: Sequence 5
 
-## Ocean Singer
+
+
+
+# Tyrant Pathway: Sequence 5
+
+## Ocean Songster
 
 A **Ocean Singer** possesses shallow mastery over lightning, greatly enhanced underwater capability, and the power to influence others through song. Depending on personal disposition, their singing may interfere with a target’s **Spirit Body**, shock foes like thunder, or provoke rage through discordant sound.
 
@@ -47,13 +53,70 @@ After consuming the potion:
 
 ### Closeness to Marine Life
 
+```yaml ability
+id: tyrant-seq-05-closeness-to-marine-life
+name: Closeness to Marine Life
+pathway: tyrant
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+text: You may spiritually communicate with aquatic creatures. Communication allows
+  normal conversation. Non-hostile aquatic creatures generally maintain a friendly
+  attitude toward you. --
+```
+
+
+
+
 - You may spiritually communicate with aquatic creatures.
 - Communication allows normal conversation.
 - Non-hostile aquatic creatures generally maintain a friendly attitude toward you.
 
 ---
 
+- **Effect:** Closeness to Marine Life resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Lightning Mastery
+
+```yaml ability
+id: tyrant-seq-05-lightning-mastery
+name: Lightning Mastery
+pathway: tyrant
+sequence: 5
+type: active
+action: cast
+cost:
+  spirituality: 3
+roll: null
+opposed_by: physical_defense
+range: line of sight
+target: 1 creature within line of sight
+duration: instant
+scaling: []
+tags:
+- ritual
+- control
+- defense
+- offense
+text: 'You gain superficial control over lightning. #### Lightning Strike Cost: 3
+  Spirituality Use: 1 Casting Action Target: 1 creature within line of sight Check:
+  d20 + 15 Disaster bonus vs. Physical Defense Limits: Ignores Agility (DEX) and Dodge
+  Effect:'
+```
+
+
+
 
 You gain superficial control over lightning.
 
@@ -85,6 +148,32 @@ You gain superficial control over lightning.
 
 ### Thunderous Voice
 
+```yaml ability
+id: tyrant-seq-05-thunderous-voice
+name: Thunderous Voice
+pathway: tyrant
+sequence: 5
+type: active
+action: swift
+cost:
+  spirituality: 1
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- buff
+- offense
+text: 'Cost: 1 Spirituality per sentence Use: 1 Swift Action Effect: Your voice combines
+  with lightning power. Vocal transmission range increases to 5 kilometers. --'
+```
+
+
+
+
 - **Cost:** 1 Spirituality per sentence  
 - **Use:** 1 Swift Action  
 - **Effect:**  
@@ -93,7 +182,37 @@ You gain superficial control over lightning.
 
 ---
 
+- **Limits:** As described in this section's prose.
+
+
 ### Arrow of Thunder and Lightning
+
+```yaml ability
+id: tyrant-seq-05-arrow-of-thunder-and-lightning
+name: Arrow of Thunder and Lightning
+pathway: tyrant
+sequence: 5
+type: active
+action: swift
+cost:
+  spirituality: 3
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- offense
+text: 'Your hair defies natural law, standing on end and entwined with lightning.
+  Cost: 3 Spirituality Use: 1 Attack Action Requirement: Typically used with a bow
+  and arrow Choose one of the following modes: Lightning Attachment Additional Cost:
+  1 Swift Action Effect:'
+```
+
+
+
 
 Your hair defies natural law, standing on end and entwined with lightning.
 
@@ -131,7 +250,37 @@ Your hair defies natural law, standing on end and entwined with lightning.
 
 ---
 
+- **Effect:** Arrow of Thunder and Lightning resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Singing
+
+```yaml ability
+id: tyrant-seq-05-singing
+name: Singing
+pathway: tyrant
+sequence: 5
+type: active
+action: free
+cost:
+  spirituality: 3
+roll: null
+opposed_by: none
+range: 100 meters
+target: All creatures within range
+duration: sustained
+scaling: []
+tags:
+- ritual
+text: 'You may influence creatures through continuous singing. Effects depend on your
+  Singing proficiency. Cost: 3 Spirituality per round Use: 1 Free Action (continuous)
+  Range: 100 meters Target: All creatures within range This ability does not require
+  identification. #### Untrained Effect:'
+```
+
+
+
 
 You may influence creatures through continuous singing. Effects depend on your Singing proficiency.
 
@@ -187,3 +336,6 @@ Options:
 - For targets of higher than 1 character tier, effect and difficulty are halved.
 
 > **GM Note:** A Beyonder with higher Singing proficiency may intentionally use lower-level Singing effects. Characters with innate musical talent may still require training to sing in incomplete five-tone scales.
+
+- **Effect:** Singing resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

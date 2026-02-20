@@ -133,4 +133,34 @@ python tools/lint_roll_syntax.py --repo . --expr "1d20 + @attr.dex + @skill.figh
 python tools/lint_roll_syntax.py --repo . --json-out reports/roll_syntax_lint.json
 ```
 
+## 11) Compendium extract (Phase 3 compile step)
+
+Compile all sequence markdown into `dist/compendium.json` with schema-aligned ability objects:
+
+```bash
+python tools/extract_compendium.py --repo .
+python tools/extract_compendium.py --repo . --pretty
+python tools/extract_compendium.py --repo . --pathway fool --out dist/compendium.fool.json --pretty
+```
+
+## 12) Compendium lint (Phase 3 validation gate)
+
+Validate compiled compendium for required fields, ids, canonical names, and roll syntax:
+
+```bash
+python tools/lint_compendium.py --repo . --compendium dist/compendium.json
+python tools/lint_compendium.py --repo . --compendium dist/compendium.fool.json --json-out reports/compendium_fool_lint.json
+```
+
+## 13) Sequence schema refactor (Phase 3 source migration)
+
+Rewrite sequence markdown in-place to standardize structure and embed `yaml ability` blocks:
+
+```bash
+python tools/refactor_sequences_schema.py --repo .
+python tools/refactor_sequences_schema.py --repo . --pathway fool --pathway error
+```
+
+When a sequence only contains imputed placeholder abilities, the refactor now expands it into a small lore-driven multi-ability set so sparse high-sequence files stay database-ready. For Sequence 2/1/0 records, these imputed abilities are also tier-tuned (action tempo, spirituality cost, and meter-range scaling) to avoid flat identical mechanics across the top tiers.
+
 

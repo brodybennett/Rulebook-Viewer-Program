@@ -1,10 +1,16 @@
 ---
-title: "Sequence 9: Lawyer"
-id: "black-emperor-seq-09"
-tags: ["pathway:black-emperor", "sequence:9"]
+title: 'Sequence 9: Lawyer'
+id: black-emperor-seq-09
+tags:
+- pathway:black-emperor
+- sequence:9
 ---
 
-# Dark Emperor Pathway: Sequence 9
+
+
+
+
+# Black Emperor Pathway: Sequence 9
 
 ## Lawyer
 
@@ -13,6 +19,20 @@ tags: ["pathway:black-emperor", "sequence:9"]
 - Good at discovering and exploiting loopholes in rules and opponents’ weaknesses; possesses excellent eloquence and speculative logic; adept at using the power of order.
 
 Note: "Dark Emperor" and "Black Emperor" are treated as the same entity/alias.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -36,6 +56,35 @@ Note: "Dark Emperor" and "Black Emperor" are treated as the same entity/alias.
 
 ### Conversational and Eloquent
 
+```yaml ability
+id: black-emperor-seq-09-conversational-and-eloquent
+name: Conversational and Eloquent
+pathway: black-emperor
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- defense
+- social
+text: 1 Whenever you make a [[Social Identification]], you gain a +2 Charisma [[Charisma]]
+  bonus. This is Charisma and does not affect appearance. 2 Others will suffer a penalty
+  of your Charisma value to your [[Psychology]] / [[Reconnaissance]] test, and your
+  Charisma enjoys the bonus of 1. If the test fails, the judgment of you will be in
+  a good direction instead of a bad one. Ineffective against wary, hostile targets.
+  (This is a benefit from the potion and cannot be stolen or recorded. The Psychology/Reconnaissance
+  test is triggered when a target resists distortion.)
+```
+
+
+
+
 > **Lore:** You are gracious and trustworthy.
 
 - ① Whenever you make a [[Social Identification]], you gain a +2 **Charisma** [[Charisma]] bonus. This is Charisma and does not affect appearance.
@@ -45,7 +94,39 @@ Note: "Dark Emperor" and "Black Emperor" are treated as the same entity/alias.
 - (This is a benefit from the potion and cannot be stolen or recorded. The Psychology/Reconnaissance test is triggered when a target resists distortion.)
 -
 
+- **Effect:** Conversational and Eloquent resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Warp Channeling
+
+```yaml ability
+id: black-emperor-seq-09-warp-channeling
+name: Warp Channeling
+pathway: black-emperor
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+text: 'Use: Whenever you communicate with an intelligent creature for any 3 minutes,
+  you can immediately choose 1 of the following benefits to take effect: 1 Swapping
+  concept: You distort the behavior that the other party is about to execute into
+  another behavior with similar meaning, such as: Retreating becomes fleeing. Fleeing
+  becomes surrendering. Selling becomes selling at a low price. Buying becomes buying
+  at a high price. Hiring becomes long-term hire. 2 Generalization: You distort the
+  other partys perception of you into another similar meaning, such as:'
+```
+
+
+
 
 - **Use:** Whenever you communicate with an intelligent creature for any 3 minutes, you can immediately choose 1 of the following benefits to take effect:
   - ① **Swapping concept:** You distort the behavior that the other party is about to execute into another behavior with similar meaning, such as:
@@ -102,7 +183,41 @@ Note: "Dark Emperor" and "Black Emperor" are treated as the same entity/alias.
     - Specifically refers to the special situation that is self-perceived during distortion guidance, such as: the original intention is to sell normally, but it is distorted to sell at a low price, and on the basis of selling at a low price, it becomes free again, which is considered to be too far from the original intention.
     - However, if it is distorted to sell at a low price, then distorted to be free, and then changed from free to sell at a low price, it will only be regarded as distorting the similar meaning of level 1, and it will not be affected by the self-perception special difficulty reduction effect if it is calculated based on the original intention.
 
+- **Effect:** Warp Channeling resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Spotting Loopholes
+
+```yaml ability
+id: black-emperor-seq-09-spotting-loopholes
+name: Spotting Loopholes
+pathway: black-emperor
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Use: 1 Spellcasting Action, without consuming Spirituality [[Spirituality]].
+  Choose 1 target, conduct 1 [[Legal Appraisal]], and determine the result based on
+  the appraisal. Results (by Difficulty Value): Difficulty Value 15: You have discovered
+  the contradictions in the other party''s words, the ambiguity of your own requirements,
+  and found an opportunity to take advantage of. Difficulty Value 20: You find out
+  whether a thing or a place is easy to be taken advantage of in terms of jurisdiction,
+  such as: the hotel does not count the names of the residents (easy to disguise identities,
+  confuse the public), the ticket inspection is not rigorous, whether the character
+  or work of others is sla...'
+```
+
+
+
 
 - **Use:** 1 Spellcasting Action, without consuming **Spirituality** [[Spirituality]]. Choose 1 target, conduct 1 [[Legal Appraisal]], and determine the result based on the appraisal.
 - **Results (by Difficulty Value):**
@@ -116,7 +231,41 @@ Note: "Dark Emperor" and "Black Emperor" are treated as the same entity/alias.
 - **Special:** Detecting Vulnerabilities can also be used for certain extraordinary factors, such as discovering whether the opponent is afraid of sacredness, flames, whether the opponent's ability has certain restrictions, etc.
 - (This is a benefit from the potion and cannot be stolen or recorded. The Psychology/Reconnaissance test is triggered when a target resists distortion.)
 
+- **Effect:** Spotting Loopholes resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Vision
+```yaml ability
+id: black-emperor-seq-09-vision
+name: Vision
+pathway: black-emperor
+sequence: 9
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+text: 'Use: 1 free action. Cost: Consuming 1 spirituality point per round. Effect:
+  You activate vision, and your vision gains the following benefits: When in the state
+  of spiritual vision, your Spiritual Intuition test +1 is beneficial. Your vision
+  gains the following benefits: 1 Etheric body: You can roughly tell whether the other
+  partys body is good or bad through the color of the aura, but you cant get detailed
+  information. 2 Spiritual body: You can confirm whether an object/creature has Spirituality,
+  which cannot identify extraordinary people. 3 Mental body: You can see whether the
+  other party is thinking, but only so, and you cannot get more detailed information.'
+```
+
+
+
+
 - **Use:** 1 free action.
 - **Cost:** Consuming 1 **spirituality point** per round.
 - **Effect:** You activate vision, and your vision gains the following benefits:
@@ -133,3 +282,5 @@ Note: "Dark Emperor" and "Black Emperor" are treated as the same entity/alias.
   - Spiritual materials are usually spiritual, but you cannot determine the corresponding Pathway.
   - The colors seen by the spirit vision allow you to see each other in the dark, but you can only see the existence of colors, and it is still possible to get lost in the dark, because the colors you can see are limited, so you cannot use them to distinguish the undead biology.
 - Spirit Vision can see some ordinary spirit bodies by default, which have not dissipated for 24 hours, and cannot be recorded or stolen.
+
+- **Limits:** As described in this section's prose.

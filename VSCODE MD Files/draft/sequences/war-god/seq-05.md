@@ -1,10 +1,16 @@
 ---
-title: "Sequence 5: Guardian"
-id: "war-god-seq-05"
-tags: ["pathway:war-god", "sequence:5"]
+title: 'Sequence 5: Guardian'
+id: war-god-seq-05
+tags:
+- pathway:war-god
+- sequence:5
 ---
 
-# Sequence 5: Guardian
+
+
+
+
+# Twilight Giant Pathway: Sequence 5
 
 ## Guardian
 
@@ -49,6 +55,38 @@ You possess extraordinary abilities including [[Sword of Dawn]] and [[Storm of L
 
 ### Wall of Protection
 
+```yaml ability
+id: war-god-seq-05-wall-of-protection
+name: Wall of Protection
+pathway: war-god
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- stealth
+- defense
+- offense
+text: 'Cost: 3 [[Spirituality]]. Use: 1 Casting Action. Effect: Insert a giant sword
+  in front of your body. Morning light emerges, erecting an unbreakable invisible
+  wall to your left and right. The wall shares [[Vitality]] with you: damage to the
+  wall damages you. Attacks against the wall are resolved as attacks against your
+  Physical Defense (including Armor/DR), and the damage is applied to you. The wall
+  is used in one of the following ways: Guard Your Companions You place the giant
+  sword in front of your body as a symbol. While your companions are behind the sword,
+  a 50-meter-long invisible wall blocks attacks that try to hit them.'
+```
+
+
+
+
 - **Cost:** 3 [[Spirituality]].
 - **Use:** 1 Casting Action.
 - **Effect:** Insert a giant sword in front of your body. Morning light emerges, erecting an unbreakable invisible wall to your left and right.
@@ -71,10 +109,41 @@ The wall is used in one of the following ways:
    - A **Guardian Wall** isolates you from the inside and outside of the surrounding area.
    - **Special:** In **Guardian State**, even if [[Armor of Dawn]] is broken through the defense, it is not damaged.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Ignore Hallucinations
+
+```yaml ability
+id: war-god-seq-05-ignore-hallucinations
+name: Ignore Hallucinations
+pathway: war-god
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: As long as the source is no more than 1 Sequence higher than you, their
+  [[Hallucination Abilities]] are invalid against you by default. This also applies
+  to: Extraordinary abilities of pleasing/deceiving. The distortion of thinking by
+  the [[Black Emperor]]. It does not include low-mystery conspiracies; those effects
+  can still apply.'
+```
+
+
+
 
 - **Effect:** As long as the source is no more than 1 Sequence higher than you, their [[Hallucination Abilities]] are invalid against you by default.
 - This also applies to:
   - Extraordinary abilities of pleasing/deceiving.
   - The distortion of thinking by the [[Black Emperor]].
 - It does **not** include low-mystery conspiracies; those effects can still apply.
+
+- **Limits:** As described in this section's prose.

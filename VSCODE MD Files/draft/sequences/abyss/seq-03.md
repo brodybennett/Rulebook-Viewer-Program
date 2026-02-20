@@ -1,12 +1,18 @@
 ---
-title: "Sequence 3: Blatherer"
-id: "abyss-seq-03"
-tags: ["pathway:abyss", "sequence:3"]
+title: 'Sequence 3: Bloody Archduke'
+id: abyss-seq-03
+tags:
+- pathway:abyss
+- sequence:3
 ---
 
-# Sequence 3: Blatherer
 
-## Blatherer
+
+
+
+# Abyss Pathway: Sequence 3
+
+## Bloody Archduke
 
 - **Effect:** On a failed **Willpower Defense**, roll **1d4** to choose one listed outcome; the listener also suffers **1d6** Sanity / Rationality loss.
 
@@ -30,6 +36,37 @@ tags: ["pathway:abyss", "sequence:3"]
 
 ### Babbling
 
+```yaml ability
+id: abyss-seq-03-babbling
+name: Babbling
+pathway: abyss
+sequence: 3
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+- divination
+- defense
+text: 'Cost: 1 point of Spirituality. Use: Free action; once per round. Effect: Make
+  an Intuition (INT) test against each listener''s Willpower Defense. Effect: Each
+  time you utter a raving from the [[id:alias-abyss|Abyss]], the people present who
+  hear your raving lose 1 point of Sanity / Rationality per round for 1 minute after
+  the last babble. Effect: On a failed Willpower Defense, roll 1d4 to choose one listed
+  outcome; the listener also suffers 1d6 Sanity / Rationality loss. Extra: If someone
+  establishes contact with you by using occult means such as [[id:alias-divination|Divination]]
+  and [[Cursing]], you can negate the influence and reveal the source.'
+```
+
+
+
+
 - **Cost:** 1 point of **Spirituality**.
 - **Use:** Free action; once per round.
 - **Effect:** Make an **Intuition (INT)** test against each listener's **Willpower Defense**.
@@ -38,12 +75,71 @@ tags: ["pathway:abyss", "sequence:3"]
 
 - **Extra:** If someone establishes contact with you by using occult means such as [[id:alias-divination|Divination]] and [[Cursing]], you can negate the influence and reveal the source.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Whisperer
+
+```yaml ability
+id: abyss-seq-03-whisperer
+name: Whisperer
+pathway: abyss
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: If a connection is established (GM decides), the ?Whisperer? can transmit
+  their voice to the target?s ears across a very long distance, causing severe injuries
+  rather than guaranteed instant death.'
+```
+
+
+
 
 - **Effect:** If a connection is established (GM decides), the ?Whisperer? can transmit their voice to the target?s ears across a very long distance, causing severe injuries rather than guaranteed instant death.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Danger Countermeasure
+
+```yaml ability
+id: abyss-seq-03-danger-countermeasure
+name: Danger Countermeasure
+pathway: abyss
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- detection
+- defense
+text: 'Effect: Your danger perception range covers a city. Use: If you sense a clear
+  source of danger and pass an Intuition (INT) check against the target''s Willpower
+  Defense, you can directly use your extraordinary ability on the source. Effect:
+  If you foresee the source of danger, you can reverse the influence by reflecting
+  the effect back to the source.'
+```
+
+
+
 
 - **Effect:** Your danger perception range covers a city.
 - **Use:** If you sense a clear source of danger and pass an **Intuition (INT)** check against the target's **Willpower Defense**, you can directly use your extraordinary ability on the source.
 - **Effect:** If you foresee the source of danger, you can reverse the influence by reflecting the effect back to the source.
+
+- **Limits:** As described in this section's prose.

@@ -1,10 +1,16 @@
 ---
-title: "Sequence 3: Mentor of Deceit"
-id: "error-path-seq-03"
-tags: ["pathway:error-path", "sequence:3"]
+title: 'Sequence 3: Mentor of Deceit'
+id: error-seq-03
+tags:
+- pathway:error
+- sequence:3
 ---
 
-# Sequence 3: Mentor of Deceit
+
+
+
+
+# Error Pathway: Sequence 3
 
 ## Mentor of Deceit
 
@@ -24,6 +30,38 @@ tags: ["pathway:error-path", "sequence:3"]
 - **Attribute Gain:** Intuition (INT) +1; Agility (DEX) +1; your Deception increases by 1 skill level.
 
 ### Rules of Deceit
+
+```yaml ability
+id: error-seq-03-rules-of-deceit
+name: Rules of Deceit
+pathway: error
+sequence: 3
+type: active
+action: cast
+cost:
+  spirituality: 6
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- social
+text: 'Cost: 3 spirituality points. Use: One spellcasting action; make a Deception
+  check. Effect: You deceive supernatural powers and the laws of nature to defraud
+  the laws of nature. This ability can do the following: Write into Instinct: Write
+  one thing that is often done into instinct (at most one). This ability needs to
+  be used in advance, and it will take effect for one encounter. Choose one thing
+  you do often, or a remarkable ability that you use often, and write it into your
+  instinct. When you suffer from shock, frenzy, madness, and other abilities that
+  affect your actions mentally, the abilities written into your instinct can ignore
+  these effects and be used normally. Example: If you now...'
+```
+
+
+
 
 - **Cost:** 3 spirituality points.
 - **Use:** One spellcasting action; make a Deception check.
@@ -71,6 +109,9 @@ tags: ["pathway:error-path", "sequence:3"]
 
 - **Aftereffects:** Fraud rules are a temporary ability, but the results achieved during the process of fraud rules will not be restored after the rules return to normal (example: resurrection through a false resurrection point will not be â€œbounced backâ€ after restoration).
 > **Lore:** The essence of this law is: â€œexistence is reasonableâ€.
+
+- **Limits:** As described in this section's prose.
+
 
 ## GM Notes
 

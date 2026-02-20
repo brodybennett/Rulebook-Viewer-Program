@@ -1,12 +1,34 @@
 ---
-title: "Sequence 6: Dawn Knight"
-id: "war-god-seq-06"
-tags: ["pathway:war-god", "sequence:6"]
+title: 'Sequence 6: Dawn Paladin'
+id: war-god-seq-06
+tags:
+- pathway:war-god
+- sequence:6
 ---
 
-# Sequence 6: Dawn Knight
+
+
+
+
+# Twilight Giant Pathway: Sequence 6
 
 > **Lore:** Possessing giant-like power, you can fill the surroundings with morning light. This light can break illusions, disperse the shadows of resentful souls, and weaken evil spirits.
+
+## Dawn Paladin
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -18,6 +40,39 @@ tags: ["pathway:war-god", "sequence:6"]
 > **GM Note:** Your giant strength can make every step you take shake the surroundings; this effect can be controlled.
 
 ### Armor of Dawn
+
+```yaml ability
+id: war-god-seq-06-armor-of-dawn
+name: Armor of Dawn
+pathway: war-god
+sequence: 6
+type: active
+action: free
+cost:
+  spirituality: 6
+roll: null
+opposed_by: physical_defense
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'As a free action and at the expense of 3 spirituality points, you create a
+  suit of silver-white armor covering your entire body (including gauntlets, breastplates,
+  and crowned helmets, among other pieces). It has no obvious weight. Cost: 3 spirituality
+  points Use: Free action Effect: You gain 5 points of armor and 3 points of external
+  damage reduction. Different judgments are made according to the following conditions:
+  Gap (Defense Breached): If an attack breaks through your physical defense and causes
+  10 effective damage, that part of the Armor of Dawn is considered to have a Gap.
+  While that part has a Gap, a critical strike there ignores the benefits of Armor
+  of Dawn and gains a damage...'
+```
+
+
+
 
 As a free action and at the expense of 3 spirituality points, you create a suit of silver-white armor covering your entire body (including gauntlets, breastplates, and crowned helmets, among other pieces). It has no obvious weight.
 
@@ -38,7 +93,42 @@ Different judgments are made according to the following conditions:
 
 - At [[Sequence 5]]: Armor of Dawn is changed to 7 points of armor, 5 points of external damage reduction, and the number of damages that have not broken through the defense is 3 times.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Gather Dawn
+
+```yaml ability
+id: war-god-seq-06-gather-dawn
+name: Gather Dawn
+pathway: war-god
+sequence: 6
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'You can gather (condense) different weapons. The strongest is a two-handed
+  giant sword. Use: 1 Swift Action Cost: 3 spiritual points Effect: Condense any one
+  of the weapons below. The weapon lasts for 8 rounds. Borrowing Protection: When
+  using these weapons to perform the special action of [[Borrowing Protection]], you
+  get the armor corresponding to the volume of the item. *Special: If the enemy is
+  no more than 1 Sequence higher than you, when the dawn weapon is about to be destroyed,
+  you can spend 1 spirituality to recast it immediately. Available weapons: Sword
+  of Dawn: The medium/large Sword of Dawn can cause damage of 1d8+Strength / 2d6+Strength
+  damage dice respectively.'
+```
+
+
+
 
 You can gather (condense) different weapons. The strongest is a two-handed giant sword.
 
@@ -73,7 +163,42 @@ Available weapons:
 - At [[Sequence 5]]: All your Dawn weapons add 1d2 to their base damage.
 - [[GM Adjudication]] With GM approval, you can create other reasonable Dawn weapons; all Dawn weapons deal holy damage.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Create Dawn
+
+```yaml ability
+id: war-god-seq-06-create-dawn
+name: Create Dawn
+pathway: war-god
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: 50m
+target: designated target(s)
+duration: Every 1 point of spirituality lasts for 1 minute.
+scaling: []
+tags:
+- ritual
+- mobility
+- debuff
+text: 'You fill the surroundings with bright, clean, and holy dawn, which can break
+  illusions, disperse the shadows of resentful souls, and weaken evil spirits. Use:
+  1 Casting Action Duration: Every 1 point of spirituality lasts for 1 minute. Area:
+  A dawn field within 50 meters of you as the center; it moves with you. Effects within
+  the morning sun: The brightness within the range is like dawn; there is no longer
+  shadow and darkness. Within the range, hallucinations from targets up to 1 Sequence
+  higher than you are automatically dispelled. Without Extraordinary characteristics,
+  ordinary wraith shadows are purified immediately. Extraordinary spirit creatures
+  with a certain strength start to suffe...'
+```
+
+
+
 
 You fill the surroundings with bright, clean, and holy dawn, which can break illusions, disperse the shadows of resentful souls, and weaken evil spirits.
 
@@ -88,7 +213,42 @@ Effects within the morning sun:
 3. Without Extraordinary characteristics, ordinary wraith shadows are purified immediately. Extraordinary spirit creatures with a certain strength start to suffer 1d6 sacred damage every round, and the skill and attribute evaluation continues to suffer -2 disadvantages.
 4. Creatures of fallen/darkness feel uncomfortable at most; this is a narrative effect only unless otherwise specified.
 
+- **Effect:** Create Dawn resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Storm of Light
+
+```yaml ability
+id: war-god-seq-06-storm-of-light
+name: Storm of Light
+pathway: war-god
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+text: 'You create a storm of light that sweeps the surroundings, which can directly
+  destroy the human body, eliminate resentful souls, and traumatize evil spirits.
+  Use: 1 Casting Action Cost: 3 points of spirituality Requirement: Must be cast with
+  a weapon. If it is a dawn weapon, the consumption of spirituality can be changed
+  to consume its duration of 2 rounds as an alternative. Choose one of the following:
+  Insert into the ground: You insert the weapon into the ground, making it bloom with
+  the color of the morning light, creating a 10-meter Storm of Light centered on you.
+  Resolution: Make a Mysticism check against each creatures Physical Defense (ignore
+  Agility (DEX) and Dodge bonuses). This a...'
+```
+
+
+
 
 You create a storm of light that sweeps the surroundings, which can directly destroy the human body, eliminate resentful souls, and traumatize evil spirits.
 
@@ -111,3 +271,6 @@ Choose one of the following:
 **Special:** Storm of Light increases 1d6 damage of divine restraint against spiritual enemies.
 
 - At [[Sequence 5]]: Storm of Light is changed to 3d6 holy and 1d6 fire damage, and does not cause damage to you.
+
+- **Effect:** Storm of Light resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

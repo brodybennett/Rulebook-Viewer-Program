@@ -1,10 +1,16 @@
 ---
-title: "Sequence 6: Notary"
-id: "sun-seq-06"
-tags: ["pathway:sun", "sequence:6"]
+title: 'Sequence 6: Notary'
+id: sun-seq-06
+tags:
+- pathway:sun
+- sequence:6
 ---
 
-# Sequence 6: Notary
+
+
+
+
+# Sun Pathway: Sequence 6
 
 ## Notary
 
@@ -27,6 +33,35 @@ Notaries specialize in **Notarization**—certifying the authenticity of [[Extra
 - **Law:** Included in the category of [[Rapid Improvement]] up to [[Mastery]].
 
 ### Notarization
+
+```yaml ability
+id: sun-seq-06-notarization
+name: Notarization
+pathway: sun
+sequence: 6
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+text: 'Notarize the authenticity of [[Extraordinary Knowledge]] or the casting of
+  an [[id:alias-extraordinary-ability|Extraordinary Ability]]. Cost: 4 [[Spirit Points]]
+  Use: 1 Swift Action. Choose one option below each time you use Notarization. ####
+  Valid Notarization (Effectiveness) You temporarily improve an extraordinary ability
+  you notarize as effective. Use requirement: Speak the keyword effective in the [[Language
+  of Mysticism]]. You may add your own prefix (example: God said, it is effective!).
+  Timing / limits: When you cast an [[id:alias-extraordinary-ability|Extraordinary
+  Ability]], you may use this immediately on that casting.'
+```
+
+
+
 
 “Notarize” the authenticity of [[Extraordinary Knowledge]] or the casting of an [[id:alias-extraordinary-ability|Extraordinary Ability]].
 
@@ -76,7 +111,40 @@ You notarize whether **1** piece of [[Extraordinary Knowledge]] is true.
      - Example: “You might be able to obtain a potion recipe somewhere” cannot be notarized.
      - If the source specifies which block, where in the house, and which paper contains an effective, authentic potion formula—and it truly exists—then it can be notarized.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Make a Contract
+
+```yaml ability
+id: sun-seq-06-make-a-contract
+name: Make a Contract
+pathway: sun
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Make a Contract. Once you sign and approve it, higher-Sequence powerhouses
+  must pay a price to violate it (RAW: Sequence 5 cannot violate it, and even a demigod
+  of Sequence 4 pays a big price). Interpretation: automatic forced compliance applies
+  to targets not higher than a Notary; higher-Sequence targets may still breach, but
+  pay the contract penalty/price. There are two forms: Written Contract: Use parchment
+  to write the behaviors both parties must perform (e.g., neither party harms the
+  other during a set time; both must help obtain something). Then both parties sign
+  the parchment. The signature may be a code name or pseudonym, but the name must
+  belong to the signer (including their own...'
+```
+
+
+
 
 Make a **Contract**. Once you sign and approve it, higher-Sequence powerhouses must pay a price to violate it (RAW: “Sequence 5 cannot violate it,” and even a “demigod of Sequence 4” pays a big price).  
 Interpretation: automatic forced compliance applies to targets **not higher than a Notary**; higher-Sequence targets may still breach, but pay the contract penalty/price.
@@ -100,3 +168,6 @@ There are two forms:
 3. Contracts with more than 2 persons generally have no reliable effect and are mostly formalism.
 
 **Default penalty (if no breach price is written):** The party who violates the terms immediately loses all [[Life Points]], falls into a [[Near-Death]], and this cannot be resisted by a [[Substitute]].
+
+- **Effect:** Make a Contract resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

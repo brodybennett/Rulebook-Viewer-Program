@@ -1,12 +1,18 @@
 ---
-title: "Sequence 5: Crimson Scholar"
-id: "moon-seq-05"
-tags: ["pathway:moon", "sequence:5"]
+title: 'Sequence 5: Scarlet Scholar'
+id: moon-seq-05
+tags:
+- pathway:moon
+- sequence:5
 ---
 
-# Viscount Bloodline Pathway: Sequence 5
 
-## Crimson Scholar
+
+
+
+# Moon Pathway: Sequence 5
+
+## Scarlet Scholar
 
 - See also: Viscount Bloodline Pathway
 
@@ -72,16 +78,104 @@ The strength of these abilities depends on your understanding and research of th
 
 ### Moon Knowledge (Skill)
 
+```yaml ability
+id: moon-seq-05-moon-knowledge-skill
+name: Moon Knowledge (Skill)
+pathway: moon
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'A special knowledge skill is trained: Moon Knowledge. [[Moon Knowledge]] This
+  skill belongs to the educational skill, is included in the rapid growth category
+  of Sequence 9, and can be quickly promoted to proficiency at most. Sequence 9 rapid
+  growth category'
+```
+
+
+
+
 A special knowledge skill is trained: **Moon Knowledge**. [[Moon Knowledge]]  
 This skill belongs to the educational skill, is included in the rapid growth category of Sequence 9, and can be quickly promoted to proficiency at most. Sequence 9 rapid growth category
 
+- **Effect:** Moon Knowledge (Skill) resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Sleep-Related Resistance
+
+```yaml ability
+id: moon-seq-05-sleep-related-resistance
+name: Sleep-Related Resistance
+pathway: moon
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- defense
+text: 'From now on, against attempts to force you with sleep-related abilities: If
+  no identification is required, the user must use Intuition (INT) to fight against
+  your Willpower Defense for the effect to take hold. Willpower Defense If identification
+  is required, your Countermeasure or Willpower Defense +4 is beneficial. [[Countermeasure]]'
+```
+
+
+
 
 From now on, against attempts to force you with sleep-related abilities:
 - If no identification is required, the user must use **Intuition (INT)** to fight against your **Willpower Defense** for the effect to take hold. Willpower Defense
 - If identification is required, your **Countermeasure** or **Willpower Defense** +4 is beneficial. [[Countermeasure]]
 
+- **Effect:** Sleep-Related Resistance resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Summon Full Moon
+
+```yaml ability
+id: moon-seq-05-summon-full-moon
+name: Summon Full Moon
+pathway: moon
+sequence: 5
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: Affecting an area within a few hundred meters.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Use: 1 Swift Action. Swift Action Cost: 3 points of spirituality. [[Spirituality]]
+  Targeting and range: Affecting an area within a few hundred meters. Effect: You
+  unleash a crimson moonglow (a afull moona effect), or cause the moon to disappear
+  into the sky. At this time, it is regarded as a full moon state. All creatures illuminated
+  by the moonlight, and all identifications related to Intuition (INT), gain +1. *Moon
+  Knowledge scaling For every aLunar lore levela you have (i.e., Moon Knowledge level),
+  all checks related to Intuition (INT) get an additional +1 on top of the base +1
+  from moonlight. Thus, while your Lunar lore is Trained, all friendly creatures gain
+  +2 to Intuition (INT)-rel...'
+```
+
+
+
 
 - **Use:** 1 **Swift Action**. Swift Action
 - **Cost:** 3 points of **spirituality**. [[Spirituality]]
@@ -105,7 +199,41 @@ From now on, against attempts to force you with sleep-related abilities:
 - **Sequence 2:** If you want, it can cover half a continent, can cover the natural sunlight and last for 12 hours of full moon radiance, suppress the sun path brilliance spell below sequence 2.
 - **Sequence 1:** The radiance of the full moon that can cover the entire continent and last for 24 hours, cannot suppress the sun path brilliance of Sequence 2.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Moonlight
+
+```yaml ability
+id: moon-seq-05-moonlight
+name: Moonlight
+pathway: moon
+sequence: 5
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- healing
+- offense
+text: 'Use: 1 Swift Action. Cost and duration: Every 3 points of spirituality lasts
+  for 1 round. Limits (requirement): You must be within the range of moonlight to
+  use it. Effect: You become a beam of moonlight. Your body is broken into crimson
+  moonlight fragments; you are regarded as being in a moonlight state and gain the
+  following benefits: Reorganization: Whenever your health value is reduced to 0,
+  if you are in the moonlight you recover 2d6 life and transform into the moonlight
+  form, provided that: you have not been hit by the heart, attackers are at disadvantage
+  to hit the heart, or you are hit by heart to die.'
+```
+
+
+
 
 - **Use:** 1 **Swift Action**.
 - **Cost and duration:** Every 3 points of **spirituality** lasts for 1 round.
@@ -145,7 +273,43 @@ From now on, against attempts to force you with sleep-related abilities:
 - You will be targeted by single-target attacks due to your limited range of movement or being too visible as a lone moonlight, provided the enemy is aware of your presence.
 - In this case, summoning 1 full moon will usually solve the problem in this regard.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Lunar Blink
+
+```yaml ability
+id: moon-seq-05-lunar-blink
+name: Lunar Blink
+pathway: moon
+sequence: 5
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+- mobility
+- buff
+- offense
+text: 'Use: 1 Swift Action; 1 time per round. Cost: 3 points of spirituality. Effect:
+  You are broken into crimson moonlight fragments. Choose a distance not exceeding
+  your movement power, flash to the corresponding position, and reorganize into a
+  human form at the corresponding position. [[Movement Power]] Reactive use: If you
+  use this ability when you are about to be attacked, you can jump like a flame, directly
+  avoiding the attack on your current position. You cannot avoid light/lightning with
+  this; you must flash out of the range for ranged attacks. Moon Knowledge scaling:
+  Every time you increase the level of Moon Knowledge, your flashable distance increases:
+  Trained = your mobility Proficien...'
+```
+
+
+
 
 - **Use:** 1 **Swift Action**; 1 time per round.
 - **Cost:** 3 points of **spirituality**.
@@ -166,7 +330,42 @@ From now on, against attempts to force you with sleep-related abilities:
 - Every upgrade of 1 character: the mobile power multiplier of the teleportation flash of each moon knowledge level +2.
 - These multipliers stack on top of the Trained/Proficient/Advanced mobility scheme.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Potion Effect Enhancement
+
+```yaml ability
+id: moon-seq-05-potion-effect-enhancement
+name: Potion Effect Enhancement
+pathway: moon
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+- defense
+- offense
+text: 'This is an ability enhancement brought by the sequence; it is not regarded
+  as a separate extraordinary ability, but is listed specifically. From now on, every
+  time you make a magic potion, choose one of the following benefits to upgrade to
+  the potion: Attribute/Armor/Reduction Improving Potion: Benefits from attribute
+  enhancement +1. Harmful potions: Increase damage by 1d6. If the potion of destruction
+  is a mixed effect of multiple types of damage, all types of damage will increase
+  by 1d6, but the intensity must be agreed by your GM. [[Potion of destruction]] Special
+  effect potions: For example, invisibility/odorless potions can gain additional bonuses;
+  the favorable tendency should be re...'
+```
+
+
+
 
 This is an ability enhancement brought by the sequence; it is not regarded as a separate extraordinary ability, but is listed specifically.
 
@@ -176,3 +375,6 @@ From now on, every time you make a magic potion, choose one of the following ben
 3. **Special effect potions:** For example, invisibility/odorless potions can gain additional bonuses; the favorable tendency should be related to the effects of the potions. For example, invisibility may be confronted by detection, so it can make stealth identification extra +2 beneficial. [[Stealth identification]]
 4. **Potions with negative effects:** Potions with negative effects (e.g., fire dragon breathing cannot speak). You can clear this less serious effect. Other effects (such as use time limit): you can consider halving the value and rounding up. [[Fire dragon breathing]]
 5. **Other benefits:** Your **GM** must agree to the final effect of your medicine.
+
+- **Effect:** Potion Effect Enhancement resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

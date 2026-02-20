@@ -1,12 +1,18 @@
 ---
-title: "Sequence 5: Witch of Sickness"
-id: "demoness-seq-05"
-tags: ["pathway:Demoness", "sequence:5"]
+title: 'Sequence 5: Afflictions'
+id: demoness-seq-05
+tags:
+- pathway:demoness
+- sequence:5
 ---
 
-# Witch Pathway: Sequence 5
 
-## Witch of Sickness
+
+
+
+# Demoness Pathway: Sequence 5
+
+## Afflictions
 
 > **Lore:** Also known as “Ms. Disease,” she excels at creating disease, destroying beauty, and reaping pain.
 
@@ -44,6 +50,36 @@ tags: ["pathway:Demoness", "sequence:5"]
   - [[Pleasing]] can be promoted to [[Master]]
 
 ### Plague Aura
+
+```yaml ability
+id: demoness-seq-05-plague-aura
+name: Plague Aura
+pathway: demoness
+sequence: 5
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: 50m
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Cost: 1 Swift Action to turn it on or off. Use: After it is turned on: you
+  can specify which part of the area within the range will start to have the disease
+  you can specify the direction in which the disease spreads things such as wind and
+  insects can carry the disease to farther places Targeting and range: Flesh creatures
+  within 50 meters of you will begin to be infected with disease. Warning: The plague
+  itself does not depend on your will. You can only decide the direction of the plague.
+  Therefore, all creatures within 5 meters of the area you designate will be regarded
+  as the target of the plague. There is no distinction between the enemy and the enemy
+  except you. You can keep a dista...'
+```
+
+
+
 
 - **Cost:** 1 **Swift Action** to turn it on or off.
 - **Use:** After it is turned on:
@@ -106,7 +142,41 @@ tags: ["pathway:Demoness", "sequence:5"]
   - If you take good protection, it will only have a Difficulty Value of 5.
   - Unless you fail, you will usually not be infected.
 
+- **Effect:** Plague Aura resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Frost Control
+
+```yaml ability
+id: demoness-seq-05-frost-control
+name: Frost Control
+pathway: demoness
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- stealth
+- control
+- defense
+text: 'Cost: consumes 4 [[Spirituality]]. Use: 1 Casting Action; emits an invisible
+  scream; a blue illusory aura gushes out from your body. Effect: wherever it goes,
+  frost condenses the world will not only condense ice, but also cover a layer of
+  soft white snow, causing the air to float beautiful dreamy snowflakes after the
+  spell is cast, an area up to 50 meters away is considered cold #### Cold environment
+  Cold environment: All creatures that do not have [[Cold Resistance]] have:'
+```
+
+
+
 
 - **Cost:** consumes 4 [[Spirituality]].
 - **Use:** 1 **Casting Action**; emits an invisible scream; a blue illusory aura gushes out from your body.
@@ -127,3 +197,5 @@ tags: ["pathway:Demoness", "sequence:5"]
   - The effect of the cold environment can be superimposed with the effect of the [[Ice Gun]].
   - It cannot be superimposed with other cold environments.
   - The cold environment will be covered by a stronger cold environment.
+
+- **Limits:** As described in this section's prose.

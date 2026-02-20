@@ -1,16 +1,38 @@
 ---
-title: "Sequence 7: Weapon Master"
-id: "war-god-seq-07"
-tags: ["pathway:war-god", "sequence:7"]
+title: 'Sequence 7: Weapon Master'
+id: war-god-seq-07
+tags:
+- pathway:war-god
+- sequence:7
 ---
 
-# Sequence 7: Weapon Master
+
+
+
+
+# Twilight Giant Pathway: Sequence 7
 
 You are able to wield weapons at a master level, including extraordinary weapons, magical items, and seals in the form of swords, guns, and similar objects.
 
 You can effectively reduce the damage caused by negative status effects.
 
 > **Lore:** Your strength, physique, and agility reach a level where weapon mastery feels instinctive.
+
+## Weapon Master
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -22,6 +44,36 @@ You can effectively reduce the damage caused by negative status effects.
 - Your weapon-related skills and throwing skills are immediately promoted to Mastery.
 
 ### Weapon Use
+
+```yaml ability
+id: war-god-seq-07-weapon-use
+name: Weapon Use
+pathway: war-god
+sequence: 7
+type: active
+action: attack
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: All targets within the stated distance in front of you (see above).
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- mobility
+- defense
+- offense
+text: 'You gain a series of weapon-specific special moves: Sweep: You sweep all targets
+  in an area. Use: 1 Attack Action Effect: Your melee attack can select all targets
+  within 1 meter in front of you (large knife: 2 meters). Resolution: Use 1 corresponding
+  skill identification to attack the [[Physical Defense]] of all targets at the same
+  time. Targeting and range: All targets within the stated distance in front of you
+  (see above). Vertical Slash: You aim at a target with the weapon from top to bottom,
+  chopping at the target as if cutting off a building. Use: Attack Action'
+```
+
+
+
 
 You gain a series of weapon-specific **special moves**:
 
@@ -56,7 +108,37 @@ You gain a series of weapon-specific **special moves**:
 
 > **GM Note:** Other GMs allow reasonable special moves.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Weapon Mastery
+
+```yaml ability
+id: war-god-seq-07-weapon-mastery
+name: Weapon Mastery
+pathway: war-god
+sequence: 7
+type: passive
+action: none
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'As long as it is a weapon, you can use it at a Master Level if you hold it
+  in your hand. 1) Master Level: When using a weapon, no matter whether your corresponding
+  skill meets the requirements or not, the skill is considered a master. 2) Extraordinary
+  Weakness: The negative effects of weapon extraordinary items are halved for you,
+  rounded down. This is a passive, but as an extraordinary ability may be lost, you
+  still need to upgrade the real skill to Master.'
+```
+
+
+
 
 As long as it is a weapon, you can use it at a **Master Level** if you hold it in your hand.
 
@@ -64,3 +146,6 @@ As long as it is a weapon, you can use it at a **Master Level** if you hold it i
 2) **Extraordinary Weakness:** The negative effects of weapon extraordinary items are halved for you, rounded down.
 
 - This is a passive, but as an extraordinary ability may be lost, you still need to upgrade the real skill to Master.
+
+- **Effect:** Weapon Mastery resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

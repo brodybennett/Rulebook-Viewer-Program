@@ -1,12 +1,18 @@
 ---
-title: "Sequence 8: Sheriff"
-id: "arbiter-seq-08"
-tags: ["pathway:arbiter", "sequence:8"]
+title: 'Sequence 8: Sheriff'
+id: arbiter-seq-08
+tags:
+- pathway:arbiter
+- sequence:8
 ---
 
-# Sequence 8: Sheriff
 
-## Overview
+
+
+
+# Justiciar Pathway: Sequence 8
+
+## Sheriff
 
 - If you have seen a real person, a photo, or a sketch, you can firmly remember the target’s appearance and gain extra induction on the extraordinary level.
 - You can detect abnormal factors and grasp traces that are not obvious.
@@ -32,6 +38,38 @@ tags: ["pathway:arbiter", "sequence:8"]
 
 ### Extraordinary Reconnaissance
 
+```yaml ability
+id: arbiter-seq-08-extraordinary-reconnaissance
+name: Extraordinary Reconnaissance
+pathway: arbiter
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- detection
+- stealth
+- mobility
+text: You gain extra senses at the extraordinary level. You can remember a targets
+  appearance and detect abnormal factors. Occult Memory You acquire a photographic
+  memory of portraits, real images, routes traveled, event clues, habits, and image
+  features. You can recall these things at any time, and you can see through the camouflage
+  of living/dead things, but you cant see through the camouflage that completely hides
+  habits, smells, and characteristics (such as [[Faceless People]]). You can remember
+  them by painting and other methods without identification. The content is reproduced.
+  You can recognize each other based on their characteristics just by passing by,
+  and you can also recognize them...
+```
+
+
+
+
 You gain extra senses at the extraordinary level. You can remember a target’s appearance and detect abnormal factors.
 
 - **Occult Memory**
@@ -51,6 +89,10 @@ You gain extra senses at the extraordinary level. You can remember a target’s 
 - **Special**
   - Only (4) applies for the perception of evil and heterogeneous things. If the corresponding thing is shielded by an [[id:alias-anti-divination|Anti-Divination]]/[[Spiritual Wall]], it will not be perceived, and the spiritual wall cannot be used to continuously envelop the entire body.
   - This is a [[Potion Effect]]; it cannot be stolen or recorded, and the detection of extraordinary powers with **Status/Rank higher than 1** may cause [[Spiritual Alarms]].
+
+- **Effect:** Extraordinary Reconnaissance resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
 
 ## Jurisdiction
 

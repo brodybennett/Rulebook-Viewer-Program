@@ -1,10 +1,18 @@
 ---
-title: "Sequence 3: Seaking"
-id: "tyrant-seq-03"
-tags: ["pathway:tyrant", "sequence:3"]
+title: 'Sequence 3: Sea King'
+id: tyrant-seq-03
+tags:
+- pathway:tyrant
+- sequence:3
 ---
 
-# Sequence 3: Seaking
+
+
+
+
+# Tyrant Pathway: Sequence 3
+
+## Sea King
 
 ## Advancement
 
@@ -26,6 +34,31 @@ tags: ["pathway:tyrant", "sequence:3"]
 
 ### Dominate Sea Creatures
 
+```yaml ability
+id: tyrant-seq-03-dominate-sea-creatures
+name: Dominate Sea Creatures
+pathway: tyrant
+sequence: 3
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- control
+- offense
+text: 'Use: Swift Action Effect: You enslave and control sea creatures. You summon
+  and control 2d6 sea creatures. Statistics of Summoned Sea Creatures: To hit: +8
+  Hit Points: 30 Damage: 2d6 (melee) Attacks: 2 attacks per turn'
+```
+
+
+
+
 - **Use:** Swift Action  
 - **Effect:**  
   You enslave and control sea creatures. You summon and control **2d6 sea creatures**.
@@ -41,10 +74,62 @@ tags: ["pathway:tyrant", "sequence:3"]
 
 ### Lightning Immunity
 
+```yaml ability
+id: tyrant-seq-03-lightning-immunity
+name: Lightning Immunity
+pathway: tyrant
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- offense
+text: 'Effect: You are immune to lightning damage. [[Damage Types]]'
+```
+
+
+
+
 - **Effect:** You are immune to lightning damage.  
   [[Damage Types]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### Lightning Storm
+
+```yaml ability
+id: tyrant-seq-03-lightning-storm
+name: Lightning Storm
+pathway: tyrant
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'Cost: 6 [[Spirituality]] Use: Casting Action Effect: You create a storm of
+  lightning over an area: Damage: 3d10 + your Strength damage bonus as area lightning
+  damage. Attack Roll: +20 [[Disaster Attack Roll]] vs targets [[Physical Defense]]
+  This attack ignores Agility (DEX) and evasion. [[Evasion]]'
+```
+
+
+
 
 - **Cost:** 6 [[Spirituality]]  
 - **Use:** Casting Action  
@@ -99,7 +184,36 @@ tags: ["pathway:tyrant", "sequence:3"]
   - If the target is in a wet state, the Difficulty increases to 20.  
     [[Wet State]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### Ocean Perception
+
+```yaml ability
+id: tyrant-seq-03-ocean-perception
+name: Ocean Perception
+pathway: tyrant
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- divination
+- detection
+text: 'Effect: While in contact with sea water, you can: Perceive events occurring
+  on the waters connected to you. Observe any location on the sea. Use your extraordinary
+  abilities anywhere on the sea. Limits: This perception can be affected by anti-divination.
+  [[id:alias-anti-divination|Anti-Divination]]'
+```
+
+
+
 
 - **Effect:**  
   While in contact with sea water, you can:

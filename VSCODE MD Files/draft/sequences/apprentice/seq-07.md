@@ -1,12 +1,20 @@
 ---
-title: "Sequence 7: Astrologer"
-id: "apprentice-seq-07"
-tags: ["pathway:apprentice", "sequence:7"]
+title: 'Sequence 7: Astrologer'
+id: apprentice-seq-07
+tags:
+- pathway:apprentice
+- sequence:7
 ---
 
-# Sequence 7: Astrologer
+
+
+
+
+# Door Pathway: Sequence 7
 
 > **Lore:** Astrologers are defined by strong spiritual intuition, divination interference, and **Astrology**.
+
+## Astrologer
 
 ## Advancement
 
@@ -23,6 +31,35 @@ tags: ["pathway:apprentice", "sequence:7"]
 
 ### Astrology Study and Advancement
 
+```yaml ability
+id: apprentice-seq-07-astrology-study-and-advancement
+name: Astrology Study and Advancement
+pathway: apprentice
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+text: When you receive guidance on astrology-related knowledge that is non-repetitive,
+  effective, and true, and the course lasts at least 2 hours, your Astrology increases
+  by 1 level. This increase cannot exceed the skill level of your instructor or books.
+  You can only learn once per day to digest knowledge. From proficiency to advanced
+  level, and from advanced level to mastery, you need to learn 2 and 3 times respectively.
+  To further improve the skill, you must obtain a book or Extraordinary guidance where
+  the skill itself has reached a higher level. It takes 4 and 5 times to reach erudition
+  and master respectively.
+```
+
+
+
+
 - When you receive guidance on astrology-related knowledge that is **non-repetitive**, **effective**, and **true**, and the course lasts **at least 2 hours**, your **Astrology** increases by **1 level**.
   - This increase **cannot exceed** the skill level of your instructor or books.
 - You can only learn **once per day** to digest knowledge.
@@ -30,7 +67,42 @@ tags: ["pathway:apprentice", "sequence:7"]
 - To further improve the skill, you must obtain a book or Extraordinary guidance where the skill itself has reached a higher level.
   - It takes **4** and **5** times to reach **erudition** and **master** respectively.
 
+- **Effect:** Astrology Study and Advancement resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Astrology
+
+```yaml ability
+id: apprentice-seq-07-astrology
+name: Astrology
+pathway: apprentice
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- divination
+text: 'You use Astrology for [[id:alias-divination|divination]] or to interfere with
+  divination and [[spiritual intuition]]. Use: 1 Casting Action Cost: 2 points of
+  [[Spirituality]] This ability can be used in the following ways: Horoscope / Appraisal
+  You ask your own spirituality to perform a horoscope, conduct an Intuition Appraisal,
+  and get feedback based on the results. Special (advanced crystal ball): If you use
+  an [[advanced crystal ball]], the skill identification of Astrology changes from
+  Intuition (INT) to Intuition (INT) + Astrology identification. (The reputation costs
+  listed - purchase consumes 3 levels, proficiency consumes 1 level, and knowledge
+  consumes none - apply only when lear...'
+```
+
+
+
 
 You use **Astrology** for [[id:alias-divination|divination]] or to interfere with divination and [[spiritual intuition]].
 
@@ -91,7 +163,43 @@ This ability can be used in the following ways:
 
    - **On success:** This information is excluded in related divination, spiritual intuition, and prophecy, unless it exceeds the corresponding Difficulty Value.
 
+- **Effect:** Astrology resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Premonition of Danger
+
+```yaml ability
+id: apprentice-seq-07-premonition-of-danger
+name: Premonition of Danger
+pathway: apprentice
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- divination
+- healing
+- offense
+text: 'Also known as intuitive premonition: you can predict the actions of others
+  at critical moments and perceive danger. Trigger: Whenever you are raided, sneak
+  attacked, or there is something on the scene that is about to put the raid or sneak
+  attack into action. Additional trigger: If 1 damage exceeds half of your maximum
+  health (rounded up), this ability can also be triggered. When triggered: Perform
+  a Difficulty Value 15 Intuition (INT) appraisal. On success: An idea flashes in
+  your mind immediately, telling you the dangerous form. After you succeed, you will
+  not be able to be raided or ambushed. Threats that you mistakenly think are safe
+  will not trigger the ability.'
+```
+
+
+
 
 Also known as intuitive premonition: you can predict the actions of others at critical moments and perceive danger.
 
@@ -118,3 +226,6 @@ When triggered:
   - The flashing thought changes to flashing the picture, so as to know the manifestation of danger.
 - **Sequence 5:**
   - You can perceive danger higher than **1 personality** (alignment/temperament compatibility).
+
+- **Effect:** Premonition of Danger resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

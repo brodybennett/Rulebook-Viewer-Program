@@ -1,10 +1,16 @@
 ---
-title: "Sequence 3: Horror Bishop"
-id: "night-seq-03"
-tags: ["pathway:night", "sequence:3"]
+title: 'Sequence 3: Horror Bishop'
+id: night-seq-03
+tags:
+- pathway:night
+- sequence:3
 ---
 
-# Sequence 3: Horror Bishop
+
+
+
+
+# Darkness Pathway: Sequence 3
 
 ## Horror Bishop
 
@@ -25,6 +31,34 @@ tags: ["pathway:night", "sequence:3"]
   [[Mysticism]]
 
 ### Control of Darkness
+
+```yaml ability
+id: night-seq-03-control-of-darkness
+name: Control of Darkness
+pathway: night
+sequence: 3
+type: active
+action: attack
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- control
+- offense
+text: 'Cost: An Attack Action consumes 4 points of Spirituality. [[Spirituality]]
+  Use: Attack Action. Requirement: Must be used in a dark place. You may also create
+  darkness; doing so costs 12 points of Spirituality to use. [[Darkness]] Targeting
+  and direction: Affects targets in the same direction. Affects at most three targets
+  in that direction. The number of targets below Demigods is unlimited.'
+```
+
+
+
 
 - **Cost:** An Attack Action consumes 4 points of **Spirituality**.  
   [[Spirituality]]
@@ -62,3 +96,5 @@ tags: ["pathway:night", "sequence:3"]
   [[Spirit body]]
 - **Sequence 1 upgrade:** You receive an additional Strength damage die for this ability.  
   [[id:alias-sequence-1|Sequence 1]]
+
+- **Limits:** As described in this section's prose.

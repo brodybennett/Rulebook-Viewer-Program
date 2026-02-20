@@ -1,12 +1,18 @@
 ---
-title: "Sequence 5: Apostle of Desire"
-id: "abyss-seq-05"
-tags: ["pathway:abyss", "sequence:5"]
+title: 'Sequence 5: Desire Apostle'
+id: abyss-seq-05
+tags:
+- pathway:abyss
+- sequence:5
 ---
+
+
+
+
 
 # Abyss Pathway: Sequence 5
 
-## Apostle of Desire
+## Desire Apostle
 
 Capable of exploiting and manipulating emotions and desires, inducing corruption. If an enemy has overly intense mood swings or obvious desires, you can remotely control them, plant seeds, or directly catalyze those emotions—exposing problems, causing gradual degeneration, or triggering emotional loss of control at critical moments.
 
@@ -38,6 +44,36 @@ You can also forcibly impact an enemy’s spirit to make them inevitably feel ce
 - **Attribute Gain:** strength **+1**, agility **+1**, constitution **+2**, inspiration **+2**.
 
 ### Control Desires
+
+```yaml ability
+id: abyss-seq-05-control-desires
+name: Control Desires
+pathway: abyss
+sequence: 5
+type: active
+action: move
+cost:
+  spirituality: 4
+roll: null
+opposed_by: none
+range: Choose 1 target in your field of vision who is already in an emotional state.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- mobility
+- control
+text: 'You exploit and manipulate emotions and desires, inducing corruption. ####
+  Catalyze Emotions Cost: 2 spirituality points. [[Spirituality]] Use: 1 Casting Action.
+  Targeting and range: Choose 1 target in your field of vision who is already in an
+  emotional state. Limits: Disguised emotion cannot be catalyzed. Uncatalyzed emotions
+  can be calmed after 1 round by meditating as a casting/Move Action.'
+```
+
+
+
 
 You exploit and manipulate emotions and desires, inducing corruption.
 
@@ -218,6 +254,37 @@ You exploit and manipulate emotions and desires, inducing corruption.
 
 ### Sense of Depravity
 
+```yaml ability
+id: abyss-seq-05-sense-of-depravity
+name: Sense of Depravity
+pathway: abyss
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- detection
+- control
+- debuff
+text: 'You perceive a desire to approach depravity in those around you. Special: This
+  is a bonus effect brought by the potion; it cannot be recorded or stolen. Benefits:
+  When holding the perception of corruption, you can perceive emotional states within
+  a radius of 100 meters, tell what kind of person it probably comes from, and how
+  strong the emotion is. This can be a perceived emotion as a state of fascination,
+  fear, etc., or simply uneasiness that has not yet had an actual effect. As long
+  as the emotion is perceived by you, even if the target is not within your field
+  of vision, you can remotely: use your desire to control it, catalyze the emotion,'
+```
+
+
+
+
 You perceive a desire to approach depravity in those around you.
 
 - **Special:** This is a bonus effect brought by the potion; it cannot be recorded or stolen.
@@ -231,7 +298,42 @@ You perceive a desire to approach depravity in those around you.
     - plant the seed.
   - If multiple creatures within your perception range are caught in the same common emotional state, your desire control can affect all of them at once—catalyzing or detonating their common emotions together, including fallen seeds of the same emotions.
 
+- **Effect:** Sense of Depravity resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Incarnation of Desire
+
+```yaml ability
+id: abyss-seq-05-incarnation-of-desire
+name: Incarnation of Desire
+pathway: abyss
+sequence: 5
+type: active
+action: swift
+cost:
+  spirituality: 4
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+- stealth
+- mobility
+- control
+text: 'You transform your body into an illusory, viscous black liquid of various emotions
+  and desires. Cost: 2 spirituality points. Use: As a Swift Action, once per round.
+  Effect: You collapse into a viscous black liquid whose shape you control. Benefits:
+  Your movement remains the same, but you are treated as a fluid. You gain a +8 bonus
+  on Stealth checks; you can seep through floors, into walls, into tiny crevices,
+  and even flow down ceilings. Limits:'
+```
+
+
+
 
 You transform your body into an illusory, viscous black liquid of various emotions and desires.
 

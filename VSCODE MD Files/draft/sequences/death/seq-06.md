@@ -1,12 +1,34 @@
 ---
-title: "Sequence 6: Spirit Guide"
-id: "death-seq-06"
-tags: ["pathway:death", "sequence:6"]
+title: 'Sequence 6: Gatekeeper'
+id: death-seq-06
+tags:
+- pathway:death
+- sequence:6
 ---
 
-# Sequence 6: Spirit Guide
+
+
+
+
+# Death Pathway: Sequence 6
 
 > **Lore:** Start to set foot in the Spirit World, recruit messengers by yourself, and get help from some Spirit World creatures.
+
+## Gatekeeper
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -17,9 +39,63 @@ tags: ["pathway:death", "sequence:6"]
 
 ### Words of the Dead
 
+```yaml ability
+id: death-seq-06-words-of-the-dead
+name: Words of the Dead
+pathway: death
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: can bypass the protection of flesh and blood, elevating communication
+  with a spirit body to drive or even enslave. [[Words of the Dead]]'
+```
+
+
+
+
 - **Effect:** can bypass the protection of flesh and blood, elevating communication with a spirit body to drive or even enslave. [[Words of the Dead]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### Drive the Dead
+
+```yaml ability
+id: death-seq-06-drive-the-dead
+name: Drive the Dead
+pathway: death
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: the number and quality of natural spirits, undead creatures, and Spirit
+  World creatures you can drive have exploded. Capacity: from now on, the number of
+  dead you can drive is no longer equal to your inspiration; instead, it equals your
+  Spirit Body Strength. Spirit Body Strength: your (inspiration + will + half constitution,
+  rounded up) multiplied by twice. This calculation represents the strength of your
+  spirit body. [[Spirit Body Strength]] Sequence 5: replace the 2 multiplier with
+  3.'
+```
+
+
+
 
 - **Effect:** the number and quality of natural spirits, undead creatures, and Spirit World creatures you can drive have exploded.
 - **Capacity:** from now on, the number of dead you can drive is no longer equal to your inspiration; instead, it equals your **Spirit Body Strength**.
@@ -27,7 +103,41 @@ tags: ["pathway:death", "sequence:6"]
   - This calculation represents the strength of your spirit body. [[Spirit Body Strength]]
 - **Sequence 5:** replace the **×2** multiplier with **×3**.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Language of the Dead
+
+```yaml ability
+id: death-seq-06-language-of-the-dead
+name: Language of the Dead
+pathway: death
+sequence: 6
+type: active
+action: swift
+cost:
+  spirituality: 2
+roll: null
+opposed_by: none
+range: 1 target within 50 meters.
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+text: 'Cost: 1 Swift Action; consuming 1 spirituality point per round. [[Spirituality]]
+  Use: at the beginning of each round, make 1 Knowledge of the Dead identification/check.
+  Targeting and range: 1 target within 50 meters. Effect: you chant awkward, jerky,
+  and piercing words the living can never understand, bypassing the physical body
+  and affecting the spiritual body. While you continue chanting, communication with
+  the spirit body is upgraded to drive, even slavery. You choose one of the following
+  effects to use: Living creature (spirit-body separation) Check Knowledge of the
+  Dead against the targets spirit body strength (inspiration + will + half constitution,
+  rounded up, then 2). If you succe...'
+```
+
+
+
 
 - **Cost:** 1 Swift Action; consuming 1 spirituality point per round. [[Spirituality]]
 - **Use:** at the beginning of each round, make 1 **Knowledge of the Dead** identification/check.
@@ -66,7 +176,40 @@ tags: ["pathway:death", "sequence:6"]
 - For a spirit body that has separated from its own body: if it is separated from its body for 72 hours and cannot return, its body is considered dead and the spirit body dissipates.
      - The **Words of the Dead** only have the effect of coercive action on natural spirits; because the natural spirits are not dead in essence, and cannot be compelled to enslave.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Entering the Spirit World
+
+```yaml ability
+id: death-seq-06-entering-the-spirit-world
+name: Entering the Spirit World
+pathway: death
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- mobility
+text: 'Use: you can enter the Spirit World at the beginning of your turn. Effect:
+  in about 5 minutes, you find the entrance of the Spirit World and thus enter the
+  Spirit World. Benefits: you can directly communicate with spirit bodies and recruit
+  messengers; you may also get help from some Spirit World creatures. Limits: you
+  will also get lost in the Spirit World, so you should refrain from exploring or
+  ask spirit bodies for directions, and cant travel through the Spirit World. Reference:
+  for details about the Spirit World, see [[Chapter Twelve: Special Regions]]. You
+  can start to find your own affiliation in the Spirit World. [[Spirit World Affiliation]]
+  Sequence 5: with the help of the percept...'
+```
+
+
+
 
 - **Use:** you can enter the Spirit World at the beginning of your turn.
 - **Effect:** in about 5 minutes, you find the entrance of the Spirit World and thus enter the Spirit World.
@@ -77,6 +220,36 @@ tags: ["pathway:death", "sequence:6"]
 
 ### Signing the Necromancer Contract
 
+```yaml ability
+id: death-seq-06-signing-the-necromancer-contract
+name: Signing the Necromancer Contract
+pathway: death
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Process: Prepare a piece of parchment, write down the terms to be observed
+  with the other party, and finally press your hand on the parchment to establish
+  a contractual relationship. The rest of the contract process is the same as that
+  in [[Chapter Twelve: Special Regions]]. Before Sequence 6, you do not have the ability
+  to sign a necromancer contract, and the necromancer contract can also be used in
+  other fields. [[Necromancer Contract]] The contract can also be established orally,
+  without parchment; the corresponding content can be chanted directly in ancient
+  Hessian. [[Ancient Hessian]] In this regard, you can directly refer to the notarys
+  rules for drafting the contract in Sequence 6...'
+```
+
+
+
+
 - **Process:**
   1. Prepare a piece of parchment, write down the terms to be observed with the other party, and finally press your hand on the parchment to establish a contractual relationship.
   2. The rest of the contract process is the same as that in [[Chapter Twelve: Special Regions]]. Before Sequence 6, you do not have the ability to sign a necromancer contract, and the necromancer contract can also be used in other fields. [[Necromancer Contract]]
@@ -84,7 +257,41 @@ tags: ["pathway:death", "sequence:6"]
      - In this regard, you can directly refer to the notary’s rules for drafting the contract in Sequence 6 of the Sun Path. [[Notary Rules]] [[Sun]]
 - **Special:** this is a benefit from the potion and cannot be stolen or recorded.
 
+- **Effect:** Signing the Necromancer Contract resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Raise Undead
+
+```yaml ability
+id: death-seq-06-raise-undead
+name: Raise Undead
+pathway: death
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Cost: 1 Casting Action; consuming 2 spiritual points. [[Spirituality]] Targeting:
+  choose 1 unrequited corpse. [[Unrequited Corpse]] Effect: make it resurrect as your
+  dead. Choose one of the following outcomes: Corpse that has been dead for less than
+  one month: wake up as a living corpse; the body decay stops, but the existing decay
+  remains. [[Living Corpse]] Corpses that died in water within one month: wake up
+  as water ghosts, and the rest are equivalent to living corpses. [[Water Ghost]]
+  Corpse that has been dead for more than 1 month: wake up as a skeleton. [[Skeleton]]
+  Other possible resurrections, shadows or resentful souls, are generally born naturally
+  and cannot be aroused actively....'
+```
+
+
+
 
 - **Cost:** 1 Casting Action; consuming 2 spiritual points. [[Spirituality]]
 - **Targeting:** choose 1 unrequited corpse. [[Unrequited Corpse]]
@@ -97,3 +304,5 @@ tags: ["pathway:death", "sequence:6"]
 - **Special:** you should not wake up a living corpse that has been dead for too long. The standard is more than 1 week.
   - The living corpse awakened in this way generally has many places of decay. Any investigation and appraisal against it will be found if it passes a Difficulty Value 15. fester
   - (Decomposition within 1 week can be covered with clothing.)
+
+- **Limits:** As described in this section's prose.

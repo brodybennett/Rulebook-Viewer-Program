@@ -1,12 +1,18 @@
 ---
-title: "Sequence 2: Master of Miracles"
-id: "fool-seq-02"
-tags: ["pathway:fool", "sequence:2"]
+title: 'Sequence 2: Miracle Invoker'
+id: fool-seq-02
+tags:
+- pathway:fool
+- sequence:2
 ---
 
-# Sequence 2: Master of Miracles
 
-## Master of Miracles
+
+
+
+# Fool Pathway: Sequence 2
+
+## Miracle Invoker
 
 A **Master of Miracles** can:
 
@@ -50,6 +56,34 @@ Only by satisfying other people’s wishes can one’s own wishes be satisfied; 
 - One skill is upgraded by one level, excluding miracle skills.
 
 ### Wish
+
+```yaml ability
+id: fool-seq-02-wish
+name: Wish
+pathway: fool
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: 4 rounds.
+scaling: []
+tags:
+- utility
+text: 'Effect: Your skill or attribute checks can now be converted to Miracle. ####
+  Miracle skills from transformed skill checks After just being promoted: These new
+  skills transformed into Miracle are independent of the original skills. They do
+  not enjoy the skill level of the original skills and do not affect your original
+  skills. They are all considered untrained. When filling in custom skills, they can
+  be written as Miracle (Medicine) (and similar text). #### Miracle skills from transformed
+  attribute checks'
+```
+
+
+
 
 - **Effect:** Your skill or attribute checks can now be converted to **Miracle**.
 
@@ -116,7 +150,38 @@ Examples of successful Miracle checks:
 
 > **Lore:** You need to accumulate small wishes in order to create big miracles. The RAW gives examples such as restoring a whole city to its original state, or affecting the people in a whole city to achieve “miracles,” after accumulating enough.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Resurrection
+
+```yaml ability
+id: fool-seq-02-resurrection
+name: Resurrection
+pathway: fool
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Trigger: Whenever you die. Effect: You are immediately resurrected at the location
+  you choose. Uses: Generally, a new Master of Miracles has 4 resurrection chances.
+  Reset: After being promoted to Sequence 1, these 4 resurrection chances will be
+  reset. #### If the four chances are exhausted You can still be resurrected, but
+  the next resurrection needs preparation in advance: Prepare a copy of your own Sequence
+  2 Extraordinary Characteristics in advance. Place it at the position that needs
+  to be resurrected.'
+```
+
+
+
 
 - **Trigger:** Whenever you die.
 - **Effect:** You are immediately resurrected at the location you choose.
@@ -145,7 +210,34 @@ To make a resurrection point, you need to leave the following at the location to
 
 If resurrected, they will instantly expand and reconstitute your body from nothing.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Influence the Future
+
+```yaml ability
+id: fool-seq-02-influence-the-future
+name: Influence the Future
+pathway: fool
+sequence: 2
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Cost: 5 points of spirituality Use: A Swift Action Effect: A target you designate
+  will get a +5 bonus on the result of a certain judgment you designate. Limits: This
+  bonus cannot be superimposed.'
+```
+
+
+
 
 - **Cost:** 5 points of spirituality
 - **Use:** A **Swift Action**

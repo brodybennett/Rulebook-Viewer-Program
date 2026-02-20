@@ -1,12 +1,20 @@
 ---
-title: "Sequence 5: Druid"
-id: "earth-seq-05"
-tags: ["pathway:earth", "sequence:5"]
+title: 'Sequence 5: Druid'
+id: earth-seq-05
+tags:
+- pathway:earth
+- sequence:5
 ---
 
-# Sequence 5: Druid
+
+
+
+
+# Mother Pathway: Sequence 5
 
 You can absorb nutrients and oxygen from the soil, and master earth-like spells.
+
+## Druid
 
 ## Advancement
 
@@ -27,6 +35,32 @@ You can absorb nutrients and oxygen from the soil, and master earth-like spells.
 
 ### **Drain the Earth**
 
+```yaml ability
+id: earth-seq-05-drain-the-earth
+name: '**Drain the Earth**'
+pathway: earth
+sequence: 5
+type: active
+action: cast
+cost:
+  spirituality: 6
+roll: null
+opposed_by: none
+range: Touch a point in the soil within 10 meters.
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+text: 'You can extract nutrients and oxygen from the earth. Passive (no action stated):
+  You can maintain normal breathing in the ground. Recover 1 Vitality every round.
+  Active: Use: 1 Casting Action. Cost: 3 spirituality points. [[Spirituality]] Targeting
+  and range: Touch a point in the soil within 10 meters.'
+```
+
+
+
+
 You can extract nutrients and oxygen from the earth.
 
 - **Passive (no action stated):**
@@ -40,7 +74,42 @@ You can extract nutrients and oxygen from the earth.
   - **Effect:** Recover 1d6 Vitality.
     - If the land has mature plants, recover an additional 2d6 Vitality (deducted from the life of the plant). [[Plant Life / Plant Vitality]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### **Subterranean Sneaking**
+
+```yaml ability
+id: earth-seq-05-subterranean-sneaking
+name: '**Subterranean Sneaking**'
+pathway: earth
+sequence: 5
+type: active
+action: cast
+cost:
+  spirituality: 6
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- stealth
+- mobility
+text: 'The ground under your feet suddenly softens and turns into a aswamp,a and you
+  sink in. Use: 1 movement action. Cost: 3 spirituality points. [[Spirituality]] Effect:
+  You enter the ground and can move underground with normal movement power. Each additional
+  round you stay underground costs 1 additional spirituality point. Your Stealth test
+  underground is successful by default, provided the other party has not found you.
+  Otherwise, the other party can use Scouting against your Stealth (with a +4 bonus)
+  to find your position. [[Stealth]]'
+```
+
+
+
 
 The ground under your feet suddenly softens and turns into a â€œswamp,â€ and you sink in.
 
@@ -57,7 +126,39 @@ The ground under your feet suddenly softens and turns into a â€œswamp,â€�
    - If you use underground stealth when lightning comes, you can make a resistance check; on a success, you suffer only half the damage (rounded up).
 3. You cannot perform actions other than moving/free actions while underground, unless you use 1 free action to end your underground stealth (you remain underground but are no longer hidden).
 
+- **Limits:** As described in this section's prose.
+
+
 ### **Create Vines**
+
+```yaml ability
+id: earth-seq-05-create-vines
+name: '**Create Vines**'
+pathway: earth
+sequence: 5
+type: active
+action: free
+cost:
+  spirituality: 6
+roll: null
+opposed_by: physical_defense
+range: 1 target within 5 meters.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'You create vines out of thin air, causing them to pierce the ground and attack
+  enemies. #### Option 1: Vine Whip Use: 1 Attack Action. Cost: 3 spirituality points.
+  [[Spirituality]] Effect: Create a vine and treat it as a long whip. Dispelling:
+  1 free action dispels it. Targeting and range: 1 target within 5 meters. Check:
+  Strength + Biology (Defense) against physical defense.'
+```
+
+
+
 
 You create vines out of thin air, causing them to pierce the ground and attack enemies.
 
@@ -92,7 +193,44 @@ You create vines out of thin air, causing them to pierce the ground and attack e
   - The vine created by the Casting Action is regarded as a seed of the harvest ability, which can attack the enemy by itself in the next step.  
     [[Harvest Ability]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### **Toxic Fog**
+
+```yaml ability
+id: earth-seq-05-toxic-fog
+name: '**Toxic Fog**'
+pathway: earth
+sequence: 5
+type: active
+action: cast
+cost:
+  spirituality: 6
+roll: null
+opposed_by: physical_defense
+range: Affects all creatures/plants within a 50-meter cone in front of you.
+target: designated target(s)
+duration: Fog persists in confined spaces; dissipates after 2 rounds in non-confined
+  spaces.
+scaling: []
+tags:
+- ritual
+- debuff
+- defense
+- offense
+text: 'You cause puffs of yellow-green poisonous gas to spread; creatures who smell
+  it start coughing. Use: 1 Casting Action. Cost: 3 spirituality points. [[Spirituality]]
+  Targeting and range: Affects all creatures/plants within a 50-meter cone in front
+  of you. Check: Intuition (INT) + Biology against physical defense. Intuition [[Biology]]
+  [[Physical Defense]] Damage: 2d6 poison damage. Duration: Fog persists in confined
+  spaces; dissipates after 2 rounds in non-confined spaces. If the fog persists, at
+  the start of each next round you can make another check to cause damage without
+  any action.'
+```
+
+
+
 
 You cause puffs of yellow-green poisonous gas to spread; creatures who smell it start coughing.
 
@@ -112,7 +250,36 @@ You cause puffs of yellow-green poisonous gas to spread; creatures who smell it 
 
 > **GM Note:** When the poisonous mist dissipates, the corresponding effect will be quickly relieved; the lost action is caused by an uncontrollable cough.
 
+- **Effect:** **Toxic Fog** resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### **Incarnation of Animals**
+
+```yaml ability
+id: earth-seq-05-incarnation-of-animals
+name: '**Incarnation of Animals**'
+pathway: earth
+sequence: 5
+type: active
+action: swift
+cost:
+  spirituality: 6
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: 5 minutes.
+scaling: []
+tags:
+- ritual
+text: 'You incarnate as an animal (e.g., a giant bear). Use: 1 Swift Action. Cost:
+  3 spirituality points. [[Spirit Points vs Spirituality]] Duration: 5 minutes. Effect:
+  Choose one of the following forms: Dire Bear Life limit +10.'
+```
+
+
+
 
 You incarnate as an animal (e.g., a giant bear).
 
@@ -170,7 +337,38 @@ Because extraordinary creatures are half-mad, you can only incarnate part of the
 - Druids can also write ordinary, GM-approved creature templates; the data (stat block) must be written in advance.
 - The upper limit of extraordinary creatures for high-Sequence Druids (GM decides the threshold) can be changed to be equal to their Intuition (INT), but the ability still needs to be written in advance.
 
+- **Limits:** As described in this section's prose.
+
+
 ### **Biocatalysis**
+
+```yaml ability
+id: earth-seq-05-biocatalysis
+name: '**Biocatalysis**'
+pathway: earth
+sequence: 5
+type: reaction
+action: cast
+cost:
+  spirituality: 6
+roll: null
+opposed_by: none
+range: All creatures within 50 meters (not limited to plants).
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'You catalyze the growth of certain organisms, including growth and metabolic
+  processes in the body. Use: 1 Casting Action. Cost: 3 spirituality points. [[Spirituality]]
+  Targeting and range: All creatures within 50 meters (not limited to plants). Effect:
+  Targets gain the catalysis of growth and rate, speeding up function reaction rates.
+  The catalytic ability can achieve the following effects: Catalyzed Hair The creatureaTMs
+  hair grows wildly and is regarded as an independent aplanta manipulated by you.'
+```
+
+
+
 
 You catalyze the growth of certain organisms, including growth and metabolic processes in the body.
 
@@ -225,3 +423,5 @@ The catalytic ability can achieve the following effects:
    - Affects plants that died naturally and have not completely decayed; they regain vitality.
 
 - Other logical, GM-approved uses of catalytic abilities are allowed, provided they do not accelerate physical action speed.
+
+- **Limits:** As described in this section's prose.

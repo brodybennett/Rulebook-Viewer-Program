@@ -1,8 +1,14 @@
 ---
-title: "Sequence 9: Criminal"
-id: "abyss-seq-09"
-tags: ["pathway:abyss", "sequence:9"]
+title: 'Sequence 9: Criminal'
+id: abyss-seq-09
+tags:
+- pathway:abyss
+- sequence:9
 ---
+
+
+
+
 
 # Abyss Pathway: Sequence 9
 
@@ -13,6 +19,20 @@ tags: ["pathway:abyss", "sequence:9"]
 > **Lore:** Also known as the “demon” Pathway, corresponding to the Tarot card “demon”. [[Tarot Card — Demon]]
 
 > **Lore:** Unlike a prisoner, a “Criminal” does not suppress themself or feel restrained; body and mind are under the rule of evil desires. Their conscience has not been completely wiped out, and they are not cruel enough. “Criminals” are described as having a strong body, keen perception, and various criminal abilities—whether using knight swords, daggers, longbows, pistols, rifles, or six-barreled machine guns.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -28,6 +48,38 @@ tags: ["pathway:abyss", "sequence:9"]
   - The Intuition (INT) attribute itself can add points to any skills.
 
 ### Spirit Vision
+```yaml ability
+id: abyss-seq-09-spirit-vision
+name: Spirit Vision
+pathway: abyss
+sequence: 9
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+- healing
+text: 'Use: 1 Free Action to activate. Cost: 1 Spirituality per round. Effect: While
+  Spirit Vision is active, you gain the following benefits: You gain Spirit Vision
+  through your Intuition (INT). Etheric Body: You can directly see the health status
+  of the target through the color of the aura, and directly find out where the other
+  partys body is uncomfortable, where there is a problem, and it is specific to a
+  certain organ. Spiritual Body: You can confirm whether an object/creature has spirituality,
+  which cannot identify extraordinary people. Mental Body: You can confirm whether
+  the other person is thinking, but you cannot see more content. Astral Body: You
+  cannot see the astral body.'
+```
+
+
+
+
 - **Use:** 1 **Free Action** to activate.
 - **Cost:** 1 **Spirituality** per round.
 - **Effect:** While Spirit Vision is active, you gain the following benefits:
@@ -48,7 +100,36 @@ tags: ["pathway:abyss", "sequence:9"]
   - Unlike dead creatures, undead creatures have deep black spirituality color instead of no color. [[Undead]]
   - Spirit Vision can see some ordinary spirit bodies by default, which have not dissipated for 24 hours, and cannot be recorded or stolen.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Perception of Depravity
+
+```yaml ability
+id: abyss-seq-09-perception-of-depravity
+name: Perception of Depravity
+pathway: abyss
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+text: 'You are very sensitive to people who have fallen or are falling, and you can
+  see black colors on them from your Spirit Vision. Fall is defined as fallen creatures
+  or anyone who has violated public morals, no matter what they are for difficulties.
+  Difficulty Value Limits: (Fallen Perception is a supplementary description to Spirit
+  Vision, which cannot be recorded or stolen.)'
+```
+
+
+
 
 - You are very sensitive to people who have fallen or are falling, and you can see black colors on them from your Spirit Vision.
 - **Fall** is defined as fallen creatures or anyone who has violated public morals, no matter what they are for difficulties. Difficulty Value
@@ -58,7 +139,41 @@ tags: ["pathway:abyss", "sequence:9"]
 >
 > **Lore:** People from other countries will find that in such a conservative country as Ruen, the capital is full of street girls, and they all meet the requirements of the Sequence 5 ceremony of the abyss pathway. [[Ruen]] Abyss Pathway Sequence 5 Ceremony
 
+- **Effect:** Perception of Depravity resolves using its yaml ability block and section prose.
+
+
 ### Intoxicated
+
+```yaml ability
+id: abyss-seq-09-intoxicated
+name: Intoxicated
+pathway: abyss
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- healing
+- offense
+text: 'You are addicted to the thrill of crime. Trigger: Whenever you complete a criminal
+  action. Effect: You restore a certain amount of [[Sanity / Rationality]] according
+  to the degree of the crime: Robbing others, stealing valuables: 1 Illegally killing
+  others and endangering public safety: 1d2 Serious crimes such as killing, blasting,
+  and robbing banks: 2d2 Perfect Crime: On the basis of any of the above benefits
+  +1 fixed value. Conditions for a perfect crime: Any of the above-mentioned crimes
+  has not been discovered, and has not been detected by the police or officials in
+  the end, and has not spread.'
+```
+
+
+
 
 - You are addicted to the thrill of crime.
 - **Trigger:** Whenever you complete a criminal action.
@@ -82,12 +197,69 @@ tags: ["pathway:abyss", "sequence:9"]
 
 ### Domination of Evil Desires
 
+```yaml ability
+id: abyss-seq-09-domination-of-evil-desires
+name: Domination of Evil Desires
+pathway: abyss
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: After taking the potion, your personality has changed, and your evil desires
+  are more prominent than before. When there is a problem that needs to be solved,
+  or an item that you covet, improper thoughts will flash in your mind, making you
+  more inclined to solve or obtain it in a form that violates ethics, social order,
+  and public good customs.
+```
+
+
+
+
 - After taking the potion, your personality has changed, and your evil desires are more prominent than before.
 - When there is a problem that needs to be solved, or an item that you covet, improper thoughts will flash in your mind, making you more inclined to solve or obtain it in a form that violates ethics, social order, and public good customs.
 
 > **GM Note:** This is a play-by-play explanation; it will not bring about the effect of identification, but it can be used as an introduction to the plot if necessary.
 
+- **Effect:** Domination of Evil Desires resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Killing Skills
+
+```yaml ability
+id: abyss-seq-09-killing-skills
+name: Killing Skills
+pathway: abyss
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+- offense
+text: 'Effect: Your critical strike, double strike, proximity shooting, and other
+  special action identification gains +2 beneficial, excluding first aid and surprise
+  attack. Limits: This does not affect special actions that simply gain benefits.
+  Momentum and aiming will not change from +2 to favorable (therefore not becoming
+  +4); affects identification only. This improvement cannot be recorded or stolen.'
+```
+
+
+
 
 - **Effect:** Your critical strike, double strike, proximity shooting, and other special action identification gains **+2 beneficial**, excluding first aid and surprise attack.
 - **Limits:**

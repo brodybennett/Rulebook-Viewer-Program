@@ -1,12 +1,18 @@
 ---
-title: "Sequence 5: Dreamwalker"
-id: "visionary-seq-05"
-tags: ["pathway:visionary", "sequence:5"]
+title: 'Sequence 5: Dreamwalker'
+id: visionary-seq-05
+tags:
+- pathway:visionary
+- sequence:5
 ---
 
-# Sequence 5: Dreamwalker
 
-## Dreamwalker (Adult Dragon)
+
+
+
+# Visionary Pathway: Sequence 5
+
+## Dreamwalker
 
 > **GM Note:** Dream-based manipulation works through the dream as an entry point, using the astral body as a springboard to influence the spiritual body and then the mental body (rooted in the subconscious). Compared to direct hypnosis, this method is described as softer, more concealed, and harder to detect. [[Astral Body]] [[Spiritual Body]] [[Mental Body]] [[Subconscious]] [[Hypnosis]]
 
@@ -30,6 +36,35 @@ tags: ["pathway:visionary", "sequence:5"]
 
 ### Dream Guidance
 
+```yaml ability
+id: visionary-seq-05-dream-guidance
+name: Dream Guidance
+pathway: visionary
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: 10m
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Cost: 1 Casting Action; 3 Spirituality. Casting Action [[Spirituality]] Use:
+  You must be in a dream and within 10 meters of the dream owner (within the dream).
+  Effect: You guide the target step by step through changes in the dream, leading
+  them to reveal the secrets in their heart. Limits: The guided development must not
+  contradict the current dream content. The guided development must be related to
+  the dream owners subconscious. [[Subconscious]] Notes (rules text): Unlike Dream
+  Modification, Dream Guidance guides the dream owners consciousness; it can draw
+  out information you do not already know (for example, details you are investigating).'
+```
+
+
+
+
 - **Cost:** 1 **Casting Action**; 3 **Spirituality**. Casting Action [[Spirituality]]
 - **Use:** You must be in a dream and within 10 meters of the dream owner (within the dream).
 - **Effect:** You guide the target step by step through changes in the dream, leading them to reveal the secrets in their heart.
@@ -43,6 +78,36 @@ tags: ["pathway:visionary", "sequence:5"]
 
 ### Dream Modification
 
+```yaml ability
+id: visionary-seq-05-dream-modification
+name: Dream Modification
+pathway: visionary
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Cost: 1 Casting Action; 3 Spirituality. Casting Action [[Spirituality]] Use:
+  On the premise that you are in a dream, you modify the dream content according to
+  your will (this is not guiding anothers subconscious). Effect: Modifying the dream
+  affects the target over time, causing unconscious changes and pushing them to do
+  things they would not otherwise do. Limits and procedure (rules text): Once per
+  day: Choose what you want to change the targets character into, and what you want
+  to guide them to do. Only once per day, you should enter their dream that night
+  while they are dreaming and let the dream content develop in the direction you intend.
+  Dream channeling option: Whenever you channel...'
+```
+
+
+
+
 - **Cost:** 1 **Casting Action**; 3 **Spirituality**. Casting Action [[Spirituality]]
 - **Use:** On the premise that you are in a dream, you modify the dream content according to your will (this is not guiding another’s subconscious).
 - **Effect:** Modifying the dream affects the target over time, causing unconscious changes and pushing them to do things they would not otherwise do.
@@ -55,7 +120,41 @@ tags: ["pathway:visionary", "sequence:5"]
   - **Psychic channeling only:** As long as you are not discovered in the dream, you may affect targets up to 1 Sequence higher than you when using **Psychological Channeling**.
 - > **Lore:** Example from the rules text: To make the target fall in love at first sight, fabricate a beautiful relationship in the dream where the lover resembles the real person; when they meet in reality, they feel an indescribable affection.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Dream Shuttle
+
+```yaml ability
+id: visionary-seq-05-dream-shuttle
+name: Dream Shuttle
+pathway: visionary
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: An intelligent creature within 500 meters. [5]
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- mobility
+text: 'Passive: You can perceive the dreams of intelligent creatures within 500 meters.
+  Before you shuttle into a dream, you can perceive the dream owners fuzzy Sequence
+  level (or that they are an ordinary person). If the dream owners Personality is
+  higher than yours, the dream is judged unsafe; otherwise it is judged safe. Active
+  Cost: 1 Casting Action; 2 Spirituality. Casting Action [[Spirituality]] Targeting
+  and range: An intelligent creature within 500 meters. [5] Effect: Your physical
+  body and spirit body enter the chosen creatures dreamland together. You can jump
+  between two dreamlands to complete a physical Flash. Limits (rules text): Dreamwalkers
+  do not have the ability to stay awake in...'
+```
+
+
+
 
 - **Passive:** You can perceive the dreams of intelligent creatures within 500 meters. Before you shuttle into a dream, you can perceive the dream owner’s fuzzy Sequence level (or that they are an ordinary person). If the dream owner’s **Personality** is higher than yours, the dream is judged unsafe; otherwise it is judged safe.
 - **Active**
@@ -66,3 +165,5 @@ tags: ["pathway:visionary", "sequence:5"]
   - Dreamwalkers do not have the ability to stay awake in a dream and pull others into a dream.
   - To stay awake in a dream, you must give yourself psychological hints in advance.
   - To make others fall asleep, you can only try to cooperate with hypnosis. [[Hypnosis]]
+
+- **Limits:** As described in this section's prose.

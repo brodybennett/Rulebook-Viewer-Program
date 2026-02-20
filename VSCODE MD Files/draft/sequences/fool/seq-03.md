@@ -1,12 +1,18 @@
 ---
-title: "Sequence 3: Ancient Scholar"
-id: "fool-seq-03"
-tags: ["pathway:fool", "sequence:3"]
+title: 'Sequence 3: Scholar of Yore'
+id: fool-seq-03
+tags:
+- pathway:fool
+- sequence:3
 ---
 
-# Sequence 3: Ancient Scholar
 
-## Ancient Scholar
+
+
+
+# Fool Pathway: Sequence 3
+
+## Scholar of Yore
 
 > **Lore:** Scholars from antiquity who study antiquityâ€”witnessing fate, influencing the present, and never reversing the past.
 
@@ -76,6 +82,35 @@ Additional parameters and related effects:
 
 ### Summon Historical Images
 
+```yaml ability
+id: fool-seq-03-summon-historical-images
+name: Summon Historical Images
+pathway: fool
+sequence: 3
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+- stealth
+text: 'Use: Once per round; Swift Action. Cost: Consume 2 points of Spirituality [[Spirituality]].
+  Check: Perform a historical appraisal [[historical appraisal]] with Difficulty Value
+  Difficulty Value 20. Effect (on success): Summon up to 1 of the following from history:
+  Items you once owned, or Humans you knew. Additional usage modes and actions: Fog
+  of history: You may enter the fog of history [[fog of history]] that you know and
+  hide in a historical scene you once knew. In reality, it is difficult to find your
+  body without similar means.'
+```
+
+
+
+
 - **Use:** Once per round; **Swift Action**.
 - **Cost:** Consume 2 points of **Spirituality** [[Spirituality]].
 - **Check:** Perform a **historical appraisal** [[historical appraisal]] with **Difficulty Value** Difficulty Value 20.
@@ -125,20 +160,117 @@ Progress notes (as written):
 
 - **Master of Miracles** [[Master of Miracles]]: Your total summon/scene limit becomes 9, and you can summon familiar scenes, but there are still only three summons at the angel level.
 
+- **Effect:** Summon Historical Images resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Restoring Your Self
+
+```yaml ability
+id: fool-seq-03-restoring-your-self
+name: Restoring Your Self
+pathway: fool
+sequence: 3
+type: active
+action: swift
+cost:
+  spirituality: 30
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+- healing
+text: 'Use: Once per round; Swift Action. Cost: 15 Spirituality points. Effect: Your
+  health returns to maximum.'
+```
+
+
+
 
 - **Use:** Once per round; **Swift Action**.
 - **Cost:** 15 Spirituality points.
 - **Effect:** Your health returns to maximum.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Paper Doll Stand
+
+```yaml ability
+id: fool-seq-03-paper-doll-stand
+name: Paper Doll Stand
+pathway: fool
+sequence: 3
+type: active
+action: swift
+cost:
+  spirituality: 16
+roll: null
+opposed_by: difficulty_value
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- healing
+- mobility
+- offense
+text: 'Use: Once per round; Swift Action. Cost: 8 Spirituality points, and a paper
+  figure [[paper figure]]. Effect: You can keep a physically disabled creature moving.
+  You instantly restore a creatureaTMs full hit points and remove any disadvantage
+  it has from critical attacks. Limit/Truth check: The restored hit points are false
+  if the target becomes aware (told or realizes), or discerns the truth with a Difficulty
+  Value 15 Intuition (INT) check; then these restored Vitality disappear instantly.'
+```
+
+
+
 
 - **Use:** Once per round; **Swift Action**.
 - **Cost:** 8 Spirituality points, and a paper figure [[paper figure]].
 - **Effect:** You can keep a physically disabled creature moving. You instantly restore a creatureâ€™s full hit points and remove any disadvantage it has from critical attacks.
 - **Limit/Truth check:** The restored hit points are false if the target becomes aware (told or realizes), or discerns the truth with a Difficulty Value 15 Intuition (INT) check; then these restored Vitality disappear instantly.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Fog Creation
+
+```yaml ability
+id: fool-seq-03-fog-creation
+name: Fog Creation
+pathway: fool
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Usually only 100 meters in radius.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+text: 'Use: spellcasting action. Cost: Does not need to consume Spirituality. Effect:
+  Fill a certain area around you with gray mist (fog from history). The fog can make
+  people hallucinate to a certain extent; most content comes from the past, but usually
+  cannot have effective effects. Range: Usually only 100 meters in radius. It can
+  block the vision and spiritual vision [[id:alias-spiritual-vision|spiritual vision]]
+  of demigods [[Demigod]] and below in the area. From the demigod stage, one can use
+  spiritual vision to see through the fog. Only the spirit vision of the Wheel of
+  Fortune pathway can still exert its normal effect in this fog, barely identifying
+  the target.'
+```
+
+
+
 
 - **Use:** **spellcasting action**.
 - **Cost:** Does not need to consume Spirituality.
@@ -153,3 +285,5 @@ Progress notes (as written):
 > **GM Note:** Other than the effects listed above, this is described as having no more uses and being a non-core skill.
 
 - **Sequence 2 note:** The range of the fog is increased to a radius of one kilometer. [[id:alias-sequence-2|Sequence 2]]
+
+- **Limits:** As described in this section's prose.

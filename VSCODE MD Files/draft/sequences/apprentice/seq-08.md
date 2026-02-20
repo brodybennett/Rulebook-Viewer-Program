@@ -1,10 +1,16 @@
 ---
-title: "Sequence 8: Trickmaster"
-id: "apprentice-seq-08"
-tags: ["pathway:apprentice", "sequence:8"]
+title: 'Sequence 8: Trickmaster'
+id: apprentice-seq-08
+tags:
+- pathway:apprentice
+- sequence:8
 ---
 
-# Sequence 8: Trickmaster
+
+
+
+
+# Door Pathway: Sequence 8
 
 ## Trickmaster
 
@@ -39,6 +45,34 @@ tags: ["pathway:apprentice", "sequence:8"]
 
 ### Performance Recognition
 
+```yaml ability
+id: apprentice-seq-08-performance-recognition
+name: Performance Recognition
+pathway: apprentice
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+- social
+text: 'Each time you perform a performance that is not repeated and is recognized
+  by different people (especially strangers), choose one of your Performance/Deception
+  skills; it increases by 1 level, up to mastery. [[Performance]] [[Deception]] To
+  improve between the following levels, you must meet the above condition this many
+  times: Training Proficiency: 2 times Proficiency Advanced level: 3 times Advanced
+  level Mastery: 4 times'
+```
+
+
+
+
 - Each time you perform a performance that is not repeated and is recognized by different people (especially strangers), choose one of your Performance/Deception skills; it increases by 1 level, up to mastery.  
   [[Performance]]  
   [[Deception]]
@@ -47,7 +81,43 @@ tags: ["pathway:apprentice", "sequence:8"]
   - Proficiency → Advanced level: 3 times
   - Advanced level  Mastery: 4 times
 
+- **Effect:** Performance Recognition resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Spells
+
+```yaml ability
+id: apprentice-seq-08-spells
+name: Spells
+pathway: apprentice
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: Choose 1 target.
+target: designated target(s)
+duration: If the environment is not sealed, the fog dissipates after **1 round**.
+scaling: []
+tags:
+- ritual
+- mobility
+- defense
+- offense
+- social
+text: 'You wield a variety of strange but not powerful spells. #### Freezing Technique
+  Use: 1 Casting Action. Casting Action Cost: Consume 1 Spirituality. [[Spirituality]]
+  Targeting and range: Choose 1 target. Check: Performance/Deception/Occult vs Physical
+  Defense. [[Occult]] [[Physical Defense]] Effect: Rapidly lowers temperature; freezes
+  the surface of the targets body, dealing 1d6 cold damage. Aftereffects: Against
+  a target without cold resistance, it suffers a -2 penalty on its next movement,
+  skill, and ability checks. [[Cold Resistance]]'
+```
+
+
+
 
 You wield a variety of strange but not powerful spells.
 
@@ -178,3 +248,5 @@ You wield a variety of strange but not powerful spells.
      - If you let the trick happen at a moment others can’t imagine—like a performer and audience—then your trick has the effect of being caught off guard. [[Caught Off Guard]]
      - This can be done with special actions such as delayed action, or real inspiration, but you must do the relevant roleplay. [[Delayed Action]] [[Real Inspiration]]
 - **Special:** Cantrips iden
+
+- **Limits:** As described in this section's prose.

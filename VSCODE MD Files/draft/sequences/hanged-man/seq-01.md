@@ -1,8 +1,14 @@
 ---
-title: "Sequence 1: Dark Angel"
-id: "hanged-man-seq-01"
-tags: ["pathway:hanged-man", "sequence:1"]
+title: 'Sequence 1: Dark Angel'
+id: hanged-man-seq-01
+tags:
+- pathway:hanged-man
+- sequence:1
 ---
+
+
+
+
 
 # Hanged Man Pathway: Sequence 1
 
@@ -23,6 +29,33 @@ tags: ["pathway:hanged-man", "sequence:1"]
 - **Attribute Gain:** Strength +1, Constitution +1, Agility (DEX) +1, Intuition (INT) +1, Charisma +1, Willpower (WIL) +1
 
 ### Dark Angel
+
+```yaml ability
+id: hanged-man-seq-01-dark-angel
+name: Dark Angel
+pathway: hanged-man
+sequence: 1
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- offense
+text: 'Use: As a free action, intertwined virtual black wings appear behind you (like
+  9-winged angels), covering most of your body. Effect: Void Black Wings While the
+  wings exist: The wings are considered to have Vitality equal to yours *(not counting
+  extra life).* [[Extra Life]] The wings have 10 unconditional damage reduction. When
+  you take damage, the wings take damage first. You gain a +8 check bonus to all skills.
+  You gain +3 to all your attributes.'
+```
+
+
+
 
 - **Use:** As a **free action**, intertwined virtual black wings appear behind you (like 9-winged angels), covering most of your body.
 - **Effect: Void Black Wings**
@@ -57,7 +90,41 @@ tags: ["pathway:hanged-man", "sequence:1"]
     - [[Demigod-Level]]
     - [[Gods and Below]]
 
+- **Effect:** Dark Angel resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Corruption
+
+```yaml ability
+id: hanged-man-seq-01-corruption
+name: Corruption
+pathway: hanged-man
+sequence: 1
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- defense
+text: 'Use: A spellcasting action. Check: [[Mysticism]] against Willpower Defense;
+  with a -8 penalty. Effect: Betrayal You designate a target to corrupt and betray
+  its master. For the same level, you can make the targets [[Extraordinary Items]]
+  betray, or make part of the targets [[Marionettes]] or [[Clones]] betray. Special:
+  Hanged Man Pathway Targets (Lower Sequence) For a target lower than you: if the
+  other party and you are both in the Sequence of the Hanged Man, you can directly
+  let her body degenerate and betray her soul, and collapse on the spot. If the target
+  is a demigod, there can only be one [[Spirit Body]] left that can continue to survive
+  an encounter, and can be eliminated midway.'
+```
+
+
+
 
 - **Use:** A **spellcasting action**.
 - **Check:** [[Mysticism]] against Willpower Defense; with a -8 penalty.
@@ -72,3 +139,6 @@ tags: ["pathway:hanged-man", "sequence:1"]
   - Similar products are also suitable for this use method.
   - This is a high-level application of [[Separating the Fallen Mind]], and it will inherit it as a Secret Puppet.
     - [[Avatar Era]]
+
+- **Effect:** Corruption resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

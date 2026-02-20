@@ -1,12 +1,18 @@
 ---
-title: "Sequence 3: Chaos Hunter"
-id: "arbiter-seq-03"
-tags: ["pathway:arbiter", "sequence:3"]
+title: 'Sequence 3: Balancer'
+id: arbiter-seq-03
+tags:
+- pathway:arbiter
+- sequence:3
 ---
 
-# Judge Pathway: Sequence 3
 
-## Chaos Hunter
+
+
+
+# Justiciar Pathway: Sequence 3
+
+## Balancer
 
 > **GM Note:** â€œThe number of Extraordinary abilities that can be taken away has greatly increased.â€ appears in the source; treat this as using the **Invalidation Law** procedure.
 
@@ -24,6 +30,36 @@ tags: ["pathway:arbiter", "sequence:3"]
 - Legal skills increase by 1 skill level.
 
 ### Chaos Hunter
+
+```yaml ability
+id: arbiter-seq-03-chaos-hunter
+name: Chaos Hunter
+pathway: arbiter
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- offense
+text: 'Effect: From now on, you and your disciplinary knights gain a +4 bonus in skill
+  identification and damage identification for all criminals and undead, corrupt,
+  dark, and other natural forces that affect order. For the [[Black Emperor]]: +8
+  skill bonus, +4 attribute check; damage identification bonus remains +4 (unchanged
+  from the baseline above). OrderaTMs sight: Within a kilometer of you, or when you
+  are in your jurisdiction, order becomes your eyes. You make up to two laws based
+  on the realms of unholy, undead, fallen, and dark. When corresponding behaviors
+  or creatures appear in your jurisdiction, they are considered violators of the law
+  and become criminals. You can immediately cast s...'
+```
+
+
+
 
 - **Effect:**
   - From now on, you and your disciplinary knights gain a +4 bonus in skill identification and damage identification for all criminals and undead, corrupt, dark, and other natural forces that affect order.
@@ -45,6 +81,31 @@ tags: ["pathway:arbiter", "sequence:3"]
 
 ### Messenger of Order
 
+```yaml ability
+id: arbiter-seq-03-messenger-of-order
+name: Messenger of Order
+pathway: arbiter
+sequence: 3
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- debuff
+text: 'Use: Once per Round, as a Free Action, eliminate: a power related to darkness,
+  corruption, and undead domains, and curses on your body. Limits / Modifiers: For
+  curses higher than your Sequence level, the effect is halved, and a free action
+  is also consumed.'
+```
+
+
+
+
 - **Use:** Once per Round, as a Free Action, eliminate:
   - a power related to darkness, corruption, and undead domains, **and**
   - curses on your body.
@@ -52,3 +113,6 @@ tags: ["pathway:arbiter", "sequence:3"]
   - For curses higher than your Sequence level, the effect is halved, and a free action is also consumed.
 
 > **GM Note:** Starting from this Sequence, due to a lack of information on the extraordinary abilities in the original work, some abilities of the Judge Pathway (Sequence 3â€“0) are original to the supplementers.
+
+- **Effect:** Messenger of Order resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

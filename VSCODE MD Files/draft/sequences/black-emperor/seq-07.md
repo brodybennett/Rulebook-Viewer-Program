@@ -1,10 +1,18 @@
 ---
-title: "Sequence 7: The Briber"
-id: "black-emperor-seq-07"
-tags: ["pathway:black-emperor", "sequence:7"]
+title: 'Sequence 7: Briber'
+id: black-emperor-seq-07
+tags:
+- pathway:black-emperor
+- sequence:7
 ---
 
-# Sequence 7: The Briber
+
+
+
+
+# Black Emperor Pathway: Sequence 7
+
+## Briber
 
 ## Advancement
 
@@ -25,6 +33,36 @@ tags: ["pathway:black-emperor", "sequence:7"]
 - At the same time, the upper limit of your Sequence 9 Rapid Improvement skill has reached advanced level.
 
 ### Bribe
+
+```yaml ability
+id: black-emperor-seq-07-bribe
+name: Bribe
+pathway: black-emperor
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: Maximum of 1 target affected at a time.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'Cost: 3 points of [[Spirituality]] Targeting and range: Maximum of 1 target
+  affected at a time. Use: You must accompany the effect with an act of giving things
+  (an actual or symbolic bribe). Effect: If any one of the following activation methods
+  succeeds (see restrictions), you choose one bribe type (benefit) to apply. ####
+  Activation Methods Throwing Make a confrontation against the targets [[Physical
+  Defense]]. As long as the target cannot avoid light/lightning, the ability takes
+  effect even if the Identification fails, but it does not cause damage.'
+```
+
+
+
 
 - **Cost:** 3 points of [[Spirituality]]
 - **Targeting and range:** Maximum of 1 target affected at a time.
@@ -132,6 +170,9 @@ You establish a connection between two parties.
    - This is not considered having flesh and blood, so you cannot get a completely successful result.
    - You can’t [[Curse]].
    - Divination for the same thing will still only get the same result until new clues are obtained.
+
+- **Limits:** As described in this section's prose.
+
 
 ## When the bribed target is higher than Sequence 1
 

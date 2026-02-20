@@ -1,12 +1,18 @@
 ---
-title: "Sequence 4: Mystic"
-id: "apprentice-seq-04"
-tags: ["pathway:apprentice", "sequence:4"]
+title: 'Sequence 4: Secrets Sorcerer'
+id: apprentice-seq-04
+tags:
+- pathway:apprentice
+- sequence:4
 ---
 
-# Sequence 4: Mystic
 
-## Mystic
+
+
+
+# Door Pathway: Sequence 4
+
+## Secrets Sorcerer
 
 > **Lore:** You possess a “secret-keeping” talent, can perform **Space Hiding** and **Spatial Exile**, and use various **Doors** as defenses.
 
@@ -32,13 +38,77 @@ tags: ["pathway:apprentice", "sequence:4"]
 
 ### Keeping Secrets
 
+```yaml ability
+id: apprentice-seq-04-keeping-secrets
+name: Keeping Secrets
+pathway: apprentice
+sequence: 4
+type: passive
+action: none
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- divination
+- detection
+- defense
+text: 'Use: Passive. Effect: You can keep secrets, shielding induction, detection,
+  divination, prophecy, and spiritual intuition from a person no higher than you;
+  these are no longer useful against you. [[Induction]] Detection [[id:alias-divination|Divination]]
+  [[id:alias-prophecy|Prophecy]] [[Spiritual Intuition]] They may know your existence
+  indirectly, but they can no longer know other information about you; your actions
+  are usually not directly targeted by scrying. [[Scrying]] Even for detection or
+  prophecy higher than your level: if you do not reveal the kept secret at a certain
+  moment and do not leave divination or prophecy clues, angel or higher-level detection
+  usually cannot directly obt...'
+```
+
+
+
+
 - **Use:** Passive.
 - **Effect:** You can keep secrets, shielding induction, detection, divination, prophecy, and spiritual intuition from a person no higher than you; these are no longer useful against you. [[Induction]] Detection [[id:alias-divination|Divination]] [[id:alias-prophecy|Prophecy]] [[Spiritual Intuition]]
 - They may know your existence indirectly, but they can no longer know other information about you; your actions are usually not directly targeted by scrying. [[Scrying]]
 - Even for detection or prophecy higher than your level: if you do not reveal the kept secret at a certain moment and do not leave divination or prophecy clues, angel or higher-level detection usually cannot directly obtain effective information by divining “what are you hiding.” [[Angel]] [[Divination Clue]]
 - **Counter-scry:** The GM determines the procedure/effects (smashing a crystal ball is one possible method).
 
+- **Limits:** As described in this section's prose.
+
+
 ### Gate to Another World
+
+```yaml ability
+id: apprentice-seq-04-gate-to-another-world
+name: Gate to Another World
+pathway: apprentice
+sequence: 4
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: Up to planetary scale (GM decides campaign-appropriate limits).
+target: designated target(s)
+duration: The door remains permanent until you use [[Dissolve]] as a **Free Action**.
+  Free Action
+scaling: []
+tags:
+- mobility
+text: 'Use: At will. Use (Action): Full-Round Action. [[Full-Round Action]] Range:
+  Up to planetary scale (GM decides campaign-appropriate limits). Duration: The door
+  remains permanent until you use [[Dissolve]] as a Free Action. Free Action Access/Opening:
+  A successful [[Navigator Identification]] is usually required to open the correct
+  door. Special: You can now travel to places like [[Mirror World]]. Sequence 2: The
+  scope includes all the places in the universe you have been to.'
+```
+
+
+
 
 - **Use:** At will.
 - **Use (Action):** **Full-Round Action**. [[Full-Round Action]]
@@ -48,7 +118,43 @@ tags: ["pathway:apprentice", "sequence:4"]
 - **Special:** You can now travel to places like [[Mirror World]].
 - **Sequence 2:** The scope includes all the places in the universe you have been to.
 
+- **Effect:** Gate to Another World resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Illusion
+
+```yaml ability
+id: apprentice-seq-04-illusion
+name: Illusion
+pathway: apprentice
+sequence: 4
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- mobility
+- offense
+text: 'Cost: 10 points of Spirituality. [[Spirituality]] Use (Action): Free Action.
+  Effect: You become a gate of illusion: the main body appears behind the gate, and
+  the attacker is in two different worlds, facing you from far away. [[Illusory Gate]]
+  You immediately create an independent door in front of you (covered with mysterious
+  patterns) that lasts for an encounter. Encounter After creating the illusory door,
+  you are directly separated into the independent space inside the door. This space
+  can only be accessed through the door or by breaking the door. While in the separate
+  space, you cannot travel through the [[Spirit World]], but you can disarm the door
+  at any time as a Free Action. Follow...'
+```
+
+
+
 
 - **Cost:** 10 points of **Spirituality**. [[Spirituality]]
 - **Use (Action):** **Free Action**.
@@ -64,6 +170,39 @@ tags: ["pathway:apprentice", "sequence:4"]
 - **Limits:** This door can only accommodate you alone. While inside the door, you are not considered a target within the range of vision.
 
 ### Space Hiding
+
+```yaml ability
+id: apprentice-seq-04-space-hiding
+name: Space Hiding
+pathway: apprentice
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- stealth
+- mobility
+- defense
+text: 'Effect (Concept): Grabbing the void with the right hand can distort a space
+  area, cut it into two parts, and hide one part. The only way to get out of the hidden
+  space is through the door or by unhiding it. This can be used to create space pockets.
+  [[Space Pocket]] Use (Action): Casting Action. Casting Action Cost: 5 points of
+  Spirituality. Effect: Hide a piece of space in the current range; there must be
+  a door to leave. Door Statistics (Typical): This door usually has 25 Defense and
+  40 Vitality. Camouflage: You can camouflage the door to look the way you like, but
+  it must be different from the wall; you can also cover it with something. What Counts
+  as a Door: A door does not have to be...'
+```
+
+
+
 
 - **Effect (Concept):** Grabbing the void with the right hand can distort a space area, cut it into two parts, and hide one part. The only way to get out of the hidden space is through the door or by unhiding it. This can be used to create space pockets. [[Space Pocket]]
 - **Use (Action):** **Casting Action**. Casting Action

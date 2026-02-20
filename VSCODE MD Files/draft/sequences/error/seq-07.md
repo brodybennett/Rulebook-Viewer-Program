@@ -1,12 +1,34 @@
 ---
-title: "Sequence 7: Cryptologist"
-id: "error-path-seq-07"
-tags: ["pathway:error-path", "sequence:7"]
+title: 'Sequence 7: Cryptologist'
+id: error-seq-07
+tags:
+- pathway:error
+- sequence:7
 ---
 
-# Sequence 7: Cryptologist
+
+
+
+
+# Error Pathway: Sequence 7
 
 A Cryptologist can analyze many mysteries (such as dreams and illusions) and can also determine an enemyâ€™s location through analysis.
+
+## Cryptologist
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -22,6 +44,38 @@ A Cryptologist can analyze many mysteries (such as dreams and illusions) and can
 - This kind of improvement can at most reach proficiency.
 
 ### Premonition of Danger
+
+```yaml ability
+id: error-seq-07-premonition-of-danger
+name: Premonition of Danger
+pathway: error
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- divination
+- healing
+- offense
+text: 'Also known as intuitive premonition. You can predict othersaTM actions at critical
+  moments and perceive danger. Use: Triggered whenever you are raided, sneak attacked,
+  or there is something on the scene that is about to put the raid or sneak attack
+  into action. Use: If 1 damage exceeds half of your maximum health (rounded up),
+  this ability can also be triggered. Effect: 1) Make an Intuition (INT) appraisal
+  (Difficulty Value 15). If you succeed, an idea flashes in your mind immediately,
+  telling you the form of danger. After you succeed, you will not be able to be raided
+  or ambushed. Threats that you mistakenly think are asafea will not trigger this
+  ability. 2) Under the above premise, as l...'
+```
+
+
+
 
 Also known as intuitive premonition. You can predict othersâ€™ actions at critical moments and perceive danger.
 
@@ -44,7 +98,38 @@ Also known as intuitive premonition. You can predict othersâ€™ actions at c
   - **Sequence 6:** Your Intuition (INT) appraisal is successful by default, and the flashing thought becomes a flashing picture, letting you know the manifestation of danger. [[id:alias-sequence-6|Sequence 6]]
   - **Sequence 5:** You can perceive danger higher than Sequence 1. [[Sequence 5]] [[Personality]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### Decryption
+
+```yaml ability
+id: error-seq-07-decryption
+name: Decryption
+pathway: error
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+text: 'You can analyze many mysteries (such as dreams and illusions), and you can
+  also find out an enemyaTMs location through analysis. Use: 1 Casting Action Cost:
+  3 spirituality points Effect: Choose 1 of the following effects: a Detection and
+  appraisal (Difficulty Value 20): Choose a clue. You learn: The information represented
+  by the clue. Whether it involves an extraordinary event. A rough answer at Difficulty
+  Value 20.'
+```
+
+
+
 
 You can analyze many mysteries (such as dreams and illusions), and you can also find out an enemyâ€™s location through analysis.
 
@@ -96,3 +181,5 @@ You can analyze many mysteries (such as dreams and illusions), and you can also 
   - You can use one Decryption skill and choose one item of specific mystical information related to you (for example: you plan to attack someone next) to realize anti-divination.
   - Conduct detection and appraisal; the check result becomes the difficulty of anti-divination.
   - When successful, this information is excluded in related divination, spiritual intuition, and prophecy unless it exceeds the corresponding difficulty.
+
+- **Limits:** As described in this section's prose.

@@ -1,12 +1,20 @@
 ---
-title: "Sequence 0: Justicar"
-id: "arbiter-seq-00"
-tags: ["pathway:arbiter", "sequence:0"]
+title: 'Sequence 0: Justiciar'
+id: arbiter-seq-00
+tags:
+- pathway:arbiter
+- sequence:0
 ---
 
-# Sequence 0: Justicar
+
+
+
+
+# Justiciar Pathway: Sequence 0
 
 > **Lore:** To a certain extent, the rules at the bottom of the world can be modified.
+
+## Justiciar
 
 ## Advancement
 
@@ -22,9 +30,61 @@ tags: ["pathway:arbiter", "sequence:0"]
 - [[Law skill]] increased by 1 skill level.
 
 ### Divine Gaze
+```yaml ability
+id: arbiter-seq-00-divine-gaze
+name: Divine Gaze
+pathway: arbiter
+sequence: 0
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Use: When any creature recites your True Name. Effect: You can gaze at the
+  surroundings of that creature, and use extraordinary abilities that normally target
+  an area to target that area (normal range limits still apply).'
+```
+
+
+
+
 - **Use:** When any creature recites your **True Name**.
 - **Effect:** You can gaze at the surroundings of that creature, and use extraordinary abilities that normally target an area to target that area (normal range limits still apply).
 
+- **Limits:** As described in this section's prose.
+
+
 ### Origin of Order
 
+```yaml ability
+id: arbiter-seq-00-origin-of-order
+name: Origin of Order
+pathway: arbiter
+sequence: 0
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: You can modify the underlying rules of the world to a certain extent,
+  making things that were impossible in the underlying order possible.'
+```
+
+
+
+
 - **Effect:** You can modify the underlying rules of the world to a certain extent, making things that were impossible in the underlying order possible.
+
+- **Limits:** As described in this section's prose.

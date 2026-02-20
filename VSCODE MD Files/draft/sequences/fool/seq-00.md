@@ -1,8 +1,14 @@
 ---
-title: "Sequence 0: The Fool"
-id: "fool-seq-00"
-tags: ["pathway:fool", "sequence:0"]
+title: 'Sequence 0: The Fool'
+id: fool-seq-00
+tags:
+- pathway:fool
+- sequence:0
 ---
+
+
+
+
 
 # Fool Pathway: Sequence 0
 
@@ -30,22 +36,131 @@ tags: ["pathway:fool", "sequence:0"]
 > **Lore:** Because you have become the incarnation representing the Fool and mastered the three powers of fooling (with only differences in which is stronger or weaker), the **History** skill increase applies no matter what you fooled to promote.
 
 ### Divine Gaze
+```yaml ability
+id: fool-seq-00-divine-gaze
+name: Divine Gaze
+pathway: fool
+sequence: 0
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Use: When any creature recites your True Name. Effect: You can gaze at the
+  surroundings of that creature, and use your extraordinary abilities to target the
+  area at will.'
+```
+
+
+
+
 - **Use:** When any creature recites your **True Name**.
 - **Effect:** You can gaze at the surroundings of that creature, and use your extraordinary abilities to target the area at will.
 
+- **Limits:** As described in this section's prose.
+
+
 
 ### God of Blindness and Foolishness
+
+```yaml ability
+id: fool-seq-00-god-of-blindness-and-foolishness
+name: God of Blindness and Foolishness
+pathway: fool
+sequence: 0
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: You gain the following abilities: Aura of Foolishness Fooling'
+```
+
+
+
 
 - **Effect:** You gain the following abilities:
   - **Aura of Foolishness**
   - **Fooling**
 
+- **Limits:** As described in this section's prose.
+
+
 ### Aura of Foolishness
+
+```yaml ability
+id: fool-seq-00-aura-of-foolishness
+name: Aura of Foolishness
+pathway: fool
+sequence: 0
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+text: 'Effect: All creatures within your field of vision have their Intuition (INT)
+  capped at 1 (cannot exceed 1). [[Field of Vision]] If a creature becomes insane
+  due to a Sanity / Rationality roll, it is immediately incapacitated and cannot take
+  any actions until the insanity ends. [[Sanity / Rationality Roll]] [[Incapacitated]]
+  [[Insanity]]'
+```
+
+
+
 
 - **Effect:** All creatures within your **field of vision** have their **Intuition (INT)** capped at 1 (cannot exceed 1). [[Field of Vision]]
 - If a creature becomes insane due to a **Sanity / Rationality roll**, it is immediately **incapacitated** and cannot take any actions until the insanity ends. [[Sanity / Rationality Roll]] [[Incapacitated]] [[Insanity]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### Fooling
+
+```yaml ability
+id: fool-seq-00-fooling
+name: Fooling
+pathway: fool
+sequence: 0
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- offense
+text: 'Use: Free action. Free Action Limits: Can be used only once on the same creature
+  in a round. Round Effect: You declare that what has happened does not exist. When
+  you declare that a thing that happened does not exist, 1 action and all consequences
+  of that action disappear; you cancel the damage it caused, the ability used, and
+  its result. Aftereffects: This ability does not return spirituality lost through
+  using the ability. [[Spirituality]]'
+```
+
+
+
 
 - **Use:** **Free action**. Free Action
 - **Limits:** Can be used only once on the same creature in a **round**. Round

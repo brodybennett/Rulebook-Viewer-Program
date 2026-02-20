@@ -1,12 +1,34 @@
 ---
-title: "Sequence 8: Fighter"
-id: "war-god-seq-08"
-tags: ["pathway:war-god", "sequence:8"]
+title: 'Sequence 8: Pugilist'
+id: war-god-seq-08
+tags:
+- pathway:war-god
+- sequence:8
 ---
 
-# Sequence 8: Fighter
+
+
+
+
+# Twilight Giant Pathway: Sequence 8
 
 > **Lore:** Known as “Gladiator” in ancient times. Experts in fighting can use their bodies to weaken the effects of certain supernatural forces. Extraordinary characteristic image: a pure light ball like a baby’s fist.
+
+## Pugilist
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -19,6 +41,37 @@ tags: ["pathway:war-god", "sequence:8"]
 - Fighting (Melee Combat) can be promoted to Mastery immediately upon meeting prerequisites.
 
 ### Extraordinary Fighting
+
+```yaml ability
+id: war-god-seq-08-extraordinary-fighting
+name: Extraordinary Fighting
+pathway: war-god
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+- offense
+text: 'Your Sequence 9 fighting ability has been improved, so you can master more
+  fighting skills. Sequence 9: Extraordinary Fighting Double Combo (Special Action):
+  When you are fighting, you can attack twice with superb skills. [[Special Action]]
+  When you perform a Double-Strike special action, you can make the relevant attribute
+  of the double-strike still be Strength instead of Agility (DEX). The effect will
+  not be affected, and the Strength damage dice will still be halved. [[Double Strike]]
+  Based on the same technique, you can change the relevant attribute of a regular
+  single strike to Agility (DEX), and still have the full Strength bonus. At Sequence
+  7, your double strike is not limited to...'
+```
+
+
+
 
 Your Sequence 9 fighting ability has been improved, so you can master more fighting skills. Sequence 9: Extraordinary Fighting
 
@@ -57,7 +110,38 @@ Your Sequence 9 fighting ability has been improved, so you can master more fight
 
 > **GM Note:** Other fighting skills that are reasonable may be allowed by the GM.
 
+- **Effect:** Extraordinary Fighting resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Extraordinary Physical Abilities
+
+```yaml ability
+id: war-god-seq-08-extraordinary-physical-abilities
+name: Extraordinary Physical Abilities
+pathway: war-god
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- debuff
+- defense
+- offense
+text: 'You can mitigate supernatural influences purely with your own body. Resistance
+  2 to: Fire [[Fire]] Poison [[Poison]] Cold [[Cold]] Curse [[Curse]] Possibly more
+  damage types that would normally have negative effects (taking into account the
+  Outer Gods approach). [[Outer Gods]] This excludes:'
+```
+
+
+
 
 You can mitigate supernatural influences purely with your own body.
 
@@ -74,3 +158,6 @@ You can mitigate supernatural influences purely with your own body.
 - [[Resistance]]
 - Sequence 7: Changed to 3 points corresponding to resistance. Sequence 7
 - Sequence 5: Changed to 5 points corresponding to resistance. [[Sequence 5]]
+
+- **Effect:** Extraordinary Physical Abilities resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

@@ -1,12 +1,20 @@
 ---
-title: "Sequence 1: The Worm of Time"
-id: "error-path-seq-01"
-tags: ["pathway:error-path", "sequence:1"]
+title: 'Sequence 1: Worm of Time'
+id: error-seq-01
+tags:
+- pathway:error
+- sequence:1
 ---
 
-# Sequence 1: The Worm of Time
+
+
+
+
+# Error Pathway: Sequence 1
 
 - See also: Pathway
+
+## Worm of Time
 
 ## Advancement
 
@@ -23,6 +31,37 @@ tags: ["pathway:error-path", "sequence:1"]
 - **Attribute Gain:** **Intuition (INT)** +1, **Agility (DEX)** +1; your **Deceit** and one chosen skill level up by 1 skill level.
 
 ### Time Authority
+
+```yaml ability
+id: error-seq-01-time-authority
+name: Time Authority
+pathway: error
+sequence: 1
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Choose a **scene** or a single **target**, depending on the chosen effect.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- mobility
+text: 'Cost: 5 spirituality points. [[Spirituality]] Use: 1 Casting Action. Casting
+  Action Limits: Twice per encounter. Encounter Targeting and range: Choose a scene
+  or a single target, depending on the chosen effect. Choose one of the following
+  effects when you use Time Authority: Time Acceleration: The pointer moves forward
+  rapidly, and time acceleration appears in the largest city within the range you
+  specify; the specific state time will be advanced according to your spiritual consumption,
+  as if you have experienced the erosion of time. During combat, the time state of
+  the designated target is considered to have passed 5 rounds, approximately equal
+  to one encounter.'
+```
+
+
+
 
 - **Cost:** 5 **spirituality points**. [[Spirituality]]
 - **Use:** 1 **Casting Action**. Casting Action
@@ -48,8 +87,41 @@ Choose one of the following effects when you use **Time Authority**:
   - The pointer rotates counterclockwise quickly, and everyone’s state changes back to five rounds ago, which is roughly equivalent to an encounter.
   - Also for reference, this ability is the reverse of time acceleration; the **GM** decides how time acceleration effects are restored through this ability.
 
+- **Effect:** Time Authority resolves using its yaml ability block and section prose.
+
+
 ### Stealing
+
+```yaml ability
+id: error-seq-01-stealing
+name: Stealing
+pathway: error
+sequence: 1
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: If you become the King of Angels [[King of Angels]] (multiple copies
+  of Sequence 1 characteristics Sequence 1 characteristics or accommodate uniqueness
+  [[uniqueness]]), then your stealing can try to steal the authority of Sequence 0
+  [[Sequence 0]] for a short time. Even if youre not, you can already steal other
+  peoples time, and steal other peoples anchors [[anchors]] on a large scale. The
+  latter requires you to steal in a concentration place of believers. [[concentration
+  place of believers]]'
+```
+
+
+
 
 - **Effect:** If you become the **King of Angels** [[King of Angels]] (multiple copies of **Sequence** 1 characteristics Sequence 1 characteristics or accommodate **uniqueness** [[uniqueness]]), then your stealing can try to steal the authority of **Sequence** 0 [[Sequence 0]] for a short time.
 - Even if you’re not, you can already steal other people’s time, and steal other people’s **anchors** [[anchors]] on a large scale.
   - The latter requires you to steal in a concentration place of believers. [[concentration place of believers]]
+
+- **Limits:** As described in this section's prose.

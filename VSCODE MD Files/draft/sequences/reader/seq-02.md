@@ -1,14 +1,34 @@
 ---
-title: "Sequence 2: Wisdom Angel"
-id: "reader-seq-02"
-tags: ["pathway:reader", "sequence:2"]
+title: 'Sequence 2: Knowledge Emperor'
+id: reader-seq-02
+tags:
+- pathway:reader
+- sequence:2
 ---
+
+
+
+
 
 # White Tower Pathway: Sequence 2
 
-## Wisdom Angel
+## Knowledge Emperor
 
 > **Lore:** The Angel of the White Tower Passage.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -18,6 +38,36 @@ tags: ["pathway:reader", "sequence:2"]
 - Increase all **Intuition (INT)**-related skills by 1 level.
 
 ### The Temples Come Down
+
+```yaml ability
+id: reader-seq-02-the-temples-come-down
+name: The Temples Come Down
+pathway: reader
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Covers an area up to 10 kilometers.
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+text: 'Cost: 10 Spirituality each round. [[Spirituality]] Use: 1 Casting Action. Casting
+  Action Targeting and range: Covers an area up to 10 kilometers. Effect: Your Temple
+  of Knowledge immediately materializes within the area. [[Temple of Knowledge]] Every
+  book within becomes physical (can be touched and read). While you are within the
+  area, you gain all of the following benefits: Automatic absorption of written/visual
+  knowledge: Knowledge carriers presented as words, pictures, etc. are automatically
+  read by the Temple at a speed of up to 100 pages per round. Identical-content books
+  consolidate into bookshelves, and their information is printed immediately into
+  your mind. Limit: Repeated knowle...'
+```
+
+
+
 
 - **Cost:** 10 **Spirituality** each round. [[Spirituality]]
 - **Use:** 1 **Casting Action**. Casting Action
@@ -36,7 +86,40 @@ tags: ["pathway:reader", "sequence:2"]
 
 5. **Awakened intellect:** Non-intelligent creatures, undead, and animals in the area gain intelligence. They can no longer be enslaved unless they do so voluntarily or are **Suppressed** (under a suppression effect that negates extraordinary abilities).
 
+- **Limits:** As described in this section's prose.
+
+
 ### Wisdom Use
+
+```yaml ability
+id: reader-seq-02-wisdom-use
+name: Wisdom Use
+pathway: reader
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Cost: 5 Spirituality per use. [[Spirituality]] Use: When you cast an Extraordinary
+  Ability, you may choose one skill you have already mastered and incorporate it into
+  that AbilityaTMs effect. [[id:alias-extraordinary-abilities|Extraordinary Abilities]]
+  If you want to use any of the effects below, the corresponding skill must reach
+  Master, or be replaced by Pathway Knowledge (Master). #### Power-related Climbing:
+  If your Ability is blocked by a wall, you may select targets through the wall. The
+  surrounding wall must be hollow and not sealed. Swim: Whatever form your Abilities
+  take (even fire), they can exist underwater. Throwing: You may use the Ability in
+  place of a Throwing check; if so,...'
+```
+
+
+
 
 - **Cost:** 5 **Spirituality** per use. [[Spirituality]]
 - **Use:** When you cast an **Extraordinary Ability**, you may choose one skill you have already mastered and incorporate it into that Abilityâ€™s effect. [[id:alias-extraordinary-abilities|Extraordinary Abilities]]
@@ -66,3 +149,6 @@ If you want to use any of the effects below, the corresponding skill must reach 
 - **Crafting:** When an Ability is used on an item, you understand its composition.
 - **History:** Any Ability reveals the affected thingâ€™s position in your known history (era/lineage) and whether it is connected to known events.  
 - **Use of the Library:** Any Ability can determine whether the target has knowledge carriers (words, pictures, etc.). If the target has no [[id:alias-anti-divination|Anti-Divination]] feature, its content is revealed.
+
+- **Effect:** Wisdom Use resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

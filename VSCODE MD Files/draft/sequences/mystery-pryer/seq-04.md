@@ -1,12 +1,18 @@
 ---
-title: "Sequence 4: Mysticologist"
-id: "myster-pryer-seq-04"
-tags: ["pathway:myster-pryer", "sequence:4"]
+title: 'Sequence 4: Conspiracy Theorist'
+id: mystery-pryer-seq-04
+tags:
+- pathway:mystery-pryer
+- sequence:4
 ---
 
-# Sequence 4: Mysticologist
 
-## Mysticologist
+
+
+
+# Hermit Pathway: Sequence 4
+
+## Conspiracy Theorist
 
 - There are different specialties depending on the analyzed blood.
 - The [[Secret Eye]] is upgraded in essence: it can be opened/closed freely and placed on others.
@@ -31,6 +37,36 @@ tags: ["pathway:myster-pryer", "sequence:4"]
 
 ### Mystery-Peeping Eyes
 
+```yaml ability
+id: mystery-pryer-seq-04-mystery-peeping-eyes
+name: Mystery-Peeping Eyes
+pathway: mystery-pryer
+sequence: 4
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+text: 'Use: As a Free Action, open or close your prying eye, or place it on someone
+  else. Effect: If the prying eye sees, the user sees. The prying eye may enter a
+  hidden state. The hidden eye cannot be found by [[id:alias-spirit-vision|Spirit
+  Vision]] except by [[Wheel of Fortune]] and the [[Voyeur]]. Limits / Exceptions:
+  A [[White Tower]] is allowed to spot the prying eye with a [[spot spell]], but only
+  if they cast that spot spell voluntarily or by accident; otherwise, they cannot
+  detect it. Under certain or suspected circumstances, a Reader of the Middle Sequence
+  may be permitted to make a Difficulty Value 25 Intuition (INT) check to detect something
+  amiss.'
+```
+
+
+
+
 - **Use:** As a **Free Action**, open or close your prying eye, or place it on someone else.
 - **Effect:**
   - If the prying eye sees, the user sees.
@@ -40,7 +76,41 @@ tags: ["pathway:myster-pryer", "sequence:4"]
   - A [[White Tower]] is allowed to spot the prying eye with a [[spot spell]], but only if they cast that spot spell voluntarily or by accident; otherwise, they cannot detect it.
   - Under certain or suspected circumstances, a Reader of the Middle Sequence may be permitted to make a **Difficulty Value** 25 Intuition (INT) check to detect something amiss.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Mythical Blood
+
+```yaml ability
+id: mystery-pryer-seq-04-mythical-blood
+name: Mythical Blood
+pathway: mystery-pryer
+sequence: 4
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- offense
+text: 'Use: A free action. Cost: 3 spirituality points [[Spirituality]]. Effect: Based
+  on the mythical creature blood you parsed when you ascended, you are allowed to
+  have a core ability corresponding to that creature''s Pathway. Example (Serpent
+  of Destiny blood): In one encounter, you can get 15 points of luck [[id:alias-luck|luck]].
+  This luck can be used to [[id:alias-burn-luck|burn luck]], or you can use all 15
+  points of luck in one round to gain one chancebecause of luckto completely avoid
+  a whole round of damage. Damage can only be avoided for a full round. If you have
+  used some of the 15 points of luck and still need to avoid damage, the missing luck
+  will be replaced by your own luck.'
+```
+
+
+
 
 - **Use:** A free action.
 - **Cost:** 3 **spirituality points** [[Spirituality]].
@@ -52,7 +122,39 @@ tags: ["pathway:myster-pryer", "sequence:4"]
   - If you have used some of the 15 points of luck and still need to avoid damage, the missing luck will be replaced by your own luck.
 - Mythical blood abilities within a reasonable range are allowed by other GMs.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Mysterious Reappearance
+
+```yaml ability
+id: mystery-pryer-seq-04-mysterious-reappearance
+name: Mysterious Reappearance
+pathway: mystery-pryer
+sequence: 4
+type: active
+action: cast
+cost:
+  spirituality: 8
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Cost: A Casting Action consumes 4 spirituality points. Use: Use a Mysterious
+  Reappearance created by you. Effect: Draw power from mastered mystic knowledge to
+  create magic or witchcraft. The less people know about the corresponding mystic
+  knowledge and the less it is spread, the more powerful the spell will be. You must
+  create it based on your existing mystic knowledge; the degree of secrecy determines
+  its strength. Limits / Adjudication: This ability has a high degree of freedom and
+  must be decided by the Mysticologist (occultist) and the GM through consultation.'
+```
+
+
+
 
 - **Cost:** A Casting Action consumes 4 spirituality points.
 - **Use:** Use a Mysterious Reappearance created by you.
@@ -85,3 +187,5 @@ tags: ["pathway:myster-pryer", "sequence:4"]
   - Without knowledge from [[id:alias-earth|Earth]], an occultist usually cannot master fairytale magic. Instead, they create Mysterious Reappearances of real mystic events that have occurred in history.
   - The resulting creations are called [[mystical reenactments]] rather than fairytale magic.
   - The mystic knowledge to be reproduced must be real enough to have happened exactly; the less it is known, the stronger it is. Conversely, the more people know about it and the less secret it is, the less effective it will be.
+
+- **Limits:** As described in this section's prose.

@@ -1,10 +1,32 @@
 ---
-title: "Sequence 6: Scroll Professor"
-id: "myster-pryer-seq-06"
-tags: ["pathway:myster-pryer", "sequence:6"]
+title: 'Sequence 6: Scrolls Professor'
+id: mystery-pryer-seq-06
+tags:
+- pathway:mystery-pryer
+- sequence:6
 ---
 
-# Sequence 6: Scroll Professor
+
+
+
+
+# Hermit Pathway: Sequence 6
+
+## Scrolls Professor
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -14,6 +36,32 @@ tags: ["pathway:myster-pryer", "sequence:6"]
 - Your [[Occult]] / [[Occult Language]] can be quickly raised to [[Erudition]] (treat Erudition as the standard skill rank).
 
 ### Scroll Scribe
+
+```yaml ability
+id: mystery-pryer-seq-06-scroll-scribe
+name: Scroll Scribe
+pathway: mystery-pryer
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'You can transcribe magic into scrolls. Cost: 1 piece of [[Parchment]] (consumed).
+  Use: Takes 1 minute to conduct a [[Mystery]] with a difficulty of 25; if the Identification
+  is successful, the spell is successfully copied into the scroll. Effect: Spells
+  transcribed are limited to the effects of: [[Voyeur Spells]] [[Timber Witchcraft]]
+  [[Ritual Magic]]'
+```
+
+
+
 
 You can transcribe magic into scrolls.
 
@@ -35,7 +83,42 @@ You can transcribe magic into scrolls.
 2. The shelf life of the scroll is 7 days; the effect will not be reduced.
    > **GM Note:** Usually, there will be no [[Demigod Materials]] to make [[Demigod Scrolls]].
 
+- **Limits:** As described in this section's prose.
+
+
 ### Scroll Improvement
+
+```yaml ability
+id: mystery-pryer-seq-06-scroll-improvement
+name: Scroll Improvement
+pathway: mystery-pryer
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- buff
+- defense
+- offense
+text: 'For an ability copied into a scroll by you that has not obtained Knowledge
+  Enhancement (but comes from other means), you can apply Knowledge Enhancement to
+  it within the scroll. Use: The moment you craft another Pathway ability scroll,
+  choose one benefit to add to the embedded ability. Effect (choose one): Originally
+  required continuous maintenance: The scroll cannot continuously maintain the effect.
+  Instead, make an Occult check against Will defense; on success, apply the corresponding
+  effect for 1d2 rounds. [[Occult check]] Willpower Defense > GM Note: Originally,
+  mental abilities are against Will defense; physical damage abilities are against
+  [[Physical Defense]]; and those affected by...'
+```
+
+
+
 
 For an ability copied into a scroll by you that has not obtained Knowledge Enhancement (but comes from other means), you can apply Knowledge Enhancement to it within the scroll.
 
@@ -58,3 +141,6 @@ For an ability copied into a scroll by you that has not obtained Knowledge Enhan
 > **GM Note:** Although the above scroll improvements may seem to make the Scroll Professor more powerful than the original caster, it is not entirely true. For example, the fireball created in the [[Red Priest]]’s [[Manipulation of Flames]] is **2d10** initial damage, which requires continuous compression of the flames to achieve **4d10** or even **5d10** damage.
 >
 > The Scroll Professor’s scroll can only do one of the effects of creating fireballs or compressing flames at a time. In other words, compared to a Red Priest, the Scroll Professor can only cause **2d10** damage in the end (there may be an additional bonus of **1d10**), while the Red Priest can cause **4d10** or even **5d10** damage.
+
+- **Effect:** Scroll Improvement resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

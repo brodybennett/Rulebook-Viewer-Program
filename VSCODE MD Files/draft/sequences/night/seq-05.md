@@ -1,12 +1,20 @@
 ---
-title: "Sequence 5: Spirit Warlock"
-id: "night-seq-05"
-tags: ["pathway:night", "sequence:5"]
+title: 'Sequence 5: Spirit Warlock'
+id: night-seq-05
+tags:
+- pathway:night
+- sequence:5
 ---
 
-# Sequence 5: Spirit Warlock
+
+
+
+
+# Darkness Pathway: Sequence 5
 
 > **Lore:** Your control over spirits improves greatly. You are skilled at driving **Natural Spirits** and can seal both natural spirits and resentful ghost shadows on your teeth, gaining their abilities and assistance.
+
+## Spirit Warlock
 
 ## Advancement
 
@@ -25,11 +33,72 @@ tags: ["pathway:night", "sequence:5"]
 
 ### Spirit Seal
 
+```yaml ability
+id: night-seq-05-spirit-seal
+name: Spirit Seal
+pathway: night
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Seal: 1 Casting Action. Choose a helpless/voluntary [[Spirit Body]] in front
+  of you and seal it onto one of your teeth. Capacity: The number of your teeth determines
+  the number of spirit bodies you can seal. Adults are usually 2832 capsules. Release:
+  As a [[Quick Action]], tap your teeth to release a sealed spirit body to fight alongside
+  you.'
+```
+
+
+
+
 - **Seal:** 1 Casting Action. Choose a helpless/voluntary [[Spirit Body]] in front of you and seal it onto one of your teeth.
 - **Capacity:** The number of your teeth determines the number of spirit bodies you can seal. Adults are usually 28–32 capsules.
 - **Release:** As a [[Quick Action]], tap your teeth to release a sealed spirit body to fight alongside you.
 
+- **Effect:** Spirit Seal resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Drive the Soul
+
+```yaml ability
+id: night-seq-05-drive-the-soul
+name: Drive the Soul
+pathway: night
+sequence: 5
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- mobility
+- offense
+text: 'Effect: If you release at least one sealed spirit body, you can manipulate
+  released spirits to act for you without taking an action. Spirit action types: The
+  spirits you can manipulate are usually divided into two types: Nature Spirit: Each
+  round has 1 casting/Attack Action and 1 Move Action. Either action can be converted
+  into 2 Swift Action, and the converted actions cannot be executed. Undead: Has only
+  1 action per round. It can be used as an attack/casting or Move Action. This action
+  can also be converted into 2 swift actions. Special: Regardless of type, spirits
+  can: use their extraordinary abilities, drive your [[Extraordinary Items]], use
+  your ability to recite poems (you must teac...'
+```
+
+
+
 
 - **Effect:** If you release at least one sealed spirit body, you can manipulate released spirits to act for you **without taking an action**.
 - **Spirit action types:** The spirits you can manipulate are usually divided into two types:
@@ -76,3 +145,5 @@ In general, you can animate the following spirits:
    **Special:** Spirits affected by fear immediately flee to a place they believe is safe and give up fighting (e.g., fleeing to the gatekeeper’s inner body of the [[Underworld]]). This “powerful” spirit likely belongs to the level of Sequence 6–5. [[Gatekeeper]]
 2. A spirit with a blood limit of 30 can continue to consume 1 movement action to help the owner fly. This flight does not consume the owner’s own movement action, but the movement force equals your Intuition (INT), and the speed is not doubled.
 3. All spirits ignore physical damage and poison damage, and have [[Night Vision]]. Additional resistances are listed separately.
+
+- **Limits:** As described in this section's prose.

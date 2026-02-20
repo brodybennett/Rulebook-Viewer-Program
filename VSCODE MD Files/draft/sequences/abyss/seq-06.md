@@ -1,16 +1,36 @@
 ---
-title: "Sequence 6: Devil"
-id: "abyss-seq-06"
-tags: ["pathway:abyss", "sequence:6"]
+title: 'Sequence 6: Devil'
+id: abyss-seq-06
+tags:
+- pathway:abyss
+- sequence:6
 ---
 
-# Sequence 6: Devil
+
+
+
+
+# Abyss Pathway: Sequence 6
 
 ## Devil
 
 A **Beyonder** at this **Sequence** can manifest a demon-like form—often growing to nearly 3 meters tall—with major boosts to combat capability and a heightened risk of losing control.
 
 > **Lore:** Different people may imagine demons differently; the appearance described here is only a reference.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -21,6 +41,37 @@ A **Beyonder** at this **Sequence** can manifest a demon-like form—often growi
 
 ### Dehumanization
 
+```yaml ability
+id: abyss-seq-06-dehumanization
+name: Dehumanization
+pathway: abyss
+sequence: 6
+type: active
+action: cast
+cost:
+  sanity: 3
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- debuff
+text: 'Effect: Your humanity and emotions have been almost completely wiped out. Effect
+  (upgrade): On the basis of Sequence 8 Dehumanization, you will no longer fall into
+  states of [[charm]], [[fear]], [[anger]], etc. These states can no longer have any
+  effect on you. Sanity / Rationality: Every time you make a [[Sanity / Rationality
+  Loss]], the sanity loss check is +4 disadvantageous, and the maximum loss limit
+  for the success and failure of the sanity check is doubled. Example: a sanity loss
+  of 1d2/1d4 becomes 1d4/1d8. (Sanity / Rationality loss of class 0/1 becomes 1/1d2;
+  1/1d3 sanity loss becomes 1d2/1d6, etc.) Special: Emotional states created by one
+  person higher than you have half the eff...'
+```
+
+
+
+
 - **Effect:** Your humanity and emotions have been almost completely wiped out.
 - **Effect (upgrade):** On the basis of Sequence 8 Dehumanization, you will no longer fall into states of [[charm]], [[fear]], [[anger]], etc. These states can no longer have any effect on you.
 - **Sanity / Rationality:** Every time you make a [[Sanity / Rationality Loss]], the **sanity loss check** is **+4 disadvantageous**, and the maximum loss limit for the success and failure of the **sanity check** is doubled.  
@@ -30,6 +81,37 @@ A **Beyonder** at this **Sequence** can manifest a demon-like form—often growi
 - **Limits:** This is a potion benefit that cannot be recorded or stolen.
 
 ### Demonization
+
+```yaml ability
+id: abyss-seq-06-demonization
+name: Demonization
+pathway: abyss
+sequence: 6
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- control
+- offense
+text: 'Cost: 1 Swift Action. Sanity / Rationality: Perform an SC (1/1d3). Effect:
+  According to your blood, race, and race, you burn your reason and become a demon
+  dominated by killing. You immediately take the form of a demon of your race, ethnicity,
+  and custom image. This image should be strongly associated with your previously
+  custom demon-like spell. You can choose the classic demon image with goat horns,
+  or you can choose various grotesque appearances from mythology. These demon images
+  represent part of your abilities. For example, some demons may turn into water bodies
+  on the basis of being able to control fire, and some may control thunder. Demonized
+  state benefits: The demon form will bec...'
+```
+
+
+
 
 - **Cost:** 1 Swift Action.
 - **Sanity / Rationality:** Perform an **SC (1/1d3)**.
@@ -47,7 +129,43 @@ A **Beyonder** at this **Sequence** can manifest a demon-like form—often growi
 - **Ending demonization:** Removing the demonized state requires a Full-Round Action to adjust.
 - **Aftereffects:** Ordinary demonization may burst your clothes.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Arrogance: Flaming Horns
+
+```yaml ability
+id: abyss-seq-06-arrogance-flaming-horns
+name: 'Arrogance: Flaming Horns'
+pathway: abyss
+sequence: 6
+type: active
+action: cast
+cost:
+  spirituality: 4
+roll: null
+opposed_by: willpower_defense
+range: Choose 1 target within the field of vision.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- defense
+text: 'Effect: The goat horns on the top of your head are curved and protruding, covered
+  with countless mysterious patterns. Limits: The image of the Flaming Horn can be
+  customized, but the following content can only be used after reaching [[Sequence
+  5]]: Cost: 1 Casting Action; consume 2 spirituality points. Targeting and range:
+  Choose 1 target within the field of vision. Check: Intuition (INT) against will
+  defense. Effect: You burn the goat horns on your head, and forcefully impact the
+  enemy''s spirit. After the identification is successful, based on the content of
+  the catalyzed emotion, you give the other party an emotion that has not been catalyzed,
+  which lasts until the end of the encounter,...'
+```
+
+
+
 
 - **Effect:** The goat horns on the top of your head are curved and protruding, covered with countless mysterious patterns.
 - **Limits:** The image of the Flaming Horn can be customized, but the following content can only be used after reaching [[Sequence 5]]:
@@ -60,6 +178,42 @@ A **Beyonder** at this **Sequence** can manifest a demon-like form—often growi
   - **Special:** If the ability to control desire is lost, the ability will also disappear (this is a branch of controlling desire). [[control desire]]
 
 ### Fallen Wings
+
+```yaml ability
+id: abyss-seq-06-fallen-wings
+name: Fallen Wings
+pathway: abyss
+sequence: 6
+type: active
+action: cast
+cost:
+  spirituality: 2
+roll: null
+opposed_by: physical_defense
+range: Each fireball is identified individually, and you can choose different targets
+  or all the same targets.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- mobility
+- debuff
+- defense
+- offense
+text: 'Effect: There are a pair of bat-like giant wings spread out behind you. The
+  image of the wings can be customized, and you can fly in the air at the speed of
+  2 times your movement power from now on. Special (Brimstone fireballs): Cost: 1
+  Casting Action. Each fireball consumes 1 spirituality point. Effect: Your giant
+  wings spread out, creating light blue brimstone fireballs one after another. The
+  number of fireballs you can launch at one time is equal to your Intuition (INT).
+  Targeting and range: Each fireball is identified individually, and you can choose
+  different targets or all the same targets. Check: Occult against physical defense.
+  Damage: Each fireball causes 3d6 fire and 1d6 poison...'
+```
+
+
+
 
 - **Effect:** There are a pair of bat-like giant wings spread out behind you. The image of the wings can be customized, and you can fly in the air at the speed of 2 times your movement power from now on.
 - **Special (Brimstone fireballs):**
@@ -74,13 +228,78 @@ A **Beyonder** at this **Sequence** can manifest a demon-like form—often growi
 
   - (Because the third fireball fails by default, that is, a maximum of 3 identifications can be made, instead of 8–12 identifications.)
 
+- **Limits:** As described in this section's prose.
+
+
 ### Magic Scale Armor
+
+```yaml ability
+id: abyss-seq-06-magic-scale-armor
+name: Magic Scale Armor
+pathway: abyss
+sequence: 6
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- defense
+- offense
+text: 'Effect: You seem to be wearing a thick and hard armor, and the blood and flesh
+  are also extremely elastic and resistant. 1) This is regarded as a kind of skin
+  armor. The specific image can be customized, but it usually looks bleak, dark, and
+  evil. 2) You gain 5 points of armor and 8 points of damage reduction. If the armor
+  is damaged, it can be repaired with 1 Full-Round Action.'
+```
+
+
+
 
 - **Effect:** You seem to be wearing a thick and hard armor, and the blood and flesh are also extremely elastic and resistant.
 - 1) This is regarded as a kind of skin armor. The specific image can be customized, but it usually looks bleak, dark, and evil.
 - 2) You gain **5** points of armor and **8** points of damage reduction. If the armor is damaged, it can be repaired with **1** Full-Round Action.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Body of the Abyss
+
+```yaml ability
+id: abyss-seq-06-body-of-the-abyss
+name: Body of the Abyss
+pathway: abyss
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- debuff
+- defense
+- offense
+text: 'Effect: You are immune to most poisons, and you are not afraid of curses and
+  flames to a certain extent. Effect: You automatically gain [[magma attachment]].
+  You gain 10 poison resistance and 5 curse resistance. Fast dodge: You retain full
+  agility and dodge defenses against guns but not light/lightning, but you still cannot
+  dodge those extraordinary abilities that cannot be dodged. Extra: When you face
+  non-gun-like high-speed attacks, such as [[Red Priest''s Flame]] or [[Witch''s Ice
+  Lance]]: For any attack whose described speed does not reach the level of a gun,
+  unless it must be hit, not only will you not lose your agility and dodge defense,
+  but you will also get an additional dodge bonus...'
+```
+
+
+
 
 - **Effect:** You are immune to most poisons, and you are not afraid of curses and flames to a certain extent.
 - **Effect:** You automatically gain [[magma attachment]]. You gain **10** poison resistance and **5** curse resistance.
@@ -92,6 +311,40 @@ A **Beyonder** at this **Sequence** can manifest a demon-like form—often growi
 - **Limits:** (The body of the abyss is an explanation that comes with a demon, which cannot be stolen or recorded, and is just listed separately.)
 
 ### Demonic Spells
+
+```yaml ability
+id: abyss-seq-06-demonic-spells
+name: Demonic Spells
+pathway: abyss
+sequence: 6
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: Choose a target within a range of 8 meters.
+target: designated target(s)
+duration: Starting on the second round and maintaining it requires **2** spirituality
+  points per round.
+scaling: []
+tags:
+- ritual
+- debuff
+- defense
+- offense
+text: 'Your demonic spells are already true demonic spells, and are in part superior
+  versions of your former abilities. You get the following demonic spells (all of
+  which you now get if you didn''t have their predecessors before). #### The filthy
+  word "death" Cost: 1 Swift Action; consume 2 points of spirituality; once per round,
+  you can only choose one foul language to use in one round. Targeting and range:
+  Choose a target within a range of 8 meters. Check: Intuition (INT) -4 against will
+  defense. Damage: On a success, cause 2d6+5 curse damage. This is regarded as a vital
+  blow to the heart, and you can get additional damage from the critical blow. ####
+  The foul language "slow" Cost: 1 Swift Acti...'
+```
+
+
+
 
 Your demonic spells are already true demonic spells, and are in part superior versions of your former abilities. You get the following demonic spells (all of which you now get if you didn't have their predecessors before).
 
@@ -194,4 +447,3 @@ Your demonic spells are already true demonic spells, and are in part superior ve
 - **Notes:**
   - (You can still use incomplete demonic spells before Sequence 6. The order of demonic spells is the same as that of Sequence 8's demon-like spells, so you can tell which ability is the upper version of which demon-like spell.)
   - (If you are a Sequence 7 and strengthening abilities through the sacrificial ceremony: you can only evolve into one of the corrupted words for hurting people; these cannot be suppressed by silence and still take effect. Strengthen the acquired ability)
-

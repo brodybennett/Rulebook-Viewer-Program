@@ -1,12 +1,20 @@
 ---
-title: "Sequence 7: Witch"
-id: "demoness-seq-07"
-tags: ["pathway:Demoness", "sequence:7"]
+title: 'Sequence 7: Witch'
+id: demoness-seq-07
+tags:
+- pathway:demoness
+- sequence:7
 ---
 
-# Sequence 7: Witch
+
+
+
+
+# Demoness Pathway: Sequence 7
 
 > **Lore:** Advancing to Witch reshapes the body toward striking beauty and charm.
+
+## Witch
 
 ## Advancement
 
@@ -37,11 +45,73 @@ You gain the following **extraordinary abilities**.
 
 ### Mysticism Growth and Identity Effects
 
+```yaml ability
+id: demoness-seq-07-mysticism-growth-and-identity-effects
+name: Mysticism Growth and Identity Effects
+pathway: demoness
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- divination
+text: 1 Your [[Mysticism]] has been included in the rapid growth category of Sequence
+  9, and it can be upgraded to proficient at most. 2 If you were originally a male,
+  then when you transform into a female, divination, prophecy, etc. that point to
+  your original male identity (excluding past occult information) will be invalid
+  because of the wrong gender designation, as if you evaporated. Only correct divinations
+  that assume you are female and point to your new name (if any) will work.
+```
+
+
+
+
 - ① Your [[Mysticism]] has been included in the rapid growth category of Sequence 9, and it can be upgraded to proficient at most.
 - ② If you were originally a male, then when you transform into a female, divination, prophecy, etc. that point to your original male identity (excluding past occult information) will be invalid because of the wrong gender designation, as if you “evaporated.”
   - Only correct divinations that assume you are female and point to your new name (if any) will work.
 
+- **Effect:** Mysticism Growth and Identity Effects resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Curse
+
+```yaml ability
+id: demoness-seq-07-curse
+name: Curse
+pathway: demoness
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- debuff
+text: 'You can add a curse to the target or perform a curse ceremony through various
+  mystical information such as flesh and blood and [[True Name]]. Cost: 3 [[Spirituality]]
+  Use: As a Casting Action, choose a target of flesh and blood whose true name you
+  know. Effect: 1 If you only know the real name, you need to sacrifice your life
+  and cast curse-related ritual magic to complete the curse. If you hold the targets
+  flesh and blood, then you can directly curse the target, and this time the curse
+  must succeed. 2 After success, the target will fall into a Cursed State. If the
+  target is an ordinary person and knows that they are cursed by you, they may also
+  fall into a state of fear of you. #### Curs...'
+```
+
+
+
 
 You can add a **curse** to the target or perform a curse ceremony through various mystical information such as flesh and blood and [[True Name]].
 
@@ -63,7 +133,38 @@ You can add a **curse** to the target or perform a curse ceremony through variou
 
 - [[id:alias-sequence-6|Sequence 6]]: With a quick action once in a round, a curse connection can be established through flesh and blood.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Ritual of Curse
+
+```yaml ability
+id: demoness-seq-07-ritual-of-curse
+name: Ritual of Curse
+pathway: demoness
+sequence: 7
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: The casting range covers a city.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- debuff
+text: 'You cast a large area-specific curse through ritual magic. Duration/Upkeep:
+  For about 1 week, consume 5 points of [[Spirituality]] every day. Range: The casting
+  range covers a city. Rules status: This is essentially [[Ritual Magic]], not a Beyonder
+  ability; therefore, even if the Curse ability is lost, the ritual can still be performed.
+  Prayed God: The default is Chick, the Primordial Witch. #### Site Setup First select
+  an altar area with a radius of 10 meters. Prepare the initial ceremony in 5 minutes.'
+```
+
+
+
 
 You cast a large area-specific curse through ritual magic.
 
@@ -107,7 +208,42 @@ Before starting the ceremony:
 - **Special:** If you give up the ritual and remove the spiritual wall, the accumulated ghosts will immediately lose control and start indiscriminately attacking everyone around, or possessing plants to entangle and attack creatures or attack directly, until it becomes difficult to maintain their existence after one hour.
 - **Note:** As a kind of ritual magic knowledge, if extraordinary from other paths understand this ritual and have the ability to perform ritual magic, they can also use it, but they also need to pray to the gods with the ability to curse.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Black Flame
+
+```yaml ability
+id: demoness-seq-07-black-flame
+name: Black Flame
+pathway: demoness
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Choose 1 target within 30 meters
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- debuff
+- defense
+- offense
+text: 'You have been favored by the Black Flame. A hot and treacherous black flame
+  emerges from your spirituality. From this moment on, you will annihilate ghosts
+  and rot creatures. Black Flame spreads like a real flame, but there is no sound
+  during the spreading process. It only burns flames with spirituality and life. It
+  ignores 5 points of [[Curse Resistance]]. It can be used to deal with the scene:
+  burning corpses and traces as if they never existed. When the target has no curse
+  resistance and the ignored resistance therefore overflows, the ignored resistance
+  is changed to a damage bonus. #### Remote Attack'
+```
+
+
+
 
 You have been favored by the **Black Flame**.
 
@@ -163,6 +299,37 @@ You have been favored by the **Black Flame**.
 
 ### Frost Mastery
 
+```yaml ability
+id: demoness-seq-07-frost-mastery
+name: Frost Mastery
+pathway: demoness
+sequence: 7
+type: active
+action: attack
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'You have gained the favor of ice. Ice can condense on your body surface; places
+  you walk are covered with frost; snowflakes float in the air. #### Long-Range Attack
+  Use: An Attack Action Cost: 2 [[Spirituality]] Effect: Ice bursts from your palm;
+  frost quickly condenses into an ice spear filled with hoarfrost and surrounded by
+  cold smoke. Check: Roll against [[Physical Defense]] Damage: 3d6 + strength damage
+  dice cold damage Aftereffects: The targets muscles tremble; frost cascades; ice
+  crystals condense. The targets next check within 1 round is -2 disadvantageous,
+  and has no effect on targets with [[Cold Resistance]].'
+```
+
+
+
+
 You have gained the favor of ice. Ice can condense on your body surface; places you walk are covered with frost; snowflakes float in the air.
 
 #### Long-Range Attack
@@ -196,7 +363,35 @@ You have gained the favor of ice. Ice can condense on your body surface; places 
 - [[Sequence 5]]: Damage increased by 1d6.
 - [[id:alias-sequence-4|Sequence 4]]: Damage increased by 2d6.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Mirror Stand-in
+
+```yaml ability
+id: demoness-seq-07-mirror-stand-in
+name: Mirror Stand-in
+pathway: demoness
+sequence: 7
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: Choose a mirror within 10 meters.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'You use a mirror as your stand-in. Use: 1 Casting Action Cost: Consumes 4 [[Spirituality
+  Limit]] Requirement: Prepare a complete mirror (vanity mirror, silver mirror, or
+  a large floor-to-ceiling mirror). #### Use a Mirror Use: 1 free action Cost: 2 [[Spirituality]]
+  Targeting and range: Choose a mirror within 10 meters.'
+```
+
+
+
 
 You use a mirror as your **stand-in**.
 
@@ -234,7 +429,37 @@ You use a mirror as your **stand-in**.
 - **Effect (on success):** Create a Cursed State, using the mirror or fragments as the medium.
 - The curse relationship established this way supports melee attacks and directly grabbing into the mirror to directly attack the cursed target.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Wand Substitution
+
+```yaml ability
+id: demoness-seq-07-wand-substitution
+name: Wand Substitution
+pathway: demoness
+sequence: 7
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'You craft a wand as a stand-in. Use: About 5 minutes Cost: Consume 3 points
+  of [[Spirituality Limit]] Crafting requirement: Crafting a wand requires two [[Credits]]
+  levels; proficient and above credits will not be consumed. Materials: You must bring
+  your own wood or other raw materials, or directly use a walking stick. Form: The
+  wand can be an ordinary black wand, or a gorgeous cane (mastery and above are basically
+  the latter). #### Use the Wand Use: A free action'
+```
+
+
+
 
 You craft a wand as a **stand-in**.
 
@@ -257,7 +482,38 @@ You craft a wand as a **stand-in**.
 
 - When holding the wand, if you take out the wand and use it to cast spells, your [[Occultism]] will temporarily increase by one level.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Invisibility
+
+```yaml ability
+id: demoness-seq-07-invisibility
+name: Invisibility
+pathway: demoness
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: 1 minute
+scaling: []
+tags:
+- ritual
+- divination
+- detection
+- stealth
+text: 'You gain invisibility through special magic powder. #### Hide Face Use: 1 Casting
+  Action Cost: 1 [[Spirituality]] Effect: Make the face hazy and blurred. Except for
+  the special vision of the [[Eye of Mystery/Fate]], others usually cannot see your
+  face clearly. Duration: 1 minute Limits: Personal goals only. #### Hidden Body Shape'
+```
+
+
+
 
 You gain **invisibility** through special magic powder.
 

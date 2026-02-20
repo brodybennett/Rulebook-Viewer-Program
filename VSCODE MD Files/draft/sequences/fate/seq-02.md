@@ -1,8 +1,14 @@
 ---
-title: "Sequence 2: Soothsayer"
-id: "fate-seq-02"
-tags: ["pathway:fate", "sequence:2"]
+title: 'Sequence 2: Soothsayer'
+id: fate-seq-02
+tags:
+- pathway:fate
+- sequence:2
 ---
+
+
+
+
 
 # Wheel of Fortune Pathway: Sequence 2
 
@@ -27,6 +33,36 @@ tags: ["pathway:fate", "sequence:2"]
 
 ### Prophet
 
+```yaml ability
+id: fate-seq-02-prophet
+name: Prophet
+pathway: fate
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Use: Three times per day, you can make an Intuition (INT) check, judging what
+  an action in the future (rather than the present) will produce. Effect: You spy
+  on the secrets of future destiny. This can accurately see part of the picture clearly
+  and accurately, and you can even spy on the [[King of Angels]] and [[Uniqueness]]
+  to a certain extent. Difficulty Value 20: The GM tells you whether the outcome of
+  this action is good or bad. Difficulty Value 25: You get a clearer picture. Difficulty
+  Value 30: You almost figure out whats going on. Big success: You figure out how
+  to act in your best interest. Big failure: You accidentally see something you shouldnt.
+  Limits: Every time a Sequence or c...'
+```
+
+
+
+
 - **Use:** Three times per day, you can make an **Intuition (INT)** check, judging what an action in the future (rather than the present) will produce.
 - **Effect:** You spy on the secrets of future destiny. This can accurately see part of the picture clearly and accurately, and you can even spy on the [[King of Angels]] and [[Uniqueness]] to a certain extent.
 - **Difficulty Value 20:** The **GM** tells you whether the outcome of this action is good or bad.
@@ -39,6 +75,37 @@ tags: ["pathway:fate", "sequence:2"]
 - **Extra:** You increase or decrease the chance that the scene you spy on will or won’t happen. For the picture you see, you can control the content in the picture, and you can apply the ability of your [[Destiny Domain]] to the future: endow bad luck or good luck, or reverse good luck and bad luck, so that this thing will happen—or will not happen—when it appears. So you can pretty much manipulate the future orientation, pointing the future where you want it before it happens.
 
 ### River of Fate
+
+```yaml ability
+id: fate-seq-02-river-of-fate
+name: River of Fate
+pathway: fate
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- divination
+- detection
+text: 'Effect: Your connection to the [[River of Fate]] deepens so much that you can
+  perceive things connected to your destiny. Requirements: From now on, anything you
+  make with your own hands (such as an origami crane, or a doll you weave yourself):
+  when they change, you can sense them now, unless blocked by some kind of [[Seal]].
+  These things must have a strong connection with you (i.e., created by you). You
+  can sense a paper crane folded by you yourself, but it is difficult for you to sense
+  an item that is only given luck by you. An object that you simply touched cannot
+  be used for this ability. Sensing details: If something was written on such an item,
+  you can know the content. If it is dest...'
+```
+
+
+
 
 - **Effect:** Your connection to the [[River of Fate]] deepens so much that you can perceive things connected to your destiny.
 - **Requirements:** From now on, anything you make with your own hands (such as an origami crane, or a doll you weave yourself): when they change, you can sense them now, unless blocked by some kind of [[Seal]]. These things must have a strong connection with you (i.e., created by you). You can sense a paper crane folded by you yourself, but it is difficult for you to sense an item that is only given luck by you. An object that you simply touched cannot be used for this ability.

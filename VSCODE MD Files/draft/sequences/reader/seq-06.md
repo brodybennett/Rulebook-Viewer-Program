@@ -1,10 +1,16 @@
 ---
-title: "Sequence 6: Polymath"
-id: "reader-seq-06"
-tags: ["pathway:reader", "sequence:6"]
+title: 'Sequence 6: Polymath'
+id: reader-seq-06
+tags:
+- pathway:reader
+- sequence:6
 ---
 
-# Sequence 6: Polymath
+
+
+
+
+# White Tower Pathway: Sequence 6
 
 ## Polymath
 
@@ -12,6 +18,20 @@ tags: ["pathway:reader", "sequence:6"]
 
 - Unlike the [[Recorder]], the [[Educational Scholar]] imitates by learning and analyzing the principles behind extraordinary abilities.
 - There is no limit to how many times you can use this, but your imitation cannot reach the original ability’s full power.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -22,6 +42,36 @@ tags: ["pathway:reader", "sequence:6"]
 - If you have reached the upper limit of Erudition, you can be upgraded to [[Master]].
 
 ### Analysis
+
+```yaml ability
+id: reader-seq-06-analysis
+name: Analysis
+pathway: reader
+sequence: 6
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Cost: 2 Spirituality ([[Spirituality]]). Use: Free Action ([[Actions]]). Whenever
+  you recognize the use of an extraordinary ability, you may immediately conduct a
+  corresponding [[Extraordinary Knowledge Identification]]. Check: Initial Difficulty
+  20. For each Sequence level this ability is higher than yours: Difficulty +5. Requirements:
+  Some passives or abilities are difficult to recognize or observe, and may require
+  the Beyonder to explain it to you. Aftereffects: When you lose Sanity / Rationality
+  ([[Sanity / Rationality]]) while analyzing an ability: for every 1 Sanity / Rationality
+  lost, apply -1 to the Analysis check. If the Sanity / Rationality loss would reduce
+  you below 1, you sti...'
+```
+
+
+
 
 - **Cost:** 2 **Spirituality** ([[Spirituality]]).
 - **Use:** **Free Action** ([[Actions]]). Whenever you recognize the use of an extraordinary ability, you may immediately conduct a corresponding [[Extraordinary Knowledge Identification]].
@@ -40,8 +90,43 @@ tags: ["pathway:reader", "sequence:6"]
   - Example: a certain path knowledge of +8 means that most abilities can be selected.
   - Generally, such benefits obtained when creating a character cannot exceed your own Sequence limit.
 
+- **Effect:** Analysis resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 
 ### Simulation
+
+```yaml ability
+id: reader-seq-06-simulation
+name: Simulation
+pathway: reader
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- buff
+text: 'Cost: 1 corresponding action consumes the corresponding spirituality. Use:
+  Choose 1 ability that you have analyzed to simulate. Check (First Simulation per
+  ability): The first simulation of a given ability requires a corresponding [[Extraordinary
+  Knowledge Appraisal]] with Difficulty 30. Every time the Analysis appraisal is 5
+  higher than the required difficulty, reduce the required Simulation difficulty by
+  5. If the simulated ability is higher than the Sequence or character, the Difficulty
+  increases as with Analysis. Effect: When using the simulated ability, no matter
+  what the original ability is identified with, you can only change to the corresponding
+  Knowledge identification.'
+```
+
+
+
 
 - **Cost:** 1 corresponding action consumes the corresponding spirituality.
 - **Use:** Choose 1 ability that you have analyzed to simulate.
@@ -107,4 +192,4 @@ tags: ["pathway:reader", "sequence:6"]
 > **GM Note:** More special simulations are decided by the **GM**. As long as an ability does not gain benefits permanently like grazing, secret puppet, and recording, or the benefit has nothing to do with extraordinary results (such as faceless man), then there is no need to continue to maintain it.
 > **GM Note:** A common point of the above abilities is that most of them have certain permanent passive effects.
 
-
+- **Limits:** As described in this section's prose.

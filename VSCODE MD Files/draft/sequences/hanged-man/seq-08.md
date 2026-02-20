@@ -1,12 +1,34 @@
 ---
-title: "Sequence 8: The Listener"
-id: "hanged-man-seq-08"
-tags: ["pathway:hanged-man", "sequence:8"]
+title: 'Sequence 8: Listener'
+id: hanged-man-seq-08
+tags:
+- pathway:hanged-man
+- sequence:8
 ---
 
-# Sequence 8: The Listener
+
+
+
+
+# Hanged Man Pathway: Sequence 8
 
 > **Lore:** In ancient times they were called “whisperers.” They can directly hear the whispers of the corresponding hidden existence, gaining many powerful, twisted, and unique abilities. However, if they cannot be promoted, it is difficult to survive for more than five years. “Listeners” are all lunatics—even if they usually behave normally, they must be hidden lunatics.
+
+## Listener
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -18,6 +40,37 @@ tags: ["pathway:hanged-man", "sequence:8"]
   - Your **Listen** skill is added to the rapid improvement of Sequence 9 and can be improved at most to the master.
 
 ### Listening Perception
+
+```yaml ability
+id: hanged-man-seq-08-listening-perception
+name: Listening Perception
+pathway: hanged-man
+sequence: 8
+type: active
+action: cast
+cost:
+  sanity: 2
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+text: 'Effect: With the extraordinary ability of listening, you will hear more sounds
+  and get more dangers in a normal environment. Trigger (extraordinary sounds): Whenever
+  there are sounds of extraordinary significance around you, from beings 1 higher
+  than you or tainted beings [[Tainted Being]], you suffer an immediate 1/1d2 Sanity
+  / Rationality [[Sanity / Rationality]] loss. On Sanity / Rationality check: Whenever
+  you make a Sanity / Rationality check [[Sanity / Rationality Check]] because of
+  this, you immediately determine what the source of the sound is (usually only known
+  by the type of creature, dead or alive, adult or child, and so on). Spotting spirits:
+  You can use Listen instead of Ste...'
+```
+
+
+
 
 - **Effect:** With the extraordinary ability of listening, you will hear more sounds and get more dangers in a normal environment.
 - **Trigger (extraordinary sounds):** Whenever there are sounds of extraordinary significance around you, from beings 1 higher than you or tainted beings [[Tainted Being]], you suffer an immediate 1/1d2 **Sanity / Rationality** [[Sanity / Rationality]] loss.
@@ -32,7 +85,37 @@ tags: ["pathway:hanged-man", "sequence:8"]
 
 > **GM Note:** (This is an explanation, ancillary to the ability of listening, which disappears when the latter disappears.)
 
+- **Limits:** As described in this section's prose.
+
+
 ### Latent Madness
+
+```yaml ability
+id: hanged-man-seq-08-latent-madness
+name: Latent Madness
+pathway: hanged-man
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Requirement: Can only be obtained when potion digestion reaches 10. [[Potion
+  Digestion]] Effect: Your temporary madness [[Temporary Madness]] will not affect
+  your actions, but the madness still exists. Does not include: extraordinary madness
+  [[Extraordinary Madness]], indeterminate madness [[Indeterminate Madness]], and
+  permanent madness [[Permanent Madness]]. Special: (This is an explanation and cannot
+  be recorded or stolen.)'
+```
+
+
+
 
 > **Lore:** All “Listeners” are madmen. Even if they behave normally, they must be hidden madmen.
 
@@ -41,7 +124,42 @@ tags: ["pathway:hanged-man", "sequence:8"]
 - **Does not include:** extraordinary madness [[Extraordinary Madness]], indeterminate madness [[Indeterminate Madness]], and permanent madness [[Permanent Madness]].
 - **Special:** (This is an explanation and cannot be recorded or stolen.)
 
+- **Limits:** As described in this section's prose.
+
+
 ### LISTEN
+
+```yaml ability
+id: hanged-man-seq-08-listen
+name: LISTEN
+pathway: hanged-man
+sequence: 8
+type: active
+action: swift
+cost:
+  spirituality: 4
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- debuff
+- buff
+text: 'Use: 1 Swift Action Swift Action; once a round. Cost: Consumes 2 spirituality
+  points. [[Spirituality]] Check: Perform a 30-Difficulty Value listening appraisal.
+  Special: When holding this extraordinary ability, your Listen skill will increase
+  by another 2 levels; when this ability disappears, that increase disappears. Narrative
+  truth: Regardless of the results of your listening, you have actually heard the
+  words of the Creator [[Creator]]; it is only possible to interpret the curse from
+  them. #### Listening appraisal success Roll rd8 to determine the effect. [[rd8]]
+  Each time (regardless of outcome), take a 0/1d2 Sanity / Rationality loss.'
+```
+
+
+
 
 - **Use:** 1 **Swift Action** Swift Action; once a round.
 - **Cost:** Consumes 2 spirituality points. [[Spirituality]]
@@ -80,3 +198,5 @@ Outcomes:
 - ④ You immediately fall into an extraordinary madness and suffer a **Sanity / Rationality** loss of 1/1d3.
 - ⑤ You heard ravings from other than the real Creator, and the effect is determined by the GM, generally not including the Seven Gods.
 
+- **Effect:** LISTEN resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

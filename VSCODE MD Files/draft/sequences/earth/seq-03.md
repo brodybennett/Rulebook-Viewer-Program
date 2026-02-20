@@ -1,14 +1,20 @@
 ---
-title: "Sequence 3: Pallbearers"
-id: "earth-seq-03"
-tags: ["pathway:earth", "sequence:3"]
+title: 'Sequence 3: Ancient Bane'
+id: earth-seq-03
+tags:
+- pathway:earth
+- sequence:3
 ---
 
-# Sequence 3: Pallbearers
+
+
+
+
+# Mother Pathway: Sequence 3
 
 **Pathway:** Earth Pathway.
 
-## Pallbearers
+## Ancient Bane
 
 ## Advancement
 
@@ -37,16 +43,103 @@ After burying all coffins representing all classes and different groups of peopl
 
 ### Earth
 
+```yaml ability
+id: earth-seq-03-earth
+name: Earth
+pathway: earth
+sequence: 3
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+text: 'Use: Once per round, as a free action Free Action, choose an ordinary corpse.
+  Effect: The corpses spirit and body are engulfed in the earth, resting body and
+  spirit, returning it to the bosom of Mother Earth [[Mother Earth]]. Aftereffects:
+  Each time you do this, you regain 2d3 points of spirituality [[Spirituality]] and
+  1 point of Sanity / Rationality [[Sanity / Rationality]].'
+```
+
+
+
+
 - **Use:** Once per round, as a **free action** Free Action, choose an ordinary corpse.
 - **Effect:** The corpse’s spirit and body are engulfed in the earth, resting body and spirit, returning it to the bosom of Mother Earth [[Mother Earth]].
 - **Aftereffects:** Each time you do this, you regain 2d3 points of **spirituality** [[Spirituality]] and 1 point of **Sanity / Rationality** [[Sanity / Rationality]].
 
+- **Limits:** As described in this section's prose.
+
+
 ### Pallbearer
+
+```yaml ability
+id: earth-seq-03-pallbearer
+name: Pallbearer
+pathway: earth
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- debuff
+- offense
+text: 'Effect: You deal an additional 2d6 damage to undead [[Undead]]. Effect: Damage
+  to you from curses is halved when it is undead damage.'
+```
+
+
+
 
 - **Effect:** You deal an additional 2d6 damage to undead [[Undead]].
 - **Effect:** Damage to you from curses is halved when it is undead damage.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Soul to Earth
+
+```yaml ability
+id: earth-seq-03-soul-to-earth
+name: Soul to Earth
+pathway: earth
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: One or more undead [[Undead]] creatures within line of sight [[line of sight]].
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+text: 'Cost: 5 points of spirituality [[Spirituality]]. Use: A spellcasting action
+  Spellcasting Action. Targeting and range: One or more undead [[Undead]] creatures
+  within line of sight [[line of sight]]. Effect: Biological defense against physical
+  defense [[Biological Defense]] [[Physical Defense]]. Targets are entangled in plants,
+  and the body is quickly assimilated into plants, as if it has experienced a hundred
+  years of wind and frost. Effect: An undead so swept up is considered bound [[Bound]]
+  and loses 2d6 hit points Hit Points at the end of each turn, or spirit if it is
+  a spirit. *Undead resolution by relative Sequence Level Sequence Level: Undead creatures
+  three or more Sequence Levels l...'
+```
+
+
+
 
 - **Cost:** 5 points of **spirituality** [[Spirituality]].
 - **Use:** A **spellcasting action** Spellcasting Action.

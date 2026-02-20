@@ -1,12 +1,34 @@
 ---
-title: "Sequence 6: Prometheus"
-id: "error-path-seq-06"
-tags: ["pathway:error-path", "sequence:6"]
+title: 'Sequence 6: Prometheus'
+id: error-seq-06
+tags:
+- pathway:error
+- sequence:6
 ---
 
-# Sequence 6: Prometheus
+
+
+
+
+# Error Pathway: Sequence 6
 
 Steal an opponent’s extraordinary ability for a short time and use it.
+
+## Prometheus
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -17,10 +39,64 @@ Steal an opponent’s extraordinary ability for a short time and use it.
 
 ### Ritual Camouflage
 
+```yaml ability
+id: error-seq-06-ritual-camouflage
+name: Ritual Camouflage
+pathway: error
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Effect: You can pretend to be a believer of other gods in ritual magic, deceiving
+  the gods automatic response. Limits: Although you may pray in ritual magic to gods
+  you do not believe in as usual, the god itself can see through your disguise.'
+```
+
+
+
+
 - **Effect:** You can pretend to be a believer of other gods in ritual magic, deceiving the gods’ automatic response.
 - **Limits:** Although you may pray in ritual magic to gods you do not believe in “as usual,” the god itself can see through your disguise.
 
 ### Stealing Tinder
+
+```yaml ability
+id: error-seq-06-stealing-tinder
+name: Stealing Tinder
+pathway: error
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: Choose 1 **target** within 50 meters
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- mobility
+- buff
+text: 'You put your fingers together, twist your wrist, and briefly steal someone
+  elses extraordinary ability for your own use. Use: 1 Casting Action Cost: 3 spirituality
+  points Targeting and range: Choose 1 target within 50 meters At [[Sequence 5]],
+  stealing range increases to 100 meters. Check: Conduct 1 Skill Identification check.
+  Before stealing, choose 1 target active or passive ability you know to steal; otherwise
+  the result is completely random. Difficulty Value: Base Difficulty Value 20, modified
+  by the following conditions:'
+```
+
+
+
 
 You put your fingers together, twist your wrist, and briefly steal someone else’s extraordinary ability for your own use.
 
@@ -71,7 +147,42 @@ When the Fire Thief steals an ability, the more they know the target, the easier
 
 — Other special thefts are decided by the GM according to the above cases.
 
+- **Effect:** Stealing Tinder resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Tinder Vision
+
+```yaml ability
+id: error-seq-06-tinder-vision
+name: Tinder Vision
+pathway: error
+sequence: 6
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+text: 'You can see the light ball representing extraordinary ability; this is the
+  preparation stage for Stealing Tinder. Use: As a free action, or when you are about
+  to perform any Stealing Tinder, you trigger Tinder Vision. Effect: 1 You can see
+  the light groups represented by extraordinary creatures, extraordinary characteristics,
+  and extraordinary items. These light groups represent different extraordinary abilities
+  and even spiritual pollution. 2 The process of casting Stealing Tinder is to let
+  you see these light clusters, then hold one of these light clusters in your palm.
+  You will immediately know the information you have obtained corresponding to the
+  extraordinary ability, and use it acc...'
+```
+
+
+
 
 You can see the light ball representing extraordinary ability; this is the preparation stage for Stealing Tinder.
 

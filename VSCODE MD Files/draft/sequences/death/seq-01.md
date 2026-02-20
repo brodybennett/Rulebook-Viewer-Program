@@ -1,10 +1,16 @@
 ---
-title: "Sequence 1: Pale Emperor"
-id: "death-seq-01"
-tags: ["pathway:death", "sequence:1"]
+title: 'Sequence 1: Pale Emperor'
+id: death-seq-01
+tags:
+- pathway:death
+- sequence:1
 ---
 
-# Sequence 1: Pale Emperor
+
+
+
+
+# Death Pathway: Sequence 1
 
 ## Pale Emperor
 
@@ -29,6 +35,33 @@ tags: ["pathway:death", "sequence:1"]
 
 ### Withering
 
+```yaml ability
+id: death-seq-01-withering
+name: Withering
+pathway: death
+sequence: 1
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Cost: 10 points of [[Spirituality]]. Use: A Casting Action. Effect: Make the
+  surrounding things quickly experience the wind brush, as if tens of thousands of
+  years have passed in an instant, and within two seconds of actual time, they are
+  rushing towards the end of death.'
+```
+
+
+
+
 - **Cost:** 10 points of [[Spirituality]].
 - **Use:** A Casting Action.
 - **Effect:** Make the surrounding things quickly experience the wind brush, as if tens of thousands of years have passed in an instant, and within two seconds of actual time, they are rushing towards the end of death.
+
+- **Limits:** As described in this section's prose.

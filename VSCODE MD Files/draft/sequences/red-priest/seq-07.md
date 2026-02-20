@@ -1,12 +1,34 @@
 ---
-title: "Sequence 7: Arsonist"
-id: "red-priest-seq-07"
-tags: ["pathway:red-priest", "sequence:7"]
+title: 'Sequence 7: Pyromaniac'
+id: red-priest-seq-07
+tags:
+- pathway:red-priest
+- sequence:7
 ---
 
-# Sequence 7: Arsonist
+
+
+
+
+# Red Priest Pathway: Sequence 7
 
 > **Lore:** Known as a “Fire Mage” in ancient times, an Arsonist can manipulate flames flexibly.
+
+## Pyromaniac
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -16,6 +38,36 @@ tags: ["pathway:red-priest", "sequence:7"]
 - Mysticism is included in your [[Rapid Growth Range]] of Sequence 9, up to Proficiency.
 
 ### Manipulation of Fire
+
+```yaml ability
+id: red-priest-seq-07-manipulation-of-fire
+name: Manipulation of Fire
+pathway: red-priest
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: Choose a target within 2 meters.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- control
+- defense
+- offense
+text: 'You can control your fire flexibly and freely, shaping it into different forms
+  for different strikes. This ability has the following uses: Condensed Fireball Use:
+  1 Casting Action. Cost: 2 [[Spirituality]]. Effect: Condense a crimson fireball
+  in your palm, then throw it against [[Physical Defense]]. Armor/overflow: On resolution,
+  it disintegrates and explodes; ignores 2 [[Armor]]. [[Overflow]] ignores the [[Identification
+  Bonus]]. Damage: 2d8 fire damage.'
+```
+
+
+
 
 You can control your fire flexibly and freely, shaping it into different forms for different strikes.
 
@@ -99,6 +151,41 @@ You can control your fire flexibly and freely, shaping it into different forms f
 
 ### Incarnation of Blazing Spear
 
+```yaml ability
+id: red-priest-seq-07-incarnation-of-blazing-spear
+name: Incarnation of Blazing Spear
+pathway: red-priest
+sequence: 7
+type: active
+action: attack
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: Fight or throw against [[Physical Defense]].
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- mobility
+- control
+- buff
+- defense
+- offense
+text: '(Granted at Sequence 5 per source text: Your control over the flame has been
+  improved.) Use: 1 Attack Action. Cost: 3 [[Spirituality]]. Effect: Blaze heat waves
+  from head to toe; the heat waves envelop you and turn into flames, casting your
+  body into a blazing flaming spear. This is a melee attack. Targeting and range:
+  Fight or throw against [[Physical Defense]]. Result: Use the same damage and properties
+  as Blazing Lance (red flame spear); it can also be compressed. Displacement during
+  attack: After the throw, you will fly out directly, land and cause damage, then
+  reorganize directly back into human form. This is considered [[Displacement]] while
+  you are attacking and does not consume yo...'
+```
+
+
+
+
 (Granted at Sequence 5 per source text: “Your control over the flame has been improved.”)
 
 - **Use:** 1 Attack Action.
@@ -112,3 +199,5 @@ You can control your fire flexibly and freely, shaping it into different forms f
   - The “flying” speed after throwing is five times your [[Movement Power]].
   - After the spear falls to the ground, it will not hurt a piece of wood or a grain of dust.
   - You can let the flame collapse back to yourself immediately when it lands gracefully, without causing any damage.
+
+- **Limits:** As described in this section's prose.

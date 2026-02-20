@@ -1,12 +1,20 @@
 ---
-title: "Sequence 2: Destiny Trojan Horse"
-id: "error-path-seq-02"
-tags: ["pathway:error-path", "sequence:2"]
+title: 'Sequence 2: Trojan Horse of Destiny'
+id: error-seq-02
+tags:
+- pathway:error
+- sequence:2
 ---
 
-# **Sequence** 2: Destiny Trojan Horse
+
+
+
+
+# Error Pathway: Sequence 2
 
 > **Lore:** Being able to manipulate the fate of others and make them make certain mistakes within a certain period of time is a loophole in fate [4].
+
+## Trojan Horse of Destiny
 
 ## Advancement
 
@@ -21,6 +29,37 @@ tags: ["pathway:error-path", "sequence:2"]
 - **Attribute Gain:** **Intuition (INT)** +1, **Agility (DEX)** +1, your **Deception** goes up by 1 skill level.
 
 ### Destiny Trojan Horse
+
+```yaml ability
+id: error-seq-02-destiny-trojan-horse
+name: Destiny Trojan Horse
+pathway: error
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: designated target(s)
+duration: 2 hours.
+scaling: []
+tags:
+- ritual
+- detection
+- defense
+- offense
+text: 'Cost: 3 points of Spirituality. Use: A Casting Action that attacks the opponentaTMs
+  Physical Defense awith skillful hands.a Effect: You can start to steal other peopleaTMs
+  identity, destiny, self-knowledge, and related aspects, using one of the following
+  options as appropriate: #### Steal Identity Effect: You steal the targetaTMs identity,
+  making others think that you are the target. Duration: 2 hours. Detection: The same
+  observer can pass an Intuition (INT) appraisal (Difficulty Value 15) to detect the
+  sense of disobedience.'
+```
+
+
+
 
 - **Cost:** 3 points of **Spirituality**.
 - **Use:** A Casting Action that attacks the opponentâ€™s **Physical Defense** â€œwith skillful hands.â€
@@ -103,7 +142,41 @@ tags: ["pathway:error-path", "sequence:2"]
 - Error pathway
 - [[Extraordinary Stacked Skills]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### Detached Worm of Time
+
+```yaml ability
+id: error-seq-02-detached-worm-of-time
+name: Detached Worm of Time
+pathway: error
+sequence: 2
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+text: 'Cost: 1 point of Spirituality. Use: A Full-Round Action. Effect: You detach
+  a Worm of Time, which parasitizes targets through shadows that are hard to see.
+  You separate a Worm of Time and let it imperceptibly reach the targetaTMs side,
+  and immediately perform a parasite instead of you. When the Full-Round Action is
+  over, the Worm of Time is considered to have arrived at the targetaTMs side. At
+  that time, conduct a skill test against the targetaTMs Willpower Defense; on success,
+  it is considered to have entered a shallow parasitic state. > GM Note: The Full-Round
+  Action implies you may want to talk to delay time and divert the opponentaTMs attention
+  so they do not become aware of your acti...'
+```
+
+
+
 
 - **Cost:** 1 point of **Spirituality**.
 - **Use:** A Full-Round Action.
@@ -161,7 +234,41 @@ tags: ["pathway:error-path", "sequence:2"]
   - It is equivalent to mind reading all the time.
 - A Deep Parasite target is helpless to you by default, and you can steal their fate at any time.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Fate Loophole
+
+```yaml ability
+id: error-seq-02-fate-loophole
+name: Fate Loophole
+pathway: error
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- divination
+text: 'Cost: 3 spiritual points. Use: A Casting Action; once per round. Effect: You
+  can make the targetaTMs fate go wrong for a certain period of time, achieving one
+  of the following results: Let the results of divination and prophecy be wrong. For
+  divinations and prophecies one level below you, you can even completely customize
+  what goes wrong. Transfer your consciousness and let an avatar become your main
+  body. To do this, you must first create an avatar that is no more than one Sequence
+  level with you, and then let the avatar steal the fate, identity, and self-cognition
+  of that person before you can do it. Make a target and an area lose contact with
+  the outside world, so that no one can detec...'
+```
+
+
+
 
 - **Cost:** 3 spiritual points.
 - **Use:** A Casting Action; once per round.
@@ -178,7 +285,40 @@ tags: ["pathway:error-path", "sequence:2"]
 
 > **GM Note:** The RAW also states that the scope of â€œstealingâ€ expands to include destiny, identity, self-knowledge, and extraordinary characteristics, and describes grafting and replacement as related expressions of the same principle. Use this as framing; the specific mechanical options above are the concrete implementations.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Insight of Destiny
+
+```yaml ability
+id: error-seq-02-insight-of-destiny
+name: Insight of Destiny
+pathway: error
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- divination
+text: 'Use: Expend a Casting Action; choose a target. Effect (check): Pass a Library
+  or Intuition (INT) check of Difficulty Value (30 - the targetaTMs sequence level).
+  On success, you learn the general fate of the target and the general past: You know
+  what kind of education they went through. You know what they went through roughly,
+  but usually not in detail. Limits (demigod-and-above involvement): If the fate involves
+  things above demigods, you can only feel aabnormala at most for those contents.
+  If a demigod is right in front of you, you can gain insight into their general experience
+  and education as above, but things above other demigods will still be covered up
+  unless you get more clues.'
+```
+
+
+
 
 - **Use:** Expend a Casting Action; choose a target.
 - **Effect (check):** Pass a Library or **Intuition (INT)** check of **Difficulty Value** (30 - the targetâ€™s sequence level).
@@ -202,3 +342,6 @@ tags: ["pathway:error-path", "sequence:2"]
   - For a parasitic target of an angel person, even if you are the king of angels, you cannot see it and cannot detect â€œsomething is wrong,â€ unless some evidence of their being parasitized is found directly; then identification can be carried out.
 - [[Library]]
 - [[King of Angels]]
+
+- **Effect:** Insight of Destiny resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

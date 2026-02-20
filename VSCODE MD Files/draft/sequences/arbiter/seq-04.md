@@ -1,12 +1,18 @@
 ---
-title: "Sequence 4: Law Mage"
-id: "arbiter-seq-04"
-tags: ["pathway:arbiter", "sequence:4"]
+title: 'Sequence 4: Knight of Misfortune'
+id: arbiter-seq-04
+tags:
+- pathway:arbiter
+- sequence:4
 ---
 
-# Sequence 4
 
-## Law Mage
+
+
+
+# Justiciar Pathway: Sequence 4
+
+## Knight of Misfortune
 
 A Law Mage can **prohibit** specific behaviors within a defined range, and can also **deprive** a target of a specific **Beyonder** ability. Its core principle is: **â€œmystery is weakened, reality is strengthened.â€**
 
@@ -26,6 +32,34 @@ A Law Mage can **prohibit** specific behaviors within a defined range, and can a
 - Legal skills increase by 1 skill level. [[Legal Skills]]
 
 ### Law of Truth
+
+```yaml ability
+id: arbiter-seq-04-law-of-truth
+name: Law of Truth
+pathway: arbiter
+sequence: 4
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- debuff
+- offense
+text: '*Law of Truth: aMystery is weakened here, and reality is strengthened.a Cost:
+  5 points of Spirituality [[Spirituality]] Use: 1 free action; treated as a spoken
+  law [[Spoken Law]] Timing: Takes 1 round to gradually take effect. Area: Within
+  a radius of 1 kilometer. *Mystery is weakened (extraordinary effects): You are also
+  affected by this ability (aincluding oneaTMs owna). Damage from extraordinary powers:'
+```
+
+
+
 
 **Law of Truth:** â€œMystery is weakened here, and reality is strengthened.â€
 
@@ -72,7 +106,40 @@ A Law Mage can **prohibit** specific behaviors within a defined range, and can a
 - All Personality Suppression must be reduced by **one level** and then **halved**; it cannot become a negative number.  
   Sequence 2 Upgrade
 
+- **Effect:** Law of Truth resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Make a Contract
+
+```yaml ability
+id: arbiter-seq-04-make-a-contract
+name: Make a Contract
+pathway: arbiter
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+text: 'You make a contract that cannot be broken. Cost: 3 points of Spirituality [[Spirituality]]
+  Use: A Casting Action. Casting Action Requirement: Mutual consent. Effect: You create
+  a sacred contract that cannot be violated. The contractaTMs terms prevent prohibited
+  content from occurring in an objective sense. Example: If buying an item is prohibited,
+  then when faced with that item, the signatory fundamentally has no desire or ability
+  to buy it. This is an objective limitation shared by both parties, so it cannot
+  be violated.'
+```
+
+
+
 
 You make a contract that cannot be broken.
 
@@ -85,7 +152,41 @@ You make a contract that cannot be broken.
   - This is an objective limitation shared by both parties, so it cannot be violated.
 - If there is a situation that could be violated under special circumstances, the **GM** must impose a serious punishment that matches **Party Aâ€™s Personality**. [[Party A]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### Practitioners of Order
+
+```yaml ability
+id: arbiter-seq-04-practitioners-of-order
+name: Practitioners of Order
+pathway: arbiter
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- offense
+text: 'Effect: You can distinguish ordinary people from extraordinary people by their
+  different apositions,a and judge the level of extraordinary people based on this.
+  This is limited to Sequence level only, not the Pathway they belong to. Sequence
+  Level Pathway Aura: You can actively release a solemn and majestic aura so that
+  enemies below demigods do not dare raise their heads or launch attacks, including
+  some extraordinary creatures. Cost: No obvious Spirituality consumption. While this
+  aura is active: Enemy identification and damage are -4. An enemyaTMs active attack
+  requires at least a Difficulty Value 20 will identification. [[Will Identification]]
+  *Sequence 2 note (aura):'
+```
+
+
+
 
 - **Effect:** You can distinguish ordinary people from extraordinary people by their different â€œpositions,â€ and judge the level of extraordinary people based on this.
   - This is limited to **Sequence** level only, not the **Pathway** they belong to. Sequence Level Pathway
@@ -99,3 +200,5 @@ You make a contract that cannot be broken.
 - Below the angel level: those below the demigod level must pass a **Difficulty Value 30** will test before they can attack you.
 - It is difficult for them to curb their desire to surrender, and they do not dare raise their heads.
 [[Demigod]] [[Angel]]
+
+- **Limits:** As described in this section's prose.

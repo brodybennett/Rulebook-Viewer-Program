@@ -1,10 +1,16 @@
 ---
-title: "Sequence 4: Parasite"
-id: "error-path-seq-04"
-tags: ["pathway:error-path", "sequence:4"]
+title: 'Sequence 4: Parasite'
+id: error-seq-04
+tags:
+- pathway:error
+- sequence:4
 ---
 
-# Sequence 4: Parasite
+
+
+
+
+# Error Pathway: Sequence 4
 
 ## Parasite
 
@@ -29,6 +35,34 @@ tags: ["pathway:error-path", "sequence:4"]
 
 ### Steal (Improved)
 
+```yaml ability
+id: error-seq-04-steal-improved
+name: Steal (Improved)
+pathway: error
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: Maintenance time is up to 2 hours.
+scaling: []
+tags:
+- buff
+text: 'Effect: Steal is substantially improved. You can steal some conceptual things
+  (such as position, distance, etc.) to achieve incredible effects in battle. Stealing
+  ideas: When you steal the other partyaTMs ideas, you donaTMt need to take the corresponding
+  action (action cost is waived). Stealing abilities: You can steal the desired ability
+  from the target more accurately. Choice limit: Generally, you can choose one of
+  the three. Success: The more you know, the higher the probability of success. Duration:
+  Maintenance time is up to 2 hours.'
+```
+
+
+
+
 - **Effect:** **Steal** is substantially improved. You can steal some conceptual things (such as position, distance, etc.) to achieve incredible effects in battle.
 - **Stealing ideas:** When you steal the other partyâ€™s ideas, you donâ€™t need to take the corresponding action (action cost is waived).
 - **Stealing abilities:** You can steal the desired ability from the target more accurately.
@@ -36,28 +70,168 @@ tags: ["pathway:error-path", "sequence:4"]
 - **Success:** The more you know, the higher the probability of success.
 - **Duration:** Maintenance time is up to 2 hours.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Greater Steal
+
+```yaml ability
+id: error-seq-04-greater-steal
+name: Greater Steal
+pathway: error
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'Use: Spellcasting Action Cost: 3 points of [[Spirituality]] Effect: You can
+  steal unimaginable concepts. Attack the opponentaTMs [[Physical Defense]] with skillful
+  hands. (This cost and attack apply only to Greater Steal.)'
+```
+
+
+
 
 - **Use:** Spellcasting Action
 - **Cost:** 3 points of [[Spirituality]]
 - **Effect:** You can steal unimaginable concepts. Attack the opponentâ€™s [[Physical Defense]] with skillful hands. (This cost and attack apply only to Greater Steal.)
 
+- **Limits:** As described in this section's prose.
+
+
 ### Steal Location
+
+```yaml ability
+id: error-seq-04-steal-location
+name: Steal Location
+pathway: error
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- mobility
+text: 'Effect: Exchange yourself with another location. This effect belongs to [[Teleportation]]
+  and [[Fraud]].'
+```
+
+
+
 
 - **Effect:** Exchange yourself with another location. This effect belongs to [[Teleportation]] and [[Fraud]].
 
+- **Limits:** As described in this section's prose.
+
+
 ### Steal Distance
+
+```yaml ability
+id: error-seq-04-steal-distance
+name: Steal Distance
+pathway: error
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Both objects must be within your line of sight.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- mobility
+- social
+text: 'Targeting and range: Both objects must be within your line of sight. Effect:
+  Nullify the distance between two objects. This effect is [[Teleportation]] and [[Deception]].
+  Explanation: This essentially steals the distance in front of you, puts the stolen
+  distance behind you, and achieves a position change.'
+```
+
+
+
 
 - **Targeting and range:** Both objects must be within your line of sight.
 - **Effect:** Nullify the distance between two objects. This effect is [[Teleportation]] and [[Deception]].
 - **Explanation:** This essentially steals the distance in front of you, puts the stolen distance behind you, and achieves a position change.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Steal Flesh
+
+```yaml ability
+id: error-seq-04-steal-flesh
+name: Steal Flesh
+pathway: error
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- healing
+- offense
+- social
+text: 'Effect: Instantly deals 5d6 damage. Limits: The flesh cannot be used to heal
+  your own wounds unless you perform a [[Rules Deception]].'
+```
+
+
+
 
 - **Effect:** Instantly deals 5d6 damage.
 - **Limits:** The flesh cannot be used to heal your own wounds unless you perform a [[Rules Deception]].
 
 ### Steal Sound
+
+```yaml ability
+id: error-seq-04-steal-sound
+name: Steal Sound
+pathway: error
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: Causes 1 round of silence. Scale: This ability can be used on a large
+  scale, making an area of half a kilometer completely silent. Storage: Although the
+  stolen voice can be stored, it will be reviewed in your mind first. In other words,
+  only you can hear the judgeaTMs decrees, and only you can hear the voices of other
+  people. [[JudgeaTMs decrees]] Limits: A stolen law sheet has no effect as a sound
+  unless you also steal the Law skill/identification itself. [[Law sheet]] [[LawaTMs
+  prowess]]'
+```
+
+
+
 
 - **Effect:** Causes 1 round of silence.
 - **Scale:** This ability can be used on a large scale, making an area of half a kilometer completely silent.
@@ -69,6 +243,36 @@ tags: ["pathway:error-path", "sequence:4"]
 
 ### Steal Action
 
+```yaml ability
+id: error-seq-04-steal-action
+name: Steal Action
+pathway: error
+sequence: 4
+type: active
+action: move
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: 1 round.
+scaling: []
+tags:
+- mobility
+- defense
+text: 'Duration: 1 round. Effect: The target becomes unable to move with limbs for
+  1 round and is immediately regarded as [[Bound]]. The target cannot gain the defense
+  bonus of Agility (DEX) and Dodge. Exception: If the target uses extraordinary abilities
+  to move, they will still be able to gain the defense brought by agility and dodge.
+  Limits: In this state, the target cannot use limbs to move, but can still use the
+  movement for special actions; even if used for special actions, the movement cannot
+  change the targetaTMs position. Aftereffect: You get an extra Move Action after
+  stealing, at the cost of the extra action.'
+```
+
+
+
+
 - **Duration:** 1 round.
 - **Effect:** The target becomes unable to move with limbs for 1 round and is immediately regarded as [[Bound]]. The target cannot gain the defense bonus of Agility (DEX) and Dodge.
 - **Exception:** If the target uses extraordinary abilities to move, they will still be able to gain the defense brought by agility and dodge.
@@ -77,11 +281,69 @@ tags: ["pathway:error-path", "sequence:4"]
 
 ### Steal Sight
 
+```yaml ability
+id: error-seq-04-steal-sight
+name: Steal Sight
+pathway: error
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: 1 round.
+scaling: []
+tags:
+- buff
+text: 'Duration: 1 round. Effect: Blind the target for 1 round. Benefit: Your eyesight
+  increases significantly; the range of the spell increases by half; and you gain
+  a +2 bonus on your next check that requires visual selection of a target within
+  a round.'
+```
+
+
+
+
 - **Duration:** 1 round.
 - **Effect:** Blind the target for 1 round.
 - **Benefit:** Your eyesight increases significantly; the range of the spell increases by half; and you gain a +2 bonus on your next check that requires visual selection of a target within a round.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Steal Hearing
+
+```yaml ability
+id: error-seq-04-steal-hearing
+name: Steal Hearing
+pathway: error
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: 1 round.
+scaling: []
+tags:
+- utility
+text: 'Duration: 1 round. Effect: Make the target deaf for 1 round. Benefit: Your
+  listening skill gains a +2 bonus for 1 round. Rule note: A target who loses hearing
+  does not mean they cannot be affected by the law of the inquisitor. The law only
+  needs to be heard by the majority of people present or the owner of the area to
+  take effect. Therefore, if only one target does not hear the law, and the vast majority
+  of other people or the owner here heard it, the law will take effect as usual. [[Inquisitor]]
+  [[Law (Inquisitor)]] Clarification: This not only refers to the concept of hearing
+  in the ear, but also a series of hearing concepts such as bone conduction; it is
+  completely inaudible in the tru...'
+```
+
+
+
 
 - **Duration:** 1 round.
 - **Effect:** Make the target deaf for 1 round.
@@ -93,17 +355,99 @@ tags: ["pathway:error-path", "sequence:4"]
 - > **GM Note:** If you steal the hearing of the Hanged Man path, you may hear things you shouldnâ€™t hearâ€”heard the voice.  
   [[Hanged Man]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### Steal Flight
+
+```yaml ability
+id: error-seq-04-steal-flight
+name: Steal Flight
+pathway: error
+sequence: 4
+type: active
+action: move
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- mobility
+text: 'Effect: Steal the birdaTMs flight ability, allowing yourself to fly with twice
+  the movement; this usually only lasts 2a3 minutes. Additional: Equivalent to the
+  Steal Action in action economy, but also gains an additional Move Action.'
+```
+
+
+
 
 - **Effect:** Steal the birdâ€™s flight ability, allowing yourself to fly with twice the movement; this usually only lasts 2â€“3 minutes.
 - **Additional:** Equivalent to the Steal Action in action economy, but also gains an additional Move Action.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Lifespan Stealing
+
+```yaml ability
+id: error-seq-04-lifespan-stealing
+name: Lifespan Stealing
+pathway: error
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: Steal up to one year of lifespan from others and transfer it to your
+  body. Scaling: Higher sequences can steal longer lifespans.'
+```
+
+
+
 
 - **Effect:** Steal up to one year of lifespan from others and transfer it to your body.
 - **Scaling:** Higher sequences can steal longer lifespans.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Steal Skills
+
+```yaml ability
+id: error-seq-04-steal-skills
+name: Steal Skills
+pathway: error
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: Steal a skill from the opponent. The corresponding skill of the stolen
+  target is regarded as untrained, and it will recover after 1 round. Use: You need
+  to use this ability immediately, or save it and release it when you need it. Limits:
+  Each stolen ability can only be used once per theft. This does not steal reputation
+  skills. [[Reputation skills]]'
+```
+
+
+
 
 - **Effect:** Steal a skill from the opponent. The corresponding skill of the stolen target is regarded as untrained, and it will recover after 1 round.
 - **Use:** You need to use this ability immediately, or save it and release it when you need it.
@@ -111,6 +455,37 @@ tags: ["pathway:error-path", "sequence:4"]
   [[Reputation skills]]
 
 ### Range Steal
+
+```yaml ability
+id: error-seq-04-range-steal
+name: Range Steal
+pathway: error
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Perform a range steal with a range of one kilometer on a target that is one
+  level lower than you.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Targeting and range: Perform a range steal with a range of one kilometer on
+  a target that is one level lower than you. Limits: One steal can only steal the
+  same thing. For example, if there are a large number of animals, you can only steal
+  the action ability of all animals, or steal the life or flesh and blood of all animals
+  each time. Additional rule: Normally, only one target can be selected for Steal
+  Distance. GM permission: Stealing allowed by other GMs. #### Sequence 2 Note (Stealing
+  Concepts) Sequence 2: You can steal concepts such as a country-wide three-wheeled
+  day, or a full moon, but not night itself, because day is essentially night illuminated
+  by the sun, and the world is inhe...'
+```
+
+
+
 
 - **Targeting and range:** Perform a range steal with a range of one kilometer on a target that is one level lower than you.
 - **Limits:** One steal can only steal the same thing. For example, if there are a large number of animals, you can only steal the action ability of all animals, or steal the life or flesh and blood of all animals each time.
@@ -121,7 +496,41 @@ tags: ["pathway:error-path", "sequence:4"]
 
 - **Sequence 2:** You can steal concepts such as a country-wide three-wheeled day, or a full moon, but not night itself, because day is essentially night illuminated by the sun, and the world is inherently dark, only illuminated by the sun. There is light only when the sun illuminates. The day is stolen because light is superimposed on darkness, and if darkness is stolen, there may be nothing.
 
+- **Effect:** Range Steal resolves using its yaml ability block and section prose.
+
+
 ### Steal Storage
+
+```yaml ability
+id: error-seq-04-steal-storage
+name: Steal Storage
+pathway: error
+sequence: 4
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+- defense
+text: 'Effect: Steal Storage lets you always keep the things you have stolen and let
+  them appear at the right time, including the ideas you have stolen. You can store
+  up to a number of intangible substances equal to your Sequence level, as well as
+  extraordinary abilities, extraordinary effects, thoughts, memories, and destiny.
+  Storage limit increases: Sequence 4 potion digested completely: your storage limit
+  +3. Every time you upgrade a sequence: your storage limit +3. Releasing and gifting:
+  Releasing the stolen item to yourself is a Free Action. Gifting it to another is
+  a spellcasting action; make an Intuition (INT) check vs Willpower Defense unless
+  the other party consents. The person to be gi...'
+```
+
+
+
 
 - **Effect:** **Steal Storage** lets you always keep the things you have stolen and let them appear at the right time, including the ideas you have stolen. You can store up to a number of intangible substances equal to your Sequence level, as well as extraordinary abilities, extraordinary effects, thoughts, memories, and destiny.
 - **Storage limit increases:**
@@ -150,7 +559,40 @@ tags: ["pathway:error-path", "sequence:4"]
 - You can also directly discard unnecessary abilities and ideas, which is essentially a kind of release, but the return of ideas or abilities to non-original owners will be directly regarded as invalid actions: they are released, but nothing happens.
 - Thoughts can be released directly in your mind and read silently, and then you donâ€™t act on it.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Parasitism
+
+```yaml ability
+id: error-seq-04-parasitism
+name: Parasitism
+pathway: error
+sequence: 4
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- stealth
+text: 'Definition: Parasitism is a kind of stealing; what you steal is life. Use:
+  A [[Full-Round Action]] to parasitize into a personaTMs body or a plantaTMs body.
+  Effect on your body: Your body becomes invisible, overlapping with the hostaTMs
+  spirit body, and even the thread of the spirit body is also hidden. #### Levels
+  of Parasitism Preliminary Parasitism: Use the host to hide yourself, prolong your
+  life, and recover from injuries. You can see everything the host sees and hear all
+  the sounds the host hears. In preliminary parasitism, you can share the host''s
+  senses but cannot read or steal thoughts; thought-reading requires Deep Parasitism.'
+```
+
+
+
 
 - **Definition:** **Parasitism** is a kind of stealing; what you steal is life.
 - **Use:** A [[Full-Round Action]] to parasitize into a personâ€™s body or a plantâ€™s body.
@@ -196,3 +638,6 @@ tags: ["pathway:error-path", "sequence:4"]
 - > **GM Note:** In the face of the first type of â€œparasite,â€ you can remind the host through dreams, subconscious dialogues, etc., without worrying about being discovered, because the parasite must rely on the senses of the host to perceive things around it.
 - > **GM Note:** In the second state, there is no way to bypass the parasite to talk to the host, but there is also a chance to clear it: an object of faith that relies on the host. When you let go of your heart and pray, the object of faith can find the existence of parasites and give feedback with the help of certain rituals to complete the separation or removal.
 - > **GM Note:** The prerequisite is that the host itself does not know what will happen; otherwise the parasite must be alert and stop it.
+
+- **Effect:** Parasitism resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

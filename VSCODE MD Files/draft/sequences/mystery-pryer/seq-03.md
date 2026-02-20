@@ -1,10 +1,18 @@
 ---
-title: "Sequence 3: Clairvoyant"
-id: "myster-pryer-seq-09"
-tags: ["pathway:myster-pryer", "sequence:9"]
+title: 'Sequence 3: Mysticism Magister'
+id: mystery-pryer-seq-03
+tags:
+- pathway:mystery-pryer
+- sequence:3
 ---
 
-# Sequence 3: Clairvoyant
+
+
+
+
+# Hermit Pathway: Sequence 3
+
+## Mysticism Magister
 
 ## Advancement
 
@@ -20,6 +28,35 @@ tags: ["pathway:myster-pryer", "sequence:9"]
 - **Attribute Gain:** **Intuition (INT)** +2; your **Occult** is upgraded by one level.
 
 ### Prophecy
+
+```yaml ability
+id: mystery-pryer-seq-03-prophecy
+name: Prophecy
+pathway: mystery-pryer
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- divination
+text: 'Effect: You spy on the secret of future destiny. This effect can accurately
+  see part of the picture clearly and accurately. Use: You can make an Intuition (INT)
+  check to determine what the outcome of an action will be. Difficulty: Difficulty
+  15: At least one yes-or-no answer must be obtained. Difficulty 20: Obtain a picture.
+  The picture is relatively general, and the clues are only a small part of the picture.
+  Difficulty 25: The picture you get is clearer and more intuitive. Difficulty 30:
+  Foretell the people or things you should contact nextwho will be helpful to you.
+  Outcome Modifiers:'
+```
+
+
+
 
 - **Effect:** You spy on the secret of future destiny. This effect can accurately see part of the picture clearly and accurately.
 - **Use:** You can make an **Intuition (INT)** check to determine what the outcome of an action will be.

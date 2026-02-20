@@ -1,10 +1,16 @@
 ---
-title: "Sequence 3: Cognizer"
-id: "reader-seq-03"
-tags: ["pathway:reader", "sequence:3"]
+title: 'Sequence 3: Cognizer'
+id: reader-seq-03
+tags:
+- pathway:reader
+- sequence:3
 ---
 
-# Sequence 3: Cognizer
+
+
+
+
+# White Tower Pathway: Sequence 3
 
 ## Cognizer
 
@@ -26,6 +32,34 @@ tags: ["pathway:reader", "sequence:3"]
 
 ### Master the Mysteries
 
+```yaml ability
+id: reader-seq-03-master-the-mysteries
+name: Master the Mysteries
+pathway: reader
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: You see the rules of the world and master many deep mysteries. From
+  now on, regardless of what you were like before, you know most mystic knowledge
+  in this world by default (including [[Sequence 0]], [[King of Angels]], Higher Sequences,
+  and part of the [[Starry Sky]]). Most esoteric setting knowledge you know as a Player
+  can be summarized on your character sheet. Your Education-related skill checks and
+  attribute checks automatically succeed when they are not contested and you are not
+  using an ability. Limits: This is a potion effect and cannot be stolen or recorded.'
+```
+
+
+
+
 - **Effect:**
   - You “see” the rules of the world and master many deep mysteries.
   - From now on, regardless of what you were like before, you know most mystic knowledge in this world by default (including [[Sequence 0]], [[King of Angels]], Higher Sequences, and part of the [[Starry Sky]]).
@@ -35,6 +69,36 @@ tags: ["pathway:reader", "sequence:3"]
   - This is a potion effect and cannot be stolen or recorded.
 
 ### Insight
+
+```yaml ability
+id: reader-seq-03-insight
+name: Insight
+pathway: reader
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Choose 1 target object you can see (within your [[Field of Vision]]).
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- divination
+- detection
+text: 'Cost: 8 points of [[Spirituality]]. Use: 1 Casting Action. Targeting and range:
+  Choose 1 target object you can see (within your [[Field of Vision]]). Effect: Conduct
+  a Detection appraisal on the target. This ability ignores [[id:alias-anti-divination|Anti-Divination]].
+  Same as the previous ability, but ordinary misleading/incorrect information cannot
+  cause Insights information to be wrong; Insight can only be affected by other extraordinary
+  abilities (e.g., [[Secret]]). [[MISSING REF: Insight references a previous ability
+  it is the same as, but that ability is not included in this chunk.]]'
+```
+
+
+
 
 - **Cost:** 8 points of [[Spirituality]].
 - **Use:** 1 Casting Action.
@@ -69,4 +133,4 @@ tags: ["pathway:reader", "sequence:3"]
   - Knowledge obtained through Insight can only be within the scope of your knowledge. If the target is not within the [[22 Pathways]] and you do not have the corresponding knowledge, you only get false information that fits within your scope of knowledge and similar pathways (you do not realize the incongruity until you get new leads).
   - For skills/strengths/weaknesses not within your knowledge, you can only know what they are like, but not what they are.
 
-
+- **Limits:** As described in this section's prose.

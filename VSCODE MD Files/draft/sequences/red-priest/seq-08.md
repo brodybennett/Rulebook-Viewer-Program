@@ -1,12 +1,34 @@
 ---
-title: "Sequence 8: Provocateur"
-id: "red-priest-seq-08"
-tags: ["pathway:red-priest", "sequence:8"]
+title: 'Sequence 8: Provoker'
+id: red-priest-seq-08
+tags:
+- pathway:red-priest
+- sequence:8
 ---
 
-# Sequence 8: Provocateur
+
+
+
+
+# Red Priest Pathway: Sequence 8
 
 > **Lore:** Good at provoking others with casual words and actions.
+
+## Provoker
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -17,6 +39,40 @@ tags: ["pathway:red-priest", "sequence:8"]
 - Each time you successfully provoke an intelligent creature stronger than you for the first time, you may lose 1 [[Sanity / Rationality]] to count it as 1 growth.
 
 ### Provoke
+
+```yaml ability
+id: red-priest-seq-08-provoke
+name: Provoke
+pathway: red-priest
+sequence: 8
+type: active
+action: cast
+cost:
+  spirituality: 4
+roll: null
+opposed_by: willpower_defense
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- control
+- defense
+- offense
+text: 'Use: You provoke a creature. You must use verbal roleplay (to provoke or taunt),
+  except where the rules explicitly say words are not required. This ability is divided
+  into three situations. #### Situation 1: Complete Strangers / Newly Met Friends
+  Action: 1 Casting Action. Casting Action Cost: 2 spirituality points. [[Spirituality]]
+  Check: Intuition (INT) -4 vs the targets Willpower Defense. Intuition Willpower
+  Defense Effect: The targets next action involving attacks and negative effects (e.g.,
+  shooting, fighting, using extraordinary abilities) must target you, unless you have
+  fallen into a state of death, fainting, or helplessness. [[id:alias-death|Death]]
+  [[Fainting]] [[Helplessness]]'
+```
+
+
+
 
 - **Use:** You provoke a creature. You must use verbal roleplay (to provoke or taunt), except where the rules explicitly say words are not required.
 
@@ -82,3 +138,5 @@ This ability is divided into three situations.
 - **Action:** 1 Psychological Guidance / Social Identification.
 - **Effect:** In this state, provocation (including anger state) can still be lifted, but the identification difficulty of Psychological Guidance must exceed “the Willpower Defense of the provoked object + the Intuition (INT) of the provocateur.”
 - If the Mental Guidance check succeeds, the provocateur cannot provoke the target again for 1 round. [[Mental Guidance]]
+
+- **Limits:** As described in this section's prose.

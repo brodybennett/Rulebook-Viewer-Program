@@ -1,10 +1,16 @@
 ---
-title: "Sequence 3: Dream Weaver"
-id: "visionary-seq-03"
-tags: ["pathway:visionary", "sequence:3"]
+title: 'Sequence 3: Dream Weaver'
+id: visionary-seq-03
+tags:
+- pathway:visionary
+- sequence:3
 ---
 
-# Sequence 3: Dream Weaver
+
+
+
+
+# Visionary Pathway: Sequence 3
 
 ## Dream Weaver
 
@@ -27,6 +33,38 @@ tags: ["pathway:visionary", "sequence:3"]
 
 ### Dream Weaving
 
+```yaml ability
+id: visionary-seq-03-dream-weaving
+name: Dream Weaving
+pathway: visionary
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: One or more creatures within sight
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'Cost: 5 [[Spirituality]] Use: Casting Action Targeting and range: One or more
+  creatures within sight Effect: Drag the targets into a dream. The targets immediately
+  fall asleep and are pulled into the dream state. Sleeping targets: Attacking a sleeping
+  target grants a +2 beneficial bonus, and the target is considered [[Bound]]. The
+  target gains no bonus to [[Physical Defense]] from Agility (DEX). Dream world behavior:
+  In the dream world, things are usually no different from the real world. You are
+  free to negotiate, but people in the dream usually do not lie. Realizing it is a
+  dream: A creature that passes a Intuition Test (Difficulty Value 15) realizes it
+  is in a dream. Waking by effort:...'
+```
+
+
+
+
 - **Cost:** 5 [[Spirituality]]
 - **Use:** Casting Action
 - **Targeting and range:** One or more creatures within sight
@@ -48,7 +86,41 @@ tags: ["pathway:visionary", "sequence:3"]
 >
 > - **Sequence 1:** You can pull others into your dream, including their spirit and body. You can build everything in this dream, and the scope of influence can span the entire continent.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Psychic Phantom
+
+```yaml ability
+id: visionary-seq-03-psychic-phantom
+name: Psychic Phantom
+pathway: visionary
+sequence: 3
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- offense
+text: 'Cost: 3 [[Spirituality]] Use: Free Action; once per round Effect: Create an
+  almost-real phantom. You determine the phantoms image and content. The phantom is
+  essentially an illusion, but it does not need to be attached to a dream. It can
+  exist in reality within your sight or within your [[Range of Influence]]. As long
+  as the enemy thinks it is real, then it is real (to the affected object). The phantom
+  cannot cause any substantial damage, but in the eyes of the affected object it provides
+  feedback as real, allowing the affected target to fight it out of thin air. Seeing
+  through the illusion: A creature that realizes it is false can, each round as a
+  free action, make a Will Test (Difficult...'
+```
+
+
+
 
 - **Cost:** 3 [[Spirituality]]
 - **Use:** Free Action; once per round
@@ -59,3 +131,5 @@ tags: ["pathway:visionary", "sequence:3"]
   - As long as the enemy thinks it is real, then it is real (to the affected object). The phantom cannot cause any substantial damage, but in the eyes of the affected object it provides feedback as real, allowing the affected target to fight it “out of thin air.”
 - **Seeing through the illusion:** A creature that realizes it is false can, each round as a free action, make a Will Test (Difficulty Value 15) to see through the illusion. If successful, all damage previously dealt is negated.
 - **If never realized to be false:** If the phantom is never realized to be false, then the phantom�s damage does not cause any physical manifestation. Eventually, the target may die from psychological shock (no physical damage is recorded); immunity to mind-affecting effects prevents this outcome.
+
+- **Limits:** As described in this section's prose.

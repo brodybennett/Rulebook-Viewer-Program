@@ -1,16 +1,36 @@
 ---
-title: "Sequence 8: Unwinged Angel"
-id: "abyss-seq-08"
-tags: ["pathway:abyss", "sequence:8"]
+title: 'Sequence 8: Barbarian'
+id: abyss-seq-08
+tags:
+- pathway:abyss
+- sequence:8
 ---
+
+
+
+
 
 # Abyss Pathway: Sequence 8
 
-## Unwinged Angel
+## Barbarian
 
 > **Lore:** Known as “Cold-Blooded One” in ancient times, this Beyonder has lost their conscience and grown more inhuman, gaining demonic, magic-like abilities.
 
 - See also: Abyss
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -24,6 +44,33 @@ tags: ["pathway:abyss", "sequence:8"]
 
 ### Inhuman Body
 
+```yaml ability
+id: abyss-seq-08-inhuman-body
+name: Inhuman Body
+pathway: abyss
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- healing
+text: 'Effect: You recover health much faster than others. Natural recovery time:
+  The time required for your body to naturally restore life is only 10 hours, rounded
+  up. See [[Recovery of Spirituality and Other States]] for details. Sequence scaling:
+  Sequence 7: Changed to every 8 hours. Sequence 6: Changed to every 6 hours. Every
+  time one level is promoted: the required time is cut in half and rounded down.'
+```
+
+
+
+
 - **Effect:** You recover health much faster than others.
 - **Natural recovery time:** The time required for your body to naturally restore life is only **10 hours**, **rounded up**. See [[Recovery of Spirituality and Other States]] for details.
 - **Sequence scaling:**
@@ -31,7 +78,41 @@ tags: ["pathway:abyss", "sequence:8"]
   - **Sequence 6:** Changed to every **6 hours**.
   - Every time one level is promoted: the required time is cut in half and **rounded down**.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Dehumanization
+
+```yaml ability
+id: abyss-seq-08-dehumanization
+name: Dehumanization
+pathway: abyss
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- debuff
+- social
+text: 'Effect: From the moment you are promoted, you are no longer human. You still
+  have feelings, but it is difficult to empathize; you will act only for your own
+  desires, closer to pure egoism. Only in extreme cases is it close to emotional divinity.
+  Play guidance: When playing, pay attention to the annihilation of humanity. Condition
+  impact (halved): The effects of Charisma (CHA), Anger, and Fear on you are halved.
+  You still have pure bloodthirsty and killing desires; this is not inconsistent with
+  the halving of the anger state. Forced/restrictive effects: If these conditions
+  have any special effect on you, such as forcing or restricting your actions, you
+  can ignore such incidents. Special: T...'
+```
+
+
+
 
 - **Effect:** From the moment you are promoted, you are no longer human. You still have feelings, but it is difficult to empathize; you will act only for your own desires, closer to pure egoism. Only in extreme cases is it close to emotional divinity.
 - **Play guidance:** When playing, pay attention to the annihilation of humanity.
@@ -44,7 +125,43 @@ tags: ["pathway:abyss", "sequence:8"]
   - [[anger]]
   - [[Fear]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### Broken Wings
+
+```yaml ability
+id: abyss-seq-08-broken-wings
+name: Broken Wings
+pathway: abyss
+sequence: 8
+type: active
+action: cast
+cost:
+  spirituality: 3
+roll: null
+opposed_by: willpower_defense
+range: Designate 1 target **within sight**.
+target: designated target(s)
+duration: 'Lasting until the end of the targets next action, they gain all of the
+  following effects:'
+scaling: []
+tags:
+- ritual
+- mobility
+- debuff
+- defense
+text: 'Cost: 3 Spirituality. Use: 1 Casting Action. Test: Intuition (INT) vs. Willpower
+  Defense. Targeting and range: Designate 1 target within sight. Effect: You raise
+  your arms horizontally and press down your palms suddenly; the targets body becomes
+  heavy and their movement slows, as if the wings used to fly have been broken off.
+  Duration: Lasting until the end of the targets next action, they gain all of the
+  following effects: Their movement power is halved. Their Agility (DEX) is halved,
+  rounded up.'
+```
+
+
+
 
 - **Cost:** 3 Spirituality.
 - **Use:** 1 Casting Action.
@@ -60,7 +177,38 @@ tags: ["pathway:abyss", "sequence:8"]
   - **Sequence 4:** Broken Wings can affect multiple targets at once. One Intuition (INT) Test is against the Willpower Defense of all targets.
     - If the target is one character lower than you, you can make them lose all mobility and agility, but it still does not affect Dodge.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Demonic Spells
+
+```yaml ability
+id: abyss-seq-08-demonic-spells
+name: Demonic Spells
+pathway: abyss
+sequence: 8
+type: active
+action: swift
+cost:
+  spirituality: 1
+roll: null
+opposed_by: none
+range: Choose 1 target.
+target: designated target(s)
+duration: 1 encounter.
+scaling: []
+tags:
+- utility
+text: 'Effect: You gain more demonic spell-like abilities. Number gained: Divide your
+  ontologys current Intuition (INT) by 2 to determine the number of demon-like spells
+  you can gain. Additional gains: Potion Completely Digested: Choose another demon-like
+  spell to get it. Every time a Sequence or position is promoted: choose 1 more demon-like
+  spell to get. When you upgrade the position, you can get 2 more. [[Potion Completely
+  Digested]] [[Position]]'
+```
+
+
+
 
 - **Effect:** You gain more demonic spell-like abilities.
 - **Number gained:** Divide your ontology’s current Intuition (INT) by **2** to determine the number of demon-like spells you can gain.

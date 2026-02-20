@@ -1,10 +1,16 @@
 ---
-title: "Sequence 5: Traveler"
-id: "apprentice-seq-05"
-tags: ["pathway:apprentice", "sequence:5"]
+title: 'Sequence 5: Traveler'
+id: apprentice-seq-05
+tags:
+- pathway:apprentice
+- sequence:5
 ---
 
-# Sequence 5: Traveler
+
+
+
+
+# Door Pathway: Sequence 5
 
 ## Traveler
 
@@ -26,6 +32,36 @@ tags: ["pathway:apprentice", "sequence:5"]
 - Your navigating skill increases by 2 skill levels.
 
 ### Traveler's Gate
+
+```yaml ability
+id: apprentice-seq-05-traveler-s-gate
+name: Traveler's Gate
+pathway: apprentice
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- mobility
+text: '*Traveler''s Gate is also referred to as the Gate of Teleportation. It enables
+  teleportation/travel as a self-positioning Spirit World shuttle that can sense the
+  outside world. [[Spirit World]] This ability can be used in two ways: 1) Long-distance
+  Spirit World travel Use: One Casting Action. Cost: "Spirit" refers to Spirituality
+  in this section. Effect: You can travel long distances in the Spirit World, and
+  you can always sense the reality of the outside world while in the Spirit World.
+  You can transmit up to inspiration + will + half constitution (rounded up) km.'
+```
+
+
+
 
 **Traveler's Gate** is also referred to as the “Gate of Teleportation.” It enables teleportation/travel as a self-positioning **Spirit World** shuttle that can sense the outside world. [[Spirit World]]
 
@@ -52,6 +88,36 @@ This ability can be used in two ways:
 ### Invisible Hand
 
 
+```yaml ability
+id: apprentice-seq-05-invisible-hand
+name: Invisible Hand
+pathway: apprentice
+sequence: 5
+type: active
+action: attack
+cost: {}
+roll: null
+opposed_by: none
+range: line of sight
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- healing
+- stealth
+- mobility
+- offense
+text: 'Effect: You can take pictures from a distance. You are considered to be able
+  to capture objects at any position equal to the range of Intuition (INT), perform
+  attack actions, or perform abilities that require physical contact (such as opening
+  doors). How much Intuition (INT) you have represents how much your invisible hand
+  can dabble. Special: The invisible hand does not lose health. It has a Strength
+  attribute equal to your Strength. It cannot work outside of line of sight.'
+```
+
+
+
+
 - **Effect:**
   - You can take pictures from a distance.
   - You are considered to be able to capture objects at any position equal to the range of **Intuition (INT)**, perform attack actions, or perform abilities that require physical contact (such as opening doors).
@@ -61,7 +127,35 @@ This ability can be used in two ways:
   - It has a Strength attribute equal to your Strength.
   - It cannot work outside of line of sight.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Records
+
+```yaml ability
+id: apprentice-seq-05-records
+name: Records
+pathway: apprentice
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+text: 'Effect: The number and strength of Extraordinary Abilities you can record have
+  been increased. [[recording extraordinary abilities]] From now on, you can record:
+  4 Sequence 4-3 abilities 15 Sequence 6-5 abilities 30 Sequence 9-7 abilities The
+  effects of Sequence 4-3 abilities will no longer be halved.'
+```
+
+
+
 
 - **Effect:** The number and strength of **Extraordinary Abilities** you can record have been increased. [[recording extraordinary abilities]]
 - **From now on, you can record:**
@@ -69,3 +163,5 @@ This ability can be used in two ways:
   - 15 Sequence 6-5 abilities
   - 30 Sequence 9-7 abilities
 - The effects of Sequence 4-3 abilities will no longer be halved.
+
+- **Limits:** As described in this section's prose.

@@ -1,12 +1,18 @@
 ---
-title: "Sequence 2: Weather Warlock"
-id: "red-priest-seq-02"
-tags: ["pathway:red-priest", "sequence:2"]
+title: 'Sequence 2: Weather Warlock'
+id: red-priest-seq-02
+tags:
+- pathway:red-priest
+- sequence:2
 ---
 
-# Sequence 2: Weather Warlock
 
-## Overview
+
+
+
+# Red Priest Pathway: Sequence 2
+
+## Weather Warlock
 
 > **Lore:** A battlefield master of fog, storms, lightning, and change—able to alter weather across a wide area to gain an advantage in war.
 
@@ -30,6 +36,39 @@ tags: ["pathway:red-priest", "sequence:2"]
 
 ### Celestial Alteration
 
+```yaml ability
+id: red-priest-seq-02-celestial-alteration
+name: Celestial Alteration
+pathway: red-priest
+sequence: 2
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- mobility
+- offense
+text: 'Cost: 10 Spirituality. Use: Full-Round Action [[Full-Round Action]]. Effect:
+  You can alter the sky within a city. You change nearby celestial phenomena to your
+  advantage. Weather shaping: Different weather changes can be applied repeatedly
+  and combined to form new weather. Weather options (examples): Fog: All vision is
+  blocked. -8 to ranged attack checks; -5 to ranged damage checks, unless the fog
+  is broken by other means. Thunderstorm: Hidden thunder and dark clouds cover the
+  entire sky; lightning damage rolls gain +1d10. Cold wind sweeps across the land;
+  movement speed is halved. Squall: The cold wind sweeps across the entire land, making
+  it difficult for people to move an inch. Those w...'
+```
+
+
+
+
 - **Cost:** 10 **Spirituality**.
 - **Use:** **Full-Round Action** [[Full-Round Action]].
 - **Effect:** You can alter the sky within a city. You change nearby celestial phenomena to your advantage.
@@ -52,11 +91,67 @@ tags: ["pathway:red-priest", "sequence:2"]
 
 ### Freezing Ice
 
+```yaml ability
+id: red-priest-seq-02-freezing-ice
+name: Freezing Ice
+pathway: red-priest
+sequence: 2
+type: active
+action: move
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- mobility
+text: 'Cost: 5 Spirituality. Use: spellcasting action Spellcasting Action. Effect:
+  You condense a layer of frost on the largest area that can cover the city. Anyone
+  who walks on it and performs a Move Action Move Action must make a Agility (DEX)
+  test Agility (DEX) Test; otherwise, they lose their balance and fall directly.'
+```
+
+
+
+
 - **Cost:** 5 **Spirituality**.
 - **Use:** **spellcasting action** Spellcasting Action.
 - **Effect:** You condense a layer of frost on the largest area that can cover the city. Anyone who walks on it and performs a **Move Action** Move Action must make a **Agility (DEX) test** Agility (DEX) Test; otherwise, they lose their balance and fall directly.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Frost
+
+```yaml ability
+id: red-priest-seq-02-frost
+name: Frost
+pathway: red-priest
+sequence: 2
+type: active
+action: attack
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'Cost: 3 Spirituality. Use: Attack Action Attack Action. Effect: You can shape
+  the frost into whatever you want. Make a [[Throwing]] (or other reasonable) check
+  against the opponents [[Physical Defense]]. On success, deal 8d6 + your Strength
+  damage bonus cold damage.'
+```
+
+
+
 
 > **Lore:** You have been favored by ice.
 
@@ -64,7 +159,36 @@ tags: ["pathway:red-priest", "sequence:2"]
 - **Use:** **Attack Action** Attack Action.
 - **Effect:** You can shape the frost into whatever you want. Make a [[Throwing]] (or other reasonable) check against the opponent’s [[Physical Defense]]. On success, deal 8d6 + your Strength damage bonus cold damage.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Frozen
+
+```yaml ability
+id: red-priest-seq-02-frozen
+name: Frozen
+pathway: red-priest
+sequence: 2
+type: active
+action: move
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- mobility
+- debuff
+- defense
+text: 'Effect: Creatures within a radius of 10 kilometers from you are quickly wrapped
+  in ice. Their actions are slowed by cold and ice: each Move Action can only move
+  1 meter. Limits: This effect has no effect on creatures with [[Cold Resistance]].'
+```
+
+
+
 
 - **Effect:** Creatures within a radius of 10 kilometers from you are quickly wrapped in ice. Their actions are slowed by cold and ice: each **Move Action** can only move 1 meter.
 - **Limits:** This effect has no effect on creatures with [[Cold Resistance]].

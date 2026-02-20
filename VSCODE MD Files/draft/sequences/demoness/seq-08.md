@@ -1,12 +1,34 @@
 ---
-title: "Sequence 8: Instigator"
-id: "demoness-seq-08"
-tags: ["pathway:Demoness", "sequence:8"]
+title: 'Sequence 8: Instigator'
+id: demoness-seq-08
+tags:
+- pathway:demoness
+- sequence:8
 ---
 
-# Sequence 8: Instigator
+
+
+
+
+# Demoness Pathway: Sequence 8
 
 > **Lore:** You excel at inducing evil desires, intensifying conflicts, provoking disputes, and creating bloody incidents.
+
+## Instigator
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -23,6 +45,38 @@ tags: ["pathway:Demoness", "sequence:8"]
   - Each time you instigate a person to violate their [[Personality]], it also counts as **1** [[Growth]].
 
 ### Charisma (CHA)
+
+```yaml ability
+id: demoness-seq-08-charisma-cha
+name: Charisma (CHA)
+pathway: demoness
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: One creature you can interact with via performance/words/body language.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- social
+text: 'Cost: None (does not consume [[Spirituality]]). Use: 1 Spellcasting Action.
+  Effect: You perform an action/words/body language that fits pleasing or charming,
+  then attempt to charm a target. Targeting and range: One creature you can interact
+  with via performance/words/body language. Check: Make a Pleasure check (RAW also
+  calls this pleasing verification / Pleasant check) opposed by the targets Willpower
+  Defense. Bonuses and penalties: Apply the following modifiers to the Pleasure check
+  as appropriate: If you do not match the targets sexual orientation: -4 unfavorable;
+  and -2 unfavorable if the target has a family affair. If the target is hostile or
+  vigilant toward you: -4 unfavorable.'
+```
+
+
+
 
 - **Cost:** None (does not consume [[Spirituality]]).
 - **Use:** 1 Spellcasting Action.
@@ -55,7 +109,40 @@ tags: ["pathway:Demoness", "sequence:8"]
 - **Calming the effect:** A target that does **not** suffer from effect (3) can use the [[Full Meditation]] / [[Half Meditation]] special action to directly calm down / half calm down the Charisma (CHA) effect.
 - > **GM Note:** If a Player character suffers the Enchanted state, apply a “charm filter” to how they perceive and interpret the instigator.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Cognitive Misleading
+
+```yaml ability
+id: demoness-seq-08-cognitive-misleading
+name: Cognitive Misleading
+pathway: demoness
+sequence: 8
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- defense
+- social
+text: 'Use: 1 Free Action. Limits: Only usable in a [[Non-Combat State]]. Check: Make
+  a Speech/Deception check opposed by the targets Willpower Defense. You must roleplay
+  a cognition with the target: a non-contradictory and relevant argument. Bonuses
+  and penalties: Apply the same bonuses/penalties as Charisma (CHA), except you do
+  not apply Charisma (CHA) condition (1) (the sexual-orientation condition). Effect:
+  On success, the target believes the cognition you presented. Rules notes (examples
+  from RAW): Non-contradictory / relevant does not mean you cannot make the target
+  do things that violate personality; you can secretly change the concept.'
+```
+
+
+
 
 > **Lore:** You intensify conflicts and quietly shift concepts so the target slips into extreme cognitive fallacies.
 
@@ -73,6 +160,36 @@ tags: ["pathway:Demoness", "sequence:8"]
 
 ### Intensification of Persuasion
 
+```yaml ability
+id: demoness-seq-08-intensification-of-persuasion
+name: Intensification of Persuasion
+pathway: demoness
+sequence: 8
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: Choose 1 or more targets and (for each) one of their current beliefs.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- defense
+text: 'Use: 1 Free Action. Targeting and range: Choose 1 or more targets and (for
+  each) one of their current beliefs. Check: Make a Persuasion check opposed by each
+  targets Willpower Defense. Bonuses and penalties: Apply the same bonuses/penalties
+  as Cognitive Misleading. Effect: On success, the target must act according to what
+  they believe to be true (not simply believe it) until they notice logical loopholes
+  and roleplay out where the loopholes are; the GM should try not to remind them.
+  Using this ability, you can make a person in the Cognitive Misleading bumped into
+  scenario carry out the behavior you instigated, so that people who dont want to
+  harm innocent people really kill people. This u...'
+```
+
+
+
+
 > **Lore:** You push the target from belief into action.
 
 - **Use:** 1 Free Action.
@@ -82,3 +199,5 @@ tags: ["pathway:Demoness", "sequence:8"]
 - **Effect:**
   1. On success, the target must act according to what they believe to be true (not simply believe it) until they notice logical loopholes and roleplay out where the loopholes are; the GM should try not to remind them.
   2. Using this ability, you can make a person in the Cognitive Misleading “bumped into” scenario carry out the behavior you instigated, so that people who don’t want to harm innocent people really kill people. This usually works by default (GM can override).
+
+- **Limits:** As described in this section's prose.

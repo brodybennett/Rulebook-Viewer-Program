@@ -1,12 +1,34 @@
 ---
-title: "Sequence 7: Harvest Priest"
-id: "earth-seq-07"
-tags: ["pathway:earth", "sequence:7"]
+title: 'Sequence 7: Harvest Priest'
+id: earth-seq-07
+tags:
+- pathway:earth
+- sequence:7
 ---
 
-# Sequence 7: Harvest Priest
+
+
+
+
+# Mother Pathway: Sequence 7
 
 **Pathway:** Earth Pathway.
+
+## Harvest Priest
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -19,6 +41,34 @@ tags: ["pathway:earth", "sequence:7"]
 - Your **Botany** can be quickly learned to proficiency.
 
 ### Harvest
+
+```yaml ability
+id: earth-seq-07-harvest
+name: Harvest
+pathway: earth
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Choose a plant within 10 meters of you **or** throw one or multiple seeds.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Cost: 3 spiritual points Use: 1 Casting Action Targeting and range: Choose
+  a plant within 10 meters of you or throw one or multiple seeds. Effect: You read
+  the [[Language of Mysticism]] and catalyze rapid growth and reproduction. The chosen
+  plant/seed(s) grow quickly to create jungles on any ground or ship, growing crazily
+  to deal with enemies. Special: In a land environment, you can directly harvest seeds
+  contained in the land, excluding the land abandoned by the gods. [[Land Abandoned
+  by the Gods]]'
+```
+
+
+
 
 - **Cost:** 3 spiritual points
 - **Use:** 1 Casting Action
@@ -111,7 +161,36 @@ When harvesting from land (as long as the land is not in a bad environment), cho
      - Characters with special backgrounds may suffer from hay fever after the battle.
      - Before leaving the Sea of Flowers, spells/attacks must be performed with **Difficulty Value 10**.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Manipulate Plants
+
+```yaml ability
+id: earth-seq-07-manipulate-plants
+name: Manipulate Plants
+pathway: earth
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Choose a plant within 10 meters.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- offense
+text: 'Cost: 3 spiritual points Use: 1 spellcasting action Targeting and range: Choose
+  a plant within 10 meters. Effect: Choose one effect to take effect. Manipulation
+  attack You manipulate a plant, launching one of its executable actions. Entangle
+  yourself You make a plant entangle yourself or others.'
+```
+
+
+
 
 - **Cost:** 3 spiritual points
 - **Use:** 1 spellcasting action
@@ -135,3 +214,5 @@ When harvesting from land (as long as the land is not in a bad environment), cho
    - You do not share senses.
 
 > **GM Note:** Other reasonable uses of manipulating plants may be allowed by the GM.
+
+- **Limits:** As described in this section's prose.

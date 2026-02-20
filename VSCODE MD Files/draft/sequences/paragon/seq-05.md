@@ -1,13 +1,21 @@
 ---
-title: "Sequence 5: Astronomer"
-id: "paragon-seq-05"
-tags: ["pathway:paragon", "sequence:5"]
+title: 'Sequence 5: Astronomer'
+id: paragon-seq-05
+tags:
+- pathway:paragon
+- sequence:5
 ---
 
-# Paragon Pathway: **Sequence** 5: Astronomer
+
+
+
+
+# Paragon Pathway: Sequence 5
 
 > **Lore:** Known as “star magician” (“star warlock”) in ancient times; it can guide the power of stars to bless itself.
 
+
+## Astronomer
 
 ## Advancement
 
@@ -36,6 +44,36 @@ tags: ["pathway:paragon", "sequence:5"]
 - Mysticism is erudition.
 
 ### Astrological Reproduction
+
+```yaml ability
+id: paragon-seq-05-astrological-reproduction
+name: Astrological Reproduction
+pathway: paragon
+sequence: 5
+type: active
+action: cast
+cost:
+  spirituality: 4
+roll: null
+opposed_by: willpower_defense
+range: chooses up to 8 targets.
+target: designated target(s)
+duration: Creatures you attack are breathless for 1 round.
+scaling: []
+tags:
+- mobility
+- defense
+text: 'Effect: You sum up the law of occurrence of astronomical phenomena, so as to
+  reproduce the phenomenon in practice. You gain the following astrology for the basic
+  astronomical phenomenon: Galactic Traction Use: 1 Casting Action. Cost: consumes
+  2 spirit points. Targeting and range: chooses up to 8 targets. Check: astronomy
+  against will defense. Effect: Reduce each target''s movement by your movement value
+  for 1 round. You cannot move for that round, but your movement action still exists
+  (spent maintaining the effect).'
+```
+
+
+
 
 - **Effect:** You sum up the law of occurrence of astronomical phenomena, so as to reproduce the phenomenon in practice.
 - You gain the following astrology for the basic astronomical phenomenon:
@@ -142,6 +180,38 @@ tags: ["pathway:paragon", "sequence:5"]
 
 ### Astronomical Prediction
 
+```yaml ability
+id: paragon-seq-05-astronomical-prediction
+name: Astronomical Prediction
+pathway: paragon
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- healing
+- buff
+text: 'Effect: You can predict the future astronomical phenomena to meet the requirements
+  of Mysticism and exert stronger power in a specific period of time. Use: 1 Casting
+  Action. Cost: consuming 2 points of spirituality. Effect: you get celestial information
+  for the next week, which does not include [[Blood Moon]]s. Afterwards, roll 1d24
+  to determine how many hours after a particular star reaches its correct position.
+  Perform another 1d7; the random effect will take effect 1 hour after the time is
+  up: Saturn (Goddess of the Earth): During the effective period, your strength and
+  constitution +1, restore 1d2 Vitality every round, and increase your biology by
+  1 level. Jupiter (Lord of the Storm):...'
+```
+
+
+
+
 - **Effect:** You can predict the future astronomical phenomena to meet the requirements of Mysticism and exert stronger power in a specific period of time.
 - **Use:** 1 Casting Action.
 - **Cost:** consuming 2 points of spirituality.
@@ -158,3 +228,4 @@ tags: ["pathway:paragon", "sequence:5"]
 - (When the first celestial phenomenon effect ends, you can perform another **1d24** to determine the next celestial phenomenon time, but 1d7 is no longer needed; the next celestial phenomenon effect cycles in the order listed above until all effects have occurred once.)
 - **Special:** After the God of War timeline, the Mars result changes to a **1d6** bonus effect, and the Moon result is renamed **Stars** but keeps its effect.
 
+- **Limits:** As described in this section's prose.

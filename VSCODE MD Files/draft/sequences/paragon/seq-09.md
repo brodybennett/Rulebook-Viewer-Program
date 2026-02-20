@@ -1,14 +1,34 @@
 ---
-title: "Sequence 9: Savant"
-id: "paragon-seq-09"
-tags: ["pathway:paragon", "sequence:9"]
+title: 'Sequence 9: Savant'
+id: paragon-seq-09
+tags:
+- pathway:paragon
+- sequence:9
 ---
+
+
+
+
 
 # Paragon Pathway: Sequence 9
 
 ## Savant
 
 > **Lore:** Believing that knowledge is power, Savants have a cursory grasp of the occult and a stronger proficiency in chemicals and intricate mechanismsâ€”seeming to â€œknow it all.â€ Their core talent is awakening memory: recalling everything they have read while improving comprehension and learning speed.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -24,6 +44,32 @@ tags: ["pathway:paragon", "sequence:9"]
 
 ### Wake Up Memory
 
+```yaml ability
+id: paragon-seq-09-wake-up-memory
+name: Wake Up Memory
+pathway: paragon
+sequence: 9
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- buff
+text: 'Cost: 3 Spirituality. Use: 1 Swift Action. Effect: On your next skill check,
+  one of your skills improves by one tier for that check: Untrained acts as trained.
+  Trained acts as proficient. Proficient acts as advanced. Limits: This ability can
+  reach advanced level at most.'
+```
+
+
+
+
 - **Cost:** 3 **Spirituality**.
 - **Use:** 1 **Swift Action**.
 - **Effect:** On your next skill check, one of your skills improves by one tier for that check:
@@ -34,12 +80,73 @@ tags: ["pathway:paragon", "sequence:9"]
 
 ### Fast Learning
 
+```yaml ability
+id: paragon-seq-09-fast-learning
+name: Fast Learning
+pathway: paragon
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect (training time): You can use one day to train a skill to be trained,
+  and one week to train to be proficient. It takes two weeks from proficient to advanced,
+  four weeks from advanced to erudite, two months from erudite to master. The GM can
+  limit the stacking skills. For example, investigators can only learn a few skills
+  at most, and several skills can be advanced. Usually, except for potions, the group
+  canaTMt learn more than 3 kinds, and canaTMt exceed advanced level.'
+```
+
+
+
+
 - **Effect (training time):**
   1. You can use one day to train a skill to be trained, and one week to train to be proficient. It takes two weeks from proficient to advanced, four weeks from advanced to erudite, two months from erudite to master.
   2. The **GM** can limit the stacking skills. For example, investigators can only learn a few skills at most, and several skills can be advanced.
      - Usually, except for potions, the group canâ€™t learn more than 3 kinds, and canâ€™t exceed advanced level.
 
+- **Effect:** Fast Learning resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Practical Assemblies
+
+```yaml ability
+id: paragon-seq-09-practical-assemblies
+name: Practical Assemblies
+pathway: paragon
+sequence: 9
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Special: Strictly speaking, this is not a transcendent ability, but an introduction
+  to applying awakened memory. Therefore, this ability cannot be stolen or recorded.
+  Having awakened memory means possessing this ability. Requirements: Prepare enough
+  materials, usually obtained in the [[Black Market]], [[Steam Church]], or from informal
+  vendors. Use (assembly time): Perform 1 Full-Round Action to assemble items such
+  as firearms, rifles, nitroglycerin. Large devices (such as textile machines) require
+  10 minute. Examples (checks and results): Difficulty Value 15 craft manufacturing
+  appraisal: Assemble a pocket watch, or a pistol (appearance fully customizable depending
+  on whether it is steam...'
+```
+
+
+
 
 - **Special:** Strictly speaking, this is not a transcendent ability, but an introduction to applying awakened memory. Therefore, this ability cannot be stolen or recorded. Having awakened memory means possessing this ability.
 - **Requirements:** Prepare enough materials, usually obtained in the [[Black Market]], [[Steam Church]], or from informal vendors.
@@ -68,7 +175,41 @@ tags: ["pathway:paragon", "sequence:9"]
 - **Combat timing note:**
   - If you temporarily create during combat, you cannot take any other actions, including free actions, until the creation is complete. The â€œ1 full roundâ€ time usually refers to your next turn.
 
+- **Effect:** Practical Assemblies resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Spirit Vision
+```yaml ability
+id: paragon-seq-09-spirit-vision
+name: Spirit Vision
+pathway: paragon
+sequence: 9
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+text: 'Use: 1 Free Action to activate. Cost: 1 Spirituality per round. Effect: While
+  Spirit Vision is active, you gain the following benefits: Etheric body: You can
+  roughly tell whether the other partyaTMs body is good or bad through aura color,
+  but you canaTMt get detailed information. Spiritual body: You can confirm whether
+  an object/creature has spirituality; this cannot identify extraordinary people.
+  Mental body: You can see whether the other party is thinking, but only that; you
+  cannot get more detailed information. Astral body: You cannot see the astral body.
+  While in the state of spiritual vision, your Spiritual Intuition test gains +1 (beneficial).'
+```
+
+
+
+
 - **Use:** 1 **Free Action** to activate.
 - **Cost:** 1 **Spirituality** per round.
 - **Effect:** While Spirit Vision is active, you gain the following benefits:
@@ -86,3 +227,5 @@ tags: ["pathway:paragon", "sequence:9"]
   - The colors seen by Spirit Vision allow you to see each other in the dark, but you can only see the existence of colors; it is still possible to get lost in the dark because the colors you can see are limited. You cannot use them to distinguish the undead biology.
   - **Sequence 7:** You can determine the path corresponding to extraordinary objects; see [[Spiritual Perception]] for details.
   - Spirit Vision can see some ordinary spirit bodies by default if they have not dissipated for 24 hours, and cannot be recorded or stolen.
+
+- **Limits:** As described in this section's prose.

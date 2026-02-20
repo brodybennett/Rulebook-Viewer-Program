@@ -1,10 +1,18 @@
 ---
-title: "Sequence 4: Disaster Priest"
-id: "tyrant-seq-04"
-tags: ["pathway:tyrant", "sequence:4"]
+title: 'Sequence 4: Calamity Priest'
+id: tyrant-seq-04
+tags:
+- pathway:tyrant
+- sequence:4
 ---
 
-# Sequence 4: Disaster Priest
+
+
+
+
+# Tyrant Pathway: Sequence 4
+
+## Calamity Priest
 
 ## Advancement
 
@@ -26,6 +34,33 @@ tags: ["pathway:tyrant", "sequence:4"]
 
 ### Earth Manipulation
 
+```yaml ability
+id: tyrant-seq-04-earth-manipulation
+name: Earth Manipulation
+pathway: tyrant
+sequence: 4
+type: active
+action: free
+cost:
+  vitality: 20
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- mobility
+- defense
+text: 'Use: Free action, once per turn (choose one option). Effect: You shape earth
+  and terrain. Choose one benefit: Raise or lower the ground by up to 10 meters. Dig
+  passages through earth at your movement speed. Create an Earth Wall: Defense: 20
+  Vitality: 25'
+```
+
+
+
+
 - **Use:** Free action, once per turn (choose one option).
 - **Effect:** You shape earth and terrain.
 
@@ -44,7 +79,37 @@ Choose one benefit:
 
 ---
 
+- **Limits:** As described in this section's prose.
+
+
 ### Rock Tide Stomp
+
+```yaml ability
+id: tyrant-seq-04-rock-tide-stomp
+name: Rock Tide Stomp
+pathway: tyrant
+sequence: 4
+type: active
+action: attack
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: All targets within 10100 meters (excluding you).
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- defense
+- offense
+text: 'Use: Attack Action. Targeting and Range: All targets within 10100 meters (excluding
+  you). Effect: You stomp, cracking the ground and triggering a magma eruption. Make
+  a Disaster Attack with +20 [[Disaster Attack]] against each targets Physical Defense.
+  On success, magma erupts: 5d6 fire area damage 2d6 physical damage Limits: Only
+  functions on ground or seabed.'
+```
+
+
+
 
 - **Use:** Attack Action.
 - **Targeting and Range:** All targets within 10–100 meters (excluding you).
@@ -258,4 +323,3 @@ You create a major disaster.
 ---
 
 > **Lore:** Cataclysms reshape terrain and climate, with effects varying by environment.
-

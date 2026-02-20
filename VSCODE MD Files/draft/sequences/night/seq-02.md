@@ -1,12 +1,20 @@
 ---
-title: "Sequence 2: Servant of the Concealment"
-id: "night-seq-02"
-tags: ["pathway:night", "sequence:2"]
+title: 'Sequence 2: Servant of Concealment'
+id: night-seq-02
+tags:
+- pathway:night
+- sequence:2
 ---
 
-# Sequence 2: Servant of the Concealment
+
+
+
+
+# Darkness Pathway: Sequence 2
 
 Mastering the secret can make things **secret** and become impossible to **see**. [6]
+
+## Servant of Concealment
 
 ## Advancement
 
@@ -26,6 +34,37 @@ Mastering the secret can make things **secret** and become impossible to **see**
 - Choose a skill and set it as Proficient.
 
 ### Stealth
+
+```yaml ability
+id: night-seq-02-stealth
+name: Stealth
+pathway: night
+sequence: 2
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: line of sight
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- stealth
+- mobility
+text: '*Stealth: You make a thing hidden. Use: As a free action, once per round, choose
+  one or more targets within your line of sight. Effect: Stealth can produce the effects
+  below, depending on what you are concealing. Make a person secret: A person disappears
+  from reality and is transferred to the [[Hidden Kingdom]] of the [[Goddess of the
+  Night]]. > Lore: Usually an endless dark world with plants such as moon flowers
+  and night herbs. If there was a red moon here before the [[War of Gods]], it was
+  described as highly illuminated. This place can be interwoven with the real world,
+  analogous to the [[Spirit World]]. It can be used for teleportation and movement,
+  and can be considered an independe...'
+```
+
+
+
 
 **Stealth:** You make a thing “hidden.”
 
@@ -82,5 +121,32 @@ Mastering the secret can make things **secret** and become impossible to **see**
 
 ### Servant of Concealment
 
+```yaml ability
+id: night-seq-02-servant-of-concealment
+name: Servant of Concealment
+pathway: night
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- stealth
+text: 'Use: After passing a difficulty 20 inspiration test, you can perceive the surroundings
+  or designate a thing to sense. Effect: You know whether the other party is hiding
+  something, or whether a thing has a secret.'
+```
+
+
+
+
 - **Use:** After passing a **difficulty 20** inspiration test, you can perceive the surroundings or designate a thing to sense.
 - **Effect:** You know whether the other party is hiding something, or whether a thing has a secret.
+
+- **Limits:** As described in this section's prose.

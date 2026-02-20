@@ -1,14 +1,34 @@
 ---
-title: "Sequence 6: Bishop Rose"
-id: "hanged-man-seq-06"
-tags: ["pathway:hanged-man", "sequence:6"]
+title: 'Sequence 6: Rose Bishop'
+id: hanged-man-seq-06
+tags:
+- pathway:hanged-man
+- sequence:6
 ---
 
-# Sequence 6: Bishop Rose
 
-## Bishop Rose
+
+
+
+# Hanged Man Pathway: Sequence 6
+
+## Rose Bishop
 
 > **Lore:** Mastering flesh and blood magic, Bishop Rose excels at physical healing and can become pure flesh and blood to evade detection by hiding inside other bodies—at a lethal cost to the host when it exits. It must frequently replenish flesh and blood.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -21,12 +41,72 @@ tags: ["pathway:hanged-man", "sequence:6"]
 
 ### Bishop Rose Traits
 
+```yaml ability
+id: hanged-man-seq-06-bishop-rose-traits
+name: Bishop Rose Traits
+pathway: hanged-man
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- healing
+- offense
+text: You are long-term considered a Corrupted Creature [[Corrupted Creature]]. You
+  cannot be critically hit [[Critical Hit]] by effects other than the [[Weakness Attack]]
+  of the [[Red Priest]]. Your physical state no longer represents your remaining health,
+  and you can survive even if you are almost turned into a corpse. This is a potion
+  effect and cannot be stolen or recorded.
+```
+
+
+
+
 - You are long-term considered a **Corrupted Creature** [[Corrupted Creature]].
   - You cannot be critically hit [[Critical Hit]] by effects other than the [[Weakness Attack]] of the [[Red Priest]].
 - Your physical state no longer represents your remaining health, and you can survive even if you are almost turned into a corpse.
 - This is a potion effect and cannot be stolen or recorded.
 
+- **Effect:** Bishop Rose Traits resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Flesh Devour
+
+```yaml ability
+id: hanged-man-seq-06-flesh-devour
+name: Flesh Devour
+pathway: hanged-man
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Touch; one helpless creature.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Cost: No Sanity / Rationality [[Sanity / Rationality]]. Use: Varies by creature
+  size (swift / casting / full-round; see Devouring time by size below). Targeting
+  and range: Touch; one helpless creature. Effect: The target is brought into your
+  flesh. Creatures brought into your flesh become your Flesh Stack and provide Satiety
+  [[Satiety]]. Flesh Stack is the value that determines how much flesh and blood you
+  can hold; you can stack it up to 150. A creature provides Flesh Stacks based on
+  the size table below. Excluding [[Extraordinary]], larger creatures usually provide
+  more Flesh Stacks.'
+```
+
+
+
 
 - **Cost:** No **Sanity / Rationality** [[Sanity / Rationality]].
 - **Use:** Varies by creature size (swift / casting / full-round; see “Devouring time by size” below).
@@ -57,7 +137,39 @@ tags: ["pathway:hanged-man", "sequence:6"]
   - Ensure their characteristics [[Characteristics]] have been extracted first; otherwise devouring may lead to promotion identification.
   - If characteristics are not extracted first, devouring may trigger a standard promotion check when grazing ends.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Flesh Alteration
+
+```yaml ability
+id: hanged-man-seq-06-flesh-alteration
+name: Flesh Alteration
+pathway: hanged-man
+sequence: 6
+type: passive
+action: none
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- defense
+- offense
+text: 'Effect: You can alter your flesh; your flesh is affected by your Flesh Stack.
+  This ability has two usages: passive and active. Passive (subordinate to Flesh Devour):
+  This passive part cannot be recorded. Stealing will not cause flesh and blood to
+  disintegrate. This is a permanent physical change; it does not require continued
+  spell consumption to maintain. When your Flesh Stack reaches 50: Gain 3 Armor [[Armor]]
+  and 3 Physical Damage Reduction [[Physical Damage Reduction]]. These do not stack
+  with other physical benefits.'
+```
+
+
+
 
 - **Effect:** You can alter your flesh; your flesh is affected by your Flesh Stack.
 - This ability has two usages: passive and active.
@@ -104,7 +216,41 @@ tags: ["pathway:hanged-man", "sequence:6"]
      - You can digest wrapped objects at any time.
      - If a contaminated object is not digested in time, the effect ends and it is expelled with damage.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Cellular Proliferation
+
+```yaml ability
+id: hanged-man-seq-06-cellular-proliferation
+name: Cellular Proliferation
+pathway: hanged-man
+sequence: 6
+type: passive
+action: none
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- healing
+- buff
+text: 'Effect: Your cells grow faster than normal living organisms. Passive (Flesh
+  Stack regeneration): Based on your Flesh Stack, every 12 hours, even if you dont
+  devour any flesh and blood, your Flesh Stack value can also be +10. This auto-recovering
+  Flesh Stack ends when your upper limit of life reaches 80 [[Life Cap]], because
+  the upper limit of life brought by Flesh Stack increases with Sequence; at higher
+  Sequence this becomes the corresponding higher upper limit of life. *Flesh Magic:
+  You gain the following flesh magic; every Rose Bishop is an expert in flesh magic.
+  The following flesh and blood magic are all separate abilities, and only one benefit
+  can be selected when creating [[Extraor...'
+```
+
+
+
 
 - **Effect:** Your cells grow faster than normal living organisms.
 - **Passive (Flesh Stack regeneration):**
@@ -113,7 +259,40 @@ tags: ["pathway:hanged-man", "sequence:6"]
 
 **Flesh Magic:** You gain the following flesh magic; every “Rose Bishop” is an expert in flesh magic. The following flesh and blood magic are all separate abilities, and only one benefit can be selected when creating [[Extraordinary Items]].
 
+- **Limits:** As described in this section's prose.
+
+
 ### Flesh Cloak
+
+```yaml ability
+id: hanged-man-seq-06-flesh-cloak
+name: Flesh Cloak
+pathway: hanged-man
+sequence: 6
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- offense
+text: 'Cost: 3 points of Spirituality; 20 Flesh Stacks total (max 40 per encounter).
+  Use: 1 Swift Action. Effect: Weave scarlet flesh and fallen blood into a strange,
+  viscous red cloak that wraps your body and grants: Gain 5 points of external damage
+  reduction [[External Damage Reduction]]; this can be superimposed with the reduction
+  from Flesh Stack. The cloak can withstand a limited number of damages equal to the
+  value of Flesh Stack consumed. Each time it suffers non-physical damage, deduct
+  1 time. If it suffers from divine power [[Divine Power]], deduct 5 times each time.
+  It can be repaired by repeated casting.'
+```
+
+
+
 
 - **Cost:** 3 points of **Spirituality**; 20 Flesh Stacks total (max 40 per encounter).
 - **Use:** 1 Swift Action.
@@ -129,7 +308,37 @@ tags: ["pathway:hanged-man", "sequence:6"]
   - Damage from a target with Status/Rank higher than yours consumes 3 more resist times; holy damage [[Holy Damage]] consumes 5 more times.
   - If it is 2 characters higher than you, regardless of damage type, the cloak is annihilated after resisting 1 effect; holy causes the cloak to not even take effect.  
 
+- **Limits:** As described in this section's prose.
+
+
 ### Flesh Bomb
+
+```yaml ability
+id: hanged-man-seq-06-flesh-bomb
+name: Flesh Bomb
+pathway: hanged-man
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: Choose 1 target; throw against physical defense [[Physical Defense]].
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- debuff
+- defense
+- offense
+text: 'This ability has two uses. Thrown flesh bomb Cost: Consumes 5 points of blood.
+  Use: 1 spellcasting action. Targeting and range: Choose 1 target; throw against
+  physical defense [[Physical Defense]]. Effect: Deal 3d6 physical damage and 1d6
+  poison damage [[Poison Damage]]. On failure, damage is halved (rounded up).'
+```
+
+
+
 
 - This ability has two uses.
 
@@ -161,7 +370,38 @@ tags: ["pathway:hanged-man", "sequence:6"]
        - The corpse causes another 1 time of damage to creatures around 5 meters away from the conventional blood bomb; it is no longer an explosion, but depends on the harmful substances of the blood storm and the human body.
    - (Generally speaking, this use can’t work on yourself, because the bomb will also hurt you, and the damage caused is not worth the loss.)
 
+- **Limits:** As described in this section's prose.
+
+
 ### Flesh Manipulation
+
+```yaml ability
+id: hanged-man-seq-06-flesh-manipulation
+name: Flesh Manipulation
+pathway: hanged-man
+sequence: 6
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- control
+text: 'Use: 1 Swift Action; once per round. Effect: Animate the flesh and blood of
+  a lifeless host to perform 1 action. Example: You can use your Flesh Cloak or [[Flesh
+  Blanket]] to grapple [[Grapple]] the enemy. The bonus of flesh is its Flesh Stack/2.
+  The Flesh Stack also represents its Vitality. For the rest, refer to Flesh Blanket.
+  Additional uses (each consumes a free action controlled by flesh and blood): Precisely
+  manipulate the shape of flesh and blood; make it melt and become fluid; draw words
+  and portraits yourself.'
+```
+
+
+
 
 - **Use:** 1 Swift Action; once per round.
 - **Effect:** Animate the flesh and blood of a lifeless host to perform 1 action.
@@ -182,7 +422,41 @@ tags: ["pathway:hanged-man", "sequence:6"]
      - Other Rose Bishops can also obtain the information you left by divination on the flesh and blood.
 - **Passive:** When you have this ability, you can directly use external flesh and blood with no living owner as the material for your flesh magic (e.g., immediately suppress the life of a bomb-dead host into a cape).
 
+- **Limits:** As described in this section's prose.
+
+
 ### Flesh Healing
+
+```yaml ability
+id: hanged-man-seq-06-flesh-healing
+name: Flesh Healing
+pathway: hanged-man
+sequence: 6
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+- healing
+- offense
+text: 'Cost: 3 points of Spirituality; up to 20 Flesh Stacks per use. Use: 1 Swift
+  Action; 1 time per round. Effect: You use your accumulated flesh and blood to heal
+  damage. If you have lost the upper limit of your flesh and blood piles, or they
+  are all destroyed and your bodys health is lost, the Flesh Stacks you consume can
+  be refilled into your healthrestoring health or increasing your life cap again.
+  Special: If you were mutilated when you cast Flesh Bomb, Flesh Healing consumes
+  the same amount of Flesh Stack you lost when you cast Flesh Bomb to restore your
+  body.'
+```
+
+
+
 
 - **Cost:** 3 points of Spirituality; up to 20 Flesh Stacks per use.
 - **Use:** 1 Swift Action; 1 time per round.
@@ -190,7 +464,41 @@ tags: ["pathway:hanged-man", "sequence:6"]
   - If you have lost the upper limit of your flesh and blood piles, or they are all destroyed and your body’s health is lost, the Flesh Stacks you consume can be refilled into your health—restoring health or increasing your life cap again.
 - **Special:** If you were mutilated when you cast Flesh Bomb, Flesh Healing consumes the same amount of Flesh Stack you lost when you cast Flesh Bomb to restore your body.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Blanket of Flesh
+
+```yaml ability
+id: hanged-man-seq-06-blanket-of-flesh
+name: Blanket of Flesh
+pathway: hanged-man
+sequence: 6
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- defense
+text: 'Cost: 3 points of Spirituality; at least 10 and at most 40 Flesh Stacks. Use:
+  1 Swift Action; once per round. Effect: Create a giant blanket of fur that you can
+  manipulate with flesh to perform 1 action each round. Its actions are limited; unless
+  you have more ideas, it can only perform grappling special actions. For every 10
+  Flesh Stacks consumed, the blanket can grab 1 person; consuming 40 Flesh Stacks
+  allows it to grab 3 people at the same time. Determine its action bonus, mobility,
+  and physical defense using its current Flesh Stack/2. Agility (DEX) and dodge are
+  half of those values (rounded down). Roll: rd20 + action bonus against the targets
+  physical defenses; on success, grapple it.'
+```
+
+
+
 
 - **Cost:** 3 points of Spirituality; at least 10 and at most 40 Flesh Stacks.
 - **Use:** 1 Swift Action; once per round.
@@ -203,7 +511,38 @@ tags: ["pathway:hanged-man", "sequence:6"]
   4. Grappled people must stand together; the distance between them cannot exceed Flesh Stack/2.
   5. The blanket’s Flesh Stack value is its health value; if its health value is lower than 10, it cannot continue the grapple action.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Flesh Bullet
+
+```yaml ability
+id: hanged-man-seq-06-flesh-bullet
+name: Flesh Bullet
+pathway: hanged-man
+sequence: 6
+type: active
+action: attack
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: One or more targets.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- defense
+- offense
+text: 'Cost: 2 Flesh Stacks per bullet. Use: 1 Attack Action; up to 6 consecutive
+  shots. Targeting and range: One or more targets. Effect: Meat sticks protrude from
+  your body and shoot at targets. Make an attack of Intuition (INT) + shooting against
+  physical defense, ignoring agility and evasion in physical defense. Each meat stick
+  deals 1d6 physical damage. Aftereffects: Gain a -2 penalty per shot in a burst,
+  starting with the second shot.'
+```
+
+
+
 
 - **Cost:** 2 Flesh Stacks per bullet.
 - **Use:** 1 Attack Action; up to 6 consecutive shots.
@@ -213,3 +552,5 @@ tags: ["pathway:hanged-man", "sequence:6"]
   - Make an attack of Intuition (INT) + shooting against physical defense, ignoring agility and evasion in physical defense.
   - Each meat stick deals 1d6 physical damage.
 - **Aftereffects:** Gain a -2 penalty per shot in a burst, starting with the second shot.
+
+- **Limits:** As described in this section's prose.

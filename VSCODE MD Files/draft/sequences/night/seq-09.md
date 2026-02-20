@@ -1,18 +1,38 @@
 ---
-title: "Sequence 9: The Sleepless"
-id: "night-seq-09"
-tags: ["pathway:night", "sequence:9"]
+title: 'Sequence 9: Sleepless'
+id: night-seq-09
+tags:
+- pathway:night
+- sequence:9
 ---
+
+
+
+
 
 # Darkness Pathway: Sequence 9
 
-## The Sleepless
+## Sleepless
 
 > **Lore:** The mythical creature associated with this Pathway is an eight-legged magic wolf, corresponding to the Tarot card “Star”.
 
 The favored ones of the night have excellent eyesight even without light. They require only three to four hours of rest per day, and become increasingly energetic as night deepens—growing superior in strength, agility, thinking, and inspiration compared to ordinary people. They can also keenly sense unknown dangers and hidden existences in darkness.
 
 - See also: [[Darkness]]
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -31,6 +51,32 @@ Skill mastery and accelerated learning for Fighting/Shooting/Climbing (including
 3. Learning can only be done once per day. Characters of higher Sequences can use twice the inspiration brought by potions to improve their growth skills.
 
 ### Blessed of the Night
+
+```yaml ability
+id: night-seq-09-blessed-of-the-night
+name: Blessed of the Night
+pathway: night
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: '*Blessed of the Night: The deeper the night, the more energetic you are, and
+  your strength, agility, thinking, and inspiration become increasingly superior to
+  ordinary people. Time-based benefits: At dusk: Attribute and skill identification
+  +1 (beneficial). Night time: All attributes +1 Attribute and skill identification
+  +2 (beneficial) You will only be exhausted due to extraordinary factors. Late night:'
+```
+
+
+
 
 **Blessed of the Night:** The deeper the night, the more energetic you are, and your strength, agility, thinking, and inspiration become increasingly superior to ordinary people.
 
@@ -65,7 +111,42 @@ Related mechanics:
 - [[Physical Defense]]
 - [[Light/Lightning Modification]]
 
+- **Effect:** Blessed of the Night resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### No Sleep
+
+```yaml ability
+id: night-seq-09-no-sleep
+name: No Sleep
+pathway: night
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- healing
+text: '*No Sleep: You only need to rest for three to four hours per day. Resting 34
+  hours fully restores your spirituality and energy. As long as you are within this
+  interval, whether you rest for the full 4 hours makes no difference. Because you
+  are energetic at night, although you can fall asleep at night, you usually rest
+  during the day. Special: This is a potion effect and cannot be recorded or stolen.
+  Sequence scaling notes: Darkness Pathway Sequence 8-Darkness Pathway Sequence 6:
+  Rest time is 3h at Sequence 8, then reduces by 1h per Sequence (Sequence 7: 2h;
+  Sequence 6: 1h). Darkness Pathway Sequence 5: It only takes half an hour to rest
+  (difference can be 10 minutes). Related mechanics:'
+```
+
+
+
 
 **No Sleep:** You only need to rest for three to four hours per day.
 
@@ -83,14 +164,78 @@ Related mechanics:
 - [[Spirituality]]
 - [[Energy]]
 
+- **Effect:** No Sleep resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Darkvision
+
+```yaml ability
+id: night-seq-09-darkvision
+name: Darkvision
+pathway: night
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- detection
+- stealth
+text: '*Darkvision: Even in a completely dark environment, you can maintain normal
+  vision. This does not mean you can directly ignore extraordinary abilities that
+  hide using shadows or darkness. Related mechanics: [[Concealment by Shadows/Darkness]]'
+```
+
+
+
 
 **Darkvision:** Even in a completely dark environment, you can maintain normal vision. This does not mean you can directly ignore extraordinary abilities that hide using shadows or darkness.
 
 Related mechanics:
 - [[Concealment by Shadows/Darkness]]
 
+- **Effect:** Darkvision resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Premonition of Danger
+
+```yaml ability
+id: night-seq-09-premonition-of-danger
+name: Premonition of Danger
+pathway: night
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- divination
+- offense
+text: '*Premonition of Danger: You can keenly perceive unknown dangers and unknown
+  existences hidden in darkness. Whenever you are about to suffer a surprise/sneak
+  attack from within darkness/shadow, you gain the following benefits: Immediately
+  perceive the source of danger in your mind; flashing thoughts tell you the location,
+  source, and form of the danger. You will not be attacked/sneaked by things in the
+  dark/shadow; you are immune to surprise/sneak attacks from darkness at night (treat
+  as always warned). If at night/late night, if one attack can lose half of your maximum
+  blood volume (round up): Perform an Intuition (INT) appraisal at Difficulty Value
+  15. If successful, your physical defens...'
+```
+
+
+
 
 **Premonition of Danger:** You can keenly perceive unknown dangers and unknown existences hidden in darkness.
 
@@ -116,7 +261,40 @@ Related mechanics:
 - Difficulty Value
 - [[Temporary Bonus]]
 
+- **Effect:** Premonition of Danger resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Vision
+
+```yaml ability
+id: night-seq-09-vision
+name: Vision
+pathway: night
+sequence: 9
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+text: '*Vision: You gain vision, but it is not as effective for you as your own inspiration.
+  Activation: Use: 1 free action. Cost: Consuming 1 spirituality point per round.
+  Effect: You activate vision, and your vision gains the following benefits: Etheric
+  body: You can roughly tell whether the targets body is good or bad through aura
+  color, but you cant get detailed information. Spiritual body: You can confirm whether
+  an object/creature has spirituality; this cannot identify extraordinary people.
+  Mental body: You can see whether the target is thinking, but nothing more detailed.'
+```
+
+
+
 
 **Vision:** You gain vision, but it is not as effective for you as your own inspiration.
 
@@ -151,3 +329,4 @@ Related mechanics:
 - [[Spiritual Materials]]
 - [[Extraordinary People]]
 
+- **Limits:** As described in this section's prose.

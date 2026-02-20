@@ -1,12 +1,18 @@
 ---
-title: "Sequence 4: Fallen (Count)"
-id: "black-emperor-seq-04"
-tags: ["pathway:black-emperor", "sequence:4"]
+title: 'Sequence 4: Mentor of Disorder'
+id: black-emperor-seq-04
+tags:
+- pathway:black-emperor
+- sequence:4
 ---
 
-# [[Black Emperor]]: Sequence 4
 
-## Fallen (Count)
+
+
+
+# Black Emperor Pathway: Sequence 4
+
+## Mentor of Disorder
 
 - At this **Sequence**, your **Distortion** and **Gift** undergo a qualitative change.
 - You can “use” rules (**Exploitation**), “magnify” effects (**Zoom In**), and “chaos” order (**Chaos**) to create conditions favorable to yourself.
@@ -32,6 +38,35 @@ tags: ["pathway:black-emperor", "sequence:4"]
 - **Attribute Gain:** Constitution +1, Agility (DEX) +1, Intuition (INT) +1, Charisma +2; your legal skill goes up by one skill level.
 
 ### Chaotic Order
+
+```yaml ability
+id: black-emperor-seq-04-chaotic-order
+name: Chaotic Order
+pathway: black-emperor
+sequence: 4
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- utility
+text: 'Cost: Consume 5 Spirit points. Use: 1 Casting Action to cast one of the supernatural
+  effects below. Once per round, you can cast one of the following effects as a free
+  action; the free action still requires the listed cost and replaces the Casting
+  Action. Effect: Choose one of the following supernatural effects: Confusion (Distortion):
+  You confuse the form of an object. Choose an object to add an affix to. The affix
+  produces a certain physical effect, but it must conform to the shape of the marked
+  object and cannot add a prefix that contradicts the objects original attributes.
+  Examples: You can add very short to the distance between you and a streetlight.'
+```
+
+
+
 
 - **Cost:** Consume 5 **Spirit points**.
 - **Use:** 1 **Casting Action** to cast one of the supernatural effects below. Once per round, you can cast one of the following effects as a **free action**; the free action still requires the listed cost and replaces the Casting Action.
@@ -96,3 +131,5 @@ tags: ["pathway:black-emperor", "sequence:4"]
   - The actual situation can also make people passive and slow down, or greedy and eager, or lose fighting spirit, or only focus on money.
 - The performance of demigods at the same level is to make the other party’s next identification -5.
 - By using this effect, the -5 applies to the target’s next identification for 1 round, and it can also be resisted by extraordinary abilities.
+
+- **Limits:** As described in this section's prose.

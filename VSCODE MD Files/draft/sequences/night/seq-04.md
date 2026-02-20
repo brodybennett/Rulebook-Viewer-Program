@@ -1,12 +1,20 @@
 ---
-title: "Sequence 4: Night Watcher"
-id: "night-seq-04"
-tags: ["pathway:night", "sequence:4"]
+title: 'Sequence 4: Soul Assurer'
+id: night-seq-04
+tags:
+- pathway:night
+- sequence:4
 ---
 
-# Sequence 4: Night Watcher
+
+
+
+
+# Darkness Pathway: Sequence 4
 
 > **Lore:** Brings misfortune to others and excels at dealing with spirit creatures.
+
+## Soul Assurer
 
 ## Advancement
 
@@ -28,6 +36,35 @@ tags: ["pathway:night", "sequence:4"]
 
 ### Grasp of Doom
 
+```yaml ability
+id: night-seq-04-grasp-of-doom
+name: Grasp of Doom
+pathway: night
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- debuff
+- offense
+text: 'Cost: 5 [[Spirituality]]. Use: 1 Casting Action; curse one creature. Effect:
+  Each time the cursed creature makes a [[Skill Check]], it must also make an additional
+  Lucky Check with Difficulty Value 15. On a failure, the triggering skill check drops
+  by 1 Success Level. Sequence Scaling: Sequence 2: Lucky check Difficulty Value becomes
+  20. Sequence 1: It can be cast synchronously by attacking, and additionally applies
+  -4 to all identification-related checks made by the target.'
+```
+
+
+
+
 - **Cost:** 5 [[Spirituality]].
 - **Use:** 1 Casting Action; curse one creature.
 - **Effect:** Each time the cursed creature makes a [[Skill Check]], it must also make an additional **Lucky Check** with **Difficulty Value** 15. On a failure, the triggering skill check drops by 1 **Success Level**.
@@ -36,7 +73,36 @@ tags: ["pathway:night", "sequence:4"]
   - **Sequence 2:** Lucky check **Difficulty Value** becomes 20.
   - **Sequence 1:** It can be cast synchronously by attacking, and additionally applies **-4** to all identification-related checks made by the target.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Ethereal Mastery
+
+```yaml ability
+id: night-seq-04-ethereal-mastery
+name: Ethereal Mastery
+pathway: night
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- offense
+text: 'Effect: You are proficient at dealing with ethereal creatures. Your attacks
+  ignore [[Incorporeality]]. You deal 5d6 more damage against creatures with the [[Incorporeal
+  Quality]]. Sequence Scaling: Sequence 3: At [[Close Range]], you can pull out the
+  [[Spirit Body]] of a [[Helpless]] creature to [[Channeling]] directly, then stuff
+  the spirit body back into its body after channeling; this is considered an [[Injury]].'
+```
+
+
+
 
 - **Effect:** You are proficient at dealing with ethereal creatures.
   - Your attacks ignore [[Incorporeality]].
@@ -44,3 +110,5 @@ tags: ["pathway:night", "sequence:4"]
 
 - **Sequence Scaling:**
   - **Sequence 3:** At [[Close Range]], you can pull out the [[Spirit Body]] of a [[Helpless]] creature to [[Channeling]] directly, then stuff the spirit body back into its body after channeling; this is considered an [[Injury]].
+
+- **Limits:** As described in this section's prose.

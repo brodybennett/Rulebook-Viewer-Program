@@ -1,12 +1,18 @@
 ---
-title: "Sequence 5: Wraith"
-id: "mutant-seq-05"
-tags: ["pathway:mutant", "sequence:5"]
+title: 'Sequence 5: Puppet'
+id: mutant-seq-05
+tags:
+- pathway:mutant
+- sequence:5
 ---
 
-# Sequence 5: Wraith
 
-## Wraith
+
+
+
+# Chained Pathway: Sequence 5
+
+## Puppet
 
 You can transform your state into a real shadow and gain corresponding abilities, including passing through obstacles, hiding in mirrors, directly attacking an opponentâ€™s soul, and jumping to most places where images can be reflected.
 
@@ -36,11 +42,75 @@ When being promoted to a [[Resentful Soul]], the **Extraordinary** will forceful
 
 ### Sequence Traits and Overrides
 
+```yaml ability
+id: mutant-seq-05-sequence-traits-and-overrides
+name: Sequence Traits and Overrides
+pathway: mutant
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- control
+text: Becoming a Wraith overwrites the resident undead effect of the [[Zombie Stage]].
+  From now on, as long as you donaTMt become a ghost, your life form is considered
+  normal and will not receive additional restraint effects; you are still considered
+  undead when you use Wraith abilities. You donaTMt need to consume actions to activate
+  your original ability, but the ability of the [[Living Corpse]] is contradictory
+  to the state of the resentful soul, and it cannot be used while you are in a spirit-body
+  state.
+```
+
+
+
+
 1. Becoming a Wraith overwrites the resident undead effect of the [[Zombie Stage]].
 2. From now on, as long as you donâ€™t become a ghost, your life form is considered normal and will not receive additional restraint effects; you are still considered undead when you use Wraith abilities.
 3. You donâ€™t need to consume actions to activate your original ability, but the ability of the [[Living Corpse]] is contradictory to the state of the resentful soul, and it cannot be used while you are in a spirit-body state.
 
+- **Effect:** Sequence Traits and Overrides resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Full Moon Curse
+
+```yaml ability
+id: mutant-seq-05-full-moon-curse
+name: Full Moon Curse
+pathway: mutant
+sequence: 5
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- mobility
+- debuff
+- offense
+text: '*Full Moon Curse: Your madness comes with a thirst for souls. The Curse of
+  the Full Moon is an inherent effect once one has the ability of a Wraith, and cannot
+  be recorded or stolen. Under the full moon, you immediately fall into violent madness
+  and thirst for soul. Unlike the previous full moon curse, in the Wraith stage, if
+  you are exposed to the full moon, you must start to suck peopleaTMs souls. If you
+  donaTMt: You can only use 1 Swift Action per round, and 1 cast/attack/Move Action;
+  you become extremely weak, can only collapse on the ground, and return from Wraith
+  to human form, no longer enjoying the benefits and traits of Wraiths. Resentful
+  souls who do not consume souls for a long...'
+```
+
+
+
 
 **Full Moon Curse**: Your madness comes with a thirst for souls.
 
@@ -55,7 +125,43 @@ Resentful souls who do not consume souls for a long time become weak immediately
 
 If you suck human souls, you can continue to maintain your normal actions by sucking at least 5 human souls.
 
+- **Effect:** Full Moon Curse resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Shapeshifting Shadow
+
+```yaml ability
+id: mutant-seq-05-shapeshifting-shadow
+name: Shapeshifting Shadow
+pathway: mutant
+sequence: 5
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- mobility
+- control
+- debuff
+- offense
+text: 'Use: Transform into a shadow as a Swift Action. Effect: You become a shadow.
+  In shadow form: You are treated as an undead creature. You gain +3 to Intuition
+  (INT) and Agility (DEX). You gain Incorporeal Characteristics and access to: Wraith
+  Scream, Mirror Jump, Advanced Shadow Invisibility, Death Skeleton, Wraith Possession,
+  Devour Soul, Mind Control. *Incorporeal Characteristics (while in shadow form):
+  You cannot cause physical damage, and you will not receive physical damage. You
+  only receive holy damage, spiritual damage, lightning damage, and curse damage.'
+```
+
+
+
 
 - **Use:** Transform into a shadow as a Swift Action.
 - **Effect:** You become a shadow. In shadow form:
@@ -90,7 +196,43 @@ Higher-Sequence note:
 
 - **Sequence 2:** You can travel through the Spirit World; you must first enter the Spirit World for this to take effect.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Advanced Shadow Invisibility
+
+```yaml ability
+id: mutant-seq-05-advanced-shadow-invisibility
+name: Advanced Shadow Invisibility
+pathway: mutant
+sequence: 5
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- stealth
+- mobility
+- offense
+text: 'Prerequisite: You are in shadow form (from Shapeshifting Shadow). Effect: Spirit
+  visions other than [[Eye of Mystery]], [[Reaper]], and [[Master Puppet]] cannot
+  discover your location. Use: As a Swift Action, you can actively reveal yourself
+  so others can observe you. Notes: If you receive holy damage or lightning damage,
+  you appear briefly and need a Swift Action to re-invisibility. If you want to take
+  something while in the Wraith state, you also need to show your body; you cannot
+  do it by speech alone. ItaTMs not that you canaTMt touch the item without being
+  visible, but because the item is not invisible. If you take it directly, others
+  will see something floating out of thin air; it i...'
+```
+
+
+
 
 - **Prerequisite:** You are in shadow form (from **Shapeshifting Shadow**).
 - **Effect:** Spirit visions other than [[Eye of Mystery]], [[Reaper]], and [[Master Puppet]] cannot discover your location.
@@ -110,14 +252,79 @@ Special detection clause:
 - If you are possessed or hidden in objects or creatures, you can still avoid this kind of detection, only ordinary vision.
 - If attached to an object, it may be more secure to cover the object with a [[Spiritual Wall]].
 
+- **Limits:** As described in this section's prose.
+
+
 ### Wraith Scream
+
+```yaml ability
+id: mutant-seq-05-wraith-scream
+name: Wraith Scream
+pathway: mutant
+sequence: 5
+type: active
+action: cast
+cost:
+  spirituality: 6
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Prerequisite: You are in shadow form (from Shapeshifting Shadow). Cost: 3 spirituality
+  points. Use: 1 Casting Action. Effect: Inflicts 1/1d3 Sanity / Rationality loss
+  to a creature hearing the scream for the first time in an encounter, and stuns it
+  for 1 round.'
+```
+
+
+
 
 - **Prerequisite:** You are in shadow form (from **Shapeshifting Shadow**).
 - **Cost:** 3 spirituality points.
 - **Use:** 1 Casting Action.
 - **Effect:** Inflicts 1/1d3 Sanity / Rationality loss to a creature hearing the scream for the first time in an encounter, and stuns it for 1 round.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Mirror Jump
+
+```yaml ability
+id: mutant-seq-05-mirror-jump
+name: Mirror Jump
+pathway: mutant
+sequence: 5
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: 300m
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- detection
+- mobility
+- defense
+- offense
+text: 'Prerequisite: You are in shadow form (from Shapeshifting Shadow). Effect: You
+  can freely enter and exit the mirror, and use the mirror to help you resist attacks.
+  Passive: Shuttle in the mirror image, retain complete physical defense against firearms
+  (light/lightning bypass this), and gain an extra level of dodge. Active: 1 Swift
+  Action, 1 time per round: choose a mirror within 300 meters to perform a mirror
+  jump. You can avoid the attack aimed at your original position. Range attack requires
+  you to jump out of the corresponding range, just like a [[Flame Jump]]. Perception
+  and definition notes: You can perceive the position of mirrors within 300 meters,
+  but this is not specific. For exam...'
+```
+
+
+
 
 - **Prerequisite:** You are in shadow form (from **Shapeshifting Shadow**).
 - **Effect:** You can freely enter and exit the mirror, and use the mirror to help you resist attacks.
@@ -130,7 +337,40 @@ Perception and definition notes:
 - You can perceive the position of mirrors within 300 meters, but this is not specific. For example, you cannot appear on an enemy out of thin air at a distance of 300 meters.
 - The definition of a mirror image includes some reflective things, including lenses. Without these, you cannot use this ability.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Wraith Possession
+
+```yaml ability
+id: mutant-seq-05-wraith-possession
+name: Wraith Possession
+pathway: mutant
+sequence: 5
+type: active
+action: move
+cost: {}
+roll: null
+opposed_by: none
+range: You can possess a target within 30 meters. This is still a **Move Action**,
+  but it is treated as spellcasting for interruption/response rules.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- mobility
+text: 'Prerequisite: You are in shadow form (from Shapeshifting Shadow). Use: A Move
+  Action that selects an animate or inanimate object. Targeting and range: You can
+  possess a target within 30 meters. This is still a Move Action, but it is treated
+  as spellcasting for interruption/response rules. Process notes: The movement action
+  is expressed as normal floating past, overlapping with the body of the possessed
+  person. Possession within 30 meters is considered a Casting Action. *Possession
+  status (while you are possessing): The possessor can use the opponentaTMs body,
+  display the opponentaTMs ability, and perform actions with the opponentaTMs body.'
+```
+
+
+
 
 - **Prerequisite:** You are in shadow form (from **Shapeshifting Shadow**).
 - **Use:** A Move Action that selects an animate or inanimate object.
@@ -180,7 +420,43 @@ Special:
 
 > **GM Note:** The text suggests prevention measures (e.g., â€œsummon the full moonâ€ or â€œprepare a substituteâ€) but does not fully define these as mechanics; treat them cautiously unless defined elsewhere.
 
+- **Effect:** Wraith Possession resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Devour Soul
+
+```yaml ability
+id: mutant-seq-05-devour-soul
+name: Devour Soul
+pathway: mutant
+sequence: 5
+type: active
+action: swift
+cost:
+  spirituality: 2
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- stealth
+text: 'Prerequisite: You are in shadow form (from Shapeshifting Shadow), unless stated
+  otherwise. Effect (on kill): Whenever you kill a creature, you can consume its soul
+  as a Swift Action, restoring 1d8 spirituality. Special use (against an ethereal
+  body): Cost: 1 spirituality point. Use: 1 Casting Action. Effect: You stretch out
+  your left hand forward and let out an invisible scream from your mouth. Choose 1
+  ethereal body; this is usually only effective against ethereal creatures without
+  extraordinary qualities. The ground suddenly becomes black like a muddy deep sea;
+  a twisted blood-colored vine grows out of it, divided into many sections; each section
+  has four fangs and one eye. The vine gro...'
+```
+
+
+
 
 - **Prerequisite:** You are in shadow form (from **Shapeshifting Shadow**), unless stated otherwise.
 - **Effect (on kill):** Whenever you kill a creature, you can consume its soul as a Swift Action, restoring 1d8 spirituality.
@@ -204,14 +480,76 @@ Higher-Sequence notes:
   - For spirit bodies that are two lower than yours, you can directly pull them out and swallow.
   - In this way, you can now also accommodate as many objects as hills directly into your body (such as tens of thousands of gold coins).
 
+- **Limits:** As described in this section's prose.
+
+
 ### Mind Manipulation
+
+```yaml ability
+id: mutant-seq-05-mind-manipulation
+name: Mind Manipulation
+pathway: mutant
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- control
+- defense
+- offense
+text: 'Prerequisite: You are in shadow form (from Shapeshifting Shadow). Effect: You
+  make objects levitate out of thin air and control objects to kill opponents. Targeting
+  and resolution: Occult attacks physical defense. Damage: Deal 4d6 + Strength damage
+  bonus physical damage; add Strength damage dice equal to your Intuition (INT).'
+```
+
+
+
 
 - **Prerequisite:** You are in shadow form (from **Shapeshifting Shadow**).
 - **Effect:** You make objects levitate out of thin air and control objects to kill opponents.
 - **Targeting and resolution:** Occult attacks physical defense.
 - **Damage:** Deal 4d6 + Strength damage bonus physical damage; add Strength damage dice equal to your Intuition (INT).
 
+- **Limits:** As described in this section's prose.
+
+
 ### Spirit World Divination
+
+```yaml ability
+id: mutant-seq-05-spirit-world-divination
+name: Spirit World Divination
+pathway: mutant
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- divination
+text: 'Prerequisite: You are in the state of a wronged soul (Wraith state). Effect:
+  You can directly obtain the information you want through the [[Spirit World]]. Special:
+  Usually, you donaTMt need tarot cards or coins as a medium to directly obtain information.
+  Difficulty outcomes: Difficulty Value 15: Get a very general result (e.g., finding
+  objects only tells you a city). Difficulty Value 20: Get a more general result,
+  usually a general direction. Difficulty Value 25: Obtain a fairly accurate result
+  (object finding accurate to a certain street). Difficulty Value 30: Obtain a very
+  accurate result; divination reveals a specific content.'
+```
+
+
+
 
 - **Prerequisite:** You are in the state of a wronged soul (Wraith state).
 - **Effect:** You can directly obtain the information you want through the [[Spirit World]].
@@ -245,13 +583,75 @@ Other divination factors:
 3. The reason for detection and failure of the higher level is that under special circumstances, it is possible for the lower level to divinate for the higher level.
 4. Whenever you are in a deep sleep, you can conduct an Intuition (INT) appraisal with a Difficulty Value 20. If it succeeds, and something directly related to you has happened in the current period, you will see a general picture that needs to be interpreted. This is the first step of dream interpretation.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Anti-Divination
+
+```yaml ability
+id: mutant-seq-05-anti-divination
+name: Anti-Divination
+pathway: mutant
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- divination
+text: 'As some kind of spiritual creature, your own existence comes with anti-divination.
+  Effect: Your Intuition (INT) + Will + Mysticism bonus is regarded as the Difficulty
+  Value of divination against you. Divinations that do not exceed this Difficulty
+  Value only get wrong information.'
+```
+
+
+
 
 As some kind of spiritual creature, your own existence comes with anti-divination.
 
 - **Effect:** Your Intuition (INT) + Will + Mysticism bonus is regarded as the Difficulty Value of divination against you. Divinations that do not exceed this Difficulty Value only get wrong information.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Death Spells
+
+```yaml ability
+id: mutant-seq-05-death-spells
+name: Death Spells
+pathway: mutant
+sequence: 5
+type: active
+action: cast
+cost:
+  spirituality: 6
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- buff
+text: 'You have mastered some death spells, or improved upon your previous death spells.
+  #### Manipulate Ghosts It belongs to the sequence improvement of [[Manipulating
+  Living Corpses]]. Cost: 3 spirit points (GM decides whether these are the same as
+  spirituality points). Use: 1 Casting Action. Targeting: Choose 1 corpse that has
+  not been dead for more than 24 hours (spirit body still in the body / not requiemed),
+  or an existing wandering shadow, and manipulate it as your puppet. Shadow statistics:
+  Vitality: 15'
+```
+
+
+
 
 You have mastered some death spells, or improved upon your previous death spells.
 
@@ -284,3 +684,5 @@ Control notes:
 - **Use:** 1 Casting Action.
 - **Effect:** Create a black skull exuding a strong breath of death; it runs toward the opponent with strong death intent like an emissary sent by the underworld.
 - **Damage:** 5d6+5 curse damage.
+
+- **Limits:** As described in this section's prose.

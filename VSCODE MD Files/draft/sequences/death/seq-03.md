@@ -1,10 +1,16 @@
 ---
-title: "Sequence 3: Ferryman"
-id: "death-seq-03"
-tags: ["pathway:death", "sequence:3"]
+title: 'Sequence 3: Ferryman'
+id: death-seq-03
+tags:
+- pathway:death
+- sequence:3
 ---
 
-# Sequence 3: Ferryman
+
+
+
+
+# Death Pathway: Sequence 3
 
 > **GM Note:** This section is marked “for reference only” and includes “unofficial” ritual text. Treat it accordingly.
 
@@ -36,6 +42,35 @@ tags: ["pathway:death", "sequence:3"]
 
 ### Ferryman
 
+```yaml ability
+id: death-seq-03-ferryman
+name: Ferryman
+pathway: death
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- defense
+- offense
+text: 'Effect: You have become the real dead. Your malice, thoughts, and behavior
+  tendencies are hidden; you become a dead person without thoughts. No one can read
+  your thoughts except a Beyonder of the Visionary at the same Sequence as you. The
+  malicious perception of the Abyss is no longer effective against you. Defenses and
+  damage interactions: Most attacks except holy attacks are no longer effective against
+  you. You have no physical vitals.'
+```
+
+
+
+
 - **Effect:**
   - You have become the real dead.
   - Your malice, thoughts, and behavior tendencies are hidden; you become a dead person without thoughts.
@@ -65,7 +100,39 @@ tags: ["pathway:death", "sequence:3"]
   - This is not limited to curse damage from sharing; all types of shared damage are unilaterally halved.
   - If the [[xenomorph]] is 1 level higher than you, you take full shared damage.
 
+- **Limits:** As described in this section's prose.
+
+
 ### River of Eternal Darkness
+
+```yaml ability
+id: death-seq-03-river-of-eternal-darkness
+name: River of Eternal Darkness
+pathway: death
+sequence: 3
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- detection
+- debuff
+- offense
+text: 'Effect: A target you put into your eyes slowly withers, like crossing the river
+  of death inch by inch. Use: As a free action, open this effect. Targeting and range:
+  Direct gaze: Non-undead creatures that meet your gaze. Peripheral vision: If the
+  target is not looking at you, but is only seen out of your peripheral vision, and
+  remains within your sight. Damage (direct gaze): The target immediately suffers
+  6d10+10 damage. This 6d10+10 damage can only be triggered once per encounter.'
+```
+
+
+
 
 - **Effect:** A target you put into your eyes slowly withers, like crossing the river of death inch by inch.
 
@@ -105,7 +172,39 @@ tags: ["pathway:death", "sequence:3"]
     - Halve the damage of curses.
     - Otherwise as usual: they are treated as an undead creature; they decay, rot, wither, die, and lose the sense of freshness for 24 hours.
 
+- **Limits:** As described in this section's prose.
+
+
 ### The Language of the Dead
+
+```yaml ability
+id: death-seq-03-the-language-of-the-dead
+name: The Language of the Dead
+pathway: death
+sequence: 3
+type: active
+action: cast
+cost:
+  sanity: 1
+roll: null
+opposed_by: none
+range: Anyone who hears your dead mans language.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- offense
+text: 'Effect: The language of the dead is not only a language the living cannot understand;
+  it also carries screams and roars from the depths of the underworld as a mental
+  attack. Use: As a Casting Action, once per encounter. Targeting and range: Anyone
+  who hears your dead mans language. Damage: Those who hear it suffer 1d4/1d6+1 Sanity
+  / Rationality hits. GM decides whether to use 1d4 or 1d6+1 in a given situation.
+  Interaction with Words of the Dead / rebuke: It can be released at the same time
+  as the previous [[Words of the Dead]] effect.'
+```
+
+
+
 
 - **Effect:** The language of the dead is not only a language the living cannot understand; it also carries screams and roars from the depths of the underworld as a **mental attack**.
 
@@ -140,3 +239,5 @@ tags: ["pathway:death", "sequence:3"]
   - **Special case (RAW text):**
     - If a creature grants you undead qualities and is one person lower than you, this requires two of your -4 [[Words of the Dead check]] against their Will defense **in the same round**.
     - This does not take three minutes; it is achieved with a Full-Round Action, for as long as they are undead.
+
+- **Limits:** As described in this section's prose.

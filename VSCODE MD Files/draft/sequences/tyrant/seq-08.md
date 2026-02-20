@@ -1,12 +1,34 @@
 ---
-title: "Sequence 8: Folk of Rage"
-id: "tyrant-seq-08"
-tags: ["pathway:tyrant", "sequence:8"]
+title: 'Sequence 8: Folk of Rage'
+id: tyrant-seq-08
+tags:
+- pathway:tyrant
+- sequence:8
 ---
 
-# Sequence 8: Folk of Rage
+
+
+
+
+# Tyrant Pathway: Sequence 8
 
 > **Lore:** Known as the “Storm Guard” in ancient times. When angered, they can unleash attacks beyond normal limits. [[Storm Guard]]
+
+## Folk of Rage
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -26,6 +48,28 @@ tags: ["pathway:tyrant", "sequence:8"]
 
 ### Rage State
 
+```yaml ability
+id: tyrant-seq-08-rage-state
+name: Rage State
+pathway: tyrant
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: Rage State ability details are retained in section prose.
+```
+
+
+
+
 - **Use:** You gain **Rage State** when you successfully enter Rage (see Attribute Gain).
 
 - **Effect:**
@@ -43,7 +87,41 @@ tags: ["pathway:tyrant", "sequence:8"]
   3) **Important Things:** If your rage would damage an ally or a personally important possession (declared by you at the start of the scene), your rage is immediately cleared.
   4) **Fast Dodge:** While in Rage State, you retain full [[Physical Defense]] against [[Guns]] (rather than losing Agility (DEX)/Dodge as against light/lightning-speed attacks), and gain an extra level of Dodge.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Furious Strike
+
+```yaml ability
+id: tyrant-seq-08-furious-strike
+name: Furious Strike
+pathway: tyrant
+sequence: 8
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- control
+- offense
+text: 'Cost: 1 Attack Action. No [[Spiritual Energy]] required. Use: Only usable while
+  in Rage State. Effect: You punch forward. This attack adds +1d6 extra damage; the
+  damage type is the same as the original. [[Damage Types]] Limits and Options: 1)
+  Furious Strike cannot be combined with combo actions (e.g., double-hit style combos);
+  you do not have enough spare energy to converge your strength. 2) If you use a [[Full-Round
+  Action]] to restrain your breath and squeeze your anger, you can directly use Furious
+  Strike. For that attack only, you gain the Rage bonuses (+2 Strength/Constitution/Agility
+  (DEX) and the reduced -2 disadvantage), but you do not enter Rage State.'
+```
+
+
+
 
 - **Cost:** 1 Attack Action. No [[Spiritual Energy]] required.
 
@@ -57,3 +135,5 @@ tags: ["pathway:tyrant", "sequence:8"]
   2) If you use a [[Full-Round Action]] to restrain your breath and squeeze your anger, you can directly use Furious Strike. For that attack only, you gain the Rage bonuses (+2 Strength/Constitution/Agility (DEX) and the reduced -2 disadvantage), but you do not enter Rage State.
 
 > **Lore:** Your muscles swell—strong enough to burst an enemy’s head at the end, or break the iron lock of a stone gate.
+
+- **Limits:** As described in this section's prose.

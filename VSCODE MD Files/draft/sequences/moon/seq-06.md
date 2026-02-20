@@ -1,14 +1,34 @@
 ---
-title: "Sequence 6: Potions Professor"
-id: "moon-seq-06"
-tags: ["pathway:moon", "sequence:6"]
+title: 'Sequence 6: Potion Professor'
+id: moon-seq-06
+tags:
+- pathway:moon
+- sequence:6
 ---
 
-# Blood Baron Pathway: Sequence 6
 
-## Potions Professor
+
+
+
+# Moon Pathway: Sequence 6
+
+## Potion Professor
 
 > **Lore:** Able to obtain magical buff effects by drinking a concocted potion.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -18,6 +38,36 @@ tags: ["pathway:moon", "sequence:6"]
 - Chemistry and Pharmacy can be quickly upgraded to Erudition. [[Erudition]]
 
 ### Magic Potion
+
+```yaml ability
+id: moon-seq-06-magic-potion
+name: Magic Potion
+pathway: moon
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: You can configure powerful magic potions. Depending on the type, a
+  magic potion may show characteristics such as boiling, wriggling, dark, or off-white.
+  Limits: Magic potions usually require a separate extraordinary medicinal material.
+  [[Extraordinary Medicinal Materials]] Limits: The number of magic potions a Potions
+  Professor can make is three times the reputation level. [[Reputation Level]] Limits:
+  The circulation mechanism of extraordinary medicinal materials is the same as that
+  of Sequence 9 Pharmacists. [[Pharmacists]] Limits: To obtain a continuous supply
+  of extraordinary medicinal materials, the Potions Professor must establish a friendly
+  relationship with a stable extraor...'
+```
+
+
+
 
 - **Effect:** You can configure powerful magic potions. Depending on the type, a magic potion may show characteristics such as boiling, wriggling, dark, or off-white.
 - **Limits:** Magic potions usually require a separate extraordinary medicinal material. [[Extraordinary Medicinal Materials]]

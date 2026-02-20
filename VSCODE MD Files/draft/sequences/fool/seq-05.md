@@ -1,12 +1,18 @@
 ---
-title: "Sequence 5: Secret Puppet Master"
-id: "fool-seq-05"
-tags: ["pathway:fool", "sequence:5"]
+title: 'Sequence 5: Marionettist'
+id: fool-seq-05
+tags:
+- pathway:fool
+- sequence:5
 ---
+
+
+
+
 
 # Fool Pathway: Sequence 5
 
-## Secret Puppet Master
+## Marionettist
 
 You can directly affect a target’s **spiritual body**, **astral body**, **mental body**, and **etheric body** by manipulating the **thread of the spiritual body**, then use the bridge of the **etheric body** to control the opponent’s body.
 
@@ -44,6 +50,37 @@ As time passes and control deepens, the **Secret Puppet Master** can completely 
 
 ### Spiritual Thread Vision
 
+```yaml ability
+id: fool-seq-05-spiritual-thread-vision
+name: Spiritual Thread Vision
+pathway: fool
+sequence: 5
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+text: 'You can use the spiritual thread that exists in creatures with spiritual bodies
+  to find hidden targets. Use: As a free action, you open astral thread vision (separate
+  from [[clairvoyance]]) and gain the benefits below. Effect: You can see countless
+  illusory black lines from each creature with a spirit body, corresponding to different
+  limbs, densely packed, extending to infinite heights, reaching the end of the void.
+  The lines of the spirit body can be seen through walls and are not blocked by matter.
+  These illusory black lines cannot be hidden by [[invisibility]] and other abilities.
+  Therefore, by locating the spiritual body line, you can find targets in states such
+  as [[advanced invisibi...'
+```
+
+
+
+
 You can use the **spiritual thread** that exists in creatures with spiritual bodies to find hidden targets.
 
 - **Use:** As a free action, you open astral thread vision (separate from [[clairvoyance]]) and gain the benefits below.
@@ -58,7 +95,42 @@ You can use the **spiritual thread** that exists in creatures with spiritual bod
   - Potion digestion progress 15: changed to be able to see the thread of the spirit within 200 meters.  
   - The potion is completely digested: changed to be able to see the thread of the spirit body within a range of 300 meters.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Manipulate Ethereal Threads
+
+```yaml ability
+id: fool-seq-05-manipulate-ethereal-threads
+name: Manipulate Ethereal Threads
+pathway: fool
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: 5m
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- control
+- defense
+text: 'You control the targets body by manipulating the targets ethereal threads.
+  Use: 1 Casting Action. Choose 1 spiritual thread of a target within 5 meters; you
+  start turning creatures into marionettes. Check: Use inspiration identification
+  to fight against the targets inspiration + will + constitution halved (rounded up).
+  Success deepens manipulation progress, representing the strength of the spirit body
+  and part of the physical strength (the thread of manipulating the spirit body can
+  only be controlled by the spirit body; body strength resistance). Manipulation progress
+  (successes required per +1 manipulation level): 1 Targets 2 levels higher than yours:
+  After 6 successful identifications,...'
+```
+
+
+
 
 You control the target’s body by manipulating the target’s **ethereal threads**.
 
@@ -84,3 +156,6 @@ According to the above rules, targets fall into different manipulation states:
 - **Being manipulated by the thread of the spiritual body (descriptive):**
   > **Lore:** “I feel that my thinking has become stagnant, as if surrounded by a thick layer of glass… all my actions have begun to become slow motion… like a high-frequency delay.”  
   > **Lore:** Role-playing example: “What ha
+
+- **Effect:** Manipulate Ethereal Threads resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

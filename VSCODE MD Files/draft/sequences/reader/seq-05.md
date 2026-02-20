@@ -1,12 +1,18 @@
 ---
-title: "Sequence 5: Mystic Instructor"
-id: "reader-seq-05"
-tags: ["pathway:reader", "sequence:5"]
+title: 'Sequence 5: Mysticism Magister'
+id: reader-seq-05
+tags:
+- pathway:reader
+- sequence:5
 ---
 
-# Sequence 5: Mystic Instructor
 
-## Mystic Instructor
+
+
+
+# White Tower Pathway: Sequence 5
+
+## Mysticism Magister
 
 As a **Mystic Instructor**, you master varied mystical techniques that can help delay an [[Extraordinary]]’s **Loss of Control** [[Loss of Control]].
 
@@ -36,6 +42,36 @@ As a **Mystic Instructor**, you master varied mystical techniques that can help 
 - **Growth:** All skills mentioned by your [[Potion]] can be quickly grown to mastery.
 
 ### Mystery Mastery
+
+```yaml ability
+id: reader-seq-05-mystery-mastery
+name: Mystery Mastery
+pathway: reader
+sequence: 5
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: Choose 1 target within line of sight.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- buff
+text: 'You master magical, diverse, unique, and rare Mysteries [[Mystery]]. Definition:
+  A *Mystery* is essentially an improvement of an [[id:alias-extraordinary-ability|Extraordinary
+  Ability]]turning it into something that is truly your own rather than a simulated
+  ability. Dependency: Which secret techniques you can use depends on your extraordinary
+  knowledge. Ongoing development: A qualified Mystic Instructor should frequently
+  develop their own secret techniques. Special: If you have analyzed 1 [[Demigod]]
+  ability or above, the secret technique you can make can only meet your level, otherwise
+  the effect will still be halved. #### Example Secret Techniques If you analyze a
+  techniques prototype,...'
+```
+
+
+
 
 You master magical, diverse, unique, and rare **Mysteries** [[Mystery]].
 
@@ -120,6 +156,37 @@ If you analyze a technique’s “prototype,” it can be used even if the corre
 
 ### Mystic Ritual
 
+```yaml ability
+id: reader-seq-05-mystic-ritual
+name: Mystic Ritual
+pathway: reader
+sequence: 5
+type: active
+action: cast
+cost:
+  spirituality: 8
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- buff
+text: 'You channel occult power into [[Ritual Magic]]. Concept: A secret art ritual
+  can be treated as a further improvement on a conventional secret technique. Requirement:
+  It still requires praying to a god to perform it. Claimed advantages: In effective
+  range and other aspects, the rituals effect may be better than the original ability
+  and can break through common sense. #### Example Secret Rituals Knowledge of the
+  Night has reached Erudition and above: Roseltos Dream Technique [[Roselto''s Dream
+  Technique]] Process: 5 minutes of ritual magic. Cost: 8 Spirituality.'
+```
+
+
+
+
 You channel occult power into [[Ritual Magic]].
 
 - **Concept:** A secret art ritual can be treated as a further improvement on a conventional secret technique.
@@ -147,3 +214,5 @@ You channel occult power into [[Ritual Magic]].
 
 - More secret art rituals that match “weird but effective” are within the scope of allowing originality. It is recommended that original rituals and ordinary secret arts occupy the same “column.”
 
+- **Effect:** Mystic Ritual resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

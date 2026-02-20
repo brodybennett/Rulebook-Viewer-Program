@@ -1,12 +1,18 @@
 ---
-title: "Sequence 2: Glorious One"
-id: "war-god-seq-02"
-tags: ["pathway:war-god", "sequence:2"]
+title: 'Sequence 2: Glory'
+id: war-god-seq-02
+tags:
+- pathway:war-god
+- sequence:2
 ---
 
-# Sequence 2: Glorious One (Reference Only)
 
-## Overview
+
+
+
+# Twilight Giant Pathway: Sequence 2
+
+## Glory
 
 - A **Sequence** Sequence 2 **Angel** [[Angel]] specialized in frontal combat.
 
@@ -25,6 +31,38 @@ tags: ["pathway:war-god", "sequence:2"]
 - **Attribute Gain:** Strength +2, Agility (DEX) +1, Constitution +2, Willpower (WIL) +2.
 
 ### Shield of Envelopment (Glory)
+
+```yaml ability
+id: war-god-seq-02-shield-of-envelopment-glory
+name: Shield of Envelopment (Glory)
+pathway: war-god
+sequence: 2
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- stealth
+- mobility
+- buff
+- defense
+text: 'Use: As a Full-Round Action [[Full-Round Action]], create a shield of glory
+  strong enough to envelop an entire city-state, converging divine radiance into a
+  cage. Effect: The shields Vitality [[Vitality]] is shared with yours. Your Vitality
+  increases by an additional 50. The shield conceals and isolates the inside and outside
+  to a certain extent. You may use it to create a seal for yourself, or to isolate
+  yourself from the enemy in a separate small world for a one-on-one duel. As long
+  as the enemy doesnt defeat you, they cant get out of that world. Teleportation [[Teleportation]]
+  is limited by the shield.'
+```
+
+
+
 
 - **Use:** As a **Full-Round Action** [[Full-Round Action]], create a shield of glory strong enough to envelop an entire city-state, converging divine radiance into a cage.
 - **Effect:**
@@ -46,3 +84,5 @@ tags: ["pathway:war-god", "sequence:2"]
   - While in the Glory Shield, your Agility (DEX) and Will are +2 by default.
 
 > **Lore:** “The city is there, the shield is there, and the glory is there… In a frontal battle, no one can escape. There is only one thing they can do: face you and defeat you.”
+
+- **Limits:** As described in this section's prose.

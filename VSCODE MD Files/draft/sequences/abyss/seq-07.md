@@ -1,14 +1,34 @@
 ---
-title: "Sequence 7: Serial Killer"
-id: "abyss-seq-07"
-tags: ["pathway:abyss", "sequence:7"]
+title: 'Sequence 7: Serial Killer'
+id: abyss-seq-07
+tags:
+- pathway:abyss
+- sequence:7
 ---
 
-# Sequence 7: Serial Killer
+
+
+
+
+# Abyss Pathway: Sequence 7
 
 ## Serial Killer
 
 > **Lore:** You have mastered many forms of demon-worship knowledge and ritual, and you like to please demons through special serial killings. Given enough time, you can summon demonic projections from the depths. You can effectively interfere with divination and channeling. [[id:alias-divination|Divination]] [[Channeling]]
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -19,12 +39,78 @@ tags: ["pathway:abyss", "sequence:7"]
 
 ### Nether Disturbance
 
+```yaml ability
+id: abyss-seq-07-nether-disturbance
+name: Nether Disturbance
+pathway: abyss
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- divination
+- offense
+text: 'Whenever you kill a sentient being, if you make its body into a demon-pleasing
+  artwork and draw the ritual symbol corresponding to the demon, you gain the following
+  benefits: Choose 1 item of specific mystic information related to you (for example:
+  you plan to attack someone next). Make a Mysticism check against the Anti-Divination
+  Difficulty Value; this is a mystic identification. [[id:alias-anti-divination|Anti-Divination]]
+  [[Mystic Identification]] After success, this information will be excluded in related
+  divination, spiritual intuition, and prophecy unless the corresponding difficulty
+  is exceeded. A spirit body arranged in advance by a psychic can still provide effective
+  information.'
+```
+
+
+
+
 Whenever you kill a sentient being, if you make its body into a demon-pleasing artwork and draw the ritual symbol corresponding to the demon, you gain the following benefits:
 
 1. Choose **1** item of specific mystic information related to you (for example: you plan to attack someone next). Make a **Mysticism** check against the **Anti-Divination** Difficulty Value; this is a mystic identification. [[id:alias-anti-divination|Anti-Divination]] [[Mystic Identification]]
 2. After success, this information will be excluded in related divination, spiritual intuition, and prophecy unless the corresponding difficulty is exceeded. A spirit body arranged in advance by a psychic can still provide effective information.
 
+- **Effect:** Nether Disturbance resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Demon Burnt Offering
+
+```yaml ability
+id: abyss-seq-07-demon-burnt-offering
+name: Demon Burnt Offering
+pathway: abyss
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'You have mastered knowledge and rituals related to demons. You can use sacrifices
+  to please demons and gain benefits. This is essentially a special ritual magic.
+  For the most basic process, see [[Common Ritual Magic]]. You can pray to a high-ranking
+  person of the abyss path for a response; treat this as a prayer aligned with the
+  Abyss. Abyss [[Dark Side of the Universe]] Special: Unlike righteous gods, the ritual
+  magic of the abyss will not be responded to unconditionally; sacrifices must be
+  made to be favored. *Pleasing Ritual The basis of all demon-worshiping rituals:
+  you donaTMt expect anything in return, only to please the demon. Process: Based
+  on general ritual magic, after confirmin...'
+```
+
+
+
 
 You have mastered knowledge and rituals related to demons. You can use sacrifices to please demons and gain benefits.
 
@@ -81,3 +167,5 @@ The demon you please decides to help you solve a difficult problem with its own 
   - Cold resistance: **5**
   - Immunity to toxins/poison.
 - **Rank/pressure:** The person projected by the demon is considered a demigod (saint) and thus receives the benefit of [[Extra: Person Suppression]]. [[id:alias-demigod|Demigod]]
+
+- **Limits:** As described in this section's prose.

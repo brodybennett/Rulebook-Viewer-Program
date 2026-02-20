@@ -1,15 +1,37 @@
 ---
-title: "Sequence 6: Corruption (Baron)"
-id: "black-emperor-seq-06"
-tags: ["pathway:black-emperor", "sequence:6"]
+title: 'Sequence 6: Baron of Corruption'
+id: black-emperor-seq-06
+tags:
+- pathway:black-emperor
+- sequence:6
 ---
 
-# Sequence 6: Corruption (Baron)
+
+
+
+
+# Black Emperor Pathway: Sequence 6
 
 > **Lore:** It appears to obey rules, but actually distorts themâ€”constantly absorbing the power of order to serve itself.
 
 - **Distortion:** By distorting a targetâ€™s language, actions, and intentions, you construct an order beneficial to yourself, restricting or influencing the opponent.
 - **Corrosion:** You can make the hearts of people within 10 meters become darker and greedier, making irrational choices more likely.
+
+## Baron of Corruption
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -19,6 +41,36 @@ tags: ["pathway:black-emperor", "sequence:6"]
 - At the same time, your Sequence 9 [[Rapid Improvement]] upper limit has reached [[Erudition]].
 
 ### Distortion
+
+```yaml ability
+id: black-emperor-seq-06-distortion
+name: Distortion
+pathway: black-emperor
+sequence: 6
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+text: 'Cost: 3 spirituality points Use: 1 Swift Action Limits: once per round Effect:
+  By distorting the meaning of the targetaTMs words, actions, and intentions, you
+  construct an order beneficial to you. Choose one of the following benefits to take
+  effect: Distorted Language: You distort the message sent by any creature through
+  speech or text, modifying it into a similar meaning. The similar meaning distorted
+  by you becomes an actual rule, and extraordinary effects appear according to that
+  meaning. Example: If you distort ano one else can get in and outa to ano one can
+  get in or out,a this place is really inaccessible. Behavior Distortion: Usage and
+  effect are the same as in Distorted Language,...'
+```
+
+
+
 
 - **Cost:** 3 **spirituality points**
 - **Use:** 1 Swift Action
@@ -52,6 +104,36 @@ tags: ["pathway:black-emperor", "sequence:6"]
 
 ### Corrosion
 
+```yaml ability
+id: black-emperor-seq-06-corrosion
+name: Corrosion
+pathway: black-emperor
+sequence: 6
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: indiscriminately affects all creatures within 10 meters of you as the center.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Use: 1 Swift Action Cost: 1 spirituality point per minute Targeting and range:
+  indiscriminately affects all creatures within 10 meters of you as the center. Effect:
+  Active: Triggered every 1 minute. You choose the current behavior and intention
+  of a creature in range and distort it into a similar meaning that develops in the
+  direction of darkness, greed, and conspiracy. Passive: When a creature stays in
+  the range for 1 minute, it takes effect. Whenever they notice someone or something
+  they care about (such as coveted [[Extraordinary Items]] or people they want to
+  hunt), they immediately suffer an Active effect; greed appears, and self-assertion.
+  Example: Compared with violence and coercio...'
+```
+
+
+
+
 - **Use:** 1 Swift Action
 - **Cost:** 1 **spirituality point** per minute
 - **Targeting and range:** indiscriminately affects all creatures within 10 meters of you as the center.
@@ -63,7 +145,42 @@ tags: ["pathway:black-emperor", "sequence:6"]
 
 - Example: Compared with violence and coercion, euphemistic and gentle people are more likely to spend money beyond their ability to do things recklessly (closer to mutilating themselves or defrauding), while violent people are more likely to achieve all this through violence.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Multiple Targets
+
+```yaml ability
+id: black-emperor-seq-06-multiple-targets
+name: Multiple Targets
+pathway: black-emperor
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- mobility
+text: 'Distorted Language: It can affect multiple targets. At the moment of distortion,
+  each target can use a successful [[Spiritual Intuition]] identification to notice
+  the rule change and roughly identify which rule is wrong. Detection does not remove
+  the distortion; removal still follows the Distorted Language breakthrough procedure
+  above. Distorted Behavior: Distorted behavior can only be in effect for 1 round
+  instead of 1 minute. Distortion Intent: The moment you are distorted, you can immediately
+  detect something is wrong with a successful [[Spiritual Intuition]] check. Corruption:
+  The effect on targets higher than Sequence 1 is equal to Warp Channeling. (For Spiritual
+  Intuition, see [[Spe...'
+```
+
+
+
 
 - **Distorted Language:** It can affect multiple targets. At the moment of distortion, each target can use a successful [[Spiritual Intuition]] identification to notice the rule change and roughly identify which rule is wrong. Detection does not remove the distortion; removal still follows the Distorted Language breakthrough procedure above.
 - **Distorted Behavior:** Distorted behavior can only be in effect for 1 round instead of 1 minute.
@@ -71,3 +188,6 @@ tags: ["pathway:black-emperor", "sequence:6"]
 - **Corruption:** The effect on targets higher than Sequence 1 is equal to Warp Channeling.
 
 - (For Spiritual Intuition, see [[Special Actions]].)
+
+- **Effect:** Multiple Targets resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

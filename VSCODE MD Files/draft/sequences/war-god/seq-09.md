@@ -1,16 +1,36 @@
 ---
-title: "Sequence 9: Warrior"
-id: "war-god-seq-09"
-tags: ["pathway:war-god", "sequence:9"]
+title: 'Sequence 9: Warrior'
+id: war-god-seq-09
+tags:
+- pathway:war-god
+- sequence:9
 ---
 
-# God of War Pathway: Sequence 9
+
+
+
+
+# Twilight Giant Pathway: Sequence 9
 
 ## Warrior
 
 > **Lore:** Anciently known as the “Twilight Giant” Pathway, whose mythical creature takes the form of a Cyclops.
 
 You gain the following extraordinary abilities.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -26,6 +46,37 @@ You gain the following extraordinary abilities.
 3. When creating a [[Character Card]] that has not just been promoted, you can add growth-skill points equal to the potion’s Strength + Agility (DEX) bonuses, and the growth rate is regarded as Intuition.
 
 ### Extraordinary Fighting
+
+```yaml ability
+id: war-god-seq-09-extraordinary-fighting
+name: Extraordinary Fighting
+pathway: war-god
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- defense
+- offense
+text: 'Effect: There are no weapons that you cannot use. You have mastered various
+  fighting techniques, and there is no fighting genre that you cannot master. Features:
+  Armed Identification: You can directly know the quality of weapons/armors through
+  close observation, without seeing extraordinary factors. [[Armed Identification]]
+  Combat Mastery: +2 is beneficial to special action appraisals such as critical strike/double
+  strike/close-in shooting, excluding first aid/surprise attack. It does not affect
+  special actions that simply gain benefits (for example, gaining momentum and aiming
+  will not change from +2 to favorable +4). It affects identification only. [[Special
+  Actions]] Combat Skills:'
+```
+
+
+
 
 - **Effect:** There are no weapons that you cannot use. You have mastered various fighting techniques, and there is no fighting genre that you cannot master.
 - **Features:**
@@ -44,7 +95,37 @@ You gain the following extraordinary abilities.
   - [[Extraordinary Factors]]
 - **Special:** This is the benefit of the potion and cannot be recorded or stolen.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Extraordinary Physical Fitness
+
+```yaml ability
+id: war-god-seq-09-extraordinary-physical-fitness
+name: Extraordinary Physical Fitness
+pathway: war-god
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+text: 'Effect: Your physical fitness and height have been significantly increased.
+  Your maximum Life +2. Your height +10 cm. Once you exceed 2 meters, you are regarded
+  as a [[Large-Scale Creature]]. Sequence Upgrade: For every sequence you upgrade,
+  your Life +2 and your height +10 cm. Your Life will be up to +10. Your height will
+  be up to 3 meters. Special: This is the benefit of the potion and cannot be recorded
+  or stolen.'
+```
+
+
+
 
 - **Effect:** Your physical fitness and height have been significantly increased.
 - Your maximum Life +2.
@@ -54,7 +135,40 @@ You gain the following extraordinary abilities.
   - Your height will be up to **3 meters**.
 - **Special:** This is the benefit of the potion and cannot be recorded or stolen.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Spirit Vision
+```yaml ability
+id: war-god-seq-09-spirit-vision
+name: Spirit Vision
+pathway: war-god
+sequence: 9
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+text: 'Use: 1 Free Action to activate. Cost: 1 Spirituality per round. Effect: While
+  Spirit Vision is active, you gain the following benefits: Etheric Body: You can
+  roughly tell whether the other partys body is good or bad through the color of the
+  aura, but you cant get detailed information. Spiritual Body: You can confirm whether
+  an object/creature has spirituality, which cannot identify extraordinary people.
+  Mental Body: You can see whether the other party is thinking, but only so, and you
+  cannot get more detailed information. Astral Body: You cannot see the astral body.
+  When in the state of Spirit Vision, your [[Spiritual Intuition Test]] +1 is beneficial.'
+```
+
+
+
+
 - **Use:** 1 **Free Action** to activate.
 - **Cost:** 1 **Spirituality** per round.
 - **Effect:** While Spirit Vision is active, you gain the following benefits:
@@ -71,3 +185,5 @@ You gain the following extraordinary abilities.
   - The colors seen by Spirit Vision allow you to see each other in the dark, but you can only see the existence of colors. It is still possible to get lost in the dark because the colors you can see are limited, so you cannot use them to distinguish undead biology.
   - Spirit Vision can see some ordinary spirit bodies by default, which have not dissipated for **24 hours**.
 - **Special:** Spirit Vision cannot be recorded or stolen.
+
+- **Limits:** As described in this section's prose.

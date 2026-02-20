@@ -1,15 +1,35 @@
 ---
-title: "Sequence 9: Arbitrator"
-id: "arbiter-seq-09"
-tags: ["pathway:arbiter", "sequence:9"]
+title: 'Sequence 9: Arbiter'
+id: arbiter-seq-09
+tags:
+- pathway:arbiter
+- sequence:9
 ---
 
-# Arbitrator Pathway: Sequence 9
 
-## Arbitrator
+
+
+
+# Justiciar Pathway: Sequence 9
+
+## Arbiter
 
 > **Lore:** Represents order and rules, corresponding to the Tarot card “Judgment.”  
 > **Lore:** Possesses convincing charisma and sufficient authority, as well as excellent fighting ability to deal with the unexpected.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -20,6 +40,36 @@ tags: ["pathway:arbiter", "sequence:9"]
 
 ### Reputation Growth
 
+```yaml ability
+id: arbiter-seq-09-reputation-growth
+name: Reputation Growth
+pathway: arbiter
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+text: 'Whenever you arbitrate a non-repetitive, challenging dispute and uphold justice,
+  your Reputation [[Reputation]] skill goes up by 1 level. Such increased Reputation:
+  Will not provide you with assets. Will only increase your personal authority. Can
+  (at most) quickly increase to mastery. Skill Ranks Limit: This improvement is limited
+  to 1 time per day, so as to leave enough time for your reputation to start spreading.
+  From training a proficient a advanced, you need to preside over justice 2 and 3
+  times respectively; advancement caps at Advanced. Creating a character that isn''t
+  just promoted can boost growth skills with double the potion''s Intuition (INT).
+  [[Potion]]'
+```
+
+
+
+
 - Whenever you arbitrate a non-repetitive, challenging dispute and uphold justice, your **Reputation** [[Reputation]] skill goes up by 1 level.
 - Such increased Reputation:
   - Will not provide you with assets.
@@ -29,7 +79,42 @@ tags: ["pathway:arbiter", "sequence:9"]
 - From training â†’ proficient â†’ advanced, you need to preside over justice **2** and **3** times respectively; advancement caps at **Advanced**.
 - Creating a character that isn't just promoted can boost growth skills with **double the potion's Intuition (INT)**. [[Potion]]
 
+- **Effect:** Reputation Growth resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Arbitrating Authority
+
+```yaml ability
+id: arbiter-seq-09-arbitrating-authority
+name: Arbitrating Authority
+pathway: arbiter
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- defense
+- social
+text: 'Effect: Your Reputation and Charisma-related identification is favorable +2.
+  This does not affect your assets and appearance, but your personality charm. [[Charisma]]
+  When performing any [[Social skill appraisal]] , you can replace the corresponding
+  skill with a Reputation appraisal, replace social interaction with your charm and
+  authority, and communicate based on your personality charm and authority to make
+  people convincing. In the event of conflict, you can shout Stop!, and your Reputation
+  will fight against all Willpower Defense defenses to stop the conflict. Limits:
+  The effect does not include the target that has been determined to be hostile. [[Hostile
+  (status)]] It can temporarily...'
+```
+
+
+
 
 - **Effect:**
   1. Your Reputation and **Charisma**-related identification is favorable +2. This does not affect your assets and appearance, but your personality charm. [[Charisma]]
@@ -43,6 +128,38 @@ tags: ["pathway:arbiter", "sequence:9"]
 
 ### Fighting Skills
 
+```yaml ability
+id: arbiter-seq-09-fighting-skills
+name: Fighting Skills
+pathway: arbiter
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- buff
+- offense
+text: 'Effect: Your Fighting (including subdivision) increases the damage by 1d6,
+  and the damage type is the same as the original damage. In addition to [[Credit]]
+  , your Fighting (including subdivision) skills can also be quickly improved. The
+  limit and number of upgrades are the same as your Reputation, but the condition
+  for improvement is changed to accept at least 2 hours of real, non-repeated effective
+  guidance, and the maximum reaches proficient. Proficient It is beneficial +2 to
+  [[Special action appraisals]] such as critical strike / two combo / close shooting,
+  excluding first aid / surprise attack, and does not affect special actions that
+  simply gain benefits. For example, gaining moment...'
+```
+
+
+
+
 - **Effect:**
   1. Your Fighting (including subdivision) increases the damage by 1d6, and the damage type is the same as the original damage.
   2. In addition to [[Credit]] , your Fighting (including subdivision) skills can also be quickly improved. The limit and number of upgrades are the same as your Reputation, but the condition for improvement is changed to accept at least 2 hours of real, non-repeated effective guidance, and the maximum reaches proficient. Proficient
@@ -54,6 +171,35 @@ tags: ["pathway:arbiter", "sequence:9"]
   - This is the effect brought by the potion and cannot be stolen or recorded.
 
 ### Verdict
+
+```yaml ability
+id: arbiter-seq-09-verdict
+name: Verdict
+pathway: arbiter
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Choose 1 target who has committed a crime within the [[Field of Vision]].
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+text: 'Cost: 1 Casting Action Casting Action; consume 3 spirituality points [[Spirituality]].
+  Targeting and range: Choose 1 target who has committed a crime within the [[Field
+  of Vision]]. Use: Say the keyword judgment, then say the content of your judgment
+  (for example, My verdict is, leave it!). Use the Reputation test to counter its
+  Will Test. Effect: If the test is successful, the opponent must fulfill the content.
+  The content of the ruling specified by you should be closely related to the crime
+  committed (for example, you cannot make the target kill itself for stealing).'
+```
+
+
+
 
 - **Cost:** 1 **Casting Action** Casting Action; consume 3 **spirituality points** [[Spirituality]].
 - **Targeting and range:** Choose 1 target who has committed a crime within the [[Field of Vision]].
@@ -97,7 +243,41 @@ tags: ["pathway:arbiter", "sequence:9"]
 
 > **GM Note:** The severity of crimes is determined by the GM, and theft, fraud, etc. can be judged according to the value involved.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Vision
+
+```yaml ability
+id: arbiter-seq-09-vision
+name: Vision
+pathway: arbiter
+sequence: 9
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+text: 'Use: 1 free action. Cost: Consuming 1 spirituality point per round. Effect:
+  You activate vision, and your vision gains the following benefits: Etheric body:
+  You can roughly tell whether the other partys body is good or bad through the color
+  of the aura, but you cant get detailed information. Spiritual body: You can confirm
+  whether an object/creature has spirituality, which cannot identify extraordinary
+  people. Mental body: You can see whether the other party is thinking, but only so,
+  and you cannot get more detailed information. Astral body: You cannot see the astral
+  body. When in the state of spiritual vision, your [[Spiritual Intuition Test]] is
+  beneficial +1.'
+```
+
+
+
 
 > **Lore:** You gain vision, but it is not as effective for you as your own Intuition (INT).
 - **Use:** 1 free action.

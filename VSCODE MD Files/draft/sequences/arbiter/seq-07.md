@@ -1,12 +1,20 @@
 ---
-title: "Sequence 7: Interrogator"
-id: "arbiter-seq-07"
-tags: ["pathway:arbiter", "sequence:7"]
+title: 'Sequence 7: Interrogator'
+id: arbiter-seq-07
+tags:
+- pathway:arbiter
+- sequence:7
 ---
 
-# Sequence 7: Interrogator
+
+
+
+
+# Justiciar Pathway: Sequence 7
 
 - You become proficient with various weapons and an expert in blasting.
+
+## Interrogator
 
 ## Advancement
 
@@ -26,6 +34,37 @@ tags: ["pathway:arbiter", "sequence:7"]
 
 ### Weapon Proficiency
 
+```yaml ability
+id: arbiter-seq-07-weapon-proficiency
+name: Weapon Proficiency
+pathway: arbiter
+sequence: 7
+type: passive
+action: none
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- offense
+text: 'Effect: While you have this ability, your skills in using various weapons are
+  treated as mastery (in terms of skills). [[Skill Mastery]] Limits: This does not
+  include identification of spellcasting such as occultism / inspiration. [[Occultism]]
+  Intuition This does include fighting (including subdivision) / throwing / shooting
+  (including subdivision) / blasting / cannon, etc. [[Fighting]] [[Throwing]] [[Shooting]]
+  [[Blasting]] [[Cannon]] Progression: Each time you practice at least 2 hours of
+  the corresponding skill training, your ability can rise to the corresponding level.
+  The growth rate and number of times are equal to skill fighting. [[Fighting Skill
+  Growth]] Notes: This is a passive...'
+```
+
+
+
+
 - **Effect:** While you have this ability, your skills in using various weapons are treated as mastery (in terms of skills). [[Skill Mastery]]
 - **Limits:**
   1. This does **not** include identification of spellcasting such as occultism / inspiration. [[Occultism]] Intuition
@@ -36,6 +75,36 @@ tags: ["pathway:arbiter", "sequence:7"]
 - **Notes:** This is a passive ability that cannot be recorded, but can be stolen. [[Ability Recording]] [[Ability Theft]]
 
 ### Spirit Piercing
+
+```yaml ability
+id: arbiter-seq-07-spirit-piercing
+name: Spirit Piercing
+pathway: arbiter
+sequence: 7
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: Select 1 target within your field of vision. [[Field of Vision]]
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- debuff
+- offense
+text: 'Treat this as psychic damage to the spirit body (GM-defined). Preparation (Fear)
+  Use: 1 Swift Action Swift Action Cost: Does not consume spirituality. [[Spirituality]]
+  Targeting and range: Select 1 target within your field of vision. [[Field of Vision]]
+  Effect: This is a preparation state for mental puncture. During the maintenance
+  period, no other extraordinary abilities can be used. [[id:alias-extraordinary-abilities|Extraordinary
+  Abilities]]'
+```
+
+
+
 
 > **Lore:** This is a means to directly attack the spirit body, bringing coercion at the spirit-body level—gathering spirit, piercing the target’s spirit body, and directly attacking their spirit.
 
@@ -64,7 +133,38 @@ Treat this as **psychic damage** to the spirit body (GM-defined).
 
 Whether step (2) requires step (1) to be active is GM-defined.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Whip of Pain
+
+```yaml ability
+id: arbiter-seq-07-whip-of-pain
+name: Whip of Pain
+pathway: arbiter
+sequence: 7
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: Choose 1 target within your field of vision. [[Field of Vision]]
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- debuff
+text: 'Ready State (Fear) Use: 1 Swift Action Swift Action Cost: Does not consume
+  spirituality. [[Spirituality]] Targeting and range: Choose 1 target within your
+  field of vision. [[Field of Vision]] Effect: You enter a ready state. During the
+  maintenance period, you cannot use other extraordinary abilities. [[id:alias-extraordinary-abilities|Extraordinary
+  Abilities]] Endow the target with a Fear state. [[Fear]]'
+```
+
+
+
 
 > **Lore:** The target feels as if electric currents are passing through their minds, forming thorny whips that constantly beat the soul.
 
@@ -99,3 +199,5 @@ Whether step (2) requires step (1) to be active is GM-defined.
        - **Resolution vs physical defense:**
          - When the result of the identification > physical defense (including armor), the two effects will be produced at the same time. [[Physical Defense (Including Armor)]]
          - When the result of the identification > physical defense (excluding armor), only the Whip of Pain effect will be produced. [[Physical Defense (Excluding Armor)]]
+
+- **Limits:** As described in this section's prose.

@@ -1,12 +1,18 @@
 ---
-title: "Sequence 5: Astrologer"
-id: "myster-pryer-seq-05"
-tags: ["pathway:myster-pryer", "sequence:5"]
+title: 'Sequence 5: Mysticologist'
+id: mystery-pryer-seq-05
+tags:
+- pathway:mystery-pryer
+- sequence:5
 ---
 
-# Sequence 5: Astrologer
 
-## Astrologer
+
+
+
+# Hermit Pathway: Sequence 5
+
+## Mysticologist
 
 - **Pathway:** [[Hermit]]
 - **Sequence:** 5
@@ -23,6 +29,87 @@ tags: ["pathway:myster-pryer", "sequence:5"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Intuition (INT)** +2, **Will** +1
-- Your navigating skills increased by two levels.
-- Mystic
+- **Attribute Gain:** Not explicitly specified in source (schema placeholder).
+
+### Mysticologist Authority
+
+```yaml ability
+id: mystery-pryer-seq-05-mysticologist-authority
+name: Mysticologist Authority
+pathway: mystery-pryer
+sequence: 5
+type: passive
+action: none
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+- divination
+- offense
+text: You hold broad occult scholarship authority, integrating hidden formulas, arcane
+  correspondences, and practical spell logic.
+```
+
+- **Effect:** You hold broad occult scholarship authority, integrating hidden formulas, arcane correspondences, and practical spell logic.
+- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
+
+### Spell Formula Projection
+
+```yaml ability
+id: mystery-pryer-seq-05-spell-formula-projection
+name: Spell Formula Projection
+pathway: mystery-pryer
+sequence: 5
+type: active
+action: cast
+cost:
+  spirituality: 2
+roll: null
+opposed_by: willpower_defense
+range: 30m
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- offense
+- utility
+- divination
+text: You externalize learned spell formulas as structured arcane attacks, combining
+  analysis precision with direct mystic impact.
+```
+
+- **Effect:** You externalize learned spell formulas as structured arcane attacks, combining analysis precision with direct mystic impact.
+- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
+
+### Occult Appraisal
+
+```yaml ability
+id: mystery-pryer-seq-05-occult-appraisal
+name: Occult Appraisal
+pathway: mystery-pryer
+sequence: 5
+type: active
+action: cast
+cost:
+  spirituality: 1
+roll: null
+opposed_by: difficulty_value
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- divination
+- detection
+- utility
+text: You rapidly appraise hidden properties, ritual traces, and mystical vulnerabilities
+  by applying Hermit-path analytical frameworks.
+```
+
+- **Effect:** You rapidly appraise hidden properties, ritual traces, and mystical vulnerabilities by applying Hermit-path analytical frameworks.
+- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.

@@ -1,10 +1,16 @@
 ---
-title: "Sequence 2: Life-Giver (Blood Duke)"
-id: "moon-seq-02"
-tags: ["pathway:moon", "sequence:2"]
+title: 'Sequence 2: Life-Giver'
+id: moon-seq-02
+tags:
+- pathway:moon
+- sequence:2
 ---
 
-# Blood Duke Pathway: Sequence 2
+
+
+
+
+# Moon Pathway: Sequence 2
 
 ## Life-Giver
 
@@ -28,6 +34,33 @@ tags: ["pathway:moon", "sequence:2"]
 
 ### Creation Authority
 
+```yaml ability
+id: moon-seq-02-creation-authority
+name: Creation Authority
+pathway: moon
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- buff
+text: 'Creation of all things; creation of life; fundamentally possesses the power
+  of incarnation and creation. Cost: 3 points of Spirituality Use: Casting Action
+  Effect: On the basis of having seen or understood creatures, you can improve, create,
+  or even create a unique species out of thin air. Limits: Requires a successful corresponding
+  Science test.'
+```
+
+
+
+
 Creation of all things; creation of life; fundamentally possesses the power of incarnation and “creation.”
 
 - **Cost:** 3 points of **Spirituality**
@@ -36,6 +69,38 @@ Creation of all things; creation of life; fundamentally possesses the power of i
 - **Limits:** Requires a successful corresponding **Science test**.
 
 ### Life
+
+```yaml ability
+id: moon-seq-02-life
+name: Life
+pathway: moon
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- healing
+- mobility
+- debuff
+- offense
+text: 'You can speed up the metabolism and recovery speed of creatures, and give all
+  living beings the extraordinary resilience of blood races. Cost: 15 Spirituality
+  points Use: Single Casting Action Effect: Bring anyone who is not completely dead
+  back to life, allowing their damaged body and even their soul to instantly restore
+  and grow life. Limits: Limited to two uses per encounter. Aftereffects / Additional
+  Effects: Removes any presence of curses, toxins, and diseases. Insanity is terminated
+  immediately, and all Sanity / Rationality points lost due to insanity are restored.'
+```
+
+
+
 
 You can speed up the metabolism and recovery speed of creatures, and give all living beings the extraordinary resilience of blood races.
 
@@ -49,6 +114,34 @@ You can speed up the metabolism and recovery speed of creatures, and give all li
   - Cannot reverse loss of control; for loss of control and extraordinary creatures, this only allows them to continue to have part reason.
 
 ### Additional
+
+```yaml ability
+id: moon-seq-02-additional
+name: Additional
+pathway: moon
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: All dead objects within your line of sight
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- control
+text: 'Cost: 8 points of Spirituality Use: Casting Action Targeting and range: All
+  dead objects within your line of sight Effect: You can animate all dead objects
+  within your line of sight, including extraordinary items. You can make undead creatures
+  have part of their essence, which is judged as an ordinary existence. Limits: If
+  the target is a slave of the God of Death Pathway, it can still dominate these former
+  undead creatures.'
+```
+
+
+
 
 - **Cost:** 8 points of **Spirituality**
 - **Use:** **Casting Action**
@@ -87,6 +180,36 @@ You can speed up the metabolism and recovery speed of creatures, and give all li
 
 ### Bottom-Level Improvement
 
+```yaml ability
+id: moon-seq-02-bottom-level-improvement
+name: Bottom-Level Improvement
+pathway: moon
+sequence: 2
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- buff
+text: 'You can make incredible modifications to creatures, and this modification will
+  be directly engraved into the genetic information inside the gene. Cost: 3 Spirituality
+  points Use: Free action Effect: Make a Biology check and apply the outcome below.
+  Outcome: Big Fail: Instantly randomly spawns a horrible monster. Difficulty Value
+  10: You can swap the limbs of two creatures, or swap a certain trait (e.g., make
+  a human grow fish gills). Difficulty Value 15: You can cause a creature to grow
+  an extra limb like a normal creatures, at a rate of one limb for every 5 points
+  above Difficulty Value 15.'
+```
+
+
+
+
 You can make incredible modifications to creatures, and this modification will be directly engraved into the genetic information inside the gene.
 
 - **Cost:** 3 **Spirituality** points
@@ -102,3 +225,5 @@ You can make incredible modifications to creatures, and this modification will b
   - **Difficulty Value 25:** Even more incredible transformations.
   - **Difficulty Value 30:** Beyond the scope of transformation itself, the opponent is directly regarded as a new life that retains its own consciousness.
   - **Big hit:** A makeover that almost perfectly fulfills your wishes.
+
+- **Limits:** As described in this section's prose.

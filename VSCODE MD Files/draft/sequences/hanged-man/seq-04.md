@@ -1,10 +1,16 @@
 ---
-title: "Sequence 4: Black Knight"
-id: "hanged-man-seq-04"
-tags: ["pathway:hanged-man", "sequence:4"]
+title: 'Sequence 4: Black Knight'
+id: hanged-man-seq-04
+tags:
+- pathway:hanged-man
+- sequence:4
 ---
 
-# Sequence 4: Black Knight
+
+
+
+
+# Hanged Man Pathway: Sequence 4
 
 ## Black Knight
 
@@ -26,9 +32,61 @@ tags: ["pathway:hanged-man", "sequence:4"]
 
 ### Blade of Soul and Flesh (Core Ability)
 
+```yaml ability
+id: hanged-man-seq-04-blade-of-soul-and-flesh-core-ability
+name: Blade of Soul and Flesh (Core Ability)
+pathway: hanged-man
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- defense
+text: 'Effect: Corrodes flesh and blood, annihilates soul, breaks through barriers,
+  and can invalidate the defense of any creature with [[Corrupted Thoughts]].'
+```
+
+
+
+
 - **Effect:** Corrodes flesh and blood, annihilates soul, breaks through barriers, and can invalidate the defense of any creature with [[Corrupted Thoughts]].
 
+- **Limits:** As described in this section's prose.
+
+
 ### Black Knight
+
+```yaml ability
+id: hanged-man-seq-04-black-knight
+name: Black Knight
+pathway: hanged-man
+sequence: 4
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: One encounter.
+scaling: []
+tags:
+- ritual
+- defense
+text: 'Cost: 10 spirituality points [[Spirituality]]. Use: Free action. Limits: Only
+  once every 12 hours. Duration: One encounter. Effect: You become a ~4-meter-long
+  giant wearing black armor, holding a giant sword, with crimson eyes. Strength +5.
+  Constitution +5 (your Vitality upper limit also +5). [[Vitality]]'
+```
+
+
+
 
 - **Cost:** 10 **spirituality points** [[Spirituality]].
 - **Use:** Free action.
@@ -59,6 +117,31 @@ tags: ["pathway:hanged-man", "sequence:4"]
 
 ### Shadow Armor
 
+```yaml ability
+id: hanged-man-seq-04-shadow-armor
+name: Shadow Armor
+pathway: hanged-man
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- defense
+- offense
+text: 'Effect: The shadow becomes your armor. You gain 5 Armor [[Armor]] and 5 Damage
+  Reduction [[Damage Reduction]]. Damage Reduction is calculated after [[Immortal
+  Flesh]]. Limits: This ability must be used in a [[Shaded Area]].'
+```
+
+
+
+
 - **Effect:** The shadow becomes your armor.
   - You gain 5 **Armor** [[Armor]] and 5 **Damage Reduction** [[Damage Reduction]].
   - Damage Reduction is calculated after [[Immortal Flesh]].
@@ -66,13 +149,71 @@ tags: ["pathway:hanged-man", "sequence:4"]
 
 ### Blade of Flesh
 
+```yaml ability
+id: hanged-man-seq-04-blade-of-flesh
+name: Blade of Flesh
+pathway: hanged-man
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- debuff
+- defense
+- offense
+text: 'Effect: You create a blade of flesh, shadow, and spirit that deals base damage
+  of 2d10. This is cursed damage. [[Cursed Damage]] Benefits: Melee attacks related
+  to the blade of flesh and blood deal an extra 2d6 damage to living creatures. When
+  you use the blade of flesh and blood to attack creatures whose Sanity / Rationality
+  has not reached the maximum, your hit rate +10. [[Hit Rate]] Your melee attacks
+  ignore [[Deflection Defense]] and Damage Reduction, and can hit [[Incorporeal Body]].'
+```
+
+
+
+
 - **Effect:** You create a blade of flesh, shadow, and spirit that deals base damage of 2d10. This is **cursed damage**. [[Cursed Damage]]
 - **Benefits:**
   - Melee attacks related to the blade of flesh and blood deal an extra 2d6 damage to living creatures.
     - When you use the blade of flesh and blood to attack creatures whose Sanity / Rationality has not reached the maximum, your hit rate +10. [[Hit Rate]]
   - Your melee attacks ignore [[Deflection Defense]] and Damage Reduction, and can hit [[Incorporeal Body]].
 
+- **Limits:** As described in this section's prose.
+
+
 ### Shadow Raid
+
+```yaml ability
+id: hanged-man-seq-04-shadow-raid
+name: Shadow Raid
+pathway: hanged-man
+sequence: 4
+type: active
+action: move
+cost:
+  spirituality: 4
+roll: null
+opposed_by: none
+range: line of sight
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- mobility
+text: 'Cost: 2 spirituality points. Use: Move Action. Effect: Rush to a shadow within
+  line of sight; you teleport about 100 meters. Limits: This ability must be used
+  in a shadowed area, and the shadow must be within your line of sight.'
+```
+
+
+
 
 - **Cost:** 2 spirituality points.
 - **Use:** Move Action.
@@ -80,6 +221,35 @@ tags: ["pathway:hanged-man", "sequence:4"]
 - **Limits:** This ability must be used in a shadowed area, and the shadow must be within your line of sight.
 
 ### Spreading Flesh
+
+```yaml ability
+id: hanged-man-seq-04-spreading-flesh
+name: Spreading Flesh
+pathway: hanged-man
+sequence: 4
+type: toggle
+action: free
+cost:
+  spirituality: 4
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+text: 'Cost: 2 spirituality points. Use: Casting Action. Requirements: Flesh Stack
+  120+ (RAW: stack of flesh and blood). [[Flesh Stack]] Effect: Your whole body turns
+  into a thin blanket of blood and flesh that spreads rapidly, covering every corner
+  of the room. In this state, you turn into pure flesh and blood and cover the entire
+  room with your body; you become the walls of the entire room, and the walls are
+  full of flesh and blood. Exiting this state requires a free action to coalesce into
+  shape. Limits while active:'
+```
+
+
+
 
 - **Cost:** 2 spirituality points.
 - **Use:** Casting Action.
@@ -98,7 +268,39 @@ tags: ["pathway:hanged-man", "sequence:4"]
   - Anyone else who tries to enter without your consent must kill you first.
 - **Additional requirement:** This can usually only be used to cover a room to divide the battlefield. If you want to cover a lobby, your Flesh Stack must be 170+.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Separation of Fallen Thoughts
+
+```yaml ability
+id: hanged-man-seq-04-separation-of-fallen-thoughts
+name: Separation of Fallen Thoughts
+pathway: hanged-man
+sequence: 4
+type: active
+action: cast
+cost:
+  spirituality: 12
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- control
+text: 'Cost: 6 spirituality points. Use: Casting Action. Targeting: Designate a mad
+  creature. [[Mad Creature]] Effect: The designated creature falls into true half-madness
+  [[Half-Madness]]. A shadow copy of this creature appears immediately. Before the
+  original owner completely kills the copy, the original owners madness symptoms remain
+  permanently. Generally, it can act normally, but it will be difficult to control
+  emotions when speaking.'
+```
+
+
+
 
 - **Cost:** 6 spirituality points.
 - **Use:** Casting Action.
@@ -145,3 +347,5 @@ If you have a consciousness that does not belong to you in your mind (for exampl
   - It is extremely difficult to use your own power to make it fall into madness in advance.
   - After pulling it out, because it has already begun to fall into the state of [[Separated and Corrupted Thoughts]], you cannot let it fall into the state of [[Separated and Fallen Thoughts]] again; even if you can, it only affects replicas.
   - The Sanity / Rationality blow that is replenished after the withdrawal is meaningless.
+
+- **Limits:** As described in this section's prose.

@@ -1,12 +1,18 @@
 ---
-title: "Sequence 2: Seeker"
-id: "visionary-seq-02"
-tags: ["pathway:visionary", "sequence:2"]
+title: 'Sequence 2: Discerner'
+id: visionary-seq-02
+tags:
+- pathway:visionary
+- sequence:2
 ---
 
-# Sequence 2: Seeker
 
-## Seeker
+
+
+
+# Visionary Pathway: Sequence 2
+
+## Discerner
 
 ## Advancement
 
@@ -29,9 +35,40 @@ tags: ["pathway:visionary", "sequence:2"]
 
 ### Insight
 
+```yaml ability
+id: visionary-seq-02-insight
+name: Insight
+pathway: visionary
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- debuff
+- offense
+text: 'Effect: You can directly spy on the weakness in another persons heart and perceive
+  the deep interactions of the [[Subconscious Sea]]. Often accompanied by a [[Dream
+  Weave]] or [[Psychic Vision]], you can weave your foes worst fears. While fighting
+  you, the foe takes: -5 to all [[Skill Checks]] -3 to [[Damage Checks]] You can look
+  for any [[Inner World]] information you need through the sea of the subconscious
+  mind.'
+```
+
+
+
+
 - **Effect:**
   - You can directly spy on the weakness in another person’s heart and perceive the deep interactions of the [[Subconscious Sea]].
   - Often accompanied by a [[Dream Weave]] or [[Psychic Vision]], you can weave your foe’s worst fears. While fighting you, the foe takes:
     - -5 to all [[Skill Checks]]
     - -3 to [[Damage Checks]]
   - You can look for any [[Inner World]] information you need through the sea of the subconscious mind.
+
+- **Limits:** As described in this section's prose.

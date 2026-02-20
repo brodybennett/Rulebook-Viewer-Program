@@ -1,12 +1,20 @@
 ---
-title: "Sequence 5: Reaper"
-id: "red-priest-seq-05"
-tags: ["pathway:red-priest", "sequence:5"]
+title: 'Sequence 5: Reaper'
+id: red-priest-seq-05
+tags:
+- pathway:red-priest
+- sequence:5
 ---
 
-# Sequence 5: Reaper
+
+
+
+
+# Red Priest Pathway: Sequence 5
 
 > **Lore:** A Reaper is skilled at finding a prey’s weakness and launching an absolutely fatal attack, with extremely strong offensive power.
+
+## Reaper
 
 ## Advancement
 
@@ -27,6 +35,39 @@ tags: ["pathway:red-priest", "sequence:5"]
 
 ### Spot Weaknesses
 
+```yaml ability
+id: red-priest-seq-05-spot-weaknesses
+name: Spot Weaknesses
+pathway: red-priest
+sequence: 5
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: Choose 1 target within your [[Field of Vision]].
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+- debuff
+- defense
+text: 'Cost: None (does not consume Spirituality). [[Spirituality]] Use: 1 Free Action.
+  Free Action Limits: 1 time per Round. Round Targeting and range: Choose 1 target
+  within your [[Field of Vision]]. Test: Perform a [[Detection test]] with Difficulty
+  Value 20. Difficulty Value Effect: If the identification is successful, you immediately
+  know the opponents weakness from a tactical point of view (e.g., darkness/corruption/undead
+  creatures fear the sacred; plants fear poison; stone giants fear ice and fire).
+  This does not mean you know the opponents creature type. At the same time, you learn
+  which of the opponents existing [[Resistance]] is the lowest. You do not know the
+  specific resistance valu...'
+```
+
+
+
+
 > **Lore:** You are good at spotting the weaknesses of your prey.
 
 - **Cost:** None (does not consume **Spirituality**). [[Spirituality]]
@@ -39,6 +80,37 @@ tags: ["pathway:red-priest", "sequence:5"]
   2. At the same time, you learn which of the opponent’s existing [[Resistance]] is the lowest. You do not know the specific resistance value—only which resistance is lowest (i.e., which attack is most effective).
 
 ### Harvest
+
+```yaml ability
+id: red-priest-seq-05-harvest
+name: Harvest
+pathway: red-priest
+sequence: 5
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- buff
+- offense
+text: '#### Weakness Attack Cost: 2 points of Spirituality. Use: 1 attack/casting/Swift
+  Action that causes damage. Swift Action Effect: The various colors of the targets
+  body immediately appear in your eyes. The position representing the weakness is
+  pale. This attack is -8 disadvantageous, and the damage caused is increased by 3d6.
+  [[Disadvantageous]] This is a Vital Blow, which cannot be superimposed with other
+  Vital Blows. [[Vital Blow]] The weakness from this mystical point of view is not
+  necessarily the internal organs and other locations. #### Fatal Attack Cost: 4 points
+  of Spirituality.'
+```
+
+
+
 
 > **Lore:** You discover the opponent’s weakness from the perspective of mysticism, and use this to launch a very powerful attack.
 
@@ -76,3 +148,4 @@ tags: ["pathway:red-priest", "sequence:5"]
   2. Fatal attack: instead of consuming 12 **Spirituality**, on the basis of 1, the attack has the effect of Fatal Attack.
 - (The main effect of Slaughter is to change single-target damage to group damage. If the ability you originally cast is group damage, then you must use Slaughter to enjoy the benefits of weak point/fatal attack; otherwise the ranged damage will not enjoy the harvest effect.)
 
+- **Limits:** As described in this section's prose.

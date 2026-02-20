@@ -1,12 +1,34 @@
 ---
-title: "Sequence 7: Appraiser"
-id: "paragon-seq-07"
-tags: ["pathway:paragon", "sequence:7"]
+title: 'Sequence 7: Appraiser'
+id: paragon-seq-07
+tags:
+- pathway:paragon
+- sequence:7
 ---
 
-# Sequence 7: Appraiser
+
+
+
+
+# Paragon Pathway: Sequence 7
 
 You can quickly identify magical items, intuitively grasp the abilities and problems of most supernatural items, and avoid hidden dangers to the greatest extent when using them.
+
+## Appraiser
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -16,6 +38,35 @@ You can quickly identify magical items, intuitively grasp the abilities and prob
 - Your Mysticism follows Sequence 9 rapid growth rules; cap at **Master**; growth count increases sequentially (2/3/4).
 
 ### Spiritual Identification
+
+```yaml ability
+id: paragon-seq-07-spiritual-identification
+name: Spiritual Identification
+pathway: paragon
+sequence: 7
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+text: 'You judge the type and function of a thing or item. Use: As a Swift Action,
+  choose an item youre holding and make a Difficulty Value (Difficulty Value) 15 Occult
+  check. Cost: If the target is an extraordinary item or extraordinary material, consume
+  2 points of spirituality. Effect: On use, you can attempt one of the following identifications
+  (as applicable): Identify extraordinary items: You immediately know the abilities
+  and negative effects of this extraordinary item. You also learn the items specific
+  form, such as: a charm, an amulet,'
+```
+
+
+
 
 You judge the type and function of a thing or item.
 
@@ -39,7 +90,41 @@ You judge the type and function of a thing or item.
    - This can also tell whether a normal item is a counterfeit.
    - It is generally difficult for an extraordinary item to be identified as a counterfeit unless clues are obtained.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Spiritual Sense
+
+```yaml ability
+id: paragon-seq-07-spiritual-sense
+name: Spiritual Sense
+pathway: paragon
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+text: 'You can detect whether an object within your field of vision is spiritual,
+  or whether the object has a defect. Effect: You are more sensitive to extraordinary
+  items. You can directly: see whether an item has spirituality, then judge whether
+  it belongs to extraordinary items; or see whether an item has defects, including
+  whether it has a delicate and complex structure. Special: When you witness an extraordinary
+  material/characteristic/item, you can directly determine the Pathway it belongs
+  to, provided that you already know the existence of this Pathway. Example: you can
+  tell which material belongs to the [[Red Priest]] only after you know the Pathway
+  of the Red Priest. Limits: This can on...'
+```
+
+
+
 
 You can detect whether an object within your field of vision is spiritual, or whether the object has a defect.
 
@@ -53,6 +138,37 @@ You can detect whether an object within your field of vision is spiritual, or wh
   - This explanation of the vision cannot be recorded or stolen.
 
 ### Item Improvement
+
+```yaml ability
+id: paragon-seq-07-item-improvement
+name: Item Improvement
+pathway: paragon
+sequence: 7
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- buff
+text: 'You improve the things you hold; this benefit comes from understanding an item
+  through identification. Use: As a Full-Round Action, you improve the effect of an
+  item (this does not include extraordinary items). Prerequisites and constraints:
+  An item improved by you must first undergo Spiritual Identification (spiritual appraisal)
+  by you, so that you can fully understand it. The item to be improved must have room
+  for improvement. An item improved by you or others cannot be improved again. You
+  can still use this ability to change one benefit into another benefit. A high-Sequence
+  Beyonder can change the improvement of a low-Sequence Beyonder to a higher-rank
+  or other version through knowledge.'
+```
+
+
+
 
 You improve the things you hold; this benefit comes from understanding an item through identification.
 

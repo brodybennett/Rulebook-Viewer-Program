@@ -1,8 +1,14 @@
 ---
-title: "Sequence 0: Door"
-id: "apprentice-seq-00"
-tags: ["pathway:apprentice", "sequence:0"]
+title: 'Sequence 0: Door'
+id: apprentice-seq-00
+tags:
+- pathway:apprentice
+- sequence:0
 ---
+
+
+
+
 
 # Door Pathway: Sequence 0
 
@@ -28,11 +34,65 @@ tags: ["pathway:apprentice", "sequence:0"]
 
 ### Conceptualization
 
+```yaml ability
+id: apprentice-seq-00-conceptualization
+name: Conceptualization
+pathway: apprentice
+sequence: 0
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- offense
+text: 'Use: Free Action Effect: The Planeswalker ability of Sequence 0 undergoes a
+  qualitative change. You can become a conceptual creature: your figure becomes distorted,
+  instantly stained with bright starlight, and extremely illusoryas if turning into
+  a star gateno longer like a physical creature, but closer to an aggregate of symbols
+  such as roaming, star passage, key, and gate. Limits: In the conceptual creature
+  state, you completely ignore any physical damage.'
+```
+
+
+
+
 - **Use:** **Free Action**
 - **Effect:** The **Planeswalker** ability of **Sequence 0** undergoes a qualitative change. You can become a **conceptual creature**: your figure becomes distorted, instantly stained with bright starlight, and extremely illusory—as if turning into a star gate—no longer like a physical creature, but closer to an aggregate of symbols such as “roaming,” “star passage,” “key,” and “gate.”
 - **Limits:** In the conceptual creature state, you completely ignore any physical damage.
 
 ### Void Collapse
+
+```yaml ability
+id: apprentice-seq-00-void-collapse
+name: Void Collapse
+pathway: apprentice
+sequence: 0
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Select an area.
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+text: 'Cost: 50 points of Spirituality Use: Spellcasting Action Targeting and range:
+  Select an area. Limits: You can use this ability at most 2 times per Encounter.
+  Effect: You make space collapse and annihilate into nothingness. This is almost
+  a death-level ability; even if the target is Sequence 0 of the Fool pathway, they
+  must lose all their [[substitutes]] and, at the cost of being unable to maintain
+  further survival, can barely avoid this blow.'
+```
+
+
+
 
 - **Cost:** 50 points of **Spirituality**
 - **Use:** **Spellcasting Action**
@@ -41,7 +101,31 @@ tags: ["pathway:apprentice", "sequence:0"]
 - **Effect:** You make space collapse and annihilate into nothingness. This is almost a death-level ability; even if the target is **Sequence 0** of the Fool pathway, they must lose all their [[substitutes]] and, at the cost of being unable to maintain further survival, can barely avoid this blow.
 
 ### Divine Gaze
+```yaml ability
+id: apprentice-seq-00-divine-gaze
+name: Divine Gaze
+pathway: apprentice
+sequence: 0
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Use: When any creature recites your True Name. Effect: You can gaze at the
+  surroundings of that creature, and use your extraordinary abilities to target the
+  area at will.'
+```
+
+
+
+
 - **Use:** When any creature recites your **True Name**.
 - **Effect:** You can gaze at the surroundings of that creature, and use your extraordinary abilities to target the area at will.
 
-
+- **Limits:** As described in this section's prose.

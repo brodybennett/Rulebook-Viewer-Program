@@ -1,14 +1,34 @@
 ---
-title: "Sequence 8: Reasoning Student"
-id: "reader-seq-08"
-tags: ["pathway:reader", "sequence:8"]
+title: 'Sequence 8: Detective'
+id: reader-seq-08
+tags:
+- pathway:reader
+- sequence:8
 ---
 
-# Sequence 8: Reasoning Student
 
-## Overview
+
+
+
+# White Tower Pathway: Sequence 8
+
+## Detective
 
 > **Lore:** This Sequence focuses on sharper observation, stronger logical reasoning, and deep competence in ritual magic.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -24,6 +44,37 @@ tags: ["pathway:reader", "sequence:8"]
 - **Spending Intuition (INT):** If you are creating a character above Sequence 9 (not just promoted), you can use **twice** the Intuition (INT) to add growth skills.  
 
 ### Basic Deduction
+
+```yaml ability
+id: reader-seq-08-basic-deduction
+name: Basic Deduction
+pathway: reader
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- detection
+- healing
+text: '*Basic Deduction reversely restores a persons characteristics through details.
+  Cost: 1 Spellcasting Action. Use: Make a [[Detection Check]] and choose 1 target.
+  If deducing from a portrait, the maximum Difficulty Value is 25. Effect: You know
+  people by details, gaining information based on the Difficulty Value achieved. Limits:
+  Repeated deductions do not grant new clues until the result is the same; you only
+  obtain new clues once circumstances/clues change enough to alter the result. Basic
+  Deduction (and Action Deduction) are benefits brought by potions; they cannot be
+  recorded or stolen. *Difficulty Value Results (repeat deductions until the result
+  is the same before obtaining new clues):'
+```
+
+
+
 
 **Basic Deduction** reversely restores a person’s characteristics through details.
 
@@ -52,6 +103,34 @@ tags: ["pathway:reader", "sequence:8"]
 
 ### Action Deduction
 
+```yaml ability
+id: reader-seq-08-action-deduction
+name: Action Deduction
+pathway: reader
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: Choose a target you have performed **Basic Deduction** on within the last **12
+  hours** (in your mind).
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- utility
+text: '*Action Deduction imagines a creatures next actions. Cost: 1 Spellcasting Action.
+  Use: Conduct a [[Psychology Appraisal]]. Targeting and range: Choose a target you
+  have performed Basic Deduction on within the last 12 hours (in your mind). Effect:
+  Predict what the target will do, based on the Difficulty Value achieved. Limits:
+  If the Basic Deduction information is wrong, the Action Deduction information is
+  also wrong. Repeated deductions yield the same result until new clues are obtained.'
+```
+
+
+
+
 **Action Deduction** imagines a creature’s next actions.
 
 - **Cost:** 1 Spellcasting Action.
@@ -78,6 +157,34 @@ tags: ["pathway:reader", "sequence:8"]
 
 ### Thinking Intuition
 
+```yaml ability
+id: reader-seq-08-thinking-intuition
+name: Thinking Intuition
+pathway: reader
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+text: '*Thinking Intuition gives you unique revelations through spirituality. Trigger:
+  Whenever you make a Difficulty Value 25 Intuition Appraisal, you can detect whether
+  something you have experienced before has a sense of incongruity and whether you
+  have missed something. Great Success / Higher Difficulty: If the Intuition (INT)
+  Appraisal is a Great Success or the Difficulty Value exceeds 30, you can judge the
+  source of the incongruity, but you do not know more specific information.'
+```
+
+
+
+
 **Thinking Intuition** gives you unique revelations through spirituality.
 
 - **Trigger:** Whenever you make a **Difficulty Value 25** Intuition Appraisal, you can detect whether something you have experienced before has a sense of incongruity and whether you have missed something.
@@ -86,3 +193,6 @@ tags: ["pathway:reader", "sequence:8"]
 > **Lore:** Ordinary people occasionally have a weaker version of this; it reflects the brain producing a correct result without a conscious reasoning chain. This extraordinary version still relies on valid facts.
 
 > **GM Note:** The GM may not be able to remind you to use this passive ability in time. If necessary, actively request that the trigger be checked.
+
+- **Effect:** Thinking Intuition resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

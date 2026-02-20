@@ -1,10 +1,18 @@
 ---
-title: "Sequence 1: Thunder God"
-id: "tyrant-seq-01"
-tags: ["pathway:tyrant", "sequence:1"]
+title: 'Sequence 1: Thunder God'
+id: tyrant-seq-01
+tags:
+- pathway:tyrant
+- sequence:1
 ---
 
-# Sequence 1: Thunder God
+
+
+
+
+# Tyrant Pathway: Sequence 1
+
+## Thunder God
 
 ## Advancement
 
@@ -32,6 +40,38 @@ tags: ["pathway:tyrant", "sequence:1"]
 
 ### Become Thunder
 
+```yaml ability
+id: tyrant-seq-01-become-thunder
+name: Become Thunder
+pathway: tyrant
+sequence: 1
+type: active
+action: full-round
+cost:
+  spirituality: 5
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: 2 rounds (3 rounds at [[Sequence 0]])
+scaling: []
+tags:
+- ritual
+- mobility
+- control
+- offense
+text: 'Cost: 5 Spirituality Use: Full-Round Action Duration: 2 rounds (3 rounds at
+  [[Sequence 0]]) Effect: You transform into a thunderbolt and move at light speed.
+  Your movement rate becomes the speed of light (described as ~300,000 kilometers
+  of movement power), allowing you to reach any intended destination at light speed.
+  This movement can be used to initiate a surprise attack. Upon ending movement: You
+  may deal double the damage of [[Lightning Control]] or Directly trigger a lightning
+  storm, which requires prior acceleration to a sufficient degree before use.'
+```
+
+
+
+
 - **Cost:** 5 Spirituality  
 - **Use:** Full-Round Action  
 - **Duration:** 2 rounds (3 rounds at [[Sequence 0]])  
@@ -53,6 +93,36 @@ tags: ["pathway:tyrant", "sequence:1"]
 ---
 
 ### Hundreds of Millions of Thunders and Entanglements
+
+```yaml ability
+id: tyrant-seq-01-hundreds-of-millions-of-thunders-and-entanglements
+name: Hundreds of Millions of Thunders and Entanglements
+pathway: tyrant
+sequence: 1
+type: active
+action: cast
+cost:
+  spirituality: 1
+roll: null
+opposed_by: physical_defense
+range: Choose a target
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'Use: Casting Action (can be repeated each round) Targeting and Range: Choose
+  a target Effect: You create vast, entangled lightning phenomena (described as forest-like
+  lightning and extended electric arcs) and unleash continuous lightning combinations.
+  Make a +25 disaster check against the targets physical defense. Ignores physical
+  defense derived from Agility (DEX) and dodge. Each lightning bolt costs 1 Spirituality.
+  Dark clouds gather and innumerable lightning strikes descend. *Base Damage Scaling:'
+```
+
+
+
 
 - **Use:** Casting Action (can be repeated each round)  
 - **Targeting and Range:** Choose a target  
@@ -102,3 +172,5 @@ tags: ["pathway:tyrant", "sequence:1"]
   - Lightning damage reduction applies only once per use instead of per bolt.
   - You cannot use combo value to increase damage further.
   - You may still maintain continuous casting, but without additional combo damage benefits.
+
+- **Limits:** As described in this section's prose.

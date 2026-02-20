@@ -1,10 +1,16 @@
 ---
-title: "Sequence 1: Beauty Goddess (Queen of Blood Race)"
-id: "moon-seq-01"
-tags: ["pathway:moon", "sequence:1"]
+title: 'Sequence 1: Beauty Goddess'
+id: moon-seq-01
+tags:
+- pathway:moon
+- sequence:1
 ---
 
-# Queen of Blood Race Pathway: Sequence 1
+
+
+
+
+# Moon Pathway: Sequence 1
 
 ## Beauty Goddess
 
@@ -28,6 +34,35 @@ tags: ["pathway:moon", "sequence:1"]
 
 ### The Power of Beauty
 
+```yaml ability
+id: moon-seq-01-the-power-of-beauty
+name: The Power of Beauty
+pathway: moon
+sequence: 1
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: Permanent.
+scaling: []
+tags:
+- control
+- social
+text: 'Cost: 1 Free Action Free Action to activate (open). Duration: Permanent. Effect:
+  You become a symbol of the concept of beauty. You can control any Charisma (CHA)
+  [[Charisma (CHA)]] value you want. You can freely physically fit yourself into different
+  charms of women of different ages and styles; these traits can change and can coexist
+  perfectly. Inanimate objects animate under your authority, working tirelessly in
+  your praise. Intelligent life falls in love with you in many forms (appreciation,
+  longing, etc.).'
+```
+
+
+
+
 - **Cost:** 1 **Free Action** Free Action to activate (“open”).
 - **Duration:** Permanent.
 - **Effect:**
@@ -45,6 +80,34 @@ tags: ["pathway:moon", "sequence:1"]
 
 - **Same Personality Clause:** Enemies with the same Pathway/Sequence as you will only lose one action and suffer **-4 disadvantages**. They can resist with a corresponding **Will Test** Will Test every round; on success, they do not suffer the corresponding effect, but must make the corresponding Will Test again in the next round as long as they are facing the God of Beauty.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Life Authority
 
+```yaml ability
+id: moon-seq-01-life-authority
+name: Life Authority
+pathway: moon
+sequence: 1
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+text: 'Effect: From now on, all authority related to life creation and improvement
+  requires only 1 Free Action Free Action. [[Life Authority]]'
+```
+
+
+
+
 - **Effect:** From now on, all authority related to life creation and improvement requires only 1 **Free Action** Free Action. [[Life Authority]]
+
+- **Limits:** As described in this section's prose.

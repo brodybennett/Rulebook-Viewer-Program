@@ -1,14 +1,34 @@
 ---
-title: "Sequence 8: Midnight Poet"
-id: "night-seq-08"
-tags: ["pathway:night", "sequence:8"]
+title: 'Sequence 8: Midnight Poet'
+id: night-seq-08
+tags:
+- pathway:night
+- sequence:8
 ---
 
-# Sequence 8: Midnight Poet
+
+
+
+
+# Darkness Pathway: Sequence 8
 
 ## Midnight Poet
 
 > **Lore:** Good at fighting, shooting, climbing, and sensing; has high inspiration; uses different styles of poems to produce different effects on surrounding creatures.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -21,6 +41,38 @@ tags: ["pathway:night", "sequence:8"]
 Skill growth follows Sequence 9 rapid growth rules; cap at **Erudite**; growth count increases sequentially (2/3/4).
 
 ### Recite Poems
+
+```yaml ability
+id: night-seq-08-recite-poems
+name: Recite Poems
+pathway: night
+sequence: 8
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: All verses primarily affect only the direction you are facing; other creatures
+  within hearing range are affected with **-2** to the verses Difficulty Value.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+text: 'Cost: 3 points of Spirituality [[Spirituality]]. Use: 1 Casting Action Casting
+  Action; choose 1 kind of poetry and perform the corresponding chant RP. Targeting
+  and range: All verses primarily affect only the direction you are facing; other
+  creatures within hearing range are affected with -2 to the verses Difficulty Value.
+  Effect: Choose one verse below; apply its effects to all affected creatures (as
+  defined above). Test difficulties use Difficulty Value Difficulty Value as written.
+  Slack Psalm Affected creatures resist a Will Test Will Test (Difficulty Value 15);
+  otherwise, it continues until the end of your next round of actions. You can perform
+  at most 1 Swift Action Swift Action. Ski...'
+```
+
+
+
 
 - **Cost:** 3 points of **Spirituality** [[Spirituality]].
 - **Use:** 1 **Casting Action** Casting Action; choose 1 kind of poetry and perform the corresponding chant RP.
@@ -53,3 +105,5 @@ Skill growth follows Sequence 9 rapid growth rules; cap at **Erudite**; growth c
      - **Special:** **Immortal** [[Immortal]], **fallen** [[Fallen]], **dark** [[Dark]], or **polluted** [[polluted]] creatures, or creatures in extraordinary madness and out of control [[out of control]], must immediately make a **Will Test** (Difficulty Value 20).
        - If the test fails, they suffer **1 Sanity / Rationality** loss and show obvious discomfort.
        - Extraordinary crazy/out-of-control people need to attack the caster immediately or give priority to attack within 1 round; the rest show a little malice.
+
+- **Limits:** As described in this section's prose.

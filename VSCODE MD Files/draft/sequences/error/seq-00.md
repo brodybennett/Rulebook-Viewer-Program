@@ -1,10 +1,16 @@
 ---
-title: "Sequence 0: Error"
-id: "error-path-seq-01"
-tags: ["pathway:error-path", "sequence:1"]
+title: 'Sequence 0: Error'
+id: error-seq-00
+tags:
+- pathway:error
+- sequence:0
 ---
 
-# Sequence 0: Error
+
+
+
+
+# Error Pathway: Sequence 0
 
 > **Lore:** The Trojan horse of fate, the worm of time, the loophole of rules, the incarnation of all mistakes.
 
@@ -26,6 +32,36 @@ You gain the following extraordinary abilities:
 - Your **Deceit** skill increases by 1 skill level, and one other skill of your choice increases by 1 skill level.
 
 ### BUG
+
+```yaml ability
+id: error-seq-00-bug
+name: BUG
+pathway: error
+sequence: 0
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- mobility
+text: 'Use: 1 free action Free Action. Limits: Can only be used once per round. Effect:
+  You can make any loopholes in the logic of rules and destiny come true. Effect notes:
+  The stronger the connection and association is, the more feasible it is. Otherwise,
+  it is difficult to succeed. It is difficult to succeed, especially for the same
+  personality; but you can almost use this ability without any logic in the face of
+  low-level personality, especially the Sequence that even the king of angels has
+  not yet reached. [[King of Angels]] Example: Your main body [[Main Body]] is teleported,
+  and your avatar [[Avatar]] is the main body to some extent, so all your avatars
+  and main body can be teleported.'
+```
+
+
+
 
 - **Use:** 1 **free action** Free Action.
 - **Limits:** Can only be used once per round.

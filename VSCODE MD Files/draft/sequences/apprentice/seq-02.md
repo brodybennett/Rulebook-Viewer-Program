@@ -1,10 +1,18 @@
 ---
-title: "Sequence 2: Planeswalker"
-id: "apprentice-seq-02"
-tags: ["pathway:apprentice", "sequence:2"]
+title: 'Sequence 2: Planeswalker'
+id: apprentice-seq-02
+tags:
+- pathway:apprentice
+- sequence:2
 ---
 
-# Sequence 2: Planeswalker
+
+
+
+
+# Door Pathway: Sequence 2
+
+## Planeswalker
 
 ## Advancement
 
@@ -24,6 +32,32 @@ tags: ["pathway:apprentice", "sequence:2"]
 
 ### Concept Travel
 
+```yaml ability
+id: apprentice-seq-02-concept-travel
+name: Concept Travel
+pathway: apprentice
+sequence: 2
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- mobility
+text: 'Use: 1 time per round; Full-Round Action. Effect: You can go to any area and
+  time where there is a concept related to you. Limits: This effect cannot be used
+  to change history. History altered by you creates another time period parallel to
+  the real world without meaningfully affecting the "now". At higher Sequences: [[id:alias-sequence-1|Sequence
+  1]]: a spellcasting action. [[Sequence 0]]: a free action.'
+```
+
+
+
+
 - **Use:** 1 time per round; Full-Round Action.
 - **Effect:** You can go to any area and time where there is a concept related to you.
 - **Limits:**
@@ -34,6 +68,32 @@ tags: ["pathway:apprentice", "sequence:2"]
   - [[Sequence 0]]: a free action.
 
 ### Space Swap
+
+```yaml ability
+id: apprentice-seq-02-space-swap
+name: Space Swap
+pathway: apprentice
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Cost: A Casting Action that consumes 10 spiritual points. Effect: You exchange
+  two spaces. Targeting and range: Each selected space has a radius of no more than
+  one kilometer. The distance between the two spaces cannot exceed a country. Limits:
+  You must know the exact location and not be hindered by others. The core area of
+  a church or an organization usually has a specific shelter and cannot be exchanged.'
+```
+
+
+
 
 - **Cost:** A Casting Action that consumes 10 spiritual points.
 - **Effect:** You exchange two spaces.
@@ -48,6 +108,36 @@ tags: ["pathway:apprentice", "sequence:2"]
 - **Aftereffects:** After use, the spaces are exchanged (e.g., a room can appear in a grassland, and the original location of the room becomes a grassland of the same size).
 
 ### To Reproduce
+
+```yaml ability
+id: apprentice-seq-02-to-reproduce
+name: To Reproduce
+pathway: apprentice
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Effect: Your records no longer have limits. Use and cost: A spellcasting action
+  consumes the corresponding spirituality to directly reproduce a supernatural ability
+  or scene you have recorded. Recording requirement: You still need a successful [[Writing
+  Appraisal]] to record the ability at this stage. Special (angel-level): Two recording
+  options exist; the GM decides which applies. Notes: Note: There is no limit to the
+  number of reappearances. In theory, as long as you have seen it, you can reappear
+  it. However, without understanding the principle, the reproduced ability is usually
+  very weak; you still need to conduct a writing appraisal when you see it. Note:
+  If you did not pass the writ...'
+```
+
+
+
 
 - **Effect:** Your records no longer have limits.
 - **Use and cost:** A spellcasting action consumes the corresponding spirituality to directly reproduce a supernatural ability or scene you have recorded.
@@ -75,3 +165,5 @@ tags: ["pathway:apprentice", "sequence:2"]
   - The reproduction of the scene lasts at most 2 rounds.
 
 > **GM Note:** If you have an opportunity to communicate with a high-sequence powerhouse whose recorded ability and Pathway match an ability you have (or have had) recorded, using the half-power version in that communication may allow deeper study toward approaching the full angel ability.
+
+- **Limits:** As described in this section's prose.

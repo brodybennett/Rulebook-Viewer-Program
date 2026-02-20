@@ -1,14 +1,20 @@
 ---
-title: "Sequence 6: Witch of Pleasure"
-id: "demoness-seq-06"
-tags: ["pathway:Demoness", "sequence:6"]
+title: 'Sequence 6: Pleasure'
+id: demoness-seq-06
+tags:
+- pathway:demoness
+- sequence:6
 ---
 
-# Sequence 6: Witch of Pleasure
+
+
+
+
+# Demoness Pathway: Sequence 6
 
 > **Lore:** The “witch” is improved in all aspects—more beautiful, highly charming, and skilled at giving the opposite sex or the same sex unforgettable happiness in love. She can create strange silk threads like a spider and use them to tease enemies—but spider webs fear fire.
 
-## Code of Play
+## Pleasure
 
 - Inescapable, Irresistible Pleasure Is a Kind of Pain
 
@@ -46,6 +52,39 @@ tags: ["pathway:Demoness", "sequence:6"]
 
 ### Web Creation
 
+```yaml ability
+id: demoness-seq-06-web-creation
+name: Web Creation
+pathway: demoness
+sequence: 6
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+- stealth
+- control
+- offense
+text: 'Cost: 3 spirituality points Use: 1 Swift Action, once per round Effect: You
+  extend your spirituality, creating an invisible cobweb that spreads across the room,
+  satisfying the prerequisites for [[Touch of Pleasure]] and [[Hair Control]]. Source
+  rule: Although it spreads all over the room, all cobwebs are extended from your
+  body; the cobwebs will be there wherever you are, and their source will be you.
+  Hair alternative: If you are unable or inconvenient to make spider webs, you can
+  consider using your own hair to use Touch of Pleasure and the ability to control
+  silk hair. Hair, unlike cobwebs, is not invisible, and taking damage can reach you.
+  The webs you create obey the following charact...'
+```
+
+
+
+
 - **Cost:** 3 **spirituality points**
 - **Use:** 1 **Swift Action**, once per round
 - **Effect:** You extend your spirituality, creating an invisible cobweb that spreads across the room, satisfying the prerequisites for [[Touch of Pleasure]] and [[Hair Control]].
@@ -62,7 +101,41 @@ tags: ["pathway:Demoness", "sequence:6"]
 - **Flame destruction:** Assuming the type of damage that destroys the spider web is flame, the flame will cause the spider web to be immediately regarded as incinerated no matter how much Vitality is left at the moment the flame appears.
   - When the flame appears, you must pass a **Difficulty Value** 20 Agility (DEX) Identification; otherwise, you suffer fire damage equal to the remaining Vitality of the spider webs. Agility (DEX) Identification
 
+- **Limits:** As described in this section's prose.
+
+
 ### Touch of Pleasure
+
+```yaml ability
+id: demoness-seq-06-touch-of-pleasure
+name: Touch of Pleasure
+pathway: demoness
+sequence: 6
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- healing
+- offense
+text: 'Use: 1 Swift Action, 1 time per round Prerequisite: You must first extend the
+  web to use this ability; it is essentially manipulating the web and hair: If there
+  is no spider web on the field, you can make the hair grow faster to cast it, which
+  is regarded as spider web creation. Hair strands are visible compared to spider
+  webs and cannot be immune to single-target physical damage. Hair that grows quickly
+  also has 3d6 health points, but once it is ignited, it will usually burn yourself,
+  which is difficult to avoid. There are four uses of this ability, and the four uses
+  are incompatible. You can only choose one of the following benefits to take effect
+  at the same time. Sequence 5: The numbe...'
+```
+
+
+
 
 - **Use:** 1 **Swift Action**, 1 time per round
 - **Prerequisite:** You must first extend the web to use this ability; it is essentially manipulating the web and hair:
@@ -145,7 +218,42 @@ tags: ["pathway:Demoness", "sequence:6"]
 
 > **GM Note:** Other moderators allow and reasonable use of spider silk.
 
+- **Effect:** Touch of Pleasure resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Primordial Cocoon
+
+```yaml ability
+id: demoness-seq-06-primordial-cocoon
+name: Primordial Cocoon
+pathway: demoness
+sequence: 6
+type: active
+action: cast
+cost:
+  spirituality: 12
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- healing
+- offense
+text: 'Cost: 6 spirituality points Use: 1 spellcasting action Effect: You create a
+  silkworm cocoon to protect yourself. Special rule: This is a synergy of your other
+  abilities to some extent. Therefore, the fire thief cannot directly steal this ability
+  from you, but can only steal one or two of its components at most. [[Fire thief]]
+  The effects of Primordial Cocoon are as follows: Black hair: The outermost layer
+  is curled black long hair. Black hair has 3d6 health points. The physical damage
+  received is halved, and the fire damage is doubled.'
+```
+
+
+
 
 - **Cost:** 6 spirituality points
 - **Use:** 1 **spellcasting action**
@@ -182,3 +290,5 @@ tags: ["pathway:Demoness", "sequence:6"]
   7. **Decontamination:**
      - In this state, the black flames covering your whole body can decontaminate no more than one character on your body, and immediately remove all extraordinary effects on your body, including positive and negative effects. [[Extraordinary effects]]
      - This does not include symptoms of insanity and Sanity / Rationality rolls that have occurred, as well as the 12-hour restoration of stolen abilities. [[Insanity]] [[Stolen abilities (12-hour restoration)]]
+
+- **Limits:** As described in this section's prose.

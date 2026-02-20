@@ -1,12 +1,18 @@
 ---
-title: "Sequence 7: Navigator"
-id: "tyrant-seq-07"
-tags: ["pathway:tyrant", "sequence:7"]
+title: 'Sequence 7: Sea Warrior'
+id: tyrant-seq-07
+tags:
+- pathway:tyrant
+- sequence:7
 ---
 
-# Sequence 7: Navigator
 
-## Overview
+
+
+
+# Tyrant Pathway: Sequence 7
+
+## Sea Warrior
 
 > **Lore:** Called “Priest Storm” in ancient times, Navigators are scholars of astronomy and geography. Their gifts are tied to the sea and to the [[Lord of Storms]].
 
@@ -20,6 +26,20 @@ tags: ["pathway:tyrant", "sequence:7"]
 - Be proficient in navigation and weather information.
 - Pursue exploration and discovery.
 
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
+
 ## Extraordinary Abilities
 
 ### Attribute Gain
@@ -29,21 +49,134 @@ tags: ["pathway:tyrant", "sequence:7"]
 
 ### Rapid Promotion Compatibility
 
+```yaml ability
+id: tyrant-seq-07-rapid-promotion-compatibility
+name: Rapid Promotion Compatibility
+pathway: tyrant
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+text: The Navigator is in the [[Rapid Promotion]] system and is not treated as a newly
+  promoted character. The [[Potion]] attribute used to increase the growth of this
+  skill is Intuition (INT).
+```
+
+
+
+
 - The Navigator is in the [[Rapid Promotion]] system and is **not** treated as a newly promoted character.
 - The [[Potion]] attribute used to increase the growth of this skill is **Intuition (INT)**.
 
+- **Effect:** Rapid Promotion Compatibility resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Perfect Recall and Orientation
+
+```yaml ability
+id: tyrant-seq-07-perfect-recall-and-orientation
+name: Perfect Recall and Orientation
+pathway: tyrant
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+text: You do not get lost. Your memory is enhanced; you have photographic memory.
+  You can remember all kinds of information that have not been affected by the Extraordinary.
+```
+
+
+
 
 - You do not get lost.
 - Your memory is enhanced; you have photographic memory.
 - You can remember all kinds of information that have not been affected by the Extraordinary.
 
+- **Effect:** Perfect Recall and Orientation resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Far Sight
+
+```yaml ability
+id: tyrant-seq-07-far-sight
+name: Far Sight
+pathway: tyrant
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- buff
+text: Your vision is significantly improved. Your field of vision increases to 500
+  meters when unobstructed.
+```
+
+
+
 
 - Your vision is significantly improved.
 - Your field of vision increases to 500 meters when unobstructed.
 
+- **Effect:** Far Sight resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Fuzzy Probability Calculation
+
+```yaml ability
+id: tyrant-seq-07-fuzzy-probability-calculation
+name: Fuzzy Probability Calculation
+pathway: tyrant
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- mobility
+- offense
+text: 'Requirement: You have relevant clues. Use: Make an Intuition (INT) check at
+  Difficulty Value 20. Effect: You calculate a fuzzy probability about a matter. Clues:
+  Each relevant clue provides a +2 bonus. You can determine the relative distance
+  between up to two things within your field of vision without an identification check.
+  Special (Blind): Even if you are [[Blind]], if you confirmed the enemys position
+  before becoming blind and the enemy has not moved significantly, you can use the
+  calculated relative distance to attack without being affected by the blind state.'
+```
+
+
+
 
 - **Requirement:** You have relevant clues.
 - **Use:** Make an **Intuition (INT)** check at **Difficulty Value 20**.
@@ -53,7 +186,37 @@ tags: ["pathway:tyrant", "sequence:7"]
 
 - **Special (Blind):** Even if you are [[Blind]], if you confirmed the enemy’s position before becoming blind and the enemy has not moved significantly, you can use the calculated relative distance to attack without being affected by the blind state.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Intuitive Grasp
+
+```yaml ability
+id: tyrant-seq-07-intuitive-grasp
+name: Intuitive Grasp
+pathway: tyrant
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: You have an intuitive grasp of magnetic fields, ocean currents, wind
+  direction, and clouds. Skill Substitution: You may use Intuition (INT) + [[Piloting]]
+  instead of Education + Piloting for relevant identifications. Typical Difficulty:
+  For reading ocean currents, wind direction, and clouds, this is usually a Piloting
+  identification at Difficulty Value 15. Limits: This is a potion benefit; it cannot
+  be stolen or recorded.'
+```
+
+
+
 
 - **Effect:** You have an intuitive grasp of magnetic fields, ocean currents, wind direction, and clouds.
 - **Skill Substitution:** You may use **Intuition (INT) + [[Piloting]]** instead of **Education + Piloting** for relevant identifications.
@@ -62,6 +225,31 @@ tags: ["pathway:tyrant", "sequence:7"]
 
 ### Ocean Blessed
 
+```yaml ability
+id: tyrant-seq-07-ocean-blessed
+name: Ocean Blessed
+pathway: tyrant
+sequence: 7
+type: passive
+action: none
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+text: 'Effect: You are a higher-ranked Blessed One of the ocean and gain all-round
+  improvement at sea. Limits (Environment): This is passive and only applies in an
+  [[Ocean Environment]]. Bonuses (while applicable): All attributes +1. Skill identifications
+  and attribute identifications gain a +2 bonus.'
+```
+
+
+
+
 - **Effect:** You are a higher-ranked Blessed One of the ocean and gain all-round improvement at sea.
 - **Limits (Environment):** This is passive and only applies in an [[Ocean Environment]].
 - **Bonuses (while applicable):**
@@ -69,6 +257,9 @@ tags: ["pathway:tyrant", "sequence:7"]
   - Skill identifications and attribute identifications gain a +2 bonus.
 
 > **GM Note:** The GM defines what counts as a “marine environment.” Indoor swimming pools generally do not; vast lakes barely do. Do not allow arguments like “there are water molecules in the air, so it counts.”
+
+- **Limits:** As described in this section's prose.
+
 
 ## Water Spells
 

@@ -1,12 +1,18 @@
 ---
-title: "Sequence 9: Pharmacist"
-id: "moon-seq-09"
-tags: ["pathway:moon", "sequence:9"]
+title: 'Sequence 9: Apothecary'
+id: moon-seq-09
+tags:
+- pathway:moon
+- sequence:9
 ---
+
+
+
+
 
 # Moon Pathway: Sequence 9
 
-## Pharmacist
+## Apothecary
 
 > **Lore:** Another negative Pathway corresponds to the [[Tarot - Moon]]. Its [[Uniqueness]] manifests as a crimson moon.
 
@@ -28,6 +34,38 @@ tags: ["pathway:moon", "sequence:9"]
 
 ### Chemistry and Pharmacy Learning
 
+```yaml ability
+id: moon-seq-09-chemistry-and-pharmacy-learning
+name: Chemistry and Pharmacy Learning
+pathway: moon
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- debuff
+- buff
+- defense
+text: You can better master skills related to chemistry and pharmacy. If you accept
+  a non-repetitive, effective, related course of at least 2 hours, your corresponding
+  skills increase by 1 level. From training to proficiency, to advanced level, you
+  need to learn 2 and 3 times respectively. The potion at the 9th level of the Sequence
+  can only support you to reach the advanced level for the time being; after that,
+  the learning rate will not be able to obtain a substantial improvement. You gain
+  Poison Resistance 5, and you are more resistant to poison. Learning can only be
+  done once a day. At character creation for higher Sequences, you can use twice the
+  Intuition (INT) brought by potions to impro...
+```
+
+
+
+
 1. You can better master skills related to chemistry and pharmacy. If you accept a non-repetitive, effective, related course of at least 2 hours, your corresponding skills increase by 1 level.
 2. From training to proficiency, to advanced level, you need to learn 2 and 3 times respectively. The potion at the 9th level of the Sequence can only support you to reach the advanced level for the time being; after that, the learning rate will not be able to obtain a substantial improvement.
 3. You gain **Poison Resistance** 5, and you are more resistant to poison.
@@ -35,7 +73,41 @@ tags: ["pathway:moon", "sequence:9"]
 - Learning can only be done once a day.
 - At character creation for higher Sequences, you can use twice the Intuition (INT) brought by potions to improve growth skills.
 
+- **Effect:** Chemistry and Pharmacy Learning resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Pharmacy Preparation
+
+```yaml ability
+id: moon-seq-09-pharmacy-preparation
+name: Pharmacy Preparation
+pathway: moon
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Time: 1d3 hours. Check: Pharmacy or chemistry skill identification, Difficulty
+  20. Cost: Use enough materials to concoct the potion. Potion Capacity (by [[Reputation]]):
+  Multiply your reputation level by 10 (not the reputation value). The final result
+  equals the total number of potions you can concoct. Example: Trained = 10 bottles;
+  proficient = 20 bottles; advanced = 30 bottles. Whenever the total number of potions
+  is exhausted for the first time in the current module/adventure, roll 1d7 to determine
+  how many days until the medicinal material supplier you cooperate with arrives to
+  replenish the amount of potions you can deploy; subsequent replenishment time is
+  fixed every 7 days. If your...'
+```
+
+
+
 
 > **Lore:** With your accurate and effective knowledge of pharmacy and chemistry, you can help the world with medicine and heal people with medicine.
 
@@ -54,11 +126,72 @@ tags: ["pathway:moon", "sequence:9"]
   - You can choose to burn the credit level to expand the total amount of medicinal materials you can obtain immediately. Each time you lower your credit level, you can overdraw to obtain 10 more medicinal materials.
 - The temporarily reduced credit level affects your **Reputation/Credit** appraisal until funds are replenished; only then can it be restored.
 
+- **Effect:** Pharmacy Preparation resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Drinking a Potion
+
+```yaml ability
+id: moon-seq-09-drinking-a-potion
+name: Drinking a Potion
+pathway: moon
+sequence: 9
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- mobility
+text: 'Action: Drinking a potion is a Move Action, or 2 Swift Actions.'
+```
+
+
+
 
 - **Action:** Drinking a potion is a Move Action, or **2** Swift Actions.
 
+- **Effect:** Drinking a Potion resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Pharmaceutical Agents
+
+```yaml ability
+id: moon-seq-09-pharmaceutical-agents
+name: Pharmaceutical Agents
+pathway: moon
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- healing
+- debuff
+text: 'Healing secret medicine: A medicine used to treat diseases and exorcise evil
+  diseases. Taking the Healing Elixir will immediately make the poison or plague effect
+  disappear, but it does not completely cure it. Mild cases are cured after 6 hours.
+  Moderate cases need 2 courses of treatment. Severe cases need 3 courses of treatment.
+  Each course of treatment should be separated by at least 12 hours; otherwise the
+  toxin or disease effect will recur after a week. However, a single medicinal material
+  can already make the poison or disease effect be considered as gone, and will no
+  longer cause effective effects. If the source of the poison or disease is one higher
+  than the medicine maker:'
+```
+
+
+
 
 > **GM Note:** The following potions can only be made using Pharmacy as a skill identification.
 
@@ -133,7 +266,41 @@ tags: ["pathway:moon", "sequence:9"]
 
 - Other medicines allowed and reasonable by GM.
 
+- **Effect:** Pharmaceutical Agents resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Chemicals
+
+```yaml ability
+id: moon-seq-09-chemicals
+name: Chemicals
+pathway: moon
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- debuff
+- defense
+- offense
+text: 'Poison bottle: Throwing skills against Physical Defense. Causes 1d6 poison
+  damage each round until the opponent uses a successful [[First Aid]] identification
+  action to cleanse the poison. Can be applied to other weapons; poison damage cannot
+  be superimposed with any poison damage. Applying it to a semi-biological weapon
+  like the [[Talon of Corruption]] will cause you to be affected by the poison as
+  well. Flame Explosion Bottle: Throw against Physical Defense. Creates a miniature
+  explosion; causes 1d6 fire damage and 1d6 physical damage.'
+```
+
+
+
 
 > **GM Note:** Crafting the following items can only use chemistry as a skill check.
 
@@ -169,7 +336,42 @@ tags: ["pathway:moon", "sequence:9"]
 
 - Other GM permitted and reasonable chemicals.
 
+- **Effect:** Chemicals resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Drug Identification
+
+```yaml ability
+id: moon-seq-09-drug-identification
+name: Drug Identification
+pathway: moon
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- debuff
+text: 'About 5 minutes of component research, in a place with enough pharmaceutical
+  or chemical equipment: Poisons/explosives: chemical identification Difficulty 15
+  to know its approximate composition, positive effects/side effects. Drugs: pharmaceutical
+  identification Difficulty 15 to know its general ingredients, positive effects/side
+  effects. Formula: 10 minutes of component research; Difficulty 20 corresponding
+  identification to know the components of the drug and how to configure it. If special
+  spiritual materials are involved: even if you know the formula, you need to obtain
+  the corresponding materials before you can configure them. For every material involved
+  in a drug that is 1 Sequence...'
+```
+
+
+
 
 - About 5 minutes of component research, in a place with enough pharmaceutical or chemical equipment:
   1. Poisons/explosives: chemical identification Difficulty 15 to know its approximate composition, positive effects/side effects.
@@ -179,7 +381,42 @@ tags: ["pathway:moon", "sequence:9"]
   - If special spiritual materials are involved: even if you know the formula, you need to obtain the corresponding materials before you can configure them.
   - For every material involved in a drug that is 1 **Sequence** level higher than you, the corresponding identification difficulty is +10.
 
+- **Effect:** Drug Identification resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Vision (Vitality-Focused)
+
+```yaml ability
+id: moon-seq-09-vision-vitality-focused
+name: Vision (Vitality-Focused)
+pathway: moon
+sequence: 9
+type: toggle
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+text: 'Activation: 1 free action; consume 1 [[Spirituality]] per round. While active,
+  your vision gains the following benefits: Etheric body: You can directly see through
+  the aura field of the target where they have specific physical defects, down to
+  a certain organ in detail. After being confirmed in this way, it will be beneficial
+  for you to identify +2 when you specially prepare medicines for their diseases.
+  (But even if you can determine the cause/disease and prescribe the right medicine,
+  you still dont know exactly where they got sick.) Example: You can''t tell if a
+  person''s illness is simply due to bad behavior or if it''s a witch''s disease.
+  Spiritual body: You can confirm whether an object/...'
+```
+
+
+
 
 - **Activation:** 1 free action; consume 1 [[Spirituality]] per round.
 - While active, your vision gains the following benefits:
@@ -196,7 +433,40 @@ tags: ["pathway:moon", "sequence:9"]
   - Unlike dead creatures, undead creatures have deep black spirituality color instead of none.
   - Spirit Vision can see some ordinary spirit bodies by default, which have not been dissipated for 1 day, and cannot be recorded or stolen.
 
+- **Effect:** Vision (Vitality-Focused) resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Eco-Friendliness
+
+```yaml ability
+id: moon-seq-09-eco-friendliness
+name: Eco-Friendliness
+pathway: moon
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- debuff
+text: In general, potentially poisonous plants or dead animal parts will not harm
+  you. If you can, you are eligible to try to domesticate some plants that can be
+  domesticated. Through the identification of pharmacy/chemistry/biology with Difficulty
+  20, you can find a certain part of the plant or animal you need. Each time you successfully
+  make this identification, you are considered to have added 1 medicinal material,
+  which can make 1 potion. This ability is generally not available in cities, because
+  the animals or plants in cities usually do not meet the special requirements for
+  pharmaceuticals. This is an explanation and cannot be recorded or stolen.
+```
+
+
+
 
 - In general, potentially poisonous plants or dead animal parts will not harm you.
 - If you can, you are eligible to try to domesticate some plants that can be domesticated.
@@ -204,3 +474,6 @@ tags: ["pathway:moon", "sequence:9"]
 - Each time you successfully make this identification, you are considered to have added 1 medicinal material, which can make 1 potion.
 - This ability is generally not available in cities, because the animals or plants in cities usually do not meet the special requirements for pharmaceuticals.
 - This is an explanation and cannot be recorded or stolen.
+
+- **Effect:** Eco-Friendliness resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

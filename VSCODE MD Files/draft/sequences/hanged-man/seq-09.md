@@ -1,12 +1,18 @@
 ---
-title: "Sequence 9: Mysterious Praying Man"
-id: "hanged-man-seq-09"
-tags: ["pathway:hanged-man", "sequence:9"]
+title: 'Sequence 9: Secrets Suppliant'
+id: hanged-man-seq-09
+tags:
+- pathway:hanged-man
+- sequence:9
 ---
 
-# The Hanged Man Pathway: Sequence 9
 
-## Mysterious Praying Man
+
+
+
+# Hanged Man Pathway: Sequence 9
+
+## Secrets Suppliant
 
 > **Lore:** This **Pathway** represents omniscience and omnipotence, corresponding to the Tarot card â€œThe Hanged Manâ€ [[The Hanged Man (Tarot)]].
 
@@ -15,6 +21,20 @@ tags: ["pathway:hanged-man", "sequence:9"]
 - Cognitive views are more or less distorted; easy to lose control.
 
 - See also: [[Hanged Man]]
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -28,6 +48,37 @@ tags: ["pathway:hanged-man", "sequence:9"]
 
 ### Filth Perception
 
+```yaml ability
+id: hanged-man-seq-09-filth-perception
+name: Filth Perception
+pathway: hanged-man
+sequence: 9
+type: active
+action: cast
+cost:
+  sanity: 8
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+text: 'Because of high Intuition (INT), you can detect the existence of some mysterious
+  horrors. Trigger (success): Whenever you succeed in identifying attributes or skills
+  related to Intuition (INT), if there is a person higher than you or even related
+  power in your area, you will be able to detect it. Trigger (failure): If you fail,
+  you will be noticed by Him at the same time, which may affect your next actions.
+  If you perceive indirect power: Make an immediate 1/1d2 Sanity / Rationality [[Sanity
+  / Rationality]] roll. If you perceive direct power: Make an immediate 1d3/1d6 Sanity
+  / Rationality roll, not including the Sanity / Rationality penalty for looking directly
+  at the myth [[Myth]].'
+```
+
+
+
+
 Because of high **Intuition (INT)**, you can detect the existence of some mysterious horrors.
 
 - **Trigger (success):** Whenever you succeed in identifying attributes or skills related to **Intuition (INT)**, if there is a person higher than you or even related power in your area, you will be able to detect it.
@@ -37,7 +88,44 @@ Because of high **Intuition (INT)**, you can detect the existence of some myster
 
 > **GM Note:** If your potion [[Potion Digestion]] has digested more than 10, then you generally have more or less cognitive distortions. (This is a potion effect and cannot be recorded or stolen.)
 
+- **Effect:** Filth Perception resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Spiritual Vision
+
+```yaml ability
+id: hanged-man-seq-09-spiritual-vision
+name: Spiritual Vision
+pathway: hanged-man
+sequence: 9
+type: toggle
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+- healing
+- mobility
+text: 'You have obtained a more outstanding spiritual vision because of your Intuition
+  (INT). Use: 1 free action to activate. Cost: 1 spirituality point per round while
+  active. Effect: While active, your vision gains the following benefits: Etheric
+  body: You can directly see the health status of the target through the color of
+  the aura; directly find out where the other partyaTMs body is uncomfortable/has
+  a problem; when it comes to a certain organ, you can see the inside through the
+  unthickened door, confirm the number of people inside. Spiritual body: You can confirm
+  whether an object/creature has spirituality; cannot identify extraordinary people;
+  can also penetrate the door to see the inside...'
+```
+
+
+
 
 You have obtained a more outstanding spiritual vision because of your **Intuition (INT)**.
 - **Use:** 1 **free action** to activate.
@@ -59,7 +147,40 @@ You have obtained a more outstanding spiritual vision because of your **Intuitio
 > - Unlike dead creatures, undead creatures have deep black spirituality color instead of no.
 > - Spirit Vision can see some ordinary spirit bodies by default, which have not dissipated for 24 hours, and cannot be recorded or stolen.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Secret Prayer for Burnt Sacrifice
+
+```yaml ability
+id: hanged-man-seq-09-secret-prayer-for-burnt-sacrifice
+name: Secret Prayer for Burnt Sacrifice
+pathway: hanged-man
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'You have a certain amount of sacrificial knowledge and a small amount of ritual
+  magic. Effect: You have obtained the qualification to use ritual magic [[Ritual
+  Magic]] regardless of whether your mystic skills have reached the advanced stage.
+  Limits: The ritual magic that can be used is limited to acommonly used ritual magica
+  [[Common Ritual Magic]] and cannot be expanded and used more. Default prayer target:
+  The real Creator [[True Creator]]. Special sacrifices you can master: Sacrifice
+  a Lamb: You please the Creator for a response. 5-minute general ritual process.
+  You can sacrifice anything to the real Creator. Unlike the sacrifice of the abyss
+  pathway Abyss, you don''t need to offer bloo...'
+```
+
+
+
 
 You have a certain amount of sacrificial knowledge and a small amount of ritual magic.
 

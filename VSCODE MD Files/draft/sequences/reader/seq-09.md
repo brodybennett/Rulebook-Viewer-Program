@@ -1,16 +1,36 @@
 ---
-title: "Sequence 9: Reader"
-id: "reader-seq-09"
-tags: ["pathway:reader", "sequence:9"]
+title: 'Sequence 9: Reader'
+id: reader-seq-09
+tags:
+- pathway:reader
+- sequence:9
 ---
 
-# Reader Pathway: Sequence 9
+
+
+
+
+# White Tower Pathway: Sequence 9
 
 ## Reader
 
 > **Lore:** Represents omniscience and omnipotence. The mythical creature takes the form of a tall tower of books with brass-colored eyes, corresponding to the [[Tarot — Tower]].
 
 You gain the following extraordinary abilities.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -23,6 +43,33 @@ You gain the following extraordinary abilities.
   - When creating a character that has not just been promoted, you can use three times the **Intuition (INT)** brought by the potion to add Growth skills. See [[Skill Association/Growth]].
 
 ### Thinking Palace (Memory Palace)
+
+```yaml ability
+id: reader-seq-09-thinking-palace-memory-palace
+name: Thinking Palace (Memory Palace)
+pathway: reader
+sequence: 9
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Cost: 1 Free Action. Use: Enter your Thinking Palace mentally at any time.
+  Effect: You enter an imaginary space that exists only in your mind; external time
+  continues as usual. If you only want to recall knowledge, you can recall information
+  you already know in 1 second. Everything you have read or seen appears in this space
+  as books; you can read them again at any time. Aftereffects: You will never forget
+  information stored this way. Limits: This ability cannot be recorded or stolen.'
+```
+
+
+
 
 - **Cost:** 1 Free Action.
 - **Use:** Enter your Thinking Palace mentally at any time.
@@ -38,6 +85,34 @@ You gain the following extraordinary abilities.
 > **GM Note:** Under special circumstances, ordinary people can also master this memory method.
 
 ### Ritual Mastery
+```yaml ability
+id: reader-seq-09-ritual-mastery
+name: Ritual Mastery
+pathway: reader
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Effect: While holding this ability, you gain access to ritual magic, regardless
+  of whether your Occult skill is advanced or not. You gain access to [[Ritual Magic]],
+  able to invoke power from the gods. While you have this ability, you can use ritual
+  magic regardless of whether your occult skill is advanced. Reference: For ritual
+  magic you can use, see [[Common Ritual Magic]]. Sequence Upgrades: At Sequence 8,
+  your [[Occult Identification]] is successful by default when performing ritual magic.
+  Limits: This effect is brought by a potion and cannot be stolen or recorded.'
+```
+
+
+
+
 - **Effect:** While holding this ability, you gain access to ritual magic, regardless of whether your Occult skill is advanced or not.
 
 
@@ -49,12 +124,67 @@ You gain the following extraordinary abilities.
 
 ### Proficiency in Languages
 
+```yaml ability
+id: reader-seq-09-proficiency-in-languages
+name: Proficiency in Languages
+pathway: reader
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: You are proficient in all language skills by default, even alien languages.
+  This does not mean you can speak alien languages casually; when you encounter alien
+  creatures, you can still communicate smoothly through the influence of the [[Spirit
+  World]], as long as the relevant information exists in the Spirit World. Limits:
+  This does not include the language of the old days. [[Language of the Old Days]]'
+```
+
+
+
+
 - **Effect:**
   - You are proficient in all language skills by default, even alien languages.
   - This does not mean you can speak alien languages casually; when you encounter alien creatures, you can still communicate smoothly through the influence of the [[Spirit World]], as long as the relevant information exists in the Spirit World.
 - **Limits:** This does not include the “language of the old days.” [[Language of the Old Days]]
 
 ### Speed Reading
+
+```yaml ability
+id: reader-seq-09-speed-reading
+name: Speed Reading
+pathway: reader
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: Your Library Identification can be completed in 30 minutes, no matter
+  how rare the book youre looking for is, as long as it exists. [[Library Identification]]
+  You can read in 1 hour what would take 1 week to read. Reading Outcomes (by book
+  type): Books with simple knowledge: After reading, the corresponding skills can
+  be directly trained. Books with rich knowledge: After reading, the corresponding
+  skills can directly reach Proficiency. Skill Ranks Books with deepening knowledge:
+  You must be Proficient in the corresponding skills before you can read them. After
+  reading, you rise by +1 level. Skill Ranks Limits (Advanced and beyond):'
+```
+
+
+
 
 - **Effect:**
   - Your Library Identification can be completed in 30 minutes, no matter how rare the book you’re looking for is, as long as it exists. [[Library Identification]]
@@ -75,7 +205,37 @@ You gain the following extraordinary abilities.
 - **Special (clarified):** When creating a Reader at Sequence 9 or higher (and the character has not just been promoted), the Extraordinary can use twice the **Intuition (INT)** points brought by the potion to train or become proficient in skills (limit: **Proficiency**) to solve the problem that a higher-sequence Reader has not accumulated knowledge.
   - This doubled Intuition (INT) should not be used to increase [[Reputation]], but can be used to increase extraordinary knowledge.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Knowledgeable
+
+```yaml ability
+id: reader-seq-09-knowledgeable
+name: Knowledgeable
+pathway: reader
+sequence: 9
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: line of sight
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- detection
+text: 'Cost: 1 Free Action. Use: Open your vision. Effect: You see carriers of knowledge
+  (words, pictures, etc.) as if written in a certain way; they exude a brass or silver
+  symbolic aura. You can use this to find these carriers, and even read the contents
+  directly through the cover. Limits: The object must be within your line of sight
+  and not blocked by other peoples clothing or limbs. Limits: This ability cannot
+  be recorded or stolen.'
+```
+
+
+
 
 - **Cost:** 1 Free Action.
 - **Use:** Open your vision.
@@ -86,6 +246,35 @@ You gain the following extraordinary abilities.
 - **Limits:** This ability cannot be recorded or stolen.
 
 ### Extraordinary Knowledge
+
+```yaml ability
+id: reader-seq-09-extraordinary-knowledge
+name: Extraordinary Knowledge
+pathway: reader
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- divination
+- detection
+- mobility
+text: 'Skill: You gain a new Extraordinary Knowledge skill. Key attribute: Education.
+  Extraordinary Knowledge Types (by Pathway): Divination Knowledge: corresponds to
+  the Fool Pathway. [[Fool]] Apprentice Knowledge: corresponds to the Apprentice Pathway.
+  [[Door]] Stealing Knowledge: corresponds to the Error pathway. Writing Knowledge:
+  corresponds to the Visionary pathway. Sailor Knowledge: corresponds to the Tyrant
+  pathway. Sun Knowledge: corresponds to the Sun Pathway. [[Sun]]'
+```
+
+
+
 
 - **Skill:** You gain a new **Extraordinary Knowledge** skill. Key attribute: **Education**.
 - **Extraordinary Knowledge Types (by Pathway):**
@@ -163,7 +352,44 @@ You gain the following extraordinary abilities.
   - “Reading knowledge” should not be used except in special cases, because this is yourself—an understanding of the way.
   - A Reader simulates other Pathway abilities or occult skills that another Reader simulates should correspond to knowledge other than reading knowledge.
 
+- **Effect:** Extraordinary Knowledge resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Spiritual Vision
+```yaml ability
+id: reader-seq-09-spiritual-vision
+name: Spiritual Vision
+pathway: reader
+sequence: 9
+type: toggle
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+- healing
+- mobility
+text: 'Use: 1 free action to activate. Cost: 1 spirituality point per round while
+  active. Effect: While active, your vision gains the following benefits: Etheric
+  Body: You can directly see the targets health status through aura color, and directly
+  find where the other partys body is uncomfortable or has a problem. When it comes
+  to a certain organ, you can see the inside through the unthickened door and confirm
+  the number of people inside. Spiritual Body: You can confirm whether an object/creature
+  has spirituality. This cannot identify Extraordinary people. You can also penetrate
+  the door to see the inside, identify whether there is ritual magic power, and penetrate
+  the [[Spiritual Wall]]. Mental...'
+```
+
+
+
+
 - **Use:** 1 **free action** to activate.
 - **Cost:** 1 **spirituality point per round** while active.
 - **Effect:** While active, your vision gains the following benefits:
@@ -181,3 +407,5 @@ You gain the following extraordinary abilities.
   - The color of material in Spiritual Vision usually represents its corresponding Pathway; this does not mean you can see the power of a Beyonder Pathway.
   - Spiritual Vision can see some ordinary spirit bodies by default if they have not dissipated for 24 hours.
   - This ability cannot be recorded or stolen.
+
+- **Limits:** As described in this section's prose.

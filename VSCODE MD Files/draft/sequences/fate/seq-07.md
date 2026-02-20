@@ -1,14 +1,34 @@
 ---
-title: "Sequence 7: The Lucky One"
-id: "fate-seq-07"
-tags: ["pathway:fate", "sequence:7"]
+title: 'Sequence 7: Lucky One'
+id: fate-seq-07
+tags:
+- pathway:fate
+- sequence:7
 ---
 
-# Fate **Pathway**: **Sequence** 7
 
-## The Lucky One
+
+
+
+# Wheel of Fortune Pathway: Sequence 7
+
+## Lucky One
 
 > **Lore:** Also known as the “lucky guy.” In daily life you might pick up money, roll dice as expected, or find that someone you like happens to like you back—but you can’t control it. This luck is passive and fluctuates.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -18,6 +38,38 @@ tags: ["pathway:fate", "sequence:7"]
 - You may replace any **skill identification** with a **Luck identification**, excluding **attribute identification**. Identification
 
 ### Luck
+
+```yaml ability
+id: fate-seq-07-luck
+name: Luck
+pathway: fate
+sequence: 7
+type: passive
+action: none
+cost:
+  luck: 8
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- control
+- buff
+text: 'These effects adjust Luck and Disadvantage resources (not permanent attribute
+  changes). Use: Passive; uncontrollable. Effect: Your luck fluctuatessometimes very
+  strong, sometimes ordinaryso it is difficult to fully rely on. Reset: Every 6 hours,
+  roll 1d3 to determine your luck type for the next 6 hours: | 1d3 | Luck type | Effect
+  for the next 6 hours | |---:|---|---| | 1 | Extreme good luck | All appraisals increase
+  1d5 luck. Any appraisal intended to harm you gains 1d5 Disadvantages. The GM should
+  guide events during this period in a direction beneficial to you as much as possible.
+  | | 2 | Better luck | Any identification increases 1d3 luck. Any identification
+  intended to harm you gains...'
+```
+
+
+
 
 These effects adjust **Luck** and **Disadvantage** resources (not permanent attribute changes).
 
@@ -50,3 +102,5 @@ These effects adjust **Luck** and **Disadvantage** resources (not permanent attr
 - The **GM** may replace the 1d4 table result with other benefits they have prepared for you (without rolling).
 
 > **GM Note:** Unlike regular skill bonuses, luck bonuses affect how a check succeeds or fails. For example, an enemy intends to hit you; their check succeeds but suffers a 1d6 penalty due to this ability. The failure of the identification should be interpreted dramatically (e.g., they step on a stone and fall, causing a hit to miss). If the enemy doesn’t know you are in the Fate Pathway, the **GM** should hide the existence of the penalty and present it as a series of coincidences.
+
+- **Limits:** As described in this section's prose.

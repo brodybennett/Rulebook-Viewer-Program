@@ -1,10 +1,16 @@
 ---
-title: "Sequence 5: Dream Stealer"
-id: "error-path-seq-05"
-tags: ["pathway:error-path", "sequence:5"]
+title: 'Sequence 5: Dream Stealer'
+id: error-seq-05
+tags:
+- pathway:error
+- sequence:5
 ---
 
-# Sequence 5: Dream Stealer
+
+
+
+
+# Error Pathway: Sequence 5
 
 ## Dream Stealer
 
@@ -32,6 +38,40 @@ tags: ["pathway:error-path", "sequence:5"]
 
 ### Stealing Thoughts
 
+```yaml ability
+id: error-seq-05-stealing-thoughts
+name: Stealing Thoughts
+pathway: error
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: Choose 1 target within 50 meters. Skillfully defend against Willpower Defense
+  Willpower Defense.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- mobility
+- defense
+- offense
+text: 'Cost: Consume 3 points of spirituality [[Spirituality]]. Use: 1 Casting Action
+  Casting Action. To use the ability, you need to close your fingers and twist your
+  wrist. Targeting and range: Choose 1 target within 50 meters. Skillfully defend
+  against Willpower Defense Willpower Defense. Effect: You steal an idea the other
+  person is about to act on, causing them to freeze briefly. This ability can directly
+  interrupt an action that has not been completed. If the target you have stolen is
+  about to perform any free/casting/attack/moving action, and you make the corresponding
+  action fail immediately, the target will appear sluggish on the spot and forget
+  what they want to do, and the action they...'
+```
+
+
+
+
 - **Cost:** Consume 3 points of spirituality [[Spirituality]].
 - **Use:** 1 Casting Action Casting Action. To use the ability, you need to close your fingers and twist your wrist.
 - **Targeting and range:** Choose 1 target within 50 meters. Skillfully defend against Willpower Defense Willpower Defense.
@@ -50,7 +90,42 @@ tags: ["pathway:error-path", "sequence:5"]
   - Both the target of the stolen idea and the target of the execution of the idea are considered to be in a bound state [[Bound State]] and last for the corresponding action time.
   - During this period, actions that can be executed faster than the corresponding action ignore the agility and dodge of the bound target.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Stealing Dreams
+
+```yaml ability
+id: error-seq-05-stealing-dreams
+name: Stealing Dreams
+pathway: error
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: Choose 1 target who falls into sleep and dreams, and fight against the Willpower
+  Defense Willpower Defense with skillful hands.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+text: 'Cost: Consume 3 points of spirituality [[Spirituality]]. Use: 1 Casting Action
+  Casting Action. Targeting and range: Choose 1 target who falls into sleep and dreams,
+  and fight against the Willpower Defense Willpower Defense with skillful hands. Effect:
+  You immediately release its corresponding sleep and dream state, making it wake
+  up immediately; the target will forget all about the dream, and you will get the
+  corresponding information. You can steal the dream alone without stealing the sleep,
+  so that although the dream is lost, it is still in the sleep state. You can also
+  not steal dreams and sleep, but manipulate the content of dreams to make it what
+  you expect. Special:'
+```
+
+
+
 
 - **Cost:** Consume 3 points of spirituality [[Spirituality]].
 - **Use:** 1 Casting Action Casting Action.
@@ -62,7 +137,41 @@ tags: ["pathway:error-path", "sequence:5"]
 - **Special:**
   - You can perceive dreams within 100 meters, and you can remotely use this ability on perceived dreams.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Steal Memories
+
+```yaml ability
+id: error-seq-05-steal-memories
+name: Steal Memories
+pathway: error
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: Choose 1 target. Skillful hand against Willpower Defense Willpower Defense.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+text: 'Cost: Consume 3 points of spirituality [[Spirituality]]. Use: 1 Casting Action
+  Casting Action. Targeting and range: Choose 1 target. Skillful hand against Willpower
+  Defense Willpower Defense. Effect: You choose 1 target, causing it to forget anything
+  that happened in the previous round Round, and you get the corresponding screen.
+  This will not have any impact on its actions, and it will continue to perform the
+  next actions as usual without any disadvantage. If it recalls similar content, it
+  will immediately find that it cannot recall what has just happened. Whenever it
+  tries to recall this round or related things, it can use the Difficulty Value Difficulty
+  Value 15 Intuition (INT) Test In...'
+```
+
+
+
 
 - **Cost:** Consume 3 points of spirituality [[Spirituality]].
 - **Use:** 1 Casting Action Casting Action.
@@ -73,7 +182,44 @@ tags: ["pathway:error-path", "sequence:5"]
   3. Whenever it tries to recall this round or related things, it can use the **Difficulty Value** Difficulty Value 15 **Intuition (INT) Test** Intuition Test to detect something is wrong, but it cannot recall anything.
      - The time for a round is 6 seconds, so you can steal a total of about 6 seconds memory.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Steal Ideal
+
+```yaml ability
+id: error-seq-05-steal-ideal
+name: Steal Ideal
+pathway: error
+sequence: 5
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: Choose 1 target. Skillfully fight against Physical Defense [[Physical Defense]].
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- healing
+- defense
+- offense
+text: 'Cost: Consume 2 points of spirituality [[Spirituality]]. Use: 1 Casting Action
+  Casting Action. Targeting and range: Choose 1 target. Skillfully fight against Physical
+  Defense [[Physical Defense]]. Effect: You steal the other party''s talent. The stealing
+  times of the same target, the maintenance time, and the recovery time of the stolen
+  person are the same as Stealing Fire, and the stealing times of the same target
+  are shared with it. Steal vision: You steal the opponent''s vision, reducing the
+  opponent''s casting/attack range to within 1 meter. You can observe the surroundings
+  with the vision of the other party. If you steal the vision of an eagle, you can
+  see things 1 km away without occlu...'
+```
+
+
+
 
 - **Cost:** Consume 2 points of spirituality [[Spirituality]].
 - **Use:** 1 Casting Action Casting Action.
@@ -92,3 +238,5 @@ tags: ["pathway:error-path", "sequence:5"]
 1. It should be noted that stealing talents cannot only steal a certain attribute or a certain skill, but must steal a certain specialty, and you use the opponent's attributes and skills for identification when casting the corresponding specialty.
 2. Example: You can steal a person's spiritual intuition, so that their spiritual intuition can only reach the success level of 10, but this does not mean that their inspiration is cleared, and they still get complete inspiration when conducting investigations and listening appraisals value added.
 3. At the same time, if a creature loses its talent, it does not mean that it will completely lose the corresponding ability. It will only appear no longer outstanding or even weak. lose.
+
+- **Limits:** As described in this section's prose.

@@ -1,14 +1,34 @@
 ---
-title: "Sequence 6: Mechanical Expert"
-id: "paragon-seq-06"
-tags: ["pathway:paragon", "sequence:6"]
+title: 'Sequence 6: Craftsman'
+id: paragon-seq-06
+tags:
+- pathway:paragon
+- sequence:6
 ---
 
-# Sequence 6: Mechanical Expert
 
-## Mechanical Expert
+
+
+
+# Paragon Pathway: Sequence 6
+
+## Craftsman
 
 Mechanical experts were called “craftsmen” in ancient times, also known as “gear masters.” Whether in reality or in the field of mysticism, they are well-deserved masters of manufacturing. The **Extraordinary Items** formed by their hands have low negative impact and can exert good effects. But other than that, only the level of ritual magic will be improved.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -18,6 +38,36 @@ Mechanical experts were called “craftsmen” in ancient times, also known as �
 - Craft manufacturing, engineering, and mechanical maintenance skills can be quickly upgraded to erudition. [[Erudition]]
 
 ### Wondercrafting
+
+```yaml ability
+id: paragon-seq-06-wondercrafting
+name: Wondercrafting
+pathway: paragon
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: The spring fist can attack creatures within 5 meters of you as the center.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- buff
+text: 'You create ingenious mechanical wonders with a wealth of real-world knowledge.
+  Use: For at least 10 minutes, perform a Difficulty Value 25 crafting appraisal [[Crafting
+  Appraisal]] to create a Mechanical Wonder. Cost: 1 Steam Material [[Steam Material]]
+  per production. Steam materials on hand: You have Steam Materials equal to your
+  reputation rank (not reputation rating 5). If your reputation is Proficient or higher,
+  ignore this cap. If you are a Beyonder of the [[Church of Steam]], treat your reputation
+  as Advanced when calculating materials. [[Reputation]] Repair/improvement: Every
+  time a Mechanical Wonder is repaired or improved, 1 Steam Material is consumed,
+  and it will not occupy mor...'
+```
+
+
+
 
 You create ingenious mechanical wonders with a wealth of real-world knowledge.
 
@@ -102,6 +152,36 @@ You create ingenious mechanical wonders with a wealth of real-world knowledge.
 > **GM Note:** When writing mechanical wonders, pay attention to the technological progress of the mysterious world. In the original-work timeline, the first wireless telegraph is only in its infancy. This is why the oddities above lack radio-like functionality.
 
 ### Extraordinary Crafting
+
+```yaml ability
+id: paragon-seq-06-extraordinary-crafting
+name: Extraordinary Crafting
+pathway: paragon
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'You craft an Extraordinary Item. Prerequisite: Before using this ability, make
+  sure the artisan Beyonder has read [[Chapter Eight: Extraordinary Items]] so they
+  already know the different types of Extraordinary Items (e.g., spells, amulets,
+  spiritual material Extraordinary Items, and Extraordinary characteristic Extraordinary
+  Items). Although these products have different names, we collectively refer to them
+  here as Extraordinary Items. #### Extraordinary Characteristic Items You create
+  an Extraordinary Item according to the following procedure: Make the body: With
+  a Difficulty Value 15 crafting identification [[Crafting Identification]] , make
+  the shape of the item you want (a body). Thi...'
+```
+
+
+
 
 You craft an **Extraordinary Item**.
 
@@ -194,3 +274,6 @@ On the basis of the above, replace the Extraordinary Characteristics used for ma
   - Sequence 8 (medium-Sequence materials)
   - Sequence 7 (high-Sequence materials)
 - This kind of item can use the ability of the medium and high Sequence, but the strength needs to be reduced to the low Sequence (e.g., reduce the damage by one-third, or split a complete effect into three times, and only trigger a part each time).
+
+- **Effect:** Extraordinary Crafting resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

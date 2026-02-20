@@ -1,12 +1,20 @@
 ---
-title: "Sequence 4: Undying"
-id: "death-seq-04"
-tags: ["pathway:death", "sequence:4"]
+title: 'Sequence 4: Undying'
+id: death-seq-04
+tags:
+- pathway:death
+- sequence:4
 ---
 
-# Sequence 4: Undying
+
+
+
+
+# Death Pathway: Sequence 4
 
 - You die every 60 years, resurrect, and forget most of your past memories; these memories must be slowly retrieved afterward, as if starting a new life.
+
+## Undying
 
 ## Advancement
 
@@ -31,6 +39,37 @@ tags: ["pathway:death", "sequence:4"]
 
 ### Shuttle in the Spirit World
 
+```yaml ability
+id: death-seq-04-shuttle-in-the-spirit-world
+name: Shuttle in the Spirit World
+pathway: death
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- mobility
+- buff
+text: 'Cost: 1 Casting Action Casting Action Use: Travel via the connection and power
+  between the Underworld [[Underworld]] and the Spirit World [[Spirit World]], producing
+  a travel effect similar to the Apprentice Pathway [[Door]]. Effect: When you are
+  about to shuttle from the Spirit World or emerge from the Spirit World, the surrounding
+  colors become more vivid (reds redder, blues bluer; reds and yellows show a bit
+  of brown), as if the environments color saturation increases. You teleport a short
+  or long distance and gain the benefits below: If you prepare for the Spirit World
+  shuttle in advance, or have completed this Casting Action, then unless it is a Great
+  Success Great Success, any attac...'
+```
+
+
+
+
 - **Cost:** 1 **Casting Action** Casting Action
 - **Use:** Travel via the connection and power between the Underworld [[Underworld]] and the Spirit World [[Spirit World]], producing a travel effect similar to the Apprentice Pathway [[Door]].
 - **Effect:**
@@ -47,6 +86,37 @@ tags: ["pathway:death", "sequence:4"]
 > **GM Note:** If you use this ability for attack avoidance, you usually announce in advance that you will use it after performing a certain action (similar to a Fool pathway Beyonder's “Flame Jump” [[Flame Jump]]), which can usually avoid most feedback for your action.
 
 ### Necrotic Seal
+
+```yaml ability
+id: death-seq-04-necrotic-seal
+name: Necrotic Seal
+pathway: death
+sequence: 4
+type: reaction
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- debuff
+text: 'Use: Use the power of the Underworld [[Underworld]] to suppress the negative
+  effects of Extraordinary Items [[Extraordinary Item]], or permanently half-seal
+  their negative effects. Cost (temporary): 8 points of Spirituality [[Spirituality]]
+  Activation (temporary): Free Action Free Action Effect (temporary): Suppress all
+  negative effects of an item for 1d2 hours. Handling requirement: Only in your hands,
+  the negative effects of the sealed item are no longer as serious: Negative effects
+  that would have an immediate reaction either weaken, or take a certain amount of
+  time to produce specific effects. Example: a sealed item that would have an obvious
+  impact within 1 hour takes two hours to do...'
+```
+
+
+
 
 - **Use:** Use the power of the Underworld [[Underworld]] to suppress the negative effects of Extraordinary Items [[Extraordinary Item]], or permanently half-seal their negative effects.
 - **Cost (temporary):** 8 points of **Spirituality** [[Spirituality]]
@@ -68,16 +138,80 @@ tags: ["pathway:death", "sequence:4"]
   - Enemies cannot do this via any combat-level dispelling effect; at minimum, the item must fall into the enemy’s hands and a separate ritual of dispersal must be performed. [[Ritual of Dispersal]]
   - Dispersion can also be sealed again.
 
+- **Effect:** Necrotic Seal resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Immortality
+
+```yaml ability
+id: death-seq-04-immortality
+name: Immortality
+pathway: death
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: When you are promoted, you use your current appearance as the initial
+  benchmark and die every 60 years. During each 60-year period, you still gradually
+  age. At 60 years, you must find a safe place to die; you then lose all memories,
+  resurrect, return to the apparent age you were when you took the undead potion,
+  and continue the cycle. Sequence 3 change: At Sequence 3 [[id:alias-sequence-3|Sequence
+  3]], you no longer need to reincarnate every 60 years: you remain immortal, and
+  your apparent age is always what it was when you took the undead potion.'
+```
+
+
+
 
 - **Effect:** When you are promoted, you use your current appearance as the initial benchmark and die every 60 years.
   - During each 60-year period, you still gradually age.
   - At 60 years, you must find a safe place to die; you then lose all memories, resurrect, return to the apparent age you were when you took the undead potion, and continue the cycle.
 - **Sequence 3 change:** At Sequence 3 [[id:alias-sequence-3|Sequence 3]], you no longer need to reincarnate every 60 years: you remain immortal, and your apparent age is always what it was when you took the undead potion.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Underworld Executive Power
+
+```yaml ability
+id: death-seq-04-underworld-executive-power
+name: Underworld Executive Power
+pathway: death
+sequence: 4
+type: active
+action: cast
+cost:
+  spirituality: 8
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+- buff
+- offense
+text: 'Effect: Your Necromancy [[Necromancy]] damage is increased by 1d6. The cost
+  is reduced to 4 Spirituality points. Necromancy use changes from 1 time per round
+  to twice per round.'
+```
+
+
+
 
 - **Effect:**
   - Your **Necromancy** [[Necromancy]] damage is increased by 1d6.
   - The cost is reduced to 4 **Spirituality** points.
   - Necromancy use changes from 1 time per round to twice per round.
+
+- **Limits:** As described in this section's prose.

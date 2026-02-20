@@ -1,12 +1,34 @@
 ---
-title: "Sequence 8: Robot"
-id: "fate-seq-08"
-tags: ["pathway:fate", "sequence:8"]
+title: 'Sequence 8: Robot'
+id: fate-seq-08
+tags:
+- pathway:fate
+- sequence:8
 ---
 
-# Sequence 8: Robot
+
+
+
+
+# Wheel of Fortune Pathway: Sequence 8
 
 > **Lore:** Terrifying computing power and precise control greatly enhance body-related qualities, creating talent in fighting and shooting—alongside divination and anti-divination.
+
+## Robot
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -17,13 +39,78 @@ tags: ["pathway:fate", "sequence:8"]
 
 ### Fighting/Shooting Skill Learning
 
+```yaml ability
+id: fate-seq-08-fighting-shooting-skill-learning
+name: Fighting/Shooting Skill Learning
+pathway: fate
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+text: 'Use: When receiving qualifying instruction. Effect: Whenever you receive at
+  least 2 hours of non-repetitive and effective related courses, you can choose the
+  Strength/Agility (DEX) related skills corresponding to the course content to increase
+  by 1 level. To reach Proficient, you must complete 2 + 3 + 4 learnings in order;
+  you cannot advance beyond Proficient. You can only learn once a day to digest knowledge,
+  and you can learn quickly to master at most, and you will no longer lose your balance.
+  GM decides the precise cap implied by master here. Special: When creating a character
+  that is not just promoted, you can use twice the Intuition (INT) brought by the
+  potion to add growth skills. G...'
+```
+
+
+
+
 - **Use:** When receiving qualifying instruction.
 - **Effect:**
   1. Whenever you receive at least **2 hours** of non-repetitive and effective related courses, you can choose the Strength/Agility (DEX) related skills corresponding to the course content to increase by **1 level**. To reach **Proficient**, you must complete **2 + 3 + 4** learnings in order; you cannot advance beyond **Proficient**.
   2. You can only learn once a day to digest knowledge, and you can learn quickly to master at most, and you will no longer lose your balance. GM decides the precise cap implied by “master” here.
  - **Special:** When creating a character that is not just promoted, you can use twice the Intuition (INT) brought by the potion to add growth skills. GM decides how this applies at character creation.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Divination
+
+```yaml ability
+id: fate-seq-08-divination
+name: Divination
+pathway: fate
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- divination
+- detection
+text: 'Cost: Spend 3 points of Spirituality. [[Spirituality]] Use: 1 Casting Action;
+  perform 1 Intuition (INT) test. Casting Action Intuition Test Effect: You get information
+  directly through your terrifying calculation ability and perception of the long
+  river of fate. [[river of fate]] Difficulty Value results: Difficulty Value Difficulty
+  Value 15: Get a very general result; for finding objects, it will only tell you
+  a city. Difficulty Value 20: Get a more general result, which usually gives you
+  a general direction. Difficulty Value 25: Obtain a fairly accurate result; object
+  finding will be accurate to a certain street. Difficulty Value 30: Obtain a very
+  accurate result; divination will reveal...'
+```
+
+
+
 
 - **Cost:** Spend **3 points of Spirituality**. [[Spirituality]]
 - **Use:** **1 Casting Action**; perform **1 Intuition (INT) test**. Casting Action Intuition Test
@@ -46,14 +133,80 @@ tags: ["pathway:fate", "sequence:8"]
 3. The reason for the detection and failure of the higher level is that under special circumstances, it is possible for the lower level (character tier) to divination for the higher level.
 4. Whenever you are in a deep sleep, you can conduct an Intuition (INT) appraisal with a difficulty of **20**. If it succeeds, and something directly related to you has happened in the current period, you will see a general picture that needs to be interpreted. This is the first step of dream interpretation kind of use. [[dream interpretation]] [[deep sleep]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### Anti-divination
+
+```yaml ability
+id: fate-seq-08-anti-divination
+name: Anti-divination
+pathway: fate
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- divination
+- offense
+text: 'Cost: Spend 3 points of Spirituality. [[Spirituality]] Use: 1 Casting Action.
+  Casting Action Effect: Choose 1 specific mystical information related to you (e.g.,
+  you plan to attack someone next), realize anti-divination, and make an opposed check:
+  your Intuition (INT) identification against their divination check. Intuition identification
+  Special: The divination of the machine is directly related to the river of fate/spiritual
+  world, so there is no need for divination media such as tarot cards. [[spiritual
+  world]] [[divination media]]'
+```
+
+
+
 
 - **Cost:** Spend **3 points of Spirituality**. [[Spirituality]]
 - **Use:** **1 Casting Action**. Casting Action
 - **Effect:** Choose 1 specific mystical information related to you (e.g., you plan to attack someone next), realize anti-divination, and make an opposed check: your **Intuition (INT)** identification against their divination check. Intuition identification
 - **Special:** The divination of the machine is directly related to the river of fate/spiritual world, so there is no need for divination media such as tarot cards. [[spiritual world]] [[divination media]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### Calculation
+
+```yaml ability
+id: fate-seq-08-calculation
+name: Calculation
+pathway: fate
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- divination
+text: 'Effect: You have a terrifying calculation ability. Interpretation of divination:
+  No action required. Difficulty Value 20 Intuition (INT) identification; you can
+  directly know the meaning of the divination content. Precision Combat: As long as
+  you are not in a state of madness/awe/emotion, you will continue to gain the benefits
+  of the special action of gaining momentum and aiming. [[Madness]] [[awe]] [[emotion]]
+  [[Gaining Momentum]] [[Aiming]] Explain the status quo: You will no longer fall
+  into a semi-trance state due to extremely high Intuition (INT), and you can distinguish
+  the difference between the divination picture and reality. [[semi-trance state]]
+  Deduce things: 1 Casting Action,...'
+```
+
+
+
 
 - **Effect:** You have a terrifying calculation ability.
   1. **Interpretation of divination:** No action required. **Difficulty Value 20** Intuition (INT) identification; you can directly know the meaning of the divination content.

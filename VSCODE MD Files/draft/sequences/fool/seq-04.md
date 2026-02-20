@@ -1,12 +1,18 @@
 ---
-title: "Sequence 4: Bizaro Socerer"
-id: "fool-seq-04"
-tags: ["pathway:fool", "sequence:4"]
+title: 'Sequence 4: Bizarro Sorcerer'
+id: fool-seq-04
+tags:
+- pathway:fool
+- sequence:4
 ---
 
-# Sequence 4: Bizaro Socerer
 
-## Overview
+
+
+
+# Fool Pathway: Sequence 4
+
+## Bizarro Sorcerer
 
 At this **Sequence**, you gain or improve the following capabilities:
 
@@ -46,6 +52,35 @@ At this **Sequence**, you gain or improve the following capabilities:
 
 ### Spirit Body Thread Control
 
+```yaml ability
+id: fool-seq-04-spirit-body-thread-control
+name: Spirit Body Thread Control
+pathway: fool
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Your control range is 150 meters.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- control
+- buff
+text: 'Use: You can complete the initial control of the Spirit Body Thread within
+  three seconds. [[Spirit Body Thread]] Effect: You can completely transform the target
+  into a puppet within fifteen seconds. [[Puppet]] Targeting and range: Your control
+  range is 150 meters. Limits: With the help of Secret Puppets, you can increase the
+  control distance of the Spirit Body Thread beyond 150 meters, but it cannot exceed
+  your normal Secret Puppet control distance. Limits: When first promoted, you can
+  control up to 50 Secret Puppets.'
+```
+
+
+
+
 - **Use:** You can complete the initial control of the **Spirit Body Thread** within three seconds. [[Spirit Body Thread]]
 - **Effect:** You can completely transform the target into a puppet within fifteen seconds. [[Puppet]]
 - **Targeting and range:** Your control range is 150 meters.
@@ -53,6 +88,38 @@ At this **Sequence**, you gain or improve the following capabilities:
 - **Limits:** When first promoted, you can control up to 50 **Secret Puppets**.
 
 ### Exchange Positions
+
+```yaml ability
+id: fool-seq-04-exchange-positions
+name: Exchange Positions
+pathway: fool
+sequence: 4
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: You exchange positions with a **Secret Puppet**, jumping like a flame, with
+  a range of 1 km.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- mobility
+- offense
+text: 'Effect: You and a Secret Puppet exchange positions. [[Secret Puppet]] Cost:
+  1 Swift Action, with the same priority as a free action. Swift Action Free Action
+  Effect: Swapping places is a type of teleportation. [[Teleportation]] Targeting
+  and range: You exchange positions with a Secret Puppet, jumping like a flame, with
+  a range of 1 km. Limits: The flashing of the Door pathway can be used for an unlimited
+  number of times without intervals, but the GM can question that you cannot do so
+  many actions at specific times (for example, switching positions 10 million times
+  in one round). The specific judgment can be found in Chapter Six: Combat, which
+  is similar to the apprentice''s free-action fla...'
+```
+
+
+
 
 - **Effect:** You and a **Secret Puppet** exchange positions. [[Secret Puppet]]
 - **Cost:** 1 Swift Action, with the same priority as a free action. Swift Action Free Action
@@ -65,6 +132,34 @@ At this **Sequence**, you gain or improve the following capabilities:
 
 ### Endow Marionette with Extraordinary Abilities
 
+```yaml ability
+id: fool-seq-04-endow-marionette-with-extraordinary-abilities
+name: Endow Marionette with Extraordinary Abilities
+pathway: fool
+sequence: 4
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- control
+text: 'Use: You endow a marionette with extraordinary abilities. Cost: As a free action,
+  spawn an Ethereal Worm. [[Ethereal Worm]] Effect: Allow several of your Secret Puppets
+  to obtain all your extraordinary abilities. Limits: A Secret Puppet that does not
+  receive an Ethereal Worm is equivalent to the level of Sequence 5 in your control
+  over it. [[Sequence 5]] Limits: When others use abilities on a Secret Puppet without
+  an Ethereal Worm, the Secret Puppet without the Ethereal Worm is not regarded as
+  having divinity. [[Divinity]]'
+```
+
+
+
+
 - **Use:** You endow a marionette with extraordinary abilities.
 - **Cost:** As a free action, spawn an **Ethereal Worm**. [[Ethereal Worm]]
 - **Effect:** Allow several of your **Secret Puppets** to obtain all your extraordinary abilities.
@@ -72,6 +167,34 @@ At this **Sequence**, you gain or improve the following capabilities:
 - **Limits:** When others use abilities on a **Secret Puppet** without an **Ethereal Worm**, the **Secret Puppet** without the **Ethereal Worm** is not regarded as having divinity. [[Divinity]]
 
 ### Psychic Connection
+
+```yaml ability
+id: fool-seq-04-psychic-connection
+name: Psychic Connection
+pathway: fool
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- mobility
+text: 'Effect: From now on, your Spirit Body Thread can connect to the deep spirit
+  of the marionette, achieving a psychic effect. Psychicism: Psychicism is a state
+  that prevents the spirit body from lying. [[Psychicism]] Initiative: You can also
+  use this to give the marionette a certain degree of initiative, depending on its
+  consciousness. State of the Secret Puppet: The Secret Puppet can see, hear, and
+  feel, but can''t move anything. Psychicism and Movement: Psychicism can make the
+  Secret Puppet move on its own; the GM decides the exact scope of movement/actions.'
+```
+
+
+
 
 - **Effect:** From now on, your **Spirit Body Thread** can connect to the deep spirit of the marionette, achieving a psychic effect.
 - **Psychicism:** **Psychicism** is a state that prevents the spirit body from lying. [[Psychicism]]
@@ -82,7 +205,40 @@ At this **Sequence**, you gain or improve the following capabilities:
 
 > **GM Note:** If a PC in the group is about to die or lose control, you can consider making them a Secret Puppet, and let the PC recover its own consciousness through psychic communication to live on. However, they can no longer leave your range of one kilometer, and they may be lost in danger. Consider this if another Player is willing to accept it. [[Lose Control]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### Spirit Worm Principles and Loss
+
+```yaml ability
+id: fool-seq-04-spirit-worm-principles-and-loss
+name: Spirit Worm Principles and Loss
+pathway: fool
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Essence (Granting Abilities): The essence of endowing the marionette with extraordinary
+  abilities is to separate a Spirit Worm and let it enter the Secret Puppet through
+  the Spirit Body Thread. [[Spirit Worm]] Return to Ontology: If the marionette dies,
+  the characteristics of the Spirit Worm in the body will converge according to the
+  extraordinary characteristics for a certain period of time; the law returns to the
+  ontology. If this process is interrupted, it may be lost. [[Ontology]] #### Loss
+  Effects Self-Connection: Spirit Worms separated to marionettes are considered part
+  of yourself. Therefore, if the Secret Puppet with the Spirit Worm suffers a loss,
+  you will also be affected to a c...'
+```
+
+
+
 
 - **Essence (Granting Abilities):** The essence of endowing the marionette with extraordinary abilities is to separate a **Spirit Worm** and let it enter the **Secret Puppet** through the **Spirit Body Thread**. [[Spirit Worm]]
 - **Return to Ontology:** If the marionette dies, the characteristics of the **Spirit Worm** in the body will converge according to the extraordinary characteristics for a certain period of time; the law returns to the ontology. If this process is interrupted, it may be lost. [[Ontology]]
@@ -107,3 +263,6 @@ At this **Sequence**, you gain or improve the following capabilities:
 - **Sequence 4 (Potion Digested):** Can withstand the loss of 12 spirit insects at a time.
 - **Sequence 3:** Can withstand the loss of 25 spirit worms at one time, and 50 after the potion is digested.
 - **Sequence 2:** Generally speaking, the loss of your Spirit Insect will not affect your existence.
+
+- **Effect:** Spirit Worm Principles and Loss resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

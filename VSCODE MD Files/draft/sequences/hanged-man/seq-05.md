@@ -1,10 +1,16 @@
 ---
-title: "Sequence 5: Shepherd"
-id: "hanged-man-seq-05"
-tags: ["pathway:hanged-man", "sequence:5"]
+title: 'Sequence 5: Shepherd'
+id: hanged-man-seq-05
+tags:
+- pathway:hanged-man
+- sequence:5
 ---
 
-# Sequence 5: Shepherd
+
+
+
+
+# Hanged Man Pathway: Sequence 5
 
 ## Shepherd
 
@@ -33,6 +39,36 @@ tags: ["pathway:hanged-man", "sequence:5"]
 - Biology can be rapidly trained up to Erudition (reduced training counts).
 
 ### Herding
+
+```yaml ability
+id: hanged-man-seq-05-herding
+name: Herding
+pathway: hanged-man
+sequence: 5
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: You devour other peoples souls into your body and drive them like lambs
+  for the gods. Graze ([[Full-Round Action]]): As a Full-Round Action, choose a dead
+  target and graze it. The target must be within 5 minutes of death (its [[spirit
+  body]] has not dissipated, and its Extraordinary characteristics have not yet been
+  released). Process of Grazing Souls: After you use Graze, the soul and Extraordinary
+  characteristics in the targets body merge into your body like a ray of light. The
+  body becomes an empty shell; psychics cannot find the soul, and devouring the flesh
+  and blood does not consume the Extraordinary characteristics. Choose any three abilities
+  the target had to obtain (inclu...'
+```
+
+
+
 
 - **Effect:** You devour other people’s souls into your body and drive them like lambs for the gods.
 
@@ -71,3 +107,5 @@ tags: ["pathway:hanged-man", "sequence:5"]
 - Dream divination for forced psychic psychics results in a 3-point penalty, and the soul is insufficient to maintain itself and quickly dissipates.
   - The Extraordinary characteristics are discharged from your body at the moment the soul is released, and do not affect you.
   - If you die, all souls are released immediately, faster than the time for Extraordinary characteristics to be released.
+
+- **Limits:** As described in this section's prose.

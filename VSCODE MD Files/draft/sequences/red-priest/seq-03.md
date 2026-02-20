@@ -1,10 +1,16 @@
 ---
-title: "Sequence 3: War Bishop"
-id: "red-priest-seq-03"
-tags: ["pathway:red-priest", "sequence:3"]
+title: 'Sequence 3: War Bishop'
+id: red-priest-seq-03
+tags:
+- pathway:red-priest
+- sequence:3
 ---
 
-# Sequence 3: War Bishop
+
+
+
+
+# Red Priest Pathway: Sequence 3
 
 ## War Bishop
 
@@ -25,6 +31,36 @@ tags: ["pathway:red-priest", "sequence:3"]
 - Choose one [[Skills]] to increase by 1 level.
 
 ### Spiritual Communication
+
+```yaml ability
+id: red-priest-seq-03-spiritual-communication
+name: Spiritual Communication
+pathway: red-priest
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Choose an army or team within line of sight, within a radius of 1 kilometer.
+target: designated target(s)
+duration: 2 hours.
+scaling: []
+tags:
+- ritual
+text: 'Cost: 12 points of [[Spirituality]]. Use: A Casting Action. Targeting and range:
+  Choose an army or team within line of sight, within a radius of 1 kilometer. Effect:
+  You can communicate silently with the chosen group and form a whole, gathering their
+  strength and passing your strength to them. While you are a [[Whole]], apply the
+  following benefits: You can communicate with each other without any action, and
+  when you are a whole, the skills of all members are +5. Team members who are weaker
+  than you can use your skills and attribute points for attributes and skills, without
+  affecting [[Vitality]] or [[Spirituality]] values. For every 10 people, the Vitality
+  limit of all members of the tea...'
+```
+
+
+
 
 - **Cost:** 12 points of **[[Spirituality]]**.
 - **Use:** A Casting Action.
@@ -48,3 +84,5 @@ tags: ["pathway:red-priest", "sequence:3"]
 - **Duration:** 2 hours.
 - **Resident effect (non-combat):** In the **[[Non-Combat State]]**, you can choose one of the Extra options above as a **[[Resident Effect]]**, and switch every half a day.  
   The bonus in battle and the resident bonus are calculated separately (i.e., bonus selections for combat do not affect benefits already selected outside of combat).
+
+- **Limits:** As described in this section's prose.

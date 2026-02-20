@@ -1,8 +1,14 @@
 ---
-title: "Sequence 9: Hunter"
-id: "red-priest-seq-09"
-tags: ["pathway:red-priest", "sequence:9"]
+title: 'Sequence 9: Hunter'
+id: red-priest-seq-09
+tags:
+- pathway:red-priest
+- sequence:9
 ---
+
+
+
+
 
 # Red Priest Pathway: Sequence 9
 
@@ -19,6 +25,20 @@ tags: ["pathway:red-priest", "sequence:9"]
 - No matter how weak a hunter is, they are still a hunter—and may hurt powerful prey.
 - Observe the environment, be familiar with the environment, and use the environment.
 
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
+
 ## Extraordinary Abilities
 
 ### Attribute Gain
@@ -27,6 +47,33 @@ tags: ["pathway:red-priest", "sequence:9"]
 - All fighting-related skills increase by 1 level.
 
 ### Skill Growth
+
+```yaml ability
+id: red-priest-seq-09-skill-growth
+name: Skill Growth
+pathway: red-priest
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- stealth
+- buff
+text: 'Guided Training (1/day): Each time you receive at least 2 hours of non-repetitive,
+  effective guidance, only once per day, your skills corresponding to the guidance
+  content increase by 1 level: Fighting Shooting Tracking Survival Craft Manufacturing
+  Stealth Detection'
+```
+
+
+
 
 1. **Guided Training (1/day):** Each time you receive at least 2 hours of non-repetitive, effective guidance, **only once per day**, your skills corresponding to the guidance content increase by 1 level:
    - Fighting
@@ -47,7 +94,41 @@ tags: ["pathway:red-priest", "sequence:9"]
   - It is not that a character who has just been promoted can use the relevant attributes brought by the potion (and corresponding to the skill) as Intuition (INT) to add points to the growth skill.
   - The potion’s own Intuition (INT) attribute can choose any skill to grow, regardless of whether the skill is inspired or not. Intuition
 
+- **Effect:** Skill Growth resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Law of the Jungle
+
+```yaml ability
+id: red-priest-seq-09-law-of-the-jungle
+name: Law of the Jungle
+pathway: red-priest
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Law of the Jungle: An explanation that your hunting-related skills will be
+  used more effectively. Survival (Difficulty Value 20): On a Survival identification
+  (Difficulty Value 20), you can judge: Whether the environment is good/bad for your
+  survival Food channels Whether food is edible This includes cities. You cant get
+  information that lacks clues; each clue is +2 beneficial. Tracking (Difficulty Value
+  15): On a Tracking identification (Difficulty Value 15), choose a clue or target.
+  As long as the target does not cover up content related to the clue by RP before
+  leaving, you can track the targets action path along the way until the clue is disconnected
+  due to extraordinary factors. Can...'
+```
+
+
+
 
 - **Law of the Jungle:** An explanation that your hunting-related skills will be used more effectively.
 
@@ -71,7 +152,42 @@ tags: ["pathway:red-priest", "sequence:9"]
 
 > **GM Note:** As a hunter, there may be more skill usages; the above content corresponds to ordinary people who are proficient in skills.
 
+- **Effect:** Law of the Jungle resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Trap Making
+
+```yaml ability
+id: red-priest-seq-09-trap-making
+name: Trap Making
+pathway: red-priest
+sequence: 9
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- mobility
+text: 'You can place traps in an area. This area must be a relatively small room,
+  difficult to move, or another suitable location for traps. Use: As a Full-Round
+  Action, you must reach the designated location and set a trap. #### Trap Placement
+  Conditions The number of traps depends on your materials, and your materials depend
+  on your [[Reputation]]. If your reputation is not Advanced, your trap upper limit
+  equals your reputation level 3. If your Reputation is Advanced or higher, multiply
+  by 5 (Proficiency does not count as Advanced). When a creature that is not blind
+  and can see the surrounding environment is close to the trap, it can use a Difficulty
+  Value 25 Detection / Survival / Crafting ch...'
+```
+
+
+
 
 - You can place traps in an area. This area must be a relatively small room, difficult to move, or another suitable location for traps.
 - **Use:** As a Full-Round Action, you must reach the designated location and set a trap.
@@ -163,7 +279,40 @@ tags: ["pathway:red-priest", "sequence:9"]
      - This kind of flame storage trap is only effective for **24 hours**; after 24 hours the flame cannot be maintained and disintegrates.  
        [[Spirituality]]
 
+- **Limits:** As described in this section's prose.
+
+
 ### Quick Dodge
+
+```yaml ability
+id: red-priest-seq-09-quick-dodge
+name: Quick Dodge
+pathway: red-priest
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- defense
+- offense
+text: 'Quick Dodge: You can dodge firearms. Against firearms (rather than light/lightning-type
+  attacks), you retain full Agility (DEX) and Dodge in Physical Defense. When you
+  face non-gun-like high-speed attacks, such as the flames of the Red Priest and the
+  ice spear of the Witch. [[Red Priest]] [[Witch]] For any attack whose described
+  speed does not reach the level of a gun, unless it must be hit, you retain your
+  Agility (DEX) and Dodge defenses and also gain an additional dodge bonus. Note:
+  When facing firearms, your extra evasion is invalid, but the original full agility
+  and evasion defenses are still retained. Sequence scaling:'
+```
+
+
+
 
 - **Quick Dodge:** You can dodge firearms.
 
@@ -185,7 +334,42 @@ tags: ["pathway:red-priest", "sequence:9"]
 
 - This is the benefit of the potion; it cannot be stolen or recorded.
 
+- **Effect:** Quick Dodge resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Spiritual Vision
+```yaml ability
+id: red-priest-seq-09-spiritual-vision
+name: Spiritual Vision
+pathway: red-priest
+sequence: 9
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+text: 'Use: 1 free action. Cost: Consuming 1 spirituality point per round. Effect:
+  You activate Spiritual Vision, and your vision gains the following benefits: You
+  gain Spiritual Vision, but it is not as effective for you as your own Intuition
+  (INT). Etheric body: You can roughly tell whether the other partys body is good
+  or bad through the color of the aura, but you cant get detailed information. Spiritual
+  body: You can confirm whether an object/creature has spirituality; this cannot identify
+  extraordinary people. Mental body: You can see whether the other party is thinking,
+  but only so; you cannot get more detailed information. Astral body: You cannot see
+  the astral body.'
+```
+
+
+
+
 - **Use:** 1 free action.
 - **Cost:** Consuming 1 **spirituality point** per round.
 - **Effect:** You activate Spiritual Vision, and your vision gains the following benefits:
@@ -206,3 +390,5 @@ tags: ["pathway:red-priest", "sequence:9"]
   - You cannot use the colors to distinguish undead biology.
 
 - Spiritual Vision can see some ordinary spirit bodies by default (which have not dissipated for **24 hours**) and cannot be recorded or stolen.
+
+- **Limits:** As described in this section's prose.

@@ -1,13 +1,21 @@
 ---
-title: "Sequence 5: Chaos (Mentor)"
-id: "black-emperor-seq-05"
-tags: ["pathway:black-emperor", "sequence:5"]
+title: 'Sequence 5: Earl of the Fallen'
+id: black-emperor-seq-05
+tags:
+- pathway:black-emperor
+- sequence:5
 ---
 
-# Sequence 5: Chaos (Mentor)
+
+
+
+
+# Black Emperor Pathway: Sequence 5
 
 - Improves majesty and physique, causing surrounding creatures to unconsciously lower their stature and desire to surrender.
 - Can make a locked target (or an area around it) appear “chaotic,” making attacks harder to land on you and making enemies more likely to choose wrongly.
+
+## Earl of the Fallen
 
 ## Advancement
 
@@ -29,6 +37,37 @@ tags: ["pathway:black-emperor", "sequence:5"]
 - Your Sequence 9 [[Rapid Improvement]] skill limit reaches [[Master]].
 
 ### Chaos
+
+```yaml ability
+id: black-emperor-seq-05-chaos
+name: Chaos
+pathway: black-emperor
+sequence: 5
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- offense
+text: 'Cost: 2 spiritual points ([[Spirituality]]) Use: 1 Swift Action (Swift Action),
+  once per round; choose 1 effect below. Effect: Make a locked target ([[Locked Target]])or
+  an area around itappear chaotic, making attacks harder to land on you and making
+  enemies more likely to choose wrongly. Choose one of the following effects: Choose
+  any ongoing skill and attribute appraisal ([[Skill and Attribute Appraisal]]), excluding
+  sanity appraisal ([[Sanity / Rationality Appraisal]]). The final result is -4 unfavorable,
+  and rounded up. Due to confusion, it may lead to a series of results such as azimuth
+  deviation, spiritual disorder, judgment error, etc. Choose any current identification
+  (Identificat...'
+```
+
+
+
 
 - **Cost:** 2 **spiritual points** ([[Spirituality]])
 - **Use:** 1 **Swift Action** (Swift Action), once per round; choose 1 effect below.
@@ -52,7 +91,42 @@ Special:
 >
 > (Example caution: [[Spirit World Travel]] is not closely related to space. It will allow you to travel +4 kilometers at most, including the rest of the Door pathway ability. You can only strengthen the scope of this ability. Please don’t use similar methods just because of this example—ability card bug.)
 
+- **Limits:** As described in this section's prose.
+
+
 ### Majesty
+
+```yaml ability
+id: black-emperor-seq-05-majesty
+name: Majesty
+pathway: black-emperor
+sequence: 5
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: Creatures within 50 meters that recognize your existence.
+target: designated target(s)
+duration: While turned on.
+scaling: []
+tags:
+- ritual
+- debuff
+- buff
+text: 'Cost: None (does not need to consume spirituality) Use: 1 Swift Action to turn
+  on/off. Targeting and range: Creatures within 50 meters that recognize your existence.
+  Duration: While turned on. Effect: Your majesty and physique are improved, making
+  surrounding creatures unconsciously lower their bodies and desire to surrender.
+  Effects: Affected creatures are unfavorable to skill and attribute appraisals by
+  -2, and unconsciously lower their figures. Creatures that are not at the same level
+  as you (Sequence 6 or 5) will not even be able to look directly at you; at the same
+  level, they will have the urge to lower their headsthis is fear. You are beneficial
+  to the affected creatures reputation...'
+```
+
+
+
 
 - **Cost:** None (does not need to consume spirituality)
 - **Use:** 1 Swift Action to turn on/off.
@@ -69,3 +143,5 @@ Special:
 
 - Targets 1 level higher than you are unaffected.
 - This is the effect brought by the potion and cannot be stolen or recorded.
+
+- **Limits:** As described in this section's prose.

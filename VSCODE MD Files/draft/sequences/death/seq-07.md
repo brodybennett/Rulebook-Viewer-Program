@@ -1,14 +1,36 @@
 ---
-title: "Sequence 7: The Psychic"
-id: "death-seq-07"
-tags: ["pathway:death", "sequence:7"]
+title: 'Sequence 7: Spirit Medium'
+id: death-seq-07
+tags:
+- pathway:death
+- sequence:7
 ---
 
-# Sequence 7: The Psychic
+
+
+
+
+# Death Pathway: Sequence 7
 
 > **Lore:** You master mystical rituals related to spirits. You can directly communicate with natural spirits and wandering dead souls in the real world, use different spirits to realize various magics, and create supernatural phenomena.
 
 > **GM Note:** Spiritism can be used on living creatures, but it carries danger.
+
+## Spirit Medium
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -18,6 +40,36 @@ tags: ["pathway:death", "sequence:7"]
 - Your **Occult** skills go up by one level.
 
 ### Communicating with the Dead
+
+```yaml ability
+id: death-seq-07-communicating-with-the-dead
+name: Communicating with the Dead
+pathway: death
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: 100m
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- social
+text: You can directly communicate with natural spirits and wandering spirits in the
+  real world, like ordinary people. If a dead person has appeared in an area, as long
+  as their spirit has not been destroyed, you can see them near their death area,
+  communicate directly, ask questions, and perform psychic communication. When communicating
+  with undead, you may use social skills such as words, persuasion, pleasing, and
+  intimidation as usual (including lying). You can also communicate with natural spirits
+  that exist naturally and are related to the Spirit World, and learn local clues.
+  In general, you can find at least 5d6 natural spirits or undead in an area within
+  100 meters. The undead you can co...
+```
+
+
+
 
 You can directly communicate with natural spirits and wandering spirits in the real world, like ordinary people.
 
@@ -31,7 +83,39 @@ You can directly communicate with natural spirits and wandering spirits in the r
 
 > **GM Note:** â€œA psychic should actively communicate with all seeing spirits to achieve the effect of informants everywhere.â€
 
+- **Effect:** Communicating with the Dead resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Psychic Communication with Living People
+
+```yaml ability
+id: death-seq-07-psychic-communication-with-living-people
+name: Psychic Communication with Living People
+pathway: death
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: Choose 1 **helpless** target.
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'A living personaTMs spirit can also be an object of psychic communication.
+  There are two ways to communicate with a living personaTMs spirit: Involuntary target
+  Cost/Action: 1 Casting Action; no spiritual consumption. Target: Choose 1 helpless
+  target. Effect: You establish a psychic relationship and communicate as a normal
+  psychic, but everyone can hear the other partyaTMs response. Helplessness may be
+  achieved violently, and causes the channeled target to suffer a Sanity / Rationality
+  loss of 1/1d2. Voluntary target'
+```
+
+
+
 
 A living personâ€™s spirit can also be an object of psychic communication.
 
@@ -52,7 +136,42 @@ There are two ways to communicate with a living personâ€™s spirit:
 
 > **GM Note:** Psychic insanity targets cause you to suffer the same Sanity / Rationality loss as their source of insanity, possibly causing taint to spread. In this case, the insanity symptom is the same as if you were insane due to the Sanity / Rationality loss of the channeled target.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Spiritualism
+
+```yaml ability
+id: death-seq-07-spiritualism
+name: Spiritualism
+pathway: death
+sequence: 7
+type: passive
+action: none
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- divination
+- offense
+text: 'You can use different spirits to achieve various magic. #### Danger Premonition
+  Effect: The spirit you are currently in will remind you in time when you are about
+  to encounter danger. Requirement: As long as there is a spirit body in the current
+  area, whenever you are about to encounter a surprise attack/sneak attack, the local
+  spirit body or Spirit World will tell you the corresponding information when such
+  things are about to happen, so that you immediately know the next time you will
+  encounter a surprise attack/sneak attack and its specific form. Passive: If someone
+  intends to do harm to you and has already started to do something about it, the
+  ubiquitous spirits who can see these will...'
+```
+
+
+
 
 You can use different spirits to achieve various magic.
 
@@ -219,7 +338,37 @@ A more common natural spirit only has the above two abilities. This is the most 
 - With the permission of the GM, you can create a natural spirit to drive, or drive 3 ordinary natural spirits, and you can customize its image.
 - The unique ability of natural spirits will not be included in your undead army.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Ritual Mastery
+
+```yaml ability
+id: death-seq-07-ritual-mastery
+name: Ritual Mastery
+pathway: death
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'You gain access to ritual magic, able to invoke power from the gods. Effect:
+  While holding this ability, you gain access to ritual magic, regardless of whether
+  your Occult skill is advanced or not. For the ritual magic you can use, refer to
+  [[Common Ritual Magic]]. Special: When the ritual you perform is a psychic ritual/spiritual
+  ritual/summoning ritual, the Occult identification succeeds by default. Limit: This
+  is the effect brought by 1 potion and cannot be stolen or recorded.'
+```
+
+
+
 
 You gain access to ritual magic, able to invoke power from the gods.
 - **Effect:** While holding this ability, you gain access to ritual magic, regardless of whether your Occult skill is advanced or not.
@@ -229,7 +378,40 @@ You gain access to ritual magic, able to invoke power from the gods.
 - **Special:** When the ritual you perform is a psychic ritual/spiritual ritual/summoning ritual, the Occult identification succeeds by default.
 - **Limit:** This is the effect brought by 1 potion and cannot be stolen or recorded.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Undead Army Battle Adjudication
+
+```yaml ability
+id: death-seq-07-undead-army-battle-adjudication
+name: Undead Army Battle Adjudication
+pathway: death
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+text: 'Because the Reaper Pathway starts from Sequence 7, and every time a Sequence
+  is increased the subordinates you can drive and enslave increase explosively, you
+  must decide the judgment method of your undead army in battle. #### When the Undead
+  Are Treated as an aArmya As long as the total number of dead people driven by you
+  is more than 3, then all the dead people driven by you are considered as a whole.
+  You add the blood volume of all your dead people together, but it cannot be added
+  together at one time; it needs to be classified and added. Example method: first
+  add the Vitality of all living corpses together, then add the Vitality of all shadows
+  together. After adding the values of the...'
+```
+
+
+
 
 Because the Reaper Pathway starts from Sequence 7, and every time a Sequence is increased the subordinates you can drive and enslave increase explosively, you must decide the judgment method of your undead army in battle.
 
@@ -268,3 +450,6 @@ Because the Reaper Pathway starts from Sequence 7, and every time a Sequence is 
 **Special:**
 - Each species block in the undead army can count up to 50 units. If a species exceeds 50, split it into additional blocks; army-mode rules still trigger whenever your total driven undead exceed 3.
 - Unless an area attack can cover the whole field, it can only affect one of the undead army at a time by default.
+
+- **Effect:** Undead Army Battle Adjudication resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

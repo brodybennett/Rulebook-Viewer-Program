@@ -1,12 +1,18 @@
 ---
-title: "Sequence 8: The Light Suppliant"
-id: "sun-seq-08"
-tags: ["pathway:sun", "sequence:8"]
+title: 'Sequence 8: Light Suppliant'
+id: sun-seq-08
+tags:
+- pathway:sun
+- sequence:8
 ---
+
+
+
+
 
 # Sun Pathway: Sequence 8
 
-## The Light Suppliant
+## Light Suppliant
 
 - You can perform some spells and rituals in the [[Solar Realm]].
 - You are restrained by dead bodies and [[Ghosts]]: while within 10 meters of a corpse or ghost, your Sun-domain checks suffer -2 disadvantage and your holy damage is reduced by 1d6 (minimum 0).
@@ -33,6 +39,32 @@ tags: ["pathway:sun", "sequence:8"]
 
 ### White Vision
 
+```yaml ability
+id: sun-seq-08-white-vision
+name: White Vision
+pathway: sun
+sequence: 8
+type: toggle
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+text: 'Cost: 1 [[Spirituality]] per minute while active. Use: 1 Swift Action to activate.
+  Effect: You can see in total darkness. Anything hidden by darkness or shadow is
+  revealed. Limits: This ability belongs to [[Summoning Light]]. If Summoning Light
+  is lost, this ability disappears (and vice versa).'
+```
+
+
+
+
 > **Lore:** Golden sunlight gathers in your eyes until they resemble two miniature suns.
 
 - **Cost:** 1 **[[Spirituality]]** per minute while active.
@@ -46,6 +78,38 @@ tags: ["pathway:sun", "sequence:8"]
 - **Ending:** You may end the effect as a free action.
 
 ### Brightness
+
+```yaml ability
+id: sun-seq-08-brightness
+name: Brightness
+pathway: sun
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: With you as the center, you illuminate a 10-meter area with divine power.
+target: designated target(s)
+duration: Maintenance continues to consume Casting Actions.
+scaling: []
+tags:
+- ritual
+- detection
+- control
+- offense
+text: 'Use: 1 Casting Action. Cost: Each round consumes 2 [[Spirituality]]. Duration:
+  Maintenance continues to consume Casting Actions. Targeting and range: With you
+  as the center, you illuminate a 10-meter area with divine power. Effect: In this
+  area, the effects of darkness, corruption, and undead that are not higher than you
+  by 1 character level or 2 Sequence levels will be cleared. As long as the radiance
+  is maintained, dark, corrupted, and undead creatures in the area begin to suffer
+  [[Holy Damage]] equal to your Restrained Damage each round. [[Resentful Soul]] is
+  exposed to spiritual vision; when taking damage, its body begins to vaporize.'
+```
+
+
+
 
 > **Lore:** You raise your arms in prayer and emit pure, clear radiance.
 
@@ -62,7 +126,39 @@ tags: ["pathway:sun", "sequence:8"]
   - **Clarification:** The light becomes invisible to ordinary observers, but all effects still apply.
 - **Clarification:** This clears effects caused by darkness/corruption/undead abilities; it does not remove the creature type itself.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Call the Holy Light
+
+```yaml ability
+id: sun-seq-08-call-the-holy-light
+name: Call the Holy Light
+pathway: sun
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: Choose 1 target within your field of vision.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- defense
+- offense
+text: 'Use: 1 Casting Action. Cost: Consume 3 [[Spirituality]]. Targeting and range:
+  Choose 1 target within your field of vision. Resolution: [[Occult vs Physical Defense]],
+  ignoring Agility (DEX) and Evasion in Physical Defense. Effect: Deal 2d6 Holy damage
+  and 1d6 Fire damage. Sequence 7: Damage changes to 3d6 Holy damage and 1d6 Fire
+  damage.'
+```
+
+
+
 
 > **Lore:** A pure beam of light wrapped in flames descends from the roof or sky.
 
@@ -73,7 +169,41 @@ tags: ["pathway:sun", "sequence:8"]
 - **Effect:** Deal 2d6 Holy damage and 1d6 Fire damage.
 - **Sequence 7:** Damage changes to 3d6 Holy damage and 1d6 Fire damage.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Purification
+
+```yaml ability
+id: sun-seq-08-purification
+name: Purification
+pathway: sun
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Choose 1 target within 10 meters.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- mobility
+- control
+- offense
+text: 'Use: 1 Casting Action. Cost: Consume 2 [[Spirituality]]. Targeting and range:
+  Choose 1 target within 10 meters. Limits: Unlike Call the Holy Light, this ability
+  does not cause damage to ordinary creatures (except as noted below). Effect (Voluntary
+  target): Purification succeeds by default and removes the following effects (excluding
+  out-of-control, near-out-of-control, permanent madness, etc.): See [[Conditions]].
+  Special (Voluntary restrained creature): It deals 1d6 Holy damage and the creature
+  is restrained, although it also clears the effect.'
+```
+
+
+
 
 > **Lore:** You pray to cleanse filth and corruption.
 
@@ -96,7 +226,42 @@ tags: ["pathway:sun", "sequence:8"]
   - Requires 3 uses to completely clear effects caused by more than 1 character level or 2 Sequence levels above yours.
   - The effect is halved after 1 use.
 
+- **Effect:** Purification resolves using its yaml ability block and section prose.
+
+
 ### Sun Path Restraint
+
+```yaml ability
+id: sun-seq-08-sun-path-restraint
+name: Sun Path Restraint
+pathway: sun
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- control
+- buff
+- offense
+text: 'Restraint Rule: Holy Damage is restrained against three creature typesdark,
+  corrupted, and undeadand causes additional effects. When you hit a dark, corrupted,
+  or undead creature with an offensive Sun Path extraordinary ability (including [[Solar
+  Holy Water]]), increase damage as follows: Dark creatures: +1d6 Holy damage. Corrupted
+  creatures: +2d6 Holy damage. Undead: +3d6 Holy damage. Restrained Damage: The bonus
+  Holy damage from the restraint rule above. If a holy effect is a transmutation ability,
+  its secondary effect (which may deal Holy damage equal to Restrained Damage) is
+  listed separately (e.g., Brightness). Creature typing is marked in the corresponding
+  pathways (example: [[Moon...'
+```
+
+
+
 
 - **Restraint Rule:** **Holy Damage** is restrained against three creature types—dark, corrupted, and undead—and causes additional effects.
 - When you hit a dark, corrupted, or undead creature with an offensive Sun Path extraordinary ability (including [[Solar Holy Water]]), increase damage as follows:
@@ -107,7 +272,38 @@ tags: ["pathway:sun", "sequence:8"]
 - If a holy effect is a “transmutation ability,” its secondary effect (which may deal Holy damage equal to Restrained Damage) is listed separately (e.g., Brightness).
 - Creature typing is marked in the corresponding pathways (example: [[Moon Pathway: Sequence 7]]).
 
+- **Effect:** Sun Path Restraint resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Solar Rituals
+
+```yaml ability
+id: sun-seq-08-solar-rituals
+name: Solar Rituals
+pathway: sun
+sequence: 8
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+text: 'You have mastered some rituals in the solar realm. This is knowledge brought
+  by the potion, so it cannot be stolen or recorded. In the Fifth Age, the object
+  of prayer is [[Eternal Sun]] by default. [[Fifth Age]] *Holy Water Prayer Process:
+  A general ritual process of about 5 minutes. Creates: 1 bottle of [[Solar Holy Water]]
+  (golden liquid). Solar Holy Water (use): Resolution: Throwing against Physical Defense.'
+```
+
+
+
 
 - You have mastered some rituals in the solar realm.
 - This is knowledge brought by the potion, so it cannot be stolen or recorded.
@@ -153,3 +349,5 @@ tags: ["pathway:sun", "sequence:8"]
 - A Sun Path Extraordinary who is not a follower of the **[[Eternal Blazing Sun]]** can still use the rituals above if they have mastered sufficient methods to please the relevant gods.
 - Even so, they must make a **[[Lucky Appraisal]]** to get a response.
 - If you believe in a god hostile to the Eternal Blazing Sun, there may be no response at all.
+
+- **Limits:** As described in this section's prose.

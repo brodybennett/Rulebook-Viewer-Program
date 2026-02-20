@@ -1,10 +1,18 @@
 ---
-title: "Sequence 2: Calamity"
-id: "tyrant-seq-02"
-tags: ["pathway:tyrant", "sequence:2"]
+title: 'Sequence 2: Cataclysm Interrer'
+id: tyrant-seq-02
+tags:
+- pathway:tyrant
+- sequence:2
 ---
 
-# Sequence 2: Calamity
+
+
+
+
+# Tyrant Pathway: Sequence 2
+
+## Cataclysm Interrer
 
 ## Advancement
 
@@ -25,6 +33,39 @@ tags: ["pathway:tyrant", "sequence:2"]
 ---
 
 ### Avatar of Scourge
+
+```yaml ability
+id: tyrant-seq-02-avatar-of-scourge
+name: Avatar of Scourge
+pathway: tyrant
+sequence: 2
+type: active
+action: cast
+cost:
+  spirituality: 10
+roll: null
+opposed_by: physical_defense
+range: All natural disasters affect a minimum area of **1 kilometer** and may extend
+  up to **one country** in scope.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'Cost: 10 Spirituality. [[Spirituality]] Use: 1/round, 1 Casting Action. Effect:
+  Choose one natural disaster; it manifests as a real, large-scale disaster as if
+  natural. You gain +25 to Disaster Attack rolls against physical defenses. [[Disaster
+  Attack]] Targeting and Range: All natural disasters affect a minimum area of 1 kilometer
+  and may extend up to one country in scope. Limits: The scope is typically too large
+  to confine to a small area; using this ability may devastate an entire port city
+  or larger region. Interaction: Each Scourge-type disaster is a separate ability.
+  [[Steal]] and [[Record]] can affect only one such disaster ability at a time.'
+```
+
+
+
 
 - **Cost:** 10 Spirituality.  
   [[Spirituality]]
@@ -138,6 +179,36 @@ tags: ["pathway:tyrant", "sequence:2"]
 
 ### Summon Meteor
 
+```yaml ability
+id: tyrant-seq-02-summon-meteor
+name: Summon Meteor
+pathway: tyrant
+sequence: 2
+type: active
+action: cast
+cost:
+  spirituality: 3
+roll: null
+opposed_by: physical_defense
+range: Area from **100 m to 1 km** radius.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'Cost: 3 Spirituality. Use: 1 Casting Action. Targeting and Range: Area from
+  100 m to 1 km radius. Effect: A single meteor strikes the area. You gain +20 on
+  the disaster check against physical defense. [[Disaster Check]] On success: all
+  creatures take 5d6 fire damage and 5d6 physical damage. On failure: creatures unable
+  to leave the area still take half damage. Aftereffects: Can destroy a ship, building,
+  or city block; leaves a large crater.'
+```
+
+
+
+
 - **Cost:** 3 Spirituality.
 - **Use:** 1 Casting Action.
 - **Targeting and Range:** Area from **100 m to 1 km** radius.
@@ -150,10 +221,41 @@ tags: ["pathway:tyrant", "sequence:2"]
 
 ---
 
+- **Limits:** As described in this section's prose.
+
+
 ### Humanoid Scourge
+
+```yaml ability
+id: tyrant-seq-02-humanoid-scourge
+name: Humanoid Scourge
+pathway: tyrant
+sequence: 2
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+- defense
+- offense
+text: 'Use: 1/round, free action. Effect (Defense): When a disaster or natural disaster
+  would damage you, you may use your disaster authority to avoid the damage entirely.
+  Effect (Offense): Alternatively, add +2d6 to a single disaster or natural disaster
+  damage roll. Limits: Damage increase and damage avoidance share the same usage.'
+```
+
+
+
 
 - **Use:** 1/round, free action.
 - **Effect (Defense):** When a disaster or natural disaster would damage you, you may use your disaster authority to avoid the damage entirely.
 - **Effect (Offense):** Alternatively, add **+2d6** to a single disaster or natural disaster damage roll.
 - **Limits:** Damage increase and damage avoidance share the same usage.
 
+- **Effect:** Humanoid Scourge resolves using its yaml ability block and section prose.

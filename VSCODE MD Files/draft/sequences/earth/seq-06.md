@@ -1,10 +1,32 @@
 ---
-title: "Sequence 6: Biologist"
-id: "earth-seq-06"
-tags: ["pathway:earth", "sequence:6"]
+title: 'Sequence 6: Biologist'
+id: earth-seq-06
+tags:
+- pathway:earth
+- sequence:6
 ---
 
-# Sequence 6: Biologist
+
+
+
+
+# Mother Pathway: Sequence 6
+
+## Biologist
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -15,11 +37,70 @@ tags: ["pathway:earth", "sequence:6"]
 
 ### Rapid Growth Research
 
+```yaml ability
+id: earth-seq-06-rapid-growth-research
+name: Rapid Growth Research
+pathway: earth
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: Your Biology has been included in the rapid growth category of Sequence 9 rapid
+  growth category. Biology can be upgraded to [[Erudition]] at most, and [[Botany
+  (skill)]] can also be upgraded to Erudition. Every time you complete a complete
+  research without repeating the type, it is regarded as a growth.
+```
+
+
+
+
 - Your Biology has been included in the rapid growth category of Sequence 9 rapid growth category.
 - Biology can be upgraded to [[Erudition]] at most, and [[Botany (skill)]] can also be upgraded to Erudition.
 - Every time you complete a complete research without repeating the type, it is regarded as a growth.
 
+- **Effect:** Rapid Growth Research resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Biological Hybridization
+
+```yaml ability
+id: earth-seq-06-biological-hybridization
+name: Biological Hybridization
+pathway: earth
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Biological Hybridization: You can hybridize various organisms to produce strange
+  products, and you can hybridize down to the bacterial level. Biological Hybridization
+  is not a short-term ability. Like scientific research, it must go through multiple
+  stages such as theory, practice, and error correction. Through this ability, you
+  can permanently transform a certain entry of one creature into another creature.
+  Creature definition: A acreaturea includes intelligent creatures, plants, and animals;
+  you can cross any type of them. #### Transformation Procedure To use Biological
+  Hybridization, complete all stages below to finish one transformation: 1) Confirm
+  the modified creature Choose: A crea...'
+```
+
+
+
 
 - **Biological Hybridization:** You can hybridize various organisms to produce strange products, and you can hybridize down to the bacterial level.
 
@@ -80,7 +161,42 @@ To use Biological Hybridization, complete all stages below to finish one transfo
 
 > **GM Note:** Because failure of the experiment can face serious consequences, organisms that fail the experiment may die or leave serious sequelae.
 
+- **Effect:** Biological Hybridization resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Highly Toxic
+
+```yaml ability
+id: earth-seq-06-highly-toxic
+name: Highly Toxic
+pathway: earth
+sequence: 6
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: The throw resists physical defense.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- debuff
+- defense
+- offense
+text: 'Your hair can be highly toxic. Cost: 3 [[Spirituality]] Use: 1 Attack Action.
+  Tear off a handful of your hair, designate one effect below, then throw it at the
+  target. Targeting and range: The throw resists physical defense. Effect: Deals 2d6
+  poison damage, and the designated effect takes effect. #### Effects 1) Severe Itching
+  Every time a new round starts, the target must immediately make a Will Test (Difficulty
+  Value 20), otherwise it is forced to use a Swift Action to scratch the skin, causing
+  1d3 physical damage to itself.'
+```
+
+
+
 
 Your hair can be highly toxic.
 
@@ -112,3 +228,5 @@ Your hair can be highly toxic.
 - **Use:** Use 1 Casting Action to perform any [[Medicine (skill)]] (Difficulty Value **20**) within **2 rounds**, or take a potion that can detoxify.
 - **Effect:** The effect will continue after this time until **1 hour** passes, or until extraordinary medicine **Rescue** is used (whichever comes first).
 - **Special:** If the same biological effect is applied by more than **1** character, it lasts only **1 round**; if applied by more than **2** characters, it has no effect.
+
+- **Limits:** As described in this section's prose.

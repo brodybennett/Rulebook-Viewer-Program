@@ -1,12 +1,18 @@
 ---
-title: "Sequence 3: Summoner Master (Blood Marquis)"
-id: "moon-seq-03"
-tags: ["pathway:moon", "sequence:3"]
+title: 'Sequence 3: High Summoner'
+id: moon-seq-03
+tags:
+- pathway:moon
+- sequence:3
 ---
 
-# Sequence 3: Summoner Master (Blood Marquis)
 
-## Summoner Master (Blood Marquis)
+
+
+
+# Moon Pathway: Sequence 3
+
+## High Summoner
 
 > **Lore:** With the influence of the moon on the [[Spirit World]], the Summoner Master summons powerful creatures from its depths to help them. If the summoner’s “popularity” is good enough, they can even sign a [[Contract]] with [[Angels]] and summon them directly.  
 > Occasionally, uncontrollable changes occur during a Summoner Master’s summoning, causing strange creatures that do not come from the Spirit World—and have not signed a contract—to descend into reality. Rumors say this points to a boundless, dark universe. Some Summoner Masters died because of these mutations; others gained powerful abilities or items different from the twenty-two sequences.  
@@ -25,6 +31,37 @@ tags: ["pathway:moon", "sequence:3"]
 - **Attribute Gain:** **Intuition (INT)** +2, **Will** +1, and your **Occultism** increases by 1 level.
 
 ### Gate of Summoning
+
+```yaml ability
+id: moon-seq-03-gate-of-summoning
+name: Gate of Summoning
+pathway: moon
+sequence: 3
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- mobility
+text: 'The Gate of Summoning opens an illusory door to the depths of the Spirit World
+  so you can contract a creature into service. Cost: Consume 5 points of Spirituality.
+  [[Spirituality]] Use: Through a Casting Action, open the illusory door leading to
+  the depths of the Spirit World, sign a contract with the creature, and let it come
+  to the real world to serve. Casting Action Limits: Only one per Encounter. *Summoned
+  creature determination Use a Lucky Appraisal to determine the type of creature to
+  be summoned. [[Lucky Appraisal]] For ease of calculation, its panel is equal to
+  the summoner itself. When the difficulty is full, a +1 gain will be obtained based
+  on the knowledge level of each month....'
+```
+
+
+
 
 The **Gate of Summoning** opens an illusory door to the depths of the Spirit World so you can contract a creature into service.
 
@@ -73,3 +110,5 @@ The **Gate of Summoning** opens an illusory door to the depths of the Spirit Wor
 - **Sequence 2:** Spirit World creatures that are stronger than themselves; their Sequence level will be limited by the current Pathway (for example, if there is Sequence 0, there is no Sequence 1).
 - As a compensation, the relevant rewards can be exchanged for the existence of mixed pathways, and an extra +1 for the number of times the Gate of Summoning can be used; it can only be +1 at most, or a Spirit World creature that can be perfectly controlled.
 - Except for the Big failure and the Alien Pathway, all Spirit World creatures summoned at the second level of the Sequence will be controllable until the end of the encounter.
+
+- **Effect:** Gate of Summoning resolves using its yaml ability block and section prose.

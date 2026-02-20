@@ -1,12 +1,20 @@
 ---
-title: "Sequence 6: Conspirator"
-id: "red-priest-seq-06"
-tags: ["pathway:red-priest", "sequence:6"]
+title: 'Sequence 6: Conspirer'
+id: red-priest-seq-06
+tags:
+- pathway:red-priest
+- sequence:6
 ---
 
-# Sequence 6: Conspirator
+
+
+
+
+# Red Priest Pathway: Sequence 6
 
 > **Lore:** A Conspirator becomes sharper-minded and more persuasive, with strong communication and information-gathering skills.
+
+## Conspirer
 
 ## Advancement
 
@@ -24,6 +32,36 @@ tags: ["pathway:red-priest", "sequence:6"]
 
 ### Insight
 
+```yaml ability
+id: red-priest-seq-06-insight
+name: Insight
+pathway: red-priest
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- social
+text: 'Scouting, deception, persuasion, and speaking skill identification are +2 favorable
+  by default, and ideas will be formed when you open your mouth. If there is something
+  wrong with what someone said to you, and you want to turn black and white, confuse
+  concepts, and disturb your thinking: You can directly make a Difficulty Value 20
+  detection and appraisal to detect the error, and know which sentence is wrong. If
+  you find some events that are inconsistent in details, you can also enjoy the effect
+  of (2). (But you can''t directly guess the other party''s intentions and why they
+  did this.)'
+```
+
+
+
+
 > **Lore:** This is the benefit of the potion: your intelligence, your ability to make up reasons, and your ability to persuade others are enhanced.
 
 1. Scouting, deception, persuasion, and speaking skill identification are **+2 favorable** by default, and ideas will be formed when you open your mouth.
@@ -33,7 +71,40 @@ tags: ["pathway:red-priest", "sequence:6"]
 
 - (But you can't directly guess the other party's intentions and why they did this.)
 
+- **Effect:** Insight resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Conspiracy
+
+```yaml ability
+id: red-priest-seq-06-conspiracy
+name: Conspiracy
+pathway: red-priest
+sequence: 6
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- social
+text: 'You are good at plotting conspiracies. This is in the normal category of deception,
+  and it only has supernatural power in subtleties. Therefore, the deceived will not
+  be passively aware of being deceived; they must actively think and analyze to find
+  the problem. This ability can be used in two ways: #### Misleading You must convey
+  information in some way (such as letters/words) to make the other party believe
+  your words. Cost: 1 Swift Action, consuming 1 Sanity / Rationality Point. Use: Create
+  a message by word/letter. Effect (message requirements): The information can be
+  a lie/half-truth.'
+```
+
+
+
 
 You are good at plotting conspiracies. This is in the normal category of deception, and it only has supernatural power in subtleties. Therefore, the deceived will not be passively aware of being deceived; they must actively think and analyze to find the problem.
 
@@ -77,3 +148,5 @@ You plan a conspiracy and start to implement the plan.
 - **Fear empowerment:** If you find the target and tell him your plan when you face him—letting him know how small and helpless he is being calculated—then as long as the situation is still in your plan, he will continue to be empowered state of fear.
 - **Multiple plans:** You don’t have to make only one plan. You can also make plan B and plan C. If plan A goes wrong and the development after the mistake is in plan B or plan C, then the benefits can still be obtained.
 - **Impromptu plans:** It is feasible to make an impromptu plan to regain benefits, but generally you will not have that much time. If the **GM** allows, then maybe you can use enough time outside the group to submit your impromptu plan.
+
+- **Limits:** As described in this section's prose.

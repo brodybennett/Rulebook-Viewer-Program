@@ -1,10 +1,18 @@
 ---
-title: "Sequence 2: Ancient Bane"
-id: "mutant-seq-02"
-tags: ["pathway:mutant", "sequence:2"]
+title: 'Sequence 2: Abomination'
+id: mutant-seq-02
+tags:
+- pathway:mutant
+- sequence:2
 ---
 
-# Sequence 2: Ancient Bane
+
+
+
+
+# Chained Pathway: Sequence 2
+
+## Abomination
 
 ## Advancement
 
@@ -24,10 +32,67 @@ tags: ["pathway:mutant", "sequence:2"]
 
 ### Reverse Inhalation of Spirit Bodies
 
+```yaml ability
+id: mutant-seq-02-reverse-inhalation-of-spirit-bodies
+name: Reverse Inhalation of Spirit Bodies
+pathway: mutant
+sequence: 2
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- utility
+text: 'Use: Open your mouth and take a breath in. Effect: You can blow a cold wind
+  that forcibly pulls the enemys spirit body, making it impossible to maintain a state
+  and possession that are difficult for others to see.'
+```
+
+
+
+
 - **Use:** Open your mouth and take a breath in.
 - **Effect:** You can blow a cold wind that forcibly pulls the enemy’s spirit body, making it impossible to maintain a state and possession that are difficult for others to see.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Ancient Evil
+
+```yaml ability
+id: mutant-seq-02-ancient-evil
+name: Ancient Evil
+pathway: mutant
+sequence: 2
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'Effect: You cant die completely by preparing ahead of time. Use: As a Full-Round
+  Action, you enter the Spirit World in the state of a wronged soul and set an early
+  anchor point in the Spirit World in advance. Limits: You can have only one anchor
+  point (upper limit 1). When you die, you can abandon your physical body and be reincarnated
+  in the Spirit World as a spirit creature. This requires you to prepare (and consume)
+  a Sequence 2 extraordinary characteristic of the same level for your new spirit
+  body in advance; only then can reincarnation be completed. Aftereffects (Unrecovered
+  State): After becoming this state, although you are still an angel, you will not
+  be able to make any waves fo...'
+```
+
+
+
 
 - **Effect:** You can’t die completely by preparing ahead of time.
 - **Use:** As a Full-Round Action, you enter the Spirit World in the state of a wronged soul and set an early anchor point in the Spirit World in advance.

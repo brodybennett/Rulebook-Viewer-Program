@@ -1,10 +1,18 @@
 ---
-title: "Sequence 1: Key to the Star"
-id: "apprentice-seq-01"
-tags: ["pathway:apprentice", "sequence:1"]
+title: 'Sequence 1: Key of Stars'
+id: apprentice-seq-01
+tags:
+- pathway:apprentice
+- sequence:1
 ---
 
-# Sequence 1: Key to the Star
+
+
+
+
+# Door Pathway: Sequence 1
+
+## Key of Stars
 
 ## Advancement
 
@@ -22,6 +30,33 @@ tags: ["pathway:apprentice", "sequence:1"]
 
 ### Authority Locating
 
+```yaml ability
+id: apprentice-seq-01-authority-locating
+name: Authority Locating
+pathway: apprentice
+sequence: 1
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- mobility
+text: 'Cost: 3 points of spirituality. Use: Free action. Effect: You locate a person''s
+  true position through the authority of the [[Door]]. You must come into contact
+  with a medium associated with the opponent (such as props they have used). You then
+  directly locate their true position in the entire universe through the stars. Limits:
+  This ability also has a significant effect on the [[Deity]].'
+```
+
+
+
+
 - **Cost:** 3 points of spirituality.
 - **Use:** **Free action.**
 - **Effect:** You locate a person's true position through the authority of the [[Door]]. You must come into contact with a medium associated with the opponent (such as props they have used). You then directly locate their true position in the entire universe through the stars.
@@ -29,11 +64,68 @@ tags: ["pathway:apprentice", "sequence:1"]
 
 ### Teleportation (Shifting Stars)
 
+```yaml ability
+id: apprentice-seq-01-teleportation-shifting-stars
+name: Teleportation (Shifting Stars)
+pathway: apprentice
+sequence: 1
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- mobility
+text: 'Use: Free action. Effect: You can teleport to any place in this universe immediately;
+  lower-level obscuration/sealing can be pried open and does not stop this effect.'
+```
+
+
+
+
 - **Use:** **Free action.**
 - **Effect:** You can teleport to any place in this universe immediately; lower-level obscuration/sealing can be pried open and does not stop this effect.
 
+- **Limits:** As described in this section's prose.
+
+
 
 ### Gate
+
+```yaml ability
+id: apprentice-seq-01-gate
+name: Gate
+pathway: apprentice
+sequence: 1
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: A supernatural ability or a thing within your range of vision.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- defense
+text: 'Cost: 5 points of spirituality. Use: Spellcasting action. Check: [[Mysticism]]
+  against Willpower Defense; minus -8 is disadvantageous. Check: [[Mysticism]] against
+  Willpower Defense; apply -8 to the overall contest result. Targeting and range:
+  A supernatural ability or a thing within your range of vision. Effect: You directly
+  seal the target for three rounds at a time. You seal a supernatural ability or a
+  thing within your range of vision. For one target, seal only one supernatural ability
+  at a time. Across different targets (or repeated uses), there is no total upper
+  limit on active seals.'
+```
+
+
+
 
 - **Cost:** 5 points of spirituality.
 - **Use:** **Spellcasting action.**
@@ -64,6 +156,38 @@ tags: ["pathway:apprentice", "sequence:1"]
 
 ### Spoon
 
+```yaml ability
+id: apprentice-seq-01-spoon
+name: Spoon
+pathway: apprentice
+sequence: 1
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: An object within your field of vision.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- mobility
+text: 'Cost: 3 points of spirituality. Use: Free action (once in a Round). Targeting
+  and range: An object within your field of vision. Effect: You unseal a thing. The
+  specific effect of this ability is similar to that of a door, but the direction
+  is different and the effect is different. Effect: You unseal a thing. The specific
+  effect is similar to the general [[Door]] mechanics. You can release things that
+  have been blocked by supernatural objects such as [[Occult]], or conscious thoughts
+  that have been blocked by [[Hypnosis]], but you must be aware of its existence.
+  This essentially uses the power of location to find the keys, or lockholes, of these
+  seals, thereby opening them. If there is a s...'
+```
+
+
+
+
 - **Cost:** 3 points of spirituality.
 - **Use:** **Free action** (once in a Round).
 - **Targeting and range:** An object within your field of vision.
@@ -87,3 +211,5 @@ tags: ["pathway:apprentice", "sequence:1"]
   - The ability that is stolen or deprived is regarded as disappearing, so it does not exist and cannot be regarded as a seal.
 - **At Sequence 0:**
   - You can affect the whole world and weaken all seals.
+
+- **Limits:** As described in this section's prose.

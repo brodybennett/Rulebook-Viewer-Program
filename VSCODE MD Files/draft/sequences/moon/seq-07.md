@@ -1,12 +1,18 @@
 ---
-title: "Sequence 7: Vampire (Blood Adult)"
-id: "moon-seq-07"
-tags: ["pathway:moon", "sequence:7"]
+title: 'Sequence 7: Vampire'
+id: moon-seq-07
+tags:
+- pathway:moon
+- sequence:7
 ---
+
+
+
+
 
 # Moon Pathway: Sequence 7
 
-## Vampire (Blood Adult)
+## Vampire
 
 - Obtain a long life, excellent physique, excellent appearance, and master a variety of dark spells.  
   **Blood adult** means a mature bloodline stage.
@@ -32,6 +38,37 @@ tags: ["pathway:moon", "sequence:7"]
 
 ### Extraordinary Sense of Smell
 
+```yaml ability
+id: moon-seq-07-extraordinary-sense-of-smell
+name: Extraordinary Sense of Smell
+pathway: moon
+sequence: 7
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: 20m
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- detection
+- stealth
+text: 'Type: Racial alteration; cannot be recorded/stolen. Cost: 1 free action. Use:
+  Passive ability that is actively triggered. Effect: Choose 1 of the following benefits
+  to take effect: Distinguishing smell: You can directly discern the smell in the
+  air, and discern the approximate composition of what you know. If this involves
+  certain chemical or professional fields, it may require a Difficulty Value 15 chemistry/pharmaceutical/mysterious
+  scientific identification. You can also know what is inside through a barrier through
+  smell, provided that you know the corresponding smell. Invisible detection: You
+  can directly detect the existence of spirits or invisible creatures within 20 meters,
+  and yo...'
+```
+
+
+
+
 - **Type:** Racial alteration; cannot be recorded/stolen.
 - **Cost:** 1 free action.
 - **Use:** Passive ability that is actively triggered.
@@ -49,7 +86,42 @@ tags: ["pathway:moon", "sequence:7"]
   - **Sequence 6:** Effective distance becomes 30 meters.
   - **Sequence 5:** Effective distance becomes 50 meters.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Extraordinary Life
+
+```yaml ability
+id: moon-seq-07-extraordinary-life
+name: Extraordinary Life
+pathway: moon
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- buff
+text: 'Type: Racial change; cannot be recorded/stolen. Effect: Your lifespan increases
+  to 300 years, and you have dark vision. You can see in the dark like ordinary people.
+  You are regarded as a dark creature. You don''t like the sun, and you feel uncomfortable
+  in the sun, but this is role-playing only; there are no additional special effects.
+  You start to take blood rich in spirituality as your staple food. The blood of well-preserved
+  living creatures usually has spirituality. Normal food can bring you limited nutrition.
+  At least two of the three meals a day should be related to blood. If you dont eat
+  blood for 3 days, its like the hunger of a normal human being: you will be in a
+  state of exhaus...'
+```
+
+
+
 
 - **Type:** Racial change; cannot be recorded/stolen.
 - **Effect:**
@@ -63,7 +135,41 @@ tags: ["pathway:moon", "sequence:7"]
 
 > **Lore:** Belief in the [[Primordial Moon (Fallen Mother Goddess)]] will further extend lifespan.
 
+- **Limits:** As described in this section's prose.
+
+
 ### High-Speed Movement
+
+```yaml ability
+id: moon-seq-07-high-speed-movement
+name: High-Speed Movement
+pathway: moon
+sequence: 7
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- mobility
+- defense
+text: 'Type: Racial advantage; cannot be recorded/stolen. Effect: Your movement speed
+  can be so fast that you can drag out afterimages. Fast dodge: You rely on speed
+  to retain full physical defense against firearms; light/lightning bypasses this
+  protection. You also get an extra level of dodge. Drag out afterimage: 1 Swift Action,
+  once per round, only when moving on land; your action drags out afterimages. The
+  essence of the high-speed movement ability is that the Agility (DEX) attribute is
+  temporarily +1, but the high-speed movement can only temporarily take effect on
+  one action. Every time you use this ability, choose 1 of the following purposes:
+  +1 to a skill check involving Agility (DEX) or...'
+```
+
+
+
 
 - **Type:** Racial advantage; cannot be recorded/stolen.
 - **Effect:** Your movement speed can be so fast that you can drag out afterimages.
@@ -79,7 +185,42 @@ tags: ["pathway:moon", "sequence:7"]
 
 - **Sequence scaling:** For each promotion **Sequence**, the temporary Agility (DEX) bonus increases by +1 (Sequence 6 is +2, Sequence 5 is +3, and so on).
 
+- **Limits:** As described in this section's prose.
+
+
 ### Extraordinary Regeneration
+
+```yaml ability
+id: moon-seq-07-extraordinary-regeneration
+name: Extraordinary Regeneration
+pathway: moon
+sequence: 7
+type: active
+action: swift
+cost:
+  vitality: 6
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- healing
+- offense
+text: 'Type: Racial advantage; cannot be recorded/stolen. Effect: High-speed regeneration:
+  Every time you reach your turn, you recover 1d6 Vitality, which can recover the
+  life loss comparable to serious injuries within 1 hour. A critical blow to your
+  heart by others gets extra damage. The critical blow to the heart is regarded as
+  a blow to the internal organs, and at the same time, it gets the same bonus as the
+  blow to the head. In role-play, the description of the critical attack must clearly
+  hit the heart, not just internal organs. Pierced heart effects: The regeneration
+  effect is halved (rounded down), and you continue to lose 1 casting/attack/moving
+  action, or 2 swift actions, until you reco...'
+```
+
+
+
 
 - **Type:** Racial advantage; cannot be recorded/stolen.
 - **Effect:**
@@ -98,7 +239,40 @@ tags: ["pathway:moon", "sequence:7"]
 - **Sequence scaling:**
   - **Sequence 4:** Restore hit points increases to 2d6.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Lunar Spells
+
+```yaml ability
+id: moon-seq-07-lunar-spells
+name: Lunar Spells
+pathway: moon
+sequence: 7
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: Choose 1 willing/helpless creature.
+target: designated target(s)
+duration: For at least 1 hour.
+scaling: []
+tags:
+- debuff
+- defense
+text: 'You have mastered the spells of the [[Lunar Realm]]. #### Golem Transformation
+  Use: You transform a creature into your [[Familia]], similar to First Embrace. [[First
+  Embrace]] Action: 1 Full-Round Action. Targeting and range: Choose 1 willing/helpless
+  creature. Effect: You bite off one of its veins, transforming it into a golem. Becoming
+  a blood servant gains the following advantages/disadvantages: Strength +1, Constitution
+  +1, Agility (DEX) +1; will not change appearance, but pupils become red; creature
+  type is regarded as a dark creature; gain 5 points of poison resistance; you will
+  rarely get sick again.'
+```
+
+
+
 
 - You have mastered the spells of the [[Lunar Realm]].
 
@@ -131,7 +305,40 @@ tags: ["pathway:moon", "sequence:7"]
 
 > **Lore:** During the [[Quaternary Epoch]], blood races had extensive friendships with humans, which led to the generation of [[Half Blood Race]]: ordinary humans with red eyes and other characteristics but no extraordinary abilities. Some families of this kind of humans are still connected with blood races, and perhaps they can get First Embrace.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Dark Spells
+
+```yaml ability
+id: moon-seq-07-dark-spells
+name: Dark Spells
+pathway: moon
+sequence: 7
+type: active
+action: swift
+cost:
+  spirituality: 4
+roll: null
+opposed_by: physical_defense
+range: Choose 1 or more targets.
+target: designated target(s)
+duration: 5 minutes.
+scaling: []
+tags:
+- mobility
+- defense
+text: 'You master a variety of dark spells, including but not limited to the following:
+  #### Wings of Darkness Cost: 2 Spirit points. Use: As a Swift Action, you create
+  illusory bat wings. Duration: 5 minutes. Effect: A thick black mist spreads behind
+  you, shaped like a bats wings. Your Agility (DEX) +2 affects physical defense and
+  mobility; within 5 minutes, you can fly in the air at a speed equal to your mobility.
+  After 5 minutes, you will need to cast this ability again to fly again, which means
+  you should land first.'
+```
+
+
+
 
 - You master a variety of dark spells, including but not limited to the following:
 
@@ -196,6 +403,9 @@ tags: ["pathway:moon", "sequence:7"]
     - **Shackles of the Abyss:** Increase the Difficulty Value of the Strength test to 25.
     - **Claws of Corrosion:** Deals 3d6 + Strength damage bonus curse damage.
     - Improvements to other custom dark spells.
+
+- **Limits:** As described in this section's prose.
+
 
 ## Artificial Vampires
 

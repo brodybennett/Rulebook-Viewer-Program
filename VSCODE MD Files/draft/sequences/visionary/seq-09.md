@@ -1,8 +1,14 @@
 ---
-title: "Sequence 9: Spectator"
-id: "visionary-seq-09"
-tags: ["pathway:visionary", "sequence:9"]
+title: 'Sequence 9: Spectator'
+id: visionary-seq-09
+tags:
+- pathway:visionary
+- sequence:9
 ---
+
+
+
+
 
 # Visionary Pathway: Sequence 9
 
@@ -38,6 +44,33 @@ You are a **Spectator**: a bystander-like observer with outstanding spirit and k
 
 ### Enhanced Learning
 
+```yaml ability
+id: visionary-seq-09-enhanced-learning
+name: Enhanced Learning
+pathway: visionary
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+text: 'You become better at mastering skills related to psychology and psychological
+  guidance. If you complete an effective, real course of at least 2 hours, your corresponding
+  skills increase by 1 level. [[Skills]] To advance skill levels: Training Proficiency:
+  learn 2 times. Proficiency Advanced: learn 3 times. A Sequence 9 potion supports
+  you reaching Advanced for now; after that, your learning rate cannot gain a substantial
+  improvement. [[Potions]] *Limits Learning can only be done once per day.'
+```
+
+
+
+
 You become better at mastering skills related to psychology and psychological guidance.
 
 - If you complete an effective, real course of at least 2 hours, your corresponding skills increase by 1 level. [[Skills]]
@@ -50,11 +83,71 @@ You become better at mastering skills related to psychology and psychological gu
 - Learning can only be done once per day.
 - Characters of higher Sequences can use **twice** the Intuition (INT) brought by potions to improve their growth skills. Higher Sequences
 
+- **Effect:** Enhanced Learning resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Perfect Recall
+
+```yaml ability
+id: visionary-seq-09-perfect-recall
+name: Perfect Recall
+pathway: visionary
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: Under the premise of not being affected by extraordinary factors, you do not
+  forget things you have seen or heard. [[Extraordinary Factors]]
+```
+
+
+
 
 - Under the premise of not being affected by extraordinary factors, you do not forget things you have seen or heard. [[Extraordinary Factors]]
 
+- **Effect:** Perfect Recall resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Spectator State
+
+```yaml ability
+id: visionary-seq-09-spectator-state
+name: Spectator State
+pathway: visionary
+sequence: 9
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- debuff
+- defense
+text: 'You can enter a detached observational mode to read others real thoughts from
+  details. Use: 1 Free Action to enter Spectator State. [[Spectator State]] Effect:
+  While in Spectator State, you observe others real thoughts through details. End
+  Condition: Your Spectator State ends when you fall into an emotion or [[Shock]].
+  [[Conditions]] Resistance: When a creature attempts to make you enter anger, fear,
+  or charm (but not shock), their identification/check is at -4 disadvantage against
+  you.'
+```
+
+
+
 
 You can enter a detached observational mode to read others’ real thoughts from details.
 
@@ -64,13 +157,73 @@ You can enter a detached observational mode to read others’ real thoughts from
 
 - **Resistance:** When a creature attempts to make you enter **anger**, **fear**, or **charm** (but not **shock**), their identification/check is at **-4 disadvantage** against you.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Remove Emotional Effects
+
+```yaml ability
+id: visionary-seq-09-remove-emotional-effects
+name: Remove Emotional Effects
+pathway: visionary
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- mobility
+text: 'Use: 1 Casting Action Check: Psychology check, Difficulty 20. [[Psychology]]
+  Effect: Remove emotional effects on yourself not greater than [[Personality]].'
+```
+
+
+
 
 - **Use:** 1 Casting Action
 - **Check:** Psychology check, Difficulty 20. [[Psychology]]
 - **Effect:** Remove emotional effects on yourself not greater than [[Personality]].
 
+- **Limits:** As described in this section's prose.
+
+
 ### Observe Others
+
+```yaml ability
+id: visionary-seq-09-observe-others
+name: Observe Others
+pathway: visionary
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Choose 1 creature within your field of vision.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- detection
+- mobility
+text: 'Make a focused read of a visible target. Check: Make a Psychology check. Targeting
+  and range: Choose 1 creature within your field of vision. Effect: Gain information
+  based on the check result: 1) Difficulty 10: Confirm the targets current status
+  based on dress / habits / furnishing style of the room. 2) Difficulty 15: Confirm
+  the targets general thoughts / purposes from body language (no details). 3) Difficulty
+  20: Confirm the targets character from demeanor / expression / conversation, and
+  know how to get along with them. 4) Difficulty 25: Confirm possible relationships
+  between the target and anyone around them based on gaze direction / sneak glances
+  / small movements.'
+```
+
+
+
 
 Make a focused read of a visible target.
 
@@ -95,11 +248,71 @@ Make a focused read of a visible target.
 - This Audience status is passive and cannot be recorded or stolen.
 - Limited by intelligence, the observed results may not match the actual situation.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Passive Observation
+
+```yaml ability
+id: visionary-seq-09-passive-observation
+name: Passive Observation
+pathway: visionary
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: As long as someone reveals certain details in front of you, the GM may immediately
+  allow you to make an identification to obtain information.
+```
+
+
+
 
 - As long as someone reveals certain details in front of you, the **GM** may immediately allow you to make an identification to obtain information.
 
+- **Effect:** Passive Observation resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Psychological Guidance
+
+```yaml ability
+id: visionary-seq-09-psychological-guidance
+name: Psychological Guidance
+pathway: visionary
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- defense
+text: 'You subtly influence and secretly guide things to develop in the direction
+  you want. Setup: First determine one thing you want to guide, then confirm the result
+  you want to guide. Constraint: The guided result cannot contradict the intention
+  of the person being guided, and must be relevant and reasonable enough. Requirement:
+  You must take actions to make the guidance happen (not necessarily limited to words).
+  Opposition: Psychological Guidance is opposed to Willpower Defense. *Procedure (example
+  structure) 1) Confirm what you want to guide (e.g., guide a lady regarding marriage).
+  2) Confirm the result you want to guide (e.g., she accepts a third partys proposal
+  and abandons her husband).'
+```
+
+
+
 
 You subtly influence and secretly guide things to develop in the direction you want.
 
@@ -136,7 +349,44 @@ You subtly influence and secretly guide things to develop in the direction you w
 **Limits**
 - This is an improvement brought by the potion, so it cannot be stolen or recorded.
 
+- **Effect:** Psychological Guidance resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Spiritual Vision
+
+```yaml ability
+id: visionary-seq-09-spiritual-vision
+name: Spiritual Vision
+pathway: visionary
+sequence: 9
+type: toggle
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+- healing
+- mobility
+text: 'You gain more outstanding spiritual vision due to your Intuition (INT). Use:
+  1 free action to activate. Cost: 1 spirituality point per round while active. Effect:
+  While active, your vision gains the following benefits: 1) Etheric Body: See the
+  targets health status through aura color; find where the body is uncomfortable/has
+  problems. For specific organs, you can see inside through an unthickened door and
+  confirm the number of people inside. 2) Spiritual Body: Confirm whether an object/creature
+  has spirituality. This does not identify extraordinary people. You can also see
+  inside through a door, identify whether there is ritual magic power present, and
+  penetrate a spiritual wall. [[Ritual...'
+```
+
+
+
 
 You gain more outstanding spiritual vision due to your Intuition (INT).
 - **Use:** 1 **free action** to activate.
@@ -161,3 +411,5 @@ You gain more outstanding spiritual vision due to your Intuition (INT).
 
 **Limits**
 - Spirit Vision cannot be recorded or stolen.
+
+- **Limits:** As described in this section's prose.

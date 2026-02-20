@@ -1,10 +1,16 @@
 ---
-title: "Sequence 4: Manipulator"
-id: "visionary-seq-04"
-tags: ["pathway:visionary", "sequence:4"]
+title: 'Sequence 4: Manipulator'
+id: visionary-seq-04
+tags:
+- pathway:visionary
+- sequence:4
 ---
 
-# Old Dragon Pathway: Sequence 4
+
+
+
+
+# Visionary Pathway: Sequence 4
 
 ## Manipulator
 
@@ -37,6 +43,38 @@ Commonly associated techniques include:
 
 ### Multiple Minds
 
+```yaml ability
+id: visionary-seq-04-multiple-minds
+name: Multiple Minds
+pathway: visionary
+sequence: 4
+type: active
+action: attack
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'You possess a large number of virtual personalities that help resist attacks
+  and each has a corresponding mental body. Passive benefits: You can conduct multiple
+  skill appraisals at the same time (e.g., pick a lock while reading a book). In combat,
+  you can take an Attack Action and a Spellcasting action respectively. You may use
+  a virtual personality as a stand-in to resist influences in the spiritual field.
+  This does not resist damage from direct blows to the spirit body (e.g., [[Spiritual
+  Puncture]], [[Spiritual Breath]]). You have 13 virtual personalities in Sequence
+  4, and 16 after digesting the potion. All values of the virtual personality are
+  equal to yours. Note: If all your avatar...'
+```
+
+
+
+
 You possess a large number of **virtual personalities** that help resist attacks and each has a corresponding mental body.
 
 - **Passive benefits:**
@@ -59,7 +97,39 @@ You possess a large number of **virtual personalities** that help resist attacks
   - Separated identities and avatars can be endowed with extraordinary characteristics and memories.
   - If an avatar uses your main body to use high-level abilities: all abilities must be prepared as a **Full-Round Action**; passive abilities cannot be used; and all abilities can only be used initially.
 
+- **Effect:** Multiple Minds resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Psychic Breath
+
+```yaml ability
+id: visionary-seq-04-psychic-breath
+name: Psychic Breath
+pathway: visionary
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: willpower_defense
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- stealth
+- defense
+- offense
+text: 'You breathe out an invisible but searing flame. Cost: 6 points of Spirituality.
+  Use: Spellcasting action. Effect: Make a psychological attack against the targets
+  Willpower Defense with disadvantage (-4). Area: 10-meter cone. Deal 5d6 fire damage
+  with invisible mental fire. This damage cannot be reduced by any kind of fire resistance.'
+```
+
+
+
 
 You breathe out an invisible but searing flame.
 
@@ -73,7 +143,41 @@ You breathe out an invisible but searing flame.
   - You do not gain the double effect of burning plants and webs.
   - **Psychic Breath** causes enemies to take a -4 penalty on their next check for the [[Penetrating Blow That Pierces the Soul]].
 
+- **Limits:** As described in this section's prose.
+
+
 ### Psychic Storm
+
+```yaml ability
+id: visionary-seq-04-psychic-storm
+name: Psychic Storm
+pathway: visionary
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- stealth
+- offense
+text: 'You create an invisible wind, forming a psychic storm. This ability can be
+  used in two ways. Mode 1: Set off a spiritual storm in the Sea of Collective Subconscious
+  Cost: 5 Spirituality. Use: Spellcasting action. Area/Duration: 2d6 kilometers in
+  diameter for 1d6 hours. Effect: The mental storm immediately produces one weather
+  effect you choose: heavy rain, strong wind, thunder, or sunny day. The storm does
+  not appear in reality; it appears in the [[Sea of Collective Subconscious]], but
+  affects the corresponding position in reality, sweeping around and repeatedly slapping
+  the enemys [[Consciousness Island]].'
+```
+
+
+
 
 You create an invisible wind, forming a psychic storm. This ability can be used in two ways.
 
@@ -99,14 +203,81 @@ You create an invisible wind, forming a psychic storm. This ability can be used 
   - **Note:** If you cram compelling secret or important knowledge into the storm in this mode, the target is drawn to it and gains the knowledge as a result. If you hide in the dark, the target’s detection of the environment also fails by default because their attention is drawn away.
   - **Sequence interaction:** If the target is 1 Sequence lower than you, the special effect of the sanity test is directly replaced by the [[id:alias-frenzy|Frenzy]] effect.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Consciousness Walking
+
+```yaml ability
+id: visionary-seq-04-consciousness-walking
+name: Consciousness Walking
+pathway: visionary
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- offense
+text: 'Allows your consciousness and spiritual body to swim in the [[Sea of Collective
+  Subconscious]], but it cannot bring your physical body into it. Sequence 3: You
+  can bring in your physical body by transforming it into an [[Incorporeal Body]];
+  in this state you cannot receive physical damage, nor can you cause physical damage.
+  For details about the Sea of Collective Subconscious and Consciousness Islands,
+  see [[Chapter Twelve: Special Regions]].'
+```
+
+
+
 
 Allows your consciousness and spiritual body to swim in the [[Sea of Collective Subconscious]], but it cannot bring your physical body into it.
 
 - **Sequence 3:** You can bring in your physical body by transforming it into an [[Incorporeal Body]]; in this state you cannot receive physical damage, nor can you cause physical damage.
 - For details about the Sea of Collective Subconscious and Consciousness Islands, see [[Chapter Twelve: Special Regions]].
 
+- **Effect:** Consciousness Walking resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Accurate Grasp
+
+```yaml ability
+id: visionary-seq-04-accurate-grasp
+name: Accurate Grasp
+pathway: visionary
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- divination
+- control
+- offense
+text: You can precisely control your own psychology and spirit; premonition-like abilities
+  no longer work on you. This is an explanation, not a transcendent ability; demigods
+  of the Spectator path can already do this on their own, so this ability cannot be
+  stolen or recorded. From now on, premonition-type abilities have no effect on you
+  (e.g., fast immediate action, or any kind of extra-action ability with a high success
+  in the description). If an attack against you is successful, you cannot gain the
+  benefits of fast intuitive action. If you gain an extra action of fast intuitive
+  action through others, the target of that extra action cannot be you. The thiefs
+  swift hand grand success effect is...
+```
+
+
+
 
 You can precisely control your own psychology and spirit; premonition-like abilities no longer work on you.
 
@@ -116,7 +287,41 @@ You can precisely control your own psychology and spirit; premonition-like abili
 - If you gain an extra action of fast intuitive action through others, the target of that extra action cannot be you.
 - The thief’s swift hand grand success effect is also a quick intuitive action.
 
+- **Effect:** Accurate Grasp resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Psychic Stealth
+
+```yaml ability
+id: visionary-seq-04-psychic-stealth
+name: Psychic Stealth
+pathway: visionary
+sequence: 4
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- stealth
+- offense
+text: 'Your psychic cloaking advances further. Use: 1 Swift Action, once per round,
+  only available during the instant of [[Psychological Invisibility]] exposure. Effect:
+  While psychologically invisible, you consume an avatar to create a phantom beside
+  you that shares the objects affected by psychological invisibility. Only for the
+  moment when the psychic cloak is discovered and attacked, attacks on you (except
+  area attacks) are directed at the phantom instead. The phantom takes no real damageonly
+  Sanity / Rationality damageand goes insane. After the ability ends, the avatar returns
+  to your body.'
+```
+
+
+
 
 Your psychic cloaking advances further.
 
@@ -124,7 +329,40 @@ Your psychic cloaking advances further.
 - **Effect:** While psychologically invisible, you consume an avatar to create a phantom beside you that shares the objects affected by psychological invisibility. Only for the moment when the psychic cloak is discovered and attacked, attacks on you (except area attacks) are directed at the phantom instead.
 - The phantom takes no real damage—only Sanity / Rationality damage—and goes insane. After the ability ends, the avatar returns to your body.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Psychic Plague
+
+```yaml ability
+id: visionary-seq-04-psychic-plague
+name: Psychic Plague
+pathway: visionary
+sequence: 4
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- healing
+text: 'Quietly plant seeds of Contagious Madness in the targets mental island. Cost:
+  3 points of Spirituality. Use: Swift Action, once per round. Effect: Plant a spiritual
+  plague seed in the targets spiritual island. After detonation, the resulting madness
+  can spread through the [[Spiritual Body Thread]]. Maturation: Seeds require two
+  rounds to mature, then detonate on their own. On detonation: The detonated creature
+  is immediately regarded as being in a state of mental plague. Ongoing effect (each
+  round, until mental healing is obtained): The target makes a [[Sanity / Rationality
+  Check]] (0/1).'
+```
+
+
+
 
 Quietly plant seeds of “Contagious Madness” in the target’s mental island.
 
@@ -158,3 +396,5 @@ Quietly plant seeds of “Contagious Madness” in the target’s mental island.
   - Half of its influence can be offset through the virtual personality: instead of being limited to only swift/free actions, the target may take 1 normal action per round (but still loses one action that round).
   - It can be evaded in advance by [[Teleportation]] or swapping positions, provided the target is aware of it.
   - With a specific shelter, it can only delay maturity time by 2 rounds, and the impact is halved.
+
+- **Limits:** As described in this section's prose.

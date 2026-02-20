@@ -1,15 +1,37 @@
 ---
-title: "Sequence 7: Nightmare"
-id: "night-seq-07"
-tags: ["pathway:night", "sequence:7"]
+title: 'Sequence 7: Nightmare'
+id: night-seq-07
+tags:
+- pathway:night
+- sequence:7
 ---
 
-# Sequence 7: Nightmare
+
+
+
+
+# Darkness Pathway: Sequence 7
 
 - You can forcibly pull other people into a dream.
 - You can also freely enter and exit the dreams of any sleeping person across a huge range. [[Enter/exit dreams]]
 - Forcibly dragging people into dreams has a limited range and usually appears in head-to-head confrontations, but you do **not** need to be face-to-face to attempt it.
 - Within 100 meters, this influence takes time and a process and cannot be completed all at once—like coaxing a child to sleep.
+
+## Nightmare
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -20,6 +42,35 @@ tags: ["pathway:night", "sequence:7"]
 - The skill growth of Sequence 9 follows the rapid growth rules; cap at **Master**; growth count increases sequentially (2/3/4).
 
 ### Forcibly Pull People Into Dreams
+
+```yaml ability
+id: night-seq-07-forcibly-pull-people-into-dreams
+name: Forcibly Pull People Into Dreams
+pathway: night
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Select 1 or more targets within 100 meters and within your field of vision.
+  [[Field of Vision]]
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+text: 'Use: 1 Casting Action. Casting Action Cost: Consume 3 Spirituality points.
+  [[Spirituality]] Targeting and range: Select 1 or more targets within 100 meters
+  and within your field of vision. [[Field of Vision]] Limits: No more than 10 targets
+  in your field of vision are immediately dreamed. No identification is required.
+  Undead creatures are also affected. [[Undead creatures]] Effect: Force the selected
+  targets into a dream.'
+```
+
+
+
 
 - **Use:** 1 Casting Action. Casting Action
 - **Cost:** Consume 3 **Spirituality points**. [[Spirituality]]
@@ -81,6 +132,38 @@ While maintaining the dream state, you suffer the following disadvantages:
 
 ### Nightmare Transformation
 
+```yaml ability
+id: night-seq-07-nightmare-transformation
+name: Nightmare Transformation
+pathway: night
+sequence: 7
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- mobility
+text: 'Use: 1 Full-Round Action. Cost: No Spirituality expenditure. Requirement: You
+  must fall asleep in reality; your spirit body enters the dream world. [[Spirit body]]
+  *Dream world: A world that looks the same as reality, shrouded in mist; the range
+  you can reach is a city. The city in this world is composed of the common cognition
+  of countless dreamers. In the dream world: You can use Dream Perception to see the
+  location of light clusters. Their positions match the real world: wherever the real
+  dreamer is, the light cluster in the dream is in the dream world. You begin as a
+  spirit body separated from your own body. You can reach the boundary of your dream,
+  fly into the air, leave your dream,...'
+```
+
+
+
+
 - **Use:** 1 Full-Round Action.
 - **Cost:** No Spirituality expenditure.
 - **Requirement:** You must fall asleep in reality; your spirit body enters the dream world. [[Spirit body]]
@@ -107,7 +190,42 @@ In the dream world:
 Special:
 - Although your spirit body has entered the dream world, your real spirit body remains with your physical body; the dream spirit body is a projection.
 
+- **Effect:** Nightmare Transformation resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Dream Perception
+
+```yaml ability
+id: night-seq-07-dream-perception
+name: Dream Perception
+pathway: night
+sequence: 7
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+- stealth
+text: 'Use: 1 Swift Action. Swift Action Effect: Open Dream Perception to see clusters
+  of illusory oval balls of light that hide or appear, representing the sources of
+  dreams. Each ball of light represents a dream: The balls of light can be seen through
+  barriers. You can tell whether a creature is asleepand can also tell if it is not
+  asleepso this can be used to some extent to detect whether living things exist in
+  a place. [[Living things]] The dreams you perceive allow you to enter them with
+  Invasion Dreams and use Nightmare abilities to guide them. Even if you directly
+  destroy some things in the dreams, the dream owner can no longer manifest them in
+  that dream. [[Invasion Dreams]] The range of...'
+```
+
+
+
 
 - **Use:** 1 Swift Action. Swift Action
 - **Effect:** Open Dream Perception to see clusters of illusory oval balls of light that hide or appear, representing the sources of dreams.
@@ -116,6 +234,9 @@ Each ball of light represents a dream:
 1. The balls of light can be seen through barriers. You can tell whether a creature is asleep—and can also tell if it is not asleep—so this can be used to some extent to detect whether living things exist in a place. [[Living things]]
 2. The dreams you perceive allow you to enter them with Invasion Dreams and use Nightmare abilities to guide them. Even if you directly destroy some things in the dreams, the dream owner can no longer manifest them in that dream. [[Invasion Dreams]]
 3. The range of dreams you can perceive is the same as the range you can pull into dreams.
+
+- **Limits:** As described in this section's prose.
+
 
 ## Later Sequence Upgrades (Reference)
 

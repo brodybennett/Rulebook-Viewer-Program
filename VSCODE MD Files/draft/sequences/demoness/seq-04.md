@@ -1,10 +1,16 @@
 ---
-title: "Sequence 4: Despair (Witch)"
-id: "demoness-seq-04"
-tags: ["pathway:Demoness", "sequence:4"]
+title: 'Sequence 4: Despair'
+id: demoness-seq-04
+tags:
+- pathway:demoness
+- sequence:4
 ---
 
-# Witch Pathway: Sequence 4
+
+
+
+
+# Demoness Pathway: Sequence 4
 
 - See also: [[Demoness]]
 
@@ -26,6 +32,38 @@ tags: ["pathway:Demoness", "sequence:4"]
 - **Attribute Gain:** Strength +1, Agility (DEX) +2, Constitution +1, Willpower (WIL) +2, Charisma +1
 
 ### Man-Made Disasters
+
+```yaml ability
+id: demoness-seq-04-man-made-disasters
+name: Man-Made Disasters
+pathway: demoness
+sequence: 4
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Your **Blight Aura** [[Blight Aura]] is now wide enough to cover a small town,
+  and can spread wider under certain conditions by exploiting existing potential hazards.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- buff
+text: 'Effect: Your ability to spread disease and create disasters is enhanced. Targeting
+  and range: Your Blight Aura [[Blight Aura]] is now wide enough to cover a small
+  town, and can spread wider under certain conditions by exploiting existing potential
+  hazards. Process (hazard amplification): You must explore relevant real-world/setting
+  events that have already occurred and discover potential man-made disasters that
+  are harbingers and exploitable; you can amplify them. Example: For smog and weather
+  pollution, with sufficient preparation you can intervene in one source of the problem
+  once, and immediately amplify it through 8-point spiritual ritual magic [[Spiritual
+  Ritual Magic]]. Smog example...'
+```
+
+
+
 
 - **Effect:** Your ability to spread disease and create disasters is enhanced.
 - **Targeting and range:** Your **Blight Aura** [[Blight Aura]] is now wide enough to cover a small town, and can spread wider under certain conditions by exploiting existing potential hazards.
@@ -56,7 +94,38 @@ tags: ["pathway:Demoness", "sequence:4"]
   - If conditions are right, they can be vectors for the spread of your plague.
 - **Progression:** This ability will be substantially improved in [[id:alias-sequence-2|Sequence 2]].
 
+- **Limits:** As described in this section's prose.
+
+
 ### Mirror Illusion
+
+```yaml ability
+id: demoness-seq-04-mirror-illusion
+name: Mirror Illusion
+pathway: demoness
+sequence: 4
+type: active
+action: free
+cost:
+  spirituality: 6
+roll: null
+opposed_by: none
+range: You create an extremely realistic illusion in a place where a mirror can reflect
+  it.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Use: As a free action, once per turn. Cost: 3 spirituality points. [[Spirituality]]
+  Targeting and range: You create an extremely realistic illusion in a place where
+  a mirror can reflect it. Effect: The premise is that the thing under illusion really
+  exists here, so it can be reflected. You can create illusions of: Yourself Items
+  in your possession (which can be given to others)'
+```
+
+
+
 
 - **Use:** As a free action, once per turn.
 - **Cost:** 3 spirituality points. [[Spirituality]]
@@ -73,3 +142,5 @@ tags: ["pathway:Demoness", "sequence:4"]
   - Only when the enemy senses something clearly amiss are they allowed to discover the truth with a Scout or Intuition (INT) check of **20 + your Pleasing stat**. [[Scout]] Intuition [[Pleasing]]
 - If the **target** is in a mirrored environment, the illusion will be extremely real and indistinguishable.
 - **Additional (Sequence 4):** When digestibility reaches **20**, you can also directly transmit power through the mirror. [[Digestibility]]
+
+- **Limits:** As described in this section's prose.

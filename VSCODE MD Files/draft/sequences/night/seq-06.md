@@ -1,10 +1,32 @@
 ---
-title: "Sequence 6: Soul Assurer"
-id: "night-seq-06"
-tags: ["pathway:night", "sequence:6"]
+title: 'Sequence 6: Nightwatcher'
+id: night-seq-06
+tags:
+- pathway:night
+- sequence:6
 ---
 
-# Sequence 6: Soul Assurer
+
+
+
+
+# Darkness Pathway: Sequence 6
+
+## Nightwatcher
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -14,6 +36,39 @@ tags: ["pathway:night", "sequence:6"]
 - Your occult skills increase by 1 level.
 
 ### Requiem
+
+```yaml ability
+id: night-seq-06-requiem
+name: Requiem
+pathway: night
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- control
+- debuff
+text: 'Cost: 1 Casting Action; consume 3 Spirituality. Targeting and range: Select
+  1 target within your Field of Vision; affect a range of 130 meters; or Select all
+  targets within this range; affects all creatures except you indiscriminately. The
+  range of influence can be controlled. Limits: There is no specific limit to the
+  number of Requiems. Effect: You appease the soul, smooth out the opponents desires
+  and emotions, or put the natural spirit in a relatively peaceful state. The chosen
+  creature suffers the following effects, which cannot be superimposed, and no identification
+  is required: Mental states such as anger, fear, charm, temporary madness, indeterminate
+  madness, and malice are immedia...'
+```
+
+
+
 
 - **Cost:** 1 **Casting Action**; consume 3 **Spirituality**.
 - **Targeting and range:**
@@ -37,15 +92,76 @@ tags: ["pathway:night", "sequence:6"]
 
 ### Spiritual Vision
 
+```yaml ability
+id: night-seq-06-spiritual-vision
+name: Spiritual Vision
+pathway: night
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- buff
+text: After reaching the level of Sequence 6, your high Intuition (INT) has really
+  enhanced your spiritual vision. From now on, you dont need to activate your spirit
+  vision; you can directly use normal vision to spot [[spiritual creatures]]. This
+  does not include the advanced invisibility of [[resentful souls]]. This does not
+  include [[information creatures]]. (This is the effect brought by 1 potion and cannot
+  be stolen or recorded.)
+```
+
+
+
+
 - After reaching the level of **Sequence 6**, your high Intuition (INT) has really enhanced your spiritual vision.
 - From now on, you don’t need to activate your spirit vision; you can directly use normal vision to spot [[spiritual creatures]].
   - This does not include the advanced invisibility of [[resentful souls]].
   - This does not include [[information creatures]].
 - (This is the effect brought by 1 potion and cannot be stolen or recorded.)
 
+- **Effect:** Spiritual Vision resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Ritual Mastery
+
+```yaml ability
+id: night-seq-06-ritual-mastery
+name: Ritual Mastery
+pathway: night
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: You gain access to ritual magic, able to invoke power from the gods. While holding
+  this ability, you gain access to ritual magic, regardless of whether your occult
+  skill is advanced or not. For the ritual magic you can use, refer to [[Common Ritual
+  Magic]]. (This is the effect brought by 1 potion and cannot be stolen or recorded.)
+```
+
+
+
 
 - You gain access to ritual magic, able to invoke power from the gods.
 - While holding this ability, you gain access to ritual magic, regardless of whether your occult skill is advanced or not.
 - For the ritual magic you can use, refer to [[Common Ritual Magic]].
 - (This is the effect brought by 1 potion and cannot be stolen or recorded.)
+
+- **Effect:** Ritual Mastery resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

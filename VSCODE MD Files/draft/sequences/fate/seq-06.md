@@ -1,12 +1,34 @@
 ---
-title: "Sequence 6: Disaster Priest"
-id: "fate-seq-06"
-tags: ["pathway:fate", "sequence:6"]
+title: 'Sequence 6: Calamity Priest'
+id: fate-seq-06
+tags:
+- pathway:fate
+- sequence:6
 ---
 
-# Sequence 6: Disaster Priest
+
+
+
+
+# Wheel of Fortune Pathway: Sequence 6
 
 > **Lore:** A Disaster Priest often encounters disasters passively, but can foresee them and prepare to eliminate or mitigate their impact. They leverage “luck” to avoid most dangers, attack amid chaos, and draw opponents into environments that favor them—sometimes even using passively encountered dangers as weapons.
+
+## Calamity Priest
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -15,6 +37,33 @@ tags: ["pathway:fate", "sequence:6"]
 - **Attribute Gain:** Intuition (INT) +2.
 
 ### Disasters
+
+```yaml ability
+id: fate-seq-06-disasters
+name: Disasters
+pathway: fate
+sequence: 6
+type: active
+action: cast
+cost:
+  spirituality: 6
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: The above disasters only last for **1 round**.
+scaling: []
+tags:
+- ritual
+text: 'Passive: At 0:00 every day, roll 1d3 to determine how many disasters you encounter
+  today. For each disaster, roll 1d24 to determine the time of day when the disaster
+  will occur. By default, you can foresee the time and location of the disaster. Note:
+  In addition to 1d24, roll 1d59 for each disaster to determine how many minutes per
+  hour. Active: Use: 1 Casting Action Cost: 3 spirituality points'
+```
+
+
+
 
 > **Lore:** You passively encounter disasters, but can prepare in advance and exploit them in combat.
 
@@ -55,7 +104,40 @@ tags: ["pathway:fate", "sequence:6"]
 - **Duration:** The above disasters only last for **1 round**.
 - **Special:** For every target higher than you by 1+ Sequence, the difficulty of all **Luck** checks is **halved (rounded up)**.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Spiritual Storm
+
+```yaml ability
+id: fate-seq-06-spiritual-storm
+name: Spiritual Storm
+pathway: fate
+sequence: 6
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: All targets within 20 meters from you as the center
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- buff
+- defense
+text: 'Use: 1 Casting Action Cost: 3 spiritual points Targeting and range: All targets
+  within 20 meters from you as the center Effect: Make an Intuition (INT) check against
+  physical defense. On success, it will cause a shock effect, and cause all affected
+  targets to suffer a common disaster from the Disasters list (GM chooses). Special:
+  For a creature suffering from a mental storm, within 1 round, the basic value of
+  the big failure judgment is increased by 2 points (that is, 1, 2, and 3 are all
+  big failures).'
+```
+
+
+
 
 > **Lore:** You create a “spiritual storm,” directly affecting the other party’s spiritual/mental body and causing dizziness or mental loss.
 
@@ -70,3 +152,5 @@ tags: ["pathway:fate", "sequence:6"]
   - For a creature suffering from a mental storm, within **1 round**, the basic value of the big failure judgment is increased by **2** points (that is, **1, 2, and 3** are all big failures).
   - The **Omen magnification** disaster is changed to **1–7** being regarded as a big failure.
   - It will lead to more and more disasters. “Mental storm” here refers to this **Spiritual Storm** ability.
+
+- **Limits:** As described in this section's prose.

@@ -1,10 +1,16 @@
 ---
-title: "Sequence 9: Planter"
-id: "earth-seq-09"
-tags: ["pathway:earth", "sequence:9"]
+title: 'Sequence 9: Planter'
+id: earth-seq-09
+tags:
+- pathway:earth
+- sequence:9
 ---
 
-# Earth Pathway: Sequence 9
+
+
+
+
+# Mother Pathway: Sequence 9
 
 ## Planter
 
@@ -12,6 +18,20 @@ tags: ["pathway:earth", "sequence:9"]
 - **Pathway trait:** Earth is a purely feminine **Pathway**. At the beginning of Earth Pathway: Sequence 2, you become female.
 - You can distinguish different seeds and have high strength.
 - You can tell the time of day and are good at predicting the weather.
+
+## Advancement
+
+### Main Materials
+
+- **Main Materials:** TBD.
+
+### Auxiliary Materials
+
+- **Auxiliary Materials:** TBD.
+
+### Advancement Ritual
+
+- **Advancement Ritual:** TBD.
 
 ## Extraordinary Abilities
 
@@ -22,6 +42,36 @@ tags: ["pathway:earth", "sequence:9"]
 
 ### Planting Growth
 
+```yaml ability
+id: earth-seq-09-planting-growth
+name: Planting Growth
+pathway: earth
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- buff
+text: Every time you receive at least 2 hours of real, non-repetitive related guidance,
+  choose [[Agriculture]] or [[Botany]]; the chosen skill increases by 1 level. Botany
+  can be promoted up to Proficient at most. Agriculture can be rapidly promoted up
+  to Proficient at most. From training to proficiency, to advanced, to mastery, you
+  need to learn 2, 3, 4 times; this section caps growth at Proficient. Successfully
+  cultivating a seed through the stage of flowering and fruiting is also regarded
+  as a growth. Cultivating duplicate seeds does not improve growth. When creating
+  a character who has not just been promoted, growth skills gain 2x Intuition (INT)
+  points from the potion.
+```
+
+
+
+
 - Every time you receive at least **2 hours** of real, non-repetitive related guidance, choose [[Agriculture]] or [[Botany]]; the chosen skill increases by **1 level**.
   - Botany can be promoted up to Proficient at most.
   - Agriculture can be rapidly promoted up to Proficient at most.
@@ -30,7 +80,41 @@ tags: ["pathway:earth", "sequence:9"]
 - Cultivating duplicate seeds does not improve growth.
 - When creating a character who has not just been promoted, growth skills gain **2x Intuition (INT)** points from the potion.
 
+- **Effect:** Planting Growth resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Identify Seeds
+
+```yaml ability
+id: earth-seq-09-identify-seeds
+name: Identify Seeds
+pathway: earth
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: One seed within your field of vision.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+text: 'Use: 1 Casting Action Casting Action. Cost: None (does not consume [[Spirituality]]).
+  Targeting and range: One seed within your field of vision. Effect: Immediately learn
+  the seeds type and state, the result of planting it, and what needs attention when
+  planting (temperature, weather, soil, etc.). With precise identification, you can
+  plant many strange plants that are difficult for ordinary people, improving your
+  life. #### Plants You Can Grow 1) Ordinary crops: Crops that do not possess extraordinary
+  power and belong to the field of ordinary things. Vegetable food: Harvest after
+  1 + 1d2 weeks (e.g., corn, tomato, potato); no need to worry about food sources.'
+```
+
+
+
 
 - **Use:** 1 **Casting Action** Casting Action.
 - **Cost:** None (does not consume [[Spirituality]]).
@@ -89,7 +173,41 @@ Obtain the recuperation benefits of the corresponding spiritual fruit according 
 - Higher-order Extraordinary: By default, you have obtained all the recuperation benefits of the spiritual fruit.
 - **Special:** If the Extraordinary reaches the corresponding digestion progress without knowing how to act, the number of benefits is doubled.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Telling the Time of Day
+
+```yaml ability
+id: earth-seq-09-telling-the-time-of-day
+name: Telling the Time of Day
+pathway: earth
+sequence: 9
+type: active
+action: cast
+cost:
+  spirituality: 4
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'Use: 1 Casting Action Casting Action. Cost: 1 spirituality point [[Spirituality]]
+  for the initial prediction (1 day). Each additional day costs 1 spirituality point
+  and adds 1 additional 1d3 roll. Limits: Forecast at most 7 days. Effect: For each
+  day predicted, roll 1d3 and interpret the result by the current season. #### Spring
+  (1d3) Sunny day: Warm and sunny; plants do not need additional treatment, and creatures
+  can survive comfortably. Spring rain: Rainy and humid, suitable for plant growth.
+  If organisms do not have sufficient protection, they suffer severe cold effects
+  after being exposed to rain for 1 hour. Cold current: Sudden cold current may cause
+  adverse effects on plants; insuf...'
+```
+
+
+
 
 - **Use:** 1 **Casting Action** Casting Action.
 - **Cost:** **1 spirituality point** [[Spirituality]] for the initial prediction (1 day). Each additional day costs **1 spirituality point** and adds **1** additional **1d3** roll.
@@ -128,13 +246,79 @@ Obtain the recuperation benefits of the corresponding spiritual fruit according 
 
 ### Severe Cold and Hot Effect
 
+```yaml ability
+id: earth-seq-09-severe-cold-and-hot-effect
+name: Severe Cold and Hot Effect
+pathway: earth
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- defense
+- offense
+text: 'Severe cold: Biological skills and attribute evaluations that are not well-preserved
+  are disadvantaged at -2, and agility and evasion in mobility and physical defense
+  continue to be -2. If you stay in a severe cold environment for 12 hours, you start
+  to suffer 1d3 cold damage each round. Hot: Biological skills and attribute appraisals
+  that do not have sufficient cooling are disadvantaged at -2, and agility and dodge
+  in mobility and physical defense last at -2. If you stay in a hot environment for
+  6 hours, you faint due to heat stroke. Cold has no effect on creatures with [[Cold
+  Resistance]], and heat has no effect on creatures with [[Fire Resistance]]. Special:
+  The identified weather does...'
+```
+
+
+
+
 - **Severe cold:** Biological skills and attribute evaluations that are not well-preserved are disadvantaged at **-2**, and agility and evasion in mobility and physical defense continue to be **-2**. If you stay in a severe cold environment for **12 hours**, you start to suffer **1d3** cold damage each round.
 - **Hot:** Biological skills and attribute appraisals that do not have sufficient cooling are disadvantaged at **-2**, and agility and dodge in mobility and physical defense last at **-2**. If you stay in a hot environment for **6 hours**, you faint due to heat stroke.
 - Cold has no effect on creatures with [[Cold Resistance]], and heat has no effect on creatures with [[Fire Resistance]].
 - **Special:** The identified weather does not necessarily happen. Weather-related Extraordinary abilities can change the result; because they generally take effect immediately, it is difficult to predict them in advance, but it may be predictable in places with a certain distance from the source of the extraordinary ability.
 - > **GM Note:** These effects are usually easy to avoid, but this does not include homeless/homeless people; they will most likely die overnight.
 
+- **Effect:** Severe Cold and Hot Effect resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Spiritual Vision
+```yaml ability
+id: earth-seq-09-spiritual-vision
+name: Spiritual Vision
+pathway: earth
+sequence: 9
+type: toggle
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+text: 'Use: 1 free action to activate. Cost: 1 spirituality point per round while
+  active. Effect: While active, your vision gains the following benefits: Etheric
+  body: See through the targets aura field to locate physical defects, down to organs
+  in detail. Spiritual body: Confirm whether an object/creature is spiritual; this
+  cannot identify extraordinary people. Mental Body: Confirm whether a creature is
+  thinking; you cannot obtain more detailed information. Astral body: You cannot see
+  the astral body. Sequence 8: If you use Spiritual Vision to determine the cause
+  of a creature, you gain +2 to [[Medical identification]] of the symptom. Earth Pathway:
+  Sequence 8'
+```
+
+
+
+
 - **Use:** 1 **free action** to activate.
 - **Cost:** 1 **spirituality point per round** while active.
 - **Effect:** While active, your vision gains the following benefits:
@@ -151,3 +335,5 @@ Obtain the recuperation benefits of the corresponding spiritual fruit according 
 
 - Spiritual Vision can see some ordinary spirit bodies by default; those that have not dissipated for **1 day**.
 - Ordinary spirit bodies seen this way cannot be recorded or stolen.
+
+- **Limits:** As described in this section's prose.

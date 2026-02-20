@@ -1,10 +1,16 @@
 ---
-title: "Sequence 7: Magician"
-id: "fool-seq-07"
-tags: ["pathway:fool", "sequence:7"]
+title: 'Sequence 7: Magician'
+id: fool-seq-07
+tags:
+- pathway:fool
+- sequence:7
 ---
 
-# Sequence 7: Magician
+
+
+
+
+# Fool Pathway: Sequence 7
 
 ## Magician
 
@@ -55,6 +61,37 @@ Performance improvement:
 
 ### Injury Transfer
 
+```yaml ability
+id: fool-seq-07-injury-transfer
+name: Injury Transfer
+pathway: fool
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Choose 1 living creature whose wound your limb touched.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- mobility
+- offense
+text: 'Use: 1 Casting Action Cost: 2 spirit points Targeting and range: Choose 1 living
+  creature whose wound your limb touched. Effect: You transfer the wound in the vital
+  position to less important places such as the arm, turning the fatal injury into
+  a minor injury. [[Vital Strike]] If the creature is under one type of vital strike
+  effect, you can transfer the vital strike effect of this part to another limb part
+  (e.g., transfer the vital strike effect of the head to the arm), and the shock and
+  extra damage brought by the vital strike will be transferred remove. The creature
+  suffers the vital blow effect of the arm, and the additional damage that is not
+  originally included will also be reflect...'
+```
+
+
+
+
 - **Use:** 1 **Casting Action**
 - **Cost:** 2 **spirit points**
 - **Targeting and range:** Choose 1 living creature whose wound your limb touched.
@@ -69,7 +106,42 @@ Performance improvement:
    - [[Physical Defense]]
 4. A creatureâ€™s wound can only be transferred on itself; the wound cannot be transferred from one person to another.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Flame Jump
+
+```yaml ability
+id: fool-seq-07-flame-jump
+name: Flame Jump
+pathway: fool
+sequence: 7
+type: active
+action: swift
+cost: {}
+roll: null
+opposed_by: none
+range: Choose a fire or flame whose location you know, within 30 meters.
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- mobility
+- offense
+text: 'Use: 1 Swift Action Limits: 1 time per round Cost: 3 spirituality points Targeting
+  and range: Choose a fire or flame whose location you know, within 30 meters. Effect:
+  The fire you left on yourself and the original flame flash, similar to teleportation,
+  with the help of the special spirit world. If there is an ignited flame within 30
+  meters, after casting, your body will be covered by flames, and the flame you selected
+  will immediately rise to the size of a human figure, allowing you to jump out of
+  it. If there is fire (matches and other combustibles) within 30 meters, you need
+  to use the fire to ignite it first before using this ability on it. This ability
+  can be used to avoid damage wit...'
+```
+
+
+
 
 - **Use:** 1 **Swift Action**
 - **Limits:** 1 time per round
@@ -86,6 +158,38 @@ Special:
 - When holding the ability of flame jump, you can sense flames that have ignited within 30 meters around you.
 
 ### Manipulate Flames
+
+```yaml ability
+id: fool-seq-07-manipulate-flames
+name: Manipulate Flames
+pathway: fool
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: Choose a flame or kindling within 30 meters of a location you know (any combustibles
+  including matches).
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'Use: 1 Casting Action Cost: 1 point of spirituality Requirements: You must
+  snap your fingers or simulate the sound of snapping your fingers. Targeting and
+  range: Choose a flame or kindling within 30 meters of a location you know (any combustibles
+  including matches). Limits: You can only choose 1 usage at a time. The usage options
+  are: Choose one or more fire seeds. Whenever a creature reaches the location of
+  the fire seeds, you can make it shoot up a pillar of fire, causing damage. Each
+  fire pillar causes 2d6 fire damage. Mysticism against physical defense, ignoring
+  agility and dodge.'
+```
+
+
+
 
 - **Use:** 1 **Casting Action**
 - **Cost:** 1 point of **spirituality**
@@ -112,7 +216,41 @@ Special:
 - The magician can only control fire for a moment; you canâ€™t shape fire for a long time, or create a wall of fire.
 - After the potion is digested or promoted: you can start to summon flame out of thin air; no fire is needed, but it can only last for a moment unless there is a combustible object. It is too late to use this method to jump the flame.
 
+- **Effect:** Manipulate Flames resolves using its yaml ability block and section prose.
+
+
 ### Air Bomb
+
+```yaml ability
+id: fool-seq-07-air-bomb
+name: Air Bomb
+pathway: fool
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: physical_defense
+range: Select 1 or more targets within the field of vision.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- defense
+- offense
+text: 'Use: 1 Casting Action Cost: 1 point of spirituality Targeting and range: Select
+  1 or more targets within the field of vision. Requirements: Need to snap fingers
+  or simulate the sound of snapping fingers. Check: Intuition (INT) + shooting against
+  physical defense, ignoring the agility and dodge in physical defense. Effect: If
+  the identification is successful, it causes 1d8 physical damage (comparable to a
+  custom revolver). Limits: You can fire 3 times in a single Casting Action: From
+  the second shot: -2 penalty'
+```
+
+
+
 
 - **Use:** 1 **Casting Action**
 - **Cost:** 1 point of **spirituality**
@@ -125,6 +263,38 @@ Special:
   - From the third shot: **-4** penalty
 
 ### Paper Doll Substitute
+
+```yaml ability
+id: fool-seq-07-paper-doll-substitute
+name: Paper Doll Substitute
+pathway: fool
+sequence: 7
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'Use: 1 free action Cost: 5 spirituality points and 1 paper figurine Effect:
+  Choose one of the following effects to take effect: Immediately before you are about
+  to be attacked, you take the initiative to replace yourself with a paper doll, resisting
+  an attack or other effects, completely nullifying the effect. You reappear at most
+  8 meters away; the latter is incidental displacement effect. Special (area attacks):
+  If the doubleaTMs displacement doesnaTMt allow you to leave the area of influence,
+  you take half damage. Half damage is rounded up. Must be used immediately. Because
+  it is an active ability, you must recognize the corresponding threat to be a substitute.
+  An effect that has alrea...'
+```
+
+
+
 
 - **Use:** 1 **free action**
 - **Cost:** 5 **spirituality points** and 1 **paper figurine**
@@ -144,7 +314,42 @@ Special:
    - Cannot communicate.
    - Special: When the paper figurine turns into a dummy, your body can become invisible, but you cannot leave the dummy within **8 meters**.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Illusion
+
+```yaml ability
+id: fool-seq-07-illusion
+name: Illusion
+pathway: fool
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: Affect the environment within **8 meters** around you.
+target: designated target(s)
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+- social
+text: 'Use: 1 Casting Action Cost: 2 spiritual points Targeting and range: Affect
+  the environment within 8 meters around you. Effect: You influence your surroundings
+  to create near-real illusions with colours, sounds, and smells; you create an illusion.
+  The content of the hallucination is customized; the created hallucination has color,
+  sound, and smell at the same time, and is extremely real. Any creature that witnesses
+  the illusion must actively recognize that it may be an illusion and try to identify
+  it before fighting. Confrontation is a deception against detection/inspiration identification.
+  Because this ability will generally be exposed after being used once, the subject
+  deceived by the il...'
+```
+
+
+
 
 - **Use:** 1 **Casting Action**
 - **Cost:** 2 **spiritual points**
@@ -158,7 +363,37 @@ Special:
 Special:
 - Beings higher than your Sequence by 1+ default to directly perceiving hallucinations as false.
 
+- **Limits:** As described in this section's prose.
+
+
 ### False "breathing underwater"
+
+```yaml ability
+id: fool-seq-07-false-breathing-underwater
+name: False "breathing underwater"
+pathway: fool
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- stealth
+text: 'Use: As a Casting Action Cost: 1 sanity point Effect: You create an invisible
+  thin tube of air that is invisible, 5 meters long. You can breathe through its mouth
+  and exhale through its nose, ensuring "underwater breathing" in an environment with
+  a water depth of less than 5 meters. Or, in an environment with toxins and harmful
+  gases, you can use it to breathe air up to 5 meters above to avoid ingesting toxins,
+  as long as the range of toxins does not exceed this length.'
+```
+
+
+
 
 - **Use:** As a **Casting Action**
 - **Cost:** 1 **sanity point**
@@ -166,7 +401,40 @@ Special:
   - You can breathe through its mouth and exhale through its nose, ensuring "underwater breathing" in an environment with a water depth of less than **5 meters**.
   - Or, in an environment with toxins and harmful gases, you can use it to breathe air up to **5 meters** above to avoid ingesting toxins, as long as the range of toxins does not exceed this length.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Bone Softening
+
+```yaml ability
+id: fool-seq-07-bone-softening
+name: Bone Softening
+pathway: fool
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- control
+text: 'You soften your bones, freeing you from handcuffs, ropes, and boxes. Use: 1
+  Casting Action. Whenever you fall into a grapple, or get restrained by handcuffs,
+  ropes, and other small things, you can soften your bones and break free immediately.
+  This does not include oversize bondage where the xeno demigod lets your clothing
+  bind yourself. Use: 1 Casting Action. Whenever you realize that you are about to
+  fall into a critical blow, even if you are in a state of physical restraint, you
+  can soften your bones, barely bend your waist, and your upper body will fall backwards,
+  avoiding this time vital blow. Exclude the vital parts that you avoided, and perform
+  a 1d6: 1a5 is other vital points; 6 me...'
+```
+
+
+
 
 You soften your bones, freeing you from handcuffs, ropes, and boxes.
 
@@ -175,7 +443,43 @@ You soften your bones, freeing you from handcuffs, ropes, and boxes.
 2. **Use:** 1 **Casting Action**. Whenever you realize that you are about to fall into a critical blow, even if you are in a state of physical restraint, you can soften your bones, barely bend your waist, and your upper body will fall backwards, avoiding this time vital blow.
    - Exclude the vital parts that you avoided, and perform a 1d6: 1â€“5 is other vital points; 6 means the vital points are not hit.
 
+- **Effect:** Bone Softening resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Turn Paper into Soldiers
+
+```yaml ability
+id: fool-seq-07-turn-paper-into-soldiers
+name: Turn Paper into Soldiers
+pathway: fool
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- defense
+- offense
+text: 'You can turn paper into sharp objects, and also into sticks, bricks, and other
+  weapons for a short time. Use: 1 Casting Action Cost: 1 point of spirituality Requirements:
+  As long as you prepare paper corresponding to the approximate shape, you can make
+  it sharp immediately after ashakinga and turn it into a weapon. The effect of the
+  manufactured weapon is equal to that in aWeapon Paradigm,a but you can only manufacture
+  cold weapons, not complex hot weapons. The effect lasts five minutes, and can be
+  used by others. [[Weapon Paradigm]] Although it becomes sharper, it still does not
+  get rid of the characteristics of paper. If a paper weapon hits a hard object such
+  as armor, it will be damage...'
+```
+
+
+
 
 You can turn paper into sharp objects, and also into sticks, bricks, and other weapons for a short time.
 
@@ -188,7 +492,35 @@ You can turn paper into sharp objects, and also into sticks, bricks, and other w
 2. Although it becomes sharper, it still does not get rid of the characteristics of paper. If a paper weapon hits a hard object such as armor, it will be damaged after being used **three times**.
 3. Different weapons require different shapes of paper. Example: whips need long strips of paper; sticks need to roll the paper together first. You need to cut it in advance or use it according to the situation.
 
+- **Effect:** Turn Paper into Soldiers resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Quick-casting technique
+
+```yaml ability
+id: fool-seq-07-quick-casting-technique
+name: Quick-casting technique
+pathway: fool
+sequence: 7
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: sustained
+scaling: []
+tags:
+- offense
+text: 'Limits: Once per round Use: As a free action Effect: You can use any one of
+  the spellcasting action abilities of: Manipulate Flames Air Bomb Turn Paper into
+  Soldiers False "breathing underwater" Bone Softening'
+```
+
+
+
 
 - **Limits:** Once per round
 - **Use:** As a **free action**
@@ -202,6 +534,36 @@ You can turn paper into sharp objects, and also into sticks, bricks, and other w
 - (This is a potion benefit that cannot be stolen or recorded.)
 
 ### Magicianâ€™s performance props
+
+```yaml ability
+id: fool-seq-07-magicianatms-performance-props
+name: MagicianaTMs performance props
+pathway: fool
+sequence: 7
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: 'A prepared magician is completely different from an unprepared magician. Many
+  abilities need corresponding materials prepared for consumption in advance. Excluding
+  other items you usually carry, the number of props you can prepare is: Wearing normal
+  clothes: 4 material slots with 2a4 pockets. Wear a performance tuxedo: 8 material
+  slots, with 4a8 pockets, including hidden pockets. Wearing Spellcasting Wizard Robes:
+  12 material slots with 8a12 pockets, including secret pockets. The props do not
+  need to be determined by your reputation because they are cheap. Slots occupied
+  by different props: Paper doll stand-in: every 3 paper doll stand-ins occupy one
+  slot; you need to cut them out in adva...'
+```
+
+
+
 
 A prepared magician is completely different from an unprepared magician. Many abilities need corresponding materials prepared for consumption in advance. Excluding other items you usually carry, the number of props you can prepare is:
 
@@ -218,3 +580,6 @@ The props do not need to be determined by your reputation because they are cheap
 The rest of the props are determined by the GM according to their size. If you do not adjust the position of the props in advance before each battle, when a big failure occurs, you will be regarded as taking the wrong props (the substitute took out a match).
 
 > **GM Note:** RAW guidance: if you want to play a magician, a performance tuxedo is the most appropriate option; wizard robes may affect the performance.
+
+- **Effect:** MagicianaTMs performance props resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

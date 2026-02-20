@@ -1,8 +1,14 @@
 ---
-title: "Sequence 9: Corpse Collector"
-id: "death-seq-09"
-tags: ["pathway:death", "sequence:9"]
+title: 'Sequence 9: Corpse Collector'
+id: death-seq-09
+tags:
+- pathway:death
+- sequence:9
 ---
+
+
+
+
 
 # Death Pathway: Sequence 9
 
@@ -36,6 +42,35 @@ tags: ["pathway:death", "sequence:9"]
 
 ### Corpse-Like Traits
 
+```yaml ability
+id: death-seq-09-corpse-like-traits
+name: Corpse-Like Traits
+pathway: death
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- debuff
+- defense
+text: 'You gain 5 points of resistance to cold, poison, and curse. Ordinary undead
+  (ghosts, zombies, etc.) will mistake you for the same kind. This does not include
+  undead with outstanding intelligence (such as evil spirits formed by extraordinary
+  people). This does not include an undead creature transformed into by an Extraordinary.
+  Your appearance changes: You become quite gloomy, with a lower body temperature,
+  whiter skin, and certain corpse characteristics. This may have some benefits for
+  your appearance, but it is a bit unrealistic already looming.'
+```
+
+
+
+
 - You gain **5** points of resistance to cold, poison, and curse.
 - Ordinary undead (ghosts, zombies, etc.) will mistake you for the same kind.
   - This does **not** include undead with outstanding intelligence (such as evil spirits formed by extraordinary people).
@@ -44,7 +79,38 @@ tags: ["pathway:death", "sequence:9"]
   - You become quite gloomy, with a lower body temperature, whiter skin, and certain corpse characteristics.
   - This may have some benefits for your appearance, but it is a bit unrealistic already looming.
 
+- **Effect:** Corpse-Like Traits resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Knowledge of the Dead
+
+```yaml ability
+id: death-seq-09-knowledge-of-the-dead
+name: Knowledge of the Dead
+pathway: death
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- detection
+text: '*Knowledge of the Dead: You know the traits and weaknesses of many undead creatures.
+  #### Using Knowledge of the Dead for Corpse Identification Knowledge of the Dead
+  can replace [[Biology]] for corpse identification. It is regarded as a subdivision
+  skill of Biology. Whenever you use Knowledge of the Dead on a corpse, you can quickly
+  understand rough information such as: Approximate cause of death Weapon of death
+  Time of death'
+```
+
+
+
 
 **Knowledge of the Dead:** You know the traits and weaknesses of many undead creatures.
 
@@ -111,7 +177,43 @@ To learn more detailed information, you must spend at least **2 hours** to condu
 - **Special:** When using Knowledge of the Dead to attack, the corpse collector can also perform a [[Vital Blow]] against an undead creature that is not vital, but the undead creature is still immune to the corresponding damage.
   - Example: Even if you use Knowledge of the Dead to shoot bullets, the spirit body is still immune to physical damage, unless you use [[Enchanted Bullets]].
 
+- **Effect:** Knowledge of the Dead resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Vision
+
+```yaml ability
+id: death-seq-09-vision
+name: Vision
+pathway: death
+sequence: 9
+type: active
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+- healing
+text: 'You gain Vision, but it is not as effective for you as your own inspiration.
+  Use: 1 free action. Cost: Consuming 1 spirituality point per round. Effect: You
+  activate vision, and your vision gains the following benefits: Etheric body: You
+  can directly see the health status of the target through the color of the aura,
+  directly find out where the other party''s body is uncomfortable, where there is
+  a problem, specific to a certain organ, and you can directly see the soul of the
+  dead. For more details, see [[Spirit Body Field of View]]. Spiritual body: You can
+  confirm whether an object/creature has spirituality, which cannot identify extraordinary
+  people. Mental body: You can see whether the o...'
+```
+
+
+
 
 You gain **Vision**, but it is not as effective for you as your own inspiration.
 - **Use:** 1 free action.
@@ -133,7 +235,40 @@ You gain **Vision**, but it is not as effective for you as your own inspiration.
   - Unlike dead creatures, undead creatures have deep black spirituality color instead of no.
   - As spiritual vision, it belongs to a basic ability of extraordinary people and cannot be recorded or stolen.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Spirit Vision
+
+```yaml ability
+id: death-seq-09-spirit-vision
+name: Spirit Vision
+pathway: death
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- detection
+text: 'You naturally have Spirit Vision and can directly see some evil spirits. You
+  dont need to turn on Spirit Vision; you can also directly use normal vision to find
+  spirit creatures. This does not include the advanced invisibility of resentful souls.
+  This does not include information creatures. Information creatures are not a kind
+  of spirit. When you use 1 Vision to confirm the body of the deceased, your autopsy
+  identification +2 is beneficial. Sequence 8: You can discover wraiths in advanced
+  invisibility, as well as other hard-to-find spirit creatures. (This is just an explanation;
+  it belongs to the same effect as spiritual vision.)'
+```
+
+
+
 
 You naturally have **Spirit Vision** and can directly see some evil spirits.
 
@@ -143,3 +278,6 @@ You naturally have **Spirit Vision** and can directly see some evil spirits.
 2. When you use 1 Vision to confirm the body of the deceased, your autopsy identification **+2** is beneficial.
 3. **Sequence 8:** You can discover wraiths in advanced invisibility, as well as other hard-to-find spirit creatures.
    - (This is just an explanation; it belongs to the same effect as spiritual vision.)
+
+- **Effect:** Spirit Vision resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.

@@ -1,12 +1,18 @@
 ---
-title: "Sequence 9: The Secret Pryer"
-id: "myster-pryer-seq-09"
-tags: ["pathway:myster-pryer", "sequence:9"]
+title: 'Sequence 9: Mystery Pryer'
+id: mystery-pryer-seq-09
+tags:
+- pathway:mystery-pryer
+- sequence:9
 ---
 
-# Myster Pryer Pathway: Sequence 9
 
-## The Secret Pryer
+
+
+
+# Hermit Pathway: Sequence 9
+
+## Mystery Pryer
 
 > **Lore:** Knowledge leaning toward the mystical. The mythical creature appears as a black mass with eyes, corresponding to the Tarot card “Hermit”.
 
@@ -31,6 +37,39 @@ You have a comprehensive but preliminary understanding and mastery of mysterious
 
 ### Spiritual Vision
 
+```yaml ability
+id: mystery-pryer-seq-09-spiritual-vision
+name: Spiritual Vision
+pathway: mystery-pryer
+sequence: 9
+type: toggle
+action: free
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: designated target(s)
+duration: sustained
+scaling: []
+tags:
+- ritual
+- detection
+- healing
+- mobility
+text: 'You obtain more outstanding Spiritual Vision because of your inspiration. Use:
+  1 free action to activate. Cost: 1 spirituality point per round while active. Effect:
+  While active, your vision gains the following benefits: Etheric Body: You can directly
+  see a targets health status through aura color, identify where their body is uncomfortable
+  or has a problem, and (when it comes to a certain organ) you can see the inside
+  through an unthickened door. You can confirm the number of people inside. Spiritual
+  Body: You can confirm whether an object/creature has spirituality. You cannot identify
+  extraordinary people. You can also see through a door to view the inside, identify
+  whether there is rit...'
+```
+
+
+
+
 You obtain more outstanding **Spiritual Vision** because of your inspiration.
 - **Use:** 1 **free action** to activate.
 - **Cost:** 1 **spirituality point per round** while active.
@@ -53,7 +92,40 @@ Additional rules and limitations:
 - **Spiritual Vision** can see some ordinary spirit bodies by default if they have not dissipated for **24 hours**.
 - **Spiritual Vision** cannot be recorded or stolen.
 
+- **Limits:** As described in this section's prose.
+
+
 ### Curtain Peeping
+
+```yaml ability
+id: mystery-pryer-seq-09-curtain-peeping
+name: Curtain Peeping
+pathway: mystery-pryer
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: '*Curtain Peeping lets you more easily perceive existences behind things. Be
+  careful, and remain in awe of extraordinary power. Trigger Conditions: You are in
+  an area involving the power of demigods and above, or There is an existence at least
+  at the demigod level on the scene who is peeping here through extraordinary abilities.
+  Trigger Timing: Once you resolve the first relevant Identification/Occult check
+  in this area, you will notice them. If you are trying to interpret a book or thing
+  involving demigod and above power, this effect is also triggered. Outcome by result
+  (Great success vs. Big failure): Great Success Great Success: You saw something
+  you shouldnt have noticed, but fortunate...'
+```
+
+
+
 
 **Curtain Peeping** lets you more easily perceive existences behind things. Be careful, and remain in awe of extraordinary power.
 
@@ -70,7 +142,34 @@ Additional rules and limitations:
 
 - **Limitations:** Curtain Peeping is an interpretation of the **Mystery Pryer’s** spiritual intuition and therefore cannot be recorded or stolen.
 
+- **Effect:** Curtain Peeping resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Fast Ritual Spell
+
+```yaml ability
+id: mystery-pryer-seq-09-fast-ritual-spell
+name: Fast Ritual Spell
+pathway: mystery-pryer
+sequence: 9
+type: active
+action: full-round
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+text: 'You quickly cast a ritual spell. Use: As a [[Full-Round Action]], expend 1
+  [[Spellcasting Material]] to quickly perform a ritual spell.'
+```
+
+
+
 
 You quickly cast a ritual spell.
 
@@ -78,7 +177,41 @@ You quickly cast a ritual spell.
 
 > **Lore:** In expression, you quickly sprinkle something similar to holy night powder around so it naturally and quickly forms a spiritual wall, then immediately start praying and chanting honorable names, without complicated processes such as altars.
 
+- **Effect:** Fast Ritual Spell resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Spellcasting Materials
+
+```yaml ability
+id: mystery-pryer-seq-09-spellcasting-materials
+name: Spellcasting Materials
+pathway: mystery-pryer
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- utility
+text: '*Spellcasting Materials (concepts applied to higher Sequences): Your spellcasting
+  ingredients are equal to five times your [[Reputation Rating]]. If your reputation
+  is Proficient or higher, materials instead equal your reputation level (not rating
+  x5). Replenishment: Whenever your materials are lost, you can go to the market to
+  replenish these common materials. If you are an official Extraordinary, you can
+  directly go to the official Extraordinary material inventory to replenish. If you
+  are an official Extraordinary, then even if your reputation is not advanced enough,
+  it will still be counted as advanced when calculating materials. Compared to [[Apothecary]],
+  your spellcasting materials...'
+```
+
+
+
 
 **Spellcasting Materials** (concepts applied to higher Sequences):
 
@@ -100,7 +233,42 @@ Carrying capacity by clothing:
 | [[Performance Tuxedo]] | 8 |
 | [[Spellcasting Wizard Robes]] | 12 |
 
+- **Effect:** Spellcasting Materials resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Ritual Proficiency
+
+```yaml ability
+id: mystery-pryer-seq-09-ritual-proficiency
+name: Ritual Proficiency
+pathway: mystery-pryer
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: none
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- divination
+text: 'You are proficient in the use of ritual magic. As long as you have been trained
+  in [[Occultism]] and know how to use ritual magic, even if you have not reached
+  the advanced level, you can still perform it. When you cast ritual magic, as long
+  as your occultism is trained, your [[Occult Identification]] is successful by default.
+  This only includes the occult identification when performing the ritual magic, and
+  does not include subsequent occult identification when casting borrowed power. For
+  the ritual magic you can cast, see [[Chapter Nine: Ritual Magic]] and [[Common Ritual
+  Magic]]. Ritual magic prepared in advance can make an enemy step into your trap,
+  or perform anti-divination on the s...'
+```
+
+
+
 
 You are proficient in the use of ritual magic.
 
@@ -111,7 +279,39 @@ You are proficient in the use of ritual magic.
 - Ritual magic prepared in advance can make an enemy step into your trap, or perform anti-divination on the situation on the scene.
 - Ritual magic is not only available to **Mystery Pryers** (who are better at it and can cast it quickly), but also to any Sequence that explicitly lists ritual abilities in its abilities section.
 
+- **Effect:** Ritual Proficiency resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
+
+
 ### Divination
+
+```yaml ability
+id: mystery-pryer-seq-09-divination
+name: Divination
+pathway: mystery-pryer
+sequence: 9
+type: active
+action: cast
+cost: {}
+roll: null
+opposed_by: difficulty_value
+range: self
+target: self
+duration: instant
+scaling: []
+tags:
+- ritual
+- divination
+text: 'You gain the basic ability of Divination, but not as strongly as a diviner
+  in this area. Use: 1 Casting Action. Cost: Spend 2 [[Spirituality]]. Procedure:
+  Choose 1 divination method, then conduct 1 [[Occult Identification]]. Difficulty
+  outcomes: Difficulty Value (Difficulty Value) Difficulty Value: Difficulty Value
+  15: Get a very general result (e.g., finding objects only tells you a city). Difficulty
+  Value 20: Get a more general result that usually gives a general direction.'
+```
+
+
+
 
 You gain the basic ability of **Divination**, but not as strongly as a diviner in this area.
 
@@ -130,3 +330,6 @@ Difficulty outcomes:
   - Aware of the gaze requires a [[Spiritual Intuition Test]].
   - The existence of targets **one Sequence higher than you** is detected by default regardless of the difficulty.
 - **Special:** Before obtaining new clues, repeated divination in the same direct
+
+- **Effect:** Divination resolves using its yaml ability block and section prose.
+- **Limits:** As described in this section's prose.
