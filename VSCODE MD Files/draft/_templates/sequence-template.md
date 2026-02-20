@@ -28,7 +28,23 @@ tags: ["pathway:<pathway>", "sequence:<N>"]
 
 ### <Ability Name> {#<pathway>-seq-<nn>-<ability-slug>}
 
-- **Cost:**
-- **Use:**
+```yaml ability
+id: "<pathway>-seq-<nn>-<ability-slug>"
+name: "<Ability Name>"
+pathway: "<pathway>"
+sequence: <N>
+type: "active"
+action: "cast"
+cost: {spirituality: 1}
+roll: "1d20 + @attr.int + @skill.occultism + @bonus"
+opposed_by: "difficulty_value"
+range: "self"
+target: "self"
+duration: "instant"
+scaling: []
+tags: ["utility"]
+text: "Describe mechanical effect and constraints in prose below."
+```
+
 - **Effect:**
 - **Limits:**

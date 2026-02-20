@@ -122,4 +122,15 @@ python tools/sim_core_combat.py --repo . --targets meta/balance_targets.yml --ou
 python tools/sim_core_combat.py --repo . --trials 50000 --seed 20260220
 ```
 
+## 10) Roll syntax lint (Phase 2 automation lock)
+
+Lint roll expressions from fenced `yaml ability` blocks and optional inline expressions:
+
+```bash
+python tools/lint_roll_syntax.py --repo .
+python tools/lint_roll_syntax.py --repo . --expr "1d20 + @attr.int + @skill.occultism + @bonus"
+python tools/lint_roll_syntax.py --repo . --expr "1d20 + @attr.dex + @skill.fighting vs @def.physical"
+python tools/lint_roll_syntax.py --repo . --json-out reports/roll_syntax_lint.json
+```
+
 

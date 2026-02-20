@@ -1,0 +1,273 @@
+version: 1
+last_updated: "2026-02-20"
+scope: "Phase 2 minimum viable automation schema for extraordinary abilities"
+
+source_of_truth:
+  pathways: "meta/canon_pathways.yml"
+  sequences: "meta/canon_sequences.yml"
+  roll_syntax: "meta/roll_syntax.md"
+
+markdown_embedding:
+  fence: "```yaml ability"
+  placement: "Immediately below each automatable ### ability heading."
+  notes:
+    - "Keep one YAML block per ability heading."
+    - "Keep prose rules below the block for human readability."
+
+ability_schema:
+  kind: "ability"
+  id_pattern: "^[a-z0-9]+(?:-[a-z0-9]+)*-seq-(?:0[0-9]|[0-9])-[a-z0-9]+(?:-[a-z0-9]+)*$"
+  required:
+    - id
+    - name
+    - pathway
+    - sequence
+    - type
+    - action
+    - cost
+    - opposed_by
+    - range
+    - target
+    - duration
+    - scaling
+    - tags
+    - text
+  optional:
+    - roll
+  fields:
+    id:
+      type: "string"
+      description: "Stable unique ability key; do not rename after publishing."
+      example: "fool-seq-09-divination"
+    name:
+      type: "string"
+      description: "Canonical ability name as displayed in markdown."
+    pathway:
+      type: "string"
+      source: "meta/canon_pathways.yml:pathways[].slug"
+      example: "fool"
+    sequence:
+      type: "integer"
+      minimum: 0
+      maximum: 9
+    type:
+      type: "string"
+      enum: ["active", "passive", "reaction", "toggle"]
+    action:
+      type: "string"
+      enum: ["attack", "cast", "swift", "free", "move", "full-round", "none"]
+      notes:
+        - "Use none for passive effects with no action spend."
+    cost:
+      type: "object"
+      description: "Resource spend map. Empty map means no resource cost."
+      key_pattern: "^[a-z][a-z0-9_]*$"
+      value_type: "number"
+      minimum: 0
+      examples:
+        - "{spirituality: 2}"
+        - "{spirituality: 1, sanity: 1}"
+        - "{}"
+    roll:
+      type: "string|null"
+      description: "Primary check expression using meta/roll_syntax.md."
+      examples:
+        - "1d20 + @attr.int + @skill.occultism + @bonus"
+        - null
+    opposed_by:
+      type: "string|null"
+      enum: ["physical_defense", "willpower_defense", "constitution_defense", "difficulty_value", "none"]
+      notes:
+        - "Use difficulty_value for fixed DV checks."
+        - "Use none for effects that do not require opposition."
+    range:
+      type: "string"
+      description: "Human-readable range band."
+      examples: ["self", "touch", "20m", "line of sight"]
+    target:
+      type: "string"
+      description: "Who or what the ability affects."
+    duration:
+      type: "string"
+      description: "Human-readable duration."
+      examples: ["instant", "1 round", "1 encounter", "sustained"]
+    scaling:
+      type: "array"
+      description: "Ordered breakpoint rules; keep [] if no scaling applies."
+      item_type: "object"
+      item_required: ["when", "changes"]
+      item_fields:
+        when:
+          type: "string"
+          description: "Condition trigger, for example sequence <= 7 or critical_success."
+        changes:
+          type: "object"
+          description: "Field deltas applied when condition is met."
+      examples:
+        - []
+        - [{when: "critical_success", changes: {damage_roll: "1d8 + @attr.int"}}]
+    tags:
+      type: "array"
+      item_type: "string"
+      description: "Lowercase capability tags for filtering and automation."
+      examples:
+        - ["divination", "utility"]
+        - ["control", "debuff"]
+    text:
+      type: "string"
+      description: "Human-readable rules paragraph retained near automation data."
+
+tag_taxonomy_seed:
+  - control
+  - mobility
+  - divination
+  - summon
+  - defense
+  - offense
+  - buff
+  - debuff
+  - utility
+  - ritual
+  - stealth
+  - social
+  - healing
+  - detection
+
+roll_registry:
+  attr:
+    - str
+    - dex
+    - con
+    - wil
+    - int
+    - edu
+    - cha
+    - luk
+  skill:
+    - climbing
+    - throwing
+    - fighting
+    - intimidation
+    - jumping
+    - animal_handling
+    - stealth
+    - sleight_of_hand
+    - swimming
+    - shooting
+    - artillery
+    - lockpicking
+    - dodge
+    - driving
+    - heavy_machinery
+    - listen
+    - investigation
+    - mechanical_repair
+    - occultism
+    - psychology
+    - cooking
+    - art
+    - track
+    - lip_reading
+    - spiritual_intuition
+    - navigation
+    - trade
+    - medicine
+    - library_use
+    - writing
+    - demolitions
+    - survival
+    - knowledge
+    - natural_world
+    - mysticism_languages
+    - common_languages
+    - charisma
+    - deception
+    - fast_talk
+    - persuade
+    - psychological_guidance
+    - performance
+    - disguise
+    - reputation
+    - melee
+    - swordsmanship
+    - polearms
+    - huge_weapons
+    - special_operations
+    - handgun
+    - rifle
+    - shotgun
+    - crossbow
+    - bow
+    - singing
+    - music_theory
+    - painting
+    - crafting
+    - law
+    - archaeology
+    - religion
+    - chemistry
+    - biology
+    - pharmacy
+    - sociology
+    - astronomy
+    - botany
+    - agriculture
+    - history
+    - engineering
+    - hermes_language
+    - ancient_hermes_language
+    - ancient_feysac
+    - giant
+    - dragon_tongue
+    - elvish
+    - old_one_tongue
+    - loen
+    - intis
+    - feysac
+    - dutan
+    - highland
+    - occult_identification
+    - singing_identification
+  def:
+    - physical
+    - willpower
+    - constitution
+    - dv
+  res:
+    - vitality
+    - spirituality
+    - sanity
+    - rationality
+    - luck
+  mod:
+    - bonus
+  shorthand_refs:
+    - "@bonus"
+  aliases:
+    attr:
+      strength: str
+      agility: dex
+      constitution: con
+      willpower: wil
+      intuition: int
+      education: edu
+      charisma: cha
+      luck: luk
+    skill:
+      mysticism: occultism
+      occult: occultism
+      listening: listen
+      sleight_of_hands: sleight_of_hand
+      mechanical: mechanical_repair
+      library: library_use
+      spiritual_perception: spiritual_intuition
+      occult_check: occult_identification
+    def:
+      physical_defense: physical
+      will_defense: willpower
+      willpower_defense: willpower
+      constitution_defense: constitution
+      difficulty_value: dv
+    res:
+      spirit: spirituality
+      spirit_points: spirituality
