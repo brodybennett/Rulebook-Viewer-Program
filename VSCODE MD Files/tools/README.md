@@ -4,6 +4,9 @@ Scripts to keep prompting fast, links stable, and your `tag-registry.yml` from e
 
 All scripts are **read-only by default**. Anything that writes requires an explicit `--write` flag.
 
+Command examples below assume your working directory is `VSCODE MD Files/`.
+If you run from repo root, either `cd "VSCODE MD Files"` first or prefix script/repo paths accordingly.
+
 ## Install deps
 
 ```bash

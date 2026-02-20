@@ -9,9 +9,9 @@ A community-driven tabletop RPG rulebook inspired by Lord of the Mysteries, focu
 - Goal: Deliver a playable fan project with publishable Markdown that can be skinned for the table or a future web UI.
 
 ## What is this?
-- A curated set of Markdown rulebook chapters under `draft/` plus supporting assets (`viewer_theme.css`, `style-guide.md`, optional `tag-registry.yml`).
-- `rulebook_viewer.py`: a single-file Flask app that renders the rulebook with sidebar navigation, search, anchors, and wiki-link resolution.
-- `lotm_sanity_check.py`: a helper that surfaces missing anchors, unresolved wiki-links, and empty planned files.
+- A curated set of Markdown rulebook chapters under `VSCODE MD Files/draft/` plus supporting assets (`viewer_theme.css`, `style-guide.md`, optional `tag-registry.yml`).
+- `VSCODE MD Files/rulebook_viewer.py`: a single-file Flask app that renders the rulebook with sidebar navigation, search, anchors, and wiki-link resolution.
+- `VSCODE MD Files/lotm_sanity_check.py`: a helper that surfaces missing anchors, unresolved wiki-links, and empty planned files.
 
 ## Why does it exist?
 - To keep the homebrew LOTM system readable and consistent while it grows.
@@ -36,12 +36,20 @@ A community-driven tabletop RPG rulebook inspired by Lord of the Mysteries, focu
 - Ignore placeholder noise in the checker: `python "VSCODE MD Files/lotm_sanity_check.py" --serve --placeholder-level ignore`.
 - Serve a zipped snapshot instead of the working tree: `python "VSCODE MD Files/rulebook_viewer.py" --source path/to/VSCODE MD Files.zip`.
 
+## YAML at a glance
+- `render.yaml` - Render deployment config (build/start commands).
+- `VSCODE MD Files/glossary.yml` - active glossary used by checker and prompt-bundle tooling.
+- `VSCODE MD Files/tag-registry.yml` (optional) - registry used by viewer/checker/tooling when present.
+- `VSCODE MD Files/archive/edit-delta/*.edit_delta.yml` - archived sidecar metadata from older editing passes; not required at runtime.
+
 ## Smoke test (draft mode)
 1. Run the viewer on draft content: `python "VSCODE MD Files/rulebook_viewer.py" --source "VSCODE MD Files"`.
 2. Run the sanity checker: `python "VSCODE MD Files/lotm_sanity_check.py" --root "VSCODE MD Files"`.
 
 ## Project layout
-- `draft/` - active rulebook chapters and sequences (Markdown).
-- `tag-registry.yml` (optional) - canonical anchors and status for sections when using registry-driven workflows.
-- `style-guide.md` - formatting and tagging rules for contributors.
-- `viewer_theme.css` / `viewer_theme.js` - theme and UI behavior for the viewer.
+- `VSCODE MD Files/draft/` - active rulebook chapters and sequences (Markdown).
+- `VSCODE MD Files/tools/` - active automation scripts for audits and prompt support.
+- `VSCODE MD Files/archive/edit-delta/` - archived `*.edit_delta.yml` sidecars (reference only).
+- `VSCODE MD Files/tag-registry.yml` (optional) - canonical anchors and status for sections when using registry-driven workflows.
+- `VSCODE MD Files/style-guide.md` - formatting and tagging rules for contributors.
+- `VSCODE MD Files/viewer_theme.css` / `VSCODE MD Files/viewer_theme.js` - theme and UI behavior for the viewer.

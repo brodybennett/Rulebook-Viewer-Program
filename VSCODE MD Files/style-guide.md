@@ -24,7 +24,7 @@ tags: ["..."]
 - Anchor IDs are stable. If you rename a heading title, keep the same `{#id}`.
 
 ## Sequence File Template
-Use the template in `build/_templates/sequence-template.md` as your starting point.
+Use the template in `draft/_templates/sequence-template.md` as your starting point.
 
 ### Standard Section Order (Sequences)
 1) `# <Pathway> Pathway: Sequence <N> {#<pathway>-seq-<nn>}`
@@ -56,7 +56,7 @@ Only include fields that actually exist in the rules text.
 - Use `[[UNCLEAR: ...]]` only when the source is ambiguous and cannot be resolved faithfully.
 
 
-# --- Suggested build/_templates/sequence-template.md ---
+# --- Suggested draft/_templates/sequence-template.md ---
 ---
 title: "Sequence <N>: <Sequence Name>"
 id: "<pathway>-seq-<nn>"
