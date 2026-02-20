@@ -8,10 +8,10 @@ tags: ["core", "chapter-6"]
 
 A single combat round is approximately **6 seconds**.
 
-## Surprise Round
+## Surprise Round (Ambush Round)
 
-1. If one side ambushes the other **and is not discovered**, the ambushing side gains **1 Surprise Round**. Otherwise, skip this step and start at Regular Combat Round.
-2. During the Surprise Round, each character on the ambushing side may take **one** of the following: **1 Attack/Cast/Move Action** or **2 Swift Actions**. The ambushed side **cannot take any actions**.
+1. If one side ambushes the other **and is not discovered**, the ambushing side gains **1 Surprise Round** (legacy name: Ambush Round). Otherwise, skip this step and start at Regular Combat Round.
+2. During the Surprise Round, each character on the ambushing side may take **one** of the following: **1 Attack/Casting/Move Action** or **2 Swift Actions**. The ambushed side **cannot take any actions**.
 3. If, during the Surprise Round, the ambushing side is not exposed within the target's line of sight **or** its presence is not noticed, the ambushed side suffers the [[Caught Off Guard]] effect during the Surprise Round.
 4. The ambushing side has **Advantage** and the ambushed side has **Disadvantage** only during the Surprise Round. After the actions in Step 2 resolve, the Surprise Round ends. Ongoing sources of Advantage/Disadvantage (such as surrounding/flanking or invisibility) may still apply after the Surprise Round ends. See [[Advantage / Disadvantage]].
 
@@ -47,7 +47,7 @@ For command syntax, `.ri+Agility (DEX)` is shorthand for rolling `1d20 + Agility
 
 ### Timing and Priority
 
-- Relative speed (fastest to slowest): **Free Actions > Swift Actions > Attack/Cast Actions = Move Actions**.
+- Relative speed (fastest to slowest): **Free Actions > Swift Actions > Attack/Casting Actions = Move Actions**.
 - **Free Actions** can be used during other people's turns, but **cannot interrupt** other people's actions.
 - **Swift Actions** can be used during other people's turns, but **cannot interrupt** other people's actions unless an ability explicitly says it can.
 - When using a Swift-action Beyonder Ability during another person's turn, that other person's action resolves its check first, then the Swift Action takes effect. They take effect **simultaneously** for outcome timing purposes.
@@ -69,7 +69,7 @@ A **Full-Round Action** consumes **1 Attack/Casting Action, 3 Swift Actions, 1 M
 
 ### Extra Actions
 
-Some Beyonder Abilities or Beyonder items may grant extra Swift/Attack/Cast/Move Actions. When the number of extra actions reaches a certain magnitude, its benefits are reduced:
+Some Beyonder Abilities or Beyonder items may grant extra Swift/Attack/Casting/Move Actions. When the number of extra actions reaches a certain magnitude, its benefits are reduced:
 
 1. The upper limit of this magnitude is **1**, regardless of action type.
 2. If extra actions provided reach **2** (e.g., 2 extra Cast Actions), the **2nd** Casting Action is **invalid** and cannot be used.
@@ -134,7 +134,7 @@ Example: Movement distance 8. You grab a nearby wooden crate (2 movement distanc
 
 ### Tuning Enemy Stats
 
-> **GM Note:** When arranging enemies, dynamically adjust enemies' Dodge and Fighting values against the PCs' Physical Defense and skill modifiers. Avoid "dance fighting" (no one can hit) and "guaranteed hits" (every strike lands). During session prep, you may do private test checks and aim for roughly a **50/50** hit rate and damage such that it takes **2-3 hits or more** to reach the [[Dying Threshold]] (except boss fights). Enemy stat assignments must be reasonable for the PCs' Sequences (e.g., don't keep PCs at Sequence 9 while enemies have Physical Defense values that are unrealistically high).
+> **GM Note:** When arranging enemies, dynamically adjust enemies' Dodge and Fighting values against the PCs' Physical Defense and skill modifiers. Avoid "dance fighting" (no one can hit) and "guaranteed hits" (every strike lands). During session prep, you may do private test checks and aim for roughly a **50/50** hit rate and damage such that it takes **2-3 hits or more** to reach the [[Dying Threshold]] (defined as `-Constitution (CON)`) (except boss fights). Enemy stat assignments must be reasonable for the PCs' Sequences (e.g., don't keep PCs at Sequence 9 while enemies have Physical Defense values that are unrealistically high).
 
 ### Use Special Actions
 
@@ -160,7 +160,7 @@ This is an optional ruleset intended to speed up combat when the number of comba
 
 - Priority is determined by **time required**, not by a separate traditional priority list.
 - Under normal circumstances, Free Actions resolve before Swift Actions and Attack Actions; Swift Actions resolve before Attack Actions.
-- If an Attack/Cast action is already **in progress**, a Free Action or Swift Action used at that moment may resolve only **simultaneously** with it unless an ability explicitly says it interrupts.
+- If an Attack/Casting Action is already **in progress**, a Free Action or Swift Action used at that moment may resolve only **simultaneously** with it unless an ability explicitly says it interrupts.
 
 > **GM Note:** The text uses "half-completed Attack Action" as a narrative timing concept but does not define a measurement method for progress. Use the safest faithful reading: if an action has already meaningfully begun resolving, later actions at similar speed occur simultaneously unless a rule/ability explicitly grants interruption.
 

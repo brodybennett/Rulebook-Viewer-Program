@@ -156,30 +156,19 @@ These gain multipliers apply to all subsequent Sequence advancements after reach
 
 ### Death and Unconsciousness Checks
 
-If your Vitality drops to **0**, you immediately fall **unconscious**.
+When Vitality is **0 or below**, use the Dying/Death process in [[Dying / Death]] as the primary combat adjudication rule.
 
-- Each round, you must make a Constitution (CON) check with **Difficulty Value 10**.
-- On a failure, you **die immediately**.
-
-If your Vitality drops **below 0**:
-
-- The amount of negative Vitality you can endure is determined by your Constitution.
-- If damage reduces your Vitality below the negative value based on your Constitution, you die on the spot.
-- As long as your remaining Vitality is not lower than **-your Constitution**, you are treated as unconscious and continue making checks.
-
-If you take damage while unconscious:
-
-- Make a Constitution (CON) check with **Difficulty Value 10 + (damage taken x 2)** to avoid death.
-
-Stabilizing:
-
-- You may use **one Medicine check** and **one Casting Action** to stabilize the injury; in that case, Constitution checks are no longer required.
+- At **Vitality <= 0**, you are in the **Dying** state.
+- **Dying Threshold:** `-Constitution (CON)`.
+- If current Vitality drops below the Dying Threshold, ordinary people die immediately; Beyonders remain in Dying unless pushed further.
+- If current Vitality drops below `2 x Dying Threshold` (more negative), even Beyonders die immediately.
+- You may use **one Medicine check** and **one Casting Action** to stabilize severe injury; once stabilized, recurring Dying checks are suspended until severe injury occurs again.
 
 ## Combat and Action Statistics
 
 ### Movement
 
-**Movement:** You may use one Movement action to move a distance equal to:
+**Movement:** You may use one Move Action to move a distance equal to:
 
 - `Strength (STR) + Agility (DEX)` meters
 
@@ -189,7 +178,7 @@ Your Movement value represents how many meters you can move in a single move.
 
 Investigators and all creatures have three types of **Defense Difficulty**:
 
-- **Physical Defense:** `10 + Agility (DEX) + Armor + Dodge + Skills`
+- **Physical Defense:** `10 + Agility (DEX) + Armor + Dodge`
 - **Willpower Defense:** `10 + Willpower (WIL)`
 - **Constitution Defense:** `10 + Constitution (CON)`
 

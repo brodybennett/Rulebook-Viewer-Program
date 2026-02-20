@@ -1,0 +1,411 @@
+{
+  "generated_utc": "2026-02-20T05:24:18+00:00",
+  "seed": 20260220,
+  "trials": 20000,
+  "max_rounds": 30,
+  "targets_path": "C:\\Users\\dan\\Desktop\\Personal\\Projects\\LoTM Rulebook\\VSCODE MD Files\\meta\\balance_targets.yml",
+  "check_targets": [
+    {
+      "id": "trained_vs_standard_dv",
+      "bonus": 6.0,
+      "difficulty_value": 15.0,
+      "success_rate": 0.55,
+      "expected": {
+        "min": 0.55,
+        "max": 0.75
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "proficient_vs_hard_dv",
+      "bonus": 8.0,
+      "difficulty_value": 20.0,
+      "success_rate": 0.4,
+      "expected": {
+        "min": 0.35,
+        "max": 0.55
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "expert_vs_very_hard_dv",
+      "bonus": 10.0,
+      "difficulty_value": 25.0,
+      "success_rate": 0.25,
+      "expected": {
+        "min": 0.25,
+        "max": 0.45
+      },
+      "status": "PASS"
+    }
+  ],
+  "control_targets": [
+    {
+      "id": "repeatable_control_peer",
+      "bonus": 5.0,
+      "difficulty_value": 16.0,
+      "apply_rate": 0.45,
+      "expected": {
+        "min": 0.3,
+        "max": 0.5
+      },
+      "status": "PASS",
+      "notes": "Repeatable stun/immobilize should not be near-automatic against peers."
+    },
+    {
+      "id": "hard_lockout_peer",
+      "bonus": 2.0,
+      "difficulty_value": 16.0,
+      "apply_rate": 0.3,
+      "expected": {
+        "min": 0.15,
+        "max": 0.35
+      },
+      "status": "PASS",
+      "notes": "Hard lockouts must stay rare unless setup/cost is high."
+    }
+  ],
+  "matchups": [
+    {
+      "id": "seq9_peer_melee",
+      "group": "seq9_peer",
+      "attacker": "sequence_9_standard",
+      "defender": "sequence_9_standard",
+      "style": "melee",
+      "cast_defense": "willpower",
+      "single": {
+        "hit_rate": 0.50155,
+        "crit_rate": 0.0526,
+        "dpr": 2.5158,
+        "avg_damage_on_hit": 5.016050244242847,
+        "avg_sp_per_attack": 0.0
+      },
+      "ttd": {
+        "avg_rounds_to_down": 4.14565,
+        "median_rounds_to_down": 4.0,
+        "p90_rounds_to_down": 7.0,
+        "avg_sp_spend": 0.0,
+        "timeout_rate": 0.0
+      },
+      "expected": {
+        "hit_rate": {
+          "min": 0.45,
+          "max": 0.6
+        },
+        "rounds_to_down": {
+          "min": 3.0,
+          "max": 5.0
+        },
+        "sp_spend": null
+      },
+      "status": {
+        "hit_rate": "PASS",
+        "rounds_to_down": "PASS",
+        "sp_spend": "N/A",
+        "overall": "PASS"
+      }
+    },
+    {
+      "id": "seq9_peer_firearm",
+      "group": "seq9_peer",
+      "attacker": "sequence_9_standard",
+      "defender": "sequence_9_standard",
+      "style": "firearm",
+      "cast_defense": "willpower",
+      "single": {
+        "hit_rate": 0.75385,
+        "crit_rate": 0.0521,
+        "dpr": 2.6489,
+        "avg_damage_on_hit": 3.5138290110764743,
+        "avg_sp_per_attack": 0.0
+      },
+      "ttd": {
+        "avg_rounds_to_down": 3.67445,
+        "median_rounds_to_down": 3.0,
+        "p90_rounds_to_down": 6.0,
+        "avg_sp_spend": 0.0,
+        "timeout_rate": 0.0
+      },
+      "expected": {
+        "hit_rate": {
+          "min": 0.7,
+          "max": 0.9
+        },
+        "rounds_to_down": {
+          "min": 2.0,
+          "max": 4.0
+        },
+        "sp_spend": null
+      },
+      "status": {
+        "hit_rate": "PASS",
+        "rounds_to_down": "PASS",
+        "sp_spend": "N/A",
+        "overall": "PASS"
+      }
+    },
+    {
+      "id": "seq7_peer_melee",
+      "group": "seq7_peer",
+      "attacker": "sequence_7_standard",
+      "defender": "sequence_7_standard",
+      "style": "melee",
+      "cast_defense": "willpower",
+      "single": {
+        "hit_rate": 0.50315,
+        "crit_rate": 0.05045,
+        "dpr": 3.538,
+        "avg_damage_on_hit": 7.031700288184438,
+        "avg_sp_per_attack": 0.0
+      },
+      "ttd": {
+        "avg_rounds_to_down": 4.94315,
+        "median_rounds_to_down": 4.0,
+        "p90_rounds_to_down": 8.0,
+        "avg_sp_spend": 0.0,
+        "timeout_rate": 0.0
+      },
+      "expected": {
+        "hit_rate": {
+          "min": 0.45,
+          "max": 0.6
+        },
+        "rounds_to_down": {
+          "min": 3.0,
+          "max": 5.0
+        },
+        "sp_spend": null
+      },
+      "status": {
+        "hit_rate": "PASS",
+        "rounds_to_down": "PASS",
+        "sp_spend": "N/A",
+        "overall": "PASS"
+      }
+    },
+    {
+      "id": "seq7_peer_cast",
+      "group": "seq7_peer",
+      "attacker": "sequence_7_standard",
+      "defender": "sequence_7_standard",
+      "style": "cast",
+      "cast_defense": "willpower",
+      "single": {
+        "hit_rate": 0.55635,
+        "crit_rate": 0.05045,
+        "dpr": 3.92635,
+        "avg_damage_on_hit": 7.05733800665049,
+        "avg_sp_per_attack": 1.0
+      },
+      "ttd": {
+        "avg_rounds_to_down": 4.4773,
+        "median_rounds_to_down": 4.0,
+        "p90_rounds_to_down": 7.0,
+        "avg_sp_spend": 4.4773,
+        "timeout_rate": 0.0
+      },
+      "expected": {
+        "hit_rate": {
+          "min": 0.45,
+          "max": 0.65
+        },
+        "rounds_to_down": {
+          "min": 3.0,
+          "max": 5.0
+        },
+        "sp_spend": {
+          "min": 3.0,
+          "max": 8.0
+        }
+      },
+      "status": {
+        "hit_rate": "PASS",
+        "rounds_to_down": "PASS",
+        "sp_spend": "PASS",
+        "overall": "PASS"
+      }
+    },
+    {
+      "id": "seq5_peer_melee",
+      "group": "seq5_peer",
+      "attacker": "sequence_5_standard",
+      "defender": "sequence_5_standard",
+      "style": "melee",
+      "cast_defense": "willpower",
+      "single": {
+        "hit_rate": 0.49585,
+        "crit_rate": 0.04825,
+        "dpr": 4.2501,
+        "avg_damage_on_hit": 8.571342139760008,
+        "avg_sp_per_attack": 0.0
+      },
+      "ttd": {
+        "avg_rounds_to_down": 4.94035,
+        "median_rounds_to_down": 4.0,
+        "p90_rounds_to_down": 8.0,
+        "avg_sp_spend": 0.0,
+        "timeout_rate": 0.0
+      },
+      "expected": {
+        "hit_rate": {
+          "min": 0.45,
+          "max": 0.6
+        },
+        "rounds_to_down": {
+          "min": 3.0,
+          "max": 5.0
+        },
+        "sp_spend": null
+      },
+      "status": {
+        "hit_rate": "PASS",
+        "rounds_to_down": "PASS",
+        "sp_spend": "N/A",
+        "overall": "PASS"
+      }
+    },
+    {
+      "id": "seq5_firearm_vs_quick_dodge",
+      "group": "seq5_peer",
+      "attacker": "sequence_5_standard",
+      "defender": "sequence_5_quick_dodge",
+      "style": "firearm",
+      "cast_defense": "willpower",
+      "single": {
+        "hit_rate": 0.5024,
+        "crit_rate": 0.0503,
+        "dpr": 4.7831,
+        "avg_damage_on_hit": 9.520501592356688,
+        "avg_sp_per_attack": 0.0
+      },
+      "ttd": {
+        "avg_rounds_to_down": 4.55165,
+        "median_rounds_to_down": 4.0,
+        "p90_rounds_to_down": 8.0,
+        "avg_sp_spend": 0.0,
+        "timeout_rate": 0.0
+      },
+      "expected": {
+        "hit_rate": {
+          "min": 0.45,
+          "max": 0.65
+        },
+        "rounds_to_down": {
+          "min": 3.0,
+          "max": 5.0
+        },
+        "sp_spend": null
+      },
+      "status": {
+        "hit_rate": "PASS",
+        "rounds_to_down": "PASS",
+        "sp_spend": "N/A",
+        "overall": "PASS"
+      }
+    },
+    {
+      "id": "seq5_vs_seq3_boss_melee",
+      "group": null,
+      "attacker": "sequence_5_standard",
+      "defender": "sequence_3_boss",
+      "style": "melee",
+      "cast_defense": "willpower",
+      "single": {
+        "hit_rate": 0.3498,
+        "crit_rate": 0.0509,
+        "dpr": 2.99565,
+        "avg_damage_on_hit": 8.563893653516296,
+        "avg_sp_per_attack": 0.0
+      },
+      "ttd": {
+        "avg_rounds_to_down": 7.66415,
+        "median_rounds_to_down": 7.0,
+        "p90_rounds_to_down": 13.0,
+        "avg_sp_spend": 0.0,
+        "timeout_rate": 0.0003
+      },
+      "expected": {
+        "hit_rate": {
+          "min": 0.3,
+          "max": 0.5
+        },
+        "rounds_to_down": {
+          "min": 5.0,
+          "max": 8.0
+        },
+        "sp_spend": null
+      },
+      "status": {
+        "hit_rate": "PASS",
+        "rounds_to_down": "PASS",
+        "sp_spend": "N/A",
+        "overall": "PASS"
+      }
+    },
+    {
+      "id": "seq5_vs_seq3_boss_cast",
+      "group": null,
+      "attacker": "sequence_5_standard",
+      "defender": "sequence_3_boss",
+      "style": "cast",
+      "cast_defense": "willpower",
+      "single": {
+        "hit_rate": 0.451,
+        "crit_rate": 0.04955,
+        "dpr": 3.85405,
+        "avg_damage_on_hit": 8.545565410199556,
+        "avg_sp_per_attack": 2.0
+      },
+      "ttd": {
+        "avg_rounds_to_down": 6.02645,
+        "median_rounds_to_down": 5.0,
+        "p90_rounds_to_down": 10.0,
+        "avg_sp_spend": 12.0529,
+        "timeout_rate": 0.0
+      },
+      "expected": {
+        "hit_rate": {
+          "min": 0.3,
+          "max": 0.5
+        },
+        "rounds_to_down": {
+          "min": 5.0,
+          "max": 9.0
+        },
+        "sp_spend": {
+          "min": 8.0,
+          "max": 20.0
+        }
+      },
+      "status": {
+        "hit_rate": "PASS",
+        "rounds_to_down": "PASS",
+        "sp_spend": "PASS",
+        "overall": "PASS"
+      }
+    }
+  ],
+  "firearm_gaps": [
+    {
+      "group": "seq9_peer",
+      "melee_hit_rate": 0.50155,
+      "firearm_hit_rate": 0.75385,
+      "gap": 0.25229999999999997
+    },
+    {
+      "group": "seq5_peer",
+      "melee_hit_rate": 0.49585,
+      "firearm_hit_rate": 0.5024,
+      "gap": 0.006549999999999945
+    }
+  ],
+  "recommended_patch_set": [
+    {
+      "priority": 1,
+      "knob": "None",
+      "recommendation": "No automatic patch flags. Current simulation outputs are within configured targets.",
+      "rationale": "No out-of-band metrics were detected.",
+      "scope": "global"
+    }
+  ]
+}

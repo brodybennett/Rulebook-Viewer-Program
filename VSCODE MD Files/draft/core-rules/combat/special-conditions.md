@@ -6,9 +6,9 @@ tags: ["core", "chapter-6"]
 
 # Special Conditions
 
-## Off Balance
+## Off-Balance
 
-You are **Off Balance** when you lose your balance and fall to the ground.
+You are **Off-Balance** when you lose your balance and fall to the ground.
 
 - You cannot perform **Move actions**.
 - Your Agility (DEX) is temporarily halved (rounded up). This affects your **Movement** and **Physical Defense**.
@@ -87,7 +87,7 @@ Additional rules:
 
 Trigger limitations and stacking:
 
-- Special conditions such as **Blinded** or **Off Balance** are **not** treated as trigger conditions for Advantage or Disadvantage, because their negative effects are themselves already a kind of Disadvantage.
+- Special conditions such as **Blinded** or **Off-Balance** are **not** treated as trigger conditions for Advantage or Disadvantage, because their negative effects are themselves already a kind of Disadvantage.
 - Advantage or Disadvantage can generally only be gained through ambush or encirclement.
 - The Advantage or Disadvantage effect itself cannot stack.
 - Conditions such as **Blinded** are not in the "cannot stack" category; the limitation is reflected in the trigger conditions above.
@@ -100,6 +100,15 @@ You are **Dazed** by overwhelming pressure; your actions are briefly impeded.
 - Which kind of action is lost is decided by you.
 - The Dazed state cannot stack.
   - The "lose actions" effect can still stack with action-restricting abilities other than Dazed (e.g., the Puppet Master's Spirit Body Thread Manipulation), causing an enemy to lose even more actions.
+
+## Stunned
+
+You are **Stunned** when severe impact or disruption causes brief combat shutdown.
+
+- You cannot take **Attack/Casting Actions** or **Move Actions**.
+- You can perform at most **1 Swift Action**; Free Actions remain usable.
+- If a source does not specify duration, Stunned lasts until the **end of your next turn**.
+- Stunned cannot stack with itself; apply only the longest remaining duration.
 
 ## Blinded
 
@@ -215,6 +224,15 @@ You are **Bleeding** when you continuously lose Vitality due to injury (only ver
 1. At the start of each round, you lose **1d2 Vitality**. Even if you leave the Bloodbath state, Bleeding does not end until you receive medical first aid or treatment.
 2. If the damage is not external (e.g., a Witch Pathway plague effect), you still bleed while in Bloodbath. This represents internal bleeding and organ damage. This bleeding must be stopped by Beyonder-sense medical aid or by reaching a hospital for treatment in time.
 
+## Poisoned
+
+You are **Poisoned** when toxins are actively impairing your body.
+
+- At the start of each round, take **1 Vitality** toxin damage unless the source lists a different poison value.
+- Your skill checks and attribute checks suffer **-2 (unfavorable)** while Poisoned.
+- Poisoned ends when appropriate treatment resolves the toxin. First Aid only ends Poisoned when the poison came from an external wound.
+- Poisoned cannot stack with itself; use the highest per-round poison damage and the longest duration.
+
 ## Dying / Death
 
 You are treated as **Dying** or **Dead** when your Vitality reaches 0 or drops below 0.
@@ -236,9 +254,12 @@ Vitality reduced to 0 or below 0 is treated as **Dying**.
 
 ### Death
 
-- Use your Constitution (CON) value as your **death threshold**; this is a negative value.
-- If your Vitality is below 0 and also less than that negative value: ordinary people die on the spot; Beyonders are adjudicated as ordinary people in the Dying state.
-- If your current negative Vitality exceeds **twice** your threshold, then even Beyonders die on the spot.
+#### Dying Threshold
+
+- `Dying Threshold = -Constitution (CON)`.
+
+- If your Vitality is below 0 and also less than the Dying Threshold: ordinary people die on the spot; Beyonders are adjudicated as ordinary people in the Dying state.
+- If your current negative Vitality exceeds **twice** the Dying Threshold, then even Beyonders die on the spot.
 - After a Beyonder dies, a Beyonder Characteristic will precipitate after **5 minutes**; see [[id:alias-beyonder-characteristics|Beyonder Characteristics]] for details.
   - Beyonder creatures are treated the same as Beyonders.
 - Within **24 hours** after a corpse dies, the spirit body usually still remains in the body. After 24 hours, the spirit body begins to leave the corpse. A corpse that has been given a requiem usually cannot be raised as an undead creature.

@@ -1,0 +1,268 @@
+version: 1
+last_updated: "2026-02-20"
+scope: "Phase 1 core gameplay audit targets"
+
+assumptions:
+  round_seconds: 6
+  success_rule: "1d20 + modifiers > Difficulty Value"
+  critical_success: "natural 20"
+  critical_failure: "natural 1"
+
+global_targets:
+  hit_rate_band:
+    min: 0.45
+    max: 0.60
+  rounds_to_down_standard_band:
+    min: 3.0
+    max: 5.0
+  rounds_to_down_boss_band:
+    min: 5.0
+    max: 8.0
+  firearm_hit_gap_max_without_quick_dodge: 0.30
+  control_repeatable_apply_rate_band:
+    min: 0.25
+    max: 0.45
+  control_hard_lockout_rate_max: 0.15
+
+check_targets:
+  - id: trained_vs_standard_dv
+    bonus: 6
+    difficulty_value: 15
+    expected:
+      min: 0.55
+      max: 0.75
+  - id: proficient_vs_hard_dv
+    bonus: 8
+    difficulty_value: 20
+    expected:
+      min: 0.35
+      max: 0.55
+  - id: expert_vs_very_hard_dv
+    bonus: 10
+    difficulty_value: 25
+    expected:
+      min: 0.25
+      max: 0.45
+
+control_targets:
+  - id: repeatable_control_peer
+    bonus: 5
+    difficulty_value: 16
+    expected:
+      min: 0.30
+      max: 0.50
+    notes: "Repeatable stun/immobilize should not be near-automatic against peers."
+  - id: hard_lockout_peer
+    bonus: 2
+    difficulty_value: 16
+    expected:
+      min: 0.15
+      max: 0.35
+    notes: "Hard lockouts must stay rare unless setup/cost is high."
+
+statlines:
+  sequence_9_standard:
+    sequence: 9
+    vitality: 8
+    spirituality: 16
+    agility: 3
+    dodge: 2
+    armor: 1
+    willpower: 5
+    constitution: 4
+    damage_reduction: 0
+    attack_bonus: 6
+    firearm_bonus: 6
+    cast_bonus: 5
+    melee_damage: "1d6+1d2"
+    firearm_damage: "1d6"
+    cast_damage: "1d6+1"
+    sp_per_cast: 1
+    quick_dodge: false
+
+  sequence_7_standard:
+    sequence: 7
+    vitality: 14
+    spirituality: 26
+    agility: 4
+    dodge: 3
+    armor: 2
+    willpower: 7
+    constitution: 6
+    damage_reduction: 0
+    attack_bonus: 9
+    firearm_bonus: 9
+    cast_bonus: 8
+    melee_damage: "1d8+1d4"
+    firearm_damage: "2d6"
+    cast_damage: "1d8+1d4"
+    sp_per_cast: 1
+    quick_dodge: false
+
+  sequence_5_standard:
+    sequence: 5
+    vitality: 17
+    spirituality: 38
+    agility: 5
+    dodge: 4
+    armor: 3
+    willpower: 9
+    constitution: 8
+    damage_reduction: 1
+    attack_bonus: 12
+    firearm_bonus: 12
+    cast_bonus: 10
+    melee_damage: "2d6+1d4"
+    firearm_damage: "3d6"
+    cast_damage: "2d6+1d4"
+    sp_per_cast: 2
+    quick_dodge: false
+
+  sequence_5_quick_dodge:
+    sequence: 5
+    vitality: 17
+    spirituality: 38
+    agility: 5
+    dodge: 4
+    armor: 3
+    willpower: 9
+    constitution: 8
+    damage_reduction: 1
+    attack_bonus: 12
+    firearm_bonus: 12
+    cast_bonus: 10
+    melee_damage: "2d6+1d4"
+    firearm_damage: "3d6"
+    cast_damage: "2d6+1d4"
+    sp_per_cast: 2
+    quick_dodge: true
+
+  sequence_3_boss:
+    sequence: 3
+    vitality: 19
+    spirituality: 60
+    agility: 6
+    dodge: 5
+    armor: 4
+    willpower: 11
+    constitution: 10
+    damage_reduction: 1
+    attack_bonus: 15
+    firearm_bonus: 15
+    cast_bonus: 12
+    melee_damage: "3d6+1d4"
+    firearm_damage: "4d6"
+    cast_damage: "3d6"
+    sp_per_cast: 2
+    quick_dodge: true
+
+matchups:
+  - id: seq9_peer_melee
+    group: seq9_peer
+    attacker: sequence_9_standard
+    defender: sequence_9_standard
+    style: melee
+    expected:
+      hit_rate:
+        min: 0.45
+        max: 0.60
+      rounds_to_down:
+        min: 3.0
+        max: 5.0
+
+  - id: seq9_peer_firearm
+    group: seq9_peer
+    attacker: sequence_9_standard
+    defender: sequence_9_standard
+    style: firearm
+    expected:
+      hit_rate:
+        min: 0.70
+        max: 0.90
+      rounds_to_down:
+        min: 2.0
+        max: 4.0
+
+  - id: seq7_peer_melee
+    group: seq7_peer
+    attacker: sequence_7_standard
+    defender: sequence_7_standard
+    style: melee
+    expected:
+      hit_rate:
+        min: 0.45
+        max: 0.60
+      rounds_to_down:
+        min: 3.0
+        max: 5.0
+
+  - id: seq7_peer_cast
+    group: seq7_peer
+    attacker: sequence_7_standard
+    defender: sequence_7_standard
+    style: cast
+    cast_defense: willpower
+    expected:
+      hit_rate:
+        min: 0.45
+        max: 0.65
+      rounds_to_down:
+        min: 3.0
+        max: 5.0
+      sp_spend:
+        min: 3.0
+        max: 8.0
+
+  - id: seq5_peer_melee
+    group: seq5_peer
+    attacker: sequence_5_standard
+    defender: sequence_5_standard
+    style: melee
+    expected:
+      hit_rate:
+        min: 0.45
+        max: 0.60
+      rounds_to_down:
+        min: 3.0
+        max: 5.0
+
+  - id: seq5_firearm_vs_quick_dodge
+    group: seq5_peer
+    attacker: sequence_5_standard
+    defender: sequence_5_quick_dodge
+    style: firearm
+    expected:
+      hit_rate:
+        min: 0.45
+        max: 0.65
+      rounds_to_down:
+        min: 3.0
+        max: 5.0
+
+  - id: seq5_vs_seq3_boss_melee
+    attacker: sequence_5_standard
+    defender: sequence_3_boss
+    style: melee
+    expected:
+      hit_rate:
+        min: 0.30
+        max: 0.50
+      rounds_to_down:
+        min: 5.0
+        max: 8.0
+
+  - id: seq5_vs_seq3_boss_cast
+    attacker: sequence_5_standard
+    defender: sequence_3_boss
+    style: cast
+    cast_defense: willpower
+    expected:
+      hit_rate:
+        min: 0.30
+        max: 0.50
+      rounds_to_down:
+        min: 5.0
+        max: 9.0
+      sp_spend:
+        min: 8.0
+        max: 20.0

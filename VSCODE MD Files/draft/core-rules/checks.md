@@ -10,7 +10,7 @@ tags: ["core", "chapter-2"]
 
 A **Check** is made when an action's outcome is uncertain.
 
-- Roll: **1d20 + Attribute + Skills**
+- Roll: **1d20 + relevant Attribute + relevant Skill modifier**
 - If the total **exceeds** the **Difficulty Value**, the action succeeds.
 - Otherwise, the action fails.
 

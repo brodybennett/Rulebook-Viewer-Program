@@ -52,7 +52,7 @@ canonical_conditions:
   - "Invisible"
   - "Fear"
   - "Rage / Taunted"
-  - "Physique Advantage / Disadvantage"
+  - "Constitution (CON) Advantage / Disadvantage"
   - "Bloodbath"
   - "Bleeding"
   - "Dying"

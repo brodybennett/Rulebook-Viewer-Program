@@ -16,7 +16,7 @@ An **Ambush** is a battle suddenly initiated by the ambushing side against the a
 
 An ambush achieved before combat begins.
 
-Effect: The ambushing side gains **1 Ambush Round** (see [[Chapter 6: Combat]]). The ambushing side gains **Advantage** and the ambushed side gains **Disadvantage** until the Ambush Round ends (see [[Advantage / Disadvantage]]). If, during the Ambush Round, the ambushing side is not noticed/detected and their exact position is not discovered, the ambushed side suffers **Caught Off Guard** (see [[Caught Off Guard]]).
+Effect: The ambushing side gains **1 Surprise Round** (legacy name: Ambush Round; see [[Chapter 6: Combat]]). The ambushing side gains **Advantage** and the ambushed side gains **Disadvantage** until that Surprise Round ends (see [[Advantage / Disadvantage]]). If, during the Surprise Round, the ambushing side is not noticed/detected and their exact position is not discovered, the ambushed side suffers **Caught Off Guard** (see [[Caught Off Guard]]).
 
 ### Mid-Combat Ambush
 
@@ -24,7 +24,7 @@ An ambush achieved after combat has already begun, via movement abilities such a
 
 Example: jumping to an enemy's face when they did not expect it.
 
-Effect: This brings your turn forward and grants Advantage/Disadvantage, but there is no Ambush Round.
+Effect: This brings your turn forward and grants Advantage/Disadvantage, but there is no Surprise Round.
 
 ### Invisibility Ambush
 
@@ -179,9 +179,9 @@ You strike the target with a firearm at extremely close range.
 
 **Requirement:** The target must be within 1 meter of you.
 
-**Benefits (no Fast Dodge):** All three shots within your 1 Attack Action can gain the benefits of Build-Up Aim (no Swift Action required; cannot stack). The first attack check succeeds directly as long as it is greater than the target's Armor. See [[id:alias-fast-dodge|Fast Dodge]].
+**Benefits (no Fast Dodge):** All three shots within your 1 Attack Action can gain the benefits of Build-Up Aim (no Swift Action required; cannot stack). For the first shot, resolve against `10 + Armor` (ignore Agility (DEX) and Dodge), rather than treating it as an automatic hit. See [[id:alias-fast-dodge|Fast Dodge]].
 
-**Benefits (Fast Dodge):** As long as the target cannot dodge light or lightning, your first shot check ignores the Agility (DEX) and Dodge values within their Physical Defense, and all three shot checks gain the benefits of Build-Up Aim (cannot stack). If the target can dodge light or lightning, then all three shots only gain the benefits of Build-Up Aim. See [[id:alias-fast-dodge|Fast Dodge]].
+**Benefits (Fast Dodge):** As long as the target cannot dodge light or lightning, your first shot check ignores the Agility (DEX) and Dodge values within their Physical Defense, and all three shot checks gain the benefits of Build-Up Aim (cannot stack). If the target can dodge light or lightning, all three shots still gain Build-Up Aim, but use normal defense resolution. See [[id:alias-fast-dodge|Fast Dodge]].
 
 **Special:** If the enemy made an advance declaration and prepared in advance to dodge your point-blank shooting, you cannot gain the benefits.
 
@@ -415,18 +415,18 @@ This section collects combination uses and edge-case clarifications, especially 
 
 ### Ambush: Practical Clarifications
 
-**Pathway interactions:** For some special Pathways (example given: Witch), Ambush may gain additional benefits. If you can become invisible during combat and thereby make the opponent unable to determine your position, you can Ambush again during combat. This kind of Ambush does not create an additional Ambush Round. It can be used for some Pathways' additional effects for Ambush, and you still gain the benefits of Advantage/Disadvantage.
+**Pathway interactions:** For some special Pathways (example given: Witch), Ambush may gain additional benefits. If you can become invisible during combat and thereby make the opponent unable to determine your position, you can Ambush again during combat. This kind of Ambush does not create an additional Surprise Round. It can be used for some Pathways' additional effects for Ambush, and you still gain the benefits of Advantage/Disadvantage.
 
 **Position determined:** If the invisible combatant's position is judged to have been determined (e.g., the opponent succeeds at an Investigation check against invisibility), then the Ambush is considered a failure. It can only be treated as a normal attack or casting check during combat. The target who discovers the invisible character can also attack them even if the character is invisible. See [[Special Conditions]].
 
 **Movement/teleport ambush timing:**
-- If this action is the fuse that triggers combat, it can produce an Ambush Round.
+- If this action is the fuse that triggers combat, it can produce a Surprise Round.
 - If it is used during combat, it can move your turn order earlier, forcibly inserting your action before the current actor, and you gain Advantage/Disadvantage. If the current actor has already begun executing a casting or Attack Action, that action (already halfway underway) is considered to be completed first by the turn owner.
 
 **Duration and stacking in combat:**
 - If the Ambush occurs during combat, the gained Advantage/Disadvantage can only last for that one Ambush check. For movement-type Ambushes, only the one immediate follow-up attack gains this benefit.
-- If you are already in an Advantage/Disadvantage state produced by triggering an Ambush Round, further Advantage/Disadvantage gained from additional Ambushes cannot stack.
-- Disadvantage case (as written): If you are the side that encountered an Ambush Round (i.e., the side with Disadvantage) and you perform an Ambush during combat, then for that one check only, both sides' Disadvantage and Advantage cancel each other only for that one check.
+- If you are already in an Advantage/Disadvantage state produced by triggering a Surprise Round, further Advantage/Disadvantage gained from additional Ambushes cannot stack.
+- Disadvantage case (as written): If you are the side that encountered a Surprise Round (i.e., the side with Disadvantage) and you perform an Ambush during combat, then for that one check only, both sides' Disadvantage and Advantage cancel each other only for that one check.
 
 ### Combat Ambush Using Obstacles
 

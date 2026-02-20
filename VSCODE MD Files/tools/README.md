@@ -112,4 +112,14 @@ Write JSON output:
 python tools/lint_canon_terms.py --repo . --json-out reports/canon_term_lint.json
 ```
 
+## 9) Core combat simulator (Phase 1 balance lock)
+
+Run Monte Carlo checks against `meta/balance_targets.yml` and output markdown/json reports:
+
+```bash
+python tools/sim_core_combat.py --repo .
+python tools/sim_core_combat.py --repo . --targets meta/balance_targets.yml --out meta/balance_report.md --json
+python tools/sim_core_combat.py --repo . --trials 50000 --seed 20260220
+```
+
 
