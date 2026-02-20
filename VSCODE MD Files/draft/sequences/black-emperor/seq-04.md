@@ -4,7 +4,7 @@ id: "black-emperor-seq-04"
 tags: ["pathway:black-emperor", "sequence:4"]
 ---
 
-# [[Black Emperor Pathway]]: Sequence 4
+# [[Black Emperor]]: Sequence 4
 
 ## Fallen (Count)
 
@@ -16,7 +16,7 @@ tags: ["pathway:black-emperor", "sequence:4"]
   - becoming greedy and eager,
   - losing fighting spirit,
   - focusing only on money.
-- Through **Zoom In**, **Exploitation**, and **Distortion**, you can (to a certain extent) do things normally only possible for the [[Judge Pathway]].
+- Through **Zoom In**, **Exploitation**, and **Distortion**, you can (to a certain extent) do things normally only possible for the [[Justiciar]].
 - You also retain [[Bribery]] and other mid-to-low Sequence extraordinary abilities; they are stronger at this Sequence.
 
 ## Advancement
@@ -29,12 +29,12 @@ tags: ["pathway:black-emperor", "sequence:4"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Constitution +1, Dexterity +1, Inspiration +1, Charisma +2; your legal skill goes up by one skill level.
+- **Attribute Gain:** Constitution +1, Agility (DEX) +1, Intuition (INT) +1, Charisma +2; your legal skill goes up by one skill level.
 
 ### Chaotic Order
 
 - **Cost:** Consume 5 **Spirit points**.
-- **Use:** 1 **casting action** to cast one of the supernatural effects below. Once per round, you can cast one of the following effects as a **free action**; the free action still requires the listed cost and replaces the casting action.
+- **Use:** 1 **Casting Action** to cast one of the supernatural effects below. Once per round, you can cast one of the following effects as a **free action**; the free action still requires the listed cost and replaces the Casting Action.
 - **Effect:** Choose one of the following supernatural effects:
 
 — **Confusion (Distortion):** You confuse the form of an object.
@@ -89,7 +89,7 @@ tags: ["pathway:black-emperor", "sequence:4"]
 
 — **Gift (Unreasonable Gift):** Give a target something that happened to you.
 - **Bestowed Thought:** On the target’s next turn, it performs the action you specify, which cannot be clearly against its will.
-  - Special: [[Visionary Pathway]] Sequence 4 and above ignore this ability.
+  - Special: Visionary Sequence 4 and above ignore this ability.
 - **Bestow Negative Status:** You give a negative status on your body to the opponent.
 - **Gift of Madness:** You gift your madness to the opponent.
 - Extra (negative status gifting):

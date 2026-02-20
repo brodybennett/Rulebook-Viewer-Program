@@ -24,13 +24,13 @@ tags: ["pathway:tyrant", "sequence:7"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +1, Dexterity +1, Inspiration +2.
+- **Attribute Gain:** Strength +1, Constitution +1, Agility (DEX) +1, Intuition (INT) +2.
 - Your [[Navigator]] skill increases by 1 level.
 
 ### Rapid Promotion Compatibility
 
 - The Navigator is in the [[Rapid Promotion]] system and is **not** treated as a newly promoted character.
-- The [[Potion]] attribute used to increase the growth of this skill is **Inspiration**.
+- The [[Potion]] attribute used to increase the growth of this skill is **Intuition (INT)**.
 
 ### Perfect Recall and Orientation
 
@@ -46,7 +46,7 @@ tags: ["pathway:tyrant", "sequence:7"]
 ### Fuzzy Probability Calculation
 
 - **Requirement:** You have relevant clues.
-- **Use:** Make an **Inspiration** check at **Difficulty Value 20**.
+- **Use:** Make an **Intuition (INT)** check at **Difficulty Value 20**.
 - **Effect:** You calculate a “fuzzy” probability about a matter.
 - **Clues:** Each relevant clue provides a +2 bonus.
   - You can determine the relative distance between up to two things within your field of vision without an identification check.
@@ -56,7 +56,7 @@ tags: ["pathway:tyrant", "sequence:7"]
 ### Intuitive Grasp
 
 - **Effect:** You have an intuitive grasp of magnetic fields, ocean currents, wind direction, and clouds.
-- **Skill Substitution:** You may use **Inspiration + [[Piloting]]** instead of **Education + Piloting** for relevant identifications.
+- **Skill Substitution:** You may use **Intuition (INT) + [[Piloting]]** instead of **Education + Piloting** for relevant identifications.
 - **Typical Difficulty:** For reading ocean currents, wind direction, and clouds, this is usually a **Piloting** identification at **Difficulty Value 15**.
 - **Limits:** This is a potion benefit; it cannot be stolen or recorded.
 
@@ -83,7 +83,7 @@ tags: ["pathway:tyrant", "sequence:7"]
 - **Cost:** 3 points of Spirituality.
 - **Use:** 1 spellcasting action.
 - **Targeting and range:** Choose 1 target; up to 3 targets standing together are considered the same target.
-- **Effect:** Make an **Inspiration + Navigator** check against the target’s [[Physical Defense]]. On success, deal **3d6 physical damage**.
+- **Effect:** Make an **Intuition (INT) + Navigator** check against the target’s [[Physical Defense]]. On success, deal **3d6 physical damage**.
 - **Scaling:** For every Sequence you upgrade, this spell’s physical damage increases by **+1d6**. The wave’s volume is at most equal to the height of the cabin.
 - **Aftereffects:** Targets affected by this spell fall into a [[Wet State]].
 
@@ -100,7 +100,7 @@ tags: ["pathway:tyrant", "sequence:7"]
    - The distance of pushing is halved.
    - This also applies to lifting/upward movement (distance is halved).
 4) **Collapsing Waves:** You can make waves (not of super-large volume) collapse into short-term pouring rain.
-5) **Other Reasonable Uses:** The lubrication can also force others to make an **Agility** identification at **Difficulty Value 15** or lose their balance on it. Catching the opponent may require fighting against Physical Defense.
+5) **Other Reasonable Uses:** The lubrication can also force others to make an **Agility (DEX)** identification at **Difficulty Value 15** or lose their balance on it. Catching the opponent may require fighting against Physical Defense.
 
 - **Aftereffects:** Creatures affected by this spell (including via lubrication effects) fall into a [[Wet State]].
 

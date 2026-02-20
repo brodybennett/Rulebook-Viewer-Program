@@ -23,7 +23,7 @@ tags: ["pathway:fate", "sequence:5"]
 
 ### Luck
 
-Your **Luck** ability during [[Sequence 7 Luck]] has been improved.
+Your **Luck** ability during Sequence 7 Luck has been improved.
 
 **Luck level increased:**
 1) **Extreme luck:** changed to 2d3 bonus/penalty.
@@ -51,7 +51,7 @@ You can rely on moderation to accumulate a lot of “luck” to resolve crises i
 
 #### Resolve fatal crisis
 
-If a certain attack against your [[Three Defenses]] is successfully identified, and can cause damage equal to or greater than half of the upper limit of your [[HP]] within 1 round, rounded up, the luck released will be automatically added to the defense value.
+If a certain attack against your Three Defenses is successfully identified, and can cause damage equal to or greater than half of the upper limit of your [[Vitality]] within 1 round, rounded up, the luck released will be automatically added to the defense value.
 
 1) **Example:** 30 attack identification > 25 physical defense, and can cause fatal damage to you, then the luck you release will automatically consume 5 points to make up the difference
 2) This ability can be triggered passively, in other words, this ability will passively release luck when suffering fatal damage
@@ -63,13 +63,13 @@ If a certain attack against your [[Three Defenses]] is successfully identified, 
 As long as there is luck you have released, then whenever your skill appraisal fails, the corresponding difficulty is not exceeded or the confrontation fails, the released luck will be added to the skill result to ensure success.  
 (Only good luck released to yourself, you can store it back)
 
-Release Luck and special action [[id:alias-burn-luck|Burn Luck]] are independent. The released Luck is not an effect that you actively choose. As long as any of the above two conditions are met, Luck will be consumed automatically. Refer to [[Sequence 7 Luck]] for the expression form.
+Release Luck and special action [[id:alias-burn-luck|Burn Luck]] are independent. The released Luck is not an effect that you actively choose. As long as any of the above two conditions are met, Luck will be consumed automatically. Refer to Sequence 7 Luck for the expression form.
 
 ### Luck Grant
 
 You bestow luck or bad luck on the target.
 
-- **Use:** 1 casting action, consume 3 spiritual points, choose 1 target within 20 meters, you give him good luck/bad luck
+- **Use:** 1 Casting Action, consume 3 spiritual points, choose 1 target within 20 meters, you give him good luck/bad luck
 - **Effect:**
   1) **Give good luck:** You can give the target any amount of good luck. You can only choose the luck that you have accumulated. The target that you have given good luck enjoys the release effect of the accumulated luck. The good luck cannot exceed half of his spiritual limit.
   2) **Give bad luck:** You give the target any amount of bad luck, and the luck you have accumulated is still used as the judgment. The target you give bad luck enjoys the following effects:

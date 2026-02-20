@@ -22,12 +22,12 @@ tags: ["pathway:sun", "sequence:2"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Dexterity +1; Inspiration +1; Constitution +1; Religion +1 skill level; Mystic +1 skill level.
+- **Attribute Gain:** Agility (DEX) +1; Intuition (INT) +1; Constitution +1; Religion +1 skill level; Mystic +1 skill level.
 
 ### Incarnate Sun
 
-- **Cost:** 10 **spiritual points** [[Spiritual Points]]
-- **Use:** **Casting action** (1 turn) [[Casting Action]]
+- **Cost:** 10 **spiritual points** [[Spirituality]]
+- **Use:** **Casting Action** (1 turn) Casting Action
 - **Duration:** 1 round (the sun persists continuously for this round).
 - **Effect:**
   - You let a real sun descend here; its golden, brilliant white radiance bursts from your body and covers everything.
@@ -59,4 +59,4 @@ tags: ["pathway:sun", "sequence:2"]
     [[Blind]]
   - All areas you can see are covered by extreme daylight.
 - **Limits:**
-  - This skill automatically interrupts immediately when you are unable to perform the corresponding casting action.
+  - This skill automatically interrupts immediately when you are unable to perform the corresponding Casting Action.

@@ -24,26 +24,26 @@ tags: ["pathway:red-priest", "sequence:4"]
 
 ### Attribute Gain
 
-- **Dexterity** +2  
+- **Agility (DEX)** +2  
 - **Strength** +1  
 - **Constitution** +1  
 - You become a male.
 
 ### Steel
 
-- **Use:** A **full-round action**. [[Full-Round Action]]
+- **Use:** A **Full-Round Action**. [[Full-Round Action]]
 - **Effect:**
   - You become steel.
   - Gain +3 **Armor** [[Armor]] and +3 **Damage Reduction**. [[Damage Reduction]]
   - You can also increase the **Hardness** of your body at the same time. [[Hardness]]
-  - You may lower your Dexterity at will:
-    - For every 2 points of Dexterity you reduce, you gain +2 Armor and +1 point of physical Damage Reduction.
-    - Reducing Dexterity reduces your movement speed.
-    - If your Dexterity is 0, you cannot move.
+  - You may lower your Agility (DEX) at will:
+    - For every 2 points of Agility (DEX) you reduce, you gain +2 Armor and +1 point of physical Damage Reduction.
+    - Reducing Agility (DEX) reduces your movement speed.
+    - If your Agility (DEX) is 0, you cannot move.
 
 ### Flame
 
-- **Use:** A **full-round action**. [[Full-Round Action]]
+- **Use:** A **Full-Round Action**. [[Full-Round Action]]
 - **Effect:**
   - You are immune to **poison** [[Poison]] and **disease**. [[Disease]]
   - You move three times faster.

@@ -20,15 +20,15 @@ tags: ["pathway:mutant", "sequence:1"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Constitution +2, Dexterity +1, Strength +2, Inspiration +1
+- **Attribute Gain:** Constitution +2, Agility (DEX) +1, Strength +2, Intuition (INT) +1
 
 ### Abominable State
 
 - **Use:** As a **Free Action**, you transform into an abomination.
 - **Effect:**
   - You gain all the benefits of previous shapeshifting abilities. [[Shapeshifting]]
-  - All enemies around you gain +2 to the final result of **Sanity** rolls. [[Sanity]]
-  - While in the abomination state, when you fail a sanity test you lose sanity equal to half your current Sanity (rounded up).
+  - All enemies around you gain +2 to the final result of **Sanity / Rationality** rolls. [[Sanity / Rationality]]
+  - While in the abomination state, when you fail a sanity test you lose sanity equal to half your current Sanity / Rationality (rounded up).
 - **Targeting and range:** “All enemies around you.” [[Around You]]
 - **Limits:**
   - Note: The state of Shenpin is like a werewolf, supporting only part of the body to deform. [[Shenpin State]]
@@ -40,7 +40,7 @@ tags: ["pathway:mutant", "sequence:1"]
 - **Cost:** 3 **spirituality points**. [[Spirituality]]
 - **Use:** A **Spellcasting Action**; you must be in the abomination state.
 - **Effect:**
-  - You make a **Mysticism** attack against the **Will Defense** of all targets in the field; the attack check is -15 disadvantageous. [[Mysticism]] [[Will Defense]] [[Field]]
+  - You make a **Mysticism** attack against the **Willpower Defense** of all targets in the field; the attack check is -15 disadvantageous. [[Mysticism]] Willpower Defense [[Field]]
   - You can also use **Fighting** against **Physical Defense**, ignoring **armor**, to use this ability. [[Fighting]] [[Physical Defense]] [[Armor]]
   - Fighting against style does not have adverse penalties.
   - Partially deformed gods can only use Fighting to display this ability. [[Partially Deformed]] [[Deity]]
@@ -51,7 +51,7 @@ tags: ["pathway:mutant", "sequence:1"]
     - **Third stage:** It takes two turns to perform a **Free Action**, and three turns to perform an **Action**.
     - **Fourth stage:** Unable to perform any actions; the world becomes a cage of the body, and the body becomes a cage of the mind.
     - **Stage progression:** Each round of continued exposure advances the stage by 1; stages reset when the exposure ends.
-  - Even if the Will Defense confrontation is unsuccessful, it can directly interrupt ongoing unfinished actions (such as actions that require a round of time), making their brains suddenly blank and losing all thoughts for a short time. [[Interrupted Action]]
+  - Even if the Willpower Defense confrontation is unsuccessful, it can directly interrupt ongoing unfinished actions (such as actions that require a round of time), making their brains suddenly blank and losing all thoughts for a short time. [[Interrupted Action]]
 - **Targeting and range:**
   - “All targets in the field.”
   - Continued hearing of the roar or being touched by your body applies the staged effects.

@@ -3,54 +3,6 @@
 This page provides temporary draft anchor targets for common terms.
 It does not introduce new rules. Use the core rules and sequence chapters for full mechanics.
 
-## Inspiration
-
-Draft link target alias.
-
-## Casting Action
-
-Draft link target alias.
-
-## Spell-Casting Action
-
-Draft link target alias.
-
-## Spellcasting Action
-
-Draft link target alias.
-
-## Free Action
-
-Draft link target alias.
-
-## Swift Action
-
-Draft link target alias.
-
-## Attack Action
-
-Draft link target alias.
-
-## Will Defense
-
-Draft link target alias.
-
-## Will Test
-
-Draft link target alias.
-
-## Sanity
-
-Draft link target alias.
-
-## Sanity Check
-
-Draft link target alias.
-
-## Difficulty Value
-
-Draft link target alias.
-
 ## Potion
 
 Draft link target alias.
@@ -60,18 +12,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Occult
-
-Draft link target alias.
-
-## Identification
-
-Draft link target alias.
-
-## Dodge
-
-Draft link target alias.
-
-## Agility
 
 Draft link target alias.
 
@@ -99,18 +39,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Encounter
-
-Draft link target alias.
-
-## Round
-
-Draft link target alias.
-
-## Spiritual Points
-
-Draft link target alias.
-
 ## Beyonder
 
 Draft link target alias.
@@ -131,70 +59,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Sequence 9
-
-Draft link target alias.
-
-## Sequence
-
-Draft link target alias.
-
-## Sequence 7
-
-Draft link target alias.
-
-## Pathway
-
-Draft link target alias.
-
-## Death Pathway
-
-Draft link target alias.
-
-## Abyss Pathway
-
-Draft link target alias.
-
-## Black Emperor Pathway
-
-Draft link target alias.
-
-## Spectator Pathway
-
-Draft link target alias.
-
-## Fool Pathway
-
-Draft link target alias.
-
-## Red Priest Pathway
-
-Draft link target alias.
-
-## Visionary Pathway
-
-Draft link target alias.
-
-## Audience Pathway
-
-Draft link target alias.
-
-## Fate Pathway
-
-Draft link target alias.
-
-## Tyrant Pathway
-
-Draft link target alias.
-
-## Moon Pathway
-
-Draft link target alias.
-
-## Witch Pathway
-
-Draft link target alias.
-
 ## Holy Damage
 
 Draft link target alias.
@@ -208,14 +72,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Madness
-
-Draft link target alias.
-
-## Proficient
-
-Draft link target alias.
-
-## Proficiency
 
 Draft link target alias.
 
@@ -235,15 +91,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## HP
-
-Draft link target alias.
-
 ## SC
-
-Draft link target alias.
-
-## Detection
 
 Draft link target alias.
 
@@ -256,14 +104,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Poison Damage
-
-Draft link target alias.
-
-## Disadvantage
-
-Draft link target alias.
-
-## Move Action
 
 Draft link target alias.
 
@@ -283,35 +123,11 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Door Pathway
-
-Draft link target alias.
-
 ## Chapter 11: Manifesting Mythical Creature Form
 
 Draft link target alias.
 
-## Health
-
-Draft link target alias.
-
 ## Deception
-
-Draft link target alias.
-
-## Movement Action
-
-Draft link target alias.
-
-## Three Defenses
-
-Draft link target alias.
-
-## Great Success
-
-Draft link target alias.
-
-## Hit Points
 
 Draft link target alias.
 
@@ -331,31 +147,11 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Big Failure
-
-Draft link target alias.
-
 ## Skills
 
 Draft link target alias.
 
 ## Conditions
-
-Draft link target alias.
-
-## Judge Pathway
-
-Draft link target alias.
-
-## Night Pathway
-
-Draft link target alias.
-
-## Apprentice Pathway
-
-Draft link target alias.
-
-## Earth Pathway
 
 Draft link target alias.
 
@@ -380,10 +176,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Evasion
-
-Draft link target alias.
-
-## Sequence Level
 
 Draft link target alias.
 
@@ -412,14 +204,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Psychology
-
-Draft link target alias.
-
-## Blood Volume
-
-Draft link target alias.
-
-## Sun Path
 
 Draft link target alias.
 
@@ -452,10 +236,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Anti-Prophecy
-
-Draft link target alias.
-
-## Wheel of Fortune Pathway
 
 Draft link target alias.
 
@@ -515,18 +295,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Darkness Pathway
-
-Draft link target alias.
-
-## Darkness Pathway Sequence 6
-
-Draft link target alias.
-
-## Darkness Pathway Sequence 8
-
-Draft link target alias.
-
 ## deflection
 
 Draft link target alias.
@@ -539,14 +307,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Destiny Pathway
-
-Draft link target alias.
-
-## Dexterity
-
-Draft link target alias.
-
 ## Dispel
 
 Draft link target alias.
@@ -556,10 +316,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Dreaming
-
-Draft link target alias.
-
-## Error Pathway
 
 Draft link target alias.
 
@@ -576,14 +332,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## GM
-
-Draft link target alias.
-
-## Inspiration Appraisal
-
-Draft link target alias.
-
-## Inspiration Test
 
 Draft link target alias.
 
@@ -643,15 +391,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Sequence 8
-
-Draft link target alias.
-
 ## Shooting
-
-Draft link target alias.
-
-## Skill Ranks
 
 Draft link target alias.
 
@@ -699,23 +439,11 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Sun Pathway: Sequence 4
-
-Draft link target alias.
-
-## Thief Pathway
-
-Draft link target alias.
-
 ## Trickster
 
 Draft link target alias.
 
 ## Vital Blow
-
-Draft link target alias.
-
-## White Tower Pathway
 
 Draft link target alias.
 
@@ -736,10 +464,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Appraisal
-
-Draft link target alias.
-
-## Arbiter Pathway
 
 Draft link target alias.
 
@@ -907,23 +631,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## God of War Pathway
-
-Draft link target alias.
-
-## Health Points
-
-Draft link target alias.
-
-## Higher Sequences
-
-Draft link target alias.
-
 ## Imprisonment
-
-Draft link target alias.
-
-## Incomplete Audience Pathway Sequence 5
 
 Draft link target alias.
 
@@ -991,10 +699,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Mystery Pryer Pathway
-
-Draft link target alias.
-
 ## Mystic Identification
 
 Draft link target alias.
@@ -1024,14 +728,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Out-of-Control
-
-Draft link target alias.
-
-## Paragon Pathway
-
-Draft link target alias.
-
-## Path of the Fool
 
 Draft link target alias.
 
@@ -1115,18 +811,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Sanity Loss Test
-
-Draft link target alias.
-
-## Sanity Roll
-
-Draft link target alias.
-
-## Sanity Rolls
-
-Draft link target alias.
-
 ## Scouting
 
 Draft link target alias.
@@ -1139,19 +823,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Sequence 7 Luck
-
-Draft link target alias.
-
-## Sequence 9 rapid growth category
-
-Draft link target alias.
-
 ## Seven Gods
-
-Draft link target alias.
-
-## shock
 
 Draft link target alias.
 
@@ -1231,15 +903,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## temporary madness
-
-Draft link target alias.
-
 ## Temporary Madness
-
-Draft link target alias.
-
-## Temporary Sanity Armor
 
 Draft link target alias.
 
@@ -1263,10 +927,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Voyeur Pathway
-
-Draft link target alias.
-
 ## Weapon Paradigm
 
 Draft link target alias.
@@ -1280,10 +940,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Witch’s Plague
-
-Draft link target alias.
-
-## Wrong Pathway
 
 Draft link target alias.
 
@@ -1304,10 +960,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Abnormal Perception
-
-Draft link target alias.
-
-## Abyss Pathway Sequence 5 Ceremony
 
 Draft link target alias.
 
@@ -1363,14 +1015,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Agility Appraisal
-
-Draft link target alias.
-
-## Agility Test
-
-Draft link target alias.
-
 ## Agriculture
 
 Draft link target alias.
@@ -1395,23 +1039,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Alien Pathway
-
-Draft link target alias.
-
-## Alien Pathway Sequence 5
-
-Draft link target alias.
-
-## Alien Pathway — Sequence 5: Wraith
-
-Draft link target alias.
-
 ## Amanda
-
-Draft link target alias.
-
-## Analog Door Pathway
 
 Draft link target alias.
 
@@ -1440,10 +1068,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Angel Personality
-
-Draft link target alias.
-
-## angel-level
 
 Draft link target alias.
 
@@ -1523,10 +1147,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Artificer Pathway
-
-Draft link target alias.
-
 ## Artificial Vampire
 
 Draft link target alias.
@@ -1599,10 +1219,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Audience Path
-
-Draft link target alias.
-
 ## Auto Character Sheet
 
 Draft link target alias.
@@ -1612,10 +1228,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Avoidance of Scrying
-
-Draft link target alias.
-
-## Awe
 
 Draft link target alias.
 
@@ -1636,10 +1248,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Bard Potion
-
-Draft link target alias.
-
-## Base HP Limit
 
 Draft link target alias.
 
@@ -1667,10 +1275,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Beyonder Pathway
-
-Draft link target alias.
-
 ## Big Volume Creature
 
 Draft link target alias.
@@ -1692,10 +1296,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Black edge sun flower powder
-
-Draft link target alias.
-
-## Black Emperor Sanity Shield
 
 Draft link target alias.
 
@@ -1727,10 +1327,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Blindness
-
-Draft link target alias.
-
 ## blindness
 
 Draft link target alias.
@@ -1748,14 +1344,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## blood crystal of Rava octopus
-
-Draft link target alias.
-
-## Blood Duke Pathway
-
-Draft link target alias.
-
-## Blood moon
 
 Draft link target alias.
 
@@ -1839,10 +1427,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Chained Pathway
-
-Draft link target alias.
-
 ## channeling a soul
 
 Draft link target alias.
@@ -1852,10 +1436,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Chaotic Sea
-
-Draft link target alias.
-
-## Chapter 14: "Bombard and Kill Beyonders" Module Guide
 
 Draft link target alias.
 
@@ -1919,10 +1499,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Charm Check
-
-Draft link target alias.
-
 ## Charm Crafting in Common Ritual Magic
 
 Draft link target alias.
@@ -1967,15 +1543,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Clown Pathway
-
-Draft link target alias.
-
 ## Clown Precise Control
-
-Draft link target alias.
-
-## clues
 
 Draft link target alias.
 
@@ -2087,10 +1655,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Counter-Scry
-
-Draft link target alias.
-
 ## Counterattack
 
 Draft link target alias.
@@ -2143,14 +1707,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Criminal Skills (Sequence 9)
-
-Draft link target alias.
-
-## Critical hit
-
-Draft link target alias.
-
 ## Critical Hit
 
 Draft link target alias.
@@ -2176,10 +1732,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Curse of Transformation
-
-Draft link target alias.
-
-## curse reduction
 
 Draft link target alias.
 
@@ -2215,19 +1767,11 @@ Draft link target alias.
 
 Draft link target alias.
 
-## danger intuition
-
-Draft link target alias.
-
 ## Danger Intuition
 
 Draft link target alias.
 
 ## Danger level
-
-Draft link target alias.
-
-## dark
 
 Draft link target alias.
 
@@ -2255,19 +1799,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Dark Path Pathway
-
-Draft link target alias.
-
 ## Dark Side of the Universe
-
-Draft link target alias.
-
-## Darkness Pathway Sequence 5
-
-Draft link target alias.
-
-## Darkness Pathway Sequence 7
 
 Draft link target alias.
 
@@ -2284,10 +1816,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Dawn
-
-Draft link target alias.
-
-## Death Path
 
 Draft link target alias.
 
@@ -2351,10 +1879,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Demoness Pathway
-
-Draft link target alias.
-
 ## Desire detonation
 
 Draft link target alias.
@@ -2368,10 +1892,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Destiny Domain
-
-Draft link target alias.
-
-## Destiny Path
 
 Draft link target alias.
 
@@ -2392,14 +1912,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Devil Medicine
-
-Draft link target alias.
-
-## Dexterity Identification
-
-Draft link target alias.
-
-## Dexterity Test
 
 Draft link target alias.
 
@@ -2503,14 +2015,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Diviner Pathway
-
-Draft link target alias.
-
-## Dodge Level
-
-Draft link target alias.
-
 ## Dodge level
 
 Draft link target alias.
@@ -2520,10 +2024,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Doorway
-
-Draft link target alias.
-
-## Doorway Pathway
 
 Draft link target alias.
 
@@ -2599,10 +2099,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## DV
-
-Draft link target alias.
-
 ## Dying Threshold
 
 Draft link target alias.
@@ -2612,22 +2108,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Earth Church
-
-Draft link target alias.
-
-## Earth Path
-
-Draft link target alias.
-
-## Earth Pathway: Sequence 2
-
-Draft link target alias.
-
-## Earth Pathway: Sequence 8
-
-Draft link target alias.
-
-## Earth Sequence
 
 Draft link target alias.
 
@@ -2664,10 +2144,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Enter/exit dreams
-
-Draft link target alias.
-
-## enveloping/flanking
 
 Draft link target alias.
 
@@ -2708,10 +2184,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Expansion 3: Special Races
-
-Draft link target alias.
-
-## Explanation of Sequence Replacement
 
 Draft link target alias.
 
@@ -2863,10 +2335,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## fate path
-
-Draft link target alias.
-
 ## Fate Trojan Horse
 
 Draft link target alias.
@@ -2915,10 +2383,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Fighting (skill)
-
-Draft link target alias.
-
 ## Fighting (Skill)
 
 Draft link target alias.
@@ -2948,14 +2412,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Fire dragon breathing
-
-Draft link target alias.
-
-## Fire Raven
-
-Draft link target alias.
-
-## Fire resistance
 
 Draft link target alias.
 
@@ -3023,26 +2479,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Fool's Pathway
-
-Draft link target alias.
-
-## Fool's Pathway Sequence 3 Ancient Scholar
-
-Draft link target alias.
-
-## Fool's Pathway Sequence 5
-
-Draft link target alias.
-
-## Fool's Pathway Sequence 6 Faceless Man
-
-Draft link target alias.
-
-## Fool's Pathway Sequence 7 Magician's Potion
-
-Draft link target alias.
-
 ## Forbidden Law
 
 Draft link target alias.
@@ -3091,15 +2527,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## gaining momentum
-
-Draft link target alias.
-
 ## Gaining Momentum
-
-Draft link target alias.
-
-## Gate Pathway
 
 Draft link target alias.
 
@@ -3116,10 +2544,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Giant King's Court
-
-Draft link target alias.
-
-## Giant Pathway
 
 Draft link target alias.
 
@@ -3279,18 +2703,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Hermit Pathway
-
-Draft link target alias.
-
-## Heterogeneous Pathway
-
-Draft link target alias.
-
-## heterosexual pathway
-
-Draft link target alias.
-
 ## Hidden Kingdom
 
 Draft link target alias.
@@ -3300,10 +2712,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## hidden town
-
-Draft link target alias.
-
-## High Sequence
 
 Draft link target alias.
 
@@ -3403,10 +2811,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## identification bonus
-
-Draft link target alias.
-
 ## Identification Bonus
 
 Draft link target alias.
@@ -3499,27 +2903,11 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Injury/Health Volume Example
-
-Draft link target alias.
-
 ## Inner World
 
 Draft link target alias.
 
 ## Inquisitor
-
-Draft link target alias.
-
-## Inspiration cap
-
-Draft link target alias.
-
-## Inspiration check
-
-Draft link target alias.
-
-## Inspiration identification
 
 Draft link target alias.
 
@@ -3563,23 +2951,11 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Judge’s decrees
-
-Draft link target alias.
-
 ## Judgment
 
 Draft link target alias.
 
 ## July Wine Juice
-
-Draft link target alias.
-
-## Jumping Path
-
-Draft link target alias.
-
-## Jumping Pathway
 
 Draft link target alias.
 
@@ -3651,14 +3027,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Law’s prowess
-
-Draft link target alias.
-
-## legal appraisal
-
-Draft link target alias.
-
 ## Legal Appraisal
 
 Draft link target alias.
@@ -3703,15 +3071,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## light
-
-Draft link target alias.
-
 ## Light
-
-Draft link target alias.
-
-## Light and Lightning
 
 Draft link target alias.
 
@@ -3724,10 +3084,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Light/Lightning Modification
-
-Draft link target alias.
-
-## lightning
 
 Draft link target alias.
 
@@ -3748,10 +3104,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Lightning State
-
-Draft link target alias.
-
-## Line of Sight
 
 Draft link target alias.
 
@@ -3811,10 +3163,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Machine Pathway
-
-Draft link target alias.
-
 ## Mad Creature
 
 Draft link target alias.
@@ -3827,23 +3175,11 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Mage Pathway
-
-Draft link target alias.
-
 ## Magic class
 
 Draft link target alias.
 
 ## Magical Items
-
-Draft link target alias.
-
-## Magician Pathway
-
-Draft link target alias.
-
-## magician’s hallucination
 
 Draft link target alias.
 
@@ -3883,10 +3219,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Marauder Pathway
-
-Draft link target alias.
-
 ## Marionette Master
 
 Draft link target alias.
@@ -3908,10 +3240,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Maximum health
-
-Draft link target alias.
-
-## Maximum HP
 
 Draft link target alias.
 
@@ -3979,10 +3307,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Middle Sequence
-
-Draft link target alias.
-
 ## Midsummer Grass
 
 Draft link target alias.
@@ -4007,10 +3331,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Mistake Pathway
-
-Draft link target alias.
-
 ## monsters
 
 Draft link target alias.
@@ -4031,14 +3351,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Moon Pathway Pharmaceuticals
-
-Draft link target alias.
-
-## Moon Pathway: Sequence 6
-
-Draft link target alias.
-
 ## Moonlight Block
 
 Draft link target alias.
@@ -4048,10 +3360,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Mortal
-
-Draft link target alias.
-
-## Mother Pathway
 
 Draft link target alias.
 
@@ -4068,10 +3376,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Murloc Swim Bladder
-
-Draft link target alias.
-
-## Mutant Pathway
 
 Draft link target alias.
 
@@ -4092,14 +3396,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Mystic Eye
-
-Draft link target alias.
-
-## Mystic Path
-
-Draft link target alias.
-
-## Mystic Pathway
 
 Draft link target alias.
 
@@ -4132,10 +3428,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Mythic Form
-
-Draft link target alias.
-
-## Mythical Creature
 
 Draft link target alias.
 
@@ -4195,10 +3487,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Nightmare on the Path of Darkness
-
-Draft link target alias.
-
 ## No-Clue Scrying
 
 Draft link target alias.
@@ -4216,10 +3504,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Observation
-
-Draft link target alias.
-
-## Occult Check
 
 Draft link target alias.
 
@@ -4247,15 +3531,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Omniscient Pathway: Sequence 6 "Mechanics Master"
-
-Draft link target alias.
-
 ## One with Extraordinary Destiny
-
-Draft link target alias.
-
-## ontology
 
 Draft link target alias.
 
@@ -4272,10 +3548,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Organization Introduction
-
-Draft link target alias.
-
-## Original Pathway abilities
 
 Draft link target alias.
 
@@ -4303,10 +3575,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Paragon Pathway: Sequence 6
-
-Draft link target alias.
-
 ## Paralyzed
 
 Draft link target alias.
@@ -4331,50 +3599,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Path Knowledge
-
-Draft link target alias.
-
-## Path of Fate
-
-Draft link target alias.
-
-## Path of Storms
-
-Draft link target alias.
-
-## Path of the Sun
-
-Draft link target alias.
-
-## Pathway (Pale Emperor)
-
-Draft link target alias.
-
-## Pathway charm rules
-
-Draft link target alias.
-
-## Pathway containing Sequence 7: Magician
-
-Draft link target alias.
-
-## Pathway for Serpent of Mercury
-
-Draft link target alias.
-
-## Pathway Knowledge
-
-Draft link target alias.
-
-## Pathway Name
-
-Draft link target alias.
-
-## Pathway of Disciple of Silence
-
-Draft link target alias.
-
 ## Peeping Eye
 
 Draft link target alias.
@@ -4384,14 +3608,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Perception of the Underworld
-
-Draft link target alias.
-
-## Perfect Pathway
-
-Draft link target alias.
-
-## Perfection Pathway
 
 Draft link target alias.
 
@@ -4407,15 +3623,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## personality suppression
-
-Draft link target alias.
-
 ## Personality Suppression
-
-Draft link target alias.
-
-## Pharmacist Pathway: Sequence 9
 
 Draft link target alias.
 
@@ -4432,10 +3640,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Physical
-
-Draft link target alias.
-
-## Physical damage
 
 Draft link target alias.
 
@@ -4471,10 +3675,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Physique
-
-Draft link target alias.
-
 ## Pilotage Appraisal
 
 Draft link target alias.
@@ -4492,10 +3692,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Plagueseeds
-
-Draft link target alias.
-
-## Plant Life / Plant HP
 
 Draft link target alias.
 
@@ -4539,10 +3735,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Portal
-
-Draft link target alias.
-
 ## Position
 
 Draft link target alias.
@@ -4556,10 +3748,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Potion benefit
-
-Draft link target alias.
-
-## Potion Digestion Progress
 
 Draft link target alias.
 
@@ -4627,10 +3815,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Prisoner Pathway
-
-Draft link target alias.
-
 ## Profane Words
 
 Draft link target alias.
@@ -4648,14 +3832,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Psychedelic Wind Chime Tree Fruit
-
-Draft link target alias.
-
-## Psychic
-
-Draft link target alias.
-
-## Psychic Damage
 
 Draft link target alias.
 
@@ -4783,10 +3959,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## rd4
-
-Draft link target alias.
-
 ## rd6
 
 Draft link target alias.
@@ -4799,19 +3971,11 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Reader Path
-
-Draft link target alias.
-
 ## Real Inspiration
 
 Draft link target alias.
 
 ## Reaper
-
-Draft link target alias.
-
-## Reaper Pathway
 
 Draft link target alias.
 
@@ -4839,10 +4003,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Red Flame Spear
-
-Draft link target alias.
-
 ## Red Priest's Flame
 
 Draft link target alias.
@@ -4856,10 +4016,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Reputation and Social Identification
-
-Draft link target alias.
-
-## Reputation level
 
 Draft link target alias.
 
@@ -4975,59 +4131,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Sanity Appraisal
-
-Draft link target alias.
-
-## Sanity Armor
-
-Draft link target alias.
-
-## Sanity Attack
-
-Draft link target alias.
-
 ## sanity blow
-
-Draft link target alias.
-
-## Sanity checks
-
-Draft link target alias.
-
-## sanity damage
-
-Draft link target alias.
-
-## Sanity Damage
-
-Draft link target alias.
-
-## sanity loss
-
-Draft link target alias.
-
-## Sanity Loss
-
-Draft link target alias.
-
-## Sanity Loss Identification
-
-Draft link target alias.
-
-## Sanity point
-
-Draft link target alias.
-
-## Sanity Points
-
-Draft link target alias.
-
-## Sanity Strike
-
-Draft link target alias.
-
-## Sanity Test
 
 Draft link target alias.
 
@@ -5035,15 +4139,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Sanity Upper Limit
-
-Draft link target alias.
-
 ## Satiety
-
-Draft link target alias.
-
-## Scholar Pathway
 
 Draft link target alias.
 
@@ -5091,23 +4187,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Secret Peer Pathway
-
-Draft link target alias.
-
 ## Secret Puppet of the Worm
-
-Draft link target alias.
-
-## Secret Voyeurs Pathway
-
-Draft link target alias.
-
-## Secret-Seeker Pathway
-
-Draft link target alias.
-
-## Seer Pathway
 
 Draft link target alias.
 
@@ -5131,87 +4211,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Sequence 0 Aura
-
-Draft link target alias.
-
-## Sequence 1 characteristics
-
-Draft link target alias.
-
-## Sequence 2 and Above
-
-Draft link target alias.
-
-## Sequence 2 Upgrade
-
-Draft link target alias.
-
-## Sequence 4: Mysticist
-
-Draft link target alias.
-
-## Sequence 5 Promotion Ceremony
-
-Draft link target alias.
-
-## Sequence 7 Ability List
-
-Draft link target alias.
-
-## Sequence 7 Water Spell
-
-Draft link target alias.
-
-## Sequence 8 Dehumanization
-
-Draft link target alias.
-
-## Sequence 8 Listening Effect
-
-Draft link target alias.
-
-## Sequence 9 period
-
-Draft link target alias.
-
-## Sequence 9 potion skills
-
-Draft link target alias.
-
-## Sequence 9 Rapid Improvement
-
-Draft link target alias.
-
-## Sequence 9 Reputation Growth
-
-Draft link target alias.
-
-## Sequence 9 skills
-
-Draft link target alias.
-
-## Sequence 9: Extraordinary Fighting
-
-Draft link target alias.
-
-## Sequence 9: Most Knowledgeable
-
-Draft link target alias.
-
-## Sequence Characteristic
-
-Draft link target alias.
-
-## Sequence promotion
-
-Draft link target alias.
-
 ## Shaded Area
-
-Draft link target alias.
-
-## Shadow
 
 Draft link target alias.
 
@@ -5224,10 +4224,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Shadow Creature
-
-Draft link target alias.
-
-## Shadow hiding
 
 Draft link target alias.
 
@@ -5264,10 +4260,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Shenpin State
-
-Draft link target alias.
-
-## Shepherd's Grazing
 
 Draft link target alias.
 
@@ -5368,14 +4360,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Social Skills
-
-Draft link target alias.
-
-## Solar Path
-
-Draft link target alias.
-
-## Solar Pathway
 
 Draft link target alias.
 
@@ -5483,10 +4467,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Spirit Points vs Spirituality Points
-
-Draft link target alias.
-
 ## Spirit Realm
 
 Draft link target alias.
@@ -5512,10 +4492,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Spirit World Travel
-
-Draft link target alias.
-
-## spirit worm
 
 Draft link target alias.
 
@@ -5647,10 +4623,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## star realm
-
-Draft link target alias.
-
 ## Star Realm
 
 Draft link target alias.
@@ -5707,23 +4679,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Storm Path
-
-Draft link target alias.
-
-## Storm Pathway Sequence 5 Multi-Ocean Singer
-
-Draft link target alias.
-
-## Storm Pathway Sequence 6 Wind Blessed
-
-Draft link target alias.
-
 ## Strength confrontation
-
-Draft link target alias.
-
-## Strength damage die
 
 Draft link target alias.
 
@@ -5791,10 +4747,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Sun Path brilliance
-
-Draft link target alias.
-
 ## Super-Large Creature
 
 Draft link target alias.
@@ -5804,10 +4756,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Supernatural Item
-
-Draft link target alias.
-
-## Suppressed
 
 Draft link target alias.
 
@@ -5863,19 +4811,11 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Tarot cards
-
-Draft link target alias.
-
 ## Tarot Cards
 
 Draft link target alias.
 
 ## Tarot — Tower
-
-Draft link target alias.
-
-## Teammate
 
 Draft link target alias.
 
@@ -5899,10 +4839,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Temporary Sanity
-
-Draft link target alias.
-
 ## Terminal Illness
 
 Draft link target alias.
@@ -5923,43 +4859,11 @@ Draft link target alias.
 
 Draft link target alias.
 
-## The Error Path Pathway
-
-Draft link target alias.
-
-## The Error Path Pathway: Sequence 5
-
-Draft link target alias.
-
-## The Error Path Pathway: Sequence 6
-
-Draft link target alias.
-
-## The Error Path Pathway: Sequence 7
-
-Draft link target alias.
-
-## The Error Path Pathway: Sequence 8
-
-Draft link target alias.
-
 ## The Hanged Man (Tarot)
 
 Draft link target alias.
 
-## The Hanged Man Pathway Sequence 6
-
-Draft link target alias.
-
 ## Theft Abilities
-
-Draft link target alias.
-
-## this Pathway
-
-Draft link target alias.
-
-## thread of the spirit body
 
 Draft link target alias.
 
@@ -6007,23 +4911,11 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Transfer Path
-
-Draft link target alias.
-
 ## Transported
 
 Draft link target alias.
 
 ## Triple Potion
-
-Draft link target alias.
-
-## Twilight Giant Pathway
-
-Draft link target alias.
-
-## Twilight Giant Pathway Sequence 5
 
 Draft link target alias.
 
@@ -6035,23 +4927,11 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Tyrant Path
-
-Draft link target alias.
-
-## Tyrant Pathway Sequence 6 Wind Blessed
-
-Draft link target alias.
-
 ## uncertain madness
 
 Draft link target alias.
 
 ## Unconscious
-
-Draft link target alias.
-
-## Undead Creatures
 
 Draft link target alias.
 
@@ -6091,23 +4971,7 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Viscount Bloodline Pathway
-
-Draft link target alias.
-
 ## Vision of Destiny
-
-Draft link target alias.
-
-## Visionary Pathway Sequence 4 Manipulator
-
-Draft link target alias.
-
-## Visionary Pathway Sequence 6
-
-Draft link target alias.
-
-## Visionary Pathway Sequence 8
 
 Draft link target alias.
 
@@ -6136,10 +5000,6 @@ Draft link target alias.
 Draft link target alias.
 
 ## Wall Penetration
-
-Draft link target alias.
-
-## War God Pathway
 
 Draft link target alias.
 
@@ -6187,19 +5047,11 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Witch Pathway Sequence 6
-
-Draft link target alias.
-
 ## Witch's Ice Lance
 
 Draft link target alias.
 
 ## Witch's plague
-
-Draft link target alias.
-
-## Witch’s Curse
 
 Draft link target alias.
 
@@ -6235,10 +5087,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Wrong Path
-
-Draft link target alias.
-
 ## Wronged Soul
 
 Draft link target alias.
@@ -6259,10 +5107,6 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Youth Dragon Pathway Sequence 5
-
-Draft link target alias.
-
 ## Zombie Stage
 
 Draft link target alias.
@@ -6275,166 +5119,103 @@ Draft link target alias.
 
 Draft link target alias.
 
-## Alias: Abyss {#alias-abyss}
+## Base Vitality Limit
 
 Draft link target alias.
 
-## Alias: Acting {#alias-acting}
+## Black Emperor Sanity / Rationality Shield
 
 Draft link target alias.
 
-## Alias: Anti-Divination {#alias-anti-divination}
+## Charisma (CHA) Check
 
 Draft link target alias.
 
-## Alias: Apprentice {#alias-apprentice}
+## Constitution (CON)
 
 Draft link target alias.
 
-## Alias: Beyonder Characteristics {#alias-beyonder-characteristics}
+## Injury/Vitality Volume Example
 
 Draft link target alias.
 
-## Alias: Black Knight {#alias-black-knight}
+## Maximum Vitality
 
 Draft link target alias.
 
-## Alias: Burn Luck {#alias-burn-luck}
+## Plant Life / Plant Vitality
 
 Draft link target alias.
 
-## Alias: Death {#alias-death}
+## Sanity / Rationality Appraisal
 
 Draft link target alias.
 
-## Alias: Divination {#alias-divination}
+## Sanity / Rationality Armor
 
 Draft link target alias.
 
-## Alias: Earth {#alias-earth}
+## Sanity / Rationality Attack
 
 Draft link target alias.
 
-## Alias: Earthquake {#alias-earthquake}
+## Sanity / Rationality Check
 
 Draft link target alias.
 
-## Alias: Error {#alias-error}
+## Sanity / Rationality Damage
 
 Draft link target alias.
 
-## Alias: Extraordinary Abilities {#alias-extraordinary-abilities}
+## Sanity / Rationality Loss
 
 Draft link target alias.
 
-## Alias: Extraordinary Ability {#alias-extraordinary-ability}
+## Sanity / Rationality Loss Identification
 
 Draft link target alias.
 
-## Alias: Extraordinary Fighting {#alias-extraordinary-fighting}
+## Sanity / Rationality Loss Test
 
 Draft link target alias.
 
-## Alias: Fast Dodge {#alias-fast-dodge}
+## Sanity / Rationality Points
 
 Draft link target alias.
 
-## Alias: Frenzy {#alias-frenzy}
+## Sanity / Rationality Roll
 
 Draft link target alias.
 
-## Alias: full moon curse {#alias-full-moon-curse}
+## Sanity / Rationality Rolls
 
 Draft link target alias.
 
-## Alias: Luck {#alias-luck}
+## Sanity / Rationality Strike
 
 Draft link target alias.
 
-## Alias: Madness and Losing Control {#alias-madness-and-losing-control}
+## Sanity / Rationality Upper Limit
 
 Draft link target alias.
 
-## Alias: Melee Attack {#alias-melee-attack}
+## Sanity / Rationality checks
 
 Draft link target alias.
 
-## Alias: mermaid's song {#alias-mermaid-s-song}
+## Sanity / Rationality point
 
 Draft link target alias.
 
-## Alias: Movement {#alias-movement}
+## Spirit Points vs Spirituality
 
 Draft link target alias.
 
-## Alias: Premonition of Danger {#alias-premonition-of-danger}
+## Temporary Sanity / Rationality
 
 Draft link target alias.
 
-## Alias: Prophecy {#alias-prophecy}
+## Temporary Sanity / Rationality Armor
 
 Draft link target alias.
 
-## Alias: Psychological Guidance {#alias-psychological-guidance}
-
-Draft link target alias.
-
-## Alias: Quick Dodge {#alias-quick-dodge}
-
-Draft link target alias.
-
-## Alias: Sequence 1 {#alias-sequence-1}
-
-Draft link target alias.
-
-## Alias: Sequence 2 {#alias-sequence-2}
-
-Draft link target alias.
-
-## Alias: Sequence 3 {#alias-sequence-3}
-
-Draft link target alias.
-
-## Alias: Sequence 4 {#alias-sequence-4}
-
-Draft link target alias.
-
-## Alias: Sequence 6 {#alias-sequence-6}
-
-Draft link target alias.
-
-## Alias: Skill Growth {#alias-skill-growth}
-
-Draft link target alias.
-
-## Alias: Spirit Vision {#alias-spirit-vision}
-
-Draft link target alias.
-
-## Alias: Spiritual Vision {#alias-spiritual-vision}
-
-Draft link target alias.
-
-## Alias: The Fool {#alias-the-fool}
-
-Draft link target alias.
-
-## Alias: Tsunami {#alias-tsunami}
-
-Draft link target alias.
-
-## Alias: Tyrant {#alias-tyrant}
-
-Draft link target alias.
-
-## Alias: Demigod {#alias-demigod}
-
-Draft link target alias.
-
-## Alias: Fool Pathway {#alias-fool-pathway}
-
-Draft link target alias.
-
-## Alias: Error Pathway {#alias-error-pathway}
-
-Draft link target alias.

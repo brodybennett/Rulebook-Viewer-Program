@@ -1,0 +1,68 @@
+{
+  "repo": "C:\\Users\\dan\\Desktop\\Personal\\Projects\\LoTM Rulebook\\VSCODE MD Files",
+  "scan_root": "C:\\Users\\dan\\Desktop\\Personal\\Projects\\LoTM Rulebook\\VSCODE MD Files\\draft",
+  "canon_file": "C:\\Users\\dan\\Desktop\\Personal\\Projects\\LoTM Rulebook\\VSCODE MD Files\\meta\\canon_terms.yml",
+  "allowlist_file": "C:\\Users\\dan\\Desktop\\Personal\\Projects\\LoTM Rulebook\\VSCODE MD Files\\meta\\canon_allowlist.yml",
+  "rules_loaded": 25,
+  "files_scanned": 263,
+  "findings_count": 5,
+  "summary": [
+    {
+      "found": "Charm",
+      "replace": "Charisma (CHA)",
+      "count": 3
+    },
+    {
+      "found": "HP",
+      "replace": "Vitality",
+      "count": 1
+    },
+    {
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "count": 1
+    }
+  ],
+  "findings": [
+    {
+      "path": "draft/advanced-systems/special-potions-talismans-items.md",
+      "line": 11,
+      "col": 31,
+      "found": "Charm",
+      "replace": "Charisma (CHA)",
+      "rule_id": "attr_charm"
+    },
+    {
+      "path": "draft/core-rules/beyonder-items.md",
+      "line": 340,
+      "col": 91,
+      "found": "Charm",
+      "replace": "Charisma (CHA)",
+      "rule_id": "attr_charm"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-08.md",
+      "line": 179,
+      "col": 156,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/demoness/seq-06.md",
+      "line": 143,
+      "col": 224,
+      "found": "Charm",
+      "replace": "Charisma (CHA)",
+      "rule_id": "attr_charm"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-06.md",
+      "line": 80,
+      "col": 142,
+      "found": "HP",
+      "replace": "Vitality",
+      "rule_id": "attr_hp"
+    }
+  ]
+}

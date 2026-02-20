@@ -1,0 +1,25 @@
+version: 1
+last_updated: "2026-02-20"
+notes:
+  - "Allowlist entries are opt-out filters for deliberate, documented deviations."
+  - "Any entry with only path_glob allows all rules for matching files."
+
+allow:
+  - path_glob: "draft/core-rules/link-target-aliases.md"
+    note: "Alias index intentionally stores non-canonical spellings and synonyms."
+  - rule_id: "attr_charm"
+    path_glob: "draft/advanced-systems/special-potions-talismans-items.md"
+    line_regex: "\\[\\[Chapter 9: Ritual Magic and Charm Creation\\]\\]"
+    note: "Charm here refers to talisman/charm crafting terminology, not the Charisma attribute."
+  - rule_id: "attr_charm"
+    path_glob: "draft/core-rules/beyonder-items.md"
+    line_regex: "\\[\\[Charm Crafting in Common Ritual Magic\\]\\]"
+    note: "Charm here refers to crafted charms, not the Charisma attribute."
+  - rule_id: "attr_charm"
+    path_glob: "draft/sequences/demoness/seq-06.md"
+    line_regex: "\\[\\[Charm \\(state\\)\\]\\]"
+    note: "Charm (state) is a named status term in this pathway section."
+  - rule_id: "attr_inspiration"
+    path_glob: "draft/sequences/apprentice/seq-08.md"
+    line_regex: "\\[\\[Real Inspiration\\]\\]"
+    note: "Real Inspiration is a named link target term in this section."

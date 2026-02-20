@@ -21,14 +21,14 @@ tags: ["pathway:night", "sequence:3"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +1, Constitution +1, Strength +1, Agility +1, and **Mysticism** increased by one level.  
+- **Attribute Gain:** Intuition (INT) +1, Constitution +1, Strength +1, Agility (DEX) +1, and **Mysticism** increased by one level.  
   [[Mysticism]]
 
 ### Control of Darkness
 
-- **Cost:** An attack action consumes 4 points of **Spirituality**.  
+- **Cost:** An Attack Action consumes 4 points of **Spirituality**.  
   [[Spirituality]]
-- **Use:** Attack action.
+- **Use:** Attack Action.
 - **Requirement:** Must be used in a dark place. You may also create darkness; doing so costs 12 points of **Spirituality** to use.  
   [[Darkness]]
 - **Targeting and direction:** Affects targets in the same direction.
@@ -45,7 +45,7 @@ tags: ["pathway:night", "sequence:3"]
      [[Vital strike]]
   2. **Fear:** Inflict a **Frightened** state for three rounds. If the target’s **Sequence** level is lower than yours, it lasts for the entire encounter and for a period afterward, until they think they are safe.  
      [[Frightened]]  
-     [[Sequence]]
+     Sequence
   3. **Dreaming:** Release the dreaming effect at the same time, but only the target you hit will fall into the dream after it is judged that the hit has caused damage. This does not trigger the awakening of the damaged one.  
      [[Dreaming effect]]  
      [[Awakening]]
@@ -54,7 +54,7 @@ tags: ["pathway:night", "sequence:3"]
      [[Substitute]]
 - **Avoidance:** Long-distance displacement skills of **Spirit World Shuttle** can still avoid the damage, including the **Flash of the Moon** of the **Moon Pathway**.  
   [[Spirit World Shuttle]]  
-  [[Moon Pathway]]  
+  Moon  
   [[Flash of the Moon]]
 - **Synergy:** If the target of your attack is already **Frightened**, you have a +5 bonus on subsequent **Occult checks** against them.  
   [[Occult check]]

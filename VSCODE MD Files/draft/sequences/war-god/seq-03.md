@@ -22,7 +22,7 @@ tags: ["pathway:war-god", "sequence:3"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +2, Agility +1, Constitution +2, Will +2.
+- **Attribute Gain:** Strength +2, Agility (DEX) +1, Constitution +2, Willpower (WIL) +2.
 
 ### Mercury
 
@@ -38,7 +38,7 @@ tags: ["pathway:war-god", "sequence:3"]
 
 ### Silver Rapier
 
-- **Cost:** 3 [[Spirituality]] points per attack action.
+- **Cost:** 3 [[Spirituality]] points per Attack Action.
 - **Use:** This attack counts as a **[[Raid effect]]** and must be used with a **[[Raid action]]**.
 - **Targeting and range:** With “teleportation (flash),” it can bypass most barriers, directly attack the target, and even explode from the target’s body. There are almost no signs of condensation, so it is difficult to predict in advance.
 - **Check:** Fights against [[Physical Defense]].
@@ -60,5 +60,5 @@ tags: ["pathway:war-god", "sequence:3"]
   - Silver Knights blessed by gods of a “god of war” Pathway may have certain enhancements in their various abilities, making them slightly stronger than other Silver Knights of the same level.
   - Your attacks may produce random, preferred, and unpredictable changes under certain circumstances.
   - You may gain a small amount of good or bad luck that can be applied for a short period of time.
-- **Reference:** For specific effects in this regard, refer to [[Sequence 4: Mysticist]].
+- **Reference:** For specific effects in this regard, refer to Sequence 4: Mysticist.
 - **General rule:** This kind of mutation will only have a small impact and will not cause a decisive effect.

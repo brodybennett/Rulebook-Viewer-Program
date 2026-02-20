@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sequence 7: The Psychic"
 id: "death-seq-07"
 tags: ["pathway:death", "sequence:7"]
@@ -14,7 +14,7 @@ tags: ["pathway:death", "sequence:7"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +1, Agility +1, Inspiration +2
+- **Attribute Gain:** Strength +1, Constitution +1, Agility (DEX) +1, Intuition (INT) +2
 - Your **Occult** skills go up by one level.
 
 ### Communicating with the Dead
@@ -25,8 +25,8 @@ You can directly communicate with natural spirits and wandering spirits in the r
 - When communicating with undead, you may use social skills such as words, persuasion, pleasing, and intimidation as usual (including lying).
 - You can also communicate with natural spirits that exist naturally and are related to the **Spirit World**, and learn local clues. In general, you can find at least 5d6 natural spirits or undead in an area within 100 meters.
 - The undead you can communicate with do **not** include living corpses, water ghosts, skeletons, etc. They usually do not have real spirit bodies.
-- **Cost/Action:** 1 **spell-casting action**, consuming **3 spirituality points**. Without approaching, you can establish a psychic relationship with a spirit within your **field of vision**.
-  - **Check:** Inspiration + [[Knowledge of the Dead]] vs its **Will Defense**.
+- **Cost/Action:** 1 **Casting Action**, consuming **3 spirituality points**. Without approaching, you can establish a psychic relationship with a spirit within your **field of vision**.
+  - **Check:** Intuition (INT) + [[Knowledge of the Dead]] vs its **Willpower Defense**.
   - The connection is established only on a success.
 
 > **GM Note:** â€œA psychic should actively communicate with all seeing spirits to achieve the effect of informants everywhere.â€
@@ -38,10 +38,10 @@ A living personâ€™s spirit can also be an object of psychic communication.
 There are two ways to communicate with a living personâ€™s spirit:
 
 1. **Involuntary target**
-   - **Cost/Action:** 1 spell-casting action; no spiritual consumption.
+   - **Cost/Action:** 1 Casting Action; no spiritual consumption.
    - **Target:** Choose 1 **helpless** target.
    - **Effect:** You establish a psychic relationship and communicate as a normal psychic, but everyone can hear the other partyâ€™s response.
-   - Helplessness may be achieved violently, and causes the channeled target to suffer a **Sanity** loss of 1/1d2.
+   - Helplessness may be achieved violently, and causes the channeled target to suffer a **Sanity / Rationality** loss of 1/1d2.
 
 2. **Voluntary target**
    - **Duration/Setup:** For about 1 minute, affect the voluntary target.
@@ -50,7 +50,7 @@ There are two ways to communicate with a living personâ€™s spirit:
    - The single dose of essential oil is very small (only a few drops), so it will not be completely consumed.
    - Creatures who can wake up in dreams ignore this effect.
 
-> **GM Note:** Psychic insanity targets cause you to suffer the same Sanity loss as their source of insanity, possibly causing taint to spread. In this case, the insanity symptom is the same as if you were insane due to the Sanity loss of the channeled target.
+> **GM Note:** Psychic insanity targets cause you to suffer the same Sanity / Rationality loss as their source of insanity, possibly causing taint to spread. In this case, the insanity symptom is the same as if you were insane due to the Sanity / Rationality loss of the channeled target.
 
 ### Spiritualism
 
@@ -67,9 +67,9 @@ You can use different spirits to achieve various magic.
 
 You can directly obtain information known to spirits within a certain range.
 
-- **Cost/Action:** 1 casting action; consume 3 spirituality points.
+- **Cost/Action:** 1 Casting Action; consume 3 spirituality points.
 - **Check:** Make a [[Knowledge of the Dead]] identification to communicate with the local spirit and get the message of this place.
-  - When making this check, the relevant attribute is **Inspiration**, not education.
+  - When making this check, the relevant attribute is **Intuition (INT)**, not education.
 
 **Results by Difficulty Value:**
 - **Difficulty Value 15:** You know what kind of area the local area is, the general environment around it, and what things exist.
@@ -88,16 +88,16 @@ You can directly obtain information known to spirits within a certain range.
 
 #### Spiritual Body Assistance
 
-- **Cost/Action:** 1 spell-casting action; consumes 3 spirituality points; lasts 5 minutes.
+- **Cost/Action:** 1 Casting Action; consumes 3 spirituality points; lasts 5 minutes.
 - **Effect:** Summon 1 spirit body to possess you; you gain the following benefits:
   1. Within five minutes, you choose a skill to use at mastery level, even if you have not been trained in that skill. If you find a specific spirit with a higher skill level, you can designate it to possess you and use it with a higher skill level.
-  2. **Cost/Action:** 1 **full-round action** without consuming spirituality. With the help of your spirit body, you can reproduce information or a portrait you have seen at an extremely fast speed by writing and painting, provided that your memory is not affected by extraordinary factors.
+  2. **Cost/Action:** 1 **Full-Round Action** without consuming spirituality. With the help of your spirit body, you can reproduce information or a portrait you have seen at an extremely fast speed by writing and painting, provided that your memory is not affected by extraordinary factors.
 
 #### Drive the Dead
 
 You can communicate with and drive natural spirits, undead, and spirit creatures.
 
-- **Cost/Action:** 1 spell-casting action; consuming 3 spirituality points.
+- **Cost/Action:** 1 Casting Action; consuming 3 spirituality points.
 - **Effect:** You control 1 undead creature that has â€œawakenedâ€ by itself. This kind of undead creature does not have enough wisdom. Natural spirits and spirit bodies with certain wisdom follow the content below:
   1. **Premise:** You communicate with a spirit body. As long as the other party is willing, it will be regarded as a member of the spirit body that you can drive. The calculation represents your spirit strength.
   2. The spirits you can drive include natural spirits, undead, Spirit World creatures, and undead creatures, but you cannot actively summon undead creatures unless it is a â€œresurrectedâ€ living corpse, water ghost, etc., and it should have no owner or the owner is at least 1 rank/Sequence lower than you.
@@ -113,20 +113,20 @@ You can communicate with and drive natural spirits, undead, and spirit creatures
 **Shadow**
 - 15 health
 - 15 **Physical Defense** (5 points for agility and dodge)
-- 10 Will Defense
+- 10 Willpower Defense
 - 5 points cold and curse resistance
 - Ignores poison and physical damage
-- **Attack action:** 1d6 cold damage
+- **Attack Action:** 1d6 cold damage
 - No more abilities; can perform special actions such as grapple.
 
 **Wraith / Evil Spirit**
 - 30 health
 - 20 Physical Defense (10 points for agility and dodge)
-- 10 Will Defense
+- 10 Willpower Defense
 - 10 points cold resistance
 - 5 points curse resistance
 - Ignores poison and physical damage
-- **Attack action:** 2d6 cold damage
+- **Attack Action:** 2d6 cold damage
 - **Possession:** Has Wraith Possession, but does not include mirror jumping, etc. Its determination is due to the content of [[Alien Pathway â€” Sequence 5: Wraith]].
 
 > **GM Note:** Different from resentful souls of different species: wild undead do not gain a series of abilities such as â€œadvanced invisibilityâ€ because of their level; they can only cause cold damage. They can possess after a certain level; ordinary shadows do not even have the conditions for possession.
@@ -142,7 +142,7 @@ The following undead creatures can only be enslaved by naturally â€œawakened
 - 5 points resistance to cold, curse, and poison
 - **Attack:** 1d6 physical damage
 - Like a normal person but with multiple rotting corpses
-- (Against a Constitution defense of 15 to do so if there is a disease that can affect a living corpse, such as [[Witchâ€™s Plague]].)
+- (Against a Constitution Defense of 15 to do so if there is a disease that can affect a living corpse, such as [[Witchâ€™s Plague]].)
 
 **Skeleton**
 - 10 health
@@ -155,7 +155,7 @@ The following undead creatures can only be enslaved by naturally â€œawakened
 **Water ghost**
 - 15 blood volume
 - 15 Physical Defense (5 points for agility and dodge)
-- Ignores the ability to resist physical and Will Defense
+- Ignores the ability to resist physical and Willpower Defense
 - 5 points cold, curse, and poison resistance
 - **Attack:** 1d6 physical damage
 - A body swelling and drowning â€œliving corpseâ€ in the water; can maintain normal mobility underwater.
@@ -170,7 +170,7 @@ The following undead creatures can only be enslaved by naturally â€œawakened
 - If spiritual materials are contained instead of characteristics, the increase in corresponding existence time will only take effect once.
 - Charms/spiritual materials/extraordinary items can still be used for 1 day = 1 minute of existence time.
 - Items with extraordinary characteristics must be smashed back into characteristics to be effectively used through containment; otherwise they will suffer negative effects, and the spirit body will also follow the law of transfer path and lose control.
-  - [[Transfer Path]]
+  - Transfer Path
 
 ##### Natural Spirits
 
@@ -180,12 +180,12 @@ Natural spirits are different from undead: undead are transformed after the deat
 
 Because the description of natural spirits is lacking, you can create a natural spirit in the following way:
 
-1. Roll 2d10 to determine a natural spiritâ€™s blood volume, Physical Defense, and Will Defense.
+1. Roll 2d10 to determine a natural spiritâ€™s blood volume, Physical Defense, and Willpower Defense.
    - The agility and dodge in Physical Defense are the values after Physical Defense -10.
 2. Customize the ability of the natural spirit or randomize its ability:
    - Roll 1d2 to randomly generate the following abilities:
-     1. **Cost/Action:** 1 casting action. **Effect:** Deal 1d6 damage. Roll 1d4 to determine whether it is fire/poison/cold/spiritual damage. This does not mean it can switch its own attributes; you decide what kind of damage this natural spirit can *only* cause.
-     2. **Cost/Action:** 1 casting action. **Effect:** Restore 1d3 hit points to a living creature (not a dead object).
+     1. **Cost/Action:** 1 Casting Action. **Effect:** Deal 1d6 damage. Roll 1d4 to determine whether it is fire/poison/cold/spiritual damage. This does not mean it can switch its own attributes; you decide what kind of damage this natural spirit can *only* cause.
+     2. **Cost/Action:** 1 Casting Action. **Effect:** Restore 1d3 hit points to a living creature (not a dead object).
 
 A more common natural spirit only has the above two abilities. This is the most general template; you may also create a natural spirit with a unique extraordinary ability.
 
@@ -194,18 +194,18 @@ A more common natural spirit only has the above two abilities. This is the most 
 **Dread Banshee**
 - 50 health
 - 25 Physical Defense (agility and dodge 10)
-- 20 Will Defense
+- 20 Willpower Defense
 - Appearance: beautiful face, rotten body, huge eagle wings.
-- **Attack action:** Use your Inspiration instead of its check against Physical Defense, dealing 3d6 mental damage. A successfully attacked target:
+- **Attack Action:** Use your Intuition (INT) instead of its check against Physical Defense, dealing 3d6 mental damage. A successfully attacked target:
   - Temporarily -1 Will attribute
   - Is in a state of fear for 1 round.
 
 **Goddess of the Lake**
 - 60 health
 - 20 Physical Defense (agility and dodge 10)
-- 15 Will Defense
+- 15 Willpower Defense
 - Appearance: accompanied by mist-shrouded lake water; central ripples; a beautiful yet illusory figure.
-- **Cost/Action:** 1 casting action. **Target:** Choose 1 target. **Effect:** Choose one benefit:
+- **Cost/Action:** 1 Casting Action. **Target:** Choose 1 target. **Effect:** Choose one benefit:
   1. Within 1 round, the next skill and attribute appraisal +2 will be beneficial.
   2. For 1 round, one of the three defenses gets a +2 bonus.
   3. Within 1 round, gain 5 points of extra life, or extra spirituality (only one item can be obtained at the same time; cannot be superimposed).
@@ -231,13 +231,13 @@ You gain access to ritual magic, able to invoke power from the gods.
 
 ### Undead Army Battle Adjudication
 
-Because the [[Reaper Pathway]] starts from Sequence 7, and every time a Sequence is increased the subordinates you can drive and enslave increase explosively, you must decide the judgment method of your undead army in battle.
+Because the Reaper Pathway starts from Sequence 7, and every time a Sequence is increased the subordinates you can drive and enslave increase explosively, you must decide the judgment method of your undead army in battle.
 
 #### When the Undead Are Treated as an â€œArmyâ€
 
 1. As long as the total number of dead people driven by you is more than 3, then all the dead people driven by you are considered as a whole.
 2. You add the blood volume of all your dead people together, but it cannot be added together at one time; it needs to be classified and added.
-3. Example method: first add the HP of all living corpses together, then add the HP of all shadows together. After adding the values of the dead of the same kind, record their blood volume respectively (e.g., using â€œ.st living corpse (blood volume value)â€).
+3. Example method: first add the Vitality of all living corpses together, then add the Vitality of all shadows together. After adding the values of the dead of the same kind, record their blood volume respectively (e.g., using â€œ.st living corpse (blood volume value)â€).
 4. Decide the priority of your undead armyâ€™s constituent species (example priority order given in RAW: living corpses 1, skeletons 2, wraith 3, water ghost 4).
 
 #### Official Battle Judgment
@@ -249,9 +249,9 @@ Because the [[Reaper Pathway]] starts from Sequence 7, and every time a Sequence
 4. When the total number of the undead army is 10, the damage caused by three identifications increases by 1d6 each time.
    - Example scaling given: shadow damage is 1d6 when total number <10; at 10 it is 2d6; at 20 it is 3d6; at 50 it is 6d6; and so on.
 5. The actions of the undead army are independent and do not consume your bodyâ€™s actions.
-   - They have 1 attack/casting action and 1 movement action.
-   - You can spend a **swift action** to convert one of these actions into **two** swift actions.
-6. All skill and attribute appraisals of the undead army use your Inspiration.
+   - They have 1 attack/Casting Action and 1 movement action.
+   - You can spend a **Swift Action** to convert one of these actions into **two** swift actions.
+6. All skill and attribute appraisals of the undead army use your Intuition (INT).
    - The identification of the undead army gains a bonus equal to (base bonus / number of its army species) / 2 (round down).
 
 #### Siege
@@ -262,7 +262,7 @@ Because the [[Reaper Pathway]] starts from Sequence 7, and every time a Sequence
 #### Area Damage
 
 1. Area damage deducts blood volume from all species classifications of the undead army at the same time.
-   - Example: â€œYang Yanâ€ of the [[Sun Pathway]] demigodâ€”single damage from Yang Yan simultaneously reduces the life value of all classifications (living corpse, shadow, skeleton, etc.).
+   - Example: â€œYang Yanâ€ of the [[Sun]] demigodâ€”single damage from Yang Yan simultaneously reduces the life value of all classifications (living corpse, shadow, skeleton, etc.).
 2. If a single-target attack says â€œMultiple targets standing together are considered the same target,â€ then that single-target attackâ€™s damage to the undead army is doubled, but it is still deducted gradually according to priority 1, 2, and 3 rather than being deducted together.
 
 **Special:**

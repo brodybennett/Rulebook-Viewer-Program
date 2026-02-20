@@ -10,13 +10,13 @@ tags: ["pathway:error-path", "sequence:9"]
 
 > **Lore:** Not a thief, but a thiefâ€”a fraudster. The dream is to steal peopleâ€™s hearts, steal spells, cheat rules, and cheat fate, and all of this starts with stealing things from others. It is difficult to distinguish these extraordinary people from ordinary thieves. Maybe they are more powerful in their methods, and their purpose of stealing property is not for enjoyment or survival, but more like fulfilling a mission.
 
-- See also: [[The Error Path Pathway]]
+- See also: The Error Path Pathway
 
 ## Extraordinary Abilities
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +2, Agility +1, Inspiration +1.
+- **Attribute Gain:** Strength +1, Constitution +2, Agility (DEX) +1, Intuition (INT) +1.
 - You can skillfully master observation and stealing skills.
 
 1. Whenever you perform a challenging, non-repetitive stealing behavior and the stealing is successful, you can choose the Detection skill to increase by 1 level. The things you steal must be valuable to the owner.
@@ -29,8 +29,8 @@ tags: ["pathway:error-path", "sequence:9"]
 The stability and dexterity of your wrists and fingers are enhanced, which is the essence of power.
 
 - **Effect:**
-  1. Once per round, you can use a **free action** [[Free Action]] to perform an action that uses a skill at **Mastery** tier. This action is usually an attack/casting action. If it is a **full-round action** [[Full-Round Action]], it is changed to an attack/casting action.
-  2. Whenever you make an **identification** [[Identification]] related to the flexibility and stability of your fingers and wrists, your identification +2 is beneficial.
+  1. Once per round, you can use a **free action** Free Action to perform an action that uses a skill at **Mastery** tier. This action is usually an attack/Casting Action. If it is a **Full-Round Action** [[Full-Round Action]], it is changed to an attack/Casting Action.
+  2. Whenever you make an **identification** Identification related to the flexibility and stability of your fingers and wrists, your identification +2 is beneficial.
   3. You can better learn skills related to the flexibility and stability of your fingers and wrists. Whenever you learn this aspect, as long as the knowledge is true and effective, and the learning time exceeds 2 hours, your corresponding skills will increase by 1 grade.
 - **Limits:**
   4. You can only study once per day; skill progression uses 2/3/4 trainings for training -> proficient -> advanced -> mastery.
@@ -65,9 +65,9 @@ Your observation and inspiration are more unique.
 You can easily steal items from the targetâ€™s pocket without being detected.
 
 - **Cost:** 2 points of **spirituality** [[Spirituality]]
-- **Use:** 1 **spell-casting action** [[Spell-Casting Action]]; perform 1 contact stealing behavior.
+- **Use:** 1 **Casting Action** Casting Action; perform 1 contact stealing behavior.
 - **Effect:**
-  1. Skilled against physical defense, when stealing items, ignore Agility and Dodge in Physical Defense, you steal the opponentâ€™s items. As long as you touch the items, you can succeed, and usually you will not be discovered unless extraordinary means are involved.
+  1. Skilled against physical defense, when stealing items, ignore Agility (DEX) and Dodge in Physical Defense, you steal the opponentâ€™s items. As long as you touch the items, you can succeed, and usually you will not be discovered unless extraordinary means are involved.
   2. Not to be discovered does not include the discovery of lost items afterwards, as well as the corresponding suspicion and investigation; only the process of stealing is not discovered.
   3. If the stolen item is an Extraordinary item, choose the one with the highest Sequence level of the item and the owner. For every Sequence level the target is higher than you, your identification is disadvantaged by -2. If the target is two or more Sequences higher, **Big Success** [[Big Success]] is ignored.
   4. If the stolen item has no owner (it is not currently carried or held, and the item that is not on the body is ownerless):
@@ -75,11 +75,11 @@ You can easily steal items from the targetâ€™s pocket without being detecte
      - If it is an extraordinary item, it requires a **Difficulty Value 15** identification check.
 
 **Sequence scaling:**
-- Sequence 8: You no longer need to touch. You can directly transfer objects within 10 meters of your field of vision to your hand. If it is blocked by an object, as long as you can confirm the approximate location of the object, you can also let it come across the barrier to your hands. [[The Error Path Pathway: Sequence 8]]
+- Sequence 8: You no longer need to touch. You can directly transfer objects within 10 meters of your field of vision to your hand. If it is blocked by an object, as long as you can confirm the approximate location of the object, you can also let it come across the barrier to your hands. The Error Path Pathway: Sequence 8
   - Stealing from a distance still requires stealing postures, such as closing five fingers, holding objects virtual, and twisting wrists.
-- Sequence 7: Your Steal range is increased to 30 meters. [[The Error Path Pathway: Sequence 7]]
-- Sequence 6: Your Steal range is increased to 50 meters. [[The Error Path Pathway: Sequence 6]]
-- Sequence 5: Your stealing range is increased to 100 meters. [[The Error Path Pathway: Sequence 5]]
+- Sequence 7: Your Steal range is increased to 30 meters. The Error Path Pathway: Sequence 7
+- Sequence 6: Your Steal range is increased to 50 meters. The Error Path Pathway: Sequence 6
+- Sequence 5: Your stealing range is increased to 100 meters. The Error Path Pathway: Sequence 5
 
 ### Ritual Mastery
 

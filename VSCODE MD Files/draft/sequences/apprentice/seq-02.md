@@ -20,11 +20,11 @@ tags: ["pathway:apprentice", "sequence:2"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2, **Charisma** +2, **Writing Skill** increased by 2 skill levels.
+- **Attribute Gain:** **Intuition (INT)** +2, **Charisma** +2, **Writing Skill** increased by 2 skill levels.
 
 ### Concept Travel
 
-- **Use:** 1 time per round; full-round action.
+- **Use:** 1 time per round; Full-Round Action.
 - **Effect:** You can go to any area and time where there is a concept related to you.
 - **Limits:**
   - This effect cannot be used to change history.
@@ -35,7 +35,7 @@ tags: ["pathway:apprentice", "sequence:2"]
 
 ### Space Swap
 
-- **Cost:** A casting action that consumes 10 spiritual points.
+- **Cost:** A Casting Action that consumes 10 spiritual points.
 - **Effect:** You exchange two spaces.
 - **Targeting and range:**
   - Each selected space has a radius of no more than one kilometer.
@@ -57,7 +57,7 @@ tags: ["pathway:apprentice", "sequence:2"]
   - **Note:** There is no limit to the number of reappearances. In theory, as long as you have seen it, you can reappear it. However, without understanding the principle, the reproduced ability is usually very weak; you still need to conduct a writing appraisal when you see it.
   - **Note:** If you did not pass the writing appraisal at that time, you can directly reproduce the content you have seen later, but you cannot make up the writing appraisal of past things. Content that had not undergone the writing appraisal at that time has half the effect by default.
 
-- **Difficulty Value 25:** You record an angel-level ability, but the recorded ability is not as good as the original version; the effect is half of the original version, but the priority in confrontation is greater than the simulation ability of the [[Reader Pathway]].
+- **Difficulty Value 25:** You record an angel-level ability, but the recorded ability is not as good as the original version; the effect is half of the original version, but the priority in confrontation is greater than the simulation ability of the [[White Tower]].
 - **Note:** The actual calculation does not need to distinguish physical vs spiritual resistance.
 - **Difficulty Value 35:** If you record a [[King of Angels]] ability, its power is usually only half, unless you find a [[id:alias-sequence-1|Sequence 1]] [[Angel]] with at least the corresponding Pathway to explore the principle in depth, or learn about it in other ways.
   - **The King of Angels:** If you become the King of Angels, you can record the ability of [[Sequence 0]]; it also only has half the effect, and this half effect cannot be offset by understanding the principle.

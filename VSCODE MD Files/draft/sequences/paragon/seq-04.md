@@ -46,9 +46,9 @@ Alchemists can infuse souls into crafted items, grant them a measure of life, an
 ### Forged Formation
 
 - **Use:** **spellcasting action**
-- **Check:** Pass a [[Crafting Check]] with [[Difficulty Value]] 20.
+- **Check:** Pass a [[Crafting Check]] with Difficulty Value 20.
 - Extra crafting time can improve your skill check, assuming you work 4 hours a day:
-  - Day 1: [[Identification]] +5
+  - Day 1: Identification +5
   - 1 week: Identification +5
   - 1 month: [[Appraisal]] +5
   - 1 year: Appraisal +5
@@ -66,7 +66,7 @@ Alchemists can infuse souls into crafted items, grant them a measure of life, an
 
 A mechanical arm that can automatically combine with the human body to replace or assist it. It can replace the limbs of living organisms, or be additionally attached to other humans or machines.
 
-- Each arm beyond the creature’s natural number of arms can perform an additional attack action.
+- Each arm beyond the creature’s natural number of arms can perform an additional Attack Action.
 - A robotic arm deals **2d6** damage.
 - Its [[Strength]] counts as 5 points.
 - Each additional arm requires an additional use of a [[Special Fighting Skill]].
@@ -105,7 +105,7 @@ You create and animate a puppet.
 You practice an object.
 
 - You use a craft to make an identification or to create an object you expect. This usually does not involve creatures.
-- This is the field opposite to the [[Ancient Alchemist]] of the [[Earth Path]]: “Ancient alchemist” is life refining, and you make objects.
+- This is the field opposite to the [[Ancient Alchemist]] of the Earth Path: “Ancient alchemist” is life refining, and you make objects.
 
 ### Cycle of Life
 
@@ -116,7 +116,7 @@ Alchemists can give or strip life force from items.
 - Alchemists can grant life force by touching a target.
 - If it is an [[Extraordinary Item]], an item composed of a single [[Characteristic]] will go out of control, and an item composed of multiple characteristics will explode.
 - The explosion value and range depend on (extraordinary craft level × number of characteristics that make up the item).
-- If the characteristics are not from the same **Pathway**, calculate them separately; after summing, the range takes the highest [[Sequence Characteristic]] of the item.
+- If the characteristics are not from the same **Pathway**, calculate them separately; after summing, the range takes the highest Sequence Characteristic of the item.
 
 #### Stripping
 
@@ -127,7 +127,7 @@ Alchemists can give or strip life force from items.
 
 ### Alchemy
 
-Alchemists use a **free-casting action** that consumes spirituality to complete the manipulation of matter (manipulation of living matter will double the spiritual consumption):
+Alchemists use a **free-Casting Action** that consumes spirituality to complete the manipulation of matter (manipulation of living matter will double the spiritual consumption):
 
 #### Disintegration
 

@@ -20,28 +20,28 @@ Roll **1d24** on the list below. If the GM does not allow **Outer Deity** / **Du
 
 | Roll | Result |
 |---:|---|
-| 1 | [[Fool Pathway]] |
-| 2 | [[Apprentice Pathway]] |
-| 3 | [[Error Pathway]] |
-| 4 | [[Visionary Pathway]] |
-| 5 | [[Tyrant Pathway]] |
-| 6 | [[Sun Pathway]] |
-| 7 | [[Reader Pathway]] |
-| 8 | [[Hanged Man Pathway]] |
-| 9 | [[Death Pathway]] |
-| 10 | [[Night Pathway]] |
-| 11 | [[War God Pathway]] |
-| 12 | [[Black Emperor Pathway]] |
-| 13 | [[Arbiter Pathway]] |
-| 14 | [[Red Priest Pathway]] |
-| 15 | [[Demoness Pathway]] |
-| 16 | [[Abyss Pathway]] |
-| 17 | [[Mutant Pathway]] |
-| 18 | [[Mystery Pryer Pathway]] |
-| 19 | [[Paragon Pathway]] |
-| 20 | [[Moon Pathway]] |
-| 21 | [[Earth Pathway]] |
-| 22 | [[Fate Pathway]] |
+| 1 | [[Fool]] |
+| 2 | [[Door]] |
+| 3 | Error |
+| 4 | Visionary |
+| 5 | Tyrant |
+| 6 | [[Sun]] |
+| 7 | [[White Tower]] |
+| 8 | [[Hanged Man]] |
+| 9 | Death |
+| 10 | [[Darkness]] |
+| 11 | [[Twilight Giant]] |
+| 12 | [[Black Emperor]] |
+| 13 | [[Justiciar]] |
+| 14 | [[Red Priest]] |
+| 15 | [[Demoness]] |
+| 16 | Abyss |
+| 17 | [[Chained]] |
+| 18 | [[Hermit]] |
+| 19 | [[Paragon]] |
+| 20 | Moon |
+| 21 | [[Mother]] |
+| 22 | [[Wheel of Fortune]] |
 | 23 | Outer Deities |
 | 24 | Dual-Pathway |
 
@@ -65,7 +65,7 @@ After determining the Sequence rank for a benefit, consult the rulebook for the 
 
 Notes (source): Some Beyonder Abilities marked as "from potion" are integrated into the potion's attribute and Skills increases. As long as you gain the potion's Skills increase, you gain these "from potion" benefits as well. After becoming a Beyonder Item, a Beyonder Ability's manifestation form may change.
 
-> **GM Note:** For example, [[Sun Pathway]] holy light might manifest as continuous damage applied to a weapon rather than summoned holy light. Decide how the ability manifests case by case.
+> **GM Note:** For example, [[Sun]] holy light might manifest as continuous damage applied to a weapon rather than summoned holy light. Decide how the ability manifests case by case.
 
 ### Step 4: Living Traits
 
@@ -103,7 +103,7 @@ After completing the above, the Beyonder Item is generated.
 - It represents a Beyonder Item formed by natural combination of Beyonder Characteristics with surrounding things.
 - Its benefits are far inferior to artisan-made Beyonder Items.
 
-If you want artisan-made rules or further guidance, see [[Omniscient Pathway: Sequence 6 "Mechanics Master"]] (source notes this was formerly called "Artisan").
+If you want artisan-made rules or further guidance, see Omniscient Pathway: Sequence 6 "Mechanics Master" (source notes this was formerly called "Artisan").
 
 ## Natural vs Artisan-Made Items
 
@@ -127,7 +127,7 @@ Source method:
 
 ## Destruction and Extraction Warnings
 
-Warning (source): Once a potion main ingredient / Beyonder Characteristic becomes a Beyonder Item, only power of **Sequence 2 or above** can shatter it. You can no longer use it as other materials. [[Sun Pathway: Sequence 4]] can also extract the characteristic from within the item.
+Warning (source): Once a potion main ingredient / Beyonder Characteristic becomes a Beyonder Item, only power of **Sequence 2 or above** can shatter it. You can no longer use it as other materials. Sun Pathway: Sequence 4 can also extract the characteristic from within the item.
 
 ## Using a Matching Item
 
@@ -254,7 +254,7 @@ Notes (source): Abilities are usually random. Negative effects are usually not w
 
 ### Method 2: Paragon Artisan Forging
 
-A Paragon artisan can forge Beyonder Items. See [[Paragon Pathway: Sequence 6]]. Artisan-made Beyonder Items have more controllable abilities and are closer to true Beyonders. Negative effects are usually not lethal.
+A Paragon artisan can forge Beyonder Items. See Paragon Pathway: Sequence 6. Artisan-made Beyonder Items have more controllable abilities and are closer to true Beyonders. Negative effects are usually not lethal.
 
 > **Lore:** The source states artisan crafting fees are not cheap, and artisans are often found via the Church of Steam and Machinery, with some private artisans at sea.
 
@@ -284,11 +284,11 @@ Price and power (source claim): Around 500 pounds (equivalent to the price of a 
 
 Source example (Demoness Pathway Sequence 6 comparison):
 
-- A Slowing Whip cannot be used like a Demoness with a casting action.
-- It can only be used through a melee attack corresponding to the whip: Attack action is Fighting vs Physical Defense; it ignores part of the armor within Physical Defense (source wording).
+- A Slowing Whip cannot be used like a Demoness with a Casting Action.
+- It can only be used through a melee attack corresponding to the whip: Attack Action is Fighting vs Physical Defense; it ignores part of the armor within Physical Defense (source wording).
 - Each hit gradually slows the target, eventually achieving a binding effect.
 - A true Sequence 6 Pleasure Demoness needs only one attack to achieve binding.
-- A Slowing Whip usually needs **3 hits** to reach an effect equivalent to binding once; before that it reduces Agility step by step.
+- A Slowing Whip usually needs **3 hits** to reach an effect equivalent to binding once; before that it reduces Agility (DEX) step by step.
 
 > **GM Note:** The source recommends setting clear limits so that any "Sequence 6-tier" spiritual-material item is reduced to Sequence 9-level impact where appropriate (e.g., splitting a complete ability into three parts so that three successful hits equal one "true" Sequence 6 application).
 
@@ -372,23 +372,23 @@ Crafting note (source): Crafting a charm usually requires ritual magic, praying 
 
 ### Setting the Activation Incantation
 
-After crafting a charm (source): Set an activation incantation in any Mysticism language. Unlike performing a ritual and praying for a response, using a charm requires you to shout (or softly shout) the words. The activation incantation should relate to the domain (examples: "Storm," "Crimson," "Light"). Speaking the activation incantation is **1 swift action**.
+After crafting a charm (source): Set an activation incantation in any Mysticism language. Unlike performing a ritual and praying for a response, using a charm requires you to shout (or softly shout) the words. The activation incantation should relate to the domain (examples: "Storm," "Crimson," "Light"). Speaking the activation incantation is **1 Swift Action**.
 
-### Using a Charm
+### Using a Charisma (CHA)
 
-**Targeting others (source):** Using a charm that targets others uses **1 attack action**. Make a Throwing roll contested against Physical Defense to throw it. If the target is willing, and the final Throwing roll result exceeds Difficulty Value 10, you can hit the target.
+**Targeting others (source):** Using a charm that targets others uses **1 Attack Action**. Make a Throwing roll contested against Physical Defense to throw it. If the target is willing, and the final Throwing roll result exceeds Difficulty Value 10, you can hit the target.
 
-**Using on yourself (source):** If you use a charm on yourself (enhancement-type abilities, etc.), it is **1 casting action**. Even if the original ability would be swift/free, it still uses a casting action in this case.
+**Using on yourself (source):** If you use a charm on yourself (enhancement-type abilities, etc.), it is **1 Casting Action**. Even if the original ability would be swift/free, it still uses a Casting Action in this case.
 
 ### Special Use (Aura Infusion)
 
-Some charms may be used in other ways (source example: Arbiter Pathway charms). Using **1 swift action**, and continuously consuming **1 Spirituality each round**, you infuse Spirituality so the charm's aura spreads without being triggered. This causes a "Majesty-type" effect on surrounding creatures equal to the charm's Sequence level. See [[Pathway charm rules]].
+Some charms may be used in other ways (source example: Arbiter Pathway charms). Using **1 Swift Action**, and continuously consuming **1 Spirituality each round**, you infuse Spirituality so the charm's aura spreads without being triggered. This causes a "Majesty-type" effect on surrounding creatures equal to the charm's Sequence level. See Pathway charm rules.
 
-Constraints (source): This requires continuously touching the charm with your hand. Although it is only a swift action each round, the Beyonder may be unable to perform a two-hit combo and can only fight one-handed.
+Constraints (source): This requires continuously touching the charm with your hand. Although it is only a Swift Action each round, the Beyonder may be unable to perform a two-hit combo and can only fight one-handed.
 
-### Offensive Charm Note
+### Offensive Charisma (CHA) Note
 
-Source example: [[Sun Pathway: Sequence 4]] Sunflame.
+Source example: Sun Pathway: Sequence 4 Sunflame.
 
 Because a charm that targets others must first hit with a Throwing roll, an offensive charm may require two rolls: the Throwing roll, and then the original ability's hit roll. This encourages relying on auxiliary effects such as binding to maximize effect.
 
@@ -428,7 +428,7 @@ Even if not consumed or made into a Beyonder Item, Characteristics can provide l
 
 Examples (explicitly labeled as rulebook setting by the source): A Marionettist's Characteristics can give you half-range vision of spirit body threads. A Nightmare's Characteristics cannot let you enter dreams, but can let you invade another person's dream within **5 meters**.
 
-Action costs (source): Touching for spirit body threads vision consumes **1 swift action each round**. Invading a dream through Nightmare Characteristics is **1 casting action**.
+Action costs (source): Touching for spirit body threads vision consumes **1 Swift Action each round**. Invading a dream through Nightmare Characteristics is **1 Casting Action**.
 
 Mental contamination (source): If the Beyonder Characteristics have mental contamination, each time you use/touch it once, you suffer **0/1 Sanity / Rationality loss**.
 
@@ -453,8 +453,8 @@ Reference (source): Determine the diviner's Sanity / Rationality loss based on t
 The source lists multiple methods:
 
 1. **Producing offspring:** Mainly starting from Sequence 6. Sequence 7 and below requires a Difficulty Value 20 Luck roll each time. At the instant pregnancy occurs, Characteristics pass to the child and the Beyonder feels the reduction. This is uncontrollable and usually limited to surplus Characteristics and does not cause a loss of power; if enough children are produced, loss of power may occur (amount decided by the GM). From Sequence 4 onward, whether a child with Beyonder power is conceived becomes controllable, and you can precisely control how much is inherited (one point / one-third / one-half / all). The child does not need to be carried to term to inherit, and becomes an innate Beyonder or an innately incomplete Beyonder. See [[Expansion 3: Special Races]] and [[Expansion 5: Beyonders in Special States]].
-2. **Becoming an Angel:** Starting from Sequence 2, use **1 full-round action** to expel surplus Beyonder Characteristics from your body. Only duplicate Characteristics can be expelled. You cannot expel non-duplicate Characteristics to lower your own status.
-3. **Purification (Sun Pathway):** [[Sun Pathway: Sequence 4]] can precipitate Beyonder Characteristics. Timing must be precise; otherwise Sequence level may drop, because precipitation is prioritized from high to low. Special (source): Sun Pathway purification is ineffective against angels, unless the corresponding Sun Pathway is also an angel.
+2. **Becoming an Angel:** Starting from Sequence 2, use **1 Full-Round Action** to expel surplus Beyonder Characteristics from your body. Only duplicate Characteristics can be expelled. You cannot expel non-duplicate Characteristics to lower your own status.
+3. **Purification (Sun Pathway):** Sun Pathway: Sequence 4 can precipitate Beyonder Characteristics. Timing must be precise; otherwise Sequence level may drop, because precipitation is prioritized from high to low. Special (source): Sun Pathway purification is ineffective against angels, unless the corresponding Sun Pathway is also an angel.
 
 > **GM Note:** The source suggests that digesting surplus Characteristics is often the best option, as surplus Characteristics remain a burden if accumulated.
 
@@ -483,13 +483,13 @@ What different levels of the Credit skill represent (source):
 
 ### Beyonder Item Prices
 
-**Single-use Beyonder items (such as Charms; they gradually lose Beyonder power as time passes) (source):** 5-10 pounds or higher. This range is limited to Charms of Sequence 9-7. Usually "priced but not on the market" and must be purchased in specific places and outside official jurisdiction; the GM should restrict Charm quantity. Higher-Sequence Charms represent higher prices. Starting from Sequence 5, Charms are "priced but not on the market." From Sequence 4 onward, Charms cannot be measured in money and cannot be obtained easily.
+**Single-use Beyonder items (such as Charms; they gradually lose Beyonder power as time passes) (source):** 5-10 pounds or higher. This range is limited to Charms of Sequence 9-7. Usually "priced but not on the market" and must be purchased in specific places and outside official jurisdiction; the GM should restrict Charisma (CHA) quantity. Higher-Sequence Charms represent higher prices. Starting from Sequence 5, Charms are "priced but not on the market." From Sequence 4 onward, Charms cannot be measured in money and cannot be obtained easily.
 
-**Enchanted Bullets (source):** 10 pounds per shot (equivalent to enchanting a bullet with the power of a Charm).
+**Enchanted Bullets (source):** 10 pounds per shot (equivalent to enchanting a bullet with the power of a Charisma (CHA)).
 
 **Low-Sequence Beyonder items with limited uses (e.g., anesthetic gas, sleep gas) (source):** 100-150 pounds. Gas-type items can be used over an area and can cause strong ordinary people, Sequence 9 Beyonders who rely on physique, and even higher-Sequence targets with insufficient constitution to fall unconscious. One bottle can be used three times; one-third of the gas is enough to achieve the effect. Improper handling may gas yourself.
 
-**Beyonder items made from Spirituality materials equivalent to Sequence 6 (source):** 450-550 pounds. Usually only one advantage: negative effects are extremely weak. Usually can only be cast via the item itself as a medium. Example summary (source): a Slow Whip equivalent to a Sequence 6 Witch's Touch of Pleasure cannot be identified with a casting action; must use whip attack action (Fighting vs Physical Defense), ignore armor, and gradually inflict restraint; takes about three hits to fully produce one true restraint effect. Fade note repeated by source: effects halved after about 1-2 years; completely lose Beyonder power after about 4-5 years.
+**Beyonder items made from Spirituality materials equivalent to Sequence 6 (source):** 450-550 pounds. Usually only one advantage: negative effects are extremely weak. Usually can only be cast via the item itself as a medium. Example summary (source): a Slow Whip equivalent to a Sequence 6 Witch's Touch of Pleasure cannot be identified with a Casting Action; must use whip Attack Action (Fighting vs Physical Defense), ignore armor, and gradually inflict restraint; takes about three hits to fully produce one true restraint effect. Fade note repeated by source: effects halved after about 1-2 years; completely lose Beyonder power after about 4-5 years.
 
 **Beyonder items with Beyonder Characteristics (effect close to original) (source):**
 

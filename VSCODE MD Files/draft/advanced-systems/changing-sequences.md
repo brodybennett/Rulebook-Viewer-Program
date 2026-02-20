@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Chapter 16: Explanation Notes on Switching Sequences"
 id: "chapter-16-switching-sequences-notes"
 tags: ["advancement", "pathways", "sequences", "optional-rules", "setting-notes"]
@@ -18,7 +18,7 @@ When you advance to Sequence 5, under normal circumstances you can begin conside
 
 **Core rule:** After switching Pathways, your original Sequence abilities are retained, but you can no longer gain further Sequence advancement on that original Pathway.
 
-**Effect:** You keep the abilities you already had from your original Pathway, but you cannot advance further on that original Pathway. [[Original Pathway abilities]]
+**Effect:** You keep the abilities you already had from your original Pathway, but you cannot advance further on that original Pathway.
 
 **Example:** If a Reader at Sequence 5 switches to the Spectator Pathway at Sequence 4, assume the Sequence 4 potion of the Spectator Pathway contains the Beyonder Characteristics corresponding to Sequence 9-5 of the Spectator Pathway. After advancing, this Reader at Sequence 5 becomes a Spectator Pathway Sequence 4 demigod and gains the full set of abilities of a Sequence 4 demigod. [[Demigod]]
 

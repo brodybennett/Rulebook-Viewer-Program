@@ -21,7 +21,7 @@ tags: ["pathway:error-path", "sequence:3"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +1; Dexterity +1; your Deception increases by 1 skill level.
+- **Attribute Gain:** Intuition (INT) +1; Agility (DEX) +1; your Deception increases by 1 skill level.
 
 ### Rules of Deceit
 
@@ -49,13 +49,13 @@ tags: ["pathway:error-path", "sequence:3"]
     - (By analogy, an effect can only be cheated once.)
   - **Shorten the Duration of an Effect:** Reverse the judgment of the above effect; the effect that can only last for one round will end on the spot. An effect can only be cheated once.
   - **Connect Two Portals with the Same Principle:** You can connect two portals with the same principle and treat them as intercommunicating gates.
-    - It must be two portals with the same principle (example: two Apprentice Sequence 9 doors to the Spirit World). [[Apprentice Pathway]] [[Spirit World]]
-    - The entrance and exit of the hidden space of Doorway Sequence 4 is also regarded as a kind of portal. [[Doorway Pathway]] [[Hidden Space]]
+    - It must be two portals with the same principle (example: two Apprentice Sequence 9 doors to the Spirit World). [[Door]] [[Spirit World]]
+    - The entrance and exit of the hidden space of Door pathway Sequence 4 is also regarded as a kind of portal. [[Hidden Space]]
     - You must clearly know the specific locations of the two portals.
     - It is obviously not feasible to try to obtain an extraordinary item of Apprentice Sequence 9 and then run around the world, because you have no idea where so many Apprentice Sequence 9s in the world will open the door and where you will go again.
     - It is possible to make a temporary portal with two Apprentice Sequence 9s, as long as you can confirm their location and the location has not changed.
     - If one party disconnects during the transfer, the transfer will fail and you will stay where you are.
-    - Based on the above principles, you cannot affect the position of a flame jump of an Extraordinary in the Path of the Fool, or carry out a teleportation flame jump with a flame jumping item, because you have no way of judging where an Extraordinary in the Path of the Fool will jump in the next second. [[Path of the Fool]] [[Flame Jump]]
+    - Based on the above principles, you cannot affect the position of a flame jump of an Extraordinary in the Fool pathway, or carry out a teleportation flame jump with a flame jumping item, because you have no way of judging where an Extraordinary in the Fool pathway will jump in the next second. [[Flame Jump]]
     - If you steal their thoughts, they will also forget what they wanted to do just now, and it is likely to make a different jump position choice because of this.
     - Because this is too instant and random, usually the ability of the decryption scholar is too late to decrypt the result of the jump position, so usually you can't consider doing this. [[Decryption Scholar]]
   - **Increase the Success Level of a Skill Identification:** Only for skills that have already been successful.

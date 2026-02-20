@@ -17,19 +17,19 @@ tags: ["pathway:reader", "sequence:6"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +2.
+- **Attribute Gain:** Intuition (INT) +2.
 - Your [[Potion Skills]] can be quickly upgraded to [[Erudition]].
 - If you have reached the upper limit of Erudition, you can be upgraded to [[Master]].
 
 ### Analysis
 
-- **Cost:** 2 **Spirituality Points** ([[Spirituality]]).
+- **Cost:** 2 **Spirituality** ([[Spirituality]]).
 - **Use:** **Free Action** ([[Actions]]). Whenever you recognize the use of an extraordinary ability, you may immediately conduct a corresponding [[Extraordinary Knowledge Identification]].
 - **Check:** Initial Difficulty 20.
   - For each Sequence level this ability is higher than yours: Difficulty +5.
 - **Requirements:** Some passives or abilities are difficult to recognize or observe, and may require the Beyonder to explain it to you.
-- **Aftereffects:** When you lose **Sanity** ([[Sanity]]) while analyzing an ability: for every 1 Sanity lost, apply **-1** to the Analysis check. If the Sanity loss would reduce you below 1, you still complete the Analysis and gain **+2** on the Analysis result.
-  - Sanity loss from Analysis does not affect other abilities.
+- **Aftereffects:** When you lose **Sanity / Rationality** ([[Sanity / Rationality]]) while analyzing an ability: for every 1 Sanity / Rationality lost, apply **-1** to the Analysis check. If the Sanity / Rationality loss would reduce you below 1, you still complete the Analysis and gain **+2** on the Analysis result.
+  - Sanity / Rationality loss from Analysis does not affect other abilities.
   > **Lore:** “Practice” is closer to experience than “theory.”
 - **Effect (On Success):**
   - You reveal the specific effects of the extraordinary ability, including strengths and weaknesses.
@@ -52,7 +52,7 @@ tags: ["pathway:reader", "sequence:6"]
 - **Effect:**
   - When using the simulated ability, no matter what the original ability is identified with, you can only change to the corresponding Knowledge identification.
   - After the first simulation is successful, this ability can be used permanently. If it fails, the simulation can be repeated until it succeeds.
-  - There will inevitably be a gap between the simulated ability and the original version; the size of the gap depends on your [[Path Knowledge]] level.
+  - There will inevitably be a gap between the simulated ability and the original version; the size of the gap depends on your Path Knowledge level.
 - **Limits (Gaps from the original ability):**
   1. Swift/free-action abilities can only be cast with the action of casting or attacking. Casting/attacking/moving/full-round actions remain unchanged.
   2. Area abilities become single-target abilities. Single-target abilities change to require physical contact to take effect.
@@ -75,7 +75,7 @@ tags: ["pathway:reader", "sequence:6"]
      - Negative effects remain the same and are rounded up; they will not be reduced to nothing.
      - Double the cost or Difficulty.
      - (Halving interaction: a substitute can offset only half once; it can be completely offset by consuming it twice in a row.)
-- **Special (Passive abilities):** If the simulation is a passive ability, it requires 1 casting action to cast. To keep the passive ability lasting like the original version, you must pay 1 casting action continuously.
+- **Special (Passive abilities):** If the simulation is a passive ability, it requires 1 Casting Action to cast. To keep the passive ability lasting like the original version, you must pay 1 Casting Action continuously.
 - **Path Knowledge thresholds (which gaps apply):**
   - Proficiency in Pathway knowledge and below: suffer all of 1–5.
   - Path knowledge advancement: suffer 2–5.
@@ -89,7 +89,7 @@ tags: ["pathway:reader", "sequence:6"]
 - **Note:** "Lose spellcasting actions" means you must spend 1 spellcasting action each round to maintain the effect.
   1. [[Secret Puppet]]: After successful [[Marionette]], you need to continue to lose spellcasting actions to manipulate it.
      - If you suffer from gap (4), the secret puppet will be very stuck during operation (like a weird puppet show / frame drop), and each action of the secret puppet during battle needs to be identified by gap (4).
-  2. [[Herding]]: After successful grazing, you must continue to lose spellcasting actions to maintain it. Otherwise, due to extraordinary characteristics entering the body, immediately undergo a [[Promotion Appraisal]], and may become a Beyonder of the [[Jumping Pathway]].
+  2. [[Herding]]: After successful grazing, you must continue to lose spellcasting actions to maintain it. Otherwise, due to extraordinary characteristics entering the body, immediately undergo a [[Promotion Appraisal]], and may become a Beyonder of the Jumping Pathway.
   3. [[Recording]]: After successfully recording, you must continue to lose spellcasting actions to maintain the record; otherwise, the recording ability will disappear.
   4. [[Faceless Man]]: Since the corresponding ability is a permanent physical change, there is no need to maintain it with ongoing action loss after completing the disguise.
   5. [[Stealing Ability]]: Under gap (5), the stealing ability is only half effective (rounded up), and the stolen person only has half the ability left (rounded down).

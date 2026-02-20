@@ -22,7 +22,7 @@ A Law Mage can **prohibit** specific behaviors within a defined range, and can a
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +1, Dexterity +1, Strength +1, Constitution +1
+- **Attribute Gain:** Intuition (INT) +1, Agility (DEX) +1, Strength +1, Constitution +1
 - Legal skills increase by 1 skill level. [[Legal Skills]]
 
 ### Law of Truth
@@ -44,7 +44,7 @@ A Law Mage can **prohibit** specific behaviors within a defined range, and can a
 - **Non-damaging extraordinary abilities** (e.g., nightmares and illusions):
   - Targets can clearly distinguish illusion from reality.
 - **Control-check requirements** caused by extraordinary abilities are **halved**.
-  - Example: If the Difficulty Value to identify/break free is 20, it becomes 10. [[Difficulty Value]]
+  - Example: If the Difficulty Value to identify/break free is 20, it becomes 10. Difficulty Value
 - **Extraordinary self-strengthening abilities:** Are halved; their **range** is halved and their **duration** is halved.
   - This does **not** affect Constitution that was already enhanced by the potion.
 - Example (range-halving): An extraordinary ability that normally works on others only by being next to them must instead be applied by **physical touch**.
@@ -70,14 +70,14 @@ A Law Mage can **prohibit** specific behaviors within a defined range, and can a
 - All benefits on the reality side are **doubled**.
 - The complete mythical form can no longer affect the sanity of ordinary people.
 - All Personality Suppression must be reduced by **one level** and then **halved**; it cannot become a negative number.  
-  [[Sequence 2 Upgrade]]
+  Sequence 2 Upgrade
 
 ### Make a Contract
 
 You make a contract that cannot be broken.
 
 - **Cost:** 3 points of **Spirituality** [[Spirituality]]
-- **Use:** A **spell-casting action**. [[Spell-Casting Action]]
+- **Use:** A **Casting Action**. Casting Action
 - **Requirement:** Mutual consent.
 - **Effect:** You create a sacred contract that cannot be violated.
   - The contractâ€™s terms prevent prohibited content from occurring in an **objective** sense.
@@ -88,7 +88,7 @@ You make a contract that cannot be broken.
 ### Practitioners of Order
 
 - **Effect:** You can distinguish ordinary people from extraordinary people by their different â€œpositions,â€ and judge the level of extraordinary people based on this.
-  - This is limited to **Sequence** level only, not the **Pathway** they belong to. [[Sequence Level]] [[Pathway]]
+  - This is limited to **Sequence** level only, not the **Pathway** they belong to. Sequence Level Pathway
 - **Aura:** You can actively release a solemn and majestic aura so that enemies below demigods do not dare raise their heads or launch attacks, including some extraordinary creatures.
   - **Cost:** No obvious Spirituality consumption.
   - **While this aura is active:**

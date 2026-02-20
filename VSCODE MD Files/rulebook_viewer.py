@@ -105,19 +105,26 @@ def _strip_front_matter(md_text: str) -> Tuple[Dict, str]:
     Returns (front_matter_dict, body_markdown).
     If no front matter, returns ({}, md_text).
     """
-    # Normalize line endings for parsing, but keep body content untouched beyond this.
-    if md_text.startswith('---'):
-        # find second '---' on its own line
-        # supports windows \r\n
-        m = re.match(r'\A---\s*\r?\n(.*?)\r?\n---\s*\r?\n', md_text, flags=re.DOTALL)
-        if m:
-            fm_raw = m.group(1)
-            try:
-                fm = yaml.safe_load(fm_raw) or {}
-            except Exception:
-                fm = {}
-            body = md_text[m.end():]
-            return fm, body
+    # Some files may start with a UTF-8 BOM; strip it so front matter and first
+    # heading parsing works consistently.
+    if md_text.startswith("\ufeff"):
+        md_text = md_text[1:]
+
+    # find second '---' on its own line (supports Windows CRLF)
+    # Allow harmless leading blank lines before front matter.
+    m = re.match(
+        r'\A(?:[ \t]*\r?\n)*---\s*\r?\n(.*?)\r?\n---\s*(?:\r?\n|\Z)',
+        md_text,
+        flags=re.DOTALL,
+    )
+    if m:
+        fm_raw = m.group(1)
+        try:
+            fm = yaml.safe_load(fm_raw) or {}
+        except Exception:
+            fm = {}
+        body = md_text[m.end():]
+        return fm, body
     return {}, md_text
 
 

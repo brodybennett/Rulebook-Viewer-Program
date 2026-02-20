@@ -8,15 +8,15 @@ tags: ["pathway:night", "sequence:1"]
 
 ## Knight of Misfortune (aka Angel of the Dark Path)
 
-- See also: [[Dark Path Pathway]]
+- See also: Dark Path Pathway
 
 ## Extraordinary Abilities
 
 ### Attribute Gain
 
 - **Attribute Gain:**
-  - **Inspiration** +1
+  - **Intuition (INT)** +1
   - **Constitution** +2
   - **Strength** +2
-  - **Agility** +2
-  - Choose a skill and set it as **proficient**. [[Proficiency]]
+  - **Agility (DEX)** +2
+  - Choose a skill and set it as **proficient**. Proficiency

@@ -30,14 +30,14 @@ For command syntax, `.ri+Agility (DEX)` is shorthand for rolling `1d20 + Agility
 
 | Action Type | Count |
 |---|---:|
-| Attack/Cast Action | 1 |
+| Attack/Casting Action | 1 |
 | Swift Action | 3 |
 | Move Action | 1 |
 | Free Action | Unlimited |
 
 ### Action Types
 
-**Attack/Cast Action:** Choose **either** a physical attack (e.g., Fighting, shooting) **or** a Beyonder Ability (a "Cast"). You cannot attack once and cast once in the same round using this allotment.
+**Attack/Casting Action:** Choose **either** a physical attack (e.g., Fighting, shooting) **or** a Beyonder Ability (a "Cast"). You cannot attack once and cast once in the same round using this allotment.
 
 **Swift Action:** A very fast action (e.g., cycling a bolt-action rifle, snapping your fingers, quickly drawing a small item).
 
@@ -50,20 +50,20 @@ For command syntax, `.ri+Agility (DEX)` is shorthand for rolling `1d20 + Agility
 - Relative speed (fastest to slowest): **Free Actions > Swift Actions > Attack/Cast Actions = Move Actions**.
 - **Free Actions** can be used during other people's turns, but **cannot interrupt** other people's actions.
 - **Swift Actions** can be used during other people's turns, but **cannot interrupt** other people's actions unless an ability explicitly says it can.
-- When using a Swift-action Beyonder Ability during another person's turn, that other person's action resolves its check first, then the Swift action takes effect. They take effect **simultaneously** for outcome timing purposes.
+- When using a Swift-action Beyonder Ability during another person's turn, that other person's action resolves its check first, then the Swift Action takes effect. They take effect **simultaneously** for outcome timing purposes.
 
 ### Full-Round Action
 
-A **Full-Round Action** consumes **1 Attack/Cast Action, 3 Swift Actions, 1 Move Action, and unlimited Free Actions**.
+A **Full-Round Action** consumes **1 Attack/Casting Action, 3 Swift Actions, 1 Move Action, and unlimited Free Actions**.
 
 - Once you use a Full-Round Action, you cannot do anything else that round.
 - A Full-Round Action does **not** complete immediately. It continues until the **start of your turn in the second round**, and only then is it considered complete.
 
 ### Action Conversion
 
-- You may convert **1 Attack/Cast Action -> 2 Swift Actions**.
+- You may convert **1 Attack/Casting Action -> 2 Swift Actions**.
 - You cannot convert Move Actions.
-- You cannot convert **2 Swift Actions -> 1 Attack/Cast Action**.
+- You cannot convert **2 Swift Actions -> 1 Attack/Casting Action**.
 - You may only convert downward; you cannot merge upward.
 - No action can be saved into the next round.
 
@@ -72,8 +72,8 @@ A **Full-Round Action** consumes **1 Attack/Cast Action, 3 Swift Actions, 1 Move
 Some Beyonder Abilities or Beyonder items may grant extra Swift/Attack/Cast/Move Actions. When the number of extra actions reaches a certain magnitude, its benefits are reduced:
 
 1. The upper limit of this magnitude is **1**, regardless of action type.
-2. If extra actions provided reach **2** (e.g., 2 extra Cast Actions), the **2nd** Cast Action is **invalid** and cannot be used.
-3. **Invalid** actions can be merged into **valid** actions. Example: If you gain **3** extra Cast Actions, the 2nd and 3rd (invalid) Cast Actions can be merged into **1** valid Cast Action, for a total of **2** usable Cast Actions.
+2. If extra actions provided reach **2** (e.g., 2 extra Cast Actions), the **2nd** Casting Action is **invalid** and cannot be used.
+3. **Invalid** actions can be merged into **valid** actions. Example: If you gain **3** extra Cast Actions, the 2nd and 3rd (invalid) Cast Actions can be merged into **1** valid Casting Action, for a total of **2** usable Cast Actions.
 4. The **3rd** valid action requires merging **3** invalid actions; the **4th** valid action requires merging **4** invalid actions; and so on.
 
 > **GM Note:** This limit counts only extra actions gained through **external forces** (e.g., Beyonder items, ritual magic). Extra actions from your own Beyonder Abilities or Mythical form are **not** counted for this purpose.
@@ -166,17 +166,17 @@ This is an optional ruleset intended to speed up combat when the number of comba
 
 Additional rules and exceptions (as written):
 
-- An attack made as a Free Action generally cannot interrupt an ongoing Move Action or Attack/Cast Action; at most, it resolves simultaneously and adds damage.
+- An attack made as a Free Action generally cannot interrupt an ongoing Move Action or Attack/Casting Action; at most, it resolves simultaneously and adds damage.
 - If two characters simultaneously use Free Actions to attack each other, order is determined by initiative or Agility (DEX). If equal, both Free Actions take effect simultaneously.
-- Some control abilities can interrupt an Attack Action currently in progress (Free Actions are difficult to interrupt due to speed). Example: Moon Pathway "Abyss Shackles." The restrained target makes the relevant opposed check to determine whether the attack still succeeds; on failure, the attack for that round is interrupted. Whether the target can still use Free Actions that round depends on the control ability's description. See [[Abyss Shackles]] and [[Moon Pathway]].
-- "Agile Hand" exception: an attack or casting action gained through **Agile Hand** is treated as requiring only the time of a Free Action, so it may interrupt an attack in some cases. "Dual Action" (Marauder Pathway) includes one original action plus one attack or move action gained through Agile Hand; only the latter is Free-action time. The original attack/cast remains standard time. See [[Agile Hand]] and [[Dual Action]] and [[Marauder Pathway]].
+- Some control abilities can interrupt an Attack Action currently in progress (Free Actions are difficult to interrupt due to speed). Example: Moon Pathway "Abyss Shackles." The restrained target makes the relevant opposed check to determine whether the attack still succeeds; on failure, the attack for that round is interrupted. Whether the target can still use Free Actions that round depends on the control ability's description. See [[Abyss Shackles]] and Moon.
+- "Agile Hand" exception: an attack or Casting Action gained through **Agile Hand** is treated as requiring only the time of a Free Action, so it may interrupt an attack in some cases. "Dual Action" (Marauder Pathway) includes one original action plus one attack or Move Action gained through Agile Hand; only the latter is Free-action time. The original attack/cast remains standard time. See [[Agile Hand]] and [[Dual Action]] and the Error pathway.
 - Extra Attack Actions gained through other means (example given: a Great Success on an Intuition ability) are treated as requiring standard action time and cannot interrupt others' progress. The user may choose to fire all extra actions gained within the time of one standard action, but those extra actions cannot be saved to the next round.
 
 ### Handling Confusion
 
 > **GM Note:** If declarations become chaotic, use these handling points:
 > 1. All Players must declare at the very start (including "I take no action yet," plus when they intend to act and what preparation they make).
-> 2. Declarations can be spoken in initiative or Agility order to keep it orderly, while still treating the round as "declared together."
+> 2. Declarations can be spoken in initiative or Agility (DEX) order to keep it orderly, while still treating the round as "declared together."
 > 3. Rolls/checks happen during GM resolution, not at declaration.
 > 4. GM descriptions should depict the process of combat, not only outcomes.
 
@@ -202,32 +202,32 @@ When a creature has **Armor** and **damage reduction**, calculate Armor Break un
 ### Armor Recovery
 
 **Armor Recovery (Skin Armor):**
-- After a Beyonder restores **10 HP**, it no longer suffers the Wound Widening penalty reduction.
-- After restoring **20 HP**, it repairs the Armor and damage reduction effects.
-- Once HP is fully restored, no additional effects are gained beyond complete repair.
+- After a Beyonder restores **10 Vitality**, it no longer suffers the Wound Widening penalty reduction.
+- After restoring **20 Vitality**, it repairs the Armor and damage reduction effects.
+- Once Vitality is fully restored, no additional effects are gained beyond complete repair.
 
 
-## HP and Damage Examples
+## Vitality and Damage Examples
 
 These are reference values and may contain errors (as stated in the source text).
 
-### Creature HP Examples
+### Creature Vitality Examples
 
 Ordinary creatures (not including Beyonder creatures):
 
-| Category (examples) | HP |
+| Category (examples) | Vitality |
 |---|---|
-| Tiny (insects, ants; count as 10 per unit) | Each ten have **1 HP**. |
-| Small (rats, birds, a hand, a steak) | **2d2 HP**. |
-| Small-medium (cats, dogs; large dogs add **+1d3**) | **7 + 1d3 HP**. |
-| Medium (humans, deep ones, a young lion or tiger) | **10 + 2d3 HP**. |
-| Medium-large (adult lions, tigers, bears, cattle; meat pigs add **+1d5**) | **20 HP**. |
-| Large (giants, large-bodied creatures, Feysacians) | **20 + 2d4 HP**. |
-| Huge (size comparable to a ship; 4m or 6m giants; creatures that can destroy ships) | **60 + 10d2 HP**, or more. |
+| Tiny (insects, ants; count as 10 per unit) | Each ten have **1 Vitality**. |
+| Small (rats, birds, a hand, a steak) | **2d2 Vitality**. |
+| Small-medium (cats, dogs; large dogs add **+1d3**) | **7 + 1d3 Vitality**. |
+| Medium (humans, deep ones, a young lion or tiger) | **10 + 2d3 Vitality**. |
+| Medium-large (adult lions, tigers, bears, cattle; meat pigs add **+1d5**) | **20 Vitality**. |
+| Large (giants, large-bodied creatures, Feysacians) | **20 + 2d4 Vitality**. |
+| Huge (size comparable to a ship; 4m or 6m giants; creatures that can destroy ships) | **60 + 10d2 Vitality**, or more. |
 
-### Vehicle HP Examples
+### Vehicle Vitality Examples
 
-| Vehicle | HP | Physical Defense | Damage Reduction |
+| Vehicle | Vitality | Physical Defense | Damage Reduction |
 |---|---:|---|---|
 | Carriage | **30** | **20** (5 Armor, 5 Agility (DEX)) | None |
 | Steam Train | **150** | **40** (15 Armor, 15 Agility (DEX)) | **5** physical/fire |
@@ -238,12 +238,12 @@ Ordinary creatures (not including Beyonder creatures):
 | Ironclad ship | **150** | **40** (15 Armor, 15 Agility (DEX)) | **15** physical/fire |
 
 Special:
-- Any ship/airship, when HP is below half (round down), begins sinking or falling.
+- Any ship/airship, when Vitality is below half (round down), begins sinking or falling.
 - Vehicles not in motion do **not** gain Agility (DEX) bonuses to Physical Defense.
 
 ### Modern Supplement
 
-| Object | HP | Physical Defense | Damage Reduction |
+| Object | Vitality | Physical Defense | Damage Reduction |
 |---|---:|---|---|
 | Car | **40** | **30** (10 Armor, 10 Agility (DEX)) | **5** physical/fire |
 | Building | **60** | **35** (25 Armor) | **5** physical/fire |
@@ -274,7 +274,7 @@ Radiation note (as written): Even after leaving the radiation source, damage may
 ## Damage Types
 
 - **Physical Damage:** Ordinary physical damage (non-occult). At low Sequence, major obstacles are uncommon except vs cases like wraiths; at higher Sequence, it is often replaced by other damage types.
-- **Curse Damage:** Wounds are pitch-black with no blood; flesh may vanish. Suppresses natural HP recovery (not Beyonder healing). HP lost to curse damage usually cannot begin to recover naturally until **half a day** later. Can be purified or expelled early by the Sun Pathway; other healing-type Pathways may also do so. Can affect living targets and objects.
+- **Curse Damage:** Wounds are pitch-black with no blood; flesh may vanish. Suppresses natural Vitality recovery (not Beyonder healing). Vitality lost to curse damage usually cannot begin to recover naturally until **half a day** later. Can be purified or expelled early by the Sun Pathway; other healing-type Pathways may also do so. Can affect living targets and objects.
 - **Fire Damage:** Doubled against spiderwebs, wood, and vine plants.
 - **Cold Damage:** Often causes "Slow"-type effects such as reduced movement speed and/or penalties to the next check. Fire methods may offset cold-environment penalties depending on relative Sequence/level; cold resistance can allow ignoring penalties and speed reductions.
 - **Holy Damage:** Concentrated in the Sun Pathway; restrains Darkness, Corruption, and undead. Additional restraining damage is usually limited to the Sun Pathway itself. Holy damage is extremely difficult to reduce; only Sun Pathway vs Sun Pathway may have partial immunity. Sun Pathway talismans require gold.
@@ -299,7 +299,7 @@ Examples (as written):
 
 ### Immunity
 
-**Immunity** is an extreme form of damage reduction: it can completely negate a type of damage, taking **0 HP** loss from that type.
+**Immunity** is an extreme form of damage reduction: it can completely negate a type of damage, taking **0 Vitality** loss from that type.
 
 ### Damage Resistance
 

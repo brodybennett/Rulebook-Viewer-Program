@@ -28,7 +28,7 @@ tags: ["pathway:war-god", "sequence:4"]
 ### Detect Evil
 
 - **Use:** **Free Action**
-- **Check:** **Difficulty Value 15** [[Inspiration]] + [[Spot]] check.
+- **Check:** **Difficulty Value 15** Intuition + [[Spot]] check.
 - **Effect:** Look for signs of evil, corruption, and contamination; detect evil creatures currently within the scene or that have been in the area within the last 24 hours.
 - **Limits/Modifiers:** If a target has the [[Avoidance of Scrying]] trait, apply its penalty to this check.
 
@@ -48,13 +48,13 @@ tags: ["pathway:war-god", "sequence:4"]
 
 ### Spiritual Disturbance
 
-- **Effect:** The target makes an [[Inspiration]] check at -5; on failure, treat the result as a [[Big Failure]].
+- **Effect:** The target makes an Intuition check at -5; on failure, treat the result as a Big Failure.
 
 ### Material Identification
 
 - **Effect:** Identify the uses of various materials and prepare corresponding magical potions, holy ointments, essential oils, and special marks.
 - **Time:** 1d20 minutes.
-- **Check:** **Difficulty Value 20** [[Inspiration]] check.
+- **Check:** **Difficulty Value 20** Intuition check.
 - **Limits:** Create up to five magical items per day.
 - **Storage/Duration:** Unless otherwise specified, magical potions can only be stored or effective for 24 hours.
 
@@ -64,7 +64,7 @@ Here’s a list of the magical items you can craft:
   - **Use:** **Full Round** to apply.
   - **Effect:** The applier gains 5 **cold resistance** and 5 **curse resistance** for 24 hours.
   - **Limits:** Can only take effect twice.
-  - **Additional Effect:** If the curse/cold/poison’s Difficulty Value is within 5 points of your [[Inspiration]] score, you may choose to suppress or cure it.
+  - **Additional Effect:** If the curse/cold/poison’s Difficulty Value is within 5 points of your Intuition score, you may choose to suppress or cure it.
 
 - **Essential Oil**
   - **Use:** 1 **Round**.
@@ -102,11 +102,11 @@ Here’s a list of the magical items you can craft:
 - **Purification Potion**
   - **Effect:** Immediately heals all poisons and minor diseases, as well as curses.
   - **Effect:** Causes 3d6 damage to the [[Wraiths]] in the body.
-  - **Effect:** Provides 1d3 [[Sanity Armor]] (this does not stack with other Sanity Armor sources; it can stack only for targets with the [[Audience Pathway]]).
+  - **Effect:** Provides 1d3 [[Sanity / Rationality Armor]] (this does not stack with other Sanity / Rationality Armor sources; it can stack only for targets with the Visionary).
 
 > **GM Note:** Other special item effects require approval by the GM.
 
-> **GM Note:** Under special circumstances, you can refer to the [[Potions Professor]] list of medicines for making new medicines. However, the [[God of War Pathway]] is not a Sequence Pathway suitable for research, so the development of new medicines should be greatly restricted.
+> **GM Note:** Under special circumstances, you can refer to the [[Potions Professor]] list of medicines for making new medicines. However, the Twilight Giant pathway is not a Sequence Pathway suitable for research, so the development of new medicines should be greatly restricted.
 
 - **Imprint Form Variation:** You can craft a resistance imprint instead of a mark; it grants 10 points of resistance to the corresponding damage/condition type (holy, lightning, cold, or curse). This cannot be superimposed.
 
@@ -114,11 +114,11 @@ Here’s a list of the magical items you can craft:
 
 - **Trigger:** Whenever you fall into [[Madness]].
 - **Effect:** Temporarily consume 3 points of **Will Cap** to continue fighting in a normal state.
-- **Limits:** This does not affect your **Will Defense**.
-- **Failure Condition:** If your [[Sanity]] reaches a negative value, you immediately lose the will to fight and cannot continue fighting.
+- **Limits:** This does not affect your **Willpower Defense**.
+- **Failure Condition:** If your [[Sanity / Rationality]] reaches a negative value, you immediately lose the will to fight and cannot continue fighting.
 - **Recovery:** The lost Will Cap can be restored after an hour.
 - **Status Interaction:** You no longer suffer negative effects from blindness, deafness, fear, anger, etc., including negative emotions bestowed by the [[Black Emperor]], and will not suffer impairments—although these negative states still exist (e.g., you are still theoretically blind or deaf), you can still act normally through rich combat experience.
 - **Limits:** This does not affect [[Dreaming]]; you will be awakened as usual if you are dreamed.
-- **Special:** If the enemy that triggers these effects is of a higher Sequence than you, or is an [[Audience Pathway]] Extraordinary of the same Sequence, you only suffer the enemy’s related Identification penalty; you do not lose actions or become unable to act.
+- **Special:** If the enemy that triggers these effects is of a higher Sequence than you, or is an Visionary Extraordinary of the same Sequence, you only suffer the enemy’s related Identification penalty; you do not lose actions or become unable to act.
 
 - **Sequence 3 Update:** The lost upper limit of will is restored after half an hour.

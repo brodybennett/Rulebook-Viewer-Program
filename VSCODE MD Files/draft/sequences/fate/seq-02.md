@@ -8,8 +8,8 @@ tags: ["pathway:fate", "sequence:2"]
 
 ## Soothsayer
 
-- This **Sequence** is an [[Angel]] of the [[Wheel of Fortune Pathway]].
-- See also: [[Wheel of Fortune Pathway]]
+- This **Sequence** is an [[Angel]] of the [[Wheel of Fortune]].
+- See also: [[Wheel of Fortune]]
 
 ## Advancement
 
@@ -23,11 +23,11 @@ tags: ["pathway:fate", "sequence:2"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +6; your [[Occult Science]] goes up by one level; one skill of your choice goes up by one level.
+- **Attribute Gain:** **Intuition (INT)** +6; your [[Occult Science]] goes up by one level; one skill of your choice goes up by one level.
 
 ### Prophet
 
-- **Use:** Three times per day, you can make an **Inspiration** check, judging what an action in the future (rather than the present) will produce.
+- **Use:** Three times per day, you can make an **Intuition (INT)** check, judging what an action in the future (rather than the present) will produce.
 - **Effect:** You spy on the secrets of future destiny. This can accurately see part of the picture clearly and accurately, and you can even spy on the [[King of Angels]] and [[Uniqueness]] to a certain extent.
 - **Difficulty Value 20:** The **GM** tells you whether the outcome of this action is good or bad.
 - **Difficulty Value 25:** You get a clearer picture.

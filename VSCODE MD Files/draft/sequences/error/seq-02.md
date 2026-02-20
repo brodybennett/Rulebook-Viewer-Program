@@ -18,12 +18,12 @@ tags: ["pathway:error-path", "sequence:2"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +1, **Dexterity** +1, your **Deception** goes up by 1 skill level.
+- **Attribute Gain:** **Intuition (INT)** +1, **Agility (DEX)** +1, your **Deception** goes up by 1 skill level.
 
 ### Destiny Trojan Horse
 
 - **Cost:** 3 points of **Spirituality**.
-- **Use:** A casting action that attacks the opponentâ€™s **Physical Defense** â€œwith skillful hands.â€
+- **Use:** A Casting Action that attacks the opponentâ€™s **Physical Defense** â€œwith skillful hands.â€
 - **Effect:** You can start to steal other peopleâ€™s identity, destiny, self-knowledge, and related aspects, using one of the following options as appropriate:
 
 #### Steal Identity
@@ -31,8 +31,8 @@ tags: ["pathway:error-path", "sequence:2"]
 - **Effect:** You steal the targetâ€™s identity, making others think that you are the target.
 - **Duration:** 2 hours.
 - **Detection:**  
-  - The same observer can pass an **Inspiration** appraisal (**Difficulty Value** 15) to detect the sense of disobedience.  
-  - An observer who is one **Sequence** lower than you can pass an **Inspiration** appraisal (**Difficulty Value** 20) to perceive the sense of incongruity.
+  - The same observer can pass an **Intuition (INT)** appraisal (**Difficulty Value** 15) to detect the sense of disobedience.  
+  - An observer who is one **Sequence** lower than you can pass an **Intuition (INT)** appraisal (**Difficulty Value** 20) to perceive the sense of incongruity.
 
 #### Steal Cognition
 
@@ -95,29 +95,29 @@ tags: ["pathway:error-path", "sequence:2"]
 - If you make the parasite into a clone:
   - The cloneâ€™s ability depends on itself, but it can use your ability to a certain extent, which usually can only reach the level within **Sequence** 5.
   - If you want to use your body to use high-level abilities:
-    - It requires a full-round action to prepare.
+    - It requires a Full-Round Action to prepare.
     - Passive abilities cannot be used.
     - All abilities can only be used initially.
 - **Note:** The number of clones you can create is proportional to the extra extraordinary characteristics of the wrong path you devour; that is, the number of extraordinary stacked skills represents the number of weak clones you have.
 - If you have the wrong extraordinary characteristic corresponding to a high **Sequence** level, then you can give it to raise that Worm of Time clone to the corresponding level.
-- [[Wrong Path]]
+- Error pathway
 - [[Extraordinary Stacked Skills]]
 
 ### Detached Worm of Time
 
 - **Cost:** 1 point of **Spirituality**.
-- **Use:** A full-round action.
+- **Use:** A Full-Round Action.
 - **Effect:** You detach a Worm of Time, which parasitizes targets through shadows that are hard to see.
   - You separate a Worm of Time and let it imperceptibly reach the targetâ€™s side, and immediately perform a parasite instead of you.
-  - When the full-round action is over, the Worm of Time is considered to have arrived at the targetâ€™s side.
-  - At that time, conduct a skill test against the targetâ€™s **Will Defense**; on success, it is considered to have entered a shallow parasitic state.
-- > **GM Note:** The full-round action implies you may want to talk to delay time and divert the opponentâ€™s attention so they do not become aware of your action.
+  - When the Full-Round Action is over, the Worm of Time is considered to have arrived at the targetâ€™s side.
+  - At that time, conduct a skill test against the targetâ€™s **Willpower Defense**; on success, it is considered to have entered a shallow parasitic state.
+- > **GM Note:** The Full-Round Action implies you may want to talk to delay time and divert the opponentâ€™s attention so they do not become aware of your action.
 
 #### Targets at the Same Level or One Level Lower
 
 - This is usually difficult for targets at the same level as you or only one level lower.
 - If the parasitic object is a demigod:
-  - They can perform an **Inspiration** identification (**Difficulty Value** 15) to detect mistakes in time.
+  - They can perform an **Intuition (INT)** identification (**Difficulty Value** 15) to detect mistakes in time.
   - They have one action or two free actions of time to resist, but the impact must be avoided by immediately killing the Worm of Time by any means or performing a transcendent ability to move.
     - Killing the Worm of Time: an indiscriminate range attack or an attack that can accurately lock the Worm of Time.
     - Moving: a swap with a secret puppet or a flame jump.
@@ -133,24 +133,24 @@ tags: ["pathway:error-path", "sequence:2"]
 #### Diversion Effects (to Avoid Awareness)
 
 - You can use verbal confrontation to divert the opponentâ€™s attention; once successful, it can have the following effects:
-  - Once successful, let them believe you are a good person and will not cause malicious thinking misleading to them: **Inspiration** identification difficulty +5.  
+  - Once successful, let them believe you are a good person and will not cause malicious thinking misleading to them: **Intuition (INT)** identification difficulty +5.  
     (This needs to be based on the difficulty of misleading thinking based on the specific situation. Based on your concealment, an extraordinary who is about to lose control is usually easy to believe you.)
-  - A successful social identification: **Inspiration** identification difficulty +5.  
+  - A successful social identification: **Intuition (INT)** identification difficulty +5.  
     (False social skills are usually very persuasive, but the essence here is that you are trying to convince others that you are harmless, or to distract others, which can be in the form of very interesting intelligence.)
-  - If the opponent is the Fool, Spectator, Reader, Secret Peer, and Destiny Path: **Inspiration** identification difficulty -5.  
+  - If the opponent is the Fool, Spectator, Reader, Secret Peer, and Destiny Path: **Intuition (INT)** identification difficulty -5.  
     (This type of approach usually has high inspiration, can quickly detect something is wrong, or can quickly discover the power of the mysterious field.)
-  - If the opponentâ€™s remaining spiritual value is 10 or below, and they are weak and helpless: the **Inspiration** test fails by default and parasitism is basically guaranteed to succeed. Only the same level has a chance to resist with free actions.
+  - If the opponentâ€™s remaining spiritual value is 10 or below, and they are weak and helpless: the **Intuition (INT)** test fails by default and parasitism is basically guaranteed to succeed. Only the same level has a chance to resist with free actions.
 - [[Fool]]
 - [[Spectator]]
-- [[Reader]]
+- [[White Tower]]
 - [[Secret Peer]]
-- [[Destiny Path]]
+- Wheel of Fortune pathway
 - [[Spiritual Value]]
 
 #### Targets Two Levels Lower
 
 - The above content is limited to targets who are at the same level as you or only one level lower than you.
-- You usually do not need to bother with targets who are two levels lower than you; after a full-round action, you can parasitize them directly (unless you have enough vigilance).
+- You usually do not need to bother with targets who are two levels lower than you; after a Full-Round Action, you can parasitize them directly (unless you have enough vigilance).
 
 #### Deep Parasite Outcome
 
@@ -164,7 +164,7 @@ tags: ["pathway:error-path", "sequence:2"]
 ### Fate Loophole
 
 - **Cost:** 3 spiritual points.
-- **Use:** A casting action; once per round.
+- **Use:** A Casting Action; once per round.
 - **Effect:** You can make the targetâ€™s fate go wrong for a certain period of time, achieving one of the following results:
   1. Let the results of divination and prophecy be wrong. For divinations and prophecies one level below you, you can even completely customize what goes wrong.
   2. Transfer your consciousness and let an avatar become your main body. To do this, you must first create an avatar that is no more than one **Sequence** level with you, and then let the avatar steal the fate, identity, and self-cognition of that person before you can do it.
@@ -180,8 +180,8 @@ tags: ["pathway:error-path", "sequence:2"]
 
 ### Insight of Destiny
 
-- **Use:** Expend a casting action; choose a target.
-- **Effect (check):** Pass a Library or **Inspiration** check of **Difficulty Value** (30 - the targetâ€™s sequence level).
+- **Use:** Expend a Casting Action; choose a target.
+- **Effect (check):** Pass a Library or **Intuition (INT)** check of **Difficulty Value** (30 - the targetâ€™s sequence level).
   - On success, you learn the general fate of the target and the general past:
     - You know what kind of education they went through.
     - You know what they went through roughly, but usually not in detail.
@@ -192,7 +192,7 @@ tags: ["pathway:error-path", "sequence:2"]
 - **Using new information:** When you get new information, you can directly rearrange your previous clues, conduct another appraisal on the spot you want to gain insight into, and try to see the truth clearly. You do not have to go find the target you used this ability on before.
 - **Clue bonus:** Every thing that can be used as a clue can give you +2 identification.
 - **Misleading risk:** If the other party can have a certain influence on fate, you may also be misled.
-- **Extra appraisal:** Conduct a 20-**Difficulty Value** **Inspiration** appraisal to judge whether this thing is related to you, and how it is related; you need to find further clues. Repeating the appraisal will still only get the same result until you get new clues.
+- **Extra appraisal:** Conduct a 20-**Difficulty Value** **Intuition (INT)** appraisal to judge whether this thing is related to you, and how it is related; you need to find further clues. Repeating the appraisal will still only get the same result until you get new clues.
 - **Detecting specific states (without full attribution):**
   - You can discover that a target is a Secret Puppet, but you cannot directly know who the Secret Puppetâ€™s owner is.
   - You can only see that they became a Secret Puppet at a certain moment.

@@ -14,7 +14,7 @@ tags: ["pathway:moon", "sequence:6"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +1, Agility +1, Inspiration +1.
+- **Attribute Gain:** Strength +1, Constitution +1, Agility (DEX) +1, Intuition (INT) +1.
 - Chemistry and Pharmacy can be quickly upgraded to Erudition. [[Erudition]]
 
 ### Magic Potion
@@ -25,7 +25,7 @@ tags: ["pathway:moon", "sequence:6"]
 - **Limits:** The circulation mechanism of extraordinary medicinal materials is the same as that of Sequence 9 Pharmacists. [[Pharmacists]]
 - **Limits:** To obtain a continuous supply of extraordinary medicinal materials, the Potions Professor must establish a friendly relationship with a stable extraordinary force organization and establish supply cooperation. [[Extraordinary Force Organization]]
 - **Limits:** The Potions Professor must establish such a connection for circulating supply to take effect; otherwise, the Potions Professor cannot obtain the supply of extraordinary medicinal materials and can only search for medicinal materials manually or purchase them immediately.
-- **Limits:** The number of extraordinary medicinal materials that can be purchased immediately is equivalent to three times the reputation level, and the mechanism is consistent with that of the Sequence 9 period. [[Sequence 9 period]]
+- **Limits:** The number of extraordinary medicinal materials that can be purchased immediately is equivalent to three times the reputation level, and the mechanism is consistent with that of the Sequence 9 period. Sequence 9 period
 - **Limits:** Immediate purchase cannot be from an ordinary market; it must be at least a black market involving the Extraordinary field or a gathering of Extraordinary people. [[Extraordinary Gathering]]
 
 > **GM Note:** The RAW notes that simple gatherings of Beyonders cannot fully afford the Potions Professor’s Beyonder materials, and suggests suppliers typically come from within the blood clan; if contact with the blood clan is broken (or the Potions Professor does not belong to the blood clan), they must establish cooperation with another Extraordinary force (often via an organization or an Extraordinary party host, usually not personal). [[Blood Clan]] [[Beyonder Materials]] [[Beyonder]]
@@ -33,10 +33,10 @@ tags: ["pathway:moon", "sequence:6"]
 #### Magic Potion Shelf Life
 
 - **Effect:** A magic potion has a shelf life equivalent to the results of Pharmaceutical or Chemical identification when making the medicine.
-- **Effect:** A final identification value of 24 means the potion can last for 24 days without expiration. [[Identification]]
+- **Effect:** A final identification value of 24 means the potion can last for 24 days without expiration. Identification
 - **Aftereffects:** If the shelf life is exceeded, the magic potion is barely effective for one day, but the effect is only half; after that one day, it is completely ineffective.
 - **Limits:** When using life-sucking to create additional magic potions, the storage time and effect of such magic potions are only 5 minutes, and the medicinal materials need to be consumed. [[Life-Sucking]]
-- **Use:** This requires passing a Difficulty Value 20 Chemical (Poison or Explosives) or Pharmacological (Drugs) identification. [[Chemical (Poison or Explosives)]] [[Pharmacological (Drugs)]] [[Difficulty Value]]
+- **Use:** This requires passing a Difficulty Value 20 Chemical (Poison or Explosives) or Pharmacological (Drugs) identification. [[Chemical (Poison or Explosives)]] [[Pharmacological (Drugs)]] Difficulty Value
 
 ## Regular Potions
 
@@ -48,13 +48,13 @@ tags: ["pathway:moon", "sequence:6"]
    - **Duration:** 1 hour.
    - **Limits:** Can only be taken once every 12 hours.
 
-2. **Agility Potion**
-   - **Effect:** Agility +2.
+2. **Agility (DEX) Potion**
+   - **Effect:** Agility (DEX) +2.
    - **Duration:** 1 hour.
    - **Limits:** Can only be taken once every 12 hours.
 
 3. **Charming Potion**
-   - **Effect:** Charm +2.
+   - **Effect:** Charisma (CHA) +2.
    - **Duration:** 1 hour.
    - **Limits:** Can only be taken once every 12 hours.
 
@@ -93,6 +93,6 @@ tags: ["pathway:moon", "sequence:6"]
    - The first bottle can treat toxins and diseases as if they were gone.
    - Terminally ill patients only need two courses of treatment to be asymptomatic; three courses of treatment completely recovered. [[Terminal Illness]]
 
-> **GM Note:** You can also make a list of potions for other pathways (for example, solar holy water of the Solar Pathway); see the corresponding content for details. [[Solar Pathway]] [[Solar Holy Water]]
+> **GM Note:** You can also make a list of potions for other pathways (for example, solar holy water of the Solar Pathway); see the corresponding content for details. Solar Pathway [[Solar Holy Water]]
 
 > **GM Note:** Other GMs may allow additional reasonable magic potions. For more potions, refer to “Chapter 15: Special Potions, Charms, Extraordinary Items”. [[Chapter 15: Special Potions, Charms, Extraordinary Items]]

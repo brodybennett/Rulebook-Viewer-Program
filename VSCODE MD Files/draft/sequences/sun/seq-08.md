@@ -28,15 +28,15 @@ tags: ["pathway:sun", "sequence:8"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1; Agility +1; Inspiration +1; Constitution +1.
-- **Rapid Improvement:** Mysticism is included in the category of [[Rapid Improvement]] and can be quickly improved to [[Proficiency]].
+- **Attribute Gain:** Strength +1; Agility (DEX) +1; Intuition (INT) +1; Constitution +1.
+- **Rapid Improvement:** Mysticism is included in the category of [[Rapid Improvement]] and can be quickly improved to Proficiency.
 
 ### White Vision
 
 > **Lore:** Golden sunlight gathers in your eyes until they resemble two miniature suns.
 
 - **Cost:** 1 **[[Spirituality]]** per minute while active.
-- **Use:** 1 **[[Swift Action]]** to activate.
+- **Use:** 1 **Swift Action** to activate.
 - **Effect:**
   - You can see in total darkness.
   - Anything hidden by darkness or shadow is revealed.
@@ -49,7 +49,7 @@ tags: ["pathway:sun", "sequence:8"]
 
 > **Lore:** You raise your arms in prayer and emit pure, clear radiance.
 
-- **Use:** 1 **[[Casting Action]]**.
+- **Use:** 1 **Casting Action**.
 - **Cost:** Each round consumes 2 **[[Spirituality]]**.
 - **Duration:** Maintenance continues to consume Casting Actions.
 - **Targeting and range:** With you as the center, you illuminate a 10-meter area with divine power.
@@ -66,10 +66,10 @@ tags: ["pathway:sun", "sequence:8"]
 
 > **Lore:** A pure beam of light wrapped in flames descends from the roof or sky.
 
-- **Use:** 1 **[[Casting Action]]**.
+- **Use:** 1 **Casting Action**.
 - **Cost:** Consume 3 **[[Spirituality]]**.
 - **Targeting and range:** Choose 1 target within your field of vision.
-- **Resolution:** **[[Occult vs Physical Defense]]**, ignoring Agility and Evasion in Physical Defense.
+- **Resolution:** **[[Occult vs Physical Defense]]**, ignoring Agility (DEX) and Evasion in Physical Defense.
 - **Effect:** Deal 2d6 Holy damage and 1d6 Fire damage.
 - **Sequence 7:** Damage changes to 3d6 Holy damage and 1d6 Fire damage.
 
@@ -77,7 +77,7 @@ tags: ["pathway:sun", "sequence:8"]
 
 > **Lore:** You pray to cleanse filth and corruption.
 
-- **Use:** 1 **[[Casting Action]]**.
+- **Use:** 1 **Casting Action**.
 - **Cost:** Consume 2 **[[Spirituality]]**.
 - **Targeting and range:** Choose 1 target within 10 meters.
 - **Limits:** Unlike “Call the Holy Light,” this ability does not cause damage to ordinary creatures (except as noted below).

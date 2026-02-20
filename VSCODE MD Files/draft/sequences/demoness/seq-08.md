@@ -12,23 +12,23 @@ tags: ["pathway:Demoness", "sequence:8"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +2; Charisma +1.
+- **Attribute Gain:** Intuition (INT) +2; Charisma +1.
 - **Rapid Growth (Sequence 9 Skills):**
-  - The following are treated as your [[Sequence 9]] skills and grow rapidly:
-    - [[Charm]]
+  - The following are treated as your Sequence 9 skills and grow rapidly:
+    - [[Charisma (CHA)]]
     - [[Persuasion]]
     - [[Speech]]
     - [[Pleasure]]
     - [[Deception]]
   - Each time you instigate a person to violate their [[Personality]], it also counts as **1** [[Growth]].
 
-### Charm
+### Charisma (CHA)
 
 - **Cost:** None (does not consume [[Spirituality]]).
-- **Use:** 1 [[Spellcasting Action]].
+- **Use:** 1 Spellcasting Action.
 - **Effect:** You perform an action/words/body language that fits “pleasing” or “charming,” then attempt to charm a target.
 - **Targeting and range:** One creature you can interact with via performance/words/body language.
-- **Check:** Make a **Pleasure check** (RAW also calls this “pleasing verification” / “Pleasant check”) opposed by the target’s [[Will Defense]].
+- **Check:** Make a **Pleasure check** (RAW also calls this “pleasing verification” / “Pleasant check”) opposed by the target’s Willpower Defense.
 - **Bonuses and penalties:** Apply the following modifiers to the Pleasure check as appropriate:
   1. If you do not match the target’s sexual orientation: -4 unfavorable; and -2 unfavorable if the target has a family affair.
   2. If the target is hostile or vigilant toward you: -4 unfavorable.
@@ -44,7 +44,7 @@ tags: ["pathway:Demoness", "sequence:8"]
   1. A continuous -4 detrimental modifier applies to skill and attribute checks opposed by you or involving you. If the target is hostile to you, then in battle (until only you are left) they must prioritize others as targets of harm.
   2. You gain +4 advantage on any [[Social Identification]] against the target.
   3. As long as you make any successful Social Identification or successful [[Social Roleplay]] involving the target, they obey you in all non-contradictory actions.
-     - A target who is hostile/vigilant toward you does **not** gain this obedience benefit, even if affected by the Charm.
+     - A target who is hostile/vigilant toward you does **not** gain this obedience benefit, even if affected by the Charisma (CHA).
   4. A creature affected by (3) will try their best to help you in all conversational/social aspects, will look for ways to tell you when they detect clues unfavorable to you, and will not believe scandal about you.
      - Ordinary people who have nothing to do with the extraordinary or do not know your abilities usually fall under effect (3).
 - **Disenchantment:** Removing the Enchanted state is usually done by:
@@ -52,32 +52,32 @@ tags: ["pathway:Demoness", "sequence:8"]
   - Making 1 [[Mental Channel]] check opposed to the Pleasure check result from when the target was charmed.
   - Other social checks with [[Extraordinary Influence]] can replace the effect of Mental Channel.
 - **Interaction note:** “Pure” Social Identification is only effective for targets that do **not** suffer from effect (3); otherwise it may arouse hostility.
-- **Calming the effect:** A target that does **not** suffer from effect (3) can use the [[Full Meditation]] / [[Half Meditation]] special action to directly calm down / half calm down the Charm effect.
+- **Calming the effect:** A target that does **not** suffer from effect (3) can use the [[Full Meditation]] / [[Half Meditation]] special action to directly calm down / half calm down the Charisma (CHA) effect.
 - > **GM Note:** If a Player character suffers the Enchanted state, apply a “charm filter” to how they perceive and interpret the instigator.
 
 ### Cognitive Misleading
 
 > **Lore:** You intensify conflicts and quietly shift concepts so the target slips into extreme cognitive fallacies.
 
-- **Use:** 1 [[Free Action]].
+- **Use:** 1 Free Action.
 - **Limits:** Only usable in a [[Non-Combat State]].
-- **Check:** Make a Speech/Deception check opposed by the target’s Will Defense.
+- **Check:** Make a Speech/Deception check opposed by the target’s Willpower Defense.
   - You must roleplay a cognition with the target: a non-contradictory and relevant argument.
-- **Bonuses and penalties:** Apply the same bonuses/penalties as **Charm**, except you do **not** apply Charm condition (1) (the sexual-orientation condition).
+- **Bonuses and penalties:** Apply the same bonuses/penalties as **Charisma (CHA)**, except you do **not** apply Charisma (CHA) condition (1) (the sexual-orientation condition).
 - **Effect:** On success, the target believes the cognition you presented.
 - **Rules notes (examples from RAW):**
   1. “Non-contradictory / relevant” does not mean you cannot make the target do things that violate personality; you can secretly change the concept.
      - Example: If the target opposes killing an innocent person, you can list the target’s “sins” to argue the target is not innocent, making “killing is justified” non-contradictory and relevant.
   2. Example: If someone is bumped into and expresses dissatisfaction (harboring malice toward the collider), you can claim the collider did it on purpose and is planning to cause damage, and then argue the target needs to hurt them to prevent loss—this follows the target’s cognition and is non-contradictory and relevant.
-- **GM adjudication:** The GM determines whether the misleading content is reasonable. A misled creature can actively roleplay out logical loopholes to find what is wrong—except a target suffering effect (3) of **Charm**.
+- **GM adjudication:** The GM determines whether the misleading content is reasonable. A misled creature can actively roleplay out logical loopholes to find what is wrong—except a target suffering effect (3) of **Charisma (CHA)**.
 
 ### Intensification of Persuasion
 
 > **Lore:** You push the target from belief into action.
 
-- **Use:** 1 [[Free Action]].
+- **Use:** 1 Free Action.
 - **Targeting and range:** Choose 1 or more targets and (for each) one of their current beliefs.
-- **Check:** Make a Persuasion check opposed by each target’s Will Defense.
+- **Check:** Make a Persuasion check opposed by each target’s Willpower Defense.
 - **Bonuses and penalties:** Apply the same bonuses/penalties as **Cognitive Misleading**.
 - **Effect:**
   1. On success, the target must act according to what they believe to be true (not simply believe it) until they notice logical loopholes and roleplay out where the loopholes are; the GM should try not to remind them.

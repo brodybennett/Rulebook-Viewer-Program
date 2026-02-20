@@ -18,7 +18,7 @@ tags: ["pathway:arbiter", "sequence:1"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Charisma +3, Inspiration +1, Dexterity +1, Strength +1, Constitution +1
+- **Attribute Gain:** Charisma +3, Intuition (INT) +1, Agility (DEX) +1, Strength +1, Constitution +1
 - **Skill Gain:** [[Law skill]] increased by 1 skill level
 
 ### Hand of Order
@@ -26,7 +26,7 @@ tags: ["pathway:arbiter", "sequence:1"]
 You can make the rules of the world to a certain extent—rules that cannot usually be violated—and cause them to become reality.
 
 - **Cost:** **5** [[Spirituality]] (total)
-- **Use:** **Free action** [[Free Action]]
+- **Use:** **Free action** Free Action
 - **Effect:** You formulate a **world law** that is regarded as a law and becomes real. Common types include:
 
 1. **Divide the battlefield:** Formulate a chaotic area as a rule where combatants cannot interact with each other under world laws.
@@ -46,11 +46,11 @@ You can make the rules of the world to a certain extent—rules that cannot usua
 
 #### Setting the Difficulty Value to Violate the Law
 
-- When specifying any of the above rules, roll **two** of your **Law + Charisma** values, then choose **one** roll as the **Difficulty Value** (**Difficulty Value**) for someone trying to violate this rule. [[Difficulty Value]]
-- Breaking through this Difficulty Value allows the violator to achieve the desired effect. This requires the corresponding [[Skill Test]] or [[Will Test]] to fight.
+- When specifying any of the above rules, roll **two** of your **Law + Charisma** values, then choose **one** roll as the **Difficulty Value** (**Difficulty Value**) for someone trying to violate this rule. Difficulty Value
+- Breaking through this Difficulty Value allows the violator to achieve the desired effect. This requires the corresponding [[Skill Test]] or Will Test to fight.
 - A breaker is immediately regarded as a **criminal**, so they will be allowed to be judged. [[Criminal]] [[Judgment]]
 
 #### Penalties to Break Through
 
 - Breaking through this order requires a **-4** penalty.
-- The violator makes a **Law** check vs the targetâ€™s **Will Defense**. For each **Sequence** level the enemy is lower than you, that check suffers another **-4** penalty.
+- The violator makes a **Law** check vs the targetâ€™s **Willpower Defense**. For each **Sequence** level the enemy is lower than you, that check suffers another **-4** penalty.

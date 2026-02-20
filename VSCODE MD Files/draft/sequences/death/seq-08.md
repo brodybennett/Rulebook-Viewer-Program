@@ -15,19 +15,19 @@ tags: ["pathway:death", "sequence:8"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +2, Agility +1, Inspiration +1
+- **Attribute Gain:** Strength +1, Constitution +2, Agility (DEX) +1, Intuition (INT) +1
 - Your knowledge of the dead can be learned to be erudite.
 
 ### Training and Learning Benefits
 
 1. Fighting, shooting, throwing, and their subdivision skills are included in your quick learning scope. You need to receive at least 2 hours of real and effective related guidance to improve a level. You can only learn once a day to digest Knowledge.
 2. From training to proficiency, you must learn **2 times**; the maximum remains **Proficient**.
-3. Character cards that have not just been promoted can use twice the Inspiration brought by potions to add growth skills.
+3. Character cards that have not just been promoted can use twice the Intuition (INT) brought by potions to add growth skills.
 
 ### Eyes of Death
 
 - **Cost:** 5 [[Spirituality]]
-- **Use:** As a **full-round action** [[Full-Round Action]], choose 1 **undead creature** in front of you.
+- **Use:** As a **Full-Round Action** [[Full-Round Action]], choose 1 **undead creature** in front of you.
   - If the execution completes and is not interrupted, the effect applies.
 - **Effect:**
   - You personally benefit from a **Great Success** on all attacks against the chosen undead creature.
@@ -46,19 +46,19 @@ tags: ["pathway:death", "sequence:8"]
 ### Communicating with the Dead
 
 - **Cost:** 3 [[Spirituality]]
-- **Use:** 1 **spell-casting action** [[Spell-Casting Action]]
+- **Use:** 1 **Casting Action** Casting Action
 - **Effect:** You summon a **spirit body** and let it perform 1 action instead of you.
 - **Limits:**
   - For the time being, you can only summon the following spirits:
     - **Shadow**
-      - 15 HP
-      - 15 [[Physical Defense]] (Agility and Dodge 5)
-      - 10 [[Will Defense]]
+      - 15 Vitality
+      - 15 [[Physical Defense]] (Agility (DEX) and Dodge 5)
+      - 10 Willpower Defense
       - 5 points of [[Cold Resistance]]
       - Attack actions cause 1d6 cold damage
       - No more abilities, but can perform special actions such as grapple [[Grapple]]
-      - For ease of calculation, Shadow’s skill and ability bonuses depend on your Inspiration, or use a +5 check value for processing.
-  - Each casting action can summon a spirit body. However, your current ability cannot summon them in advance; you can only temporarily issue preliminary instructions to surrounding spirits.
+      - For ease of calculation, Shadow’s skill and ability bonuses depend on your Intuition (INT), or use a +5 check value for processing.
+  - Each Casting Action can summon a spirit body. However, your current ability cannot summon them in advance; you can only temporarily issue preliminary instructions to surrounding spirits.
   - After each spirit performs an action, it will disappear.
 - **Special:**
   - For continuous actions such as grapple, the spirit will continue to execute until the target breaks free.

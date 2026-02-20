@@ -15,10 +15,10 @@ tags: ["pathway:reader", "sequence:7"]
 ### Attribute Gain
 
 - **Effect:**
-  - **Attributes** [[Attributes]]: Strength +1, Constitution +2, Agility +1, Inspiration +1.
+  - **Attributes** [[Attributes]]: Strength +1, Constitution +2, Agility (DEX) +1, Intuition (INT) +1.
   - **Skills** [[Skills]] (each +1 level): Detection, Disguise, Tracking, Climbing, Jumping, Swimming, Throwing, Fighting (including subdivisions), Shooting (including subdivisions), Gunnery, Explosion.
   - The skills listed above are in your **Rapid Growth Category** [[Rapid Growth Category]] and may be upgraded up to **Mastery** [[Mastery]].
-  - **Potion Skill** [[Potion Skill]] (see [[Sequence 8]]): **Erudition** [[Erudition]].
+  - **Potion Skill** [[Potion Skill]] (see Sequence 8): **Erudition** [[Erudition]].
 
 ### Fighting Skills
 
@@ -37,10 +37,10 @@ tags: ["pathway:reader", "sequence:7"]
 ### On-site Restoration
 
 - **Cost:** 2 points of **Spirituality** [[Spirituality]].
-- **Use:** 1 **Casting Action** [[Casting Action]].
+- **Use:** 1 **Casting Action** Casting Action.
 - **Targeting and range:** An area up to 100 meters centered on you.
 - **Effect:** You immediately learn information that helps analyze and restore events that occurred in the area, including:
-  - Which sacred, dark, corrupt, and undead forces appeared in the area within the last 3 days; you can identify their specific types and approximate strength, roughly corresponding to several **Sequence** levels. [[Sacred/Dark/Corrupt/Undead Forces]] [[Sequence]]
+  - Which sacred, dark, corrupt, and undead forces appeared in the area within the last 3 days; you can identify their specific types and approximate strength, roughly corresponding to several **Sequence** levels. [[Sacred/Dark/Corrupt/Undead Forces]] Sequence
   - What weapon a corpse died from, or what type of extraordinary ability caused the death (example: flames). [[Damage Types]]
   - If an Extraordinary battle occurred: how many Extraordinary people were involved, as long as none of them hid themselves while taking action. [[Concealment]]
   - Other extraordinary abilities that affected the environment (examples: physical damage, cold damage, lightning damage), including their specific types and approximate strength, roughly corresponding to several **Sequence** levels. [[Environmental Effects]]

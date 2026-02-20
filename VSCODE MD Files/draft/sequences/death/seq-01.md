@@ -8,7 +8,7 @@ tags: ["pathway:death", "sequence:1"]
 
 ## Pale Emperor
 
-- See also: [[Pathway (Pale Emperor)]]
+- See also: Pathway (Pale Emperor)
 
 > **Lore:** Extremely noble, lacking the breath of the living, like an illusory god standing above countless undead.
 
@@ -24,11 +24,11 @@ tags: ["pathway:death", "sequence:1"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Constitution +1, Strength +1, Dexterity +1, Inspiration +1.
+- **Attribute Gain:** Constitution +1, Strength +1, Agility (DEX) +1, Intuition (INT) +1.
 - Choose 1 [[Skill]] to increase 1 level.
 
 ### Withering
 
 - **Cost:** 10 points of [[Spirituality]].
-- **Use:** A spell-casting action.
+- **Use:** A Casting Action.
 - **Effect:** Make the surrounding things quickly experience the wind brush, as if tens of thousands of years have passed in an instant, and within two seconds of actual time, they are rushing towards the end of death.

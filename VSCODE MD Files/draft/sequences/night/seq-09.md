@@ -12,13 +12,13 @@ tags: ["pathway:night", "sequence:9"]
 
 The favored ones of the night have excellent eyesight even without light. They require only three to four hours of rest per day, and become increasingly energetic as night deepens—growing superior in strength, agility, thinking, and inspiration compared to ordinary people. They can also keenly sense unknown dangers and hidden existences in darkness.
 
-- See also: [[Darkness Pathway]]
+- See also: [[Darkness]]
 
 ## Extraordinary Abilities
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +1, Dexterity +1, Inspiration +1
+- **Attribute Gain:** Strength +1, Constitution +1, Agility (DEX) +1, Intuition (INT) +1
 - **Skills:** Fighting +1 level, Shooting +1 level, Climbing +1 level
 
 Skill mastery and accelerated learning for Fighting/Shooting/Climbing (including sub-skills):
@@ -57,11 +57,11 @@ Special timing definitions:
 
 Sequence scaling note:
 
-- [[Darkness Pathway Sequence 8]]: Quick Dodge changes from limited (night/late night) to permanent; even if you lose **Blessed of the Night**, it will not disappear.
+- Darkness Pathway Sequence 8: Quick Dodge changes from limited (night/late night) to permanent; even if you lose **Blessed of the Night**, it will not disappear.
 
 Related mechanics:
 - [[Attribute and Skill Identification]]
-- [[Dodge]]
+- Dodge
 - [[Physical Defense]]
 - [[Light/Lightning Modification]]
 
@@ -76,8 +76,8 @@ Related mechanics:
 
 Sequence scaling notes:
 
-- [[Darkness Pathway Sequence 8]]-[[Darkness Pathway Sequence 6]]: Rest time is 3h at Sequence 8, then reduces by 1h per Sequence (Sequence 7: 2h; Sequence 6: 1h).
-- [[Darkness Pathway Sequence 5]]: It only takes **half an hour** to rest (difference can be **10 minutes**).  
+- Darkness Pathway Sequence 8-Darkness Pathway Sequence 6: Rest time is 3h at Sequence 8, then reduces by 1h per Sequence (Sequence 7: 2h; Sequence 6: 1h).
+- Darkness Pathway Sequence 5: It only takes **half an hour** to rest (difference can be **10 minutes**).  
 
 Related mechanics:
 - [[Spirituality]]
@@ -98,22 +98,22 @@ Whenever you are about to suffer a surprise/sneak attack from within darkness/sh
 
 1. Immediately perceive the source of danger in your mind; flashing thoughts tell you the location, source, and form of the danger. You will not be attacked/sneaked by things in the dark/shadow; you are immune to surprise/sneak attacks from darkness at night (treat as always warned).
 2. If at night/late night, if one attack can lose half of your maximum blood volume (round up):
-   - Perform an Inspiration appraisal at **Difficulty Value 15**.
+   - Perform an Intuition (INT) appraisal at **Difficulty Value 15**.
    - If successful, your physical defense gains a **+4 temporary bonus**; facing Light/Lightning modification to preserve complete physical defense.
 3. If the danger’s range is large enough (e.g., a gas explosion across the entire area in an instant), you gain no benefits even if you are alerted.
 
 Sequence scaling notes:
 
-- [[Darkness Pathway Sequence 8]]: The thought no longer flashes through the mind; the corresponding screen flashes instead. On the premise that you don’t dodge, you can see the corresponding result.
-- [[Darkness Pathway Sequence 7]]: Your Inspiration identification is successful by default.
-- [[Darkness Pathway Sequence 6]]: You can perceive the danger of a person higher than you.
+- Darkness Pathway Sequence 8: The thought no longer flashes through the mind; the corresponding screen flashes instead. On the premise that you don’t dodge, you can see the corresponding result.
+- Darkness Pathway Sequence 7: Your Intuition (INT) identification is successful by default.
+- Darkness Pathway Sequence 6: You can perceive the danger of a person higher than you.
 
 Related mechanics:
 - [[Surprise]]
 - [[Sneak Attack]]
-- [[Blood Volume]]
-- [[Inspiration Appraisal]]
-- [[Difficulty Value]]
+- Blood Volume
+- Intuition Appraisal
+- Difficulty Value
 - [[Temporary Bonus]]
 
 ### Vision
@@ -139,7 +139,7 @@ Notes:
 
 Sequence scaling notes:
 
-- [[Darkness Pathway Sequence 6]]:
+- Darkness Pathway Sequence 6:
   - Observing the etheric body can directly see spiritual organisms and the physical condition of different parts of the target.
   - When examining a specific organ in detail: the mental body can begin to distinguish the corresponding Pathways of different spiritual materials.
   - The mental body can see the target’s general emotions.

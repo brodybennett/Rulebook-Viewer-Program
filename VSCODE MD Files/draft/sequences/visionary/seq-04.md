@@ -33,7 +33,7 @@ Commonly associated techniques include:
 
 ### Attribute Gain
 
-- **Attribute Gain:** Will +5; Strength +3; Constitution +1; Agility +1; Psychological Guidance and Psychological Skills increase by 1 level.
+- **Attribute Gain:** Willpower (WIL) +5; Strength +3; Constitution +1; Agility (DEX) +1; Psychological Guidance and Psychological Skills increase by 1 level.
 
 ### Multiple Minds
 
@@ -41,7 +41,7 @@ You possess a large number of **virtual personalities** that help resist attacks
 
 - **Passive benefits:**
   - You can conduct multiple skill appraisals at the same time (e.g., pick a lock while reading a book).
-  - In combat, you can take an **Attack action** and a **Spellcasting action** respectively.
+  - In combat, you can take an **Attack Action** and a **Spellcasting action** respectively.
   - You may use a virtual personality as a stand-in to resist influences in the spiritual field. This does **not** resist damage from direct blows to the spirit body (e.g., [[Spiritual Puncture]], [[Spiritual Breath]]).
   - You have 13 virtual personalities in Sequence 4, and 16 after digesting the potion.
   - All values of the virtual personality are equal to yours.
@@ -50,14 +50,14 @@ You possess a large number of **virtual personalities** that help resist attacks
 - **Active (implant a virtual personality):** Implant a virtual personality into a creature; you gain:
   - Shared vision with that creature.
   - You may use that creature as a focal point to use: [[Mind Channeling]], [[Stun]], [[id:alias-frenzy|Frenzy]], [[Mind Reading]], [[Psychic Storm]], and [[Dream Manipulation]].
-- **Note (detection/counterplay):** Implanting an avatar in an identical target allows the target’s spiritual intuition to attempt an **Inspiration check** (Difficulty Value 15) to perceive it. This may allow the other party to counterattack. If implanting into a target of the same personality, the act must be sufficiently concealed.
+- **Note (detection/counterplay):** Implanting an avatar in an identical target allows the target’s spiritual intuition to attempt an **Intuition (INT) check** (Difficulty Value 15) to perceive it. This may allow the other party to counterattack. If implanting into a target of the same personality, the act must be sufficiently concealed.
 
 - **Sequence 3 (separating identities):**
   - You can separate some identities or virtual personalities you once had and turn them into living people.
   - Even if these identities die, they do not cause the main body to fall.
   - You can separate 3 additional real personalities; beyond this limit, you must use your own virtual personality limit as a substitute.
   - Separated identities and avatars can be endowed with extraordinary characteristics and memories.
-  - If an avatar uses your main body to use high-level abilities: all abilities must be prepared as a **Full-round action**; passive abilities cannot be used; and all abilities can only be used initially.
+  - If an avatar uses your main body to use high-level abilities: all abilities must be prepared as a **Full-Round Action**; passive abilities cannot be used; and all abilities can only be used initially.
 
 ### Psychic Breath
 
@@ -66,7 +66,7 @@ You breathe out an invisible but searing flame.
 - **Cost:** 6 points of **Spirituality**.
 - **Use:** **Spellcasting action**.
 - **Effect:**
-  - Make a psychological attack against the target’s [[Will Defense]] with disadvantage (-4).  
+  - Make a psychological attack against the target’s Willpower Defense with disadvantage (-4).  
   - **Area:** 10-meter cone.
   - Deal 5d6 fire damage with invisible mental fire.
   - This damage cannot be reduced by any kind of fire resistance.
@@ -85,17 +85,17 @@ You create an invisible wind, forming a psychic storm. This ability can be used 
     - The mental storm immediately produces one weather effect you choose: heavy rain, strong wind, thunder, or sunny day.
     - The storm does not appear in reality; it appears in the [[Sea of Collective Subconscious]], but affects the corresponding position in reality, sweeping around and repeatedly slapping the enemy’s [[Consciousness Island]].
     - You destroy “[[Divination Interference]]” type abilities of creatures in the area for 1d3 days.
-    - Any creature that makes an **Inspiration check** in the storm immediately suffers a [[Sanity Attack]] and takes half of the Sanity damage.
-  - **Extra:** During the storm, any additional sanity protection other than the caster loses 1d3 value per round (does not affect sanity beyond sanity protection). Examples include the [[Black Emperor Sanity Shield]] and sanity shields applied to oneself by other Audience channels.
+    - Any creature that makes an **Intuition (INT) check** in the storm immediately suffers a [[Sanity / Rationality Attack]] and takes half of the Sanity / Rationality damage.
+  - **Extra:** During the storm, any additional sanity protection other than the caster loses 1d3 value per round (does not affect sanity beyond sanity protection). Examples include the [[Black Emperor Sanity / Rationality Shield]] and sanity shields applied to oneself by other Audience channels.
 
 - **Mode 2: Use information flow to wash away the enemy’s spirit**
   - **Cost:** 5 **Spirituality**.
   - **Use:** **Spellcasting action**.
   - **Targeting:** Choose a target or an area.
-  - **Check:** Psychological Guidance against [[Will Defense]] with disadvantage (-4). If you are known to be a [[Spectator]], take an additional -4 disadvantage (total -8).
+  - **Check:** Psychological Guidance against Willpower Defense with disadvantage (-4). If you are known to be a [[Spectator]], take an additional -4 disadvantage (total -8).
   - **Effect:**
     - Instill a large amount of information into the target’s mind (meaningless bombardment or meaningful specific information; customized).
-    - On a successful Psychological Guidance check: the target must immediately make a [[Sanity Check]] (1/1d2) and is [[Stunned]]. The stunned state cannot be stacked.
+    - On a successful Psychological Guidance check: the target must immediately make a [[Sanity / Rationality Check]] (1/1d2) and is [[Stunned]]. The stunned state cannot be stacked.
   - **Note:** If you cram compelling secret or important knowledge into the storm in this mode, the target is drawn to it and gains the knowledge as a result. If you hide in the dark, the target’s detection of the environment also fails by default because their attention is drawn away.
   - **Sequence interaction:** If the target is 1 Sequence lower than you, the special effect of the sanity test is directly replaced by the [[id:alias-frenzy|Frenzy]] effect.
 
@@ -120,16 +120,16 @@ You can precisely control your own psychology and spirit; premonition-like abili
 
 Your psychic cloaking advances further.
 
-- **Use:** 1 **Swift action**, once per round, only available during the instant of [[Psychological Invisibility]] exposure.
+- **Use:** 1 **Swift Action**, once per round, only available during the instant of [[Psychological Invisibility]] exposure.
 - **Effect:** While psychologically invisible, you consume an avatar to create a phantom beside you that shares the objects affected by psychological invisibility. Only for the moment when the psychic cloak is discovered and attacked, attacks on you (except area attacks) are directed at the phantom instead.
-- The phantom takes no real damage—only Sanity damage—and goes insane. After the ability ends, the avatar returns to your body.
+- The phantom takes no real damage—only Sanity / Rationality damage—and goes insane. After the ability ends, the avatar returns to your body.
 
 ### Psychic Plague
 
 Quietly plant seeds of “Contagious Madness” in the target’s mental island.
 
 - **Cost:** 3 points of **Spirituality**.
-- **Use:** **Swift action**, once per round.
+- **Use:** **Swift Action**, once per round.
 - **Effect:** Plant a “spiritual plague seed” in the target’s spiritual island. After detonation, the resulting madness can spread through the [[Spiritual Body Thread]].
 
 - **Maturation:** Seeds require two rounds to mature, then detonate on their own.
@@ -137,7 +137,7 @@ Quietly plant seeds of “Contagious Madness” in the target’s mental island.
   > **Lore:** The condition presents as extreme mood volatility (manic spikes and depressive crashes), including profound hopelessness and self-destructive thoughts.
 
 - **Ongoing effect (each round, until mental healing is obtained):**
-  - The target makes a [[Sanity Check]] (0/1).
+  - The target makes a [[Sanity / Rationality Check]] (0/1).
   - The target must also make a Will check (Difficulty Value 20). On failure, it cannot perform any actions other than **Swift**/**Free** actions.
   - Even if it passes the Will check, the next round still requires another sanity check and Will check.
   - The symptom can be relieved by a [[Psychoanalysis]] check (Difficulty Value 20). Psychoanalysis is a **Free action** once per round.

@@ -23,7 +23,7 @@ tags: ["pathway:myster-pryer", "sequence:4"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +3, **Education** +2.
+- **Attribute Gain:** **Intuition (INT)** +3, **Education** +2.
 - Choose:
   - Two skills to increase by one level, and
   - One skill to increase by two levels.
@@ -35,10 +35,10 @@ tags: ["pathway:myster-pryer", "sequence:4"]
 - **Effect:**
   - If the prying eye sees, the user sees.
   - The prying eye may enter a hidden state.
-  - The hidden eye cannot be found by [[id:alias-spirit-vision|Spirit Vision]] except by [[Fate]] and the [[Voyeur]].
+  - The hidden eye cannot be found by [[id:alias-spirit-vision|Spirit Vision]] except by [[Wheel of Fortune]] and the [[Voyeur]].
 - **Limits / Exceptions:**
-  - A [[Reader]] is allowed to spot the prying eye with a [[spot spell]], but only if they cast that spot spell voluntarily or by accident; otherwise, they cannot detect it.
-  - Under certain or suspected circumstances, a Reader of the [[Middle Sequence]] may be permitted to make a **Difficulty Value** 25 Inspiration check to detect something amiss.
+  - A [[White Tower]] is allowed to spot the prying eye with a [[spot spell]], but only if they cast that spot spell voluntarily or by accident; otherwise, they cannot detect it.
+  - Under certain or suspected circumstances, a Reader of the Middle Sequence may be permitted to make a **Difficulty Value** 25 Intuition (INT) check to detect something amiss.
 
 ### Mythical Blood
 
@@ -54,7 +54,7 @@ tags: ["pathway:myster-pryer", "sequence:4"]
 
 ### Mysterious Reappearance
 
-- **Cost:** A spell-casting action consumes 4 spirituality points.
+- **Cost:** A Casting Action consumes 4 spirituality points.
 - **Use:** Use a Mysterious Reappearance created by you.
 - **Effect:**
   - Draw power from mastered mystic knowledge to create magic or witchcraft.

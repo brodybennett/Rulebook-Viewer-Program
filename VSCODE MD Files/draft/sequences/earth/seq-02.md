@@ -18,4 +18,4 @@ tags: ["pathway:earth", "sequence:2"]
 
 [[Attributes]]
 
-- **Attribute Gain:** Strength +1, Constitution +2, Dexterity +1, Charisma +2, Inspiration +2.
+- **Attribute Gain:** Strength +1, Constitution +2, Agility (DEX) +1, Charisma +2, Intuition (INT) +2.

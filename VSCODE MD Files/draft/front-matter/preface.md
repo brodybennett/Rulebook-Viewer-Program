@@ -35,7 +35,7 @@ A Beyonder can complete a character sheet in about 5 minutes using the steps bel
 1. **Download a character sheet.**
 2. **Roll starting attributes.** In the group, enter the command: `.r 8#2d3`  
    The system generates 8 numbers. Fill them into your character sheet's attribute boxes in left-to-right order. (See [[Chapter 3: Attributes]].)
-3. **Set Inspiration and Education.** Determine your **Inspiration** and **Education** values. Choose a number of **Trained Skills** equal to your Inspiration (example: if you have 6 starting Inspiration, choose 6 skills to be trained). Choose a number of proficient core-profession skills equal to your Education (example: if you have 6 starting Education, choose 6 skills to be proficient). (See [[Chapter 4: Trained Skills and Professions]].)
+3. **Set Intuition (INT) and Education.** Determine your **Intuition (INT)** and **Education** values. Choose a number of **Trained Skills** equal to your Intuition (INT) (example: if you have 6 starting Intuition (INT), choose 6 skills to be trained). Choose a number of proficient core-profession skills equal to your Education (example: if you have 6 starting Education, choose 6 skills to be proficient). (See [[Chapter 4: Trained Skills and Professions]].)
 4. **Choose a Sequence.** Choose the **Sequence** you like. (See [[Chapter 10: Sequences]].) Add the attributes directly, then fill all **Beyonder Abilities** into the "Profession Description" section.
 5. **Write your background and character concept.**
 

@@ -8,7 +8,7 @@ tags: ["pathway:visionary", "sequence:9"]
 
 ## Spectator
 
-- See also: [[Visionary Pathway]]
+- See also: Visionary
 
 > **Lore:** In ancient times, the Visionary Pathway was called the “Dragon” path and was associated with the spiritual realm. Its mythic creature is depicted as a dragon and corresponds to the Tarot card “Justice.”
 
@@ -32,9 +32,9 @@ You are a **Spectator**: a bystander-like observer with outstanding spirit and k
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2, **Charm** +1  
-  - This Charm is *personality charm* and does not affect appearance. [[Charm]]
-  - [[Inspiration]]
+- **Attribute Gain:** **Intuition (INT)** +2, **Charisma (CHA)** +1  
+  - This Charisma (CHA) is *personality charm* and does not affect appearance. [[Charisma (CHA)]]
+  - Intuition
 
 ### Enhanced Learning
 
@@ -48,7 +48,7 @@ You become better at mastering skills related to psychology and psychological gu
 
 **Limits**
 - Learning can only be done once per day.
-- Characters of higher Sequences can use **twice** the Inspiration brought by potions to improve their growth skills. [[Higher Sequences]]
+- Characters of higher Sequences can use **twice** the Intuition (INT) brought by potions to improve their growth skills. Higher Sequences
 
 ### Perfect Recall
 
@@ -58,7 +58,7 @@ You become better at mastering skills related to psychology and psychological gu
 
 You can enter a detached observational mode to read others’ real thoughts from details.
 
-- **Use:** 1 [[Free Action]] to enter **Spectator State**. [[Spectator State]]
+- **Use:** 1 Free Action to enter **Spectator State**. [[Spectator State]]
 - **Effect:** While in Spectator State, you observe others’ real thoughts through details.
 - **End Condition:** Your Spectator State ends when you fall into an emotion or [[Shock]]. [[Conditions]]
 
@@ -66,7 +66,7 @@ You can enter a detached observational mode to read others’ real thoughts from
 
 ### Remove Emotional Effects
 
-- **Use:** 1 [[Casting Action]]
+- **Use:** 1 Casting Action
 - **Check:** Psychology check, Difficulty 20. [[Psychology]]
 - **Effect:** Remove emotional effects on yourself not greater than [[Personality]].
 
@@ -106,13 +106,13 @@ You subtly influence and secretly guide things to develop in the direction you w
 - **Setup:** First determine one thing you want to guide, then confirm the result you want to guide.
 - **Constraint:** The guided result cannot contradict the intention of the person being guided, and must be relevant and reasonable enough.
 - **Requirement:** You must take actions to make the guidance happen (not necessarily limited to words).
-- **Opposition:** Psychological Guidance is opposed to [[Will Defense]].
+- **Opposition:** Psychological Guidance is opposed to Willpower Defense.
 
 **Procedure (example structure)**
 1) Confirm what you want to guide (e.g., guide a lady regarding marriage).  
 2) Confirm the result you want to guide (e.g., she accepts a third party’s proposal and abandons her husband).  
 3) Take actions to achieve guidance (e.g., mention rumors about the husband; point out the third party’s benefits).  
-4) When the target faces the relevant choice, make your appraisal; the GM resolves success against Will Defense.
+4) When the target faces the relevant choice, make your appraisal; the GM resolves success against Willpower Defense.
 
 **Modifiers (GM adjudication of reasonableness applies)**
 - Initial judgment: Psychological Guidance is **-8 unfavorable**.
@@ -131,14 +131,14 @@ You subtly influence and secretly guide things to develop in the direction you w
 
 **On Success**
 - The guided creature must act according to the guided content, but cannot detect abnormalities.
-- If the guided target actively examines the guided details, they can use [[Inspiration]] to counter your identification result at that time and realize something is wrong.
+- If the guided target actively examines the guided details, they can use Intuition to counter your identification result at that time and realize something is wrong.
 
 **Limits**
 - This is an improvement brought by the potion, so it cannot be stolen or recorded.
 
 ### Spiritual Vision
 
-You gain more outstanding spiritual vision due to your Inspiration.
+You gain more outstanding spiritual vision due to your Intuition (INT).
 - **Use:** 1 **free action** to activate.
 - **Cost:** 1 **spirituality point per round** while active.
 - **Effect:** While active, your vision gains the following benefits:
@@ -151,7 +151,7 @@ You gain more outstanding spiritual vision due to your Inspiration.
 5) While in Spiritual Vision, your [[Spiritual Intuition]] test gains a +2 benefit.
 
 **Sequence 8 Improvement**
-- At Sequence 8, you can see detailed content of the other party’s mental body: the specific emotional state (nervous, etc.). [[Visionary Pathway Sequence 8]]
+- At Sequence 8, you can see detailed content of the other party’s mental body: the specific emotional state (nervous, etc.). Visionary Pathway Sequence 8
 
 > **GM Note:** Dead creatures are usually dull in color and cannot be recognized. Spiritual materials usually have spirituality. The color of a material in Spiritual Vision usually represents its corresponding pathway—this does not mean you can see a Beyonder’s power. [[Beyonder]]
 >

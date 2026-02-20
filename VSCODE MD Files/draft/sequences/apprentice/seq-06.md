@@ -31,15 +31,15 @@ tags: ["pathway:apprentice", "sequence:6"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** [[Inspiration]] +2
-- Your [[Occult]] can be quickly upgraded to [[Proficient]].
+- **Attribute Gain:** Intuition +2
+- Your [[Occult]] can be quickly upgraded to Proficient.
 
 ### Record
 
 Your mutated “brain” reproduces an extraordinary ability used by a target and constructs a corresponding pattern for storage.
 
 - **Use:** 1 **free action**, whenever you witness an active extraordinary ability, you can immediately record it.
-- **Check:** Recording an Extraordinary Ability is an [[Inspiration Appraisal]] with an initial difficulty of **20**.
+- **Check:** Recording an Extraordinary Ability is an Intuition Appraisal with an initial difficulty of **20**.
   - ① Every time your recording ability increases by 1 Sequence: identification difficulty **+5**.
 - **Limits:** "Character" refers to **Sequence level** in this section.
 
@@ -53,9 +53,9 @@ Your mutated “brain” reproduces an extraordinary ability used by a target an
 The following rules must be followed to cast a Recorded Extraordinary Ability:
 
 1. ① Summon an illusory book in front of you. Each extraordinary ability corresponds to one page. Read: “I came, I saw, I recorded.”
-2. ② When using the ability, you must use the action the ability originally required. You must also pay **1 additional swift action** to cast it; flipping through pages is a **free action**.
+2. ② When using the ability, you must use the action the ability originally required. You must also pay **1 additional Swift Action** to cast it; flipping through pages is a **free action**.
 3. ③ If you roleplay in advance, inform your **GM** of the ability you plan to use next and prepare in advance; as long as it is within your prediction range, the ability you prepared in advance does not need to pay extra free actions.
-4. ④ You can only cast recorded abilities with [[Mystical Identification]]. If it involves strength damage dice, your [[Inspiration]] value should be treated as strength.
+4. ④ You can only cast recorded abilities with [[Mystical Identification]]. If it involves strength damage dice, your Intuition value should be treated as strength.
 5. ⑤ The recorded ability is definitely not as good as the original version, but even if the ability below your level is not as good as the original version, this gap is negligible. For **24 hours** after promotion, your recorded Sequence 6-5 ability and Sequence 4-3 ability will be cut in half.
 
 #### Record Capacity

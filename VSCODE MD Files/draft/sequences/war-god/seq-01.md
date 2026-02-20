@@ -6,4 +6,4 @@ tags: ["pathway:war-god", "sequence:1"]
 
 # Sequence 1: Hand of the Gods
 
-**[[Sequence]]** 1 is also called **[[Archangel]]**.
+**Sequence** 1 is also called **[[Archangel]]**.

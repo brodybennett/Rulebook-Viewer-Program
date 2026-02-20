@@ -23,8 +23,8 @@ tags: ["pathway:visionary", "sequence:2"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +2; Strength +1; Constitution +1; Agility +1.
-- [[Detection]] increases by 2 levels.
+- **Attribute Gain:** Intuition (INT) +2; Strength +1; Constitution +1; Agility (DEX) +1.
+- Detection increases by 2 levels.
 - [[Listening]] increases by 1 level.
 
 ### Insight

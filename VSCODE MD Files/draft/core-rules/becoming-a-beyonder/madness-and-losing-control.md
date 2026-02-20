@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Madness and Losing Control"
 id: "madness-and-losing-control"
 tags: ["core", "chapter-5"]
@@ -97,7 +97,7 @@ By any method of recovering Sanity / Rationality, restore your Sanity / Rational
 
 **Ongoing effects:**
 - Every 24 hours, you must suffer 1 instance of 0/1 Sanity / Rationality loss.
-- Sufficient sleep can no longer restore your Sanity / Rationality unless the sleep has Beyonder factors helping (the [[Night Pathway]] has this by default). You will be in a state of anxiety, insomnia, and similar symptoms.
+- Sufficient sleep can no longer restore your Sanity / Rationality unless the sleep has Beyonder factors helping (the [[Darkness]] has this by default). You will be in a state of anxiety, insomnia, and similar symptoms.
 
 **Split-personality trigger:** If, because of indeterminate madness, your remaining Sanity / Rationality is below 3, or you are in indeterminate madness for 1 week, you develop split-personality symptoms and a second personality appears within you.
 
@@ -112,13 +112,13 @@ By any method of recovering Sanity / Rationality, restore your Sanity / Rational
 - It knows everything you know.
 - It uses what you worry about most and least want to face to deny you, making you gradually fall into the abyss of Loss of Control.
 
-**Required response:** The second personality is played by the GM and only you can hear its voice. You must immediately undergo either at least 1 month of psychotherapy, or if you are [[Spectator Pathway]] Sequence 7 or above, at least 2 weeks of psychological guidance once per day. You can also find a way to directly enter your own mind and confront the second personality to eliminate it; it currently cannot resist.
+**Required response:** The second personality is played by the GM and only you can hear its voice. You must immediately undergo either at least 1 month of psychotherapy, or if you are Visionary Sequence 7 or above, at least 2 weeks of psychological guidance once per day. You can also find a way to directly enter your own mind and confront the second personality to eliminate it; it currently cannot resist.
 
 **Persistence after growth:** If the second personality continues to grow for 1 month, then even if you are no longer in indeterminate madness it continues to exist and you still suffer all disadvantages brought by indeterminate madness. You must frequently recover Sanity / Rationality to maintain Sanity / Rationality.
 
 ## Eliminating the Second Personality
 
-1. Continuously receiving normal psychotherapy can only make you no longer suffer the disadvantages brought by indeterminate madness. For a [[Spectator Pathway]] Sequence 7, psychotherapy requires 5 years to be cured.
+1. Continuously receiving normal psychotherapy can only make you no longer suffer the disadvantages brought by indeterminate madness. For a Visionary Sequence 7, psychotherapy requires 5 years to be cured.
 2. On this basis, for each additional Sequence level the Spectator has, reduce the required time by 1 year. For each additional Rank, reduce the required time by another 1 year. Minimum time: 1 week, with treatment once per day.
 3. Another cure method is to enter the deepest part of your mind (the bottom layer of dreams) and fight the second personality. Its strength is equal to yours. If you die here, the challenger becomes a vegetative state. Psychological suggestion prepared in advance also takes effect on it. If the second personality is killed, your illness is cured. Because its strength is equal to yours, generally only others can resolve it.
 

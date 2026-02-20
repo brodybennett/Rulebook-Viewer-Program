@@ -22,11 +22,11 @@ tags: ["pathway:tyrant", "sequence:3"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +2, Agility +1, Constitution +2
+- **Attribute Gain:** Strength +2, Agility (DEX) +1, Constitution +2
 
 ### Dominate Sea Creatures
 
-- **Use:** Swift action  
+- **Use:** Swift Action  
 - **Effect:**  
   You enslave and control sea creatures. You summon and control **2d6 sea creatures**.
 - **Statistics of Summoned Sea Creatures:**  
@@ -47,12 +47,12 @@ tags: ["pathway:tyrant", "sequence:3"]
 ### Lightning Storm
 
 - **Cost:** 6 [[Spirituality]]  
-- **Use:** Casting action  
+- **Use:** Casting Action  
 - **Effect:**  
   You create a storm of lightning over an area:
   - Damage: 3d10 + your Strength damage bonus as area lightning damage.
   - Attack Roll: +20 [[Disaster Attack Roll]] vs target’s [[Physical Defense]]  
-  - This attack ignores Dexterity and evasion.  
+  - This attack ignores Agility (DEX) and evasion.  
     [[Evasion]]
 
 - **Multi-Attack Interaction:**  
@@ -60,12 +60,12 @@ tags: ["pathway:tyrant", "sequence:3"]
   - To fully avoid it using substitute skills, at least **3 substitutes** are required, but the confrontation test is performed only once.  
     [[Substitute Skills]]  
     [[Confrontation Test]]  
-  - If the target is one [[Sequence]] lower than you, the number of substitutes required increases by +1.
+  - If the target is one Sequence lower than you, the number of substitutes required increases by +1.
 
 - **Split Resolution:**  
   You may divide the effect into three separate instances of lightning damage; roll damage separately for each instance (and apply damage reduction separately).
 
-  This also interacts with luck consumption by a [[Destiny Pathway]] Sequence 5 ability used to avoid a demigod domain ability, doubling the luck consumption.  
+  This also interacts with luck consumption by a Wheel of Fortune pathway Sequence 5 ability used to avoid a demigod domain ability, doubling the luck consumption.  
   [[Demigod Domain]]
 
 - **Weather Interaction:**  
@@ -94,7 +94,7 @@ tags: ["pathway:tyrant", "sequence:3"]
     [[Lightning Resistance]]  
   - To remove paralysis, the target must use an action (not a free action) to pass a Constitution test with Difficulty 15.  
     [[Constitution Test]]  
-    [[Difficulty Value]]  
+    Difficulty Value  
   - On failure, the target cannot perform attack or movement actions and does not return to normal until after the opponent’s next round of actions.  
   - If the target is in a wet state, the Difficulty increases to 20.  
     [[Wet State]]

@@ -25,13 +25,13 @@ tags: ["pathway:red-priest", "sequence:2"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Dexterity +2, Strength +2, Constitution +1, Inspiration +2.
+- **Attribute Gain:** Agility (DEX) +2, Strength +2, Constitution +1, Intuition (INT) +2.
 - **Skills:** [[Occultism]] +1 level; [[Throwing]] +1 level.
 
 ### Celestial Alteration
 
 - **Cost:** 10 **Spirituality**.
-- **Use:** **full-round action** [[Full-Round Action]].
+- **Use:** **Full-Round Action** [[Full-Round Action]].
 - **Effect:** You can alter the sky within a city. You change nearby celestial phenomena to your advantage.
 - **Weather shaping:** Different weather changes can be applied repeatedly and combined to form new weather.
 
@@ -46,25 +46,25 @@ tags: ["pathway:red-priest", "sequence:2"]
 #### Celestial Alteration — Extra
 
 - **Cost:** 5 **Spirituality**.
-- **Use:** **free action** [[Free Action]].
+- **Use:** **free action** Free Action.
 - **Effect:** Instantly intensify the on-site weather. All current weather effects are doubled and cannot continue to be superimposed.
 - **Limits:** Subsequent additions to the weather require a separate Spirituality payment, and this ability can also be used together when released.
 
 ### Freezing Ice
 
 - **Cost:** 5 **Spirituality**.
-- **Use:** **spellcasting action** [[Spellcasting Action]].
-- **Effect:** You condense a layer of frost on the largest area that can cover the city. Anyone who walks on it and performs a **move action** [[Move Action]] must make a **Dexterity test** [[Dexterity Test]]; otherwise, they lose their balance and fall directly.
+- **Use:** **spellcasting action** Spellcasting Action.
+- **Effect:** You condense a layer of frost on the largest area that can cover the city. Anyone who walks on it and performs a **Move Action** Move Action must make a **Agility (DEX) test** Agility (DEX) Test; otherwise, they lose their balance and fall directly.
 
 ### Frost
 
 > **Lore:** You have been favored by ice.
 
 - **Cost:** 3 **Spirituality**.
-- **Use:** **attack action** [[Attack Action]].
+- **Use:** **Attack Action** Attack Action.
 - **Effect:** You can shape the frost into whatever you want. Make a [[Throwing]] (or other reasonable) check against the opponent’s [[Physical Defense]]. On success, deal 8d6 + your Strength damage bonus cold damage.
 
 ### Frozen
 
-- **Effect:** Creatures within a radius of 10 kilometers from you are quickly wrapped in ice. Their actions are slowed by cold and ice: each **move action** can only move 1 meter.
+- **Effect:** Creatures within a radius of 10 kilometers from you are quickly wrapped in ice. Their actions are slowed by cold and ice: each **Move Action** can only move 1 meter.
 - **Limits:** This effect has no effect on creatures with [[Cold Resistance]].

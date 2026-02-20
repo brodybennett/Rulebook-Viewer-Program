@@ -1,0 +1,75 @@
+version: 1
+last_updated: "2026-02-20"
+source:
+  name: "LoTM Wiki - Pathways chart"
+  url: "https://lordofthemysteries.fandom.com/wiki/Pathways"
+  retrieved_on: "2026-02-20"
+  note: "Used as a seed list for canonical pathway naming."
+
+pathways:
+  - slug: "abyss"
+    canonical: "Abyss"
+    aliases: ["Abyss Pathway"]
+  - slug: "apprentice"
+    canonical: "Door"
+    aliases: ["Apprentice", "Apprentice Pathway", "Door Pathway"]
+  - slug: "arbiter"
+    canonical: "Justiciar"
+    aliases: ["Arbiter", "Arbiter Pathway", "Justiciar Pathway"]
+  - slug: "black-emperor"
+    canonical: "Black Emperor"
+    aliases: ["Black Emperor Pathway"]
+  - slug: "death"
+    canonical: "Death"
+    aliases: ["Death Pathway"]
+  - slug: "demoness"
+    canonical: "Demoness"
+    aliases: ["Demoness Pathway"]
+  - slug: "earth"
+    canonical: "Mother"
+    aliases: ["Earth", "Earth Pathway", "Mother Pathway"]
+  - slug: "error"
+    canonical: "Error"
+    aliases: ["Error Pathway"]
+  - slug: "fate"
+    canonical: "Wheel of Fortune"
+    aliases: ["Fate", "Fate Pathway", "Wheel of Fortune Pathway"]
+  - slug: "fool"
+    canonical: "Fool"
+    aliases: ["Fool Pathway"]
+  - slug: "hanged-man"
+    canonical: "Hanged Man"
+    aliases: ["Hanged Man Pathway"]
+  - slug: "moon"
+    canonical: "Moon"
+    aliases: ["Moon Pathway"]
+  - slug: "mutant"
+    canonical: "Chained"
+    aliases: ["Mutant", "Mutant Pathway", "Chained Pathway"]
+  - slug: "mystery-pryer"
+    canonical: "Hermit"
+    aliases: ["Mystery Pryer", "Mystery Pryer Pathway", "Hermit Pathway"]
+  - slug: "night"
+    canonical: "Darkness"
+    aliases: ["Night", "Night Pathway", "Darkness Pathway"]
+  - slug: "paragon"
+    canonical: "Paragon"
+    aliases: ["Paragon Pathway"]
+  - slug: "reader"
+    canonical: "White Tower"
+    aliases: ["Reader", "Reader Pathway", "White Tower Pathway"]
+  - slug: "red-priest"
+    canonical: "Red Priest"
+    aliases: ["Red Priest Pathway"]
+  - slug: "sun"
+    canonical: "Sun"
+    aliases: ["Sun Pathway"]
+  - slug: "tyrant"
+    canonical: "Tyrant"
+    aliases: ["Tyrant Pathway"]
+  - slug: "visionary"
+    canonical: "Visionary"
+    aliases: ["Visionary Pathway"]
+  - slug: "war-god"
+    canonical: "Twilight Giant"
+    aliases: ["War God", "War God Pathway", "Twilight Giant Pathway"]

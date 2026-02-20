@@ -10,17 +10,17 @@ tags: ["pathway:hanged-man", "sequence:9"]
 
 > **Lore:** This **Pathway** represents omniscience and omnipotence, corresponding to the Tarot card â€œThe Hanged Manâ€ [[The Hanged Man (Tarot)]].
 
-- High **Inspiration**, able to perceive the existence of some mysterious horrors.
+- High **Intuition (INT)**, able to perceive the existence of some mysterious horrors.
 - Masters certain sacrificial knowledge and a small amount of ritual magic.
 - Cognitive views are more or less distorted; easy to lose control.
 
-- See also: [[Hanged Man Pathway]]
+- See also: [[Hanged Man]]
 
 ## Extraordinary Abilities
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2.
+- **Attribute Gain:** **Intuition (INT)** +2.
 - Your occult/occult language can start to learn quickly:
   1. Every time you receive 2 hours of non-repetitive and effective related guidance, choose the corresponding item in the mysticism/mysticism language to rise by 1 level (up to mastery).
   2. It takes 2, 3, and 4 times from training to proficiency, to advanced level, and to mastery respectively.
@@ -28,18 +28,18 @@ tags: ["pathway:hanged-man", "sequence:9"]
 
 ### Filth Perception
 
-Because of high **Inspiration**, you can detect the existence of some mysterious horrors.
+Because of high **Intuition (INT)**, you can detect the existence of some mysterious horrors.
 
-- **Trigger (success):** Whenever you succeed in identifying attributes or skills related to **Inspiration**, if there is a person higher than you or even related power in your area, you will be able to detect it.
+- **Trigger (success):** Whenever you succeed in identifying attributes or skills related to **Intuition (INT)**, if there is a person higher than you or even related power in your area, you will be able to detect it.
 - **Trigger (failure):** If you fail, you will be noticed by Him at the same time, which may affect your next actions.
-- **If you perceive indirect power:** Make an immediate 1/1d2 **Sanity** [[Sanity]] roll.
-- **If you perceive direct power:** Make an immediate 1d3/1d6 **Sanity** roll, not including the **Sanity** penalty for looking directly at the myth [[Myth]].
+- **If you perceive indirect power:** Make an immediate 1/1d2 **Sanity / Rationality** [[Sanity / Rationality]] roll.
+- **If you perceive direct power:** Make an immediate 1d3/1d6 **Sanity / Rationality** roll, not including the **Sanity / Rationality** penalty for looking directly at the myth [[Myth]].
 
 > **GM Note:** If your potion [[Potion Digestion]] has digested more than 10, then you generally have more or less cognitive distortions. (This is a potion effect and cannot be recorded or stolen.)
 
 ### Spiritual Vision
 
-You have obtained a more outstanding spiritual vision because of your **Inspiration**.
+You have obtained a more outstanding spiritual vision because of your **Intuition (INT)**.
 - **Use:** 1 **free action** to activate.
 - **Cost:** 1 **spirituality point per round** while active.
 - **Effect:** While active, your vision gains the following benefits:
@@ -50,11 +50,11 @@ You have obtained a more outstanding spiritual vision because of your **Inspirat
   3. **Mental Body:** You can see the color represented by the other person's emotions, but only general content (e.g., whether the other person is depressed or uneasy). Negative emotion is usually a dark tone.
   4. **Astral body:** You cannot see the astral body.
   5. **Bonus:** When in the state of spiritual vision, your spiritual intuition test [[Spiritual Intuition Test]] +2 is beneficial.
-- **Sequence Reference:** Sequence 6: Your etheric body goes deep to observe whether there are some abnormalities in the other party's physical body, and you cannot distinguish secret puppets, etc. [[The Hanged Man Pathway Sequence 6]]
+- **Sequence Reference:** Sequence 6: Your etheric body goes deep to observe whether there are some abnormalities in the other party's physical body, and you cannot distinguish secret puppets, etc. (Hanged Man pathway Sequence 6)
 
 > **GM Note:**
 > - Dead creatures are usually only dull in color and cannot be recognized. Spiritual materials usually have spirituality.
-> - The color of the material in spiritual vision usually represents its corresponding path; this does not mean that you can see the power of a Beyonder Pathway [[Beyonder Pathway]].
+> - The color of the material in spiritual vision usually represents its corresponding path; this does not mean that you can see the power of a Beyonder Pathway.
 > - The color seen by spiritual vision allows you to see each other in the dark, but you can only see the existence of color, and it is still possible to get lost in the dark.
 > - Unlike dead creatures, undead creatures have deep black spirituality color instead of no.
 > - Spirit Vision can see some ordinary spirit bodies by default, which have not dissipated for 24 hours, and cannot be recorded or stolen.
@@ -68,7 +68,7 @@ You have a certain amount of sacrificial knowledge and a small amount of ritual 
 - **Default prayer target:** The real Creator [[True Creator]].
 - **Special sacrifices you can master:**
   - **Sacrifice a Lamb:** You please the Creator for a response.
-    - 5-minute general ritual process. You can sacrifice anything to the real Creator. Unlike the sacrifice of the abyss pathway [[Abyss Pathway]], you don't need to offer bloody sacrifices or create â€œartâ€; as long as you offer, He will accept everything.
+    - 5-minute general ritual process. You can sacrifice anything to the real Creator. Unlike the sacrifice of the abyss pathway Abyss, you don't need to offer bloody sacrifices or create â€œartâ€; as long as you offer, He will accept everything.
     - Therefore, you may not be able to obtain benefits from Him unless the items you sacrifice are special; otherwise the gifts you can get are completely random.
     - After the sacrifice is completed, follow this procedure:
       1. Perform a Difficulty Value 20 Lucky appraisal to determine whether you have received a gift:
@@ -76,10 +76,10 @@ You have a certain amount of sacrificial knowledge and a small amount of ritual 
          - Within every 24 hours, if you repeat the sacrifice without providing the listed valid sacrifices, the result will be the same.
       2. Perform a 1d5 on the premise of getting a gift, and you will get a random benefit:
          1. First choose a 1d4 skill category (strength-related, agility-related, etc.), and then 1d â€œthe number of skills in the categoryâ€; one of your random skills will increase by 1 level (not exceeding proficiency).  
-            - The Creator has imbued your mind with knowledge; you suffer 1/1d2 **Sanity** loss each time you gain this benefit.
+            - The Creator has imbued your mind with knowledge; you suffer 1/1d2 **Sanity / Rationality** loss each time you gain this benefit.
          2. Now you can perform any ritual in â€œCommon Ritual Magicâ€ immediately, and the Creator will definitely respond to you, but the opportunity cannot be reserved for the next time.
-         3. The Creator provides you with a warning about danger, but the information is general and will only show you a picture involving the source of danger; it is directly poured into your mind, and you will suffer 1/1d2 **Sanity** loss.
-         4. The Creator grants you the honor of listening to the divine voice once; you can immediately obtain the listening effect of Sequence 8 once and use it [[Sequence 8 Listening Effect]].
+         3. The Creator provides you with a warning about danger, but the information is general and will only show you a picture involving the source of danger; it is directly poured into your mind, and you will suffer 1/1d2 **Sanity / Rationality** loss.
+         4. The Creator grants you the honor of listening to the divine voice once; you can immediately obtain the listening effect of Sequence 8 once and use it Sequence 8 Listening Effect.
             - Itâ€™s not highly intelligent; it just does what you tell it to do, so the information has to be detailed.
          5. Other possible benefits are decided by the GM; this situation does not need to be random.
 
@@ -107,9 +107,9 @@ You have a certain amount of sacrificial knowledge and a small amount of ritual 
   - **Godâ€™s Descending Stage:**
     - â‘  Germination stage: The Creator has planted a fallen â€œtree seedâ€ in the body of the container. At this time, you do not have any peculiarities, and it is difficult to detect abnormalities. The Creator chooses an appropriate time to catalyze the â€œtree seedâ€ and let the god descend into the next stage.
     - â‘¡ Development stage: The seed is catalyzed; the container has divinity; the normal state is regarded as a Sequence 4 character; enjoys the effect of suppressing the character; the Creator will generally let the Aurora Society [[Aurora Society]] send at least the middle sequence to protect. The container gains the following benefits:
-      - **Breath of the gods:** 1 free action; 1 encounter per encounter; your chest is covered with blood and flesh, forming a pattern of the Hanged Man, or a statue made of your flesh and blood; you can tear off your clothes to reveal it. Afterwards, within a radius of 1 kilometer, it is immediately regarded as the aura of Sequence 0 [[Sequence 0 Aura]] and all objects within the range are immediately affected by corruption [[Corruption]] (the lights are turned off, the airship falls, and any Extraordinary can feel the horror and fear pressure).
+      - **Breath of the gods:** 1 free action; 1 encounter per encounter; your chest is covered with blood and flesh, forming a pattern of the Hanged Man, or a statue made of your flesh and blood; you can tear off your clothes to reveal it. Afterwards, within a radius of 1 kilometer, it is immediately regarded as the aura of Sequence 0 Sequence 0 Aura and all objects within the range are immediately affected by corruption [[Corruption]] (the lights are turned off, the airship falls, and any Extraordinary can feel the horror and fear pressure).
         - At the same time, all persistent effects (dream, law, mirror space) that are not as good as angels [[Angel]] will be shattered immediately.
-        - Extraordinary people with less than Sequence 6 will faint immediately, and each round will start a Difficulty Value 20 Will test [[Will Test]] to wake up.
+        - Extraordinary people with less than Sequence 6 will faint immediately, and each round will start a Difficulty Value 20 Will test Will Test to wake up.
         - Extraordinary people below angels will continue to be in a state of fear.
       - **Corrupted blood:** As long as you still have divinity, your blood can contaminate ordinary creatures that come into contact with it, making it mutated into deformed monsters with 4d10 blood volume, +20 attack identification, and 15 three defenses; they will indiscriminately harm anyone other than you.
       - **Flesh lumps:** The container will have some basic flesh and blood magic at this time. You can use 1 free action to make hard flesh lumps appear on your skin and gain 3 points of armor, but you must maintain it all the time. If you suffer any mental blows or fall into a dream, the effect will disappear.
@@ -120,7 +120,7 @@ You have a certain amount of sacrificial knowledge and a small amount of ritual 
 
   - **Stop Godâ€™s Fall:**
     - As long as it has not reached the stage of divine descent, in the embryonic stage and development stage, apart from the impact of the Aurora Society, it is relatively not difficult to stop the divine descent.
-    - Embryo Stage: Similar to how spectators view spiritual islands [[Spectator Pathway]] [[Spiritual Island]], the Extraordinary at the demigod level [[Demigod]] can detect tree species and use the corresponding Extraordinary ability to clear them.
+    - Embryo Stage: Similar to how spectators view spiritual islands Visionary [[Spiritual Island]], the Extraordinary at the demigod level [[Demigod]] can detect tree species and use the corresponding Extraordinary ability to clear them.
     - Development stage: Use any demigod or above attack to make a critical blow (internal organs) to the god-falling container, destroy the â€œIdolâ€ of the Creator, and then clear it.
       - This may cause the chest of the Godfall container to be penetrated, but this will not cause any loss of health, because the part is no longer their own; they cannot even feel pain. The wound will heal quickly after removal and the container can act normally.
     - Special: At the stage of development, the members of the Aurora Society who came to protect the container would not completely obey the container's orders; they only cared about the descending of the Creator, not the container's feelings. No matter how the container was willing or not, they would only protect the container.
@@ -133,7 +133,7 @@ You have a certain amount of sacrificial knowledge and a small amount of ritual 
     - â‘¡ The mother needs to go through a normal birth process. Specifically, refer to the time from human pregnancy to delivery, which is about 280 days. At this time, the impact on the fetus is listed in stages:
       - Early stage: within about 3 months. At this time, it is not much different from normal pregnant women, but demigod Extraordinary people may be able to detect abnormalities through extraordinary abilities.
       - Mid-term stage: within about 6 months. Pregnant women will feel subconscious love and satisfaction for the fetus; usually regarded as a manifestation of maternal love. However, there will be unnatural factors in the evaluation of the fetus by pregnant women (e.g., believing the fetus can hum songs, whistle, play music), and have certain hallucinations; the tone is close to sleep talking.
-        - At this stage, any Extraordinary who tries to observe her with spiritual vision will find abnormalities, which may lead to a **Sanity** test.
+        - At this stage, any Extraordinary who tries to observe her with spiritual vision will find abnormalities, which may lead to a **Sanity / Rationality** test.
       - Late Stage: From month 6 to birth is the most critical stage. Earlier, the fetus subtly affects the mother's choices; in this stage it no longer focuses on subtle influence and instead concentrates on accelerated change/growth.  
 
   - **Born early:**

@@ -20,14 +20,14 @@ tags: ["pathway:arbiter", "sequence:3"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +1, Dexterity +1, Strength +1, Constitution +1.
+- **Attribute Gain:** Intuition (INT) +1, Agility (DEX) +1, Strength +1, Constitution +1.
 - Legal skills increase by 1 skill level.
 
 ### Chaos Hunter
 
 - **Effect:**
   - From now on, you and your disciplinary knights gain a +4 bonus in skill identification and damage identification for all criminals and undead, corrupt, dark, and other natural forces that affect order.
-  - For the [[Black Emperor Pathway]]: +8 skill bonus, +4 attribute check; damage identification bonus remains **+4** (unchanged from the baseline above).  
+  - For the [[Black Emperor]]: +8 skill bonus, +4 attribute check; damage identification bonus remains **+4** (unchanged from the baseline above).  
   - **Orderâ€™s sight:** Within a kilometer of you, or when you are in your **jurisdiction**, order becomes your eyes.
     - You make up to two laws based on the realms of unholy, undead, fallen, and dark.
     - When corresponding behaviors or creatures appear in your jurisdiction, they are considered violators of the law and become criminals.
@@ -45,7 +45,7 @@ tags: ["pathway:arbiter", "sequence:3"]
 
 ### Messenger of Order
 
-- **Use:** Once per [[Round]], as a [[Free Action]], eliminate:
+- **Use:** Once per Round, as a Free Action, eliminate:
   - a power related to darkness, corruption, and undead domains, **and**
   - curses on your body.
 - **Limits / Modifiers:**

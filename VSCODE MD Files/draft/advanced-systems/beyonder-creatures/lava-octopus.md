@@ -40,9 +40,9 @@ In dungeons, you can occasionally find high-tech items made by "gold pounds" or 
 
 ## Basic Data
 
-- **Attributes:** Charisma 4; Strength 2; Luck 4; Dexterity 2; Constitution 4; Will 5; Inspiration 5; Education 4.
-- **Physical Defense:** 16 (10 + 4 deflection + 2 agility). [[deflection]] [[Agility]]
-- **Health:** 14
+- **Attributes:** Charisma 4; Strength 2; Luck 4; Agility (DEX) 2; Constitution 4; Will 5; Intuition (INT) 5; Education 4.
+- **Physical Defense:** 16 (10 + 4 deflection + 2 agility). [[deflection]] Agility (DEX)
+- **Vitality:** 14
 - **Skills:** Swimming; scouting; history; shooting proficiency; Intimidate; Pleasure; Deception; any two science skills trained.
 - **First sighting:** A creature that first encounters a Rava Octopus suffers 0/1 SC. [[SC]]
 

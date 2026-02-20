@@ -135,7 +135,7 @@ You use your body to restrict an enemy's actions, making them hard to move.
 **Additional rules:**
 1. This usually also causes you to become Restrained as you are grappling them. Checks for both of you gain Advantage/Disadvantage.
 2. Each time the grappled creature's turn arrives, they may (no action) make 1 Strength (STR) contest with you; on a success they break free.
-3. While in a grapple, you and the grappled creature cannot take Attack or Move actions. However, on each of your turns, you may use Brawling contested against their Constitution (CON) and squeeze them with Strength, dealing damage equal to your Strength damage die. This is the only permitted Attack action. It cannot be used if the opposed Strength is halved.
+3. While in a grapple, you and the grappled creature cannot take Attack or Move actions. However, on each of your turns, you may use Brawling contested against their Constitution (CON) and squeeze them with Strength, dealing damage equal to your Strength damage die. This is the only permitted Attack Action. It cannot be used if the opposed Strength is halved.
 4. You may grapple the target with one hand to restrict their movement. You may then take normal Attack actions, but your Strength contest check is halved as a result, rounded down. Changing the grapple posture from two-handed to one-handed is 1 Swift Action.
 
 While grappling, both sides are Restrained; no additional advantage/disadvantage applies beyond the Restrained condition.
@@ -181,7 +181,7 @@ You strike the target with a firearm at extremely close range.
 
 **Benefits (no Fast Dodge):** All three shots within your 1 Attack Action can gain the benefits of Build-Up Aim (no Swift Action required; cannot stack). The first attack check succeeds directly as long as it is greater than the target's Armor. See [[id:alias-fast-dodge|Fast Dodge]].
 
-**Benefits (Fast Dodge):** As long as the target cannot dodge light or lightning, your first shot check ignores the Agility and Dodge values within their Physical Defense, and all three shot checks gain the benefits of Build-Up Aim (cannot stack). If the target can dodge light or lightning, then all three shots only gain the benefits of Build-Up Aim. See [[id:alias-fast-dodge|Fast Dodge]].
+**Benefits (Fast Dodge):** As long as the target cannot dodge light or lightning, your first shot check ignores the Agility (DEX) and Dodge values within their Physical Defense, and all three shot checks gain the benefits of Build-Up Aim (cannot stack). If the target can dodge light or lightning, then all three shots only gain the benefits of Build-Up Aim. See [[id:alias-fast-dodge|Fast Dodge]].
 
 **Special:** If the enemy made an advance declaration and prepared in advance to dodge your point-blank shooting, you cannot gain the benefits.
 
@@ -223,7 +223,7 @@ You hide behind any obstacle to gain Armor. If you hide behind a hard wall or si
 
 **Special:** If you hide behind a hard obstacle such as a wall, and the attacker's Strength has not reached the level needed to pick it up, you are considered unable to be chosen as a target; they must go around the obstacle to attack you.
 
-**Wall destruction notes:** Firearms must reach shell-level to directly destroy a wall. A Sequence 4 Beyonder can do so by default. Otherwise, treat the wall's Armor x 5 as HP and Physical Defense 10; overflow damage is then separately contested against the person hiding behind it once more.
+**Wall destruction notes:** Firearms must reach shell-level to directly destroy a wall. A Sequence 4 Beyonder can do so by default. Otherwise, treat the wall's Armor x 5 as Vitality and Physical Defense 10; overflow damage is then separately contested against the person hiding behind it once more.
 
 ## Delay Action
 
@@ -270,7 +270,7 @@ You exploit a fatal mistake by an enemy who makes a close-range attack against y
 
 Uses:
 
-1. Only for targets where your Strength is not lower than theirs by 3 points, **or** where there is a 2-level build difference. You grab the wrist of their incoming strike and, with the momentum, flip them behind you. When they hit the ground, they take damage equal to **1d3 + Strength damage die**. The check succeeds by default. Special: If the target lacks a balance-type Beyonder ability, they must also make a Difficulty 20 Agility check. Otherwise, after landing they enter Off-Balance. If the Agility check is a critical failure, treat it as hitting their head; they enter **Stunned** for 1 round. See [[Stunned]].
+1. Only for targets where your Strength is not lower than theirs by 3 points, **or** where there is a 2-level build difference. You grab the wrist of their incoming strike and, with the momentum, flip them behind you. When they hit the ground, they take damage equal to **1d3 + Strength damage die**. The check succeeds by default. Special: If the target lacks a balance-type Beyonder ability, they must also make a Difficulty 20 Agility (DEX) check. Otherwise, after landing they enter Off-Balance. If the Agility (DEX) check is a critical failure, treat it as hitting their head; they enter **Stunned** for 1 round. See [[Stunned]].
 2. If you do not use (1), you immediately apply the effect of 1 Attack Action to them; the check succeeds by default.
 3. You cannot replace the attack check with 1 Casting Action, unless it is a wind-related Beyonder ability that can likewise flip them (using (1)). Otherwise it typically violates the intent of this special action.
 
@@ -335,13 +335,13 @@ You use a feint to deceive the opponent, catching them off guard.
 
 You administer first aid to a creature to curb its injuries.
 
-**Action:** 1 Casting Action. If its HP is below half (rounded up), it instead requires 1 Full-Round Action.
+**Action:** 1 Casting Action. If its Vitality is below half (rounded up), it instead requires 1 Full-Round Action.
 
 **Effect:** Ends the following conditions on the target: Bloodbath, Bleeding, Poisoned (only poisoning caused by external wounds). See [[Bloodbath]], [[Bleeding]], and [[Poisoned]].
 
-**Limits:** This does not restore HP. Before the creature gets 1 instance of adequate rest or leaves the corresponding injury, any damage type the same as the original will cause Bloodbath, Bleeding, Poisoned, and similar conditions to recur.
+**Limits:** This does not restore Vitality. Before the creature gets 1 instance of adequate rest or leaves the corresponding injury, any damage type the same as the original will cause Bloodbath, Bleeding, Poisoned, and similar conditions to recur.
 
-Example: A creature is in Bloodbath and receives first aid. Until its HP returns to more than half of its maximum HP, any attack will cause Bloodbath to occur again, even if the original damage was physical and the subsequent damage was toxin.
+Example: A creature is in Bloodbath and receives first aid. Until its Vitality returns to more than half of its maximum Vitality, any attack will cause Bloodbath to occur again, even if the original damage was physical and the subsequent damage was toxin.
 
 ## Vital Strike
 
@@ -369,8 +369,8 @@ Removing negative conditions:
 
 Warning:
 
-- If any single vital strike deals more than half of the target's maximum HP (rounded up) in damage at once, it will cause permanent or lingering injury.
-- Any Beyonder who has gained a Constitution (CON) bonus from a potion can recover such injuries; treat it as recovering when HP is fully restored.
+- If any single vital strike deals more than half of the target's maximum Vitality (rounded up) in damage at once, it will cause permanent or lingering injury.
+- Any Beyonder who has gained a Constitution (CON) bonus from a potion can recover such injuries; treat it as recovering when Vitality is fully restored.
 
 ## Limb Block
 
@@ -398,7 +398,7 @@ Core rule:
 - Choose an amount (up to your current Luck). Subtract that amount from your Luck and add the same amount to any 1 basic skill check.
 - The added value cannot exceed the Luck you have.
 
-Additional note: Additional uses and changing a critical failure are unique to the Fate Sequence; see [[Fate Pathway]] for details.
+Additional note: Additional uses and changing a critical failure are unique to the Fate Sequence; see [[Wheel of Fortune]] for details.
 
 Warnings and limits:
 
@@ -421,7 +421,7 @@ This section collects combination uses and edge-case clarifications, especially 
 
 **Movement/teleport ambush timing:**
 - If this action is the fuse that triggers combat, it can produce an Ambush Round.
-- If it is used during combat, it can move your turn order earlier, forcibly inserting your action before the current actor, and you gain Advantage/Disadvantage. If the current actor has already begun executing a casting or attack action, that action (already halfway underway) is considered to be completed first by the turn owner.
+- If it is used during combat, it can move your turn order earlier, forcibly inserting your action before the current actor, and you gain Advantage/Disadvantage. If the current actor has already begun executing a casting or Attack Action, that action (already halfway underway) is considered to be completed first by the turn owner.
 
 **Duration and stacking in combat:**
 - If the Ambush occurs during combat, the gained Advantage/Disadvantage can only last for that one Ambush check. For movement-type Ambushes, only the one immediate follow-up attack gains this benefit.

@@ -13,7 +13,7 @@ tags: ["pathway:reader", "sequence:1"]
 
 > **Lore:** The Archangel of the White Tower Passage.
 
-- See also: [[White Tower Pathway]]
+- See also: [[White Tower]]
 
 ## Advancement
 
@@ -23,20 +23,20 @@ tags: ["pathway:reader", "sequence:1"]
 - **Function:** Rely on the experience of omniscience and rationality to resist the scouring of knowledge, turning your own career into an anchor point. If you want to spy on the fate of others, you must first explain your own fate.  
   [[Knowledge Scouring]]  
   [[Anchor Point]]  
-  [[Fate]]
+  [[Wheel of Fortune]]
 
 ## Extraordinary Abilities
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2; **Education** +2; all your skills increase by 1 level.
+- **Attribute Gain:** **Intuition (INT)** +2; **Education** +2; all your skills increase by 1 level.
 
 ### All-Seeing Eye
 
 You can manifest the brass-colored all-seeing eye to examine a target’s past and future.
 
 - **Cost:** 1 free action to open or close, unconditionally.  
-  [[Free Action]]
+  Free Action
 - **Use:** When opened, your pupils become brass eyes. If you are not human, the all-seeing eyes can also materialize from your body out of thin air.
 - **Effect:** While active, you are in the **All-Seeing Eye State** and gain the benefits below.
 
@@ -44,7 +44,7 @@ You can manifest the brass-colored all-seeing eye to examine a target’s past a
 
 1) **Past sight (no identification required):** You spy on the past information of a target you choose within visible range.  
    - This ignores anti-divination and anti-prophecy effects, and ignores Personality for access.  
-     [[Identification]]  
+     Identification  
      [[id:alias-anti-divination|Anti-Divination]]  
      [[Anti-Prophecy]]  
      [[Personality]]
@@ -65,14 +65,14 @@ You can manifest the brass-colored all-seeing eye to examine a target’s past a
      [[Destiny]]  
      [[Attachment]]
    - The target’s Pathway: whether the Pathway has been changed, the original Pathway, and its Sequence level, Personality, items held and still held, the Pathway and name of each item.  
-     [[Pathway]]  
-     [[Sequence Level]]  
+     Pathway  
+     Sequence Level  
      [[Items]]
    - The target’s current **blood volume**, **spirituality**, **sanity**, and **three defenses**.  
-     [[Blood Volume]]  
+     Blood Volume  
      [[Spirituality]]  
-     [[Sanity]]  
-     [[Three Defenses]]
+     [[Sanity / Rationality]]  
+     Three Defenses
    - More specified snooping content: generally select a broad category rather than individual information; you can also select individual information.
 
 - **Special:** If you have spied any information on a target, you will continue to gain an advantage over them, even if the ability is turned off.  

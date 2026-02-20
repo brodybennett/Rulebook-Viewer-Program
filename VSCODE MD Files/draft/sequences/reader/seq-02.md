@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sequence 2: Wisdom Angel"
 id: "reader-seq-02"
 tags: ["pathway:reader", "sequence:2"]
@@ -14,13 +14,13 @@ tags: ["pathway:reader", "sequence:2"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +3, **Education** +2.
-- Increase all **Inspiration**-related skills by 1 level.
+- **Attribute Gain:** **Intuition (INT)** +3, **Education** +2.
+- Increase all **Intuition (INT)**-related skills by 1 level.
 
 ### The Temples Come Down
 
 - **Cost:** 10 **Spirituality** each round. [[Spirituality]]
-- **Use:** 1 **Casting Action**. [[Casting Action]]
+- **Use:** 1 **Casting Action**. Casting Action
 - **Targeting and range:** Covers an area up to 10 kilometers.
 - **Effect:** Your **Temple of Knowledge** immediately materializes within the area. [[Temple of Knowledge]]  
   Every book within becomes physical (can be touched and read). While you are within the area, you gain all of the following benefits:
@@ -28,11 +28,11 @@ tags: ["pathway:reader", "sequence:2"]
 1. **Automatic absorption of written/visual knowledge:** Knowledge carriers presented as words, pictures, etc. are automatically read by the Temple at a speed of up to **100 pages per round**. Identical-content books consolidate into bookshelves, and their information is printed immediately into your mind.  
    - **Limit:** Repeated knowledge usually does not improve skills (see [[Quick Reading]]).
 
-2. **Default success on non-opposed appraisals:** All skill appraisals that do not involve confrontation, and all **Education** and **Inspiration** attribute appraisals, succeed by default. When confrontation is involved, you gain [[Advantage]].
+2. **Default success on non-opposed appraisals:** All skill appraisals that do not involve confrontation, and all **Education** and **Intuition (INT)** attribute appraisals, succeed by default. When confrontation is involved, you gain [[Advantage]].
 
-3. **Identification modifiers:** Choose any number of friendly units (not including yourself). They gain +2 to **Inspiration**-related identification. All skill identifications made by your enemy units suffer -2.
+3. **Identification modifiers:** Choose any number of friendly units (not including yourself). They gain +2 to **Intuition (INT)**-related identification. All skill identifications made by your enemy units suffer -2.
 
-4. **Wisdom for inactive Extraordinary Items:** Choose 1 or more inactive [[Extraordinary Items]] to gain wisdom. Whenever a [[Big Failure]] occurs, if the item is in its ownerâ€™s possession and has been used by them before, it activates an ability for its owner; otherwise it does not.
+4. **Wisdom for inactive Extraordinary Items:** Choose 1 or more inactive [[Extraordinary Items]] to gain wisdom. Whenever a Big Failure occurs, if the item is in its ownerâ€™s possession and has been used by them before, it activates an ability for its owner; otherwise it does not.
 
 5. **Awakened intellect:** Non-intelligent creatures, undead, and animals in the area gain intelligence. They can no longer be enslaved unless they do so voluntarily or are **Suppressed** (under a suppression effect that negates extraordinary abilities).
 
@@ -41,7 +41,7 @@ tags: ["pathway:reader", "sequence:2"]
 - **Cost:** 5 **Spirituality** per use. [[Spirituality]]
 - **Use:** When you cast an **Extraordinary Ability**, you may choose one skill you have already mastered and incorporate it into that Abilityâ€™s effect. [[id:alias-extraordinary-abilities|Extraordinary Abilities]]
 
-If you want to use any of the effects below, the corresponding skill must reach **Master**, or be replaced by [[Pathway Knowledge]] (Master).
+If you want to use any of the effects below, the corresponding skill must reach **Master**, or be replaced by Pathway Knowledge (Master).
 
 #### Power-related
 
@@ -60,7 +60,7 @@ If you want to use any of the effects below, the corresponding skill must reach 
 
 - **Law:** After you successfully use a spellcasting/attack-action Ability, the opponent cannot use that same Ability within 1 round. If it is still used, make a Law appraisal against its [[Physical Defense]] to determine whether it is invalid.
 - **Archeology:** Any Ability you successfully use does not damage the targetâ€™s objects of cultural or material value.
-- **Religion:** Any Ability that involves a creature with divine nature suffers no [[Disadvantage]].
+- **Religion:** Any Ability that involves a creature with divine nature suffers no Disadvantage.
 - **Navigate:** Any Ability can pinpoint an invisible/hidden object if its approximate location is exposed/known and within the Ability's range. This effect does not allow the Ability to pass through walls.  
 - **Medicine:** Any Ability gains a 3d6 [[Hit Point Regeneration]] effect.
 - **Crafting:** When an Ability is used on an item, you understand its composition.

@@ -38,8 +38,8 @@ After consuming the potion:
 
 - **Strength** +1  
 - **Constitution** +1  
-- **Agility** +1  
-- **Inspiration** +1  
+- **Agility (DEX)** +1  
+- **Intuition (INT)** +1  
 - **Will** +1  
 - **Piloting**, **Swimming**, and **Diving** may now be advanced to **Master** level.
 
@@ -59,11 +59,11 @@ You gain superficial control over lightning.
 
 #### Lightning Strike
 
-- **Cost:** 3 Spiritual Points  
+- **Cost:** 3 Spirituality  
 - **Use:** 1 Casting Action  
 - **Target:** 1 creature within line of sight  
 - **Check:** d20 + 15 Disaster bonus vs. Physical Defense  
-- **Limits:** Ignores Agility and Dodge  
+- **Limits:** Ignores Agility (DEX) and Dodge  
 - **Effect:**  
   - Speed is considered lightning-fast.  
   - Deals 3d10 Lightning damage.
@@ -85,7 +85,7 @@ You gain superficial control over lightning.
 
 ### Thunderous Voice
 
-- **Cost:** 1 Spiritual Point per sentence  
+- **Cost:** 1 Spirituality per sentence  
 - **Use:** 1 Swift Action  
 - **Effect:**  
   - Your voice combines with lightning power.
@@ -97,7 +97,7 @@ You gain superficial control over lightning.
 
 Your hair defies natural law, standing on end and entwined with lightning.
 
-- **Cost:** 3 Spiritual Points  
+- **Cost:** 3 Spirituality  
 - **Use:** 1 Attack Action  
 - **Requirement:** Typically used with a bow and arrow  
 - Choose one of the following modes:
@@ -118,7 +118,7 @@ Your hair defies natural law, standing on end and entwined with lightning.
      - All Lightning effects apply (restraint applies only once).
 
 3. **Extended Application**
-   - **Cost:** 1 Spiritual Point, 1 Swift Action  
+   - **Cost:** 1 Spirituality, 1 Swift Action  
    - Effect:
      - Apply **Lightning Attachment** to fists or firearms.
      - May be used in combos, but only one attack in the combo may gain lightning or wind blade effects.
@@ -135,7 +135,7 @@ Your hair defies natural law, standing on end and entwined with lightning.
 
 You may influence creatures through continuous singing. Effects depend on your Singing proficiency.
 
-- **Cost:** 3 Spiritual Points per round  
+- **Cost:** 3 Spirituality per round  
 - **Use:** 1 Free Action (continuous)  
 - **Range:** 100 meters  
 - **Target:** All creatures within range  
@@ -146,7 +146,7 @@ This ability does not require identification.
 
 - Effect:
   - Chaotic, unpleasant singing enrages enemies.
-  - Each round, affected creatures lose 0/1 Sanity.
+  - Each round, affected creatures lose 0/1 Sanity / Rationality.
   - All attacks must prioritize the singer.
   - If performing a critical action, a creature may resist with a Will check (Difficulty 20).
 - After singing ends, only residual aftereffects remain; rage dissipates.
@@ -161,14 +161,14 @@ This ability does not require identification.
 
 You interfere directly with a target’s **Spirit Body** using beautiful song. Choose one effect:
 
-**Stunning (Charm):**
+**Stunning (Charisma (CHA)):**
 - Designate a target.
 - Target enters a trance and is **Charmed** by you.
 - All maintained abilities (except yours) immediately end.
 - Effect lasts up to 1 round; repeated attempts reapply the duration.
 
 Options:
-1. **Special Charm**
+1. **Special Charisma (CHA)**
    - Target must use its Movement Action each round to approach you.
    - Target will not attack you first.
    - Each round, target may resist with a Will check (Difficulty 15).

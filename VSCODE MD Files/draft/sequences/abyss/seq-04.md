@@ -8,7 +8,7 @@ tags: ["pathway:abyss", "sequence:4"]
 
 ## Demon
 
-- See also: [[Abyss Pathway]]
+- See also: Abyss
 
 Their own thinking becomes less error-prone, while nearby creatures become more error-prone (see **Stupid Aura**).
 
@@ -24,24 +24,24 @@ Their own thinking becomes less error-prone, while nearby creatures become more 
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +2, Agility +1, Constitution +2, Charisma +3, Inspiration +2.
+- **Attribute Gain:** Strength +2, Agility (DEX) +1, Constitution +2, Charisma +3, Intuition (INT) +2.
 
 ### Stupid Aura
 
-- **Use:** [[Free Action]] to enable or disable.
+- **Use:** Free Action to enable or disable.
 - **Effect:** The thinking ability of all nearby creatures will be significantly reduced, making mistakes easily.
-- **Effect:** See your creature Inspiration and Education -4; this does not affect [[Spirituality cap]] and skill training.
+- **Effect:** See your creature Intuition (INT) and Education -4; this does not affect [[Spirituality cap]] and skill training.
 - **Effect:** At the same time, as long as it is within the influence range of this ability, the points for [[Major Failure]] will increase to 1, 2, and 3.
 - **Trigger:** Whenever there is a major failure, you can directly detonate the desire seeds in the target's body, allowing the seeds to mature instantly.
-- **Aftereffects:** An additional [[Sanity Check]] of 0/1 is caused to the target.
+- **Aftereffects:** An additional [[Sanity / Rationality Check]] of 0/1 is caused to the target.
 
 ### Devil
 
 - **Effect:** Choose a limb, allowing you to maintain the shape of a [[mythical creature]] on this limb for a long time.
-- **Use:** You only need a [[Free Action]] to choose a [[Spellcasting Action]].
+- **Use:** You only need a Free Action to choose a Spellcasting Action.
 - **Limits:** The free action can only be done once in a round, and cannot be changed within a day.
 - **Effect:** Your [[Life Value]] extra +10; [[Spirituality]] +10.
-- **Effect:** In addition to strengthening your physique, this can also allow you to display the strange runes unique to mythical creatures through this limb, which directly results in a sanity test equivalent to your [[Sequence promotion]].
+- **Effect:** In addition to strengthening your physique, this can also allow you to display the strange runes unique to mythical creatures through this limb, which directly results in a sanity test equivalent to your Sequence promotion.
 - **Limits:** Anyone who has witnessed this scene and is not in the same position as you (per your table?s positioning rules) will directly suffer the corresponding loss of sanity; each encounter is limited to one time.
 
 - **Limits:** Anyone who has witnessed this scene and is not in the same position as you (per your table?s positioning rules) will directly suffer the corresponding loss of sanity; each encounter is limited to one time.
@@ -49,8 +49,8 @@ Their own thinking becomes less error-prone, while nearby creatures become more 
 ### Cunning Man, Trickster
 
 - **Effect:** Your social skills that have not reached the [[Proficiency level]] are considered proficient.
-- **Effect:** You get an additional [[Identification]] bonus of +4.
-- **Effect:** A social skill against its [[Will Defense]], you can force a person to act according to your will once a round, or make him unable to distinguish between illusion and reality.
+- **Effect:** You get an additional Identification bonus of +4.
+- **Effect:** A social skill against its Willpower Defense, you can force a person to act according to your will once a round, or make him unable to distinguish between illusion and reality.
 - **Limits:** The latter presupposes the presentation of hallucinatory things.
 
 > **Lore:** This usually allows you to solve a series of things very flexibly and plan, and even directly use a man leads to fall; this is usually in your hands, and will manifest in a malicious direction according to your will.
@@ -58,7 +58,7 @@ Their own thinking becomes less error-prone, while nearby creatures become more 
 ### Volcanic Eruption
 
 - **Effect:** From now on, you can cause a volcanic eruption disaster.
-- **Use:** A [[Full-round action]].
+- **Use:** A [[Full-Round Action]].
 - **Requirements:** Qualified environment.
 - **Cost:** 10 points of spiritual consumption.
 - **Effect:** You directly trigger a volcanic eruption, causing disasters covering a radius of at least ten kilometers.

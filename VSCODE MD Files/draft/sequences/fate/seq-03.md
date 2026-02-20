@@ -8,7 +8,7 @@ tags: ["pathway:fate", "sequence:3"]
 
 ## Chaos Walker
 
-- You are a **Sequence** 3 **Saint** of the [[Wheel of Fortune Pathway]].
+- You are a **Sequence** 3 **Saint** of the [[Wheel of Fortune]].
 
 ## Advancement
 
@@ -22,11 +22,11 @@ tags: ["pathway:fate", "sequence:3"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Luck** +3, **Inspiration** +3, **Constitution** +1.
+- **Attribute Gain:** **Luck** +3, **Intuition (INT)** +3, **Constitution** +1.
 
 ### Chaos Walker
 
-- **Cost:** 5 **Spirituality Points**.
+- **Cost:** 5 **Spirituality**.
 - **Use:** **Free Action**.
 - **Effect:** In your environment, you reverse the course of events around you. Within a maximum of 1 kilometer of you, a **Big Success** is considered a **Big Failure**, and a **Big Failure** is considered a **Big Success**.
 - **Limits:**
@@ -38,14 +38,14 @@ tags: ["pathway:fate", "sequence:3"]
 
 ### Chaos Walker (Additional)
 
-- **Cost:** 5 **Spirituality Points** (the same cost as Chaos Walker).
+- **Cost:** 5 **Spirituality** (the same cost as Chaos Walker).
 - **Use:** Once per **Round**.
 - **Effect:** This can be used on a **Big Success** or a **Big Failure** of an **Appraisal** without opening it. A target’s **Big Success** is regarded as a **Big Failure**, and a target’s **Big Failure** is regarded as a **Big Success**, but it doubles the amount of **Doom** or **Luck** you have stored.
 - **Limits:** If Chaos Walker is already activated, this additional ability is considered assimilated with the area ability and cannot be applied again.
 
 ### Destiny: Disturb the Torrent of Fate
 
-- **Cost:** 10 **Spirituality Points**.
+- **Cost:** 10 **Spirituality**.
 - **Use:** 1 **Spellcasting Action**; once per **Encounter**.
 - **Targeting and range:** Everyone within 1 kilometer of you, excluding yourself.
 - **Effect:**

@@ -23,7 +23,7 @@ tags: ["pathway:reader", "sequence:4"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +2; Education +2; your knowledge of fate and mysticism rises by one level ([[Fate Knowledge]]).
+- **Attribute Gain:** Intuition (INT) +2; Education +2; your knowledge of fate and mysticism rises by one level ([[Fate Knowledge]]).
 
 ### Proficient in Knowledge
 
@@ -49,7 +49,7 @@ tags: ["pathway:reader", "sequence:4"]
 ### Prophecy
 
 - **Cost:** 8 points of **Spirituality** [[Spirituality]].
-- **Use:** 1 **Spell-Casting Action** [[Spell-Casting Action]].
+- **Use:** 1 **Casting Action** Casting Action.
 - **Effect:**
   - Conduct a **Fate Knowledge Appraisal** [[Fate Knowledge Appraisal]] and judge the prophecy result based on that appraisal.
   - The prophecy is subject to the following Difficulty results:
@@ -66,8 +66,8 @@ tags: ["pathway:reader", "sequence:4"]
   - Because it relies on deduction, prophecy can lead in the wrong direction if the deduction is based on wrong information.
   - Prophecies lacking clues may be inconsistent with reality. If key information lacks information, it will not be presented and will be replaced by other reasonable content.
 - **Aftereffects:**
-  - **Great Success** [[Great Success]]: Your prediction involves a key piece of information. If you did not have a clue for that key piece of information when you made the prediction, it changes to a key piece of information involving a clue you do have.
-  - **Big Failure** [[Big Failure]]: Your prophecy leads in a half-true or terribly wrong direction, and you must believe it until you get new clues.
+  - **Great Success** Great Success: Your prediction involves a key piece of information. If you did not have a clue for that key piece of information when you made the prediction, it changes to a key piece of information involving a clue you do have.
+  - **Big Failure** Big Failure: Your prophecy leads in a half-true or terribly wrong direction, and you must believe it until you get new clues.
 
 
 > **GM Note:** Long-term prophecy example: you can predict you will encounter a desperate situation, and that “someone you know somewhere” will help you, but you do not know what the situation is or who will help you. If the indicated place involves someone you do not already know, you may need to go there and befriend people to establish the connection—if you do not, the rescuer may not appear when you encounter difficulties.

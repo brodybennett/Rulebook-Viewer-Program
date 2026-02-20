@@ -12,23 +12,23 @@ tags: ["pathway:hanged-man", "sequence:8"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2; **Will** +1.
+- **Attribute Gain:** **Intuition (INT)** +2; **Will** +1.
 - **Skill Gain:** **Listen** +2 skill levels.  
   - Your **Listen** skill can hear the unique sounds from extraordinary creatures.
-  - Your **Listen** skill is added to the rapid improvement of [[Sequence 9]] and can be improved at most to the master.
+  - Your **Listen** skill is added to the rapid improvement of Sequence 9 and can be improved at most to the master.
 
 ### Listening Perception
 
 - **Effect:** With the extraordinary ability of listening, you will hear more sounds and get more dangers in a normal environment.
-- **Trigger (extraordinary sounds):** Whenever there are sounds of extraordinary significance around you, from beings 1 higher than you or tainted beings [[Tainted Being]], you suffer an immediate 1/1d2 **Sanity** [[Sanity]] loss.
-- **On Sanity check:** Whenever you make a **Sanity check** [[Sanity Check]] because of this, you immediately determine what the source of the sound is (usually only known by the type of creature, dead or alive, adult or child, and so on).
+- **Trigger (extraordinary sounds):** Whenever there are sounds of extraordinary significance around you, from beings 1 higher than you or tainted beings [[Tainted Being]], you suffer an immediate 1/1d2 **Sanity / Rationality** [[Sanity / Rationality]] loss.
+- **On Sanity / Rationality check:** Whenever you make a **Sanity / Rationality check** [[Sanity / Rationality Check]] because of this, you immediately determine what the source of the sound is (usually only known by the type of creature, dead or alive, adult or child, and so on).
 - **Spotting spirits:** You can use **Listen** instead of **Stealth** [[Stealth]] to spot spirits [[Spirit]].
 - **Blind hearing:** While blind, you can locate others without checks.
 - **If the target does not actively make a sound:** If the being 1 higher than you, or possessing pollution [[Pollution]], does not actively make a sound:
-  - You can perform a listening detection with **Difficulty Value** [[Difficulty Value]] 20.
-  - The **Difficulty Value** is -1 for every 1 meter closer, until the default is successful; it will also cause **Sanity** loss.
+  - You can perform a listening detection with **Difficulty Value** Difficulty Value 20.
+  - The **Difficulty Value** is -1 for every 1 meter closer, until the default is successful; it will also cause **Sanity / Rationality** loss.
 
-- At a Detection result of 4+, if the target 1 higher than you does not release pollution and mythical runes [[Mythical Rune]], then only when the target with pollution is detected will cause **Sanity** loss.
+- At a Detection result of 4+, if the target 1 higher than you does not release pollution and mythical runes [[Mythical Rune]], then only when the target with pollution is detected will cause **Sanity / Rationality** loss.
 
 > **GM Note:** (This is an explanation, ancillary to the ability of listening, which disappears when the latter disappears.)
 
@@ -43,7 +43,7 @@ tags: ["pathway:hanged-man", "sequence:8"]
 
 ### LISTEN
 
-- **Use:** 1 **swift action** [[Swift Action]]; once a round.
+- **Use:** 1 **Swift Action** Swift Action; once a round.
 - **Cost:** Consumes 2 spirituality points. [[Spirituality]]
 - **Check:** Perform a 30-**Difficulty Value** listening appraisal.
 - **Special:** When holding this extraordinary ability, your **Listen** skill will increase by another 2 levels; when this ability disappears, that increase disappears.
@@ -52,21 +52,21 @@ tags: ["pathway:hanged-man", "sequence:8"]
 #### Listening appraisal success
 
 - Roll rd8 to determine the effect. [[rd8]]
-- Each time (regardless of outcome), take a 0/1d2 **Sanity** loss.
-- For 24 hours, you can use the obtained effect as a **swift action**, but only once per round.
+- Each time (regardless of outcome), take a 0/1d2 **Sanity / Rationality** loss.
+- For 24 hours, you can use the obtained effect as a **Swift Action**, but only once per round.
   - 1 ability use opportunity can be stacked.
 
 Effects (rd8):
-- ① Choose a target within your field of vision [[Field of Vision]]; they are flooded with filthy and depraved ravings, and suffer a 1d2/1d4 loss of **Sanity**.
+- ① Choose a target within your field of vision [[Field of Vision]]; they are flooded with filthy and depraved ravings, and suffer a 1d2/1d4 loss of **Sanity / Rationality**.
 - ② The hostile extraordinary ability that targets you once, and no more than 1 character, will fail strangely. This is a kind of substitute: your shadow helps you resist this attack, and the damage to the area ability can only be reduced by half. [[Area Ability]]
 - ③ Your body suddenly squirms, and a small circle grows out of thin air, gaining 3d6 extra life (which can be replaced by a stack of flesh and blood).
 - ④ Lasts for 1 hour: you lose your vitals, and you are regarded as a corrupt (flesh and blood) creature [[Corrupt Creature (Flesh and Blood)]]. Regular vital strikes [[Vital Strike]] are invalid for you.
-- ⑤ You can use 1 **swift action** to choose one of your own limbs to explode, causing 3d6 physical and 1d6 poison damage [[Poison Damage]] (fighting against physical defense [[Physical Defense]]). On failure, the damage is halved, and you will take full damage.  
+- ⑤ You can use 1 **Swift Action** to choose one of your own limbs to explode, causing 3d6 physical and 1d6 poison damage [[Poison Damage]] (fighting against physical defense [[Physical Defense]]). On failure, the damage is halved, and you will take full damage.  
   (Blown-up limbs cannot be restored by conventional means.)
 - ⑥ Select a target within the field of vision; their shadow suddenly activates and restrains them, and uses movement and attack actions to fight against their own strength attribute until they escape.  
   (Shadow rolls are made by you or the GM.)
 - ⑦ Lasts 1 hour: you can use 1 round of freedom to become a shadow or escape, and lose the ability after 1 round.
-- ⑧ You can shoot flesh and blood bullets at 1 or more targets, up to 3 rounds; identify the corresponding number of times. Each round, lose 1d2 HP [[HP]]. Inspiration + shooting (against physical defense); there is no disadvantage and it is regarded as a firearm [[Firearm]]. Each round causes 1d6 physical damage. If you hear the ravings of other existences of the real Creator, the effect obtained will be determined by the GM, generally not including the Seven Gods. [[Seven Gods]]
+- ⑧ You can shoot flesh and blood bullets at 1 or more targets, up to 3 rounds; identify the corresponding number of times. Each round, lose 1d2 Vitality [[Vitality]]. Intuition (INT) + shooting (against physical defense); there is no disadvantage and it is regarded as a firearm [[Firearm]]. Each round causes 1d6 physical damage. If you hear the ravings of other existences of the real Creator, the effect obtained will be determined by the GM, generally not including the Seven Gods. [[Seven Gods]]
 
 
 #### Listening appraisal failure
@@ -74,9 +74,9 @@ Effects (rd8):
 - Make an rd5 [[rd5]] to determine what happens if you fail your luck check. [[Luck Check]]
 
 Outcomes:
-- ① You immediately suffer 2d6 curse damage [[Curse Damage]] and suffer 1/1d2 **Sanity** loss.
-- ② If you have not deciphered anything, make a **Will** test with **Difficulty Value** 15; otherwise you will lose 1/1d2 **Sanity**.
-- ③ You immediately fall into a temporary madness and suffer 1/1d2 **Sanity** loss.
-- ④ You immediately fall into an extraordinary madness and suffer a **Sanity** loss of 1/1d3.
+- ① You immediately suffer 2d6 curse damage [[Curse Damage]] and suffer 1/1d2 **Sanity / Rationality** loss.
+- ② If you have not deciphered anything, make a **Will** test with **Difficulty Value** 15; otherwise you will lose 1/1d2 **Sanity / Rationality**.
+- ③ You immediately fall into a temporary madness and suffer 1/1d2 **Sanity / Rationality** loss.
+- ④ You immediately fall into an extraordinary madness and suffer a **Sanity / Rationality** loss of 1/1d3.
 - ⑤ You heard ravings from other than the real Creator, and the effect is determined by the GM, generally not including the Seven Gods.
 

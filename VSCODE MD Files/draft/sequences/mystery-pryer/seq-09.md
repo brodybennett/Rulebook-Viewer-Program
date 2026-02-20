@@ -21,7 +21,7 @@ You have a comprehensive but preliminary understanding and mastery of mysterious
 1. Every time you receive **2 hours** of non-repetitive and effective guidance, you increase either **Mysticism** or **Mysticism Language** by **1 level** (choose one). Two trainings raise that skill to **Proficient**; fast-track learning caps at **Proficient**.
 2. Learning quickly to become proficient does not prevent deeper study. See [[Skill Growth/Relationship]].
 3. Potions only give you qualifications to learn and a channel to quickly understand; you can still study further.
-4. When creating a character that has not just been promoted, you may **double** the Inspiration points granted by the potion when spending them on occult-related growth skills.
+4. When creating a character that has not just been promoted, you may **double** the Intuition (INT) points granted by the potion when spending them on occult-related growth skills.
 
 ## Extraordinary Abilities
 
@@ -63,9 +63,9 @@ Additional rules and limitations:
 - **Trigger Timing:** Once you resolve the first relevant Identification/Occult check in this area, you will notice them. If you are trying to interpret a book or thing involving demigod and above power, this effect is also triggered.
 
 - **Outcome by result (Great success vs. Big failure):**
-  1. **Great Success** [[Great Success]]: You saw something you shouldn’t have noticed, but fortunately it did not cause a sanity check. You only see some kind of power carrier of the other party, or part of the outline, or you feel the pressure of inspiration—someone is peeping here.  
+  1. **Great Success** Great Success: You saw something you shouldn’t have noticed, but fortunately it did not cause a sanity check. You only see some kind of power carrier of the other party, or part of the outline, or you feel the pressure of inspiration—someone is peeping here.  
      Great success only lets you unilaterally detect the other party. Unless you actively show any problems, you will not be noticed.
-  2. **Big Failure** [[Big Failure]]: In addition to the above, you are aware of the other party, and the other party is also aware of you—you are exposed. This may cause that being to approach or remember you, and you may be bewitched step by step, falling into the abyss of depravity, and even going crazy or out of control on the spot.  
+  2. **Big Failure** Big Failure: In addition to the above, you are aware of the other party, and the other party is also aware of you—you are exposed. This may cause that being to approach or remember you, and you may be bewitched step by step, falling into the abyss of depravity, and even going crazy or out of control on the spot.  
      “You must be careful and be in awe of extraordinary power.” Praying for the protection of the gods is the only way you can solve this matter.
 
 - **Limitations:** Curtain Peeping is an interpretation of the **Mystery Pryer’s** spiritual intuition and therefore cannot be recorded or stolen.
@@ -115,15 +115,15 @@ You are proficient in the use of ritual magic.
 
 You gain the basic ability of **Divination**, but not as strongly as a diviner in this area.
 
-- **Use:** 1 [[Casting Action]].
+- **Use:** 1 Casting Action.
 - **Cost:** Spend **2** [[Spirituality]].
 - **Procedure:** Choose **1** divination method, then conduct **1** [[Occult Identification]].
 
 Difficulty outcomes:
 
-- **Difficulty Value (DV)** [[Difficulty Value]]:
-  - DV **15**: Get a very general result (e.g., finding objects only tells you a city).
-  - DV **20**: Get a more general result that usually gives a general direction.
+- **Difficulty Value (Difficulty Value)** Difficulty Value:
+  - Difficulty Value **15**: Get a very general result (e.g., finding objects only tells you a city).
+  - Difficulty Value **20**: Get a more general result that usually gives a general direction.
 - **Identification failure:** Repeated divination only gets the same result; you need to obtain new clues to divinate again.
 - **Great success:** Get a fairly accurate result (object finding accurate to a certain street).
 - **Big failure:** According to the final value of the appraisal, you still obtain the corresponding content, but attract the attention of related beings. If the corresponding content did not involve hidden beings, then a directly or indirectly related Extraordinary notices being watched.

@@ -12,7 +12,7 @@ You possess sufficient historical knowledge, wilderness survival knowledge, and 
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +2, Dexterity +1
+- **Attribute Gain:** Strength +1, Constitution +2, Agility (DEX) +1
 - Archaeology, history, survival, mysticism, and mysticism language are included in the rapid growth category of Sequence 9, reaching proficiency at most.
 
 ### Ritual Use

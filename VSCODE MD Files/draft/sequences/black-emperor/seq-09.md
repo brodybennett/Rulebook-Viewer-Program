@@ -18,7 +18,7 @@ Note: "Dark Emperor" and "Black Emperor" are treated as the same entity/alias.
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** [[Inspiration]] +2.
+- **Attribute Gain:** **Intuition (INT)** Intuition +2.
 - **Skill Increase:** [[Persuasion]], [[Speech]], [[Intimidation]], [[Pleasing]], and other possible social skills increase by 1 level.
 
 - **Skill Growth (Guidance):**
@@ -31,7 +31,7 @@ Note: "Dark Emperor" and "Black Emperor" are treated as the same entity/alias.
   - Growth limit, efficiency, and number of times are the same as ①.
   - > **GM Note:** Examples include secretly changing concepts with words, avoiding the important and focusing on the minor, generalizing the whole, or putting the cart before the horse.
 
-- When creating a character who has not just been promoted, the growth skill gains **2x Inspiration** points from the potion. [[Potion]]
+- When creating a character who has not just been promoted, the growth skill gains **2x Intuition (INT)** points from the potion. [[Potion]]
 -
 
 ### Conversational and Eloquent
@@ -75,7 +75,7 @@ Note: "Dark Emperor" and "Black Emperor" are treated as the same entity/alias.
 - **Untwisted guide:**
   - Any intelligent creature that encounters distortion guidance must act according to the result of distortion guidance before receiving information or reminders that contradict existing cognition.
   - There are three ways to release distortion guidance:
-    - ① **Self-detection:** Whenever you plan to do something that is not in line with your original intention, you can use an Inspiration test (**Difficulty Value** [[Difficulty Value]] 25) to detect something is wrong.
+    - ① **Self-detection:** Whenever you plan to do something that is not in line with your original intention, you can use an Intuition (INT) test (**Difficulty Value** Difficulty Value 25) to detect something is wrong.
       - For example, you plan to protect your family but start to prepare for imprisonment; arrest threats but plan to kill on the spot.
       - Special: If the distorted cognition has two similar meanings to your own original meaning, then the difficulty of perception is -5 per Sequence level the target is lower than you.
       -
@@ -97,14 +97,14 @@ Note: "Dark Emperor" and "Black Emperor" are treated as the same entity/alias.
       - But selling at a high price can turn into a normal sale, and then a normal sale can turn into a low-price sale.
       - Employment can become a long-term employment, and a long-term employment can become a permanent employment.
   - “Distortion” can be cast if the above conditions are met, and whether it meets the above criteria is decided by the GM.
-  - The difference between this and the wrong path is that the wrong path has the same affixes but does not have contradictory affixes, while the Black Emperor needs to have similar meanings while having the same affixes. [[Wrong Pathway]]
+  - The difference between this and the wrong path is that the wrong path has the same affixes but does not have contradictory affixes, while the Black Emperor needs to have similar meanings while having the same affixes as the Error pathway.
   - Regarding spans which have two closely related meanings:
     - Specifically refers to the special situation that is self-perceived during distortion guidance, such as: the original intention is to sell normally, but it is distorted to sell at a low price, and on the basis of selling at a low price, it becomes free again, which is considered to be too far from the original intention.
     - However, if it is distorted to sell at a low price, then distorted to be free, and then changed from free to sell at a low price, it will only be regarded as distorting the similar meaning of level 1, and it will not be affected by the self-perception special difficulty reduction effect if it is calculated based on the original intention.
 
 ### Spotting Loopholes
 
-- **Use:** 1 [[Spellcasting Action]], without consuming **Spirituality** [[Spirituality]]. Choose 1 target, conduct 1 [[Legal Appraisal]], and determine the result based on the appraisal.
+- **Use:** 1 Spellcasting Action, without consuming **Spirituality** [[Spirituality]]. Choose 1 target, conduct 1 [[Legal Appraisal]], and determine the result based on the appraisal.
 - **Results (by Difficulty Value):**
   - Difficulty Value 15: You have discovered the contradictions in the other party's words, the ambiguity of your own requirements, and found an opportunity to take advantage of.
   - Difficulty Value 20: You find out whether a thing or a place is easy to be taken advantage of in terms of jurisdiction, such as: the hotel does not count the names of the residents (easy to disguise identities, confuse the public), the ticket inspection is not rigorous, whether the character or work of others is slack and not serious.

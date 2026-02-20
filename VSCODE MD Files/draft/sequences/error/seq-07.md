@@ -12,7 +12,7 @@ A Cryptologist can analyze many mysteries (such as dreams and illusions) and can
 
 ### Attribute Gain
 
-- **Attribute Gain:** Dexterity +1, Constitution +1, Inspiration +2.
+- **Attribute Gain:** Agility (DEX) +1, Constitution +1, Intuition (INT) +2.
 - Your **Occult** and **Detection** skills increase by 1 level.
 - Whenever you complete a decryption of extraordinary events, your **Occult** increases by 1 level.
 - If no extraordinary events are involved, your **Investigation** increases by 1 level.
@@ -28,11 +28,11 @@ Also known as intuitive premonition. You can predict othersâ€™ actions at c
 - **Use:** Triggered whenever you are raided, sneak attacked, or there is something on the scene that is about to put the raid or sneak attack into action.
 - **Use:** If 1 damage exceeds half of your maximum health (rounded up), this ability can also be triggered.
 - **Effect:**
-  1) Make an Inspiration appraisal (**Difficulty Value** 15). If you succeed, an idea flashes in your mind immediately, telling you the form of danger.
+  1) Make an Intuition (INT) appraisal (**Difficulty Value** 15). If you succeed, an idea flashes in your mind immediately, telling you the form of danger.
      - After you succeed, you will not be able to be raided or ambushed.
      - Threats that you mistakenly think are â€œsafeâ€ will not trigger this ability.
   2) Under the above premise, as long as you are not restrained or affected by other reasons, your **physical defense** gains a +4 **temporary bonus**.
-     - In the face of light and lightning, use normal Agility and Dodge in Physical Defense instead of the +4 bonus.
+     - In the face of light and lightning, use normal Agility (DEX) and Dodge in Physical Defense instead of the +4 bonus.
   3) If the danger range is large enough (for example, a gas explosion in the entire area in an instant), even if you are alarmed by the danger, you will not be able to gain benefits.
 
 - **Special:**
@@ -41,14 +41,14 @@ Also known as intuitive premonition. You can predict othersâ€™ actions at c
   - Danger premonition is a kind of spiritual intuition, so it is invalidated by [[id:alias-anti-divination|Anti-Divination]] and [[Anti-Prophecy]].
 
 - **Sequence scaling:**
-  - **Sequence 6:** Your Inspiration appraisal is successful by default, and the flashing thought becomes a flashing picture, letting you know the manifestation of danger. [[id:alias-sequence-6|Sequence 6]]
+  - **Sequence 6:** Your Intuition (INT) appraisal is successful by default, and the flashing thought becomes a flashing picture, letting you know the manifestation of danger. [[id:alias-sequence-6|Sequence 6]]
   - **Sequence 5:** You can perceive danger higher than Sequence 1. [[Sequence 5]] [[Personality]]
 
 ### Decryption
 
 You can analyze many mysteries (such as dreams and illusions), and you can also find out an enemyâ€™s location through analysis.
 
-- **Use:** 1 **casting action**
+- **Use:** 1 **Casting Action**
 - **Cost:** 3 **spirituality points**
 - **Effect:** Choose 1 of the following effects:
 

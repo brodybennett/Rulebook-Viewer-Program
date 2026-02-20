@@ -26,14 +26,14 @@ tags: ["pathway:tyrant", "sequence:1"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +2, Agility +1, Constitution +2
+- **Attribute Gain:** Strength +2, Agility (DEX) +1, Constitution +2
 
 ---
 
 ### Become Thunder
 
-- **Cost:** 5 Spiritual Points  
-- **Use:** Full-round action  
+- **Cost:** 5 Spirituality  
+- **Use:** Full-Round Action  
 - **Duration:** 2 rounds (3 rounds at [[Sequence 0]])  
 - **Effect:**  
   You transform into a thunderbolt and move at light speed. Your movement rate becomes the speed of light (described as ~300,000 kilometers of movement power), allowing you to reach any intended destination at light speed. This movement can be used to initiate a surprise attack.
@@ -46,7 +46,7 @@ tags: ["pathway:tyrant", "sequence:1"]
 - **Limits:**
   - While in lightning form, you cannot use other extraordinary abilities.
   - You may still enter a rage state.
-  - You may charge in lightning form as an attack action, dealing lightning damage equal to your Strength damage dice via a fighting test.
+  - You may charge in lightning form as an Attack Action, dealing lightning damage equal to your Strength damage dice via a fighting test.
   - Your quick dodge skill remains effective even against light-speed strikes.
   - Your dodge skill level increases by +1 while in this state.
 
@@ -54,15 +54,15 @@ tags: ["pathway:tyrant", "sequence:1"]
 
 ### Hundreds of Millions of Thunders and Entanglements
 
-- **Use:** Casting action (can be repeated each round)  
+- **Use:** Casting Action (can be repeated each round)  
 - **Targeting and Range:** Choose a target  
 - **Effect:**  
   You create vast, entangled lightning phenomena (described as forest-like lightning and extended electric arcs) and unleash continuous lightning combinations.
 
   - Make a +25 disaster check against the target’s physical defense.
-  - Ignores physical defense derived from Agility and dodge.
+  - Ignores physical defense derived from Agility (DEX) and dodge.
 
-  Each lightning bolt costs 1 Spiritual Point. Dark clouds gather and innumerable lightning strikes descend.
+  Each lightning bolt costs 1 Spirituality. Dark clouds gather and innumerable lightning strikes descend.
 
   **Base Damage Scaling:**
   - Damage depends on your Strength value (not Strength damage dice).
@@ -71,10 +71,10 @@ tags: ["pathway:tyrant", "sequence:1"]
   Example: Strength 20 → 20d6 lightning damage.
 
 - **Sustained Casting:**  
-  You may spend a casting action each round to maintain continuous strikes.
+  You may spend a Casting Action each round to maintain continuous strikes.
 
 - **Combo Mechanic:**
-  - Gain a combo value equal to your Agility.
+  - Gain a combo value equal to your Agility (DEX).
   - Each consecutive round of using this ability counts as a combo:
     - Combo value −1.
     - Damage +1d6.

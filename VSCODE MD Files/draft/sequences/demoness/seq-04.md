@@ -6,7 +6,7 @@ tags: ["pathway:Demoness", "sequence:4"]
 
 # Witch Pathway: Sequence 4
 
-- See also: [[Witch Pathway]]
+- See also: [[Demoness]]
 
 ## Despair
 
@@ -23,7 +23,7 @@ tags: ["pathway:Demoness", "sequence:4"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Agility +2, Constitution +1, Will +2, Charisma +1
+- **Attribute Gain:** Strength +1, Agility (DEX) +2, Constitution +1, Willpower (WIL) +2, Charisma +1
 
 ### Man-Made Disasters
 
@@ -68,8 +68,8 @@ tags: ["pathway:Demoness", "sequence:4"]
     - Items in your possession (which can be given to others)
     - An enemy’s own image
 - You can even “teleport” your image remotely this way, as if you were there in person; the remote image can also deliver your voice and abilities there.
-- **Opposition:** Charm check against Will defense. [[Charm Check]] [[Will Defense]]
+- **Opposition:** Charisma (CHA) check against Will defense. [[Charisma (CHA) Check]] Willpower Defense
 - **Disbelieving the illusion:**
-  - Only when the enemy senses something clearly amiss are they allowed to discover the truth with a Scout or Inspiration check of **20 + your Pleasing stat**. [[Scout]] [[Inspiration]] [[Pleasing]]
+  - Only when the enemy senses something clearly amiss are they allowed to discover the truth with a Scout or Intuition (INT) check of **20 + your Pleasing stat**. [[Scout]] Intuition [[Pleasing]]
 - If the **target** is in a mirrored environment, the illusion will be extremely real and indistinguishable.
 - **Additional (Sequence 4):** When digestibility reaches **20**, you can also directly transmit power through the mirror. [[Digestibility]]

@@ -27,8 +27,8 @@ tags: ["pathway:tyrant", "sequence:6"]
 
 - **Strength** +1  
 - **Constitution** +1  
-- **Agility** +2  
-- **Inspiration** +1  
+- **Agility (DEX)** +2  
+- **Intuition (INT)** +1  
 - [[Skills]] related to piloting, swimming, and diving can be quickly promoted to erudition.  
 
 ---
@@ -57,7 +57,7 @@ You gain the following wind-based abilities.
 
 ### Short-Distance Flight
 
-- **Cost:** 1 swift action, 1 spirituality  
+- **Cost:** 1 Swift Action, 1 spirituality  
 - **Effect:** A strong wind engulfs you, allowing you to instantly fly up to 10 meters in any direction. You do not need to physically move to do so.  
 - **Targeting and Range:** You may take off together with creatures within 5 meters.  
 - **Special:**  
@@ -70,7 +70,7 @@ You gain the following wind-based abilities.
 
 ### Glide
 
-- **Cost:** 1 swift action, 1 spirituality  
+- **Cost:** 1 Swift Action, 1 spirituality  
 - **Effect:** You glide in any direction while descending 1 meter per round.  
 - **Limits:** You cannot gain altitude with this ability.  
 
@@ -78,10 +78,10 @@ You gain the following wind-based abilities.
 
 ### Floating
 
-- **Cost:** 1 swift action, 1 spirituality  
+- **Cost:** 1 Swift Action, 1 spirituality  
 - **Effect:** A gust of wind lifts you up to 5 meters vertically, where you can remain suspended.  
 - **Duration:** Up to 5 minutes.  
-- **Movement:** You may move in the air with movement force equal to your Agility.  
+- **Movement:** You may move in the air with movement force equal to your Agility (DEX).  
 - **Limits:** Height may be adjusted by will; you may choose not to float.  
 - **Sequence 5 Change:** Maximum vertical height becomes 10 meters.  
 
@@ -89,7 +89,7 @@ You gain the following wind-based abilities.
 
 ### Create Air Cushions
 
-- **Cost:** 1 swift action, 2 spirituality  
+- **Cost:** 1 Swift Action, 2 spirituality  
 - **Targeting and Range:** Up to a 10-meter area  
 - **Effect:**  
   1. Creatures and objects moving on the air cushion make no sound; stealth identification automatically succeeds. The cushion has no physical volume.  
@@ -101,12 +101,12 @@ You gain the following wind-based abilities.
 
 - **Cost:** 1 spellcasting action; 1 spirituality per shot  
 - **Targeting and Range:** One or more targets within 50 meters  
-- **Check:** Inspiration + piloting vs physical defense  
+- **Check:** Intuition (INT) + piloting vs physical defense  
 - **Effect:** Each wind blade deals 2d6 physical damage. Speed is treated as a firearm.  
 - **Limits:**  
-  1. One casting action allows up to 3 consecutive shots; each may target a different creature.  
+  1. One Casting Action allows up to 3 consecutive shots; each may target a different creature.  
   2. When repeatedly attacking the same target, hit identification improves instead of decreasing; from the second shot onward, each shot gains a cumulative +2 benefit.  
-  3. If you can release Wind Blade as a swift action, that version inherits the bonus above.  
+  3. If you can release Wind Blade as a Swift Action, that version inherits the bonus above.  
 - **Manifestation:** Impacts leave cuts like blades across surfaces.  
 - **Sequence 5 Change:** Damage increases by 1d6.  
 
@@ -116,7 +116,7 @@ You gain the following wind-based abilities.
 
 - **Cost:** 1 spellcasting action, 3 spirituality  
 - **Target:** 1 creature  
-- **Check:** Inspiration vs target’s Agility  
+- **Check:** Intuition (INT) vs target’s Agility (DEX)  
 - **Effect:** On success, the target gains the [[Bound]] state and cannot perform movement actions.  
 - **Escape:** At the start of each round, the target may attempt a Difficulty Value 20 skill check to break free.  
 
@@ -124,10 +124,10 @@ You gain the following wind-based abilities.
 
 ### Wind Attachment
 
-- **Cost:** 1 swift action, 1 spirituality  
+- **Cost:** 1 Swift Action, 1 spirituality  
 - **Effect:** Choose one effect for 1 round:
 
-1. **Hand:** Your right fist is wrapped in high-speed wind. One attack action that round deals +1d6 physical damage; applies to combo attacks.  
+1. **Hand:** Your right fist is wrapped in high-speed wind. One Attack Action that round deals +1d6 physical damage; applies to combo attacks.  
 2. **Legs:** While walking or running on land, your movement force increases by +15 for 1 round. Allies within 5 meters gain this benefit.  
 3. **Weapons:** The Hand effect can be applied to weapons, arrows, or firearms without changing their speed.  
 
@@ -138,7 +138,7 @@ You gain the following wind-based abilities.
 
 ### Sound Transmission
 
-- **Cost:** 1 swift action; 1 spirituality per sentence  
+- **Cost:** 1 Swift Action; 1 spirituality per sentence  
 - **Effect:** Your voice travels up to 100 meters in a chosen direction.  
 - **Sequence 5 Change:** Distance increases by 100 meters.  
 
@@ -148,7 +148,7 @@ You gain the following wind-based abilities.
 
 - **Cost:** 1 spellcasting action, 3 spirituality  
 - **Area:** All targets within 10 meters in front of you  
-- **Check:** Inspiration + navigator vs physical defense  
+- **Check:** Intuition (INT) + navigator vs physical defense  
 - **Effect:** Treated as firearm speed; deals 4d6 physical damage.  
 - **Sequence 5 Change:** Damage becomes 5d6.  
 
@@ -164,15 +164,15 @@ You gain the following wind-based abilities.
 
 **Balance and Distance Rules**
 
-1. Creatures make an Agility check (Difficulty Value 20) or lose balance. If voluntarily moving 5 meters with the wind, they gain +2 to maintain balance.  
+1. Creatures make an Agility (DEX) check (Difficulty Value 20) or lose balance. If voluntarily moving 5 meters with the wind, they gain +2 to maintain balance.  
 2. Creatures that lose balance have their blown distance doubled (round up).  
 3. For each 1 point of creature size above small, forced movement distance is reduced by 2 meters. Small or tiny creatures automatically lose balance and have distance doubled.  
 
 **Additional Wind Uses**
 
-4. **Extinguish Flames:** 1 swift action, 1 spirituality. In a chosen direction, extinguish flames within 50 meters. Fire abilities requiring combustibles cannot ignite. Fire abilities not requiring combustibles suffer −2 disadvantage toward you and −1d6 damage.  
-5. **Damage Reduction:** 1 swift action, 2 spirituality. When hit by strength-based damage dice, move backward with wind and reduce that damage by 1d6.  
-6. **Ally Push:** 1 swift action, 2 spirituality. When a creature within 50 meters is about to be targeted by a single-target attack, push it away; the attack suffers −6 disadvantage.  
+4. **Extinguish Flames:** 1 Swift Action, 1 spirituality. In a chosen direction, extinguish flames within 50 meters. Fire abilities requiring combustibles cannot ignite. Fire abilities not requiring combustibles suffer −2 disadvantage toward you and −1d6 damage.  
+5. **Damage Reduction:** 1 Swift Action, 2 spirituality. When hit by strength-based damage dice, move backward with wind and reduce that damage by 1d6.  
+6. **Ally Push:** 1 Swift Action, 2 spirituality. When a creature within 50 meters is about to be targeted by a single-target attack, push it away; the attack suffers −6 disadvantage.  
 
 - **Maintenance:** You may spend 1 spirituality each round to sustain the gale.  
 - **Sequence 5 Change:** Maximum ranges become 100 meters; maximum blown distance becomes 40 meters.  
@@ -182,4 +182,4 @@ You gain the following wind-based abilities.
 ### Extended Wind Logic
 
 - With GM approval, other logical wind-control uses are allowed.  
-- If an ability that pushes creatures interacts with the [[Sequence 7 Water Spell]], pushing distance is increased accordingly.  
+- If an ability that pushes creatures interacts with the Sequence 7 Water Spell, pushing distance is increased accordingly.  

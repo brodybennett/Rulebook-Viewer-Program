@@ -25,8 +25,8 @@ tags: ["pathway:visionary", "sequence:7"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +1, Strength +1, Constitution +1, Agility +1
-- Psychology / Psychological Guidance can quickly learn to **Erudition** (a rank above **Master**). [[Skill Ranks]]
+- **Attribute Gain:** Intuition (INT) +1, Strength +1, Constitution +1, Agility (DEX) +1
+- Psychology / Psychological Guidance can quickly learn to **Erudition** (a rank above **Master**). Skill Ranks
 
 ### Passive Traits
 
@@ -47,7 +47,7 @@ Also known as “group chaos.” You make enemies panic as if facing a dragon.
     1. **Ordinary people** with **Willpower** 2–3: gain **Fear** and **Awe**; immediately run wildly to get away from the source of fear.
     2. **Ordinary people** with Willpower 4: gain **Fear** and **Awe**; immediately flee to get away from the source of fear.
        > **GM Note:** “Above-average” targets in the Willpower 2–4 category may be frightened into incontinence.
-    3. **Ordinary people** with Willpower 6, or **Beyonders** with increased Inspiration or Willpower: gain **Fear** and **Awe**; they may resist the forced movement from Fear. If the resistance succeeds, they can only spin in place and cannot move. See [[Special Status]].
+    3. **Ordinary people** with Willpower 6, or **Beyonders** with increased Intuition (INT) or Willpower: gain **Fear** and **Awe**; they may resist the forced movement from Fear. If the resistance succeeds, they can only spin in place and cannot move. See [[Special Status]].
     4. **Beyonders** of Sequence 7, or Willpower 6+: gain **Shock** and **Fear**; resistance to forced movement is successful by default. They stand still trembling and spinning in place, but still cannot truly perform a moving action.
 - **Limits / Special:**
   - When affecting more than 1 character, Will defense against the targets can only be effective with a [[Psychology Check]].
@@ -67,7 +67,7 @@ Detonates the target’s emotional or mental state, causing them to fall into �
 - **Targeting and range:** Choose 1 target within your field of vision.
 - **Effect:**
   - The target must be in at least one madness symptom or emotional state (excluding **Stunned** and “indeterminate madness itself”).
-  - The target suffers **1 Sanity** loss per emotional state and **1d3 Sanity** loss per madness symptom; the detonated emotional state is immediately cleared.
+  - The target suffers **1 Sanity / Rationality** loss per emotional state and **1d3 Sanity / Rationality** loss per madness symptom; the detonated emotional state is immediately cleared.
 - **Manifestation (non-mechanical):** When you cast it, your pupils lighten, become light-gold, and may become vertical.
 
 ### Mental Suggestion
@@ -75,29 +75,29 @@ Detonates the target’s emotional or mental state, causing them to fall into �
 You suggest the target through specific actions, language, and media.
 
 - **Cost:** 1 point of **Spirituality** per use
-- **Use:** 1 spell-casting action
+- **Use:** 1 Casting Action
 - **Method (choose one):**
   - **Action:** 1 **Free Action**. Your eyes reflect a light-golden color; you can plant psychological hints on witnesses. You may also use candles, a finger, and similar actions to draw focus to a specific object.
   - **Language:** Speak a discourse containing the psychological hint; you must specify a target (or choose your own discourse).
 - **Effect:** To apply a suggestion, you must tell the **GM** the plain text of the hint content. The suggestion may achieve the following effects (as approved by the GM):
-  1. **Keep in good condition:** Set a time period or trigger condition. When met, for 5 minutes the target gains a +2 beneficial bonus to skill and attribute appraisals, and a beneficial -2 to Sanity loss.
+  1. **Keep in good condition:** Set a time period or trigger condition. When met, for 5 minutes the target gains a +2 beneficial bonus to skill and attribute appraisals, and a beneficial -2 to Sanity / Rationality loss.
   2. **Stay awake:** Set a time period or trigger condition. When the target enters a dream, they realize they are in a dream.
   3. **Answer questions:** Set a time period or trigger condition. For 5 minutes, the target strongly wants to answer questions and may lie.
-  4. **Follow the promise:** This can be your hint, or it can directly affect a promise made by the target. Breaking the promise requires a [[Will Test]]. The **Difficulty Value** is your “Inspiration + Charisma + Psychological Guidance bonus.”
-     - If the target attempts to break the promise and fails the [[Will Test]], they cannot attempt that same break again for 3 hours.
+  4. **Follow the promise:** This can be your hint, or it can directly affect a promise made by the target. Breaking the promise requires a Will Test. The **Difficulty Value** is your “Intuition (INT) + Charisma + Psychological Guidance bonus.”
+     - If the target attempts to break the promise and fails the Will Test, they cannot attempt that same break again for 3 hours.
   5. **Complete a certain action:** Set a time period or trigger condition, and select a certain identification in that period. This identification gains a +1 beneficial bonus, and this mental suggestion can be stacked.
-  6. **Contain emotions:** Set a time period or trigger condition; use “Inspiration + Charisma + Psychological Guidance” as the Difficulty Value.
-     - **Actively generated emotions:** Each time a related emotion appears, use Inspiration to identify against the Difficulty Value; if the identification fails, it is not generated.
-     - **Emotions caused by the outside world:** The emotion’s source uses the corresponding ability identification—or an Inspiration identification—against this Difficulty Value.
+  6. **Contain emotions:** Set a time period or trigger condition; use “Intuition (INT) + Charisma + Psychological Guidance” as the Difficulty Value.
+     - **Actively generated emotions:** Each time a related emotion appears, use Intuition (INT) to identify against the Difficulty Value; if the identification fails, it is not generated.
+     - **Emotions caused by the outside world:** The emotion’s source uses the corresponding ability identification—or an Intuition (INT) identification—against this Difficulty Value.
   7. **Perform a certain behavior:** This can be long-term or short-term. The effect is equivalent to “Follow the promise,” such as going to a certain church at a certain time every day.
   8. Other more allowable and reasonable psychological hints set by the GM; refer to the above effects.
 - **Special suggestive situations:**
-  1. **Target is not voluntary:** Use 1 Psychological Guidance to resist the [[Will Defense]] to succeed, and gain bonuses/penalties equivalent to [[Thinking Simulation]].
+  1. **Target is not voluntary:** Use 1 Psychological Guidance to resist the Willpower Defense to succeed, and gain bonuses/penalties equivalent to [[Thinking Simulation]].
      - Use the same modifiers as **Thinking Simulation** (start at -8 disadvantage and apply Psychological Guidance understanding modifiers). [[id:alias-thinking-simulation|Thinking Simulation]]
   2. **Suggestion involves life / the most important thing:** The mental suggestion is immediately dismissed by default and has no effect.
   3. **Suggestion in combat/chaos area:** The suggestion fails by default and cannot be executed successfully.
   4. **Suggestion not triggered:** A suggestion lasts for a maximum of 1 month.
-  5. **Multiple hints:** A creature can receive at most a number of hints equal to (their Inspiration attribute value ÷ 2) at the same time.
+  5. **Multiple hints:** A creature can receive at most a number of hints equal to (their Intuition (INT) attribute value ÷ 2) at the same time.
   6. **Content aligns with the target’s willingness:** If it is reasonable enough, gentle enough, and is something the target would have done, the GM can let the Player follow cues by letting the Player see only relevant information.
   7. **Implied content limit:** The implied content must be concise and not complicated; the reference standard should not exceed 20 characters.
 
@@ -109,14 +109,14 @@ Helps Beyonders on the verge of losing control regain sanity and escape danger.
 - **Use:** 1 **Casting Action**
 - **Targeting and range:** Choose 1 target within 10 meters.
 - **Effect (choose/apply as appropriate):**
-  1. Clear a creature’s emotional/crazy symptoms. The target gains 1 point of temporary Sanity for 1 hour; it cannot be stacked. It reappears later.
+  1. Clear a creature’s emotional/crazy symptoms. The target gains 1 point of temporary Sanity / Rationality for 1 hour; it cannot be stacked. It reappears later.
      > **GM Note:** Soothe can only temporarily suppress mental illness. A real solution requires [[id:alias-psychological-guidance|Psychological Guidance]]; use guidance to gradually adjust the target’s mentality/viewpoint so things develop in a better direction. The GM decides whether the disease is truly cured.
-  2. Whenever there is a Beyonder beside you whose Sanity returns to 0, as long as you still have the action of casting spells, you are allowed to try to soothe them.
+  2. Whenever there is a Beyonder beside you whose Sanity / Rationality returns to 0, as long as you still have the action of casting spells, you are allowed to try to soothe them.
 - **Let a Beyonder about to lose control regain sanity:**
   - Make 1 Mental Guidance appraisal. Initial Difficulty Value is 40; for each sequence level you have, the Difficulty Value is -5.
-    - **Clarification:** Reduce DV by 5 for each Sequence level above 9 you have (Sequence 8 = -5, Sequence 7 = -10, etc.).
+    - **Clarification:** Reduce Difficulty Value by 5 for each Sequence level above 9 you have (Sequence 8 = -5, Sequence 7 = -10, etc.).
   - Each time the target is larger than you by 1 character, the identification Difficulty Value is +15. If greater than 2 characters, “big success” is ignored.
-    - **Clarification:** Add +15 DV for each Sequence the target is higher than you. If the target is 2+ Sequences higher, **Big Success** is ignored.
+    - **Clarification:** Add +15 Difficulty Value for each Sequence the target is higher than you. If the target is 2+ Sequences higher, **Big Success** is ignored.
   - There is only one chance. If the identification fails, the target is completely out of control.
 
 ### Mind Reading

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sequence 6: Corruption (Baron)"
 id: "black-emperor-seq-06"
 tags: ["pathway:black-emperor", "sequence:6"]
@@ -15,13 +15,13 @@ tags: ["pathway:black-emperor", "sequence:6"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Constitution +1; Inspiration +1; your Law and Deceit skill goes up by one level.
-- At the same time, your [[Sequence 9]] [[Rapid Improvement]] upper limit has reached [[Erudition]].
+- **Attribute Gain:** Constitution +1; Intuition (INT) +1; your Law and Deceit skill goes up by one level.
+- At the same time, your Sequence 9 [[Rapid Improvement]] upper limit has reached [[Erudition]].
 
 ### Distortion
 
 - **Cost:** 3 **spirituality points**
-- **Use:** 1 [[Swift Action]]
+- **Use:** 1 Swift Action
 - **Limits:** once per round
 - **Effect:** By distorting the meaning of the targetâ€™s words, actions, and intentions, you construct an order beneficial to you. Choose one of the following benefits to take effect:
 
@@ -52,7 +52,7 @@ tags: ["pathway:black-emperor", "sequence:6"]
 
 ### Corrosion
 
-- **Use:** 1 [[Swift Action]]
+- **Use:** 1 Swift Action
 - **Cost:** 1 **spirituality point** per minute
 - **Targeting and range:** indiscriminately affects all creatures within 10 meters of you as the center.
 - **Effect:**

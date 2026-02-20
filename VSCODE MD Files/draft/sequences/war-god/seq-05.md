@@ -10,7 +10,7 @@ tags: ["pathway:war-god", "sequence:5"]
 
 > **Lore:** It is rare for a Guardian to be hurt.
 
-- When you enter a **Guardian State** and give up attacking, few beings below [[High Sequence]] can break your defense; your defense applies the same against all types of damage.
+- When you enter a **Guardian State** and give up attacking, few beings below High Sequence can break your defense; your defense applies the same against all types of damage.
 - When you attack, the corresponding defense is greatly reduced (still stronger than [[Refined Full-Body Armor]]).
 
 You possess extraordinary abilities including [[Sword of Dawn]] and [[Storm of Light]], enabling you to:
@@ -45,14 +45,14 @@ You possess extraordinary abilities including [[Sword of Dawn]] and [[Storm of L
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +2, Constitution +2, Agility +1, Will +1.
+- **Attribute Gain:** Strength +2, Constitution +2, Agility (DEX) +1, Willpower (WIL) +1.
 
 ### Wall of Protection
 
-- **Cost:** 3 [[Spiritual Points]].
-- **Use:** 1 [[Casting Action]].
+- **Cost:** 3 [[Spirituality]].
+- **Use:** 1 Casting Action.
 - **Effect:** Insert a giant sword in front of your body. Morning light emerges, erecting an unbreakable invisible wall to your left and right.
-- The wall shares [[Health]] with you: damage to the wall damages you. Attacks against the wall are resolved as attacks against your Physical Defense (including Armor/DR), and the damage is applied to you.
+- The wall shares [[Vitality]] with you: damage to the wall damages you. Attacks against the wall are resolved as attacks against your Physical Defense (including Armor/DR), and the damage is applied to you.
 
 The wall is used in one of the following ways:
 

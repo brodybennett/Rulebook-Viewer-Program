@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sequence 6: Biologist"
 id: "earth-seq-06"
 tags: ["pathway:earth", "sequence:6"]
@@ -10,12 +10,12 @@ tags: ["pathway:earth", "sequence:6"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +2, Constitution +2, Dexterity +1, Inspiration +1
+- **Attribute Gain:** Strength +2, Constitution +2, Agility (DEX) +1, Intuition (INT) +1
 - [[Biology (skill)]] increased by 1 level.
 
 ### Rapid Growth Research
 
-- Your Biology has been included in the rapid growth category of [[Sequence 9 rapid growth category]].
+- Your Biology has been included in the rapid growth category of Sequence 9 rapid growth category.
 - Biology can be upgraded to [[Erudition]] at most, and [[Botany (skill)]] can also be upgraded to Erudition.
 - Every time you complete a complete research without repeating the type, it is regarded as a growth.
 
@@ -40,7 +40,7 @@ To use Biological Hybridization, complete all stages below to finish one transfo
 
 2) **Theoretical stage**
    - After obtaining samples of the two creatures, you need **1d2 weeks** to confirm the theoretical direction of transformation.
-- If you have enough realistic inspiration, then as long as you have summarized the general content of the theory in reality, you can skip this step (GM approval based on your Inspiration and prior research).
+- If you have enough realistic inspiration, then as long as you have summarized the general content of the theory in reality, you can skip this step (GM approval based on your Intuition (INT) and prior research).
 
 3) **Experiment phase**
    - You need **1d3 months** to carry out the experiment and conduct a biological identification with **Difficulty Value** 25.
@@ -65,7 +65,7 @@ To use Biological Hybridization, complete all stages below to finish one transfo
 - Example: To turn fish blood into wine, you need to combine the fish with some plant sugar entries, then combine microorganisms that convert sugar into wine with another fish, then combine the two fish to achieve the result.
 - Your transformation base must be a creature.
 
-> **GM Note:** When creating a Biologist who has not just been promoted, the **GM** can allow them to enter play with modifications equal to the attribute of Inspiration, because a modification needs to be researched several times to be considered complete, so the number of times each modification has been modified will not be counted.
+> **GM Note:** When creating a Biologist who has not just been promoted, the **GM** can allow them to enter play with modifications equal to the attribute of Intuition (INT), because a modification needs to be researched several times to be considered complete, so the number of times each modification has been modified will not be counted.
 
 #### Hybrid Extraordinary Creatures
 
@@ -84,15 +84,15 @@ To use Biological Hybridization, complete all stages below to finish one transfo
 
 Your hair can be highly toxic.
 
-- **Cost:** 3 [[Spiritual Points]]
-- **Use:** 1 attack action. Tear off a handful of your hair, designate one effect below, then throw it at the target.
+- **Cost:** 3 [[Spirituality]]
+- **Use:** 1 Attack Action. Tear off a handful of your hair, designate one effect below, then throw it at the target.
 - **Targeting and range:** The throw resists physical defense.
 - **Effect:** Deals **2d6** poison damage, and the designated effect takes effect.
 
 #### Effects
 
 1) **Severe Itching**
-   - Every time a new round starts, the target must immediately make a Will Test (Difficulty Value **20**), otherwise it is forced to use a swift action to scratch the skin, causing **1d3** physical damage to itself.
+   - Every time a new round starts, the target must immediately make a Will Test (Difficulty Value **20**), otherwise it is forced to use a Swift Action to scratch the skin, causing **1d3** physical damage to itself.
 
 2) **Shortness of Breath**
    - The targetâ€™s breath begins to weaken, the eyes lose focus, and the skills and attribute appraisals continue to suffer **-2 disadvantages**.
@@ -102,13 +102,13 @@ Your hair can be highly toxic.
    - Attacking / casting / full-round actions require a Will Test (Difficulty Value **10**) to execute successfully.
 
 4) **Vomiting**
-   - Every time a new round starts, the target must make a Constitution appraisal (Difficulty Value **20**), otherwise it starts vomiting and loses **1d6 HP**.
+   - Every time a new round starts, the target must make a Constitution appraisal (Difficulty Value **20**), otherwise it starts vomiting and loses **1d6 Vitality**.
 
 5) **Cough**
-   - Every time a new round starts, the target must make a Will Test (Difficulty Value **15**), otherwise it coughs violently and loses **1** attack/casting action, or **2** swift actions.
+   - Every time a new round starts, the target must make a Will Test (Difficulty Value **15**), otherwise it coughs violently and loses **1** attack/Casting Action, or **2** swift actions.
 
 #### Detoxification
 
-- **Use:** Use 1 casting action to perform any [[Medicine (skill)]] (Difficulty Value **20**) within **2 rounds**, or take a potion that can detoxify.
+- **Use:** Use 1 Casting Action to perform any [[Medicine (skill)]] (Difficulty Value **20**) within **2 rounds**, or take a potion that can detoxify.
 - **Effect:** The effect will continue after this time until **1 hour** passes, or until extraordinary medicine **Rescue** is used (whichever comes first).
 - **Special:** If the same biological effect is applied by more than **1** character, it lasts only **1 round**; if applied by more than **2** characters, it has no effect.

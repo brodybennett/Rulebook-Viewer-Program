@@ -14,14 +14,14 @@ tags: ["pathway:earth", "sequence:7"]
 
 - **Strength** +2
 - **Constitution** +2
-- **Agility** +1
-- **Inspiration** +1
+- **Agility (DEX)** +1
+- **Intuition (INT)** +1
 - Your **Botany** can be quickly learned to proficiency.
 
 ### Harvest
 
 - **Cost:** 3 spiritual points
-- **Use:** 1 casting action
+- **Use:** 1 Casting Action
 - **Targeting and range:** Choose a plant within 10 meters of you **or** throw one or multiple seeds.
 - **Effect:**
   - You read the [[Language of Mysticism]] and catalyze rapid growth and reproduction.
@@ -35,23 +35,23 @@ tags: ["pathway:earth", "sequence:7"]
 
 > **GM Note:** More common plants may be allowed by the GM. If the situation permits, the Harvest Priest may obtain or edit extraordinary crops usable in battle.
 
-- Plant identification for the options below uses **Inspiration + Botany** skill identification.
+- Plant identification for the options below uses **Intuition (INT) + Botany** skill identification.
 1. **Vines**
-   - **HP (blood volume):** 20
-   - **Actions:** 1 attack action per round
+   - **Vitality (blood volume):** 20
+   - **Actions:** 1 Attack Action per round
    - **Effect:** Deal **1d6** physical damage to 1 target (targets **Physical Defense**), or take the special action **Grapple**.
 2. **Poisonous Mushroom**
-   - **HP (blood volume):** 15
-   - **Actions:** 1 attack action or 1 casting action per round
+   - **Vitality (blood volume):** 15
+   - **Actions:** 1 Attack Action or 1 Casting Action per round
    - **Effect (choose one):**
      - **Grapple** any target through mycelium, or
      - Release poisonous mist (targets **Physical Defense**) dealing **1d6** poison damage to creatures within 10 meters.
 3. **Piranha**
-   - **HP (blood volume):** 20
-   - **Actions:** 1 attack action per round
+   - **Vitality (blood volume):** 20
+   - **Actions:** 1 Attack Action per round
    - **Effect:** Bite a target (targets **Physical Defense**) dealing **2d6** physical damage.
 4. **Hemp**
-   - **HP:** 15
+   - **Vitality:** 15
    - **Actions:** 1 spellcasting action per round
    - **Effect:** Release narcotic poisonous gas (targets **Physical Defense**). Creatures within 10 meters take **-2** to skill and attribute identification for **1 round**.
 
@@ -63,14 +63,14 @@ The Harvest Priest’s plants are regarded as a whole in battle. Once produced, 
 - **Movement:** They cannot move.
 
 1. **Defenses (by total plant count)**
-   - **Physical Defense:** 15 (Agility 5)
-   - **Will Defense:** 15
-   - Attacks against **Will Defense** are invalid for the plants.
+   - **Physical Defense:** 15 (Agility (DEX) 5)
+   - **Willpower Defense:** 15
+   - Attacks against **Willpower Defense** are invalid for the plants.
    - For every **5** plants, the base of the two **Defense Values** increases by **+5**, up to **30**.
 2. **Damage Allocation (by type priority)**
-   - Add up the **HP** of all plants by type (e.g., 2 vines = 40; 3 poisonous mushrooms = 45).
-   - Set a priority order for these types; when the plants suffer damage, subtract **HP** from the highest-priority type first.
-   - If a type’s **HP** is reduced to 0, all plants of that type are considered damaged.
+   - Add up the **Vitality** of all plants by type (e.g., 2 vines = 40; 3 poisonous mushrooms = 45).
+   - Set a priority order for these types; when the plants suffer damage, subtract **Vitality** from the highest-priority type first.
+   - If a type’s **Vitality** is reduced to 0, all plants of that type are considered damaged.
 3. **Activating plant abilities**
    - Each time a plant is created or activated, the Harvest Priest can choose **three** plants and activate the corresponding ability **once**.
    - You may choose repeated types, but only if there are multiple individuals of that type (e.g., if there is only one piranha, it can only be selected once).
@@ -102,10 +102,10 @@ When harvesting from land (as long as the land is not in a bad environment), cho
      - 2 = poisonous mushroom
    - Common mushroom does not have poison ability.
 3. **Sea of Flowers**
-   - **HP (blood volume):** 15
+   - **Vitality (blood volume):** 15
    - Passive; will not participate in battle.
    - Its attack is successful by default.
-   - It is an independent target, but its **HP** can be superimposed to occupy the upper limit of plants that exist at the same time.
+   - It is an independent target, but its **Vitality** can be superimposed to occupy the upper limit of plants that exist at the same time.
    - **Special:**
      - While the Sea of Flowers exists, naturally produced pollen increases identification of all plants in the area by **+2**.
      - Characters with special backgrounds may suffer from hay fever after the battle.

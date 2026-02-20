@@ -12,7 +12,7 @@ You are **Off Balance** when you lose your balance and fall to the ground.
 
 - You cannot perform **Move actions**.
 - Your Agility (DEX) is temporarily halved (rounded up). This affects your **Movement** and **Physical Defense**.
-- To stand up and regain balance, spend **1 Move action**.
+- To stand up and regain balance, spend **1 Move Action**.
 - Before you stand, dodging attacks can only be done by rolling to dodge.
 
 ## Helpless
@@ -96,7 +96,7 @@ Trigger limitations and stacking:
 
 You are **Dazed** by overwhelming pressure; your actions are briefly impeded.
 
-- For the duration, you lose either **1 Attack/Cast/Move action** or **2 Swift Actions**.
+- For the duration, you lose either **1 Attack/Casting/Move Action** or **2 Swift Actions**.
 - Which kind of action is lost is decided by you.
 - The Dazed state cannot stack.
   - The "lose actions" effect can still stack with action-restricting abilities other than Dazed (e.g., the Puppet Master's Spirit Body Thread Manipulation), causing an enemy to lose even more actions.
@@ -159,7 +159,7 @@ You enter **Rage** or **Taunted** when you become uncontrollably furious.
 3. To regain calm, at the start of each of your turns you may: use a **Difficulty 20 Consciousness** check to regain calm, or perform **1 Full Meditation**. **Half Meditation** can only halve your unfavorable modifier.
 4. One **Difficulty 20 Psychological Guidance** check, or damage suffered by a person or object you value, can cause you to immediately regain calm.
 
-## Physique Advantage / Disadvantage
+## Constitution (CON) Advantage / Disadvantage
 
 Differences in physique can grant an independent special advantage that does not overlap with normal Advantage or Disadvantage.
 
@@ -186,7 +186,7 @@ Typical physique size categories:
 
 You are in **Bloodbath** when you have suffered a grievous wound.
 
-- When your HP is below half of your maximum HP (rounded up), you are treated as being in the Bloodbath state.
+- When your Vitality is below half of your maximum Vitality (rounded up), you are treated as being in the Bloodbath state.
 - Entering Bloodbath also gives you the **Bleeding** effect.
 
 Bloodbath is divided into two cases:
@@ -194,39 +194,39 @@ Bloodbath is divided into two cases:
 ### Ordinary People
 
 - At the start of each round, make a **Difficulty 15 Constitution (CON)** check or you faint on the spot and are treated as **Helpless**.
-- Before receiving medical treatment, at the start of each round you lose **1d2 HP**.
+- Before receiving medical treatment, at the start of each round you lose **1d2 Vitality**.
 
 ### Beyonders
 
 - You must have gained a Constitution (CON) increase from at least one **Sequence** potion to gain this benefit.
 - You do not faint.
-- Although you still bleed, you do not lose HP.
+- Although you still bleed, you do not lose Vitality.
 - You are still treated as being in the Bloodbath state.
 
 Example: If an ability has a special effect against creatures in the Bloodbath state, you still suffer the corresponding effect.
 
 ## Bleeding
 
-You are **Bleeding** when you continuously lose HP due to injury (only very severe wounds are calculated).
+You are **Bleeding** when you continuously lose Vitality due to injury (only very severe wounds are calculated).
 
 - When you enter Bloodbath, you also gain the Bleeding effect.
 - Ordinary abrasions may still require bandaging, but they do not use this calculation.
 
-1. At the start of each round, you lose **1d2 HP**. Even if you leave the Bloodbath state, Bleeding does not end until you receive medical first aid or treatment.
+1. At the start of each round, you lose **1d2 Vitality**. Even if you leave the Bloodbath state, Bleeding does not end until you receive medical first aid or treatment.
 2. If the damage is not external (e.g., a Witch Pathway plague effect), you still bleed while in Bloodbath. This represents internal bleeding and organ damage. This bleeding must be stopped by Beyonder-sense medical aid or by reaching a hospital for treatment in time.
 
 ## Dying / Death
 
-You are treated as **Dying** or **Dead** when your HP reaches 0 or drops below 0.
+You are treated as **Dying** or **Dead** when your Vitality reaches 0 or drops below 0.
 
 ### Dying
 
-HP reduced to 0 or below 0 is treated as **Dying**.
+Vitality reduced to 0 or below 0 is treated as **Dying**.
 
 #### Ordinary People
 
 - Each round, you can perform at most **3 Free Actions** and **1 Swift Action**.
-- A **Difficulty 15 Willpower (WIL)** check allows you to barely convert these actions into **1 Attack/Cast/Move action**, but your **Movement** is halved.
+- A **Difficulty 15 Willpower (WIL)** check allows you to barely convert these actions into **1 Attack/Casting/Move Action**, but your **Movement** is halved.
 - At the start of each round, you must make a **Difficulty 15 Constitution (CON)** check; otherwise you die.
 
 #### Beyonders
@@ -237,8 +237,8 @@ HP reduced to 0 or below 0 is treated as **Dying**.
 ### Death
 
 - Use your Constitution (CON) value as your **death threshold**; this is a negative value.
-- If your HP is below 0 and also less than that negative value: ordinary people die on the spot; Beyonders are adjudicated as ordinary people in the Dying state.
-- If your current negative HP exceeds **twice** your threshold, then even Beyonders die on the spot.
+- If your Vitality is below 0 and also less than that negative value: ordinary people die on the spot; Beyonders are adjudicated as ordinary people in the Dying state.
+- If your current negative Vitality exceeds **twice** your threshold, then even Beyonders die on the spot.
 - After a Beyonder dies, a Beyonder Characteristic will precipitate after **5 minutes**; see [[id:alias-beyonder-characteristics|Beyonder Characteristics]] for details.
   - Beyonder creatures are treated the same as Beyonders.
 - Within **24 hours** after a corpse dies, the spirit body usually still remains in the body. After 24 hours, the spirit body begins to leave the corpse. A corpse that has been given a requiem usually cannot be raised as an undead creature.

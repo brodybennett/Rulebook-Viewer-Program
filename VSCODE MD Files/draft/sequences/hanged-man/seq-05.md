@@ -29,15 +29,15 @@ tags: ["pathway:hanged-man", "sequence:5"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +1, Agility +1, Inspiration +1.
+- **Attribute Gain:** Strength +1, Constitution +1, Agility (DEX) +1, Intuition (INT) +1.
 - Biology can be rapidly trained up to Erudition (reduced training counts).
 
 ### Herding
 
 - **Effect:** You devour other people’s souls into your body and drive them like lambs for the gods.
 
-- **Graze ([[full-round action]]):**
-  - As a full-round action, choose a dead target and graze it.
+- **Graze ([[Full-Round Action]]):**
+  - As a Full-Round Action, choose a dead target and graze it.
   - The target must be within 5 minutes of death (its [[spirit body]] has not dissipated, and its Extraordinary characteristics have not yet been released).
 
 - **Process of Grazing Souls:**
@@ -55,18 +55,18 @@ tags: ["pathway:hanged-man", "sequence:5"]
 - **Drive a Soul (no action):**
   - No action is required: choose 1 grazed soul to drive.
   - While driving it, you can use the 3 extraordinary abilities you selected from that soul; you do not need to switch between those three abilities.
-- However, switching which grazed extraordinary item is active usually requires 1 [[Free Action]]; up to 6 times in 1 round.
+- However, switching which grazed extraordinary item is active usually requires 1 Free Action; up to 6 times in 1 round.
 
 - **Benefits While Using a Driven Soul’s Abilities:**
   1. When you switch to the soul of the corresponding Pathway, you immediately show the corresponding characteristics. For example:
-     - [[Black Emperor Pathway]] makes you majestic immediately.
-     - [[Witch Pathway]] makes you beautiful immediately; if you are male, you become neutral.
+     - [[Black Emperor]] makes you majestic immediately.
+     - [[Demoness]] makes you beautiful immediately; if you are male, you become neutral.
   2. When casting a corresponding ability, use the grazed soul’s skill and attribute identifiers for the skill and attribute identification. When grazing, fill in the corresponding attributes and abilities on your character card.
-     - If there is no such data, treat your Inspiration + [[Mysticism]] as the corresponding attributes and skills of the soul.
+     - If there is no such data, treat your Intuition (INT) + [[Mysticism]] as the corresponding attributes and skills of the soul.
      - This requires your GM’s consent; otherwise, you still need to write the data corresponding to the soul with your GM.
 
-- **Release the Soul ([[full-round action]]):**
-  - As a full-round action, you **Release** one of the spirits you graze, freeing it from suffering.
+- **Release the Soul ([[Full-Round Action]]):**
+  - As a Full-Round Action, you **Release** one of the spirits you graze, freeing it from suffering.
   - The freed soul remembers its experience during the herding, can be channeled, and dissipates after 3d2 questions. [[channeling a soul]]
 - Dream divination for forced psychic psychics results in a 3-point penalty, and the soul is insufficient to maintain itself and quickly dissipates.
   - The Extraordinary characteristics are discharged from your body at the moment the soul is released, and do not affect you.

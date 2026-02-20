@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sequence 6: Faceless Man"
 id: "fool-seq-06"
 tags: ["pathway:fool", "sequence:6"]
@@ -35,7 +35,7 @@ tags: ["pathway:fool", "sequence:6"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2.
+- **Attribute Gain:** **Intuition (INT)** +2.
 - Your fighting skill goes up by 1 level.
 - Your disguise goes up by 2 levels.
 
@@ -49,7 +49,7 @@ tags: ["pathway:fool", "sequence:6"]
 
 ### Metamorphosis
 
-- **Use:** 1 casting action.
+- **Use:** 1 Casting Action.
 - **Cost:** Without expending **spirituality**.
 - **Effect:** You undergo a physically permanently altered disguise. You can permanently change into someone with a different appearance, but it is only a superficial change, not a real one.
 - **Additional effects:** This allows you to freely adjust **Charisma** between 1â€“6, but does not involve extraordinary strength.

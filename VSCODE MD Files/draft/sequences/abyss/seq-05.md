@@ -12,7 +12,7 @@ Capable of exploiting and manipulating emotions and desires, inducing corruption
 
 You can also forcibly impact an enemy’s spirit to make them inevitably feel certain emotions. You can transform into a pitch-black liquid, possess “filthy words” with different effects, and summon a magma sword. [[Filthy Words]] [[Magma Sword]]
 
-- See also: [[Abyss Pathway]]
+- See also: Abyss
 
 ## Advancement
 
@@ -28,8 +28,8 @@ You can also forcibly impact an enemy’s spirit to make them inevitably feel ce
 - **Ritual Nature (loss of control / sanity):**
   - “Abyss” is extremely easy to lose control from Sequence 6 and loses conventional emotional empathy. [[id:alias-abyss|Abyss]] [[id:alias-sequence-6|Sequence 6]]
   - Only through killing can one regain sanity; this must be offset by the pleasure brought by serial murders and the loss of sanity during promotion.
-  - Starting from Sequence 6, the demon’s sanity test must fail; if the promotion to Sequence 5 fails the sanity test, **1d10** sanity will be lost. [[sanity test]] [[Sanity]]
-- Therefore, the extra intellectual resistance through intoxication and sinking grants **Advantage** on Sanity checks during the ritual.
+  - Starting from Sequence 6, the demon’s sanity test must fail; if the promotion to Sequence 5 fails the sanity test, **1d10** sanity will be lost. [[sanity test]] [[Sanity / Rationality]]
+- Therefore, the extra intellectual resistance through intoxication and sinking grants **Advantage** on Sanity / Rationality checks during the ritual.
 
 ## Extraordinary Abilities
 
@@ -44,11 +44,11 @@ You exploit and manipulate emotions and desires, inducing corruption.
 #### Catalyze Emotions
 
 - **Cost:** 2 spirituality points. [[Spirituality]]
-- **Use:** 1 casting action.
+- **Use:** 1 Casting Action.
 - **Targeting and range:** Choose 1 target in your field of vision who is already in an emotional state.
 - **Limits:**
   - Disguised emotion cannot be catalyzed.
-  - Uncatalyzed emotions can be calmed after **1 round** by meditating as a casting/move action.
+  - Uncatalyzed emotions can be calmed after **1 round** by meditating as a casting/Move Action.
 - **Effect:** You intensify an existing emotion (e.g., weak anxiety becomes extreme; slight vigilance becomes nervous), producing the corresponding state below.
 
 **Catalyzed outcomes (examples and defined states):**
@@ -76,9 +76,9 @@ You exploit and manipulate emotions and desires, inducing corruption.
     - Continue to chase or attack the source of anger until the source of anger or the target dies, faints, or the person in anger is given **Difficulty Value 15** psychological guidance.
     - If the source of anger is things that are important to you, the state clears after causing damage once.
 
-- **Hormonal coveting of another’s body/beauty → Charm state**
+- **Hormonal coveting of another’s body/beauty → Charisma (CHA) state**
   - Love is catalyzed; the target enters fascination with the coveted person.
-  - **Charm state:**
+  - **Charisma (CHA) state:**
     - Obey the source of the charm, unless important things or people are involved.
     - When hostile, attack other people first.
     - Try to help them when talking.
@@ -87,7 +87,7 @@ You exploit and manipulate emotions and desires, inducing corruption.
 
 - **Admiration due to another’s charisma → Fascination (admiration variant)**
   - Admiration is catalyzed; the target falls into fascination for the admired.
-  - **Difference from Charm state:**
+  - **Difference from Charisma (CHA) state:**
     - Only makes the admired person beneficial to social identification **+4**.
     - When hostile, attack others first.
     - “Talking as much as possible to help talk” can only be removed by **Difficulty Value 15** psychological guidance.
@@ -132,7 +132,7 @@ You exploit and manipulate emotions and desires, inducing corruption.
 #### Detonate Desire
 
 - **Cost:** 2 spirituality points.
-- **Use:** 1 spell-casting action.
+- **Use:** 1 Casting Action.
 - **Targeting and range:** Choose 1 target within your field of vision who is in an emotional state; then choose a corresponding benefit to take effect.
 - **Effect:**
   - After the detonated emotion is over, the original corresponding emotional state is cleared until it is catalyzed again.
@@ -166,13 +166,13 @@ You exploit and manipulate emotions and desires, inducing corruption.
    - Only **Difficulty Value 25** psychological guidance can calm them; otherwise they do not stop until the source dies/faints, or self-death/fainting.
    - *(Extreme anger: Unable to damage the anger source; the source keeps provoking; no means to deal with it; no timely persuasion or psychological guidance identification to suppress anger.)*
 
-4. **Hormone Charm (detonated):**
+4. **Hormone Charisma (CHA) (detonated):**
    - The target abandons reason to obtain the charm source.
    - You, as the Player, make them immediately take an action that meets hormonal charm.
    - Note: best not to make other Players feel uncomfortable.
    - *(Extreme hormones: The moment when the charm and the charmed are engaged in behavior violating social customs and reaches the maximum 18, it is considered extreme.)*
 
-5. **Charm of personality (detonated):**
+5. **Charisma (CHA) of personality (detonated):**
    - The target does whatever it takes to gain the favor of the charm source.
    - You, as the Player, make them perform an action that would be favored by the charm source in their perception; no matter how crazy, they cannot recognize it as something that will arouse disgust.
    - *(Extreme longing: Continuously recognized by the charm source through heart-straightening events beyond usual imagination—e.g., a girl crushing on a prince is repeatedly confessed to and promised marriage.)*
@@ -196,7 +196,7 @@ You exploit and manipulate emotions and desires, inducing corruption.
 
 10. **Hunger state (detonated):**
    - The target immediately loses control due to excessive hunger, even if full.
-   - Must perform at least one attack action in each round to eat within **two rounds**.
+   - Must perform at least one Attack Action in each round to eat within **two rounds**.
    - If there is no food in the scene, they will eat people; the creature devours items, dealing **1d6** physical damage per item to it.
    - Cannibals prioritize choosing people other than teammates; under this condition, you can choose a target to be devoured as a Player.
    - *(Extreme hunger: Sudden lack of food to the limit of the human body, and suddenly witnessing the most favorite and most desired food.)*
@@ -208,13 +208,13 @@ You exploit and manipulate emotions and desires, inducing corruption.
 #### Degenerate Seeds
 
 - **Cost:** 2 spirituality points.
-- **Use:** 1 casting action.
+- **Use:** 1 Casting Action.
 - **Targeting and range:** Choose 1 target within your line of sight who must already be in an emotional state.
 - **Effect:**
   - After casting, you clear an emotional state you specify; it no longer has any effect.
   - The cleared emotional state becomes a potential emotional seed hidden in the target’s soul, and the target enters a depraved latent state.
 - **Depraved latent state:** One or more latent emotional seeds exist in the soul, equivalent to a mental illness with an infinite incubation period. As long as the Apostle of Desire wants to, they can treat it as a catalyzed detonation of desire at any time; the detonation corresponds to the original emotional state.
-- **Special:** Extraordinary people who can enter the spiritual island through the spectator path can clear the seed, and the separated and fallen thoughts of the Hanged Man path can also clear the seed. [[Spectator Pathway]] [[Spiritual Island]] [[Hanged Man Pathway]] [[Separated and Fallen Thoughts]]
+- **Special:** Extraordinary people who can enter the spiritual island through the spectator path can clear the seed, and the separated and fallen thoughts of the Hanged Man path can also clear the seed. Visionary [[Spiritual Island]] [[Hanged Man]] [[Separated and Fallen Thoughts]]
 
 ### Sense of Depravity
 
@@ -236,7 +236,7 @@ You perceive a desire to approach depravity in those around you.
 You transform your body into an illusory, viscous black liquid of various emotions and desires.
 
 - **Cost:** 2 spirituality points.
-- **Use:** As a swift action, once per round.
+- **Use:** As a Swift Action, once per round.
 - **Effect:** You collapse into a viscous black liquid whose shape you control.
 - **Benefits:**
   - Your movement remains the same, but you are treated as a fluid.

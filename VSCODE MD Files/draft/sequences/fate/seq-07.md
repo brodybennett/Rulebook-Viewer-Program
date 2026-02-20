@@ -14,8 +14,8 @@ tags: ["pathway:fate", "sequence:7"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** [[Inspiration]] +1, [[id:alias-luck|Luck]] +3.
-- You may replace any **skill identification** with a **Luck identification**, excluding **attribute identification**. [[Identification]]
+- **Attribute Gain:** Intuition +1, [[id:alias-luck|Luck]] +3.
+- You may replace any **skill identification** with a **Luck identification**, excluding **attribute identification**. Identification
 
 ### Luck
 
@@ -33,7 +33,7 @@ These effects adjust **Luck** and **Disadvantage** resources (not permanent attr
 
 - **Special:**
   - **Disadvantage** only applies to you personally. Area attacks may harm both you and your teammates.
-  - The above benefits do not affect the **sanity loss test**. [[Sanity Loss Test]]
+  - The above benefits do not affect the **sanity loss test**. [[Sanity / Rationality Loss Test]]
 
 - **Special Good Luck:**
   - If you roll 1 (Extreme good luck) or 2 (Better luck), you gain **Special Good Luck** for the next 6 hours.

@@ -8,7 +8,7 @@ tags: ["pathway:myster-pryer", "sequence:5"]
 
 ## Astrologer
 
-- **Pathway:** [[Secret-Seeker Pathway]]
+- **Pathway:** [[Hermit]]
 - **Sequence:** 5
 
 ## Advancement
@@ -23,6 +23,6 @@ tags: ["pathway:myster-pryer", "sequence:5"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2, **Will** +1
+- **Attribute Gain:** **Intuition (INT)** +2, **Will** +1
 - Your navigating skills increased by two levels.
 - Mystic

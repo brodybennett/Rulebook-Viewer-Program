@@ -22,12 +22,12 @@ You gain the following extraordinary abilities:
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +1, Dexterity +1.
+- **Attribute Gain:** Intuition (INT) +1, Agility (DEX) +1.
 - Your **Deceit** skill increases by 1 skill level, and one other skill of your choice increases by 1 skill level.
 
 ### BUG
 
-- **Use:** 1 **free action** [[Free Action]].
+- **Use:** 1 **free action** Free Action.
 - **Limits:** Can only be used once per round.
 - **Effect:** You can make any loopholes in the logic of rules and destiny come true.
 - **Effect notes:**

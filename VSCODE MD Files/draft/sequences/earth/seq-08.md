@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sequence 8: Doctor"
 id: "earth-seq-08"
 tags: ["pathway:earth", "sequence:8"]
@@ -12,12 +12,12 @@ tags: ["pathway:earth", "sequence:8"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +2, Agility +1, Inspiration +1.
+- **Attribute Gain:** Strength +1, Constitution +2, Agility (DEX) +1, Intuition (INT) +1.
 - **Skill Gain:** Medical Guidance +1 level; Psychological Guidance +1 level.
 
 ### Rapid Growth
 
-- Your Medical Guidance / Psychological Guidance are included in the rapid growth category of [[Sequence 9]].
+- Your Medical Guidance / Psychological Guidance are included in the rapid growth category of Sequence 9.
 - Each time you cure a disease/injury that:
   - does **not** repeat the type, and
   - has at least moderate injuries,
@@ -48,7 +48,7 @@ Use **Mastery** as the canonical tier name in this section; any "Master" mention
    - **Consumes (each treatment):** 1 restoration herb **or** 3 medicinal plants.
 
 3. **Serious Injury:** Remaining blood volume is less than 3 points; dying and other states are serious injuries.
-   - **Action change:** Treatment becomes **1 full-round action**.
+   - **Action change:** Treatment becomes **1 Full-Round Action**.
    - **Other requirements:** The rest is equal to moderate injury.
    - After blood volume returns to above the standard line of serious injury, it will be judged as moderate injury.
 
@@ -60,10 +60,10 @@ A seriously injured patient needs to be treated once, turning the serious injury
 ### Healing
 
 - **Cost:** 3 spiritual points.
-- **Use:** 1 casting action.
+- **Use:** 1 Casting Action.
 - **Targeting and range:** Choose 1 target you touch.
-- **Effect:** Restores 2d6 HP and removes the effect of poison that has not deteriorated on the body.
-- **Injury scaling:** The HP restoration changes to:
+- **Effect:** Restores 2d6 Vitality and removes the effect of poison that has not deteriorated on the body.
+- **Injury scaling:** The Vitality restoration changes to:
   - 1d6 for moderate injuries
   - 1d4 for serious injuries
 
@@ -73,13 +73,13 @@ A seriously injured patient needs to be treated once, turning the serious injury
 
 #### Scaling by Sequence (Future Improvements)
 
-- [[Sequence 7]]: Recover 3d6 HP instead; 2d6 for moderate wounds; 1d6 for critical wounds.
+- Sequence 7: Recover 3d6 Vitality instead; 2d6 for moderate wounds; 1d6 for critical wounds.
 - [[id:alias-sequence-6|Sequence 6]]:
   - Moderate injuries no longer suffer recovery reduction.
   - The witchâ€™s upper limit of healing is raised to infection level 3.
   - The rest of the toxins can still be cleared even if they miss the golden healing time, as long as it does not exceed 5 minutes.
 - [[Sequence 5]]:
-  - Restored HP changes to 4d6.
+  - Restored Vitality changes to 4d6.
   - Serious injuries are also included in the scope of treatment; as long as it is not terminally ill, it can be treated.
 
 #### Special

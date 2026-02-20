@@ -6,7 +6,7 @@ tags: ["pathway:red-priest", "sequence:1"]
 
 # Sequence 1: Conqueror
 
-**Pathway:** [[Red Priest Pathway]].
+**Pathway:** [[Red Priest]].
 
 This entry describes **Sequence** 1: Conqueror.
 

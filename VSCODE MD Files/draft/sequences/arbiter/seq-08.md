@@ -24,8 +24,8 @@ tags: ["pathway:arbiter", "sequence:8"]
 
 - **Strength** +1
 - **Constitution** +1
-- **Agility** +1
-- **Inspiration** +1
+- **Agility (DEX)** +1
+- **Intuition (INT)** +1
 - **Tracking** and all attack skills increased by 1 level. [[Tracking]]
 
 - Whenever you apprehend/solve a non-repeating, challenging enemy by stalking or chasing clues, your Tracking skill goes up by 1 level; the number of growths required is GM-defined (typically based on the Sequence 9 cap and reputation boost).

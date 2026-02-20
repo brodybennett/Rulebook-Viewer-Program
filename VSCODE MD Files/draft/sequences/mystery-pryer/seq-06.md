@@ -10,7 +10,7 @@ tags: ["pathway:myster-pryer", "sequence:6"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** [[Inspiration]] +2
+- **Attribute Gain:** Intuition +2
 - Your [[Occult]] / [[Occult Language]] can be quickly raised to [[Erudition]] (treat Erudition as the standard skill rank).
 
 ### Scroll Scribe
@@ -18,20 +18,20 @@ tags: ["pathway:myster-pryer", "sequence:6"]
 You can transcribe magic into scrolls.
 
 - **Cost:** 1 piece of [[Parchment]] (consumed).
-- **Use:** Takes 1 minute to conduct a [[Mystery]] with a difficulty of 25; if the [[Identification]] is successful, the spell is successfully copied into the scroll.
+- **Use:** Takes 1 minute to conduct a [[Mystery]] with a difficulty of 25; if the Identification is successful, the spell is successfully copied into the scroll.
 - **Effect:**
   1. Spells transcribed are limited to the effects of:
      - [[Voyeur Spells]]
      - [[Timber Witchcraft]]
      - [[Ritual Magic]]
-  2. Transcribed spells may have already been strengthened by [[Knowledge Enhancement]]. Casting a spell that has been strengthened by Knowledge Enhancement through the scroll requires only one [[Casting Action]].
+  2. Transcribed spells may have already been strengthened by [[Knowledge Enhancement]]. Casting a spell that has been strengthened by Knowledge Enhancement through the scroll requires only one Casting Action.
   3. **Scroll** ≠ **Record**: because the scroll can transcribe the effects of Ritual Magic, you can pray to the corresponding gods to obtain extraordinary abilities through Ritual Magic. This process is like a spell, and you cannot transcribe the ability of attack actions.
      - [[Record]]
      - [[Attack Actions]]
 
 #### Using a Scroll
 
-1. One spell-casting action: consume 3 [[Spiritual Points]], read the spell, and activate the scroll to release the magic inside. No roll is required; it can be used directly according to the original ability. This differs from a spell and can be roughly understood as a high-level spell.
+1. One Casting Action: consume 3 [[Spirituality]], read the spell, and activate the scroll to release the magic inside. No roll is required; it can be used directly according to the original ability. This differs from a spell and can be roughly understood as a high-level spell.
 2. The shelf life of the scroll is 7 days; the effect will not be reduced.
    > **GM Note:** Usually, there will be no [[Demigod Materials]] to make [[Demigod Scrolls]].
 
@@ -39,11 +39,11 @@ You can transcribe magic into scrolls.
 
 For an ability copied into a scroll by you that has not obtained Knowledge Enhancement (but comes from other means), you can apply Knowledge Enhancement to it within the scroll.
 
-- **Use:** The moment you craft another [[Pathway]] ability scroll, choose one benefit to add to the embedded ability.
+- **Use:** The moment you craft another Pathway ability scroll, choose one benefit to add to the embedded ability.
 - **Effect (choose one):**
   - **Originally required continuous maintenance:** The scroll cannot continuously maintain the effect. Instead, make an **Occult check** against **Will defense**; on success, apply the corresponding effect for **1d2 rounds**.
     - [[Occult check]]
-    - [[Will Defense]]
+    - Willpower Defense
     - > **GM Note:** Originally, mental abilities are against Will defense; physical damage abilities are against [[Physical Defense]]; and those affected by poisons and diseases are against Physical Defense.
     - > **GM Note:** Example: [[Requiem of the Dark Night]] requires continuous spellcasting maintenance, but an instant-cast [[Mystic Scroll]] cannot do this.
   - **Originally single-target:** Change it to a group effect, affecting all targets within a radius of **10 meters**.

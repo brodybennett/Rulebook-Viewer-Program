@@ -8,7 +8,7 @@ tags: ["pathway:red-priest", "sequence:9"]
 
 ## Hunter
 
-- See also: [[Red Priest Pathway]]
+- See also: [[Red Priest]]
 
 > **Lore:** The embodiment of war and pure masculinity, corresponding to the Tarot card “Chariot” ([[Tarot - Chariot]]).
 
@@ -23,7 +23,7 @@ tags: ["pathway:red-priest", "sequence:9"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +2, Constitution +1, Dexterity +1, Inspiration +1.
+- **Attribute Gain:** Strength +2, Constitution +1, Agility (DEX) +1, Intuition (INT) +1.
 - All fighting-related skills increase by 1 level.
 
 ### Skill Growth
@@ -38,14 +38,14 @@ tags: ["pathway:red-priest", "sequence:9"]
    - Detection
    - Throwing
    - Listening  
-   This increase **cannot exceed Proficiency**. [[Proficiency]]
+   This increase **cannot exceed Proficiency**. Proficiency
 
 2. **Hunting Growth:** It takes **2, 3, and 4 times** to be trained to be **Proficiency, Advanced, and Master** respectively.  
    Each time you successfully hunt an enemy stronger than you, it is also regarded as a skill growth. Choose any one of the above skills as the growth skill; apply the growth.
 
-- Note on newly promoted characters and Inspiration:
-  - It is not that a character who has just been promoted can use the relevant attributes brought by the potion (and corresponding to the skill) as Inspiration to add points to the growth skill.
-  - The potion’s own Inspiration attribute can choose any skill to grow, regardless of whether the skill is inspired or not. [[Inspiration]]
+- Note on newly promoted characters and Intuition (INT):
+  - It is not that a character who has just been promoted can use the relevant attributes brought by the potion (and corresponding to the skill) as Intuition (INT) to add points to the growth skill.
+  - The potion’s own Intuition (INT) attribute can choose any skill to grow, regardless of whether the skill is inspired or not. Intuition
 
 ### Law of the Jungle
 
@@ -74,14 +74,14 @@ tags: ["pathway:red-priest", "sequence:9"]
 ### Trap Making
 
 - You can place traps in an area. This area must be a relatively small room, difficult to move, or another suitable location for traps.
-- **Use:** As a full-round action, you must reach the designated location and set a trap.
+- **Use:** As a Full-Round Action, you must reach the designated location and set a trap.
 
 #### Trap Placement Conditions
 
 1. The number of traps depends on your materials, and your materials depend on your [[Reputation]]. If your reputation is not Advanced, your trap upper limit equals your reputation level × 3. If your Reputation is Advanced or higher, multiply by 5 (Proficiency does not count as Advanced).
 
 3. When a creature that is not blind and can see the surrounding environment is close to the trap, it can use a **Difficulty Value 25** Detection / Survival / Crafting check to find the trap. If you are in the field or in the ruins, you can use **Difficulty Value 20** Geology and Archeology respectively instead.  
-   [[Detection]]  
+   Detection  
    [[Geology]]  
    [[Archeology]]
 
@@ -105,7 +105,7 @@ tags: ["pathway:red-priest", "sequence:9"]
 
 - **Use:** Choose an area; set up warning traps in this area and choose a way for the trap to remind you there is a target (e.g., hang a bell, or a tied wine bottle that falls).
 - **Effect:** Once a creature passes through the edge of the area in physical form (where the warning trap is located), the bell or wine bottle immediately reminds you that the trap is triggered.
-- **Reset:** Whenever the warning trap is triggered, you must go to where it is placed and use a full-round action to reinstall it before it can be triggered again.
+- **Reset:** Whenever the warning trap is triggered, you must go to where it is placed and use a Full-Round Action to reinstall it before it can be triggered again.
 
 ##### Capture Trap
 
@@ -126,7 +126,7 @@ tags: ["pathway:red-priest", "sequence:9"]
 - **Form Examples:** Triggered crossbow arrows, animal traps, and so on.
 - **Leg Immobilization:** If the trap is similar to a trap, it is also considered to have delivered a vital blow to the leg; the creature must use an attack or spellcasting action to dismantle the trap, otherwise it cannot move.
 - **Triggering Limits:** A creature can only trigger one hunting trap at the same time, but every movement action may cause it to trigger once.
-- **Reset:** Each hunting trap must take a full-round action after being triggered to return to its untriggered state.
+- **Reset:** Each hunting trap must take a Full-Round Action after being triggered to return to its untriggered state.
 
 ##### Explosive Trap
 
@@ -145,7 +145,7 @@ tags: ["pathway:red-priest", "sequence:9"]
 #### Manual Triggering and Self-Safety
 
 - If you choose to trigger the trap manually when placing the trap:
-  - Once in a round, only one swift action can be triggered at a time.
+  - Once in a round, only one Swift Action can be triggered at a time.
 
 - You are familiar with your trap arrangement:
   - Unless there is a big failure, or the trap is passive, you will not trigger your own trap involuntarily.
@@ -153,7 +153,7 @@ tags: ["pathway:red-priest", "sequence:9"]
 
 #### Sequence Promotion (Trap Making)
 
-- **Sequence 6:** It only takes 1 casting or attack action to set up a trap; you can designate a location without the setting process, and it is regarded as a trap immediately there.
+- **Sequence 6:** It only takes 1 casting or Attack Action to set up a trap; you can designate a location without the setting process, and it is regarded as a trap immediately there.
 
 - **Special (from now on):** Your traps gain some occult effects, and the damage vectors in the traps can be replaced with your different types of fire.
   1. **Hunting Trap:** Can be turned into fire damage (e.g., hidden rockets shot out when triggered).
@@ -167,13 +167,13 @@ tags: ["pathway:red-priest", "sequence:9"]
 
 - **Quick Dodge:** You can dodge firearms.
 
-1. Against firearms (rather than light/lightning-type attacks), you retain full Agility and Dodge in Physical Defense.
+1. Against firearms (rather than light/lightning-type attacks), you retain full Agility (DEX) and Dodge in Physical Defense.
 
 2. When you face non-gun-like high-speed attacks, such as the flames of the Red Priest and the ice spear of the Witch.  
    [[Red Priest]]  
    [[Witch]]
 
-3. For any attack whose described speed does not reach the level of a gun, unless it must be hit, you retain your Agility and Dodge defenses and also gain an additional dodge bonus.
+3. For any attack whose described speed does not reach the level of a gun, unless it must be hit, you retain your Agility (DEX) and Dodge defenses and also gain an additional dodge bonus.
 
 - Note: When facing firearms, your extra evasion is invalid, but the original full agility and evasion defenses are still retained.
 
@@ -191,7 +191,7 @@ tags: ["pathway:red-priest", "sequence:9"]
 - **Effect:** You activate Spiritual Vision, and your vision gains the following benefits:
 
 
-- You gain Spiritual Vision, but it is not as effective for you as your own Inspiration.
+- You gain Spiritual Vision, but it is not as effective for you as your own Intuition (INT).
 
   1. **Etheric body:** You can roughly tell whether the other party’s body is good or bad through the color of the aura, but you can’t get detailed information.
   2. **Spiritual body:** You can confirm whether an object/creature has spirituality; this cannot identify extraordinary people.

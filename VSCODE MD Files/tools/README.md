@@ -92,4 +92,24 @@ python tools/prune_registry_aliases.py --repo . --write
 python tools/bootstrap_style_guide.py --repo . --write --write-template
 ```
 
+## 8) Canon term lint (Phase 0 naming lock)
+
+Scan markdown for non-canonical terms from `meta/canon_terms.yml` and print a replacement report:
+
+```bash
+python tools/lint_canon_terms.py --repo . --content-root draft
+```
+
+Use a deliberate-deviation allowlist (default file is `meta/canon_allowlist.yml`):
+
+```bash
+python tools/lint_canon_terms.py --repo . --allowlist meta/canon_allowlist.yml
+```
+
+Write JSON output:
+
+```bash
+python tools/lint_canon_terms.py --repo . --json-out reports/canon_term_lint.json
+```
+
 

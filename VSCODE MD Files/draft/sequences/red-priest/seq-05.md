@@ -21,8 +21,8 @@ tags: ["pathway:red-priest", "sequence:5"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +2, Constitution +1, Agility +1, Will +2.
-- All your [[Sequence 9 skills]] can quickly grow to **Master**. [[Master]]
+- **Attribute Gain:** Strength +2, Constitution +1, Agility (DEX) +1, Willpower (WIL) +2.
+- All your Sequence 9 skills can quickly grow to **Master**. [[Master]]
 - [[Mysticism]] can be upgraded to **Erudition**. [[Erudition]]
 
 ### Spot Weaknesses
@@ -30,10 +30,10 @@ tags: ["pathway:red-priest", "sequence:5"]
 > **Lore:** You are good at spotting the weaknesses of your prey.
 
 - **Cost:** None (does not consume **Spirituality**). [[Spirituality]]
-- **Use:** 1 **Free Action**. [[Free Action]]
-- **Limits:** 1 time per **Round**. [[Round]]
+- **Use:** 1 **Free Action**. Free Action
+- **Limits:** 1 time per **Round**. Round
 - **Targeting and range:** Choose 1 target within your [[Field of Vision]].
-- **Test:** Perform a [[Detection test]] with **Difficulty Value** 20. [[Difficulty Value]]
+- **Test:** Perform a [[Detection test]] with **Difficulty Value** 20. Difficulty Value
 - **Effect:**
   1. If the identification is successful, you immediately know the opponent’s weakness from a tactical point of view (e.g., darkness/corruption/undead creatures fear the sacred; plants fear poison; stone giants fear ice and fire). This does not mean you know the opponent’s creature type.
   2. At the same time, you learn which of the opponent’s existing [[Resistance]] is the lowest. You do not know the specific resistance value—only which resistance is lowest (i.e., which attack is most effective).
@@ -45,7 +45,7 @@ tags: ["pathway:red-priest", "sequence:5"]
 #### Weakness Attack
 
 - **Cost:** 2 points of **Spirituality**.
-- **Use:** 1 attack/casting/swift action that causes damage. [[Swift Action]]
+- **Use:** 1 attack/casting/Swift Action that causes damage. Swift Action
 - **Effect:** The various colors of the target’s body immediately appear in your eyes.
   1. The position representing the weakness is pale. This attack is **-8 disadvantageous**, and the damage caused is increased by 3d6. [[Disadvantageous]]
   2. This is a **Vital Blow**, which cannot be superimposed with other **Vital Blows**. [[Vital Blow]] The weakness from this mystical point of view is not necessarily the internal organs and other locations.
@@ -55,10 +55,10 @@ tags: ["pathway:red-priest", "sequence:5"]
 #### Fatal Attack
 
 - **Cost:** 4 points of **Spirituality**.
-- **Use:** 1 attack/casting/swift action that causes damage.
+- **Use:** 1 attack/casting/Swift Action that causes damage.
 - **Effect:** The eyes will also appear in color.
   1. This strike has the effect of **Weak Point Attack** by default. [[Weak Point Attack]] As long as it hits the opponent, no matter where it hits (even if it is armor), it is considered to cause a weak point attack.  
-     (So as long as your attack Identification roll exceeds the target’s Agility + Dodge, even if it does not penetrate the armor, it can still cause 3d6 default damage.) [[Agility]] [[Dodge]] [[Armor Penetration]]
+     (So as long as your attack Identification roll exceeds the target’s Agility (DEX) + Dodge, even if it does not penetrate the armor, it can still cause 3d6 default damage.) Agility (DEX) Dodge [[Armor Penetration]]
      - But because the real damage does not penetrate, no matter how much damage you could have caused, it is only 3d6 at this time.
   2. On the basis of 1, you are considered to have performed a real **Critical Strike** special action, but this critical strike also only has a -8 disadvantage, and the effects of the **Vital Strike** special action can be superimposed with the weak point attack. [[Critical Strike special action]] [[Vital Strike special action]]
 

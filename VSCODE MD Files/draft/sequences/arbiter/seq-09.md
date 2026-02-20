@@ -15,7 +15,7 @@ tags: ["pathway:arbiter", "sequence:9"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +1, Dexterity +1, Inspiration +1.
+- **Attribute Gain:** Strength +1, Constitution +1, Agility (DEX) +1, Intuition (INT) +1.
 - Your [[Fighting (Skill)]] skills rise by 1 level.
 
 ### Reputation Growth
@@ -24,17 +24,17 @@ tags: ["pathway:arbiter", "sequence:9"]
 - Such increased Reputation:
   - Will not provide you with assets.
   - Will only increase your personal authority.
-  - Can (at most) quickly increase to mastery. [[Skill Ranks]]
+  - Can (at most) quickly increase to mastery. Skill Ranks
 - **Limit:** This improvement is limited to 1 time per day, so as to leave enough time for your reputation to start spreading.
 - From training â†’ proficient â†’ advanced, you need to preside over justice **2** and **3** times respectively; advancement caps at **Advanced**.
-- Creating a character that isn't just promoted can boost growth skills with **double the potion's Inspiration**. [[Potion]]
+- Creating a character that isn't just promoted can boost growth skills with **double the potion's Intuition (INT)**. [[Potion]]
 
 ### Arbitrating Authority
 
 - **Effect:**
   1. Your Reputation and **Charisma**-related identification is favorable +2. This does not affect your assets and appearance, but your personality charm. [[Charisma]]
   2. When performing any [[Social skill appraisal]] , you can replace the corresponding skill with a Reputation appraisal, replace social interaction with your charm and authority, and communicate based on your personality charm and authority to make people convincing.
-  3. In the event of conflict, you can shout “Stop!”, and your Reputation will fight against all [[Will Defense]] defenses to stop the conflict.
+  3. In the event of conflict, you can shout “Stop!”, and your Reputation will fight against all Willpower Defense defenses to stop the conflict.
 - **Limits:**
   - The effect does not include the target that has been determined to be hostile. [[Hostile (status)]]
   - It can temporarily calm the creatures affected by emotions and stop the creatures whose desires are detonated. [[Desire detonation]]
@@ -45,21 +45,21 @@ tags: ["pathway:arbiter", "sequence:9"]
 
 - **Effect:**
   1. Your Fighting (including subdivision) increases the damage by 1d6, and the damage type is the same as the original damage.
-  2. In addition to [[Credit]] , your Fighting (including subdivision) skills can also be quickly improved. The limit and number of upgrades are the same as your Reputation, but the condition for improvement is changed to accept at least 2 hours of real, non-repeated effective guidance, and the maximum reaches proficient. [[Proficient]]
+  2. In addition to [[Credit]] , your Fighting (including subdivision) skills can also be quickly improved. The limit and number of upgrades are the same as your Reputation, but the condition for improvement is changed to accept at least 2 hours of real, non-repeated effective guidance, and the maximum reaches proficient. Proficient
   3. It is beneficial +2 to [[Special action appraisals]] such as critical strike / two combo / close shooting, excluding first aid / surprise attack, and does not affect special actions that simply gain benefits. For example, gaining momentum and aiming will not change from +2 to +4. Only affects identification.
-  4. You gain [[id:alias-fast-dodge|Fast dodge]] , retain full physical defense against [[Firearms]] (excluding light/lightning), and gain 1 extra level of dodge. [[Dodge]]
+  4. You gain [[id:alias-fast-dodge|Fast dodge]] , retain full physical defense against [[Firearms]] (excluding light/lightning), and gain 1 extra level of dodge. Dodge
 - **Scaling:**
-  - [[Sequence 7]] and [[Sequence 5]]: Your extra evasion increases by 1 level. [[Evasion]]
+  - Sequence 7 and [[Sequence 5]]: Your extra evasion increases by 1 level. [[Evasion]]
 - **Limits:**
   - This is the effect brought by the potion and cannot be stolen or recorded.
 
 ### Verdict
 
-- **Cost:** 1 **casting action** [[Casting Action]]; consume 3 **spirituality points** [[Spirituality]].
+- **Cost:** 1 **Casting Action** Casting Action; consume 3 **spirituality points** [[Spirituality]].
 - **Targeting and range:** Choose 1 target who has committed a crime within the [[Field of Vision]].
 - **Use:**
   - Say the keyword “judgment,” then say the content of your judgment (for example, “My verdict is, leave it!”).
-  - Use the Reputation test to counter its [[Will Test]].
+  - Use the Reputation test to counter its Will Test.
 - **Effect:**
   1. If the test is successful, the opponent must fulfill the content.
   2. The content of the ruling specified by you should be closely related to the crime committed (for example, you cannot make the target kill itself for stealing).
@@ -74,7 +74,7 @@ tags: ["pathway:arbiter", "sequence:9"]
 
 (harassment, abuse, stealing/taking things of no value to the original owner, etc.; offenses against public morals are also crimes)
 
-1. **“Leave!”**: The target must perform a **movement action** [[Movement Action]] immediately, and the direction of all movement actions within 1 round must be away from this place.
+1. **“Leave!”**: The target must perform a **movement action** Movement Action immediately, and the direction of all movement actions within 1 round must be away from this place.
 2. **“Return it!”**: If the target takes something that does not belong to it and is related to the convicted crime, it is required to return it immediately.
 3. **“Apologize!”**: If the target committed a fault and it is related to the crime for which it was convicted, it is immediately forced to apologize.
 
@@ -99,7 +99,7 @@ tags: ["pathway:arbiter", "sequence:9"]
 
 ### Vision
 
-> **Lore:** You gain vision, but it is not as effective for you as your own Inspiration.
+> **Lore:** You gain vision, but it is not as effective for you as your own Intuition (INT).
 - **Use:** 1 free action.
 - **Cost:** Consuming 1 **spirituality point** per round.
 - **Effect:** You activate vision, and your vision gains the following benefits:
@@ -112,7 +112,7 @@ tags: ["pathway:arbiter", "sequence:9"]
   5. When in the state of spiritual vision, your [[Spiritual Intuition Test]] is beneficial +1.
 - **Notes:**
   - Creatures that are dead are usually dull in color and cannot be identified.
-  - Spiritual materials are usually spiritual, but you cannot determine the corresponding path. [[Pathway]]
+  - Spiritual materials are usually spiritual, but you cannot determine the corresponding path. Pathway
   - The colors seen by the spirit vision allow you to see each other in the dark, but you can only see the existence of colors, and it is still possible to get lost in the dark, because the colors you can see are limited; you cannot use them to distinguish the undead biology.
   - Spirit Vision can see some ordinary spirit bodies by default, which have not dissipated for 24 hours.
 - **Limits:**

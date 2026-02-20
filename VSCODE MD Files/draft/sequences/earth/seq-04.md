@@ -18,14 +18,14 @@ tags: ["pathway:earth", "sequence:4"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +2, Dexterity +1, Inspiration +2, **Biology** +1 skill level. [[Biology]]
+- **Attribute Gain:** Strength +1, Constitution +2, Agility (DEX) +1, Intuition (INT) +2, **Biology** +1 skill level. [[Biology]]
 
 ### Alchemy of Life
 
 You use incomplete spirits and materials to create a life.
 
 - **Cost:** 4 **spirituality points**. [[Spirituality]]
-- **Use:** As a **casting action**; takes 1d2 hours.
+- **Use:** As a **Casting Action**; takes 1d2 hours.
 - **Effect:** Make a Biology check (**Difficulty Value** 20). On a success, you create one of the following alchemical creatures.
 
 The creatures made from life tend to be a “template.” You can achieve the final life body you want through biological transformation.
@@ -38,7 +38,7 @@ The creatures made from life tend to be a “template.” You can achieve the fi
   - You can extend their life through other transformation methods.
 
 - **Stone Golem:**
-  - **Health Points:** 25
+  - **Vitality Points:** 25
   - **Strength and attack identification:** +8
   - **Armor Defense:** 15+5
   - **Attack damage:** 2d6 physical damage
@@ -46,7 +46,7 @@ The creatures made from life tend to be a “template.” You can achieve the fi
   - **Immunity:** fire damage (Black Flame is not included). [[Black Flame]]
 
 - **Earth Golem:**
-  - **Health Points:** 20
+  - **Vitality Points:** 20
   - **Strength and attack identification:** +5
   - **Armor Defense:** 10+5
   - **Attack damage:** 1d6 physical damage
@@ -58,7 +58,7 @@ The creatures made from life tend to be a “template.” You can achieve the fi
     - Considered invisible before being discovered. [[invisibility]]
 
 - **Steel Golem:**
-  - **Health Points:** 35
+  - **Vitality Points:** 35
   - **Strength and attack checks:** +10
   - **Armor Defense:** 15+8
   - **Attack damage:** 2d6+3 physical damage
@@ -81,10 +81,10 @@ The creatures made from life tend to be a “template.” You can achieve the fi
 
 Increases the madness and out-of-control tendency of the person attacked.
 
-- **Use:** Usually accompanied by an **attack action**; once per round.
+- **Use:** Usually accompanied by an **Attack Action**; once per round.
 - **Effect:** This takes effect on enemies who have suffered sanity checks in this round.
-  - The enemy you attacked enters **temporary madness** if its **sanity damage** reaches 2 when it suffers a **sanity test** in this round. [[Sanity Damage]] [[sanity test]] [[Temporary Madness]]
+  - The enemy you attacked enters **temporary madness** if its **sanity damage** reaches 2 when it suffers a **sanity test** in this round. [[Sanity / Rationality Damage]] [[sanity test]] [[Temporary Madness]]
   - The enemy you attacked enters **indeterminate madness** if its sanity damage reaches 5. [[indeterminate madness]]
 - If its sanity is less than 30%, it enters a state of **out of control**. [[out of control]]
 
-- **Special:** A **Beyonder** of the **Spectator Pathway** can circumvent this effect by passing a successful **Mental Channeling** identification. [[Spectator Pathway]] [[Mental Channeling]]
+- **Special:** A **Beyonder** of the **Spectator Pathway** can circumvent this effect by passing a successful **Mental Channeling** identification. Visionary [[Mental Channeling]]

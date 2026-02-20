@@ -8,7 +8,7 @@ tags: ["pathway:mutant", "sequence:3"]
 
 ## Disciple of Silence
 
-- See also: [[Pathway of Disciple of Silence]]
+- See also: Pathway of Disciple of Silence
 
 **Alias note:** “Silent Disciple” is an alias for “Disciple of Silence” in this draft.
 
@@ -23,7 +23,7 @@ tags: ["pathway:mutant", "sequence:3"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Constitution +2, Dexterity +1, Strength +2, Inspiration +1
+- **Attribute Gain:** Constitution +2, Agility (DEX) +1, Strength +2, Intuition (INT) +1
 
 ### Cursed Thing
 
@@ -43,11 +43,11 @@ tags: ["pathway:mutant", "sequence:3"]
 
 ### Transformation Curse
 
-- **Use:** A **spellcasting action** [[Spellcasting Action]].
+- **Use:** A **spellcasting action** Spellcasting Action.
 - **Cost:** 3 points of spirituality.
-- **Check:** [[Occult]] against [[Will Defense]], at -12 disadvantage.
+- **Check:** [[Occult]] against Willpower Defense, at -12 disadvantage.
 - **Effect:** You turn a target in sight into an animal. After transformation, it will “lose” most of its characteristics and extraordinary abilities. This is regarded as a curse.
-- **Duration:** One encounter. [[Encounter]]
+- **Duration:** One encounter. Encounter
 - **Manifestation:** Your mouth opens, as if making a silent scream, which can turn the target into another creature.
 - **Extra (non-creatures):** It is also valid for non-creatures. For example, you can turn a steam tank into a sheep with a dull expression. The driver will be wrapped in the sheep's body immediately, and then the sheep's belly will pop out, and a driver will appear out of nowhere.
 
@@ -63,13 +63,13 @@ In this reference case, you can create the following animals:
 9. Squirrel
 10. Fish (if at sea)
 
-- **At Sequence 2:** You can use this ability on multiple targets in sight at once, and change it to a [[Free Action]] once in 1 round, turning the targets reflected in the eyes into other creatures. There is almost no upper limit for the maintenance time; it cannot be undone without the same level of confrontation or the correct method. [[Round]]
+- **At Sequence 2:** You can use this ability on multiple targets in sight at once, and change it to a Free Action once in 1 round, turning the targets reflected in the eyes into other creatures. There is almost no upper limit for the maintenance time; it cannot be undone without the same level of confrontation or the correct method. Round
 
 ### Extra: Death Path Immunity Limits
 
-- **Effect:** From now on, your curse is still valid for the [[Death Pathway]] of your same level. The curse damage cannot be immune but can only be halved. Not only limited to the curse ability of Sequence 3; it is applicable to all your curse abilities, as long as you reach the Sequence 3.
+- **Effect:** From now on, your curse is still valid for the Death of your same level. The curse damage cannot be immune but can only be halved. Not only limited to the curse ability of Sequence 3; it is applicable to all your curse abilities, as long as you reach the Sequence 3.
 
 ### Silent Disciple: Ultimate Curse (Long Silence)
 
 - **Effect:** You can brew the ultimate curse in a long silence.
-- **Use:** A **spellcasting action** [[Spellcasting Action]]. Choos
+- **Use:** A **spellcasting action** Spellcasting Action. Choos

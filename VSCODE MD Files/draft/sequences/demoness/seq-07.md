@@ -30,14 +30,14 @@ You gain the following **extraordinary abilities**.
 
 - Strength +1
 - Constitution +1
-- Agility +1
-- Inspiration +1
+- Agility (DEX) +1
+- Intuition (INT) +1
 - Charisma +2
 - You transform into a female.
 
 ### Mysticism Growth and Identity Effects
 
-- ① Your [[Mysticism]] has been included in the rapid growth category of [[Sequence 9]], and it can be upgraded to proficient at most.
+- ① Your [[Mysticism]] has been included in the rapid growth category of Sequence 9, and it can be upgraded to proficient at most.
 - ② If you were originally a male, then when you transform into a female, divination, prophecy, etc. that point to your original male identity (excluding past occult information) will be invalid because of the wrong gender designation, as if you “evaporated.”
   - Only correct divinations that assume you are female and point to your new name (if any) will work.
 
@@ -46,7 +46,7 @@ You gain the following **extraordinary abilities**.
 You can add a **curse** to the target or perform a curse ceremony through various mystical information such as flesh and blood and [[True Name]].
 
 - **Cost:** 3 [[Spirituality]]
-- **Use:** As a casting action, choose a target of flesh and blood whose true name you know.
+- **Use:** As a Casting Action, choose a target of flesh and blood whose true name you know.
 - **Effect:**
   - ① If you only know the real name, you need to sacrifice your life and cast curse-related ritual magic to complete the curse.
   - If you hold the target’s flesh and blood, then you can directly curse the target, and this time the curse must succeed.
@@ -54,7 +54,7 @@ You can add a **curse** to the target or perform a curse ceremony through variou
 
 #### Cursed State
 
-- ① The target in the Cursed State is immediately regarded as having established a mystical connection with you. You can cast an extraordinary ability on the cursed target at any time regardless of distance limits, and this extraordinary ability is bound to be a [[Great Success]].
+- ① The target in the Cursed State is immediately regarded as having established a mystical connection with you. You can cast an extraordinary ability on the cursed target at any time regardless of distance limits, and this extraordinary ability is bound to be a Great Success.
 - ② This extraordinary ability will be converted into curse damage, and this kind of great success can still be saved by a [[Substitute]].
 - ③ After the spell is cast, the Cursed State ends immediately. A second degree of curse must be completed by obtaining flesh and blood or performing a ritual, and the flesh and blood used for casting the spell will be consumed.
 - ④ There is no point in hoarding flesh and blood, because after the first casting of the spell, the target will know that they are under the curse, and will therefore have enough time to immediately cast the ritual magic to cut off the connection between the flesh and blood.
@@ -97,7 +97,7 @@ Before starting the ceremony:
 
 #### Activation and Effect
 
-- **Use:** Use a full-round action to start the ceremony.
+- **Use:** Use a Full-Round Action to start the ceremony.
 - **Effect:** The targets whose real names you specify—up to the number of sacrifices you have made—will immediately fall into a Cursed State.
 - **Range and escape:** The casting range covers a city, and targets within the casting range and not isolated cannot escape.
 
@@ -129,15 +129,15 @@ You have been favored by the **Black Flame**.
 
 #### Black Flame Circles
 
-- **Use:** 1 swift action
+- **Use:** 1 Swift Action
 - **Limits:** 1 time per round
-- **Effect:** You let a group of black flames hover around you in advance. In your next long-range attack, the hovering black flames are regarded as guns when fired, ignoring Agility and Dodge in Physical Defense, and the range is increased to 50 meters.
+- **Effect:** You let a group of black flames hover around you in advance. In your next long-range attack, the hovering black flames are regarded as guns when fired, ignoring Agility (DEX) and Dodge in Physical Defense, and the range is increased to 50 meters.
 
 - **Special:** Every 1d6 of Black Flame’s damage can be resolved as a separate identification/attack roll, up to 3 identifications. Overflow damage can be added to a certain identification at your discretion (e.g., first hit is 2d6, follow-up is 1d6), which is a combo.
 
 #### Melee Attack
 
-- **Use:** 1 attack action
+- **Use:** 1 Attack Action
 - **Check:** Changed to fight against [[Physical Defense]]
 - **Effect:** Both hands shoot up evil black flames for close-range attacks. Because the black flames penetrate into the body, they ignore armor and deal curse damage of 2d6 + strength damage dice. This can double hit.
 - The black flame of the melee attack can also wrap around the weapon, so the melee attack can also increase the damage of the weapon.
@@ -167,7 +167,7 @@ You have gained the favor of ice. Ice can condense on your body surface; places 
 
 #### Long-Range Attack
 
-- **Use:** An attack action
+- **Use:** An Attack Action
 - **Cost:** 2 [[Spirituality]]
 - **Effect:** Ice bursts from your palm; frost quickly condenses into an ice spear filled with hoarfrost and surrounded by cold smoke.
 - **Check:** Roll against [[Physical Defense]]
@@ -200,7 +200,7 @@ You have gained the favor of ice. Ice can condense on your body surface; places 
 
 You use a mirror as your **stand-in**.
 
-- **Use:** 1 casting action
+- **Use:** 1 Casting Action
 - **Cost:** Consumes 4 [[Spirituality Limit]]
 - **Requirement:** Prepare a complete mirror (vanity mirror, silver mirror, or a large floor-to-ceiling mirror).
 
@@ -228,7 +228,7 @@ You use a mirror as your **stand-in**.
 
 #### Special: Mirror/Fragments as a Curse Medium
 
-- **Use:** 1 casting action
+- **Use:** 1 Casting Action
 - **Targeting:** Shine a mirror that you have applied the stand-in effect on, or the fragments of a shattered mirror, to a creature.
 - **Check:** [[Mysticism]] against [[Physical Defense]]
 - **Effect (on success):** Create a Cursed State, using the mirror or fragments as the medium.
@@ -263,7 +263,7 @@ You gain **invisibility** through special magic powder.
 
 #### Hide Face
 
-- **Use:** 1 casting action
+- **Use:** 1 Casting Action
 - **Cost:** 1 [[Spirituality]]
 - **Effect:** Make the face hazy and blurred. Except for the special vision of the [[Eye of Mystery/Fate]], others usually cannot see your face clearly.
 - **Duration:** 1 minute
@@ -271,14 +271,14 @@ You gain **invisibility** through special magic powder.
 
 #### Hidden Body Shape
 
-- **Use:** 1 casting action
+- **Use:** 1 Casting Action
 - **Cost:** 1 [[Spirituality]]
 - **Targeting:** Sprinkle fluorescent powder on yourself or others, and chant to achieve invisibility.
 - **Duration:** 1 minute
 - **Break conditions:** Once you take damage or launch an attack during the stealth process, the stealth is released immediately.
 - **Limits:**
   - Invisibility powder cannot be used by other creatures.
-  - The maximum amount of powder is equal to your Inspiration.
+  - The maximum amount of powder is equal to your Intuition (INT).
 - **Effect:**
   - You immediately disappear into the air and cannot be selected as a target by sight-based abilities.
   - However, the psionic effects of [[Voyeur]], [[Spectator]], and [[Puppet Master]] can still see your existence, and the [[Hanged Man]] may be able to hear your voice.
@@ -286,6 +286,6 @@ You gain **invisibility** through special magic powder.
 
 **Sequence scaling:**
 
-- [[id:alias-sequence-6|Sequence 6]]: You no longer need to scatter dust. You can make yourself or others invisible through a swift action. The others must be within 10 meters of you, and it consumes 1 spirituality point each time.
+- [[id:alias-sequence-6|Sequence 6]]: You no longer need to scatter dust. You can make yourself or others invisible through a Swift Action. The others must be within 10 meters of you, and it consumes 1 spirituality point each time.
 
 > **GM Note:** About repeated sneak attacks in battle: If you become invisible again in official battle after a sneak attack, as long as you can make the enemy unable to accurately detect your movements and use this to launch a sneak attack or surprise attack, then the sneak attack in the battle is still valid and may take effect repeatedly. The same goes for other raid or sneak attack operations with similar sequences. See [[Special Actions]] for details, and [[Special State]] for how to see through invisibility.

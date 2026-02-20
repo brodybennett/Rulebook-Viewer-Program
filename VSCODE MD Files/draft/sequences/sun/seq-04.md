@@ -33,11 +33,11 @@ tags: ["pathway:sun", "sequence:4"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Agility +1, Inspiration +1, Constitution +1; Religion skill +1 level; Mysticism skill +1 level. [[Attributes]] [[Skills]]
+- **Attribute Gain:** Strength +1, Agility (DEX) +1, Intuition (INT) +1, Constitution +1; Religion skill +1 level; Mysticism skill +1 level. [[Attributes]] [[Skills]]
 
 ### Darkness: Endless Light
 
-- **Use:** 1 **Swift Action**. [[Swift Action]]
+- **Use:** 1 **Swift Action**. Swift Action
 - **Effect:** Endless light dispels all pollution.
   - There will be no shadows within your vision and the surrounding range. [[Realm of No Darkness]]
   - The negative effects brought by curses, cold, toxins, and acids cannot be produced. [[Curses]] [[Toxins]]
@@ -46,7 +46,7 @@ tags: ["pathway:sun", "sequence:4"]
     - The increased damage of each Sequence level is calculated independently (not combined into a single die pool).
       - Example: Witch’s Black Flame is **3d6**, plus **+1d6** at Sequence 6 and **+1d6** at Sequence 5, so it is **3d6 + 1d6 + 1d6** (not **5d6**). Therefore, in the realm of no darkness, Black Flame at Sequence 5 is **1d5 + 1d5 + 1d5**. [[Witch Black Flame]]
   - In the realm of no darkness, a creature cannot be dreamed, and an object cannot be concealed or invisible, except for psychological invisibility. [[Dreaming]] [[Invisibility]]
-    - Psychological invisibility cannot cause sanity damage. [[Sanity Damage]]
+    - Psychological invisibility cannot cause sanity damage. [[Sanity / Rationality Damage]]
   - Otherwise, the scene is always regarded as daytime.
 
 - **Sequence 3:** The range expands to a radius of 1 kilometer. You may create a boundary barrier that blocks holy attacks from outside if they are lower than your Sequence level. You can still target creatures inside the barrier with your own abilities, and the barrier can interact with the “Dark Realm” barrier normally. [[Holy Attacks]] [[Dark Realm]]
@@ -56,7 +56,7 @@ tags: ["pathway:sun", "sequence:4"]
 > **Lore:** You accumulate radiance into a spear of pure sunlight and throw it; it can expand into a miniature sun bright enough to illuminate a city.
 
 - **Cost:** 5 points of **Spirituality**. [[Spirituality]]
-- **Use:** 1 **Casting Action**. [[Casting Action]]
+- **Use:** 1 **Casting Action**. Casting Action
 - **Targeting and range:** Choose 1 target; use **Mysticism** to attack the target’s **Physical Defense**. [[Mysticism]] [[Physical Defense]]
 - **Effect:** On a hit, deal **5d6+8 holy damage**. On a failed attack, the damage is halved. [[Holy Damage]]
 - **Additional effect:** If this attack misses and hits the air, the entire night city enters a short “day” in an instant.
@@ -69,32 +69,32 @@ tags: ["pathway:sun", "sequence:4"]
 > **Lore:** You open your arms halfway, as if embracing the gift of the gods.
 
 - **Cost:** 6 points of **Spirituality**. [[Spirituality]]
-- **Use:** 1 **Casting Action**. [[Casting Action]]
-- **Targeting and range:** Mysticism attacks all physical defenses in the field except the sun path. [[Sun Pathway]] [[Physical Defense]]
+- **Use:** 1 **Casting Action**. Casting Action
+- **Targeting and range:** Mysticism attacks all physical defenses in the field except the sun path. [[Sun]] [[Physical Defense]]
 - **Effect:** A huge pure light ball entwined with countless sacred flames emerges out of thin air, envelops enemies, and quickly melts them—dealing **4d8+5 holy or fire damage**, or half as much damage on failure. [[Fire Damage]] [[Holy Damage]]
-- **Notes:** Choose **holy** or **fire** damage when you cast it. It can cause great damage to creatures in the “filthy,” “corrupted,” and “undead” domains, and can even directly destroy them. However, the attack range is large, and it is easy to accidentally injure one’s own side. Creatures of the [[Sun Pathway]] are exempt from the effect. [[Undead]]
+- **Notes:** Choose **holy** or **fire** damage when you cast it. It can cause great damage to creatures in the “filthy,” “corrupted,” and “undead” domains, and can even directly destroy them. However, the attack range is large, and it is easy to accidentally injure one’s own side. Creatures of the [[Sun]] are exempt from the effect. [[Undead]]
 
 ### Pure White Ray
 
 > **Lore:** Light condenses into a scorching, dazzling ray.
 
 - **Cost:** 3 points of **Spirituality**. [[Spirituality]]
-- **Use:** 1 **Casting Action** (usable while physically bound). [[Physically Bound]] [[Casting Action]]
+- **Use:** 1 **Casting Action** (usable while physically bound). [[Physically Bound]] Casting Action
 - **Targeting and range:** Select 1 target; **Occult** versus **Physical Defense**. [[Occult]] [[Physical Defense]]
 - **Effect:** Deal **3d6+3 fire or holy damage**.
-- **Alternate defense:** This ability can be replaced with resist **Will Defense**, but your check takes a **-4 penalty**, and the Spirituality cost increases to **5** points. [[Will Defense]]
+- **Alternate defense:** This ability can be replaced with resist **Willpower Defense**, but your check takes a **-4 penalty**, and the Spirituality cost increases to **5** points. Willpower Defense
 
 ### Sacred Armor
 
 > **Lore:** A tide of pure golden light gushes from your body, condensing into armor.
 
 - **Cost:** 4 points of **Spirituality**. [[Spirituality]]
-- **Use:** 1 **Casting Action**. [[Casting Action]]
+- **Use:** 1 **Casting Action**. Casting Action
 - **Effect:** You create an armor of light made of pure golden radiance.
   - The armor has **5 Armor** and **3 Damage Reduction** (all damage reduction). [[Armor]] [[Damage Reduction]]
   - Against attacks from the undead, fallen, and dark realms, the Armor increases to **10** and Damage Reduction increases to **5**. [[Undead]] [[Fallen]] [[Dark Realm]]
   - The body touch of the undead, fallen, and dark realms will counteract **2d6 holy damage**, without additional restraint. [[Holy Damage]]
-- **Duration:** Lasts for one encounter. [[Encounter]]
+- **Duration:** Lasts for one encounter. Encounter
 
 ### Sunlight Interpretation
 

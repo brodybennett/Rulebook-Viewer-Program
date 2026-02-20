@@ -23,7 +23,7 @@ Mastering the secret can make things **secret** and become impossible to **see**
 ### Attribute Gain
 
 - **Attribute Gain:** inspiration +2, constitution +1, strength +1, agility +1.
-- Choose a skill and set it as [[Proficient]].
+- Choose a skill and set it as Proficient.
 
 ### Stealth
 

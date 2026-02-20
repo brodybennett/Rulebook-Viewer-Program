@@ -28,9 +28,9 @@ The evil-striped black panther can hide in any shadow and only comes out to hunt
 
 ## Basic Data
 
-- **Attributes:** Charisma 4; Strength 8; Luck 4; Dexterity 8; Constitution 5; Will 5; Inspiration 8; Education 3.
-- **Health:** 34
-- **Physical Defense Level:** 10 + 8 Dexterity + 4 deflection = 22. [[Dexterity]] [[deflection]]
+- **Attributes:** Charisma 4; Strength 8; Luck 4; Agility (DEX) 8; Constitution 5; Will 5; Intuition (INT) 8; Education 3.
+- **Vitality:** 34
+- **Physical Defense Level:** 10 + 8 Agility (DEX) + 4 deflection = 22. Agility (DEX) [[deflection]]
 - **Skills:** Climbing; Swimming; Fighting; Intimidating; Jumping; Survival; Piloting (trained); Listening (proficiency); Reconnaissance (proficiency); Stealth (mastery).
 
 ## Sighting
@@ -65,7 +65,7 @@ The evil-striped black panther can hide in any shadow and only comes out to hunt
 ### Bloody Brutality
 
 - **Trigger/When:** When the life of the evil-patterned black panther is only half.
-- **Effect:** Each round, it has an additional attack action.
+- **Effect:** Each round, it has an additional Attack Action.
 - **Effect:** Its defense will be +4.
 - **Effect:** It will get 5 points of damage reduction.
 
@@ -104,7 +104,7 @@ This fur can be made into very expensive and comfortable clothing for at least t
 
 ### Spinal Fluid
 
-- **Crafting/Acquisition:** Its spinal fluid can be used to prepare the Fool's Pathway Sequence 7 magician's potion. [[Fool's Pathway]]
+- **Crafting/Acquisition:** Its spinal fluid can be used to prepare the Fool pathway Sequence 7 Magician potion.
 
 ## Note
 

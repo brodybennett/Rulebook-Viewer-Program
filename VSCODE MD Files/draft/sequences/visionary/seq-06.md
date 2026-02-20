@@ -26,7 +26,7 @@ tags: ["pathway:visionary", "sequence:6"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +2, Agility +2, Constitution +2
+- **Attribute Gain:** Strength +2, Agility (DEX) +2, Constitution +2
 - **Skill:** **Psychological Guidance** can be learned and mastered quickly.
 
 ### Dragon Scale
@@ -34,11 +34,11 @@ tags: ["pathway:visionary", "sequence:6"]
 - **Use:** 1 **Free Action** to toggle.
 - **Effect:** Your body surface condenses fine, strong golden scales. Gain **Armor** +3 and **External Damage Reduction** 5. The scales can be hidden within the skin.
 
-- **Sequence Scaling:** At [[Youth Dragon Pathway Sequence 5]], you do not need to display Dragon Scale; under normal circumstances (without using [[Force]]), your skin is difficult to pierce and you gain **Armor** +3 and **External Damage Reduction** 5. When Dragon Scale is actually turned on, these become **Armor** +5 and **External Damage Reduction** 8.
+- **Sequence Scaling:** At Youth Dragon Pathway Sequence 5, you do not need to display Dragon Scale; under normal circumstances (without using [[Force]]), your skin is difficult to pierce and you gain **Armor** +3 and **External Damage Reduction** 5. When Dragon Scale is actually turned on, these become **Armor** +5 and **External Damage Reduction** 8.
 
 ### Non-Combat Hypnosis
 
-- **Cost:** 1 **Casting Action**; 3 **Spiritual Points**
+- **Cost:** 1 **Casting Action**; 3 **Spirituality**
 - **Targeting and range:** Choose 1 target who is either:
   - **Focused** (see below), or
   - **Dazed / Semi-comatose** (see below).
@@ -60,7 +60,7 @@ tags: ["pathway:visionary", "sequence:6"]
 - You may formulate the following hypnotic content:
 
 1) **Forget Memory:** The target truly “does not remember” the chosen memory (this is not merely “not remembering”). You may set a condition under which the memory can be recalled, or set no recall condition.
-   - **Special:** If the forgotten memory is associated with important matters or leaves a serious psychological shadow, then when the target witnesses a stimulating reappearance related to that memory, they may attempt a [[Will Test]] against the hypnotist’s “[[Inspiration]] + [[Charisma]] + [[id:alias-psychological-guidance|Psychological Guidance]]” as the difficulty to recall the memory.
+   - **Special:** If the forgotten memory is associated with important matters or leaves a serious psychological shadow, then when the target witnesses a stimulating reappearance related to that memory, they may attempt a Will Test against the hypnotist’s “Intuition + [[Charisma]] + [[id:alias-psychological-guidance|Psychological Guidance]]” as the difficulty to recall the memory.
 
 2) **Subconscious Behavior:** Specify an action and trigger conditions. When the conditions are met, the target completes the action in an unconscious state. The action must be simple; complex processes must be built from multiple simple hypnotic instructions.
 
@@ -80,12 +80,12 @@ tags: ["pathway:visionary", "sequence:6"]
 
 #### Other Factors Affecting Hypnosis
 
-1) **Target is not voluntary:** Hypnosis requires **Psychological Guidance** to contest [[Will Defense]] and uses the same bonus/penalty logic as [[Psychological Suggestion]].
+1) **Target is not voluntary:** Hypnosis requires **Psychological Guidance** to contest Willpower Defense and uses the same bonus/penalty logic as [[Psychological Suggestion]].
 
 2) **Hypnosis without satisfying any conditions:** The penalty to **Psychological Guidance** is doubled (round up).
 
-3) **Content involves life/important things/strong resistance:** When performing related actions, the hypnotized creature may use an rd20 + Will + [[Inspiration]] appraisal to contest the difficulty of the hypnotist’s “Inspiration + Charisma + Psychological Guidance bonus” and release the hypnosis.
-   - **Special:** In other cases, the target cannot resist hypnosis. However, if the target�s Will = 6 and your Sequence is not higher than the target�s Personality, each time the target would perform an unwilling action they may attempt a Will Test against your hypnosis Difficulty (Inspiration + Charisma + Psychological Guidance). On a success, the action is not performed; 3 total successes break the hypnosis.
+3) **Content involves life/important things/strong resistance:** When performing related actions, the hypnotized creature may use an rd20 + Will + Intuition appraisal to contest the difficulty of the hypnotist’s “Intuition (INT) + Charisma + Psychological Guidance bonus” and release the hypnosis.
+   - **Special:** In other cases, the target cannot resist hypnosis. However, if the target�s Will = 6 and your Sequence is not higher than the target�s Personality, each time the target would perform an unwilling action they may attempt a Will Test against your hypnosis Difficulty (Intuition (INT) + Charisma + Psychological Guidance). On a success, the action is not performed; 3 total successes break the hypnosis.
 
 4) **Both target conditions met:** If the target is both Focused and Dazed/Semi-comatose, your **Psychological Guidance** appraisal gains +4 favorable.
 
@@ -96,16 +96,16 @@ tags: ["pathway:visionary", "sequence:6"]
 
 7) **Release:** When hypnosis is broken or released, at that moment the target remembers all encounters that occurred during the hypnosis.
 
-8) **Capacity and complexity:** A single hypnosis may instill multiple items (“First… Second… Third…”). The total number of items a creature can bear cannot exceed Inspiration/2 (also related to the maximum number of times psychological hints can be shared). Compared to Psychological Suggestion, hypnosis can be slightly more complicated, but a single piece of content should not exceed 80 words.
+8) **Capacity and complexity:** A single hypnosis may instill multiple items (“First… Second… Third…”). The total number of items a creature can bear cannot exceed Intuition (INT)/2 (also related to the maximum number of times psychological hints can be shared). Compared to Psychological Suggestion, hypnosis can be slightly more complicated, but a single piece of content should not exceed 80 words.
 
-9) **Mental illness:** Hypnosis and Forget Memory cannot truly treat mental illness. The memory must later be reminded and the content accepted via **Psychological Guidance**; otherwise the target suffers 1d3/1d6 [[Sanity]] loss immediately upon remembering the memory (1d3 for minor memories, 1d6 for major or traumatic memories).
+9) **Mental illness:** Hypnosis and Forget Memory cannot truly treat mental illness. The memory must later be reminded and the content accepted via **Psychological Guidance**; otherwise the target suffers 1d3/1d6 [[Sanity / Rationality]] loss immediately upon remembering the memory (1d3 for minor memories, 1d6 for major or traumatic memories).
 
 ### Combat Hypnosis
 
-- **Cost:** 1 **Swift Action**; 3 **Spiritual Points**
+- **Cost:** 1 **Swift Action**; 3 **Spirituality**
 - **Use:** 1 time per round.
 - **Targeting and range:** Choose 1 target within your [[Field of Vision]].
-- **Effect:** Compulsively hypnotize the enemy; contest with **Psychological Guidance** against **Will Defense**.
+- **Effect:** Compulsively hypnotize the enemy; contest with **Psychological Guidance** against **Willpower Defense**.
   - You formulate hypnotic content as in Non-Combat Hypnosis, but it **cannot** involve the target’s life/important matters; if it does, the hypnosis is invalid.
 - **Duration:** 1 round.
 - **Limits / Aftereffects:**
@@ -115,7 +115,7 @@ tags: ["pathway:visionary", "sequence:6"]
 
 ### Psychological Stealth
 
-- **Cost:** 1 **Casting Action**; 3 **Spiritual Points**
+- **Cost:** 1 **Casting Action**; 3 **Spirituality**
 - **Targeting and range:** You may include companions within 5 meters.
 - **Effect:** You and chosen companions enter **Psychological Invisibility** (not true invisibility).
 - **Limits / Detection:**

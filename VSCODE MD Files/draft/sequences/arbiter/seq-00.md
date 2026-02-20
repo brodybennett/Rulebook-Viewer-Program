@@ -18,7 +18,7 @@ tags: ["pathway:arbiter", "sequence:0"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Charisma +1, Inspiration +1, Dexterity +1, Strength +1, Constitution +1.
+- **Attribute Gain:** Charisma +1, Intuition (INT) +1, Agility (DEX) +1, Strength +1, Constitution +1.
 - [[Law skill]] increased by 1 skill level.
 
 ### Divine Gaze

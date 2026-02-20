@@ -8,7 +8,7 @@ tags: ["pathway:earth", "sequence:0"]
 
 ## Mother
 
-- See also: [[Mother Pathway]]
+- See also: [[Mother]]
 - True god of the Mother Pathway.
 
 ## Extraordinary Abilities

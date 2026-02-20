@@ -12,9 +12,9 @@ tags: ["pathway:tyrant", "sequence:8"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1; Constitution +1; Dexterity +1.
+- **Attribute Gain:** Strength +1; Constitution +1; Agility (DEX) +1.
 
-- **Enter Rage:** As a [[Free Action]], you may begin charging for 1 [[Round]]; you can act normally during that round. At the end of the round, attempt to enter **Rage** with a [[Will Test]] (Difficulty Value 20).
+- **Enter Rage:** As a Free Action, you may begin charging for 1 Round; you can act normally during that round. At the end of the round, attempt to enter **Rage** with a Will Test (Difficulty Value 20).
 
   - **Alcohol Bonus:** If you have consumed [[Alcohol]], your Will Test to enter Rage gains +1 benefit; if you consumed [[Spirits]], it gains +2 benefit.
 
@@ -22,7 +22,7 @@ tags: ["pathway:tyrant", "sequence:8"]
 
   - **Anger Target:** Before you start charging, choose an **Anger Target**. After you enter Rage, all your attacks must first attack the source of anger. When the target’s companion tries to block you, you can attack that companion.
 
-  - **Low Health:** If your [[Health]] is less than half, the Difficulty Value to enter Rage against your chosen **Anger Target** is halved (round down).
+  - **Low Vitality:** If your [[Vitality]] is less than half, the Difficulty Value to enter Rage against your chosen **Anger Target** is halved (round down).
 
 ### Rage State
 
@@ -31,21 +31,21 @@ tags: ["pathway:tyrant", "sequence:8"]
 - **Effect:**
   - This benefit is brought by a [[Potion]]; it cannot be stolen or recorded.
   - In Rage State, the effect changes to: Skill and Attribute identification is only **-2 disadvantageous**.
-  - Strength +2; Constitution +2; Dexterity +2.
+  - Strength +2; Constitution +2; Agility (DEX) +2.
 
 - **Duration:** Rage State ends only after the source of anger dies/faints, or after you die/faint.  
   [[Unconscious]]
 
 - **Behavior and Limits:**
   1) **Chasing the Enemy:** Even if the enemy escapes, you must first try to catch up.
-  2) **Cancel Rage:** At the beginning of each round, you may attempt to quell Rage with a [[Will Test]] (Difficulty Value 15). If you do so, the alcohol advantage becomes disadvantageous.  
+  2) **Cancel Rage:** At the beginning of each round, you may attempt to quell Rage with a Will Test (Difficulty Value 15). If you do so, the alcohol advantage becomes disadvantageous.  
      Only your teammates can attempt to cancel your Rage State with a 1-action [[id:alias-psychological-guidance|Psychological Guidance]] or appropriate [[Social Skills]] check against your [[Physical Defense]]; on success, Rage ends.
   3) **Important Things:** If your rage would damage an ally or a personally important possession (declared by you at the start of the scene), your rage is immediately cleared.
-  4) **Fast Dodge:** While in Rage State, you retain full [[Physical Defense]] against [[Guns]] (rather than losing Agility/Dodge as against light/lightning-speed attacks), and gain an extra level of [[Dodge]].
+  4) **Fast Dodge:** While in Rage State, you retain full [[Physical Defense]] against [[Guns]] (rather than losing Agility (DEX)/Dodge as against light/lightning-speed attacks), and gain an extra level of Dodge.
 
 ### Furious Strike
 
-- **Cost:** 1 [[Attack Action]]. No [[Spiritual Energy]] required.
+- **Cost:** 1 Attack Action. No [[Spiritual Energy]] required.
 
 - **Use:** Only usable while in **Rage State**.
 
@@ -54,6 +54,6 @@ tags: ["pathway:tyrant", "sequence:8"]
 
 - **Limits and Options:**
   1) Furious Strike cannot be combined with combo actions (e.g., double-hit style combos); you do not have enough spare energy to converge your strength.
-  2) If you use a [[Full-Round Action]] to restrain your breath and squeeze your anger, you can directly use Furious Strike. For that attack only, you gain the Rage bonuses (+2 Strength/Constitution/Dexterity and the reduced -2 disadvantage), but you do not enter Rage State.
+  2) If you use a [[Full-Round Action]] to restrain your breath and squeeze your anger, you can directly use Furious Strike. For that attack only, you gain the Rage bonuses (+2 Strength/Constitution/Agility (DEX) and the reduced -2 disadvantage), but you do not enter Rage State.
 
 > **Lore:** Your muscles swell—strong enough to burst an enemy’s head at the end, or break the iron lock of a stone gate.

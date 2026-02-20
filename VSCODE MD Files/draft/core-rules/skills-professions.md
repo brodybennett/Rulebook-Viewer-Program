@@ -207,7 +207,7 @@ Considering the completeness of the Black Iron Age education system, when your *
 
 For these Skills, use **Charisma (CHA) + Skill**.
 
-1. **Charm:** Increase a creature's favorability toward you.
+1. **Charisma (CHA):** Increase a creature's favorability toward you.
 2. **Deception:** Deceive through body language or speech, etc.
 3. **Fast Talk:** Use techniques so the target does not notice details and is guided in the direction you want.
 4. **Persuade:** Persuade the target so they believe your opinion is correct.
@@ -246,7 +246,7 @@ The **Luck** attribute does not add to Skills, because Luck is universal.
 - Burned Luck recovers at a rate of **1 point per 24 hours**.
 - Luck cannot be lower than **0**.
 
-Unique Fate Pathway changes: Increasing the number of uses and changing Critical Failure are unique to the Fate Pathway. See [[Fate Pathway]].
+Unique Fate Pathway changes: Increasing the number of uses and changing Critical Failure are unique to the Fate Pathway. See [[Wheel of Fortune]].
 
 ## Changing a Skill's Related Attribute
 
@@ -326,7 +326,7 @@ For each linkage below, each time one item reaches Advanced/Expert, the other li
 1. **Fighting Linkage:** Fighting (Melee), Fighting (Swordsmanship), Fighting (Polearms), Fighting (Huge Weapons), Fighting (Special Operations).
 2. **Firearms Linkage:** Shooting (Handgun), Shooting (Rifle), Shooting (Shotgun).
 3. **Bow/Arrow Linkage:** Shooting (Bow), Shooting (Crossbow).
-4. **Social Linkage:** Charm, Fast Talk, Persuade, Deception, Intimidation, Psychology.
+4. **Social Linkage:** Charisma (CHA), Fast Talk, Persuade, Deception, Intimidation, Psychology.
 5. **Psychology Linkage:** Psychology, Psychological Guidance.
 6. **Potion Linkage:** Chemistry, Pharmacy.
 7. **Mysticism Linkage:** Mysticism, Religion, Hermes Language, Ancient Hermes Language, Ancient Feysac, Dragon Tongue, Giant, Elvish.

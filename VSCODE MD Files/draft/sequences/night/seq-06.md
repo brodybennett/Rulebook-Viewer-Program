@@ -10,12 +10,12 @@ tags: ["pathway:night", "sequence:6"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +1, Agility +1, Inspiration +2.
+- **Attribute Gain:** Strength +1, Constitution +1, Agility (DEX) +1, Intuition (INT) +2.
 - Your occult skills increase by 1 level.
 
 ### Requiem
 
-- **Cost:** 1 **Casting Action**; consume 3 **Spirituality Points**.
+- **Cost:** 1 **Casting Action**; consume 3 **Spirituality**.
 - **Targeting and range:**
   - Select 1 target within your **Field of Vision**; affect a range of 130 meters; **or**
   - Select all targets within this range; affects all creatures except you indiscriminately.
@@ -37,7 +37,7 @@ tags: ["pathway:night", "sequence:6"]
 
 ### Spiritual Vision
 
-- After reaching the level of **Sequence 6**, your high Inspiration has really enhanced your spiritual vision.
+- After reaching the level of **Sequence 6**, your high Intuition (INT) has really enhanced your spiritual vision.
 - From now on, you don’t need to activate your spirit vision; you can directly use normal vision to spot [[spiritual creatures]].
   - This does not include the advanced invisibility of [[resentful souls]].
   - This does not include [[information creatures]].

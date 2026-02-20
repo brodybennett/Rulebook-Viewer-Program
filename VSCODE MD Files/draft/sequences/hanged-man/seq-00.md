@@ -8,7 +8,7 @@ tags: ["pathway:hanged-man", "sequence:0"]
 
 ## The Hanged Man
 
-- See also: [[Hanged Man Pathway]]
+- See also: [[Hanged Man]]
 
 - The **true god** in charge of the [[fallen realm]] holds partial authority over:
   - [[shadow]]

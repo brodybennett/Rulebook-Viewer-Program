@@ -29,7 +29,7 @@ tags: ["pathway:death", "sequence:6"]
 
 ### Language of the Dead
 
-- **Cost:** 1 swift action; consuming 1 spirituality point per round. [[Spirituality]]
+- **Cost:** 1 Swift Action; consuming 1 spirituality point per round. [[Spirituality]]
 - **Use:** at the beginning of each round, make 1 **Knowledge of the Dead** identification/check.
 - **Targeting and range:** 1 target within 50 meters.
 - **Effect:** you chant awkward, jerky, and piercing words the living can never understand, bypassing the physical body and affecting the spiritual body. While you continue chanting, communication with the spirit body is upgraded to drive, even slavery.
@@ -44,17 +44,17 @@ tags: ["pathway:death", "sequence:6"]
        - For each character the chosen target is lower than you: +2 benefit on **Knowledge of the Dead** checks.
      - Each time your **Knowledge of the Dead** successfully hits the target’s spiritual body strength once, its spiritual body separates by 1 level:
        - Successful identification 1 time: immediately notice the spirit body has begun to separate from the physical body, but there are no negative effects for the time being.
-       - Successful identification 2 times: the spirit body is separated from the body in half; 1 spellcasting/attack/swift action/free action is lost; only 1 swift action is left in 1 round.
+       - Successful identification 2 times: the spirit body is separated from the body in half; 1 spellcasting/attack/Swift Action/free action is lost; only 1 Swift Action is left in 1 round.
        - Successful identification 3 times: the spirit body is completely separated from the physical body; it is regarded as an undead creature and enters **Spirit Body State**. [[Spirit Body State]]
      - **Spirit Body State:**
-       - **Blood volume** is the value of the strength of the spirit body. For each Sequence level, the upper limit of blood volume +5; for each character, the upper limit of blood volume +10. [[Blood Volume]]
+       - **Blood volume** is the value of the strength of the spirit body. For each Sequence level, the upper limit of blood volume +5; for each character, the upper limit of blood volume +10. Blood Volume
        - It is regarded as an undead creature.
        - It gains flying ability and 5 points Curse, cold resistance, immune to physical and poison. [[Curse]]
-       - Sequence 9–8 Extraordinary: gain the characteristic of inflicting 1d6 cold damage in attack action; unable to use own extraordinary ability.
+       - Sequence 9–8 Extraordinary: gain the characteristic of inflicting 1d6 cold damage in Attack Action; unable to use own extraordinary ability.
        - Sequence 6–5 Extraordinary: attack actions cause 2d6 cold damage; can use extraordinary abilities; possess wraith possession. [[Wraith Possession]]
-       - Higher-order Extraordinary: the attack action causes 3d6 cold damage and additionally has the wraith scream. [[Wraith Scream]]
+       - Higher-order Extraordinary: the Attack Action causes 3d6 cold damage and additionally has the wraith scream. [[Wraith Scream]]
      - **Warning:** the Extraordinary whose spirit body leaves the physical body will suffer all kinds of targeted blows from undead creatures.
-       - Returning to the physical body is a movement action; it fits with its own body, but it needs to use another full-round action to fit into the body.
+       - Returning to the physical body is a movement action; it fits with its own body, but it needs to use another Full-Round Action to fit into the body.
        - This kind of fit is limited to your own body. Before the fit, any successful **Words of the Dead** will make it leave the body directly.
      > **GM Note:** Similarly, **Language of the Dead** can be used for evil spirits possessing anything; when doing so, treat the strength of the spirit body against evil spirits as if you were choosing a living creature.
   2. **Undead creature (coercive action / enslavement)**
@@ -81,12 +81,12 @@ tags: ["pathway:death", "sequence:6"]
   1. Prepare a piece of parchment, write down the terms to be observed with the other party, and finally press your hand on the parchment to establish a contractual relationship.
   2. The rest of the contract process is the same as that in [[Chapter Twelve: Special Regions]]. Before Sequence 6, you do not have the ability to sign a necromancer contract, and the necromancer contract can also be used in other fields. [[Necromancer Contract]]
   3. The contract can also be established orally, without parchment; the corresponding content can be chanted directly in ancient Hessian. [[Ancient Hessian]]
-     - In this regard, you can directly refer to the notary’s rules for drafting the contract in Sequence 6 of the Sun Path. [[Notary Rules]] [[Sun Path]]
+     - In this regard, you can directly refer to the notary’s rules for drafting the contract in Sequence 6 of the Sun Path. [[Notary Rules]] [[Sun]]
 - **Special:** this is a benefit from the potion and cannot be stolen or recorded.
 
 ### Raise Undead
 
-- **Cost:** 1 casting action; consuming 2 spiritual points. [[Spiritual Points]]
+- **Cost:** 1 Casting Action; consuming 2 spiritual points. [[Spirituality]]
 - **Targeting:** choose 1 unrequited corpse. [[Unrequited Corpse]]
 - **Effect:** make it “resurrect” as your dead.
 - Choose one of the following outcomes:

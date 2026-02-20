@@ -22,15 +22,15 @@ tags: ["pathway:moon", "sequence:3"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2, **Will** +1, and your **Occultism** increases by 1 level.
+- **Attribute Gain:** **Intuition (INT)** +2, **Will** +1, and your **Occultism** increases by 1 level.
 
 ### Gate of Summoning
 
 The **Gate of Summoning** opens an illusory door to the depths of the Spirit World so you can contract a creature into service.
 
 - **Cost:** Consume 5 points of **Spirituality**. [[Spirituality]]
-- **Use:** Through a **casting action**, open the illusory door leading to the depths of the Spirit World, sign a contract with the creature, and let it come to the real world to serve. [[Casting Action]]
-- **Limits:** Only one per [[Encounter]].
+- **Use:** Through a **Casting Action**, open the illusory door leading to the depths of the Spirit World, sign a contract with the creature, and let it come to the real world to serve. Casting Action
+- **Limits:** Only one per Encounter.
 
 **Summoned creature determination**
 - Use a **Lucky Appraisal** to determine the type of creature to be summoned. [[Lucky Appraisal]]
@@ -44,8 +44,8 @@ The **Gate of Summoning** opens an illusory door to the depths of the Spirit Wor
 - **Difficulty 25:** A Spirit World creature with a Sequence higher than itself will start to be out of control after five rounds.
 
 **Great success**
-- The Spirit World creatures chosen one Sequence higher than oneself will be in a controllable state for the entire encounter, and +10 HP on this basis.
-- At this time, the second Lucky Appraisal is performed. If the difficulty is higher than 15, the [[Alien Pathway]] will be summoned. (GM draws themselves, not necessarily higher or lower than their own Sequence level; the Alien Pathway will usually directly be an alien creature, not a Spirit World creature.)
+- The Spirit World creatures chosen one Sequence higher than oneself will be in a controllable state for the entire encounter, and +10 Vitality on this basis.
+- At this time, the second Lucky Appraisal is performed. If the difficulty is higher than 15, the Alien Pathway will be summoned. (GM draws themselves, not necessarily higher or lower than their own Sequence level; the Alien Pathway will usually directly be an alien creature, not a Spirit World creature.)
 
 **Big failure**
 - Summon a high-path spirit creature that attacks indiscriminately; pass a Difficulty 15 Lucky Appraisal again to judge whether it is stronger than the summoner, and conduct a third Difficulty 20 Lucky Appraisal to determine whether it is an Alien Pathway, or aliens. (GM self-made; big failure summons are usually extremely dangerous enemies.)
@@ -55,9 +55,9 @@ The **Gate of Summoning** opens an illusory door to the depths of the Spirit Wor
 - A failed summoning is not considered to have consumed a use opportunity; the summoner can re-summon to allow that existence to arrive at the scene.
 
 **Summoning Gate statistics and interactions**
-- The **Summoning Gate**’s HP is regarded as half of the Summoner Master’s HP.
+- The **Summoning Gate**’s Vitality is regarded as half of the Summoner Master’s Vitality.
 - The Summoning Gate enjoys the Summoner Master’s life recovery and its weaknesses, and it gains the same restraint bonuses against undead that the summoner has.
-- If the summoner themself is not Sequence 3, then the Summoning Gate’s HP defaults to 40, and it enjoys the same [[Defense Value]] as the summoner themself.
+- If the summoner themself is not Sequence 3, then the Summoning Gate’s Vitality defaults to 40, and it enjoys the same [[Defense Value]] as the summoner themself.
 - If half of the life value of the summoner in Sequence 3 is less than 40, the door’s life value will be processed as 40 by default.
 
 **Defense Value inheritance and item scaling**

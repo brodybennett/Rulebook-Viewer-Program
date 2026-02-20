@@ -4,7 +4,7 @@ id: "fate-seq-01"
 tags: ["pathway:fate", "sequence:1"]
 ---
 
-# [[Pathway for Serpent of Mercury]] Pathway: Sequence 1
+# Pathway for Serpent of Mercury Pathway: Sequence 1
 
 ## Serpent of Mercury
 
@@ -26,7 +26,7 @@ When encountering a danger that is difficult to get rid of, the cycle can be res
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +6, Luck +6.
+- **Attribute Gain:** Intuition (INT) +6, Luck +6.
 
 ### Loop of Fate
 
@@ -49,7 +49,7 @@ Also known as the restart of destiny or the restart of all things. This is not a
 - **Targeting and range:** A certain area; you may also specify restarting only the state of one target.
 - **Limits:**
   - Maximum of two encounters.
-  - If you restart only one target’s state (examples given: an angel of the [[Thief Pathway]] or an angel of the [[Seer Pathway]]), their clone and secret puppet can usually appear jointly according to your wishes.
+  - If you restart only one target’s state (examples given: an angel of the Error pathway or an angel of the Fool pathway), their clone and secret puppet can usually appear jointly according to your wishes.
 - **Aftereffects:**
   - All recorded consumption abilities, consumed spiritual abilities, and various states in your environment are reset.
   - Exception: the spirituality consumed by Restart is not returned.

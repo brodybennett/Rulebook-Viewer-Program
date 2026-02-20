@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Potions, Talismans, Etc."
 id: "potions-talismans-etc"
 tags: ["advanced", "items", "rituals"]

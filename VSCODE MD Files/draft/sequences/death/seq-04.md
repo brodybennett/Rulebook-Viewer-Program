@@ -25,32 +25,32 @@ tags: ["pathway:death", "sequence:4"]
 
 - Constitution +1
 - Strength +1
-- Dexterity +1
-- Inspiration +1
+- Agility (DEX) +1
+- Intuition (INT) +1
 - Choose 1 skill to increase by 1 level.
 
 ### Shuttle in the Spirit World
 
-- **Cost:** 1 **Casting Action** [[Casting Action]]
-- **Use:** Travel via the connection and power between the Underworld [[Underworld]] and the Spirit World [[Spirit World]], producing a travel effect similar to the Apprentice Pathway [[Apprentice Pathway]].
+- **Cost:** 1 **Casting Action** Casting Action
+- **Use:** Travel via the connection and power between the Underworld [[Underworld]] and the Spirit World [[Spirit World]], producing a travel effect similar to the Apprentice Pathway [[Door]].
 - **Effect:**
   - When you are about to shuttle from the Spirit World or emerge from the Spirit World, the surrounding colors become more vivid (reds redder, blues bluer; reds and yellows show a bit of brown), as if the environment’s color saturation increases.
   - You teleport a short or long distance and gain the benefits below:
-    - If you prepare for the Spirit World shuttle in advance, or have completed this casting action, then **unless it is a Great Success** [[Great Success]], any attack aimed at you that has a distance limit, or cannot locate your position, automatically misses until you reach the destination.
-    - The Death Pathway [[Death Pathway]] version of Spirit World shuttle cannot avoid blows from **Free Actions** [[Free Action]]; blows from Free Actions resolve as usual.
+    - If you prepare for the Spirit World shuttle in advance, or have completed this Casting Action, then **unless it is a Great Success** Great Success, any attack aimed at you that has a distance limit, or cannot locate your position, automatically misses until you reach the destination.
+    - The Death Pathway Death version of Spirit World shuttle cannot avoid blows from **Free Actions** Free Action; blows from Free Actions resolve as usual.
     - You can move to any place you want at will.
   - Before or after teleportation, you can clearly feel the surroundings of the teleportation location.
   - If you have not been there, you can make a successful **Pilotage Appraisal** [[Pilotage Appraisal]] to determine the location.
 - **Limits:**
   - This does not achieve the same “frenzied flash” effect as the Apprentice Pathway, even if you use Mythic Form [[Mythic Form]] instead of Astral Travel [[Astral Travel]] as a Free Action.
 
-> **GM Note:** If you use this ability for attack avoidance, you usually announce in advance that you will use it after performing a certain action (similar to the Diviner Pathway’s [[Diviner Pathway]] “Flame Jump” [[Flame Jump]]), which can usually avoid most feedback for your action.
+> **GM Note:** If you use this ability for attack avoidance, you usually announce in advance that you will use it after performing a certain action (similar to a Fool pathway Beyonder's “Flame Jump” [[Flame Jump]]), which can usually avoid most feedback for your action.
 
 ### Necrotic Seal
 
 - **Use:** Use the power of the Underworld [[Underworld]] to suppress the negative effects of Extraordinary Items [[Extraordinary Item]], or permanently half-seal their negative effects.
 - **Cost (temporary):** 8 points of **Spirituality** [[Spirituality]]
-- **Activation (temporary):** **Free Action** [[Free Action]]
+- **Activation (temporary):** **Free Action** Free Action
 - **Effect (temporary):** Suppress all negative effects of an item for 1d2 hours.
 - **Handling requirement:** Only in your hands, the negative effects of the sealed item are no longer as serious:
   - Negative effects that would have an immediate reaction either weaken, or take a certain amount of time to produce specific effects.

@@ -16,15 +16,15 @@ You gain the following extraordinary abilities.
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2.
+- **Attribute Gain:** **Intuition (INT)** +2.
 - **Effect:**
   - Your [[Library Use]] can be improved quickly.
-  - For every two skills you have reached **Master** (including previous skills), increase your **Library Use** by +1 level (maximum **Master**). [[Skill Ranks]]
-  - When creating a character that has not just been promoted, you can use three times the **Inspiration** brought by the potion to add Growth skills. See [[Skill Association/Growth]].
+  - For every two skills you have reached **Master** (including previous skills), increase your **Library Use** by +1 level (maximum **Master**). Skill Ranks
+  - When creating a character that has not just been promoted, you can use three times the **Intuition (INT)** brought by the potion to add Growth skills. See [[Skill Association/Growth]].
 
 ### Thinking Palace (Memory Palace)
 
-- **Cost:** 1 [[Free Action]].
+- **Cost:** 1 Free Action.
 - **Use:** Enter your Thinking Palace mentally at any time.
 - **Effect:**
   - You enter an imaginary space that exists only in your mind; external time continues as usual.
@@ -61,8 +61,8 @@ You gain the following extraordinary abilities.
   - You can read in 1 hour what would take 1 week to read.
 - **Reading Outcomes (by book type):**
   - **Books with simple knowledge:** After reading, the corresponding skills can be directly trained.
-  - **Books with rich knowledge:** After reading, the corresponding skills can directly reach **Proficiency**. [[Skill Ranks]]
-  - **Books with deepening knowledge:** You must be **Proficient** in the corresponding skills before you can read them. After reading, you rise by +1 level. [[Skill Ranks]]
+  - **Books with rich knowledge:** After reading, the corresponding skills can directly reach **Proficiency**. Skill Ranks
+  - **Books with deepening knowledge:** You must be **Proficient** in the corresponding skills before you can read them. After reading, you rise by +1 level. Skill Ranks
 - **Limits (Advanced and beyond):**
   - From reaching the **Advanced** level, if you want to continue learning corresponding knowledge, you must continue to obtain books with deepening knowledge.
   - The content direction of these books cannot be repeated.
@@ -72,12 +72,12 @@ You gain the following extraordinary abilities.
 
 > **GM Note:** The same broad field can split into many non-overlapping directions at higher levels (e.g., “Medicine” versus “Medicine (Anesthesia)”). If needed, refer to [[Chapter 4 — Trained Skills]] to learn knowledge.
 
-- **Special (clarified):** When creating a Reader at Sequence 9 or higher (and the character has not just been promoted), the Extraordinary can use twice the **Inspiration** points brought by the potion to train or become proficient in skills (limit: **Proficiency**) to solve the problem that a higher-sequence Reader has not accumulated knowledge.
-  - This doubled Inspiration should not be used to increase [[Reputation]], but can be used to increase extraordinary knowledge.
+- **Special (clarified):** When creating a Reader at Sequence 9 or higher (and the character has not just been promoted), the Extraordinary can use twice the **Intuition (INT)** points brought by the potion to train or become proficient in skills (limit: **Proficiency**) to solve the problem that a higher-sequence Reader has not accumulated knowledge.
+  - This doubled Intuition (INT) should not be used to increase [[Reputation]], but can be used to increase extraordinary knowledge.
 
 ### Knowledgeable
 
-- **Cost:** 1 [[Free Action]].
+- **Cost:** 1 Free Action.
 - **Use:** Open your vision.
 - **Effect:**
   - You see carriers of knowledge (words, pictures, etc.) as if written in a certain way; they exude a brass or silver symbolic aura.
@@ -89,27 +89,27 @@ You gain the following extraordinary abilities.
 
 - **Skill:** You gain a new **Extraordinary Knowledge** skill. Key attribute: **Education**.
 - **Extraordinary Knowledge Types (by Pathway):**
-  - Divination Knowledge: corresponds to the Fool Pathway. [[Fool Pathway]]
-  - Apprentice Knowledge: corresponds to the Apprentice Pathway. [[Apprentice Pathway]]
-  - Stealing Knowledge: corresponds to the Wrong Path. [[Wrong Pathway]]
-  - Writing Knowledge: corresponds to the Visionary Pathway. [[Visionary Pathway]]
-  - Sailor Knowledge: corresponds to the Tyrant Pathway. [[Tyrant Pathway]]
-  - Sun Knowledge: corresponds to the Sun Pathway. [[Sun Pathway]]
-  - Flesh Knowledge: corresponds to the Hanged Man Pathway. [[Hanged Man Pathway]]
-  - Knowledge of Death: corresponds to the Death Pathway. [[Death Pathway]]
-  - Knowledge of the Night: corresponds to the Night Pathway. [[Night Pathway]]
-  - Knowledge of Combat: corresponds to the God of War Pathway. [[God of War Pathway]]
-  - Knowledge of the Law: corresponds to the Black Emperor Pathway. [[Black Emperor Pathway]]
-  - Judgment Knowledge: corresponds to the Judge Pathway. [[Judge Pathway]]
-  - Hunting Knowledge: corresponds to the Red Priest Pathway. [[Red Priest Pathway]]
-  - Witchcraft Knowledge: corresponds to the Witch Pathway. [[Witch Pathway]]
-  - Abyss Knowledge: corresponds to the Abyss Pathway. [[Abyss Pathway]]
-  - Heterogeneous Knowledge: corresponds to the Heterogeneous Pathway. [[Heterogeneous Pathway]]
-  - Moon Knowledge: corresponds to the Moon Pathway. [[Moon Pathway]]
-  - Knowledge of the Earth: corresponds to the Earth Pathway. [[Earth Pathway]]
-  - Knowledge of Destiny: corresponds to the Destiny Pathway. [[Destiny Pathway]]
-  - Knowledge of Secrets: corresponds to the Secret Peer Pathway. [[Secret Peer Pathway]]
-  - Artisan Knowledge: corresponds to the Perfect Pathway. [[Perfect Pathway]]
+  - Divination Knowledge: corresponds to the Fool Pathway. [[Fool]]
+  - Apprentice Knowledge: corresponds to the Apprentice Pathway. [[Door]]
+  - Stealing Knowledge: corresponds to the Error pathway.
+  - Writing Knowledge: corresponds to the Visionary pathway.
+  - Sailor Knowledge: corresponds to the Tyrant pathway.
+  - Sun Knowledge: corresponds to the Sun Pathway. [[Sun]]
+  - Flesh Knowledge: corresponds to the Hanged Man Pathway. [[Hanged Man]]
+  - Knowledge of Death: corresponds to the Death pathway.
+  - Knowledge of the Night: corresponds to the Night Pathway. [[Darkness]]
+  - Knowledge of Combat: corresponds to the Twilight Giant pathway.
+  - Knowledge of the Law: corresponds to the Black Emperor Pathway. [[Black Emperor]]
+  - Judgment Knowledge: corresponds to the Judge Pathway. [[Justiciar]]
+  - Hunting Knowledge: corresponds to the Red Priest Pathway. [[Red Priest]]
+  - Witchcraft Knowledge: corresponds to the Witch Pathway. [[Demoness]]
+  - Abyss Knowledge: corresponds to the Abyss pathway.
+  - Heterogeneous Knowledge: corresponds to the Heterogeneous pathway.
+  - Moon Knowledge: corresponds to the Moon pathway.
+  - Knowledge of the Earth: corresponds to the Earth Pathway. [[Mother]]
+  - Knowledge of Destiny: corresponds to the Wheel of Fortune pathway.
+  - Knowledge of Secrets: corresponds to the Secret Peer pathway.
+  - Artisan Knowledge: corresponds to the Paragon pathway.
   - Space Knowledge: corresponds to more paths (if they exist and are known). [[Space Knowledge]]
 
 - **Training Limits:**

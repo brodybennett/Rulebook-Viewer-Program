@@ -1,4 +1,3 @@
-﻿
 ---
 title: "GM Guide"
 id: "hidden-sages-diary-book"
@@ -153,7 +152,7 @@ Guidance: describe your logic in roleplay; "reasonable" runs through the text. T
 
 ### Sequence abilities (overview)
 
-- Early fragility in numbers: at Sequence 7, it can only gain 1 point of Agility. Before Sequence 6, Visionary does not obtain any defense Rank.
+- Early fragility in numbers: at Sequence 7, it can only gain 1 point of Agility (DEX). Before Sequence 6, Visionary does not obtain any defense Rank.
 - GM targeting guidance: the GM should not attack Visionary first because it looks harmless and teammates look more threatening. Unless the Player does something suicidal, this Sequence should be the last to die in the party.
 - Mind-reading: can break poorly designed scenarios, but even at Sequence 2 it stays at surface thoughts. It cannot directly know secrets or important things, can infer personality and obvious dissatisfaction or malice, and can read current surface thoughts. Deeper results require step-by-step psychological guidance to lower defenses; usually a long process.
 - GM support for fun: provide complete, complex, vast psychological secrets. If insufficient, focus on NPC gossip to avoid crucial parts as second-best.
@@ -167,7 +166,7 @@ Guidance: describe your logic in roleplay; "reasonable" runs through the text. T
 
 ### Sequence notes
 
-- At Sequence 5, damage begins to show strongly. Under higher physical defense across pathways, lightning and light damage still have high priority even at demigod stage. Lightning speed can ignore Agility and evasion values in a target's physical defense, increasing hit rate and effectively cutting physical defense. It demands skill value related to singing; learn in advance or Ocean Songster may be decorative. It can use Arrow of Lightning to draw lightning and strengthen thunder damage. Optional concept: elf-blooded descendant using a bow to shoot thunder.
+- At Sequence 5, damage begins to show strongly. Under higher physical defense across pathways, lightning and light damage still have high priority even at demigod stage. Lightning speed can ignore Agility (DEX) and evasion values in a target's physical defense, increasing hit rate and effectively cutting physical defense. It demands skill value related to singing; learn in advance or Ocean Songster may be decorative. It can use Arrow of Lightning to draw lightning and strengthen thunder damage. Optional concept: elf-blooded descendant using a bow to shoot thunder.
 - Defense progression: as Sequences increase, Tyrant "quickly can no longer keep up" at the same Sequence.
 - Mortal Tyrants are described as fragile turrets. They shine mainly at sea, can work on land but test familiarity, and their main shining moments are in low-to-mid Sequences. After Mortal, speed can break the sound barrier, but disaster ability ranges are too large and become constrained, especially on land.
 - Sea King pathway can remain in any sea area and pour wrath onto any Beyonder entering it.
@@ -183,7 +182,7 @@ Guidance: describe your logic in roleplay; "reasonable" runs through the text. T
 - Example synergy claim: if a combat-pathway Sequence 7 Beyonder obtains a Beyonder Item equivalent to Sun pathway Sequence 7 (Moon is recommended), it can produce "1+1 is greater than 2."
 - Benefits named: evasion bonus, holy bonus, flame bonus, and improving physical defense and damage.
 - Claim: if paired well, a 7+7 Beyonder may very likely reach close to the level of Sequence 5, but this does not mean they should participate in Sequence 5 combat.
-- Risk statement: even with Sun evasion bonuses, Sequence 5 combat is perilous because a Sequence 7 Beyonder Item cannot change the fundamental fragility of a Sequence 7 Beyonder's HP. Without enough survival capability, this playstyle is "walking a tightrope."
+- Risk statement: even with Sun evasion bonuses, Sequence 5 combat is perilous because a Sequence 7 Beyonder Item cannot change the fundamental fragility of a Sequence 7 Beyonder's Vitality. Without enough survival capability, this playstyle is "walking a tightrope."
 - If already Sequence 5, choosing a Sun pathway Beyonder Item is an excellent choice.
 - "Wicked" coverage: excels when facing wicked, but modules almost never have absolutely no wicked-type existence. Examples listed: Hanged Man, Abyss, Moon, Mutant, Death.
 - Sequence 6 notarization: outstanding even against non-wicked enemies; improves survival.
@@ -251,7 +250,7 @@ Claimed capability example: a Sequence 7 Reader can set a trap for a Sequence 5 
 
 ### Mid-Sequence durability and kit
 
-- Immortal flesh: at Sequence 6 has at least 80 HP.
+- Immortal flesh: at Sequence 6 has at least 80 Vitality.
 - Excess flesh stacking enables a flesh cloak to block damage, tearing off your own arm to make a bomb, and flesh magic to heal.
 - Can collapse into a pool of flesh to infiltrate through places normally impassable.
 - Appearance change has deceptive value.
@@ -262,7 +261,7 @@ Claimed capability example: a Sequence 7 Reader can set a trap for a Sequence 5 
 - "Art style" is SAN-dropping and may be resisted; character concept hard to control.
 - Before Sequence 6, almost no output capability; flesh bombs have usage limits; must accumulate flesh in advance for battles (ambush or other means) without being discovered, avoiding official attention.
 - Flesh creatures are like marionettes; at equal-level combat hard to be decisive.
-- "Only an idiot would let a Hanged Man stand beside them and spend a full-round action drilling into their body."
+- "Only an idiot would let a Hanged Man stand beside them and spend a Full-Round Action drilling into their body."
 - Output relies heavily on shepherd's grazed souls. Grazing souls is Sequence 5 and you may not find suitable souls.
 - From Sequence 6 can "face sculpt" like Faceless, but far inferior.
 
@@ -281,9 +280,9 @@ Claimed capability example: a Sequence 7 Reader can set a trap for a Sequence 5 
 
 ### Notes on defense environment
 
-- Agility and evasion in physical defense can be ignored by bullets, creating near-unavoidable situations.
+- Agility (DEX) and evasion in physical defense can be ignored by bullets, creating near-unavoidable situations.
 - Lightning and light speed at mid Sequences can balance high-speed evasion.
-- Death "does not need to care" about Agility or evasion being ignored because it emphasizes armor; armor-ignoring abilities are "usually relatively few."
+- Death "does not need to care" about Agility (DEX) or evasion being ignored because it emphasizes armor; armor-ignoring abilities are "usually relatively few."
 
 ### Strengths and drawbacks
 
@@ -333,7 +332,7 @@ Claimed capability example: a Sequence 7 Reader can set a trap for a Sequence 5 
 
 - Reckless-brawler with plain sturdiness.
 - Among the ceilings of frontal combat early and late, especially before demigod.
-- Weapons mastery: proficient in any offensive skill, saving skill-point allocations. High attack checks mean that against insufficient Agility opponents, attacks are "guaranteed hits," each strike a grievous wound.
+- Weapons mastery: proficient in any offensive skill, saving skill-point allocations. High attack checks mean that against insufficient Agility (DEX) opponents, attacks are "guaranteed hits," each strike a grievous wound.
 - Special attack actions allow one-versus-many; charging into an army is possible.
 
 ### Sequence progression notes
@@ -341,7 +340,7 @@ Claimed capability example: a Sequence 7 Reader can set a trap for a Sequence 5 
 - Before Sequence 6, should avoid prolonged combat.
 - At Sequence 6, qualitative change in protection; formally strong attack plus damage-bearing. Combined with huge body from low Sequence, becomes the only pure melee role.
 - At demigod, somewhat disadvantaged due to general enhancement of other pathways. Excels at frontal combat, but opponents avoid head-on fights. Needs a mobility Beyonder Item (what it lacks most), though Mortal strength remains high even without one.
-- Anti-caster: if an opponent uses a casting action, Warrior can instantly charge and inflict a grievous wound. Mortal is still a mage's nemesis.
+- Anti-caster: if an opponent uses a Casting Action, Warrior can instantly charge and inflict a grievous wound. Mortal is still a mage's nemesis.
 - Utility: can eliminate supernatural effects. Mortal Hide in Reflected Light enables assassin-like ambushes mid-combat.
 - Output is stable and lasting via special attack actions: continuous strike for single-unit output and whirlwind slash to rush into crowds.
 - Regret: early damage is mainly physical; feels unconvincing against certain Sequences or monsters.
@@ -398,7 +397,7 @@ Multi-person melee performs excellently. It can modify casting targets, and the 
 ## Red Priest
 
 - Powerful combat-oriented Sequence.
-- Low Sequences: offensive capability relatively weak due to low HP, but still has some combat ability.
+- Low Sequences: offensive capability relatively weak due to low Vitality, but still has some combat ability.
 - Mid-to-high Sequences: top-tier damage output.
 
 ### Sequence abilities (overview)
@@ -406,11 +405,11 @@ Multi-person melee performs excellently. It can modify casting targets, and the 
 - Low Sequences: trap-setter and provocateur.
 - Mid Sequences: team's top damage dealer ("strongest spear"). High Agility (DEX), abundant skill points, and some investigative ability; suitable for story-focused and combat-focused play.
 - Compared to Tyrant or Demon: focuses on frequent attacks and easier-to-hit targets, rather than enemies difficult to hit.
-- Survivability: low HP, but high Agility (DEX) and armor from the fireground; looks fragile but not easy to kill.
+- Survivability: low Vitality, but high Agility (DEX) and armor from the fireground; looks fragile but not easy to kill.
 - Damage sources: mainly fire damage and Premeditated. Struggles against high fire resistance or high physical defense.
 - GM counterpicks suggested: Fool, Demon, Tyrant. These enemies' damage does not rely on low Strength (STR) but on stacking Premeditated damage after multiple hits.
 - Attribute tendency (as provided): prioritize Agility (DEX), Strength (STR) secondary, Intuition (INT) after that. Do not underestimate Intuition (INT), especially with many targets.
-- Tactical guidance: avoid close combat (potions grant higher Agility than Strength). Shooting skills recommended over brawling. Against high physical defense, prepare Stealth, use Stealth-based evasion to gain Conspiracy action bonus, and combine with provocation.
+- Tactical guidance: avoid close combat (potions grant higher Agility (DEX) than Strength). Shooting skills recommended over brawling. Against high physical defense, prepare Stealth, use Stealth-based evasion to gain Conspiracy action bonus, and combine with provocation.
 
 ### Roleplay
 
@@ -456,7 +455,7 @@ Multi-person melee performs excellently. It can modify casting targets, and the 
 ## Abyss
 
 - Outputs via toxins, fire, physical damage, and curses.
-- High-HP bonus makes Abyss an uncompromising melee mage.
+- High-Vitality bonus makes Abyss an uncompromising melee mage.
 
 ### Sequence abilities
 
@@ -610,7 +609,7 @@ Multi-person melee performs excellently. It can modify casting targets, and the 
 - Mid-Sequence Fate should prioritize survival and concealment: hide, change locations frequently, avoid discovery. It has divination and anti-divination; with Luck and relocation, even discovered enemies find it hard to kill.
 - Pursuit: currently pursued by members of the Rose School of Thought due to Fate Council split.
 - High-Sequence Fate: no exact data; may represent changes in game rules (great success reversal, dice chaos). Sequence 2 can, to a certain extent, foresee the future.
-- Spirit Vision constraint: at mid-to-low Sequence, Fate Spirit Vision can only see a person's Luck or misfortune. Fate cannot look directly at a Mythical Creature existence and would go insane on the spot. On first encounter, Spiritual intuition forces you (first time only) not to open your eyes; afterward, inattention may trigger an SC. (**Clarification:** SC means **Sanity Check**. [[Sanity Check]])
+- Spirit Vision constraint: at mid-to-low Sequence, Fate Spirit Vision can only see a person's Luck or misfortune. Fate cannot look directly at a Mythical Creature existence and would go insane on the spot. On first encounter, Spiritual intuition forces you (first time only) not to open your eyes; afterward, inattention may trigger an SC. (**Clarification:** SC means **Sanity / Rationality Check**. [[Sanity / Rationality Check]])
 - Demigod and above: can roughly see direction of fate flow (general, not clear). Sequence 1 can notice abnormal signs and make prophecies; prophecies may be affected by other fate-related abilities.
 - Rituals are "simplest and hardest": with good luck, easy to become a demigod; with bad luck or time, an entire life may be wasted.
 - Core problem: Fate Spirit Vision cannot be turned off even at high Sequence, but can be blocked. First priority is to avoid seeing things you should not see and learning things you should not learn.

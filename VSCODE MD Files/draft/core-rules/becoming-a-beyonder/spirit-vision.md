@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Spirit Vision"
 id: "spirit-vision"
 tags: ["core", "chapter-5"]
@@ -21,7 +21,7 @@ While Spirit Vision is active, you can:
 
 - See weak spirits, including ghosts and wraiths. Ghosts dispersed for more than 1 day are usually difficult to see.
 - See auras on people as various colors. By the aura's thickness, brightness, and color, you can roughly judge the target's health and emotional state.
-- Characters from a Pathway with poor Inspiration are generally unable to distinguish these details clearly.
+- Characters from a Pathway with poor Intuition (INT) are generally unable to distinguish these details clearly.
 
 ## Maintenance Cost
 
@@ -50,7 +50,7 @@ The Astral Body is the way the Spirit Body communicates with the spirit world an
 
 > Lore: Scenes seen after ingesting a potion are images seen by the Astral Body wandering the spirit world. This is connected to divination; the spirit world does not follow material rules, and past, present, and future may overlap.
 
-> GM Note: Only higher-Sequence Inspiration-type Pathway can directly see the Astral Body through Spirit Vision. The Eye of Secrets belongs to this type. See [[Eye of Secrets]].
+> GM Note: Only higher-Sequence Intuition (INT)-type Pathway can directly see the Astral Body through Spirit Vision. The Eye of Secrets belongs to this type. See [[Eye of Secrets]].
 
 ### Mental Body
 
@@ -60,7 +60,7 @@ Unlike the other bodies, the Mental Body combines with the physical body. It con
 
 The Etheric Body is the outermost layer: life energy and physical state. The aura's color is an external symbol of the Etheric Body. Through this, you can see some spirits, ghosts, and wraiths, including certain existences that should not be seen. You can judge health and emotional state through the aura's thickness, brightness, and color as expressed by the Etheric Body.
 
-## Etheric Body: Health Color Reference
+## Etheric Body: Vitality Color Reference
 
 | Area | Color |
 |---|---|

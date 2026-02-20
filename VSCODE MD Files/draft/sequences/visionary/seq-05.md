@@ -26,11 +26,11 @@ tags: ["pathway:visionary", "sequence:5"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Agility +1, Constitution +1, Inspiration +1.
+- **Attribute Gain:** Strength +1, Agility (DEX) +1, Constitution +1, Intuition (INT) +1.
 
 ### Dream Guidance
 
-- **Cost:** 1 **Spell-Casting Action**; 3 **Spirituality Points**. [[Spell-Casting Action]] [[Spirituality]]
+- **Cost:** 1 **Casting Action**; 3 **Spirituality**. Casting Action [[Spirituality]]
 - **Use:** You must be in a dream and within 10 meters of the dream owner (within the dream).
 - **Effect:** You guide the target step by step through changes in the dream, leading them to reveal the secrets in their heart.
 - **Limits:**
@@ -43,7 +43,7 @@ tags: ["pathway:visionary", "sequence:5"]
 
 ### Dream Modification
 
-- **Cost:** 1 **Spell-Casting Action**; 3 **Spirituality Points**. [[Spell-Casting Action]] [[Spirituality]]
+- **Cost:** 1 **Casting Action**; 3 **Spirituality**. Casting Action [[Spirituality]]
 - **Use:** On the premise that you are in a dream, you modify the dream content according to your will (this is not guiding another’s subconscious).
 - **Effect:** Modifying the dream affects the target over time, causing unconscious changes and pushing them to do things they would not otherwise do.
 - **Limits and procedure (rules text):**
@@ -59,7 +59,7 @@ tags: ["pathway:visionary", "sequence:5"]
 
 - **Passive:** You can perceive the dreams of intelligent creatures within 500 meters. Before you shuttle into a dream, you can perceive the dream owner’s fuzzy Sequence level (or that they are an ordinary person). If the dream owner’s **Personality** is higher than yours, the dream is judged unsafe; otherwise it is judged safe.
 - **Active**
-  - **Cost:** 1 **Spell-Casting Action**; 2 **Spirituality Points**. [[Spell-Casting Action]] [[Spirituality]]
+  - **Cost:** 1 **Casting Action**; 2 **Spirituality**. Casting Action [[Spirituality]]
   - **Targeting and range:** An intelligent creature within 500 meters. [5]
   - **Effect:** Your physical body and spirit body enter the chosen creature’s dreamland together. You can jump between two dreamlands to complete a physical “Flash.”
 - **Limits (rules text):**

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sequence 9: Savant"
 id: "paragon-seq-09"
 tags: ["pathway:paragon", "sequence:9"]
@@ -14,17 +14,17 @@ tags: ["pathway:paragon", "sequence:9"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +2.
+- **Attribute Gain:** Intuition (INT) +2.
 - **Rapid Learning (skills):** Process manufacturing, physics, engineering, mechanical maintenance, and chemistry can be quickly learned.
 - **Course-Based Skill Increase:** Each time you receive at least 2 hours of non-repetitive and effective corresponding guidance, choose one skill that matches the course; that skill increases by 1 grade.
   1. Unlike other methods, learning takes effect immediately after each 2-hour course ends. Skill-rank progression follows the normal ladder (training -> proficient -> advanced -> mastery), and you can improve at most 2 skills per day.
   2. This course-based increase is **separate** from rapid learning; you do not apply both to the same 2-hour course.
 
-- **Character Creation (not newly promoted):** When creating a character above Sequence 9 (not newly promoted), use the Inspiration from the [[Triple Potion]] as a pool to buy [[Growth Skills]].
+- **Character Creation (not newly promoted):** When creating a character above Sequence 9 (not newly promoted), use the Intuition (INT) from the [[Triple Potion]] as a pool to buy [[Growth Skills]].
 
 ### Wake Up Memory
 
-- **Cost:** 3 **Spirituality Points**.
+- **Cost:** 3 **Spirituality**.
 - **Use:** 1 **Swift Action**.
 - **Effect:** On your next skill check, one of your skills improves by one tier for that check:
   - Untrained acts as trained.
@@ -70,7 +70,7 @@ tags: ["pathway:paragon", "sequence:9"]
 
 ### Spirit Vision
 - **Use:** 1 **Free Action** to activate.
-- **Cost:** 1 **Spirituality Point** per round.
+- **Cost:** 1 **Spirituality** per round.
 - **Effect:** While Spirit Vision is active, you gain the following benefits:
 
 

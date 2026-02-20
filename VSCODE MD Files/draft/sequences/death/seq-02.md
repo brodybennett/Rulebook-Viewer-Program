@@ -18,5 +18,5 @@ tags: ["pathway:death", "sequence:2"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Constitution +1, Strength +1, Dexterity +1, Inspiration +1.
+- **Attribute Gain:** Constitution +1, Strength +1, Agility (DEX) +1, Intuition (INT) +1.
 - Choose 1 skill to increase by 1 level.

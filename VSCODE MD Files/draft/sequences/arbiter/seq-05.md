@@ -40,15 +40,15 @@ tags: ["pathway:arbiter", "sequence:5"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +2, Constitution +2, Agility +1.
+- **Attribute Gain:** Strength +2, Constitution +2, Agility (DEX) +1.
 - All your attack skills can be learned as **Knowledge** skills at **Proficient**.
 
 - **Retribution:** You gain the following laws related to punishment. [[Laws]]
 
 ### The Violator Shall Be Punished!
 
-- **Use:** 1 **Attack Action**. [[Attack Action]]
-- **Cost:** Consume 2 **Spiritual Points**. [[Spiritual Points]]
+- **Use:** 1 **Attack Action**. Attack Action
+- **Cost:** Consume 2 **Spirituality**. [[Spirituality]]
 - **Targeting and range:** Choose 1 target within 50 meters that violates your **Forbidden Law**. [[Forbidden Law]]
 - **Effect:** Make 1 **Melee Attack**. [[id:alias-melee-attack|Melee Attack]] This attack must hit (guaranteed hit).
 - **Limits:** This cannot be used with [[id:alias-death|Death]] / [[Whiplash]] and other laws.
@@ -57,8 +57,8 @@ tags: ["pathway:arbiter", "sequence:5"]
 
 ### Punishment Target: Biological Type
 
-- **Use:** 1 **Attack Action**. [[Attack Action]]
-- **Cost:** Consume 3 **Spiritual Points**. [[Spiritual Points]]
+- **Use:** 1 **Attack Action**. Attack Action
+- **Cost:** Consume 3 **Spirituality**. [[Spirituality]]
 - **Targeting and range:** Designate 1 target within 50 meters, then name the corresponding **creature type**. [[Creature Type]]
 - **Effect:** Perform 1 **Melee Attack**. [[id:alias-melee-attack|Melee Attack]]
   - Increase damage by **1d6**.
@@ -76,7 +76,7 @@ tags: ["pathway:arbiter", "sequence:5"]
    - Change when the punishment target is human/other living creatures/any creature with the lowest curse resistance.
 3. **Cold damage:** [[Cold Damage]]
    - Change when the punishment target is gargoyle/golem/any creature with the lowest cold resistance.
-   - The hit creature suffers **-2 disadvantage** on the next identification within **1 round**, and its movement power is halved (round up). [[Disadvantage]] [[Identification]] [[Movement Power]]
+   - The hit creature suffers **-2 disadvantage** on the next identification within **1 round**, and its movement power is halved (round up). Disadvantage Identification [[Movement Power]]
    - Sexual creatures are exempt at the GM's discretion.
 4. **Fire damage:** [[Fire Damage]]
    - Change when the punishment target is a frozen creature/spider silk/plant/any creature with the lowest fire resistance.
@@ -88,15 +88,15 @@ tags: ["pathway:arbiter", "sequence:5"]
 
 ### The Guilty Shall Be Restrained!
 
-- **Use:** 1 **Spellcasting Action**. [[Spellcasting Action]]
-- **Cost:** Consume 3 **Spiritual Points**. [[Spiritual Points]]
+- **Use:** 1 **Spellcasting Action**. Spellcasting Action
+- **Cost:** Consume 3 **Spirituality**. [[Spirituality]]
 - **Targeting and range:** Choose 1 target within 50 meters.
 - **Effect:**
   - Choose the crime of the target and announce the crime (e.g., “illegal trespassing into another person’s house is a crime”), then connect with “the guilty shall be restricted!”
   - Different crimes can be handled in **one use**, with separate sentences for each.
 - **Restraint (choose by crime severity):**
-  - **Minor crime:** Dexterity and evasion in mobility/physical defense **-2 disadvantage**. [[Dexterity]] [[Evasion]] [[Mobility]] [[Physical Defense]] [[Disadvantage]]
-  - **Moderate crime:** Dexterity and evasion in mobility/physical defense **-4 disadvantage**. [[Disadvantage]]
-  - **Serious crime:** Dexterity and evasion in mobility/physical defense **-6 disadvantage**. [[Disadvantage]]
+  - **Minor crime:** Agility (DEX) and evasion in mobility/physical defense **-2 disadvantage**. Agility (DEX) [[Evasion]] [[Mobility]] [[Physical Defense]] Disadvantage
+  - **Moderate crime:** Agility (DEX) and evasion in mobility/physical defense **-4 disadvantage**. Disadvantage
+  - **Serious crime:** Agility (DEX) and evasion in mobility/physical defense **-6 disadvantage**. Disadvantage
 - **Duration:** The restriction effect lasts for **1 round**.
 - **Limits:** After 1 round, the same crime cannot be sentenced again, and the corresponding crime is deemed to have disappeared. [[Sentencing]]

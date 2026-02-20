@@ -45,7 +45,7 @@ Only by satisfying other people’s wishes can one’s own wishes be satisfied; 
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +2
+- **Attribute Gain:** Intuition (INT) +2
 - Choose three skills to train.
 - One skill is upgraded by one level, excluding miracle skills.
 
@@ -64,7 +64,7 @@ After just being promoted:
 
 #### Miracle skills from transformed attribute checks
 
-- An attribute you transform is regarded as a new skill, such as “Miracle (Inspiration)”.
+- An attribute you transform is regarded as a new skill, such as “Miracle (Intuition (INT))”.
 - Unlike transformed skills, these are initially regarded as trained.
 - If you need to use them for miracle determination, you can judge the corresponding skill; this will not affect the attribute bonus of your other skills. The **GM** decides which corresponding skill applies.
 
@@ -81,11 +81,11 @@ After just being promoted:
 
 - Only when one of your miracle skills is proficient (+4) can you use the miracles below; otherwise they cannot be used.
 - A miracle skill can reach up to master (+8). After that, the bonus usually cannot continue to increase unless you complete a [[grand miracle]].
-- A miracle skill enjoys the additional value of the attribute corresponding to the original skill. Therefore, the miracle master will have certain advantages when performing miracles related to Inspiration.
+- A miracle skill enjoys the additional value of the attribute corresponding to the original skill. Therefore, the miracle master will have certain advantages when performing miracles related to Intuition (INT).
 
 #### Casting miracles (examples)
 
-- A skill test transformed into a miracle can directly complete the result through a [[Casting Action]] regardless of material and time constraints.
+- A skill test transformed into a miracle can directly complete the result through a Casting Action regardless of material and time constraints.
 
 Examples of successful Miracle checks:
 
@@ -130,7 +130,7 @@ Examples of successful Miracle checks:
   - Place it at the position that needs to be resurrected.
 - After you die, you will regenerate at the resurrection point set by you, and integrate this Sequence 2 characteristic to become a Master of Miracles with this Sequence 2 characteristic.
 - The Extraordinary characteristic of 9–3 is optional in the characteristic; it does not affect resurrection, but it is better to have it, otherwise it may be difficult to effectively use the low-sequence ability.
-  - For details, see [[Explanation of Sequence Replacement]].
+  - For details, see Explanation of Sequence Replacement.
 
 #### Additional constraints and setup
 
@@ -148,6 +148,6 @@ If resurrected, they will instantly expand and reconstitute your body from nothi
 ### Influence the Future
 
 - **Cost:** 5 points of spirituality
-- **Use:** A **swift action**
+- **Use:** A **Swift Action**
 - **Effect:** A target you designate will get a +5 bonus on the result of a certain judgment you designate.
 - **Limits:** This bonus cannot be superimposed.

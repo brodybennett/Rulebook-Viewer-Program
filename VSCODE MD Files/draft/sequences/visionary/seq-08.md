@@ -19,8 +19,8 @@ tags: ["pathway:visionary", "sequence:8"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2; **Charm** +1  
-  - This **Charm** represents personality charm and does not affect your appearance.
+- **Attribute Gain:** **Intuition (INT)** +2; **Charisma (CHA)** +1  
+  - This **Charisma (CHA)** represents personality charm and does not affect your appearance.
 
 ### Psych/Psycho Channeling
 
@@ -38,13 +38,13 @@ tags: ["pathway:visionary", "sequence:8"]
   - **Observing Emotions:** You can see the other person's real-time emotions by default, but [[Instigator]] / [[Trickster]] / [[Clown]] can conceal their emotional aura from you.
 
 - **Active:**
-  - As long as you take the initiative to roleplay (RP) the false emotions you want to show, any behavior that tries to guess your [[Psychology]] has its identification Difficulty increased by your **(Inspiration + Charm + Psychology)** bonus.
+  - As long as you take the initiative to roleplay (RP) the false emotions you want to show, any behavior that tries to guess your [[Psychology]] has its identification Difficulty increased by your **(Intuition (INT) + Charisma (CHA) + Psychology)** bonus.
   - You must continue to RP for every response for this to take effect.
   - **Special (GM Procedure):** The GM should not announce the increased identification Difficulty. If the identification exceeds the original Difficulty but not the increased Difficulty, the GM provides the mind reader’s false emotions as false information.
 
 ### Thinking Simulation
 
-- **Use:** 1 [[Casting Action]]
+- **Use:** 1 Casting Action
 - **Cost:** No [[Spirituality]] is consumed.
 - **Targeting and range:** Choose a creature you know; the target does not need to be present.
 - **Effect:** You initially simulate other people’s thinking. You learn the target’s possible emotional reaction to something. If your input information is wrong, your simulation may produce the wrong result.

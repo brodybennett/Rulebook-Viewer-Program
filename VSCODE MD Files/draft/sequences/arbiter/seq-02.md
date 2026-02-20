@@ -20,13 +20,13 @@ tags: ["pathway:arbiter", "sequence:2"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Charisma +3; Inspiration +1; Dexterity +1; Strength +1; Constitution +1.
+- **Attribute Gain:** Charisma +3; Intuition (INT) +1; Agility (DEX) +1; Strength +1; Constitution +1.
 - **Skill Gain:** [[Law skill]] +1 skill level.
 
 ### Sage's Balance
 
-- **Use:** **Free Action** [[Free Action]].
-- **Cost:** 5 **spiritual points** [[Spiritual Points]] (total).
+- **Use:** **Free Action** Free Action.
+- **Cost:** 5 **spiritual points** [[Spirituality]] (total).
 - **Targeting and range:** Choose a designated area within 1 kilometer of you as the center (includes you and everyone in the area).
 - **Effect:**
   - You “balance” the designated area by speaking the corresponding **law** (decree). [[law (decree)]]
@@ -63,7 +63,7 @@ tags: ["pathway:arbiter", "sequence:2"]
 - **Effect:** You sense imbalances in the order around you.
 - **Use:** When hidden, invisible, corrupted, dark, undead, or other forces that violate the order are present, you may immediately make a **legal appraisal** against the enemy’s **will defense** and locate the corresponding target.
   - [[Legal Appraisal]]
-  - [[Will Defense]]
+  - Willpower Defense
 - **Targeting and range:** 1 kilometer radius.
 
 - **At Sequence 1:** Expands to a city, and you can know how the corresponding imbalance appeared and the general ins and outs of the subsequent whole thing. [[id:alias-sequence-1|Sequence 1]]

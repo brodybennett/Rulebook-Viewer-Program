@@ -26,7 +26,7 @@ It can also use its body as a “cage,” turning it into a small Underworld tha
   - resists the Underworld’s undead-creature transformation, and
   - lets the soul adapt to the power of death without actually passing away.
 
-> **GM Note:** Possessing another person does not meet the requirements. First, a body that is not of the [[Death Pathway]] cannot reach the “pseudo-dead” state. Second, that body may still have its own original spirit body, and conflicting thoughts may lead to loss of control.
+> **GM Note:** Possessing another person does not meet the requirements. First, a body that is not of the Death cannot reach the “pseudo-dead” state. Second, that body may still have its own original spirit body, and conflicting thoughts may lead to loss of control.
 
 ## Extraordinary Abilities
 
@@ -41,16 +41,16 @@ It can also use its body as a “cage,” turning it into a small Underworld tha
   - From now on, you can hold a certain number of dead, soul bodies, and natural spirits in your body.
   - The number you can hold equals the number of dead you can drive using [[Knowledge of the Dead]].
   - Contained dead are limited to spirit bodies; dead with physical bodies cannot enter your body.
-- **Use:** As a **swift action**, you can release any number of spirits contained within you.
+- **Use:** As a **Swift Action**, you can release any number of spirits contained within you.
 - **Special:** The Underworld in the body is an effect brought by the potion and cannot be [[Stolen]] or [[Recorded]].
 
 **Benefits:**
 1) Any soul contained in your body no longer needs to worry about its existence time. As long as it does not leave the inner Underworld, its existence time is unlimited.
-2) With 1 **spell-casting action**, you can use the abilities of a spirit body contained within your inner Underworld.
+2) With 1 **Casting Action**, you can use the abilities of a spirit body contained within your inner Underworld.
    - This does not include spirit bodies higher than you by 1 level.
    - To use the abilities of a spirit body higher than you by 1 level, that spirit body must voluntarily lend you the ability each time.
-   - Even if the borrowed ability is originally a swift action, you still need a casting action to use it. If it is a full-round action, it is still a **full-round action**.
-3) If someone intends to withdraw a spirit body attached to you, or a spirit body in the inner Underworld within your body, you can make a **Knowledge of the Dead** test with **Inspiration** added as a modifier against it (or against the same identification of Knowledge of the Dead). On a success, your body’s spirit is pulled back.
+   - Even if the borrowed ability is originally a Swift Action, you still need a Casting Action to use it. If it is a Full-Round Action, it is still a **Full-Round Action**.
+3) If someone intends to withdraw a spirit body attached to you, or a spirit body in the inner Underworld within your body, you can make a **Knowledge of the Dead** test with **Intuition (INT)** added as a modifier against it (or against the same identification of Knowledge of the Dead). On a success, your body’s spirit is pulled back.
    - **Special:** This does not include your own spirit body, because instability of your own spirit body causes you to no longer be able to effectively use the inner Underworld.
 
 
@@ -63,14 +63,14 @@ This ability has two uses.
 #### Use 1: Manifest Gate to Seize and Draw In
 
 - **Cost:** 5 points of [[Spirituality]]
-- **Use:** 1 **spell-casting action**. Spread five fingers and aim your palm at a target within 50 meters.
+- **Use:** 1 **Casting Action**. Spread five fingers and aim your palm at a target within 50 meters.
 - **Effect:** The Gatekeeper chooses one of the following effects to emerge from the gate, or both simultaneously (no action required):
 
 **A) Ghosts of the Underworld**
-- **Attack/Check:** “Inspiration + Knowledge of the Dead” against the target’s [[Physical Defense]], ignoring [[Armor]].
+- **Attack/Check:** “Intuition (INT) + Knowledge of the Dead” against the target’s [[Physical Defense]], ignoring [[Armor]].
 - **On a successful catch:**
   1) The target cannot use [[Displacement Abilities]], and cannot escape through [[Blurring]].
-     - At the beginning of each round, the target must use Strength to oppose “Inspiration + Knowledge of the Dead identification,” or be pulled toward/into the gate by a distance equal to the Gatekeeper’s Knowledge of the Dead skill bonus. While caught, the target continues to be regarded as in a [[Bound State]].
+     - At the beginning of each round, the target must use Strength to oppose “Intuition (INT) + Knowledge of the Dead identification,” or be pulled toward/into the gate by a distance equal to the Gatekeeper’s Knowledge of the Dead skill bonus. While caught, the target continues to be regarded as in a [[Bound State]].
   2) After being caught, the target’s normal movement action can only move closer to the gate.
      - Each time the caught creature suffers damage or a mental influence (e.g., “spiritual puncture,” “dragon power,” etc.), it immediately performs an additional pull check as in (1).
   3) Once completely pulled into the gate, the target is regarded as being sent to the Underworld immediately.
@@ -101,7 +101,7 @@ This ability has two uses.
 - To escape the gate of the Underworld, a creature must attack the gate.
 
 **Gate and revenant hit points and targeting:**
-- The gate has hit points equal to the summoner’s **maximum** HP, but is independent of the summoner.
+- The gate has hit points equal to the summoner’s **maximum** Vitality, but is independent of the summoner.
 - The “nether revenant” is a separate summoned entity with a total of 20 hit points.
 - Both are considered undead.
 
@@ -126,7 +126,7 @@ GM decides the gate’s specific goal beyond the rules above.
 #### Use 2: Overlapping Gate for Travel
 
 - **Cost:** 3 points of Spirituality
-- **Use:** 1 **spell-casting action**
+- **Use:** 1 **Casting Action**
 - **Effect:** You create a gate that overlaps the Spirit World and the Underworld.
   - You create the same gate, but it is not “manic.”
   - It can be used to freely enter and exit between reality and the Spirit World/Underworld without needing to find an entrance.
@@ -137,14 +137,14 @@ GM decides the gate’s specific goal beyond the rules above.
 You turn an area around you into a portal to the Underworld and reality.
 
 - **Cost:** Indefinite Spirituality (see Duration/Upkeep below)
-- **Use:** 1 **full-round action**
+- **Use:** 1 **Full-Round Action**
 - **Targeting and range:** Ground or sea area within 100 meters
 - **Effect:** The affected area suddenly becomes dark, as if turning into the entrance of hell—like a deep, dark ocean. You summon any Underworld creatures; they occupy your [[Manipulation Ceiling]] and charge your enemies like a tidal wave.
 
 **Duration/Upkeep:**
 1) Before using this ability, choose the number of rounds the wave will last. Each round consumes 5 points of Spirituality.
 2) The end of the continuation does not mean the summoned creatures disappear. Instead, within **1 minute** after the wave ends, each species will die or half of the total number of troops will be lost (round up). During this 1-minute window, you can immediately decide to add any number of Underworld creatures.
-3) The type and quantity of Underworld creatures “filled in the time” are up to you. After that 1-minute window ends, you need to use a full-round action to summon.
+3) The type and quantity of Underworld creatures “filled in the time” are up to you. After that 1-minute window ends, you need to use a Full-Round Action to summon.
 4) If you leave the 100-meter range, the Nether Wave closes immediately.
 
 

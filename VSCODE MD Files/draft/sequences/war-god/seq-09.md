@@ -8,7 +8,7 @@ tags: ["pathway:war-god", "sequence:9"]
 
 ## Warrior
 
-> **Lore:** Anciently known as the “[[Giant Pathway]]” Pathway, whose mythical creature takes the form of a Cyclops.
+> **Lore:** Anciently known as the “Twilight Giant” Pathway, whose mythical creature takes the form of a Cyclops.
 
 You gain the following extraordinary abilities.
 
@@ -16,14 +16,14 @@ You gain the following extraordinary abilities.
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +2, Agility +1.
+- **Attribute Gain:** Strength +1, Constitution +2, Agility (DEX) +1.
 - **Rapid Combat Learning:** You can quickly learn combat-related skills.
   1. Whenever you receive **2 hours** of non-repetitive, effective corresponding guidance, your fighting/weapon use/throwing skills corresponding to the guidance content increase by **1 level**.
      - You need **2**, **3**, and **4** times to be trained to be **proficient**, **advanced**, and **mastery** respectively.
      - [[Skill Levels]]
   2. Each time you conduct an actual battle, the enemy must be stronger than you. When you defeat them, this is also regarded as skill growth, and you can only get this once for each enemy.
      - [[id:alias-skill-growth|Skill Growth]]
-3. When creating a [[Character Card]] that has not just been promoted, you can add growth-skill points equal to the potion’s Strength + Agility bonuses, and the growth rate is regarded as [[Inspiration]].
+3. When creating a [[Character Card]] that has not just been promoted, you can add growth-skill points equal to the potion’s Strength + Agility (DEX) bonuses, and the growth rate is regarded as Intuition.
 
 ### Extraordinary Fighting
 
@@ -36,11 +36,11 @@ You gain the following extraordinary abilities.
      - [[Special Actions]]
   3. **Combat Skills:**
      - When you perform feints, you can use [[Fighting Identification]] instead of [[Acting Identification]] / [[Cheating Identification]], no matter whether Fighting is proficient or not.
-     - When using firearms, if the target is less than **5 meters** away from you, [[Shooting]] can be changed to Fighting Identification, but the related attribute is **Agility**.
+     - When using firearms, if the target is less than **5 meters** away from you, [[Shooting]] can be changed to Fighting Identification, but the related attribute is **Agility (DEX)**.
   4. **Mastery of Various Martial Arts:** When you use a weapon, the minimum skill level to use it is **training**, no matter whether it is really trained or not.
 5. **Quick Dodge:** Against guns, you retain full Physical Defense; light and lightning do not benefit, and you get an extra level of dodge.
-     - [[Dodge]]
-- **Sequence Upgrade:** At [[Sequence 7]], your Armed Identification can see extraordinary factors, and Quick Dodge is increased by **1** extra level of dodge.
+     - Dodge
+- **Sequence Upgrade:** At Sequence 7, your Armed Identification can see extraordinary factors, and Quick Dodge is increased by **1** extra level of dodge.
   - [[Extraordinary Factors]]
 - **Special:** This is the benefit of the potion and cannot be recorded or stolen.
 
@@ -56,7 +56,7 @@ You gain the following extraordinary abilities.
 
 ### Spirit Vision
 - **Use:** 1 **Free Action** to activate.
-- **Cost:** 1 **Spirituality Point** per round.
+- **Cost:** 1 **Spirituality** per round.
 - **Effect:** While Spirit Vision is active, you gain the following benefits:
 
 

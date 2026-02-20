@@ -76,7 +76,7 @@ tags: ["pathway:Demoness", "sequence:5"]
    - **Symptoms:** Mild skin allergy symptoms will appear at this level of infection, but not to the extent that they will be noticed unless carefully checked.
 
 2) **② Mild infection**
-   - **Rules:** Only one swift action can be performed per round, and the casting action, attack action, or moving action can be converted into a swift action.
+   - **Rules:** Only one Swift Action can be performed per round, and the Casting Action, Attack Action, or moving action can be converted into a Swift Action.
    - **Symptoms:** The body temperature of the infected person will rise, with a slight fever, and something is wrong with the inspiration identification of Difficulty Value 20.
      - (If the infected person has been teased by the touch of pleasure before, the increase in body temperature will be confused because of the pleasure, and it is impossible to judge whether the increase in body temperature is due to pleasure or disease. It can only be detected by changing the Difficulty Value to 25.)
 
@@ -86,13 +86,13 @@ tags: ["pathway:Demoness", "sequence:5"]
 
 4) **④ Severe infection**
    - **Rules:** Every time a creature caught in a severe infection performs a spellcasting or attacking action, it needs a Difficulty Value 20 will test or a Difficulty Value 25 constitution test, otherwise it is equivalent to an infection level 3 situation.
-     - **Major failure of Will/Constitution:** Coughing up blood, loss of 1d6 [[Hit Points]].
+     - **Major failure of Will/Constitution:** Coughing up blood, loss of 1d6 Hit Points.
    - **Symptoms:** The cold symptoms of the infected person have deteriorated into severe pneumonia.
 
 5) **⑤ Fatal infection**
    - **Rules:**
      - Movement actions also require will or constitution identification, otherwise they will cough until they cannot support, curl up and fall to the ground in pain.
-     - If they still do not receive first aid or escape from the range of the disease aura after three minutes, they will lose 3d6 HP per round.
+     - If they still do not receive first aid or escape from the range of the disease aura after three minutes, they will lose 3d6 Vitality per round.
      - **Will/Physical Failure:** Sudden cerebral infarction and myocardial infarction, no matter how much life is left, is considered to be in a state of [[Near Death]].
    - **Symptoms:** In this state, the infected person has a high fever of 40 degrees, and pneumonia and myocardial infarction are in a life-threatening state.
 

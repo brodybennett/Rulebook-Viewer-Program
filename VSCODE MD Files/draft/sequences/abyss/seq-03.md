@@ -8,7 +8,7 @@ tags: ["pathway:abyss", "sequence:3"]
 
 ## Blatherer
 
-- **Effect:** On a failed **Will Defense**, roll **1d4** to choose one listed outcome; the listener also suffers **1d6** Sanity loss.
+- **Effect:** On a failed **Willpower Defense**, roll **1d4** to choose one listed outcome; the listener also suffers **1d6** Sanity / Rationality loss.
 
 ## Advancement
 
@@ -26,15 +26,15 @@ tags: ["pathway:abyss", "sequence:3"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Strength** +2, **Agility** +1, **Constitution** +2, **Inspiration** +3.
+- **Attribute Gain:** **Strength** +2, **Agility (DEX)** +1, **Constitution** +2, **Intuition (INT)** +3.
 
 ### Babbling
 
 - **Cost:** 1 point of **Spirituality**.
 - **Use:** Free action; once per round.
-- **Effect:** Make an **Inspiration** test against each listener's **Will Defense**.
-- **Effect:** Each time you utter a raving from the [[id:alias-abyss|Abyss]], the people present who hear your raving lose 1 point of **Sanity** per round for **1 minute** after the last babble.
-- **Effect:** On a failed **Will Defense**, roll **1d4** to choose one listed outcome; the listener also suffers **1d6** Sanity loss.
+- **Effect:** Make an **Intuition (INT)** test against each listener's **Willpower Defense**.
+- **Effect:** Each time you utter a raving from the [[id:alias-abyss|Abyss]], the people present who hear your raving lose 1 point of **Sanity / Rationality** per round for **1 minute** after the last babble.
+- **Effect:** On a failed **Willpower Defense**, roll **1d4** to choose one listed outcome; the listener also suffers **1d6** Sanity / Rationality loss.
 
 - **Extra:** If someone establishes contact with you by using occult means such as [[id:alias-divination|Divination]] and [[Cursing]], you can negate the influence and reveal the source.
 
@@ -45,5 +45,5 @@ tags: ["pathway:abyss", "sequence:3"]
 ### Danger Countermeasure
 
 - **Effect:** Your danger perception range covers a city.
-- **Use:** If you sense a clear source of danger and pass an **Inspiration** check against the target's **Will Defense**, you can directly use your extraordinary ability on the source.
+- **Use:** If you sense a clear source of danger and pass an **Intuition (INT)** check against the target's **Willpower Defense**, you can directly use your extraordinary ability on the source.
 - **Effect:** If you foresee the source of danger, you can reverse the influence by reflecting the effect back to the source.

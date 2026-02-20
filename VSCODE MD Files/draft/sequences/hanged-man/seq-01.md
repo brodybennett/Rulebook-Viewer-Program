@@ -20,14 +20,14 @@ tags: ["pathway:hanged-man", "sequence:1"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +1, Agility +1, Inspiration +1, Charisma +1, Will +1
+- **Attribute Gain:** Strength +1, Constitution +1, Agility (DEX) +1, Intuition (INT) +1, Charisma +1, Willpower (WIL) +1
 
 ### Dark Angel
 
 - **Use:** As a **free action**, intertwined virtual black wings appear behind you (like 9-winged angels), covering most of your body.
 - **Effect: Void Black Wings**
   - While the wings exist:
-    - The wings are considered to have Health equal to yours *(not counting **extra life**).* [[Extra Life]]
+    - The wings are considered to have Vitality equal to yours *(not counting **extra life**).* [[Extra Life]]
     - The wings have **10 unconditional damage reduction**.
     - When you take damage, the wings take damage first.
     - You gain a **+8 check bonus** to all skills.
@@ -43,8 +43,8 @@ tags: ["pathway:hanged-man", "sequence:1"]
 - **Special: Winged State**
   - While in **Winged state**, there is no longer a limit to the number of abilities you can [[Graze On Abilities]].
 - **Special: Sea of Wings (Curse)**
-  - You can use a **casting action** to select a target or an area, and let the sea of wings gradually cover the surface of others; affected creatures gain the **Fallen** status.
-    - [[Casting Action]]
+  - You can use a **Casting Action** to select a target or an area, and let the sea of wings gradually cover the surface of others; affected creatures gain the **Fallen** status.
+    - Casting Action
     - [[Fallen]]
   - If a creature continues to suffer from this effect:
     - After **three rounds**, the opponent begins to transform into a part of the “ocean,” and the opponent’s remaining life becomes the **extra life** of your wings.
@@ -52,7 +52,7 @@ tags: ["pathway:hanged-man", "sequence:1"]
     - If the gods and below do not make effective countermeasures after the opponent’s turn, they immediately become part of your wings.
   - This is considered a [[Curse]] that can be marginally dispelled by angel-level abilities or Sun Pathway demigod-level abilities.
     - [[Dispel]]
-    - [[Sun Pathway]]
+    - [[Sun]]
     - [[Angel-Level]]
     - [[Demigod-Level]]
     - [[Gods and Below]]
@@ -60,7 +60,7 @@ tags: ["pathway:hanged-man", "sequence:1"]
 ### Corruption
 
 - **Use:** A **spellcasting action**.
-- **Check:** [[Mysticism]] against [[Will Defense]]; with a -8 penalty.
+- **Check:** [[Mysticism]] against Willpower Defense; with a -8 penalty.
 - **Effect: Betrayal**
   - You designate a target to corrupt and betray its master.
   - For the same level, you can make the target’s [[Extraordinary Items]] betray, or make part of the target’s [[Marionettes]] or [[Clones]] betray.

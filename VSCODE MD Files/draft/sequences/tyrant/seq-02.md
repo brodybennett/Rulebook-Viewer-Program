@@ -19,16 +19,16 @@ tags: ["pathway:tyrant", "sequence:2"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +2, Agility +1, Constitution +2.  
+- **Attribute Gain:** Strength +2, Agility (DEX) +1, Constitution +2.  
 - Increase one chosen skill by 1 level.
 
 ---
 
 ### Avatar of Scourge
 
-- **Cost:** 10 Spirituality Points.  
+- **Cost:** 10 Spirituality.  
   [[Spirituality]]
-- **Use:** 1/round, 1 casting action.
+- **Use:** 1/round, 1 Casting Action.
 - **Effect:** Choose one natural disaster; it manifests as a real, large-scale disaster as if natural. You gain **+25** to **Disaster Attack** rolls against physical defenses.  
   [[Disaster Attack]]
 - **Targeting and Range:** All natural disasters affect a minimum area of **1 kilometer** and may extend up to **one country** in scope.
@@ -77,8 +77,8 @@ tags: ["pathway:tyrant", "sequence:2"]
 
 - Creatures and debris are drawn toward the typhoon.
 - Each round: **1d6 physical damage** and forced movement **50 m toward the typhoon**.
-- Avoid forced movement with a **Dexterity check (DV 20)**.  
-  [[DV]]
+- Avoid forced movement with a **Agility (DEX) check (Difficulty Value 20)**.  
+  Difficulty Value
 - **Additional Effect — Heavy Rain:** Cities near or within the typhoon experience continuous heavy rain equivalent to a disaster-level rainfall.
 
 ---
@@ -87,7 +87,7 @@ tags: ["pathway:tyrant", "sequence:2"]
 
 - Created alongside a catastrophic earthquake effect.
 - Forms a massive rift spanning kilometers; nearby buildings and creatures fall toward it.
-- On creation, creatures must make a **Dexterity check (DV 20)** or fall.
+- On creation, creatures must make a **Agility (DEX) check (Difficulty Value 20)** or fall.
 - **Warning:** The rift may connect to the **Chaos Sea**.  
   [[Chaos Sea]]
   - Beyonders not of the Moon, Earth, Alien, Abyss, Judge, Black Emperor, or Extraterrestrial-related pathways suffer underground pollution when approaching and have a strong tendency toward personality splitting.  
@@ -138,8 +138,8 @@ tags: ["pathway:tyrant", "sequence:2"]
 
 ### Summon Meteor
 
-- **Cost:** 3 Spirituality Points.
-- **Use:** 1 casting action.
+- **Cost:** 3 Spirituality.
+- **Use:** 1 Casting Action.
 - **Targeting and Range:** Area from **100 m to 1 km** radius.
 - **Effect:** A single meteor strikes the area. You gain **+20** on the disaster check against physical defense.  
   [[Disaster Check]]

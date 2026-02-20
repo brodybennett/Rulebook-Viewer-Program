@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sequence 4: Shamen King (Blood Count)"
 id: "moon-seq-04"
 tags: ["pathway:moon", "sequence:4"]
@@ -24,11 +24,11 @@ tags: ["pathway:moon", "sequence:4"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Constitution +2, Dexterity +2, Strength +1, Will +1; your [[Occultism]] goes up by one level.
+- **Attribute Gain:** Constitution +2, Agility (DEX) +2, Strength +1, Willpower (WIL) +1; your [[Occultism]] goes up by one level.
 
 ### Moon Paper Man
 
-- **Cost:** **Free action**; 1 point of **spirituality** per use. [[Spirituality]] [[Free Action]]
+- **Cost:** **Free action**; 1 point of **spirituality** per use. [[Spirituality]] Free Action
 - **Use:** Use a paper man/paper doll (a moon paper figurine) as a **Stand-in** to resist damage you take. [[Stand-in]]
 - **Effect:** The moon paper figurine wards off one of the following that targets you: disease, wound, curse, attack, prophecy, or gaze.
 - **Limits:**
@@ -44,24 +44,24 @@ tags: ["pathway:moon", "sequence:4"]
   - Each person can only get one piece per day.
   - The paper figurine expires after one year.
 
-> **GM Note:** The paper figurines of the Foolâ€™s Path are ordinary paper figurines in essence, so they can only be used by extraordinary people of the Fool with extraordinary abilities and are not considered extraordinary items. [[Fool Pathway]] [[Extraordinary Item]]
+> **GM Note:** The paper figurines of the Foolâ€™s Path are ordinary paper figurines in essence, so they can only be used by extraordinary people of the Fool with extraordinary abilities and are not considered extraordinary items. [[Fool]] [[Extraordinary Item]]
 >
 > **GM Note:** The moon paper figurine is imbued with the spirituality of the moon domain and is a time-sensitive extraordinary item, so it can be used by others.
 
 ### Dark Gaze
 
-- **Cost:** **Casting action**; 3 points of **spirituality**. [[Casting Action]]
+- **Cost:** **Casting Action**; 3 points of **spirituality**. Casting Action
 - **Targeting and range:** One target within line of sight.
 - **Effect:**
   - Use your own naked eyes as a substitute for others, affecting the target within your line of sight.
-  - Mysteriously attack the opponentâ€™s [[Will Defense]]; then the target establishes contact with you, which is regarded as entering a **Substitute State**. [[Substitute State]]
+  - Mysteriously attack the opponentâ€™s Willpower Defense; then the target establishes contact with you, which is regarded as entering a **Substitute State**. [[Substitute State]]
   - This is a temporary curse that can be dispelled; it can also be dispelled automatically when leaving the battlefield. [[Dispel]]
 - **In the Substitute State (called â€œavatar stateâ€ in the RAW):** The avatar state is a stronger variant of the substitute state.
   - **Obscuration**
     - **Use:** Free action; continued obscuration costs you an action each turn.
     - **Effect:** The obscured target and creatures interacting with it treat each other as blind. Unless they have other ways to locate position, both sides remain disadvantaged. [[Blind]]
   - **Crushing**
-    - **Use:** **Attack action.** [[Attack Action]]
+    - **Use:** **Attack Action.** Attack Action
     - **Effect (self):** You crush one of your eyeballs, taking 5d6 damage instantly.
     - **Effect (ongoing self):** You continue to lose 1 action and unlimited free actions each turn until the eyeball is restored, or the eyeball restores itself after the battle.
       - If both of your eyes are crushed, you are continuously blinded and have only 1 action and 1 free action per round.
@@ -87,7 +87,7 @@ tags: ["pathway:moon", "sequence:4"]
 - **Cost:** **Free action.**
 - **Effect:**
   - Your body disintegrates and collapses into a group of vampire bats between reality and illusion; you gain the ability to fly. [[Flight]]
-  - Each bat has **1 hit point**; the swarm's total hit points equal your current hit points when this form is activated. [[Hit Points]]
+  - Each bat has **1 hit point**; the swarm's total hit points equal your current hit points when this form is activated. Hit Points
   - Your movement speed is multiplied by 2. [[Movement Speed]]
   - In this state, unless all bats are killed, you can regroup; this state is immune to **Hard Damage**.
   - The swarm is considered as a whole:
@@ -104,14 +104,14 @@ tags: ["pathway:moon", "sequence:4"]
   - Fighting is changed to life sucking; this is divided into non-consumption of spirituality and consumption of spirituality. [[Fighting]]
   - **Does not consume spirituality:**
     - You turn into a bat and rush to wrap the opponent.
-    - The casting action is changed to an attack action.
+    - The Casting Action is changed to an Attack Action.
     - Test: fighting against physical defense. [[Physical Defense]]
     - Damage: curse damage equal to 1d3 + Strength damage dice. [[Curse Damage]]
     - Healing: recover 1d6 hit points.
     - This method cannot produce additional potions; you only gain the benefits of dealing damage and restoring hit points. [[Potions]]
   - **Consumption of spirituality (two types):**
-    1. You do not pounce to use melee attacks; instead, you summon black mist from a distance to form additional bats. These bats cause normal life-sucking effects, using the casting action like the original ability.
-    2. You pounce and use a close-range attack (still an attack action), tested as fighting against physical defense:
+    1. You do not pounce to use melee attacks; instead, you summon black mist from a distance to form additional bats. These bats cause normal life-sucking effects, using the Casting Action like the original ability.
+    2. You pounce and use a close-range attack (still an Attack Action), tested as fighting against physical defense:
        - Damage: 3d6 + Strength damage dice of curse damage.
        - Healing: restore 1d6 blood volume.
        - This creates additional potions, which can be taken immediately when bat-formed or temporarily kept in an empty bottle when transformed back into human form (only one can be kept at most). [[Empty Bottle]]

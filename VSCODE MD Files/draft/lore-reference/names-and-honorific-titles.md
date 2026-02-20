@@ -20,7 +20,7 @@ tags: ["lore", "deities", "honorifics", "religion"]
 
 ### Goddess of the Night
 
-- Pathway: [[Darkness Pathway]]
+- Pathway: [[Darkness]]
 - Honorific Name: Goddess of the Night, more exalted than the starry sky, more ancient than eternity; Mother of Concealment; Empress of Misfortune and Fear; Lord of Repose and Silence.
 - Additional:
 - Before the God War, there should be an additional clause before "Mother of Concealment," namely "Lord of Crimson."
@@ -29,33 +29,33 @@ tags: ["lore", "deities", "honorifics", "religion"]
 
 ### Lord of Storms
 
-- Pathway: [[Tyrant Pathway]]
+- Pathway: Tyrant
 - Honorific Name: King of the Sky, Emperor of the Sea, Lord of Natural Disasters, God of Storms!
 - Additional Version: The king who rules the sky, the emperor who commands the sea, the great God of Storms.
 - Church Sacred Emblem: Storm Sacred Emblem - composed of symbols of raging wind, ocean waves, and thunder.
 
 ### God of Knowledge and Wisdom
 
-- Pathway: [[Reader Pathway]]
+- Pathway: [[White Tower]]
 - Honorific Name: The power of knowledge, the power of reason, God of Wisdom.
 - Church Sacred Emblem: Knowledge and Wisdom Sacred Emblem - an open book and an all-knowing eye.
 
 ### Eternal Blazing Sun
 
-- Pathway: [[Sun Pathway]]
+- Pathway: [[Sun]]
 - Honorific Name: Eternal Blazing Sun, Undying Light, Embodiment of Order, God of Contracts, Protector of Commerce.
 - Church Sacred Emblem: Sun Sacred Emblem - an abstract sun surrounded by segmented lines.
 
 ### God of Steam and Machinery
 
-- Pathway: [[Paragon Pathway]]
+- Pathway: [[Paragon]]
 - Honorific Name (version 1): Embodiment of Essence, Protector of Craftsmen, the Radiance of Technology.
 - Honorific Name (version 2): Great God of Steam and Machinery; You are the Embodiment of Essence; You are the Protector of Craftsmen; You are the Radiance of Technology.
 - Church Sacred Emblem: Triangle Sacred Emblem - a sturdy triangle filled with symbols such as steam, gears, and levers.
 
 ### Earth Mother
 
-- Pathway: [[Earth Pathway]]
+- Pathway: [[Mother]]
 - Honorific Name (version 1): Thank you, Source of Life! Praise you, Mother of All Things!
 - Honorific Name (version 2): Source of Life, Mother of All Things, Lord of Crimson (personal modification of the honorific name after the God War)
 - Church Sacred Emblem: Life Sacred Emblem - a simple line-drawn infant surrounded by ears of wheat, flowers, and a spring-water symbol.
@@ -71,7 +71,7 @@ tags: ["lore", "deities", "honorifics", "religion"]
 
 ### True Creator
 
-- Pathway: [[Hanged Man Pathway]]
+- Pathway: [[Hanged Man]]
 - Honorific Name: "The Lord who created everything, the Master behind the veil of shadows, the fallen nature of all living beings"
 - Main Followers Belong To: Aurora Order
 - Lore:
@@ -80,21 +80,21 @@ tags: ["lore", "deities", "honorifics", "religion"]
 
 ### The Fool
 
-- Pathway: [[Fool Pathway]] (Seer Pathway)
+- Pathway: [[Fool]] (Seer Pathway)
 - Honorific Name: "The Fool that does not belong to this era, the mysterious ruler above the gray fog, the Yellow-and-Black King who wields good luck."
 - Main Followers Belong To: Tarot Club, Church of the Fool
 - Note: Whether this deity exists depends on the module timeline.
 
 ### Primordial Witch
 
-- Pathway: [[Witch Pathway]] (originally male)
+- Pathway: [[Demoness]] (originally male)
 - Honorific Name: (None for now)
 - Main Followers Belong To: Witch Church (Witch Sect)
 - GM Note: You may fabricate an honorific name based on its nature, as long as it points correctly.
 
 ### Cosmic Dark Side
 
-- Pathway: [[Abyss Pathway]] (the only surviving ancient god; originally named the Demon King)
+- Pathway: Abyss (the only surviving ancient god; originally named the Demon King)
 - Honorific Name: (None for now)
 - Main Followers Belong To: Blood Worship Sect
 - Note: This deity resides in the Abyss.
@@ -112,13 +112,13 @@ tags: ["lore", "deities", "honorifics", "religion"]
 
 ### Emperor Roselle
 
-- Pathway: [[Black Emperor Pathway]] (transmigrator)
+- Pathway: [[Black Emperor]] (transmigrator)
 - Status: Has fallen. Currently in the stage of imminent resurrection, and is sealed.
 - Lore: Famous quote: "The taste of a witch is really not bad"
 
 ### Ancient Sun God
 
-- Pathway: [[Sun Pathway]] (Cornerstone) + [[Hanged Man Pathway]]
+- Pathway: [[Sun]] (Cornerstone) + [[Hanged Man]]
 - Honorific Name:
 - Lord who created everything, the omniscient and omnipotent God;
 - You are the great source of all things; You are the beginning, and also the end;
@@ -128,44 +128,44 @@ tags: ["lore", "deities", "honorifics", "religion"]
 ### Visionary
 
 - Alias: Adam
-- Pathway: [[Visionary Pathway]] (Spectator)
+- Pathway: Visionary (Spectator)
 - Main Followers Belong To: Twilight Hermit Order
 
 ## Secret Existences with Angelic Status
 
 ### Red Angel - Medici
 
-- Pathway: [[Red Priest Pathway]]
+- Pathway: [[Red Priest]]
 - Honorific Name: Great God of War, symbol of iron and blood, ruler of turmoil and strife.
 
 ### Mr. Door - Bethel Abraham
 
-- Pathway: [[Door Pathway]]
+- Pathway: [[Door]]
 - Honorific Name: Great Door of All Doors; guide of the endless starry sky; key to all mysterious worlds.
 
 ### Weather Warlock - Ahomatova Einhorn
 
-- Pathway: [[Red Priest Pathway]]
+- Pathway: [[Red Priest]]
 - Honorific Name: Ruler of the battlefield fog; symbol of weather changes; totem of storm and lightning
 
 ### Angel of Fate - Ouroboros
 
-- Pathway: [[Fate Pathway]]
+- Pathway: [[Wheel of Fortune]]
 - Honorific Name: Lingering heroic spirit; retainer of the True Creator; the eye that gazes upon fate.
 
 ### Snake of Fate - Will Auceptin
 
-- Pathway: [[Fate Pathway]]
+- Pathway: [[Wheel of Fortune]]
 - Honorific Name: Embodiment of luck; monster that foresees the future; calamity that spreads misfortune; witness of all fates in Backlund; warden of chaos and madness.
 
 ### Sea God - Kalvetua
 
-- Pathway: [[Tyrant Pathway]] (only Sequence 3, not an angel)
+- Pathway: Tyrant (only Sequence 3, not an angel)
 - Honorific Name: Favored of the sea and the spirit world; protector of the Rorsted Archipelago; ruler of undersea creatures; controller of tsunamis and storms; great Kalvetua.
 
 ### Amon
 
-- Pathway: [[Error Pathway]] (Angel King)
+- Pathway: Error (Angel King)
 - Honorific Name: The one who toys with the hands of time; the shadow that roams through fate; embodiment of fraud and mischief
 
 ## Fallen Sequence 0 Deities
@@ -173,7 +173,7 @@ tags: ["lore", "deities", "honorifics", "religion"]
 ### Underworld Emperor
 
 - Alias: Death
-- Pathway: [[Death Pathway]]
+- Pathway: Death
 - Status: Fallen (half-mad in the late period; reached half an Old One status)
 - Honorific Name: "The essence of death, the sovereign of the dead, the final destination of all living beings"
 - Main Followers Belong To: Spirit Cult
@@ -182,18 +182,18 @@ tags: ["lore", "deities", "honorifics", "religion"]
 
 ### Solomon the Black Emperor
 
-- Pathway: [[Black Emperor Pathway]]
+- Pathway: [[Black Emperor]]
 - Status: Has fallen.
 
 ### Blood Emperor
 
-- Pathway: [[Black Emperor Pathway]] + [[Red Priest Pathway]] (via forced pathway switching)
+- Pathway: [[Black Emperor]] + [[Red Priest]] (via forced pathway switching)
 - Status: Became Red Priest Sequence 0; later became half-mad because of this; has fallen.
 
 ### Night Emperor
 
 - True Name: Trunsoest
-- Pathway: [[Black Emperor Pathway]] + [[Arbiter Pathway]] (Arbiter Sequence 0)
+- Pathway: [[Black Emperor]] + [[Justiciar]] (Arbiter Sequence 0)
 - Status: Has fallen.
 
 ## Eight Ancient Gods
@@ -206,7 +206,7 @@ tags: ["lore", "deities", "honorifics", "religion"]
 
 - Status: Has fallen.
 - True Name: Ormir
-- Pathway: [[Twilight Giant Pathway]]
+- Pathway: [[Twilight Giant]]
 - Divine Kingdom: Giant King's Court
 - Brief Introduction:
 - Born to human parents.
@@ -216,7 +216,7 @@ tags: ["lore", "deities", "honorifics", "religion"]
 
 - Status: Has fallen.
 - True Name: Suniya Soliem
-- Pathway: [[Tyrant Pathway]]
+- Pathway: Tyrant
 - Brief Introduction:
 - The first elf; led the clan away from the Western Continent to the Northern Continent.
 - Once suspected by Roselle and Klein to be one of the transmigrators.
@@ -225,7 +225,7 @@ tags: ["lore", "deities", "honorifics", "religion"]
 
 - Status: Has fallen.
 - True Name: Lilith
-- Pathway: [[Moon Pathway]]
+- Pathway: Moon
 - Subordinate Deity: Goddess of Beauty Orniel (later defected to the Elf King; now fallen)
 - Life Goddess: (after Lilith's death; fallen)
 - Main Followers Belong To: Sanguines (continue to exist to this day)
@@ -245,7 +245,7 @@ tags: ["lore", "deities", "honorifics", "religion"]
 - Status: Has fallen, but resurrected under the identity of Aeriehogg.
 - True Name: Angerwede
 - Alias: King of Dragons, Dragon King
-- Pathway: [[Visionary Pathway]] + other pathways
+- Pathway: Visionary + other pathways
 - Divine Kingdom: Liveseyd (City of Miracles)
 - Brief Introduction: Once contaminated by God; imagined Groselle's Travels and sealed the contamination.
 - Subordinate Deity:
@@ -256,7 +256,7 @@ tags: ["lore", "deities", "honorifics", "religion"]
 
 - Status: Has fallen.
 - True Name: Gregrace
-- Pathway: [[Death Pathway]] + [[Door Pathway]] (incomplete)
+- Pathway: Death + [[Door]] (incomplete)
 - Divine Kingdom: Calderon
 - Notes:
 - Ancient Death; divine kingdom was originally the City of the Dead.
@@ -272,7 +272,7 @@ tags: ["lore", "deities", "honorifics", "religion"]
 
 - Status: Has fallen.
 - True Name: Kwasihtun
-- Pathway: [[Chained Pathway]]
+- Pathway: [[Chained]]
 - Appearance: An ugly, twisted male, but he likes wrapping thorns and thorny roses around himself
 - Notes:
 - Era of the First Blaze: With the Phoenix Ancestor and the Dragon of Imagination, belonged to the non-humanoid-creature faction; opposed other ancient gods.
@@ -283,7 +283,7 @@ tags: ["lore", "deities", "honorifics", "religion"]
 - Status: Has fallen.
 - True Name: Flegrea
 - Alias: Destroyer, King of Demon Wolves, Demon Wolf King, Night Demon Wolf
-- Pathway: [[Darkness Pathway]] + [[Fool Pathway]] (incomplete)
+- Pathway: [[Darkness]] + [[Fool]] (incomplete)
 - Notes:
 - Held authority over night and concealment.
 - Active in the Dark Epoch's Era of the First Blaze; a lone walker wanting to overturn all order and corrupt all living beings.
@@ -295,7 +295,7 @@ tags: ["lore", "deities", "honorifics", "religion"]
 
 - Status: Now active under the identity of the Cosmic Dark Side.
 - True Name: Farbauti
-- Pathway: [[Abyss Pathway]]
+- Pathway: Abyss
 - Experience:
 - Did not ally with the other ancient gods; a lone walker wanting to overturn all order and corrupt all living beings.
 - Survived from the Dark Epoch to the present.
@@ -311,11 +311,11 @@ tags: ["lore", "deities", "honorifics", "religion"]
 - Honorific Name: God, Creator, Maker, Omniscient and Omnipotent One, Lord of the Astral World
 - Corresponding Sefirah: Chaos Sea
 - Pathways:
-- [[Hanged Man Pathway]]
-- [[White Tower Pathway]]
-- [[Sun Pathway]]
-- [[Tyrant Pathway]]
-- [[Visionary Pathway]]
+- [[Hanged Man]]
+- [[White Tower]]
+- [[Sun]]
+- Tyrant
+- Visionary
 
 ### Celestial Worthy
 
@@ -328,9 +328,9 @@ tags: ["lore", "deities", "honorifics", "religion"]
 - Honorific Name: Lord of the Mysteries, King of Space-Time, Beacon of Destiny, Incarnation of Sefirah Castle, Ruler of the Spirit World
 - Corresponding Sefirah: Sefirah Castle
 - Pathways:
-- [[Fool Pathway]]
-- [[Error Pathway]]
-- [[Door Pathway]]
+- [[Fool]]
+- Error
+- [[Door]]
 
 ### Fallen Mother Goddess
 

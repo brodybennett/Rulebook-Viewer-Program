@@ -28,7 +28,7 @@ For rest periods **under 30 minutes**, recover **one-quarter** of the 1-hour rec
 
 **Warning:** If your Spirituality is emptied, and **Beyonder** abilities continue to be forcibly used, it begins to consume your **Sanity / Rationality**.
 
-**Special (example: [[Night Pathway]]):** Some effects reduce the rest duration needed for full Spirituality recovery. In such cases, each hour restores **(total Spirituality / maximum rest time)**. Example: if **3 hours** of sufficient rest is the maximum rest time, you restore **one-third** per hour.
+**Special (example: [[Darkness]]):** Some effects reduce the rest duration needed for full Spirituality recovery. In such cases, each hour restores **(total Spirituality / maximum rest time)**. Example: if **3 hours** of sufficient rest is the maximum rest time, you restore **one-third** per hour.
 
 Rounding for this formula: **round up**.
 
@@ -88,7 +88,7 @@ You may use methods (1), (2), and (3) within the same 24 hours (recovering a tot
 - Each time you receive at least **2 hours** of psychotherapy, the Psychiatrist treating you makes **1** Psychological Guidance Roll against that Difficulty Value.
   - On success, you recover **1** point of Sanity / Rationality.
 - You may attempt multiple times until success, but you can only recover **once per 24 hours** this way.
-- Special: For [[Spectator Pathway]] Beyonders, psychotherapy time is **1 hour**; starting at **Sequence 7** it is **half an hour**.
+- Special: For Visionary Beyonders, psychotherapy time is **1 hour**; starting at **Sequence 7** it is **half an hour**.
 
 ### Rest
 

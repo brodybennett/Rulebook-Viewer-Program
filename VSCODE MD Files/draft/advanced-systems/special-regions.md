@@ -1,4 +1,3 @@
-﻿
 ---
 title: "Chapter Twelve: Special Regions"
 id: "chapter-12-special-regions"
@@ -86,7 +85,7 @@ The Seven Lights are usually depicted as old men wearing robes of different colo
 The Spirit World naturally contains countless Spirit World creatures. Dead souls that have nowhere else to go after death will eventually return to the Spirit World or the Underworld.
 
 - These creatures can be understood as undead creatures.
-- Detailed types can be found in the abilities of the "death path." [[Death Pathway]]
+- Detailed types can be found in the abilities of the "death path." Death
 
 Spirit World creatures can be contracted and used as messengers or for other purposes.
 
@@ -109,7 +108,7 @@ You must be vigilant when roaming in the Spirit World.
 
 - The probability of encountering hostile Spirit World creatures is extremely high.
 - Even if you do not encounter threats immediately upon entry, exploring deeper makes encounters likely.
-- Some creatures may have [[Sequence]] [[Pathway]] systems, and even if some do not, they may have reached demigod status.
+- Some creatures may have Sequence Pathway systems, and even if some do not, they may have reached demigod status.
 
 > GM Note: RAW note - Spirit World creatures that live in the Spirit World have the ability to travel through it, but some beings that are still "Extraordinary in nature" may not be able to do so even if they can enter. Example given: "the unjust soul of the Alien Pathway Sequence 5."
 
@@ -131,9 +130,9 @@ Divination has some uses in the Spirit World, but it is only auxiliary.
 
 Only the following are described as able to safely explore and travel with Spirit World travel and location capability:
 
-- Sequence 5 Traveler of the [[Door Pathway]]
-- Sequence 4 Undead of the [[Death Pathway]]
-- Sequence 5 Master of Secret Arts of the [[Reader Pathway]]
+- Sequence 5 Traveler of the [[Door]]
+- Sequence 4 Undead of the Death
+- Sequence 5 Master of Secret Arts of the [[White Tower]]
 
 ### Correspondence to Reality
 
@@ -191,7 +190,7 @@ Spirit World creatures are intelligent and have emotions. They divide territory 
 Contracting creatures in the Spirit World requires:
 
 - The power of the Necromancer Domain, or
-- The power of the Sun Pathway or Judge Pathway, which can create a contract. [[Sun Pathway]] [[Judge Pathway]]
+- The power of the Sun Pathway or Judge Pathway, which can create a contract. [[Sun]] [[Justiciar]]
 
 #### Two Ways to Find a Suitable Creature
 
@@ -274,7 +273,7 @@ Additional notes:
 
 #### Skipping the Process via Crafted Props
 
-If you want to skip the above process, you can entrust a Sequence 6 of the Perfection Pathway (also called a craftsman) to make reusable props that can be directly summoned and signed. [[Perfection Pathway]]
+If you want to skip the above process, you can entrust a Sequence 6 of the Perfection Pathway (Paragon pathway, also called a craftsman) to make reusable props that can be directly summoned and signed.
 
 #### Risk: Overpowering Contracted Creature
 
@@ -286,7 +285,7 @@ If you want to skip the above process, you can entrust a Sequence 6 of the Perfe
 
 ### Description
 
-The Underworld is part of the Spirit World: a unique area opened within it by the ancestor of the phoenix, an ancient god (Death Pathway + Door Pathway) in the second era. [[Death Pathway]] [[Door Pathway]]
+The Underworld is part of the Spirit World: a unique area opened within it by the ancestor of the phoenix, an ancient god (Death Pathway + Door Pathway) in the second era. Death [[Door]]
 
 Because of the existence of the Underworld:
 
@@ -472,7 +471,7 @@ Consequences described:
 - People generally believed in the ancient Sun God, and a small number turned to the True Creator.
 - Residents still perform sacrifice ceremonies to the ancient Sun God to ask for response, though it has been fruitless for thousands of years.
 
-There are no spiritual materials and potion formulas for the Sun Pathway in the Land Abandoned by God. [[Sun Pathway]]
+There are no spiritual materials and potion formulas for the Sun Pathway in the Land Abandoned by God. [[Sun]]
 
 ### Entrance and Exit
 
@@ -532,7 +531,7 @@ If you do not enter the dreamland and choose to stay in the dark until you disap
 - A proportion of extraordinary creatures here are non-real existences (illusions). They may have mid-Sequence ability. After defeat, they do not yield corresponding extraordinary characteristics.
 - Due to lack of exploration, islands may contain treasures from the third era and various relics. Because of residual divine power and the illusion or reality boundary, exploration is usually very dangerous and proportional to opportunity. Beyonders below mid-Sequence should not attempt to explore.
 - Even a demigod may encounter an obvious crisis here. Example: a demigod of the Aurora Order was trapped here, showing danger at demigod level. [[Aurora Order]]
-- The sea area also contains many normal (non-hallucinatory) extraordinary creatures, such as mermaids. They are almost impossible to find outside, but can be found here. They are described as "one of the ceremonies" for a Sequence 6 Faceless Man of the Fool Pathway to advance to Sequence 5 Puppet Master. The Church of Evernight also breeds mermaids, but they will not be used by wild Beyonders; official Beyonders need to accumulate meritorious service for promotion. [[Fool Pathway]] [[Church of Evernight]]
+- The sea area also contains many normal (non-hallucinatory) extraordinary creatures, such as mermaids. They are almost impossible to find outside, but can be found here. They are described as "one of the ceremonies" for a Sequence 6 Faceless Man of the Fool Pathway to advance to Sequence 5 Puppet Master. The Church of Evernight also breeds mermaids, but they will not be used by wild Beyonders; official Beyonders need to accumulate meritorious service for promotion. [[Fool]] [[Church of Evernight]]
 - There is a hidden intersection leading to the Land Abandoned by God, but depending on timeline, reaching it often means you can never return.
 
 Suggested minimum exploration capability:
@@ -615,7 +614,7 @@ Because everyone's islands are hidden in the same ocean:
 If you are a Beyonder of the Spectator Pathway and enter your own island of consciousness, you can also:
 
 - Descend via your island into the seabed.
-- Reach other people's islands through the common sea that belongs to collective consciousness. [[Spectator Pathway]]
+- Reach other people's islands through the common sea that belongs to collective consciousness. Visionary
 
 ### Nature of the "Sea" and Connection to the Spirit World
 
@@ -740,7 +739,7 @@ At a higher level of the Spectator Pathway:
 - You do not need to visit an island of consciousness.
 - You can gain insight into thoughts by relying on movement in the collective subconscious sea.
 - Every word spoken subtly impacts the collective subconscious sea; the Spectator Pathway can search through that subtle influence (described as a "big data search").
-- This is distinguished from the "insights" of the Reader Pathway. [[Reader Pathway]]
+- This is distinguished from the "insights" of the Reader Pathway. [[White Tower]]
 
 #### Sequence 0: Global Psychological Hints
 

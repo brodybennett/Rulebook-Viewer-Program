@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sequence 9: Seer"
 id: "fool-seq-09"
 tags: ["pathway:fool", "sequence:9"]
@@ -14,7 +14,7 @@ tags: ["pathway:fool", "sequence:9"]
 
 > **Lore:** Compared with other Sequences, Seers lack means to control the enemy. Seers are more professional and knowledgeable in mysticism and divination, mastering methods such as astrology, card divination, pendulums, spiritual vision, spiritual numbers, and palm reading.
 
-- See also: [[Fool Pathway]]
+- See also: [[Fool]]
 
 ## Advancement
 
@@ -33,7 +33,7 @@ tags: ["pathway:fool", "sequence:9"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2
+- **Attribute Gain:** **Intuition (INT)** +2
 
 - **Effect:** You gain the qualification and ability to better learn knowledge of the mysterious field.
 
@@ -47,12 +47,12 @@ tags: ["pathway:fool", "sequence:9"]
      - If you have mastered all divination skills listed under **Divination**, treat this as 1 learning immediately, and it is not counted in the number of times limited to 1 time per day.
   - **Special:** If you obtain a book of esoteric knowledge written by a **Beyonder** whose own esotericism has reached erudition and master, then this learning can be extended to the level of the author.
     - Erudite and master require 5 and 6 studies respectively, and generally require special channels to obtain.
-  - When directly creating a character of a higher Sequence, double the growth-skill points gained from the potion’s Inspiration when adding growth skills.
+  - When directly creating a character of a higher Sequence, double the growth-skill points gained from the potion’s Intuition (INT) when adding growth skills.
 
 ### Divination
 
-- **Use:** 1 casting action
-- **Cost:** 2 **Spirituality Points**
+- **Use:** 1 Casting Action
+- **Cost:** 2 **Spirituality**
 - **Effect:** Choose 1 divination method and conduct 1 **Occult Identification**.
 
 - **Results by Difficulty Value:**
@@ -79,7 +79,7 @@ tags: ["pathway:fool", "sequence:9"]
   1) Divination of things involving other people fails by default if there is no clue, and succeeds by default if there is their blood or belongings.
   2) For each clue obtained, divination of related events is +2 beneficial, but divination of group targets (more than one person) fails by default.
   3) The reason for detection and failure of the higher level is that under special circumstances, it is possible for the lower level to divine for the higher level.
-  4) Whenever you are in deep sleep, you can perform an **Inspiration** appraisal with Difficulty Value 20.
+  4) Whenever you are in deep sleep, you can perform an **Intuition (INT)** appraisal with Difficulty Value 20.
      - If it succeeds, and something directly related to you has happened in the current period, you will see a general picture that needs to be interpreted. This is the first step of dream divination.
      - Example: If you are related to the god in charge of the moon, you will see a red moon; blood represents misfortune; tombstones represent the direct implication of certain events.
 

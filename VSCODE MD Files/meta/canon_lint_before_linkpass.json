@@ -1,0 +1,2037 @@
+{
+  "repo": "C:\\Users\\dan\\Desktop\\Personal\\Projects\\LoTM Rulebook\\VSCODE MD Files",
+  "scan_root": "C:\\Users\\dan\\Desktop\\Personal\\Projects\\LoTM Rulebook\\VSCODE MD Files\\draft",
+  "canon_file": "C:\\Users\\dan\\Desktop\\Personal\\Projects\\LoTM Rulebook\\VSCODE MD Files\\meta\\canon_terms.yml",
+  "allowlist_file": "C:\\Users\\dan\\Desktop\\Personal\\Projects\\LoTM Rulebook\\VSCODE MD Files\\meta\\canon_allowlist.yml",
+  "rules_loaded": 25,
+  "files_scanned": 263,
+  "findings_count": 243,
+  "summary": [
+    {
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "count": 61
+    },
+    {
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "count": 57
+    },
+    {
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "count": 36
+    },
+    {
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "count": 16
+    },
+    {
+      "found": "Spiritual Points",
+      "replace": "Spirituality",
+      "count": 15
+    },
+    {
+      "found": "Agility",
+      "replace": "Agility (DEX)",
+      "count": 13
+    },
+    {
+      "found": "HP",
+      "replace": "Vitality",
+      "count": 11
+    },
+    {
+      "found": "Charm",
+      "replace": "Charisma (CHA)",
+      "count": 9
+    },
+    {
+      "found": "Health",
+      "replace": "Vitality",
+      "count": 8
+    },
+    {
+      "found": "Dexterity",
+      "replace": "Agility (DEX)",
+      "count": 7
+    },
+    {
+      "found": "Full-round action",
+      "replace": "Full-Round Action",
+      "count": 3
+    },
+    {
+      "found": "full-round action",
+      "replace": "Full-Round Action",
+      "count": 2
+    },
+    {
+      "found": "Physical defense",
+      "replace": "Physical Defense",
+      "count": 2
+    },
+    {
+      "found": "DV",
+      "replace": "Difficulty Value",
+      "count": 1
+    },
+    {
+      "found": "Physique",
+      "replace": "Constitution (CON)",
+      "count": 1
+    },
+    {
+      "found": "Spirituality Points",
+      "replace": "Spirituality",
+      "count": 1
+    }
+  ],
+  "findings": [
+    {
+      "path": "draft/advanced-systems/beyonder-creatures/hornacis-gray-mountain-goat.md",
+      "line": 65,
+      "col": 69,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/advanced-systems/beyonder-creatures/lava-octopus.md",
+      "line": 44,
+      "col": 78,
+      "found": "Agility",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_agility_display"
+    },
+    {
+      "path": "draft/advanced-systems/beyonder-creatures/mist-treant.md",
+      "line": 35,
+      "col": 85,
+      "found": "Dexterity",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_dexterity"
+    },
+    {
+      "path": "draft/advanced-systems/beyonder-creatures/wicked-pattern-black-panther.md",
+      "line": 33,
+      "col": 75,
+      "found": "Dexterity",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_dexterity"
+    },
+    {
+      "path": "draft/advanced-systems/bombard-and-killing-beyonders-module.md",
+      "line": 613,
+      "col": 405,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/advanced-systems/mythical-creature-form.md",
+      "line": 20,
+      "col": 94,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/advanced-systems/mythical-creature-form.md",
+      "line": 20,
+      "col": 111,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/advanced-systems/mythical-creature-form.md",
+      "line": 324,
+      "col": 3,
+      "found": "Physique",
+      "replace": "Constitution (CON)",
+      "rule_id": "attr_physique"
+    },
+    {
+      "path": "draft/advanced-systems/special-potions-talismans-items.md",
+      "line": 11,
+      "col": 31,
+      "found": "Charm",
+      "replace": "Charisma (CHA)",
+      "rule_id": "attr_charm"
+    },
+    {
+      "path": "draft/core-rules/beyonder-items.md",
+      "line": 340,
+      "col": 91,
+      "found": "Charm",
+      "replace": "Charisma (CHA)",
+      "rule_id": "attr_charm"
+    },
+    {
+      "path": "draft/sequences/abyss/seq-04.md",
+      "line": 36,
+      "col": 37,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/abyss/seq-04.md",
+      "line": 53,
+      "col": 44,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/abyss/seq-04.md",
+      "line": 61,
+      "col": 16,
+      "found": "Full-round action",
+      "replace": "Full-Round Action",
+      "rule_id": "action_full_round_case"
+    },
+    {
+      "path": "draft/sequences/abyss/seq-05.md",
+      "line": 31,
+      "col": 168,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/abyss/seq-06.md",
+      "line": 26,
+      "col": 53,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/abyss/seq-07.md",
+      "line": 42,
+      "col": 172,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/abyss/seq-07.md",
+      "line": 59,
+      "col": 92,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/abyss/seq-07.md",
+      "line": 61,
+      "col": 95,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/abyss/seq-08.md",
+      "line": 43,
+      "col": 7,
+      "found": "Charm",
+      "replace": "Charisma (CHA)",
+      "rule_id": "attr_charm"
+    },
+    {
+      "path": "draft/sequences/abyss/seq-09.md",
+      "line": 65,
+      "col": 49,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-01.md",
+      "line": 40,
+      "col": 38,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-01.md",
+      "line": 41,
+      "col": 38,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-04.md",
+      "line": 27,
+      "col": 49,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-04.md",
+      "line": 60,
+      "col": 73,
+      "found": "Health",
+      "replace": "Vitality",
+      "rule_id": "attr_health"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-04.md",
+      "line": 62,
+      "col": 190,
+      "found": "Agility",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_agility_display"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-06.md",
+      "line": 34,
+      "col": 25,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-06.md",
+      "line": 42,
+      "col": 57,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-06.md",
+      "line": 58,
+      "col": 121,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-07.md",
+      "line": 21,
+      "col": 25,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-07.md",
+      "line": 37,
+      "col": 16,
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "rule_id": "action_spell_casting"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-07.md",
+      "line": 43,
+      "col": 73,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-07.md",
+      "line": 108,
+      "col": 78,
+      "found": "Agility",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_agility_display"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-08.md",
+      "line": 36,
+      "col": 5,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-08.md",
+      "line": 38,
+      "col": 5,
+      "found": "Agility",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_agility_display"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-08.md",
+      "line": 90,
+      "col": 43,
+      "found": "Spiritual Points",
+      "replace": "Spirituality",
+      "rule_id": "resource_spiritual_points"
+    },
+    {
+      "path": "draft/sequences/apprentice/seq-08.md",
+      "line": 179,
+      "col": 156,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/arbiter/seq-02.md",
+      "line": 29,
+      "col": 38,
+      "found": "Spiritual Points",
+      "replace": "Spirituality",
+      "rule_id": "resource_spiritual_points"
+    },
+    {
+      "path": "draft/sequences/arbiter/seq-02.md",
+      "line": 66,
+      "col": 7,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/arbiter/seq-04.md",
+      "line": 80,
+      "col": 36,
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "rule_id": "action_spell_casting"
+    },
+    {
+      "path": "draft/sequences/arbiter/seq-05.md",
+      "line": 51,
+      "col": 43,
+      "found": "Spiritual Points",
+      "replace": "Spirituality",
+      "rule_id": "resource_spiritual_points"
+    },
+    {
+      "path": "draft/sequences/arbiter/seq-05.md",
+      "line": 61,
+      "col": 43,
+      "found": "Spiritual Points",
+      "replace": "Spirituality",
+      "rule_id": "resource_spiritual_points"
+    },
+    {
+      "path": "draft/sequences/arbiter/seq-05.md",
+      "line": 92,
+      "col": 43,
+      "found": "Spiritual Points",
+      "replace": "Spirituality",
+      "rule_id": "resource_spiritual_points"
+    },
+    {
+      "path": "draft/sequences/arbiter/seq-05.md",
+      "line": 98,
+      "col": 100,
+      "found": "Dexterity",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_dexterity"
+    },
+    {
+      "path": "draft/sequences/arbiter/seq-07.md",
+      "line": 31,
+      "col": 112,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/arbiter/seq-07.md",
+      "line": 61,
+      "col": 83,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/arbiter/seq-07.md",
+      "line": 88,
+      "col": 97,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/arbiter/seq-09.md",
+      "line": 37,
+      "col": 100,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/black-emperor/seq-05.md",
+      "line": 33,
+      "col": 39,
+      "found": "Spiritual Points",
+      "replace": "Spirituality",
+      "rule_id": "resource_spiritual_points"
+    },
+    {
+      "path": "draft/sequences/black-emperor/seq-05.md",
+      "line": 39,
+      "col": 128,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/black-emperor/seq-08.md",
+      "line": 57,
+      "col": 56,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/black-emperor/seq-08.md",
+      "line": 60,
+      "col": 118,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/black-emperor/seq-09.md",
+      "line": 21,
+      "col": 45,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/death/seq-03.md",
+      "line": 122,
+      "col": 100,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/death/seq-06.md",
+      "line": 89,
+      "col": 63,
+      "found": "Spiritual Points",
+      "replace": "Spirituality",
+      "rule_id": "resource_spiritual_points"
+    },
+    {
+      "path": "draft/sequences/death/seq-08.md",
+      "line": 49,
+      "col": 35,
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "rule_id": "action_spell_casting"
+    },
+    {
+      "path": "draft/sequences/death/seq-08.md",
+      "line": 56,
+      "col": 14,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/demoness/seq-01.md",
+      "line": 34,
+      "col": 12,
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "rule_id": "action_spell_casting"
+    },
+    {
+      "path": "draft/sequences/demoness/seq-02.md",
+      "line": 32,
+      "col": 39,
+      "found": "Spiritual Points",
+      "replace": "Spirituality",
+      "rule_id": "resource_spiritual_points"
+    },
+    {
+      "path": "draft/sequences/demoness/seq-03.md",
+      "line": 30,
+      "col": 120,
+      "found": "Health",
+      "replace": "Vitality",
+      "rule_id": "attr_health"
+    },
+    {
+      "path": "draft/sequences/demoness/seq-03.md",
+      "line": 46,
+      "col": 191,
+      "found": "Health",
+      "replace": "Vitality",
+      "rule_id": "attr_health"
+    },
+    {
+      "path": "draft/sequences/demoness/seq-04.md",
+      "line": 71,
+      "col": 64,
+      "found": "Charm",
+      "replace": "Charisma (CHA)",
+      "rule_id": "attr_charm"
+    },
+    {
+      "path": "draft/sequences/demoness/seq-04.md",
+      "line": 71,
+      "col": 80,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/demoness/seq-04.md",
+      "line": 73,
+      "col": 177,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/demoness/seq-06.md",
+      "line": 63,
+      "col": 187,
+      "found": "Dexterity",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_dexterity"
+    },
+    {
+      "path": "draft/sequences/demoness/seq-06.md",
+      "line": 77,
+      "col": 126,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/demoness/seq-06.md",
+      "line": 125,
+      "col": 75,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/demoness/seq-06.md",
+      "line": 143,
+      "col": 224,
+      "found": "Charm",
+      "replace": "Charisma (CHA)",
+      "rule_id": "attr_charm"
+    },
+    {
+      "path": "draft/sequences/demoness/seq-08.md",
+      "line": 18,
+      "col": 9,
+      "found": "Charm",
+      "replace": "Charisma (CHA)",
+      "rule_id": "attr_charm"
+    },
+    {
+      "path": "draft/sequences/demoness/seq-08.md",
+      "line": 31,
+      "col": 131,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/earth/seq-03.md",
+      "line": 42,
+      "col": 145,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/earth/seq-04.md",
+      "line": 86,
+      "col": 143,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/earth/seq-05.md",
+      "line": 41,
+      "col": 133,
+      "found": "HP",
+      "replace": "Vitality",
+      "rule_id": "attr_hp"
+    },
+    {
+      "path": "draft/sequences/earth/seq-05.md",
+      "line": 88,
+      "col": 70,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/earth/seq-05.md",
+      "line": 102,
+      "col": 68,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/earth/seq-05.md",
+      "line": 121,
+      "col": 22,
+      "found": "Spirituality Points",
+      "replace": "Spirituality",
+      "rule_id": "resource_spiritual_points"
+    },
+    {
+      "path": "draft/sequences/earth/seq-05.md",
+      "line": 158,
+      "col": 3,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/earth/seq-06.md",
+      "line": 87,
+      "col": 17,
+      "found": "Spiritual Points",
+      "replace": "Spirituality",
+      "rule_id": "resource_spiritual_points"
+    },
+    {
+      "path": "draft/sequences/earth/seq-09.md",
+      "line": 20,
+      "col": 63,
+      "found": "Agility",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_agility_display"
+    },
+    {
+      "path": "draft/sequences/earth/seq-09.md",
+      "line": 20,
+      "col": 79,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/earth/seq-09.md",
+      "line": 64,
+      "col": 136,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/earth/seq-09.md",
+      "line": 75,
+      "col": 44,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/error/seq-04.md",
+      "line": 26,
+      "col": 5,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/error/seq-04.md",
+      "line": 27,
+      "col": 5,
+      "found": "Dexterity",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_dexterity"
+    },
+    {
+      "path": "draft/sequences/error/seq-04.md",
+      "line": 43,
+      "col": 78,
+      "found": "Physical defense",
+      "replace": "Physical Defense",
+      "rule_id": "def_physical_defense_case"
+    },
+    {
+      "path": "draft/sequences/error/seq-04.md",
+      "line": 73,
+      "col": 160,
+      "found": "Agility",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_agility_display"
+    },
+    {
+      "path": "draft/sequences/error/seq-04.md",
+      "line": 132,
+      "col": 88,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/error/seq-04.md",
+      "line": 146,
+      "col": 5,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/error/seq-04.md",
+      "line": 156,
+      "col": 16,
+      "found": "Full-round action",
+      "replace": "Full-Round Action",
+      "rule_id": "action_full_round_case"
+    },
+    {
+      "path": "draft/sequences/error/seq-04.md",
+      "line": 190,
+      "col": 99,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/error/seq-05.md",
+      "line": 30,
+      "col": 75,
+      "found": "Agility",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_agility_display"
+    },
+    {
+      "path": "draft/sequences/error/seq-05.md",
+      "line": 30,
+      "col": 41,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/error/seq-05.md",
+      "line": 37,
+      "col": 108,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/error/seq-05.md",
+      "line": 56,
+      "col": 31,
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "rule_id": "action_spell_casting"
+    },
+    {
+      "path": "draft/sequences/error/seq-05.md",
+      "line": 57,
+      "col": 119,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/error/seq-05.md",
+      "line": 68,
+      "col": 31,
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "rule_id": "action_spell_casting"
+    },
+    {
+      "path": "draft/sequences/error/seq-05.md",
+      "line": 69,
+      "col": 87,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/error/seq-05.md",
+      "line": 73,
+      "col": 151,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/error/seq-08.md",
+      "line": 38,
+      "col": 69,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/error/seq-08.md",
+      "line": 53,
+      "col": 53,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/error/seq-09.md",
+      "line": 68,
+      "col": 35,
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "rule_id": "action_spell_casting"
+    },
+    {
+      "path": "draft/sequences/fate/seq-05.md",
+      "line": 54,
+      "col": 161,
+      "found": "HP",
+      "replace": "Vitality",
+      "rule_id": "attr_hp"
+    },
+    {
+      "path": "draft/sequences/fate/seq-07.md",
+      "line": 17,
+      "col": 25,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/fate/seq-07.md",
+      "line": 36,
+      "col": 66,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/fate/seq-08.md",
+      "line": 29,
+      "col": 97,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/fate/seq-08.md",
+      "line": 29,
+      "col": 72,
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "rule_id": "action_spell_casting"
+    },
+    {
+      "path": "draft/sequences/fate/seq-08.md",
+      "line": 53,
+      "col": 236,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/fool/seq-00.md",
+      "line": 25,
+      "col": 49,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/fool/seq-00.md",
+      "line": 46,
+      "col": 163,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/fool/seq-01.md",
+      "line": 36,
+      "col": 5,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/fool/seq-03.md",
+      "line": 73,
+      "col": 25,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/fool/seq-04.md",
+      "line": 44,
+      "col": 45,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/fool/seq-04.md",
+      "line": 93,
+      "col": 229,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/fool/seq-04.md",
+      "line": 93,
+      "col": 240,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/fool/seq-04.md",
+      "line": 93,
+      "col": 283,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/fool/seq-04.md",
+      "line": 98,
+      "col": 341,
+      "found": "HP",
+      "replace": "Vitality",
+      "rule_id": "attr_hp"
+    },
+    {
+      "path": "draft/sequences/fool/seq-04.md",
+      "line": 99,
+      "col": 220,
+      "found": "HP",
+      "replace": "Vitality",
+      "rule_id": "attr_hp"
+    },
+    {
+      "path": "draft/sequences/fool/seq-04.md",
+      "line": 99,
+      "col": 241,
+      "found": "HP",
+      "replace": "Vitality",
+      "rule_id": "attr_hp"
+    },
+    {
+      "path": "draft/sequences/fool/seq-08.md",
+      "line": 45,
+      "col": 24,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/fool/seq-08.md",
+      "line": 63,
+      "col": 143,
+      "found": "Physical defense",
+      "replace": "Physical Defense",
+      "rule_id": "def_physical_defense_case"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-01.md",
+      "line": 63,
+      "col": 38,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-03.md",
+      "line": 50,
+      "col": 38,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-04.md",
+      "line": 40,
+      "col": 60,
+      "found": "Health",
+      "replace": "Vitality",
+      "rule_id": "attr_health"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-04.md",
+      "line": 52,
+      "col": 79,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-04.md",
+      "line": 55,
+      "col": 25,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-04.md",
+      "line": 116,
+      "col": 117,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-04.md",
+      "line": 116,
+      "col": 94,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-05.md",
+      "line": 39,
+      "col": 14,
+      "found": "full-round action",
+      "replace": "Full-Round Action",
+      "rule_id": "action_full_round_case"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-05.md",
+      "line": 68,
+      "col": 25,
+      "found": "full-round action",
+      "replace": "Full-Round Action",
+      "rule_id": "action_full_round_case"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-06.md",
+      "line": 31,
+      "col": 43,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-06.md",
+      "line": 80,
+      "col": 142,
+      "found": "HP",
+      "replace": "Vitality",
+      "rule_id": "attr_hp"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-07.md",
+      "line": 51,
+      "col": 35,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-08.md",
+      "line": 23,
+      "col": 231,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-08.md",
+      "line": 24,
+      "col": 91,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-08.md",
+      "line": 69,
+      "col": 157,
+      "found": "HP",
+      "replace": "Vitality",
+      "rule_id": "attr_hp"
+    },
+    {
+      "path": "draft/sequences/hanged-man/seq-09.md",
+      "line": 35,
+      "col": 90,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/moon/seq-01.md",
+      "line": 26,
+      "col": 44,
+      "found": "Charm",
+      "replace": "Charisma (CHA)",
+      "rule_id": "attr_charm"
+    },
+    {
+      "path": "draft/sequences/moon/seq-01.md",
+      "line": 35,
+      "col": 46,
+      "found": "Charm",
+      "replace": "Charisma (CHA)",
+      "rule_id": "attr_charm"
+    },
+    {
+      "path": "draft/sequences/moon/seq-04.md",
+      "line": 57,
+      "col": 44,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/moon/seq-05.md",
+      "line": 71,
+      "col": 93,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/moon/seq-05.md",
+      "line": 81,
+      "col": 150,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/moon/seq-05.md",
+      "line": 141,
+      "col": 298,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/moon/seq-07.md",
+      "line": 96,
+      "col": 33,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/moon/seq-08.md",
+      "line": 26,
+      "col": 17,
+      "found": "Spiritual Points",
+      "replace": "Spirituality",
+      "rule_id": "resource_spiritual_points"
+    },
+    {
+      "path": "draft/sequences/moon/seq-08.md",
+      "line": 29,
+      "col": 43,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/moon/seq-08.md",
+      "line": 38,
+      "col": 254,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/moon/seq-08.md",
+      "line": 42,
+      "col": 65,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/moon/seq-08.md",
+      "line": 93,
+      "col": 65,
+      "found": "Health",
+      "replace": "Vitality",
+      "rule_id": "attr_health"
+    },
+    {
+      "path": "draft/sequences/moon/seq-09.md",
+      "line": 80,
+      "col": 20,
+      "found": "HP",
+      "replace": "Vitality",
+      "rule_id": "attr_hp"
+    },
+    {
+      "path": "draft/sequences/moon/seq-09.md",
+      "line": 90,
+      "col": 120,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/mutant/seq-01.md",
+      "line": 30,
+      "col": 93,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/mutant/seq-01.md",
+      "line": 43,
+      "col": 157,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/mutant/seq-03.md",
+      "line": 48,
+      "col": 35,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/mutant/seq-04.md",
+      "line": 88,
+      "col": 60,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/mutant/seq-07.md",
+      "line": 48,
+      "col": 15,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/mutant/seq-07.md",
+      "line": 48,
+      "col": 48,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/mutant/seq-07.md",
+      "line": 56,
+      "col": 91,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/mutant/seq-07.md",
+      "line": 106,
+      "col": 65,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/mutant/seq-08.md",
+      "line": 26,
+      "col": 17,
+      "found": "Spiritual Points",
+      "replace": "Spirituality",
+      "rule_id": "resource_spiritual_points"
+    },
+    {
+      "path": "draft/sequences/mutant/seq-08.md",
+      "line": 42,
+      "col": 63,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/mystery-pryer/seq-02.md",
+      "line": 53,
+      "col": 71,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/mystery-pryer/seq-02.md",
+      "line": 54,
+      "col": 38,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/mystery-pryer/seq-06.md",
+      "line": 13,
+      "col": 25,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/mystery-pryer/seq-06.md",
+      "line": 34,
+      "col": 36,
+      "found": "Spiritual Points",
+      "replace": "Spirituality",
+      "rule_id": "resource_spiritual_points"
+    },
+    {
+      "path": "draft/sequences/mystery-pryer/seq-06.md",
+      "line": 46,
+      "col": 9,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/mystery-pryer/seq-08.md",
+      "line": 56,
+      "col": 7,
+      "found": "HP",
+      "replace": "Vitality",
+      "rule_id": "attr_hp"
+    },
+    {
+      "path": "draft/sequences/night/seq-05.md",
+      "line": 24,
+      "col": 25,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/night/seq-05.md",
+      "line": 28,
+      "col": 17,
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "rule_id": "action_spell_casting"
+    },
+    {
+      "path": "draft/sequences/night/seq-05.md",
+      "line": 43,
+      "col": 130,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/night/seq-05.md",
+      "line": 43,
+      "col": 108,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/night/seq-07.md",
+      "line": 41,
+      "col": 38,
+      "found": "Full-round action",
+      "replace": "Full-Round Action",
+      "rule_id": "action_full_round_case"
+    },
+    {
+      "path": "draft/sequences/night/seq-07.md",
+      "line": 46,
+      "col": 213,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/night/seq-08.md",
+      "line": 17,
+      "col": 111,
+      "found": "Dexterity",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_dexterity"
+    },
+    {
+      "path": "draft/sequences/night/seq-08.md",
+      "line": 17,
+      "col": 149,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/night/seq-08.md",
+      "line": 26,
+      "col": 35,
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "rule_id": "action_spell_casting"
+    },
+    {
+      "path": "draft/sequences/night/seq-08.md",
+      "line": 52,
+      "col": 90,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/night/seq-09.md",
+      "line": 115,
+      "col": 5,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/paragon/seq-06.md",
+      "line": 17,
+      "col": 45,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/paragon/seq-06.md",
+      "line": 64,
+      "col": 53,
+      "found": "Agility",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_agility_display"
+    },
+    {
+      "path": "draft/sequences/reader/seq-01.md",
+      "line": 74,
+      "col": 8,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/reader/seq-03.md",
+      "line": 40,
+      "col": 16,
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "rule_id": "action_spell_casting"
+    },
+    {
+      "path": "draft/sequences/reader/seq-04.md",
+      "line": 52,
+      "col": 35,
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "rule_id": "action_spell_casting"
+    },
+    {
+      "path": "draft/sequences/reader/seq-05.md",
+      "line": 35,
+      "col": 45,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/reader/seq-05.md",
+      "line": 55,
+      "col": 21,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/reader/seq-06.md",
+      "line": 31,
+      "col": 63,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/reader/seq-08.md",
+      "line": 17,
+      "col": 25,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/reader/seq-08.md",
+      "line": 83,
+      "col": 62,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/red-priest/seq-02.md",
+      "line": 57,
+      "col": 197,
+      "found": "Dexterity",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_dexterity"
+    },
+    {
+      "path": "draft/sequences/red-priest/seq-03.md",
+      "line": 35,
+      "col": 131,
+      "found": "HP",
+      "replace": "Vitality",
+      "rule_id": "attr_hp"
+    },
+    {
+      "path": "draft/sequences/red-priest/seq-05.md",
+      "line": 61,
+      "col": 180,
+      "found": "Agility",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_agility_display"
+    },
+    {
+      "path": "draft/sequences/red-priest/seq-08.md",
+      "line": 17,
+      "col": 117,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/red-priest/seq-08.md",
+      "line": 29,
+      "col": 71,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/red-priest/seq-08.md",
+      "line": 29,
+      "col": 87,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/red-priest/seq-08.md",
+      "line": 52,
+      "col": 236,
+      "found": "HP",
+      "replace": "Vitality",
+      "rule_id": "attr_hp"
+    },
+    {
+      "path": "draft/sequences/red-priest/seq-09.md",
+      "line": 48,
+      "col": 132,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/sun/seq-02.md",
+      "line": 29,
+      "col": 39,
+      "found": "Spiritual Points",
+      "replace": "Spirituality",
+      "rule_id": "resource_spiritual_points"
+    },
+    {
+      "path": "draft/sequences/sun/seq-03.md",
+      "line": 69,
+      "col": 38,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/sun/seq-03.md",
+      "line": 84,
+      "col": 141,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/sun/seq-04.md",
+      "line": 49,
+      "col": 64,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/sun/seq-04.md",
+      "line": 85,
+      "col": 184,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/sun/seq-05.md",
+      "line": 84,
+      "col": 120,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/sun/seq-09.md",
+      "line": 29,
+      "col": 62,
+      "found": "Agility",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_agility_display"
+    },
+    {
+      "path": "draft/sequences/sun/seq-09.md",
+      "line": 29,
+      "col": 78,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/sun/seq-09.md",
+      "line": 44,
+      "col": 18,
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "rule_id": "action_spell_casting"
+    },
+    {
+      "path": "draft/sequences/sun/seq-09.md",
+      "line": 55,
+      "col": 75,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/sun/seq-09.md",
+      "line": 56,
+      "col": 88,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/tyrant/seq-00.md",
+      "line": 68,
+      "col": 50,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/tyrant/seq-02.md",
+      "line": 81,
+      "col": 5,
+      "found": "DV",
+      "replace": "Difficulty Value",
+      "rule_id": "difficulty_value_dv"
+    },
+    {
+      "path": "draft/sequences/tyrant/seq-04.md",
+      "line": 167,
+      "col": 3,
+      "found": "Spiritual Points",
+      "replace": "Spirituality",
+      "rule_id": "resource_spiritual_points"
+    },
+    {
+      "path": "draft/sequences/tyrant/seq-08.md",
+      "line": 25,
+      "col": 33,
+      "found": "Health",
+      "replace": "Vitality",
+      "rule_id": "attr_health"
+    },
+    {
+      "path": "draft/sequences/tyrant/seq-09.md",
+      "line": 35,
+      "col": 170,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/tyrant/seq-09.md",
+      "line": 37,
+      "col": 7,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-03.md",
+      "line": 34,
+      "col": 184,
+      "found": "Agility",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_agility_display"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-03.md",
+      "line": 36,
+      "col": 59,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-04.md",
+      "line": 69,
+      "col": 56,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-04.md",
+      "line": 88,
+      "col": 97,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-04.md",
+      "line": 89,
+      "col": 203,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-04.md",
+      "line": 95,
+      "col": 49,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-04.md",
+      "line": 98,
+      "col": 90,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-04.md",
+      "line": 140,
+      "col": 26,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-05.md",
+      "line": 33,
+      "col": 57,
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "rule_id": "action_spell_casting"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-05.md",
+      "line": 46,
+      "col": 57,
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "rule_id": "action_spell_casting"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-05.md",
+      "line": 62,
+      "col": 59,
+      "found": "Spell-Casting Action",
+      "replace": "Casting Action",
+      "rule_id": "action_spell_casting"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-06.md",
+      "line": 63,
+      "col": 264,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-06.md",
+      "line": 83,
+      "col": 91,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-06.md",
+      "line": 87,
+      "col": 150,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-06.md",
+      "line": 101,
+      "col": 216,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-07.md",
+      "line": 95,
+      "col": 80,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-09.md",
+      "line": 36,
+      "col": 82,
+      "found": "Charm",
+      "replace": "Charisma (CHA)",
+      "rule_id": "attr_charm"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-09.md",
+      "line": 37,
+      "col": 7,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-09.md",
+      "line": 109,
+      "col": 58,
+      "found": "Will Defense",
+      "replace": "Willpower Defense",
+      "rule_id": "def_will_defense"
+    },
+    {
+      "path": "draft/sequences/visionary/seq-09.md",
+      "line": 134,
+      "col": 77,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/war-god/seq-02.md",
+      "line": 31,
+      "col": 33,
+      "found": "Health",
+      "replace": "Vitality",
+      "rule_id": "attr_health"
+    },
+    {
+      "path": "draft/sequences/war-god/seq-04.md",
+      "line": 31,
+      "col": 40,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/war-god/seq-04.md",
+      "line": 51,
+      "col": 37,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/war-god/seq-04.md",
+      "line": 57,
+      "col": 40,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/war-god/seq-04.md",
+      "line": 67,
+      "col": 101,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    },
+    {
+      "path": "draft/sequences/war-god/seq-04.md",
+      "line": 105,
+      "col": 32,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/war-god/seq-04.md",
+      "line": 118,
+      "col": 36,
+      "found": "Sanity",
+      "replace": "Sanity / Rationality",
+      "rule_id": "resource_sanity_short"
+    },
+    {
+      "path": "draft/sequences/war-god/seq-05.md",
+      "line": 52,
+      "col": 17,
+      "found": "Spiritual Points",
+      "replace": "Spirituality",
+      "rule_id": "resource_spiritual_points"
+    },
+    {
+      "path": "draft/sequences/war-god/seq-05.md",
+      "line": 55,
+      "col": 21,
+      "found": "Health",
+      "replace": "Vitality",
+      "rule_id": "attr_health"
+    },
+    {
+      "path": "draft/sequences/war-god/seq-08.md",
+      "line": 33,
+      "col": 8,
+      "found": "Agility",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_agility_display"
+    },
+    {
+      "path": "draft/sequences/war-god/seq-08.md",
+      "line": 45,
+      "col": 24,
+      "found": "Agility",
+      "replace": "Agility (DEX)",
+      "rule_id": "attr_agility_display"
+    },
+    {
+      "path": "draft/sequences/war-god/seq-09.md",
+      "line": 26,
+      "col": 197,
+      "found": "Inspiration",
+      "replace": "Intuition (INT)",
+      "rule_id": "attr_inspiration"
+    }
+  ]
+}

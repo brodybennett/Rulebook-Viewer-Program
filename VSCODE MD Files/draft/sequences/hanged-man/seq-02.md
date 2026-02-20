@@ -24,7 +24,7 @@ tags: ["pathway:hanged-man", "sequence:2"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Constitution +1, Dexterity +1, Inspiration +1.
+- **Attribute Gain:** Constitution +1, Agility (DEX) +1, Intuition (INT) +1.
 
 ### Evil Words
 
@@ -32,18 +32,18 @@ tags: ["pathway:hanged-man", "sequence:2"]
 
 #### Self-Blessing
 
-- **Use:** [[Free Action]]
+- **Use:** Free Action
 - **Cost:** 1 point of [[Spirituality]]
 - **Effect:** You can use this power to bless yourself; it takes subtlety to influence others.
 
 - Example:
   - You claim to be a king of angels, which gives you +1 personality (but not as much as the real king of angels).
-  - At the same time, you gain +4 on all skill checks for one [[Encounter]].
+  - At the same time, you gain +4 on all skill checks for one Encounter.
   - These bonuses are examples; the GM sets the exact values.
 
 #### Word Interception (Additional)
 
-- **Use:** [[Free Action]]
+- **Use:** Free Action
 - **Cost:** 5 [[Spirituality]] points
 - **Effect:** You intercept the other person’s words, take them out of context, and make them reality.
 

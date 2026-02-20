@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sequence 9: Assassin"
 id: "demoness-seq-09"
 tags: ["pathway:Demoness", "sequence:9"]
@@ -16,29 +16,29 @@ Assassins can briefly alter their body, move with feather-like lightness, harden
 
 ### Attribute Gain
 
-- **Attribute gain:** Strength +2, Constitution +1, Agility +2.
+- **Attribute gain:** Strength +2, Constitution +1, Agility (DEX) +2.
 - You can better learn:
   - [[Fighting (Hand-to-Hand Combat)]]
-  - [[Detection]]
+  - Detection
   - [[Stealth]]
-  - [[Dodge]]
+  - Dodge
   - [[Throwing]]
   - [[Jumping]]
   - [[Swimming]]
 - Every 2 hours, you receive non-repetitive, effective related guidance; gain 1 growth point for the corresponding skill.
   1. To reach **Proficient**, you must complete 2 + 3 + 4 learnings in order; you cannot advance beyond **Proficient**.
   2. Every time you assassinate a target that is stronger than you, it is also considered as a growth. Selecting any of the above skills is regarded as a learning. The learning is limited to one time per day, but the growth brought by the assassination is not counted.
-- When creating a character that has not just been promoted, you can use the corresponding skill-related attributes brought by the [[Potion]] to add growth skills; treat **Inspiration** as growth points.
+- When creating a character that has not just been promoted, you can use the corresponding skill-related attributes brought by the [[Potion]] to add growth skills; treat **Intuition (INT)** as growth points.
 
 ### Body Change
 
-- **Use:** 1 **casting action**.
+- **Use:** 1 **Casting Action**.
 - **Effect:** You adjust your physiology to gain the properties of feathers, hawk-like lightness.
   1. Within 1 round (6 seconds), your body can be as light as a feather walking on the moon. In this state, your climbing, jumping, swimming, and stealth identifications are all successful by default. When confronting, it will be changed to +4 favorable.
   2. Because the body is light and easy to control, at the height of about the fifth and sixth floors of modern times (18â€“28 meters), you will not be hurt by falling. You will fall slowly like a feather, and you will not lose your balance or suffer impact injury (e.g., carriage/car).
   3. Even at a higher height, you only need to find a few support points as a transfer during the fall, and you will not be hurt by the fall.
-- While in an altered state, you can make a [[Stealth]] check as a **move action**, even if you are being watched.
-- At [[Sequence 7]]: Body Change requires only 1 **swift action**.
+- While in an altered state, you can make a [[Stealth]] check as a **Move Action**, even if you are being watched.
+- At Sequence 7: Body Change requires only 1 **Swift Action**.
 
 ### Sharp Sight
 
@@ -54,11 +54,11 @@ Assassins can briefly alter their body, move with feather-like lightness, harden
   2. It is beneficial to +2 special action appraisals such as [[Critical Strike]], [[Double Strike]], and [[Close Shot]], excluding first aid/surprise attack, and does not affect special actions that simply gain benefits. For example, gaining momentum and aiming will not change from +2 to +4. Only affects identification.
   3. **Quick dodge:** You use skills to retain complete physical defense against guns instead of light/lightning, and get an extra level of dodge.
 - This is the effect brought by a [[Potion]]; it cannot be stolen or recorded.
-  > **GM Note:** You should try more raids/sneak attacks. For details, see the benefits this can bring you in [[Special Actions]], and the invisibility starting from [[Sequence 7]] (more favorable conditions for raids).
+  > **GM Note:** You should try more raids/sneak attacks. For details, see the benefits this can bring you in [[Special Actions]], and the invisibility starting from Sequence 7 (more favorable conditions for raids).
 
 ### Poised Burst
 
-- **Use:** Accompanied by 1 attack/move/swift action.
+- **Use:** Accompanied by 1 attack/move/Swift Action.
 - **Cost:** Consume 2 **spiritual points**.
 - **Limits:** Only once every 5 minutes.
 - **Effect:** You burst all your strength in 1 hit. Choose 1 of the following effects:

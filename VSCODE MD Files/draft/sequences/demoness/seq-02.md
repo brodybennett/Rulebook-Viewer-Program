@@ -10,7 +10,7 @@ tags: ["pathway:Demoness", "sequence:2"]
 
 > **Lore:** Blizzards, floods, tsunamis, and earthquakes are all within her domain.
 
-- See also: [[Witch Pathway]]
+- See also: [[Demoness]]
 
 ## Advancement
 
@@ -23,17 +23,17 @@ tags: ["pathway:Demoness", "sequence:2"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Dexterity +2, Constitution +1, Strength +1, Charm +1.
+- **Attribute Gain:** Agility (DEX) +2, Constitution +1, Strength +1, Charisma (CHA) +1.
 
 ### Cataclysm Wreaks
 
 You create a terrible catastrophe.
 
-- **Cost:** 6 **spiritual points** ([[Spiritual Points]])
-- **Use:** 1 **casting action** ([[Casting Action]]); 1 time per round; once per encounter
+- **Cost:** 6 **spiritual points** ([[Spirituality]])
+- **Use:** 1 **Casting Action** (Casting Action); 1 time per round; once per encounter
 - **Effect:** Choose 1 disaster to take effect. **Charisma** checks counter **Physical Defense** ([[Physical Defense]]), and can affect areas of a city.
 - **Disaster options:**
-  - **Hurricane:** Strong winds ravage an area. If you fail a Strength or Dexterity check with **Difficulty Value** 20 ([[Difficulty Value]]), most of the trees, animals, and humans in the area are in a **Blowing** state ([[Blowing]]). The wind moves 50 meters, and affected creatures may take 2d10 falling damage as a result.
+  - **Hurricane:** Strong winds ravage an area. If you fail a Strength or Agility (DEX) check with **Difficulty Value** 20 (Difficulty Value), most of the trees, animals, and humans in the area are in a **Blowing** state ([[Blowing]]). The wind moves 50 meters, and affected creatures may take 2d10 falling damage as a result.
   - **Earthquake:** Against **Physical Defense**, dealing 5d6+5 physical damage to most creatures on the ground; these creatures are in a **Loss of Balance** state ([[Loss of Balance]]).
   - **Tsunami:** Can only be used in the sea area. You release huge waves, advancing 2 kilometers at a speed of 100 meters per round, submerging all ships on the way, and causing a lot of damage (10d6).
   - **Lava:** Works only on land. The ground begins to erupt lava, dealing 5d6 fire damage to most creatures.

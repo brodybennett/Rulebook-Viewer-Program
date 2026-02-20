@@ -8,7 +8,7 @@ tags: ["pathway:Demoness", "sequence:3"]
 
 ## Immortality
 
-- See also: [[Witch Pathway]]
+- See also: [[Demoness]]
 
 > **Lore:** Eternal youth—strange and difficult to kill. Skilled in resurrection and rebirth, petrification, and transmitting power through the **Mirror World** [[Mirror World]]. Can perfectly present the charm of women at every stage, matching skin condition and facial features.
 
@@ -22,25 +22,25 @@ tags: ["pathway:Demoness", "sequence:3"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Dexterity +2, Constitution +1, Will +1, Charisma +2, Inspiration +2.
+- **Attribute Gain:** Agility (DEX) +2, Constitution +1, Willpower (WIL) +1, Charisma +2, Intuition (INT) +2.
 
 ### Extraordinary Lifespan
 
 - You will not grow old or die; your lifespan will exceed at least 1400 years without weakening.
-- Whenever you die, you will be reborn in the **Mirror World** [[Mirror World]], recovering 2d10 **Health Points** [[Health Points]].
+- Whenever you die, you will be reborn in the **Mirror World** [[Mirror World]], recovering 2d10 **Vitality Points** Vitality Points.
 - The number of resurrections is up to you. Each time you resurrect, reduce your **Spiritual Limit** [[Spiritual Limit]] by 5 points (your limit -5). You get one chance at your resurrection.
 - Rebirth from the Mirror World appears in the nearest mirror, or a mirror you have set in advance.
 - If your death is in the Mirror World, you will not be able to resurrect.
 
 ### Medusa
 
-- **Cost:** **Free Action** [[Free Action]].
+- **Cost:** **Free Action** Free Action.
 - **Use:** Once per round.
 - **Effect:** You cause all targets within your line of sight to begin petrifying. This is a **curse** [[Curse]] effect that can be dispelled [[Dispel]] or resisted by **Resistance** [[Resistance]].
 - **Targeting and range:** All targets within your line of sight.
 - **Progression:** Each round, use your Charisma to attack the **physical defenses** [[Physical Defense]] of all creatures within your line of sight, and if successful, increase the **Petrification Level** by 1.
 
-- **Petrification Level 1:** The creature's skin is partially stained with lime, leaving only one **Free Action** [[Free Action]] per round.
-- **Petrification Level 2:** The creature's limbs are almost frozen, and it takes two turns to move and attack. At this time, it can give up one of the actions to complete one of the actions in one turn, and there is still one **Free Action** [[Free Action]].
-- **Petrification Level 3:** The creature can take no **Move Actions** [[Move Action]], takes two turns to attack, and only one **Free Action** [[Free Action]].
-- **Petrification Level 4:** The creature turns to stone until someone removes its curse. Killing the target during this phase is considered death, and the independent **Health Points** [[Health Points]] of the petrified state are half of the current hit points.
+- **Petrification Level 1:** The creature's skin is partially stained with lime, leaving only one **Free Action** Free Action per round.
+- **Petrification Level 2:** The creature's limbs are almost frozen, and it takes two turns to move and attack. At this time, it can give up one of the actions to complete one of the actions in one turn, and there is still one **Free Action** Free Action.
+- **Petrification Level 3:** The creature can take no **Move Actions** Move Action, takes two turns to attack, and only one **Free Action** Free Action.
+- **Petrification Level 4:** The creature turns to stone until someone removes its curse. Killing the target during this phase is considered death, and the independent **Vitality Points** Vitality Points of the petrified state are half of the current hit points.

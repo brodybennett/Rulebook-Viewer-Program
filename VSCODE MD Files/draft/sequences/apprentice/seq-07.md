@@ -18,7 +18,7 @@ tags: ["pathway:apprentice", "sequence:7"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** [[Inspiration]] +2
+- **Attribute Gain:** Intuition +2
 - Your [[Navigating]] increases by 2 skill levels. [[Skill Levels]]
 
 ### Astrology Study and Advancement
@@ -34,14 +34,14 @@ tags: ["pathway:apprentice", "sequence:7"]
 
 You use **Astrology** for [[id:alias-divination|divination]] or to interfere with divination and [[spiritual intuition]].
 
-- **Use:** 1 [[Spell-Casting Action]]
+- **Use:** 1 Casting Action
 - **Cost:** 2 points of [[Spirituality]]
 
 This ability can be used in the following ways:
 
 1. **Horoscope / Appraisal**
-   - You ask your own spirituality to perform a horoscope, conduct an [[Inspiration Appraisal]], and get feedback based on the results.
-   - **Special (advanced crystal ball):** If you use an [[advanced crystal ball]], the skill identification of Astrology changes from **Inspiration** to **Inspiration + Astrology identification**. (The reputation costs listed - purchase consumes **3 levels**, proficiency consumes **1 level**, and knowledge consumes none - apply only when learning Reputation-based skills.)
+   - You ask your own spirituality to perform a horoscope, conduct an Intuition Appraisal, and get feedback based on the results.
+   - **Special (advanced crystal ball):** If you use an [[advanced crystal ball]], the skill identification of Astrology changes from **Intuition (INT)** to **Intuition (INT) + Astrology identification**. (The reputation costs listed - purchase consumes **3 levels**, proficiency consumes **1 level**, and knowledge consumes none - apply only when learning Reputation-based skills.)
      - The [[Astrology identification]] of [[ordinary crystal balls]] is limited to **proficiency**.
 
    - **Divination outcomes by Difficulty Value**
@@ -60,7 +60,7 @@ This ability can be used in the following ways:
      1. Divination of things involving other people fails by default if there is no clue, and succeeds by default if there is their blood or belongings.
      2. For each clue obtained, divination related events gain a **+2 beneficial** modifier, but divination of targets higher than **1 character** fails by default (GM-defined threshold).
      3. The reason for detection and failure of the higher Status/Rank tier is that under special circumstances, it is possible for the lower level to divine for the higher level.
-     4. Whenever you are in a deep sleep, you can conduct an Inspiration appraisal with **Difficulty Value 20**. If it succeeds, and something directly related to you has happened in the current period, you see a general picture that needs to be interpreted. This is the first step of [[dream interpretation]].
+     4. Whenever you are in a deep sleep, you can conduct an Intuition (INT) appraisal with **Difficulty Value 20**. If it succeeds, and something directly related to you has happened in the current period, you see a general picture that needs to be interpreted. This is the first step of [[dream interpretation]].
 
      > **GM Note:** Example given in RAW: if you are related to the god in charge of the moon, you will see a red moon; blood represents misfortune; tombstones represent the direct implication of certain events.
 
@@ -79,7 +79,7 @@ This ability can be used in the following ways:
      1. **Smash a high-level crystal ball**
         - Smash 1 high-level crystal ball.
         - Choose 1 specific mystic information related to you (e.g., you plan to attack someone next).
-        - Realize anti-divination: conduct **Inspiration + Astrology identification** as the Difficulty Value of anti-divination. [[id:alias-anti-divination|anti-divination]]
+        - Realize anti-divination: conduct **Intuition (INT) + Astrology identification** as the Difficulty Value of anti-divination. [[id:alias-anti-divination|anti-divination]]
         - If an ordinary crystal ball is smashed, proficiency in Astrology is limited.
         - Carrying limits (considering other items):
           - Ordinary clothes: up to **2** crystal balls
@@ -87,7 +87,7 @@ This ability can be used in the following ways:
           - Mage robes: up to **8**
      2. **Rely purely on spirituality**
         - Purely rely on spirituality (do not smash anything).
-        - Set and identify the anti-divination Difficulty Value using **Inspiration**.
+        - Set and identify the anti-divination Difficulty Value using **Intuition (INT)**.
 
    - **On success:** This information is excluded in related divination, spiritual intuition, and prophecy, unless it exceeds the corresponding Difficulty Value.
 
@@ -100,12 +100,12 @@ Also known as intuitive premonition: you can predict the actions of others at cr
 
 When triggered:
 
-1. Perform a **Difficulty Value 15** Inspiration appraisal.
+1. Perform a **Difficulty Value 15** Intuition (INT) appraisal.
    - **On success:** An idea flashes in your mind immediately, telling you the dangerous form.
    - After you succeed, you will not be able to be raided or ambushed.
    - Threats that you mistakenly think are “safe” will not trigger the ability.
 2. Under the above premise, as long as you are not restrained or affected by other reasons, your [[physical defense]] gains a **+4 temporary bonus**.
-   - In the face of [[firearms]], [[Light]], and [[Lightning]], you retain [[Agility]] and [[Dodge]] in physical defense instead of gaining the +4 bonus.
+   - In the face of [[firearms]], [[Light]], and [[Lightning]], you retain Agility (DEX) and Dodge in physical defense instead of gaining the +4 bonus.
 3. If the danger range is large enough (e.g., a gas explosion in the entire area in an instant), even if you are alarmed by the danger, you will not be able to gain benefits.
 
 - **Special:**
@@ -114,7 +114,7 @@ When triggered:
 - Danger premonition is a kind of spiritual intuition, so it is invalidated by anti-divination and [[Anti-Prophecy]].
 
 - **Sequence 6:**
-  - Your Inspiration appraisal is successful by default.
+  - Your Intuition (INT) appraisal is successful by default.
   - The flashing thought changes to flashing the picture, so as to know the manifestation of danger.
 - **Sequence 5:**
   - You can perceive danger higher than **1 personality** (alignment/temperament compatibility).

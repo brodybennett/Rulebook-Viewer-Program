@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sequence 1: Key to the Star"
 id: "apprentice-seq-01"
 tags: ["pathway:apprentice", "sequence:1"]
@@ -37,18 +37,18 @@ tags: ["pathway:apprentice", "sequence:1"]
 
 - **Cost:** 5 points of spirituality.
 - **Use:** **Spellcasting action.**
-- **Check:** [[Mysticism]] against [[Will Defense]]; minus -8 is disadvantageous.  
-- **Check:** [[Mysticism]] against [[Will Defense]]; apply **-8** to the overall contest result.
+- **Check:** [[Mysticism]] against Willpower Defense; minus -8 is disadvantageous.  
+- **Check:** [[Mysticism]] against Willpower Defense; apply **-8** to the overall contest result.
 - **Targeting and range:** A supernatural ability or a thing within your range of vision.
 - **Effect:** You directly seal the target for **three rounds** at a time.
   - You seal a supernatural ability or a thing within your range of vision.
   - For one target, seal only one supernatural ability at a time. Across different targets (or repeated uses), there is no total upper limit on active seals.
   - Extraordinary items of the same personality can directly seal the entire thing, making it unusable for three rounds.
 - **Limits:**
-  - Because this ability requires a casting action, there is generally no time for the extraordinary ability of free actions to be sealed.
+  - Because this ability requires a Casting Action, there is generally no time for the extraordinary ability of free actions to be sealed.
   - The sealed ability must be recognized, such as within your field of vision.
 - **Scaling by level:**
-  - You can seal **three extraordinary abilities** at a time for a target lower than you; this lasts for one [[Encounter]].
+  - You can seal **three extraordinary abilities** at a time for a target lower than you; this lasts for one Encounter.
   - You can also seal the entire [[Extraordinary Item]] for one encounter.
   - If you make a target voluntary, **or** if the target is one level below you and becomes helpless (including extraordinary items that no one holds for a time), **or** if the target is two levels below you, you can make this seal last forever.
 - **Awareness and special cases:**
@@ -65,10 +65,10 @@ tags: ["pathway:apprentice", "sequence:1"]
 ### Spoon
 
 - **Cost:** 3 points of spirituality.
-- **Use:** **Free action** (once in a [[Round]]).
+- **Use:** **Free action** (once in a Round).
 - **Targeting and range:** An object within your field of vision.
 - **Effect:** You unseal a thing. The specific effect of this ability is similar to that of a door, but the direction is different and the effect is different.  
-- **Effect:** You unseal a thing. The specific effect is similar to the general [[Door Pathway]] mechanics.
+- **Effect:** You unseal a thing. The specific effect is similar to the general [[Door]] mechanics.
   - You can release things that have been blocked by supernatural objects such as [[Occult]], or conscious thoughts that have been blocked by [[Hypnosis]], but you must be aware of its existence.
   - This essentially uses the power of location to find the keys, or lockholes, of these seals, thereby opening them.
   - If there is a special item whose negative effect is restricted by some kind of seal, you can directly remove it and let it return to its original state within three rounds. Permanence is decided by the GM.

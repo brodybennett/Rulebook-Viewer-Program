@@ -8,7 +8,7 @@ tags: ["pathway:tyrant", "sequence:0"]
 
 ## Tyrant
 
-- See also: [[Sequence]]
+- See also: Sequence
 
 > **Lore:** This **Sequence** represents dominion over lightning, oceans, fear, and large-scale natural catastrophe.
 
@@ -26,7 +26,7 @@ tags: ["pathway:tyrant", "sequence:0"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +2, Agility +1, Constitution +2, Charisma +1.
+- **Attribute Gain:** Strength +2, Agility (DEX) +1, Constitution +2, Charisma +1.
 
 ---
 
@@ -40,7 +40,7 @@ tags: ["pathway:tyrant", "sequence:0"]
 
 - **Targeting and range:**  
   - Within 100 meters of any lightning you create, a powerful electromagnetic storm accompanies it, destroying all information structures.  
-  - Informational creatures of the [[Voyeur Pathway]] cannot avoid your lightning damage.  
+  - Informational creatures of the Hermit pathway cannot avoid your lightning damage.  
   - Your lightning can cover the entire world. If you choose, you can keep a planet continuously filled with your lightning storms.
 
 ---
@@ -59,11 +59,11 @@ tags: ["pathway:tyrant", "sequence:0"]
 - **Effect:**  
   - You absolutely suppress targets below your level.  
   - When facing an enemy whose **Sequence** is one level lower than yours:  
-    - Your physical defense, Constitution defense, and Will defense are **+5**.  
+    - Your physical defense, Constitution Defense, and Will defense are **+5**.  
     - Your damage check gains an additional **+1d10**.  
 
 - **Use:** Once per turn, as a free action.  
 
 - **Effect (Frightening Authority):**  
-  - Make a Strength check against the target’s [[Will Defense]].  
+  - Make a Strength check against the target’s Willpower Defense.  
   - On a success, the target enters a [[Terrified State]] that lasts for the entire encounter.

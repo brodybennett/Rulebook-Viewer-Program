@@ -41,7 +41,7 @@ No matter where it is, the surrounding plants will grow rapidly into patches of 
 - **Flesh Forest:** Plants near the Hornacis Gray Goat look extremely weird, grow tentacles, or wriggle.
 - **Flesh Creation:** Creatures near the Hornacis Gray Goat will produce a Flesh Mutant. Mutant Flesh: Strength +2; gains 1 point of fast healing; and likely possesses the extraordinary ability of a Hornacis Gray Goat.
 
-> **GM Note:** This is a treasure trove for the Earth Sequence, because they often find suitable biological configuration potions and enslave some creatures. [[Earth Sequence]]
+> **GM Note:** This is a treasure trove for the Earth Sequence, because they often find suitable biological configuration potions and enslave some creatures. Earth Sequence
 
 ## Basic Data
 
@@ -49,20 +49,20 @@ No matter where it is, the surrounding plants will grow rapidly into patches of 
 
 | Attribute | Value |
 |---|---:|
-| Charm | 1 |
+| Charisma (CHA) | 1 |
 | Strength | 8 |
 | Luck | 3 |
-| Dexterity | 4 |
+| Agility (DEX) | 4 |
 | Constitution | 10 |
 | Will | 5 |
-| Inspiration | 1 |
+| Intuition (INT) | 1 |
 | Education | 1 |
 
-- **Health:** 40
+- **Vitality:** 40
 - **Physical Defense Level:** 10 + 4 natural armor + 4 agility = 18
 - **Skills:** Fighting +10; Survival +10
-- **Sanity cost (first sighting):** 1/1d3 SC [[SC]]
-    - **Clarification:** SC means **Sanity Check**. [[Sanity Check]]
+- **Sanity / Rationality cost (first sighting):** 1/1d3 SC [[SC]]
+    - **Clarification:** SC means **Sanity / Rationality Check**. [[Sanity / Rationality Check]]
 
 ## Combat
 

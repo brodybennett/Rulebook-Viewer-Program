@@ -21,7 +21,7 @@ tags: ["pathway:hanged-man", "sequence:4"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Constitution +1, Agility +1, Inspiration +1.
+- **Attribute Gain:** Constitution +1, Agility (DEX) +1, Intuition (INT) +1.
 - **Skill Increase:** Fighting [[Fighting (Skill)]] and Fighting (Giant Weapon) [[Fighting (Giant Weapon) (Skill)]] skills increase by 1 skill level.
 
 ### Blade of Soul and Flesh (Core Ability)
@@ -37,7 +37,7 @@ tags: ["pathway:hanged-man", "sequence:4"]
 - **Effect:**
   - You become a ~4-meter-long giant wearing black armor, holding a giant sword, with crimson eyes.
   - Strength +5.
-  - Constitution +5 (your Health upper limit also +5). [[Health]]
+  - Constitution +5 (your Vitality upper limit also +5). [[Vitality]]
   - You are regarded as a **super-large creature** [[Super-Large Creature]].
   - In this state, [[Shadow Armor]] is active by default.
 
@@ -48,11 +48,11 @@ tags: ["pathway:hanged-man", "sequence:4"]
   - You gain +2 on [[Suffer Check]]s.
 
 - **While in this state, your Shadow Armor is strengthened:**
-  - The [[Sacred Damage]] you take from non-Sun Pathways is halved. [[Sun Pathway]]
-  - You gain 5 points of **temporary Sanity armor** [[Temporary Sanity Armor]] for your own use.
+  - The [[Sacred Damage]] you take from non-Sun Pathways is halved. [[Sun]]
+  - You gain 5 points of **temporary Sanity / Rationality armor** [[Temporary Sanity / Rationality Armor]] for your own use.
 
 - **While in this state, the blade of flesh and blood deals (to living creatures):**
-  - An additional 1d2 [[Sanity]] damage.
+  - An additional 1d2 [[Sanity / Rationality]] damage.
   - An additional +5 damage.
 
 - This is not a [[Mythic Creature Form]].
@@ -69,20 +69,20 @@ tags: ["pathway:hanged-man", "sequence:4"]
 - **Effect:** You create a blade of flesh, shadow, and spirit that deals base damage of 2d10. This is **cursed damage**. [[Cursed Damage]]
 - **Benefits:**
   - Melee attacks related to the blade of flesh and blood deal an extra 2d6 damage to living creatures.
-    - When you use the blade of flesh and blood to attack creatures whose Sanity has not reached the maximum, your hit rate +10. [[Hit Rate]]
+    - When you use the blade of flesh and blood to attack creatures whose Sanity / Rationality has not reached the maximum, your hit rate +10. [[Hit Rate]]
   - Your melee attacks ignore [[Deflection Defense]] and Damage Reduction, and can hit [[Incorporeal Body]].
 
 ### Shadow Raid
 
 - **Cost:** 2 spirituality points.
-- **Use:** Move action.
+- **Use:** Move Action.
 - **Effect:** Rush to a shadow within line of sight; you teleport about 100 meters.
 - **Limits:** This ability must be used in a shadowed area, and the shadow must be within your line of sight.
 
 ### Spreading Flesh
 
 - **Cost:** 2 spirituality points.
-- **Use:** Spell-casting action.
+- **Use:** Casting Action.
 - **Requirements:** **Flesh Stack** 120+ (RAW: “stack of flesh and blood”). [[Flesh Stack]]
 - **Effect:**
   - Your whole body turns into a thin blanket of blood and flesh that spreads rapidly, covering every corner of the room.
@@ -101,7 +101,7 @@ tags: ["pathway:hanged-man", "sequence:4"]
 ### Separation of Fallen Thoughts
 
 - **Cost:** 6 spirituality points.
-- **Use:** Casting action.
+- **Use:** Casting Action.
 - **Targeting:** Designate a mad creature. [[Mad Creature]]
 - **Effect:**
   - The designated creature falls into **true half-madness** [[Half-Madness]].
@@ -112,8 +112,8 @@ tags: ["pathway:hanged-man", "sequence:4"]
     - The original owner gains the advantages and disadvantages brought by the madness. [[Madness]]
 - **Copy details:**
   - The duplicate body has complete supernatural powers.
-  - It shares the remaining Sanity equally with the original.
-  - The Sanity upper limit and Will Defense of both parties are halved. [[Sanity Upper Limit]] [[Will Defense]]
+  - It shares the remaining Sanity / Rationality equally with the original.
+  - The Sanity / Rationality upper limit and Willpower Defense of both parties are halved. [[Sanity / Rationality Upper Limit]] Willpower Defense
   - It will not inherit the state of madness.
   - It is a [[Shadow Creature]] and has strong malice towards the original owner.
   - It will not possess any [[Supernatural Item]] or [[Secret Puppet]].
@@ -121,11 +121,11 @@ tags: ["pathway:hanged-man", "sequence:4"]
 - **Negotiation:** You can persuade this creature to help you through negotiation. Since killing the original owner can replace it, and it is malicious to the original owner, most clones will agree to help you.
 - **When the clone is killed:**
   - This essentially tears apart a person’s astral body. [[Astral Body]]
-  - When the clone is killed, any split Sanity returns with the torn astral body.
+  - When the clone is killed, any split Sanity / Rationality returns with the torn astral body.
 - **Additional effects on the original owner:**
-  - The original owner who lost half of their soul gains the easy-to-craze effect of the Spectator Pathway in a state of incomplete soul. [[Easy-to-Craze]] [[Spectator Pathway]] [[Incomplete Soul]]
+  - The original owner who lost half of their soul gains the easy-to-craze effect of the Spectator Pathway in a state of incomplete soul. [[Easy-to-Craze]] Visionary [[Incomplete Soul]]
   - If the original owner is replenished by an Audience demigod through a virtual personality, then even though they are still half insane, their soul can be temporarily complete. [[Audience Demigod]] [[Virtual Personality]]
-    - The halving of the Sanity upper limit and the upper limit of Will Defense remains unchanged.
+    - The halving of the Sanity / Rationality upper limit and the upper limit of Willpower Defense remains unchanged.
     - It is easy to remove the effect of madness, and the original owner no longer gains the advantages and disadvantages of half-madness.
     - The virtual personality can be used as a substitute for mental blows. [[Mental Blow]]
   - Even if the original owner is illuminated by light, there will be no shadow.
@@ -140,8 +140,8 @@ If you have a consciousness that does not belong to you in your mind (for exampl
 - **Control window:** It remains under the control of its original owner for two rounds.
 - **If not resolved in time:** The original owner suffers the normal detached and corrupted mind effects. [[Detached and Corrupted Mind]]
 - **If this avatar was already insane before being separated:** Separation and degeneration can make it betray immediately (without waiting).
-  - Usually, there must be a demigod with the same Spectator Pathway to attack it with Sanity. Your own Sanity attack can basically only be fought with yourself, and even if there is a Spectator Pathway demigod, this virtual personality can resist.
+  - Usually, there must be a demigod with the same Spectator Pathway to attack it with Sanity / Rationality. Your own Sanity / Rationality attack can basically only be fought with yourself, and even if there is a Spectator Pathway demigod, this virtual personality can resist.
 - **Restrictions:**
   - It is extremely difficult to use your own power to make it fall into madness in advance.
   - After pulling it out, because it has already begun to fall into the state of [[Separated and Corrupted Thoughts]], you cannot let it fall into the state of [[Separated and Fallen Thoughts]] again; even if you can, it only affects replicas.
-  - The Sanity blow that is replenished after the withdrawal is meaningless.
+  - The Sanity / Rationality blow that is replenished after the withdrawal is meaningless.

@@ -8,4 +8,4 @@ tags: ["pathway:reader", "sequence:0"]
 
 ## White Tower
 
-> **Lore:** The [[True God]] of the [[White Tower Pathway]].
+> **Lore:** The [[True God]] of the [[White Tower]].

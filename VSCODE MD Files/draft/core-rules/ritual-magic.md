@@ -36,7 +36,7 @@ Choose the deity you wish to pray to. Generally, you may only pray to the Seven 
 
 ### Additional Required Materials
 
-1. **Limited to making Charms/Amulets/Enchanted Bullets:** the material carrier corresponding to the **Pathway**'s Charm/Amulet/Enchanted Bullet. Its surface must be engraved with the corresponding deity's symbol. For material types, see Charm-Making Ritual below.
+1. **Limited to making Charms/Amulets/Enchanted Bullets:** the material carrier corresponding to the **Pathway**'s Charisma (CHA)/Amulet/Enchanted Bullet. Its surface must be engraved with the corresponding deity's symbol. For material types, see Charisma (CHA)-Making Ritual below.
 2. **Limited to ordinary people / Beyonders who have not obtained ritual enhancement through Beyonder abilities:** items such as a bell, crystal ball, silver cup, incense, etc. These assist the ritual officiant in guiding power within the body outward, in order to construct the Spirituality Wall.
 
 ## Spirituality Wall
@@ -52,7 +52,7 @@ A **Spirituality Wall** is an invisible wall formed using your own Spirituality 
 - **Build (5 meters):** **1 Casting Action**, consume **1** point of Spirituality; single-use material. Sprinkle it over the area you need to construct; it can build a Spirituality Wall that encloses items or encloses a **5-meter** space.
 - **Build (10 meters):** **1 Full-Round Action**, consume **2** points of Spirituality to create **10 meters**. See [[Full-Round Action]].
 - **Special:** The consumption is equivalent across different methods.
-- **Scent:** Smelling Holy Night Powder has a brief refreshing effect: Inspiration-related checks **+1 with Advantage** for **1 round**; cannot stack with other refreshing effects; cannot be used to resist Beyonder abilities; limited to refreshing once within **1 hour**. See [[Advantage / Disadvantage]].
+- **Scent:** Smelling Holy Night Powder has a brief refreshing effect: Intuition (INT)-related checks **+1 with Advantage** for **1 round**; cannot stack with other refreshing effects; cannot be used to resist Beyonder abilities; limited to refreshing once within **1 hour**. See [[Advantage / Disadvantage]].
 
 ### Small Silver Knife
 
@@ -172,15 +172,15 @@ Note: Entries with "no explicit date" are lore-only and do not grant mechanical 
 
 ---
 
-## Charm-Making Ritual
+## Charisma (CHA)-Making Ritual
 
 To take away Beyonder power bestowed by a deity, you must provide a carrier that can bear these powers.
 
-### Charm Materials
+### Charisma (CHA) Materials
 
 Charms materials not listed can be judged by making a **Reputation** check (**Difficulty Value 15**) to determine whether they can be purchased.
 
-| Pathway | Charm material |
+| Pathway | Charisma (CHA) material |
 |---|---|
 | Fool Pathway | a mixture of pure silver and mercury |
 | Door Pathway | gemstones |
@@ -194,25 +194,25 @@ Charms materials not listed can be judged by making a **Reputation** check (**Di
 | Earth Pathway | lead |
 
 Cost notes:
-- Among the above Charm materials, the Storm Pathway is the cheapest, and the Sun and Door Pathways are the most expensive.
+- Among the above Charisma (CHA) materials, the Storm Pathway is the cheapest, and the Sun and Door Pathways are the most expensive.
 - Storm Pathway materials are priced in suleys.
 - Sun Pathway and Door Pathway materials usually start around **1 pound** with fluctuations.
 
 **Crafting**
 - **Check:** Crafting (**Difficulty Value 15**).
-- First carve the materials into a palm-sized Charm shape.
+- First carve the materials into a palm-sized Charisma (CHA) shape.
 - Engrave/draw the corresponding deity's symbol on both the front and back.
 
-### Charm-Making Procedure
+### Charisma (CHA)-Making Procedure
 
-1. Place the Charm materials you prepared in advance above the altar.
-2. Based on Commonly Used Ritual Magic, choose a deity and chant Their honorific name; in the petition content clearly chant the content related to the Charm you want to make.
-3. You may choose a Sequence **9-6** ability of the corresponding deity's Pathway. A Sequence **5** Charm requires you to know the corresponding Mysticism knowledge; the standard reference is Mysticism skill reaching **Scholar**.
+1. Place the Charisma (CHA) materials you prepared in advance above the altar.
+2. Based on Commonly Used Ritual Magic, choose a deity and chant Their honorific name; in the petition content clearly chant the content related to the Charisma (CHA) you want to make.
+3. You may choose a Sequence **9-6** ability of the corresponding deity's Pathway. A Sequence **5** Charisma (CHA) requires you to know the corresponding Mysticism knowledge; the standard reference is Mysticism skill reaching **Scholar**.
 4. Special (God of Knowledge and Wisdom): You may choose Sequence **9-6** abilities from all **22 Pathways**. The power granted is originally a Beyonder ability with **halved effect** (not halved for the Reader's own Pathway).
-5. Petitioning a hidden existence (i.e., not among the Seven Deities), if you are not a Blessed of that hidden existence: that hidden existence generally will not proactively respond to you. Even if your ritual is responded to, Charm-making still needs to wait **1d24 hours** to succeed (response may be whimsical). Leave the materials on the altar overnight, unless you are guaranteed to obtain a response.
-6. Shelf life and storage: the finished Charm has a shelf life of **one week**; after one week, its Spirituality dissipates. You may pray again to recharge it. If the Charm is stored for more than **4 days**, the Charm's power is **halved**.
+5. Petitioning a hidden existence (i.e., not among the Seven Deities), if you are not a Blessed of that hidden existence: that hidden existence generally will not proactively respond to you. Even if your ritual is responded to, Charisma (CHA)-making still needs to wait **1d24 hours** to succeed (response may be whimsical). Leave the materials on the altar overnight, unless you are guaranteed to obtain a response.
+6. Shelf life and storage: the finished Charisma (CHA) has a shelf life of **one week**; after one week, its Spirituality dissipates. You may pray again to recharge it. If the Charisma (CHA) is stored for more than **4 days**, the Charisma (CHA)'s power is **halved**.
 7. Demigod and higher-level Charms require a more special carrier of Beyonder power to craft (e.g., a demigod's own blood), plus the materials listed above.
-8. For specific Charm effects, see [[Expansion 2: Official Church Members]] and [[Charms]].
+8. For specific Charisma (CHA) effects, see [[Expansion 2: Official Church Members]] and [[Charms]].
 
 ---
 
@@ -236,7 +236,7 @@ After successfully performing an interruptible ritual:
 
 ## Power-Petition Ritual
 
-A **Power-Petition Ritual** is based on the Charm-making ritual, but you do not prepare materials, you do not petition to make a Charm, and you petition the corresponding deity to bestow power within the ritual's area.
+A **Power-Petition Ritual** is based on the Charisma (CHA)-making ritual, but you do not prepare materials, you do not petition to make a Charisma (CHA), and you petition the corresponding deity to bestow power within the ritual's area.
 
 **Warning:** In a Power-Petition Ritual, all Spirituality consumed by the deity is paid by you. Petitioning abilities of too high a level of Rank may drain your Spirituality dry and bring loss of control. See [[Extra: Rank Suppression]].
 
@@ -310,7 +310,7 @@ If you are not a medium, unlike seancing the dead, you can normally ask question
 
 **Manifestation:** Both parties' Spirituality communicate. Your Spirituality passes through the other party's storm of thoughts, and you see their illusory figure within the mental body.
 
-**Warning:** If you seance a living person who is already mad, you are very likely to suffer the same Sanity Loss check as the one that drove them mad, and the final madness symptoms will match theirs. See [[Sanity / Rationality Loss Rolls]]. Taking a "Tranquility Potion" can let you maintain lucidity and reason while seancing a target with madness symptoms. See [[Chapter 15: List of Special Potions, Talismans, and Beyonder Items]]. If the target's madness involves contamination from a power **1 Rank higher than you**, you may still be affected. See [[Extra: Rank Suppression]].
+**Warning:** If you seance a living person who is already mad, you are very likely to suffer the same Sanity / Rationality Loss check as the one that drove them mad, and the final madness symptoms will match theirs. See [[Sanity / Rationality Loss Rolls]]. Taking a "Tranquility Potion" can let you maintain lucidity and reason while seancing a target with madness symptoms. See [[Chapter 15: List of Special Potions, Talismans, and Beyonder Items]]. If the target's madness involves contamination from a power **1 Rank higher than you**, you may still be affected. See [[Extra: Rank Suppression]].
 
 ---
 

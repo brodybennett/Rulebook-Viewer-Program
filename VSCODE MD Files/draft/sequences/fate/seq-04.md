@@ -8,7 +8,7 @@ tags: ["pathway:fate", "sequence:4"]
 
 ## Misfortune Mage
 
-The Sequence 4 Saint of the [[Wheel of Fortune Pathway]].
+The Sequence 4 Saint of the [[Wheel of Fortune]].
 
 ## Advancement
 
@@ -21,7 +21,7 @@ The Sequence 4 Saint of the [[Wheel of Fortune Pathway]].
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Luck** +3, **Inspiration** +3; choose two different skills to increase a level.
+- **Attribute Gain:** **Luck** +3, **Intuition (INT)** +3; choose two different skills to increase a level.
 
 ### Remove Doom
 
@@ -101,4 +101,4 @@ GM decides what qualifies as a doom check.
   - This doom effect can be temporarily suppressed by [[dispelling doom]] once a day, lasting for one encounter, at a cost of 10 spirituality. This is an **alternative** to Remove Doom for that encounter (choose one).
   - If you still have not stored doom below 40 after the encounter is over, you suffer a geometric multiple of the backlash effect: the torrent of fate flows upstream against you, and you suffer three **doom level increases** immediately. The calamity effect takes effect, and a special calamity is generated immediately.
 
-> **GM Note:** The RAW states the specific ability of the doom mage is not clearly shown in *Lord of Mysteries*, and that (starting at this Sequence) some extraordinary abilities for [[Destiny Pathway]] are original supplementer creations.
+> **GM Note:** The RAW states the specific ability of the doom mage is not clearly shown in *Lord of Mysteries*, and that (starting at this Sequence) some extraordinary abilities for Wheel of Fortune pathway are original supplementer creations.

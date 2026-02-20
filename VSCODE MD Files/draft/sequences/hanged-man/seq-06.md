@@ -14,9 +14,9 @@ tags: ["pathway:hanged-man", "sequence:6"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Constitution +2, Strength +2, Agility +1, Inspiration +1.
+- **Attribute Gain:** Constitution +2, Strength +2, Agility (DEX) +1, Intuition (INT) +1.
 - **Skills:**
-  - Your Biology is included in your [[Rapid Improvement Category]] (up to [[Proficient]]).
+  - Your Biology is included in your [[Rapid Improvement Category]] (up to Proficient).
   - Occult can be promoted to [[Master]].
 
 ### Bishop Rose Traits
@@ -28,7 +28,7 @@ tags: ["pathway:hanged-man", "sequence:6"]
 
 ### Flesh Devour
 
-- **Cost:** No **Sanity** [[Sanity]].
+- **Cost:** No **Sanity / Rationality** [[Sanity / Rationality]].
 - **Use:** Varies by creature size (swift / casting / full-round; see “Devouring time by size” below).
 - **Targeting and range:** Touch; one helpless creature.
 - **Effect:**
@@ -45,12 +45,12 @@ tags: ["pathway:hanged-man", "sequence:6"]
   5. Medium and large creatures (adult lions, tigers, bears, cows): 20 Flesh Stacks; meat pigs, etc. +1d5.
   6. Large creatures (giants, large creatures, Feysacs): 20+2d4 Flesh Stacks.
   7. Very large creatures (creatures comparable in size to a ship, 4-meter or 6-meter giants, creatures that can cause ship destruction): 60+10d2 Flesh Stacks, or even more.
-  8. Extraordinary-related creatures: Directly calculate the upper limit of blood volume [[Blood Volume]], and restore their **Spirituality** up to the target’s maximum; the spiritual recovery can exceed half of the upper limit.
+  8. Extraordinary-related creatures: Directly calculate the upper limit of blood volume Blood Volume, and restore their **Spirituality** up to the target’s maximum; the spiritual recovery can exceed half of the upper limit.
   - The above random values determine individual differences.
 - **Devouring time by size:**
-  - Devouring ① requires only 1 swift action.
-  - ②–③: 1 casting action.
-  - ④–⑤: 1 full-round action.
+  - Devouring ① requires only 1 Swift Action.
+  - ②–③: 1 Casting Action.
+  - ④–⑤: 1 Full-Round Action.
   - ⑥: 2 full-round actions.
   - ⑦: At least 3 full-round actions (depending on the situation).
 - **Special (Extraordinary-related creatures):**
@@ -76,14 +76,14 @@ tags: ["pathway:hanged-man", "sequence:6"]
   - Being bulky affects your appearance, but you can compress flesh so that the benefits of bulky creatures disappear.
     - Compressing flesh increases flesh density to avoid changes in appearance.
     - Compressing flesh does not affect the attribute bonuses gained from Flesh Stack.
-  - Flesh Stack contributes to your maximum HP first, until your max HP reaches 80.
-    - Given a Flesh Stack cap of 150, on the premise of not affecting max HP, the Flesh Stack you can freely use is: `150-(80-your max HP)`.
+  - Flesh Stack contributes to your maximum Vitality first, until your max Vitality reaches 80.
+    - Given a Flesh Stack cap of 150, on the premise of not affecting max Vitality, the Flesh Stack you can freely use is: `150-(80-your max Vitality)`.
 - **Active:** You can change the appearance and form of your physical body.
   1. **Appearance adjustment:** You can change your initial charm from 1 to 6.
      - Changing 1 point takes 1 day.
      - Changing a major appearance takes 1 week.
      - Unlike [[Faceless]], this change is gradual “pinching and modeling” little by little.
-  2. **Incarnation of flesh and blood:** 1 move action.
+  2. **Incarnation of flesh and blood:** 1 Move Action.
      - Change from a human form into a wriggling pool of flesh and blood.
      - You can enter places that are usually inaccessible, or enter the body of a helpless, voluntary target.
      - While inside, it is up to you to perform flesh and blood fusion; otherwise you simply stay inside.
@@ -94,10 +94,10 @@ tags: ["pathway:hanged-man", "sequence:6"]
      - This cannot be discovered by the [[Marionette Master]], the [[Eye of the Secret]], etc.
      - This does not include beings higher than Sequence 1.
      - **Warning:** If you perform flesh and blood fusion, getting out of the body causes the death of the host; for each point above 1, you take combat damage.
-  4. **Flesh shaping:** 1 casting action.
+  4. **Flesh shaping:** 1 Casting Action.
      - Change your body into various shapes and perform corresponding functions (e.g., turn your upper body into a vortex to draw the gas in the area onto you alone; block in front of others to resist damage).
      - You can turn body parts into tools like blades; the effect corresponds to the usual version, excluding precision firearms.
-  5. **Flesh Wrap:** 1 attack/move action.
+  5. **Flesh Wrap:** 1 attack/Move Action.
      - Prerequisite: Flesh shaping.
      - Wrap objects that have not been transformed into flesh piles inside your body to store or transport them to a safe location for further processing.
      - Wrapped objects cannot be compressed; wrapping objects taller than you can leave them exposed.
@@ -116,7 +116,7 @@ tags: ["pathway:hanged-man", "sequence:6"]
 ### Flesh Cloak
 
 - **Cost:** 3 points of **Spirituality**; 20 Flesh Stacks total (max 40 per encounter).
-- **Use:** 1 swift action.
+- **Use:** 1 Swift Action.
 - **Effect:** Weave scarlet flesh and fallen blood into a strange, viscous red cloak that wraps your body and grants:
   1. Gain 5 points of external damage reduction [[External Damage Reduction]]; this can be superimposed with the reduction from Flesh Stack.
   2. The cloak can withstand a limited number of damages equal to the value of Flesh Stack consumed.
@@ -124,7 +124,7 @@ tags: ["pathway:hanged-man", "sequence:6"]
      - If it suffers from divine power [[Divine Power]], deduct 5 times each time.
      - It can be repaired by repeated casting.
   3. Making the Flesh Cloak consumes 20 Flesh Stacks; you can consume up to 40 Flesh Stacks per encounter; consuming more than 40 does not grant additional benefits.
-  4. The Flesh Stacks of the Flesh Cloak can be recovered by devouring flesh and blood, which consumes 1 full-round action.
+  4. The Flesh Stacks of the Flesh Cloak can be recovered by devouring flesh and blood, which consumes 1 Full-Round Action.
 - **Special:**
   - Damage from a target with Status/Rank higher than yours consumes 3 more resist times; holy damage [[Holy Damage]] consumes 5 more times.
   - If it is 2 characters higher than you, regardless of damage type, the cloak is annihilated after resisting 1 effect; holy causes the cloak to not even take effect.  
@@ -156,18 +156,18 @@ tags: ["pathway:hanged-man", "sequence:6"]
        - Creatures that are less than large in size are only allowed to stack 5 points of flesh.
        - The owner of the flesh bomb can detonate them at any time within a range of 100 meters.
        - Damage caused by the bomb in the body is doubled.
-     - **Detonate:** Detonating a bomb is a casting action; costs 3 points of Spirituality; per round, you can detonate at most equal to the number of Inspirations.
+     - **Detonate:** Detonating a bomb is a Casting Action; costs 3 points of Spirituality; per round, you can detonate at most equal to the number of Inspirations.
      - Ordinary people who are detonated die on the spot by default and become a blood storm.
        - The corpse causes another 1 time of damage to creatures around 5 meters away from the conventional blood bomb; it is no longer an explosion, but depends on the harmful substances of the blood storm and the human body.
    - (Generally speaking, this use can’t work on yourself, because the bomb will also hurt you, and the damage caused is not worth the loss.)
 
 ### Flesh Manipulation
 
-- **Use:** 1 swift action; once per round.
+- **Use:** 1 Swift Action; once per round.
 - **Effect:** Animate the flesh and blood of a lifeless host to perform 1 action.
   - Example: You can use your Flesh Cloak or [[Flesh Blanket]] to grapple [[Grapple]] the enemy.
     - The bonus of flesh is its Flesh Stack/2.
-    - The Flesh Stack also represents its HP.
+    - The Flesh Stack also represents its Vitality.
     - For the rest, refer to Flesh Blanket.
 - **Additional uses (each consumes a free action controlled by flesh and blood):**
   1. Precisely manipulate the shape of flesh and blood; make it melt and become fluid; draw words and portraits yourself.
@@ -185,7 +185,7 @@ tags: ["pathway:hanged-man", "sequence:6"]
 ### Flesh Healing
 
 - **Cost:** 3 points of Spirituality; up to 20 Flesh Stacks per use.
-- **Use:** 1 swift action; 1 time per round.
+- **Use:** 1 Swift Action; 1 time per round.
 - **Effect:** You use your accumulated flesh and blood to heal damage.
   - If you have lost the upper limit of your flesh and blood piles, or they are all destroyed and your body’s health is lost, the Flesh Stacks you consume can be refilled into your health—restoring health or increasing your life cap again.
 - **Special:** If you were mutilated when you cast Flesh Bomb, Flesh Healing consumes the same amount of Flesh Stack you lost when you cast Flesh Bomb to restore your body.
@@ -193,12 +193,12 @@ tags: ["pathway:hanged-man", "sequence:6"]
 ### Blanket of Flesh
 
 - **Cost:** 3 points of Spirituality; at least 10 and at most 40 Flesh Stacks.
-- **Use:** 1 swift action; once per round.
+- **Use:** 1 Swift Action; once per round.
 - **Effect:** Create a giant blanket of fur that you can manipulate with flesh to perform 1 action each round.
   1. Its actions are limited; unless you have more ideas, it can only perform grappling special actions.
   2. For every 10 Flesh Stacks consumed, the blanket can grab 1 person; consuming 40 Flesh Stacks allows it to grab 3 people at the same time.
   3. Determine its action bonus, mobility, and physical defense using its current Flesh Stack/2.
-     - Agility and dodge are half of those values (rounded down).
+     - Agility (DEX) and dodge are half of those values (rounded down).
      - Roll: rd20 + action bonus against the target’s physical defenses; on success, grapple it.
   4. Grappled people must stand together; the distance between them cannot exceed Flesh Stack/2.
   5. The blanket’s Flesh Stack value is its health value; if its health value is lower than 10, it cannot continue the grapple action.
@@ -206,10 +206,10 @@ tags: ["pathway:hanged-man", "sequence:6"]
 ### Flesh Bullet
 
 - **Cost:** 2 Flesh Stacks per bullet.
-- **Use:** 1 attack action; up to 6 consecutive shots.
+- **Use:** 1 Attack Action; up to 6 consecutive shots.
 - **Targeting and range:** One or more targets.
 - **Effect:**
   - Meat sticks protrude from your body and shoot at targets.
-  - Make an attack of Inspiration + shooting against physical defense, ignoring agility and evasion in physical defense.
+  - Make an attack of Intuition (INT) + shooting against physical defense, ignoring agility and evasion in physical defense.
   - Each meat stick deals 1d6 physical damage.
 - **Aftereffects:** Gain a -2 penalty per shot in a burst, starting with the second shot.

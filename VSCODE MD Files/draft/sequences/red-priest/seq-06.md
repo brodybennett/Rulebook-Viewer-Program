@@ -20,7 +20,7 @@ tags: ["pathway:red-priest", "sequence:6"]
 
 - **Attribute Gain:** strength +1, constitution +1, agility +1, inspiration +2.
 - detection, deception, persuasion, and speaking skills can quickly grow to a master.
-- Every time you target a target stronger than you, you will bring them significant damage through conspiracy. The loss of HP is also regarded as 1 growth.
+- Every time you target a target stronger than you, you will bring them significant damage through conspiracy. The loss of Vitality is also regarded as 1 growth.
 
 ### Insight
 
@@ -43,7 +43,7 @@ You are good at plotting conspiracies. This is in the normal category of decepti
 
 You must convey information in some way (such as letters/words) to make the other party believe your words.
 
-- **Cost:** 1 **Swift Action**, consuming 1 **Sanity Point**.
+- **Cost:** 1 **Swift Action**, consuming 1 **Sanity / Rationality Point**.
 - **Use:** Create a message by word/letter.
 - **Effect (message requirements):**
   - The information can be a lie/half-truth.

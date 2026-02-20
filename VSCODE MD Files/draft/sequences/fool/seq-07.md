@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sequence 7: Magician"
 id: "fool-seq-07"
 tags: ["pathway:fool", "sequence:7"]
@@ -8,7 +8,7 @@ tags: ["pathway:fool", "sequence:7"]
 
 ## Magician
 
-- See also: [[Pathway containing Sequence 7: Magician]]
+- See also: Pathway containing Sequence 7: Magician
 
 You possess fast casting skills: no need to chant spells, no need to infuse spiritualityâ€”just a simple action lets you cast the corresponding spell or spell-like ability, including:
 - Injury Transfer
@@ -45,8 +45,8 @@ You possess fast casting skills: no need to chant spells, no need to infuse spir
 
 ### Attribute Gain
 
-- **Inspiration** +1
-- **Dexterity** +2
+- **Intuition (INT)** +1
+- **Agility (DEX)** +2
 - Your **skillful hand** rises by 1 level.
 
 Performance improvement:
@@ -55,7 +55,7 @@ Performance improvement:
 
 ### Injury Transfer
 
-- **Use:** 1 **casting action**
+- **Use:** 1 **Casting Action**
 - **Cost:** 2 **spirit points**
 - **Targeting and range:** Choose 1 living creature whose wound your limb touched.
 - **Effect:** You transfer the wound in the vital position to less important places such as the arm, turning the fatal injury into a minor injury.
@@ -71,7 +71,7 @@ Performance improvement:
 
 ### Flame Jump
 
-- **Use:** 1 **swift action**
+- **Use:** 1 **Swift Action**
 - **Limits:** 1 time per round
 - **Cost:** 3 **spirituality points**
 - **Targeting and range:** Choose a fire or flame whose location you know, within 30 meters.
@@ -87,7 +87,7 @@ Special:
 
 ### Manipulate Flames
 
-- **Use:** 1 **spell-casting action**
+- **Use:** 1 **Casting Action**
 - **Cost:** 1 point of **spirituality**
 - **Requirements:** You must snap your fingers or simulate the sound of snapping your fingers.
 - **Targeting and range:** Choose a flame or kindling within 30 meters of a location you know (any combustibles including matches).
@@ -114,13 +114,13 @@ Special:
 
 ### Air Bomb
 
-- **Use:** 1 **casting action**
+- **Use:** 1 **Casting Action**
 - **Cost:** 1 point of **spirituality**
 - **Targeting and range:** Select 1 or more targets within the field of vision.
 - **Requirements:** Need to snap fingers or simulate the sound of snapping fingers.
-- **Check:** Inspiration + shooting against physical defense, ignoring the agility and dodge in physical defense.
+- **Check:** Intuition (INT) + shooting against physical defense, ignoring the agility and dodge in physical defense.
 - **Effect:** If the identification is successful, it causes **1d8** physical damage (comparable to a custom revolver).
-- **Limits:** You can fire 3 times in a single casting action:
+- **Limits:** You can fire 3 times in a single Casting Action:
   - From the second shot: **-2** penalty
   - From the third shot: **-4** penalty
 
@@ -146,7 +146,7 @@ Special:
 
 ### Illusion
 
-- **Use:** 1 **casting action**
+- **Use:** 1 **Casting Action**
 - **Cost:** 2 **spiritual points**
 - **Targeting and range:** Affect the environment within **8 meters** around you.
 - **Effect:** You influence your surroundings to create near-real illusions with colours, sounds, and smells; you create an illusion.
@@ -160,7 +160,7 @@ Special:
 
 ### False "breathing underwater"
 
-- **Use:** As a **casting action**
+- **Use:** As a **Casting Action**
 - **Cost:** 1 **sanity point**
 - **Effect:** You create an invisible thin tube of air that is invisible, **5 meters** long.
   - You can breathe through its mouth and exhale through its nose, ensuring "underwater breathing" in an environment with a water depth of less than **5 meters**.
@@ -170,16 +170,16 @@ Special:
 
 You soften your bones, freeing you from handcuffs, ropes, and boxes.
 
-1. **Use:** 1 **casting action**. Whenever you fall into a grapple, or get restrained by handcuffs, ropes, and other small things, you can soften your bones and break free immediately.
+1. **Use:** 1 **Casting Action**. Whenever you fall into a grapple, or get restrained by handcuffs, ropes, and other small things, you can soften your bones and break free immediately.
    - This does not include oversize bondage where the xeno demigod lets your clothing bind yourself.
-2. **Use:** 1 **casting action**. Whenever you realize that you are about to fall into a critical blow, even if you are in a state of physical restraint, you can soften your bones, barely bend your waist, and your upper body will fall backwards, avoiding this time vital blow.
+2. **Use:** 1 **Casting Action**. Whenever you realize that you are about to fall into a critical blow, even if you are in a state of physical restraint, you can soften your bones, barely bend your waist, and your upper body will fall backwards, avoiding this time vital blow.
    - Exclude the vital parts that you avoided, and perform a 1d6: 1â€“5 is other vital points; 6 means the vital points are not hit.
 
 ### Turn Paper into Soldiers
 
 You can turn paper into sharp objects, and also into sticks, bricks, and other weapons for a short time.
 
-- **Use:** 1 **casting action**
+- **Use:** 1 **Casting Action**
 - **Cost:** 1 point of **spirituality**
 - **Requirements:** As long as you prepare paper corresponding to the approximate shape, you can make it sharp immediately after â€œshakingâ€ and turn it into a weapon.
 

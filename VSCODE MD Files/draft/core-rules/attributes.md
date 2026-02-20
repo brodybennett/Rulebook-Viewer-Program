@@ -102,7 +102,7 @@ This value is also the Sanity / Rationality maximum. You cannot restore Sanity /
 - When Sanity / Rationality may be lost, roll **1d20** to oppose the Investigator's **current** Sanity / Rationality.
 - If the roll **exceeds** current Sanity / Rationality, they suffer the corresponding Sanity / Rationality damage.
 
-If the roll exceeds current Sanity / Rationality, Sanity loss equals the amount exceeded (minimum 1), unless a specific ability lists a different loss.
+If the roll exceeds current Sanity / Rationality, Sanity / Rationality loss equals the amount exceeded (minimum 1), unless a specific ability lists a different loss.
 
 **Madness thresholds (on a single loss event):**
 - Exceeds by **3** or more (including 3): may fall into **temporary madness**.
@@ -173,7 +173,7 @@ If you take damage while unconscious:
 
 Stabilizing:
 
-- You may use **one Medicine check** and **one casting action** to stabilize the injury; in that case, Constitution checks are no longer required.
+- You may use **one Medicine check** and **one Casting Action** to stabilize the injury; in that case, Constitution checks are no longer required.
 
 ## Combat and Action Statistics
 
@@ -245,7 +245,7 @@ Common Damage Dice and Vitality: These damage dice are converted based on how mu
 
 ## Carrying Items
 
-Some Beyonder Abilities depend on the number of props/items you carry (examples given: a [[Magician Pathway]]'s matches/paper figurines; a [[Mystery Pryer Pathway]]'s spellcasting materials). The number of items you carry is subject to quantity limits.
+Some Beyonder Abilities depend on the number of props/items you carry (examples given: a Magician Pathway's matches/paper figurines; a [[Hermit]]'s spellcasting materials). The number of items you carry is subject to quantity limits.
 
 ### Item Carry Slots
 
@@ -282,20 +282,20 @@ The exact pocket count of the above clothing is decided by the **Player** (it ca
 
 **Hidden Pocket:** Items in hidden pockets are not considered valid selectable targets for checks such as Sleight of Hand, etc.
 
-- However, the [[Thief Pathway]] can, by default, use excellent Investigation ability to select objects in your hidden pockets as valid selectable targets.
+- However, the Error pathway can, by default, use excellent Investigation ability to select objects in your hidden pockets as valid selectable targets.
 
 If you are unconscious and someone searches your body:
 
 - They must proactively request an Investigation check at **Difficulty Value 15** to discover hidden pockets.
-- Searching for hidden pockets is **1 full-round action**.
+- Searching for hidden pockets is **1 Full-Round Action**.
 - You do not need a check to search the hidden pockets of your own clothing.
 
 ### Backpacks That Provide Extra Item Slots
 
-- **Crossbody Bag:** +2 item slots; may choose 1 hidden pocket. Retrieving an item is **1 move action**.
-- **Backpack:** +4 item slots; may choose 2 hidden pockets. Retrieving an item is **1 full-round action**.
-- **Suitcase:** +6 item slots; may choose 3 hidden pockets. Retrieving an item is **1 full-round action**.
-- **Large Suitcase:** +8 item slots; may choose 4 hidden pockets. Retrieving an item is **1 full-round action**.
+- **Crossbody Bag:** +2 item slots; may choose 1 hidden pocket. Retrieving an item is **1 Move Action**.
+- **Backpack:** +4 item slots; may choose 2 hidden pockets. Retrieving an item is **1 Full-Round Action**.
+- **Suitcase:** +6 item slots; may choose 3 hidden pockets. Retrieving an item is **1 Full-Round Action**.
+- **Large Suitcase:** +8 item slots; may choose 4 hidden pockets. Retrieving an item is **1 Full-Round Action**.
 
 If you fight while dragging a suitcase:
 

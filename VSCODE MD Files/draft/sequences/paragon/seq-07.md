@@ -12,14 +12,14 @@ You can quickly identify magical items, intuitively grasp the abilities and prob
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +2.
+- **Attribute Gain:** Intuition (INT) +2.
 - Your Mysticism follows Sequence 9 rapid growth rules; cap at **Master**; growth count increases sequentially (2/3/4).
 
 ### Spiritual Identification
 
 You judge the type and function of a thing or item.
 
-- **Use:** As a **swift action**, choose an item you’re holding and make a **Difficulty Value (DV)** 15 Occult check.
+- **Use:** As a **Swift Action**, choose an item you’re holding and make a **Difficulty Value (Difficulty Value)** 15 Occult check.
 - **Cost:** If the target is an extraordinary item or extraordinary material, consume 2 points of **spirituality**.
 - **Effect:** On use, you can attempt one of the following identifications (as applicable):
 
@@ -47,7 +47,7 @@ You can detect whether an object within your field of vision is spiritual, or wh
   - see whether an item has spirituality, then judge whether it belongs to extraordinary items; or
   - see whether an item has defects, including whether it has a delicate and complex structure.
 - **Special:** When you witness an extraordinary material/characteristic/item, you can directly determine the **Pathway** it belongs to, provided that you already know the existence of this Pathway.
-  - Example: you can tell which material belongs to the [[Red Priest Pathway]] only after you know the Pathway of the Red Priest.
+  - Example: you can tell which material belongs to the [[Red Priest]] only after you know the Pathway of the Red Priest.
 - **Limits:** This can only give the most basic information above. To obtain detailed information, you must use **Spiritual Identification**.
   - This includes not only mechanical items, but also whether some artworks have obvious signs of forgery.
   - This explanation of the vision cannot be recorded or stolen.
@@ -56,7 +56,7 @@ You can detect whether an object within your field of vision is spiritual, or wh
 
 You improve the things you hold; this benefit comes from understanding an item through identification.
 
-- **Use:** As a **full-round action**, you improve the effect of an item (this does not include extraordinary items).
+- **Use:** As a **Full-Round Action**, you improve the effect of an item (this does not include extraordinary items).
 - **Prerequisites and constraints:**
   1. An item improved by you must first undergo **Spiritual Identification** (spiritual appraisal) by you, so that you can fully understand it.
   2. The item to be improved must have room for improvement.

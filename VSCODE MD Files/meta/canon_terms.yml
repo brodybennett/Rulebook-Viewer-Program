@@ -1,0 +1,178 @@
+version: 1
+last_updated: "2026-02-20"
+scope: "LoTM Rulebook mechanics terminology"
+policy:
+  canonical_display_attribute:
+    agility: "Agility (DEX)"
+  notes:
+    - "Treat this file as the single source of truth for mechanics-facing term names."
+    - "Lore names should still be checked against LoTM Wiki when uncertain."
+
+canonical_attributes:
+  - name: "Charisma"
+    abbreviation: "CHA"
+    aliases: ["Charm"]
+  - name: "Strength"
+    abbreviation: "STR"
+  - name: "Luck"
+    abbreviation: "LUK"
+  - name: "Agility"
+    abbreviation: "DEX"
+    display: "Agility (DEX)"
+    aliases: ["Dexterity"]
+  - name: "Constitution"
+    abbreviation: "CON"
+    aliases: ["Physique", "Health"]
+  - name: "Willpower"
+    abbreviation: "WIL"
+    aliases: ["Will"]
+  - name: "Intuition"
+    abbreviation: "INT"
+    aliases: ["Inspiration"]
+  - name: "Education"
+    abbreviation: "EDU"
+
+canonical_defenses:
+  - "Physical Defense"
+  - "Willpower Defense"
+  - "Constitution Defense"
+  - "Defense Difficulty"
+
+canonical_conditions:
+  - "Off-Balance"
+  - "Helpless"
+  - "Silenced"
+  - "Restrained"
+  - "Caught Off Guard"
+  - "Advantage"
+  - "Disadvantage"
+  - "Dazed"
+  - "Blinded"
+  - "Deafened"
+  - "Invisible"
+  - "Fear"
+  - "Rage / Taunted"
+  - "Physique Advantage / Disadvantage"
+  - "Bloodbath"
+  - "Bleeding"
+  - "Dying"
+  - "Dead"
+
+canonical_action_types:
+  - "Free Action"
+  - "Swift Action"
+  - "Attack Action"
+  - "Casting Action"
+  - "Move Action"
+  - "Full-Round Action"
+  - "Attack/Casting Action"
+  - "Attack/Casting/Move Action"
+
+canonical_resources:
+  - "Vitality"
+  - "Spirituality"
+  - "Sanity / Rationality"
+  - "Luck"
+
+lint_rules:
+  - id: "attr_dexterity"
+    description: "Normalize Dexterity to Agility (DEX)."
+    pattern: '\bDexterity\b'
+    replace: "Agility (DEX)"
+  - id: "attr_agility_display"
+    description: "Always render Agility with abbreviation."
+    pattern: '\bAgility\b(?!\s*\(DEX\))'
+    replace: "Agility (DEX)"
+  - id: "attr_inspiration"
+    description: "Normalize Inspiration to Intuition (INT)."
+    pattern: '\bInspiration\b'
+    replace: "Intuition (INT)"
+  - id: "attr_charm"
+    description: "Normalize Charm to Charisma (CHA)."
+    pattern: '\bCharm\b'
+    replace: "Charisma (CHA)"
+  - id: "attr_physique"
+    description: "Normalize Physique to Constitution (CON)."
+    pattern: '\bPhysique\b'
+    replace: "Constitution (CON)"
+  - id: "attr_health"
+    description: "Normalize Health to Vitality."
+    pattern: '\bHealth\b'
+    replace: "Vitality"
+  - id: "attr_hp"
+    description: "Normalize HP to Vitality."
+    pattern: '\bHP\b'
+    replace: "Vitality"
+  - id: "attr_will_wil"
+    description: "Normalize Will (WIL) to Willpower (WIL)."
+    pattern: '\bWill\s*\(WIL\)\b'
+    replace: "Willpower (WIL)"
+  - id: "attr_will_gain"
+    description: "Normalize Will attribute gain notation."
+    pattern: '\bWill\b(?=\s*[+\-]\d+)'
+    replace: "Willpower (WIL)"
+  - id: "def_will_defense"
+    description: "Normalize Will Defense to Willpower Defense."
+    pattern: '\bWill Defense\b'
+    replace: "Willpower Defense"
+  - id: "def_willpower_defense_case"
+    description: "Normalize Willpower defense casing."
+    pattern: '\bWillpower defense\b'
+    replace: "Willpower Defense"
+  - id: "def_constitution_defense_case"
+    description: "Normalize Constitution defense casing."
+    pattern: '\bConstitution defense\b'
+    replace: "Constitution Defense"
+  - id: "def_physical_defense_case"
+    description: "Normalize Physical defense casing."
+    pattern: '\bPhysical defense\b'
+    replace: "Physical Defense"
+  - id: "action_spell_casting"
+    description: "Normalize spell-casting action naming."
+    pattern: '\bspell[- ]casting action\b'
+    flags: "i"
+    replace: "Casting Action"
+  - id: "action_cast_action"
+    description: "Normalize Cast Action to Casting Action."
+    pattern: '\bCast Action\b'
+    replace: "Casting Action"
+  - id: "action_attack_cast"
+    description: "Normalize Attack/Cast Action naming."
+    pattern: '\bAttack/Cast Action\b'
+    replace: "Attack/Casting Action"
+  - id: "action_attack_cast_move"
+    description: "Normalize Attack/Cast/Move action naming."
+    pattern: '\bAttack/Cast/Move action\b'
+    replace: "Attack/Casting/Move Action"
+  - id: "action_full_round_case"
+    description: "Normalize Full-Round Action casing."
+    pattern: '\b[Ff]ull[- ]round action\b'
+    replace: "Full-Round Action"
+  - id: "action_move_case"
+    description: "Normalize Move Action casing."
+    pattern: '\b[Mm]ove action\b'
+    replace: "Move Action"
+  - id: "action_swift_case"
+    description: "Normalize Swift Action casing."
+    pattern: '\b[Ss]wift action\b'
+    replace: "Swift Action"
+  - id: "action_attack_case"
+    description: "Normalize Attack Action casing."
+    pattern: '\b[Aa]ttack action\b'
+    replace: "Attack Action"
+  - id: "action_casting_case"
+    description: "Normalize Casting Action casing."
+    pattern: '\b[Cc]asting action\b'
+    replace: "Casting Action"
+  - id: "resource_spiritual_points"
+    description: "Normalize Spiritual(ity) Points to Spirituality."
+    pattern: '\bSpiritual(?:ity)?\s+Points?\b'
+    replace: "Spirituality"
+  - id: "resource_sanity_short"
+    description: "Normalize Sanity shorthand to Sanity / Rationality."
+    pattern: '\bSanity\b(?!\s*/\s*Rationality)'
+    replace: "Sanity / Rationality"
+  - id: "difficulty_value_dv"
+    description: "Normalize DV shorthand to Difficulty Value."
+    pattern: '\bDV\b'
+    replace: "Difficulty Value"

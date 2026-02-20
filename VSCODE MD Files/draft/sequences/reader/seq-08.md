@@ -14,21 +14,21 @@ tags: ["pathway:reader", "sequence:8"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** [[Inspiration]] +2.
+- **Attribute Gain:** Intuition +2.
 - **Skill Increases:** [[Investigation]] +1 level; [[Psychology]] +1 level.
 - **Rapid Skill Growth:** [[Mysticism]], Investigation, and Psychology can grow rapidly. Each time you receive **2 hours** of non-repetitive, effective guidance relevant to one of these skills, choose one guided skill; it increases by **1 level** (grade).  
 
 - **Training Thresholds:** It takes **2**, **3**, and **4** trainings to become **proficient**, **advanced**, and **mastery** respectively. At most, you can quickly reach **proficiency** temporarily.  
 
 - **Deduction-Based Improvement:** Each time you fully deduce almost all of a person’s experiences **and** at least one important secret—and the experience/secret *types* are not repeated—this also counts as a skill improvement (as above).
-- **Spending Inspiration:** If you are creating a character above Sequence 9 (not just promoted), you can use **twice** the Inspiration to add growth skills.  
+- **Spending Intuition (INT):** If you are creating a character above Sequence 9 (not just promoted), you can use **twice** the Intuition (INT) to add growth skills.  
 
 ### Basic Deduction
 
 **Basic Deduction** reversely restores a person’s characteristics through details.
 
-- **Cost:** 1 [[Spellcasting Action]].
-- **Use:** Make a [[Detection Check]] and choose 1 target. If deducing from a portrait, the maximum [[Difficulty Value]] is 25.
+- **Cost:** 1 Spellcasting Action.
+- **Use:** Make a [[Detection Check]] and choose 1 target. If deducing from a portrait, the maximum Difficulty Value is 25.
 - **Effect:** You “know people by details,” gaining information based on the Difficulty Value achieved.
 - **Limits:**
   - Repeated deductions do not grant new clues until the result is the same; you only obtain new clues once circumstances/clues change enough to alter the result.
@@ -54,7 +54,7 @@ tags: ["pathway:reader", "sequence:8"]
 
 **Action Deduction** imagines a creature’s next actions.
 
-- **Cost:** 1 [[Spellcasting Action]].
+- **Cost:** 1 Spellcasting Action.
 - **Use:** Conduct a [[Psychology Appraisal]].
 - **Targeting and range:** Choose a target you have performed **Basic Deduction** on within the last **12 hours** (in your mind).
 - **Effect:** Predict what the target will do, based on the Difficulty Value achieved.
@@ -80,8 +80,8 @@ tags: ["pathway:reader", "sequence:8"]
 
 **Thinking Intuition** gives you unique revelations through spirituality.
 
-- **Trigger:** Whenever you make a **Difficulty Value 25** [[Inspiration Appraisal]], you can detect whether something you have experienced before has a sense of incongruity and whether you have missed something.
-- **Great Success / Higher Difficulty:** If the Inspiration Appraisal is a Great Success **or** the Difficulty Value exceeds **30**, you can judge the source of the incongruity, but you do not know more specific information.
+- **Trigger:** Whenever you make a **Difficulty Value 25** Intuition Appraisal, you can detect whether something you have experienced before has a sense of incongruity and whether you have missed something.
+- **Great Success / Higher Difficulty:** If the Intuition (INT) Appraisal is a Great Success **or** the Difficulty Value exceeds **30**, you can judge the source of the incongruity, but you do not know more specific information.
 
 > **Lore:** Ordinary people occasionally have a weaker version of this; it reflects the brain producing a correct result without a conscious reasoning chain. This extraordinary version still relies on valid facts.
 

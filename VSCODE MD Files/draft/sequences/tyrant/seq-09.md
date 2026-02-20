@@ -22,7 +22,7 @@ tags: ["pathway:tyrant", "sequence:9"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +1, Agility +1.
+- **Attribute Gain:** Strength +1, Constitution +1, Agility (DEX) +1.
 - **Skill Gain:** Swimming +1 level; Diving +1 level.
 
 ### Swimming and Diving Growth
@@ -32,15 +32,15 @@ tags: ["pathway:tyrant", "sequence:9"]
   - You can improve “quickly” up to **Proficiency** at most. [[Skill Levels]]
   - To reach **Proficiency/Advanced/Master**, you need **2/3/4** successful training periods respectively.
 - **Notes:**
-  - For characters not just promoted, you may use the potion’s Strength/Agility bonuses as Inspiration to add points to Swimming/Diving growth; use standard [[Inspiration]] growth rules.
+  - For characters not just promoted, you may use the potion’s Strength/Agility (DEX) bonuses as Intuition (INT) to add points to Swimming/Diving growth; use standard Intuition growth rules.
   - [[Potions]]
-  - [[Inspiration]]
+  - Intuition
 
 ### High-Rank Sensitivity
 
 - **Trigger:** When you see another creature/person who is not using **restraint**. [[Restraint]]
 - **Effect:**
-  - Make an **Inspiration Test** at **Difficulty Value 15**. [[Tests and Difficulty Value]]
+  - Make an **Intuition (INT) Test** at **Difficulty Value 15**. [[Tests and Difficulty Value]]
   - On a successful judgment, you determine whether the target’s level is higher than yours, and roughly how much higher.
   - If the target is higher by **more than 1 position**, you fall into **Fear**. [[Fear]]
 - **Fear Clarification:**
@@ -52,7 +52,7 @@ tags: ["pathway:tyrant", "sequence:9"]
 - **Effect:**
   - You gain **phantom scales** hidden under your skin; when you are injured, the scales emerge to protect you.
   - You gain **+2 Armor** and **+1 External Damage Reduction**. [[Armor and Damage Reduction]]
-  - Unless a creature belongs to Sequences such as [[Machine Pathway]] or [[Clown Pathway]] (which can accurately grasp their own strength), most creatures cannot securely grab you—hands slip as if catching a giant fish covered in slick scales. [[Grabbing and Grappling]]
+  - Unless a creature belongs to Sequences such as Paragon pathway or Fool pathway (which can accurately grasp their own strength), most creatures cannot securely grab you—hands slip as if catching a giant fish covered in slick scales. [[Grabbing and Grappling]]
   - Even without protective equipment, you can dive to **15 meters** below the water surface and move freely underwater for **10 minutes**.
 - **Sequence Upgrade:**
   - Each time you upgrade your **Sequence**:
@@ -74,7 +74,7 @@ tags: ["pathway:tyrant", "sequence:9"]
 
 ### Spirit Vision
 - **Use:** 1 **Free Action** to activate.
-- **Cost:** 1 **Spirituality Point** per round.
+- **Cost:** 1 **Spirituality** per round.
 - **Effect:** While Spirit Vision is active, you gain the following benefits:
 
 

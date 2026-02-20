@@ -12,7 +12,7 @@ Steal an opponent’s extraordinary ability for a short time and use it.
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2, **Constitution** +1, **Dexterity** +1
+- **Attribute Gain:** **Intuition (INT)** +2, **Constitution** +1, **Agility (DEX)** +1
 - Your deception, persuasion, speech skills, pleasing mysticism, and clever hands can be quickly upgraded to erudition.
 
 ### Ritual Camouflage
@@ -24,7 +24,7 @@ Steal an opponent’s extraordinary ability for a short time and use it.
 
 You put your fingers together, twist your wrist, and briefly steal someone else’s extraordinary ability for your own use.
 
-- **Use:** 1 **spell-casting action**
+- **Use:** 1 **Casting Action**
 - **Cost:** 3 **spirituality points**
 - **Targeting and range:** Choose 1 **target** within 50 meters
   - At [[Sequence 5]], stealing range increases to 100 meters.
@@ -67,7 +67,7 @@ When the Fire Thief steals an ability, the more they know the target, the easier
   Special: Unlike a recorder, a Fire Thief who successfully simulates or interprets an ability retains the knowledge, although they may no longer be eligible to cast it.
 - ⑤ Transformation ability: You can only steal one of the transformation abilities at a time. For example, you can steal the resentment, but the resentment still retains resentment scream and other abilities; demonization steals part of the demon traits (“semi-demonization”).
 - ⑥ [[Flesh Magic]] / [[Faceless Man]]: If flesh magic or transformation can produce permanent physical changes, even if the ability maintenance time disappears, the changes brought about can still be maintained; but the growth and aging of the human body will still affect follow-up.
-- ⑦ Strengthening/Buffing/Additional Effects: For example, the sacred contract of the [[Sun Path]]. This kind of strengthening, or an ability that has been used, can continue to be retained until the time when the ability takes effect is exceeded, even if the maintenance time of your stolen ability has disappeared.
+- ⑦ Strengthening/Buffing/Additional Effects: For example, the sacred contract of the [[Sun]]. This kind of strengthening, or an ability that has been used, can continue to be retained until the time when the ability takes effect is exceeded, even if the maintenance time of your stolen ability has disappeared.
 
 — Other special thefts are decided by the GM according to the above cases.
 

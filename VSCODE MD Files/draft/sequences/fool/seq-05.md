@@ -40,7 +40,7 @@ As time passes and control deepens, the **Secret Puppet Master** can completely 
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +1, **Will** +1.
+- **Attribute Gain:** **Intuition (INT)** +1, **Will** +1.
 
 ### Spiritual Thread Vision
 
@@ -62,7 +62,7 @@ You can use the **spiritual thread** that exists in creatures with spiritual bod
 
 You control the target’s body by manipulating the target’s **ethereal threads**.
 
-- **Use:** 1 casting action. Choose 1 spiritual thread of a target within 5 meters; you start turning creatures into marionettes.
+- **Use:** 1 Casting Action. Choose 1 spiritual thread of a target within 5 meters; you start turning creatures into marionettes.
 - **Check:** Use inspiration identification to fight against the target’s “inspiration + will + constitution halved (rounded up)”. Success deepens manipulation progress, representing the strength of the spirit body and part of the physical strength (the thread of manipulating the spirit body can only be controlled by the spirit body; body strength resistance).
 - **Manipulation progress (successes required per +1 manipulation level):**  
   ① Targets 2 levels higher than yours: After 6 successful identifications, the manipulation level increases by 1.  

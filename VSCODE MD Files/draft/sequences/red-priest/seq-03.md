@@ -21,26 +21,26 @@ tags: ["pathway:red-priest", "sequence:3"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Agility +2, Strength +2, Constitution +1.
+- **Attribute Gain:** Agility (DEX) +2, Strength +2, Constitution +1.
 - Choose one [[Skills]] to increase by 1 level.
 
 ### Spiritual Communication
 
 - **Cost:** 12 points of **[[Spirituality]]**.
-- **Use:** A spell-casting action.
+- **Use:** A Casting Action.
 - **Targeting and range:** Choose an army or team within line of sight, within a radius of 1 kilometer.
 - **Effect:** You can communicate silently with the chosen group and “form a whole,” gathering their strength and passing your strength to them. While you are a **[[Whole]]**, apply the following benefits:
 
 1. You can communicate with each other without any action, and when you are a whole, the skills of all members are +5.
-2. Team members who are weaker than you can use your skills and attribute points for attributes and skills, without affecting **[[HP]]** or **[[Spirituality]]** values.
-3. For every 10 people, the HP limit of all members of the team is +2 (up to 40).
+2. Team members who are weaker than you can use your skills and attribute points for attributes and skills, without affecting **[[Vitality]]** or **[[Spirituality]]** values.
+3. For every 10 people, the Vitality limit of all members of the team is +2 (up to 40).
 4. For every 10 people, the Spirituality limit of all members of the team is +2 (up to 40).
 5. When the number of troops reaches 200, the skill **[[Hunting Mark]]** is considered to be given to everyone, and any increase to **[[Maximum Success Range]]** from that skill is always active (no activation required).
 
 - **Extra (alternate use):** You can choose another way to use this skill that works on a small team or party, removing any minimum army-size requirement.
 
 1. Choose two attributes to give to all other teammates. (Teammates whose attribute is higher than this are not subject to the bonus.)
-2. The upper limit of HP of everyone in your team is increased by 15.
+2. The upper limit of Vitality of everyone in your team is increased by 15.
 3. Choose one of your “trained and above” skills to give to all teammates, and they can use those skills as normal. [[Trained Skill]]
 4. Your teammates’ Spirituality can be paid by you.
 5. You can communicate with each other without any action, and when you are a whole, the skills of all members are +2.

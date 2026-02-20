@@ -14,24 +14,24 @@ tags: ["pathway:apprentice", "sequence:9"]
 
 ### Attribute Enhancement
 
-- **Attribute Gain:** **Inspiration** +2.
+- **Attribute Gain:** **Intuition (INT)** +2.
 - **Skill Increase:** Your **Locksmith** skill increases by 1 level.
 - **Occult Training (Guidance):**
   - Each time you receive **effective**, **authentic**, and **non-repetitive** occult guidance that lasts at least **2 hours**, your **Occult** level increases by **1 level**.
   - You must gain this benefit **2 times** to reach **Proficiency**, **3 times** to reach **Advanced**, and **4 times** to reach **Mastery**.
   - **Limit:** This learning is limited to **1 time per day**.
   - **Cap:** This cannot increase the skill level beyond your tutor or book.
-- **Character Creation (Higher Sequence Start):** When directly creating a character with a higher **Sequence**, the growth-skill increase is determined by the GM (typically based on the potion's Inspiration) to make up for the gap in growth.
+- **Character Creation (Higher Sequence Start):** When directly creating a character with a higher **Sequence**, the growth-skill increase is determined by the GM (typically based on the potion's Intuition (INT)) to make up for the gap in growth.
 
 ### Open the Door
 
-- **Use:** 1 **casting action**.
+- **Use:** 1 **Casting Action**.
 - **Cost:** 2 **spirituality points**.
 - **Effect:** Choose one of the following effects:
 
 1) **Open a lock**
    - You can open any lock that does not have extraordinary power.
-   - For a lock that has extraordinary power but is not higher than your **Sequence level**, you can attempt to open it with an **Inspiration + Locksmith** test at **Difficulty Value 20**.
+   - For a lock that has extraordinary power but is not higher than your **Sequence level**, you can attempt to open it with an **Intuition (INT) + Locksmith** test at **Difficulty Value 20**.
    - In special cases, it may be against the identification of the person who locked the lock.
 
 2) **Create a passage through a barrier**

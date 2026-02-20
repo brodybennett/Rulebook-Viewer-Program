@@ -20,7 +20,7 @@ You can virtualize your body, decomposing it into strands of complicated knowled
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +2, Education +2; choose two skills to upgrade by two levels.
+- **Attribute Gain:** Intuition (INT) +2, Education +2; choose two skills to upgrade by two levels.
 
 ### Knowledge Goblin
 
@@ -34,12 +34,12 @@ While in **Informatization**:
 - You can directly informatize part of your own body so that pollution from other places besides you loses its carrier and directly evaporates/disappears, or is annihilated.
 - You can see all knowledge around you; see an opponent’s **Sequence**/**Pathway** and all weaknesses; and see the layers of information contained around you. This is treated as the default opening of the effect of [[Eye of Mystery]].
 - You can directly pass through walls and move at high speed through the torrent of information.
-- A [[Voyeur]] or a [[Reader]] who is not at the same level as you cannot see your existence.
+- A [[Voyeur]] or a [[White Tower]] who is not at the same level as you cannot see your existence.
 
 Detection/visibility notes:
-- For detection of invisible creatures by observation, refer to [[Invisibility]] in the [[Special Status]], and the advanced invisibility of [[Alien Pathway Sequence 5]].
+- For detection of invisible creatures by observation, refer to [[Invisibility]] in the [[Special Status]], and the advanced invisibility of Alien Pathway Sequence 5.
 - **Beyonders** without demigod abilities cannot detect your existence through simple observation.
-- Only **Beyonders** with the [[Mystic Path]] and [[Reader Path]] can try to detect you through detection and the rules of invisible creatures—and only if they encountered a clear threat and realized there were invisible creatures.
+- Only **Beyonders** with the Mystic Path and Reader Path can try to detect you through detection and the rules of invisible creatures—and only if they encountered a clear threat and realized there were invisible creatures.
 
 - **At Sequence 1:** You no longer have to become an information creature to use abilities that normally require Informatization (e.g., **Information Storm** and **Tampering**).
 
@@ -50,8 +50,8 @@ Complex and illusory symbols condense in your eyes one after another, pouring a 
 - **Prerequisite:** While in **Informatization** (Knowledge Goblin).
 - **Cost:** 3 spiritual points.
 - **Use:** **Free Action**; once in a round.
-- **Effect:** Make a [[Knowledge Skill]] check against the target’s [[Will Defense]]. The information content is customized.
-- **On hit:** The target suffers a [[Sanity Check]] of **1d5/1d6+1**, and for this round is treated as being in a [[Special Stunned State]]; the target can only take free actions this round.
+- **Effect:** Make a [[Knowledge Skill]] check against the target’s Willpower Defense. The information content is customized.
+- **On hit:** The target suffers a [[Sanity / Rationality Check]] of **1d5/1d6+1**, and for this round is treated as being in a [[Special Stunned State]]; the target can only take free actions this round.
 
 ### Tampering
 
@@ -59,5 +59,5 @@ You affect the dissemination of any information, directly shielding the will and
 
 - **Prerequisite:** While in **Informatization** (Knowledge Goblin).
 - **Targeting and range:** Within **Line of Sight**.
-- **Effect/Resolution:** This requires a [[Mysticism]] check against the marionette master's Will Defense (or the target's Will Defense, GM decides).
+- **Effect/Resolution:** This requires a [[Mysticism]] check against the marionette master's Willpower Defense (or the target's Willpower Defense, GM decides).
 - Also affects other secret puppet-like effects or effects of manipulating animals and dependents.

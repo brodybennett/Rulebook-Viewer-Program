@@ -23,7 +23,7 @@ Notaries specialize in **Notarization**—certifying the authenticity of [[Extra
 
 ### Attribute Gain
 
-- **Attribute Gain:** Agility +1; Inspiration +1; Constitution +2
+- **Attribute Gain:** Agility (DEX) +1; Intuition (INT) +1; Constitution +2
 - **Law:** Included in the category of [[Rapid Improvement]] up to [[Mastery]].
 
 ### Notarization
@@ -31,7 +31,7 @@ Notaries specialize in **Notarization**—certifying the authenticity of [[Extra
 “Notarize” the authenticity of [[Extraordinary Knowledge]] or the casting of an [[id:alias-extraordinary-ability|Extraordinary Ability]].
 
 - **Cost:** 4 [[Spirit Points]]
-- **Use:** 1 [[Swift Action]]. Choose **one** option below each time you use Notarization.
+- **Use:** 1 Swift Action. Choose **one** option below each time you use Notarization.
 
 #### Valid Notarization (Effectiveness)
 

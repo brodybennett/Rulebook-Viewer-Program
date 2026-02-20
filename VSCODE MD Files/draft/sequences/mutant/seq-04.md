@@ -16,7 +16,7 @@ You can manipulate inanimate objects within a certain range.
 
 ### Attribute Gain
 
-- **Attribute Gain:** Constitution +3, Will +2, Charisma +1; Occultism increases by 1 level.
+- **Attribute Gain:** Constitution +3, Willpower (WIL) +2, Charisma +1; Occultism increases by 1 level.
 
 ### The Source of the Curse
 
@@ -28,7 +28,7 @@ You can manipulate inanimate objects within a certain range.
 - **Effect:**
   - **Puppet transformation (free action):**
     - You appear as if crafted by a world-class craftsman.
-    - Charm +3 and Physique +3.
+    - Charisma (CHA) +3 and Constitution (CON) +3.
     - You are regarded as a [[fallen creature]].
     - You gain part of the abilities of [[Soul Control]] and [[Indestructible Body]] of [[Ghosts]] and [[Zombies]].
     - You additionally gain **The Source of the Curse**.
@@ -45,7 +45,7 @@ You can manipulate inanimate objects within a certain range.
   - Once the connection is established, if it is not isolated, the target is usually affected even if it flees “to the ends of the earth.”
 - **Limits:**
   - Two ways to meet the curse condition:
-    1) **Ghost possession:** If you carry out a ghost possession of the target, regardless of whether the opponent breaks free, as long as the result of possession is achieved, the curse condition can be continuously met within one [[Encounter]].
+    1) **Ghost possession:** If you carry out a ghost possession of the target, regardless of whether the opponent breaks free, as long as the result of possession is achieved, the curse condition can be continuously met within one Encounter.
     2) **Hair or flesh/blood:** You must properly preserve the hair and flesh/blood, and it must not have suffered severe natural weathering.
        - It is feasible to use a fresh blood sample collected a long time ago.
        - It is not feasible to use skin shed when it fell off, or hair that fell off a long time ago.
@@ -54,10 +54,10 @@ You can manipulate inanimate objects within a certain range.
 - **Duration:**
   - A connection (whether established by possession or by flesh/blood) can last up to **two hours**.
 - **Aftereffects / Ongoing sharing rules:**
-  - Your damaged Health and abnormal status continue to be shared with the cursed target.
+  - Your damaged Vitality and abnormal status continue to be shared with the cursed target.
     - From the moment you become a cursed puppet, all damage and status you receive from each other appear on each other (this interaction is usually ignored unless the GM rules it is relevant).
   - Because the sharing is two-way, your damage is shared with the other party, and the other party’s damage is shared with you; you can switch the damage sharing on/off at any time until the two-hour maintenance time ends (no need to get flesh or possess again).
-  - The Health loss caused by sharing is **not** considered curse damage:
+  - The Vitality loss caused by sharing is **not** considered curse damage:
     - If the puppet’s self-inflicted damage is physical damage, the shared target also receives physical damage.
     - Lightning damage shares as lightning damage; fire shares as fire; only curse damage uses curse resistance.
     - All damage only benefits from the corresponding damage reduction.
@@ -66,7 +66,7 @@ You can manipulate inanimate objects within a certain range.
   - The connection does not change either party’s resistances:
     - The target’s lightning/fire resistances do not transfer to you (and vice versa).
     - Resistances and reductions depend on each creature’s own ontology.
-  - If you harm others by self-mutilation through damage sharing, you also suffer the corresponding damage. If your remaining Health is less than the cursed person’s, it is likely that you (the caster) will die first.
+  - If you harm others by self-mutilation through damage sharing, you also suffer the corresponding damage. If your remaining Vitality is less than the cursed person’s, it is likely that you (the caster) will die first.
   - If the attack you suffer comes from voluntarily being hit, and the distance between you is close enough with no external factors, you can choose to skip identifying the attacking skill.
 - **Notes:**
   - If you voluntarily accept the attack under the above conditions, then as long as you are in a puppet state, your appearance becomes exactly the same as your cursed target, but this does not affect the essence; your extraordinary ability shows the corresponding effect.
@@ -85,13 +85,13 @@ You can manipulate inanimate objects within a certain range.
   - Countless flying objects also cause damage at the same time:
     - The damage of environmental items depends on the specific environment.
     - Reference standard: physical damage of 5d6 + Strength damage bonus.
-    - Add a number of Strength damage dice equal to your [[Inspiration]].
+    - Add a number of Strength damage dice equal to your Intuition.
     - [[Occult]] counters [[Physical Defense]].
     - If restrained, defense cannot gain bonus from agility.
 - **Targeting and range:** One or more specified inanimate objects within line of sight; affects the target those objects attack/bind.
 - **Limits / Restrictions:**
   - You can attempt similar effects on some items and can try to manipulate [[Extraordinary Items]], but the extraordinary item must be in an inactive, unowned state (not in the owner’s hand at the time, and the item itself is inactive; it can be knocked down nearby).
-  - This activation is regarded as a curse and will be nullified by the [[Darknessless Realm]] of [[Sun Path]] Sequence 4.
+  - This activation is regarded as a curse and will be nullified by the [[Darknessless Realm]] of [[Sun]] Sequence 4.
   - If you are in the state of [[Wronged Soul]], you can still use this skill at this stage; it is the upper version of your mind manipulation ability.
   - This ability can change the aiming direction of firearms and other non-Extraordinary items. If ammunition and shells are around, you can operate them to lift up and kill your target; in short, you can operate almost all non-special items.
   - Using a **free action** once per round, you can turn blood that has just left your body into an independent entity, cutting off its mystical connection with the main body so it cannot be used for divination and cursing.
@@ -104,12 +104,12 @@ You can manipulate inanimate objects within a certain range.
 
 - **Effect:** Your body heals quickly.
 - **Use / Trigger:**
-  - Once per round, it triggers automatically whenever your HP reaches 0.
+  - Once per round, it triggers automatically whenever your Vitality reaches 0.
   - **Special (Sequence 4):** You can actively trigger it as a **free action** once per round, consuming the number of passive triggers.
 - **Effect (on trigger):**
-  - Your Physique is temporarily -3.
-  - Restore HP equal to half your maximum Health (rounded up).
-  - The Physique reduction can only be paid by you (it cannot be transferred or offset by others).
+  - Your Constitution (CON) is temporarily -3.
+  - Restore Vitality equal to half your maximum Vitality (rounded up).
+  - The Constitution (CON) reduction can only be paid by you (it cannot be transferred or offset by others).
 - **Limits:**
   - If the end of your life is holy damage or lightning damage, it does not trigger Immortal Body.
   - The damage that ends your life must not put you in a dying state; it must directly end your life to be effective.

@@ -23,7 +23,7 @@ tags: ["pathway:moon", "sequence:9"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2.
+- **Attribute Gain:** **Intuition (INT)** +2.
 - You can start to learn chemistry/pharmaceutical knowledge better.
 
 ### Chemistry and Pharmacy Learning
@@ -33,7 +33,7 @@ tags: ["pathway:moon", "sequence:9"]
 3. You gain **Poison Resistance** 5, and you are more resistant to poison.
 
 - Learning can only be done once a day.
-- At character creation for higher Sequences, you can use twice the Inspiration brought by potions to improve growth skills.
+- At character creation for higher Sequences, you can use twice the Intuition (INT) brought by potions to improve growth skills.
 
 ### Pharmacy Preparation
 
@@ -56,7 +56,7 @@ tags: ["pathway:moon", "sequence:9"]
 
 ### Drinking a Potion
 
-- **Action:** Drinking a potion is a [[Move Action]], or **2** [[Swift Action]]s.
+- **Action:** Drinking a potion is a Move Action, or **2** Swift Actions.
 
 ### Pharmaceutical Agents
 
@@ -77,7 +77,7 @@ tags: ["pathway:moon", "sequence:9"]
    > **Lore:** “Healing secret medicine” is a general term. Different diseases require different medicines and materials, so it usually cannot be made in advance; the right medicine can only be prescribed immediately after confirming the cause of the lesion. The form can be quite “evil” (e.g., cockroach shells, chicken blood), and may look dark green/black or smell/taste terrible.
 2. **Healing Potion:**
    - Can be stored in advance.
-   - Restore 2d6 [[HP]].
+   - Restore 2d6 [[Vitality]].
    - Promote rapid healing of wounds.
    - Can be taken orally or sprinkled on the wound.
 3. **Analgesic essential oil:**
@@ -87,11 +87,11 @@ tags: ["pathway:moon", "sequence:9"]
    - Can also be used as a local anesthetic (applied for local anesthesia; taken internally for general anesthesia).
    - About an hour to take effect; other constitution-related will tests will usually also enjoy benefits.
    - Note: This is just analgesic; apart from allowing Extraordinary people to maintain their actions, it will not bring any positive effect on the actual damage to the body.
-   - If the wound is not healed after the time is over, it will bring tearing pain to the Extraordinary, causing 0/1 [[Sanity]] loss.
+   - If the wound is not healed after the time is over, it will bring tearing pain to the Extraordinary, causing 0/1 [[Sanity / Rationality]] loss.
    - Smelling it will not consume the potion; smearing it consumes half; taking it consumes it all.
 4. **Refreshing Medicinal Wine:**
    - Takes effect only after taking it.
-   - The Inspiration attribute will be temporarily +1; the spiritual value will not be affected.
+   - The Intuition (INT) attribute will be temporarily +1; the spiritual value will not be affected.
    - Lasts for 5 minutes; after 5 minutes, you fall into a state of fatigue.
    - Divided into alcohol and non-alcohol versions; effect is the same.
 5. **Preventive Potion:**
@@ -119,7 +119,7 @@ tags: ["pathway:moon", "sequence:9"]
    - Two anesthesia can cause the voluntary/helpless target to lose consciousness for 5 minutes.
      - The disadvantage can be changed to -4 at most.
      - It will not cause complete loss of pain sensation.
-     - Any damage (from any source) can be recovered by passing a **Difficulty Value 15** [[Will Test]] each time damage is taken.
+     - Any damage (from any source) can be recovered by passing a **Difficulty Value 15** Will Test each time damage is taken.
    - An anesthetic drug can also achieve local anesthesia, so that the will test of part of the body to replace the constitution is successful by default.
    - Adverse effects do not affect Wisdom checks or will checks made in place of constitution.
 9. **Heart-strengthening secret medicine:**
@@ -179,7 +179,7 @@ tags: ["pathway:moon", "sequence:9"]
   - If special spiritual materials are involved: even if you know the formula, you need to obtain the corresponding materials before you can configure them.
   - For every material involved in a drug that is 1 **Sequence** level higher than you, the corresponding identification difficulty is +10.
 
-### Vision (Health-Focused)
+### Vision (Vitality-Focused)
 
 - **Activation:** 1 free action; consume 1 [[Spirituality]] per round.
 - While active, your vision gains the following benefits:

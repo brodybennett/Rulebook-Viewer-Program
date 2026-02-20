@@ -41,7 +41,7 @@ At this **Sequence**, you gain or improve the following capabilities:
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +1. [[Inspiration]]
+- **Attribute Gain:** Intuition (INT) +1. Intuition
 - **Skill Increase:** Choose 1 skill to increase by 1 skill level. You must choose among: Performance, Deceit, Persuasion. [[Performance]] [[Deceit]] [[Persuasion]]
 
 ### Spirit Body Thread Control
@@ -55,10 +55,10 @@ At this **Sequence**, you gain or improve the following capabilities:
 ### Exchange Positions
 
 - **Effect:** You and a **Secret Puppet** exchange positions. [[Secret Puppet]]
-- **Cost:** 1 swift action, with the same priority as a free action. [[Swift Action]] [[Free Action]]
+- **Cost:** 1 Swift Action, with the same priority as a free action. Swift Action Free Action
 - **Effect:** Swapping places is a type of teleportation. [[Teleportation]]
 - **Targeting and range:** You exchange positions with a **Secret Puppet**, jumping like a flame, with a range of 1 km.
-- **Limits:** The flashing of the Analog Door Pathway can be used for an unlimited number of times without intervals, but the **GM** can question that you cannot do so many actions at specific times (for example, switching positions 10 million times in one round). The specific judgment can be found in “Chapter Six: Combat,” which is similar to the apprentice's free-action flash judgment. [[Analog Door Pathway]] [[Chapter Six: Combat]] [[id:alias-apprentice|Apprentice]]
+- **Limits:** The flashing of the Door pathway can be used for an unlimited number of times without intervals, but the **GM** can question that you cannot do so many actions at specific times (for example, switching positions 10 million times in one round). The specific judgment can be found in “Chapter Six: Combat,” which is similar to the apprentice's free-action flash judgment. [[Chapter Six: Combat]] [[id:alias-apprentice|Apprentice]]
 - **Scaling:** Sequence 3: Interchangeable distance up to 5 kilometers.
 
 > **Lore:** This ability allows you to keep exchanging positions with a Secret Puppet and perform “crazy flashes.”
@@ -90,13 +90,13 @@ At this **Sequence**, you gain or improve the following capabilities:
 #### Loss Effects
 
 - **Self-Connection:** **Spirit Worms** separated to marionettes are considered part of yourself. Therefore, if the **Secret Puppet** with the **Spirit Worm** suffers a loss, you will also be affected to a certain extent.
-- **Major Loss Threshold:** When more than 6 **Spirit Worms** are lost at one time, you immediately suffer one **Sanity Strike** at this level, and gain **Advantage** on your next **Sanity Check**. [[Sanity]] [[Sanity Strike]] [[Mythic Creature Form]] [[Sanity Check]]
+- **Major Loss Threshold:** When more than 6 **Spirit Worms** are lost at one time, you immediately suffer one **Sanity / Rationality Strike** at this level, and gain **Advantage** on your next **Sanity / Rationality Check**. [[Sanity / Rationality]] [[Sanity / Rationality Strike]] [[Mythic Creature Form]] [[Sanity / Rationality Check]]
 - **6 or Less:** As long as the loss of **Spirit Worms** is 6 or less, there will be no major problems: it will only give you headaches and signs of out-of-control tendencies that can be suppressed. One or two losses will not affect the latter; losses in this range can be suppressed for you, especially when your potion digestion is higher. [[Potion Digestion]] [[Out-of-Control]]
 
 #### When a Spirit Worm Is Actually Lost
 
-- **Secret Puppet Loss vs. Spirit Worm Loss:** The loss of a **Secret Puppet** does not necessarily represent the loss of a **Spirit Worm**. Generally speaking, the **Spirit Worm** will still survive after the loss of the **Secret Puppet**; its health is regarded as equal to you, but it cannot use extraordinary abilities independently. [[HP]]
-- **Instant Kill Condition:** Only when the **Secret Puppet** suffers an instant-kill blow that exceeds your base HP limit and the **Secret Puppet**'s maximum HP limit will a **Spirit Worm** be lost. [[Base HP Limit]] [[Maximum HP]]
+- **Secret Puppet Loss vs. Spirit Worm Loss:** The loss of a **Secret Puppet** does not necessarily represent the loss of a **Spirit Worm**. Generally speaking, the **Spirit Worm** will still survive after the loss of the **Secret Puppet**; its health is regarded as equal to you, but it cannot use extraordinary abilities independently. [[Vitality]]
+- **Instant Kill Condition:** Only when the **Secret Puppet** suffers an instant-kill blow that exceeds your base Vitality limit and the **Secret Puppet**'s maximum Vitality limit will a **Spirit Worm** be lost. [[Base Vitality Limit]] [[Maximum Vitality]]
 
 #### Recovering Spirit Worms
 

@@ -11,7 +11,7 @@ tags: ["pathway:moon", "sequence:7"]
 - Obtain a long life, excellent physique, excellent appearance, and master a variety of dark spells.  
   **Blood adult** means a mature bloodline stage.
 
-- See also: [[Moon Pathway]], [[Sequence 8]], [[id:alias-sequence-6|Sequence 6]]
+- See also: Moon, Sequence 8, [[id:alias-sequence-6|Sequence 6]]
 
 ## Advancement
 
@@ -26,9 +26,9 @@ tags: ["pathway:moon", "sequence:7"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +2, Constitution +2, Dexterity +2, Charm +2, Inspiration +1.
-- Your [[Mysticism]] is included in your rapid growth category, up to [[Proficiency]].
-- Skill growth of [[Sequence 9]] follows Sequence 9 rapid growth rules: cap at **Proficient**, with **2/3/4** growths to reach training/proficiency/advanced; you may begin learning toward **Erudition**.
+- **Attribute Gain:** Strength +2, Constitution +2, Agility (DEX) +2, Charisma (CHA) +2, Intuition (INT) +1.
+- Your [[Mysticism]] is included in your rapid growth category, up to Proficiency.
+- Skill growth of Sequence 9 follows Sequence 9 rapid growth rules: cap at **Proficient**, with **2/3/4** growths to reach training/proficiency/advanced; you may begin learning toward **Erudition**.
 
 ### Extraordinary Sense of Smell
 
@@ -69,31 +69,31 @@ tags: ["pathway:moon", "sequence:7"]
 - **Effect:** Your movement speed can be so fast that you can drag out afterimages.
 
   1. **Fast dodge:** You rely on speed to retain full physical defense against firearms; light/lightning bypasses this protection. You also get an extra level of dodge.
-  2. **Drag out afterimage:** 1 swift action, once per round, only when moving on land; your action drags out afterimages.
-     - The essence of the high-speed movement ability is that the Agility attribute is temporarily +1, but the high-speed movement can only temporarily take effect on one action. Every time you use this ability, choose 1 of the following purposes:
-       - +1 to a skill check involving Dexterity or a Dexterity-related skill.
-       - +1 movement for a move action.
-         - +1 to the Agility value within physical defense (physical defense is 10 + Agility + dodge + armor).
+  2. **Drag out afterimage:** 1 Swift Action, once per round, only when moving on land; your action drags out afterimages.
+     - The essence of the high-speed movement ability is that the Agility (DEX) attribute is temporarily +1, but the high-speed movement can only temporarily take effect on one action. Every time you use this ability, choose 1 of the following purposes:
+       - +1 to a skill check involving Agility (DEX) or a Agility (DEX)-related skill.
+       - +1 movement for a Move Action.
+         - +1 to the Agility (DEX) value within physical defense (physical defense is 10 + Agility (DEX) + dodge + armor).
           - This benefit allows you to avoid light/lightning by leaving the area in time.
-     - Because movement is composed of Strength + Agility, since Agility +1, movement becomes Strength + Agility +1 (i.e., movement +1).
+     - Because movement is composed of Strength + Agility (DEX), since Agility (DEX) +1, movement becomes Strength + Agility (DEX) +1 (i.e., movement +1).
 
-- **Sequence scaling:** For each promotion **Sequence**, the temporary Agility bonus increases by +1 (Sequence 6 is +2, Sequence 5 is +3, and so on).
+- **Sequence scaling:** For each promotion **Sequence**, the temporary Agility (DEX) bonus increases by +1 (Sequence 6 is +2, Sequence 5 is +3, and so on).
 
 ### Extraordinary Regeneration
 
 - **Type:** Racial advantage; cannot be recorded/stolen.
 - **Effect:**
-  1. **High-speed regeneration:** Every time you reach your turn, you recover 1d6 HP, which can recover the life loss comparable to serious injuries within 1 hour.
+  1. **High-speed regeneration:** Every time you reach your turn, you recover 1d6 Vitality, which can recover the life loss comparable to serious injuries within 1 hour.
   2. A critical blow to your heart by others gets extra damage. The critical blow to the heart is regarded as a blow to the internal organs, and at the same time, it gets the same bonus as the blow to the head.
      - In role-play, the description of the critical attack must clearly hit the heart, not just “internal organs.”
 
 - **Pierced heart effects:**
-  1. The regeneration effect is halved (rounded down), and you continue to lose 1 casting/attack/moving action, or 2 swift actions, until you recover HP equal to or exceeding the amount of HP lost in the heart attack.
-     - Example: A vital blow to the heart causes 20 damage; you must restore 20 HP to eliminate the negative effect of being pierced through the heart.
-  2. If you suffer holy damage and the accumulated holy damage exceeds 20 points, the regeneration effect is also halved. If the heart is not pierced, the action-loss effect does not apply. This continues until your restored HP equals or exceeds the accumulated holy damage you have received.
+  1. The regeneration effect is halved (rounded down), and you continue to lose 1 casting/attack/moving action, or 2 swift actions, until you recover Vitality equal to or exceeding the amount of Vitality lost in the heart attack.
+     - Example: A vital blow to the heart causes 20 damage; you must restore 20 Vitality to eliminate the negative effect of being pierced through the heart.
+  2. If you suffer holy damage and the accumulated holy damage exceeds 20 points, the regeneration effect is also halved. If the heart is not pierced, the action-loss effect does not apply. This continues until your restored Vitality equals or exceeds the accumulated holy damage you have received.
 
-- **Special:** This allows you to survive even if your head is twisted 180 degrees, as long as the head is not uprooted; you will not be considered moribund for anything other than “moribund due to lack of health state” (0 HP).
-  - Even so, you suffer 1/1d2 [[Sanity]] loss each time this forced dying effect occurs.
+- **Special:** This allows you to survive even if your head is twisted 180 degrees, as long as the head is not uprooted; you will not be considered moribund for anything other than “moribund due to lack of health state” (0 Vitality).
+  - Even so, you suffer 1/1d2 [[Sanity / Rationality]] loss each time this forced dying effect occurs.
 
 - **Sequence scaling:**
   - **Sequence 4:** Restore hit points increases to 2d6.
@@ -105,12 +105,12 @@ tags: ["pathway:moon", "sequence:7"]
 #### Golem Transformation
 
 - **Use:** You transform a creature into your [[Familia]], similar to **First Embrace**. [[First Embrace]]
-- **Action:** 1 full-round action.
+- **Action:** 1 Full-Round Action.
 - **Targeting and range:** Choose 1 willing/helpless creature.
 - **Effect:** You bite off one of its veins, transforming it into a golem.
 
 - **Becoming a blood servant** gains the following advantages/disadvantages:
-  1. Strength +1, Constitution +1, Dexterity +1; will not change appearance, but pupils become red; creature type is regarded as a dark creature; gain 5 points of poison resistance; you will rarely get sick again.
+  1. Strength +1, Constitution +1, Agility (DEX) +1; will not change appearance, but pupils become red; creature type is regarded as a dark creature; gain 5 points of poison resistance; you will rarely get sick again.
   2. If terminally ill, roll 1d2:
      - 1: Your terminal illness disappears.
      - 2: Your terminal illness is treated as a serious illness.
@@ -138,11 +138,11 @@ tags: ["pathway:moon", "sequence:7"]
 #### Wings of Darkness
 
 - **Cost:** 2 Spirit points.
-- **Use:** As a swift action, you create illusory bat wings.
+- **Use:** As a Swift Action, you create illusory bat wings.
 - **Duration:** 5 minutes.
 - **Effect:** A thick black mist spreads behind you, shaped like a bat’s wings.
 
-  1. Your Agility +2 affects physical defense and mobility; within 5 minutes, you can fly in the air at a speed equal to your mobility.
+  1. Your Agility (DEX) +2 affects physical defense and mobility; within 5 minutes, you can fly in the air at a speed equal to your mobility.
   2. After 5 minutes, you will need to cast this ability again to fly again, which means you should land first.
   3. You can start making vampire bats with the help of Darkwing.
 
@@ -151,7 +151,7 @@ tags: ["pathway:moon", "sequence:7"]
 
 ##### Make Bats (Vampire Bats)
 
-- **Action:** 1 casting action.
+- **Action:** 1 Casting Action.
 - **Cost:** Consume 3 spirituality points.
 - **Targeting and range:** Choose 1 or more targets.
 - **Check:** Mysticism against physical defense.
@@ -164,7 +164,7 @@ tags: ["pathway:moon", "sequence:7"]
 #### Shackles of the Abyss
 
 - **Effect:** Darkness or shadows condense into illusory shackles, making the shadows come alive suddenly, restricting or controlling the enemy.
-- **Action:** 1 casting action.
+- **Action:** 1 Casting Action.
 - **Cost:** Consume 3 spirituality points.
 - **Targeting and range:** Choose 1 target within line of sight.
 - **Check:** Mysticism resists physical defense; ignores armor.
@@ -177,7 +177,7 @@ tags: ["pathway:moon", "sequence:7"]
 #### Claws of Corrosion
 
 - **Effect:** You let your nails grow an extra section with mysterious symbols and patterns, sharp enough to cut through steel.
-- **Action:** 1 swift action.
+- **Action:** 1 Swift Action.
 - **Cost:** Expending 2 Spirit points.
 - **Duration:** Lasts 5 minutes.
 - **Weapon:** Treated as a weapon; melee deals 1d6 + Strength damage bonus curse damage, and gains the following effects:

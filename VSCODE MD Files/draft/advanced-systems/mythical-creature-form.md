@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Manifesting Mythical Creature Forms"
 id: "manifesting-mythical-creature-forms"
 tags: ["mythical-creature-form", "sanity", "transformation", "subsystems"]
@@ -17,13 +17,13 @@ An Extraordinary becomes a mythical creature if any of the following occurs:
 
 ## Witnessing a Mythical Creature Form
 
-Witnessing a mythical creature form requires an immediate Sanity Check (SC). [[Sanity Check]] [[Sanity]]
+Witnessing a mythical creature form requires an immediate Sanity / Rationality Check (SC). [[Sanity / Rationality Check]] [[Sanity / Rationality]]
 
 ### Witnessing Restrictions
 
 - People below the demigod level cannot spy on any mythical creature form.
 - Demigods (Sequence 4-3) cannot spy on a complete mythical creature form belonging to an angel (Sequence 2-1).
-- All such witnessing carries the corresponding Sanity Checks and risk of loss of control.
+- All such witnessing carries the corresponding Sanity / Rationality Checks and risk of loss of control.
 
 ## Example Mythical Creature Manifestations by Pathway
 
@@ -33,7 +33,7 @@ Witnessing a mythical creature form requires an immediate Sanity Check (SC). [[S
 
 You become countless embracing spirit worms with patterns that drive people crazy.
 
-**Attribute gain:** Restore HP to maximum value; constitution +10; inspiration +10.
+**Attribute gain:** Restore Vitality to maximum value; constitution +10; inspiration +10.
 
 #### Sequence 4
 
@@ -62,26 +62,26 @@ You become countless embracing spirit worms with patterns that drive people craz
 
 You become countless gates made of star worms; peering through the gates reveals the endless void.
 
-**Attribute gain:** Restore HP to maximum value; constitution +10; inspiration +10.
+**Attribute gain:** Restore Vitality to maximum value; constitution +10; inspiration +10.
 
 #### Sequence 4
 
 - **Effect:** You have opened door after door.
 - **Limits:** Once per turn.
-- **Use:** As a swift action, you can teleport a creature or spell to any location you choose if you succeed on an attack roll against the target.
+- **Use:** As a Swift Action, you can teleport a creature or spell to any location you choose if you succeed on an attack roll against the target.
 
 #### Sequence 3
 
 - **Effect:** Now, you are connected to the starry sky.
 - **Limits:** Once per turn.
-- **Use:** As a swift action, you can summon a fearsome creature.
+- **Use:** As a Swift Action, you can summon a fearsome creature.
 - **Creature stats (usually):** 40 hit points; three attacks per turn; each attack deals 3d6 damage; AC 25.
 
 #### Sequence 2
 
 - **Effect:** Planeswalker.
 - **Limits:** Once per turn.
-- **Use:** As a swift action, you can duplicate a supernatural effect your opponent uses.
+- **Use:** As a Swift Action, you can duplicate a supernatural effect your opponent uses.
 
 #### Sequence 1
 
@@ -92,7 +92,7 @@ You become countless gates made of star worms; peering through the gates reveals
 
 You become a clock made of time worms; every tick seems to make people insane.
 
-**Attribute gain:** Restore HP to maximum value; constitution +10; inspiration +10.
+**Attribute gain:** Restore Vitality to maximum value; constitution +10; inspiration +10.
 
 #### Sequence 4
 
@@ -113,7 +113,7 @@ You become a clock made of time worms; every tick seems to make people insane.
 - **Effect:** Trojan Horse.
 - **Limits:** Once per turn.
 - **Use:** As a free action, you can steal an opponent's fate.
-- **Aftereffects/Consequences:** Creatures whose destiny has been stolen will not be recognized by anyone, and it will be difficult to relate to other things. [[Fate]]
+- **Aftereffects/Consequences:** Creatures whose destiny has been stolen will not be recognized by anyone, and it will be difficult to relate to other things. [[Wheel of Fortune]]
 
 #### Sequence 1
 
@@ -158,7 +158,7 @@ Note: This list is intended to cover the 22 standard Pathways; ignore the extra 
 ### Demigod vs. Angel Forms
 
 - At the beginning of demigod (Sequence 4-3), you can show an Incomplete Mythical Creature Form.
-- Unless you have special means at the demigod stage, opening the mythical form is equivalent to a desperate fight. You immediately suffer your own Sequence-level Sanity Check (as if advancing), and you may go out of control.
+- Unless you have special means at the demigod stage, opening the mythical form is equivalent to a desperate fight. You immediately suffer your own Sequence-level Sanity / Rationality Check (as if advancing), and you may go out of control.
 - As an angel (Sequence 2-1), you can assume the Complete Mythical Creature Form, all as a free action.
 - If you are instantly killed and you die, you die without taking on the form of a mythical creature.
 
@@ -168,13 +168,13 @@ Note: This list is intended to cover the 22 standard Pathways; ignore the extra 
 - **Effect (restoration):** Your current health and spirituality are restored based on the increased upper limits.
 - **Example (from RAW):** If your life limit is 60 and you currently have 10 points, when the upper limit becomes 120, your life recovers to 70 points.
 - **Special cases (incomplete form):** In an incomplete mythical creature form, the owner can deliberately display runes with distorted and chaotic lines on the body surface.
-- **Effect (witnessing/appraisal scope):** Use the advancement Sanity-loss table at the same Sequence level, but only for witnesses who fail a Sanity check.
+- **Effect (witnessing/appraisal scope):** Use the advancement Sanity / Rationality-loss table at the same Sequence level, but only for witnesses who fail a Sanity / Rationality check.
 
-### Sanity Loss: Witnessing Forms and Advancing
+### Sanity / Rationality Loss: Witnessing Forms and Advancing
 
-Witness mythical creature forms and out-of-control forms at different Sequence levels, and Sanity loss when advancing:
+Witness mythical creature forms and out-of-control forms at different Sequence levels, and Sanity / Rationality loss when advancing:
 
-| Sequence | Sanity loss |
+| Sequence | Sanity / Rationality loss |
 |---:|:---|
 | 9 | 0/1 |
 | 8 | 0/1d3 |
@@ -187,7 +187,7 @@ Witness mythical creature forms and out-of-control forms at different Sequence l
 
 - **Limits:** Witnessing a mythic form (or a sanity attack from a runaway) can only trigger once per encounter, unless someone holds the witness's head down to keep looking at the mythic pattern.
 
-### Clones, Secret Puppets, and Sanity Checks
+### Clones, Secret Puppets, and Sanity / Rationality Checks
 
 - A sanity appraisal that is one personality different from the witnessed person can take effect on the main body even through a clone like a secret puppet; the same is true for the mythical form.
 - Even through the secret puppet, as long as the owner of the secret puppet witnesses your mythical form, they are subject to sanity appraisal.
@@ -196,20 +196,20 @@ Witness mythical creature forms and out-of-control forms at different Sequence l
 [[Secret Puppet]]
 [[Clone]]
 
-### Sanity Attack Bonus by Sequence
+### Sanity / Rationality Attack Bonus by Sequence
 
-**Sanity Attack Bonus:** When making a corresponding promotion check or a Sanity Check when facing a mythical form, the 1d20 sanity check should be increased by the following value.
+**Sanity / Rationality Attack Bonus:** When making a corresponding promotion check or a Sanity / Rationality Check when facing a mythical form, the 1d20 sanity check should be increased by the following value.
 
 - The Sequence number for the bonus is based on the person who casts the sanity attack, not the person who suffers it.
-- After adding the bonus, if the final result exceeds current Sanity, the Sanity test fails; otherwise it succeeds.
+- After adding the bonus, if the final result exceeds current Sanity / Rationality, the Sanity / Rationality test fails; otherwise it succeeds.
 
 Example (from RAW):
 
-- A promotion check has Sanity loss 1/1d6. The character rolls 1d20 against current Sanity 14.
-- If 1d20 > 14: failure; deduct 1d6 Sanity.
-- If 1d20 <= 14: success; deduct 1 Sanity.
+- A promotion check has Sanity / Rationality loss 1/1d6. The character rolls 1d20 against current Sanity / Rationality 14.
+- If 1d20 > 14: failure; deduct 1d6 Sanity / Rationality.
+- If 1d20 <= 14: success; deduct 1 Sanity / Rationality.
 - Because this is a sanity check of Sequence 6, add the corresponding bonus.
-- Final check is 1d20+6 against existing Sanity.
+- Final check is 1d20+6 against existing Sanity / Rationality.
 
 Bonuses:
 
@@ -224,24 +224,24 @@ Bonuses:
 | 3 | +9 |
 | 2 and above | +10 |
 
-(Use the above bonus on Sanity checks only when advancing to use mythic creature form.)
+(Use the above bonus on Sanity / Rationality checks only when advancing to use mythic creature form.)
 
-### Sanity Test Procedure
+### Sanity / Rationality Test Procedure
 
 - **Check/Test:** Roll 1d20 + corresponding sanity attack bonus.
-- **Effect (failure):** If the total is greater than your current Sanity, the test fails.
-- **Effect (success):** If the total is less than your current Sanity, the test succeeds.
+- **Effect (failure):** If the total is greater than your current Sanity / Rationality, the test fails.
+- **Effect (success):** If the total is less than your current Sanity / Rationality, the test succeeds.
 
-If the total equals current Sanity, treat it as a success.
+If the total equals current Sanity / Rationality, treat it as a success.
 
 Example (from RAW):
 
-- For 1d3/1d6, A has 16 Sanity. rd20 rolls 1, so A succeeds.
+- For 1d3/1d6, A has 16 Sanity / Rationality. rd20 rolls 1, so A succeeds.
 - A rolls 1d3 to determine sanity loss and deducts that value from 16.
-- If a 3 is rolled, Sanity becomes 13.
+- If a 3 is rolled, Sanity / Rationality becomes 13.
 
 - **Special cases:** There is no big success in the sanity test, only a big failure.
-- **Special cases:** A value of 20 is only considered a big failure in the sanity test; take the maximum value of the listed Sanity loss dice.
+- **Special cases:** A value of 20 is only considered a big failure in the sanity test; take the maximum value of the listed Sanity / Rationality loss dice.
 
 ### Unofficial Rule: Persona +1 While in Mythical Form
 
@@ -261,15 +261,15 @@ All mythical creature forms share the following rule:
 
 When you turn on the form of the mythical creature:
 
-- **Effect:** You may choose one of the following action types: a spellcasting or attack action, or a movement action.
+- **Effect:** You may choose one of the following action types: a spellcasting or Attack Action, or a movement action.
 - **Limits:** Before the battle of the mythical creature is over, the chosen action may be used as a free action once per round.
 - **Limits:** Actions that take many minutes to achieve can only be replaced by casting, attacking, or moving actions.
 - **Limits:** You cannot switch the chosen action during the entire battle.
 
 If you must switch:
 
-- **Cost:** Adjust your mythical form through a full-round action.
-- **During this process:** Physical defense cannot get a bonus from agility.
+- **Cost:** Adjust your mythical form through a Full-Round Action.
+- **During this process:** Physical Defense cannot get a bonus from agility.
 - **During this process:** You cannot perform any other actions, including a free action.
 - **During this process:** The process does not end until your next turn.
 
@@ -279,10 +279,10 @@ If you must switch:
 
 - **Limits:** Mythical creature form can only be used once every 24 hours.
 - **Special cases (rest reduction):** This can be reduced by about 4 hours at most depending on rest situation (the night path comes with a 4-hour reduction).
-- **Special cases (insufficient rest):** Not reaching the corresponding rest time does not prevent activation, but you must bear a 1d2/1d5 Sanity check with +5 to the Sanity Attack Bonus, which can cause you to lose control.
+- **Special cases (insufficient rest):** Not reaching the corresponding rest time does not prevent activation, but you must bear a 1d2/1d5 Sanity / Rationality check with +5 to the Sanity / Rationality Attack Bonus, which can cause you to lose control.
 - **Special cases (second activation before full recovery):** Your health and spirituality upper limits still increase as usual, but recovered health and spirituality are only half of the previous one, and you must go through the corresponding 24 hours of rest again.
 - **Limits (multiple activations):** In principle, before you get a full 24-hour rest, you can turn on mythical creature form up to three times.
-- **Limits (multiple activations):** The third time, the sanity loss is directly a sanity blow equal to your own mythical form level, and you add +5 to the Sanity test roll.
+- **Limits (multiple activations):** The third time, the sanity loss is directly a sanity blow equal to your own mythical form level, and you add +5 to the Sanity / Rationality test roll.
 - **Limits (multiple activations):** If you try a fourth activation before resting, you are almost guaranteed to lose control.
 
 ### Incomplete Mythical Creature Forms (Demigod Stage)
@@ -298,10 +298,10 @@ Examples (from RAW):
 
 > Lore: An incomplete mythological form is similar to a demihuman: some kind of half-human, half-mythical creature.
 
-### Physique and Size (Volume) Effects in Mythical Form
+### Constitution (CON) and Size (Volume) Effects in Mythical Form
 
-- **Effect:** Regardless of which mythic form you manifest (complete or incomplete), while you are in mythic form your Physique +1.
-- Humans are usually medium-sized creatures. After +1 Physique, they become large-sized creatures. Then +1 again, they become super-large-sized creatures.
+- **Effect:** Regardless of which mythic form you manifest (complete or incomplete), while you are in mythic form your Constitution (CON) +1.
+- Humans are usually medium-sized creatures. After +1 Constitution (CON), they become large-sized creatures. Then +1 again, they become super-large-sized creatures.
 - Some mythic forms list volume separately.
 
 #### Advantages and Disadvantages by Size Difference
@@ -321,10 +321,10 @@ If only one size difference:
 - **Effect:** Melee attack range is halved.
 - **Effect:** Skill identification advantage suffered is only +2.
 
-[[Physique]]
+[[Constitution (CON)]]
 [[Skill Identification]]
 
-#### Physique Classes (As Listed)
+#### Constitution (CON) Classes (As Listed)
 
 1. Microscopic organisms (such as bugs and ants).
 2. Small creatures (rats, birds, a hand); small and medium creatures (cats, dogs).
@@ -343,40 +343,40 @@ If only one size difference:
 
 ### The Fool: Worm Vortex of Spirit Worms
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; inspiration +10.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; inspiration +10.
 
 ### Bug: Mottled Clock Made of Worms of Time
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; inspiration +10.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; inspiration +10.
 
 ### Door: Overlapping Doors Made of Star Bugs
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; inspiration +10.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; inspiration +10.
 
 ### Witch: Medusa
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; charisma +10.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; charisma +10.
 - **Special cases:** In the early stage, long hair turns into thick snake-like traits.
 
 ### Red Priest: Fire Giant
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; strength +5; agility +5.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; strength +5; agility +5.
 
 ### Black Emperor: Curly Baboon (?)
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; inspiration +5; charisma +5.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; inspiration +5; charisma +5.
 
 ### Judge: Copper and White Scales Intertwined (Represents Order)
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; education +5; charisma +5.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; education +5; charisma +5.
 
 ### Tyrant: Suspected Cthulhu (Slippery Tentacle Monster)
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; strength +5; agility +5.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; strength +5; agility +5.
 
 ### The Sun: Jinwu (Divine Bird Representing the Sun)
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; inspiration +10.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; inspiration +10.
 
 **Extra (Golden Crow state):**
 
@@ -393,12 +393,12 @@ If only one size difference:
 
 ### The White Tower
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; inspiration +10; education +5.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; inspiration +10; education +5.
 - **Special cases:** Semi-mythical creature form is an imaginary bookshelf; fully mythical creature form is a tower or white tower of books.
 
 ### The Hanged Man: Eyes Behind the Curtain of Shadows
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; inspiration +10.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; inspiration +10.
 
 **Extra (shadow curtain state):**
 
@@ -408,7 +408,7 @@ If only one size difference:
 
 ### Visionary: Mind Dragon
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; inspiration +5; strength +5; charisma +5; will +5.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; inspiration +5; strength +5; charisma +5; will +5.
 
 **Extra:**
 
@@ -419,7 +419,7 @@ If only one size difference:
 
 ### Darkness: Eight-Legged Magic Wolf
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; inspiration +5; agility +5.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; inspiration +5; agility +5.
 
 **Extra:**
 
@@ -434,7 +434,7 @@ If only one size difference:
 
 ### Grim Reaper: Phoenix (Formerly) / Feathered Serpent (Now)
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; charisma +5; agility +5.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; charisma +5; agility +5.
 
 **Extra:**
 
@@ -444,7 +444,7 @@ If only one size difference:
 
 ### God of War: Giant (Suspected Cyclops)
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; strength +10; will +5.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; strength +10; will +5.
 
 **Extra:**
 
@@ -457,7 +457,7 @@ If only one size difference:
 
 ### Moon: Crimson Moon (New Moon / Half Moon / Full Moon)
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; inspiration +10.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; inspiration +10.
 - **Extra:** The process of mythical creature form is considered the state of summoning the full moon.
 - **Special:** Out-of-control vampires who believe in the primordial moon will become vampires with pus all over their bodies, or become meat mountains covered with various genitals all over their bodies, who can do nothing but reproduce.
 
@@ -468,7 +468,7 @@ If only one size difference:
 
 A mercury-colored complex symbol chain forms a huge illusory scaleless snake. Patterns and symbols form connected wheels with different logos around each wheel. Eyes are bright red and cold.
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; luck +10; inspiration +5.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; luck +10; inspiration +5.
 - **Extra:** The mercury snake can fly or levitate; movement speed is multiplied by 2.
 
 [[Wheel of Fortune]]
@@ -476,29 +476,29 @@ A mercury-colored complex symbol chain forms a huge illusory scaleless snake. Pa
 
 ### The Bound: Spooky Rag Doll Entwined with Thorns
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; inspiration +5; will +5.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; inspiration +5; will +5.
 
 ### Abyss: Customized Demon Image (Complete Body)
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; strength +5; will +5.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; strength +5; will +5.
 - **Special cases:** The mythic form is the complete body of your customized devil image, more ferocious, terrifying, grotesque, and evil than previous images.
 
 ### The Hermit: Black Group of Densely Packed Eyeballs
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; inspiration +10.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; inspiration +10.
 
 ### Mother: Druid or Giant Tree
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; inspiration +5; education +5.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; inspiration +5; education +5.
 
 ### Perfect: Colorless Light of Illusory Colors (Undetermined)
 
-- **Attribute gain:** HP and spiritual limit doubled; constitution +10; inspiration +5; education +5.
+- **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; inspiration +5; education +5.
 - **Special cases:** Labeled "Unofficial, undetermined, the appearance of the God of Steam." [[God of Steam]]
 
 ### Attribute Conversion Note
 
-All Physique and inspiration added by the above mythical creature form are changed into the corresponding life value and spiritual upper limit during the duration of the mythical creature form. This has absolutely nothing to do with whether you rest before opening the myth.
+All Constitution (CON) and inspiration added by the above mythical creature form are changed into the corresponding life value and spiritual upper limit during the duration of the mythical creature form. This has absolutely nothing to do with whether you rest before opening the myth.
 
 ### Demigod Warning
 
@@ -518,8 +518,8 @@ If you are a demigod who has not yet reached Sequence 2 (Sequence 4-3):
 - **Effect:** This lets them control mythical creature form for one minute at the demigod stage and they will not be subject to sanity appraisal. One minute is the limit.
 - Other exceptions may exist; extremely strong willpower and experience can also initially control mythical creature form.
 
-[[Audience Pathway]]
-[[Fate Pathway]]
+Visionary
+[[Wheel of Fortune]]
 [[Hypnosis]]
 [[Psychological Suggestion]]
 
@@ -538,6 +538,6 @@ Beliefs can change the mythical creature form to a certain extent.
 Repeating the trait increases trait strength; generally the semi-mythical creature form still retains some human appearance depending on the specific situation.
 
 [[Evernight Goddess]]
-[[Reader Pathway]]
-[[Spectator Pathway]]
+[[White Tower]]
+Visionary
 [[Trait]]

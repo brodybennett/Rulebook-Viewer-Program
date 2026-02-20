@@ -33,9 +33,9 @@ Crime-related skills usually include:
 
 - Power related: Climb, Swim, Intimidate, Jump
 - Educational: Demolition, Law, Archaeology, Trades, Geology, Biology, Pharmacy (poisons only), Chemistry (explosives only)
-- Agility-related: Stealth, Hands-on, Locksmithing, Tracking, Driving (including subdivisions)
-- Inspiration related: listening, investigation, mechanical maintenance, psychology, craft manufacturing
-- Charm related: disguise, deceit, fast talk, pleasing, psychological guidance (hypnosis only)
+- Agility (DEX)-related: Stealth, Hands-on, Locksmithing, Tracking, Driving (including subdivisions)
+- Intuition (INT) related: listening, investigation, mechanical maintenance, psychology, craft manufacturing
+- Charisma (CHA) related: disguise, deceit, fast talk, pleasing, psychological guidance (hypnosis only)
 
 What they have in common are the preconditions for crimes or a criminal action.
 
@@ -62,10 +62,10 @@ What they have in common are the preconditions for crimes or a criminal action.
 
 ### Sexual Behavior
 
-- **Prerequisite:** This can only be obtained by the [[heterosexual pathway]].
+- **Prerequisite:** This can only be obtained by the heterosexual pathway.
 - **Effect:**
   1. Unless there are special circumstances, your insane state defaults to violent tendencies, which is regarded as a kind of anger without effects. After falling into a state of insanity, you must use your freedom, spellcasting, and attack to deal with your enemies or vent.
-  2. Unless your remaining HP < your total HP divided by 4, or you or someone else has passed the Difficulty Value 20 psychological guidance test with 1 spellcasting, otherwise you cannot retreat, nor can you save your teammates, and you cannot show mercy.
+  2. Unless your remaining Vitality < your total Vitality divided by 4, or you or someone else has passed the Difficulty Value 20 psychological guidance test with 1 spellcasting, otherwise you cannot retreat, nor can you save your teammates, and you cannot show mercy.
 - **Special:** Once you suffer mental damage, you will fall into madness, unless the enemy is 2 ranks or 1 rank higher than you.
 - **Benefit:** No matter how much sanity you lose, you won't go into [[indeterminate madness]].
 

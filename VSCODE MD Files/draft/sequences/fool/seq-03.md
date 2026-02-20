@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sequence 3: Ancient Scholar"
 id: "fool-seq-03"
 tags: ["pathway:fool", "sequence:3"]
@@ -70,15 +70,15 @@ Additional parameters and related effects:
 
 ### Attribute Gain
 
-- **Inspiration** [[Inspiration]] +1
+- **Intuition (INT)** Intuition +1
 - **Education** [[Education]] +2
 - **History skill** [[History skill]] increased by 1 skill level
 
 ### Summon Historical Images
 
-- **Use:** Once per round; **swift action**.
+- **Use:** Once per round; **Swift Action**.
 - **Cost:** Consume 2 points of **Spirituality** [[Spirituality]].
-- **Check:** Perform a **historical appraisal** [[historical appraisal]] with **Difficulty Value** [[Difficulty Value]] 20.
+- **Check:** Perform a **historical appraisal** [[historical appraisal]] with **Difficulty Value** Difficulty Value 20.
 - **Effect (on success):** Summon up to 1 of the following from history:
   - Items you once owned, or
   - Humans you knew.
@@ -87,7 +87,7 @@ Additional usage modes and actions:
 
 - **Fog of history:** You may enter the **fog of history** [[fog of history]] that you know and hide in a historical scene you once knew. In reality, it is difficult to find your body without similar means.
 - **False existence via self-projection:** You can enter the **historical projection** [[historical projection]] of yourself that you summoned in the fog of history, make it your substitute in reality, become a â€œfalseâ€ existence, and gain your consciousness.
-- **Entering the fog of history:** **move action**.
+- **Entering the fog of history:** **Move Action**.
 - **Dismissing the historical projection:** **free action**.
 
 Costs and difficulty adjustments (as stated):
@@ -127,16 +127,16 @@ Progress notes (as written):
 
 ### Restoring Your Self
 
-- **Use:** Once per round; **swift action**.
+- **Use:** Once per round; **Swift Action**.
 - **Cost:** 15 Spirituality points.
 - **Effect:** Your health returns to maximum.
 
 ### Paper Doll Stand
 
-- **Use:** Once per round; **swift action**.
+- **Use:** Once per round; **Swift Action**.
 - **Cost:** 8 Spirituality points, and a paper figure [[paper figure]].
 - **Effect:** You can keep a physically disabled creature moving. You instantly restore a creatureâ€™s full hit points and remove any disadvantage it has from critical attacks.
-- **Limit/Truth check:** The restored hit points are false if the target becomes aware (told or realizes), or discerns the truth with a Difficulty Value 15 Inspiration check; then these restored HP disappear instantly.
+- **Limit/Truth check:** The restored hit points are false if the target becomes aware (told or realizes), or discerns the truth with a Difficulty Value 15 Intuition (INT) check; then these restored Vitality disappear instantly.
 
 ### Fog Creation
 
@@ -147,7 +147,7 @@ Progress notes (as written):
   - **Range:** Usually only 100 meters in radius.
   - It can block the vision and spiritual vision [[id:alias-spiritual-vision|spiritual vision]] of demigods [[Demigod]] and below in the area.
   - From the demigod stage, one can use spiritual vision to see through the fog.
-  - Only the spirit vision of the fate path [[fate path]] can still exert its normal effect in this fog, barely identifying the target.
+  - Only the spirit vision of the Wheel of Fortune pathway can still exert its normal effect in this fog, barely identifying the target.
   - It can reduce the surrounding temperature and extinguish flames to a certain extent.
 
 > **GM Note:** Other than the effects listed above, this is described as having no more uses and being a non-core skill.

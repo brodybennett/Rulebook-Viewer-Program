@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sequence 5: Druid"
 id: "earth-seq-05"
 tags: ["pathway:earth", "sequence:5"]
@@ -21,7 +21,7 @@ You can absorb nutrients and oxygen from the soil, and master earth-like spells.
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +2, Constitution +2, Agility +1, Inspiration +1, Biology +1 skill rank.
+- **Attribute Gain:** Strength +2, Constitution +2, Agility (DEX) +1, Intuition (INT) +1, Biology +1 skill rank.
 - Gain 10 poison resistance.
 - Biology and Botany can be quickly improved to **Mastery**.
 
@@ -31,14 +31,14 @@ You can extract nutrients and oxygen from the earth.
 
 - **Passive (no action stated):**
   - You can maintain normal breathing in the ground.
-  - Recover 1 HP every round.
+  - Recover 1 Vitality every round.
 
 - **Active:**
-  - **Use:** 1 spell-casting action.
+  - **Use:** 1 Casting Action.
   - **Cost:** 3 spirituality points. [[Spirituality]]
 - **Targeting and range:** Touch a point in the soil within 10 meters.
-  - **Effect:** Recover 1d6 HP.
-    - If the land has mature plants, recover an additional 2d6 HP (deducted from the life of the plant). [[Plant Life / Plant HP]]
+  - **Effect:** Recover 1d6 Vitality.
+    - If the land has mature plants, recover an additional 2d6 Vitality (deducted from the life of the plant). [[Plant Life / Plant Vitality]]
 
 ### **Subterranean Sneaking**
 
@@ -63,7 +63,7 @@ You create vines out of thin air, causing them to pierce the ground and attack e
 
 #### Option 1: Vine Whip
 
-- **Use:** 1 attack action.
+- **Use:** 1 Attack Action.
 - **Cost:** 3 spirituality points. [[Spirituality]]
 - **Effect:** Create a vine and treat it as a long whip.
   - **Dispelling:** 1 free action dispels it.
@@ -74,32 +74,32 @@ You create vines out of thin air, causing them to pierce the ground and attack e
 - **Damage:** 1d6 + half Strength (STR) damage bonus (round up) (physical harm).
 
 - **Special:**
-  - The vine can hit 3 times in one attack action, split into three identifications:
+  - The vine can hit 3 times in one Attack Action, split into three identifications:
     - Second hit: -4 disadvantage.
     - Third hit: -6 disadvantage.
 - If you suffer more than 10 points of fire damage, the vine is destroyed and the effect ends.
 
 #### Option 2: Ground-Piercing Vines
 
-- **Use:** 1 spell-casting action.
+- **Use:** 1 Casting Action.
 - **Cost:** 3 spirituality points. [[Spirituality]]
 - **Targeting and range:** Choose 1 target within 50 meters.
 - **Effect:** Press your hand to the ground; vines pierce up from the enemyâ€™s feet and grow wildly.
-  - **Check:** Inspiration + Biology against physical defense. [[Inspiration]] [[Biology]] [[Physical Defense]]
+  - **Check:** Intuition (INT) + Biology against physical defense. Intuition [[Biology]] [[Physical Defense]]
   - **Damage:** 5d6 physical damage.
 
 - **Special:**
-  - The vine created by the spell-casting action is regarded as a seed of the harvest ability, which can attack the enemy by itself in the next step.  
+  - The vine created by the Casting Action is regarded as a seed of the harvest ability, which can attack the enemy by itself in the next step.  
     [[Harvest Ability]]
 
 ### **Toxic Fog**
 
 You cause puffs of yellow-green poisonous gas to spread; creatures who smell it start coughing.
 
-- **Use:** 1 casting action.
+- **Use:** 1 Casting Action.
 - **Cost:** 3 spirituality points. [[Spirituality]]
 - **Targeting and range:** Affects all creatures/plants within a 50-meter cone in front of you.
-- **Check:** Inspiration + Biology against physical defense. [[Inspiration]] [[Biology]] [[Physical Defense]]
+- **Check:** Intuition (INT) + Biology against physical defense. Intuition [[Biology]] [[Physical Defense]]
 - **Damage:** 2d6 poison damage.
 - **Duration:** Fog persists in confined spaces; dissipates after 2 rounds in non-confined spaces.
 
@@ -116,46 +116,46 @@ You cause puffs of yellow-green poisonous gas to spread; creatures who smell it 
 
 You incarnate as an animal (e.g., a giant bear).
 
-- **Use:** 1 swift action.
+- **Use:** 1 Swift Action.
 - **Cost:** 3 spirituality points.  
-  [[Spirit Points vs Spirituality Points]]
+  [[Spirit Points vs Spirituality]]
 - **Duration:** 5 minutes.
 - **Effect:** Choose one of the following forms:
 
 1. **Dire Bear**
    - Life limit +10.
    - Regarded as a large-scale creature.
-   - Strength +2, Constitution +2, Agility +1.
+   - Strength +2, Constitution +2, Agility (DEX) +1.
    - Gain 3 points of hair armor.
    - Additionally suffer 1d6 fire damage when you transform (once).
 2. **Cheetah**
    - Life limit +5.
    - Regarded as a medium-to-large creature.
-   - Strength +1, Constitution +2, Agility +2.
+   - Strength +1, Constitution +2, Agility (DEX) +2.
    - Gain low-light night vision: it works in dim/low light but not in complete darkness.
 3. **Coyote**
    - Life limit +5.
-   - Strength +1, Constitution +1, Agility +1.
+   - Strength +1, Constitution +1, Agility (DEX) +1.
    - Gain Extraordinary Sense of Smell (refer to Moon Sequence 7). [[Moon Pathway: Sequence 7]]
    - Gain low-light night vision: it works in dim/low light but not in complete darkness.
 4. **Giant Eagle**
    - Life limit +5.
-   - Strength +1, Constitution +1, Agility +1.
+   - Strength +1, Constitution +1, Agility (DEX) +1.
    - Flight speed equals your Mobility.
    - Gain night vision ability.
    - Maximum spotting distance increases to 1 kilometer in clear conditions.
 5. **Cats/Dogs**
-   - Upper limit of HP -5 (the lost HP is recovered when the ability is canceled).
+   - Upper limit of Vitality -5 (the lost Vitality is recovered when the ability is canceled).
    - Regarded as a small and medium-sized creature.
-   - Strength -1, Constitution -1, Dexterity +1.
+   - Strength -1, Constitution -1, Agility (DEX) +1.
    - Cats gain night vision.
    - Dogs gain Extraordinary Sense of Smell.
    - Special breeds (GM-approved extraordinary breeds) do not reduce Strength and Constitution.
 
 #### Incarnation of Extraordinary Creatures (Partial)
 
-Because extraordinary creatures are half-mad, you can only incarnate part of their limbs; lose 1 Sanity for minor incarnations and 1d3 Sanity for major ones.  
-[[Sanity]]
+Because extraordinary creatures are half-mad, you can only incarnate part of their limbs; lose 1 Sanity / Rationality for minor incarnations and 1d3 Sanity / Rationality for major ones.  
+[[Sanity / Rationality]]
 
 1. **Murloc**
    - Your skin grows phantom scales; your appearance becomes half murloc.
@@ -168,13 +168,13 @@ Because extraordinary creatures are half-mad, you can only incarnate part of the
 - Because the extraordinary creatures studied by Druids differ during promotion, only the most common murlocs are listed as an example.
 - Druids can program 3 more extraordinary creatures by themselves (according to the promotion ceremony); each new extraordinary creature requires 1 week of research to obtain. [[Promotion Ceremony]]
 - Druids can also write ordinary, GM-approved creature templates; the data (stat block) must be written in advance.
-- The upper limit of extraordinary creatures for high-Sequence Druids (GM decides the threshold) can be changed to be equal to their Inspiration, but the ability still needs to be written in advance.
+- The upper limit of extraordinary creatures for high-Sequence Druids (GM decides the threshold) can be changed to be equal to their Intuition (INT), but the ability still needs to be written in advance.
 
 ### **Biocatalysis**
 
 You catalyze the growth of certain organisms, including growth and metabolic processes in the body.
 
-- **Use:** 1 casting action.
+- **Use:** 1 Casting Action.
 - **Cost:** 3 spirituality points. [[Spirituality]]
 - **Targeting and range:** All creatures within 50 meters (not limited to plants).
 - **Effect:** Targets gain the catalysis of growth and “rate,” speeding up function reaction rates.
@@ -183,14 +183,14 @@ The catalytic ability can achieve the following effects:
 
 1. **Catalyzed Hair**
    - The creatureâ€™s hair grows wildly and is regarded as an independent â€œplantâ€ manipulated by you.
-   - Every round, use your Inspiration + Biology to fight against the physical defenses of all affected creatures.
+   - Every round, use your Intuition (INT) + Biology to fight against the physical defenses of all affected creatures.
      - On success, they are grappled by their own hair.
      - Creatures without hair are instead affected via substitutes (e.g., nose hairs) that grow wildly.
     - Dealing 5 total damage to the **hair** (not the creature) removes the effect.
 2. **Catalyzed Injury**
    - Affects targets who:
      - have suffered poison damage but have not received medical treatment, and
-     - have HP less than half (rounded up) and have not received medical treatment.
+     - have Vitality less than half (rounded up) and have not received medical treatment.
    - You catalyze their injuries; they suffer 2d6 of the same type of damage.
 3. **Catalyzed Recovery**
    - If the target suffers external damage but still has more than half of their health, **or** the injury has received medical treatment, you catalyze recovery.
@@ -202,7 +202,7 @@ The catalytic ability can achieve the following effects:
    - You catalyze a creatureâ€™s chemical reaction rate when combined with a certain type of thing.
    - This ability is not calculated in detail; while you hold this ability, the time required for your biological experiment should be the minimum value.
     - Moon Pathway pharmaceuticals take a minimum of **3 minutes** to finish.  
-     [[Moon Pathway Pharmaceuticals]]
+     Moon Pathway Pharmaceuticals
 5. **Catalyzing Extraordinary Characteristics**
    - For creatures that are producing Extraordinary Characteristics, the time to produce Extraordinary Characteristics is halved (rounded down).  
      [[Extraordinary Characteristics]]
@@ -213,9 +213,9 @@ The catalytic ability can achieve the following effects:
     - This is invalid for non-biological or otherwise non-metabolizable substances.
 7. **Catalyzing Extraordinary Abilities**
    - Reduce the time required for a certain Extraordinary ability being cast:
-     - swift action â†’ free action
-     - casting/attack action â†’ swift action
-     - full-round action â†’ casting/attack action
+     - Swift Action â†’ free action
+     - casting/Attack Action â†’ Swift Action
+     - Full-Round Action â†’ casting/Attack Action
     - Special: When faced with manipulation by the puppet masterâ€™s spiritual body string, this can only reduce the casting time by **one step** on the action-time ladder (full-round -> casting/attack -> swift -> free).  
      [[Puppet Master Spiritual Body String]]
 8. **Catalytic Progress**

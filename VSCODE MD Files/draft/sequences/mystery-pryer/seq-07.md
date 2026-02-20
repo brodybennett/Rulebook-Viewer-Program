@@ -10,22 +10,22 @@ tags: ["pathway:myster-pryer", "sequence:7"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2.
+- **Attribute Gain:** **Intuition (INT)** +2.
 - Your occult/occult language can be quickly raised to proficiency.
 
 ### Speed Word
 
-- **Use:** Once per turn, you can use **1 casting action** as **1 free action** (non-stackable).
+- **Use:** Once per turn, you can use **1 Casting Action** as **1 free action** (non-stackable).
 - **Effect:** Your channeling is very fast.
 - **Counteracting:** The ability cast by the high-speed oracle allows you to use it to counteract the abilities of others.
-  - Example: If a storm-path water spell deals 2d10 damage, and a [[Red Priest Pathway]] fire ability deals 2d10 damage, you can reduce the damage by subtracting the Red Priest’s damage result from your damage result.
+  - Example: If a storm-path water spell deals 2d10 damage, and a [[Red Priest]] fire ability deals 2d10 damage, you can reduce the damage by subtracting the Red Priest’s damage result from your damage result.
   - This does not mean fire abilities can only be counteracted with water; you can also split them with lightning.
-- **Limits:** The high-speed divine words of the [[Mystic Pathway]] can only be used in the abilities of the Mystic Pathway itself.
+- **Limits:** The high-speed divine words of the Mystic Pathway can only be used in the abilities of the Mystic Pathway itself.
 
 ### Knowledge Enhancement
 
 - **Trigger:** When you cast a damage-type spell.
-- **Cost:** If you expend an extra casting action, you can apply **Knowledge Enhancement** to that spell.
+- **Cost:** If you expend an extra Casting Action, you can apply **Knowledge Enhancement** to that spell.
 - **Effect:** You spend more time tuning the spell with occult knowledge to increase its damage output.
 - **Limits:**
   - Generally, Knowledge Enhancement can strengthen one layer at most, and cannot be stacked infinitely.
@@ -41,13 +41,13 @@ tags: ["pathway:myster-pryer", "sequence:7"]
 You have learned to manipulate supernatural forces, and you gain the following spells.
 
 - **Fireball**
-  - **Cost:** Consumes **2 spirit points**, **1 casting action**.
+  - **Cost:** Consumes **2 spirit points**, **1 Casting Action**.
   - **Use:** Choose a target.
   - **Effect:** Unleash a ball of fire that counters the target’s [[Physical Defense]] with [[Occultism]] and deals **1d10 fire damage**.
-  - **Benefits of Knowledge Enhancement:** Spirit consumption +1; the number of fireballs changes from one to (**Inspiration/2**, rounded up); you can attack multiple targets, but each target can only be hit once.
+  - **Benefits of Knowledge Enhancement:** Spirit consumption +1; the number of fireballs changes from one to (**Intuition (INT)/2**, rounded up); you can attack multiple targets, but each target can only be hit once.
 
 - **Frost**
-  - **Cost:** Consumes **3 Spirit points**, **1 casting action**.
+  - **Cost:** Consumes **3 Spirit points**, **1 Casting Action**.
   - **Use:** Choose a target within your **field of vision**.
   - **Effect:** Cause a burst of cold air around the target, using [[Occultism]] to counter the target’s [[Physical Defense]], dealing **1d10 cold damage**. Inorganic objects will be frozen, and the physical and fire damage received is halved.
   - **Aftereffects:**

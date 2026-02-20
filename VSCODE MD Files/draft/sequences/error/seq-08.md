@@ -11,7 +11,7 @@ tags: ["pathway:error-path", "sequence:8"]
 ## Advancement
 
 - Each time you complete a **non-repetitive, challenging** swindle or deceit, choose any one skill (persuade/talk/please/deceive) that is primarily used in the swindle; that skill increases by 1 level.
-- The same as the promotion of Sequence 9. [[Sequence 9]]
+- The same as the promotion of Sequence 9. Sequence 9
   - Bullying the weak does not meet the promotion requirements.
   - The promotion range, and the level that can be promoted to, are equal to Sequence 9â€™s **Detection** at **Mastery**. [[master/detection]]
 
@@ -19,7 +19,7 @@ tags: ["pathway:error-path", "sequence:8"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Dexterity** +2, **Constitution** +1, **Inspiration** +1.
+- **Attribute Gain:** **Agility (DEX)** +2, **Constitution** +1, **Intuition (INT)** +1.
 - Your **Persuasion**, **Speech**, **Pleasing**, and **Intimidation** skills increase by 1 level.
 
 ### Charisma
@@ -33,24 +33,24 @@ tags: ["pathway:error-path", "sequence:8"]
 
 ### Extraordinary Eloquence
 
-- **Use:** 1 **Casting Action** [[Casting Action]]
+- **Use:** 1 **Casting Action** Casting Action
 - **Cost:** 2 points of **Spirituality** [[Spirituality]]
-- **Check:** Any social skill check against **Will Defense** [[Will Defense]]
+- **Check:** Any social skill check against **Willpower Defense** Willpower Defense
 - **Targeting and range:** This affects all targets who hear the words.
 - **Effect:** Choose one of the following benefits to apply:
   1. You need to state a point of view in a form that matches the characteristics of your identification skills. [[identification skills]]  
      Afterwards, the target who hears your speech will feel that your speech is very reasonable and calm down. You choose any one of the mental states of fear, anger, charm, temporary madness, etc., and immediately terminate it; this does not include shock, extraordinary madness, uncertain madness, etc.  
      [[mental states]]
-  2. You express a point of view, and the target who hears the point of view must believe it, but every time they hold a clue that is contrary to your point of view, they can use **Detection** [[Detection]] to counter your social identification results to detect the clues, and vigilant and hostile targets are immune.
+  2. You express a point of view, and the target who hears the point of view must believe it, but every time they hold a clue that is contrary to your point of view, they can use **Detection** Detection to counter your social identification results to detect the clues, and vigilant and hostile targets are immune.
 - **Special:**
   - For every 1 clue, you gain **+2** on **Scouting**. [[Scouting]]\r\n  - If the target knows very well about things related to the point of view, you must succeed on Scouting or the effect is invalid.
 
 ### Misleading Thinking
 
-- **Use:** 1 **Casting Action** [[Casting Action]]
+- **Use:** 1 **Casting Action** Casting Action
 - **Cost:** 2 points of **Spirituality** [[Spirituality]]
 - **Targeting and range:** Choose 1 target.
-- **Check:** Cheats against **Will Defense** [[Will Defense]]
+- **Check:** Cheats against **Willpower Defense** Willpower Defense
 - **Effect:**
   1. You need to express your point of view in words before using the ability, and then you equate two things with the same affix.
   2. Things that are equated with the same affixes cannot have contradictory affixes at the same time. For example, apples and pears are both fruits, so apples can be equal to pears, but water cannot be equal to fire, living things cannot be equal to dead things, nobles cannot be equal to vagrants or wanderers.
@@ -59,11 +59,11 @@ tags: ["pathway:error-path", "sequence:8"]
 
 ### Mind Disturbance
 
-- **Use:** 1 **Casting Action** [[Casting Action]]
+- **Use:** 1 **Casting Action** Casting Action
 - **Cost:** 3 points of **Spirituality** [[Spirituality]]
 - **Targeting and range:** Choose 1 target.
 - **Effect:** You create 1 hallucination.
-  1. You create an illusion with fully customized content. Only when the other party recognizes that it may be an illusion can they use **Detection**/**Inspiration** against **Deception** [[Deception]] to detect that the illusion is false. Therefore, this only works once per target per day.
+  1. You create an illusion with fully customized content. Only when the other party recognizes that it may be an illusion can they use **Detection**/**Intuition (INT)** against **Deception** [[Deception]] to detect that the illusion is false. Therefore, this only works once per target per day.
   2. Unlike the magician's hallucination, the magician's hallucination will make all the existences within 10 meters see the false image, but the trickster's mind disturbance does not have this range limit. In contrast, the trickster's hallucination can only make one person see.
      [[magicianâ€™s hallucination]]
 - **Special:** By default, only the chosen target perceives this hallucination. If the illusion directly implicates others (GM call), they may contest false perception once alerted.

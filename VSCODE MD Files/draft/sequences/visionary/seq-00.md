@@ -20,7 +20,7 @@ tags: ["pathway:visionary", "sequence:0"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +3; Charisma +2; Strength +1; Constitution +1; Agility +1.
+- **Attribute Gain:** Intuition (INT) +3; Charisma +2; Strength +1; Constitution +1; Agility (DEX) +1.
 - **Skill Increase:** [[Writing]] increases by 1 level.
 
 ### Divine Gaze

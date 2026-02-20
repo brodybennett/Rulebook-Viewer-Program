@@ -20,7 +20,7 @@ tags: ["pathway:mutant", "sequence:2"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Constitution +2, Agility +1, Strength +2, Inspiration +1, and your Occultism goes up by one level.
+- **Attribute Gain:** Constitution +2, Agility (DEX) +1, Strength +2, Intuition (INT) +1, and your Occultism goes up by one level.
 
 ### Reverse Inhalation of Spirit Bodies
 
@@ -30,7 +30,7 @@ tags: ["pathway:mutant", "sequence:2"]
 ### Ancient Evil
 
 - **Effect:** You can’t die completely by preparing ahead of time.
-- **Use:** As a full-round action, you enter the Spirit World in the state of a wronged soul and set an early anchor point in the Spirit World in advance.
+- **Use:** As a Full-Round Action, you enter the Spirit World in the state of a wronged soul and set an early anchor point in the Spirit World in advance.
 - **Limits:**
   - You can have only one anchor point (upper limit 1).
   - When you die, you can abandon your physical body and be reincarnated in the Spirit World as a spirit creature.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Weapon Examples"
 id: "weapon-examples"
 tags: ["core", "chapter-6"]

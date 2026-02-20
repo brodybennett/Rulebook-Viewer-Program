@@ -14,7 +14,7 @@ Mechanical experts were called “craftsmen” in ancient times, also known as �
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +2. [[Inspiration]]
+- **Attribute Gain:** Intuition (INT) +2. Intuition
 - Craft manufacturing, engineering, and mechanical maintenance skills can be quickly upgraded to erudition. [[Erudition]]
 
 ### Wondercrafting
@@ -31,7 +31,7 @@ You create ingenious mechanical wonders with a wealth of real-world knowledge.
 
 1. **Steam Trolley**
    - **Cost:** 1 Steam Material.
-   - **Use:** 1 [[Casting Action]] to activate.
+   - **Use:** 1 Casting Action to activate.
    - **Effect:** You can order it to explore an area; the car has 10 points of movement. [[Movement Points]]
    - **Limits:** Its behavior in this process is uncontrollable, and it cannot be fed back to you on the screen; if it is destroyed, you still receive partial information (general layout/last known position) but no details.
    - The shape can be customized, and it is driven by steam.
@@ -45,7 +45,7 @@ You create ingenious mechanical wonders with a wealth of real-world knowledge.
 
 3. **Spring Fist**
    - **Cost:** 1 Steam Material.
-   - **Use:** 1 [[Attack Action]].
+   - **Use:** 1 Attack Action.
    - **Targeting and range:** The spring fist can attack creatures within 5 meters of you as the center.
    - **Effect:** Creatures facing the spring fist for the first time suffer the [[Flat-Footed]] effect.
    - **Damage:** Fixed 3d6 physical damage; automatically snaps back after striking.
@@ -61,20 +61,20 @@ You create ingenious mechanical wonders with a wealth of real-world knowledge.
 5. **Metal Exoskeleton**
    - **Cost:** 2 Steam Materials.
    - **Effect:** The exoskeleton can be hidden in the wearer’s clothes.
-   - **While wearing:** The wearer’s Strength and [[Agility]] are temporarily +1.
+   - **While wearing:** The wearer’s Strength and Agility (DEX) are temporarily +1.
    - **Limits:** A metal exoskeleton can only be used for a target of similar size; otherwise it needs to be customized.
 
 6. **Hidden Hidden Blade**
    - **Cost:** 1 Steam Material.
    - **Form:** A bracelet; shape can be customized.
-   - **Use:** 1 [[Swift Action]] to cause the Hidden Blade to pop out; it has the same effect as a [[Small Knife]].
-   - **Special:** If you eject the Hidden Blade while making physical contact with an opponent, the Hidden Blade alone deals 1d4 damage as a swift action.
+   - **Use:** 1 Swift Action to cause the Hidden Blade to pop out; it has the same effect as a [[Small Knife]].
+   - **Special:** If you eject the Hidden Blade while making physical contact with an opponent, the Hidden Blade alone deals 1d4 damage as a Swift Action.
 
 7. **Steam Semi-Automatic Machine Gun**
    - **Cost:** 2 parts of Steam Material.
    - **Damage:** Each bullet has 1d6 damage.
    - **Requirement:** This requires a special “[[Fire (Machine Gun)]]” skill roll.
-   - **Use:** 1 attack action; the machine gun can fire up to 6 rounds in a row, but the chain has a full 30 rounds.
+   - **Use:** 1 Attack Action; the machine gun can fire up to 6 rounds in a row, but the chain has a full 30 rounds.
    - **Targeting:** When using a semi-automatic machine gun, use 1 [[Shot (Machine Gun)]] to identify at most three targets standing together at the same time; no matter how many bullets are fired in a row, only 1 identification is required.
    - **Damage split:** You can split the damage by yourself and choose how many bullets hit different targets.
    - **Improvement limits:** The improvement of the machine gun can only increase the final damage; it cannot increase the damage by 1d6 for each bullet, and the consumption of 6 bullets remains the same. **Optional upgrade:** increase the burst to 7 bullets; if so, it consumes 7 bullets.
@@ -90,9 +90,9 @@ You create ingenious mechanical wonders with a wealth of real-world knowledge.
 
 9. **Jetpack**
    - **Cost:** 2 Steam Materials.
-   - **Use:** 1 casting action to activate.
+   - **Use:** 1 Casting Action to activate.
    - **Effect:** The jetpack will take you up 10 meters, or fly a short distance in a certain direction.
-   - **Limits:** The jetpack can only support you to fly for 1 [[Movement Action]] , and the [[Movement Force]] +5 when flying.
+   - **Limits:** The jetpack can only support you to fly for 1 Movement Action , and the [[Movement Force]] +5 when flying.
    - **Recharge:** After the flight action is over, the jetpack needs to be recharged for 1 round.
    - **Safety:** You don’t have to worry about falling down because there is no energy; the jetpack will retain the steam to take you down slowly after your flight.
    - The appearance can be customized.
@@ -178,11 +178,11 @@ On the basis of the above, replace the Extraordinary Characteristics used for ma
 
 - The main ingredients of a potion come from Extraordinary creatures, and Extraordinary creatures are actually Extraordinary people who have eaten Extraordinary Characteristics, the only difference between humans and animals.
 - Which Sequence level a main material corresponds to represents which Sequence level ability it possesses.
-  - Example: if you directly use a [[Red Priest Pathway]] Sequence 5 main material to make Extraordinary Items, you can get the extraordinary ability of Red Priest 5; but unlike Extraordinary Characteristics, items made from the main material usually do not contain lower-Sequence abilities.
+  - Example: if you directly use a [[Red Priest]] Sequence 5 main material to make Extraordinary Items, you can get the extraordinary ability of Red Priest 5; but unlike Extraordinary Characteristics, items made from the main material usually do not contain lower-Sequence abilities.
   - (In the same example: although this main material represents Red Priest 5, it does not contain the ability of Sequence 9–6.)
 - **Judgment rule:** A main material can be directly regarded as an Extraordinary Characteristic that does not contain lower-Sequence abilities, so as to directly apply the production process of Extraordinary Characteristic Items; its benefits are naturally only regarded as having only one characteristic, initially only **1 individual ability**.
 - **Special:** The main material of some Sequence levels may not be one, but two.
-  - Example: the main material of Sequence 4 of the [[Artificer Pathway]] has both the main eye of the trick monster and the real soul body of the predator of the spiritual world.
+  - Example: the main material of Sequence 4 of the Paragon pathway has both the main eye of the trick monster and the real soul body of the predator of the spiritual world.
   - These two main materials each have half the ability of the crafty mage (e.g., one can jump with flames but the other can’t; the other can transform into a marionette and exchange positions with marionettes, while the one with flame jumps can’t do it).
   - If only half of the main materials are used, the produced items will naturally be incapacitated, or the effect will be halved.
 

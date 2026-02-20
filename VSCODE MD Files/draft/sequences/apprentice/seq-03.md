@@ -41,7 +41,7 @@ tags: ["pathway:apprentice", "sequence:3"]
 - **Use:** This is actively triggered and cannot be passively sensed.
 - **Limits:** You can only sense the change at the moment when the symbol appears or the symbol is destroyed: you notice that someone has drawn the corresponding symbol, or the corresponding symbol disappears—nothing else.
 - **Limits:** If you put the symbol in a territory that is not under your control, it may cause detection of you by an equal or higher level without concealment.
-- **Effect:** As long as the symbol exists in a certain location, the location of the symbol is considered to be a coordinate in the [[spirit world]] or [[astral world]]. You can sense the specific location and travel long distances to get there as a **casting action**.
+- **Effect:** As long as the symbol exists in a certain location, the location of the symbol is considered to be a coordinate in the [[spirit world]] or [[astral world]]. You can sense the specific location and travel long distances to get there as a **Casting Action**.
 - **Limits:** The initial isolation of the spirit world may lead to the invalidation of this symbol. But because the spirit world cannot be completely isolated, its vague connection with you still exists.
 
 ### Fly

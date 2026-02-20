@@ -19,7 +19,7 @@ tags: ["pathway:black-emperor", "sequence:8"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +2; Constitution +1; Agility +1; Will +2
+- **Attribute Gain:** Strength +2; Constitution +1; Agility (DEX) +1; Willpower (WIL) +2
 - **Skill Gain:** Fighting +1 level; Climbing +1 level; Survival +1 level
 
 ### Skill Growth Through Violence
@@ -44,7 +44,7 @@ tags: ["pathway:black-emperor", "sequence:8"]
 - For Barbarians, power is also a kind of rule—another rule besides law.
 
 1. Gain a beneficial +2 to Strength-related skills and [[Attribute Identification]]; Fighting damage increases by +1d6. This is described as being enough to blow the wall out of “spider web” traces with one punch and make the building tremble. [[Spider Web]]
-2. Gain [[id:alias-fast-dodge|Fast Dodge]]; against firearms, retain full Physical Defense; light and lightning are unaffected; and gain +1 **Dodge** level. [[Dodge]] [[Firearms]]
+2. Gain [[id:alias-fast-dodge|Fast Dodge]]; against firearms, retain full Physical Defense; light and lightning are unaffected; and gain +1 **Dodge** level. Dodge [[Firearms]]
 3. Whenever you look for water, food, or other survival resources in a primitive or social environment, gain a beneficial +2 to [[Survival Identification]].
 
 > **GM Note:** “Survival resources” must be direct materials (excluding written materials) and may include various animals and creatures. The definition is broad: you may search for a species (including humans) and identify whether food is edible.
@@ -54,11 +54,11 @@ tags: ["pathway:black-emperor", "sequence:8"]
 ### Mental Resistance
 
 - You have fairly high resistance to mental influences.
-- Whenever your **Sanity** is deducted [[Sanity]]:
-  - Reduce the deducted Sanity value by 1 (treat it as “-1”).
+- Whenever your **Sanity / Rationality** is deducted [[Sanity / Rationality]]:
+  - Reduce the deducted Sanity / Rationality value by 1 (treat it as “-1”).
   - The deduction cannot be reduced below 0.
-- Example: If you suffer a Sanity loss of **1/1d3**, you lose 1 Sanity on a successful [[Sanity Loss Test]] and 1d3 Sanity on a failure. With this ability:
-  - On a success: 1 − 1 = 0 (no Sanity loss).
-  - On a failure: 1d3 − 1 Sanity.
+- Example: If you suffer a Sanity / Rationality loss of **1/1d3**, you lose 1 Sanity / Rationality on a successful [[Sanity / Rationality Loss Test]] and 1d3 Sanity / Rationality on a failure. With this ability:
+  - On a success: 1 − 1 = 0 (no Sanity / Rationality loss).
+  - On a failure: 1d3 − 1 Sanity / Rationality.
 
-> **GM Note:** This effect is brought by the potion and cannot be stolen or recorded. See [[Madness and Loss of Control]] for details on Sanity loss.
+> **GM Note:** This effect is brought by the potion and cannot be stolen or recorded. See [[Madness and Loss of Control]] for details on Sanity / Rationality loss.

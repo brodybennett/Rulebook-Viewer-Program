@@ -8,7 +8,7 @@ tags: ["pathway:death", "sequence:9"]
 
 ## Corpse Collector
 
-- See also: [[Death Pathway]]
+- See also: Death
 
 > **Lore:** It was called the "Phoenix" approach in ancient times. The mythical creature form was originally a phoenix, but now it is a feathered snake, corresponding to the Tarot card "Reaper". A unique bird-shaped ornament made of gold.
 
@@ -31,7 +31,7 @@ tags: ["pathway:death", "sequence:9"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +1, Agility +1, Inspiration +1
+- **Attribute Gain:** Strength +1, Constitution +1, Agility (DEX) +1, Intuition (INT) +1
 - You are trained in a new skill: **Knowledge of the Dead**.
 
 ### Corpse-Like Traits
@@ -98,7 +98,7 @@ To learn more detailed information, you must spend at least **2 hours** to condu
   - A type of corpse or undead creature can only be upgraded once.
   - From training to proficiency, to advanced, to mastery, you need to learn **2, 3, 4** times.
 - For the time being, it can only be upgraded to mastery.
-- When creating a character who has not just been promoted, growth skills gain **2x Inspiration** points from the potion.
+- When creating a character who has not just been promoted, growth skills gain **2x Intuition (INT)** points from the potion.
 
 #### Using Knowledge of the Dead Against Undead Creatures
 

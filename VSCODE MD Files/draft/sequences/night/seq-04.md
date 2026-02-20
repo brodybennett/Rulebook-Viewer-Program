@@ -23,13 +23,13 @@ tags: ["pathway:night", "sequence:4"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +1, Constitution +1, Strength +1, Agility +1.
+- **Attribute Gain:** Intuition (INT) +1, Constitution +1, Strength +1, Agility (DEX) +1.
 - Choose two skills to increase by 1 level.
 
 ### Grasp of Doom
 
 - **Cost:** 5 [[Spirituality]].
-- **Use:** 1 [[Casting Action]]; curse one creature.
+- **Use:** 1 Casting Action; curse one creature.
 - **Effect:** Each time the cursed creature makes a [[Skill Check]], it must also make an additional **Lucky Check** with **Difficulty Value** 15. On a failure, the triggering skill check drops by 1 **Success Level**.
 
 - **Sequence Scaling:**

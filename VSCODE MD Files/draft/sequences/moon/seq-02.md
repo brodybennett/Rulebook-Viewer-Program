@@ -10,7 +10,7 @@ tags: ["pathway:moon", "sequence:2"]
 
 > **Lore:** You master the “power of creation,” making the life around you feel the joy of growth and the arrival of new life.
 
-- See also: [[Blood Duke Pathway]]
+- See also: Blood Duke Pathway
 
 ## Advancement
 
@@ -24,14 +24,14 @@ tags: ["pathway:moon", "sequence:2"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2; your **Pharmacy**, **Chemistry**, and **Biology** skills increase by one level each.
+- **Attribute Gain:** **Intuition (INT)** +2; your **Pharmacy**, **Chemistry**, and **Biology** skills increase by one level each.
 
 ### Creation Authority
 
 Creation of all things; creation of life; fundamentally possesses the power of incarnation and “creation.”
 
 - **Cost:** 3 points of **Spirituality**
-- **Use:** **Casting action**
+- **Use:** **Casting Action**
 - **Effect:** On the basis of having seen or understood creatures, you can improve, create, or even create a unique species out of thin air.
 - **Limits:** Requires a successful corresponding **Science test**.
 
@@ -40,18 +40,18 @@ Creation of all things; creation of life; fundamentally possesses the power of i
 You can speed up the metabolism and recovery speed of creatures, and give all living beings the extraordinary resilience of blood races.
 
 - **Cost:** 15 **Spirituality** points
-- **Use:** Single **Casting action**
+- **Use:** Single **Casting Action**
 - **Effect:** Bring anyone who is not completely dead back to life, allowing their damaged body and even their soul to instantly restore and grow life.
 - **Limits:** Limited to two uses per encounter.
 - **Aftereffects / Additional Effects:**
   - Removes any presence of curses, toxins, and diseases.
-  - Insanity is terminated immediately, and all **Sanity** points lost due to insanity are restored.
+  - Insanity is terminated immediately, and all **Sanity / Rationality** points lost due to insanity are restored.
   - Cannot reverse loss of control; for loss of control and extraordinary creatures, this only allows them to continue to have part reason.
 
 ### Additional
 
 - **Cost:** 8 points of **Spirituality**
-- **Use:** **Casting action**
+- **Use:** **Casting Action**
 - **Targeting and range:** All dead objects within your line of sight
 - **Effect:**
   - You can animate all dead objects within your line of sight, including extraordinary items.

@@ -22,13 +22,13 @@ tags: ["pathway:reader", "sequence:3"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +2, Education +2; your Occult skills increase by 1 level; your Detection skills increase by 2 levels; all Science skills increase by 1 level.
+- **Attribute Gain:** Intuition (INT) +2, Education +2; your Occult skills increase by 1 level; your Detection skills increase by 2 levels; all Science skills increase by 1 level.
 
 ### Master the Mysteries
 
 - **Effect:**
   - You “see” the rules of the world and master many deep mysteries.
-  - From now on, regardless of what you were like before, you know most mystic knowledge in this world by default (including [[Sequence 0]], [[King of Angels]], [[Higher Sequences]], and part of the [[Starry Sky]]).
+  - From now on, regardless of what you were like before, you know most mystic knowledge in this world by default (including [[Sequence 0]], [[King of Angels]], Higher Sequences, and part of the [[Starry Sky]]).
   - Most esoteric setting knowledge you know as a Player can be summarized on your character sheet.
   - Your Education-related skill checks and attribute checks **automatically succeed** when they are not contested and you are not using an ability.
 - **Limits:**
@@ -37,7 +37,7 @@ tags: ["pathway:reader", "sequence:3"]
 ### Insight
 
 - **Cost:** 8 points of [[Spirituality]].
-- **Use:** 1 [[Spell-Casting Action]].
+- **Use:** 1 Casting Action.
 - **Targeting and range:** Choose 1 target object you can see (within your [[Field of Vision]]).
 - **Effect:**
   - Conduct a Detection appraisal on the target.
@@ -65,7 +65,7 @@ tags: ["pathway:reader", "sequence:3"]
   - More Insights generally require clues, and can confirm the Path and level involved in an extraordinary event, whether it involves secrets, whether the truth is false, and so on.
 
 - **Special Situations:**
-- Understanding the mythical form of [[Sequence 2 and Above]], [[Informational Creatures]], and targets with **Personality at least 1 higher than yours** in the [[Voyeur Pathway]] immediately causes you to suffer a corresponding sanity blow, even if you have already suffered a blow.  
+- Understanding the mythical form of Sequence 2 and Above, [[Informational Creatures]], and targets with **Personality at least 1 higher than yours** in the Hermit pathway immediately causes you to suffer a corresponding sanity blow, even if you have already suffered a blow.  
   - Knowledge obtained through Insight can only be within the scope of your knowledge. If the target is not within the [[22 Pathways]] and you do not have the corresponding knowledge, you only get false information that fits within your scope of knowledge and similar pathways (you do not realize the incongruity until you get new leads).
   - For skills/strengths/weaknesses not within your knowledge, you can only know what they are like, but not what they are.
 

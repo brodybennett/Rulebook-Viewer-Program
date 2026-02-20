@@ -22,7 +22,7 @@ tags: ["pathway:apprentice", "sequence:5"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2.
+- **Attribute Gain:** **Intuition (INT)** +2.
 - Your navigating skill increases by 2 skill levels.
 
 ### Traveler's Gate
@@ -32,7 +32,7 @@ tags: ["pathway:apprentice", "sequence:5"]
 This ability can be used in two ways:
 
 1) **Long-distance Spirit World travel**
-   - **Use:** One **casting action**.
+   - **Use:** One **Casting Action**.
 - **Cost:** "Spirit" refers to **Spirituality** in this section.
    - **Effect:**
      - You can travel long distances in the **Spirit World**, and you can always sense the reality of the outside world while in the **Spirit World**.
@@ -41,7 +41,7 @@ This ability can be used in two ways:
    - **Reference:** For the **Spirit World**, please refer to “Chapter Twelve: Special Areas”. [[Chapter Twelve: Special Areas]]
 
 2) **Short-distance continuous flashing**
-   - **Use:** 1 **swift action**, up to 12 times in one round. Its priority is regarded as a **free action**. The swift action is the sum of 12 flashes; less than 12 times still occupy a swift.
+   - **Use:** 1 **Swift Action**, up to 12 times in one round. Its priority is regarded as a **free action**. The Swift Action is the sum of 12 flashes; less than 12 times still occupy a swift.
    - **Effect:** You perform short-distance continuous flashing (no more than 6 meters), which not only allows you to avoid attacks, but also allows you to create a siege effect by yourself, and gain the following benefits:
 - **Limits:** If the enemy has any Door Pathway travelers, this exclusion applies (more than one character present).
      - Any **Extraordinary Ability** that targets you cannot hit you, including abilities that do not require identification—excluding area attacks, light, and lightning; but you retain the agility and evasion of the full physical defense against them.
@@ -54,8 +54,8 @@ This ability can be used in two ways:
 
 - **Effect:**
   - You can take pictures from a distance.
-  - You are considered to be able to capture objects at any position equal to the range of **Inspiration**, perform attack actions, or perform abilities that require physical contact (such as opening doors).
-  - How much **Inspiration** you have represents how much your invisible hand can dabble.
+  - You are considered to be able to capture objects at any position equal to the range of **Intuition (INT)**, perform attack actions, or perform abilities that require physical contact (such as opening doors).
+  - How much **Intuition (INT)** you have represents how much your invisible hand can dabble.
 - **Special:**
   - The invisible hand does not lose health.
   - It has a Strength attribute equal to your Strength.

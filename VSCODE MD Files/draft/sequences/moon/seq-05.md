@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Sequence 5: Crimson Scholar"
 id: "moon-seq-05"
 tags: ["pathway:moon", "sequence:5"]
@@ -8,7 +8,7 @@ tags: ["pathway:moon", "sequence:5"]
 
 ## Crimson Scholar
 
-- See also: [[Viscount Bloodline Pathway]]
+- See also: Viscount Bloodline Pathway
 
 There are two core abilities:
 - Create an environment beneficial to yourself by creating a â€œfull moonâ€ effect or hiding the moon.
@@ -68,29 +68,29 @@ The strength of these abilities depends on your understanding and research of th
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Constitution +1, Agility +1, Inspiration +2. [[Inspiration]]
+- **Attribute Gain:** Strength +1, Constitution +1, Agility (DEX) +1, Intuition (INT) +2. Intuition
 
 ### Moon Knowledge (Skill)
 
 A special knowledge skill is trained: **Moon Knowledge**. [[Moon Knowledge]]  
-This skill belongs to the educational skill, is included in the rapid growth category of Sequence 9, and can be quickly promoted to proficiency at most. [[Sequence 9 rapid growth category]]
+This skill belongs to the educational skill, is included in the rapid growth category of Sequence 9, and can be quickly promoted to proficiency at most. Sequence 9 rapid growth category
 
 ### Sleep-Related Resistance
 
 From now on, against attempts to force you with sleep-related abilities:
-- If no identification is required, the user must use **Inspiration** to fight against your **Will Defense** for the effect to take hold. [[Will Defense]]
-- If identification is required, your **Countermeasure** or **Will Defense** +4 is beneficial. [[Countermeasure]]
+- If no identification is required, the user must use **Intuition (INT)** to fight against your **Willpower Defense** for the effect to take hold. Willpower Defense
+- If identification is required, your **Countermeasure** or **Willpower Defense** +4 is beneficial. [[Countermeasure]]
 
 ### Summon Full Moon
 
-- **Use:** 1 **swift action**. [[Swift Action]]
+- **Use:** 1 **Swift Action**. Swift Action
 - **Cost:** 3 points of **spirituality**. [[Spirituality]]
 - **Targeting and range:** Affecting an area within a few hundred meters.
-- **Effect:** You unleash a crimson moonglow (a â€œfull moonâ€ effect), or cause the moon to disappear into the sky. At this time, it is regarded as a full moon state. All creatures illuminated by the moonlight, and all identifications related to **Inspiration**, gain +1.
+- **Effect:** You unleash a crimson moonglow (a â€œfull moonâ€ effect), or cause the moon to disappear into the sky. At this time, it is regarded as a full moon state. All creatures illuminated by the moonlight, and all identifications related to **Intuition (INT)**, gain +1.
 
 **Moon Knowledge scaling**
-- For every â€œLunar lore levelâ€ you have (i.e., Moon Knowledge level), all checks related to **Inspiration** get an additional +1 on top of the base +1 from moonlight.
-- Thus, while your Lunar lore is **Trained**, all friendly creatures gain +2 to Inspiration-related checks.
+- For every â€œLunar lore levelâ€ you have (i.e., Moon Knowledge level), all checks related to **Intuition (INT)** get an additional +1 on top of the base +1 from moonlight.
+- Thus, while your Lunar lore is **Trained**, all friendly creatures gain +2 to Intuition (INT)-related checks.
 
 **Advantages of other full moon astronomical phenomena**
 1. **Extra spirituality:** Under the full moon, everyone who is illuminated can get 1d6 temporary extra spirituality; during a blood moon, they can get 2d6 temporary extra spirituality. [[Blood Moon]]
@@ -100,14 +100,14 @@ From now on, against attempts to force you with sleep-related abilities:
 
 #### Moonlight Coverage by Sequence (Future Sequences)
 
-- **Sequence 4:** Moonlight can cover a range with a radius of one kilometer, suppressing Sequence 5 and below the sun path brilliance, and last one encounter under the natural sun. (Brightness of Sequence 5 and below can still illuminate, but it can no longer cover up the moonlight, cannot completely dispel darkness and shadows, and can still illuminate traces of ghosts, and the same applies to subsequent upgrades) [[Sun Path brilliance]]
+- **Sequence 4:** Moonlight can cover a range with a radius of one kilometer, suppressing Sequence 5 and below the sun path brilliance, and last one encounter under the natural sun. (Brightness of Sequence 5 and below can still illuminate, but it can no longer cover up the moonlight, cannot completely dispel darkness and shadows, and can still illuminate traces of ghosts, and the same applies to subsequent upgrades) Sun Path brilliance
 - **Sequence 3:** Moonlight can cover a city and cover the natural sun for half an hour, but it cannot suppress Sequence 4's sun path brilliance.
 - **Sequence 2:** If you want, it can cover half a continent, can cover the natural sunlight and last for 12 hours of full moon radiance, suppress the sun path brilliance spell below sequence 2.
 - **Sequence 1:** The radiance of the full moon that can cover the entire continent and last for 24 hours, cannot suppress the sun path brilliance of Sequence 2.
 
 ### Moonlight
 
-- **Use:** 1 **swift action**.
+- **Use:** 1 **Swift Action**.
 - **Cost and duration:** Every 3 points of **spirituality** lasts for 1 round.
 - **Limits (requirement):** You must be within the range of moonlight to use it.
 - **Effect:** You become a beam of moonlight. Your body is broken into crimson moonlight fragments; you are regarded as being in a **moonlight state** and gain the following benefits:
@@ -138,7 +138,7 @@ From now on, against attempts to force you with sleep-related abilities:
 
 **Moon Knowledge improvement**
 - Each level of Moon Knowledge provides an additional chance to reorganize, and this reorganization will not consume spirituality.
-- If you suffer a holy blow in the moonlight state, you will be forced to reorganize because the surrounding moonlight disappears, and you will be transformed back to the original form. This forcefully consumes your spirituality or reorganization opportunities; if not, it consumes your sanity. [[Sanity]]
+- If you suffer a holy blow in the moonlight state, you will be forced to reorganize because the surrounding moonlight disappears, and you will be transformed back to the original form. This forcefully consumes your spirituality or reorganization opportunities; if not, it consumes your sanity. [[Sanity / Rationality]]
 - Holy Strikes that are **one character** or **two sequence levels** below you can't do this. [[Holy Strike]]
 
 **If the moonlight does not fully illuminate the entire scene**
@@ -147,7 +147,7 @@ From now on, against attempts to force you with sleep-related abilities:
 
 ### Lunar Blink
 
-- **Use:** 1 **swift action**; 1 time per round.
+- **Use:** 1 **Swift Action**; 1 time per round.
 - **Cost:** 3 points of **spirituality**.
 - **Effect:** You are broken into crimson moonlight fragments. Choose a distance not exceeding your movement power, flash to the corresponding position, and reorganize into a human form at the corresponding position. [[Movement Power]]
 

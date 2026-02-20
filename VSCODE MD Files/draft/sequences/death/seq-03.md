@@ -32,15 +32,15 @@ tags: ["pathway:death", "sequence:3"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Constitution +1, Strength +1, Dexterity +1, Inspiration +1; choose 1 skill to increase 1 level.
+- **Attribute Gain:** Constitution +1, Strength +1, Agility (DEX) +1, Intuition (INT) +1; choose 1 skill to increase 1 level.
 
 ### Ferryman
 
 - **Effect:**
   - You have become the real dead.
   - Your malice, thoughts, and behavior tendencies are hidden; you become a dead person without thoughts.
-  - No one can read your thoughts except a Beyonder of the [[Audience Pathway]] at the same Sequence as you.
-  - The malicious perception of the [[Abyss Pathway]] is no longer effective against you.
+  - No one can read your thoughts except a Beyonder of the Visionary at the same Sequence as you.
+  - The malicious perception of the Abyss is no longer effective against you.
 
 - **Defenses and damage interactions:**
   - Most attacks except **holy attacks** are no longer effective against you.
@@ -52,7 +52,7 @@ tags: ["pathway:death", "sequence:3"]
   - **Lightning damage:** normal.
   - **Curses:** no effect.
   - **Curse damage:** no effect.
-  - **Sanity damage:** halved.
+  - **Sanity / Rationality damage:** halved.
     - Maximum pressure is 1.
     - Promotion sanity loss cannot be saved.
 
@@ -89,7 +89,7 @@ tags: ["pathway:death", "sequence:3"]
 
 - **Clones and indirect viewing:**
   - Even through a clone like [[Secret Puppet]], if the Secret Puppet owner dares to look directly at you, they suffer half of the damage of looking at you.
-  - The clone of the [[Mistake Pathway]] and the [[Audience Pathway]] will not affect the main body because they are very independent.
+  - The clone of the Error pathway and the Visionary will not affect the main body because they are very independent.
 
 - **Sequence 2 reference (RAW text):**
   - **Sequence 2:** There is no need to look at each other. Except for the target of the same personality, all creatures you see suffer the damage of the river of death and die almost immediately.
@@ -97,7 +97,7 @@ tags: ["pathway:death", "sequence:3"]
   - Also, even targets of the same rank as you still take 2d10+5 hits per round as long as they are within your line of sight.
 
 - **Extra:**
-  - **Use:** Consume a **casting action**.
+  - **Use:** Consume a **Casting Action**.
   - **Cost:** 3 [[Spirituality]].
   - **Effect:** Endow the Ferryman “no longer thinking” property to one or more designated targets.
     - Halve their physical damage.
@@ -109,17 +109,17 @@ tags: ["pathway:death", "sequence:3"]
 
 - **Effect:** The language of the dead is not only a language the living cannot understand; it also carries screams and roars from the depths of the underworld as a **mental attack**.
 
-- **Use:** As a **casting action**, once per encounter.
+- **Use:** As a **Casting Action**, once per encounter.
 
 - **Targeting and range:** Anyone who hears your dead man’s language.
 
 - **Damage:**
-  - Those who hear it suffer 1d4/1d6+1 Sanity hits.
+  - Those who hear it suffer 1d4/1d6+1 Sanity / Rationality hits.
   - GM decides whether to use 1d4 or 1d6+1 in a given situation.
 
 - **Interaction with Words of the Dead / rebuke:**
   - It can be released at the same time as the previous [[Words of the Dead]] effect.
-  - If released at the same time, the effect of rebuke and negotiation against the attack of its [[Will Defense]] can allow the above sanity appraisal to be used for the easy-to-crazy effect of the [[Audience Pathway]].
+  - If released at the same time, the effect of rebuke and negotiation against the attack of its Willpower Defense can allow the above sanity appraisal to be used for the easy-to-crazy effect of the Visionary.
   - GM decides the exact procedure for this interaction.
 
 - **RAW clarification text (kept, condensed without changing mechanics):**
@@ -129,14 +129,14 @@ tags: ["pathway:death", "sequence:3"]
   - For the Audience, values of 18, 19, and 20 all make their sanity test full.
 
 - **Extra:**
-  - **Use:** As a **full-round action**, directly transform a creature into your slave.
+  - **Use:** As a **Full-Round Action**, directly transform a creature into your slave.
   - **Effect:** The creature is regarded as an undead creature.
   - **Time/limits:**
     - It takes 3 minutes for a Beyonder who is not a demigod; demigods are immune to direct conversion.
-    - An undead creature of your strength is only a full-round action.
+    - An undead creature of your strength is only a Full-Round Action.
     - The converted creature must be weaker than you.
     - You cannot directly convert a demigod.
 
   - **Special case (RAW text):**
     - If a creature grants you undead qualities and is one person lower than you, this requires two of your -4 [[Words of the Dead check]] against their Will defense **in the same round**.
-    - This does not take three minutes; it is achieved with a full-round action, for as long as they are undead.
+    - This does not take three minutes; it is achieved with a Full-Round Action, for as long as they are undead.

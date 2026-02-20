@@ -17,12 +17,12 @@ tags: ["pathway:myster-pryer", "sequence:9"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2; your **Occult** is upgraded by one level.
+- **Attribute Gain:** **Intuition (INT)** +2; your **Occult** is upgraded by one level.
 
 ### Prophecy
 
 - **Effect:** You spy on the secret of future destiny. This effect can accurately see part of the picture clearly and accurately.
-- **Use:** You can make an **Inspiration** check to determine what the outcome of an action will be.
+- **Use:** You can make an **Intuition (INT)** check to determine what the outcome of an action will be.
 - **Difficulty:**
   - **Difficulty 15:** At least one yes-or-no answer must be obtained.
   - **Difficulty 20:** Obtain a picture. The picture is relatively general, and the clues are only a small part of the picture.

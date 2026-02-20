@@ -19,7 +19,7 @@ tags: ["pathway:tyrant", "sequence:4"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +2, Agility +1.  
+- **Attribute Gain:** Strength +2, Agility (DEX) +1.  
 - Increase one skill of your choice by 1 level.
 
 ---
@@ -35,8 +35,8 @@ Choose one benefit:
 - Dig passages through earth at your movement speed.
 - Create an **Earth Wall**:
   - Defense: 20  
-  - Health: 25  
-  - If damage exceeding the wall’s remaining Health is dealt, excess damage may affect creatures hiding behind it.  
+  - Vitality: 25  
+  - If damage exceeding the wall’s remaining Vitality is dealt, excess damage may affect creatures hiding behind it.  
   - Resolve spillover using the same attack Identification that hit the wall; excess damage applies to one creature directly behind it.
 
 [[Cover]]
@@ -46,7 +46,7 @@ Choose one benefit:
 
 ### Rock Tide Stomp
 
-- **Use:** Attack action.
+- **Use:** Attack Action.
 - **Targeting and Range:** All targets within 10–100 meters (excluding you).
 - **Effect:** You stomp, cracking the ground and triggering a magma eruption.
   - Make a **Disaster Attack** with +20 [[Disaster Attack]] against each target’s Physical Defense.
@@ -94,10 +94,10 @@ Linked with: Lava, Tsunami, Rainstorm.
 
 **Undercurrent Rules**
 
-- Moving in affected water requires a Difficulty 15 [[Luck]] check.
+- Moving in affected water requires a Difficulty 15 Luck check.
 - On failure, the creature is pulled underwater.
 - Each round underwater, make:
-  - Difficulty 15 Agility check **or**
+  - Difficulty 15 Agility (DEX) check **or**
   - Difficulty 20 Swimming check  
   to escape.
 - While trapped:
@@ -106,7 +106,7 @@ Linked with: Lava, Tsunami, Rainstorm.
 - After 3 rounds:
   - Demigod or lower creatures begin suffocating:
     - –2 to all checks
-    - Lose 1d6 HP per round until escape or death.
+    - Lose 1d6 Vitality per round until escape or death.
 
 [[Suffocation]]
 [[Conditions]]
@@ -162,9 +162,9 @@ Only applies to disasters whose affected area is measured in kilometers.
 
 You create a major disaster.
 
-- **Use:** 1 casting action, once per round.
-- **Cost:** 6 Spiritual Points.  
-[[Spiritual Points]]
+- **Use:** 1 Casting Action, once per round.
+- **Cost:** 6 Spirituality.  
+[[Spirituality]]
 - **Targeting:** Minimum area: a hall. Maximum: several-kilometer radius.
 - **Effect:** Choose one disaster type below.
   - Make a +20 Disaster Attack vs Physical Defense.
@@ -178,7 +178,7 @@ You create a major disaster.
 
 ### Tornado
 
-- Failing a Difficulty 20 Strength or Dexterity check:
+- Failing a Difficulty 20 Strength or Agility (DEX) check:
   - Creature is in **Blown State** for 3 rounds (cannot move).
   - Wind shifts 50 m; may suffer 2d6 falling damage.
 
@@ -232,7 +232,7 @@ You create a major disaster.
 ### Thunderstorm
 
 - Deals 5d6 lightning damage to most creatures.
-- Ignores Physical Defense from Agility or Dodge.
+- Ignores Physical Defense from Agility (DEX) or Dodge.
 - Counts as 3 separate attacks (consume 3 substitutes; apply reduction separately for each).
 - Damage vs undead: 6d6.
 - If cast during heavy rain: counts as 5 attacks.

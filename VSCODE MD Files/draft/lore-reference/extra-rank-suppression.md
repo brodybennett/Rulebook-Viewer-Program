@@ -101,16 +101,16 @@ In a Rank Suppression matchup, when a higher-Status/Rank Beyonder faces a lower 
 - **Sanity / Rationality:** If the Sanity / Rationality check you suffer comes from a Status/Rank lower than yours, apply a modifier to the 1d20 roll equal to -4 per Status/Rank difference (examples: lower by 1 Status/Rank = -4; lower by 2 Status/Ranks = -8). See [[Sanity / Rationality]].
 - **Death Pathway / undead special rule:** See [[Death Pathway: Undead Command]].
 
-> **GM Note:** In [[High-Sequence Vitality Calculation]] and [[Vitality]] rules, the Vitality (HP) gained from each Status/Rank increase is doubled.
+> **GM Note:** In [[High-Sequence Vitality Calculation]] and [[Vitality]] rules, the Vitality (Vitality) gained from each Status/Rank increase is doubled.
 
 ### Action Protection
 
 - **Benefit:** You gain two layers of Action Protection.
-- **Trigger:** If an ability whose Status/Rank is lower than yours attempts to reduce your Free Action, Swift Action, spellcasting action, attack action, or movement action, you may use divinity to resist the loss of actions.
+- **Trigger:** If an ability whose Status/Rank is lower than yours attempts to reduce your Free Action, Swift Action, spellcasting action, Attack Action, or movement action, you may use divinity to resist the loss of actions.
 - **Limits:** This protection has no usage limit; the stated upper limit is that it can negate reductions to up to two actions.
 - **Selection:** Which specific action an Action Protection layer protects is decided by the higher-Status/Rank being themself.
 - **What it does not protect against:** Action Protection does not include binding-type abilities (example given: Moon's Abyss Shackles). These do not cause you to lose actions; they make you unable to perform actions. Your actions are not lost - only prevented - so Action Protection cannot negate them. You must make the corresponding escape check to avoid the binding.
-- **Free/Swift Action special handling:** If you suffer an effect such as "each round you can only use one Free Action," you may use one Action Protection to negate this effect once. A Free Action's Action Protection is equivalent to three Free Action uses. Swift Action is the same and likewise provides three uses. If a negative status reduces one Free/Swift action, three reductions are required to consume one protection of your Free/Swift actions. If it specifically states "can only use one Free Action," you can use two Free Action protections to resist this effect a total of two times. Only when your Free Action protections are used up, and a third "one Free Action" limitation is stacked onto you, will your Free Action count truly be affected (you begin to be able to use only one Free Action).
+- **Free/Swift Action special handling:** If you suffer an effect such as "each round you can only use one Free Action," you may use one Action Protection to negate this effect once. A Free Action's Action Protection is equivalent to three Free Action uses. Swift Action is the same and likewise provides three uses. If a negative status reduces one Free/Swift Action, three reductions are required to consume one protection of your Free/Swift actions. If it specifically states "can only use one Free Action," you can use two Free Action protections to resist this effect a total of two times. Only when your Free Action protections are used up, and a third "one Free Action" limitation is stacked onto you, will your Free Action count truly be affected (you begin to be able to use only one Free Action).
 
 Action Protection refreshes at the start of each encounter.
 

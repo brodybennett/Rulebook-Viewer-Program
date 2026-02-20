@@ -32,10 +32,10 @@ tags: ["pathway:apprentice", "sequence:8"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +2, **Constitution** +2, **Agility** +1.  
-  [[Inspiration]]  
+- **Attribute Gain:** **Intuition (INT)** +2, **Constitution** +2, **Agility (DEX)** +1.  
+  Intuition  
   [[Constitution]]  
-  [[Agility]]
+  Agility (DEX)
 
 ### Performance Recognition
 
@@ -53,8 +53,8 @@ You wield a variety of strange but not powerful spells.
 
 #### Freezing Technique
 
-- **Use:** 1 **Casting Action**. [[Casting Action]]
-- **Cost:** Consume 1 **Spirituality Point**. [[Spirituality]]
+- **Use:** 1 **Casting Action**. Casting Action
+- **Cost:** Consume 1 **Spirituality**. [[Spirituality]]
 - **Targeting and range:** Choose 1 target.
 - **Check:** Performance/Deception/Occult vs **Physical Defense**. [[Occult]] [[Physical Defense]]
 - **Effect:** Rapidly lowers temperature; freezes the surface of the target’s body, dealing **1d6** cold damage.
@@ -64,7 +64,7 @@ You wield a variety of strange but not powerful spells.
 #### Wind Blowing Skill
 
 - **Use:** 1 **Casting Action**.
-- **Cost:** Consume 2 **Spirituality Points**.
+- **Cost:** Consume 2 **Spirituality**.
 - **Effect:** You make the whistling sound of wind suddenly appear, and all light objects are blown away.
 - **Benefit:** The following effect applies.
   - Choose a wind direction within a range of **10 meters** and gain **6 points of forced movement**, forcing creatures in this range to move **6 meters** in the wind’s direction.  
@@ -86,15 +86,15 @@ You wield a variety of strange but not powerful spells.
 
 #### Fall
 
-- **Use:** 1 spellcasting action. [[Spellcasting Action]]
-- **Cost:** Consume 2 spiritual points. [[Spiritual Points]]
+- **Use:** 1 spellcasting action. Spellcasting Action
+- **Cost:** Consume 2 spiritual points. [[Spirituality]]
 - **Targeting and range:** Choose 1 target on the ground.
 - **Check:** Performance/Deception/Occult vs **Physical Defense**; ignores armor. [[Armor]]
 - **Effect:** If the identification is successful, the opponent immediately falls down and loses balance (becomes **Unbalanced**).
 - **Condition: Unbalanced**
   - Unable to move, attack, and cast spells.
-  - You must use **1 Movement Action** to get out of the unbalanced state. [[Movement Action]]
-  - While unbalanced: (Agility and dodge in Physical Defense **-2**).
+  - You must use **1 Movement Action** to get out of the unbalanced state. Movement Action
+  - While unbalanced: (Agility (DEX) and dodge in Physical Defense **-2**).
   - Others gain advantages: (skill and attribute identification) **+2**.  
     [[Advantage / Disadvantage]]
 
@@ -107,10 +107,10 @@ You wield a variety of strange but not powerful spells.
 - **Effect:** Blinds affected targets for **1 round**.
 - **Condition: Blind**
   [[Blind]]
-  - Unless the action targeting other things is an indiscriminate strike, it needs a **Difficulty Value 15** Inspiration test (according to the memory recall direction) to be successfully executed.  
-    [[Difficulty Value]]  
+  - Unless the action targeting other things is an indiscriminate strike, it needs a **Difficulty Value 15** Intuition (INT) test (according to the memory recall direction) to be successfully executed.  
+    Difficulty Value  
     [[Indiscriminate Strike]]
-  - The detection test is **-8** disadvantageous. [[Detection]]  - Others have an advantage over it.
+  - The detection test is **-8** disadvantageous. Detection  - Others have an advantage over it.
 
 #### Fog Creation
 
@@ -165,7 +165,7 @@ You wield a variety of strange but not powerful spells.
 
 #### Other Tricks
 
-- Other tricks that are logical and allowed by the **GM**; the number depends on the GM’s permission, usually no more than your Inspiration.
+- Other tricks that are logical and allowed by the **GM**; the number depends on the GM’s permission, usually no more than your Intuition (INT).
 - You need to write their effects in advance, unless you are only temporarily using them in daily or usual performances.
 - Pay attention to original tricks: tricks should meet the characteristics of being strange but not powerful.
 
@@ -173,7 +173,7 @@ You wield a variety of strange but not powerful spells.
 
 - You can cast your spell-like abilities as a quickened cast.
 - **Rules:**
-  1) Once per round, you can use a **Free Action** to cast any cantrip that requires a casting action. [[Free Action]] [[Cantrip]]
+  1) Once per round, you can use a **Free Action** to cast any cantrip that requires a Casting Action. Free Action [[Cantrip]]
   2) If you formulate an unexpected way to use a trick before performing it and use it with performance-style techniques (for example, deliberately asking the enemy what will happen next), making the enemy unable to guess what you are going to do by performing and fooling:
      - If you let the trick happen at a moment others can’t imagine—like a performer and audience—then your trick has the effect of being caught off guard. [[Caught Off Guard]]
      - This can be done with special actions such as delayed action, or real inspiration, but you must do the relevant roleplay. [[Delayed Action]] [[Real Inspiration]]

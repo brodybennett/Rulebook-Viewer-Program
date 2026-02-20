@@ -28,8 +28,8 @@ tags: ["pathway:myster-pryer", "sequence:1"]
 ### Empowering Knowledge
 
 - **Cost:** 3 spirituality points. [[Spirituality]]
-- **Use:** A spell-casting action.
-- **Effect:** You put written knowledge into substance. You write down secret knowledge related to the extraordinary (such as the potion formula). After that, this knowledge takes on part of your personality and becomes an extraordinary existence of [[this Pathway]], carrying real power.
+- **Use:** A Casting Action.
+- **Effect:** You put written knowledge into substance. You write down secret knowledge related to the extraordinary (such as the potion formula). After that, this knowledge takes on part of your personality and becomes an extraordinary existence of this Pathway, carrying real power.
 - **Limits:** The degree to which you can use it depends on your knowledge reserve, with effects based on what is written:
   - Potion formula: It can only cause the effect of the [[Law of Convergence of Extraordinary characteristics]] of this Pathway, and provide a +2 [[Identification Bonus]] for the existence of this Pathway.
   - Mythological knowledge of the secret path: You can use this written item to restore part of the power of its content. The more detailed, hidden, and real the content, the stronger the effect.

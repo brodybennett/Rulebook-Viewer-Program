@@ -20,28 +20,28 @@ You gain the following extraordinary abilities.
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Inspiration** +3.
+- **Attribute Gain:** **Intuition (INT)** +3.
 - **Effect:** You can occasionally glimpse the future.
 
 ### Glimpse of the Future
 
-- **Use:** Triggered when you conduct an **Inspiration**/**Spiritual Intuition** identification and the identification is a big success or big failure.
+- **Use:** Triggered when you conduct an **Intuition (INT)**/**Spiritual Intuition** identification and the identification is a big success or big failure.
 - **Effect:**
   1. When triggered, you see a “future screen”; the content is determined by the **GM**.
-  2. If the Inspiration identification exceeds 30, you can see ordinary future events, with results that are good for you.
+  2. If the Intuition (INT) identification exceeds 30, you can see ordinary future events, with results that are good for you.
   3. A big success usually represents a picture beneficial to you.
   4. A big failure represents a picture that is not good for you (it may be a crisis that does not tell you the solution).
   5. Whenever you take at least 3 hours of sufficient rest, this also triggers in your dream (the same effect as above).
 - **Limits:**
   - The picture you see does not necessarily mean it will happen; the crisis can be prevented or stopped.
 
-### Very High Inspiration
+### Very High Intuition (INT)
 
 - **Effect:** You can often hear voices others cannot hear and see things others cannot see.
 - **Effect (choose/apply as triggered):**
   1. **Peeping:** You can see the “specialness” of others and determine whether the other party belongs to the realm of immortality/corruption/darkness/sacred/cursed, but the information is not specific enough (for example, you can find a person who died a few days ago, but you don’t know the specific reason).
-    - **Special:** If the witnessed special is higher than your Sequence by 1+, or has pollution, you immediately suffer the corresponding **Sanity** loss.
-  2. **Listening:** Whenever you carry out an Inspiration-related skill appraisal and the result is ≥20, if there is a spirit within a 20-meter area, you can discover its existence through normally inaudible sound, or hear normally inaudible sound due to extraordinary factors.
+    - **Special:** If the witnessed special is higher than your Sequence by 1+, or has pollution, you immediately suffer the corresponding **Sanity / Rationality** loss.
+  2. **Listening:** Whenever you carry out an Intuition (INT)-related skill appraisal and the result is ≥20, if there is a spirit within a 20-meter area, you can discover its existence through normally inaudible sound, or hear normally inaudible sound due to extraordinary factors.
      - **Special:** This often only takes effect for a moment; its existence can only be found within 1 second, or a small amount of sound can be heard.
   3. **Trance:** Whenever you see a future picture or listen to extraordinary content, you fall into a short **Semi-Trance** state: you whisper the information you got and enter a round of **Surprised**. You wake up when you receive any stimulus or hear a reminder.
      - **Limits:** This is passive, bound to potion benefits, and cannot be stolen or recorded.
@@ -50,8 +50,8 @@ You gain the following extraordinary abilities.
 
 - **Effect:** You have a keen intuition for danger and can foresee danger beyond your personality.
 - **Effect:**
-  1. Whenever you suffer any **Surprised**/**Sneak Attack**, you must perform a **Difficulty Value** 20 **Inspiration** test. On a success, you are immediately told what you should do next to avoid the surprised/sneak attack. You usually don’t know why you do this.
-  2. Any attack that can cause half of your **HP** loss (rounded up) in one instance, or half of your **Sanity** loss, is also included in the effect of (1). When this applies, your **Physical Defense** gains an additional +4 correction (affecting your **Constitution Defense**/**Will Defense**).
+  1. Whenever you suffer any **Surprised**/**Sneak Attack**, you must perform a **Difficulty Value** 20 **Intuition (INT)** test. On a success, you are immediately told what you should do next to avoid the surprised/sneak attack. You usually don’t know why you do this.
+  2. Any attack that can cause half of your **Vitality** loss (rounded up) in one instance, or half of your **Sanity / Rationality** loss, is also included in the effect of (1). When this applies, your **Physical Defense** gains an additional +4 correction (affecting your **Constitution Defense**/**Willpower Defense**).
   3. When the effect of (2) is used against light/lightning, the full Physical Defense is retained instead.
   4. If the danger range is large enough (for example, a gas explosion across the entire area in an instant), then even if you are alerted to the danger, you do not gain benefits.
 - **At Sequence 5:**
@@ -60,7 +60,7 @@ You gain the following extraordinary abilities.
   - Even if you are blind/deaf, you can start maintaining normal actions through Spiritual Intuition.
 - **Limits:**
   - In the Semi-Trance state, this ability does not take effect.
-  - The Inspiration test for danger premonition does not cause the Semi-Trance state.
+  - The Intuition (INT) test for danger premonition does not cause the Semi-Trance state.
 
 ### Spiritual Vision
 - **Use:** 1 **free action** to activate.

@@ -30,9 +30,9 @@ Wherever one is found, endless mists cloud spiritual intuition. In the mists, Mi
 
 ## Statistics
 
-- **Basic Data:** Charm 1; Strength 8; Luck 4; Dexterity 4; Constitution 10; Will 5; Inspiration 0; Education 0.
-- **Health:** 80
-- **Physical Defense Level:** 10 + 4 Dexterity + 4 armor + 4 deflection = 22. [[Dexterity]] [[armor]] [[deflection]]
+- **Basic Data:** Charisma (CHA) 1; Strength 8; Luck 4; Agility (DEX) 4; Constitution 10; Will 5; Intuition (INT) 0; Education 0.
+- **Vitality:** 80
+- **Physical Defense Level:** 10 + 4 Agility (DEX) + 4 armor + 4 deflection = 22. Agility (DEX) [[armor]] [[deflection]]
 - **Skills:** None
 - **First Sighting:** 1/1d3 SC. [[SC]]
 
@@ -40,7 +40,7 @@ Wherever one is found, endless mists cloud spiritual intuition. In the mists, Mi
 
 Each turn, the Misty Treant has 4 actions. It randomly performs one of the following 6 actions:
 
-1. **Move:** Move 2 meters in one direction. Creatures in this direction must pass a Dexterity check with Difficulty 20; otherwise, they suffer 3d6 damage.
+1. **Move:** Move 2 meters in one direction. Creatures in this direction must pass a Agility (DEX) check with Difficulty 20; otherwise, they suffer 3d6 damage.
 2. **Use Pustule Human Ability:** Use the extraordinary abilities of a trapped Beyonder if known; otherwise, GM chooses a reasonable set.
 3. **Hit with Sticks:** Deal 2d6 damage.
 4. **Spray Thick Fog:** Visibility of the scene is reduced, and everything is considered invisible.
@@ -70,4 +70,4 @@ There is a rhizome at the bottom of a Misty Treant. This rhizome absorbs the ess
 ### Common Items
 
 - There is a huge rhizome at the bottom of the Misty Treant. Cooking and eating this root can restore 1d6 life.
-- Its rhizome and juice can be used to prepare the [[Fool's Pathway Sequence 7 Magician's Potion]].
+- Its rhizome and juice can be used to prepare the Fool's Pathway Sequence 7 Magician's Potion.

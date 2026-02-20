@@ -26,7 +26,7 @@ tags: ["pathway:sun", "sequence:9"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** [[Attributes]] — +1 [[Strength]], +1 [[Agility]], +1 [[Inspiration]], +1 [[Constitution]]
+- **Attribute Gain:** [[Attributes]] — +1 [[Strength]], +1 Agility (DEX), +1 Intuition, +1 [[Constitution]]
 - You can begin learning [[Singing]] quickly.
 
 ### Singing Training
@@ -36,31 +36,31 @@ tags: ["pathway:sun", "sequence:9"]
 
 ### Potion-Assisted Growth
 
-- When creating a character that is not "just promoted," you can use the [[Bard Potion]] to apply **double the potion's Inspiration bonus** to add growth skills.
+- When creating a character that is not "just promoted," you can use the [[Bard Potion]] to apply **double the potion's Intuition (INT) bonus** to add growth skills.
 
 ### Song of Courage
 
 - **Cost:** 2 **[[Spirituality]]**.
-- **Use:** 1 **[[Spell-Casting Action]]**; perform a **[[Singing Identification]]** ( **[[Difficulty Value]]** 15 ); roleplay the corresponding chant. The chant must be themed around praising the sun.
-- **Effect:** On a success, you and any friendly unit that heard the singing gain +1 Strength and +1 Agility for 1 **[[Encounter]]**.
+- **Use:** 1 **Casting Action**; perform a **[[Singing Identification]]** ( **Difficulty Value** 15 ); roleplay the corresponding chant. The chant must be themed around praising the sun.
+- **Effect:** On a success, you and any friendly unit that heard the singing gain +1 Strength and +1 Agility (DEX) for 1 **Encounter**.
 - **Effect:** Also clears the physical effects of [[Fear]], [[Poisoning]], [[Curse]], [[Darkness]], [[Corruption]], and [[Undeath]] from affected targets. These effects can be applied again later.
 - **Limits:** Fears, poisons, and curses from sources 2+ Sequences higher than you are unaffected.
 
 ### Sing Piety
 
 - **Cost:** 2 **Spirituality**.
-- **Use:** 1 **Spell-Casting Action**; perform a **Singing Identification** ( **Difficulty Value** 15 ); roleplay the corresponding chant. The chant must be themed around praising the sun.
+- **Use:** 1 **Casting Action**; perform a **Singing Identification** ( **Difficulty Value** 15 ); roleplay the corresponding chant. The chant must be themed around praising the sun.
 - **Effect:** Choose one of the following benefits:
 
-  - **Benefit A (Allies):** You and friendly units gain 1d2 **[[Temporary Sanity]]** for 1 Encounter. During the Encounter, Sanity loss is first applied to Temporary Sanity. Temporary Sanity does not count toward the [[Madness]] caused by Sanity loss.
-  - **Benefit B (Opposition):** Use your Singing Identification result against the **[[Will Defense]]** of an enemy who heard the singing; this benefit takes effect only if it succeeds.  
+  - **Benefit A (Allies):** You and friendly units gain 1d2 **[[Temporary Sanity / Rationality]]** for 1 Encounter. During the Encounter, Sanity / Rationality loss is first applied to Temporary Sanity / Rationality. Temporary Sanity / Rationality does not count toward the [[Madness]] caused by Sanity / Rationality loss.
+  - **Benefit B (Opposition):** Use your Singing Identification result against the **Willpower Defense** of an enemy who heard the singing; this benefit takes effect only if it succeeds.  
     Dark, corrupt, and undead beings who hear the singing become hard to fight against you: you and friendly units gain **[[Advantage]]** against enemies affected by the singing (i.e., +2 to [[Skill Check]] and [[Attribute Check]]). The enemy does not gain disadvantage. Duration: 1 Encounter.
 
 - **Limits:** The effect is ineffective for corresponding creatures that are 1 Sequence higher than you; they only feel uncomfortable.
 
 ### Spirit Vision
 - **Use:** 1 **Free Action** to activate.
-- **Cost:** 1 **Spirituality Point** per round.
+- **Cost:** 1 **Spirituality** per round.
 - **Effect:** While Spirit Vision is active, you gain the following benefits:
 
 

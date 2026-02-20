@@ -20,17 +20,17 @@ tags: ["pathway:visionary", "sequence:1"]
 
 ### Attribute Gain
 
-- **Inspiration** +3  
+- **Intuition (INT)** +3  
 - **Charisma** +2  
 - **Strength** +1  
 - **Constitution** +1  
-- **Agility** +1  
+- **Agility (DEX)** +1  
 - **Writing Skill** increases by two levels. [[Writing Skill]]
 
 ### Fate Weaving
 
 - **Cost:** 3 points of **Spirituality**. [[Spirituality]]
-- **Use:** **Free Action**. [[Actions]] Usable once per **Round**. [[Round]] You must use pen and paper or spoken words to make the arrangement.
+- **Use:** **Free Action**. [[Actions]] Usable once per **Round**. Round You must use pen and paper or spoken words to make the arrangement.
 - **Effect:** You directly arrange a “reasonable” piece of content to become reality, creating coincidences and developments that follow the logic of the world.
 - **Limits:**
   - The content you write or say must conform to reality’s logic and be organized in a reasonable way; whether it is “reasonable enough” is a subjective judgment.

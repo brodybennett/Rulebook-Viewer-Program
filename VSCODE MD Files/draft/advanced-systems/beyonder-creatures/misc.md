@@ -13,19 +13,19 @@ This section lists creatures and entities and the potion materials or associatio
 ### Widow Spider
 
 - **Material:** silk glands.
-- **Used for:** potion material for Sequence 6 of the [[Witch Pathway Sequence 6]] (joy/pleasure line).
+- **Used for:** potion material for Sequence 6 of the Witch Pathway Sequence 6 (joy/pleasure line).
 
 ### Treant Mentor
 
 - **Material:** crystallized heart; golden leaves.
-- **Used for:** potions for the [[Visionary Pathway Sequence 4 Manipulator]].
+- **Used for:** potions for the Visionary Pathway Sequence 4 Manipulator.
 
 ### Six-Winged Gargoyle
 
 - **Material:** core crystal.
-- **Used for:** main material of the potion of the [[Fool's Pathway Sequence 5]].
+- **Used for:** main material of the potion of the Fool's Pathway Sequence 5.
 - **Material:** eyes.
-- **Used for:** potion material for [[Secret Puppet Master]] ([[Fool's Pathway Sequence 5]]).
+- **Used for:** potion material for [[Secret Puppet Master]] (Fool's Pathway Sequence 5).
 
 ### Falsman Rabbit
 
@@ -52,24 +52,24 @@ This section lists creatures and entities and the potion materials or associatio
 
 - **Description:** a blue bird of prey.
 - **Material:** crystallized feathers.
-- **Used for:** potion material of the [[Tyrant Pathway Sequence 6 Wind Blessed]].
+- **Used for:** potion material of the Tyrant Pathway Sequence 6 Wind Blessed.
 
 ### Longan Sea Eagle
 
 - **Material:** eyes.
-- **Used for:** potion material of the [[Storm Pathway Sequence 6 Wind Blessed]].
+- **Used for:** potion material of the Storm Pathway Sequence 6 Wind Blessed.
 
 ### Stone Monster
 
 - **Description:** nearly three meters high; whole body gray-white; appears composed of huge boulders; face full of bumps; no obvious eyes, nose, mouth, or ears; defense is very high.
 - **Material:** core.
-- **Used for:** potions for the Guardians of the [[Twilight Giant Pathway Sequence 5]].
+- **Used for:** potions for the Guardians of the Twilight Giant Pathway Sequence 5.
 
 ### Psychedelic Campanula
 
 - **Description:** brown-green torso with many slender slits; each slit is dark and deep and seems to have different eyes; stretched branches hang iron-gray wind-chime-like objects that shake by themselves and make pleasant sounds; near the trunk's top center is a fist-sized, colorless, translucent fruit.
 - **Material:** fruit (one of the main ingredients).
-- **Used for:** potions for "hypnotists" in Sequence 6 of the [[Visionary Pathway Sequence 6]].
+- **Used for:** potions for "hypnotists" in Sequence 6 of the Visionary Pathway Sequence 6.
 - **Effect:** the wind-chime-like sound can hypnotize other animals to come to it and commit suicide.
 
 ### Water Ghost
@@ -81,27 +81,27 @@ This section lists creatures and entities and the potion materials or associatio
 
 ### Deep Sea Naga
 
-- **Association:** [[Fool's Pathway Sequence 6 Faceless Man]].
+- **Association:** Fool's Pathway Sequence 6 Faceless Man.
 - **Note:** Source lists only the association and does not provide a specific usable material.
 
 ### Mermaid
 
-- **Association:** [[Storm Pathway Sequence 5 Multi-Ocean Singer]].
+- **Association:** Storm Pathway Sequence 5 Multi-Ocean Singer.
 - **Note:** Source lists only the association and does not provide a specific usable material.
 
 ### Dogs of Fulgrim
 
-- **Association:** [[Fool's Pathway Sequence 3 Ancient Scholar]].
+- **Association:** Fool's Pathway Sequence 3 Ancient Scholar.
 - **Note:** Source lists only the association and does not provide a specific usable material.
 
 ### Dreamcatcher
 
-- **Association:** "Dreamwalker" of an [[Incomplete Audience Pathway Sequence 5]].
+- **Association:** "Dreamwalker" of an Incomplete Audience Pathway Sequence 5.
 - **Note:** Source lists only the association and does not provide a specific usable material.
 
 ### Harpies
 
-- **Association:** "Dreamwalkers" of an [[Incomplete Audience Pathway Sequence 5]].
+- **Association:** "Dreamwalkers" of an Incomplete Audience Pathway Sequence 5.
 - **Note:** Source lists only the association and does not provide a specific usable material.
 
 ## Creatures and Notes (Described)

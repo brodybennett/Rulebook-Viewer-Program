@@ -28,7 +28,7 @@ Your capabilities in sun-domain spells and sacrifices are greatly improved.
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Agility +1, Constitution +1, Inspiration +1.
+- **Attribute Gain:** Strength +1, Agility (DEX) +1, Constitution +1, Intuition (INT) +1.
 - **Skill/Path Gain:** Your [[Mysticism]] can be quickly upgraded to [[Erudition]].
 
 ### Sun Spells
@@ -41,8 +41,8 @@ Your spells and ritual abilities are greatly improved.
 ### Immune to Fear
 
 - **Cost:** 2 [[Spirituality]].
-- **Use:** **Swift action** ([[Swift Action]]).
-- **Effect:** You gain immunity to the [[Fear Condition]] for 1 [[Encounter]].
+- **Use:** **Swift Action** (Swift Action).
+- **Effect:** You gain immunity to the [[Fear Condition]] for 1 Encounter.
   - Fear states do not arise on you.
   - Existing fear states on you are cleared.
 - **Special:** Fear effects “larger than 1 character of you” can still be generated, but their effect is halved (round up).  
@@ -51,7 +51,7 @@ Your spells and ritual abilities are greatly improved.
 ### Fire of Light
 
 - **Cost:** 2 [[Spirit Points]].
-- **Use:** **Casting action** ([[Casting Action]]).
+- **Use:** **Casting Action** (Casting Action).
 - **Targeting and range:** Choose a location/area within 10 meters of you. The area of influence is no more than 10 meters.
 - **Effect:** You create a bright, golden illusory fire (an “ocean” of flame due to density).
   - If creatures in the area try to avoid the bright fire, [[Occult]] counters [[Physical Defense]] and ignores dexterity and evasion.
@@ -64,7 +64,7 @@ Your spells and ritual abilities are greatly improved.
 ### Cleansing Slash
 
 - **Cost:** 1 [[Spirit Points]].
-- **Use:** **Swift action** ([[Swift Action]]). Can be attached to weapons.
+- **Use:** **Swift Action** (Swift Action). Can be attached to weapons.
 - **Effect:** The next damage you deal gains restrained damage.
   - Regardless of the original damage type, only the additional restrained damage is considered holy damage.
   - This can be stacked with [[Purifying Bullets]], but not with other holy abilities that already counter damage.
@@ -81,11 +81,11 @@ Your spells and ritual abilities are greatly improved.
 ### Sacred Oath
 
 - **Cost:** 2 [[Spirituality]].
-- **Use:** **Swift action** ([[Swift Action]]).
+- **Use:** **Swift Action** (Swift Action).
 - **Requirement:** Read the corresponding ancient [[Hermetic Words]] in the [[Language of Occultism]].
 - **Effect:** Choose one effect; only one can be active at a time. Duration: 2 rounds.
   1. **"Power!":** Your power +2. Cannot be superimposed with the power brought by [[Singing]].
-  2. **"Agility!":** Your agility +2. Cannot be superimposed with the agility brought by [[Singing]].
+  2. **"Agility (DEX)!":** Your agility +2. Cannot be superimposed with the agility brought by [[Singing]].
   3. **"Flame!":** All your next damage adds 1d6 fire damage for 2 rounds. Free/attack/casting/full rounds that already have fire damage cannot increase this benefit.
   4. **"Holy!":** All your next damage adds 1d6 holy damage for 2 rounds (no restraint effect). Free/attack/casting/full rounds that already have holy damage cannot increase this benefit.
 - **Limits:** Once selected, the effect cannot be switched before it ends.
@@ -94,7 +94,7 @@ Your spells and ritual abilities are greatly improved.
 ### Sun Halo
 
 - **Cost:** 2 [[Spirituality]].
-- **Use:** **Casting action** ([[Casting Action]]).
+- **Use:** **Casting Action** (Casting Action).
 - **Targeting and range:** Choose friendly units within 20 meters of you as the center.
 - **Effect:**
   1. Anyone you consider a friend is affected; you can precisely control the halo to avoid specific targets.
@@ -106,21 +106,21 @@ Your spells and ritual abilities are greatly improved.
 ### Make Holy Water
 
 - **Cost:** 4 [[Spirituality]].
-- **Use:** **Full-round action** ([[Full-Round Action]]).
+- **Use:** **Full-Round Action** ([[Full-Round Action]]).
 - **Effect:** Create one bottle of [[Sun Holy Water]] by saying “sun” in the mystical language.
   - You must prepare a container in advance to carry it, otherwise it spills onto the ground.
 - **Reference:** See [[Holy Water Prayer]] for details.
-- **Scaling:** [[Sequence 5]]: Use becomes 1 casting action instead.
+- **Scaling:** [[Sequence 5]]: Use becomes 1 Casting Action instead.
 
 ### Sun Ritual
 
 - **Effect:** From now on, when you perform ritual magic in the sun domain, occult identification automatically succeeds by default.
 - **Scaling:** [[Sequence 5]]: As long as you do not believe in hostile gods, you can still receive a stable response even if you are not a believer in the sun.
-- **Limits:** This effect is brought by a potion, is an improvement during the [[Sequence 8]] period, and cannot be recorded or stolen.
+- **Limits:** This effect is brought by a potion, is an improvement during the Sequence 8 period, and cannot be recorded or stolen.
 
 ### Body of the Sun
 
-- **Effect:** You obtain a special [[Sun Path]], making it difficult to be possessed or polluted by evil spirit-like monsters.
+- **Effect:** You obtain a special [[Sun]], making it difficult to be possessed or polluted by evil spirit-like monsters.
   - You gain 5 points of resistance to curse, cold, and poison; this cannot be superimposed with [[Holy Water]].
   - Only [[Wraith Shadow]] higher than your sequence level (or “1 character” higher) can possess you.  
     - **Clarification:** Treat “1 character higher” as 1 Sequence higher.

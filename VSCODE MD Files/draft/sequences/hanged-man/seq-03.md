@@ -21,15 +21,15 @@ tags: ["pathway:hanged-man", "sequence:3"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** Will +2.
+- **Attribute Gain:** Willpower (WIL) +2.
 
 ### Three Songs
 
 - **Effect:**
   - You can drive three [[Soul]]s at the same time.
-  - In one [[Round]], you can use the skills of three different souls.
-  - You gain 3 additional [[Casting Action]]s; these casting actions can only activate active abilities of [[Spirit]]s you control.
-  - As a [[Free Action]], two additional heads grow on your shoulders—one young and one old—both part of your appearance.
+  - In one Round, you can use the skills of three different souls.
+  - You gain 3 additional Casting Actions; these casting actions can only activate active abilities of [[Spirit]]s you control.
+  - As a Free Action, two additional heads grow on your shoulders—one young and one old—both part of your appearance.
 - **Aftereffects / Special:**
   - When you enter [[Madness]], one of your heads enters madness for you. During the madness time limit, the number of souls you can drive at the same time is reduced by -1, up to two times. Your [[Grazing Cap]] is reduced by 1.  
     This penalty can stack up to **-2** while the madness lasts.
@@ -47,7 +47,7 @@ tags: ["pathway:hanged-man", "sequence:3"]
 - **Limits / Restrictions (Option B):**
   - You cannot share all [[Grazing Methods]].
   - You must allocate the corresponding grazing souls for the two clones to use independently.
-  - When splitting, you suffer 1d3 [[Sanity Check]]s for minor splits, or 1d6 for major splits.
+  - When splitting, you suffer 1d3 [[Sanity / Rationality Check]]s for minor splits, or 1d6 for major splits.
 - **Clones (Option B):**
   - The two separated bodies are not regarded as [[Beyonder]]s of the same Hanged Man Pathway as you.
   - You can give them two different grazing souls; in doing so, you lose the operation rights of those two grazing souls, and the two clones can use the complete corresponding soul abilities and can open [[Mythical Creature Form]].

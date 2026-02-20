@@ -22,7 +22,7 @@ tags: ["pathway:black-emperor", "sequence:7"]
 
 - **Attribute Gain:** strength +1; constitution +1; agility +1; inspiration +1
 - Your **law and deceit** skill increases by 1 level.
-- At the same time, the upper limit of your [[Sequence 9 Rapid Improvement]] skill has reached advanced level.
+- At the same time, the upper limit of your Sequence 9 Rapid Improvement skill has reached advanced level.
 
 ### Bribe
 
@@ -35,7 +35,7 @@ tags: ["pathway:black-emperor", "sequence:7"]
 
 1. **Throwing**
    - Make a confrontation against the target’s [[Physical Defense]].
-   - As long as the target cannot avoid “light/lightning,” the ability takes effect even if the [[Identification]] fails, but it does not cause damage.
+   - As long as the target cannot avoid “light/lightning,” the ability takes effect even if the Identification fails, but it does not cause damage.
    - If the target can avoid “light/lightning,” it only takes effect when it cannot dodge; the ability also takes effect if the Identification fails.
    - Additional restrictions:
      - The throw must be made at the target within [[Throwing Range]].
@@ -74,7 +74,7 @@ You weaken the target’s attack, defense, or control **against yourself** for a
    - This includes bullets and other effects that do not include the attacker’s subjective intention.
 
 2. **Weaken Defense**
-   - When the Briber takes any action against the target, the target’s [[Three Defenses]] and [[Confrontation Check]]s are -4 disadvantageous.
+   - When the Briber takes any action against the target, the target’s Three Defenses and [[Confrontation Check]]s are -4 disadvantageous.
 
 3. **Weaken Control**
    - Only affects control effects on the Briber, including [[Dream]], [[Epidemic]], [[Deterrence]], etc.
@@ -92,8 +92,8 @@ You weaken the target’s attack, defense, or control **against yourself** for a
    - For “Lost Actions” style effects:
      - Effects that cannot perform actions → can perform 1 cast/attack/move **or** 2 swifts
      - Effects that lose 2 actions → lose 1 action
-     - Effects that lose 1 action → can only perform 1 swift action
-     - Only 1 swift action → becomes invalid
+     - Effects that lose 1 action → can only perform 1 Swift Action
+     - Only 1 Swift Action → becomes invalid
    - Special cases of “Lost Actions” (and other similar situations) are decided by the GM with reference to:
      1. [[Spirit Body Thread Manipulation]]  
         - You can still advance the manipulation progress as usual, but the effect of the extended action is reduced by 2 levels.  
@@ -102,9 +102,9 @@ You weaken the target’s attack, defense, or control **against yourself** for a
      2. [[Possession]]  
         - In addition to casting spells, the possessed person can choose to attack/move as usual.
    - If a control effect meets multiple conditions at the same time, it suffers all reductions above.  
-     - Example: shock changes from “last for 1 round, lose 1 action” to “last for 1 round, and only perform 1 swift action in 1 round.”
+     - Example: shock changes from “last for 1 round, lose 1 action” to “last for 1 round, and only perform 1 Swift Action in 1 round.”
 
-##### Bribe—Charm
+##### Bribe—Charisma (CHA)
 
 You instill strong liking, making it difficult for the target to show hostile intent, or even willing to fight you.
 
@@ -143,9 +143,9 @@ When this condition applies, modify the chosen bribe type as follows:
    - **Weaken Control:**  
      - Identification difficulty becomes -5.  
      - Duration is only halved from the original basis (round up). Example: an effect that lasts 1 week becomes 4 days (instead of 1 day).  
-     - Lost actions: regardless of what is lost, the target solidly performs 1 swift action per round; but if the original effect is that you can only perform 1 swift action, then it is hardly weakened.
+     - Lost actions: regardless of what is lost, the target solidly performs 1 Swift Action per round; but if the original effect is that you can only perform 1 Swift Action, then it is hardly weakened.
 
-2. **Bribe—Charm**
+2. **Bribe—Charisma (CHA)**
    - The target still has certain affection for you, but whether they attack you depends on their own will.
    - Your Charisma check against them is halved.
    - The effect that pleases you and may even attack teammates can no longer be generated.

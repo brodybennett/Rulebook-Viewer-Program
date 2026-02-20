@@ -10,17 +10,17 @@ tags: ["pathway:abyss", "sequence:8"]
 
 > **Lore:** Known as “Cold-Blooded One” in ancient times, this Beyonder has lost their conscience and grown more inhuman, gaining demonic, magic-like abilities.
 
-- See also: [[Abyss Pathway]]
+- See also: Abyss
 
 ## Extraordinary Abilities
 
 ### Attribute Gain
 
-- **Attribute Gain:** Strength +1, Agility +1, Constitution +2, Inspiration +1.
+- **Attribute Gain:** Strength +1, Agility (DEX) +1, Constitution +2, Intuition (INT) +1.
 - Your **Mysticism** is added to the **Quick Learning** category of Sequence 9, which can be improved to **Proficiency**.
 - The **Sequence 9 potion** skill can be upgraded to **Advanced**.
   - [[Quick Learning]]
-  - [[Sequence 9]]
+  - Sequence 9
 
 ### Inhuman Body
 
@@ -35,35 +35,35 @@ tags: ["pathway:abyss", "sequence:8"]
 
 - **Effect:** From the moment you are promoted, you are no longer human. You still have feelings, but it is difficult to empathize; you will act only for your own desires, closer to pure egoism. Only in extreme cases is it close to emotional divinity.
 - **Play guidance:** When playing, pay attention to the annihilation of humanity.
-- **Condition impact (halved):** The effects of **Charm**, **Anger**, and **Fear** on you are **halved**.
+- **Condition impact (halved):** The effects of **Charisma (CHA)**, **Anger**, and **Fear** on you are **halved**.
   - You still have pure bloodthirsty and killing desires; this is not inconsistent with the halving of the anger state.
 - **Forced/restrictive effects:** If these conditions have any special effect on you, such as forcing or restricting your actions, you can ignore such incidents.
 - **Special:** Targets one level higher than you have the full effect on you normally.
 - *(This is a potion benefit that cannot be recorded or stolen.)*
-  - [[Charm]]
+  - [[Charisma (CHA)]]
   - [[anger]]
   - [[Fear]]
 
 ### Broken Wings
 
-- **Cost:** 3 Spirituality Points.
-- **Use:** 1 spell-casting action.
-- **Test:** Inspiration vs. Will Defense.
+- **Cost:** 3 Spirituality.
+- **Use:** 1 Casting Action.
+- **Test:** Intuition (INT) vs. Willpower Defense.
 - **Targeting and range:** Designate 1 target **within sight**.
 - **Effect:** You raise your arms horizontally and press down your palms suddenly; the target’s body becomes heavy and their movement slows, as if the wings used to fly have been broken off.
 - **Duration:** Lasting until the end of the target’s next action, they gain all of the following effects:
   - Their movement power is **halved**.
-  - Their Agility is **halved**, **rounded up**.
+  - Their Agility (DEX) is **halved**, **rounded up**.
   - Their Dodge is **normal** (unchanged), which will affect the value of Physical Defense.
   - They take a **-2 penalty** on skill or ability checks against the Physical Defenses of others.
 - **Sequence scaling:**
-  - **Sequence 4:** Broken Wings can affect multiple targets at once. One Inspiration Test is against the Will Defense of all targets.
+  - **Sequence 4:** Broken Wings can affect multiple targets at once. One Intuition (INT) Test is against the Willpower Defense of all targets.
     - If the target is one character lower than you, you can make them lose all mobility and agility, but it still does not affect Dodge.
 
 ### Demonic Spells
 
 - **Effect:** You gain more demonic spell-like abilities.
-- **Number gained:** Divide your ontology’s current Inspiration by **2** to determine the number of demon-like spells you can gain.
+- **Number gained:** Divide your ontology’s current Intuition (INT) by **2** to determine the number of demon-like spells you can gain.
 - **Additional gains:**
   - **Potion Completely Digested:** Choose another demon-like spell to get it.
   - Every time a **Sequence** or **position** is promoted: choose **1** more demon-like spell to get.
@@ -73,9 +73,9 @@ tags: ["pathway:abyss", "sequence:8"]
 - Choose the corresponding quantity from the following demonic spells:
 
 - **Bad Words Hurt People**
-  - **Cost:** 1 Spirituality Point.
-  - **Use:** 1 swift action; **1 time per round**.
-  - **Test:** Inspiration vs. Will Defense.
+  - **Cost:** 1 Spirituality.
+  - **Use:** 1 Swift Action; **1 time per round**.
+  - **Test:** Intuition (INT) vs. Willpower Defense.
   - **Targeting and range:** Choose 1 target.
   - **Effect:** Before casting, you need to RP out insults, bad words, and curses on the target, causing **1d4 curse damage**.
   - **Sequence scaling:**
@@ -83,20 +83,20 @@ tags: ["pathway:abyss", "sequence:8"]
 - **Limits:** This restriction is **per target** and does not share a pool with other abilities.
 
 - **Create Poison Flame**
-  - **Cost:** 2 Spirituality Points.
-  - **Use:** 1 casting action.
+  - **Cost:** 2 Spirituality.
+  - **Use:** 1 Casting Action.
   - **Test:** Occult vs. Physical Defense.
   - **Targeting and range:** Choose 1 target.
   - **Effect:** A red-green flame rises from your palm; you spew out this flame, causing **2d6 poison** and **1d6 fire** damage.
   - **Special:**
     - This ability doubles the damage to plants, spider webs, and silk hair.
-    - A target who successfully loses hit points from poison damage begins to suffer **1 point of poison damage each round** until they clear the poison with a **15th DV Medicine** check.
+    - A target who successfully loses hit points from poison damage begins to suffer **1 point of poison damage each round** until they clear the poison with a **15th Difficulty Value Medicine** check.
   - **Sequence scaling:**
     - **Sequence 7:** The poisonous fire can ascend into a poisonous gas wrapped in green fire; multiple targets can be selected within **10 meters**.
 
 - **Magma Attachment**
-  - **Cost:** 2 Spirituality Points.
-  - **Use:** 1 casting action.
+  - **Cost:** 2 Spirituality.
+  - **Use:** 1 Casting Action.
   - **Duration:** 1 encounter.
   - **Effect:** Your skin splits into web-like lines and hidden magma appears in the gaps; the fissures begin to shimmer, but it’s not enough to illuminate.
     - You gain **Fire Resistance 5** and **Cold Resistance 5**.
@@ -106,16 +106,16 @@ tags: ["pathway:abyss", "sequence:8"]
 
 - **Danger Premonition**
   - **Trigger:** When you are about to encounter a surprise attack or sneak attack.
-  - **Use:** Immediately use Inspiration to conduct a **DV 25** spiritual intuition appraisal.
+  - **Use:** Immediately use Intuition (INT) to conduct a **Difficulty Value 25** spiritual intuition appraisal.
   - **Effect (on success):** The opponent cannot gain the advantages brought by the surprise round and surprise attack, and the spiritual intuition will be triggered steadily at this time.
   - **Sequence scaling:**
-    - **Sequence 7:** Changed to **DV 20** Inspiration identification, and you can tell whether the enemy is a fallen person or a fallen creature.
+    - **Sequence 7:** Changed to **Difficulty Value 20** Intuition (INT) identification, and you can tell whether the enemy is a fallen person or a fallen creature.
   - [[Surprise Round]]
   - [[Spiritual Intuition]]
 
 - **Create Fireballs**
-  - **Cost:** 1 Spirituality Point.
-  - **Use:** 1 casting action.
+  - **Cost:** 1 Spirituality.
+  - **Use:** 1 Casting Action.
   - **Test:** Occult vs. Physical Defenses.
   - **Targeting and range:** Choose 1 target.
   - **Effect:** Deal **3d6 fire damage**.

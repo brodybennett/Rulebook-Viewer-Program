@@ -25,13 +25,13 @@ tags: ["pathway:paragon", "sequence:5"]
 - These naturally occurring astronomical phenomena do not belong to the Extraordinary. You cannot fully understand the logic and specific composition of these phenomena, so you cannot distinguish between reality and illusion in hallucinations, and use rigorous dialectical logic to find the anchor point of reality.
 - The astronomical phenomenon reproduced through the physical model is also a kind of astronomical phenomenon that extraordinary people have witnessed. With the help of this scale model that can fully understand the principle, process, and duration, Astronomers can distinguish in hallucinations that have been understood and practiced a model of astronomical phenomena, discovering its difference from other astronomical phenomena, so as to find the real anchor, stabilize the self, and complete the promotion.
 
-> **Lore:** Astronomers and astrologers in the [[Secret Voyeurs Pathway]] are similar in purpose. When promoted, they use false knowledge to avoid risks, but one is to imitate falsehood through practice, and the other is to create falsehood through knowledge theory.
+> **Lore:** Astronomers and astrologers in the Secret Voyeurs Pathway are similar in purpose. When promoted, they use false knowledge to avoid risks, but one is to imitate falsehood through practice, and the other is to create falsehood through knowledge theory.
 
 ## Extraordinary Abilities
 
 ### Attribute Gain
 
-- **Attribute Gain:** Inspiration +2.
+- **Attribute Gain:** Intuition (INT) +2.
 - Navigation, Mysticism, and Astronomy are included in the rapid growth category of **Sequence** 9, up to proficiency.
 - Mysticism is erudition.
 
@@ -41,14 +41,14 @@ tags: ["pathway:paragon", "sequence:5"]
 - You gain the following astrology for the basic astronomical phenomenon:
 
 - **Galactic Traction**
-  - **Use:** 1 casting action.
+  - **Use:** 1 Casting Action.
   - **Cost:** consumes 2 spirit points.
   - **Targeting and range:** chooses up to 8 targets.
   - **Check:** astronomy against will defense.
   - **Effect:** Reduce each target's movement by your movement value for **1 round**. You cannot move for that round, but your movement action still exists (spent maintaining the effect).
 
 - **Stellar Outer Light**
-  - **Use:** 1 casting action.
+  - **Use:** 1 Casting Action.
   - **Cost:** consuming 2 points of spirituality.
   - **Targeting and range:** the area with a radius of 8 meters centered on you will be hit indiscriminately.
   - **Check:** astronomy against physical defense.
@@ -56,7 +56,7 @@ tags: ["pathway:paragon", "sequence:5"]
   - **Aftereffects:** You cause skin cancer, dermatitis, pain, and vision loss to living creatures in the area, taking a -2 penalty on next skill and ability checks.
 
 - **Chang Heng Lie Yang**
-  - **Use:** 1 casting action.
+  - **Use:** 1 Casting Action.
   - **Cost:** consuming 2 points of spirituality.
   - **Targeting and range:** the area with a radius of 8 meters centered on you will be hit indiscriminately.
   - **Check:** astronomy against physical defense.
@@ -64,7 +64,7 @@ tags: ["pathway:paragon", "sequence:5"]
   - **Special:** against **dark** creatures, holy damage increases by **+1d6**; against **fallen**, **+2d6**; against **undead**, **+3d6**.
 
 - **Mercury is extremely hot**
-  - **Use:** 1 swift action, once in a round.
+  - **Use:** 1 Swift Action, once in a round.
   - **Cost:** consumes 2 points of spirituality; lasts for 1 round; continues to maintain 1 spirituality per round after 1 round.
   - **Limits:** You choose an effect to take effect; the two effects conflict with each other, and only one effect can take effect at the same time.
   - **Effect (choose 1):**
@@ -72,7 +72,7 @@ tags: ["pathway:paragon", "sequence:5"]
     - You gain 10 points of fire resistance, which cannot be superimposed, but you will immediately feel the extreme cold, and your skill and attribute identification will continue to be negative by -2, and your agility will be temporarily -2, which will affect your mobility and physical defense.
 
 - **Star Gold High Pressure**
-  - **Use:** 1 casting action.
+  - **Use:** 1 Casting Action.
   - **Cost:** consuming 2 spiritual points.
   - **Targeting and range:** indiscriminately affecting an area with a radius of 8 meters centered on you.
   - **Check:** astronomy against physical defenses.
@@ -82,48 +82,48 @@ tags: ["pathway:paragon", "sequence:5"]
     - **Dyspnea state:** Creatures are unable to communicate, but they can still barely release their language abilities. All creatures with dyspnea have a -2 disadvantage in skill and attribute evaluation.
 
 - **Cerulean Agate**
-  - **Use:** 1 casting action.
+  - **Use:** 1 Casting Action.
   - **Cost:** consuming 2 spirituality points.
   - **Targeting and range:** indiscriminately affecting an area with a radius of 8 meters centered on you.
   - **Effect:** you make the cold or heat brought by extraordinary abilities and other astral influences fade away quickly, and the incidental effects of cold environment and cold damage disappear.
   - **Special:** This can also create suitable environments that do not exceed Earth standards.
 
 - **Yinghuo Ecology**
-  - **Use:** 1 casting action.
+  - **Use:** 1 Casting Action.
   - **Cost:** consumes 2 points of spirituality.
   - **Targeting and range:** affects an area with a radius of 8 meters centered on you indiscriminately.
   - **Effect:** all creatures in this area gain 5 points of cold resistance, which cannot be superimposed, and lasts for 1 round.
-  - **During the duration:** the wind in the area will increase, the flying movement of the [[Storm Path]] will be doubled, and the [[Wind Blade]] will increase the physical damage by 1d6.
+  - **During the duration:** the wind in the area will increase, the flying movement of the Storm Path will be doubled, and the [[Wind Blade]] will increase the physical damage by 1d6.
 
 - **Star wood atmosphere**
   - **Effect:** Your body is filled with a dense atmosphere, which hinders others from observing you.
   - This ability has the following uses:
-    - **Use:** 1 swift action.
+    - **Use:** 1 Swift Action.
       - **Cost:** consuming 2 points of spirituality.
       - **Effect:** your body is covered by a dense air layer, which will cover your appearance; only the [[Peeping Eye]], fate, or the vision of one higher than you can see your real face.
       - **Special:** Your gaseous appearance appears bulky to others, and you are considered a creature of bulk only in appearance. While in this state, you deal -1d6 physical damage.
-    - **Use:** 1 casting action.
+    - **Use:** 1 Casting Action.
       - **Cost:** consuming 2 spirituality points.
       - **Effect:** you create an endless fog of air, covering the entire area, and the air escapes after 1 round if the area is not sealed.
       - **Aftereffects:** Creatures exposed to the fog begin each round with 1d6 points of radiation damage, which affects living creatures only.
       - **Special:** At the same time, except for the [[Eye of Mystery]] and the [[One with Extraordinary Destiny]], all creatures are considered blind, including yourself.
 
 - **Satellite Rings**
-  - **Use:** 1 casting action.
+  - **Use:** 1 Casting Action.
   - **Cost:** consume 3 points of spirituality.
   - **Effect:** a star ring and three illusory satellites appear around you; your charm +1, and gain 3 points of armor.
   - **Limits:** Whenever you suffer an attack that does not ignore armor and is against physical defense, one of your satellites will be lost. When completely lost, the armor and star ring will disappear together.
   - **Special:** While gaining this benefit, you become magnetically free, like the ringed planet, and you take 1d6 more fire damage, holy damage, and lightning damage.
 
 - **Uranus Magnetic Field**
-  - **Use:** 1 casting action.
+  - **Use:** 1 Casting Action.
   - **Cost:** consumes 3 spirituality points.
   - **Targeting and range:** a strong magnetic field appears in an area with a radius of 8 meters centered on you.
   - **Duration:** lasts for 1 round.
   - **Effect:** Fire/sacred/lightning damage **outside** the 8-meter area is reduced by **1d6**; compare with **Satellite Rings** and use the better reduction.
 
 - **Neptune and Tianwei**
-  - **Use:** 1 casting action.
+  - **Use:** 1 Casting Action.
   - **Cost:** consuming 2 points of spirituality.
   - **Targeting and range:** you choose two targets.
   - **Effect:** One target gains 3 points of armor (stacking). That target's movement is reduced by the **other** target's movement value.
@@ -131,11 +131,11 @@ tags: ["pathway:paragon", "sequence:5"]
   - **Special/Note:** The other target is otherwise unaffected.
 
 - **Roche Limit**
-  - **Use:** 1 attack action.
+  - **Use:** 1 Attack Action.
   - **Cost:** consuming 2 spiritual points.
   - **Trigger:** When you make a close-contact attack with a target.
   - **Effect:** your attack will cause a small explosion, causing an additional 2d6 physical and 1d6 fire damage.
-  - **Special:** only for extra damage, you will also suffer half of it, round up, and lose the corresponding HP.
+  - **Special:** only for extra damage, you will also suffer half of it, round up, and lose the corresponding Vitality.
   - **Special:** If you have the satellite protection of the [[Sagittarius ring]], the damage you suffer can be offset by consuming a satellite.
 
 - Other astrology reproductions based on actual astronomical knowledge and concepts. An astronomer recommended that 3 more original astrology can be created if necessary and allowed by the **GM**.
@@ -143,12 +143,12 @@ tags: ["pathway:paragon", "sequence:5"]
 ### Astronomical Prediction
 
 - **Effect:** You can predict the future astronomical phenomena to meet the requirements of Mysticism and exert stronger power in a specific period of time.
-- **Use:** 1 casting action.
+- **Use:** 1 Casting Action.
 - **Cost:** consuming 2 points of spirituality.
 - **Effect:** you get celestial information for the next week, which does not include [[Blood Moon]]s.
 - Afterwards, roll **1d24** to determine how many hours after a particular star reaches its correct position.
 - Perform another 1d7; the random effect will take effect 1 hour after the time is up:
-  - **Saturn (Goddess of the Earth):** During the effective period, your strength and constitution +1, restore 1d2 HP every round, and increase your biology by 1 level.
+  - **Saturn (Goddess of the Earth):** During the effective period, your strength and constitution +1, restore 1d2 Vitality every round, and increase your biology by 1 level.
   - **Jupiter (Lord of the Storm):** During the effective period, you get 2 points of damage reduction, strength and agility +1, and those who try to catch you will be like catching a swimming fish, and you cannot be grappled.
   - **Mars (God of War):** During the effective period, your Strength and Constitution +1, and all attack skills increase by one level.
   - **Sun (Eternal Blazing Sun):** During the effective period, you gain 3 points of resistance to fire, curse, and poison, which cannot be superimposed, and you can see the faint divine breath by the [[id:alias-spirit-vision|Spirit Vision]].

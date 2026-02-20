@@ -16,7 +16,7 @@ tags: ["pathway:mutant", "sequence:7"]
 
 ### Attribute Gain
 
-- **Attribute Gain:** **Strength** +1, **Physique** +1, **Agility** +1.
+- **Attribute Gain:** **Strength** +1, **Constitution (CON)** +1, **Agility (DEX)** +1.
 - Your **Mysticism** has joined the rapid growth category of **Sequence** 9, and can be improved to proficiency at most.
 
 ### Transform Werewolf
@@ -25,7 +25,7 @@ tags: ["pathway:mutant", "sequence:7"]
 - **Effect:** You immediately transform into a werewolf.
 - **Duration:** About 8 hours.
 - **While transformed:**
-  - **Strength** +2, **Constitution** +2, **Dexterity** +3.
+  - **Strength** +2, **Constitution** +2, **Agility (DEX)** +3.
   - You gain: [[Pursuit]], **Blade Swipe**, **Fast Healing**, **Fast Dodge**, **Werewolf Transformation**, **Spiritual Curse**, **Night Vision**, and other abilities.
   - You are considered a creature of darkness and dislike sunlight, though sunlight has no actual effect on you.
 
@@ -44,22 +44,22 @@ tags: ["pathway:mutant", "sequence:7"]
 ### Werewolf Transformation
 
 - **Cost:** Consumes 2 points of [[Spirituality]].
-- **Use:** **Spell-Casting Action**.
-- **Test:** [[Inspiration Test]] against the [[Will Defense]].
+- **Use:** **Casting Action**.
+- **Test:** Intuition Test against the Willpower Defense.
 - **Targeting and conditions:**
   - Choose a target you have dealt poison damage to with **Blade Swipe**, and the poison has been soaked into the target for five minutes.
   - Poison damage is ignored if it is fully negated by [[Poison Resistance]].
-- **Effect:** After the **Spell-Casting Action**, the target is transformed into your follower and is regarded as a werewolf-like creature.
+- **Effect:** After the **Casting Action**, the target is transformed into your follower and is regarded as a werewolf-like creature.
 - **Limits and guidance:**
   1. The target cannot die, but can fall into a helpless state. This ability is generally used for ordinary people or existences weaker than you.
   2. If the target’s Sequence level is higher than yours, it usually requires the target to be in a helpless state to do so.
-  3. Werewolf transformation has no effect on targets one higher than you, and provokes [[Sanity Rolls]] for [[Mythic Creatures]].
+  3. Werewolf transformation has no effect on targets one higher than you, and provokes [[Sanity / Rationality Rolls]] for [[Mythic Creatures]].
 - **Werewolf-like creatures:**
   - Usually become indifferent and fearless of death.
   - Unable to disobey the master’s order, no matter how unreasonable the order is.
   - Appearance still belongs to human beings.
   - A werewolf-like creature can take SC (1/1d3) as a **Swift Action** to become [[Half-Lycanthropy]].
-    - The creature grows thick hair like a werewolf, gains **Strength** +2 and **Dexterity** +2, and has 1d6 **Fast Healing**.
+    - The creature grows thick hair like a werewolf, gains **Strength** +2 and **Agility (DEX)** +2, and has 1d6 **Fast Healing**.
   - Without further benefit, this werewolf-like creature can only live for 24 hours, whether transformed or not.
 - **Purging the poison:**
   - The poison from **Blade Swipe** can be purged; initially requiring only a 10 [[Medicine Check]] as a **Casting Action**.
@@ -103,11 +103,11 @@ tags: ["pathway:mutant", "sequence:7"]
 
 - **Use:** 1 **Swift Action**; 1 time per round.
 - **Effect:**
-  1. You gain 1 of the above traits, which does not require a [[Sanity Rolls]].
+  1. You gain 1 of the above traits, which does not require a [[Sanity / Rationality Rolls]].
   2. Partial transformation can also be used to adjust in reverse. For example, if you become a werewolf but don’t want to be conspicuous because of the werewolf’s appearance, you can use partial transformation to cancel **Hair Armor**, which will also make you lose the benefit of **Hair Armor**.
 - **Sequence 6:**
   - Even if you become a living corpse, you can use partial transformation to gain the benefits of a werewolf, gain some of the characteristics of a werewolf, or use the ability of a living corpse under the appearance of a werewolf.
-  - However, the Strength, Physique, and Agility bonuses brought by the werewolf itself can only be obtained by completely turning into a werewolf.
+  - However, the Strength, Constitution (CON), and Agility (DEX) bonuses brought by the werewolf itself can only be obtained by completely turning into a werewolf.
   - If you become a werewolf at all, you will lose the [[Power of the Undead]], the [[Skin of Steel]], and not including the [[Control of Decay and Cold]].
   - Note: Although it is possible to do this while in the [[Wraith State]], it is meaningless, because the Wraith can't deal physical damage even if it gets the benefit of the werewolf.
 - **Sequence 4:** Some transformations can still be used in the [[Puppet State]].

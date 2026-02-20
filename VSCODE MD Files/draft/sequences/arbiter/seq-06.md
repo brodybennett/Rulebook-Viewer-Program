@@ -16,18 +16,18 @@ Set new rules for a certain area. Everything in the area must abide by the rules
 
 - Strength +1
 - Constitution +1
-- Agility +1
-- Inspiration +1
+- Agility (DEX) +1
+- Intuition (INT) +1
 - You can start to learn **Law** more quickly.
 
 - Whenever you, as a judge, sum up the guilt of a certain type of non-repetitive case and pronounce a verdict based on appropriate reasons and standards that meet the crime, your legal skills will rise by 1 level.
-- For growth and restrictions, refer to [[Sequence 9: Most Knowledgeable]].
+- For growth and restrictions, refer to Sequence 9: Most Knowledgeable.
 
 ### Authority
 
 > **Lore:** You have indescribable majesty, which is a qualitative change in the ability of the [[Arbitrator]].
 
-- **Cost:** None (no **Spirituality Points** required).
+- **Cost:** None (no **Spirituality** required).
 - **Use:** 1 **Free Action** to turn on/off.
 - **Targeting and range:** All targets within 50 meters.
 - **Effect:**
@@ -44,14 +44,14 @@ You set new rules for a certain area; everything in the area must follow the rul
 All Laws below require speaking the language that leverages the power of nature to use.  
 [[Language that leverages the power of nature]]
 
-- **Cost:** 2 Spirituality Points.
+- **Cost:** 2 Spirituality.
 - **Use:** 1 **Swift Action**, 1 time per round.
 - **Targeting and range:** Choose 1 room/house within 50 meters (range) to affect.
 - **Effect:** Push your palm forward and say: â€œThis place is forbidden (forbidden content)!â€ You formulate a rule that everyone must obey.
 - **Counteracting the prohibition decree:**
   - One must first act contrary to it.
-  - â€œRelevant attributes are identified as the difficulty of â€˜Law + Inspiration + Willâ€™ against the judge.â€
-  - It is forbidden to use Inspiration to fight against teleportation, and it is forbidden to use Agility to fight against concealment, and so on.
+  - â€œRelevant attributes are identified as the difficulty of â€˜Law + Intuition (INT) + Willâ€™ against the judge.â€
+  - It is forbidden to use Intuition (INT) to fight against teleportation, and it is forbidden to use Agility (DEX) to fight against concealment, and so on.
   - Even if you succeed in countering the law, your actions can only take effect once, and you still need to continue to fight the next execution.
   - If the confrontation fails, the action you perform will not be refunded.\r\n  - Resolve counteraction using the standard Prohibition check described above.
 - **Limits:**
@@ -90,11 +90,11 @@ All Laws below require speaking the language that leverages the power of nature 
 - **Cost:** 3 points of Spirituality.
 - **Use:** 1 **Spellcasting Action**.
 - **Targeting and range:** Choose 1 target.
-- **Check:** Inspiration + Law against physical defense; ignores armor.
+- **Check:** Intuition (INT) + Law against physical defense; ignores armor.
 - **Effect:**
   - The target is considered to be in a [[Bound State]].
   - The targetâ€™s attack/displacement cannot reach the outside world, but the outside world can attack the target.
-  - To escape, it needs to cause damage equal to the judgeâ€™s â€œrd20 + Inspiration + Lawâ€ to the wall. The external damage will also damage the wall when it hits the target.
+  - To escape, it needs to cause damage equal to the judgeâ€™s â€œrd20 + Intuition (INT) + Lawâ€ to the wall. The external damage will also damage the wall when it hits the target.
   - **Special:**
     - Spiritual bodies cannot pass through the wall from the inside, but can enter from the outside.
     - Imprisonment is divided by area rather than creatures, so creatures that are possessed or overlapped will be imprisoned together.  
@@ -103,7 +103,7 @@ All Laws below require speaking the language that leverages the power of nature 
 
 > **Lore:** The whole environment suddenly froze, as if there was an invisible barrier that even spirit bodies could not penetrate.
 
-- **Cost:** 3 Spirituality Points.
+- **Cost:** 3 Spirituality.
 - **Use:** 1 **Casting Action**.
 - **Targeting and range:** Choose a room/building or area within 50 meters.
 - **Effect:**
@@ -124,10 +124,10 @@ This ability has two uses:
    - **Effect:** Release a kind of Imprisoned/Confinement effect you created.
 
 2. **Release another binding/sealing effect**
-   - **Cost:** 3 Spirituality Points.
+   - **Cost:** 3 Spirituality.
    - **Use:** 1 **Spellcasting Action**.
    - **Targeting and range:** Choose within 50 meters; you can choose a target other than yourself.
-   - **Effect (as written):**\r\n     - For non-spiritual binding/sealing effects: make an **Inspiration + Law** check to break free; otherwise use the casterÃ¢â‚¬â„¢s **Inspiration + Will** as the opposing check.\r\n     - For each **Sequence** the caster is higher than you: **-2 disadvantage** on the check.\r\n     - Apply normal disadvantage rules only; do not stack additional Ã¢â‚¬Å“characterÃ¢â‚¬Â penalties.\r\n     - The binding/closing effect achieved by the [[Black Emperor]] approach through distortion falls into this category.\r\n     - Distortion of behavior/intent, or an effect of loss of action similar to shock/spiritual body string, as long as there is no material restraint, does not belong to this category.
+   - **Effect (as written):**\r\n     - For non-spiritual binding/sealing effects: make an **Intuition (INT) + Law** check to break free; otherwise use the casterÃ¢â‚¬â„¢s **Intuition (INT) + Will** as the opposing check.\r\n     - For each **Sequence** the caster is higher than you: **-2 disadvantage** on the check.\r\n     - Apply normal disadvantage rules only; do not stack additional Ã¢â‚¬Å“characterÃ¢â‚¬Â penalties.\r\n     - The binding/closing effect achieved by the [[Black Emperor]] approach through distortion falls into this category.\r\n     - Distortion of behavior/intent, or an effect of loss of action similar to shock/spiritual body string, as long as there is no material restraint, does not belong to this category.
 
 ### Whip!
 
@@ -136,11 +136,11 @@ This ability has two uses:
 - **Cost:** 2 points of Spirituality (first attack).
 - **Use:** 1 **Attack Action**.
 - **Targeting and range:** Choose 1 target within 5 meters.
-- **Check:** Inspiration + Law against physical defense.
+- **Check:** Intuition (INT) + Law against physical defense.
 - **Effect:**
   - When you swing your right hand, you are considered to have an invisible soft whip.
   - You deal 1d6 + half-strength damage dice; the damage is rounded up.
-  - You can attack up to three times in a row and make three identifications. Each additional identification consumes 1 more Spirituality Point.
+  - You can attack up to three times in a row and make three identifications. Each additional identification consumes 1 more Spirituality.
 - **Special:**
   - This essentially allows you to hold an invisible soft whip as a weapon, so your original weapon has no effect.
   - (Whiplashes created with the Law cannot be synergized with [[Whip of Pain]].)
@@ -149,7 +149,7 @@ This ability has two uses:
 
 > **Lore:** Create an invisible majestic force that can even blow away spirit bodies.
 
-- **Cost:** 3 Spirituality Points.
+- **Cost:** 3 Spirituality.
 - **Use:** 1 **Casting Action**.
 - **Targeting and range:** Choose 1 target within 50 meters.
 - **Effect:**
@@ -158,7 +158,7 @@ This ability has two uses:
   - No need to identify.
   - You can choose air; stop after hitting an obstacle.
   - For every 2 points of Constitution the target has, the distance to be thrown is reduced by 1 meter (which may cause 1d6 physical damage from the fall).
-- **Special:** For non-corporeal creatures such as spirits/ghosts, for every 3 points of Agility, the distance to be thrown is reduced by 1 meter.
+- **Special:** For non-corporeal creatures such as spirits/ghosts, for every 3 points of Agility (DEX), the distance to be thrown is reduced by 1 meter.
 
 ### Death!
 
@@ -170,16 +170,16 @@ After declaring the target dead, you cause powerful damage.
 1. **Melee collision**
    - **Cost:** 8 points of Spirituality.
    - **Use:** 1 **Attack Action**.
-   - **Check:** Inspiration + Legal identification against physical defense, ignoring agility and dodge; excluding targets that can [[Avoid light/lightning]].
+   - **Check:** Intuition (INT) + Legal identification against physical defense, ignoring agility and dodge; excluding targets that can [[Avoid light/lightning]].
    - **Effect:**
      - Your body is united with some strange power, dragging afterimages to collide to the enemy.
      - This is a melee effect.
      - The damage you deal will increase by a fixed value of â€œInspiration + Lawâ€ value; the damage type remains the same.
 
 2. **Ranged body-part judgment**
-   - **Cost:** 8 Spirituality Points.
-   - **Use:** 1 **Spell-casting Action**.
-   - **Check:** Inspiration + Legal identification against physical defense, ignoring agility and dodge; excluding targets that can [[Avoid light/lightning]].
+   - **Cost:** 8 Spirituality.
+   - **Use:** 1 **Casting Action**.
+   - **Check:** Intuition (INT) + Legal identification against physical defense, ignoring agility and dodge; excluding targets that can [[Avoid light/lightning]].
    - **Effect:**
      - You specify 1 of its body parts to only cause â€œInspiration + Lawâ€ fixation value damage.
      - This is a ranged effect (only for ranged use).
