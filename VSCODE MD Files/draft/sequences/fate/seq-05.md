@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Wheel of Fortune Pathway: Sequence 5
 
 > **Lore:** You can restrain yourself to accumulate large amounts of “luck,” resolve fatal crises dramatically at critical moments, and occasionally encounter extremely low-probability good fortune in everyday life. Your intuition is extremely strong, and you are an expert in mysticism—whether in divination or anti-divination. You can also inflict bad luck on enemies, making targets increasingly unlucky.
@@ -36,6 +37,7 @@ id: fate-seq-05-luck
 name: Luck
 pathway: fate
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost:
@@ -45,7 +47,28 @@ opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 2d3
+  notes: Effect roll maps extreme luck bonus/penalty; other luck tiers and special list rolls are noted in scaling.
+scaling:
+- when: better_luck
+  changes:
+    effect_roll: 2d2
+    effect_note: Better luck bonus/penalty uses 2d2 instead of 2d3.
+- when: ordinary_good_luck
+  changes:
+    effect_note: Ordinary good luck is a flat +2/-2 (no dice).
+- when: special_lucky_money_pickup
+  changes:
+    effect_roll: 1d20
+    effect_note: Roll 1d3 to determine currency type for the money found.
+- when: special_lucky_bank_windfall
+  changes:
+    effect_roll: 3d10
+    effect_note: Roll 1d3 to determine currency type for the banked windfall.
 tags:
 - buff
 text: 'Your Luck ability during Sequence 7 Luck has been improved. *Luck level increased:
@@ -55,6 +78,7 @@ text: 'Your Luck ability during Sequence 7 Luck has been improved. *Luck level i
   gold pound (banknote) You just met someone or something you wanted to see, just
   passed by, but you found out'
 ```
+
 
 
 
@@ -87,6 +111,7 @@ id: fate-seq-05-accumulate-luck
 name: Accumulate luck
 pathway: fate
 sequence: 5
+status: canonical
 type: active
 action: free
 cost:
@@ -96,7 +121,20 @@ opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 2d3
+  notes: Effect roll maps extreme luck accumulation; other luck tiers adjust the stored value.
+scaling:
+- when: moderate_luck_accumulation
+  changes:
+    effect_roll: 2d2
+    effect_note: Moderate luck accumulation stores 2d2 luck.
+- when: normal_luck_accumulation
+  changes:
+    effect_note: Normal luck accumulation stores 2 luck (no dice).
 tags:
 - ritual
 - buff
@@ -110,6 +148,7 @@ text: 'You can rely on moderation to accumulate a lot of luck to resolve crises 
   half of the spiritual limit, rounded up 3) Release: 1 free action, release any value
   of luck you stored, they have t...'
 ```
+
 
 
 
@@ -148,15 +187,26 @@ id: fate-seq-05-luck-grant
 name: Luck Grant
 pathway: fate
 sequence: 5
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 3
 roll: null
 opposed_by: none
 range: 20m
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 2d3
+  notes: Effect roll maps the bad luck disadvantage applied to each appraisal when granting bad luck.
+scaling:
+- when: bad_luck_event_trigger
+  changes:
+    effect_note: Target may be asked to make a DV 20 Luck check; on failure the narrated bad luck event occurs.
 tags:
 - ritual
 text: 'You bestow luck or bad luck on the target. Use: 1 Casting Action, consume 3
@@ -169,6 +219,7 @@ text: 'You bestow luck or bad luck on the target. Use: 1 Casting Action, consume
   target you give bad luck enjoys the following effects: All skills and attribute
   appraisals last for -2d3 disadvantages, and c...'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Paragon Pathway: Sequence 7
 
 You can quickly identify magical items, intuitively grasp the abilities and problems of most supernatural items, and avoid hidden dangers to the greatest extent when using them.
@@ -44,14 +45,21 @@ id: paragon-seq-07-spiritual-identification
 name: Spiritual Identification
 pathway: paragon
 sequence: 7
+status: canonical
 type: active
 action: swift
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: difficulty_value
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d2
+  notes: Occult check DV 15. If the target is an extraordinary item/material, it costs 2 spirituality. For items one size category larger, you learn at most 1d2 info; spending 1 hour allows up to 2d3 info.
 scaling: []
 tags:
 - ritual
@@ -64,6 +72,7 @@ text: 'You judge the type and function of a thing or item. Use: As a Swift Actio
   and negative effects of this extraordinary item. You also learn the items specific
   form, such as: a charm, an amulet,'
 ```
+
 
 
 
@@ -100,6 +109,7 @@ id: paragon-seq-07-spiritual-sense
 name: Spiritual Sense
 pathway: paragon
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -108,6 +118,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -122,6 +138,7 @@ text: 'You can detect whether an object within your field of vision is spiritual
   tell which material belongs to the [[Red Priest]] only after you know the Pathway
   of the Red Priest. Limits: This can on...'
 ```
+
 
 
 
@@ -144,6 +161,7 @@ id: paragon-seq-07-item-improvement
 name: Item Improvement
 pathway: paragon
 sequence: 7
+status: canonical
 type: active
 action: full-round
 cost: {}
@@ -152,6 +170,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -166,6 +190,7 @@ text: 'You improve the things you hold; this benefit comes from understanding an
   Beyonder can change the improvement of a low-Sequence Beyonder to a higher-rank
   or other version through knowledge.'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Darkness Pathway: Sequence 3
 
 ## Horror Bishop
@@ -37,6 +38,7 @@ id: night-seq-03-control-of-darkness
 name: Control of Darkness
 pathway: night
 sequence: 3
+status: canonical
 type: active
 action: attack
 cost: {}
@@ -45,6 +47,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -56,6 +64,7 @@ text: 'Cost: An Attack Action consumes 4 points of Spirituality. [[Spirituality]
   and direction: Affects targets in the same direction. Affects at most three targets
   in that direction. The number of targets below Demigods is unlimited.'
 ```
+
 
 
 

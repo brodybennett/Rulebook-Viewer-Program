@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Death Pathway: Sequence 6
 
 > **Lore:** Start to set foot in the Spirit World, recruit messengers by yourself, and get help from some Spirit World creatures.
@@ -44,6 +45,7 @@ id: death-seq-06-words-of-the-dead
 name: Words of the Dead
 pathway: death
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -52,12 +54,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
 text: 'Effect: can bypass the protection of flesh and blood, elevating communication
   with a spirit body to drive or even enslave. [[Words of the Dead]]'
 ```
+
 
 
 
@@ -74,6 +83,7 @@ id: death-seq-06-drive-the-dead
 name: Drive the Dead
 pathway: death
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -82,6 +92,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -93,6 +109,7 @@ text: 'Effect: the number and quality of natural spirits, undead creatures, and 
   spirit body. [[Spirit Body Strength]] Sequence 5: replace the 2 multiplier with
   3.'
 ```
+
 
 
 
@@ -113,16 +130,32 @@ id: death-seq-06-language-of-the-dead
 name: Language of the Dead
 pathway: death
 sequence: 6
-type: active
+status: adapted
+type: toggle
 action: swift
 cost:
-  spirituality: 2
-roll: null
-opposed_by: none
+  spirituality: 1
+roll: 1d20 + @attr.int + @skill.knowledge
+opposed_by: difficulty_value
 range: 1 target within 50 meters.
 target: designated target(s)
 duration: sustained
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.knowledge
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: check_roll maps the repeated Knowledge of the Dead confrontation against spirit-body strength; damage_roll is the baseline cold-strike package when spirit-body separation is complete.
+scaling:
+- when: target_is_higher_sequence_or_tier
+  changes:
+    effect_note: Apply the listed -2 penalties per higher sequence or higher character tier.
+- when: spirit_body_state_at_sequence_6_to_5
+  changes:
+    damage_roll: 2d6
+- when: spirit_body_state_above_sequence_5
+  changes:
+    damage_roll: 3d6
 tags:
 - ritual
 text: 'Cost: 1 Swift Action; consuming 1 spirituality point per round. [[Spirituality]]
@@ -135,6 +168,7 @@ text: 'Cost: 1 Swift Action; consuming 1 spirituality point per round. [[Spiritu
   Dead against the targets spirit body strength (inspiration + will + half constitution,
   rounded up, then 2). If you succe...'
 ```
+
 
 
 
@@ -186,6 +220,7 @@ id: death-seq-06-entering-the-spirit-world
 name: Entering the Spirit World
 pathway: death
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -194,6 +229,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
@@ -207,6 +248,7 @@ text: 'Use: you can enter the Spirit World at the beginning of your turn. Effect
   can start to find your own affiliation in the Spirit World. [[Spirit World Affiliation]]
   Sequence 5: with the help of the percept...'
 ```
+
 
 
 
@@ -225,6 +267,7 @@ id: death-seq-06-signing-the-necromancer-contract
 name: Signing the Necromancer Contract
 pathway: death
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -233,6 +276,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -246,6 +295,7 @@ text: 'Process: Prepare a piece of parchment, write down the terms to be observe
   Hessian. [[Ancient Hessian]] In this regard, you can directly refer to the notarys
   rules for drafting the contract in Sequence 6...'
 ```
+
 
 
 
@@ -268,6 +318,7 @@ id: death-seq-06-raise-undead
 name: Raise Undead
 pathway: death
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -276,6 +327,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -289,6 +346,7 @@ text: 'Cost: 1 Casting Action; consuming 2 spiritual points. [[Spirituality]] Ta
   Other possible resurrections, shadows or resentful souls, are generally born naturally
   and cannot be aroused actively....'
 ```
+
 
 
 

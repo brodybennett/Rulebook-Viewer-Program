@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # White Tower Pathway: Sequence 3
 
 ## Cognizer
@@ -37,6 +38,7 @@ id: reader-seq-03-master-the-mysteries
 name: Master the Mysteries
 pathway: reader
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -45,6 +47,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: No roll; passive knowledge effect with automatic success on non-opposed education checks.
 scaling: []
 tags:
 - utility
@@ -56,6 +64,7 @@ text: 'Effect: You see the rules of the world and master many deep mysteries. Fr
   attribute checks automatically succeed when they are not contested and you are not
   using an ability. Limits: This is a potion effect and cannot be stolen or recorded.'
 ```
+
 
 
 
@@ -75,6 +84,7 @@ id: reader-seq-03-insight
 name: Insight
 pathway: reader
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -83,6 +93,12 @@ opposed_by: none
 range: Choose 1 target object you can see (within your [[Field of Vision]]).
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -96,6 +112,7 @@ text: 'Cost: 8 points of [[Spirituality]]. Use: 1 Casting Action. Targeting and 
   abilities (e.g., [[Secret]]). [[MISSING REF: Insight references a previous ability
   it is the same as, but that ability is not included in this chunk.]]'
 ```
+
 
 
 

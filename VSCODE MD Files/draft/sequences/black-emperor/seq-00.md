@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Black Emperor Pathway: Sequence 0
 
 ## Black Emperor
@@ -48,6 +49,7 @@ id: black-emperor-seq-00-death-loophole
 name: Death Loophole
 pathway: black-emperor
 sequence: 0
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -56,6 +58,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -65,6 +73,7 @@ text: 'Effect: The Dark Emperor does not truly die unless all nine Secret Tombs 
   destroyed, revival may still occur if the order established by the god retains a
   certain amount of remnants.'
 ```
+
 
 
 
@@ -83,6 +92,7 @@ id: black-emperor-seq-00-resurrection-process-black-emperor
 name: Resurrection Process (Black Emperor)
 pathway: black-emperor
 sequence: 0
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -91,6 +101,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -100,6 +116,7 @@ text: 'There are three stages in the resurrection process of the Black Emperor. 
   no other true god can reverse or stop. Note: The stage list is incomplete; details
   are GM-adjudicated.'
 ```
+
 
 
 

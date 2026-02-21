@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Justiciar Pathway: Sequence 2
 
 ## Justiciar
@@ -36,16 +37,27 @@ id: arbiter-seq-02-sage-s-balance
 name: Sage's Balance
 pathway: arbiter
 sequence: 2
+status: canonical
 type: active
 action: free
-cost: {}
+cost:
+  spirituality: 5
 roll: null
 opposed_by: none
 range: Choose a designated area within 1 kilometer of you as the center (includes
   you and everyone in the area).
 target: designated target(s)
-duration: instant
-scaling: []
+duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
+scaling:
+- when: ordinary_people_included_in_area
+  changes:
+    effect_note: Ordinary people count as sequence value 10 for balancing calculations.
 tags:
 - ritual
 text: 'Use: Free Action Free Action. Cost: 5 spiritual points [[Spirituality]] (total).
@@ -57,6 +69,7 @@ text: 'Use: Free Action Free Action. Cost: 5 spiritual points [[Spirituality]] (
   strongest and weakest Sequence levels, divide by 2, and round up to a whole Sequence
   level.'
 ```
+
 
 
 
@@ -104,15 +117,26 @@ id: arbiter-seq-02-balancer
 name: Balancer
 pathway: arbiter
 sequence: 2
+status: adapted
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.law
 opposed_by: willpower_defense
 range: 1 kilometer radius.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.law
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted from explicit Legal Appraisal versus Willpower Defense detection gate.
+scaling:
+- when: sequence_1_or_higher
+  changes:
+    range: city
+    effect_note: Also reveals how the imbalance appeared and major subsequent context.
 tags:
 - detection
 - stealth
@@ -125,6 +149,7 @@ text: 'Effect: You sense imbalances in the order around you. Use: When hidden, i
   imbalance appeared and the general ins and outs of the subsequent whole thing. [[id:alias-sequence-1|Sequence
   1]]'
 ```
+
 
 
 

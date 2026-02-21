@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Hermit Pathway: Sequence 1
 
 ## Sage
@@ -38,6 +39,7 @@ id: mystery-pryer-seq-01-empowering-knowledge
 name: Empowering Knowledge
 pathway: mystery-pryer
 sequence: 1
+status: canonical
 type: active
 action: cast
 cost:
@@ -47,6 +49,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -60,6 +68,7 @@ text: 'Cost: 3 spirituality points. [[Spirituality]] Use: A Casting Action. Effe
   of this Pathway, and provide a +2 [[Identification Bonus]] for the existence of
   this Pathway. Mythological knowledge of the...'
 ```
+
 
 
 
@@ -81,6 +90,7 @@ id: mystery-pryer-seq-01-knowledge-into-power
 name: Knowledge into Power
 pathway: mystery-pryer
 sequence: 1
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -89,6 +99,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - healing
@@ -100,6 +116,7 @@ text: 'Effect: You can directly restore the hidden mythological scene at that ti
   desired effect, because they are more or less seriously embellished and cannot be
   used as a feasible knowledge.'
 ```
+
 
 
 

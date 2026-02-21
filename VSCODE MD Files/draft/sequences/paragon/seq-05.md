@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Paragon Pathway: Sequence 5
 
 > **Lore:** Known as “star magician” (“star warlock”) in ancient times; it can guide the power of stars to bless itself.
@@ -50,15 +51,21 @@ id: paragon-seq-05-astrological-reproduction
 name: Astrological Reproduction
 pathway: paragon
 sequence: 5
+status: canonical
 type: active
 action: cast
-cost:
-  spirituality: 4
-roll: null
-opposed_by: willpower_defense
+cost: {}
+roll: 1d20 + @attr.int + @skill.astronomy
+opposed_by: none
 range: chooses up to 8 targets.
 target: designated target(s)
 duration: Creatures you attack are breathless for 1 round.
+dice:
+  check_roll: 1d20 + @attr.int + @skill.astronomy
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: "Each astrology has its own cost (2 or 3 spirituality). Checks: astronomy vs willpower for Galactic Traction; astronomy vs physical defense for Stellar Outer Light, Chang Heng Lie Yang, and Star Gold High Pressure; other effects have no check. Damage dice vary by effect (1d6 fire; 2d6 fire + 3d6 holy with bonuses vs dark/fallen/undead; 4d6 fire + 2d6 physical; 1d6 radiation/round in Star wood fog; 2d6 physical + 1d6 fire on Roche Limit, half to self)."
 scaling: []
 tags:
 - mobility
@@ -71,6 +78,7 @@ text: 'Effect: You sum up the law of occurrence of astronomical phenomena, so as
   for 1 round. You cannot move for that round, but your movement action still exists
   (spent maintaining the effect).'
 ```
+
 
 
 
@@ -185,14 +193,22 @@ id: paragon-seq-05-astronomical-prediction
 name: Astronomical Prediction
 pathway: paragon
 sequence: 5
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 2
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: 1d2
+  effect_roll: 1d24
+  notes: Roll 1d24 to determine hours until the effect begins, then roll 1d7 to select the celestial effect. Saturn restores 1d2 Vitality per round while active. After the first effect ends, you can roll 1d24 again for the next effect; 1d7 is no longer required and effects cycle in order.
 scaling: []
 tags:
 - ritual
@@ -208,6 +224,7 @@ text: 'Effect: You can predict the future astronomical phenomena to meet the req
   constitution +1, restore 1d2 Vitality every round, and increase your biology by
   1 level. Jupiter (Lord of the Storm):...'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Wheel of Fortune Pathway: Sequence 2
 
 ## Soothsayer
@@ -38,15 +39,37 @@ id: fate-seq-02-prophet
 name: Prophet
 pathway: fate
 sequence: 2
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Intuition check determines prophecy clarity; DV thresholds and critical results map outcome quality.
+scaling:
+- when: check_result_meets_dv_20
+  changes:
+    effect_note: GM tells whether the outcome is good or bad.
+- when: check_result_meets_dv_25
+  changes:
+    effect_note: Receive a clearer picture of the outcome.
+- when: check_result_meets_dv_30
+  changes:
+    effect_note: Nearly figure out what is going on.
+- when: check_result_is_big_success
+  changes:
+    effect_note: You figure out how to act in your best interest.
+- when: check_result_is_big_failure
+  changes:
+    effect_note: You see something you should not.
 tags:
 - utility
 text: 'Use: Three times per day, you can make an Intuition (INT) check, judging what
@@ -59,6 +82,7 @@ text: 'Use: Three times per day, you can make an Intuition (INT) check, judging 
   to act in your best interest. Big failure: You accidentally see something you shouldnt.
   Limits: Every time a Sequence or c...'
 ```
+
 
 
 
@@ -81,6 +105,7 @@ id: fate-seq-02-river-of-fate
 name: River of Fate
 pathway: fate
 sequence: 2
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -89,6 +114,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - divination
@@ -103,6 +134,7 @@ text: 'Effect: Your connection to the [[River of Fate]] deepens so much that you
   be used for this ability. Sensing details: If something was written on such an item,
   you can know the content. If it is dest...'
 ```
+
 
 
 

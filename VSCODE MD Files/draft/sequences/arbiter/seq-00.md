@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Justiciar Pathway: Sequence 0
 
 > **Lore:** To a certain extent, the rules at the bottom of the world can be modified.
@@ -35,6 +36,7 @@ id: arbiter-seq-00-divine-gaze
 name: Divine Gaze
 pathway: arbiter
 sequence: 0
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -43,6 +45,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -50,6 +58,7 @@ text: 'Use: When any creature recites your True Name. Effect: You can gaze at th
   surroundings of that creature, and use extraordinary abilities that normally target
   an area to target that area (normal range limits still apply).'
 ```
+
 
 
 
@@ -67,6 +76,7 @@ id: arbiter-seq-00-origin-of-order
 name: Origin of Order
 pathway: arbiter
 sequence: 0
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -75,12 +85,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
 text: 'Effect: You can modify the underlying rules of the world to a certain extent,
   making things that were impossible in the underlying order possible.'
 ```
+
 
 
 

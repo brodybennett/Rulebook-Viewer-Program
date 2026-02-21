@@ -161,6 +161,20 @@ python tools/refactor_sequences_schema.py --repo .
 python tools/refactor_sequences_schema.py --repo . --pathway fool --pathway error
 ```
 
-When a sequence only contains imputed placeholder abilities, the refactor now expands it into a small lore-driven multi-ability set so sparse high-sequence files stay database-ready. For Sequence 2/1/0 records, these imputed abilities are also tier-tuned (action tempo, spirituality cost, and meter-range scaling) to avoid flat identical mechanics across the top tiers.
+When a sequence only has incomplete mechanics, the refactor now keeps a clean `status: stub` placeholder (with explicit dice placeholders) instead of inventing a full kit. Lore placeholders remain separate from mechanical schema blocks so canon and homebrew stay clearly separated.
+
+## 14) Power audit (Phase 4 balance pressure test)
+
+Audit sequence ability bands against `meta/power_scale.yml` and flag:
+- out-of-band cost-to-effect relationships
+- excessive low-sequence hard control density
+- damage spikes above sequence budgets
+- missing progression (empty or stub-only sequences)
+
+```bash
+python tools/power_audit.py --repo .
+python tools/power_audit.py --repo . --compendium dist/compendium.json --power-scale meta/power_scale.yml
+python tools/power_audit.py --repo . --out meta/power_audit_report.md --json-out meta/power_audit_report.json
+```
 
 

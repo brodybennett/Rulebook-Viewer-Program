@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Door Pathway: Sequence 7
 
 > **Lore:** Astrologers are defined by strong spiritual intuition, divination interference, and **Astrology**.
@@ -36,14 +37,21 @@ id: apprentice-seq-07-astrology-study-and-advancement
 name: Astrology Study and Advancement
 pathway: apprentice
 sequence: 7
-type: active
-action: cast
+status: canonical
+type: passive
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -56,6 +64,7 @@ text: When you receive guidance on astrology-related knowledge that is non-repet
   the skill itself has reached a higher level. It takes 4 and 5 times to reach erudition
   and master respectively.
 ```
+
 
 
 
@@ -78,18 +87,46 @@ id: apprentice-seq-07-astrology
 name: Astrology
 pathway: apprentice
 sequence: 7
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
-opposed_by: none
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.int + @skill.astronomy
+opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.astronomy
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted Intuition Appraisal mapping for Astrology use; higher-grade crystal ball interactions and anti-divination modes remain prose-driven.
+scaling:
+- when: check_result_meets_dv_15
+  changes:
+    effect_note: Very general divination result.
+- when: check_result_meets_dv_20
+  changes:
+    effect_note: General directional result.
+- when: check_result_meets_dv_25
+  changes:
+    effect_note: Fairly accurate result.
+- when: check_result_meets_dv_30
+  changes:
+    effect_note: Very accurate result with specific content.
+- when: target_has_relevant_clue
+  changes:
+    check_bonus: 2
+- when: anti_divination_mode
+  changes:
+    effect_note: Anti-divination Difficulty Value is set by Intuition-based appraisal (or by Intuition plus Astrology when using a high-level crystal ball).
 tags:
 - ritual
 - divination
+- detection
+- defense
 text: 'You use Astrology for [[id:alias-divination|divination]] or to interfere with
   divination and [[spiritual intuition]]. Use: 1 Casting Action Cost: 2 points of
   [[Spirituality]] This ability can be used in the following ways: Horoscope / Appraisal
@@ -100,6 +137,7 @@ text: 'You use Astrology for [[id:alias-divination|divination]] or to interfere 
   listed - purchase consumes 3 levels, proficiency consumes 1 level, and knowledge
   consumes none - apply only when lear...'
 ```
+
 
 
 
@@ -174,19 +212,39 @@ id: apprentice-seq-07-premonition-of-danger
 name: Premonition of Danger
 pathway: apprentice
 sequence: 7
-type: active
-action: cast
+status: adapted
+type: reaction
+action: none
 cost: {}
-roll: null
+roll: 1d20 + @attr.int
 opposed_by: difficulty_value
 range: self
 target: self
-duration: instant
-scaling: []
+duration: 1 round
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted from the explicit Intuition Difficulty Value 15 trigger check; resulting defensive benefits are encoded in scaling.
+scaling:
+- when: check_result_meets_dv_15
+  changes:
+    effect_note: You cannot be raided or ambushed by the foreseen threat and gain temporary physical defense benefits.
+    physical_defense_bonus: 4
+- when: incoming_attack_is_firearm_or_lightning_or_light
+  changes:
+    effect_note: Resolve defense using Agility and Dodge instead of the +4 temporary bonus.
+- when: sequence_6_or_higher
+  changes:
+    effect_note: Trigger check succeeds by default and premonition includes clearer imagery.
+- when: sequence_5_or_higher
+  changes:
+    effect_note: Can sense danger beyond the normal one-level limit.
 tags:
 - divination
-- healing
-- offense
+- detection
+- defense
 text: 'Also known as intuitive premonition: you can predict the actions of others
   at critical moments and perceive danger. Trigger: Whenever you are raided, sneak
   attacked, or there is something on the scene that is about to put the raid or sneak
@@ -197,6 +255,7 @@ text: 'Also known as intuitive premonition: you can predict the actions of other
   not be able to be raided or ambushed. Threats that you mistakenly think are safe
   will not trigger the ability.'
 ```
+
 
 
 

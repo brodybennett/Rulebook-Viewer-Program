@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Twilight Giant Pathway: Sequence 3
 
 - Your guardian power manifests as a silver full-body armor that can be converted into mercury (see **Mercury**).
@@ -39,6 +40,7 @@ id: war-god-seq-03-mercury
 name: Mercury
 pathway: war-god
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -48,6 +50,12 @@ range: self
 target: designated target(s)
 duration: If the submerged target does not break through within three rounds, the
   target may be stunned or suffocated.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll; submerged targets can attempt Strength or Physical Defense checks vs your Physical Defense once per round to escape."
 scaling: []
 tags:
 - mobility
@@ -68,6 +76,7 @@ text: 'Effect: You melt at once, turning into a pool of flowing silver-metal liq
 
 
 
+
 - **Effect:** You melt at once, turning into a pool of flowing silver-metal liquid. You can move quickly to avoid attacks, and your movement speed is tripled.
 - **Alternate effect:** You can turn into viscous and heavy mercury and flood an enemy, making the opponent seem to be wearing a silver full-body armor without revealing the slightest gap. The armor attempts to suffocate the wearer; the specific effect depends on the specific situation.
 - **Limits:** A binding effect occurs first; during the process, both parties cannot perform any other actions.
@@ -81,6 +90,7 @@ id: war-god-seq-03-sword-of-dawn
 name: Sword of Dawn
 pathway: war-god
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -89,12 +99,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
 text: 'Effect: You can condense a Sword of Dawn and use it as a conventional weapon;
   it is sharp enough and good at purification.'
 ```
+
 
 
 
@@ -111,16 +128,24 @@ id: war-god-seq-03-silver-rapier
 name: Silver Rapier
 pathway: war-god
 sequence: 3
+status: canonical
 type: active
 action: attack
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.str + @skill.fighting
 opposed_by: physical_defense
 range: With teleportation (flash), it can bypass most barriers, directly attack the
   target, and even explode from the targets body. There are almost no signs of condensation,
   so it is difficult to predict in advance.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.str + @skill.fighting
+  damage_roll: 3d12
+  heal_roll: null
+  effect_roll: null
+  notes: "Add raid and Strength damage bonuses; damage ignores armor, cover, and non-malicious danger intuition."
 scaling: []
 tags:
 - ritual
@@ -137,6 +162,7 @@ text: 'Cost: 3 [[Spirituality]] points per Attack Action. Use: This attack count
   any [[Armor]], [[Cover]], and [[Danger Intuition]] (non-malicious perception). Damage:
   3d12 + raid + Strength damage bonus, as physical or divine damage (choose one).'
 ```
+
 
 
 
@@ -160,6 +186,7 @@ id: war-god-seq-03-hidden-by-light
 name: Hidden by Light
 pathway: war-god
 sequence: 3
+status: canonical
 type: active
 action: free
 cost: {}
@@ -168,12 +195,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
 text: 'Cost: 3 [[Spirituality]] points. Use: Free action. Effect: You achieve optical
   invisibility.'
 ```
+
 
 
 
@@ -192,6 +226,7 @@ id: war-god-seq-03-blessing
 name: Blessing
 pathway: war-god
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -200,6 +235,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -214,6 +255,7 @@ text: 'Effect: Depending on the gods who bless you during the promotion ceremony
   luck that can be applied for a short period of time. Reference: For specific effects
   in this regard, refer to Seque...'
 ```
+
 
 
 

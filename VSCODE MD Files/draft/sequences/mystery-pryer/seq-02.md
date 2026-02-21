@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Hermit Pathway: Sequence 2
 
 ## Clairvoyant
@@ -35,6 +36,7 @@ id: mystery-pryer-seq-02-knowledge-goblin
 name: Knowledge Goblin
 pathway: mystery-pryer
 sequence: 2
+status: canonical
 type: active
 action: free
 cost: {}
@@ -43,6 +45,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -57,6 +65,7 @@ text: 'You transform yourself into a creature made purely of information. An out
   contained around you. This is treated as the default opening of the effect of [[Eye
   of Mystery]]....'
 ```
+
 
 
 
@@ -90,14 +99,22 @@ id: mystery-pryer-seq-02-information-storm
 name: Information Storm
 pathway: mystery-pryer
 sequence: 2
+status: canonical
 type: active
 action: free
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.int + @skill.knowledge
 opposed_by: willpower_defense
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.knowledge
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d6 + 1
+  notes: Sanity/rationality loss is 1d5 or 1d6+1 depending on target; on hit, target is stunned for the round (free actions only).
 scaling: []
 tags:
 - ritual
@@ -111,6 +128,7 @@ text: 'Complex and illusory symbols condense in your eyes one after another, pou
   is treated as being in a [[Special Stunned State]]; the target can only take free
   actions this round.'
 ```
+
 
 
 
@@ -133,14 +151,21 @@ id: mystery-pryer-seq-02-tampering
 name: Tampering
 pathway: mystery-pryer
 sequence: 2
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: willpower_defense
 range: Within **Line of Sight**.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Mysticism (Occultism) check against the controller's Willpower Defense.
 scaling: []
 tags:
 - ritual
@@ -154,6 +179,7 @@ text: 'You affect the dissemination of any information, directly shielding the w
   GM decides). Also affects other secret puppet-like effects or effects of manipulating
   animals and dependents.'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Visionary Pathway: Sequence 8
 
 > **Lore:** Observation is no longer limited to superficial details, but goes deeper into mysterious areas such as the [[Aura]] and [[Etheric Body]]. This combination lets “mind readers” grasp people’s hearts with high accuracy and seem able to read each other’s thoughts—making secrets difficult to keep.
@@ -37,6 +38,7 @@ id: visionary-seq-08-psych-psycho-channeling
 name: Psych/Psycho Channeling
 pathway: visionary
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -45,12 +47,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
 text: 'Effect: Your [[Psych/Psycho Channeling]] stages can be raised to [[Mastery]]
   quickly.'
 ```
+
 
 
 
@@ -67,6 +76,7 @@ id: visionary-seq-08-mind-reader-state
 name: Mind-Reader State
 pathway: visionary
 sequence: 8
+status: canonical
 type: passive
 action: none
 cost: {}
@@ -75,6 +85,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -89,6 +105,7 @@ text: 'Use: Passive and Active Effect: You can read shallow thoughts and know wh
   Emotions: You can see the other person''s real-time emotions by default, but [[Instigator]]
   / [[Trickster]] / [[Clown]] can conceal their emotional aura from you. Active:'
 ```
+
 
 
 
@@ -117,6 +134,7 @@ id: visionary-seq-08-thinking-simulation
 name: Thinking Simulation
 pathway: visionary
 sequence: 8
+status: canonical
 type: reaction
 action: cast
 cost: {}
@@ -125,6 +143,12 @@ opposed_by: none
 range: Choose a creature you know; the target does not need to be present.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -138,6 +162,7 @@ text: 'Use: 1 Casting Action Cost: No [[Spirituality]] is consumed. Targeting an
   15: In addition to the above, you also know the reaction the target will make, the
   words they will say, and the behavi...'
 ```
+
 
 
 

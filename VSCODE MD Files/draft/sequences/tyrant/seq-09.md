@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Tyrant Pathway: Sequence 9
 
 ## Sailor
@@ -38,6 +39,7 @@ id: tyrant-seq-09-swimming-and-diving-growth
 name: Swimming and Diving Growth
 pathway: tyrant
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -46,6 +48,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -57,6 +65,7 @@ text: 'Effect: Each time you receive 2 hours of non-repetitive, effective guidan
   (INT) to add points to Swimming/Diving growth; use standard Intuition growth rules.
   [[Potions]] Intuition'
 ```
+
 
 
 
@@ -80,14 +89,21 @@ id: tyrant-seq-09-high-rank-sensitivity
 name: High-Rank Sensitivity
 pathway: tyrant
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int
 opposed_by: difficulty_value
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: Intuition test DV 15 to judge higher-rank targets; failure to meet the threshold can trigger Fear if target is 2+ positions higher.
 scaling: []
 tags:
 - mobility
@@ -101,6 +117,7 @@ text: 'Trigger: When you see another creature/person who is not using restraint.
   the source of fear. You are not forced to move because of Fear due to friendly targets,
   but you are still timid.'
 ```
+
 
 
 
@@ -124,6 +141,7 @@ id: tyrant-seq-09-phantom-scale
 name: Phantom Scale
 pathway: tyrant
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -132,6 +150,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: Grants armor/DR and underwater movement time; each Sequence upgrade adds +1 armor/DR and +15 minutes/depth.
 scaling: []
 tags:
 - mobility
@@ -147,6 +171,7 @@ text: 'Effect: You gain phantom scales hidden under your skin; when you are inju
   Sequence Upgrade: Each time you upgrade your Sequence: Armor and External Damage
   Reduction +1'
 ```
+
 
 
 
@@ -172,6 +197,7 @@ id: tyrant-seq-09-water-breathing
 name: Water Breathing
 pathway: tyrant
 sequence: 9
+status: canonical
 type: passive
 action: none
 cost: {}
@@ -180,6 +206,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -188,6 +220,7 @@ text: 'Effect: You gain passive water breathing. You can maintain normal breathi
   underwater duration). Sequence Boost: Each boost sequence increases your underwater
   breathing duration by +15 minutes.'
 ```
+
 
 
 
@@ -207,6 +240,7 @@ id: tyrant-seq-09-balance
 name: Balance
 pathway: tyrant
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -215,12 +249,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
 text: 'Effect: You have excellent balance on unstable footing (e.g., stormy ships,
   earthquakes). You can no longer be thrown off balance. [[Balance and Knockdown Rules]]'
 ```
+
 
 
 
@@ -237,14 +278,22 @@ id: tyrant-seq-09-spirit-vision
 name: Spirit Vision
 pathway: tyrant
 sequence: 9
+status: canonical
 type: active
 action: free
-cost: {}
+cost:
+  spirituality: 1
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: No roll; while active, Spiritual Intuition tests gain +1.
 scaling: []
 tags:
 - ritual
@@ -258,6 +307,7 @@ text: 'Use: 1 Free Action to activate. Cost: 1 Spirituality per round. Effect: W
   detailed information. 4) Astral Body: You cannot see the astral body. 5) You gain
   +1 to your Spiritual Intuition test. [[Spiritual Intuition]]'
 ```
+
 
 
 

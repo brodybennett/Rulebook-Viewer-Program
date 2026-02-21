@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Chained Pathway: Sequence 0
 
 ## Chained
@@ -37,13 +38,19 @@ tags:
 
 - **Attribute Gain:** Not explicitly specified in source (schema placeholder).
 
-### Chained Authority
+### Canon Lore Placeholder
+
+- **Lore Placeholder:** Canon flavor may be retained here, but mechanics remain unbound.
+- **Limits:** Do not treat this as finalized mechanics.
+
+### Mechanics Stub
 
 ```yaml ability
-id: mutant-seq-00-chained-authority
-name: Chained Authority
+id: mutant-seq-00-mechanics-stub
+name: Mechanics Stub
 pathway: mutant
 sequence: 0
+status: stub
 type: passive
 action: none
 cost: {}
@@ -52,70 +59,18 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Stub record. Canon mechanics are intentionally unspecified.
 scaling: []
 tags:
-- debuff
-- defense
-- control
-text: You channel chained curse authority, balancing madness suppression against violent
-  transformation and spirit-flesh instability.
+- utility
+- stub
+text: Chained canonical mechanics are not yet authored.
 ```
 
-- **Effect:** You channel chained curse authority, balancing madness suppression against violent transformation and spirit-flesh instability.
-- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
-
-### Chain of Reason
-
-```yaml ability
-id: mutant-seq-00-chain-of-reason
-name: Chain of Reason
-pathway: mutant
-sequence: 0
-type: active
-action: swift
-cost:
-  spirituality: 1
-roll: null
-opposed_by: willpower_defense
-range: line of sight
-target: designated target(s)
-duration: 1 encounter
-scaling: []
-tags:
-- control
-- debuff
-- defense
-text: You bind a target's mental state with suppressive chain marks, dampening frenzy
-  spikes and limiting extreme actions.
-```
-
-- **Effect:** You bind a target's mental state with suppressive chain marks, dampening frenzy spikes and limiting extreme actions.
-- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
-
-### Cursed Metamorphosis
-
-```yaml ability
-id: mutant-seq-00-cursed-metamorphosis
-name: Cursed Metamorphosis
-pathway: mutant
-sequence: 0
-type: toggle
-action: free
-cost:
-  spirituality: 1
-roll: null
-opposed_by: none
-range: self
-target: self
-duration: sustained
-scaling: []
-tags:
-- buff
-- offense
-- defense
-text: You assume a chained monstrous form, gaining physical threat at the cost of
-  tighter sanity and control requirements.
-```
-
-- **Effect:** You assume a chained monstrous form, gaining physical threat at the cost of tighter sanity and control requirements.
-- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
+- **Effect:** Mechanical placeholder only. Chained canonical mechanics are not yet authored.
+- **Limits:** Mechanics are intentionally stubbed pending canonical source confirmation.

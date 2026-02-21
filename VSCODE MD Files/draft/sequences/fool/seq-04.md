@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Fool Pathway: Sequence 4
 
 ## Bizarro Sorcerer
@@ -57,18 +58,31 @@ id: fool-seq-04-spirit-body-thread-control
 name: Spirit Body Thread Control
 pathway: fool
 sequence: 4
+status: adapted
 type: active
 action: cast
 cost: {}
-roll: null
-opposed_by: none
-range: Your control range is 150 meters.
+roll: 1d20 + @attr.int + @skill.spiritual_intuition
+opposed_by: willpower_defense
+range: 150m
 target: designated target(s)
-duration: instant
-scaling: []
+duration: sustained
+dice:
+  check_roll: 1d20 + @attr.int + @skill.spiritual_intuition
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted from Marionettist thread-control contest; defender's full resistance formula remains governed by prose.
+scaling:
+- when: sequence_4_base
+  changes:
+    effect_note: Initial control can be completed in about 3 seconds; full puppet conversion in about 15 seconds.
+- when: newly_promoted
+  changes:
+    effect_note: Maximum concurrent Secret Puppets is 50.
 tags:
 - control
-- buff
+- hard_control
 text: 'Use: You can complete the initial control of the Spirit Body Thread within
   three seconds. [[Spirit Body Thread]] Effect: You can completely transform the target
   into a puppet within fifteen seconds. [[Puppet]] Targeting and range: Your control
@@ -77,6 +91,7 @@ text: 'Use: You can complete the initial control of the Spirit Body Thread withi
   your normal Secret Puppet control distance. Limits: When first promoted, you can
   control up to 50 Secret Puppets.'
 ```
+
 
 
 
@@ -94,19 +109,28 @@ id: fool-seq-04-exchange-positions
 name: Exchange Positions
 pathway: fool
 sequence: 4
+status: canonical
 type: active
 action: swift
 cost: {}
 roll: null
 opposed_by: none
-range: You exchange positions with a **Secret Puppet**, jumping like a flame, with
-  a range of 1 km.
-target: designated target(s)
+range: 1km
+target: one controlled Secret Puppet
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Teleport-style reposition with no explicit contested roll.
+scaling:
+- when: sequence_3
+  changes:
+    range: 5km
 tags:
 - mobility
-- offense
+- utility
 text: 'Effect: You and a Secret Puppet exchange positions. [[Secret Puppet]] Cost:
   1 Swift Action, with the same priority as a free action. Swift Action Free Action
   Effect: Swapping places is a type of teleportation. [[Teleportation]] Targeting
@@ -117,6 +141,7 @@ text: 'Effect: You and a Secret Puppet exchange positions. [[Secret Puppet]] Cos
   in one round). The specific judgment can be found in Chapter Six: Combat, which
   is similar to the apprentice''s free-action fla...'
 ```
+
 
 
 
@@ -137,17 +162,25 @@ id: fool-seq-04-endow-marionette-with-extraordinary-abilities
 name: Endow Marionette with Extraordinary Abilities
 pathway: fool
 sequence: 4
+status: canonical
 type: active
 action: free
 cost: {}
 roll: null
 opposed_by: none
-range: self
-target: self
-duration: instant
+range: within Secret Puppet control range
+target: designated Secret Puppet(s)
+duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Free-action empowerment with no explicit contested check in source text.
 scaling: []
 tags:
 - control
+- buff
 text: 'Use: You endow a marionette with extraordinary abilities. Cost: As a free action,
   spawn an Ethereal Worm. [[Ethereal Worm]] Effect: Allow several of your Secret Puppets
   to obtain all your extraordinary abilities. Limits: A Secret Puppet that does not
@@ -156,6 +189,7 @@ text: 'Use: You endow a marionette with extraordinary abilities. Cost: As a free
   an Ethereal Worm, the Secret Puppet without the Ethereal Worm is not regarded as
   having divinity. [[Divinity]]'
 ```
+
 
 
 
@@ -173,17 +207,25 @@ id: fool-seq-04-psychic-connection
 name: Psychic Connection
 pathway: fool
 sequence: 4
-type: active
-action: cast
+status: canonical
+type: passive
+action: none
 cost: {}
 roll: null
 opposed_by: none
-range: self
-target: self
-duration: instant
+range: within Secret Puppet control range
+target: designated Secret Puppet(s)
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Passive link-state improvement; movement scope remains GM-adjudicated per prose.
 scaling: []
 tags:
-- mobility
+- control
+- utility
 text: 'Effect: From now on, your Spirit Body Thread can connect to the deep spirit
   of the marionette, achieving a psychic effect. Psychicism: Psychicism is a state
   that prevents the spirit body from lying. [[Psychicism]] Initiative: You can also
@@ -192,6 +234,7 @@ text: 'Effect: From now on, your Spirit Body Thread can connect to the deep spir
   feel, but can''t move anything. Psychicism and Movement: Psychicism can make the
   Secret Puppet move on its own; the GM decides the exact scope of movement/actions.'
 ```
+
 
 
 
@@ -215,17 +258,40 @@ id: fool-seq-04-spirit-worm-principles-and-loss
 name: Spirit Worm Principles and Loss
 pathway: fool
 sequence: 4
-type: active
-action: cast
+status: canonical
+type: passive
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
-scaling: []
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Passive threshold and recovery rules; consequences are deterministic from prose conditions.
+scaling:
+- when: spirit_worms_lost_gt_6_in_one_event
+  changes:
+    effect_note: Immediately suffer one Sanity/Rationality Strike and gain advantage on the next Sanity/Rationality check.
+- when: sequence_4_fully_digested
+  changes:
+    effect_note: Can withstand loss of up to 12 Spirit Worms at one time.
+- when: sequence_3
+  changes:
+    effect_note: Can withstand loss of up to 25 Spirit Worms at one time.
+- when: sequence_3_fully_digested
+  changes:
+    effect_note: Can withstand loss of up to 50 Spirit Worms at one time.
+- when: sequence_2_or_higher
+  changes:
+    effect_note: Spirit Worm loss generally no longer threatens core existence.
 tags:
 - utility
+- defense
 text: 'Essence (Granting Abilities): The essence of endowing the marionette with extraordinary
   abilities is to separate a Spirit Worm and let it enter the Secret Puppet through
   the Spirit Body Thread. [[Spirit Worm]] Return to Ontology: If the marionette dies,
@@ -236,6 +302,7 @@ text: 'Essence (Granting Abilities): The essence of endowing the marionette with
   of yourself. Therefore, if the Secret Puppet with the Spirit Worm suffers a loss,
   you will also be affected to a c...'
 ```
+
 
 
 

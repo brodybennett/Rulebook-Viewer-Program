@@ -1,0 +1,12 @@
+{
+  "repo": "C:\\Users\\dan\\Desktop\\Personal\\Projects\\LoTM Rulebook\\VSCODE MD Files",
+  "scan_root": "C:\\Users\\dan\\Desktop\\Personal\\Projects\\LoTM Rulebook\\VSCODE MD Files\\draft",
+  "schema_file": "C:\\Users\\dan\\Desktop\\Personal\\Projects\\LoTM Rulebook\\VSCODE MD Files\\meta\\ability_schema.yml",
+  "strict_style": true,
+  "files_scanned": 263,
+  "ability_blocks_scanned": 720,
+  "roll_fields_scanned": 0,
+  "cli_expressions_scanned": 0,
+  "findings_count": 0,
+  "findings": []
+}

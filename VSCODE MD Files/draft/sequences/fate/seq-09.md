@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Wheel of Fortune Pathway: Sequence 9
 
 - **Non-interchangeable:** This Pathway is the only one that is not interchangeable.
@@ -50,6 +51,7 @@ id: fate-seq-09-glimpse-of-the-future
 name: Glimpse of the Future
 pathway: fate
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -58,6 +60,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -70,6 +78,7 @@ text: 'Use: Triggered when you conduct an Intuition (INT)/Spiritual Intuition id
   that does not tell you the solution). Whenever you take at least 3 hours of sufficient
   rest, this also triggers in your dream (the same effect as above). Limits:'
 ```
+
 
 
 
@@ -91,6 +100,7 @@ id: fate-seq-09-very-high-intuition-int
 name: Very High Intuition (INT)
 pathway: fate
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -99,6 +109,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - debuff
@@ -111,6 +127,7 @@ text: 'Effect: You can often hear voices others cannot hear and see things other
   the corresponding Sanity / Rationality loss. Listening: Whenever you carry out an
   Intuition (INT)-related skill appraisal and the result is 20, if there is a spiri...'
 ```
+
 
 
 
@@ -131,15 +148,34 @@ id: fate-seq-09-premonition-of-danger
 name: Premonition of Danger
 pathway: fate
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
-opposed_by: physical_defense
+roll: 1d20 + @attr.int
+opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Intuition test determines danger warnings; DV 20 success grants immediate guidance.
+scaling:
+- when: check_result_meets_dv_20
+  changes:
+    effect_note: You are told what to do next to avoid the surprise or sneak attack.
+- when: danger_attack_half_vitality_or_sanity
+  changes:
+    effect_note: Physical Defense gains +4 correction against the incoming danger.
+- when: light_or_lightning_threat
+  changes:
+    effect_note: Full Physical Defense is retained against light/lightning threats.
+- when: sequence_5_or_higher
+  changes:
+    effect_note: Danger premonition and undisturbed Spiritual Intuition succeed by default.
 tags:
 - divination
 - defense
@@ -154,6 +190,7 @@ text: 'Effect: You have a keen intuition for danger and can foresee danger beyon
   +4 correction (affecting your Constitution Defense/Willpower Defense). When the
   effect of (2) is used against light/lightn...'
 ```
+
 
 
 
@@ -178,15 +215,27 @@ id: fate-seq-09-spiritual-vision
 name: Spiritual Vision
 pathway: fate
 sequence: 9
+status: canonical
 type: toggle
 action: free
-cost: {}
-roll: null
+cost:
+  spirituality: 1
+roll: 1d20 + @attr.int + @skill.spiritual_intuition
 opposed_by: none
 range: self
 target: designated target(s)
 duration: sustained
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.spiritual_intuition
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Spiritual Vision is a sustained toggle; check_roll maps Spiritual Intuition checks while active.
+scaling:
+- when: spiritual_vision_active
+  changes:
+    check_bonus: 2
+    effect_note: Spiritual Intuition tests gain +2 while the mode is maintained.
 tags:
 - ritual
 - detection
@@ -202,6 +251,7 @@ text: 'Use: 1 free action to activate. Cost: 1 spirituality point per round whil
   power in it, and penetrate the spiritual wall. Mental Body: You can see the color
   represented by the other persons emotions,...'
 ```
+
 
 
 

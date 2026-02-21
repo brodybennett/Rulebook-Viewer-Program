@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Visionary Pathway: Sequence 4
 
 ## Manipulator
@@ -48,6 +49,7 @@ id: visionary-seq-04-multiple-minds
 name: Multiple Minds
 pathway: visionary
 sequence: 4
+status: canonical
 type: active
 action: attack
 cost: {}
@@ -56,6 +58,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll; targets may attempt Intuition DV 15 to notice an implanted avatar."
 scaling: []
 tags:
 - ritual
@@ -71,6 +79,7 @@ text: 'You possess a large number of virtual personalities that help resist atta
   4, and 16 after digesting the potion. All values of the virtual personality are
   equal to yours. Note: If all your avatar...'
 ```
+
 
 
 
@@ -108,14 +117,22 @@ id: visionary-seq-04-psychic-breath
 name: Psychic Breath
 pathway: visionary
 sequence: 4
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 6
+roll: 1d20 + @attr.int + @skill.psychological_guidance
 opposed_by: willpower_defense
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.psychological_guidance
+  damage_roll: 5d6
+  heal_roll: null
+  effect_roll: null
+  notes: "Apply -4 disadvantage to the check; damage ignores fire resistance and imposes -4 on the target's next Penetrating Blow That Pierces the Soul check."
 scaling: []
 tags:
 - ritual
@@ -127,6 +144,7 @@ text: 'You breathe out an invisible but searing flame. Cost: 6 points of Spiritu
   Willpower Defense with disadvantage (-4). Area: 10-meter cone. Deal 5d6 fire damage
   with invisible mental fire. This damage cannot be reduced by any kind of fire resistance.'
 ```
+
 
 
 
@@ -153,14 +171,22 @@ id: visionary-seq-04-psychic-storm
 name: Psychic Storm
 pathway: visionary
 sequence: 4
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
-opposed_by: none
+cost:
+  spirituality: 5
+roll: 1d20 + @attr.int + @skill.psychological_guidance
+opposed_by: willpower_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.psychological_guidance
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 2d6
+  notes: "Mode 1: area 2d6 km, duration 1d6 hours, divination interference 1d3 days. Mode 2: check vs Willpower Defense at -4 disadvantage (-8 if known spectator); on success target makes sanity check 1/1d2 and is stunned."
 scaling: []
 tags:
 - ritual
@@ -175,6 +201,7 @@ text: 'You create an invisible wind, forming a psychic storm. This ability can b
   affects the corresponding position in reality, sweeping around and repeatedly slapping
   the enemys [[Consciousness Island]].'
 ```
+
 
 
 
@@ -213,6 +240,7 @@ id: visionary-seq-04-consciousness-walking
 name: Consciousness Walking
 pathway: visionary
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -221,6 +249,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll; travel effect."
 scaling: []
 tags:
 - ritual
@@ -232,6 +266,7 @@ text: 'Allows your consciousness and spiritual body to swim in the [[Sea of Coll
   For details about the Sea of Collective Subconscious and Consciousness Islands,
   see [[Chapter Twelve: Special Regions]].'
 ```
+
 
 
 
@@ -252,6 +287,7 @@ id: visionary-seq-04-accurate-grasp
 name: Accurate Grasp
 pathway: visionary
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -260,6 +296,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll; consumes an avatar to redirect a discovered attack to the phantom."
 scaling: []
 tags:
 - divination
@@ -275,6 +317,7 @@ text: You can precisely control your own psychology and spirit; premonition-like
   action through others, the target of that extra action cannot be you. The thiefs
   swift hand grand success effect is...
 ```
+
 
 
 
@@ -298,14 +341,22 @@ id: visionary-seq-04-psychic-stealth
 name: Psychic Stealth
 pathway: visionary
 sequence: 4
+status: canonical
 type: active
 action: swift
-cost: {}
+cost:
+  spirituality: 3
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d2
+  notes: "Sanity check is 0/1 (treat as 1d2-1); target must also make Will DV 20 each round; Psychoanalysis DV 20 to relieve."
 scaling: []
 tags:
 - stealth
@@ -319,6 +370,7 @@ text: 'Your psychic cloaking advances further. Use: 1 Swift Action, once per rou
   Sanity / Rationality damageand goes insane. After the ability ends, the avatar returns
   to your body.'
 ```
+
 
 
 
@@ -339,6 +391,7 @@ id: visionary-seq-04-psychic-plague
 name: Psychic Plague
 pathway: visionary
 sequence: 4
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -347,6 +400,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -360,6 +419,7 @@ text: 'Quietly plant seeds of Contagious Madness in the targets mental island. C
   round, until mental healing is obtained): The target makes a [[Sanity / Rationality
   Check]] (0/1).'
 ```
+
 
 
 

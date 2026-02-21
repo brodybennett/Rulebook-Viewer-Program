@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Twilight Giant Pathway: Sequence 5
 
 ## Guardian
@@ -60,14 +61,22 @@ id: war-god-seq-05-wall-of-protection
 name: Wall of Protection
 pathway: war-god
 sequence: 5
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 3
 roll: null
 opposed_by: physical_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll; wall attacks resolve against your Physical Defense and share your Vitality."
 scaling: []
 tags:
 - ritual
@@ -83,6 +92,7 @@ text: 'Cost: 3 [[Spirituality]]. Use: 1 Casting Action. Effect: Insert a giant s
   sword in front of your body as a symbol. While your companions are behind the sword,
   a 50-meter-long invisible wall blocks attacks that try to hit them.'
 ```
+
 
 
 
@@ -119,6 +129,7 @@ id: war-god-seq-05-ignore-hallucinations
 name: Ignore Hallucinations
 pathway: war-god
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -127,6 +138,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -136,6 +153,7 @@ text: 'Effect: As long as the source is no more than 1 Sequence higher than you,
   the [[Black Emperor]]. It does not include low-mystery conspiracies; those effects
   can still apply.'
 ```
+
 
 
 

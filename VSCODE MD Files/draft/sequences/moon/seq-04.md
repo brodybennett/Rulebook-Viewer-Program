@@ -10,13 +10,14 @@ tags:
 
 
 
+
 # Moon Pathway: Sequence 4
 
 ## Spirit Alchemist
 
 > **Lore:** **Witch King**s can easily live to a thousand years old and are among the long-lived demigods, but they will inevitably enter irreversible old age and decline afterward.
 >
-> **Lore:** They are outstanding individuals who control the power of darkness, the moon, strangeness, and other fields, surpassing powerhouses of the same kind. They are proficient in various spells in the moon and dark realms, and can arrange rituals that directly borrow the power of the â€œmoonâ€ by relying on natural interaction methodsâ€”this is terrifying.
+> **Lore:** They are outstanding individuals who control the power of darkness, the moon, strangeness, and other fields, surpassing powerhouses of the same kind. They are proficient in various spells in the moon and dark realms, and can arrange rituals that directly borrow the power of the "moon" by relying on natural interaction methods-this is terrifying.
 >
 > **Lore:** They have a strong physique, terrifying speed, regeneration, and self-healing speed beyond imagination, but they are closer to the caster.
 
@@ -39,14 +40,22 @@ id: moon-seq-04-moon-paper-man
 name: Moon Paper Man
 pathway: moon
 sequence: 4
+status: canonical
 type: active
 action: free
-cost: {}
+cost:
+  spirituality: 1
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No roll required; each figurine expends 1 spirituality to absorb one listed effect.
 scaling: []
 tags:
 - ritual
@@ -68,12 +77,13 @@ text: 'Cost: Free action; 1 point of spirituality per use. [[Spirituality]] Free
 
 
 
+
 - **Cost:** **Free action**; 1 point of **spirituality** per use. [[Spirituality]] Free Action
 - **Use:** Use a paper man/paper doll (a moon paper figurine) as a **Stand-in** to resist damage you take. [[Stand-in]]
 - **Effect:** The moon paper figurine wards off one of the following that targets you: disease, wound, curse, attack, prophecy, or gaze.
 - **Limits:**
   - Production requires a unique process in the moon domain.
-  - The number of moon paper figurines you have equals your â€œmoon knowledgeâ€ level. [[Lunar Knowledge]]
+  - The number of moon paper figurines you have equals your "moon knowledge" level. [[Lunar Knowledge]]
 - If your moon knowledge level is a Master, you can carry up to 5 moon paper figurines at the same time, plus **1 training-only figurine** in addition to the active ones.
   - **Area damage and multiple Stand-ins:** [[Area Damage]]
     - Area damage can consume multiple Stand-ins. When suffering area damage, at least two Stand-ins must be consumed to completely avoid the damage; consuming only one Stand-in causes you to suffer half the damage.
@@ -84,7 +94,7 @@ text: 'Cost: Free action; 1 point of spirituality per use. [[Spirituality]] Free
   - Each person can only get one piece per day.
   - The paper figurine expires after one year.
 
-> **GM Note:** The paper figurines of the Foolâ€™s Path are ordinary paper figurines in essence, so they can only be used by extraordinary people of the Fool with extraordinary abilities and are not considered extraordinary items. [[Fool]] [[Extraordinary Item]]
+> **GM Note:** The paper figurines of the Fool's Path are ordinary paper figurines in essence, so they can only be used by extraordinary people of the Fool with extraordinary abilities and are not considered extraordinary items. [[Fool]] [[Extraordinary Item]]
 >
 > **GM Note:** The moon paper figurine is imbued with the spirituality of the moon domain and is a time-sensitive extraordinary item, so it can be used by others.
 
@@ -95,6 +105,7 @@ id: moon-seq-04-dark-gaze
 name: Dark Gaze
 pathway: moon
 sequence: 4
+status: canonical
 type: active
 action: free
 cost: {}
@@ -103,6 +114,12 @@ opposed_by: willpower_defense
 range: One target within line of sight.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -122,13 +139,14 @@ text: 'Cost: Casting Action; 3 points of spirituality. Casting Action Targeting 
 
 
 
+
 - **Cost:** **Casting Action**; 3 points of **spirituality**. Casting Action
 - **Targeting and range:** One target within line of sight.
 - **Effect:**
   - Use your own naked eyes as a substitute for others, affecting the target within your line of sight.
-  - Mysteriously attack the opponentâ€™s Willpower Defense; then the target establishes contact with you, which is regarded as entering a **Substitute State**. [[Substitute State]]
+  - Mysteriously attack the opponent's Willpower Defense; then the target establishes contact with you, which is regarded as entering a **Substitute State**. [[Substitute State]]
   - This is a temporary curse that can be dispelled; it can also be dispelled automatically when leaving the battlefield. [[Dispel]]
-- **In the Substitute State (called â€œavatar stateâ€ in the RAW):** The avatar state is a stronger variant of the substitute state.
+- **In the Substitute State (called "avatar state" in the RAW):** The avatar state is a stronger variant of the substitute state.
   - **Obscuration**
     - **Use:** Free action; continued obscuration costs you an action each turn.
     - **Effect:** The obscured target and creatures interacting with it treat each other as blind. Unless they have other ways to locate position, both sides remain disadvantaged. [[Blind]]
@@ -150,6 +168,7 @@ id: moon-seq-04-moon-rituals
 name: Moon Rituals
 pathway: moon
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -158,6 +177,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -174,11 +199,12 @@ text: 'Cost: 10 spirituality points; 5-minute ritual process. [[Ritual]] Use: Mu
 
 
 
+
 - **Cost:** 10 **spirituality** points; 5-minute ritual process. [[Ritual]]
 - **Use:** Must be performed under moonlight; only once every 24 hours.
 - **Effect:**
-  - You directly borrow power from the â€œmoon.â€ This is a ritual magic that can only be mastered by a Witch King.
-  - When the ritual is completed, the Witch Kingâ€™s all attributes +1.
+  - You directly borrow power from the "moon." This is a ritual magic that can only be mastered by a Witch King.
+  - When the ritual is completed, the Witch King's all attributes +1.
   - At the same time, [[Lunar Knowledge]] gains an additional skill level:
     - This does not affect the identification of Lunar Knowledge.
     - All abilities that calculate benefits based on the number of Lunar Knowledge levels calculate one more skill level, and gain one extra benefit.
@@ -196,15 +222,26 @@ id: moon-seq-04-illusionary-bat-swarm
 name: Illusionary Bat Swarm
 pathway: moon
 sequence: 4
+status: canonical
 type: active
 action: free
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.str + @skill.fighting
+opposed_by: physical_defense
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.str + @skill.fighting
+  damage_roll: 1d3 + @attr.str
+  heal_roll: 1d6
+  effect_roll: 2d6
+  notes: Check/damage/heal map batization life-suck attacks; effect_roll maps the emergency 2d6 recovery when reduced to 0 HP.
+scaling:
+- when: batization_with_spirituality
+  changes:
+    damage_roll: 3d6 + @attr.str
+    effect_note: Spirituality-fueled batization increases damage and allows potion creation.
 tags:
 - mobility
 - offense
@@ -216,6 +253,7 @@ text: 'Cost: Free action. Effect: Your body disintegrates and collapses into a g
   state is immune to Hard Damage. The swarm is considered as a whole: The bats formed
   cannot act alone.'
 ```
+
 
 
 
@@ -235,7 +273,7 @@ text: 'Cost: Free action. Effect: Your body disintegrates and collapses into a g
   - In normal form, once per day, when your hit points become 0, you immediately recover 2d6 hit points, then immediately convert the remaining hit points into a swarm of bats and flee in all directions. If the heart is pierced to death, this cannot be recovered.
 - **Sequence 3 note:** Part of your bat can answer prayers in your place. [[Answer Prayers]] [[id:alias-sequence-3|Sequence 3]]
 
-- **Special judgment on â€œbatizationâ€:**
+- **Special judgment on "batization":**
   - In bat state, you cannot use the [[Claws of Corrosion]] or perform normal fighting attacks, but you can still use other spells.
   - Fighting is changed to life sucking; this is divided into non-consumption of spirituality and consumption of spirituality. [[Fighting]]
   - **Does not consume spirituality:**

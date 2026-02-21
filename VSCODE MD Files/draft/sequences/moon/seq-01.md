@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Moon Pathway: Sequence 1
 
 ## Beauty Goddess
@@ -39,6 +40,7 @@ id: moon-seq-01-the-power-of-beauty
 name: The Power of Beauty
 pathway: moon
 sequence: 1
+status: canonical
 type: active
 action: free
 cost: {}
@@ -47,6 +49,12 @@ opposed_by: none
 range: self
 target: self
 duration: Permanent.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - control
@@ -59,6 +67,7 @@ text: 'Cost: 1 Free Action Free Action to activate (open). Duration: Permanent. 
   your praise. Intelligent life falls in love with you in many forms (appreciation,
   longing, etc.).'
 ```
+
 
 
 
@@ -90,6 +99,7 @@ id: moon-seq-01-life-authority
 name: Life Authority
 pathway: moon
 sequence: 1
+status: canonical
 type: active
 action: free
 cost: {}
@@ -98,12 +108,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
 text: 'Effect: From now on, all authority related to life creation and improvement
   requires only 1 Free Action Free Action. [[Life Authority]]'
 ```
+
 
 
 

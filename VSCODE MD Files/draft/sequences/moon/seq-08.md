@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Moon Pathway: Sequence 8
 
 > **Lore:** Domesticate and use living animals, including extraordinary creatures; greatly improve physical fitness.
@@ -36,15 +37,23 @@ id: moon-seq-08-animal-senses
 name: Animal Senses
 pathway: moon
 sequence: 8
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.cha + @skill.animal_handling
 opposed_by: willpower_defense
 range: Choose 1 animal / extraordinary creature / insect (even mosquito) within 20
   meters.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.cha + @skill.animal_handling
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Taming check is opposed by the target's Willpower Defense.
 scaling: []
 tags:
 - ritual
@@ -57,6 +66,7 @@ text: 'Cost: 3 [[Spirituality]] Use: 1 Casting Action Targeting and range: Choos
   cannot be more than 100 meters away from the animal. It can complete the instructions
   even if it is more than 100 meters away.'
 ```
+
 
 
 
@@ -95,16 +105,42 @@ id: moon-seq-08-domesticated-animal-examples
 name: Domesticated Animal Examples
 pathway: moon
 sequence: 8
-type: active
-action: cast
-cost:
-  vitality: 2
+status: canonical
+type: passive
+action: none
+cost: {}
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 2d2
+  notes: Effect roll maps example vitality for rats/birds; other sizes use the scaling table.
+scaling:
+- when: cat_or_dog
+  changes:
+    effect_roll: 1d3
+    effect_note: Vitality is 7 + 1d3.
+- when: young_lion_tiger_large_dog
+  changes:
+    effect_roll: 2d3
+    effect_note: Vitality is 10 + 2d3.
+- when: adult_lion_tiger_bear_bull
+  changes:
+    effect_roll: 1d5
+    effect_note: Vitality is 20 + 1d5.
+- when: large_creature
+  changes:
+    effect_roll: 2d4
+    effect_note: Vitality is 20 + 2d4.
+- when: very_large_creature
+  changes:
+    effect_roll: 10d2
+    effect_note: Vitality is 60 + 10d2 (or more).
 tags:
 - defense
 - offense
@@ -114,6 +150,7 @@ text: '#### List of regular animals that may be domesticated Bugs/ants: By defau
   fast dodge. Faced with range/psychic damage, they will die directly by default.
   Rats/birds: 2d2 Vitality. 5 points in Three Defenses (both attributes are 2).'
 ```
+
 
 
 

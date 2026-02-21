@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Abyss Pathway: Sequence 9
 
 ## Criminal
@@ -53,19 +54,31 @@ id: abyss-seq-09-spirit-vision
 name: Spirit Vision
 pathway: abyss
 sequence: 9
-type: active
+status: adapted
+type: toggle
 action: free
-cost: {}
-roll: null
-opposed_by: none
+cost:
+  spirituality: 1
+roll: 1d20 + @attr.int + @skill.spiritual_intuition
+opposed_by: difficulty_value
 range: self
 target: designated target(s)
 duration: sustained
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.spiritual_intuition
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted check mapping for interpretation tasks while Spirit Vision is active; activation itself is a toggle.
+scaling:
+- when: spirit_vision_active
+  changes:
+    effect_note: Spiritual Intuition tests gain +1 beneficial.
 tags:
 - ritual
 - detection
-- healing
+- divination
+- utility
 text: 'Use: 1 Free Action to activate. Cost: 1 Spirituality per round. Effect: While
   Spirit Vision is active, you gain the following benefits: You gain Spirit Vision
   through your Intuition (INT). Etheric Body: You can directly see the health status
@@ -76,6 +89,7 @@ text: 'Use: 1 Free Action to activate. Cost: 1 Spirituality per round. Effect: W
   the other person is thinking, but you cannot see more content. Astral Body: You
   cannot see the astral body.'
 ```
+
 
 
 
@@ -110,14 +124,21 @@ id: abyss-seq-09-perception-of-depravity
 name: Perception of Depravity
 pathway: abyss
 sequence: 9
-type: active
-action: cast
+status: adapted
+type: passive
+action: none
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.spiritual_intuition
 opposed_by: difficulty_value
 range: self
-target: self
-duration: instant
+target: designated target(s)
+duration: sustained
+dice:
+  check_roll: 1d20 + @attr.int + @skill.spiritual_intuition
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted appraisal token for contested or ambiguous depravity readings while in Spirit Vision.
 scaling: []
 tags:
 - detection
@@ -127,6 +148,7 @@ text: 'You are very sensitive to people who have fallen or are falling, and you 
   Difficulty Value Limits: (Fallen Perception is a supplementary description to Spirit
   Vision, which cannot be recorded or stolen.)'
 ```
+
 
 
 
@@ -149,15 +171,37 @@ id: abyss-seq-09-intoxicated
 name: Intoxicated
 pathway: abyss
 sequence: 9
-type: active
-action: cast
+status: adapted
+type: reaction
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: "1"
+  effect_roll: null
+  notes: Triggered sanity restoration by crime severity; mapped as resource recovery tiers with overcap/ritual caveats in scaling.
+scaling:
+- when: illegal_killing_or_public_safety_endangerment
+  changes:
+    heal_roll: 1d2
+- when: major_crime_killing_blasting_bank_robbery
+  changes:
+    heal_roll: 2d2
+- when: perfect_crime
+  changes:
+    effect_note: Add +1 fixed sanity restoration to the rolled result.
+- when: ritual_window_repeated_activation_within_3_days
+  changes:
+    effect_note: Restoration converts to sanity loss during the Sequence 5 ritual condition.
+- when: sanity_above_cap_for_72_hours
+  changes:
+    effect_note: Lose 1 sanity from the over-cap pool every 72 hours.
 tags:
 - detection
 - healing
@@ -171,6 +215,7 @@ text: 'You are addicted to the thrill of crime. Trigger: Whenever you complete a
   has not been discovered, and has not been detected by the police or officials in
   the end, and has not spread.'
 ```
+
 
 
 
@@ -202,6 +247,7 @@ id: abyss-seq-09-domination-of-evil-desires
 name: Domination of Evil Desires
 pathway: abyss
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -210,6 +256,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -219,6 +271,7 @@ text: After taking the potion, your personality has changed, and your evil desir
   more inclined to solve or obtain it in a form that violates ethics, social order,
   and public good customs.
 ```
+
 
 
 
@@ -239,6 +292,7 @@ id: abyss-seq-09-killing-skills
 name: Killing Skills
 pathway: abyss
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -247,6 +301,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -257,6 +317,7 @@ text: 'Effect: Your critical strike, double strike, proximity shooting, and othe
   Momentum and aiming will not change from +2 to favorable (therefore not becoming
   +4); affects identification only. This improvement cannot be recorded or stolen.'
 ```
+
 
 
 

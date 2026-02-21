@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Sun Pathway: Sequence 9
 
 ## Bard
@@ -42,6 +43,7 @@ id: sun-seq-09-singing-training
 name: Singing Training
 pathway: sun
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -50,6 +52,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -57,6 +65,7 @@ text: Each time you receive 2 hours of effective guidance (no repetition), your 
   level increases by 1. It takes 2, 3, and 4 training sessions to become proficient,
   advanced, and mastery respectively; the maximum is mastery.
 ```
+
 
 
 
@@ -75,6 +84,7 @@ id: sun-seq-09-potion-assisted-growth
 name: Potion-Assisted Growth
 pathway: sun
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -83,12 +93,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
 text: When creating a character that is not "just promoted," you can use the [[Bard
   Potion]] to apply double the potion's Intuition (INT) bonus to add growth skills.
 ```
+
 
 
 
@@ -106,14 +123,22 @@ id: sun-seq-09-song-of-courage
 name: Song of Courage
 pathway: sun
 sequence: 9
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.cha + @skill.singing_identification
 opposed_by: difficulty_value
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.cha + @skill.singing_identification
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Singing Identification DV 15; on success grants +1 Strength/+1 Agility and clears listed conditions.
 scaling: []
 tags:
 - ritual
@@ -131,6 +156,7 @@ text: 'Cost: 2 [[Spirituality]]. Use: 1 Casting Action; perform a [[Singing Iden
 
 
 
+
 - **Cost:** 2 **[[Spirituality]]**.
 - **Use:** 1 **Casting Action**; perform a **[[Singing Identification]]** ( **Difficulty Value** 15 ); roleplay the corresponding chant. The chant must be themed around praising the sun.
 - **Effect:** On a success, you and any friendly unit that heard the singing gain +1 Strength and +1 Agility (DEX) for 1 **Encounter**.
@@ -144,14 +170,22 @@ id: sun-seq-09-sing-piety
 name: Sing Piety
 pathway: sun
 sequence: 9
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.cha + @skill.singing_identification
 opposed_by: willpower_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.cha + @skill.singing_identification
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d2
+  notes: Singing Identification DV 15; Benefit B uses the Singing result vs Willpower Defense.
 scaling: []
 tags:
 - ritual
@@ -166,6 +200,7 @@ text: 'Cost: 2 Spirituality. Use: 1 Casting Action; perform a Singing Identifica
   your Singing Identification result against the Willpower Defense of an enemy who
   heard the singing; this benefit takes effect...'
 ```
+
 
 
 
@@ -186,14 +221,22 @@ id: sun-seq-09-spirit-vision
 name: Spirit Vision
 pathway: sun
 sequence: 9
+status: canonical
 type: active
 action: free
-cost: {}
+cost:
+  spirituality: 1
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: No roll; while active, Spiritual Intuition tests gain +1.
 scaling: []
 tags:
 - ritual
@@ -207,6 +250,7 @@ text: 'Use: 1 Free Action to activate. Cost: 1 Spirituality per round. Effect: W
   information. Astral Body: You cannot see the astral body. While Spirit Vision is
   active, your [[Spiritual Intuition]] tests gain +1.'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Darkness Pathway: Sequence 5
 
 > **Lore:** Your control over spirits improves greatly. You are skilled at driving **Natural Spirits** and can seal both natural spirits and resentful ghost shadows on your teeth, gaining their abilities and assistance.
@@ -38,6 +39,7 @@ id: night-seq-05-spirit-seal
 name: Spirit Seal
 pathway: night
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -46,6 +48,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -55,6 +63,7 @@ text: 'Seal: 1 Casting Action. Choose a helpless/voluntary [[Spirit Body]] in fr
   As a [[Quick Action]], tap your teeth to release a sealed spirit body to fight alongside
   you.'
 ```
+
 
 
 
@@ -74,6 +83,7 @@ id: night-seq-05-drive-the-soul
 name: Drive the Soul
 pathway: night
 sequence: 5
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -82,6 +92,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
@@ -96,6 +112,7 @@ text: 'Effect: If you release at least one sealed spirit body, you can manipulat
   can: use their extraordinary abilities, drive your [[Extraordinary Items]], use
   your ability to recite poems (you must teac...'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Visionary Pathway: Sequence 2
 
 ## Discerner
@@ -40,6 +41,7 @@ id: visionary-seq-02-insight
 name: Insight
 pathway: visionary
 sequence: 2
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -48,6 +50,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll; apply listed debuffs while Insight is active."
 scaling: []
 tags:
 - detection
@@ -60,6 +68,7 @@ text: 'Effect: You can directly spy on the weakness in another persons heart and
   for any [[Inner World]] information you need through the sea of the subconscious
   mind.'
 ```
+
 
 
 

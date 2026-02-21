@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Chained Pathway: Sequence 3
 
 ## Puppet Angel
@@ -38,6 +39,7 @@ id: mutant-seq-03-cursed-thing
 name: Cursed Thing
 pathway: mutant
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -46,6 +48,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No roll; curse damage from your abilities cannot be fully immune by same-level Death pathway targets and is instead halved.
 scaling: []
 tags:
 - debuff
@@ -53,6 +61,7 @@ text: 'Effect: Gain [[Curse of Transformation]]. Curse of Transformation: It can
   enemies or things into other creatures, and lose most of their traits and extraordinary
   abilities after transformation. [15]'
 ```
+
 
 
 
@@ -70,6 +79,7 @@ id: mutant-seq-03-source-of-the-curse
 name: Source of the Curse
 pathway: mutant
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -81,7 +91,17 @@ range: When using this doll, your curse no longer necessarily needs a target med
   relationship.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d3
+  notes: Crafting time is 1d3 hours; rapid crafting costs spirituality and completes immediately if materials are on hand.
+scaling:
+- when: rapid_crafting
+  changes:
+    cost: {spirituality: 5}
+    effect_note: Craft immediately if materials are on hand.
 tags:
 - ritual
 - debuff
@@ -95,6 +115,7 @@ text: 'Effect: Your Source of the Curse [[Source of the Curse]] no longer requir
   as long as you have brought the materials. Limits (hit points vs. spirituality):
   If you want, you can also replace...'
 ```
+
 
 
 
@@ -118,14 +139,22 @@ id: mutant-seq-03-transformation-curse
 name: Transformation Curse
 pathway: mutant
 sequence: 3
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.int + @skill.occultism - 12
 opposed_by: willpower_defense
 range: self
 target: designated target(s)
 duration: One encounter. Encounter
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism - 12
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Occultism vs Willpower Defense at -12.
 scaling: []
 tags:
 - ritual
@@ -141,6 +170,7 @@ text: 'Use: A spellcasting action Spellcasting Action. Cost: 3 points of spiritu
   a sheep with a dull expression. The driver will be wrapped in the sheep''s body
   immediately, and then the sheep''s belly will pop o...'
 ```
+
 
 
 
@@ -177,6 +207,7 @@ id: mutant-seq-03-extra-death-path-immunity-limits
 name: 'Extra: Death Path Immunity Limits'
 pathway: mutant
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -185,6 +216,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - debuff
@@ -194,6 +231,7 @@ text: 'Effect: From now on, your curse is still valid for the Death of your same
   curse ability of Sequence 3; it is applicable to all your curse abilities, as long
   as you reach the Sequence 3.'
 ```
+
 
 
 
@@ -210,6 +248,7 @@ id: mutant-seq-03-silent-disciple-ultimate-curse-long-silence
 name: 'Silent Disciple: Ultimate Curse (Long Silence)'
 pathway: mutant
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -218,12 +257,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - debuff
 text: 'Effect: You can brew the ultimate curse in a long silence. Use: A spellcasting
   action Spellcasting Action. Choos'
 ```
+
 
 
 

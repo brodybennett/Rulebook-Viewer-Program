@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Hanged Man Pathway: Sequence 1
 
 ## Dark Angel
@@ -35,15 +36,25 @@ id: hanged-man-seq-01-dark-angel
 name: Dark Angel
 pathway: hanged-man
 sequence: 1
+status: canonical
 type: active
 action: free
 cost: {}
-roll: null
+roll: 1d20
 opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Check roll is used for wing recovery after the wings dissipate (recover on 18-20).
+scaling:
+- when: wing_recovery_roll_18_plus
+  changes:
+    effect_note: Wings recover on a d20 result of 18-20 at end of round.
 tags:
 - offense
 text: 'Use: As a free action, intertwined virtual black wings appear behind you (like
@@ -53,6 +64,7 @@ text: 'Use: As a free action, intertwined virtual black wings appear behind you 
   you take damage, the wings take damage first. You gain a +8 check bonus to all skills.
   You gain +3 to all your attributes.'
 ```
+
 
 
 
@@ -101,15 +113,25 @@ id: hanged-man-seq-01-corruption
 name: Corruption
 pathway: hanged-man
 sequence: 1
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.occultism - 8
 opposed_by: willpower_defense
 range: self
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism - 8
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Mysticism check vs Willpower Defense with a -8 penalty drives the corruption outcome.
+scaling:
+- when: target_is_lower_sequence_hanged_man
+  changes:
+    effect_note: Lower-sequence Hanged Man targets can be forced into degeneration or collapse.
 tags:
 - defense
 text: 'Use: A spellcasting action. Check: [[Mysticism]] against Willpower Defense;
@@ -122,6 +144,7 @@ text: 'Use: A spellcasting action. Check: [[Mysticism]] against Willpower Defens
   is a demigod, there can only be one [[Spirit Body]] left that can continue to survive
   an encounter, and can be eliminated midway.'
 ```
+
 
 
 

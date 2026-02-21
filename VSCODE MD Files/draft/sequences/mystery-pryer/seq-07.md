@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Hermit Pathway: Sequence 7
 
 ## Warlock
@@ -42,6 +43,7 @@ id: mystery-pryer-seq-07-speed-word
 name: Speed Word
 pathway: mystery-pryer
 sequence: 7
+status: canonical
 type: active
 action: free
 cost: {}
@@ -50,6 +52,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No roll; counteracting uses compared damage rolls from relevant abilities.
 scaling: []
 tags:
 - offense
@@ -63,6 +71,7 @@ text: 'Use: Once per turn, you can use 1 Casting Action as 1 free action (non-st
   words of the Mystic Pathway can only be used in the abilities of the Mystic Pathway
   itself.'
 ```
+
 
 
 
@@ -81,6 +90,7 @@ id: mystery-pryer-seq-07-knowledge-enhancement
 name: Knowledge Enhancement
 pathway: mystery-pryer
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -89,6 +99,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit roll; enhancement adds a layer of spell tuning and is applied by the caster.
 scaling: []
 tags:
 - ritual
@@ -103,6 +119,7 @@ text: 'Trigger: When you cast a damage-type spell. Cost: If you expend an extra 
   or recorded. Recording/stealing captures only the base ability; Knowledge Enhancement
   must be applied by the user. Scrolls can store enhanced effects.'
 ```
+
 
 
 
@@ -126,16 +143,29 @@ id: mystery-pryer-seq-07-spellcaster
 name: Spellcaster
 pathway: mystery-pryer
 sequence: 7
+status: canonical
 type: active
 action: cast
-cost:
-  spirituality: 4
-roll: null
+cost: {}
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: physical_defense
 range: self
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: 1d10
+  heal_roll: null
+  effect_roll: null
+  notes: Fireball and Frost each have their own spirituality costs; Frost also applies movement halving and -2 on the next check unless resisted.
+scaling:
+- when: knowledge_enhancement_fireball
+  changes:
+    effect_note: +1 spirituality cost; fireballs increase to ceil(Intuition/2) and may hit multiple targets (once each).
+- when: knowledge_enhancement_frost
+  changes:
+    damage_roll: 3d6
+    effect_note: +3 spirituality cost; Frost becomes a 10m ice storm affecting all targets.
 tags:
 - buff
 - defense
@@ -148,6 +178,7 @@ text: 'You have learned to manipulate supernatural forces, and you gain the foll
   rounded up); you can attack multiple targets, but each target can only be hit once.
   Frost Cost: Consumes 3 Spirit points, 1 Casting Action.'
 ```
+
 
 
 

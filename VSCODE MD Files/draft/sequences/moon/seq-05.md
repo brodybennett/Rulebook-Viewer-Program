@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Moon Pathway: Sequence 5
 
 ## Scarlet Scholar
@@ -17,10 +18,10 @@ tags:
 - See also: Viscount Bloodline Pathway
 
 There are two core abilities:
-- Create an environment beneficial to yourself by creating a â€œfull moonâ€ effect or hiding the moon.
+- Create an environment beneficial to yourself by creating a "full moon" effect or hiding the moon.
 - Within a certain range illuminated by moonlight, gain the ability to teleport/flash and enter a moonlight state; even if crushed by someone, you can be reassembled in the moonlight.
 
-The strength of these abilities depends on your understanding and research of the â€œMoonâ€ field. Darkness spells become stronger, potions are more effective, and you gain resistance to nightmare effects. [[Nightmare effects]]
+The strength of these abilities depends on your understanding and research of the "Moon" field. Darkness spells become stronger, potions are more effective, and you gain resistance to nightmare effects. [[Nightmare effects]]
 
 ## Advancement
 
@@ -29,7 +30,7 @@ The strength of these abilities depends on your understanding and research of th
 - **Auxiliary Materials (unofficial examples):** Metals, gemstones, and blood of supernatural beings representing different moon states.
 
 **Metal (moon symbol, mysticism):**
-- Pure silver (about 10â€“40 grams)
+- Pure silver (about 10-40 grams)
 
 **Gemstones (moon symbol, occultism):**
 
@@ -52,15 +53,15 @@ The strength of these abilities depends on your understanding and research of th
 - The blood of vampires or artificial vampires
 
 > **GM Note:** Ritual gem description:
-> - Because there are many branches of gemstones symbolizing a single moon phase (e.g., more than one gemstone can symbolize the new moon or first quarter moon), the moon-phase name is used collectively here. You may buy several different kinds, but any one that meets the requirement can symbolize that moon phaseâ€”choose one.
-> - Because the astronomical moon phase is a cycle, a full cycle requires two different gems that symbolize the â€œnew moon,â€ so they can connect end to end. (Analogy given: if gathering â€œEast Risingâ€ for the sun, you would need two â€œEast Risingâ€ to meet a cycle.)
-> - In the gemstone list, the first and last gems are intended to fulfill the â€œtwo new moonâ€ requirement (e.g., star moon stone and garnet), so there is no need to buy two star moon stones separatelyâ€”use the list to buy.
+> - Because there are many branches of gemstones symbolizing a single moon phase (e.g., more than one gemstone can symbolize the new moon or first quarter moon), the moon-phase name is used collectively here. You may buy several different kinds, but any one that meets the requirement can symbolize that moon phase-choose one.
+> - Because the astronomical moon phase is a cycle, a full cycle requires two different gems that symbolize the "new moon," so they can connect end to end. (Analogy given: if gathering "East Rising" for the sun, you would need two "East Rising" to meet a cycle.)
+> - In the gemstone list, the first and last gems are intended to fulfill the "two new moon" requirement (e.g., star moon stone and garnet), so there is no need to buy two star moon stones separately-use the list to buy.
 > - Use the phase mapping where the first and last gemstones represent the **new moon** (not crescent moon) to close the cycle.
 
 > **GM Note:** Price guidance (setting-facing):
 > - Average unit price of metals and gems is not expensive in the Lord of Mysteries worldview.
-> - A single gem will not exceed 1â€“2 pounds if the need is not much.
-> - Because extraordinary creature blood is not the main material, costs are reduced; you can collect them for about 50â€“100 pounds.
+> - A single gem will not exceed 1-2 pounds if the need is not much.
+> - Because extraordinary creature blood is not the main material, costs are reduced; you can collect them for about 50-100 pounds.
 > - Under normal circumstances, total consumption will not exceed 100 pounds.
 > - The point is there is no market price: gems/metals can be found in a few different jewelry stores on average; blood can be collected by attending a few extraordinary parties (common material).
 
@@ -83,6 +84,7 @@ id: moon-seq-05-moon-knowledge-skill
 name: Moon Knowledge (Skill)
 pathway: moon
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -91,6 +93,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -99,6 +107,7 @@ text: 'A special knowledge skill is trained: Moon Knowledge. [[Moon Knowledge]] 
   of Sequence 9, and can be quickly promoted to proficiency at most. Sequence 9 rapid
   growth category'
 ```
+
 
 
 
@@ -117,6 +126,7 @@ id: moon-seq-05-sleep-related-resistance
 name: Sleep-Related Resistance
 pathway: moon
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -125,6 +135,12 @@ opposed_by: willpower_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - defense
@@ -133,6 +149,7 @@ text: 'From now on, against attempts to force you with sleep-related abilities: 
   your Willpower Defense for the effect to take hold. Willpower Defense If identification
   is required, your Countermeasure or Willpower Defense +4 is beneficial. [[Countermeasure]]'
 ```
+
 
 
 
@@ -152,15 +169,30 @@ id: moon-seq-05-summon-full-moon
 name: Summon Full Moon
 pathway: moon
 sequence: 5
+status: canonical
 type: active
 action: swift
-cost: {}
+cost:
+  spirituality: 3
 roll: null
 opposed_by: none
 range: Affecting an area within a few hundred meters.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d6
+  notes: Effect roll maps temporary spirituality granted under full moon illumination.
+scaling:
+- when: full_moon_illumination
+  changes:
+    effect_note: Intuition-related checks gain +1; add +1 per Moon Knowledge level.
+- when: blood_moon
+  changes:
+    effect_roll: 2d6
+    effect_note: Blood moon grants 2d6 temporary spirituality.
 tags:
 - ritual
 text: 'Use: 1 Swift Action. Swift Action Cost: 3 points of spirituality. [[Spirituality]]
@@ -177,13 +209,14 @@ text: 'Use: 1 Swift Action. Swift Action Cost: 3 points of spirituality. [[Spiri
 
 
 
+
 - **Use:** 1 **Swift Action**. Swift Action
 - **Cost:** 3 points of **spirituality**. [[Spirituality]]
 - **Targeting and range:** Affecting an area within a few hundred meters.
-- **Effect:** You unleash a crimson moonglow (a â€œfull moonâ€ effect), or cause the moon to disappear into the sky. At this time, it is regarded as a full moon state. All creatures illuminated by the moonlight, and all identifications related to **Intuition (INT)**, gain +1.
+- **Effect:** You unleash a crimson moonglow (a "full moon" effect), or cause the moon to disappear into the sky. At this time, it is regarded as a full moon state. All creatures illuminated by the moonlight, and all identifications related to **Intuition (INT)**, gain +1.
 
 **Moon Knowledge scaling**
-- For every â€œLunar lore levelâ€ you have (i.e., Moon Knowledge level), all checks related to **Intuition (INT)** get an additional +1 on top of the base +1 from moonlight.
+- For every "Lunar lore level" you have (i.e., Moon Knowledge level), all checks related to **Intuition (INT)** get an additional +1 on top of the base +1 from moonlight.
 - Thus, while your Lunar lore is **Trained**, all friendly creatures gain +2 to Intuition (INT)-related checks.
 
 **Advantages of other full moon astronomical phenomena**
@@ -209,15 +242,26 @@ id: moon-seq-05-moonlight
 name: Moonlight
 pathway: moon
 sequence: 5
+status: canonical
 type: active
 action: swift
-cost: {}
+cost:
+  spirituality: 3
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: 2d6
+  effect_roll: null
+  notes: Heal roll maps reorganization when reduced to 0 while in moonlight state.
+scaling:
+- when: moon_knowledge_level
+  changes:
+    effect_note: Each Moon Knowledge level grants an extra reorganization that does not consume spirituality.
 tags:
 - ritual
 - healing
@@ -231,6 +275,7 @@ text: 'Use: 1 Swift Action. Cost and duration: Every 3 points of spirituality la
   form, provided that: you have not been hit by the heart, attackers are at disadvantage
   to hit the heart, or you are hit by heart to die.'
 ```
+
 
 
 
@@ -283,6 +328,7 @@ id: moon-seq-05-lunar-blink
 name: Lunar Blink
 pathway: moon
 sequence: 5
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -291,6 +337,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -307,6 +359,7 @@ text: 'Use: 1 Swift Action; 1 time per round. Cost: 3 points of spirituality. Ef
   Every time you increase the level of Moon Knowledge, your flashable distance increases:
   Trained = your mobility Proficien...'
 ```
+
 
 
 
@@ -340,6 +393,7 @@ id: moon-seq-05-potion-effect-enhancement
 name: Potion Effect Enhancement
 pathway: moon
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -348,7 +402,16 @@ opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d6
+  notes: Effect roll maps the +1d6 damage increase for harmful potions.
+scaling:
+- when: attribute_or_armor_potion
+  changes:
+    effect_note: Attribute/armor/reduction improvements gain +1.
 tags:
 - buff
 - defense
@@ -363,6 +426,7 @@ text: 'This is an ability enhancement brought by the sequence; it is not regarde
   effect potions: For example, invisibility/odorless potions can gain additional bonuses;
   the favorable tendency should be re...'
 ```
+
 
 
 

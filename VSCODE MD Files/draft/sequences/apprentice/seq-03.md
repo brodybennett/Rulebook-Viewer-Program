@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Door Pathway: Sequence 3
 
 > **Lore:** You can roam the starry sky.  
@@ -38,14 +39,21 @@ id: apprentice-seq-03-freedom-of-action
 name: Freedom of Action
 pathway: apprentice
 sequence: 3
-type: active
-action: cast
+status: canonical
+type: passive
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -57,6 +65,7 @@ text: 'Effect: No effect can imprison the Wanderer. Effect: You are immune to bo
   into a [[Secret Puppet]]. Limits: The [[Judge]] and the [[Black Emperor]] cannot
   restrain your actions.'
 ```
+
 
 
 
@@ -73,21 +82,33 @@ id: apprentice-seq-03-tolerate-the-environment
 name: Tolerate the Environment
 pathway: apprentice
 sequence: 3
-type: active
-action: cast
+status: adapted
+type: passive
+action: none
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.con
+opposed_by: difficulty_value
 range: self
 target: self
-duration: instant
-scaling: []
+duration: persistent
+dice:
+  check_roll: 1d20 + @attr.con
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted resilience roll token for edge-case environmental adjudication; base immunity to environmental damage is deterministic.
+scaling:
+- when: damage_source_is_environmental_hazard
+  changes:
+    effect_note: Environmental damage is ignored.
 tags:
-- offense
+- defense
+- utility
 text: 'Effect: There is no environment that you cannot adapt to. Effect: You are immune
   to any damage caused by the environment, which can make the harsh environment of
   various planets no longer have a significant impact on you.'
 ```
+
 
 
 
@@ -105,6 +126,7 @@ id: apprentice-seq-03-symbol-positioning
 name: Symbol Positioning
 pathway: apprentice
 sequence: 3
+status: canonical
 type: active
 action: free
 cost: {}
@@ -113,6 +135,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -132,6 +160,7 @@ text: 'Effect: You obtain an extraordinary symbol. Whoever outlines this symbol 
 
 
 
+
 - **Effect:** You obtain an extraordinary symbol. Whoever outlines this symbol or writes it on the ground, you can use a **free action** to observe, detect, or perceive everything around this symbol.
 - **Use:** This is actively triggered and cannot be passively sensed.
 - **Limits:** You can only sense the change at the moment when the symbol appears or the symbol is destroyed: you notice that someone has drawn the corresponding symbol, or the corresponding symbol disappears—nothing else.
@@ -146,6 +175,7 @@ id: apprentice-seq-03-fly
 name: Fly
 pathway: apprentice
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -154,12 +184,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
 text: 'Effect: You gain the ability to fly, allowing you to perform supersonic flawless
   flight.'
 ```
+
 
 
 
@@ -176,6 +213,7 @@ id: apprentice-seq-03-teleportation-astral-shuttle
 name: Teleportation (Astral Shuttle)
 pathway: apprentice
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -184,6 +222,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
@@ -192,6 +236,7 @@ text: 'Effect: Your teleportation ability is greatly enhanced, and you can even 
   [[astral teleportation]] to travel to other starry skies and planets. See also:
   For details about the [[Star Realm]], see [[Chapter Twelve: Special Regions]].'
 ```
+
 
 
 

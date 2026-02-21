@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Tyrant Pathway: Sequence 7
 
 ## Sea Warrior
@@ -54,6 +55,7 @@ id: tyrant-seq-07-rapid-promotion-compatibility
 name: Rapid Promotion Compatibility
 pathway: tyrant
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -62,6 +64,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -69,6 +77,7 @@ text: The Navigator is in the [[Rapid Promotion]] system and is not treated as a
   promoted character. The [[Potion]] attribute used to increase the growth of this
   skill is Intuition (INT).
 ```
+
 
 
 
@@ -87,6 +96,7 @@ id: tyrant-seq-07-perfect-recall-and-orientation
 name: Perfect Recall and Orientation
 pathway: tyrant
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -95,12 +105,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
 text: You do not get lost. Your memory is enhanced; you have photographic memory.
   You can remember all kinds of information that have not been affected by the Extraordinary.
 ```
+
 
 
 
@@ -120,6 +137,7 @@ id: tyrant-seq-07-far-sight
 name: Far Sight
 pathway: tyrant
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -128,6 +146,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -135,6 +159,7 @@ tags:
 text: Your vision is significantly improved. Your field of vision increases to 500
   meters when unobstructed.
 ```
+
 
 
 
@@ -153,14 +178,21 @@ id: tyrant-seq-07-fuzzy-probability-calculation
 name: Fuzzy Probability Calculation
 pathway: tyrant
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Intuition check DV 20; each relevant clue grants +2.
 scaling: []
 tags:
 - detection
@@ -174,6 +206,7 @@ text: 'Requirement: You have relevant clues. Use: Make an Intuition (INT) check 
   before becoming blind and the enemy has not moved significantly, you can use the
   calculated relative distance to attack without being affected by the blind state.'
 ```
+
 
 
 
@@ -196,14 +229,21 @@ id: tyrant-seq-07-intuitive-grasp
 name: Intuitive Grasp
 pathway: tyrant
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.navigation
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.navigation
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Piloting/navigation identifications typically use DV 15.
 scaling: []
 tags:
 - utility
@@ -214,6 +254,7 @@ text: 'Effect: You have an intuitive grasp of magnetic fields, ocean currents, w
   identification at Difficulty Value 15. Limits: This is a potion benefit; it cannot
   be stolen or recorded.'
 ```
+
 
 
 
@@ -230,6 +271,7 @@ id: tyrant-seq-07-ocean-blessed
 name: Ocean Blessed
 pathway: tyrant
 sequence: 7
+status: canonical
 type: passive
 action: none
 cost: {}
@@ -238,6 +280,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -246,6 +294,7 @@ text: 'Effect: You are a higher-ranked Blessed One of the ocean and gain all-rou
   [[Ocean Environment]]. Bonuses (while applicable): All attributes +1. Skill identifications
   and attribute identifications gain a +2 bonus.'
 ```
+
 
 
 

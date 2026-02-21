@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Door Pathway: Sequence 2
 
 ## Planeswalker
@@ -37,6 +38,7 @@ id: apprentice-seq-02-concept-travel
 name: Concept Travel
 pathway: apprentice
 sequence: 2
+status: canonical
 type: active
 action: full-round
 cost: {}
@@ -45,7 +47,19 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
+scaling:
+- when: sequence_1_or_higher
+  changes:
+    action: cast
+- when: sequence_0
+  changes:
+    action: free
 tags:
 - mobility
 text: 'Use: 1 time per round; Full-Round Action. Effect: You can go to any area and
@@ -54,6 +68,7 @@ text: 'Use: 1 time per round; Full-Round Action. Effect: You can go to any area 
   the real world without meaningfully affecting the "now". At higher Sequences: [[id:alias-sequence-1|Sequence
   1]]: a spellcasting action. [[Sequence 0]]: a free action.'
 ```
+
 
 
 
@@ -74,14 +89,22 @@ id: apprentice-seq-02-space-swap
 name: Space Swap
 pathway: apprentice
 sequence: 2
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 10
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -91,6 +114,7 @@ text: 'Cost: A Casting Action that consumes 10 spiritual points. Effect: You exc
   You must know the exact location and not be hindered by others. The core area of
   a church or an organization usually has a specific shelter and cannot be exchanged.'
 ```
+
 
 
 
@@ -114,15 +138,31 @@ id: apprentice-seq-02-to-reproduce
 name: To Reproduce
 pathway: apprentice
 sequence: 2
+status: adapted
 type: active
 action: cast
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.int + @skill.writing
+opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.writing
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted from explicit Writing Appraisal requirements and stated Difficulty Value breakpoints for higher-rank records.
+scaling:
+- when: recording_was_not_successfully_appraised_at_capture_time
+  changes:
+    effect_note: Reproduced content resolves at half effect.
+- when: check_result_meets_dv_25
+  changes:
+    effect_note: Angel-level record is valid but typically resolves at half effect.
+- when: check_result_meets_dv_35
+  changes:
+    effect_note: King-of-Angels-level record is valid at half effect unless principle-depth conditions are met.
 tags:
 - ritual
 text: 'Effect: Your records no longer have limits. Use and cost: A spellcasting action
@@ -135,6 +175,7 @@ text: 'Effect: Your records no longer have limits. Use and cost: A spellcasting 
   very weak; you still need to conduct a writing appraisal when you see it. Note:
   If you did not pass the writ...'
 ```
+
 
 
 

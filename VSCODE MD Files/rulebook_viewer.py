@@ -99,6 +99,16 @@ HEADING_LINE_RE = re.compile(
 
 WIKILINK_RE = re.compile(r'\[\[(.+?)\]\]')  # [[Target]] or [[Target|Display]]
 UNCLEAR_RE = re.compile(r'\[\[UNCLEAR:\s*(.+?)\]\]')
+ABILITY_FENCE_START_RE = re.compile(r'^\s*```(?:ya?ml)\s+ability\s*$', re.IGNORECASE)
+FENCE_END_RE = re.compile(r'^\s*```\s*$')
+
+ABILITY_DICE_FIELDS = (
+    ("check_roll", "Check"),
+    ("damage_roll", "Damage"),
+    ("heal_roll", "Heal"),
+    ("effect_roll", "Effect"),
+    ("notes", "Notes"),
+)
 
 def _strip_front_matter(md_text: str) -> Tuple[Dict, str]:
     """
@@ -192,6 +202,259 @@ def _inject_heading_anchors(body: str) -> str:
     return updated if updated is not None else body
 
 
+def _wikilink_html(inner: str) -> str:
+    if inner.lower().startswith("link later:"):
+        payload = inner[len("LINK LATER:"):].strip()
+        parts = [p.strip() for p in payload.split("|") if p.strip()]
+
+        target = parts[0] if parts else ""
+        meta = {}
+        for part in parts[1:]:
+            if "=" in part:
+                k, v = part.split("=", 1)
+                meta[k.strip().lower()] = v.strip()
+            else:
+                meta.setdefault("hint", part)
+
+        if not target:
+            return html.escape(f"[[{inner}]]")
+
+        type_ = meta.get("type", "").strip()
+        hint = meta.get("hint", "").strip()
+
+        title_bits = ["Link later"]
+        if type_:
+            title_bits.append(f"type={type_}")
+        if hint:
+            title_bits.append(f"hint={hint}")
+        title_attr = " | ".join(title_bits)
+
+        href = "/search?q=" + urllib.parse.quote(target, safe="")
+        return (
+            f'<a class="linklater" href="{href}" '
+            f'title="{html.escape(title_attr, quote=True)}">{html.escape(target)}</a>'
+        )
+
+    if "|" in inner:
+        target, display = inner.split("|", 1)
+        target = target.strip()
+        display = display.strip()
+    else:
+        target, display = inner, inner
+    href = "/w/" + urllib.parse.quote(target, safe="")
+    return f'<a class="wikilink" href="{href}">{html.escape(display)}</a>'
+
+
+def _replace_unclear(text: str) -> str:
+    def repl_unclear(m: re.Match) -> str:
+        msg = m.group(1).strip()
+        safe = html.escape(msg)
+        return f'<span class="unclear">UNCLEAR: {safe}</span>'
+
+    return UNCLEAR_RE.sub(repl_unclear, text)
+
+
+def _replace_wikilinks(text: str) -> str:
+    def repl_wikilink(m: re.Match) -> str:
+        inner = m.group(1).strip()
+        return _wikilink_html(inner)
+
+    return WIKILINK_RE.sub(repl_wikilink, text)
+
+
+def _escape_and_linkify_wikilinks(text: str) -> str:
+    if not text:
+        return ""
+    out: List[str] = []
+    last = 0
+    for m in WIKILINK_RE.finditer(text):
+        out.append(html.escape(text[last:m.start()]))
+        out.append(_wikilink_html(m.group(1).strip()))
+        last = m.end()
+    out.append(html.escape(text[last:]))
+    return "".join(out)
+
+
+def _render_markdown_snippet(text: str) -> str:
+    if not text:
+        return ""
+    snippet = _replace_unclear(text)
+    snippet = _replace_wikilinks(snippet)
+    return MD(snippet)
+
+
+def _format_scalar(value, *, linkify: bool = False) -> str:
+    if value is None or value == "":
+        return '<span class="ability-muted">none</span>'
+    if isinstance(value, bool):
+        return "true" if value else "false"
+    if isinstance(value, (int, float)):
+        return str(value)
+    text = str(value)
+    if linkify:
+        return _escape_and_linkify_wikilinks(text)
+    return html.escape(text)
+
+
+def _format_map(value, *, linkify: bool = False) -> str:
+    if not isinstance(value, dict) or not value:
+        return '<span class="ability-muted">none</span>'
+    parts: List[str] = []
+    for k, v in value.items():
+        key = html.escape(str(k))
+        if isinstance(v, dict):
+            val = _format_map(v, linkify=linkify)
+        elif isinstance(v, list):
+            val = _format_list(v, linkify=linkify)
+        else:
+            val = _format_scalar(v, linkify=linkify)
+        parts.append(f'<div class="ability-kv"><span class="ability-k">{key}</span>: <span class="ability-v">{val}</span></div>')
+    return "".join(parts)
+
+
+def _format_list(value, *, linkify: bool = False) -> str:
+    if not isinstance(value, list) or not value:
+        return '<span class="ability-muted">none</span>'
+    items = []
+    for entry in value:
+        if isinstance(entry, dict):
+            when = _format_scalar(entry.get("when"), linkify=linkify)
+            changes = entry.get("changes")
+            if isinstance(changes, dict):
+                changes_html = _format_map(changes, linkify=linkify)
+            else:
+                changes_html = _format_scalar(changes, linkify=linkify)
+            item = (
+                f'<div><span class="ability-k">when</span>: {when}</div>'
+                f'<div><span class="ability-k">changes</span>: {changes_html}</div>'
+            )
+            items.append(f"<li>{item}</li>")
+        else:
+            items.append(f"<li>{_format_scalar(entry, linkify=linkify)}</li>")
+    return '<ul class="ability-list">' + "".join(items) + "</ul>"
+
+
+def _render_dice_table(dice: dict) -> str:
+    if not isinstance(dice, dict) or not dice:
+        return '<span class="ability-muted">none</span>'
+    rows = []
+    for key, label in ABILITY_DICE_FIELDS:
+        val = dice.get(key)
+        if val is None or val == "":
+            val_html = '<span class="ability-muted">none</span>'
+        else:
+            if key == "notes":
+                val_html = _escape_and_linkify_wikilinks(str(val))
+            else:
+                val_html = html.escape(str(val))
+        rows.append(f"<tr><th>{label}</th><td>{val_html}</td></tr>")
+    return '<table class="ability-dice">' + "".join(rows) + "</table>"
+
+
+def _ability_html_from_data(data: dict, raw_yaml: str) -> str:
+    name = data.get("name") or data.get("id") or "Ability"
+    ability_id = data.get("id") or ""
+    pathway = data.get("pathway")
+    sequence = data.get("sequence")
+    status = data.get("status")
+    type_ = data.get("type")
+    action = data.get("action")
+    cost = data.get("cost")
+    roll = data.get("roll")
+    opposed_by = data.get("opposed_by")
+    range_ = data.get("range")
+    target = data.get("target")
+    duration = data.get("duration")
+    tags = data.get("tags")
+    scaling = data.get("scaling")
+    dice = data.get("dice") or {}
+    text = data.get("text")
+
+    badges = []
+    if pathway:
+        badges.append(f'<span class="ability-badge">Pathway: {html.escape(str(pathway))}</span>')
+    if sequence is not None:
+        badges.append(f'<span class="ability-badge">Sequence {html.escape(str(sequence))}</span>')
+    if status:
+        badges.append(f'<span class="ability-badge">{html.escape(str(status))}</span>')
+    badge_html = "".join(badges)
+
+    tags_html = ""
+    if isinstance(tags, list) and tags:
+        tags_html = "".join(f'<span class="ability-tag">{html.escape(str(t))}</span>' for t in tags)
+    else:
+        tags_html = '<span class="ability-muted">none</span>'
+
+    rows = [
+        ("Type", _format_scalar(type_)),
+        ("Action", _format_scalar(action)),
+        ("Cost", _format_map(cost, linkify=True)),
+        ("Roll", _format_scalar(roll)),
+        ("Opposed By", _format_scalar(opposed_by)),
+        ("Range", _format_scalar(range_, linkify=True)),
+        ("Target", _format_scalar(target, linkify=True)),
+        ("Duration", _format_scalar(duration, linkify=True)),
+    ]
+    row_html = "".join(f"<tr><th>{label}</th><td>{val}</td></tr>" for label, val in rows)
+
+    scaling_html = _format_list(scaling, linkify=True)
+    dice_html = _render_dice_table(dice)
+    text_html = _render_markdown_snippet(str(text)) if isinstance(text, str) and text.strip() else ""
+
+    raw_yaml = raw_yaml.rstrip("\n")
+    raw_yaml_html = html.escape(raw_yaml)
+
+    return (
+        '<div class="ability-card">'
+        f'<div class="ability-head">'
+        f'<div><div class="ability-name">{html.escape(str(name))}</div>'
+        f'<div class="ability-id">{html.escape(str(ability_id))}</div></div>'
+        f'<div class="ability-badges">{badge_html}</div>'
+        '</div>'
+        f'<table class="ability-table">{row_html}</table>'
+        f'<div class="ability-section"><div class="ability-section-title">Tags</div><div class="ability-tags">{tags_html}</div></div>'
+        f'<div class="ability-section"><div class="ability-section-title">Dice</div>{dice_html}</div>'
+        f'<div class="ability-section"><div class="ability-section-title">Scaling</div>{scaling_html}</div>'
+        f'<div class="ability-section"><div class="ability-section-title">Text</div><div class="ability-text">{text_html}</div></div>'
+        f'<details class="ability-raw"><summary>Raw YAML</summary><pre><code>{raw_yaml_html}</code></pre></details>'
+        '</div>'
+    )
+
+
+def _render_ability_yaml_block(yaml_text: str) -> str:
+    try:
+        data = yaml.safe_load(yaml_text) or {}
+    except Exception:
+        data = None
+    if not isinstance(data, dict) or not data:
+        safe = html.escape(yaml_text.rstrip("\n"))
+        return f"<pre><code>{safe}</code></pre>"
+    return _ability_html_from_data(data, yaml_text)
+
+
+def _render_ability_blocks(body: str) -> str:
+    lines = body.splitlines(keepends=True)
+    out: List[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if ABILITY_FENCE_START_RE.match(line):
+            i += 1
+            yaml_lines: List[str] = []
+            while i < len(lines) and not FENCE_END_RE.match(lines[i]):
+                yaml_lines.append(lines[i])
+                i += 1
+            if i < len(lines) and FENCE_END_RE.match(lines[i]):
+                i += 1
+            yaml_text = "".join(yaml_lines)
+            out.append(_render_ability_yaml_block(yaml_text))
+            out.append("\n")
+            continue
+        out.append(line)
+        i += 1
+    return "".join(out)
+
+
 def _preprocess_markdown(body: str) -> str:
     """
     Minimal transformations to preserve intended formatting + enable anchors.
@@ -200,65 +463,9 @@ def _preprocess_markdown(body: str) -> str:
     - Converts wiki-links [[Target]] / [[Target|Text]] to HTML links (resolved server-side)
     """
     body = _inject_heading_anchors(body)
-
-    def repl_unclear(m: re.Match) -> str:
-        msg = m.group(1).strip()
-        safe = html.escape(msg)
-        return f'<span class="unclear">UNCLEAR: {safe}</span>'
-
-    body = UNCLEAR_RE.sub(repl_unclear, body)
-
-    def repl_wikilink(m: re.Match) -> str:
-        inner = m.group(1).strip()
-    
-        # Special-case: [[LINK LATER: ...]] markers should remain readable during drafting.
-        # Render as a styled link that runs a search for the target (not for the literal "LINK LATER:" text).
-        if inner.lower().startswith("link later:"):
-            payload = inner[len("LINK LATER:"):].strip()
-            parts = [p.strip() for p in payload.split("|") if p.strip()]
-
-            target = parts[0] if parts else ""
-            meta = {}
-            for part in parts[1:]:
-                if "=" in part:
-                    k, v = part.split("=", 1)
-                    meta[k.strip().lower()] = v.strip()
-                else:
-                    # If an unkeyed value appears, treat it as a hint.
-                    meta.setdefault("hint", part)
-
-            if not target:
-                # Fall back to rendering the raw marker if it is malformed.
-                return html.escape(f"[[{inner}]]")
-
-            type_ = meta.get("type", "").strip()
-            hint = meta.get("hint", "").strip()
-
-            title_bits = ["Link later"]
-            if type_:
-                title_bits.append(f"type={type_}")
-            if hint:
-                title_bits.append(f"hint={hint}")
-            title_attr = " • ".join(title_bits)
-
-            href = "/search?q=" + urllib.parse.quote(target, safe="")
-            return (
-                f'<a class="linklater" href="{href}" '
-                f'title="{html.escape(title_attr, quote=True)}">{html.escape(target)}</a>'
-            )
-
-        # Normal wiki-links: [[Target]] or [[Target|Display]]
-
-        if '|' in inner:
-            target, display = inner.split('|', 1)
-            target = target.strip()
-            display = display.strip()
-        else:
-            target, display = inner, inner
-        href = "/w/" + urllib.parse.quote(target, safe="")
-        return f'<a class="wikilink" href="{href}">{html.escape(display)}</a>'
-
-    body = WIKILINK_RE.sub(repl_wikilink, body)
+    body = _render_ability_blocks(body)
+    body = _replace_unclear(body)
+    body = _replace_wikilinks(body)
     return body
 
 
@@ -1153,6 +1360,131 @@ details[open] > summary::before{ transform: rotate(90deg) translateY(-0.5px); }
   text-decoration:none;
 }
 
+.ability-card{
+  margin: 16px 0;
+  padding: 14px 16px;
+  border: 1px solid rgba(201,162,75,0.22);
+  border-radius: 14px;
+  background: rgba(255,255,255,0.02);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.35);
+}
+.ability-head{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.ability-name{
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+.ability-id{
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.ability-badges{
+  display:flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.ability-badge{
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(201,162,75,0.25);
+  background: rgba(255,255,255,0.03);
+  color: var(--muted);
+  font-size: 12px;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+}
+.ability-table{
+  width:100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 0.95em;
+}
+.ability-table th,.ability-table td{
+  border: 1px solid rgba(201,162,75,0.20);
+  padding: 6px 8px;
+  vertical-align: top;
+}
+.ability-table th{
+  width: 140px;
+  text-align:left;
+  color: var(--muted);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: rgba(201,162,75,0.06);
+}
+.ability-tags{
+  display:flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.ability-tag{
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(201,162,75,0.30);
+  background: rgba(201,162,75,0.08);
+  font-size: 12px;
+}
+.ability-muted{
+  color: var(--muted);
+  font-size: 12px;
+}
+.ability-section{
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(201,162,75,0.16);
+}
+.ability-section-title{
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+}
+.ability-dice{
+  width:100%;
+  border-collapse: collapse;
+}
+.ability-dice th,.ability-dice td{
+  border: 1px solid rgba(201,162,75,0.20);
+  padding: 6px 8px;
+  vertical-align: top;
+}
+.ability-dice th{
+  width: 120px;
+  text-align:left;
+  color: var(--muted);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background: rgba(201,162,75,0.06);
+}
+.ability-list{
+  margin: 0;
+  padding-left: 1.2em;
+}
+.ability-k{ color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+.ability-text p{ margin: 6px 0; }
+.ability-raw{
+  margin-top: 10px;
+}
+.ability-raw summary{
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 12px;
+}
+.ability-raw pre{
+  margin-top: 8px;
+}
+
 .search-results{
   display:flex;
   flex-direction:column;
@@ -1794,3 +2126,4 @@ def main(argv: Optional[List[str]] = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

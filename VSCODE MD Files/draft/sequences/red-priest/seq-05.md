@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Red Priest Pathway: Sequence 5
 
 > **Lore:** A Reaper is skilled at finding a prey’s weakness and launching an absolutely fatal attack, with extremely strong offensive power.
@@ -40,14 +41,21 @@ id: red-priest-seq-05-spot-weaknesses
 name: Spot Weaknesses
 pathway: red-priest
 sequence: 5
+status: canonical
 type: active
 action: free
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.investigation
 opposed_by: difficulty_value
 range: Choose 1 target within your [[Field of Vision]].
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: 1d20 + @attr.int + @skill.investigation
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Detection test DV 20; on success, learn tactical weakness and lowest resistance (type only).
 scaling: []
 tags:
 - ritual
@@ -64,6 +72,7 @@ text: 'Cost: None (does not consume Spirituality). [[Spirituality]] Use: 1 Free 
   which of the opponents existing [[Resistance]] is the lowest. You do not know the
   specific resistance valu...'
 ```
+
 
 
 
@@ -86,6 +95,7 @@ id: red-priest-seq-05-harvest
 name: Harvest
 pathway: red-priest
 sequence: 5
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -94,6 +104,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: 3d6
+  heal_roll: null
+  effect_roll: "1"
+  notes: Weakness Attack adds +3d6 with -8 disadvantage and counts as a Vital Blow; Fatal Attack forces Weak Point Attack on hit (3d6 if no penetration) and applies Critical Strike effects as noted.
 scaling: []
 tags:
 - ritual
@@ -108,6 +124,7 @@ text: '#### Weakness Attack Cost: 2 points of Spirituality. Use: 1 attack/castin
   necessarily the internal organs and other locations. #### Fatal Attack Cost: 4 points
   of Spirituality.'
 ```
+
 
 
 

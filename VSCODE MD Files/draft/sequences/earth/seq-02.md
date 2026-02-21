@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Mother Pathway: Sequence 2
 
 ## Alchemist
@@ -38,13 +39,19 @@ tags:
 
 - **Attribute Gain:** Strength (STR) +1
 
-### Alchemist Authority
+### Canon Lore Placeholder
+
+- **Lore Placeholder:** Canon flavor may be retained here, but mechanics remain unbound.
+- **Limits:** Do not treat this as finalized mechanics.
+
+### Mechanics Stub
 
 ```yaml ability
-id: earth-seq-02-alchemist-authority
-name: Alchemist Authority
+id: earth-seq-02-mechanics-stub
+name: Mechanics Stub
 pathway: earth
 sequence: 2
+status: stub
 type: passive
 action: none
 cost: {}
@@ -53,70 +60,18 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Stub record. Canon mechanics are intentionally unspecified.
 scaling: []
 tags:
-- healing
-- buff
 - utility
-text: You carry maternal life authority, accelerating growth, recovery, and biological
-  resilience in natural and living systems.
+- stub
+text: Alchemist canonical mechanics are not yet authored.
 ```
 
-- **Effect:** You carry maternal life authority, accelerating growth, recovery, and biological resilience in natural and living systems.
-- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
-
-### Life Weaving
-
-```yaml ability
-id: earth-seq-02-life-weaving
-name: Life Weaving
-pathway: earth
-sequence: 2
-type: active
-action: full-round
-cost:
-  spirituality: 3
-roll: null
-opposed_by: none
-range: touch
-target: designated target(s)
-duration: sustained
-scaling: []
-tags:
-- healing
-- buff
-- utility
-text: You weave life force through flesh and roots, restoring injuries and stabilizing
-  allies against decay and poison effects.
-```
-
-- **Effect:** You weave life force through flesh and roots, restoring injuries and stabilizing allies against decay and poison effects.
-- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
-
-### Flesh and Flora Shaping
-
-```yaml ability
-id: earth-seq-02-flesh-and-flora-shaping
-name: Flesh and Flora Shaping
-pathway: earth
-sequence: 2
-type: active
-action: full-round
-cost:
-  spirituality: 4
-roll: null
-opposed_by: constitution_defense
-range: 20m
-target: designated target(s)
-duration: 1 encounter
-scaling: []
-tags:
-- control
-- healing
-- offense
-text: You force abrupt growth or mutation in organisms and plant matter, creating
-  restraining biomass or restorative biological channels.
-```
-
-- **Effect:** You force abrupt growth or mutation in organisms and plant matter, creating restraining biomass or restorative biological channels.
-- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
+- **Effect:** Mechanical placeholder only. Alchemist canonical mechanics are not yet authored.
+- **Limits:** Mechanics are intentionally stubbed pending canonical source confirmation.

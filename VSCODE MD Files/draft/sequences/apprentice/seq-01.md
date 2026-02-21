@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Door Pathway: Sequence 1
 
 ## Key of Stars
@@ -20,7 +21,7 @@ tags:
 
 - **Advancement Ritual:** Change the trajectory of the stars, or seal a celestial body.
 
-> **GM Note:** The RAW describes this as an â€œunofficial ceremony.â€
+> **GM Note:** The RAW describes this as an "unofficial ceremony."
 
 ## Extraordinary Abilities
 
@@ -35,14 +36,22 @@ id: apprentice-seq-01-authority-locating
 name: Authority Locating
 pathway: apprentice
 sequence: 1
+status: canonical
 type: active
 action: free
-cost: {}
+cost:
+  spirituality: 3
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -53,6 +62,7 @@ text: 'Cost: 3 points of spirituality. Use: Free action. Effect: You locate a pe
   directly locate their true position in the entire universe through the stars. Limits:
   This ability also has a significant effect on the [[Deity]].'
 ```
+
 
 
 
@@ -69,6 +79,7 @@ id: apprentice-seq-01-teleportation-shifting-stars
 name: Teleportation (Shifting Stars)
 pathway: apprentice
 sequence: 1
+status: canonical
 type: active
 action: free
 cost: {}
@@ -77,12 +88,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
 text: 'Use: Free action. Effect: You can teleport to any place in this universe immediately;
   lower-level obscuration/sealing can be pried open and does not stop this effect.'
 ```
+
 
 
 
@@ -101,19 +119,39 @@ id: apprentice-seq-01-gate
 name: Gate
 pathway: apprentice
 sequence: 1
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 5
+roll: 1d20 + @attr.int + @skill.occultism - 8
 opposed_by: willpower_defense
 range: A supernatural ability or a thing within your range of vision.
 target: designated target(s)
-duration: instant
-scaling: []
+duration: 3 rounds
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism - 8
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted from the explicit Mysticism (Occultism) versus Willpower Defense contest with a fixed -8 disadvantage.
+scaling:
+- when: target_sequence_lower_than_you
+  changes:
+    max_simultaneous_seals_per_target: 3
+    duration: 1 encounter
+- when: target_voluntary_or_helpless_or_two_sequences_lower
+  changes:
+    duration: persistent
+- when: sequence_0_user
+  changes:
+    range: world
+    effect_note: World-scale seal strengthening can suppress other Sequence 0 item use for one encounter.
 tags:
 - ritual
 - detection
 - defense
+- control
 text: 'Cost: 5 points of spirituality. Use: Spellcasting action. Check: [[Mysticism]]
   against Willpower Defense; minus -8 is disadvantageous. Check: [[Mysticism]] against
   Willpower Defense; apply -8 to the overall contest result. Targeting and range:
@@ -123,6 +161,7 @@ text: 'Cost: 5 points of spirituality. Use: Spellcasting action. Check: [[Mystic
   at a time. Across different targets (or repeated uses), there is no total upper
   limit on active seals.'
 ```
+
 
 
 
@@ -161,14 +200,22 @@ id: apprentice-seq-01-spoon
 name: Spoon
 pathway: apprentice
 sequence: 1
+status: canonical
 type: active
 action: free
-cost: {}
+cost:
+  spirituality: 3
 roll: null
 opposed_by: none
 range: An object within your field of vision.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -184,6 +231,7 @@ text: 'Cost: 3 points of spirituality. Use: Free action (once in a Round). Targe
   This essentially uses the power of location to find the keys, or lockholes, of these
   seals, thereby opening them. If there is a s...'
 ```
+
 
 
 

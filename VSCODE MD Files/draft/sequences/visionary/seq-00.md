@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Visionary Pathway: Sequence 0
 
 ## Visionary
@@ -35,6 +36,7 @@ id: visionary-seq-00-divine-gaze
 name: Divine Gaze
 pathway: visionary
 sequence: 0
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -43,6 +45,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -51,6 +59,7 @@ text: 'Use: When any creature recites your True Name. Effect: You can gaze at th
   area at will. Targeting: While perceiving that area, you may target the area with
   your extraordinary abilities at will.'
 ```
+
 
 
 
@@ -71,6 +80,7 @@ id: visionary-seq-00-fantasy
 name: Fantasy
 pathway: visionary
 sequence: 0
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -79,6 +89,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -86,6 +102,7 @@ text: '*Spiritual Cap Points: Points taken from your maximum Spirituality. Spend
   Spiritual Cap Points temporarily reduces your maximum Spirituality until the conjured
   item ends.'
 ```
+
 
 
 
@@ -106,6 +123,7 @@ id: visionary-seq-00-the-imaginary-items-will-surely-appear
 name: The Imaginary Items Will Surely Appear
 pathway: visionary
 sequence: 0
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -114,6 +132,12 @@ opposed_by: none
 range: self
 target: self
 duration: 1 full round.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -123,6 +147,7 @@ text: 'Cost: Spend Spiritual Cap Points to conjure a once-fictional creation for
   a once-fictional creation. Duration: 1 full round. Limits (Spirituality Maximum):
   Your Spirituality maximum determines the upper limit of what you can imagine.'
 ```
+
 
 
 

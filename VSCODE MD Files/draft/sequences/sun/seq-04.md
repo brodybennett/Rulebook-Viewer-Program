@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Sun Pathway: Sequence 4
 
 ## Unshadowed
@@ -48,6 +49,7 @@ id: sun-seq-04-darkness-endless-light
 name: 'Darkness: Endless Light'
 pathway: sun
 sequence: 4
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -56,6 +58,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d5
+  notes: Damage components from curses, cold, toxins, and acids are each reduced to 1d5.
 scaling: []
 tags:
 - detection
@@ -72,6 +80,7 @@ text: 'Use: 1 Swift Action. Swift Action Effect: Endless light dispels all pollu
   is 3d6, plus +1d6 at Sequence 6 and +1d6 at Sequence 5, so it is 3d6 + 1d6 + 1d6
   (not 5d6). Therefore, in the rea...'
 ```
+
 
 
 
@@ -100,15 +109,23 @@ id: sun-seq-04-spear-of-darkness
 name: Spear of Darkness
 pathway: sun
 sequence: 4
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 5
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: physical_defense
 range: Choose 1 target; use **Mysticism** to attack the targets **Physical Defense**.
   [[Mysticism]] [[Physical Defense]]
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: 5d6 + 8
+  heal_roll: null
+  effect_roll: null
+  notes: On a failed attack, damage is halved.
 scaling: []
 tags:
 - ritual
@@ -122,6 +139,7 @@ text: 'Cost: 5 points of Spirituality. [[Spirituality]] Use: 1 Casting Action. C
   day in an instant. Naming: Spear of Darkness, gun of darkness, and Spear of Radiance
   refer to this same ability.'
 ```
+
 
 
 
@@ -147,15 +165,23 @@ id: sun-seq-04-yang-yan
 name: Yang Yan
 pathway: sun
 sequence: 4
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 6
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: physical_defense
 range: Mysticism attacks all physical defenses in the field except the sun path. [[Sun]]
   [[Physical Defense]]
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: 4d8 + 5
+  heal_roll: null
+  effect_roll: null
+  notes: Choose holy or fire damage; half damage on failed attack.
 scaling: []
 tags:
 - ritual
@@ -171,6 +197,7 @@ text: 'Cost: 6 points of Spirituality. [[Spirituality]] Use: 1 Casting Action. C
   undead domains, and can even directly destroy them. However, the attack range is
   large, and it is easy to accidentally injure one...'
 ```
+
 
 
 
@@ -193,15 +220,23 @@ id: sun-seq-04-pure-white-ray
 name: Pure White Ray
 pathway: sun
 sequence: 4
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: physical_defense
 range: Select 1 target; **Occult** versus **Physical Defense**. [[Occult]] [[Physical
   Defense]]
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: 3d6 + 3
+  heal_roll: null
+  effect_roll: null
+  notes: "Alternate defense: resist Willpower Defense at -4 penalty and cost 5 spirituality."
 scaling: []
 tags:
 - ritual
@@ -215,6 +250,7 @@ text: 'Cost: 3 points of Spirituality. [[Spirituality]] Use: 1 Casting Action (u
   with resist Willpower Defense, but your check takes a -4 penalty, and the Spirituality
   cost increases to 5 points. Willpower Defense'
 ```
+
 
 
 
@@ -237,14 +273,22 @@ id: sun-seq-04-sacred-armor
 name: Sacred Armor
 pathway: sun
 sequence: 4
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 4
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: Lasts for one encounter. Encounter
+dice:
+  check_roll: null
+  damage_roll: 2d6
+  heal_roll: null
+  effect_roll: "1"
+  notes: Grants armor/DR; body touch against undead/fallen/dark deals 2d6 holy damage.
 scaling: []
 tags:
 - ritual
@@ -261,6 +305,7 @@ text: 'Cost: 4 points of Spirituality. [[Spirituality]] Use: 1 Casting Action. C
   without additional restraint. [[Holy Damage]] Duration: Lasts for one encounter.
   Encounter'
 ```
+
 
 
 
@@ -285,6 +330,7 @@ id: sun-seq-04-sunlight-interpretation
 name: Sunlight Interpretation
 pathway: sun
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -293,6 +339,12 @@ opposed_by: none
 range: The range is about a city.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - divination
@@ -302,6 +354,7 @@ text: 'Effect: You can sense whats happening near the sunlight you are in contac
   Limits: The perception picture of this ability can be affected by anti-divination.
   [[id:alias-anti-divination|Anti-Divination]]'
 ```
+
 
 
 

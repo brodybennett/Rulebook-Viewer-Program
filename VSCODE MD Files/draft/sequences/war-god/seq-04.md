@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Twilight Giant Pathway: Sequence 4
 
 ## Demon Hunter
@@ -38,14 +39,21 @@ id: war-god-seq-04-detect-evil
 name: Detect Evil
 pathway: war-god
 sequence: 4
+status: canonical
 type: active
 action: free
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.investigation
 opposed_by: difficulty_value
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.investigation
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: "Difficulty Value 15 Intuition + Spot check; apply Avoidance of Scrying penalty if present. Use Investigation for the roll token."
 scaling: []
 tags:
 - detection
@@ -54,6 +62,7 @@ text: 'Use: Free Action Check: Difficulty Value 15 Intuition + [[Spot]] check. E
   within the scene or that have been in the area within the last 24 hours. Limits/Modifiers:
   If a target has the [[Avoidance of Scrying]] trait, apply its penalty to this check.'
 ```
+
 
 
 
@@ -73,14 +82,22 @@ id: war-god-seq-04-demon-hunt-ritual
 name: Demon Hunt Ritual
 pathway: war-god
 sequence: 4
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 4
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll; attack identifications of 18/19/20 count as big success after the ritual."
 scaling: []
 tags:
 - ritual
@@ -90,6 +107,7 @@ text: 'Use: Perform a ritual where you hunt demons. Time: 10 minutes. Cost: 4 [[
   After the ceremony takes effect, your attack Identification checks of 18, 19, or
   20 are considered a [[Big Success]].'
 ```
+
 
 
 
@@ -110,6 +128,7 @@ id: war-god-seq-04-mind-barrier
 name: Mind Barrier
 pathway: war-god
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -118,6 +137,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -125,6 +150,7 @@ tags:
 text: 'Effect: Conceal your intentions. You can surprise creatures that would not
   otherwise be surprised. A demons danger perception no longer applies to you.'
 ```
+
 
 
 
@@ -143,6 +169,7 @@ id: war-god-seq-04-spiritual-disturbance
 name: Spiritual Disturbance
 pathway: war-god
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -151,12 +178,19 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "Target makes an Intuition check at -5; on failure treat as Big Failure."
 scaling: []
 tags:
 - ritual
 text: 'Effect: The target makes an Intuition check at -5; on failure, treat the result
   as a Big Failure.'
 ```
+
 
 
 
@@ -173,14 +207,21 @@ id: war-god-seq-04-material-identification
 name: Material Identification
 pathway: war-god
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d20
+  notes: "Craft time is 1d20 minutes; healing potion restores 2d6 health, purification potion deals 3d6 to wraiths and grants 1d3 sanity armor; marks add listed bonus dice."
 scaling: []
 tags:
 - detection
@@ -191,6 +232,7 @@ text: 'Effect: Identify the uses of various materials and prepare corresponding 
   be stored or effective for 24 hours. Heres a list of the magical items you can craft:
   Holy Anointing Use: Full Round to apply.'
 ```
+
 
 
 
@@ -260,6 +302,7 @@ id: war-god-seq-04-god-of-war
 name: God of War
 pathway: war-god
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -268,6 +311,12 @@ opposed_by: willpower_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - healing
@@ -283,6 +332,7 @@ text: 'Trigger: Whenever you fall into [[Madness]]. Effect: Temporarily consume 
   impairmentsalthough these negative states still exist (e.g., you are still theoretically
   blind or deaf), you can still...'
 ```
+
 
 
 

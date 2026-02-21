@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Hermit Pathway: Sequence 9
 
 ## Mystery Pryer
@@ -42,14 +43,22 @@ id: mystery-pryer-seq-09-spiritual-vision
 name: Spiritual Vision
 pathway: mystery-pryer
 sequence: 9
+status: canonical
 type: toggle
 action: free
-cost: {}
+cost:
+  spirituality: 1
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "2"
+  notes: While active, spiritual intuition checks gain +2 beneficial.
 scaling: []
 tags:
 - ritual
@@ -66,6 +75,7 @@ text: 'You obtain more outstanding Spiritual Vision because of your inspiration.
   extraordinary people. You can also see through a door to view the inside, identify
   whether there is rit...'
 ```
+
 
 
 
@@ -102,6 +112,7 @@ id: mystery-pryer-seq-09-curtain-peeping
 name: Curtain Peeping
 pathway: mystery-pryer
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -110,6 +121,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Triggered by resolving a relevant identification/occult check; great success/big failure outcomes remain prose-driven.
 scaling: []
 tags:
 - utility
@@ -123,6 +140,7 @@ text: '*Curtain Peeping lets you more easily perceive existences behind things. 
   (Great success vs. Big failure): Great Success Great Success: You saw something
   you shouldnt have noticed, but fortunate...'
 ```
+
 
 
 
@@ -153,6 +171,7 @@ id: mystery-pryer-seq-09-fast-ritual-spell
 name: Fast Ritual Spell
 pathway: mystery-pryer
 sequence: 9
+status: canonical
 type: active
 action: full-round
 cost: {}
@@ -161,12 +180,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
 text: 'You quickly cast a ritual spell. Use: As a [[Full-Round Action]], expend 1
   [[Spellcasting Material]] to quickly perform a ritual spell.'
 ```
+
 
 
 
@@ -188,6 +214,7 @@ id: mystery-pryer-seq-09-spellcasting-materials
 name: Spellcasting Materials
 pathway: mystery-pryer
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -196,6 +223,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -209,6 +242,7 @@ text: '*Spellcasting Materials (concepts applied to higher Sequences): Your spel
   it will still be counted as advanced when calculating materials. Compared to [[Apothecary]],
   your spellcasting materials...'
 ```
+
 
 
 
@@ -244,6 +278,7 @@ id: mystery-pryer-seq-09-ritual-proficiency
 name: Ritual Proficiency
 pathway: mystery-pryer
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -252,6 +287,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -266,6 +307,7 @@ text: 'You are proficient in the use of ritual magic. As long as you have been t
   Magic]]. Ritual magic prepared in advance can make an enemy step into your trap,
   or perform anti-divination on the s...'
 ```
+
 
 
 
@@ -290,15 +332,29 @@ id: mystery-pryer-seq-09-divination
 name: Divination
 pathway: mystery-pryer
 sequence: 9
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Occult identification against DV tiers; great success and big failure effects remain prose-driven.
+scaling:
+- when: check_result_meets_dv_15
+  changes:
+    effect_note: Very general result (e.g., only the city).
+- when: check_result_meets_dv_20
+  changes:
+    effect_note: General directional result.
 tags:
 - ritual
 - divination
@@ -309,6 +365,7 @@ text: 'You gain the basic ability of Divination, but not as strongly as a divine
   15: Get a very general result (e.g., finding objects only tells you a city). Difficulty
   Value 20: Get a more general result that usually gives a general direction.'
 ```
+
 
 
 

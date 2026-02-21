@@ -10,11 +10,12 @@ tags:
 
 
 
+
 # Paragon Pathway: Sequence 9
 
 ## Savant
 
-> **Lore:** Believing that knowledge is power, Savants have a cursory grasp of the occult and a stronger proficiency in chemicals and intricate mechanismsâ€”seeming to â€œknow it all.â€ Their core talent is awakening memory: recalling everything they have read while improving comprehension and learning speed.
+> **Lore:** Believing that knowledge is power, Savants have a cursory grasp of the occult and a stronger proficiency in chemicals and intricate mechanisms-seeming to "know it all." Their core talent is awakening memory: recalling everything they have read while improving comprehension and learning speed.
 
 ## Advancement
 
@@ -49,14 +50,22 @@ id: paragon-seq-09-wake-up-memory
 name: Wake Up Memory
 pathway: paragon
 sequence: 9
+status: canonical
 type: active
 action: swift
-cost: {}
+cost:
+  spirituality: 3
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: No roll; the next skill check gains a one-tier boost (up to advanced).
 scaling: []
 tags:
 - ritual
@@ -66,6 +75,7 @@ text: 'Cost: 3 Spirituality. Use: 1 Swift Action. Effect: On your next skill che
   Trained acts as proficient. Proficient acts as advanced. Limits: This ability can
   reach advanced level at most.'
 ```
+
 
 
 
@@ -85,6 +95,7 @@ id: paragon-seq-09-fast-learning
 name: Fast Learning
 pathway: paragon
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -93,6 +104,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -107,10 +124,11 @@ text: 'Effect (training time): You can use one day to train a skill to be traine
 
 
 
+
 - **Effect (training time):**
   1. You can use one day to train a skill to be trained, and one week to train to be proficient. It takes two weeks from proficient to advanced, four weeks from advanced to erudite, two months from erudite to master.
   2. The **GM** can limit the stacking skills. For example, investigators can only learn a few skills at most, and several skills can be advanced.
-     - Usually, except for potions, the group canâ€™t learn more than 3 kinds, and canâ€™t exceed advanced level.
+     - Usually, except for potions, the group can't learn more than 3 kinds, and can't exceed advanced level.
 
 - **Effect:** Fast Learning resolves using its yaml ability block and section prose.
 - **Limits:** As described in this section's prose.
@@ -123,14 +141,21 @@ id: paragon-seq-09-practical-assemblies
 name: Practical Assemblies
 pathway: paragon
 sequence: 9
+status: canonical
 type: active
 action: full-round
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.crafting
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.crafting
+  damage_roll: 2d6 + 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Use the relevant skill for the task (craft manufacturing, chemistry, pharmacy, deception); DV 15/20+ as listed. Chemical identification explosions deal 2d6 poison + 1d6 fire and ignore 2 armor; big failures can injure you.
 scaling: []
 tags:
 - utility
@@ -144,6 +169,7 @@ text: 'Special: Strictly speaking, this is not a transcendent ability, but an in
   appraisal: Assemble a pocket watch, or a pistol (appearance fully customizable depending
   on whether it is steam...'
 ```
+
 
 
 
@@ -170,10 +196,10 @@ text: 'Special: Strictly speaking, this is not a transcendent ability, but an in
   - During battle, heavy weapons generally cannot be temporarily assembled because 1 set of materials is difficult to carry. If the Extraordinary brings almost nothing else, or brings a large backpack, they are allowed to carry at most 1 set.
 
 - **Feasibility and research time:**
-  - The identification of the feasibility of other theories should be in line with this era. Even if you know more advanced knowledge, it usually takes a month of research and trial and error because no one exploresâ€”unless you are a time traveler.
+  - The identification of the feasibility of other theories should be in line with this era. Even if you know more advanced knowledge, it usually takes a month of research and trial and error because no one explores-unless you are a time traveler.
 
 - **Combat timing note:**
-  - If you temporarily create during combat, you cannot take any other actions, including free actions, until the creation is complete. The â€œ1 full roundâ€ time usually refers to your next turn.
+  - If you temporarily create during combat, you cannot take any other actions, including free actions, until the creation is complete. The "1 full round" time usually refers to your next turn.
 
 - **Effect:** Practical Assemblies resolves using its yaml ability block and section prose.
 - **Limits:** As described in this section's prose.
@@ -185,14 +211,22 @@ id: paragon-seq-09-spirit-vision
 name: Spirit Vision
 pathway: paragon
 sequence: 9
+status: canonical
 type: active
 action: free
-cost: {}
+cost:
+  spirituality: 1
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: No roll; while active, Spiritual Intuition tests gain +1.
 scaling: []
 tags:
 - ritual
@@ -210,12 +244,13 @@ text: 'Use: 1 Free Action to activate. Cost: 1 Spirituality per round. Effect: W
 
 
 
+
 - **Use:** 1 **Free Action** to activate.
 - **Cost:** 1 **Spirituality** per round.
 - **Effect:** While Spirit Vision is active, you gain the following benefits:
 
 
-  1. **Etheric body:** You can roughly tell whether the other partyâ€™s body is good or bad through aura color, but you canâ€™t get detailed information.
+  1. **Etheric body:** You can roughly tell whether the other party's body is good or bad through aura color, but you can't get detailed information.
   2. **Spiritual body:** You can confirm whether an object/creature has spirituality; this cannot identify extraordinary people.
   3. **Mental body:** You can see whether the other party is thinking, but only that; you cannot get more detailed information.
   4. **Astral body:** You cannot see the astral body.

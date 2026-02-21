@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Death Pathway: Sequence 7
 
 > **Lore:** You master mystical rituals related to spirits. You can directly communicate with natural spirits and wandering dead souls in the real world, use different spirits to realize various magics, and create supernatural phenomena.
@@ -46,14 +47,22 @@ id: death-seq-07-communicating-with-the-dead
 name: Communicating with the Dead
 pathway: death
 sequence: 7
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
-opposed_by: none
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.int + @skill.knowledge
+opposed_by: willpower_defense
 range: 100m
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.knowledge
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 5d6
+  notes: check_roll maps remote spirit-link establishment versus Willpower Defense; effect_roll maps the typical count of nearby spirits available in range.
 scaling: []
 tags:
 - social
@@ -71,6 +80,7 @@ text: You can directly communicate with natural spirits and wandering spirits in
 
 
 
+
 You can directly communicate with natural spirits and wandering spirits in the real world, like ordinary people.
 
 - If a dead person has appeared in an area, as long as their spirit has not been destroyed, you can see them near their death area, communicate directly, ask questions, and perform **psychic communication**.
@@ -81,7 +91,7 @@ You can directly communicate with natural spirits and wandering spirits in the r
   - **Check:** Intuition (INT) + [[Knowledge of the Dead]] vs its **Willpower Defense**.
   - The connection is established only on a success.
 
-> **GM Note:** â€œA psychic should actively communicate with all seeing spirits to achieve the effect of informants everywhere.â€
+> **GM Note:** "A psychic should actively communicate with all seeing spirits to achieve the effect of informants everywhere."
 
 - **Effect:** Communicating with the Dead resolves using its yaml ability block and section prose.
 - **Limits:** As described in this section's prose.
@@ -94,6 +104,7 @@ id: death-seq-07-psychic-communication-with-living-people
 name: Psychic Communication with Living People
 pathway: death
 sequence: 7
+status: adapted
 type: active
 action: cast
 cost: {}
@@ -102,7 +113,16 @@ opposed_by: none
 range: self
 target: Choose 1 **helpless** target.
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d2
+  notes: Involuntary communication can inflict sanity and rationality loss of 1/1d2; effect_roll captures the variable loss component.
+scaling:
+- when: voluntary_target_setup
+  changes:
+    effect_note: Requires about one minute of essential-oil setup before communication begins.
 tags:
 - ritual
 text: 'A living personaTMs spirit can also be an object of psychic communication.
@@ -117,14 +137,15 @@ text: 'A living personaTMs spirit can also be an object of psychic communication
 
 
 
-A living personâ€™s spirit can also be an object of psychic communication.
 
-There are two ways to communicate with a living personâ€™s spirit:
+A living person's spirit can also be an object of psychic communication.
+
+There are two ways to communicate with a living person's spirit:
 
 1. **Involuntary target**
    - **Cost/Action:** 1 Casting Action; no spiritual consumption.
    - **Target:** Choose 1 **helpless** target.
-   - **Effect:** You establish a psychic relationship and communicate as a normal psychic, but everyone can hear the other partyâ€™s response.
+   - **Effect:** You establish a psychic relationship and communicate as a normal psychic, but everyone can hear the other party's response.
    - Helplessness may be achieved violently, and causes the channeled target to suffer a **Sanity / Rationality** loss of 1/1d2.
 
 2. **Voluntary target**
@@ -146,6 +167,7 @@ id: death-seq-07-spiritualism
 name: Spiritualism
 pathway: death
 sequence: 7
+status: canonical
 type: passive
 action: none
 cost: {}
@@ -154,6 +176,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -169,6 +197,7 @@ text: 'You can use different spirits to achieve various magic. #### Danger Premo
   intends to do harm to you and has already started to do something about it, the
   ubiquitous spirits who can see these will...'
 ```
+
 
 
 
@@ -194,7 +223,7 @@ You can directly obtain information known to spirits within a certain range.
 - **Difficulty Value 15:** You know what kind of area the local area is, the general environment around it, and what things exist.
   - If you are in the Spirit World, you can use this to know the environment of the corresponding area in reality.
 - **Difficulty Value 20:** You know the local customs, landforms, and what kind of clothes and looks the people here.
-- **Difficulty Value 25:** You know more detailed informationâ€”what happened recently, and the detailed types of things.
+- **Difficulty Value 25:** You know more detailed information-what happened recently, and the detailed types of things.
 - **Difficulty Value 30:** You know more detailed local information and have obtained relevant direct information, such as the location of the deceased.
 - **Great success:** You know almost everything about the place, including the degree of danger here, the size of the degree.
 - **Big failure:** The spirits gave you wrong information, possibly because events were disguised or their judgment was wrong.
@@ -203,7 +232,7 @@ You can directly obtain information known to spirits within a certain range.
 **Special:**
 - If you ask the same thing within 24 hours, you will get the same result.
 - Generally speaking, spirits can only know about what happened in one day on the next day, unless the place you ask is near the scene of the incident.
-- Regional psychic covers 100 meters at a time. Spirits in a specific area may know unique information. In a city, if you ask spirits within different 100-meter ranges about the cityâ€™s status, because the information is general, there is a high probability that you will get the same information.
+- Regional psychic covers 100 meters at a time. Spirits in a specific area may know unique information. In a city, if you ask spirits within different 100-meter ranges about the city's status, because the information is general, there is a high probability that you will get the same information.
 
 #### Spiritual Body Assistance
 
@@ -217,9 +246,9 @@ You can directly obtain information known to spirits within a certain range.
 You can communicate with and drive natural spirits, undead, and spirit creatures.
 
 - **Cost/Action:** 1 Casting Action; consuming 3 spirituality points.
-- **Effect:** You control 1 undead creature that has â€œawakenedâ€ by itself. This kind of undead creature does not have enough wisdom. Natural spirits and spirit bodies with certain wisdom follow the content below:
+- **Effect:** You control 1 undead creature that has "awakened" by itself. This kind of undead creature does not have enough wisdom. Natural spirits and spirit bodies with certain wisdom follow the content below:
   1. **Premise:** You communicate with a spirit body. As long as the other party is willing, it will be regarded as a member of the spirit body that you can drive. The calculation represents your spirit strength.
-  2. The spirits you can drive include natural spirits, undead, Spirit World creatures, and undead creatures, but you cannot actively summon undead creatures unless it is a â€œresurrectedâ€ living corpse, water ghost, etc., and it should have no owner or the owner is at least 1 rank/Sequence lower than you.
+  2. The spirits you can drive include natural spirits, undead, Spirit World creatures, and undead creatures, but you cannot actively summon undead creatures unless it is a "resurrected" living corpse, water ghost, etc., and it should have no owner or the owner is at least 1 rank/Sequence lower than you.
   3. If you drive undead without replenishment, they can act and fight for up to **24 hours**. After that, they can only be channeled and provide fragmented information; they completely dissipate after **72 hours**.
   4. To replenish an undead, allow it to attach itself to a creature to extract its spirituality and body temperature. For every point of spirituality extracted, the duration of the undead increases by 1 minute. Undead generally refers to resentful souls/evil spirits. Shadows do not have the ability to possess.
 
@@ -246,13 +275,13 @@ You can communicate with and drive natural spirits, undead, and spirit creatures
 - 5 points curse resistance
 - Ignores poison and physical damage
 - **Attack Action:** 2d6 cold damage
-- **Possession:** Has Wraith Possession, but does not include mirror jumping, etc. Its determination is due to the content of [[Alien Pathway â€” Sequence 5: Wraith]].
+- **Possession:** Has Wraith Possession, but does not include mirror jumping, etc. Its determination is due to the content of [[Alien Pathway - Sequence 5: Wraith]].
 
-> **GM Note:** Different from resentful souls of different species: wild undead do not gain a series of abilities such as â€œadvanced invisibilityâ€ because of their level; they can only cause cold damage. They can possess after a certain level; ordinary shadows do not even have the conditions for possession.
+> **GM Note:** Different from resentful souls of different species: wild undead do not gain a series of abilities such as "advanced invisibility" because of their level; they can only cause cold damage. They can possess after a certain level; ordinary shadows do not even have the conditions for possession.
 
 ##### Living Corpse, Skeleton, Water Ghost
 
-The following undead creatures can only be enslaved by naturally â€œawakenedâ€ individuals, or created by possessing resentful spirits/evil spirits on corpses. When the spirits dissipate, they return to the corpses. The latter cannot affect those who have been taught to requiem corpse.
+The following undead creatures can only be enslaved by naturally "awakened" individuals, or created by possessing resentful spirits/evil spirits on corpses. When the spirits dissipate, they return to the corpses. The latter cannot affect those who have been taught to requiem corpse.
 
 **Living corpse**
 - 15 health
@@ -261,7 +290,7 @@ The following undead creatures can only be enslaved by naturally â€œawakened
 - 5 points resistance to cold, curse, and poison
 - **Attack:** 1d6 physical damage
 - Like a normal person but with multiple rotting corpses
-- (Against a Constitution Defense of 15 to do so if there is a disease that can affect a living corpse, such as [[Witchâ€™s Plague]].)
+- (Against a Constitution Defense of 15 to do so if there is a disease that can affect a living corpse, such as [[Witch's Plague]].)
 
 **Skeleton**
 - 10 health
@@ -277,7 +306,7 @@ The following undead creatures can only be enslaved by naturally â€œawakened
 - Ignores the ability to resist physical and Willpower Defense
 - 5 points cold, curse, and poison resistance
 - **Attack:** 1d6 physical damage
-- A body swelling and drowning â€œliving corpseâ€ in the water; can maintain normal mobility underwater.
+- A body swelling and drowning "living corpse" in the water; can maintain normal mobility underwater.
 
 ##### Special Rules: Characteristics, Containment, and Existence Time
 
@@ -299,7 +328,7 @@ Natural spirits are different from undead: undead are transformed after the deat
 
 Because the description of natural spirits is lacking, you can create a natural spirit in the following way:
 
-1. Roll 2d10 to determine a natural spiritâ€™s blood volume, Physical Defense, and Willpower Defense.
+1. Roll 2d10 to determine a natural spirit's blood volume, Physical Defense, and Willpower Defense.
    - The agility and dodge in Physical Defense are the values after Physical Defense -10.
 2. Customize the ability of the natural spirit or randomize its ability:
    - Roll 1d2 to randomly generate the following abilities:
@@ -348,6 +377,7 @@ id: death-seq-07-ritual-mastery
 name: Ritual Mastery
 pathway: death
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -356,6 +386,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -366,6 +402,7 @@ text: 'You gain access to ritual magic, able to invoke power from the gods. Effe
   ritual/summoning ritual, the Occult identification succeeds by default. Limit: This
   is the effect brought by 1 potion and cannot be stolen or recorded.'
 ```
+
 
 
 
@@ -388,6 +425,7 @@ id: death-seq-07-undead-army-battle-adjudication
 name: Undead Army Battle Adjudication
 pathway: death
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -396,6 +434,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -413,14 +457,15 @@ text: 'Because the Reaper Pathway starts from Sequence 7, and every time a Seque
 
 
 
+
 Because the Reaper Pathway starts from Sequence 7, and every time a Sequence is increased the subordinates you can drive and enslave increase explosively, you must decide the judgment method of your undead army in battle.
 
-#### When the Undead Are Treated as an â€œArmyâ€
+#### When the Undead Are Treated as an "Army"
 
 1. As long as the total number of dead people driven by you is more than 3, then all the dead people driven by you are considered as a whole.
 2. You add the blood volume of all your dead people together, but it cannot be added together at one time; it needs to be classified and added.
-3. Example method: first add the Vitality of all living corpses together, then add the Vitality of all shadows together. After adding the values of the dead of the same kind, record their blood volume respectively (e.g., using â€œ.st living corpse (blood volume value)â€).
-4. Decide the priority of your undead armyâ€™s constituent species (example priority order given in RAW: living corpses 1, skeletons 2, wraith 3, water ghost 4).
+3. Example method: first add the Vitality of all living corpses together, then add the Vitality of all shadows together. After adding the values of the dead of the same kind, record their blood volume respectively (e.g., using ".st living corpse (blood volume value)").
+4. Decide the priority of your undead army's constituent species (example priority order given in RAW: living corpses 1, skeletons 2, wraith 3, water ghost 4).
 
 #### Official Battle Judgment
 
@@ -430,7 +475,7 @@ Because the Reaper Pathway starts from Sequence 7, and every time a Sequence is 
    - You may freely choose which of the 3 appraisals are species; the same species can be selected as long as that species still exists.
 4. When the total number of the undead army is 10, the damage caused by three identifications increases by 1d6 each time.
    - Example scaling given: shadow damage is 1d6 when total number <10; at 10 it is 2d6; at 20 it is 3d6; at 50 it is 6d6; and so on.
-5. The actions of the undead army are independent and do not consume your bodyâ€™s actions.
+5. The actions of the undead army are independent and do not consume your body's actions.
    - They have 1 attack/Casting Action and 1 movement action.
    - You can spend a **Swift Action** to convert one of these actions into **two** swift actions.
 6. All skill and attribute appraisals of the undead army use your Intuition (INT).
@@ -438,14 +483,14 @@ Because the Reaper Pathway starts from Sequence 7, and every time a Sequence is 
 
 #### Siege
 
-1. As long as the undead army exists, you and your teammates will continue to get the siege effect of siege/flankingâ€”i.e., continue to gain advantage/disadvantageâ€”unless the opponent also has the same number of undead troops.
+1. As long as the undead army exists, you and your teammates will continue to get the siege effect of siege/flanking-i.e., continue to gain advantage/disadvantage-unless the opponent also has the same number of undead troops.
 2. If the enemy has a target higher than you by 1+ Sequence, the undead army can only offset the advantage/disadvantage effect of that target, unless the opponent has basically lost the ability to resist.
 
 #### Area Damage
 
 1. Area damage deducts blood volume from all species classifications of the undead army at the same time.
-   - Example: â€œYang Yanâ€ of the [[Sun]] demigodâ€”single damage from Yang Yan simultaneously reduces the life value of all classifications (living corpse, shadow, skeleton, etc.).
-2. If a single-target attack says â€œMultiple targets standing together are considered the same target,â€ then that single-target attackâ€™s damage to the undead army is doubled, but it is still deducted gradually according to priority 1, 2, and 3 rather than being deducted together.
+   - Example: "Yang Yan" of the [[Sun]] demigod-single damage from Yang Yan simultaneously reduces the life value of all classifications (living corpse, shadow, skeleton, etc.).
+2. If a single-target attack says "Multiple targets standing together are considered the same target," then that single-target attack's damage to the undead army is doubled, but it is still deducted gradually according to priority 1, 2, and 3 rather than being deducted together.
 
 **Special:**
 - Each species block in the undead army can count up to 50 units. If a species exceeds 50, split it into additional blocks; army-mode rules still trigger whenever your total driven undead exceed 3.

@@ -1,6 +1,6 @@
 1. draft/sequences/apprentice/seq-06.md:47 | “default is successful” condition is not defined
 2. draft/sequences/apprentice/seq-06.md:48 | “higher than two of yours” is ambiguous without a defined comparison method
-3. draft/sequences/apprentice/seq-06.md:58 | “identification this ability used to be” is not defined (what categories exist?)
+3. draft/sequences/apprentice/seq-06.md:58 | “identification this ability used to be” is not defined (what categories exist)
 4. draft/sequences/apprentice/seq-06.md:59 | “when you first promoted” duration/endpoint is not defined
 5. draft/sequences/apprentice/seq-07.md:29 | “advanced level to proficiency” appears reversed, but the RAW text is mechanically specific.
 6. draft/sequences/apprentice/seq-07.md:44 | The RAW mixes “purchase/proficiency/knowledge” with “reputation” in a way that does not clearly state when each cost applies.
@@ -22,8 +22,8 @@
 22. draft/sequences/arbiter/seq-01.md:57 | “identification of violating this order” is not defined—unclear what roll it applies to and how it differs from breaking through the Difficulty Value.
 23. draft/sequences/arbiter/seq-02.md:48 | What specifically qualifies as “breaking through the limit/restrictions,” and exactly when this +1 applies within the balancing calculation.
 24. draft/sequences/arbiter/seq-02.md:61 | The meaning of “substitute person” in this example is not defined.
-25. draft/sequences/arbiter/seq-03.md:12 | The text references â€œtaking awayâ€ Extraordinary abilities without stating how that mechanic works.
-26. draft/sequences/arbiter/seq-03.md:19 | â€œgreater than the Sequence 3 levelâ€ is unclear in scope/criteria (e.g., how to measure or apply it).
+25. draft/sequences/arbiter/seq-03.md:12 | The text references "taking away" Extraordinary abilities without stating how that mechanic works.
+26. draft/sequences/arbiter/seq-03.md:19 | "greater than the Sequence 3 level" is unclear in scope/criteria (e.g., how to measure or apply it).
 27. draft/sequences/arbiter/seq-04.md:55 | The phrase “theoretical maximum damage dice exceeds 40 points” mixes dice and points, so the exact threshold calculation is not fully defined.
 28. draft/sequences/arbiter/seq-04.md:67 | “One bit lower” is not defined (likely Sequence or rank), so the exact comparison basis is unclear.
 29. draft/sequences/arbiter/seq-05.md:33 | The text says all crimes must be punished for safe promotion, yet also says having 3 unpaid sins is generally safe.

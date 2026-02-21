@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Red Priest Pathway: Sequence 4
 
 ## Iron-blooded Knight
@@ -42,6 +43,7 @@ id: red-priest-seq-04-steel
 name: Steel
 pathway: red-priest
 sequence: 4
+status: canonical
 type: active
 action: full-round
 cost: {}
@@ -50,6 +52,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: No roll; armor/DR bonuses and agility trade-offs apply as listed.
 scaling: []
 tags:
 - mobility
@@ -63,6 +71,7 @@ text: 'Use: A Full-Round Action. [[Full-Round Action]] Effect: You become steel.
   and +1 point of physical Damage Reduction. Reducing Agility (DEX) reduces your movement
   speed.'
 ```
+
 
 
 
@@ -87,6 +96,7 @@ id: red-priest-seq-04-flame
 name: Flame
 pathway: red-priest
 sequence: 4
+status: canonical
 type: active
 action: full-round
 cost: {}
@@ -95,6 +105,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: 1d10
+  heal_roll: null
+  effect_roll: null
+  notes: Bonus damage is +1d10 for attack/casting actions; +2d10 for full-round actions.
 scaling: []
 tags:
 - mobility
@@ -105,6 +121,7 @@ text: 'Use: A Full-Round Action. [[Full-Round Action]] Effect: You are immune to
   otherwise impenetrable openings. Your spellcasting and attack rolls gain 1d10 points
   of damage. Your full-round actions gain 2d10 points of damage. Limits:'
 ```
+
 
 
 
@@ -127,6 +144,7 @@ id: red-priest-seq-04-iron-blooded-army
 name: Iron-Blooded Army
 pathway: red-priest
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -135,6 +153,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: No roll; applies shared damage, shared vision, and strength-equals-highest among companions.
 scaling: []
 tags:
 - detection
@@ -144,6 +168,7 @@ text: 'You and your companions gain the following benefits: When you and your co
   companions share vision with each other. [[Shared Vision]] The strength of you and
   your companions is always the value of the person with the highest value.'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Chained Pathway: Sequence 4
 
 You can manipulate inanimate objects within a certain range.
@@ -33,15 +34,22 @@ id: mutant-seq-04-the-source-of-the-curse
 name: The Source of the Curse
 pathway: mutant
 sequence: 4
+status: canonical
 type: active
 action: free
 cost:
-  spirituality: 8
+  spirituality: 4
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No roll; puppet transformation and curse-link toggles are free actions once established.
 scaling: []
 tags:
 - ritual
@@ -54,6 +62,7 @@ text: 'Cost: 4 spirituality points. Use: Use a free action to transform into an 
   already-established bond). Effect: Puppet transformation (free action): You appear
   as if crafted by a world-class craftsman.'
 ```
+
 
 
 
@@ -118,16 +127,23 @@ id: mutant-seq-04-object-activation-mind-control
 name: Object Activation (Mind Control)
 pathway: mutant
 sequence: 4
+status: canonical
 type: active
 action: free
 cost:
-  spirituality: 6
-roll: null
-opposed_by: difficulty_value
+  spirituality: 3
+roll: 1d20 + @attr.int + @skill.occultism
+opposed_by: physical_defense
 range: One or more specified inanimate objects within line of sight; affects the target
   those objects attack/bind.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: 5d6
+  heal_roll: null
+  effect_roll: null
+  notes: Baseline damage is 5d6 + Strength damage bonus; add extra Strength dice equal to Intuition. Targets escape with a DV 20 Strength check; restrained targets lose agility bonus to defense.
 scaling: []
 tags:
 - ritual
@@ -143,6 +159,7 @@ text: 'Cost: 3 spirituality points. Use: A spellcasting action. Effect: On the p
   to run naked. Escape requires at least one Strength check (Difficulty Value 20)
   immediately. Countless flying objects also cause damage at the same time:'
 ```
+
 
 
 
@@ -182,6 +199,7 @@ id: mutant-seq-04-immortal-body
 name: Immortal Body
 pathway: mutant
 sequence: 4
+status: canonical
 type: active
 action: free
 cost: {}
@@ -190,6 +208,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Restores vitality equal to half your maximum (rounded up) and applies temporary -3 CON on trigger.
 scaling: []
 tags:
 - healing
@@ -200,6 +224,7 @@ text: 'Effect: Your body heals quickly. Use / Trigger: Once per round, it trigge
   equal to half your maximum Vitality (rounded up). The Constitution (CON) reduction
   can only be paid by you (it cannot be transferred or offset by others).'
 ```
+
 
 
 

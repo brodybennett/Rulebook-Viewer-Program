@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Darkness Pathway: Sequence 4
 
 > **Lore:** Brings misfortune to others and excels at dealing with spirit creatures.
@@ -41,15 +42,29 @@ id: night-seq-04-grasp-of-doom
 name: Grasp of Doom
 pathway: night
 sequence: 4
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 5
 roll: null
 opposed_by: difficulty_value
 range: self
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d20 + @attr.luk
+  notes: Each skill check forces an extra luck check (DV 15) or reduces success level; DV increases to 20 at Sequence 2.
+scaling:
+- when: sequence_2
+  changes:
+    effect_note: Lucky check Difficulty Value becomes 20.
+- when: sequence_1
+  changes:
+    effect_note: Can be cast synchronously with an attack; target suffers -4 to identification-related checks.
 tags:
 - ritual
 - debuff
@@ -61,6 +76,7 @@ text: 'Cost: 5 [[Spirituality]]. Use: 1 Casting Action; curse one creature. Effe
   20. Sequence 1: It can be cast synchronously by attacking, and additionally applies
   -4 to all identification-related checks made by the target.'
 ```
+
 
 
 
@@ -83,6 +99,7 @@ id: night-seq-04-ethereal-mastery
 name: Ethereal Mastery
 pathway: night
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -91,7 +108,16 @@ opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: 5d6
+  heal_roll: null
+  effect_roll: null
+  notes: Bonus damage applies against incorporeal creatures; attacks ignore incorporeality.
+scaling:
+- when: sequence_3
+  changes:
+    effect_note: At close range, may pull out a helpless target's spirit body for channeling.
 tags:
 - offense
 text: 'Effect: You are proficient at dealing with ethereal creatures. Your attacks
@@ -100,6 +126,7 @@ text: 'Effect: You are proficient at dealing with ethereal creatures. Your attac
   [[Spirit Body]] of a [[Helpless]] creature to [[Channeling]] directly, then stuff
   the spirit body back into its body after channeling; this is considered an [[Injury]].'
 ```
+
 
 
 

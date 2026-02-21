@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # White Tower Pathway: Sequence 0
 
 ## White Tower
@@ -35,13 +36,19 @@ tags:
 
 - **Attribute Gain:** Not explicitly specified in source (schema placeholder).
 
-### White Tower Authority
+### Canon Lore Placeholder
+
+- **Lore Placeholder:** Canon flavor may be retained here, but mechanics remain unbound.
+- **Limits:** Do not treat this as finalized mechanics.
+
+### Mechanics Stub
 
 ```yaml ability
-id: reader-seq-00-white-tower-authority
-name: White Tower Authority
+id: reader-seq-00-mechanics-stub
+name: Mechanics Stub
 pathway: reader
 sequence: 0
+status: stub
 type: passive
 action: none
 cost: {}
@@ -50,70 +57,18 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Stub record. Canon mechanics are intentionally unspecified.
 scaling: []
 tags:
 - utility
-- divination
-- buff
-text: You hold White Tower style cognitive authority, reconstructing truth from fragments
-  and rapidly assimilating hidden knowledge.
+- stub
+text: White Tower canonical mechanics are not yet authored.
 ```
 
-- **Effect:** You hold White Tower style cognitive authority, reconstructing truth from fragments and rapidly assimilating hidden knowledge.
-- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
-
-### Thought Reconstruction
-
-```yaml ability
-id: reader-seq-00-thought-reconstruction
-name: Thought Reconstruction
-pathway: reader
-sequence: 0
-type: active
-action: swift
-cost:
-  spirituality: 1
-roll: null
-opposed_by: willpower_defense
-range: line of sight
-target: designated target(s)
-duration: instant
-scaling: []
-tags:
-- divination
-- utility
-- detection
-text: You rebuild a target's likely intent chain from micro-signals, exposing lies,
-  hesitation points, and exploitable reasoning gaps.
-```
-
-- **Effect:** You rebuild a target's likely intent chain from micro-signals, exposing lies, hesitation points, and exploitable reasoning gaps.
-- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
-
-### Knowledge Cascade
-
-```yaml ability
-id: reader-seq-00-knowledge-cascade
-name: Knowledge Cascade
-pathway: reader
-sequence: 0
-type: toggle
-action: free
-cost:
-  spirituality: 1
-roll: null
-opposed_by: none
-range: self
-target: self
-duration: sustained
-scaling: []
-tags:
-- buff
-- utility
-- divination
-text: You enter a high-load calculation state that boosts analysis and ritual interpretation
-  while steadily consuming mental resources.
-```
-
-- **Effect:** You enter a high-load calculation state that boosts analysis and ritual interpretation while steadily consuming mental resources.
-- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
+- **Effect:** Mechanical placeholder only. White Tower canonical mechanics are not yet authored.
+- **Limits:** Mechanics are intentionally stubbed pending canonical source confirmation.

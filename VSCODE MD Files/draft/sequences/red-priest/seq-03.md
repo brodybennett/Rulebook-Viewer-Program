@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Red Priest Pathway: Sequence 3
 
 ## War Bishop
@@ -37,6 +38,7 @@ id: red-priest-seq-03-spiritual-communication
 name: Spiritual Communication
 pathway: red-priest
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -45,6 +47,12 @@ opposed_by: none
 range: Choose an army or team within line of sight, within a radius of 1 kilometer.
 target: designated target(s)
 duration: 2 hours.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -58,6 +66,7 @@ text: 'Cost: 12 points of [[Spirituality]]. Use: A Casting Action. Targeting and
   affecting [[Vitality]] or [[Spirituality]] values. For every 10 people, the Vitality
   limit of all members of the tea...'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Wheel of Fortune Pathway: Sequence 1
 
 ## Snake of Mercury
@@ -41,6 +42,7 @@ id: fate-seq-01-loop-of-fate
 name: Loop of Fate
 pathway: fate
 sequence: 1
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -50,6 +52,12 @@ range: One target or an area (you may affect a person, an event, or a range).
 target: designated target(s)
 duration: Continues until a specified event result you set is achieved, or if there
   is no clear event result, it may or may not be terminated.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -64,6 +72,7 @@ text: 'Cost: 10 points of spirituality. Use: A spellcasting action; choose a tar
   and has their memory cleared again and again. Duration: Continues until a specified
   event result you set is ach...'
 ```
+
 
 
 
@@ -84,6 +93,7 @@ id: fate-seq-01-restart
 name: Restart
 pathway: fate
 sequence: 1
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -92,6 +102,12 @@ opposed_by: none
 range: A certain area; you may also specify restarting only the state of one target.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -105,6 +121,7 @@ text: 'Also known as the restart of destiny or the restart of all things. This i
   state (examples given: an angel of the Error pathway or an angel of the Fool pathway),
   their clone and secret puppet can u...'
 ```
+
 
 
 
@@ -143,6 +160,7 @@ id: fate-seq-01-snake-of-destiny
 name: Snake of Destiny
 pathway: fate
 sequence: 1
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -151,6 +169,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - divination
@@ -162,6 +186,7 @@ text: 'Effect: You can mask the specialness of your destiny (a peculiarity that 
   with extraordinary means. This does not mean your position cannot be coerced if
   you create confusion.'
 ```
+
 
 
 

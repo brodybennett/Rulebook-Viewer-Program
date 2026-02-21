@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Darkness Pathway: Sequence 7
 
 - You can forcibly pull other people into a dream.
@@ -48,6 +49,7 @@ id: night-seq-07-forcibly-pull-people-into-dreams
 name: Forcibly Pull People Into Dreams
 pathway: night
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -57,6 +59,12 @@ range: Select 1 or more targets within 100 meters and within your field of visio
   [[Field of Vision]]
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -68,6 +76,7 @@ text: 'Use: 1 Casting Action. Casting Action Cost: Consume 3 Spirituality points
   Undead creatures are also affected. [[Undead creatures]] Effect: Force the selected
   targets into a dream.'
 ```
+
 
 
 
@@ -137,6 +146,7 @@ id: night-seq-07-nightmare-transformation
 name: Nightmare Transformation
 pathway: night
 sequence: 7
+status: canonical
 type: active
 action: full-round
 cost: {}
@@ -145,6 +155,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -160,6 +176,7 @@ text: 'Use: 1 Full-Round Action. Cost: No Spirituality expenditure. Requirement:
   spirit body separated from your own body. You can reach the boundary of your dream,
   fly into the air, leave your dream,...'
 ```
+
 
 
 
@@ -201,6 +218,7 @@ id: night-seq-07-dream-perception
 name: Dream Perception
 pathway: night
 sequence: 7
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -209,6 +227,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -223,6 +247,7 @@ text: 'Use: 1 Swift Action. Swift Action Effect: Open Dream Perception to see cl
   destroy some things in the dreams, the dream owner can no longer manifest them in
   that dream. [[Invasion Dreams]] The range of...'
 ```
+
 
 
 

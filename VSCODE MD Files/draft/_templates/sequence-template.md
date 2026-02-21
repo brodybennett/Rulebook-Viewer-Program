@@ -45,6 +45,7 @@ id: "<pathway>-seq-<nn>-<ability-slug>"
 name: "<Ability Name>"
 pathway: "<pathway>"
 sequence: <N>
+status: "canonical"
 type: "active"
 action: "cast"
 cost: {spirituality: 1}
@@ -53,6 +54,12 @@ opposed_by: "none"
 range: "self"
 target: "designated target"
 duration: "instant"
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: "No explicit dice expression in canon text."
 scaling: []
 tags: ["utility"]
 text: "Short mechanical summary in one sentence."

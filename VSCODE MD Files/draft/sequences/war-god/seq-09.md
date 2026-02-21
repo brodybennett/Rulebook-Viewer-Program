@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Twilight Giant Pathway: Sequence 9
 
 ## Warrior
@@ -52,6 +53,7 @@ id: war-god-seq-09-extraordinary-fighting
 name: Extraordinary Fighting
 pathway: war-god
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -60,6 +62,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - defense
@@ -74,6 +82,7 @@ text: 'Effect: There are no weapons that you cannot use. You have mastered vario
   will not change from +2 to favorable +4). It affects identification only. [[Special
   Actions]] Combat Skills:'
 ```
+
 
 
 
@@ -105,6 +114,7 @@ id: war-god-seq-09-extraordinary-physical-fitness
 name: Extraordinary Physical Fitness
 pathway: war-god
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -113,6 +123,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -123,6 +139,7 @@ text: 'Effect: Your physical fitness and height have been significantly increase
   be up to 3 meters. Special: This is the benefit of the potion and cannot be recorded
   or stolen.'
 ```
+
 
 
 
@@ -144,14 +161,22 @@ id: war-god-seq-09-spirit-vision
 name: Spirit Vision
 pathway: war-god
 sequence: 9
+status: canonical
 type: active
 action: free
-cost: {}
+cost:
+  spirituality: 1
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll; cost is per round while active and grants +1 to Spiritual Intuition tests."
 scaling: []
 tags:
 - ritual
@@ -165,6 +190,7 @@ text: 'Use: 1 Free Action to activate. Cost: 1 Spirituality per round. Effect: W
   cannot get more detailed information. Astral Body: You cannot see the astral body.
   When in the state of Spirit Vision, your [[Spiritual Intuition Test]] +1 is beneficial.'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Tyrant Pathway: Sequence 6
 
 > **Lore:** Blessed by the wind, you command violent air currents, move through the sky, and shape wind into weapons.
@@ -48,6 +49,7 @@ id: tyrant-seq-06-deep-vision
 name: Deep Vision
 pathway: tyrant
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -56,11 +58,18 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
 text: 'Effect: You maintain normal vision even in completely dark environments. --'
 ```
+
 
 
 
@@ -79,6 +88,7 @@ id: tyrant-seq-06-deep-dive
 name: Deep Dive
 pathway: tyrant
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -87,6 +97,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -97,6 +113,7 @@ text: 'Effect: Your phantom scales and underwater breathing support deep diving 
   Use the durations from Phantom Scale and Water Breathing (10 minutes base, +15 minutes
   per Sequence upgrade). --'
 ```
+
 
 
 
@@ -114,6 +131,7 @@ id: tyrant-seq-06-wind-control
 name: Wind Control
 pathway: tyrant
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -122,11 +140,18 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - control
 text: '[[Wind Domain]] You gain the following wind-based abilities. --'
 ```
+
 
 
 
@@ -148,6 +173,7 @@ id: tyrant-seq-06-short-distance-flight
 name: Short-Distance Flight
 pathway: tyrant
 sequence: 6
+status: canonical
 type: active
 action: swift
 cost:
@@ -157,6 +183,12 @@ opposed_by: physical_defense
 range: You may take off together with creatures within 5 meters.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -172,6 +204,7 @@ text: 'Cost: 1 Swift Action, 1 spirituality Effect: A strong wind engulfs you, a
   dodge level by 1 instead. Sequence 5 Change: Maximum flight distance becomes 20
   meters.'
 ```
+
 
 
 
@@ -197,6 +230,7 @@ id: tyrant-seq-06-glide
 name: Glide
 pathway: tyrant
 sequence: 6
+status: canonical
 type: active
 action: swift
 cost:
@@ -206,6 +240,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -213,6 +253,7 @@ text: 'Cost: 1 Swift Action, 1 spirituality Effect: You glide in any direction w
   descending 1 meter per round. Limits: You cannot gain altitude with this ability.
   --'
 ```
+
 
 
 
@@ -230,6 +271,7 @@ id: tyrant-seq-06-floating
 name: Floating
 pathway: tyrant
 sequence: 6
+status: canonical
 type: active
 action: swift
 cost:
@@ -239,6 +281,12 @@ opposed_by: none
 range: self
 target: self
 duration: Up to 5 minutes.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -249,6 +297,7 @@ text: 'Cost: 1 Swift Action, 1 spirituality Effect: A gust of wind lifts you up 
   Limits: Height may be adjusted by will; you may choose not to float. Sequence 5
   Change: Maximum vertical height becomes 10 meters. --'
 ```
+
 
 
 
@@ -269,6 +318,7 @@ id: tyrant-seq-06-create-air-cushions
 name: Create Air Cushions
 pathway: tyrant
 sequence: 6
+status: canonical
 type: active
 action: swift
 cost:
@@ -278,6 +328,12 @@ opposed_by: none
 range: Up to a 10-meter area
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: No roll; creates silent footing and negates fall damage within the cushion area.
 scaling: []
 tags:
 - ritual
@@ -290,6 +346,7 @@ text: 'Cost: 1 Swift Action, 2 spirituality Targeting and Range: Up to a 10-mete
   than 100 meters, an additional cushion layer must be created every 100 meters to
   continuously reduce impact. --'
 ```
+
 
 
 
@@ -312,15 +369,22 @@ id: tyrant-seq-06-wind-blade
 name: Wind Blade
 pathway: tyrant
 sequence: 6
+status: canonical
 type: active
-action: swift
+action: cast
 cost:
   spirituality: 1
-roll: null
+roll: 1d20 + @attr.int + @skill.navigation
 opposed_by: physical_defense
 range: One or more targets within 50 meters
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.navigation
+  damage_roll: 2d6
+  heal_roll: null
+  effect_roll: null
+  notes: Each shot costs 1 spirituality; up to 3 shots per casting action. Sequence 5 increases damage by +1d6.
 scaling: []
 tags:
 - ritual
@@ -336,6 +400,7 @@ text: 'Cost: 1 spellcasting action; 1 spirituality per shot Targeting and Range:
   +2 benefit. If you can release Wind Blade as a Swift Action, that version inherits
   the bonus above.'
 ```
+
 
 
 
@@ -360,15 +425,22 @@ id: tyrant-seq-06-wind-bind
 name: Wind Bind
 pathway: tyrant
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost:
   spirituality: 3
-roll: null
+roll: 1d20 + @attr.int
 opposed_by: difficulty_value
 range: self
 target: 1 creature
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Opposed by target Agility (DEX); on success, target is Bound and must pass DV 20 to break free each round.
 scaling: []
 tags:
 - ritual
@@ -379,6 +451,7 @@ text: 'Cost: 1 spellcasting action, 3 spirituality Target: 1 creature Check: Int
   state and cannot perform movement actions. Escape: At the start of each round, the
   target may attempt a Difficulty Value 20 skill check to break free. --'
 ```
+
 
 
 
@@ -401,6 +474,7 @@ id: tyrant-seq-06-wind-attachment
 name: Wind Attachment
 pathway: tyrant
 sequence: 6
+status: canonical
 type: toggle
 action: swift
 cost:
@@ -410,6 +484,12 @@ opposed_by: physical_defense
 range: 5m
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: "1"
+  notes: Hand/weapon effect adds +1d6 physical damage for the round; legs effect boosts movement as listed.
 scaling: []
 tags:
 - ritual
@@ -427,6 +507,7 @@ text: 'Cost: 1 Swift Action, 1 spirituality Effect: Choose one effect for 1 roun
   defense and gain +1 dodge level (or +1 level if already having Fast Dodge). Sequence
   5 Change: Allies within 10 meters be...'
 ```
+
 
 
 
@@ -453,6 +534,7 @@ id: tyrant-seq-06-sound-transmission
 name: Sound Transmission
 pathway: tyrant
 sequence: 6
+status: canonical
 type: active
 action: swift
 cost:
@@ -462,6 +544,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -471,6 +559,7 @@ text: 'Cost: 1 Swift Action; 1 spirituality per sentence Effect: Your voice trav
   up to 100 meters in a chosen direction. Sequence 5 Change: Distance increases by
   100 meters. --'
 ```
+
 
 
 
@@ -491,15 +580,22 @@ id: tyrant-seq-06-wind-pressure-slap
 name: Wind Pressure Slap
 pathway: tyrant
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost:
   spirituality: 3
-roll: null
+roll: 1d20 + @attr.int + @skill.navigation
 opposed_by: physical_defense
 range: 10m
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.navigation
+  damage_roll: 4d6
+  heal_roll: null
+  effect_roll: null
+  notes: Treated as firearm speed; Sequence 5 increases damage to 5d6.
 scaling: []
 tags:
 - ritual
@@ -510,6 +606,7 @@ text: 'Cost: 1 spellcasting action, 3 spirituality Area: All targets within 10 m
   as firearm speed; deals 4d6 physical damage. Sequence 5 Change: Damage becomes 5d6.
   --'
 ```
+
 
 
 
@@ -532,6 +629,7 @@ id: tyrant-seq-06-create-a-gale
 name: Create a Gale
 pathway: tyrant
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost:
@@ -541,6 +639,12 @@ opposed_by: difficulty_value
 range: 50m
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: Targets make DV 20 Agility checks or lose balance; wind effects and bonuses apply as listed.
 scaling: []
 tags:
 - ritual
@@ -552,6 +656,7 @@ text: 'Cost: 1 spellcasting action, 3 spirituality Area: All targets within 50 m
   moving 5 meters with the wind, they gain +2 to maintain balance. Creatures that
   lose balance have their blown distance doubled (round up).'
 ```
+
 
 
 
@@ -589,6 +694,7 @@ id: tyrant-seq-06-extended-wind-logic
 name: Extended Wind Logic
 pathway: tyrant
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -597,6 +703,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - control
@@ -605,6 +717,7 @@ text: With GM approval, other logical wind-control uses are allowed. If an abili
   that pushes creatures interacts with the Sequence 7 Water Spell, pushing distance
   is increased accordingly.
 ```
+
 
 
 

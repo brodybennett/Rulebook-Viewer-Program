@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Hanged Man Pathway: Sequence 8
 
 > **Lore:** In ancient times they were called “whisperers.” They can directly hear the whispers of the corresponding hidden existence, gaining many powerful, twisted, and unique abilities. However, if they cannot be promoted, it is difficult to survive for more than five years. “Listeners” are all lunatics—even if they usually behave normally, they must be hidden lunatics.
@@ -46,16 +47,28 @@ id: hanged-man-seq-08-listening-perception
 name: Listening Perception
 pathway: hanged-man
 sequence: 8
-type: active
-action: cast
-cost:
-  sanity: 2
-roll: null
-opposed_by: none
+status: canonical
+type: passive
+action: none
+cost: {}
+roll: 1d20 + @attr.int + @skill.listen
+opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.listen
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d2
+  notes: Effect roll maps sanity loss from extraordinary sounds; DV 20 listening check applies when targets are silent.
+scaling:
+- when: target_is_silent
+  changes:
+    effect_note: Listening detection uses DV 20; distance reduces DV by 1 per meter until success is automatic.
+- when: detect_higher_sequence_or_tainted
+  changes:
+    effect_note: Triggers 1 or 1d2 Sanity/Rationality loss on extraordinary sound detection.
 tags:
 - detection
 text: 'Effect: With the extraordinary ability of listening, you will hear more sounds
@@ -68,6 +81,7 @@ text: 'Effect: With the extraordinary ability of listening, you will hear more s
   by the type of creature, dead or alive, adult or child, and so on). Spotting spirits:
   You can use Listen instead of Ste...'
 ```
+
 
 
 
@@ -95,6 +109,7 @@ id: hanged-man-seq-08-latent-madness
 name: Latent Madness
 pathway: hanged-man
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -103,6 +118,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -113,6 +134,7 @@ text: 'Requirement: Can only be obtained when potion digestion reaches 10. [[Pot
   permanent madness [[Permanent Madness]]. Special: (This is an explanation and cannot
   be recorded or stolen.)'
 ```
+
 
 
 
@@ -134,16 +156,30 @@ id: hanged-man-seq-08-listen
 name: LISTEN
 pathway: hanged-man
 sequence: 8
+status: canonical
 type: active
 action: swift
 cost:
-  spirituality: 4
-roll: null
+  spirituality: 2
+roll: 1d20 + @attr.int + @skill.listen
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.listen
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d8
+  notes: Effect roll maps the success table; failure uses a separate 1d5 table and always risks sanity loss.
+scaling:
+- when: listen_check_fails
+  changes:
+    effect_roll: 1d5
+    effect_note: Failure table applies; failed luck checks trigger the rd5 outcomes.
+- when: listen_check_succeeds
+  changes:
+    effect_note: Success table applies; each use also triggers 0 or 1d2 Sanity/Rationality loss.
 tags:
 - ritual
 - debuff
@@ -157,6 +193,7 @@ text: 'Use: 1 Swift Action Swift Action; once a round. Cost: Consumes 2 spiritua
   them. #### Listening appraisal success Roll rd8 to determine the effect. [[rd8]]
   Each time (regardless of outcome), take a 0/1d2 Sanity / Rationality loss.'
 ```
+
 
 
 

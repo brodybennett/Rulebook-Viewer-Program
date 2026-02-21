@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Door Pathway: Sequence 8
 
 ## Trickmaster
@@ -50,14 +51,21 @@ id: apprentice-seq-08-performance-recognition
 name: Performance Recognition
 pathway: apprentice
 sequence: 8
-type: active
-action: cast
+status: canonical
+type: passive
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -69,6 +77,7 @@ text: 'Each time you perform a performance that is not repeated and is recognize
   times: Training Proficiency: 2 times Proficiency Advanced level: 3 times Advanced
   level Mastery: 4 times'
 ```
+
 
 
 
@@ -92,21 +101,71 @@ id: apprentice-seq-08-spells
 name: Spells
 pathway: apprentice
 sequence: 8
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 1
+roll: 1d20 + @attr.cha + @skill.performance
 opposed_by: physical_defense
-range: Choose 1 target.
+range: varies by trick mode (single target or 10m area centered on caster)
 target: designated target(s)
-duration: If the environment is not sealed, the fog dissipates after **1 round**.
-scaling: []
+duration: varies by trick mode (instant to 3 rounds; fog 1 round if unsealed)
+dice:
+  check_roll: 1d20 + @attr.cha + @skill.performance
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: 1d3
+  notes: Adapted primary check uses Performance; prose also permits Deception or Occultism for many tricks. Effect roll tracks ongoing burn tick where applicable.
+scaling:
+- when: freezing_technique_mode
+  changes:
+    cost: {spirituality: 1}
+    damage_roll: 1d6
+    effect_note: On hit, target without cold resistance takes -2 on next movement/skill/ability checks.
+- when: wind_blowing_skill_mode
+  changes:
+    cost: {spirituality: 2}
+    effect_note: Apply up to 6 meters forced movement, reduced by target size.
+- when: fall_mode
+  changes:
+    cost: {spirituality: 2}
+    effect_note: On successful check, target becomes Unbalanced until it spends movement to recover.
+- when: flash_mode
+  changes:
+    cost: {spirituality: 1}
+    effect_note: Affected targets are blinded for 1 round.
+- when: fog_creation_mode
+  changes:
+    cost: {spirituality: 2}
+    effect_note: Create 10m fog zone with targeting penalties for 1 round if environment is unsealed.
+- when: electric_shock_mode
+  changes:
+    cost: {spirituality: 2}
+    damage_roll: 1d6
+    effect_note: Wet targets may be paralyzed on Constitution DV15 failure; undead take +1d6 lightning damage.
+- when: incinerate_mode
+  changes:
+    cost: {spirituality: 2}
+    damage_roll: 1d6
+    effect_roll: 1d3
+    effect_note: Burned target takes 1d3 fire damage at round start for 3 rounds.
+- when: rebound_mode
+  changes:
+    cost: {spirituality: 1}
+    effect_note: Redirect falling or moving target back on original trajectory and can apply Unprepared state.
+- when: cantrip_skill_quicken
+  changes:
+    action: free
+    effect_note: Once per round, one cast-action trick can be used as a free action.
 tags:
 - ritual
 - mobility
 - defense
 - offense
 - social
+- control
+- debuff
 text: 'You wield a variety of strange but not powerful spells. #### Freezing Technique
   Use: 1 Casting Action. Casting Action Cost: Consume 1 Spirituality. [[Spirituality]]
   Targeting and range: Choose 1 target. Check: Performance/Deception/Occult vs Physical
@@ -115,6 +174,7 @@ text: 'You wield a variety of strange but not powerful spells. #### Freezing Tec
   a target without cold resistance, it suffers a -2 penalty on its next movement,
   skill, and ability checks. [[Cold Resistance]]'
 ```
+
 
 
 

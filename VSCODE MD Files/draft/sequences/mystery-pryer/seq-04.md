@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Hermit Pathway: Sequence 4
 
 ## Conspiracy Theorist
@@ -42,15 +43,25 @@ id: mystery-pryer-seq-04-mystery-peeping-eyes
 name: Mystery-Peeping Eyes
 pathway: mystery-pryer
 sequence: 4
+status: canonical
 type: active
 action: free
 cost: {}
-roll: null
+roll: 1d20 + @attr.int
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Detection of a hidden prying eye requires a DV 25 Intuition appraisal by qualified observers.
+scaling:
+- when: check_result_meets_dv_25
+  changes:
+    effect_note: Qualified observers can detect something amiss.
 tags:
 - detection
 text: 'Use: As a Free Action, open or close your prying eye, or place it on someone
@@ -63,6 +74,7 @@ text: 'Use: As a Free Action, open or close your prying eye, or place it on some
   may be permitted to make a Difficulty Value 25 Intuition (INT) check to detect something
   amiss.'
 ```
+
 
 
 
@@ -86,14 +98,22 @@ id: mystery-pryer-seq-04-mythical-blood
 name: Mythical Blood
 pathway: mystery-pryer
 sequence: 4
+status: canonical
 type: active
 action: free
-cost: {}
+cost:
+  spirituality: 3
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: "No roll; grants a core ability tied to the parsed mythical blood (example: 15 luck in one encounter)."
 scaling: []
 tags:
 - ritual
@@ -108,6 +128,7 @@ text: 'Use: A free action. Cost: 3 spirituality points [[Spirituality]]. Effect:
   used some of the 15 points of luck and still need to avoid damage, the missing luck
   will be replaced by your own luck.'
 ```
+
 
 
 
@@ -132,6 +153,7 @@ id: mystery-pryer-seq-04-mysterious-reappearance
 name: Mysterious Reappearance
 pathway: mystery-pryer
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost:
@@ -141,6 +163,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -152,6 +180,7 @@ text: 'Cost: A Casting Action consumes 4 spirituality points. Use: Use a Mysteri
   its strength. Limits / Adjudication: This ability has a high degree of freedom and
   must be decided by the Mysticologist (occultist) and the GM through consultation.'
 ```
+
 
 
 

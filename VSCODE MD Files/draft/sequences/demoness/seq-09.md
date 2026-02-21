@@ -10,13 +10,14 @@ tags:
 
 
 
+
 # Demoness Pathway: Sequence 9
 
 ## Assassin
 
 > **Lore:** The form of mythical creatures is female sexuality, thick hair like a snake, and spider silk coiled around the body, corresponding to the Tarot card as "Queen".
 
-Assassins can briefly alter their body, move with feather-like lightness, harden sharp sight and dark vision, excel at fighting and dodging, and hide in shadows with dexterous stepsâ€”bursting with full power in a single blow.
+Assassins can briefly alter their body, move with feather-like lightness, harden sharp sight and dark vision, excel at fighting and dodging, and hide in shadows with dexterous steps-bursting with full power in a single blow.
 
 ## Advancement
 
@@ -57,6 +58,7 @@ id: demoness-seq-09-body-change
 name: Body Change
 pathway: demoness
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -65,6 +67,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - stealth
@@ -85,10 +93,11 @@ text: 'Use: 1 Casting Action. Effect: You adjust your physiology to gain the pro
 
 
 
+
 - **Use:** 1 **Casting Action**.
 - **Effect:** You adjust your physiology to gain the properties of feathers, hawk-like lightness.
   1. Within 1 round (6 seconds), your body can be as light as a feather walking on the moon. In this state, your climbing, jumping, swimming, and stealth identifications are all successful by default. When confronting, it will be changed to +4 favorable.
-  2. Because the body is light and easy to control, at the height of about the fifth and sixth floors of modern times (18â€“28 meters), you will not be hurt by falling. You will fall slowly like a feather, and you will not lose your balance or suffer impact injury (e.g., carriage/car).
+  2. Because the body is light and easy to control, at the height of about the fifth and sixth floors of modern times (18-28 meters), you will not be hurt by falling. You will fall slowly like a feather, and you will not lose your balance or suffer impact injury (e.g., carriage/car).
   3. Even at a higher height, you only need to find a few support points as a transfer during the fall, and you will not be hurt by the fall.
 - While in an altered state, you can make a [[Stealth]] check as a **Move Action**, even if you are being watched.
 - At Sequence 7: Body Change requires only 1 **Swift Action**.
@@ -103,6 +112,7 @@ id: demoness-seq-09-sharp-sight
 name: Sharp Sight
 pathway: demoness
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -111,6 +121,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -120,6 +136,7 @@ text: 'Effect: Owl''s vision and darkvision are hardened on you, allowing you to
   Your eyesight is like that of an eagle; you can see things within 1 km without occlusion.
   You can act normally at night and in the dark without any penalty.'
 ```
+
 
 
 
@@ -139,15 +156,33 @@ id: demoness-seq-09-assassination-action
 name: Assassination Action
 pathway: demoness
 sequence: 9
-type: active
-action: cast
+status: adapted
+type: passive
+action: none
 cost: {}
-roll: null
-opposed_by: physical_defense
+roll: 1d20 + @attr.dex + @skill.stealth + 4
+opposed_by: none
 range: self
 target: self
-duration: instant
-scaling: []
+duration: persistent
+dice:
+  check_roll: 1d20 + @attr.dex + @skill.stealth + 4
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "2"
+  notes: Check roll maps stealth-test handling in darkness; effect roll marks the explicit +2 special-action appraisal bonus package.
+scaling:
+- when: in_shadow_or_darkness
+  changes:
+    check_roll: 1d20 + @attr.dex + @skill.stealth + 4
+    effect_note: Stealth checks in shadow/darkness succeed by default and gain +4 when contested.
+- when: critical_double_or_close_shot_special_action
+  changes:
+    effect_roll: "2"
+    effect_note: Applies +2 appraisal bonus to listed special actions.
+- when: firearm_defense_resolution
+  changes:
+    effect_note: Uses full physical defense (including dodge tier benefits) against guns.
 tags:
 - stealth
 - defense
@@ -162,6 +197,7 @@ text: 'Effect: You can dexterously fight and dodge attacks in battle, grasp vita
   Quick dodge: You use skills to retain complete physical defense against guns instead
   of light/light...'
 ```
+
 
 
 
@@ -183,15 +219,34 @@ id: demoness-seq-09-poised-burst
 name: Poised Burst
 pathway: demoness
 sequence: 9
+status: adapted
 type: active
 action: swift
-cost: {}
-roll: null
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.str + @skill.fighting
 opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.str + @skill.fighting
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "2"
+  notes: Effect roll tracks the explicit doubling mode (strength dice or strength attribute) for the burst action.
+scaling:
+- when: strength_damage_mode
+  changes:
+    effect_roll: "2"
+    effect_note: Strength damage dice are counted twice for the burst hit.
+- when: strength_attribute_mode
+  changes:
+    effect_roll: "2"
+    effect_note: Strength attribute is counted twice for the associated appraisal/action.
+- when: post_burst_rounds_1_to_2
+  changes:
+    effect_note: Strength attribute and strength damage dice are treated as 0 for two rounds after use.
 tags:
 - ritual
 - mobility
@@ -206,6 +261,7 @@ text: 'Use: Accompanied by 1 attack/move/Swift Action. Cost: Consume 2 spiritual
   as climbing and jumping, also enjoy this benefit. (Moving actions can also enjoy
   this benefit, because the dista...'
 ```
+
 
 
 
@@ -227,14 +283,22 @@ id: demoness-seq-09-vision
 name: Vision
 pathway: demoness
 sequence: 9
-type: active
+status: adapted
+type: toggle
 action: free
-cost: {}
-roll: null
+cost:
+  spirituality: 1
+roll: 1d20 + @attr.int + @skill.spiritual_intuition + 1
 opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: 1d20 + @attr.int + @skill.spiritual_intuition + 1
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Vision is an upkeep toggle; check roll maps the explicit +1 Spiritual Intuition benefit while active.
 scaling: []
 tags:
 - ritual
@@ -253,12 +317,13 @@ text: 'Use: 1 free action. Cost: Consuming 1 spirituality point per round. Effec
 
 
 
+
 - **Use:** 1 free action.
 - **Cost:** Consuming 1 **spirituality point** per round.
 - **Effect:** You activate vision, and your vision gains the following benefits:
 
 
-  1. **Etheric body:** You can roughly tell whether the other partyâ€™s body is good or bad through the color of the aura, but you canâ€™t get detailed information.
+  1. **Etheric body:** You can roughly tell whether the other party's body is good or bad through the color of the aura, but you can't get detailed information.
   2. **Spiritual body:** You can confirm whether an object/creature has spirituality, which cannot identify extraordinary people.
   3. **Mental body:** You can see whether the other party is thinking, but only so, and you cannot get more detailed information.
   4. **Astral body:** You cannot see the astral body.

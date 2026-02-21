@@ -215,7 +215,7 @@ def validate_ability_field_types(
             ability_id=str(ability.get("id") or ""),
         )
 
-    for key in ("type", "action", "range", "target", "duration", "text"):
+    for key in ("status", "type", "action", "range", "target", "duration", "text"):
         value = ability.get(key)
         if not isinstance(value, str) or not value.strip():
             add_finding(
@@ -254,6 +254,58 @@ def validate_ability_field_types(
             sequence_id=sequence_id,
             ability_id=str(ability.get("id") or ""),
         )
+
+    dice = ability.get("dice")
+    if not isinstance(dice, dict):
+        add_finding(
+            findings,
+            severity="error",
+            code="invalid_dice_type",
+            message="Ability `dice` must be an object/map.",
+            file=file,
+            line=line,
+            sequence_id=sequence_id,
+            ability_id=str(ability.get("id") or ""),
+        )
+    else:
+        required_dice = ("check_roll", "damage_roll", "heal_roll", "effect_roll", "notes")
+        for key in required_dice:
+            if key not in dice:
+                add_finding(
+                    findings,
+                    severity="error",
+                    code="missing_dice_field",
+                    message=f"Ability `dice` is missing `{key}`.",
+                    file=file,
+                    line=line,
+                    sequence_id=sequence_id,
+                    ability_id=str(ability.get("id") or ""),
+                )
+        for key in ("check_roll", "damage_roll", "heal_roll", "effect_roll"):
+            val = dice.get(key)
+            if val is not None and not isinstance(val, str):
+                add_finding(
+                    findings,
+                    severity="error",
+                    code="invalid_dice_roll_type",
+                    message=f"Ability `dice.{key}` must be a string or null.",
+                    file=file,
+                    line=line,
+                    sequence_id=sequence_id,
+                    ability_id=str(ability.get("id") or ""),
+                )
+        notes = dice.get("notes")
+        if not isinstance(notes, str) or not notes.strip():
+            add_finding(
+                findings,
+                severity="error",
+                code="invalid_dice_notes_type",
+                message="Ability `dice.notes` must be a non-empty string.",
+                file=file,
+                line=line,
+                sequence_id=sequence_id,
+                ability_id=str(ability.get("id") or ""),
+            )
 
     scaling = ability.get("scaling")
     if not isinstance(scaling, list):
@@ -327,6 +379,7 @@ def lint_compendium(
     id_pattern = re.compile(id_pattern_raw) if id_pattern_raw else None
 
     fields = ability_schema.get("fields") if isinstance(ability_schema.get("fields"), dict) else {}
+    status_enum = set(fields.get("status", {}).get("enum", []))
     type_enum = set(fields.get("type", {}).get("enum", []))
     action_enum = set(fields.get("action", {}).get("enum", []))
     opposed_enum = set(fields.get("opposed_by", {}).get("enum", []))
@@ -636,6 +689,19 @@ def lint_compendium(
                     sequence_id=seq_id,
                     ability_id=ability_id,
                     expected=", ".join(sorted(type_enum)),
+                )
+
+            if status_enum and isinstance(ability.get("status"), str) and ability.get("status") not in status_enum:
+                add_finding(
+                    findings,
+                    severity="error",
+                    code="status_not_enum",
+                    message=f"Ability status `{ability.get('status')}` not in schema enum.",
+                    file=file,
+                    line=line,
+                    sequence_id=seq_id,
+                    ability_id=ability_id,
+                    expected=", ".join(sorted(status_enum)),
                 )
 
             if action_enum and isinstance(ability.get("action"), str) and ability.get("action") not in action_enum:

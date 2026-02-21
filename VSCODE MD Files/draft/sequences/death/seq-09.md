@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Death Pathway: Sequence 9
 
 ## Corpse Collector
@@ -47,6 +48,7 @@ id: death-seq-09-corpse-like-traits
 name: Corpse-Like Traits
 pathway: death
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -55,6 +57,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - debuff
@@ -67,6 +75,7 @@ text: 'You gain 5 points of resistance to cold, poison, and curse. Ordinary unde
   whiter skin, and certain corpse characteristics. This may have some benefits for
   your appearance, but it is a bit unrealistic already looming.'
 ```
+
 
 
 
@@ -90,6 +99,7 @@ id: death-seq-09-knowledge-of-the-dead
 name: Knowledge of the Dead
 pathway: death
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -98,6 +108,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -108,6 +124,7 @@ text: '*Knowledge of the Dead: You know the traits and weaknesses of many undead
   understand rough information such as: Approximate cause of death Weapon of death
   Time of death'
 ```
+
 
 
 
@@ -188,14 +205,22 @@ id: death-seq-09-vision
 name: Vision
 pathway: death
 sequence: 9
-type: active
+status: adapted
+type: toggle
 action: free
-cost: {}
-roll: null
+cost:
+  spirituality: 1
+roll: 1d20 + @attr.int + @skill.spiritual_intuition
 opposed_by: none
 range: self
-target: designated target(s)
+target: self
 duration: sustained
+dice:
+  check_roll: 1d20 + @attr.int + @skill.spiritual_intuition
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Vision is an upkeep toggle; check_roll maps Spiritual Intuition checks while vision is active.
 scaling: []
 tags:
 - ritual
@@ -211,6 +236,7 @@ text: 'You gain Vision, but it is not as effective for you as your own inspirati
   confirm whether an object/creature has spirituality, which cannot identify extraordinary
   people. Mental body: You can see whether the o...'
 ```
+
 
 
 
@@ -245,6 +271,7 @@ id: death-seq-09-spirit-vision
 name: Spirit Vision
 pathway: death
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -253,6 +280,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -266,6 +299,7 @@ text: 'You naturally have Spirit Vision and can directly see some evil spirits. 
   invisibility, as well as other hard-to-find spirit creatures. (This is just an explanation;
   it belongs to the same effect as spiritual vision.)'
 ```
+
 
 
 

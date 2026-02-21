@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Visionary Pathway: Sequence 6
 
 ## Hypnotist
@@ -42,6 +43,7 @@ id: visionary-seq-06-dragon-scale
 name: Dragon Scale
 pathway: visionary
 sequence: 6
+status: canonical
 type: toggle
 action: free
 cost: {}
@@ -50,6 +52,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll; toggle grants armor and damage reduction."
 scaling: []
 tags:
 - defense
@@ -62,6 +70,7 @@ text: 'Use: 1 Free Action to toggle. Effect: Your body surface condenses fine, s
   5. When Dragon Scale is actually turned on, these become Armor +5 and External Damage
   Reduction 8.'
 ```
+
 
 
 
@@ -81,6 +90,7 @@ id: visionary-seq-06-non-combat-hypnosis
 name: Non-Combat Hypnosis
 pathway: visionary
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -89,6 +99,12 @@ opposed_by: none
 range: 'Choose 1 target who is either:'
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -100,6 +116,7 @@ text: 'Cost: 1 Casting Action; 3 Spirituality Targeting and range: Choose 1 targ
   Attention): A creature is considered to be concentrating as long as they are in
   front of you and have not roleplayed keep their minds active and divergent.'
 ```
+
 
 
 
@@ -173,14 +190,22 @@ id: visionary-seq-06-combat-hypnosis
 name: Combat Hypnosis
 pathway: visionary
 sequence: 6
+status: canonical
 type: active
 action: swift
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.int + @skill.psychological_guidance
 opposed_by: willpower_defense
 range: Choose 1 target within your [[Field of Vision]].
 target: designated target(s)
 duration: 1 round.
+dice:
+  check_roll: 1d20 + @attr.int + @skill.psychological_guidance
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: "Contest vs Willpower Defense; target wakes immediately after the compelled action."
 scaling: []
 tags:
 - ritual
@@ -194,6 +219,7 @@ text: 'Cost: 1 Swift Action; 3 Spirituality Use: 1 time per round. Targeting and
   matters; if it does, the hypnosis is invalid. Duration: 1 round. Limits / Aftereffects:
   The target can be made to attack teammates, but cannot be made to attack itself.'
 ```
+
 
 
 
@@ -219,6 +245,7 @@ id: visionary-seq-06-psychological-stealth
 name: Psychological Stealth
 pathway: visionary
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -227,6 +254,12 @@ opposed_by: none
 range: You may include companions within 5 meters.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -242,6 +275,7 @@ text: 'Cost: 1 Casting Action; 3 Spirituality Targeting and range: You may inclu
   talk to people or interact with the environment while in Psychological Invisibility,
   anyone who perceives that interac...'
 ```
+
 
 
 

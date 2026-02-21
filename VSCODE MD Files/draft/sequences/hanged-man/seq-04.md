@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Hanged Man Pathway: Sequence 4
 
 ## Black Knight
@@ -37,6 +38,7 @@ id: hanged-man-seq-04-blade-of-soul-and-flesh-core-ability
 name: Blade of Soul and Flesh (Core Ability)
 pathway: hanged-man
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -45,12 +47,22 @@ opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: 2d10
+  heal_roll: null
+  effect_roll: null
+  notes: Base damage roll maps the blade's 2d10 cursed damage; bonuses are handled in scaling.
+scaling:
+- when: target_is_living
+  changes:
+    effect_note: Melee attacks with the blade deal an additional 2d6 damage to living creatures.
 tags:
 - defense
 text: 'Effect: Corrodes flesh and blood, annihilates soul, breaks through barriers,
   and can invalidate the defense of any creature with [[Corrupted Thoughts]].'
 ```
+
 
 
 
@@ -67,6 +79,7 @@ id: hanged-man-seq-04-black-knight
 name: Black Knight
 pathway: hanged-man
 sequence: 4
+status: canonical
 type: active
 action: free
 cost: {}
@@ -75,6 +88,12 @@ opposed_by: none
 range: self
 target: self
 duration: One encounter.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -84,6 +103,7 @@ text: 'Cost: 10 spirituality points [[Spirituality]]. Use: Free action. Limits: 
   giant wearing black armor, holding a giant sword, with crimson eyes. Strength +5.
   Constitution +5 (your Vitality upper limit also +5). [[Vitality]]'
 ```
+
 
 
 
@@ -122,6 +142,7 @@ id: hanged-man-seq-04-shadow-armor
 name: Shadow Armor
 pathway: hanged-man
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -130,6 +151,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No roll required; shadow armor grants fixed Armor and Damage Reduction.
 scaling: []
 tags:
 - defense
@@ -138,6 +165,7 @@ text: 'Effect: The shadow becomes your armor. You gain 5 Armor [[Armor]] and 5 D
   Reduction [[Damage Reduction]]. Damage Reduction is calculated after [[Immortal
   Flesh]]. Limits: This ability must be used in a [[Shaded Area]].'
 ```
+
 
 
 
@@ -154,6 +182,7 @@ id: hanged-man-seq-04-blade-of-flesh
 name: Blade of Flesh
 pathway: hanged-man
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -162,6 +191,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - debuff
@@ -174,6 +209,7 @@ text: 'Effect: You create a blade of flesh, shadow, and spirit that deals base d
   has not reached the maximum, your hit rate +10. [[Hit Rate]] Your melee attacks
   ignore [[Deflection Defense]] and Damage Reduction, and can hit [[Incorporeal Body]].'
 ```
+
 
 
 
@@ -194,6 +230,7 @@ id: hanged-man-seq-04-shadow-raid
 name: Shadow Raid
 pathway: hanged-man
 sequence: 4
+status: canonical
 type: active
 action: move
 cost:
@@ -203,6 +240,12 @@ opposed_by: none
 range: line of sight
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -211,6 +254,7 @@ text: 'Cost: 2 spirituality points. Use: Move Action. Effect: Rush to a shadow w
   line of sight; you teleport about 100 meters. Limits: This ability must be used
   in a shadowed area, and the shadow must be within your line of sight.'
 ```
+
 
 
 
@@ -227,6 +271,7 @@ id: hanged-man-seq-04-spreading-flesh
 name: Spreading Flesh
 pathway: hanged-man
 sequence: 4
+status: canonical
 type: toggle
 action: free
 cost:
@@ -236,6 +281,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -247,6 +298,7 @@ text: 'Cost: 2 spirituality points. Use: Casting Action. Requirements: Flesh Sta
   full of flesh and blood. Exiting this state requires a free action to coalesce into
   shape. Limits while active:'
 ```
+
 
 
 
@@ -278,6 +330,7 @@ id: hanged-man-seq-04-separation-of-fallen-thoughts
 name: Separation of Fallen Thoughts
 pathway: hanged-man
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost:
@@ -287,6 +340,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -298,6 +357,7 @@ text: 'Cost: 6 spirituality points. Use: Casting Action. Targeting: Designate a 
   permanently. Generally, it can act normally, but it will be difficult to control
   emotions when speaking.'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Death Pathway: Sequence 3
 
 > **GM Note:** This section is marked “for reference only” and includes “unofficial” ritual text. Treat it accordingly.
@@ -47,15 +48,25 @@ id: death-seq-03-ferryman
 name: Ferryman
 pathway: death
 sequence: 3
-type: active
-action: cast
+status: adapted
+type: passive
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
-scaling: []
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: Deterministic package; mapped constant captures the explicit maximum sanity-pressure cap of 1.
+scaling:
+- when: attacker_is_1_sequence_higher
+  changes:
+    effect_note: Damage immunities are bypassed except where the prose explicitly keeps immunity.
 tags:
 - detection
 - defense
@@ -67,6 +78,7 @@ text: 'Effect: You have become the real dead. Your malice, thoughts, and behavio
   damage interactions: Most attacks except holy attacks are no longer effective against
   you. You have no physical vitals.'
 ```
+
 
 
 
@@ -110,15 +122,35 @@ id: death-seq-03-river-of-eternal-darkness
 name: River of Eternal Darkness
 pathway: death
 sequence: 3
-type: active
+status: adapted
+type: toggle
 action: free
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
-duration: instant
-scaling: []
+duration: sustained
+dice:
+  check_roll: null
+  damage_roll: 6d10 + 10
+  heal_roll: null
+  effect_roll: 1d10
+  notes: damage_roll is the direct-gaze burst; effect_roll is the per-round peripheral-vision damage.
+scaling:
+- when: direct_gaze_burst_already_triggered_this_encounter
+  changes:
+    damage_roll: null
+    effect_note: The 6d10 plus 10 burst can only trigger once per encounter.
+- when: target_is_higher_sequence
+  changes:
+    effect_note: Direct-gaze burst damage is reduced by 10 for each sequence the target is above you.
+- when: extra_mode_endow_ferryman_trait
+  changes:
+    action: cast
+    cost:
+      spirituality: 3
+    effect_note: Applies Ferryman-like undead traits to designated targets as described in prose.
 tags:
 - detection
 - debuff
@@ -130,6 +162,7 @@ text: 'Effect: A target you put into your eyes slowly withers, like crossing the
   remains within your sight. Damage (direct gaze): The target immediately suffers
   6d10+10 damage. This 6d10+10 damage can only be triggered once per encounter.'
 ```
+
 
 
 
@@ -182,16 +215,25 @@ id: death-seq-03-the-language-of-the-dead
 name: The Language of the Dead
 pathway: death
 sequence: 3
+status: adapted
 type: active
 action: cast
-cost:
-  sanity: 1
+cost: {}
 roll: null
 opposed_by: none
 range: Anyone who hears your dead mans language.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d6 + 1
+  notes: Sanity and Rationality damage is prose-defined as either 1d4 or 1d6 plus 1 based on GM adjudication.
+scaling:
+- when: lower_intensity_mode
+  changes:
+    effect_roll: 1d4
 tags:
 - offense
 text: 'Effect: The language of the dead is not only a language the living cannot understand;
@@ -202,6 +244,7 @@ text: 'Effect: The language of the dead is not only a language the living cannot
   Interaction with Words of the Dead / rebuke: It can be released at the same time
   as the previous [[Words of the Dead]] effect.'
 ```
+
 
 
 

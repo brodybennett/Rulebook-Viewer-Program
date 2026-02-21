@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Twilight Giant Pathway: Sequence 8
 
 > **Lore:** Known as “Gladiator” in ancient times. Experts in fighting can use their bodies to weaken the effects of certain supernatural forces. Extraordinary characteristic image: a pure light ball like a baby’s fist.
@@ -47,6 +48,7 @@ id: war-god-seq-08-extraordinary-fighting
 name: Extraordinary Fighting
 pathway: war-god
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -55,6 +57,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll; leg sweep big failures can be mitigated with Agility DV 25."
 scaling: []
 tags:
 - buff
@@ -69,6 +77,7 @@ text: 'Your Sequence 9 fighting ability has been improved, so you can master mor
   single strike to Agility (DEX), and still have the full Strength bonus. At Sequence
   7, your double strike is not limited to...'
 ```
+
 
 
 
@@ -121,6 +130,7 @@ id: war-god-seq-08-extraordinary-physical-abilities
 name: Extraordinary Physical Abilities
 pathway: war-god
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -129,6 +139,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll; provides listed resistances and their sequence scaling."
 scaling: []
 tags:
 - debuff
@@ -139,6 +155,7 @@ text: 'You can mitigate supernatural influences purely with your own body. Resis
   damage types that would normally have negative effects (taking into account the
   Outer Gods approach). [[Outer Gods]] This excludes:'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Sun Pathway: Sequence 7
 
 ## Solar High Priest
@@ -44,6 +45,7 @@ id: sun-seq-07-sun-spells
 name: Sun Spells
 pathway: sun
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -52,6 +54,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -60,6 +68,7 @@ text: Your spells and ritual abilities are greatly improved. You gain the sun sp
   below in addition to the spells from the [[Prayer Stage]]. From now on, you no longer
   need to adopt a [[Prayer Posture]] to cast extraordinary abilities.
 ```
+
 
 
 
@@ -80,6 +89,7 @@ id: sun-seq-07-immune-to-fear
 name: Immune to Fear
 pathway: sun
 sequence: 7
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -88,6 +98,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -99,6 +115,7 @@ text: 'Cost: 2 [[Spirituality]]. Use: Swift Action (Swift Action). Effect: You g
   Clarification: Fear effects from targets more than 1 Sequence higher than you can
   still be generated, but their effect is halved (round up).'
 ```
+
 
 
 
@@ -121,15 +138,23 @@ id: sun-seq-07-fire-of-light
 name: Fire of Light
 pathway: sun
 sequence: 7
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: physical_defense
 range: Choose a location/area within 10 meters of you. The area of influence is no
   more than 10 meters.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: 2d6 + 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Creatures touching the fire take 2d6 sacred and 1d6 fire damage; resistance/evasion is ignored when avoiding the area.
 scaling: []
 tags:
 - control
@@ -145,6 +170,7 @@ text: 'Cost: 2 [[Spirit Points]]. Use: Casting Action (Casting Action). Targetin
   exist underwater. The flames only spread on things related to darkness, corruption,
   and undeath, and can be extinguished at any tim...'
 ```
+
 
 
 
@@ -167,14 +193,22 @@ id: sun-seq-07-cleansing-slash
 name: Cleansing Slash
 pathway: sun
 sequence: 7
+status: canonical
 type: active
 action: swift
-cost: {}
+cost:
+  spirituality: 1
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Adds restrained damage to the next hit; restraint damage scales to 2d6 (fallen) or 3d6 (undead), +1d6 at Sequence 5.
 scaling: []
 tags:
 - control
@@ -187,6 +221,7 @@ text: 'Cost: 1 [[Spirit Points]]. Use: Swift Action (Swift Action). Can be attac
   damage. If it attacks a dark creature: 1d8+5 physical damage + 1d6 holy damage.
   If it is fallen: 2d6 holy damage.'
 ```
+
 
 
 
@@ -213,14 +248,22 @@ id: sun-seq-07-sacred-oath
 name: Sacred Oath
 pathway: sun
 sequence: 7
+status: canonical
 type: active
 action: swift
-cost: {}
+cost:
+  spirituality: 2
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Adds 1d6 fire or holy damage for 2 rounds, or grants +2 Power/+2 Agility; Sequence 5 increases to +3 or 2d6.
 scaling: []
 tags:
 - ritual
@@ -237,6 +280,7 @@ text: 'Cost: 2 [[Spirituality]]. Use: Swift Action (Swift Action). Requirement: 
   your next damage adds 1d6 holy damage for 2 rounds (no restraint effect). Free/attack/casting/full
   rou...'
 ```
+
 
 
 
@@ -259,14 +303,22 @@ id: sun-seq-07-sun-halo
 name: Sun Halo
 pathway: sun
 sequence: 7
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: physical_defense
 range: Choose friendly units within 20 meters of you as the center.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: When used offensively, ignores agility/dodge and applies restrained damage each round to dark/fallen/undead in range.
 scaling: []
 tags:
 - ritual
@@ -284,6 +336,7 @@ text: 'Cost: 2 [[Spirituality]]. Use: Casting Action (Casting Action). Targeting
   intends to dodge, [[Mysticism]] counters physical defense, ignoring agility and
   dodge. Scaling: [[Sequence 5]]: Affects f...'
 ```
+
 
 
 
@@ -308,6 +361,7 @@ id: sun-seq-07-make-holy-water
 name: Make Holy Water
 pathway: sun
 sequence: 7
+status: canonical
 type: active
 action: full-round
 cost: {}
@@ -316,6 +370,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -325,6 +385,7 @@ text: 'Cost: 4 [[Spirituality]]. Use: Full-Round Action ([[Full-Round Action]]).
   ground. Reference: See [[Holy Water Prayer]] for details. Scaling: [[Sequence 5]]:
   Use becomes 1 Casting Action instead.'
 ```
+
 
 
 
@@ -346,6 +407,7 @@ id: sun-seq-07-sun-ritual
 name: Sun Ritual
 pathway: sun
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -354,6 +416,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: "1"
+  notes: Possession attempts by lower-sequence wraith shadows fail and trigger restrained damage; successful possession by higher-level wraith shadows takes 1d6 holy damage per round.
 scaling: []
 tags:
 - ritual
@@ -364,6 +432,7 @@ text: 'Effect: From now on, when you perform ritual magic in the sun domain, occ
   if you are not a believer in the sun. Limits: This effect is brought by a potion,
   is an improvement during the Sequence 8 period, and cannot be recorded or stolen.'
 ```
+
 
 
 
@@ -379,6 +448,7 @@ id: sun-seq-07-body-of-the-sun
 name: Body of the Sun
 pathway: sun
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -387,6 +457,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -404,6 +480,7 @@ text: 'Effect: You obtain a special [[Sun]], making it difficult to be possessed
   damage equal to the restrained damage. If a higher-level wraith shadow successfully
   possesses you: it suffers 1d6 holy dama...'
 ```
+
 
 
 

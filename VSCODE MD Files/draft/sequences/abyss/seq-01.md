@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Abyss Pathway: Sequence 1
 
 ## Filthy Monarch
@@ -37,13 +38,19 @@ tags:
 
 - **Attribute Gain:** Not explicitly specified in source (schema placeholder).
 
-### Filthy Monarch Authority
+### Canon Lore Placeholder
+
+- **Lore Placeholder:** Canon flavor may be retained here, but mechanics remain unbound.
+- **Limits:** Do not treat this as finalized mechanics.
+
+### Mechanics Stub
 
 ```yaml ability
-id: abyss-seq-01-filthy-monarch-authority
-name: Filthy Monarch Authority
+id: abyss-seq-01-mechanics-stub
+name: Mechanics Stub
 pathway: abyss
 sequence: 1
+status: stub
 type: passive
 action: none
 cost: {}
@@ -52,70 +59,18 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Stub record. Canon mechanics are intentionally unspecified.
 scaling: []
 tags:
-- offense
-- debuff
-- control
-text: You embody abyssal depravity and corruption, turning malice, filth, and curse-laden
-  intent into constant supernatural pressure.
+- utility
+- stub
+text: Filthy Monarch canonical mechanics are not yet authored.
 ```
 
-- **Effect:** You embody abyssal depravity and corruption, turning malice, filth, and curse-laden intent into constant supernatural pressure.
-- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
-
-### Corruption Bloom
-
-```yaml ability
-id: abyss-seq-01-corruption-bloom
-name: Corruption Bloom
-pathway: abyss
-sequence: 1
-type: active
-action: cast
-cost:
-  spirituality: 2
-roll: null
-opposed_by: constitution_defense
-range: line of sight
-target: designated target(s)
-duration: 1 encounter
-scaling: []
-tags:
-- debuff
-- offense
-- control
-text: You plant abyssal corruption in body and spirit, degrading resistance and making
-  later curse effects harder to purge.
-```
-
-- **Effect:** You plant abyssal corruption in body and spirit, degrading resistance and making later curse effects harder to purge.
-- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
-
-### Profane Curse Weave
-
-```yaml ability
-id: abyss-seq-01-profane-curse-weave
-name: Profane Curse Weave
-pathway: abyss
-sequence: 1
-type: active
-action: cast
-cost:
-  spirituality: 3
-roll: null
-opposed_by: willpower_defense
-range: 30m
-target: designated target(s)
-duration: sustained
-scaling: []
-tags:
-- debuff
-- control
-- offense
-text: You layer conditional curses that punish movement, betrayal, or reckless action
-  until the target breaks the bind.
-```
-
-- **Effect:** You layer conditional curses that punish movement, betrayal, or reckless action until the target breaks the bind.
-- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
+- **Effect:** Mechanical placeholder only. Filthy Monarch canonical mechanics are not yet authored.
+- **Limits:** Mechanics are intentionally stubbed pending canonical source confirmation.

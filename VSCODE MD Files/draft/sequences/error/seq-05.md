@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Error Pathway: Sequence 5
 
 ## Dream Stealer
@@ -43,6 +44,7 @@ id: error-seq-05-stealing-thoughts
 name: Stealing Thoughts
 pathway: error
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -52,6 +54,12 @@ range: Choose 1 target within 50 meters. Skillfully defend against Willpower Def
   Willpower Defense.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -68,6 +76,7 @@ text: 'Cost: Consume 3 points of spirituality [[Spirituality]]. Use: 1 Casting A
   action fail immediately, the target will appear sluggish on the spot and forget
   what they want to do, and the action they...'
 ```
+
 
 
 
@@ -100,6 +109,7 @@ id: error-seq-05-stealing-dreams
 name: Stealing Dreams
 pathway: error
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -109,6 +119,12 @@ range: Choose 1 target who falls into sleep and dreams, and fight against the Wi
   Defense Willpower Defense with skillful hands.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -123,6 +139,7 @@ text: 'Cost: Consume 3 points of spirituality [[Spirituality]]. Use: 1 Casting A
   not steal dreams and sleep, but manipulate the content of dreams to make it what
   you expect. Special:'
 ```
+
 
 
 
@@ -147,15 +164,28 @@ id: error-seq-05-steal-memories
 name: Steal Memories
 pathway: error
 sequence: 5
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.dex + @skill.sleight_of_hand
 opposed_by: willpower_defense
 range: Choose 1 target. Skillful hand against Willpower Defense Willpower Defense.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.dex + @skill.sleight_of_hand
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Skillful-hand check maps the Willpower Defense contest; target-side detection is encoded in scaling.
+scaling:
+- when: target_attempts_to_recall
+  changes:
+    opposed_by: difficulty_value
+    check_roll: 1d20 + @attr.int
+    effect_note: Target can use a DV 15 Intuition test to detect the missing memory (but still cannot recall it).
 tags:
 - ritual
 - defense
@@ -169,6 +199,7 @@ text: 'Cost: Consume 3 points of spirituality [[Spirituality]]. Use: 1 Casting A
   tries to recall this round or related things, it can use the Difficulty Value Difficulty
   Value 15 Intuition (INT) Test In...'
 ```
+
 
 
 
@@ -192,6 +223,7 @@ id: error-seq-05-steal-ideal
 name: Steal Ideal
 pathway: error
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -200,6 +232,12 @@ opposed_by: physical_defense
 range: Choose 1 target. Skillfully fight against Physical Defense [[Physical Defense]].
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -217,6 +255,7 @@ text: 'Cost: Consume 2 points of spirituality [[Spirituality]]. Use: 1 Casting A
   with the vision of the other party. If you steal the vision of an eagle, you can
   see things 1 km away without occlu...'
 ```
+
 
 
 

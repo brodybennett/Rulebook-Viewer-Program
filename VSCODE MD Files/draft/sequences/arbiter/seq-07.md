@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Justiciar Pathway: Sequence 7
 
 - You become proficient with various weapons and an expert in blasting.
@@ -39,6 +40,7 @@ id: arbiter-seq-07-weapon-proficiency
 name: Weapon Proficiency
 pathway: arbiter
 sequence: 7
+status: canonical
 type: passive
 action: none
 cost: {}
@@ -46,7 +48,13 @@ roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -61,6 +69,7 @@ text: 'Effect: While you have this ability, your skills in using various weapons
   The growth rate and number of times are equal to skill fighting. [[Fighting Skill
   Growth]] Notes: This is a passive...'
 ```
+
 
 
 
@@ -81,20 +90,36 @@ id: arbiter-seq-07-spirit-piercing
 name: Spirit Piercing
 pathway: arbiter
 sequence: 7
+status: adapted
 type: active
 action: swift
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.int + @attr.cha
+opposed_by: physical_defense
 range: Select 1 target within your field of vision. [[Field of Vision]]
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @attr.cha
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted from the explicit Intuition plus Charisma versus Physical Defense check in pierce mode; damage is mental and applies stun on success.
+scaling:
+- when: preparation_fear_mode
+  changes:
+    cost: {}
+    effect_note: Applies fear preparation state and suppresses use of other extraordinary abilities during maintenance.
+- when: pierce_mode
+  changes:
+    cost: {spirituality: 3}
+    effect_note: On successful check, deal 1d6 mental damage and apply Stunned.
 tags:
 - ritual
 - detection
 - debuff
 - offense
+- control
 text: 'Treat this as psychic damage to the spirit body (GM-defined). Preparation (Fear)
   Use: 1 Swift Action Swift Action Cost: Does not consume spirituality. [[Spirituality]]
   Targeting and range: Select 1 target within your field of vision. [[Field of Vision]]
@@ -102,6 +127,7 @@ text: 'Treat this as psychic damage to the spirit body (GM-defined). Preparation
   period, no other extraordinary abilities can be used. [[id:alias-extraordinary-abilities|Extraordinary
   Abilities]]'
 ```
+
 
 
 
@@ -143,6 +169,7 @@ id: arbiter-seq-07-whip-of-pain
 name: Whip of Pain
 pathway: arbiter
 sequence: 7
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -151,6 +178,12 @@ opposed_by: none
 range: Choose 1 target within your field of vision. [[Field of Vision]]
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -162,6 +195,7 @@ text: 'Ready State (Fear) Use: 1 Swift Action Swift Action Cost: Does not consum
   maintenance period, you cannot use other extraordinary abilities. [[id:alias-extraordinary-abilities|Extraordinary
   Abilities]] Endow the target with a Fear state. [[Fear]]'
 ```
+
 
 
 

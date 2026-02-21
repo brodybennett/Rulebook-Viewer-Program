@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Twilight Giant Pathway: Sequence 7
 
 You are able to wield weapons at a master level, including extraordinary weapons, magical items, and seals in the form of swords, guns, and similar objects.
@@ -50,6 +51,7 @@ id: war-god-seq-07-weapon-use
 name: Weapon Use
 pathway: war-god
 sequence: 7
+status: canonical
 type: active
 action: attack
 cost: {}
@@ -58,6 +60,12 @@ opposed_by: physical_defense
 range: All targets within the stated distance in front of you (see above).
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
@@ -71,6 +79,7 @@ text: 'You gain a series of weapon-specific special moves: Sweep: You sweep all 
   (see above). Vertical Slash: You aim at a target with the weapon from top to bottom,
   chopping at the target as if cutting off a building. Use: Attack Action'
 ```
+
 
 
 
@@ -118,6 +127,7 @@ id: war-god-seq-07-weapon-mastery
 name: Weapon Mastery
 pathway: war-god
 sequence: 7
+status: canonical
 type: passive
 action: none
 cost: {}
@@ -126,6 +136,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -136,6 +152,7 @@ text: 'As long as it is a weapon, you can use it at a Master Level if you hold i
   rounded down. This is a passive, but as an extraordinary ability may be lost, you
   still need to upgrade the real skill to Master.'
 ```
+
 
 
 

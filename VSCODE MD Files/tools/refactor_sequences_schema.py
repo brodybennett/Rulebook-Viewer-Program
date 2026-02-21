@@ -7,7 +7,7 @@ Batch-refactor sequence markdown files into the Phase 3 schema format:
 - normalize Advancement / Extraordinary Abilities sections
 - enforce Attribute Gain section
 - embed yaml ability blocks under each ability heading
-- impute sparse high-sequence content with lore-themed placeholders
+- mark sparse/incomplete content as mechanics stubs without inventing full kits
 """
 
 from __future__ import annotations
@@ -37,8 +37,9 @@ FENCE_END_RE = re.compile(r"^\s*```\s*$")
 ATTRIBUTE_LABEL_RE = re.compile(r"\*\*\s*attribute\s+gain\s*:\s*\*\*", re.IGNORECASE)
 METER_RANGE_RE = re.compile(r"^\s*(\d{1,4})\s*m\s*$", re.IGNORECASE)
 
-# Lore motifs are summarized from LoTM Wiki pathway overview/abilities pages.
-IMPUTED_LIMIT_TEXT = "Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed."
+# Legacy marker retained for migration detection.
+LEGACY_IMPUTED_LIMIT_TEXT = "Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed."
+IMPUTED_LIMIT_TEXT = "Mechanics are intentionally stubbed pending canonical source confirmation."
 
 IMPUTED_ABILITY_LIBRARY: Dict[str, List[Dict[str, Any]]] = {
     "abyss": [
@@ -817,6 +818,7 @@ def ability_payload(a: Dict[str, Any], pathway: str, seq_num: int, fallback_name
         "name": name,
         "pathway": pathway,
         "sequence": int(seq_num),
+        "status": str(a.get("status") or "canonical").strip().lower(),
         "type": str(a.get("type") or "active").strip().lower(),
         "action": str(a.get("action") or "cast").strip().lower(),
         "cost": a.get("cost") if isinstance(a.get("cost"), dict) else {},
@@ -825,12 +827,33 @@ def ability_payload(a: Dict[str, Any], pathway: str, seq_num: int, fallback_name
         "range": ascii_clean(a.get("range") or "self"),
         "target": ascii_clean(a.get("target") or "self"),
         "duration": ascii_clean(a.get("duration") or "instant"),
+        "dice": a.get("dice") if isinstance(a.get("dice"), dict) else {
+            "check_roll": None,
+            "damage_roll": None,
+            "heal_roll": None,
+            "effect_roll": None,
+            "notes": "No explicit dice expression in source text.",
+        },
         "scaling": a.get("scaling") if isinstance(a.get("scaling"), list) else [],
         "tags": [str(t).strip().lower() for t in (a.get("tags") or ["utility"]) if str(t).strip()],
         "text": ascii_clean(a.get("text") or f"{name} ability details are retained in section prose."),
     }
+    if payload["status"] not in {"canonical", "adapted", "homebrew", "stub"}:
+        payload["status"] = "canonical"
+    dice = payload["dice"] if isinstance(payload["dice"], dict) else {}
+    payload["dice"] = {
+        "check_roll": dice.get("check_roll") if isinstance(dice.get("check_roll"), str) else None,
+        "damage_roll": dice.get("damage_roll") if isinstance(dice.get("damage_roll"), str) else None,
+        "heal_roll": dice.get("heal_roll") if isinstance(dice.get("heal_roll"), str) else None,
+        "effect_roll": dice.get("effect_roll") if isinstance(dice.get("effect_roll"), str) else None,
+        "notes": ascii_clean(dice.get("notes") or "No explicit dice expression in source text."),
+    }
+    if payload["roll"] and payload["dice"]["check_roll"] is None:
+        payload["dice"]["check_roll"] = payload["roll"]
     if not payload["tags"]:
         payload["tags"] = ["utility"]
+    if payload["status"] == "stub" and "stub" not in payload["tags"]:
+        payload["tags"].append("stub")
     return payload
 
 
@@ -840,6 +863,7 @@ def render_yaml_ability(payload: Dict[str, Any]) -> List[str]:
         "name": payload["name"],
         "pathway": payload["pathway"],
         "sequence": payload["sequence"],
+        "status": payload["status"],
         "type": payload["type"],
         "action": payload["action"],
         "cost": payload["cost"],
@@ -848,6 +872,7 @@ def render_yaml_ability(payload: Dict[str, Any]) -> List[str]:
         "range": payload["range"],
         "target": payload["target"],
         "duration": payload["duration"],
+        "dice": payload["dice"],
         "scaling": payload["scaling"],
         "tags": payload["tags"],
         "text": payload["text"],
@@ -960,86 +985,38 @@ def tune_imputed_payload_for_sequence(payload: Dict[str, Any], seq_num: int) -> 
 
 
 def build_imputed_payloads(pathway: str, seq_name: str, seq_num: int) -> List[Dict[str, Any]]:
-    templates = IMPUTED_ABILITY_LIBRARY.get(pathway)
-    if not templates:
-        templates = [
-            {
-                "name_template": "{seq_name} Authority",
-                "type": "passive",
-                "action": "none",
-                "cost": {},
-                "opposed_by": "none",
-                "range": "self",
-                "target": "self",
-                "duration": "instant",
-                "tags": ["utility", "control", "buff"],
-                "text": "You manifest the pathway's core authority as a stable baseline for narrative and mechanical refinement.",
-            },
-            {
-                "name_template": "Domain Suppression",
-                "type": "active",
-                "action": "cast",
-                "cost": {"spirituality": 2},
-                "opposed_by": "willpower_defense",
-                "range": "line of sight",
-                "target": "designated target(s)",
-                "duration": "1 encounter",
-                "tags": ["control", "debuff", "utility"],
-                "text": "You project your pathway domain to suppress hostile actions and impose thematic constraints on opponents.",
-            },
-            {
-                "name_template": "Domain Manifestation",
-                "type": "active",
-                "action": "cast",
-                "cost": {"spirituality": 3},
-                "opposed_by": "none",
-                "range": "20m",
-                "target": "designated target(s)",
-                "duration": "sustained",
-                "tags": ["buff", "offense", "defense"],
-                "text": "You externalize pathway authority as a short-lived manifestation that supports allies and pressures enemies.",
-            },
-        ]
-
-    out: List[Dict[str, Any]] = []
-    seen_ids: Dict[str, int] = defaultdict(int)
-    for template in templates:
-        name_template = str(template.get("name_template") or "{seq_name} Authority")
-        name = ascii_clean(name_template.format(seq_name=seq_name)).strip() or f"{seq_name} Authority"
-        aid = f"{pathway}-seq-{seq_num:02d}-{slugify(name)}"
-        seen_ids[aid] += 1
-        if seen_ids[aid] > 1:
-            aid = f"{aid}-{seen_ids[aid]}"
-
-        tags = [str(t).strip().lower() for t in template.get("tags", []) if str(t).strip()]
-        if not tags:
-            tags = ["utility"]
-
-        payload = {
-                "id": aid,
-                "name": name,
-                "pathway": pathway,
-                "sequence": int(seq_num),
-                "type": str(template.get("type") or "active").strip().lower(),
-                "action": str(template.get("action") or "cast").strip().lower(),
-                "cost": template.get("cost") if isinstance(template.get("cost"), dict) else {},
-                "roll": template.get("roll") if isinstance(template.get("roll"), str) else None,
-                "opposed_by": str(template.get("opposed_by") or "none").strip().lower(),
-                "range": ascii_clean(template.get("range") or "self"),
-                "target": ascii_clean(template.get("target") or "self"),
-                "duration": ascii_clean(template.get("duration") or "instant"),
-                "scaling": template.get("scaling") if isinstance(template.get("scaling"), list) else [],
-                "tags": tags,
-                "text": ascii_clean(template.get("text") or f"{name} imputed lore baseline."),
-                "_source": {
-                    "heading": name,
-                    "imputed": True,
-                },
-            }
-        if seq_num in {0, 1, 2}:
-            payload = tune_imputed_payload_for_sequence(payload, seq_num)
-        out.append(payload)
-    return out
+    name = "Mechanics Stub"
+    aid = f"{pathway}-seq-{seq_num:02d}-mechanics-stub"
+    payload = {
+        "id": aid,
+        "name": name,
+        "pathway": pathway,
+        "sequence": int(seq_num),
+        "status": "stub",
+        "type": "passive",
+        "action": "none",
+        "cost": {},
+        "roll": None,
+        "opposed_by": "none",
+        "range": "self",
+        "target": "self",
+        "duration": "instant",
+        "dice": {
+            "check_roll": None,
+            "damage_roll": None,
+            "heal_roll": None,
+            "effect_roll": None,
+            "notes": "Stub record. Canon mechanics are intentionally unspecified.",
+        },
+        "scaling": [],
+        "tags": ["utility", "stub"],
+        "text": f"{seq_name} canonical mechanics are not yet authored.",
+        "_source": {
+            "heading": name,
+            "imputed": True,
+        },
+    }
+    return [payload]
 
 
 def should_expand_imputed_sequence(abilities: List[Dict[str, Any]]) -> bool:
@@ -1056,6 +1033,15 @@ def build_imputed_extraordinary_section(
 ) -> List[str]:
     block: List[str] = ["## Extraordinary Abilities", ""]
     block.extend(format_attribute_gain(attr_payload))
+    block.extend(
+        [
+            "### Canon Lore Placeholder",
+            "",
+            "- **Lore Placeholder:** Canon flavor may be retained here, but mechanics remain unbound.",
+            "- **Limits:** Do not treat this as finalized mechanics.",
+            "",
+        ]
+    )
     for payload in imputed_payloads:
         block.extend(
             [
@@ -1063,7 +1049,7 @@ def build_imputed_extraordinary_section(
                 "",
                 *render_yaml_ability(payload),
                 "",
-                f"- **Effect:** {payload['text']}",
+                f"- **Effect:** Mechanical placeholder only. {payload['text']}",
                 f"- **Limits:** {IMPUTED_LIMIT_TEXT}",
                 "",
             ]
@@ -1080,6 +1066,7 @@ def impute_lore_for_sparse(pathway: str, seq_name: str, seq_num: int, ability: D
         {
             "id": payload["id"],
             "name": payload["name"],
+            "status": "stub",
             "type": payload["type"],
             "action": payload["action"],
             "cost": payload["cost"],
@@ -1088,6 +1075,7 @@ def impute_lore_for_sparse(pathway: str, seq_name: str, seq_num: int, ability: D
             "range": payload["range"],
             "target": payload["target"],
             "duration": payload["duration"],
+            "dice": payload["dice"],
             "scaling": payload["scaling"],
             "tags": payload["tags"],
             "text": payload["text"],
@@ -1172,7 +1160,7 @@ def refactor_file(
 
     raw_abilities = rec.get("abilities") if isinstance(rec.get("abilities"), list) else []
     abilities = [a for a in raw_abilities if isinstance(a, dict)]
-    has_imputed_limit_marker = IMPUTED_LIMIT_TEXT in text
+    has_imputed_limit_marker = (IMPUTED_LIMIT_TEXT in text) or (LEGACY_IMPUTED_LIMIT_TEXT in text)
     expand_imputed = should_expand_imputed_sequence(abilities) or has_imputed_limit_marker
     attr_payload = rec.get("attribute_gain") if isinstance(rec.get("attribute_gain"), dict) else {}
 

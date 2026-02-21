@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Hanged Man Pathway: Sequence 2
 
 ## Profane Presbyter
@@ -39,15 +40,27 @@ id: hanged-man-seq-02-evil-words
 name: Evil Words
 pathway: hanged-man
 sequence: 2
+status: canonical
 type: active
 action: free
-cost: {}
+cost:
+  spirituality: 1
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit roll; self-blessing grants narrative bonuses and word interception costs more.
+scaling:
+- when: word_interception
+  changes:
+    cost: {spirituality: 5}
+    effect_note: Intercepts spoken words to impose the stated narrative effect.
 tags:
 - ritual
 text: 'Effect: The words you speak distort reality. #### Self-Blessing Use: Free Action
@@ -56,6 +69,7 @@ text: 'Effect: The words you speak distort reality. #### Self-Blessing Use: Free
   which gives you +1 personality (but not as much as the real king of angels). At
   the same time, you gain +4 on all skill checks for one Encounter.'
 ```
+
 
 
 

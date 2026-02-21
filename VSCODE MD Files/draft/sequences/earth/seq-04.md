@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Mother Pathway: Sequence 4
 
 > **Lore:** Known as a “classical alchemist” in ancient times, also called a “human alchemist.” They are said to calm low-intelligence extraordinary creatures, perform “life refinement” using incomplete spirits and materials, create various dolls (including golems), induce mutations, grow crops, increase the tendency to run out of control, and cure all injuries of [12].
@@ -35,15 +36,26 @@ id: earth-seq-04-alchemy-of-life
 name: Alchemy of Life
 pathway: earth
 sequence: 4
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 4
+roll: 1d20 + @attr.int + @skill.biology
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.biology
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d2
+  notes: Biology check resolves the creation attempt; effect roll captures the stated 1d2 hour crafting time.
+scaling:
+- when: crafting_time_hours
+  changes:
+    effect_roll: 1d2
 tags:
 - ritual
 text: 'You use incomplete spirits and materials to create a life. Cost: 4 spirituality
@@ -54,6 +66,7 @@ text: 'You use incomplete spirits and materials to create a life. Cost: 4 spirit
   human being (long-lived): This human has no memory, or has a small part of the memory
   of the spirit body used. You can communicate with them.'
 ```
+
 
 
 
@@ -123,6 +136,7 @@ id: earth-seq-04-crazy-induction
 name: Crazy Induction
 pathway: earth
 sequence: 4
+status: adapted
 type: active
 action: attack
 cost: {}
@@ -131,7 +145,20 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "2"
+  notes: Effect roll encodes the sanity-damage threshold that triggers temporary madness; higher thresholds are captured in scaling.
+scaling:
+- when: sanity_damage_reaches_5
+  changes:
+    effect_roll: "5"
+    effect_note: Indeterminate madness triggers at sanity damage 5.
+- when: sanity_below_30_percent
+  changes:
+    effect_note: Target enters out-of-control state at less than 30% sanity.
 tags:
 - control
 - buff
@@ -146,6 +173,7 @@ text: 'Increases the madness and out-of-control tendency of the person attacked.
   state of out of control. [[out of control]] Special: A Beyonder of the Spectator
   Pathway can circumvent this effect by passing a...'
 ```
+
 
 
 

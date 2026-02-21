@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Door Pathway: Sequence 9
 
 ## Apprentice
@@ -50,18 +51,41 @@ id: apprentice-seq-09-open-the-door
 name: Open the Door
 pathway: apprentice
 sequence: 9
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.int + @skill.lockpicking
 opposed_by: difficulty_value
-range: self
-target: self
+range: touch
+target: one lock or barrier segment
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.lockpicking
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted from explicit lock-opening tests; non-lock passage creation modes are deterministic unless GM calls for a contest.
+scaling:
+- when: opening_extraordinary_lock_not_above_your_sequence
+  changes:
+    difficulty_value: 20
+- when: lock_is_being_contested_by_original_locker
+  changes:
+    effect_note: Resolve against the locking party's identification result instead of static DV.
+- when: peephole_mode
+  changes:
+    action: free
+    cost: {spirituality: 1}
+    effect_note: Create an eye-sized observation door on touched barrier.
+- when: sequence_7_or_higher
+  changes:
+    effect_note: Through-wall mode can carry other creatures.
 tags:
 - ritual
 - mobility
+- utility
 text: 'Use: 1 Casting Action. Cost: 2 spirituality points. Effect: Choose one of the
   following effects: 1) Open a lock You can open any lock that does not have extraordinary
   power. For a lock that has extraordinary power but is not higher than your Sequence
@@ -69,6 +93,7 @@ text: 'Use: 1 Casting Action. Cost: 2 spirituality points. Effect: Choose one of
   Value 20. In special cases, it may be against the identification of the person who
   locked the lock. 2) Create a passage through a barrier'
 ```
+
 
 
 
@@ -106,14 +131,21 @@ id: apprentice-seq-09-ritual-mastery
 name: Ritual Mastery
 pathway: apprentice
 sequence: 9
-type: active
-action: cast
+status: canonical
+type: passive
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -123,6 +155,7 @@ text: 'Effect: While holding this ability, you gain access to ritual magic, rega
   or not. For the ritual magic you can use, refer to [[Common Ritual Magic]]. Special:
   This is the effect brought by 1 potion and cannot be stolen or recorded.'
 ```
+
 
 
 
@@ -143,20 +176,35 @@ id: apprentice-seq-09-spiritual-vision
 name: Spiritual Vision
 pathway: apprentice
 sequence: 9
+status: adapted
 type: toggle
 action: free
-cost: {}
-roll: null
-opposed_by: none
+cost:
+  spirituality: 1
+roll: 1d20 + @attr.int + @skill.spiritual_intuition
+opposed_by: difficulty_value
 range: self
 target: designated target(s)
 duration: sustained
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.spiritual_intuition
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted check mapping for interpretation tasks while Spiritual Vision is active; activation itself is a free toggle.
+scaling:
+- when: spiritual_vision_active
+  changes:
+    check_bonus: 2
+    effect_note: Spiritual Intuition tests gain +2 while the mode is maintained.
+- when: target_is_ordinary_spirit_body_under_24h
+  changes:
+    effect_note: Recently deceased ordinary spirit bodies are visible by default.
 tags:
 - ritual
 - detection
-- healing
-- mobility
+- divination
+- utility
 text: 'Use: 1 free action to activate. Cost: 1 spirituality point per round while
   active. Effect: While active, your vision gains the following benefits: 1) Etheric
   Body You can directly see the targets health status through the color of the aura.
@@ -164,6 +212,7 @@ text: 'Use: 1 free action to activate. Cost: 1 spirituality point per round whil
   When it comes to a certain organ, you can see the inside through a not-thick door.
   You can confirm the number of people inside by seeing through the door.'
 ```
+
 
 
 

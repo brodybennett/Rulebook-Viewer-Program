@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Demoness Pathway: Sequence 2
 
 ## Catastrophe
@@ -38,15 +39,52 @@ id: demoness-seq-02-cataclysm-wreaks
 name: Cataclysm Wreaks
 pathway: demoness
 sequence: 2
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 6
+roll: 1d20 + @attr.cha + @skill.charisma
 opposed_by: physical_defense
 range: self
 target: self
 duration: sustained
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.cha + @skill.charisma
+  damage_roll: 5d6
+  heal_roll: null
+  effect_roll: null
+  notes: Baseline mapping uses the explicit Charisma vs Physical Defense resolution; disaster-specific damage rolls are in scaling.
+scaling:
+- when: hurricane_mode
+  changes:
+    effect_roll: 2d10
+    effect_note: Targets failing Strength or Agility Difficulty Value 20 checks can take 2d10 falling damage.
+- when: earthquake_mode
+  changes:
+    damage_roll: 5d6 + 5
+- when: tsunami_mode
+  changes:
+    damage_roll: 10d6
+- when: lava_mode
+  changes:
+    damage_roll: 5d6
+- when: thunderstorm_mode
+  changes:
+    damage_roll: 5d6
+- when: thunderstorm_mode_vs_undead
+  changes:
+    damage_roll: 6d6
+- when: blizzard_mode
+  changes:
+    damage_roll: 3d6
+- when: meteorite_mode
+  changes:
+    damage_roll: 10d6
+- when: heavy_rain_mode
+  changes:
+    damage_roll: null
+    effect_note: Heavy rain primarily changes terrain/visibility instead of dealing direct damage.
 tags:
 - ritual
 - mobility
@@ -63,6 +101,7 @@ text: 'You create a terrible catastrophe. Cost: 6 spiritual points ([[Spirituali
   may take 2d10 falling damage as a result. Earthquake: Against Physical Defense,
   dealing 5d6+5 physical damage to mo...'
 ```
+
 
 
 

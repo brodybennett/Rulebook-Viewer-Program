@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Tyrant Pathway: Sequence 0
 
 ## Tyrant
@@ -43,6 +44,7 @@ id: tyrant-seq-00-celestial-thunder
 name: Celestial Thunder
 pathway: tyrant
 sequence: 0
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -51,6 +53,12 @@ opposed_by: physical_defense
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: 1d10
+  heal_roll: null
+  effect_roll: "1"
+  notes: Bonus lightning damage applies to all lightning abilities; Yi Lei Wan Tang splash damage uses Lightning Storm resolution.
 scaling: []
 tags:
 - buff
@@ -66,6 +74,7 @@ text: 'Effect: You can create planet-level violent lightning waves. All lightnin
   using the same Disaster Attack procedure as Lightning Storm (check vs Physical Defense).
   Targeting and rang...'
 ```
+
 
 
 
@@ -93,6 +102,7 @@ id: tyrant-seq-00-sweeping-tides
 name: Sweeping Tides
 pathway: tyrant
 sequence: 0
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -101,6 +111,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: 1d10
+  heal_roll: null
+  effect_roll: "1"
+  notes: Bonus water damage applies to all water-related abilities.
 scaling: []
 tags:
 - buff
@@ -110,6 +126,7 @@ text: 'Effect: You can create waves capable of flooding a planet. All your water
   can use ocean-related abilities (such as waves) to submerge all land on a planet,
   turning it into a world consisting only of oceans. --'
 ```
+
 
 
 
@@ -131,14 +148,21 @@ id: tyrant-seq-00-tyrant
 name: Tyrant
 pathway: tyrant
 sequence: 0
+status: canonical
 type: active
 action: free
 cost: {}
-roll: null
-opposed_by: physical_defense
+roll: 1d20 + @attr.str
+opposed_by: willpower_defense
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.str
+  damage_roll: 1d10
+  heal_roll: null
+  effect_roll: null
+  notes: Bonus damage applies versus targets one Sequence lower; Frightening Authority uses Strength vs Willpower Defense to inflict Terrified.
 scaling: []
 tags:
 - defense
@@ -149,6 +173,7 @@ text: 'Effect: You absolutely suppress targets below your level. When facing an 
   Once per turn, as a free action. Effect (Frightening Authority): Make a Strength
   check against the targets Willpower Defense.'
 ```
+
 
 
 

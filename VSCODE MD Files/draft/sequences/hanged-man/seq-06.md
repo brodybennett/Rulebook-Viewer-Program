@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Hanged Man Pathway: Sequence 6
 
 ## Rose Bishop
@@ -46,14 +47,21 @@ id: hanged-man-seq-06-bishop-rose-traits
 name: Bishop Rose Traits
 pathway: hanged-man
 sequence: 6
-type: active
-action: cast
+status: canonical
+type: passive
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Passive trait package; no roll required.
 scaling: []
 tags:
 - healing
@@ -64,6 +72,7 @@ text: You are long-term considered a Corrupted Creature [[Corrupted Creature]]. 
   and you can survive even if you are almost turned into a corpse. This is a potion
   effect and cannot be stolen or recorded.
 ```
+
 
 
 
@@ -84,6 +93,7 @@ id: hanged-man-seq-06-flesh-devour
 name: Flesh Devour
 pathway: hanged-man
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -92,7 +102,20 @@ opposed_by: none
 range: Touch; one helpless creature.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Passive/active modes scale with Flesh Stack; damage dice apply only at higher stacks.
+scaling:
+- when: flesh_stack_50_or_more
+  changes:
+    effect_note: Gain 3 Armor and 3 Physical Damage Reduction (non-stacking).
+- when: flesh_stack_120_or_more
+  changes:
+    effect_roll: 1d3
+    effect_note: As a Big Volume Creature, melee vs medium targets adds 1d3 damage and +1m reach.
 tags:
 - utility
 text: 'Cost: No Sanity / Rationality [[Sanity / Rationality]]. Use: Varies by creature
@@ -104,6 +127,7 @@ text: 'Cost: No Sanity / Rationality [[Sanity / Rationality]]. Use: Varies by cr
   the size table below. Excluding [[Extraordinary]], larger creatures usually provide
   more Flesh Stacks.'
 ```
+
 
 
 
@@ -147,6 +171,7 @@ id: hanged-man-seq-06-flesh-alteration
 name: Flesh Alteration
 pathway: hanged-man
 sequence: 6
+status: canonical
 type: passive
 action: none
 cost: {}
@@ -155,6 +180,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - defense
@@ -167,6 +198,7 @@ text: 'Effect: You can alter your flesh; your flesh is affected by your Flesh St
   and 3 Physical Damage Reduction [[Physical Damage Reduction]]. These do not stack
   with other physical benefits.'
 ```
+
 
 
 
@@ -226,6 +258,7 @@ id: hanged-man-seq-06-cellular-proliferation
 name: Cellular Proliferation
 pathway: hanged-man
 sequence: 6
+status: canonical
 type: passive
 action: none
 cost: {}
@@ -234,6 +267,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - healing
@@ -248,6 +287,7 @@ text: 'Effect: Your cells grow faster than normal living organisms. Passive (Fle
   The following flesh and blood magic are all separate abilities, and only one benefit
   can be selected when creating [[Extraor...'
 ```
+
 
 
 
@@ -269,15 +309,30 @@ id: hanged-man-seq-06-flesh-cloak
 name: Flesh Cloak
 pathway: hanged-man
 sequence: 6
+status: canonical
 type: active
 action: swift
-cost: {}
+cost:
+  spirituality: 3
+  flesh_stack: 20
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No roll required; resistance uses consumed Flesh Stack as a hit buffer.
+scaling:
+- when: flesh_cloak_max_stack
+  changes:
+    effect_note: Can consume up to 40 Flesh Stacks per encounter; excess grants no extra benefit.
+- when: divine_or_higher_status_damage
+  changes:
+    effect_note: Divine damage consumes +5 resist times; higher-status damage consumes +3 resist times.
 tags:
 - ritual
 - offense
@@ -290,6 +345,7 @@ text: 'Cost: 3 points of Spirituality; 20 Flesh Stacks total (max 40 per encount
   1 time. If it suffers from divine power [[Divine Power]], deduct 5 times each time.
   It can be repaired by repeated casting.'
 ```
+
 
 
 
@@ -318,15 +374,33 @@ id: hanged-man-seq-06-flesh-bomb
 name: Flesh Bomb
 pathway: hanged-man
 sequence: 6
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  blood: 5
+roll: 1d20 + @attr.dex + @skill.throwing
 opposed_by: physical_defense
 range: Choose 1 target; throw against physical defense [[Physical Defense]].
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.dex + @skill.throwing
+  damage_roll: 3d6 + 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Damage roll includes physical (3d6) and poison (1d6); on a miss, damage is halved.
+scaling:
+- when: check_fails
+  changes:
+    effect_note: Damage is halved (rounded up) on a failed throw.
+- when: limb_thrown
+  changes:
+    effect_note: Damage is doubled and can affect a 10m area; caster suffers -4 to rolls and halved movement until Flesh Mending.
+- when: planted_bomb
+  changes:
+    cost: {flesh_stack: 5}
+    effect_note: Planted bombs can be detonated within 100m; detonation costs 3 spirituality.
 tags:
 - debuff
 - defense
@@ -336,6 +410,7 @@ text: 'This ability has two uses. Thrown flesh bomb Cost: Consumes 5 points of b
   physical defense [[Physical Defense]]. Effect: Deal 3d6 physical damage and 1d6
   poison damage [[Poison Damage]]. On failure, damage is halved (rounded up).'
 ```
+
 
 
 
@@ -380,15 +455,27 @@ id: hanged-man-seq-06-flesh-manipulation
 name: Flesh Manipulation
 pathway: hanged-man
 sequence: 6
+status: canonical
 type: active
 action: swift
-cost: {}
+cost:
+  spirituality: 3
+  flesh_stack: 20
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: sustained
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Healing is based on Flesh Stack consumed (up to 20 per use); no explicit dice roll.
+scaling:
+- when: mutilated_from_flesh_bomb
+  changes:
+    effect_note: Consumes the same Flesh Stack lost to restore the body.
 tags:
 - control
 text: 'Use: 1 Swift Action; once per round. Effect: Animate the flesh and blood of
@@ -399,6 +486,7 @@ text: 'Use: 1 Swift Action; once per round. Effect: Animate the flesh and blood 
   manipulate the shape of flesh and blood; make it melt and become fluid; draw words
   and portraits yourself.'
 ```
+
 
 
 
@@ -432,6 +520,7 @@ id: hanged-man-seq-06-flesh-healing
 name: Flesh Healing
 pathway: hanged-man
 sequence: 6
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -440,6 +529,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -454,6 +549,7 @@ text: 'Cost: 3 points of Spirituality; up to 20 Flesh Stacks per use. Use: 1 Swi
   the same amount of Flesh Stack you lost when you cast Flesh Bomb to restore your
   body.'
 ```
+
 
 
 
@@ -474,6 +570,7 @@ id: hanged-man-seq-06-blanket-of-flesh
 name: Blanket of Flesh
 pathway: hanged-man
 sequence: 6
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -482,6 +579,12 @@ opposed_by: physical_defense
 range: self
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -496,6 +599,7 @@ text: 'Cost: 3 points of Spirituality; at least 10 and at most 40 Flesh Stacks. 
   half of those values (rounded down). Roll: rd20 + action bonus against the targets
   physical defenses; on success, grapple it.'
 ```
+
 
 
 
@@ -521,15 +625,26 @@ id: hanged-man-seq-06-flesh-bullet
 name: Flesh Bullet
 pathway: hanged-man
 sequence: 6
+status: canonical
 type: active
 action: attack
-cost: {}
-roll: null
+cost:
+  flesh_stack: 2
+roll: 1d20 + @attr.int + @skill.shooting
 opposed_by: physical_defense
 range: One or more targets.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.shooting
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Each bullet deals 1d6 physical damage; burst fire applies cumulative penalties.
+scaling:
+- when: burst_fire
+  changes:
+    effect_note: Apply a -2 penalty per additional shot after the first in a burst.
 tags:
 - defense
 - offense
@@ -540,6 +655,7 @@ text: 'Cost: 2 Flesh Stacks per bullet. Use: 1 Attack Action; up to 6 consecutiv
   deals 1d6 physical damage. Aftereffects: Gain a -2 penalty per shot in a burst,
   starting with the second shot.'
 ```
+
 
 
 

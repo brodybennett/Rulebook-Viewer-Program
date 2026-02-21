@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Wheel of Fortune Pathway: Sequence 3
 
 ## Chaoswalker
@@ -37,14 +38,22 @@ id: fate-seq-03-chaos-walker
 name: Chaos Walker
 pathway: fate
 sequence: 3
+status: canonical
 type: active
 action: free
-cost: {}
+cost:
+  spirituality: 5
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: Until you end it.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No roll required; reverses big success/failure outcomes and consumes stored luck/bad luck.
 scaling: []
 tags:
 - ritual
@@ -58,6 +67,7 @@ text: 'Cost: 5 Spirituality. Use: Free Action. Effect: In your environment, you 
   values is insufficient, Bad Luck points will be used as Luck points, and Luck points
   will also be used as Bad...'
 ```
+
 
 
 
@@ -79,6 +89,7 @@ id: fate-seq-03-chaos-walker-additional
 name: Chaos Walker (Additional)
 pathway: fate
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -87,6 +98,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -97,6 +114,7 @@ text: 'Cost: 5 Spirituality (the same cost as Chaos Walker). Use: Once per Round
   you have stored. Limits: If Chaos Walker is already activated, this additional ability
   is considered assimilated with the area ability and cannot be applied again.'
 ```
+
 
 
 
@@ -113,15 +131,29 @@ id: fate-seq-03-destiny-disturb-the-torrent-of-fate
 name: 'Destiny: Disturb the Torrent of Fate'
 pathway: fate
 sequence: 3
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 10
+roll: 1d20 + @attr.luk
 opposed_by: difficulty_value
 range: Everyone within 1 kilometer of you, excluding yourself.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.luk
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Targets make a Luck check against DV 20; outcomes apply immediately.
+scaling:
+- when: check_result_meets_dv_20
+  changes:
+    effect_note: Target takes an immediate action that is treated as a big success.
+- when: check_result_fails_dv_20
+  changes:
+    effect_note: Target suffers a calamity and their next appraisal fails automatically.
 tags:
 - ritual
 - divination
@@ -133,6 +165,7 @@ text: 'Cost: 10 Spirituality. Use: 1 Spellcasting Action; once per Encounter. Ta
   and their next Appraisal will definitely fail. Limits: This ability cannot be reversed
   between Big Failure and Big Success.'
 ```
+
 
 
 

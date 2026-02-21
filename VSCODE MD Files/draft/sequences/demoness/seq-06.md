@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Demoness Pathway: Sequence 6
 
 > **Lore:** The “witch” is improved in all aspects—more beautiful, highly charming, and skilled at giving the opposite sex or the same sex unforgettable happiness in love. She can create strange silk threads like a spider and use them to tease enemies—but spider webs fear fire.
@@ -57,15 +58,32 @@ id: demoness-seq-06-web-creation
 name: Web Creation
 pathway: demoness
 sequence: 6
+status: adapted
 type: active
 action: swift
-cost: {}
+cost:
+  spirituality: 3
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: sustained
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.dex + @skill.dodge
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 2d6
+  notes: Effect roll maps base web vitality; check roll maps the explicit Difficulty Value 20 agility reaction when flames appear.
+scaling:
+- when: web_burned_by_flame
+  changes:
+    opposed_by: difficulty_value
+    check_roll: 1d20 + @attr.dex + @skill.dodge
+    effect_note: On a failed Difficulty Value 20 check, you take fire damage equal to the web's remaining vitality.
+- when: web_recast_for_repair
+  changes:
+    effect_roll: 2d6
+    effect_note: Recasting repairs/replaces web vitality; vitality does not stack across casts.
 tags:
 - ritual
 - stealth
@@ -81,6 +99,7 @@ text: 'Cost: 3 spirituality points Use: 1 Swift Action, once per round Effect: Y
   silk hair. Hair, unlike cobwebs, is not invisible, and taking damage can reach you.
   The webs you create obey the following charact...'
 ```
+
 
 
 
@@ -111,15 +130,49 @@ id: demoness-seq-06-touch-of-pleasure
 name: Touch of Pleasure
 pathway: demoness
 sequence: 6
+status: adapted
 type: active
 action: swift
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.cha + @skill.charisma
+opposed_by: willpower_defense
 range: self
 target: designated target(s)
 duration: sustained
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.cha + @skill.charisma
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: 1d3
+  notes: Baseline roll maps the joy-induction Charisma contest; mode-specific checks and damage tiers are in scaling.
+scaling:
+- when: silk_bind_mode
+  changes:
+    opposed_by: physical_defense
+    effect_note: Binding mode ignores armor and applies stasis on success.
+- when: bound_state_after_two_successes
+  changes:
+    effect_note: Escape check increases from Difficulty Value 15 to Difficulty Value 20 after two successful bindings.
+- when: deflect_vital_mode
+  changes:
+    opposed_by: difficulty_value
+    check_roll: 1d20 + @attr.dex + @skill.dodge
+    effect_roll: 1d6
+    effect_note: Deflection uses a Difficulty Value 20 agility test; effect roll maps rd6 redirection outcome.
+- when: pleasure_over_1_hour_low_constitution
+  changes:
+    opposed_by: constitution_defense
+    damage_roll: 1d6
+    effect_roll: 1d3
+    effect_note: Failure can cause sudden death; survivors recover sanity and may gain addiction.
+- when: pleasure_over_3_hours_low_constitution
+  changes:
+    opposed_by: constitution_defense
+    damage_roll: 2d6
+    effect_note: Failure branch can cause sudden death or 24-hour exhaustion state with additional sanity loss.
+- when: sequence_5_or_higher
+  changes:
+    effect_note: Usage limit increases from once per round to twice per round.
 tags:
 - healing
 - offense
@@ -133,6 +186,7 @@ text: 'Use: 1 Swift Action, 1 time per round Prerequisite: You must first extend
   are incompatible. You can only choose one of the following benefits to take effect
   at the same time. Sequence 5: The numbe...'
 ```
+
 
 
 
@@ -229,16 +283,42 @@ id: demoness-seq-06-primordial-cocoon
 name: Primordial Cocoon
 pathway: demoness
 sequence: 6
-type: active
+status: adapted
+type: toggle
 action: cast
 cost:
-  spirituality: 12
+  spirituality: 6
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
-scaling: []
+duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 4d6 + 5
+  notes: Effect roll maps the explicit ice-crystal layer vitality; other layer values and passage tests are captured in scaling.
+scaling:
+- when: black_hair_layer
+  changes:
+    effect_roll: 3d6
+    effect_note: Black-hair layer vitality and damage-conversion rules apply as described.
+- when: ice_crystal_layer
+  changes:
+    effect_roll: 4d6 + 5
+- when: black_flame_passage_test
+  changes:
+    opposed_by: difficulty_value
+    effect_roll: "15"
+    effect_note: Crossing the black flame requires a Difficulty Value 15 Will test.
+- when: black_flame_contact
+  changes:
+    effect_note: Contact damage equals half of your Black Flame long-range attack damage.
+- when: repair_component_cast
+  changes:
+    upkeep_cost: {spirituality: 3}
+    effect_note: Each casting while cocooned restores one chosen component (black hair or ice crystal).
 tags:
 - ritual
 - healing
@@ -251,6 +331,7 @@ text: 'Cost: 6 spirituality points Use: 1 spellcasting action Effect: You create
   is curled black long hair. Black hair has 3d6 health points. The physical damage
   received is halved, and the fire damage is doubled.'
 ```
+
 
 
 

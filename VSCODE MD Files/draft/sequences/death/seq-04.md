@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Death Pathway: Sequence 4
 
 - You die every 60 years, resurrect, and forget most of your past memories; these memories must be slowly retrieved afterward, as if starting a new life.
@@ -44,6 +45,7 @@ id: death-seq-04-shuttle-in-the-spirit-world
 name: Shuttle in the Spirit World
 pathway: death
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -52,6 +54,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
@@ -66,6 +74,7 @@ text: 'Cost: 1 Casting Action Casting Action Use: Travel via the connection and 
   shuttle in advance, or have completed this Casting Action, then unless it is a Great
   Success Great Success, any attac...'
 ```
+
 
 
 
@@ -92,15 +101,28 @@ id: death-seq-04-necrotic-seal
 name: Necrotic Seal
 pathway: death
 sequence: 4
-type: reaction
+status: adapted
+type: active
 action: free
-cost: {}
+cost:
+  spirituality: 8
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
-scaling: []
+duration: 1d2 hours or permanent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d2
+  notes: effect_roll is the temporary seal duration in hours.
+scaling:
+- when: permanent_seal_mode
+  changes:
+    cost:
+      spirituality: 16
+    effect_note: Spend an additional 8 spirituality to make the seal permanent until ritually dispersed.
 tags:
 - ritual
 - debuff
@@ -114,6 +136,7 @@ text: 'Use: Use the power of the Underworld [[Underworld]] to suppress the negat
   time to produce specific effects. Example: a sealed item that would have an obvious
   impact within 1 hour takes two hours to do...'
 ```
+
 
 
 
@@ -149,6 +172,7 @@ id: death-seq-04-immortality
 name: Immortality
 pathway: death
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -157,6 +181,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -168,6 +198,7 @@ text: 'Effect: When you are promoted, you use your current appearance as the ini
   3]], you no longer need to reincarnate every 60 years: you remain immortal, and
   your apparent age is always what it was when you took the undead potion.'
 ```
+
 
 
 
@@ -187,6 +218,7 @@ id: death-seq-04-underworld-executive-power
 name: Underworld Executive Power
 pathway: death
 sequence: 4
+status: adapted
 type: active
 action: cast
 cost:
@@ -196,7 +228,16 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: damage_roll is the explicit necromancy damage rider while this buff is active.
+scaling:
+- when: buff_is_active
+  changes:
+    effect_note: Necromancy spirituality cost is reduced to 4 and necromancy usage increases from once to twice per round.
 tags:
 - ritual
 - buff
@@ -205,6 +246,7 @@ text: 'Effect: Your Necromancy [[Necromancy]] damage is increased by 1d6. The co
   is reduced to 4 Spirituality points. Necromancy use changes from 1 time per round
   to twice per round.'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Red Priest Pathway: Sequence 2
 
 ## Weather Warlock
@@ -41,14 +42,22 @@ id: red-priest-seq-02-celestial-alteration
 name: Celestial Alteration
 pathway: red-priest
 sequence: 2
+status: canonical
 type: active
 action: full-round
-cost: {}
+cost:
+  spirituality: 10
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll; weather effects include +1d10 lightning damage bonus, 1d4 hail damage per round, and movement/skill penalties as listed."
 scaling: []
 tags:
 - ritual
@@ -65,6 +74,7 @@ text: 'Cost: 10 Spirituality. Use: Full-Round Action [[Full-Round Action]]. Effe
   movement speed is halved. Squall: The cold wind sweeps across the entire land, making
   it difficult for people to move an inch. Those w...'
 ```
+
 
 
 
@@ -96,14 +106,22 @@ id: red-priest-seq-02-freezing-ice
 name: Freezing Ice
 pathway: red-priest
 sequence: 2
+status: canonical
 type: active
 action: move
-cost: {}
+cost:
+  spirituality: 5
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d20 + @attr.dex
+  notes: Targets moving on the ice must pass a Dexterity test or fall.
 scaling: []
 tags:
 - ritual
@@ -113,6 +131,7 @@ text: 'Cost: 5 Spirituality. Use: spellcasting action Spellcasting Action. Effec
   who walks on it and performs a Move Action Move Action must make a Agility (DEX)
   test Agility (DEX) Test; otherwise, they lose their balance and fall directly.'
 ```
+
 
 
 
@@ -131,14 +150,22 @@ id: red-priest-seq-02-frost
 name: Frost
 pathway: red-priest
 sequence: 2
+status: canonical
 type: active
 action: attack
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.dex + @skill.throwing
 opposed_by: physical_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.dex + @skill.throwing
+  damage_roll: 8d6
+  heal_roll: null
+  effect_roll: null
+  notes: Add Strength damage bonus on hit; other reasonable throwing-like skills may substitute.
 scaling: []
 tags:
 - ritual
@@ -149,6 +176,7 @@ text: 'Cost: 3 Spirituality. Use: Attack Action Attack Action. Effect: You can s
   against the opponents [[Physical Defense]]. On success, deal 8d6 + your Strength
   damage bonus cold damage.'
 ```
+
 
 
 
@@ -169,6 +197,7 @@ id: red-priest-seq-02-frozen
 name: Frozen
 pathway: red-priest
 sequence: 2
+status: canonical
 type: active
 action: move
 cost: {}
@@ -177,6 +206,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
@@ -186,6 +221,7 @@ text: 'Effect: Creatures within a radius of 10 kilometers from you are quickly w
   in ice. Their actions are slowed by cold and ice: each Move Action can only move
   1 meter. Limits: This effect has no effect on creatures with [[Cold Resistance]].'
 ```
+
 
 
 

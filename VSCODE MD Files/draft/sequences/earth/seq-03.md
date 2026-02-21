@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Mother Pathway: Sequence 3
 
 **Pathway:** Earth Pathway.
@@ -48,6 +49,7 @@ id: earth-seq-03-earth
 name: Earth
 pathway: earth
 sequence: 3
+status: adapted
 type: active
 action: free
 cost: {}
@@ -56,6 +58,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: 2d3
+  effect_roll: "1"
+  notes: Heal roll maps spirituality recovery; effect roll maps fixed sanity recovery per corpse.
 scaling: []
 tags:
 - ritual
@@ -65,6 +73,7 @@ text: 'Use: Once per round, as a free action Free Action, choose an ordinary cor
   Each time you do this, you regain 2d3 points of spirituality [[Spirituality]] and
   1 point of Sanity / Rationality [[Sanity / Rationality]].'
 ```
+
 
 
 
@@ -83,14 +92,21 @@ id: earth-seq-03-pallbearer
 name: Pallbearer
 pathway: earth
 sequence: 3
-type: active
-action: cast
+status: adapted
+type: passive
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: 2d6
+  heal_roll: null
+  effect_roll: null
+  notes: Damage roll represents the stated bonus damage against undead.
 scaling: []
 tags:
 - debuff
@@ -98,6 +114,7 @@ tags:
 text: 'Effect: You deal an additional 2d6 damage to undead [[Undead]]. Effect: Damage
   to you from curses is halved when it is undead damage.'
 ```
+
 
 
 
@@ -115,15 +132,41 @@ id: earth-seq-03-soul-to-earth
 name: Soul to Earth
 pathway: earth
 sequence: 3
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 5
+roll: 1d20 + @attr.int + @skill.biology
 opposed_by: physical_defense
 range: One or more undead [[Undead]] creatures within line of sight [[line of sight]].
 target: designated target(s)
-duration: instant
-scaling: []
+duration: sustained
+dice:
+  check_roll: 1d20 + @attr.int + @skill.biology
+  damage_roll: 2d6
+  heal_roll: null
+  effect_roll: null
+  notes: Check roll maps the stated biological defense contest; damage roll maps the per-round vitality/spirit loss.
+scaling:
+- when: undead_sequence_lower_by_3_or_more
+  changes:
+    effect_note: Target is buried immediately after its turn.
+- when: undead_sequence_lower_by_2
+  changes:
+    effect_note: Target is entombed after one full round.
+- when: undead_sequence_lower_by_1
+  changes:
+    effect_note: Target can attempt a Difficulty Value 25 Strength appraisal to break free.
+- when: undead_sequence_equal
+  changes:
+    effect_note: Burial completes after five rounds; target can still attempt to break free.
+- when: incorporeal_undead_sequence_5
+  changes:
+    effect_note: Requires a two-round initiation for incorporeal undead at Sequence 5.
+- when: living_target
+  changes:
+    effect_note: Living targets only become buried once their hit points reach 0.
 tags:
 - ritual
 - defense
@@ -137,6 +180,7 @@ text: 'Cost: 5 points of spirituality [[Spirituality]]. Use: A spellcasting acti
   a spirit. *Undead resolution by relative Sequence Level Sequence Level: Undead creatures
   three or more Sequence Levels l...'
 ```
+
 
 
 

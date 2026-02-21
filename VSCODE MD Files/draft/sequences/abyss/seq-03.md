@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Abyss Pathway: Sequence 3
 
 ## Bloody Archduke
@@ -41,15 +42,29 @@ id: abyss-seq-03-babbling
 name: Babbling
 pathway: abyss
 sequence: 3
+status: canonical
 type: active
 action: free
-cost: {}
-roll: null
+cost:
+  spirituality: 1
+roll: 1d20 + @attr.int
 opposed_by: willpower_defense
-range: self
-target: self
-duration: sustained
-scaling: []
+range: audible range
+target: designated listener(s)
+duration: 1 minute after the last babble
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d4
+  notes: Failed willpower defense also causes 1d6 sanity/rationality loss; additionally, listeners lose 1 sanity/rationality each round while exposure persists.
+scaling:
+- when: listener_fails_willpower_defense
+  changes:
+    effect_note: Apply one 1d4 babbling outcome and an additional 1d6 sanity/rationality loss.
+- when: listener_continues_hearing_babble
+  changes:
+    effect_note: Listener loses 1 sanity/rationality per round.
 tags:
 - ritual
 - divination
@@ -63,6 +78,7 @@ text: 'Cost: 1 point of Spirituality. Use: Free action; once per round. Effect: 
   establishes contact with you by using occult means such as [[id:alias-divination|Divination]]
   and [[Cursing]], you can negate the influence and reveal the source.'
 ```
+
 
 
 
@@ -85,6 +101,7 @@ id: abyss-seq-03-whisperer
 name: Whisperer
 pathway: abyss
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -93,18 +110,25 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
-text: 'Effect: If a connection is established (GM decides), the ?Whisperer? can transmit
-  their voice to the target?s ears across a very long distance, causing severe injuries
+text: 'Effect: If a connection is established (GM decides), the Whisperer can transmit
+  their voice to the targets ears across a very long distance, causing severe injuries
   rather than guaranteed instant death.'
 ```
 
 
 
 
-- **Effect:** If a connection is established (GM decides), the ?Whisperer? can transmit their voice to the target?s ears across a very long distance, causing severe injuries rather than guaranteed instant death.
+
+- **Effect:** If a connection is established (GM decides), the Whisperer can transmit their voice to the targets ears across a very long distance, causing severe injuries rather than guaranteed instant death.
 
 - **Limits:** As described in this section's prose.
 
@@ -116,15 +140,28 @@ id: abyss-seq-03-danger-countermeasure
 name: Danger Countermeasure
 pathway: abyss
 sequence: 3
+status: adapted
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int
 opposed_by: willpower_defense
 range: self
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted mapping for the explicit Intuition versus Willpower defense gate before counter-targeting the danger source.
+scaling:
+- when: danger_source_successfully_identified
+  changes:
+    effect_note: You may directly apply an extraordinary ability to the source.
+- when: reflected_influence_mode
+  changes:
+    effect_note: Foreseen influence can be reflected back to its source.
 tags:
 - detection
 - defense
@@ -134,6 +171,7 @@ text: 'Effect: Your danger perception range covers a city. Use: If you sense a c
   If you foresee the source of danger, you can reverse the influence by reflecting
   the effect back to the source.'
 ```
+
 
 
 

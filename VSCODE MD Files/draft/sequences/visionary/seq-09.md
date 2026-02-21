@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Visionary Pathway: Sequence 9
 
 ## Spectator
@@ -49,6 +50,7 @@ id: visionary-seq-09-enhanced-learning
 name: Enhanced Learning
 pathway: visionary
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -57,6 +59,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll; ends when you enter an emotion or shock and imposes -4 on emotion checks against you."
 scaling: []
 tags:
 - buff
@@ -67,6 +75,7 @@ text: 'You become better at mastering skills related to psychology and psycholog
   you reaching Advanced for now; after that, your learning rate cannot gain a substantial
   improvement. [[Potions]] *Limits Learning can only be done once per day.'
 ```
+
 
 
 
@@ -94,20 +103,28 @@ id: visionary-seq-09-perfect-recall
 name: Perfect Recall
 pathway: visionary
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.int + @skill.psychology
+opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.psychology
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: "Difficulty Value 20 psychology check to remove emotional effects not above Personality."
 scaling: []
 tags:
 - utility
 text: Under the premise of not being affected by extraordinary factors, you do not
   forget things you have seen or heard. [[Extraordinary Factors]]
 ```
+
 
 
 
@@ -125,6 +142,7 @@ id: visionary-seq-09-spectator-state
 name: Spectator State
 pathway: visionary
 sequence: 9
+status: canonical
 type: active
 action: free
 cost: {}
@@ -133,6 +151,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - debuff
@@ -145,6 +169,7 @@ text: 'You can enter a detached observational mode to read others real thoughts 
   or charm (but not shock), their identification/check is at -4 disadvantage against
   you.'
 ```
+
 
 
 
@@ -167,6 +192,7 @@ id: visionary-seq-09-remove-emotional-effects
 name: Remove Emotional Effects
 pathway: visionary
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -175,12 +201,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
 text: 'Use: 1 Casting Action Check: Psychology check, Difficulty 20. [[Psychology]]
   Effect: Remove emotional effects on yourself not greater than [[Personality]].'
 ```
+
 
 
 
@@ -199,14 +232,21 @@ id: visionary-seq-09-observe-others
 name: Observe Others
 pathway: visionary
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.int + @skill.psychology
+opposed_by: difficulty_value
 range: Choose 1 creature within your field of vision.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.psychology
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: "Difficulty Value tiers 10/15/20/25; great success grants +2 psychology-related checks vs the target until their style changes; big failure alerts the target."
 scaling: []
 tags:
 - detection
@@ -221,6 +261,7 @@ text: 'Make a focused read of a visible target. Check: Make a Psychology check. 
   between the target and anyone around them based on gaze direction / sneak glances
   / small movements.'
 ```
+
 
 
 
@@ -258,6 +299,7 @@ id: visionary-seq-09-passive-observation
 name: Passive Observation
 pathway: visionary
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -266,12 +308,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
 text: As long as someone reveals certain details in front of you, the GM may immediately
   allow you to make an identification to obtain information.
 ```
+
 
 
 
@@ -289,6 +338,7 @@ id: visionary-seq-09-psychological-guidance
 name: Psychological Guidance
 pathway: visionary
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -297,6 +347,12 @@ opposed_by: willpower_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - defense
@@ -310,6 +366,7 @@ text: 'You subtly influence and secretly guide things to develop in the directio
   2) Confirm the result you want to guide (e.g., she accepts a third partys proposal
   and abandons her husband).'
 ```
+
 
 
 
@@ -360,14 +417,22 @@ id: visionary-seq-09-spiritual-vision
 name: Spiritual Vision
 pathway: visionary
 sequence: 9
+status: canonical
 type: toggle
 action: free
-cost: {}
+cost:
+  spirituality: 1
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll; cost is per round while active and grants +2 to Spiritual Intuition tests."
 scaling: []
 tags:
 - ritual
@@ -384,6 +449,7 @@ text: 'You gain more outstanding spiritual vision due to your Intuition (INT). U
   inside through a door, identify whether there is ritual magic power present, and
   penetrate a spiritual wall. [[Ritual...'
 ```
+
 
 
 

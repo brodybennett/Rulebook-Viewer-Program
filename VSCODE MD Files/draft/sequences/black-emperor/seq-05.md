@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Black Emperor Pathway: Sequence 5
 
 - Improves majesty and physique, causing surrounding creatures to unconsciously lower their stature and desire to surrender.
@@ -43,15 +44,26 @@ id: black-emperor-seq-05-chaos
 name: Chaos
 pathway: black-emperor
 sequence: 5
+status: canonical
 type: active
 action: swift
-cost: {}
+cost:
+  spirituality: 2
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
 duration: sustained
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
+scaling:
+- when: target_is_more_than_1_sequence_above_you
+  changes:
+    effect_note: All listed chaos effects are halved, rounded up.
 tags:
 - ritual
 - offense
@@ -65,6 +77,7 @@ text: 'Cost: 2 spiritual points ([[Spirituality]]) Use: 1 Swift Action (Swift Ac
   deviation, spiritual disorder, judgment error, etc. Choose any current identification
   (Identificat...'
 ```
+
 
 
 
@@ -101,15 +114,25 @@ id: black-emperor-seq-05-majesty
 name: Majesty
 pathway: black-emperor
 sequence: 5
-type: active
+status: canonical
+type: toggle
 action: swift
 cost: {}
 roll: null
 opposed_by: none
 range: Creatures within 50 meters that recognize your existence.
 target: designated target(s)
-duration: While turned on.
-scaling: []
+duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
+scaling:
+- when: target_is_1_sequence_higher
+  changes:
+    effect_note: Target is unaffected by Majesty.
 tags:
 - ritual
 - debuff
@@ -124,6 +147,7 @@ text: 'Cost: None (does not need to consume spirituality) Use: 1 Swift Action to
   level, they will have the urge to lower their headsthis is fear. You are beneficial
   to the affected creatures reputation...'
 ```
+
 
 
 

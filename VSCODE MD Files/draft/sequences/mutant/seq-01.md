@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Chained Pathway: Sequence 1
 
 ## Cursed Banshee
@@ -35,6 +36,7 @@ id: mutant-seq-01-abominable-state
 name: Abominable State
 pathway: mutant
 sequence: 1
+status: canonical
 type: active
 action: free
 cost: {}
@@ -43,6 +45,12 @@ opposed_by: none
 range: All enemies around you. [[Around You]]
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "2"
+  notes: Applies +2 to nearby enemy sanity/rationality checks; failed sanity tests while transformed lose half current sanity (rounded up).
 scaling: []
 tags:
 - utility
@@ -54,6 +62,7 @@ text: 'Use: As a Free Action, you transform into an abomination. Effect: You gai
   range: All enemies around you. [[Around You]] Limits: Note: The state of Shenpin
   is like a werewolf, supporting only part of the body to deform. [[Shenpin State]]'
 ```
+
 
 
 
@@ -76,14 +85,22 @@ id: mutant-seq-01-the-body-is-the-cage-of-the-mind-and-the-world-is-the-cage-of-
 name: The Body Is the Cage of the Mind, and the World Is the Cage of the Body
 pathway: mutant
 sequence: 1
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
-opposed_by: physical_defense
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.int + @skill.occultism - 15
+opposed_by: willpower_defense
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism - 15
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Default check is Mysticism (Occultism) vs Willpower Defense at -15; you may instead use Fighting vs Physical Defense ignoring armor.
 scaling: []
 tags:
 - ritual
@@ -99,6 +116,7 @@ text: 'Cost: 3 spirituality points. [[Spirituality]] Use: A Spellcasting Action;
   As for how to fight remotely, you can make your arms suddenly grow and reach enemies
   hundreds of meters away.'
 ```
+
 
 
 
@@ -132,14 +150,21 @@ id: mutant-seq-01-curse-damage-bypasses-the-double
 name: Curse Damage Bypasses the Double
 pathway: mutant
 sequence: 1
-type: active
-action: cast
+status: canonical
+type: passive
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Passive modifier; curse damage bypasses doubles and cannot be directly saved by them.
 scaling: []
 tags:
 - debuff
@@ -147,6 +172,7 @@ tags:
 text: 'Effect: From now on, any curse damage you deal will pass through the double
   and cannot be directly saved by the double. [[Curse Damage]] [[Double]]'
 ```
+
 
 
 

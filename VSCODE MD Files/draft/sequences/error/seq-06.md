@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Error Pathway: Sequence 6
 
 Steal an opponent’s extraordinary ability for a short time and use it.
@@ -44,6 +45,7 @@ id: error-seq-06-ritual-camouflage
 name: Ritual Camouflage
 pathway: error
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -52,6 +54,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -59,6 +67,7 @@ text: 'Effect: You can pretend to be a believer of other gods in ritual magic, d
   the gods automatic response. Limits: Although you may pray in ritual magic to gods
   you do not believe in as usual, the god itself can see through your disguise.'
 ```
+
 
 
 
@@ -73,15 +82,30 @@ id: error-seq-06-stealing-tinder
 name: Stealing Tinder
 pathway: error
 sequence: 6
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.int + @skill.occult_identification
 opposed_by: difficulty_value
 range: Choose 1 **target** within 50 meters
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occult_identification
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Skill Identification check resolves the base DV 20 theft attempt and its modifiers.
+scaling:
+- when: sequence_5_or_higher
+  changes:
+    range: Choose 1 **target** within 100 meters
+    effect_note: Range increases to 100 meters at Sequence 5.
+- when: target_known_clue
+  changes:
+    effect_note: Each qualifying clue about the target grants +2 favorable to the identification.
 tags:
 - ritual
 - mobility
@@ -94,6 +118,7 @@ text: 'You put your fingers together, twist your wrist, and briefly steal someon
   the result is completely random. Difficulty Value: Base Difficulty Value 20, modified
   by the following conditions:'
 ```
+
 
 
 
@@ -158,6 +183,7 @@ id: error-seq-06-tinder-vision
 name: Tinder Vision
 pathway: error
 sequence: 6
+status: canonical
 type: active
 action: free
 cost: {}
@@ -166,6 +192,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -180,6 +212,7 @@ text: 'You can see the light ball representing extraordinary ability; this is th
   You will immediately know the information you have obtained corresponding to the
   extraordinary ability, and use it acc...'
 ```
+
 
 
 

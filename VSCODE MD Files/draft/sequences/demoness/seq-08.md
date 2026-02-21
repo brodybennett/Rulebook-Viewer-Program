@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Demoness Pathway: Sequence 8
 
 > **Lore:** You excel at inducing evil desires, intensifying conflicts, provoking disputes, and creating bloody incidents.
@@ -51,15 +52,25 @@ id: demoness-seq-08-charisma-cha
 name: Charisma (CHA)
 pathway: demoness
 sequence: 8
+status: adapted
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.cha + @skill.charisma
 opposed_by: willpower_defense
 range: One creature you can interact with via performance/words/body language.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.cha + @skill.charisma
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Check roll maps the explicit Pleasure/Pleasing opposed check and its conditional social modifiers from prose.
+scaling:
+- when: repeated_failure_same_target_within_24h
+  changes:
+    effect_note: After two consecutive failures on the same target, further checks auto-fail for 24 hours.
 tags:
 - ritual
 - defense
@@ -74,6 +85,7 @@ text: 'Cost: None (does not consume [[Spirituality]]). Use: 1 Spellcasting Actio
   and -2 unfavorable if the target has a family affair. If the target is hostile or
   vigilant toward you: -4 unfavorable.'
 ```
+
 
 
 
@@ -119,15 +131,26 @@ id: demoness-seq-08-cognitive-misleading
 name: Cognitive Misleading
 pathway: demoness
 sequence: 8
+status: adapted
 type: active
 action: free
 cost: {}
-roll: null
+roll: 1d20 + @attr.cha + @skill.deception
 opposed_by: willpower_defense
 range: self
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.cha + @skill.deception
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Baseline uses Deception for Speech/Deception opposed checks; bonus/penalty inheritance follows Charisma (CHA) prose.
+scaling:
+- when: speech_focused_argument
+  changes:
+    check_roll: 1d20 + @attr.cha + @skill.fast_talk
+    effect_note: Speech-first delivery can resolve with fast-talk style checks at GM discretion.
 tags:
 - defense
 - social
@@ -140,6 +163,7 @@ text: 'Use: 1 Free Action. Limits: Only usable in a [[Non-Combat State]]. Check:
   from RAW): Non-contradictory / relevant does not mean you cannot make the target
   do things that violate personality; you can secretly change the concept.'
 ```
+
 
 
 
@@ -165,15 +189,25 @@ id: demoness-seq-08-intensification-of-persuasion
 name: Intensification of Persuasion
 pathway: demoness
 sequence: 8
+status: adapted
 type: active
 action: free
 cost: {}
-roll: null
+roll: 1d20 + @attr.cha + @skill.persuade
 opposed_by: willpower_defense
 range: Choose 1 or more targets and (for each) one of their current beliefs.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.cha + @skill.persuade
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Check roll maps the explicit Persuasion opposed test against each affected target.
+scaling:
+- when: target_identifies_logical_loophole
+  changes:
+    effect_note: Forced-behavior effect ends when the target successfully identifies and roleplays the flaw.
 tags:
 - defense
 text: 'Use: 1 Free Action. Targeting and range: Choose 1 or more targets and (for
@@ -186,6 +220,7 @@ text: 'Use: 1 Free Action. Targeting and range: Choose 1 or more targets and (fo
   scenario carry out the behavior you instigated, so that people who dont want to
   harm innocent people really kill people. This u...'
 ```
+
 
 
 

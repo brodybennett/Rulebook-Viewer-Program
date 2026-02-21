@@ -22,18 +22,20 @@ ability_schema:
     - name
     - pathway
     - sequence
+    - status
     - type
     - action
     - cost
+    - roll
     - opposed_by
     - range
     - target
     - duration
+    - dice
     - scaling
     - tags
     - text
-  optional:
-    - roll
+  optional: []
   fields:
     id:
       type: "string"
@@ -50,6 +52,13 @@ ability_schema:
       type: "integer"
       minimum: 0
       maximum: 9
+    status:
+      type: "string"
+      enum: ["canonical", "adapted", "homebrew", "stub"]
+      description: "Canonical confidence and content maturity status."
+      notes:
+        - "Use stub for incomplete or placeholder mechanics."
+        - "Do not use homebrew unless explicitly chosen."
     type:
       type: "string"
       enum: ["active", "passive", "reaction", "toggle"]
@@ -74,6 +83,31 @@ ability_schema:
       examples:
         - "1d20 + @attr.int + @skill.occultism + @bonus"
         - null
+    dice:
+      type: "object"
+      description: "Structured dice references for checks and effects, present even when values are null."
+      required:
+        - check_roll
+        - damage_roll
+        - heal_roll
+        - effect_roll
+        - notes
+      fields:
+        check_roll:
+          type: "string|null"
+          description: "Primary resolution roll when applicable."
+        damage_roll:
+          type: "string|null"
+          description: "Damage expression if the ability deals direct damage."
+        heal_roll:
+          type: "string|null"
+          description: "Healing expression if the ability restores resources."
+        effect_roll:
+          type: "string|null"
+          description: "Any non-damage random effect roll (sanity loss, table roll, etc)."
+        notes:
+          type: "string"
+          description: "Short clarification, including why all rolls are null for non-roll abilities."
     opposed_by:
       type: "string|null"
       enum: ["physical_defense", "willpower_defense", "constitution_defense", "difficulty_value", "none"]
@@ -132,6 +166,8 @@ tag_taxonomy_seed:
   - social
   - healing
   - detection
+  - hard_control
+  - stub
 
 roll_registry:
   attr:

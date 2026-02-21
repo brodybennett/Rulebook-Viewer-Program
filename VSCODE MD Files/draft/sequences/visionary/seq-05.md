@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Visionary Pathway: Sequence 5
 
 ## Dreamwalker
@@ -41,6 +42,7 @@ id: visionary-seq-05-dream-guidance
 name: Dream Guidance
 pathway: visionary
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -49,6 +51,12 @@ opposed_by: none
 range: 10m
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -61,6 +69,7 @@ text: 'Cost: 1 Casting Action; 3 Spirituality. Casting Action [[Spirituality]] U
   Modification, Dream Guidance guides the dream owners consciousness; it can draw
   out information you do not already know (for example, details you are investigating).'
 ```
+
 
 
 
@@ -83,6 +92,7 @@ id: visionary-seq-05-dream-modification
 name: Dream Modification
 pathway: visionary
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -91,6 +101,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -104,6 +120,7 @@ text: 'Cost: 1 Casting Action; 3 Spirituality. Casting Action [[Spirituality]] U
   while they are dreaming and let the dream content develop in the direction you intend.
   Dream channeling option: Whenever you channel...'
 ```
+
 
 
 
@@ -130,6 +147,7 @@ id: visionary-seq-05-dream-shuttle
 name: Dream Shuttle
 pathway: visionary
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -138,6 +156,12 @@ opposed_by: none
 range: An intelligent creature within 500 meters. [5]
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -152,6 +176,7 @@ text: 'Passive: You can perceive the dreams of intelligent creatures within 500 
   between two dreamlands to complete a physical Flash. Limits (rules text): Dreamwalkers
   do not have the ability to stay awake in...'
 ```
+
 
 
 

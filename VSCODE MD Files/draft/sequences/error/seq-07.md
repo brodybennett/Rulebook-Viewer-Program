@@ -10,9 +10,10 @@ tags:
 
 
 
+
 # Error Pathway: Sequence 7
 
-A Cryptologist can analyze many mysteries (such as dreams and illusions) and can also determine an enemyâ€™s location through analysis.
+A Cryptologist can analyze many mysteries (such as dreams and illusions) and can also determine an enemy's location through analysis.
 
 ## Cryptologist
 
@@ -50,15 +51,34 @@ id: error-seq-07-premonition-of-danger
 name: Premonition of Danger
 pathway: error
 sequence: 7
-type: active
-action: cast
+status: adapted
+type: reaction
+action: none
 cost: {}
-roll: null
+roll: 1d20 + @attr.int
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Triggered Intuition appraisal against DV 15; defensive benefits apply on success as described.
+scaling:
+- when: check_result_meets_dv_15
+  changes:
+    effect_note: Success prevents raids/ambushes and grants +4 temporary Physical Defense unless light/lightning.
+- when: incoming_attack_is_firearm_or_lightning_or_light
+  changes:
+    effect_note: Resolve defense using normal Agility/Dodge instead of the +4 bonus.
+- when: sequence_6_or_higher
+  changes:
+    effect_note: Intuition appraisal succeeds by default and provides clearer imagery.
+- when: sequence_5_or_higher
+  changes:
+    effect_note: Can perceive danger higher than Sequence 1.
 tags:
 - divination
 - healing
@@ -77,14 +97,15 @@ text: 'Also known as intuitive premonition. You can predict othersaTM actions at
 
 
 
-Also known as intuitive premonition. You can predict othersâ€™ actions at critical moments and perceive danger.
+
+Also known as intuitive premonition. You can predict others' actions at critical moments and perceive danger.
 
 - **Use:** Triggered whenever you are raided, sneak attacked, or there is something on the scene that is about to put the raid or sneak attack into action.
 - **Use:** If 1 damage exceeds half of your maximum health (rounded up), this ability can also be triggered.
 - **Effect:**
   1) Make an Intuition (INT) appraisal (**Difficulty Value** 15). If you succeed, an idea flashes in your mind immediately, telling you the form of danger.
      - After you succeed, you will not be able to be raided or ambushed.
-     - Threats that you mistakenly think are â€œsafeâ€ will not trigger this ability.
+     - Threats that you mistakenly think are "safe" will not trigger this ability.
   2) Under the above premise, as long as you are not restrained or affected by other reasons, your **physical defense** gains a +4 **temporary bonus**.
      - In the face of light and lightning, use normal Agility (DEX) and Dodge in Physical Defense instead of the +4 bonus.
   3) If the danger range is large enough (for example, a gas explosion in the entire area in an instant), even if you are alarmed by the danger, you will not be able to gain benefits.
@@ -108,15 +129,36 @@ id: error-seq-07-decryption
 name: Decryption
 pathway: error
 sequence: 7
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Base decryption uses Occultism; Investigation-based decryption is captured in scaling.
+scaling:
+- when: mundane_or_non_extraordinary_case
+  changes:
+    check_roll: 1d20 + @attr.int + @skill.investigation
+    effect_note: Use Investigation for non-extraordinary cases.
+- when: dv_20_detection_appraisal
+  changes:
+    effect_note: Detection/appraisal uses Difficulty Value 20, improved by +2 per clue.
+- when: dv_30_identity_detection
+  changes:
+    effect_note: Identity detection uses Difficulty Value 30 with clue-based bonuses.
+- when: dv_35_truth_reconstruction
+  changes:
+    effect_note: Truth reconstruction uses Difficulty Value 35 with clue-based bonuses.
 tags:
 - ritual
 - detection
@@ -131,19 +173,20 @@ text: 'You can analyze many mysteries (such as dreams and illusions), and you ca
 
 
 
-You can analyze many mysteries (such as dreams and illusions), and you can also find out an enemyâ€™s location through analysis.
+
+You can analyze many mysteries (such as dreams and illusions), and you can also find out an enemy's location through analysis.
 
 - **Use:** 1 **Casting Action**
 - **Cost:** 3 **spirituality points**
 - **Effect:** Choose 1 of the following effects:
 
-  â‘  **Detection and appraisal** (**Difficulty Value** 20): Choose a clue. You learn:
+  1. **Detection and appraisal** (**Difficulty Value** 20): Choose a clue. You learn:
   - The information represented by the clue.
   - Whether it involves an extraordinary event.
   - A rough answer at Difficulty Value 20.
   - Each time the appraisal exceeds 5 points of appraisal difficulty, the content you get becomes clearer.
 
-  â‘¡ **Detection test** (**Difficulty Value** 30): Choose a creature. You reveal its full name, identity, and other peopleâ€™s nickname or nickname for it.
+  2. **Detection test** (**Difficulty Value** 30): Choose a creature. You reveal its full name, identity, and other people's nickname or nickname for it.
   - This test must obtain any of the following clues to proceed:
     - Know what other people call it / nickname / first name / surname.
     - Know its general experience, past, or identity information, or important things.
@@ -153,9 +196,9 @@ You can analyze many mysteries (such as dreams and illusions), and you can also 
   - For every 1 clue, your detection identification gains a +2 favorable bonus.
   - The content of obtained clues must be true. If it is contrary to the truth, it is a disguise, and what you get will also be false information.
 
-  â‘¢ **Detection appraisal** (**Difficulty Value** 35): You restore the complete truth of a matter and calculate the next development and result of this matter.
+  3. **Detection appraisal** (**Difficulty Value** 35): You restore the complete truth of a matter and calculate the next development and result of this matter.
   - Each time you have a clue whose meaning you already know, your detection appraisal gains a +2 beneficial bonus.
-  - Clues include the real names, identities, and general past of the people involved in the incident (each clue in â‘¡ is calculated independently).
+  - Clues include the real names, identities, and general past of the people involved in the incident (each clue in 2. is calculated independently).
   - If you do not truly grasp all the clues, the restored truth is also incomplete truth, and there will be some false content.
 
 - **Special:** The truth that can be restored includes:
@@ -167,7 +210,7 @@ You can analyze many mysteries (such as dreams and illusions), and you can also 
   - Etc.
   - Restored truth can only cover information contained in your available clues; it does not infer facts outside that clue scope.
 
-- **Other uses of â‘ :**
+- **Other uses of 1.:**
   - Distinguish between hallucinations and falsehoods.
   - Reveal the meaning of hallucinations or dream content.
   - Reveal the type of extraordinary ability that a clue may represent (such as illusion, flame, ability strength, etc.).

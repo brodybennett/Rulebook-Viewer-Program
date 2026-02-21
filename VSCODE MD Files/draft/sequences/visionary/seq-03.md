@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Visionary Pathway: Sequence 3
 
 ## Dream Weaver
@@ -38,14 +39,22 @@ id: visionary-seq-03-dream-weaving
 name: Dream Weaving
 pathway: visionary
 sequence: 3
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 5
 roll: null
 opposed_by: physical_defense
 range: One or more creatures within sight
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll to apply; targets can attempt Intuition DV 15 to realize the dream and Will DV 15 each round to wake if aware."
 scaling: []
 tags:
 - ritual
@@ -61,6 +70,7 @@ text: 'Cost: 5 [[Spirituality]] Use: Casting Action Targeting and range: One or 
   dream: A creature that passes a Intuition Test (Difficulty Value 15) realizes it
   is in a dream. Waking by effort:...'
 ```
+
 
 
 
@@ -96,14 +106,22 @@ id: visionary-seq-03-psychic-phantom
 name: Psychic Phantom
 pathway: visionary
 sequence: 3
+status: canonical
 type: active
 action: free
-cost: {}
+cost:
+  spirituality: 3
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll to create; targets can make Will DV 15 each round to see through the phantom and negate its effects."
 scaling: []
 tags:
 - ritual
@@ -118,6 +136,7 @@ text: 'Cost: 3 [[Spirituality]] Use: Free Action; once per round Effect: Create 
   through the illusion: A creature that realizes it is false can, each round as a
   free action, make a Will Test (Difficult...'
 ```
+
 
 
 

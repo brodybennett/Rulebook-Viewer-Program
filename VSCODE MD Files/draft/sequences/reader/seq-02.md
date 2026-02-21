@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # White Tower Pathway: Sequence 2
 
 ## Knowledge Emperor
@@ -44,6 +45,7 @@ id: reader-seq-02-the-temples-come-down
 name: The Temples Come Down
 pathway: reader
 sequence: 2
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -52,6 +54,12 @@ opposed_by: none
 range: Covers an area up to 10 kilometers.
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -69,6 +77,7 @@ text: 'Cost: 10 Spirituality each round. [[Spirituality]] Use: 1 Casting Action.
 
 
 
+
 - **Cost:** 10 **Spirituality** each round. [[Spirituality]]
 - **Use:** 1 **Casting Action**. Casting Action
 - **Targeting and range:** Covers an area up to 10 kilometers.
@@ -82,7 +91,7 @@ text: 'Cost: 10 Spirituality each round. [[Spirituality]] Use: 1 Casting Action.
 
 3. **Identification modifiers:** Choose any number of friendly units (not including yourself). They gain +2 to **Intuition (INT)**-related identification. All skill identifications made by your enemy units suffer -2.
 
-4. **Wisdom for inactive Extraordinary Items:** Choose 1 or more inactive [[Extraordinary Items]] to gain wisdom. Whenever a Big Failure occurs, if the item is in its ownerâ€™s possession and has been used by them before, it activates an ability for its owner; otherwise it does not.
+4. **Wisdom for inactive Extraordinary Items:** Choose 1 or more inactive [[Extraordinary Items]] to gain wisdom. Whenever a Big Failure occurs, if the item is in its owner's possession and has been used by them before, it activates an ability for its owner; otherwise it does not.
 
 5. **Awakened intellect:** Non-intelligent creatures, undead, and animals in the area gain intelligence. They can no longer be enslaved unless they do so voluntarily or are **Suppressed** (under a suppression effect that negates extraordinary abilities).
 
@@ -96,14 +105,22 @@ id: reader-seq-02-wisdom-use
 name: Wisdom Use
 pathway: reader
 sequence: 2
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 5
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: No base roll; some options trigger target DV 15 Will checks (Intimidate/Beast Taming) or a Law appraisal vs Physical Defense (Law option).
 scaling: []
 tags:
 - ritual
@@ -121,8 +138,9 @@ text: 'Cost: 5 Spirituality per use. [[Spirituality]] Use: When you cast an Extr
 
 
 
+
 - **Cost:** 5 **Spirituality** per use. [[Spirituality]]
-- **Use:** When you cast an **Extraordinary Ability**, you may choose one skill you have already mastered and incorporate it into that Abilityâ€™s effect. [[id:alias-extraordinary-abilities|Extraordinary Abilities]]
+- **Use:** When you cast an **Extraordinary Ability**, you may choose one skill you have already mastered and incorporate it into that Ability's effect. [[id:alias-extraordinary-abilities|Extraordinary Abilities]]
 
 If you want to use any of the effects below, the corresponding skill must reach **Master**, or be replaced by Pathway Knowledge (Master).
 
@@ -142,12 +160,12 @@ If you want to use any of the effects below, the corresponding skill must reach 
 #### Education-related
 
 - **Law:** After you successfully use a spellcasting/attack-action Ability, the opponent cannot use that same Ability within 1 round. If it is still used, make a Law appraisal against its [[Physical Defense]] to determine whether it is invalid.
-- **Archeology:** Any Ability you successfully use does not damage the targetâ€™s objects of cultural or material value.
+- **Archeology:** Any Ability you successfully use does not damage the target's objects of cultural or material value.
 - **Religion:** Any Ability that involves a creature with divine nature suffers no Disadvantage.
 - **Navigate:** Any Ability can pinpoint an invisible/hidden object if its approximate location is exposed/known and within the Ability's range. This effect does not allow the Ability to pass through walls.  
 - **Medicine:** Any Ability gains a 3d6 [[Hit Point Regeneration]] effect.
 - **Crafting:** When an Ability is used on an item, you understand its composition.
-- **History:** Any Ability reveals the affected thingâ€™s position in your known history (era/lineage) and whether it is connected to known events.  
+- **History:** Any Ability reveals the affected thing's position in your known history (era/lineage) and whether it is connected to known events.  
 - **Use of the Library:** Any Ability can determine whether the target has knowledge carriers (words, pictures, etc.). If the target has no [[id:alias-anti-divination|Anti-Divination]] feature, its content is revealed.
 
 - **Effect:** Wisdom Use resolves using its yaml ability block and section prose.

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # White Tower Pathway: Sequence 5
 
 ## Mysticism Magister
@@ -48,6 +49,7 @@ id: reader-seq-05-mystery-mastery
 name: Mystery Mastery
 pathway: reader
 sequence: 5
+status: canonical
 type: active
 action: free
 cost: {}
@@ -56,6 +58,12 @@ opposed_by: none
 range: Choose 1 target within line of sight.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -69,6 +77,7 @@ text: 'You master magical, diverse, unique, and rare Mysteries [[Mystery]]. Defi
   the effect will still be halved. #### Example Secret Techniques If you analyze a
   techniques prototype,...'
 ```
+
 
 
 
@@ -161,6 +170,7 @@ id: reader-seq-05-mystic-ritual
 name: Mystic Ritual
 pathway: reader
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost:
@@ -170,6 +180,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -183,6 +199,7 @@ text: 'You channel occult power into [[Ritual Magic]]. Concept: A secret art rit
   Night has reached Erudition and above: Roseltos Dream Technique [[Roselto''s Dream
   Technique]] Process: 5 minutes of ritual magic. Cost: 8 Spirituality.'
 ```
+
 
 
 

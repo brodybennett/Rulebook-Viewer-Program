@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Visionary Pathway: Sequence 1
 
 ## Author
@@ -40,6 +41,7 @@ id: visionary-seq-01-fate-weaving
 name: Fate Weaving
 pathway: visionary
 sequence: 1
+status: canonical
 type: active
 action: free
 cost: {}
@@ -48,6 +50,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -62,6 +70,7 @@ text: 'Cost: 3 points of Spirituality. [[Spirituality]] Use: Free Action. [[Acti
   3 more points of Spirituality to correct and achieve it, and explicitly add the
   line: this is a reasonable development....'
 ```
+
 
 
 

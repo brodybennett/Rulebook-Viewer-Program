@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # White Tower Pathway: Sequence 6
 
 ## Polymath
@@ -48,14 +49,21 @@ id: reader-seq-06-analysis
 name: Analysis
 pathway: reader
 sequence: 6
+status: canonical
 type: active
 action: free
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.edu + @skill.knowledge
+opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.edu + @skill.knowledge
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Extraordinary Knowledge Identification DV 20; +5 DV per sequence level above you. Apply -1 per Sanity/Rationality loss during analysis; if loss would drop you below 1, still resolve and gain +2 on the check.
 scaling: []
 tags:
 - ritual
@@ -69,6 +77,7 @@ text: 'Cost: 2 Spirituality ([[Spirituality]]). Use: Free Action ([[Actions]]). 
   lost, apply -1 to the Analysis check. If the Sanity / Rationality loss would reduce
   you below 1, you sti...'
 ```
+
 
 
 
@@ -102,14 +111,21 @@ id: reader-seq-06-simulation
 name: Simulation
 pathway: reader
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.edu + @skill.knowledge
+opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.edu + @skill.knowledge
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: First simulation per ability requires DV 30 Extraordinary Knowledge appraisal; reduce DV by 5 per +5 Analysis margin. Each use also requires DV 20 knowledge appraisal; apply higher-sequence DV increases as with Analysis.
 scaling: []
 tags:
 - ritual
@@ -124,6 +140,7 @@ text: 'Cost: 1 corresponding action consumes the corresponding spirituality. Use
   what the original ability is identified with, you can only change to the corresponding
   Knowledge identification.'
 ```
+
 
 
 

@@ -362,7 +362,7 @@ If only one size difference:
 
 - **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; strength +5; agility +5.
 
-### Black Emperor: Curly Baboon (?)
+### Black Emperor: Curly Baboon ()
 
 - **Attribute gain:** Vitality and spiritual limit doubled; constitution +10; inspiration +5; charisma +5.
 

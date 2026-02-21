@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Tyrant Pathway: Sequence 1
 
 ## Thunder God
@@ -45,6 +46,7 @@ id: tyrant-seq-01-become-thunder
 name: Become Thunder
 pathway: tyrant
 sequence: 1
+status: canonical
 type: active
 action: full-round
 cost:
@@ -54,6 +56,12 @@ opposed_by: none
 range: self
 target: self
 duration: 2 rounds (3 rounds at [[Sequence 0]])
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: On exit, you may deal double Lightning Control damage or trigger Lightning Storm after sufficient acceleration; lightning-form charge uses Strength damage dice via a fighting test.
 scaling: []
 tags:
 - ritual
@@ -68,6 +76,7 @@ text: 'Cost: 5 Spirituality Use: Full-Round Action Duration: 2 rounds (3 rounds 
   may deal double the damage of [[Lightning Control]] or Directly trigger a lightning
   storm, which requires prior acceleration to a sufficient degree before use.'
 ```
+
 
 
 
@@ -99,15 +108,22 @@ id: tyrant-seq-01-hundreds-of-millions-of-thunders-and-entanglements
 name: Hundreds of Millions of Thunders and Entanglements
 pathway: tyrant
 sequence: 1
+status: canonical
 type: active
 action: cast
 cost:
   spirituality: 1
-roll: null
+roll: 1d20 + 25
 opposed_by: physical_defense
 range: Choose a target
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + 25
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Each bolt deals 1d6 lightning damage per point of Strength; combo adds +1d6 per round until combo value is spent.
 scaling: []
 tags:
 - ritual
@@ -120,6 +136,7 @@ text: 'Use: Casting Action (can be repeated each round) Targeting and Range: Cho
   defense derived from Agility (DEX) and dodge. Each lightning bolt costs 1 Spirituality.
   Dark clouds gather and innumerable lightning strikes descend. *Base Damage Scaling:'
 ```
+
 
 
 

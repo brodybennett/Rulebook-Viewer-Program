@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Justiciar Pathway: Sequence 8
 
 ## Sheriff
@@ -43,6 +44,7 @@ id: arbiter-seq-08-extraordinary-reconnaissance
 name: Extraordinary Reconnaissance
 pathway: arbiter
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -51,6 +53,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -66,6 +74,7 @@ text: You gain extra senses at the extraordinary level. You can remember a targe
   You can recognize each other based on their characteristics just by passing by,
   and you can also recognize them...
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Tyrant Pathway: Sequence 4
 
 ## Calamity Priest
@@ -39,6 +40,7 @@ id: tyrant-seq-04-earth-manipulation
 name: Earth Manipulation
 pathway: tyrant
 sequence: 4
+status: canonical
 type: active
 action: free
 cost:
@@ -48,6 +50,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
@@ -57,6 +65,7 @@ text: 'Use: Free action, once per turn (choose one option). Effect: You shape ea
   passages through earth at your movement speed. Create an Earth Wall: Defense: 20
   Vitality: 25'
 ```
+
 
 
 
@@ -89,14 +98,21 @@ id: tyrant-seq-04-rock-tide-stomp
 name: Rock Tide Stomp
 pathway: tyrant
 sequence: 4
+status: canonical
 type: active
 action: attack
 cost: {}
-roll: null
+roll: 1d20 + 20
 opposed_by: physical_defense
 range: All targets within 10100 meters (excluding you).
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + 20
+  damage_roll: 5d6 + 2d6
+  heal_roll: null
+  effect_roll: null
+  notes: On success, magma eruption deals 5d6 fire and 2d6 physical damage; fire damage is halved on the seabed.
 scaling: []
 tags:
 - defense
@@ -107,6 +123,7 @@ text: 'Use: Attack Action. Targeting and Range: All targets within 10100 meters 
   On success, magma erupts: 5d6 fire area damage 2d6 physical damage Limits: Only
   functions on ground or seabed.'
 ```
+
 
 
 

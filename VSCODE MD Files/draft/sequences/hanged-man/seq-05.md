@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Hanged Man Pathway: Sequence 5
 
 ## Shepherd
@@ -45,6 +46,7 @@ id: hanged-man-seq-05-herding
 name: Herding
 pathway: hanged-man
 sequence: 5
+status: canonical
 type: active
 action: full-round
 cost: {}
@@ -53,6 +55,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -66,6 +74,7 @@ text: 'Effect: You devour other peoples souls into your body and drive them like
   and blood does not consume the Extraordinary characteristics. Choose any three abilities
   the target had to obtain (inclu...'
 ```
+
 
 
 

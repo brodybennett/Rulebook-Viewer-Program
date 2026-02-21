@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Demoness Pathway: Sequence 3
 
 ## Unaging
@@ -37,19 +38,32 @@ id: demoness-seq-03-extraordinary-lifespan
 name: Extraordinary Lifespan
 pathway: demoness
 sequence: 3
-type: active
-action: cast
-cost:
-  vitality: 10
+status: adapted
+type: passive
+action: none
+cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
-scaling: []
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: 2d10
+  effect_roll: null
+  notes: Heal roll applies on each successful Mirror World rebirth.
+scaling:
+- when: each_resurrection
+  changes:
+    effect_note: Reduce Spiritual Limit by 5 after each rebirth.
+- when: death_in_mirror_world
+  changes:
+    heal_roll: null
+    effect_note: No resurrection occurs if death happens in the Mirror World.
 tags:
-- ritual
-- debuff
+- defense
+- healing
 text: You will not grow old or die; your lifespan will exceed at least 1400 years
   without weakening. Whenever you die, you will be reborn in the Mirror World [[Mirror
   World]], recovering 2d10 Vitality Points Vitality Points. The number of resurrections
@@ -58,6 +72,7 @@ text: You will not grow old or die; your lifespan will exceed at least 1400 year
   the Mirror World appears in the nearest mirror, or a mirror you have set in advance.
   If your death is in the Mirror World, you will not be able to resurrect.
 ```
+
 
 
 
@@ -79,6 +94,7 @@ id: demoness-seq-03-medusa
 name: Medusa
 pathway: demoness
 sequence: 3
+status: canonical
 type: active
 action: free
 cost: {}
@@ -87,6 +103,12 @@ opposed_by: physical_defense
 range: All targets within your line of sight.
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - debuff
@@ -104,6 +126,7 @@ text: 'Cost: Free Action Free Action. Use: Once per round. Effect: You cause all
   Action Free Action per round. Petrification Level 2: The creature''s limbs are almost
   frozen, and it takes...'
 ```
+
 
 
 

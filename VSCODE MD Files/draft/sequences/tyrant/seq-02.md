@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Tyrant Pathway: Sequence 2
 
 ## Cataclysm Interrer
@@ -39,6 +40,7 @@ id: tyrant-seq-02-avatar-of-scourge
 name: Avatar of Scourge
 pathway: tyrant
 sequence: 2
+status: canonical
 type: active
 action: cast
 cost:
@@ -49,6 +51,12 @@ range: All natural disasters affect a minimum area of **1 kilometer** and may ex
   up to **one country** in scope.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -63,6 +71,7 @@ text: 'Cost: 10 Spirituality. [[Spirituality]] Use: 1/round, 1 Casting Action. E
   or larger region. Interaction: Each Scourge-type disaster is a separate ability.
   [[Steal]] and [[Record]] can affect only one such disaster ability at a time.'
 ```
+
 
 
 
@@ -184,15 +193,22 @@ id: tyrant-seq-02-summon-meteor
 name: Summon Meteor
 pathway: tyrant
 sequence: 2
+status: canonical
 type: active
 action: cast
 cost:
   spirituality: 3
-roll: null
+roll: 1d20 + 20
 opposed_by: physical_defense
 range: Area from **100 m to 1 km** radius.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + 20
+  damage_roll: 5d6 + 5d6
+  heal_roll: null
+  effect_roll: null
+  notes: On success, deal 5d6 fire and 5d6 physical damage; on failure, creatures unable to leave still take half damage.
 scaling: []
 tags:
 - ritual
@@ -205,6 +221,7 @@ text: 'Cost: 3 Spirituality. Use: 1 Casting Action. Targeting and Range: Area fr
   to leave the area still take half damage. Aftereffects: Can destroy a ship, building,
   or city block; leaves a large crater.'
 ```
+
 
 
 
@@ -231,6 +248,7 @@ id: tyrant-seq-02-humanoid-scourge
 name: Humanoid Scourge
 pathway: tyrant
 sequence: 2
+status: canonical
 type: active
 action: free
 cost: {}
@@ -239,6 +257,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: 2d6
+  heal_roll: null
+  effect_roll: "1"
+  notes: Once per round, either negate disaster damage or add +2d6 to one disaster damage roll.
 scaling: []
 tags:
 - buff
@@ -249,6 +273,7 @@ text: 'Use: 1/round, free action. Effect (Defense): When a disaster or natural d
   Effect (Offense): Alternatively, add +2d6 to a single disaster or natural disaster
   damage roll. Limits: Damage increase and damage avoidance share the same usage.'
 ```
+
 
 
 

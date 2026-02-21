@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Mother Pathway: Sequence 6
 
 ## Biologist
@@ -42,6 +43,7 @@ id: earth-seq-06-rapid-growth-research
 name: Rapid Growth Research
 pathway: earth
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -50,6 +52,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -58,6 +66,7 @@ text: Your Biology has been included in the rapid growth category of Sequence 9 
   (skill)]] can also be upgraded to Erudition. Every time you complete a complete
   research without repeating the type, it is regarded as a growth.
 ```
+
 
 
 
@@ -77,6 +86,7 @@ id: earth-seq-06-biological-hybridization
 name: Biological Hybridization
 pathway: earth
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -85,6 +95,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -102,11 +118,12 @@ text: 'Biological Hybridization: You can hybridize various organisms to produce 
 
 
 
+
 - **Biological Hybridization:** You can hybridize various organisms to produce strange products, and you can hybridize down to the bacterial level.
 
 Biological Hybridization is not a short-term ability. Like scientific research, it must go through multiple stages such as theory, practice, and error correction. Through this ability, you can permanently transform a certain entry of one creature into another creature.
 
-- **Creature definition:** A â€œcreatureâ€ includes intelligent creatures, plants, and animals; you can cross any type of them.
+- **Creature definition:** A "creature" includes intelligent creatures, plants, and animals; you can cross any type of them.
 
 #### Transformation Procedure
 
@@ -115,8 +132,8 @@ To use Biological Hybridization, complete all stages below to finish one transfo
 1) **Confirm the modified creature**
    - Choose:
      - A creature you mainly transform, and
-     - A creature whose entry is the â€œtransferredâ€ sample.
-   - Example: If you want to eat apples instead of medicine, prepare apples and medicinal materials, and transfer the â€œcoughâ€ entry to apples.
+     - A creature whose entry is the "transferred" sample.
+   - Example: If you want to eat apples instead of medicine, prepare apples and medicinal materials, and transfer the "cough" entry to apples.
    - Sample requirement: Some samples must represent the corresponding entries. For example, when transferring internal organs of creatures, the samples must be internal organs rather than blood.
 
 2) **Theoretical stage**
@@ -152,11 +169,11 @@ To use Biological Hybridization, complete all stages below to finish one transfo
 
 - If Biologists transfer the entry of a certain [[Extraordinary creature]] / Extraordinary to another species, they need to obtain samples of the corresponding entry of the Extraordinary.
   - Example: If they want to transfer the cell proliferation of the [[Rose Bishop]], they must obtain the flesh and blood of the Rose Bishop.
-- This is considered to have passed on the Rose Bishopâ€™s flesh and blood growth entry.
+- This is considered to have passed on the Rose Bishop's flesh and blood growth entry.
 - The species after transformation is not regarded as Extraordinary items / [[Spiritual Materials]], and has become an independent species that does not contain [[Extraordinary characteristics]], but has corresponding properties.
 - Whether the entry to be transferred is an extraordinary creature or a normal transformation, the content must be specific and cannot be broad.
   - Example: You can transfer the cell proliferation of the Rose Bishop, but you cannot transfer the entry of the Rose Bishop Sequence 6 (representing all abilities).
-- After being transferred, the new species inherits the special type represented by the transferred entry (for example, a mushroom inheriting the Rose Bishopâ€™s cell proliferation ability).
+- After being transferred, the new species inherits the special type represented by the transferred entry (for example, a mushroom inheriting the Rose Bishop's cell proliferation ability).
   - Even if it does not have Extraordinary characteristics, it is still regarded as a [[fallen creature]] and belongs to [[evil]].
 
 > **GM Note:** Because failure of the experiment can face serious consequences, organisms that fail the experiment may die or leave serious sequelae.
@@ -172,15 +189,53 @@ id: earth-seq-06-highly-toxic
 name: Highly Toxic
 pathway: earth
 sequence: 6
+status: adapted
 type: active
-action: swift
-cost: {}
-roll: null
+action: attack
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.dex + @skill.throwing
 opposed_by: physical_defense
 range: The throw resists physical defense.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.dex + @skill.throwing
+  damage_roll: 2d6
+  heal_roll: null
+  effect_roll: null
+  notes: Baseline roll maps the hair-throw attack; secondary symptom checks are in scaling.
+scaling:
+- when: severe_itching_effect
+  changes:
+    opposed_by: difficulty_value
+    check_roll: 1d20 + @attr.wil
+    damage_roll: 1d3
+    effect_note: Failure on Difficulty Value 20 Will test forces scratching and self-damage.
+- when: shortness_of_breath_effect
+  changes:
+    effect_note: Target suffers ongoing -2 penalties to skills/attributes.
+- when: laughing_wildly_effect
+  changes:
+    opposed_by: difficulty_value
+    check_roll: 1d20 + @attr.wil
+    effect_note: Will test (DV 10) required to perform attack/cast/full-round actions.
+- when: vomiting_effect
+  changes:
+    opposed_by: difficulty_value
+    check_roll: 1d20 + @attr.con
+    damage_roll: 1d6
+    effect_note: Failure on DV 20 Constitution appraisal causes vomiting and vitality loss.
+- when: cough_effect
+  changes:
+    opposed_by: difficulty_value
+    check_roll: 1d20 + @attr.wil
+    effect_note: Failure on DV 15 Will test causes action loss.
+- when: detoxification_attempt_with_medicine
+  changes:
+    opposed_by: difficulty_value
+    check_roll: 1d20 + @attr.int + @skill.medicine
+    effect_note: Medicine check (DV 20) within 2 rounds can end the effect early.
 tags:
 - ritual
 - debuff
@@ -198,6 +253,7 @@ text: 'Your hair can be highly toxic. Cost: 3 [[Spirituality]] Use: 1 Attack Act
 
 
 
+
 Your hair can be highly toxic.
 
 - **Cost:** 3 [[Spirituality]]
@@ -211,10 +267,10 @@ Your hair can be highly toxic.
    - Every time a new round starts, the target must immediately make a Will Test (Difficulty Value **20**), otherwise it is forced to use a Swift Action to scratch the skin, causing **1d3** physical damage to itself.
 
 2) **Shortness of Breath**
-   - The targetâ€™s breath begins to weaken, the eyes lose focus, and the skills and attribute appraisals continue to suffer **-2 disadvantages**.
+   - The target's breath begins to weaken, the eyes lose focus, and the skills and attribute appraisals continue to suffer **-2 disadvantages**.
 
 3) **Laughing Wildly**
-   - The target canâ€™t hold back laughter and canâ€™t breathe.
+   - The target can't hold back laughter and can't breathe.
    - Attacking / casting / full-round actions require a Will Test (Difficulty Value **10**) to execute successfully.
 
 4) **Vomiting**

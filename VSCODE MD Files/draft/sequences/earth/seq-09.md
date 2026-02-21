@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Mother Pathway: Sequence 9
 
 ## Planter
@@ -47,6 +48,7 @@ id: earth-seq-09-planting-growth
 name: Planting Growth
 pathway: earth
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -55,6 +57,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -68,6 +76,7 @@ text: Every time you receive at least 2 hours of real, non-repetitive related gu
   a character who has not just been promoted, growth skills gain 2x Intuition (INT)
   points from the potion.
 ```
+
 
 
 
@@ -91,6 +100,7 @@ id: earth-seq-09-identify-seeds
 name: Identify Seeds
 pathway: earth
 sequence: 9
+status: adapted
 type: active
 action: cast
 cost: {}
@@ -99,7 +109,65 @@ opposed_by: none
 range: One seed within your field of vision.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d3
+  notes: Effect roll maps crop growth/harvest tables; specific crop timings and yields are captured in scaling.
+scaling:
+- when: vegetable_food_growth
+  changes:
+    effect_roll: 1d2
+    effect_note: Vegetable crops mature in 1 + 1d2 weeks.
+- when: tree_plant_growth
+  changes:
+    effect_roll: 1d3
+    effect_note: Tree plants mature in 2 + 1d3 years.
+- when: beverage_raw_material_growth
+  changes:
+    effect_roll: 1d4
+    effect_note: Beverage raw materials mature in 1 + 1d4 years.
+- when: energy_crop_growth
+  changes:
+    effect_roll: 1d5
+    effect_note: Energy crops mature in 2 + 1d5 months.
+- when: landscaping_growth
+  changes:
+    effect_roll: 1d3
+    effect_note: Landscaping plants mature in 1d3 months.
+- when: spice_medicinal_growth
+  changes:
+    effect_roll: 1d3
+    effect_note: Spices/medicinal plants mature in 1d3 months.
+- when: restoration_herb_growth
+  changes:
+    effect_roll: 1d3
+    effect_note: Restoration herbs mature in 1d3 weeks.
+- when: analgesic_herb_growth
+  changes:
+    effect_roll: 1d3
+    effect_note: Analgesic herbs mature in 1d3 weeks.
+- when: spiritual_fruit_growth
+  changes:
+    effect_roll: 1d2
+    effect_note: Spiritual fruits mature in 1d2 months.
+- when: fragrant_flower_growth
+  changes:
+    effect_roll: 1d3
+    effect_note: Fragrant flowers mature in 1d3 weeks.
+- when: spiritual_material_growth
+  changes:
+    effect_roll: 1d3
+    effect_note: Spiritual medicinal materials mature in 1d3 weeks.
+- when: ordinary_crop_harvest_yield
+  changes:
+    effect_roll: 4d6
+    effect_note: Ordinary harvest yields 4d6 (reroll results below 5).
+- when: extraordinary_crop_harvest_yield
+  changes:
+    effect_roll: 3d6
+    effect_note: Extraordinary crops yield 3d6 and wither after 1 week.
 tags:
 - ritual
 - detection
@@ -112,6 +180,7 @@ text: 'Use: 1 Casting Action Casting Action. Cost: None (does not consume [[Spir
   power and belong to the field of ordinary things. Vegetable food: Harvest after
   1 + 1d2 weeks (e.g., corn, tomato, potato); no need to worry about food sources.'
 ```
+
 
 
 
@@ -183,16 +252,27 @@ id: earth-seq-09-telling-the-time-of-day
 name: Telling the Time of Day
 pathway: earth
 sequence: 9
+status: adapted
 type: active
 action: cast
 cost:
-  spirituality: 4
+  spirituality: 1
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d3
+  notes: Effect roll maps the per-day seasonal forecast table.
+scaling:
+- when: additional_day_forecast
+  changes:
+    effect_roll: 1d3
+    effect_note: Each extra day costs 1 additional spirituality and adds one more 1d3 roll (max 7 days).
 tags:
 - ritual
 text: 'Use: 1 Casting Action Casting Action. Cost: 1 spirituality point [[Spirituality]]
@@ -205,6 +285,7 @@ text: 'Use: 1 Casting Action Casting Action. Cost: 1 spirituality point [[Spirit
   after being exposed to rain for 1 hour. Cold current: Sudden cold current may cause
   adverse effects on plants; insuf...'
 ```
+
 
 
 
@@ -251,15 +332,25 @@ id: earth-seq-09-severe-cold-and-hot-effect
 name: Severe Cold and Hot Effect
 pathway: earth
 sequence: 9
-type: active
-action: cast
+status: adapted
+type: passive
+action: none
 cost: {}
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: self
 target: self
-duration: instant
-scaling: []
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: 1d3
+  heal_roll: null
+  effect_roll: null
+  notes: Damage roll maps severe-cold exposure damage that begins after 12 hours.
+scaling:
+- when: hot_exposure_6_hours
+  changes:
+    effect_note: Hot exposure causes fainting after 6 hours without sufficient cooling.
 tags:
 - defense
 - offense
@@ -273,6 +364,7 @@ text: 'Severe cold: Biological skills and attribute evaluations that are not wel
   Resistance]], and heat has no effect on creatures with [[Fire Resistance]]. Special:
   The identified weather does...'
 ```
+
 
 
 
@@ -293,6 +385,7 @@ id: earth-seq-09-spiritual-vision
 name: Spiritual Vision
 pathway: earth
 sequence: 9
+status: canonical
 type: toggle
 action: free
 cost: {}
@@ -301,6 +394,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -315,6 +414,7 @@ text: 'Use: 1 free action to activate. Cost: 1 spirituality point per round whil
   of a creature, you gain +2 to [[Medical identification]] of the symptom. Earth Pathway:
   Sequence 8'
 ```
+
 
 
 

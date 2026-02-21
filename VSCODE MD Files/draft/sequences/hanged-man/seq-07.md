@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Hanged Man Pathway: Sequence 7
 
 > **Lore:** Can hide in the shadows and wield shadow powers.
@@ -45,6 +46,7 @@ id: hanged-man-seq-07-darkvision
 name: Darkvision
 pathway: hanged-man
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -53,11 +55,18 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
 text: 'Effect: You can see normally even in environments without any light.'
 ```
+
 
 
 
@@ -74,6 +83,7 @@ id: hanged-man-seq-07-shadow-lurking
 name: Shadow Lurking
 pathway: hanged-man
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -82,6 +92,12 @@ opposed_by: physical_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -99,6 +115,7 @@ text: 'Cost: 2 points of spirituality [[Spirituality]]. Use: 1 movement action M
   actions other than using shadow abilities [[Shadow Abilities]]. 3 Even in an environment
   without other s...'
 ```
+
 
 
 
@@ -124,6 +141,7 @@ id: hanged-man-seq-07-shadow-package
 name: Shadow Package
 pathway: hanged-man
 sequence: 7
+status: canonical
 type: active
 action: move
 cost: {}
@@ -132,6 +150,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -144,6 +168,7 @@ text: 'Use: 1 Attack Action Attack Action or Move Action Move Action. Cost: No s
   ground. Because you can''t cover multiple targets at once, you need to decide the
   order of the targets.'
 ```
+
 
 
 
@@ -166,15 +191,26 @@ id: hanged-man-seq-07-shadow-hide
 name: Shadow Hide
 pathway: hanged-man
 sequence: 7
+status: canonical
 type: active
 action: swift
-cost: {}
+cost:
+  sanity: 2
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No roll required; grants concealment and boosts stealth in darkness.
+scaling:
+- when: deliberate_hide_in_darkness
+  changes:
+    effect_note: Stealth tests gain +4 while hiding in dark environments or shadows.
 tags:
 - detection
 - stealth
@@ -188,6 +224,7 @@ text: 'Cost: 2 sanity points [[Sanity / Rationality Points]] per use. Use: 1 Swi
   Special: [[Master Puppet]], [[Eye of Mystery]], and [[Vision of Destiny]] can directly
   see your true face.'
 ```
+
 
 
 
@@ -210,6 +247,7 @@ id: hanged-man-seq-07-shadow-manipulation
 name: Shadow Manipulation
 pathway: hanged-man
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -218,6 +256,12 @@ opposed_by: physical_defense
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -231,6 +275,7 @@ text: 'Cost: 2 points of spirituality. Use: 1 Casting Action Casting Action. Tar
   other Beyonders [[Beyonder]] to detect abnormalities with spiritual intuition [[Spiritual
   Intuition]].'
 ```
+
 
 
 

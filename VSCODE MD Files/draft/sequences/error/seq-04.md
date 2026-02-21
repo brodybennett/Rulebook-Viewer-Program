@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Error Pathway: Sequence 4
 
 ## Parasite
@@ -20,7 +21,7 @@ tags:
 
 ### Advancement Ritual
 
-- **Advancement Ritual:** Replace a demigodâ€™s closest person, or the demigod themself, without the knowledge of others; experience an important event involving the closest person without being found out; consume the potion at the end of the event. *(unofficial ceremony)*  
+- **Advancement Ritual:** Replace a demigod's closest person, or the demigod themself, without the knowledge of others; experience an important event involving the closest person without being found out; consume the potion at the end of the event. *(unofficial ceremony)*  
   [[Demigod]]  
   [[Potion]]
 
@@ -40,6 +41,7 @@ id: error-seq-04-steal-improved
 name: Steal (Improved)
 pathway: error
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -48,6 +50,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: Maintenance time is up to 2 hours.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -63,8 +71,9 @@ text: 'Effect: Steal is substantially improved. You can steal some conceptual th
 
 
 
+
 - **Effect:** **Steal** is substantially improved. You can steal some conceptual things (such as position, distance, etc.) to achieve incredible effects in battle.
-- **Stealing ideas:** When you steal the other partyâ€™s ideas, you donâ€™t need to take the corresponding action (action cost is waived).
+- **Stealing ideas:** When you steal the other party's ideas, you don't need to take the corresponding action (action cost is waived).
 - **Stealing abilities:** You can steal the desired ability from the target more accurately.
 - **Choice limit:** Generally, you can choose one of the three.
 - **Success:** The more you know, the higher the probability of success.
@@ -80,6 +89,7 @@ id: error-seq-04-greater-steal
 name: Greater Steal
 pathway: error
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -88,6 +98,12 @@ opposed_by: physical_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -101,9 +117,10 @@ text: 'Use: Spellcasting Action Cost: 3 points of [[Spirituality]] Effect: You c
 
 
 
+
 - **Use:** Spellcasting Action
 - **Cost:** 3 points of [[Spirituality]]
-- **Effect:** You can steal unimaginable concepts. Attack the opponentâ€™s [[Physical Defense]] with skillful hands. (This cost and attack apply only to Greater Steal.)
+- **Effect:** You can steal unimaginable concepts. Attack the opponent's [[Physical Defense]] with skillful hands. (This cost and attack apply only to Greater Steal.)
 
 - **Limits:** As described in this section's prose.
 
@@ -115,6 +132,7 @@ id: error-seq-04-steal-location
 name: Steal Location
 pathway: error
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -123,12 +141,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
 text: 'Effect: Exchange yourself with another location. This effect belongs to [[Teleportation]]
   and [[Fraud]].'
 ```
+
 
 
 
@@ -145,6 +170,7 @@ id: error-seq-04-steal-distance
 name: Steal Distance
 pathway: error
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -153,6 +179,12 @@ opposed_by: none
 range: Both objects must be within your line of sight.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
@@ -162,6 +194,7 @@ text: 'Targeting and range: Both objects must be within your line of sight. Effe
   Explanation: This essentially steals the distance in front of you, puts the stolen
   distance behind you, and achieves a position change.'
 ```
+
 
 
 
@@ -180,6 +213,7 @@ id: error-seq-04-steal-flesh
 name: Steal Flesh
 pathway: error
 sequence: 4
+status: adapted
 type: active
 action: cast
 cost: {}
@@ -188,6 +222,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: 5d6
+  heal_roll: null
+  effect_roll: null
+  notes: Damage roll maps the explicit instant 5d6 damage effect.
 scaling: []
 tags:
 - healing
@@ -196,6 +236,7 @@ tags:
 text: 'Effect: Instantly deals 5d6 damage. Limits: The flesh cannot be used to heal
   your own wounds unless you perform a [[Rules Deception]].'
 ```
+
 
 
 
@@ -210,6 +251,7 @@ id: error-seq-04-steal-sound
 name: Steal Sound
 pathway: error
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -218,6 +260,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -233,13 +281,14 @@ text: 'Effect: Causes 1 round of silence. Scale: This ability can be used on a l
 
 
 
+
 - **Effect:** Causes 1 round of silence.
 - **Scale:** This ability can be used on a large scale, making an area of half a kilometer completely silent.
-- **Storage:** Although the stolen voice can be stored, it will be reviewed in your mind first. In other words, only you can hear the judgeâ€™s decrees, and only you can hear the voices of other people.  
-  [[Judgeâ€™s decrees]]
+- **Storage:** Although the stolen voice can be stored, it will be reviewed in your mind first. In other words, only you can hear the judge's decrees, and only you can hear the voices of other people.  
+  [[Judge's decrees]]
 - **Limits:** A stolen law sheet has no effect as a sound unless you also steal the Law skill/identification itself.  
   [[Law sheet]]  
-  [[Lawâ€™s prowess]]
+  [[Law's prowess]]
 
 ### Steal Action
 
@@ -248,6 +297,7 @@ id: error-seq-04-steal-action
 name: Steal Action
 pathway: error
 sequence: 4
+status: canonical
 type: active
 action: move
 cost: {}
@@ -256,6 +306,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: 1 round.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
@@ -273,10 +329,11 @@ text: 'Duration: 1 round. Effect: The target becomes unable to move with limbs f
 
 
 
+
 - **Duration:** 1 round.
 - **Effect:** The target becomes unable to move with limbs for 1 round and is immediately regarded as [[Bound]]. The target cannot gain the defense bonus of Agility (DEX) and Dodge.
 - **Exception:** If the target uses extraordinary abilities to move, they will still be able to gain the defense brought by agility and dodge.
-- **Limits:** In this state, the target cannot use limbs to move, but can still use the movement for special actions; even if used for special actions, the movement cannot change the targetâ€™s position.
+- **Limits:** In this state, the target cannot use limbs to move, but can still use the movement for special actions; even if used for special actions, the movement cannot change the target's position.
 - **Aftereffect:** You get an extra Move Action after stealing, at the cost of the extra action.  
 
 ### Steal Sight
@@ -286,6 +343,7 @@ id: error-seq-04-steal-sight
 name: Steal Sight
 pathway: error
 sequence: 4
+status: adapted
 type: active
 action: cast
 cost: {}
@@ -294,6 +352,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: 1 round.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "2"
+  notes: Effect roll captures the +2 bonus to the next vision-based check during the stolen-sight window.
 scaling: []
 tags:
 - buff
@@ -302,6 +366,7 @@ text: 'Duration: 1 round. Effect: Blind the target for 1 round. Benefit: Your ey
   a +2 bonus on your next check that requires visual selection of a target within
   a round.'
 ```
+
 
 
 
@@ -320,6 +385,7 @@ id: error-seq-04-steal-hearing
 name: Steal Hearing
 pathway: error
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -328,6 +394,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: 1 round.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -345,6 +417,7 @@ text: 'Duration: 1 round. Effect: Make the target deaf for 1 round. Benefit: You
 
 
 
+
 - **Duration:** 1 round.
 - **Effect:** Make the target deaf for 1 round.
 - **Benefit:** Your listening skill gains a +2 bonus for 1 round.
@@ -352,7 +425,7 @@ text: 'Duration: 1 round. Effect: Make the target deaf for 1 round. Benefit: You
   [[Inquisitor]]  
   [[Law (Inquisitor)]]
 - **Clarification:** This not only refers to the concept of hearing in the ear, but also a series of hearing concepts such as bone conduction; it is completely inaudible in the true sense.
-- > **GM Note:** If you steal the hearing of the Hanged Man path, you may hear things you shouldnâ€™t hearâ€”heard the voice.  
+- > **GM Note:** If you steal the hearing of the Hanged Man path, you may hear things you shouldn't hear-heard the voice.  
   [[Hanged Man]]
 
 - **Limits:** As described in this section's prose.
@@ -365,6 +438,7 @@ id: error-seq-04-steal-flight
 name: Steal Flight
 pathway: error
 sequence: 4
+status: canonical
 type: active
 action: move
 cost: {}
@@ -373,6 +447,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
@@ -384,7 +464,8 @@ text: 'Effect: Steal the birdaTMs flight ability, allowing yourself to fly with 
 
 
 
-- **Effect:** Steal the birdâ€™s flight ability, allowing yourself to fly with twice the movement; this usually only lasts 2â€“3 minutes.
+
+- **Effect:** Steal the bird's flight ability, allowing yourself to fly with twice the movement; this usually only lasts 2-3 minutes.
 - **Additional:** Equivalent to the Steal Action in action economy, but also gains an additional Move Action.
 
 - **Limits:** As described in this section's prose.
@@ -397,6 +478,7 @@ id: error-seq-04-lifespan-stealing
 name: Lifespan Stealing
 pathway: error
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -405,12 +487,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
 text: 'Effect: Steal up to one year of lifespan from others and transfer it to your
   body. Scaling: Higher sequences can steal longer lifespans.'
 ```
+
 
 
 
@@ -428,6 +517,7 @@ id: error-seq-04-steal-skills
 name: Steal Skills
 pathway: error
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -436,6 +526,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -445,6 +541,7 @@ text: 'Effect: Steal a skill from the opponent. The corresponding skill of the s
   Each stolen ability can only be used once per theft. This does not steal reputation
   skills. [[Reputation skills]]'
 ```
+
 
 
 
@@ -461,6 +558,7 @@ id: error-seq-04-range-steal
 name: Range Steal
 pathway: error
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -470,6 +568,12 @@ range: Perform a range steal with a range of one kilometer on a target that is o
   level lower than you.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -483,6 +587,7 @@ text: 'Targeting and range: Perform a range steal with a range of one kilometer 
   day, or a full moon, but not night itself, because day is essentially night illuminated
   by the sun, and the world is inhe...'
 ```
+
 
 
 
@@ -506,15 +611,28 @@ id: error-seq-04-steal-storage
 name: Steal Storage
 pathway: error
 sequence: 4
-type: active
-action: free
+status: adapted
+type: passive
+action: none
 cost: {}
-roll: null
+roll: 1d20 + @attr.int
 opposed_by: willpower_defense
 range: self
 target: self
-duration: instant
-scaling: []
+duration: persistent
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Intuition check applies when gifting stored items to non-consenting targets; storage limits are handled in scaling.
+scaling:
+- when: potion_digested_sequence_4
+  changes:
+    effect_note: Storage limit increases by 3 after full digestion.
+- when: sequence_upgrade
+  changes:
+    effect_note: Each sequence upgrade increases storage limit by 3.
 tags:
 - buff
 - defense
@@ -528,6 +646,7 @@ text: 'Effect: Steal Storage lets you always keep the things you have stolen and
   a spellcasting action; make an Intuition (INT) check vs Willpower Defense unless
   the other party consents. The person to be gi...'
 ```
+
 
 
 
@@ -557,7 +676,7 @@ text: 'Effect: Steal Storage lets you always keep the things you have stolen and
 
 - When your storage slot is full and you continue to steal, you can choose stored items to replace and release unnecessary items.
 - You can also directly discard unnecessary abilities and ideas, which is essentially a kind of release, but the return of ideas or abilities to non-original owners will be directly regarded as invalid actions: they are released, but nothing happens.
-- Thoughts can be released directly in your mind and read silently, and then you donâ€™t act on it.
+- Thoughts can be released directly in your mind and read silently, and then you don't act on it.
 
 - **Limits:** As described in this section's prose.
 
@@ -569,6 +688,7 @@ id: error-seq-04-parasitism
 name: Parasitism
 pathway: error
 sequence: 4
+status: canonical
 type: active
 action: full-round
 cost: {}
@@ -577,6 +697,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -594,9 +720,10 @@ text: 'Definition: Parasitism is a kind of stealing; what you steal is life. Use
 
 
 
+
 - **Definition:** **Parasitism** is a kind of stealing; what you steal is life.
-- **Use:** A [[Full-Round Action]] to parasitize into a personâ€™s body or a plantâ€™s body.
-- **Effect on your body:** Your body becomes invisible, overlapping with the hostâ€™s spirit body, and even the thread of the spirit body is also hidden.
+- **Use:** A [[Full-Round Action]] to parasitize into a person's body or a plant's body.
+- **Effect on your body:** Your body becomes invisible, overlapping with the host's spirit body, and even the thread of the spirit body is also hidden.
 
 #### Levels of Parasitism
 
@@ -605,8 +732,8 @@ text: 'Definition: Parasitism is a kind of stealing; what you steal is life. Use
   - You can see everything the host sees and hear all the sounds the host hears.
   - In preliminary parasitism, you can share the host's senses but cannot read or steal thoughts; thought-reading requires **Deep Parasitism**.
 - **Deep Parasitism:**
-  - More comprehensive control, almost fused with the hostâ€™s spirit body.
-  - Directly monitor the hostâ€™s thoughts, understand their intentions, and actively take over the body.
+  - More comprehensive control, almost fused with the host's spirit body.
+  - Directly monitor the host's thoughts, understand their intentions, and actively take over the body.
   - The host is no longer in control except for their own thoughts.
 
 #### Switching Between Levels
@@ -617,17 +744,17 @@ text: 'Definition: Parasitism is a kind of stealing; what you steal is life. Use
 
 #### Limitations and Guidance
 
-- > **GM Note:** Do not substitute the parasite of Sequence 4 into Amonâ€™s parasite at will. At the level of Sequence 4, the thief has not yet created the power to create countless clones at will, which needs to be done at the angel level. Therefore, this parasitism is to make your body virtual, become a spirit body, enter a personâ€™s body, and overlap with their soulâ€”so you can only parasitize one.  
+- > **GM Note:** Do not substitute the parasite of Sequence 4 into Amon's parasite at will. At the level of Sequence 4, the thief has not yet created the power to create countless clones at will, which needs to be done at the angel level. Therefore, this parasitism is to make your body virtual, become a spirit body, enter a person's body, and overlap with their soul-so you can only parasitize one.  
   [[Amon]]  
   [[Angel]]  
   Error pathway
-- > **GM Note:** If you parasitize animals and plants for a long time, it will cause your cognition to be confused (you canâ€™t tell who you are), you will gradually forget your own positioning, and maybe because there is no one to communicate with, you gradually go crazyâ€”on the verge of losing control, and gradually overwhelmed by these crazy tendencies.
+- > **GM Note:** If you parasitize animals and plants for a long time, it will cause your cognition to be confused (you can't tell who you are), you will gradually forget your own positioning, and maybe because there is no one to communicate with, you gradually go crazy-on the verge of losing control, and gradually overwhelmed by these crazy tendencies.
 - **Sequence 2:** You can parasitize microorganisms in the air.
 
 #### Detection and Divination
 
-- When you successfully parasitize, you and the hostâ€™s spirit body are regarded as one.
-- Even [[id:alias-divination|Divination]] canâ€™t directly know where you are and who you are parasitizing. There is a problem, but it is very difficult to find this person in the vast crowd, and people who are not as good as you usually canâ€™t divine any information.
+- When you successfully parasitize, you and the host's spirit body are regarded as one.
+- Even [[id:alias-divination|Divination]] can't directly know where you are and who you are parasitizing. There is a problem, but it is very difficult to find this person in the vast crowd, and people who are not as good as you usually can't divine any information.
 - This usually only parasitizes weaker targets than you, because the same level of parasitism is very easy to cause others to notice.
   - A demigod can usually find that you are parasitizing them through a **Difficulty Value** 15 Intuition check (the shallow parasitism has not been completed at this time, just started the first step).
 - But once the parasitism is complete, your own existence is extremely hidden and difficult to detect.
@@ -635,7 +762,7 @@ text: 'Definition: Parasitism is a kind of stealing; what you steal is life. Use
 
 #### Interaction and Removal
 
-- > **GM Note:** In the face of the first type of â€œparasite,â€ you can remind the host through dreams, subconscious dialogues, etc., without worrying about being discovered, because the parasite must rely on the senses of the host to perceive things around it.
+- > **GM Note:** In the face of the first type of "parasite," you can remind the host through dreams, subconscious dialogues, etc., without worrying about being discovered, because the parasite must rely on the senses of the host to perceive things around it.
 - > **GM Note:** In the second state, there is no way to bypass the parasite to talk to the host, but there is also a chance to clear it: an object of faith that relies on the host. When you let go of your heart and pray, the object of faith can find the existence of parasites and give feedback with the help of certain rituals to complete the separation or removal.
 - > **GM Note:** The prerequisite is that the host itself does not know what will happen; otherwise the parasite must be alert and stop it.
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Error Pathway: Sequence 0
 
 > **Lore:** The Trojan horse of fate, the worm of time, the loophole of rules, the incarnation of all mistakes.
@@ -38,6 +39,7 @@ id: error-seq-00-bug
 name: BUG
 pathway: error
 sequence: 0
+status: canonical
 type: active
 action: free
 cost: {}
@@ -46,6 +48,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
@@ -59,6 +67,7 @@ text: 'Use: 1 free action Free Action. Limits: Can only be used once per round. 
   and your avatar [[Avatar]] is the main body to some extent, so all your avatars
   and main body can be teleported.'
 ```
+
 
 
 

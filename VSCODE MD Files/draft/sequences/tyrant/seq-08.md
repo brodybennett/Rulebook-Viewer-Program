@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Tyrant Pathway: Sequence 8
 
 > **Lore:** Known as the “Storm Guard” in ancient times. When angered, they can unleash attacks beyond normal limits. [[Storm Guard]]
@@ -53,6 +54,7 @@ id: tyrant-seq-08-rage-state
 name: Rage State
 pathway: tyrant
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -61,11 +63,18 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
 text: Rage State ability details are retained in section prose.
 ```
+
 
 
 
@@ -97,14 +106,21 @@ id: tyrant-seq-08-furious-strike
 name: Furious Strike
 pathway: tyrant
 sequence: 8
+status: canonical
 type: active
-action: full-round
+action: attack
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: "1"
+  notes: Adds +1d6 damage while in Rage State; can be invoked via full-round action without entering rage.
 scaling: []
 tags:
 - ritual
@@ -119,6 +135,7 @@ text: 'Cost: 1 Attack Action. No [[Spiritual Energy]] required. Use: Only usable
   Strike. For that attack only, you gain the Rage bonuses (+2 Strength/Constitution/Agility
   (DEX) and the reduced -2 disadvantage), but you do not enter Rage State.'
 ```
+
 
 
 

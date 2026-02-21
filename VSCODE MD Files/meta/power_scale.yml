@@ -1,0 +1,173 @@
+version: 1
+last_updated: "2026-02-20"
+scope: "Phase 4 sequence power budgets and progression guardrails"
+
+notes:
+  - "Scores are normalized indices used for audit heuristics, not direct combat math."
+  - "Sequence 9 is the baseline floor; Sequence 0 is the apex ceiling."
+  - "Bands are intentionally overlapping to preserve pathway identity while constraining outliers."
+
+score_bands:
+  at_will_effectiveness:
+    description: "Repeatable effectiveness without meaningful resource spend."
+  resource_spend_effectiveness:
+    description: "Effectiveness when spending tracked resources (usually spirituality)."
+  control_strength:
+    description: "Reliability and impact of control effects, including denial windows."
+  mobility_escape:
+    description: "Repositioning, disengage, teleport, flight, stealth-exit capability."
+  survivability:
+    description: "Durability, mitigation, recovery, self-preservation tools."
+  investigation_divination:
+    description: "Recon, appraisal, divination, detection, and inference strength."
+
+sequence_budgets:
+  9:
+    at_will_effectiveness: {min: 0.70, max: 1.10}
+    resource_spend_effectiveness: {min: 1.00, max: 1.60}
+    control_strength: {min: 0.25, max: 0.80}
+    mobility_escape: {min: 0.20, max: 0.70}
+    survivability: {min: 0.20, max: 0.80}
+    investigation_divination: {min: 0.20, max: 0.90}
+    hard_control:
+      max_total_abilities: 1
+      max_repeatable_abilities: 0
+    damage:
+      max_expected_hit: 7.0
+      max_burst_expected_hit: 10.0
+  8:
+    at_will_effectiveness: {min: 0.85, max: 1.30}
+    resource_spend_effectiveness: {min: 1.20, max: 1.90}
+    control_strength: {min: 0.35, max: 1.00}
+    mobility_escape: {min: 0.30, max: 0.85}
+    survivability: {min: 0.30, max: 0.95}
+    investigation_divination: {min: 0.30, max: 1.05}
+    hard_control:
+      max_total_abilities: 1
+      max_repeatable_abilities: 0
+    damage:
+      max_expected_hit: 9.0
+      max_burst_expected_hit: 12.0
+  7:
+    at_will_effectiveness: {min: 1.00, max: 1.55}
+    resource_spend_effectiveness: {min: 1.40, max: 2.20}
+    control_strength: {min: 0.45, max: 1.20}
+    mobility_escape: {min: 0.40, max: 1.00}
+    survivability: {min: 0.40, max: 1.15}
+    investigation_divination: {min: 0.40, max: 1.20}
+    hard_control:
+      max_total_abilities: 2
+      max_repeatable_abilities: 1
+    damage:
+      max_expected_hit: 11.0
+      max_burst_expected_hit: 16.0
+  6:
+    at_will_effectiveness: {min: 1.20, max: 1.85}
+    resource_spend_effectiveness: {min: 1.70, max: 2.60}
+    control_strength: {min: 0.60, max: 1.45}
+    mobility_escape: {min: 0.50, max: 1.15}
+    survivability: {min: 0.55, max: 1.35}
+    investigation_divination: {min: 0.50, max: 1.35}
+    hard_control:
+      max_total_abilities: 2
+      max_repeatable_abilities: 1
+    damage:
+      max_expected_hit: 14.0
+      max_burst_expected_hit: 20.0
+  5:
+    at_will_effectiveness: {min: 1.45, max: 2.20}
+    resource_spend_effectiveness: {min: 2.00, max: 3.00}
+    control_strength: {min: 0.75, max: 1.75}
+    mobility_escape: {min: 0.65, max: 1.35}
+    survivability: {min: 0.70, max: 1.60}
+    investigation_divination: {min: 0.65, max: 1.55}
+    hard_control:
+      max_total_abilities: 3
+      max_repeatable_abilities: 1
+    damage:
+      max_expected_hit: 18.0
+      max_burst_expected_hit: 25.0
+  4:
+    at_will_effectiveness: {min: 1.70, max: 2.55}
+    resource_spend_effectiveness: {min: 2.30, max: 3.45}
+    control_strength: {min: 0.95, max: 2.05}
+    mobility_escape: {min: 0.80, max: 1.55}
+    survivability: {min: 0.90, max: 1.90}
+    investigation_divination: {min: 0.80, max: 1.80}
+    hard_control:
+      max_total_abilities: 3
+      max_repeatable_abilities: 2
+    damage:
+      max_expected_hit: 22.0
+      max_burst_expected_hit: 30.0
+  3:
+    at_will_effectiveness: {min: 2.00, max: 2.95}
+    resource_spend_effectiveness: {min: 2.70, max: 3.95}
+    control_strength: {min: 1.10, max: 2.35}
+    mobility_escape: {min: 0.95, max: 1.80}
+    survivability: {min: 1.10, max: 2.20}
+    investigation_divination: {min: 0.95, max: 2.05}
+    hard_control:
+      max_total_abilities: 4
+      max_repeatable_abilities: 2
+    damage:
+      max_expected_hit: 27.0
+      max_burst_expected_hit: 38.0
+  2:
+    at_will_effectiveness: {min: 2.35, max: 3.35}
+    resource_spend_effectiveness: {min: 3.15, max: 4.45}
+    control_strength: {min: 1.30, max: 2.70}
+    mobility_escape: {min: 1.10, max: 2.00}
+    survivability: {min: 1.25, max: 2.45}
+    investigation_divination: {min: 1.15, max: 2.25}
+    hard_control:
+      max_total_abilities: 4
+      max_repeatable_abilities: 2
+    damage:
+      max_expected_hit: 33.0
+      max_burst_expected_hit: 45.0
+  1:
+    at_will_effectiveness: {min: 2.75, max: 3.75}
+    resource_spend_effectiveness: {min: 3.60, max: 4.95}
+    control_strength: {min: 1.55, max: 3.05}
+    mobility_escape: {min: 1.30, max: 2.20}
+    survivability: {min: 1.45, max: 2.75}
+    investigation_divination: {min: 1.35, max: 2.45}
+    hard_control:
+      max_total_abilities: 5
+      max_repeatable_abilities: 3
+    damage:
+      max_expected_hit: 40.0
+      max_burst_expected_hit: 55.0
+  0:
+    at_will_effectiveness: {min: 3.15, max: 4.20}
+    resource_spend_effectiveness: {min: 4.10, max: 5.50}
+    control_strength: {min: 1.80, max: 3.40}
+    mobility_escape: {min: 1.45, max: 2.45}
+    survivability: {min: 1.70, max: 3.10}
+    investigation_divination: {min: 1.55, max: 2.75}
+    hard_control:
+      max_total_abilities: 6
+      max_repeatable_abilities: 3
+    damage:
+      max_expected_hit: 48.0
+      max_burst_expected_hit: 65.0
+
+guardrails:
+  low_sequence_window:
+    min_sequence: 7
+    max_sequence: 9
+    description: "Used for early-tier control-density limits."
+  low_sequence_hard_control:
+    max_per_sequence_record: 1
+    max_per_pathway_total: 2
+  low_sequence_repeatable_hard_control:
+    max_per_pathway_total: 1
+  out_of_band_cost_ratio:
+    description: "Effect score divided by (1 + spirituality spend)."
+    max_above_sequence_band: 0.70
+    min_below_sequence_band: 0.50
+  progression:
+    min_non_stub_abilities_per_sequence: 1
+    allow_stub_only_sequences: true
+    flag_empty_ability_arrays: true

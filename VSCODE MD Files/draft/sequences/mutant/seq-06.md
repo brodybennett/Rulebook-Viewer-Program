@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Chained Pathway: Sequence 6
 
 ## Wraith
@@ -57,6 +58,7 @@ id: mutant-seq-06-the-power-of-the-living-corpse
 name: The Power of the Living Corpse
 pathway: mutant
 sequence: 6
+status: canonical
 type: active
 action: full-round
 cost: {}
@@ -65,6 +67,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Restores vitality equal to half your maximum (rounded up) and applies temporary -3 CON on trigger.
 scaling: []
 tags:
 - mobility
@@ -80,6 +88,7 @@ text: 'Effect: You unleash a berserk attack that tears your opponent apart. Whil
   that you are gradually accelerating during the running process. Manifestation: While
   gaining the benefits of undead...'
 ```
+
 
 
 
@@ -102,6 +111,7 @@ id: mutant-seq-06-immortal-body
 name: Immortal Body
 pathway: mutant
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -110,6 +120,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No roll; fixed armor, damage reduction, and resistance values.
 scaling: []
 tags:
 - healing
@@ -124,6 +140,7 @@ text: 'Effect: Your body heals quickly. Trigger: Once per round, it triggers aut
   but directly end your life to take effect. For dying, see [[Special State]]. *Sequence
   5: Wraith state (referenc...'
 ```
+
 
 
 
@@ -149,6 +166,7 @@ id: mutant-seq-06-steel-skin
 name: Steel Skin
 pathway: mutant
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -157,6 +175,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - defense
@@ -170,6 +194,7 @@ text: 'Effect: Your skin is as hard as steel. Armor: Your armor is +6 (does not 
   weapon aimed at your head at close range (i.e., a vital blow), although it will
   not cause damage, it will still cause a stun state.'
 ```
+
 
 
 
@@ -197,6 +222,7 @@ id: mutant-seq-06-extraordinary-weight
 name: Extraordinary Weight
 pathway: mutant
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -205,6 +231,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -221,6 +253,7 @@ text: In Living Corpse state, your weight suddenly increases, and every step whe
   effect, you can restrain it as much as possible. (Extraordinary weight is not an
   independent extraordinary ability, but an ex...
 ```
+
 
 
 
@@ -245,15 +278,22 @@ id: mutant-seq-06-rotten-finger
 name: Rotten Finger
 pathway: mutant
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost:
-  spirituality: 4
-roll: null
+  spirituality: 2
+roll: 1d20 + @attr.int
 opposed_by: physical_defense
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: 3d6
+  heal_roll: null
+  effect_roll: null
+  notes: Damage also includes +2d6 poison; double damage against plants, spider silk, or hair. Occult identification can replace the raw Intuition check.
 scaling: []
 tags:
 - ritual
@@ -271,6 +311,7 @@ text: '*Rot control: you can accurately grasp the supernatural ability of the ro
   selected by Finger of Rot is a type of plant, spider silk, or hair, the damage dealt
   is doubled.'
 ```
+
 
 
 
@@ -294,15 +335,22 @@ id: mutant-seq-06-blessing-of-rot
 name: Blessing of Rot
 pathway: mutant
 sequence: 6
+status: canonical
 type: active
 action: swift
 cost:
-  spirituality: 2
+  spirituality: 1
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: 1 encounter
+dice:
+  check_roll: null
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Bonus 1d6 curse damage plus an additional 1d6 poison damage on hit.
 scaling: []
 tags:
 - ritual
@@ -314,6 +362,7 @@ text: 'Cost: 1 spirituality point Use: 1 Swift Action Duration: 1 encounter Effe
   part adds 1d6 curse and 1d6 poison damage. Special: Extra damage only; double the
   effect on plants, spider silk, and hair.'
 ```
+
 
 
 
@@ -340,15 +389,22 @@ id: mutant-seq-06-spreading-ice
 name: Spreading Ice
 pathway: mutant
 sequence: 6
+status: canonical
 type: active
 action: full-round
 cost:
-  spirituality: 2
+  spirituality: 1
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Ice wall has 10 HP and 10 defense; no roll to create.
 scaling: []
 tags:
 - ritual
@@ -365,6 +421,7 @@ text: '*Ice control: You have the extraordinary ability to master the cold, maki
   the target to lose a movement action and be shackled by ice. Bonus (Full-Round Action):
   As a Full-Round Action, expending 2 spiri...'
 ```
+
 
 
 
@@ -391,6 +448,7 @@ id: mutant-seq-06-ice-wall-consolidation
 name: Ice Wall Consolidation
 pathway: mutant
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost:
@@ -400,6 +458,12 @@ opposed_by: physical_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -416,6 +480,7 @@ text: 'Cost: 1 spirituality point Use: 1 Casting Action Effect: Create an ice wa
   and dodge of physical defense will not be affected, because you can dodge sideways
   at the moment the ice wall sh...'
 ```
+
 
 
 
@@ -441,15 +506,22 @@ id: mutant-seq-06-blessing-of-cold
 name: Blessing of Cold
 pathway: mutant
 sequence: 6
+status: canonical
 type: active
 action: swift
 cost:
-  spirituality: 2
+  spirituality: 1
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
 duration: 1 encounter
+dice:
+  check_roll: null
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Bonus 1d6 cold damage and -2 penalty to the target's next check on hit.
 scaling: []
 tags:
 - ritual
@@ -464,6 +536,7 @@ text: 'Cost: 1 spirituality point Use: 1 Swift Action Duration: 1 encounter Effe
   without cold resistance or balance ability will lose their balance if there is a
   big failure on the thin ice you walk on. (See [[Special Status]].)'
 ```
+
 
 
 
@@ -489,14 +562,21 @@ id: mutant-seq-06-ice-crystal-arrow
 name: Ice Crystal Arrow
 pathway: mutant
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: physical_defense
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Arrow is detected with DV 25 appraisal; otherwise treated as caught off guard. Redirecting the arrow uses a quick action.
 scaling: []
 tags:
 - detection
@@ -509,6 +589,7 @@ text: '*Sequence 5: You have gained an additional cold ability. Use: 1 Casting A
   direction of this ice crystal thin arrow and treat it as a special action without
   consuming your special-action slot.'
 ```
+
 
 
 
@@ -530,15 +611,22 @@ id: mutant-seq-06-manipulate-living-corpses
 name: Manipulate Living Corpses
 pathway: mutant
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost:
-  spirituality: 6
+  spirituality: 3
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Living corpse puppet attack deals 1d6 physical damage; puppet has listed fixed stats.
 scaling: []
 tags:
 - ritual
@@ -556,6 +644,7 @@ text: 'You can easily wake up dead corpses and cultivate puppets. This is a deat
   to cold, curse, and poison. Its attack causes 1d6 physical damage. It looks like
   an ordinary person but has many places on...'
 ```
+
 
 
 
@@ -587,14 +676,21 @@ id: mutant-seq-06-full-moon-curse
 name: Full Moon Curse
 pathway: mutant
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Observers can attempt DV 15 Intuition appraisal to sense your killing intent; full moon triggers madness.
 scaling: []
 tags:
 - debuff
@@ -608,6 +704,7 @@ text: 'Rule: Full Moon Curse is an inherent effect once possessing The Power of 
   into default to violent tendencies. The full moon shines: You immediately fall into
   a state of madness, and the desire for...'
 ```
+
 
 
 

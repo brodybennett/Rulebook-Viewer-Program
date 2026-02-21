@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Wheel of Fortune Pathway: Sequence 6
 
 > **Lore:** A Disaster Priest often encounters disasters passively, but can foresee them and prepare to eliminate or mitigate their impact. They leverage “luck” to avoid most dangers, attack amid chaos, and draw opponents into environments that favor them—sometimes even using passively encountered dangers as weapons.
@@ -43,16 +44,34 @@ id: fate-seq-06-disasters
 name: Disasters
 pathway: fate
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost:
-  spirituality: 6
-roll: null
+  spirituality: 3
+roll: 1d20 + @attr.luk
 opposed_by: none
 range: self
 target: self
 duration: The above disasters only last for **1 round**.
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.luk
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d3
+  notes: Effect roll maps daily disaster count; additional rolls include 1d24/1d59 timing and 1d10 lightning in some disasters.
+scaling:
+- when: passive_disaster_timing
+  changes:
+    effect_note: Roll 1d24 for hour and 1d59 for minutes to schedule each disaster.
+- when: chaos_out_of_control
+  changes:
+    damage_roll: 1d6
+    effect_note: Failed Luck check causes 1d6 physical damage from chaos.
+- when: thunderstorm_negative_enhancement
+  changes:
+    damage_roll: 1d10
+    effect_note: Big failure in a thunderstorm causes 1d10 lightning harm.
 tags:
 - ritual
 text: 'Passive: At 0:00 every day, roll 1d3 to determine how many disasters you encounter
@@ -61,6 +80,7 @@ text: 'Passive: At 0:00 every day, roll 1d3 to determine how many disasters you 
   In addition to 1d24, roll 1d59 for each disaster to determine how many minutes per
   hour. Active: Use: 1 Casting Action Cost: 3 spirituality points'
 ```
+
 
 
 
@@ -114,15 +134,26 @@ id: fate-seq-06-spiritual-storm
 name: Spiritual Storm
 pathway: fate
 sequence: 6
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.int
 opposed_by: physical_defense
 range: All targets within 20 meters from you as the center
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Intuition check contests physical defense; on success applies shock and a shared disaster effect.
+scaling:
+- when: spiritual_storm_active
+  changes:
+    effect_note: Big failure threshold increases by 2 for 1 round; omen magnification treats 1-7 as big failures.
 tags:
 - ritual
 - buff
@@ -135,6 +166,7 @@ text: 'Use: 1 Casting Action Cost: 3 spiritual points Targeting and range: All t
   the big failure judgment is increased by 2 points (that is, 1, 2, and 3 are all
   big failures).'
 ```
+
 
 
 

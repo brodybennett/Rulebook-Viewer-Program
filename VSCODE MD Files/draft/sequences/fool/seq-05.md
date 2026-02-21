@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Fool Pathway: Sequence 5
 
 ## Marionettist
@@ -55,18 +56,35 @@ id: fool-seq-05-spiritual-thread-vision
 name: Spiritual Thread Vision
 pathway: fool
 sequence: 5
-type: active
+status: canonical
+type: toggle
 action: free
 cost: {}
 roll: null
 opposed_by: none
-range: self
+range: 100m
 target: designated target(s)
-duration: instant
-scaling: []
+duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Detection utility with no explicit contested check in source text.
+scaling:
+- when: potion_digestion_progress_10
+  changes:
+    range: 120m
+- when: potion_digestion_progress_15
+  changes:
+    range: 200m
+- when: potion_fully_digested
+  changes:
+    range: 300m
 tags:
-- ritual
 - detection
+- divination
+- utility
 text: 'You can use the spiritual thread that exists in creatures with spiritual bodies
   to find hidden targets. Use: As a free action, you open astral thread vision (separate
   from [[clairvoyance]]) and gain the benefits below. Effect: You can see countless
@@ -77,6 +95,7 @@ text: 'You can use the spiritual thread that exists in creatures with spiritual 
   Therefore, by locating the spiritual body line, you can find targets in states such
   as [[advanced invisibi...'
 ```
+
 
 
 
@@ -105,19 +124,54 @@ id: fool-seq-05-manipulate-ethereal-threads
 name: Manipulate Ethereal Threads
 pathway: fool
 sequence: 5
+status: adapted
 type: active
 action: cast
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.int + @skill.spiritual_intuition
+opposed_by: willpower_defense
 range: 5m
 target: designated target(s)
-duration: instant
-scaling: []
+duration: sustained
+dice:
+  check_roll: 1d20 + @attr.int + @skill.spiritual_intuition
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Repeated contested checks build manipulation levels; defender formula in prose includes will and constitution terms.
+scaling:
+- when: target_tier_plus_2
+  changes:
+    effect_note: 6 successful checks required per +1 manipulation level.
+- when: target_tier_plus_1
+  changes:
+    effect_note: 5 successful checks required per +1 manipulation level.
+- when: target_same_tier
+  changes:
+    effect_note: 4 successful checks required per +1 manipulation level.
+- when: target_tier_minus_1
+  changes:
+    effect_note: 3 successful checks required per +1 manipulation level.
+- when: target_tier_minus_2
+  changes:
+    effect_note: 2 successful checks required per +1 manipulation level.
+- when: target_is_ordinary
+  changes:
+    effect_note: 1 successful check required per +1 manipulation level.
+- when: target_in_bloodbath_state
+  changes:
+    effect_note: Required successes are reduced by 1.
+- when: potion_digestion_progress_10_or_higher
+  changes:
+    effect_note: Required successes are reduced by 1 across the tier table.
+- when: potion_fully_digested
+  changes:
+    effect_note: Additional automatic successes apply after required-success thresholds are reached as described in prose.
 tags:
 - ritual
 - control
 - defense
+- hard_control
 text: 'You control the targets body by manipulating the targets ethereal threads.
   Use: 1 Casting Action. Choose 1 spiritual thread of a target within 5 meters; you
   start turning creatures into marionettes. Check: Use inspiration identification
@@ -128,6 +182,7 @@ text: 'You control the targets body by manipulating the targets ethereal threads
   (successes required per +1 manipulation level): 1 Targets 2 levels higher than yours:
   After 6 successful identifications,...'
 ```
+
 
 
 

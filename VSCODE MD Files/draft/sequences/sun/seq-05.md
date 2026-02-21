@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Sun Pathway: Sequence 5
 
 ## Priest of Light
@@ -48,15 +49,23 @@ id: sun-seq-05-divine-light
 name: Divine Light
 pathway: sun
 sequence: 5
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 4
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: physical_defense
 range: Choose 1 target within line of sight. People standing together are regarded
   as the same target.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: 4d6 + 2d6
+  heal_roll: null
+  effect_roll: null
+  notes: Ignores Agility (DEX) and Dodge; deals 4d6 holy and 2d6 fire damage.
 scaling: []
 tags:
 - ritual
@@ -72,6 +81,7 @@ text: 'You cause a pure, blazing, thick beam of light to fall from above out of 
   and 2d6 fire damage, enjoying the [[Restraint Effect]]. Special: Divine Light also
   has the scorching white visual effect associated with this ability.'
 ```
+
 
 
 
@@ -95,6 +105,7 @@ id: sun-seq-05-purification-aura
 name: Purification Aura
 pathway: sun
 sequence: 5
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -104,6 +115,12 @@ range: Affects an area within 50 meters. You can precisely control which creatur
   are affected (including yourself).
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -120,6 +137,7 @@ text: 'Your halo-like effect dyes the surroundings golden, spreading outward lay
   aura gain 5 points of resistance to curse, cold, and poison for 3 rounds. Stacking:
   This cannot be superimposed with holy...'
 ```
+
 
 
 
@@ -146,6 +164,7 @@ id: sun-seq-05-holy-rain
 name: Holy Rain
 pathway: sun
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -154,6 +173,12 @@ opposed_by: none
 range: Choose an area no longer than 50 meters.
 target: designated target(s)
 duration: 5 rounds.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: Holy rain applies restrained damage each round to dark/corrupt/undead; normal creatures gain listed resistances.
 scaling: []
 tags:
 - control
@@ -170,6 +195,7 @@ text: 'You create a rain of solar holy water. Use: 1 Casting Action. Targeting a
   to gain 5 points of curse, cold, and poison resistance. Special: This is a celestial
   phenomenon and environmental effect. Therefore,...'
 ```
+
 
 
 
@@ -194,14 +220,22 @@ id: sun-seq-05-holy-baptism
 name: Holy Baptism
 pathway: sun
 sequence: 5
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 4
 roll: null
 opposed_by: physical_defense
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d3
+  notes: Unwilling targets are opposed by Physical Defense; restrained targets also take restrained damage.
 scaling: []
 tags:
 - ritual
@@ -218,6 +252,7 @@ text: 'You purify the uncleanness and depravity of a creature. Use: 1 Casting Ac
   1d3 temporary sanity (cannot be superimposed) for 5 minutes (see [[Sanity / Rationality]]).
   This can offset the sanity loss of c...'
 ```
+
 
 
 
@@ -244,6 +279,7 @@ id: sun-seq-05-god-loves-the-world
 name: '"God Loves the World"'
 pathway: sun
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -252,6 +288,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -263,6 +305,7 @@ text: 'You change celestial phenomena to a certain extent and call out sunshine.
   cannot take effect, but the cleared effect can be reapplied by the cold ability,
   and the cold environment can also be recreated to cover the sun.'
 ```
+
 
 
 
@@ -284,6 +327,7 @@ id: sun-seq-05-additional-sun-domain-spells
 name: Additional Sun Domain Spells
 pathway: sun
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -292,12 +336,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
 text: For other Sun Domain spells, see the Sequence 7 Sun Domain spell list in the
   Sun pathway. Sequence 7 Ability List
 ```
+
 
 
 

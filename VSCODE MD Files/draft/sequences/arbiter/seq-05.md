@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Justiciar Pathway: Sequence 5
 
 > **Lore:** Violators should be punished.
@@ -38,7 +39,7 @@ tags:
 - Only when all crimes are punished as they should be punished can the Beyonder be promoted safely.
 - Generally speaking, anyone will break the law inadvertently in their life, so it is dangerous to assume one’s ordinary life is just and straightforward.
 - The fewer sins left unpaid, the easier it is to succeed in promotion.
-- What counts as a â€œsafeâ€ number of unpaid sins is GM-defined based on severity.
+- What counts as a "safe" number of unpaid sins is GM-defined based on severity.
 - Because it is generally impossible to completely count unconscious violations, it is normal to feel at least intense torture during promotion.
 - Once the promotion is completely completed, the Beyonder will feel a new life.
 
@@ -60,15 +61,23 @@ id: arbiter-seq-05-the-violator-shall-be-punished
 name: The Violator Shall Be Punished!
 pathway: arbiter
 sequence: 5
+status: canonical
 type: active
 action: attack
-cost: {}
+cost:
+  spirituality: 2
 roll: null
 opposed_by: none
 range: Choose 1 target within 50 meters that violates your **Forbidden Law**. [[Forbidden
   Law]]
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -79,6 +88,7 @@ text: 'Use: 1 Attack Action. Attack Action Cost: Consume 2 Spirituality. [[Spiri
   Attack]] This attack must hit (guaranteed hit). Limits: This cannot be used with
   [[id:alias-death|Death]] / [[Whiplash]] and other laws.'
 ```
+
 
 
 
@@ -98,16 +108,30 @@ id: arbiter-seq-05-punishment-target-biological-type
 name: 'Punishment Target: Biological Type'
 pathway: arbiter
 sequence: 5
+status: adapted
 type: active
 action: attack
-cost: {}
-roll: null
-opposed_by: none
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.str + @skill.fighting
+opposed_by: physical_defense
 range: Designate 1 target within 50 meters, then name the corresponding **creature
   type**. [[Creature Type]]
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.str + @skill.fighting
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted as a melee-attack rider; damage_roll represents additional damage on top of the underlying melee weapon strike.
+scaling:
+- when: target_is_undead_and_holy_conversion_applies
+  changes:
+    damage_roll: 2d6
+- when: cold_conversion_applies
+  changes:
+    effect_note: Target suffers -2 on next identification within 1 round and movement is halved (round up).
 tags:
 - ritual
 - buff
@@ -119,6 +143,7 @@ text: 'Use: 1 Attack Action. Attack Action Cost: Consume 3 Spirituality. [[Spiri
   the enemy to the greatest extent (see below). [[Damage Type]] Limits: This change
   excludes psychic damage. [[psychic damage]] #### Damage Type Conversion'
 ```
+
 
 
 
@@ -159,14 +184,22 @@ id: arbiter-seq-05-the-guilty-shall-be-restrained
 name: The Guilty Shall Be Restrained!
 pathway: arbiter
 sequence: 5
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 3
 roll: null
 opposed_by: physical_defense
 range: Choose 1 target within 50 meters.
 target: designated target(s)
 duration: The restriction effect lasts for **1 round**.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -181,6 +214,7 @@ text: 'Use: 1 Spellcasting Action. Spellcasting Action Cost: Consume 3 Spiritual
   defense -2 disadvantage. Agility (DEX) [[Evasion]] [[Mobility]] [[Physical Defense]]
   Disadvantage'
 ```
+
 
 
 

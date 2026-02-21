@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Justiciar Pathway: Sequence 6
 
 ## Judge
@@ -50,14 +51,21 @@ id: arbiter-seq-06-authority
 name: Authority
 pathway: arbiter
 sequence: 6
-type: active
+status: canonical
+type: toggle
 action: free
 cost: {}
 roll: null
 opposed_by: none
 range: All targets within 50 meters.
 target: designated target(s)
-duration: instant
+duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -72,6 +80,7 @@ text: 'Cost: None (no Spirituality required). Use: 1 Free Action to turn on/off.
   Sequence level will not be able to look directly at you, and targets lower than
   your level will directly bow their hea...'
 ```
+
 
 
 
@@ -98,6 +107,7 @@ id: arbiter-seq-06-prohibition
 name: Prohibition!
 pathway: arbiter
 sequence: 6
+status: canonical
 type: active
 action: swift
 cost:
@@ -107,6 +117,12 @@ opposed_by: none
 range: Choose 1 room/house within 50 meters (range) to affect.
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -122,6 +138,7 @@ text: 'You set new rules for a certain area; everything in the area must follow 
 
 
 
+
 You set new rules for a certain area; everything in the area must follow the rules and act.
 
 All Laws below require speaking the language that leverages the power of nature to use.  
@@ -130,10 +147,10 @@ All Laws below require speaking the language that leverages the power of nature 
 - **Cost:** 2 Spirituality.
 - **Use:** 1 **Swift Action**, 1 time per round.
 - **Targeting and range:** Choose 1 room/house within 50 meters (range) to affect.
-- **Effect:** Push your palm forward and say: â€œThis place is forbidden (forbidden content)!â€ You formulate a rule that everyone must obey.
+- **Effect:** Push your palm forward and say: "This place is forbidden (forbidden content)!" You formulate a rule that everyone must obey.
 - **Counteracting the prohibition decree:**
   - One must first act contrary to it.
-  - â€œRelevant attributes are identified as the difficulty of â€˜Law + Intuition (INT) + Willâ€™ against the judge.â€
+  - "Relevant attributes are identified as the difficulty of 'Law + Intuition (INT) + Will' against the judge."
   - It is forbidden to use Intuition (INT) to fight against teleportation, and it is forbidden to use Agility (DEX) to fight against concealment, and so on.
   - Even if you succeed in countering the law, your actions can only take effect once, and you still need to continue to fight the next execution.
   - If the confrontation fails, the action you perform will not be refunded.\r\n  - Resolve counteraction using the standard Prohibition check described above.
@@ -149,22 +166,22 @@ All Laws below require speaking the language that leverages the power of nature 
 1. **Prohibited ability/behavior**
    - You read out a type of extraordinary ability or prohibited behavior; the two are not contradictory.
    - Examples:
-     - â€œTeleportation is prohibited here!â€: [[Spirit World Shuttle]], [[Flame Leap]], [[Moon Flash]], etc. cannot be executed, but does not include swapping positions.
-     - â€œHiding is prohibited here!â€: [[Invisibility]] / [[shadow hiding]] is forced to reveal. [[Wraith]] is still a spirit body but exposed. Stealth behavior in the conventional sense will also force the body to leave the bunker so that the appearance is exposed to everyone.
-     - â€œFlying is prohibited here!â€: Flying units will immediately begin falling to the ground, but gliding/floating is not considered flying.
-   - A sentence of prohibition does not necessarily have only one content, but at most two. (Example: â€œFlying and floating are prohibited here!â€)  
+     - "Teleportation is prohibited here!": [[Spirit World Shuttle]], [[Flame Leap]], [[Moon Flash]], etc. cannot be executed, but does not include swapping positions.
+     - "Hiding is prohibited here!": [[Invisibility]] / [[shadow hiding]] is forced to reveal. [[Wraith]] is still a spirit body but exposed. Stealth behavior in the conventional sense will also force the body to leave the bunker so that the appearance is exposed to everyone.
+     - "Flying is prohibited here!": Flying units will immediately begin falling to the ground, but gliding/floating is not considered flying.
+   - A sentence of prohibition does not necessarily have only one content, but at most two. (Example: "Flying and floating are prohibited here!")  
      The two concepts banned together should be similar (example: flying is similar to floating; stealing is not similar to cheating).
    - **Special:** More than one creature will still be blocked by the law, but can consume 1 more spellcasting/attack to successfully execute the ability.
 
 2. **Forbidden to exist**
    - You read out that a creature type is forbidden, and the corresponding creature will be excluded immediately.
    - Examples:
-     - â€œGhosts and ghosts are forbidden hereâ€: ghost/ghost creatures are immediately repelled from the ruled area you designate and unable to enter again.
-     - â€œZombies and skeletons are prohibited hereâ€: same effect as above.
+     - "Ghosts and ghosts are forbidden here": ghost/ghost creatures are immediately repelled from the ruled area you designate and unable to enter again.
+     - "Zombies and skeletons are prohibited here": same effect as above.
    - To resist the forbidden existence, you need to make 1 **Will test** at the beginning of each round.
    - **Special:**
      - Direct prohibition of existence is invalid for targets with more than 1 character (GM-defined threshold).
-     - You must specify a type of creature; it cannot be broad. (Example: you can prohibit ghosts/living corpses/skeletons, but you cannot directly prohibit â€œthe deadâ€ and the existence of creatures.)
+     - You must specify a type of creature; it cannot be broad. (Example: you can prohibit ghosts/living corpses/skeletons, but you cannot directly prohibit "the dead" and the existence of creatures.)
 
 ### Imprisoned!
 
@@ -173,19 +190,30 @@ id: arbiter-seq-06-imprisoned
 name: Imprisoned!
 pathway: arbiter
 sequence: 6
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.int + @skill.law
 opposed_by: physical_defense
 range: Choose 1 target.
 target: designated target(s)
-duration: instant
-scaling: []
+duration: sustained
+dice:
+  check_roll: 1d20 + @attr.int + @skill.law
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d20
+  notes: Adapted from explicit Intuition plus Law versus Physical Defense check and wall-break threshold formula.
+scaling:
+- when: target_attempts_to_break_prison_wall
+  changes:
+    effect_note: Required break damage equals 1d20 plus Intuition plus Law of the judge at cast time.
 tags:
 - ritual
 - defense
-- offense
+- control
 text: 'Cost: 3 points of Spirituality. Use: 1 Spellcasting Action. Targeting and range:
   Choose 1 target. Check: Intuition (INT) + Law against physical defense; ignores
   armor. Effect: The target is considered to be in a [[Bound State]]. The targetaTMs
@@ -198,6 +226,7 @@ text: 'Cost: 3 points of Spirituality. Use: 1 Spellcasting Action. Targeting and
 
 
 
+
 > **Lore:** The surroundings of the target become viscous, as if forming a huge amber, or enclosing a sealed transparent wall.
 
 - **Cost:** 3 points of Spirituality.
@@ -206,8 +235,8 @@ text: 'Cost: 3 points of Spirituality. Use: 1 Spellcasting Action. Targeting and
 - **Check:** Intuition (INT) + Law against physical defense; ignores armor.
 - **Effect:**
   - The target is considered to be in a [[Bound State]].
-  - The targetâ€™s attack/displacement cannot reach the outside world, but the outside world can attack the target.
-  - To escape, it needs to cause damage equal to the judgeâ€™s â€œrd20 + Intuition (INT) + Lawâ€ to the wall. The external damage will also damage the wall when it hits the target.
+  - The target's attack/displacement cannot reach the outside world, but the outside world can attack the target.
+  - To escape, it needs to cause damage equal to the judge's "rd20 + Intuition (INT) + Law" to the wall. The external damage will also damage the wall when it hits the target.
   - **Special:**
     - Spiritual bodies cannot pass through the wall from the inside, but can enter from the outside.
     - Imprisonment is divided by area rather than creatures, so creatures that are possessed or overlapped will be imprisoned together.  
@@ -222,6 +251,7 @@ id: arbiter-seq-06-confinement
 name: Confinement!
 pathway: arbiter
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost:
@@ -231,6 +261,12 @@ opposed_by: none
 range: Choose a room/building or area within 50 meters.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -245,6 +281,7 @@ text: 'Cost: 3 Spirituality. Use: 1 Casting Action. Targeting and range: Choose 
   and can escape the range by taking actions to avoid the confinement effect, the
   countermeasure automatically fails.'
 ```
+
 
 
 
@@ -270,6 +307,7 @@ id: arbiter-seq-06-release
 name: Release!
 pathway: arbiter
 sequence: 6
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -278,6 +316,12 @@ opposed_by: none
 range: Choose within 50 meters; you can choose a target other than yourself.
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -287,6 +331,7 @@ text: 'This ability has two uses: Release your own effects Cost: None. Use: 1 Sw
   you created. Release another binding/sealing effect Cost: 3 Spirituality. Use: 1
   Spellcasting Action.'
 ```
+
 
 
 
@@ -304,7 +349,7 @@ This ability has two uses:
    - **Cost:** 3 Spirituality.
    - **Use:** 1 **Spellcasting Action**.
    - **Targeting and range:** Choose within 50 meters; you can choose a target other than yourself.
-   - **Effect (as written):**\r\n     - For non-spiritual binding/sealing effects: make an **Intuition (INT) + Law** check to break free; otherwise use the casterÃ¢â‚¬â„¢s **Intuition (INT) + Will** as the opposing check.\r\n     - For each **Sequence** the caster is higher than you: **-2 disadvantage** on the check.\r\n     - Apply normal disadvantage rules only; do not stack additional Ã¢â‚¬Å“characterÃ¢â‚¬Â penalties.\r\n     - The binding/closing effect achieved by the [[Black Emperor]] approach through distortion falls into this category.\r\n     - Distortion of behavior/intent, or an effect of loss of action similar to shock/spiritual body string, as long as there is no material restraint, does not belong to this category.
+   - **Effect (as written):**\r\n     - For non-spiritual binding/sealing effects: make an **Intuition (INT) + Law** check to break free; otherwise use the caster's **Intuition (INT) + Will** as the opposing check.\r\n     - For each **Sequence** the caster is higher than you: **-2 disadvantage** on the check.\r\n     - Apply normal disadvantage rules only; do not stack additional "character" penalties.\r\n     - The binding/closing effect achieved by the [[Black Emperor]] approach through distortion falls into this category.\r\n     - Distortion of behavior/intent, or an effect of loss of action similar to shock/spiritual body string, as long as there is no material restraint, does not belong to this category.
 
 - **Limits:** As described in this section's prose.
 
@@ -316,15 +361,29 @@ id: arbiter-seq-06-whip
 name: Whip!
 pathway: arbiter
 sequence: 6
+status: adapted
 type: active
 action: attack
-cost: {}
-roll: null
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.int + @skill.law
 opposed_by: physical_defense
 range: Choose 1 target within 5 meters.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.law
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Damage roll represents base whip die; add half Strength (rounded up) as stated in prose.
+scaling:
+- when: second_attack_in_chain
+  changes:
+    additional_cost: {spirituality: 1}
+- when: third_attack_in_chain
+  changes:
+    additional_cost: {spirituality: 1}
 tags:
 - ritual
 - stealth
@@ -337,6 +396,7 @@ text: 'Cost: 2 points of Spirituality (first attack). Use: 1 Attack Action. Targ
   is rounded up. You can attack up to three times in a row and make three identifications.
   Each additional identification consumes 1 more Spirituality.'
 ```
+
 
 
 
@@ -365,6 +425,7 @@ id: arbiter-seq-06-exile
 name: Exile!
 pathway: arbiter
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost:
@@ -374,6 +435,12 @@ opposed_by: none
 range: Choose 1 target within 50 meters.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -387,6 +454,7 @@ text: 'Cost: 3 Spirituality. Use: 1 Casting Action. Targeting and range: Choose 
 
 
 
+
 > **Lore:** Create an invisible majestic force that can even blow away spirit bodies.
 
 - **Cost:** 3 Spirituality.
@@ -394,7 +462,7 @@ text: 'Cost: 3 Spirituality. Use: 1 Casting Action. Targeting and range: Choose 
 - **Targeting and range:** Choose 1 target within 50 meters.
 - **Effect:**
   - You specify 1 direction; the target will be thrown.
-  - How many meters will be thrown depends on your â€œInspiration + Law.â€
+  - How many meters will be thrown depends on your "Inspiration + Law."
   - No need to identify.
   - You can choose air; stop after hitting an obstacle.
   - For every 2 points of Constitution the target has, the distance to be thrown is reduced by 1 meter (which may cause 1d6 physical damage from the fall).
@@ -410,15 +478,27 @@ id: arbiter-seq-06-death
 name: Death!
 pathway: arbiter
 sequence: 6
+status: adapted
 type: active
 action: attack
-cost: {}
-roll: null
+cost:
+  spirituality: 8
+roll: 1d20 + @attr.int + @skill.law
 opposed_by: physical_defense
 range: Select a target within 50 meters.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.law
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Damage is fixed-value based (Inspiration plus Law) in both modes, so no direct damage dice are encoded.
+scaling:
+- when: ranged_body_part_judgment_mode
+  changes:
+    action: cast
+    effect_note: Resolve as ranged fixed-value body-part judgment; does not take vital-hit penalty.
 tags:
 - ritual
 - defense
@@ -429,6 +509,7 @@ text: 'After declaring the target dead, you cause powerful damage. Targeting and
   (INT) + Legal identification against physical defense, ignoring agility and dodge;
   excluding targets that can [[Avoid light/lightning]]. Effect:'
 ```
+
 
 
 
@@ -445,14 +526,14 @@ After declaring the target dead, you cause powerful damage.
    - **Effect:**
      - Your body is united with some strange power, dragging afterimages to collide to the enemy.
      - This is a melee effect.
-     - The damage you deal will increase by a fixed value of â€œInspiration + Lawâ€ value; the damage type remains the same.
+     - The damage you deal will increase by a fixed value of "Inspiration + Law" value; the damage type remains the same.
 
 2. **Ranged body-part judgment**
    - **Cost:** 8 Spirituality.
    - **Use:** 1 **Casting Action**.
    - **Check:** Intuition (INT) + Legal identification against physical defense, ignoring agility and dodge; excluding targets that can [[Avoid light/lightning]].
    - **Effect:**
-     - You specify 1 of its body parts to only cause â€œInspiration + Lawâ€ fixation value damage.
+     - You specify 1 of its body parts to only cause "Inspiration + Law" fixation value damage.
      - This is a ranged effect (only for ranged use).
      - It does not take the hit penalty for a vital hit.
 

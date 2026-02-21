@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Moon Pathway: Sequence 9
 
 ## Apothecary
@@ -39,15 +40,29 @@ id: moon-seq-09-chemistry-and-pharmacy-learning
 name: Chemistry and Pharmacy Learning
 pathway: moon
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.int + @skill.pharmacy
+opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.pharmacy
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d3
+  notes: Check uses pharmacy (or chemistry) vs DV 20; effect roll maps preparation time in hours.
+scaling:
+- when: chemistry_preparation
+  changes:
+    effect_note: Chemistry can substitute for pharmacy on appropriate formulas.
+- when: restock_after_exhaustion
+  changes:
+    effect_roll: 1d7
+    effect_note: Roll 1d7 days to determine supplier replenishment after first exhaustion.
 tags:
 - debuff
 - buff
@@ -62,6 +77,7 @@ text: You can better master skills related to chemistry and pharmacy. If you acc
   done once a day. At character creation for higher Sequences, you can use twice the
   Intuition (INT) brought by potions to impro...
 ```
+
 
 
 
@@ -84,6 +100,7 @@ id: moon-seq-09-pharmacy-preparation
 name: Pharmacy Preparation
 pathway: moon
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -92,7 +109,22 @@ opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: 2d6
+  effect_roll: 1d2
+  notes: Heal roll maps the Healing Potion; effect roll maps sanity loss from certain agents.
+scaling:
+- when: healing_potion
+  changes:
+    effect_note: Restores 2d6 Vitality and accelerates wound recovery.
+- when: healing_secret_medicine
+  changes:
+    effect_note: Cures disease over 1-3 courses with 12-hour spacing.
+- when: analgesic_essential_oil
+  changes:
+    effect_note: Grants will-based replacement for physical checks; pain returns after duration, possibly causing sanity loss.
 tags:
 - utility
 text: 'Time: 1d3 hours. Check: Pharmacy or chemistry skill identification, Difficulty
@@ -105,6 +137,7 @@ text: 'Time: 1d3 hours. Check: Pharmacy or chemistry skill identification, Diffi
   replenish the amount of potions you can deploy; subsequent replenishment time is
   fixed every 7 days. If your...'
 ```
+
 
 
 
@@ -137,6 +170,7 @@ id: moon-seq-09-drinking-a-potion
 name: Drinking a Potion
 pathway: moon
 sequence: 9
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -145,11 +179,18 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
 text: 'Action: Drinking a potion is a Move Action, or 2 Swift Actions.'
 ```
+
 
 
 
@@ -167,6 +208,7 @@ id: moon-seq-09-pharmaceutical-agents
 name: Pharmaceutical Agents
 pathway: moon
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -175,6 +217,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - healing
@@ -189,6 +237,7 @@ text: 'Healing secret medicine: A medicine used to treat diseases and exorcise e
   longer cause effective effects. If the source of the poison or disease is one higher
   than the medicine maker:'
 ```
+
 
 
 
@@ -277,15 +326,41 @@ id: moon-seq-09-chemicals
 name: Chemicals
 pathway: moon
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.dex + @skill.throwing
 opposed_by: physical_defense
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.dex + @skill.throwing
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Base damage roll maps poison bottle damage per round until First Aid succeeds.
+scaling:
+- when: flame_explosion_bottle
+  changes:
+    damage_roll: 1d6 + 1d6
+    effect_note: Deals 1d6 fire and 1d6 physical damage on hit.
+- when: corruption_bottle
+  changes:
+    damage_roll: 2d4
+    effect_note: Deals 2d4 curse damage.
+- when: acid_bottle
+  changes:
+    effect_note: On success, target armor -2; if no armor, deal 1d6 poison damage.
+- when: explosive_gas
+  changes:
+    damage_roll: 2d4 + 1d4
+    effect_note: Gas detonation deals 2d4 physical and 1d4 fire damage.
+- when: liquid_nitrogen_bottle
+  changes:
+    damage_roll: 2d4
+    effect_note: Deals 2d4 cold damage; non-resistant targets suffer -2 on next check.
 tags:
 - debuff
 - defense
@@ -298,6 +373,7 @@ text: 'Poison bottle: Throwing skills against Physical Defense. Causes 1d6 poiso
   well. Flame Explosion Bottle: Throw against Physical Defense. Creates a miniature
   explosion; causes 1d6 fire damage and 1d6 physical damage.'
 ```
+
 
 
 
@@ -347,6 +423,7 @@ id: moon-seq-09-drug-identification
 name: Drug Identification
 pathway: moon
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -355,6 +432,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -369,6 +452,7 @@ text: 'About 5 minutes of component research, in a place with enough pharmaceuti
   the corresponding materials before you can configure them. For every material involved
   in a drug that is 1 Sequence...'
 ```
+
 
 
 
@@ -392,6 +476,7 @@ id: moon-seq-09-vision-vitality-focused
 name: Vision (Vitality-Focused)
 pathway: moon
 sequence: 9
+status: canonical
 type: toggle
 action: free
 cost: {}
@@ -400,6 +485,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -414,6 +505,7 @@ text: 'Activation: 1 free action; consume 1 [[Spirituality]] per round. While ac
   person''s illness is simply due to bad behavior or if it''s a witch''s disease.
   Spiritual body: You can confirm whether an object/...'
 ```
+
 
 
 
@@ -444,6 +536,7 @@ id: moon-seq-09-eco-friendliness
 name: Eco-Friendliness
 pathway: moon
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -452,6 +545,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - debuff
@@ -464,6 +563,7 @@ text: In general, potentially poisonous plants or dead animal parts will not har
   the animals or plants in cities usually do not meet the special requirements for
   pharmaceuticals. This is an explanation and cannot be recorded or stolen.
 ```
+
 
 
 

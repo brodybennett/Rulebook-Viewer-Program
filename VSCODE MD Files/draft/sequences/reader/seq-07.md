@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # White Tower Pathway: Sequence 7
 
 ## Meletes
@@ -47,6 +48,7 @@ id: reader-seq-07-fighting-skills
 name: Fighting Skills
 pathway: reader
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -55,6 +57,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: "1"
+  notes: Passive bonuses; Fighting adds +1d6 damage of the same type, and identification bonuses apply as listed.
 scaling: []
 tags:
 - detection
@@ -70,6 +78,7 @@ text: 'Effect: Your Fighting (including subdivisions) deals +1d6 damage of the s
   (examples: Gain Momentum, Aiming) from +2 to +4; only Impact Identification can
   increase to +4. [[Gain Momentu...'
 ```
+
 
 
 
@@ -93,6 +102,7 @@ id: reader-seq-07-on-site-restoration
 name: On-site Restoration
 pathway: reader
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -101,6 +111,12 @@ opposed_by: none
 range: An area up to 100 meters centered on you.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: No roll; reveals investigative clues about recent events in the area.
 scaling: []
 tags:
 - ritual
@@ -117,6 +133,7 @@ text: 'Cost: 2 points of Spirituality [[Spirituality]]. Use: 1 Casting Action Ca
   ability caused the death (example: flames). [[Damage Types]] If an Extraordinary
   battle occurred: how many Extraor...'
 ```
+
 
 
 
@@ -142,6 +159,7 @@ id: reader-seq-07-ritual-mastery
 name: Ritual Mastery
 pathway: reader
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -150,6 +168,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -163,6 +187,7 @@ text: 'Effect: While holding this ability, you gain access to ritual magic, rega
   [[God of Knowledge and Wisdom]] Corresponding celestial body: the blue star. [[Blue
   Star]] Materials: mercury, br...'
 ```
+
 
 
 

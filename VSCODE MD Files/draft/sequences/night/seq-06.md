@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Darkness Pathway: Sequence 6
 
 ## Nightwatcher
@@ -42,6 +43,7 @@ id: night-seq-06-requiem
 name: Requiem
 pathway: night
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -50,6 +52,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -66,6 +74,7 @@ text: 'Cost: 1 Casting Action; consume 3 Spirituality. Targeting and range: Sele
   is required: Mental states such as anger, fear, charm, temporary madness, indeterminate
   madness, and malice are immedia...'
 ```
+
 
 
 
@@ -97,6 +106,7 @@ id: night-seq-06-spiritual-vision
 name: Spiritual Vision
 pathway: night
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -105,6 +115,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -117,6 +133,7 @@ text: After reaching the level of Sequence 6, your high Intuition (INT) has real
   include [[information creatures]]. (This is the effect brought by 1 potion and cannot
   be stolen or recorded.)
 ```
+
 
 
 
@@ -138,6 +155,7 @@ id: night-seq-06-ritual-mastery
 name: Ritual Mastery
 pathway: night
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -146,6 +164,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -154,6 +178,7 @@ text: You gain access to ritual magic, able to invoke power from the gods. While
   skill is advanced or not. For the ritual magic you can use, refer to [[Common Ritual
   Magic]]. (This is the effect brought by 1 potion and cannot be stolen or recorded.)
 ```
+
 
 
 

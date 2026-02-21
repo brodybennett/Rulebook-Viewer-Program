@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Fool Pathway: Sequence 6
 
 ## Faceless
@@ -52,14 +53,21 @@ id: fool-seq-06-instant-recognition-and-recall
 name: Instant Recognition and Recall
 pathway: fool
 sequence: 6
-type: active
-action: cast
+status: canonical
+type: passive
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Passive memory and recognition benefit; no explicit random resolution in source text.
 scaling: []
 tags:
 - utility
@@ -72,6 +80,7 @@ text: From now on, as long as you have met a person, you can instantly remember 
   you can find them from the crowd at a glance; the GM decides whether this still
   applies if they disguise again.
 ```
+
 
 
 
@@ -93,6 +102,7 @@ id: fool-seq-06-metamorphosis
 name: Metamorphosis
 pathway: fool
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -100,8 +110,17 @@ roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
-scaling: []
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Form-change utility with no explicit contested check in source text.
+scaling:
+- when: potion_fully_digested_or_promoted
+  changes:
+    effect_note: Maximum height adjustment increases from +/-10cm to +/-15cm.
 tags:
 - ritual
 - buff
@@ -120,12 +139,13 @@ text: 'Use: 1 Casting Action. Cost: Without expending spirituality. Effect: You 
 
 
 
+
 - **Use:** 1 Casting Action.
 - **Cost:** Without expending **spirituality**.
 - **Effect:** You undergo a physically permanently altered disguise. You can permanently change into someone with a different appearance, but it is only a superficial change, not a real one.
-- **Additional effects:** This allows you to freely adjust **Charisma** between 1â€“6, but does not involve extraordinary strength.
+- **Additional effects:** This allows you to freely adjust **Charisma** between 1-6, but does not involve extraordinary strength.
 - **Limits and rules:**
-  1. You canâ€™t drastically change your body shape. You can only increase or decrease your height by 10 centimeters.
+  1. You can't drastically change your body shape. You can only increase or decrease your height by 10 centimeters.
      > **Lore:** This essentially fills your body with excess flesh and blood; increasing outward height implies losing the flesh and blood that previously filled your body.
   2. Transformation does not affect the essence; it only changes appearance, and cannot change with the clothes. At this stage, your change range is not enough to deform the clothes; at most, it is like painting the surface of the body with a layer of oil paint with the same color as the clothes.
   3. The essence and process of deformation is to adjust the position, color, smell, and characteristics of flesh and blood. Therefore, flesh and blood will wriggle and change to a certain extent; you can change skin color and become the appearance of the opposite sex, but it cannot affect your primary sexual characteristics.
@@ -142,15 +162,43 @@ id: fool-seq-06-other-extraordinary-ability-improvements
 name: Other Extraordinary Ability Improvements
 pathway: fool
 sequence: 6
-type: active
-action: cast
+status: canonical
+type: passive
+action: none
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.int + @skill.spiritual_intuition
+opposed_by: difficulty_value
 range: self
 target: self
-duration: instant
-scaling: []
+duration: persistent
+dice:
+  check_roll: 1d20 + @attr.int + @skill.spiritual_intuition
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Conditional roll mapping for anti-divination submode where prose shifts identification basis to Spiritual Intuition.
+scaling:
+- when: anti_divination_using_props
+  changes:
+    effect_note: Paper Doll Substitute is no longer required; anti-divination checks use Spiritual Intuition mapping.
+- when: manipulate_flames_used
+  changes:
+    effect_note: Manipulate Flames range becomes 40 meters.
+- when: flame_jump_used
+  changes:
+    effect_note: Flame Jump range becomes 40 meters.
+- when: air_bomb_used
+  changes:
+    effect_note: Air Bomb damage becomes 2d6 physical.
+- when: false_breathing_underwater_used
+  changes:
+    effect_note: Air tube length becomes 10 meters.
+- when: paper_soldier_used
+  changes:
+    effect_note: Created weapon lasts 7 minutes and breaks after 4 hard impacts.
+- when: illusion_used
+  changes:
+    effect_note: Illusion gains a temporary +1 bonus to Deception checks.
 tags:
 - divination
 - mobility
@@ -170,7 +218,8 @@ text: 'Anti-divination: You donaTMt need a [[Paper Doll Substitute]]; you can us
 
 
 
-- **Anti-divination:** You donâ€™t need a [[Paper Doll Substitute]]; you can use any divination props for anti-divination. This usage will not damage the divination props (for example, coin divination can be achieved by making coins roll and jump in the hand), but the occult identification is changed to inspiration identification.
+
+- **Anti-divination:** You don't need a [[Paper Doll Substitute]]; you can use any divination props for anti-divination. This usage will not damage the divination props (for example, coin divination can be achieved by making coins roll and jump in the hand), but the occult identification is changed to inspiration identification.
 - **Manipulate Fire:** The range of Manipulate Fire has been increased to 40 meters.
 - **Flame Leap:** The range of Flame Leap is increased to 40 meters.
 - **Air bomb:** Changed to 2d6 physical damage, comparable to the latest rifle.

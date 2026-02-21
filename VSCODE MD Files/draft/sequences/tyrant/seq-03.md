@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Tyrant Pathway: Sequence 3
 
 ## Sea King
@@ -39,6 +40,7 @@ id: tyrant-seq-03-dominate-sea-creatures
 name: Dominate Sea Creatures
 pathway: tyrant
 sequence: 3
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -47,6 +49,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: 2d6
+  heal_roll: null
+  effect_roll: 2d6
+  notes: Summons 2d6 sea creatures; each deals 2d6 melee damage.
 scaling: []
 tags:
 - control
@@ -55,6 +63,7 @@ text: 'Use: Swift Action Effect: You enslave and control sea creatures. You summ
   and control 2d6 sea creatures. Statistics of Summoned Sea Creatures: To hit: +8
   Hit Points: 30 Damage: 2d6 (melee) Attacks: 2 attacks per turn'
 ```
+
 
 
 
@@ -79,6 +88,7 @@ id: tyrant-seq-03-lightning-immunity
 name: Lightning Immunity
 pathway: tyrant
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -87,11 +97,18 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: Lightning damage immunity.
 scaling: []
 tags:
 - offense
 text: 'Effect: You are immune to lightning damage. [[Damage Types]]'
 ```
+
 
 
 
@@ -109,14 +126,21 @@ id: tyrant-seq-03-lightning-storm
 name: Lightning Storm
 pathway: tyrant
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + 20
 opposed_by: physical_defense
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + 20
+  damage_roll: 3d10
+  heal_roll: null
+  effect_roll: null
+  notes: Ignores Agility (DEX) and evasion; airborne/undead targets take +2d10 and lightning-state targets take +1d10; paralysis requires a DV 15 Constitution test (DV 20 if Wet).
 scaling: []
 tags:
 - ritual
@@ -127,6 +151,7 @@ text: 'Cost: 6 [[Spirituality]] Use: Casting Action Effect: You create a storm o
   damage. Attack Roll: +20 [[Disaster Attack Roll]] vs targets [[Physical Defense]]
   This attack ignores Agility (DEX) and evasion. [[Evasion]]'
 ```
+
 
 
 
@@ -194,6 +219,7 @@ id: tyrant-seq-03-ocean-perception
 name: Ocean Perception
 pathway: tyrant
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -202,6 +228,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - divination
@@ -211,6 +243,7 @@ text: 'Effect: While in contact with sea water, you can: Perceive events occurri
   abilities anywhere on the sea. Limits: This perception can be affected by anti-divination.
   [[id:alias-anti-divination|Anti-Divination]]'
 ```
+
 
 
 

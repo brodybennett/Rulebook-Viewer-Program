@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Red Priest Pathway: Sequence 6
 
 > **Lore:** A Conspirator becomes sharper-minded and more persuasive, with strong communication and information-gathering skills.
@@ -37,14 +38,21 @@ id: red-priest-seq-06-insight
 name: Insight
 pathway: red-priest
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.investigation
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.investigation
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: Detection appraisal DV 20 to identify false or inconsistent statements; passive +2 favorable to listed social/detection skills.
 scaling: []
 tags:
 - detection
@@ -58,6 +66,7 @@ text: 'Scouting, deception, persuasion, and speaking skill identification are +2
   of (2). (But you can''t directly guess the other party''s intentions and why they
   did this.)'
 ```
+
 
 
 
@@ -82,6 +91,7 @@ id: red-priest-seq-06-conspiracy
 name: Conspiracy
 pathway: red-priest
 sequence: 6
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -90,6 +100,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - social
@@ -102,6 +118,7 @@ text: 'You are good at plotting conspiracies. This is in the normal category of 
   a message by word/letter. Effect (message requirements): The information can be
   a lie/half-truth.'
 ```
+
 
 
 

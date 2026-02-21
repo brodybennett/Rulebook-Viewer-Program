@@ -54,7 +54,10 @@ PLAIN_LABEL_RE = re.compile(
     re.IGNORECASE,
 )
 
-ATTRIBUTE_LINE_RE = re.compile(r"\battribute\s+gain\b", re.IGNORECASE)
+ATTRIBUTE_LINE_RE = re.compile(
+    r"^\s*(?:[-*+]\s+)?(?:\*\*)?\s*attribute\s+gain\s*:\s*(?:\*\*)?\s*",
+    re.IGNORECASE,
+)
 SKILL_LINE_RE = re.compile(r"\bskill\s+(?:gain|increase)\b", re.IGNORECASE)
 ATTR_CHUNK_RE = re.compile(r"(?P<name>[A-Za-z][A-Za-z ()/\-']+?)\s*(?P<delta>[+\-]\d+)\b")
 SKILL_CHUNK_RE = re.compile(r"(?P<name>[A-Za-z][A-Za-z ()/\-']+?)\s*(?:\+|plus\s+)(?P<delta>\d+)\b", re.IGNORECASE)
@@ -642,6 +645,11 @@ def build_ability_record(
         record["type"] = ability_type
     if not isinstance(record.get("action"), str) or not str(record.get("action")).strip():
         record["action"] = action
+    if not isinstance(record.get("status"), str) or not str(record.get("status")).strip():
+        record["status"] = "canonical"
+    merged_stub_signal = norm_key(f"{body_text} {heading.title}")
+    if "imputed from lotm wiki pathway references" in merged_stub_signal:
+        record["status"] = "stub"
 
     if not isinstance(record.get("cost"), dict):
         record["cost"] = inferred_cost
@@ -664,11 +672,31 @@ def build_ability_record(
 
     if not isinstance(record.get("text"), str) or not str(record.get("text")).strip():
         record["text"] = body_text
+    if not isinstance(record.get("dice"), dict):
+        record["dice"] = {}
+    dice_obj = record.get("dice") if isinstance(record.get("dice"), dict) else {}
+    record["dice"] = {
+        "check_roll": dice_obj.get("check_roll") if isinstance(dice_obj.get("check_roll"), str) else None,
+        "damage_roll": dice_obj.get("damage_roll") if isinstance(dice_obj.get("damage_roll"), str) else None,
+        "heal_roll": dice_obj.get("heal_roll") if isinstance(dice_obj.get("heal_roll"), str) else None,
+        "effect_roll": dice_obj.get("effect_roll") if isinstance(dice_obj.get("effect_roll"), str) else None,
+        "notes": (
+            ascii_clean(str(dice_obj.get("notes")))
+            if str(dice_obj.get("notes") or "").strip()
+            else "No explicit dice expression in source text."
+        ),
+    }
+    if record.get("roll") is not None and isinstance(record.get("roll"), str) and record["dice"]["check_roll"] is None:
+        if str(record.get("roll")).strip():
+            record["dice"]["check_roll"] = str(record.get("roll")).strip()
 
     # Normalize a few fields for stable linting.
     record["id"] = str(record["id"]).strip().lower()
     record["id"] = re.sub(r"[^a-z0-9\-]+", "-", record["id"]).strip("-")
     record["name"] = ascii_clean(str(record["name"]))
+    record["status"] = norm_key(str(record.get("status") or "canonical")).replace(" ", "_")
+    if record["status"] not in {"canonical", "adapted", "homebrew", "stub"}:
+        record["status"] = "canonical"
     record["type"] = norm_key(str(record["type"]))
     record["action"] = norm_key(str(record["action"]))
     record["opposed_by"] = norm_key(str(record["opposed_by"])) if record.get("opposed_by") is not None else "none"
@@ -708,6 +736,8 @@ def build_ability_record(
         seen_tags.add(token)
         deduped_tags.append(token)
     record["tags"] = deduped_tags or ["utility"]
+    if record["status"] == "stub" and "stub" not in record["tags"]:
+        record["tags"].append("stub")
 
     record["_source"] = {
         "line": abs_line,
@@ -744,9 +774,10 @@ def make_imputed_ability(
 ) -> Dict[str, Any]:
     return {
         "id": f"{seq_id}-imputed-sequence-authority",
-        "name": f"{ascii_clean(sequence_name)} Authority",
+        "name": f"{ascii_clean(sequence_name)} Mechanics Stub",
         "pathway": pathway_slug,
         "sequence": sequence_num,
+        "status": "stub",
         "type": "passive",
         "action": "none",
         "cost": {},
@@ -755,12 +786,19 @@ def make_imputed_ability(
         "range": "self",
         "target": "self",
         "duration": "instant",
+        "dice": {
+            "check_roll": None,
+            "damage_roll": None,
+            "heal_roll": None,
+            "effect_roll": None,
+            "notes": "Stub record. Canon mechanics are intentionally unspecified.",
+        },
         "scaling": [],
-        "tags": ["utility"],
-        "text": "Imputed placeholder ability because source sequence lacks explicit extraordinary ability content.",
+        "tags": ["utility", "stub"],
+        "text": "Mechanical placeholder only. Canon mechanics pending source confirmation.",
         "_source": {
             "line": line,
-            "heading": "Imputed Sequence Authority",
+            "heading": "Mechanics Stub",
             "has_yaml": False,
             "imputed": True,
         },
@@ -860,6 +898,8 @@ def extract_sequence_record(
             if is_attribute_heading(h.title, section_lines):
                 attribute_payload = extract_attribute_gain(h.title, section_lines, attr_aliases)
                 continue
+            if "lore placeholder" in h.key or "canon lore" in h.key:
+                continue
             ability_heads.append(h)
 
         slug_counts: Dict[str, int] = defaultdict(int)
@@ -942,11 +982,24 @@ def extract_sequence_record(
 
     resolve_ability_id_collisions(abilities)
 
+    stub_count = sum(
+        1
+        for ability in abilities
+        if isinstance(ability, dict) and str(ability.get("status") or "").strip().lower() == "stub"
+    )
+    if stub_count == len(abilities):
+        sequence_status = "stub"
+    elif stub_count > 0:
+        sequence_status = "partial"
+    else:
+        sequence_status = "canonical"
+
     sequence_record: Dict[str, Any] = {
         "id": seq_id,
         "pathway": pathway_slug,
         "canonical_pathway": canonical_pathway,
         "sequence": sequence_num,
+        "status": sequence_status,
         "sequence_name": canonical_sequence_name,
         "source_sequence_name": source_sequence_name,
         "file": rel_path,

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Justiciar Pathway: Sequence 9
 
 ## Arbiter
@@ -45,14 +46,21 @@ id: arbiter-seq-09-reputation-growth
 name: Reputation Growth
 pathway: arbiter
 sequence: 9
-type: active
-action: cast
+status: canonical
+type: passive
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -70,13 +78,14 @@ text: 'Whenever you arbitrate a non-repetitive, challenging dispute and uphold j
 
 
 
+
 - Whenever you arbitrate a non-repetitive, challenging dispute and uphold justice, your **Reputation** [[Reputation]] skill goes up by 1 level.
 - Such increased Reputation:
   - Will not provide you with assets.
   - Will only increase your personal authority.
   - Can (at most) quickly increase to mastery. Skill Ranks
 - **Limit:** This improvement is limited to 1 time per day, so as to leave enough time for your reputation to start spreading.
-- From training â†’ proficient â†’ advanced, you need to preside over justice **2** and **3** times respectively; advancement caps at **Advanced**.
+- From training -> proficient -> advanced, you need to preside over justice **2** and **3** times respectively; advancement caps at **Advanced**.
 - Creating a character that isn't just promoted can boost growth skills with **double the potion's Intuition (INT)**. [[Potion]]
 
 - **Effect:** Reputation Growth resolves using its yaml ability block and section prose.
@@ -90,15 +99,25 @@ id: arbiter-seq-09-arbitrating-authority
 name: Arbitrating Authority
 pathway: arbiter
 sequence: 9
+status: adapted
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.cha + @skill.reputation
 opposed_by: willpower_defense
 range: self
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.cha + @skill.reputation
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted from explicit Reputation-based social replacement and conflict-stop contest against Willpower Defense.
+scaling:
+- when: target_is_preconfirmed_hostile
+  changes:
+    effect_note: Stop command does not apply.
 tags:
 - defense
 - social
@@ -112,6 +131,7 @@ text: 'Effect: Your Reputation and Charisma-related identification is favorable 
   The effect does not include the target that has been determined to be hostile. [[Hostile
   (status)]] It can temporarily...'
 ```
+
 
 
 
@@ -133,19 +153,30 @@ id: arbiter-seq-09-fighting-skills
 name: Fighting Skills
 pathway: arbiter
 sequence: 9
-type: active
-action: cast
+status: adapted
+type: passive
+action: none
 cost: {}
-roll: null
+roll: 1d20 + @attr.str + @skill.fighting
 opposed_by: none
 range: self
 target: self
-duration: instant
-scaling: []
+duration: persistent
+dice:
+  check_roll: 1d20 + @attr.str + @skill.fighting
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted as a persistent combat package; damage_roll is the extra fighting damage rider applied to normal attacks.
+scaling:
+- when: sequence_7_or_5_upgrade
+  changes:
+    effect_note: Extra evasion increases by 1 level at each listed upgrade.
 tags:
 - detection
 - buff
 - offense
+- defense
 text: 'Effect: Your Fighting (including subdivision) increases the damage by 1d6,
   and the damage type is the same as the original damage. In addition to [[Credit]]
   , your Fighting (including subdivision) skills can also be quickly improved. The
@@ -156,6 +187,7 @@ text: 'Effect: Your Fighting (including subdivision) increases the damage by 1d6
   excluding first aid / surprise attack, and does not affect special actions that
   simply gain benefits. For example, gaining moment...'
 ```
+
 
 
 
@@ -177,18 +209,34 @@ id: arbiter-seq-09-verdict
 name: Verdict
 pathway: arbiter
 sequence: 9
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
-opposed_by: none
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.cha + @skill.reputation
+opposed_by: willpower_defense
 range: Choose 1 target who has committed a crime within the [[Field of Vision]].
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.cha + @skill.reputation
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted from explicit Reputation versus Will contest to enforce crime-related ruling content.
+scaling:
+- when: target_sequence_higher_than_you
+  changes:
+    check_penalty_per_sequence: -2
+- when: ruling_executed_by_target
+  changes:
+    effect_note: Corresponding mysticism crime label is cleared and cannot be re-judged for the same offense on that target.
 tags:
 - ritual
 - detection
+- control
+- social
 text: 'Cost: 1 Casting Action Casting Action; consume 3 spirituality points [[Spirituality]].
   Targeting and range: Choose 1 target who has committed a crime within the [[Field
   of Vision]]. Use: Say the keyword judgment, then say the content of your judgment
@@ -197,6 +245,7 @@ text: 'Cost: 1 Casting Action Casting Action; consume 3 spirituality points [[Sp
   The content of the ruling specified by you should be closely related to the crime
   committed (for example, you cannot make the target kill itself for stealing).'
 ```
+
 
 
 
@@ -253,18 +302,35 @@ id: arbiter-seq-09-vision
 name: Vision
 pathway: arbiter
 sequence: 9
-type: active
+status: adapted
+type: toggle
 action: free
-cost: {}
-roll: null
-opposed_by: none
+cost:
+  spirituality: 1
+roll: 1d20 + @attr.int + @skill.spiritual_intuition
+opposed_by: difficulty_value
 range: self
-target: self
+target: designated target(s)
 duration: sustained
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.spiritual_intuition
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted check mapping for interpretation tasks while Vision is active; activation itself is a free toggle with upkeep.
+scaling:
+- when: vision_active
+  changes:
+    check_bonus: 1
+    effect_note: Spiritual Intuition tests gain +1 while Vision is active.
+- when: target_is_ordinary_spirit_body_under_24h
+  changes:
+    effect_note: Recently deceased ordinary spirit bodies are visible by default.
 tags:
 - ritual
 - detection
+- divination
+- utility
 text: 'Use: 1 free action. Cost: Consuming 1 spirituality point per round. Effect:
   You activate vision, and your vision gains the following benefits: Etheric body:
   You can roughly tell whether the other partys body is good or bad through the color
@@ -275,6 +341,7 @@ text: 'Use: 1 free action. Cost: Consuming 1 spirituality point per round. Effec
   body. When in the state of spiritual vision, your [[Spiritual Intuition Test]] is
   beneficial +1.'
 ```
+
 
 
 

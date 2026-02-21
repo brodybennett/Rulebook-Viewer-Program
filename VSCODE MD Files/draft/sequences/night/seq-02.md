@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Darkness Pathway: Sequence 2
 
 Mastering the secret can make things **secret** and become impossible to **see**. [6]
@@ -40,6 +41,7 @@ id: night-seq-02-stealth
 name: Stealth
 pathway: night
 sequence: 2
+status: canonical
 type: active
 action: free
 cost: {}
@@ -48,6 +50,12 @@ opposed_by: none
 range: line of sight
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - stealth
@@ -62,6 +70,7 @@ text: '*Stealth: You make a thing hidden. Use: As a free action, once per round,
   analogous to the [[Spirit World]]. It can be used for teleportation and movement,
   and can be considered an independe...'
 ```
+
 
 
 
@@ -126,14 +135,21 @@ id: night-seq-02-servant-of-concealment
 name: Servant of Concealment
 pathway: night
 sequence: 2
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.luk
+opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.luk
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Inspiration appraisal against DV 20 to sense concealed secrets.
 scaling: []
 tags:
 - detection
@@ -142,6 +158,7 @@ text: 'Use: After passing a difficulty 20 inspiration test, you can perceive the
   or designate a thing to sense. Effect: You know whether the other party is hiding
   something, or whether a thing has a secret.'
 ```
+
 
 
 

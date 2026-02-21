@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Moon Pathway: Sequence 0
 
 ## Moon
@@ -42,6 +43,7 @@ id: moon-seq-00-divine-gaze
 name: Divine Gaze
 pathway: moon
 sequence: 0
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -51,6 +53,12 @@ range: The area around the creature you are gazing through; you may use your ext
   abilities to target that area at will.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -59,6 +67,7 @@ text: 'Use: When any creature recites your True Name. Effect: You can gaze at th
   area at will. Targeting and range: The area around the creature you are gazing through;
   you may use your extraordinary abilities to target that area at will.'
 ```
+
 
 
 
@@ -79,6 +88,7 @@ id: moon-seq-00-mother-of-all-spirits
 name: Mother of All Spirits
 pathway: moon
 sequence: 0
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -87,6 +97,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -94,6 +110,7 @@ text: 'Use: While your gaze is upon your chosen target; especially while a Full 
   is present. Effect: The Spirit cost of your chosen target no longer applies while
   under your gaze.'
 ```
+
 
 
 
@@ -111,6 +128,7 @@ id: moon-seq-00-unique-red-moon
 name: Unique Red Moon
 pathway: moon
 sequence: 0
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -119,6 +137,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -131,6 +155,7 @@ text: 'Cost: One thought. Effect: You can use the moon to cover up the suns bril
   Moon will not have any mystic effects, equivalent to a dispelled moonlight block.
   [[Moonlight Block]]'
 ```
+
 
 
 

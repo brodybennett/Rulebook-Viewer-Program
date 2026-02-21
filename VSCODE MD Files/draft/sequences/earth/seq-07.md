@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Mother Pathway: Sequence 7
 
 **Pathway:** Earth Pathway.
@@ -47,6 +48,7 @@ id: earth-seq-07-harvest
 name: Harvest
 pathway: earth
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -55,6 +57,12 @@ opposed_by: none
 range: Choose a plant within 10 meters of you **or** throw one or multiple seeds.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -66,6 +74,7 @@ text: 'Cost: 3 spiritual points Use: 1 Casting Action Targeting and range: Choos
   contained in the land, excluding the land abandoned by the gods. [[Land Abandoned
   by the Gods]]'
 ```
+
 
 
 
@@ -171,6 +180,7 @@ id: earth-seq-07-manipulate-plants
 name: Manipulate Plants
 pathway: earth
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -179,6 +189,12 @@ opposed_by: none
 range: Choose a plant within 10 meters.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -188,6 +204,7 @@ text: 'Cost: 3 spiritual points Use: 1 spellcasting action Targeting and range: 
   attack You manipulate a plant, launching one of its executable actions. Entangle
   yourself You make a plant entangle yourself or others.'
 ```
+
 
 
 

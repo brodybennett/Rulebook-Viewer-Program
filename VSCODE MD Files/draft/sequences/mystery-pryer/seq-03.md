@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Hermit Pathway: Sequence 3
 
 ## Mysticism Magister
@@ -34,15 +35,34 @@ id: mystery-pryer-seq-03-prophecy
 name: Prophecy
 pathway: mystery-pryer
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.int
+opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Intuition appraisal against DV tiers; great success or big failure outcomes remain prose-driven.
+scaling:
+- when: check_result_meets_dv_15
+  changes:
+    effect_note: At least one yes-or-no answer.
+- when: check_result_meets_dv_20
+  changes:
+    effect_note: General picture with limited clues.
+- when: check_result_meets_dv_25
+  changes:
+    effect_note: Clearer and more intuitive picture.
+- when: check_result_meets_dv_30
+  changes:
+    effect_note: Foretell helpful people or things to contact next.
 tags:
 - divination
 text: 'Effect: You spy on the secret of future destiny. This effect can accurately
@@ -54,6 +74,7 @@ text: 'Effect: You spy on the secret of future destiny. This effect can accurate
   Foretell the people or things you should contact nextwho will be helpful to you.
   Outcome Modifiers:'
 ```
+
 
 
 

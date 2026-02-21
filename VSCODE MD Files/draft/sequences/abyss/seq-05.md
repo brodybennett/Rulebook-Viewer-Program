@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Abyss Pathway: Sequence 5
 
 ## Desire Apostle
@@ -50,16 +51,29 @@ id: abyss-seq-05-control-desires
 name: Control Desires
 pathway: abyss
 sequence: 5
+status: adapted
 type: active
-action: move
+action: cast
 cost:
-  spirituality: 4
+  spirituality: 2
 roll: null
 opposed_by: none
 range: Choose 1 target in your field of vision who is already in an emotional state.
 target: designated target(s)
-duration: instant
-scaling: []
+duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Composite emotional-control kit; individual sub-effects use their own listed DV checks and constitution-linked damage conversions.
+scaling:
+- when: detonate_desire_extreme_emotion
+  changes:
+    effect_note: Immediate loss equals (20 - target constitution), with remaining value converted to d6 damage dice.
+- when: seed_planted
+  changes:
+    effect_note: Stored emotional state can be remotely treated as catalyzed/detonated later.
 tags:
 - ritual
 - detection
@@ -71,6 +85,7 @@ text: 'You exploit and manipulate emotions and desires, inducing corruption. ###
   emotional state. Limits: Disguised emotion cannot be catalyzed. Uncatalyzed emotions
   can be calmed after 1 round by meditating as a casting/Move Action.'
 ```
+
 
 
 
@@ -259,6 +274,7 @@ id: abyss-seq-05-sense-of-depravity
 name: Sense of Depravity
 pathway: abyss
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -267,6 +283,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -281,6 +303,7 @@ text: 'You perceive a desire to approach depravity in those around you. Special:
   as the emotion is perceived by you, even if the target is not within your field
   of vision, you can remotely: use your desire to control it, catalyze the emotion,'
 ```
+
 
 
 
@@ -309,16 +332,30 @@ id: abyss-seq-05-incarnation-of-desire
 name: Incarnation of Desire
 pathway: abyss
 sequence: 5
+status: adapted
 type: active
 action: swift
 cost:
-  spirituality: 4
-roll: null
-opposed_by: none
+  spirituality: 2
+roll: 1d20 + @attr.dex + @skill.stealth
+opposed_by: difficulty_value
 range: self
 target: self
 duration: sustained
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.dex + @skill.stealth
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted roll mapping for stealth/mobility resolution while transformed; grapple mental-shock branch follows Horn of Arrogance rules.
+scaling:
+- when: transformed_liquid_state
+  changes:
+    check_bonus: 8
+    effect_note: Gain fluid-body movement options and lose armor/reduction benefits.
+- when: target_sequence_higher
+  changes:
+    effect_note: Effect fails.
 tags:
 - ritual
 - stealth
@@ -331,6 +368,7 @@ text: 'You transform your body into an illusory, viscous black liquid of various
   on Stealth checks; you can seep through floors, into walls, into tiny crevices,
   and even flow down ceilings. Limits:'
 ```
+
 
 
 

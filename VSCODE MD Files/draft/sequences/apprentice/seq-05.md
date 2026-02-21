@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Door Pathway: Sequence 5
 
 ## Traveler
@@ -38,6 +39,7 @@ id: apprentice-seq-05-traveler-s-gate
 name: Traveler's Gate
 pathway: apprentice
 sequence: 5
+status: adapted
 type: active
 action: cast
 cost: {}
@@ -46,7 +48,22 @@ opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit fixed roll expression in source text; this block tracks two action-economy modes and their movement effects.
+scaling:
+- when: long_distance_spirit_world_travel_mode
+  changes:
+    action: cast
+    effect_note: Travel distance scales to Intuition + Willpower + half Constitution (rounded up) kilometers.
+- when: short_distance_continuous_flash_mode
+  changes:
+    action: swift
+    max_flashes_per_round: 12
+    effect_note: Each flash is up to 6 meters and grants free-action-priority evasive repositioning until flash budget is consumed.
 tags:
 - ritual
 - detection
@@ -59,6 +76,7 @@ text: '*Traveler''s Gate is also referred to as the Gate of Teleportation. It en
   you can always sense the reality of the outside world while in the Spirit World.
   You can transmit up to inspiration + will + half constitution (rounded up) km.'
 ```
+
 
 
 
@@ -93,20 +111,32 @@ id: apprentice-seq-05-invisible-hand
 name: Invisible Hand
 pathway: apprentice
 sequence: 5
+status: adapted
 type: active
 action: attack
 cost: {}
-roll: null
-opposed_by: none
-range: line of sight
+roll: 1d20 + @attr.str + @skill.fighting
+opposed_by: physical_defense
+range: line of sight (effective interaction span scales with Intuition)
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.str + @skill.fighting
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted remote-contact attack roll token. If using this to deliver another touch ability, resolve with that ability's own roll/effects.
+scaling:
+- when: using_touch_or_opening_ability_through_hand
+  changes:
+    effect_note: Use the delivered ability's normal roll, cost, and effects.
+- when: intuition_increases
+  changes:
+    effect_note: Reach and manipulation breadth of the invisible hand increase with Intuition.
 tags:
-- healing
 - stealth
-- mobility
 - offense
+- utility
 text: 'Effect: You can take pictures from a distance. You are considered to be able
   to capture objects at any position equal to the range of Intuition (INT), perform
   attack actions, or perform abilities that require physical contact (such as opening
@@ -114,6 +144,7 @@ text: 'Effect: You can take pictures from a distance. You are considered to be a
   can dabble. Special: The invisible hand does not lose health. It has a Strength
   attribute equal to your Strength. It cannot work outside of line of sight.'
 ```
+
 
 
 
@@ -137,15 +168,30 @@ id: apprentice-seq-05-records
 name: Records
 pathway: apprentice
 sequence: 5
-type: active
-action: cast
+status: canonical
+type: passive
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
-scaling: []
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
+scaling:
+- when: base_capacity
+  changes:
+    capacity_seq_4_to_3: 4
+    capacity_seq_6_to_5: 15
+    capacity_seq_9_to_7: 30
+- when: recording_sequence_4_to_3_abilities
+  changes:
+    effect_note: Sequence 4-3 records are no longer halved.
 tags:
 - buff
 text: 'Effect: The number and strength of Extraordinary Abilities you can record have
@@ -153,6 +199,7 @@ text: 'Effect: The number and strength of Extraordinary Abilities you can record
   4 Sequence 4-3 abilities 15 Sequence 6-5 abilities 30 Sequence 9-7 abilities The
   effects of Sequence 4-3 abilities will no longer be halved.'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Red Priest Pathway: Sequence 8
 
 > **Lore:** Good at provoking others with casual words and actions.
@@ -45,15 +46,22 @@ id: red-priest-seq-08-provoke
 name: Provoke
 pathway: red-priest
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost:
-  spirituality: 4
-roll: null
+  spirituality: 2
+roll: 1d20 + @attr.int - 4
 opposed_by: willpower_defense
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int - 4
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Situation 1 uses Intuition -4 vs Willpower Defense; Situation 2 uses Intuition vs Willpower Defense; Situation 3 is automatic success.
 scaling: []
 tags:
 - ritual
@@ -70,6 +78,7 @@ text: 'Use: You provoke a creature. You must use verbal roleplay (to provoke or 
   fallen into a state of death, fainting, or helplessness. [[id:alias-death|Death]]
   [[Fainting]] [[Helplessness]]'
 ```
+
 
 
 

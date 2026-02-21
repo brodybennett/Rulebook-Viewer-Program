@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Black Emperor Pathway: Sequence 7
 
 ## Briber
@@ -39,15 +40,30 @@ id: black-emperor-seq-07-bribe
 name: Bribe
 pathway: black-emperor
 sequence: 7
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.dex + @skill.throwing
 opposed_by: physical_defense
 range: Maximum of 1 target affected at a time.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.dex + @skill.throwing
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Throwing activation uses a check against Physical Defense; giving and suggestion activations resolve without a check.
+scaling:
+- when: activation_method_is_giving_or_suggestion
+  changes:
+    check_roll: null
+    effect_note: Bribe resolves when the target accepts the object or follows the suggestion.
+- when: target_sequence_higher_than_1_and_bribe_type_is_weaken_attack
+  changes:
+    effect_roll: 1d10
 tags:
 - ritual
 - defense
@@ -60,6 +76,7 @@ text: 'Cost: 3 points of [[Spirituality]] Targeting and range: Maximum of 1 targ
   Defense]]. As long as the target cannot avoid light/lightning, the ability takes
   effect even if the Identification fails, but it does not cause damage.'
 ```
+
 
 
 

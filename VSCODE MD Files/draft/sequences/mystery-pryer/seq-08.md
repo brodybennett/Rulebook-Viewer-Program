@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Hermit Pathway: Sequence 8
 
 ## Meister of Weaponry
@@ -61,6 +62,7 @@ id: mystery-pryer-seq-08-combat-magic
 name: Combat Magic
 pathway: mystery-pryer
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -69,11 +71,18 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
 text: Combat Magic ability details are defined in the source markdown.
 ```
+
 
 
 
@@ -89,6 +98,7 @@ id: mystery-pryer-seq-08-armor-of-knowledge
 name: Armor of Knowledge
 pathway: mystery-pryer
 sequence: 8
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -97,6 +107,12 @@ opposed_by: physical_defense
 range: Self
 target: designated target(s)
 duration: 1 round
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -107,6 +123,7 @@ text: 'Cost: 2 [[Spirituality]] Use: Swift Action Effect: Intangible, undecipher
   to (max(Education, Intuition (INT)) + Occult) / 3, rounded down. [[Physical Defense]]
   [[Armor]]'
 ```
+
 
 
 
@@ -127,6 +144,7 @@ id: mystery-pryer-seq-08-invisible-servant
 name: Invisible Servant
 pathway: mystery-pryer
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -135,6 +153,12 @@ opposed_by: none
 range: self
 target: self
 duration: Disappears after 24 hours.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -145,6 +169,7 @@ text: 'Cost: 3 [[Spirituality]] Use: Casting Action; you need to pinch your lips
   The servant has 12 Vitality (every 1 point of Intuition (INT), life value +1). [[Vitality]]
   Duration: Disappears after 24 hours.'
 ```
+
 
 
 
@@ -163,14 +188,22 @@ id: mystery-pryer-seq-08-fist-of-fighting
 name: Fist of Fighting
 pathway: mystery-pryer
 sequence: 8
+status: canonical
 type: active
 action: attack
-cost: {}
-roll: null
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.int + @skill.fighting
 opposed_by: physical_defense
 range: Against a target (range not specified).
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.fighting
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Uses Intuition instead of Strength for attack and strength-damage bonus (max bonus equivalent to 10 Strength).
 scaling: []
 tags:
 - ritual
@@ -183,6 +216,7 @@ text: 'Cost: 2 [[Spirituality]] Use: Casting Action or Attack Action Effect: Ext
   (INT) instead of Strength to gain a Strength damage bonus. Limits: The bonus you
   get can only be equal to a maximum of 10 Strength.'
 ```
+
 
 
 
@@ -205,6 +239,7 @@ id: mystery-pryer-seq-08-the-palm-of-counterattack
 name: The Palm of Counterattack
 pathway: mystery-pryer
 sequence: 8
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -213,6 +248,12 @@ opposed_by: none
 range: self
 target: self
 duration: 1 round
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -221,6 +262,7 @@ text: 'Cost: 2 [[Spirituality]] Use: Swift Action Duration: 1 round Trigger: Whe
   you receive a melee attack, no matter what state you are in. Effect: You can counterattack
   the source of the attack.'
 ```
+
 
 
 
@@ -241,6 +283,7 @@ id: mystery-pryer-seq-08-acceleration
 name: Acceleration
 pathway: mystery-pryer
 sequence: 8
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -249,6 +292,12 @@ opposed_by: none
 range: self
 target: self
 duration: 1 round
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -258,6 +307,7 @@ text: 'Cost: 2 [[Spirituality]] Use: Swift Action Duration: 1 round Effect: Your
   a movement bonus equal to your Intuition (INT) divided by 2. You gain Fast Dodge
   (defined below). [[Movement Bonus]]'
 ```
+
 
 
 
@@ -281,6 +331,7 @@ id: mystery-pryer-seq-08-fast-dodge
 name: Fast Dodge
 pathway: mystery-pryer
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -289,6 +340,12 @@ opposed_by: physical_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - defense
@@ -296,6 +353,7 @@ text: 'Effect: You retain full physical defense against guns (light / lightning 
   this), and gain 1 extra level of dodge. Reference: (For extra dodge, see Defense
   and Dodge Types) [[Defense and Dodge Types]]'
 ```
+
 
 
 

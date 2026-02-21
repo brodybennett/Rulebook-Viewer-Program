@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Sun Pathway: Sequence 8
 
 ## Light Suppliant
@@ -44,6 +45,7 @@ id: sun-seq-08-white-vision
 name: White Vision
 pathway: sun
 sequence: 8
+status: canonical
 type: toggle
 action: swift
 cost: {}
@@ -52,6 +54,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -61,6 +69,7 @@ text: 'Cost: 1 [[Spirituality]] per minute while active. Use: 1 Swift Action to 
   revealed. Limits: This ability belongs to [[Summoning Light]]. If Summoning Light
   is lost, this ability disappears (and vice versa).'
 ```
+
 
 
 
@@ -84,14 +93,22 @@ id: sun-seq-08-brightness
 name: Brightness
 pathway: sun
 sequence: 8
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 2
 roll: null
 opposed_by: none
 range: With you as the center, you illuminate a 10-meter area with divine power.
 target: designated target(s)
 duration: Maintenance continues to consume Casting Actions.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: Applies restrained damage each round to dark/corrupt/undead in the area; costs 2 spirituality per round.
 scaling: []
 tags:
 - ritual
@@ -107,6 +124,7 @@ text: 'Use: 1 Casting Action. Cost: Each round consumes 2 [[Spirituality]]. Dura
   [[Holy Damage]] equal to your Restrained Damage each round. [[Resentful Soul]] is
   exposed to spiritual vision; when taking damage, its body begins to vaporize.'
 ```
+
 
 
 
@@ -136,14 +154,22 @@ id: sun-seq-08-call-the-holy-light
 name: Call the Holy Light
 pathway: sun
 sequence: 8
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: physical_defense
 range: Choose 1 target within your field of vision.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: 2d6 + 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Ignores Agility (DEX) and Evasion; Sequence 7 damage is 3d6 holy + 1d6 fire.
 scaling: []
 tags:
 - ritual
@@ -156,6 +182,7 @@ text: 'Use: 1 Casting Action. Cost: Consume 3 [[Spirituality]]. Targeting and ra
   and 1d6 Fire damage. Sequence 7: Damage changes to 3d6 Holy damage and 1d6 Fire
   damage.'
 ```
+
 
 
 
@@ -179,14 +206,22 @@ id: sun-seq-08-purification
 name: Purification
 pathway: sun
 sequence: 8
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
-opposed_by: none
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.int + @skill.occultism
+opposed_by: physical_defense
 range: Choose 1 target within 10 meters.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Voluntary targets are purified without a check; involuntary targets use Occult vs Physical Defense. Voluntary restrained targets take 1d6 holy damage.
 scaling: []
 tags:
 - ritual
@@ -201,6 +236,7 @@ text: 'Use: 1 Casting Action. Cost: Consume 2 [[Spirituality]]. Targeting and ra
   Special (Voluntary restrained creature): It deals 1d6 Holy damage and the creature
   is restrained, although it also clears the effect.'
 ```
+
 
 
 
@@ -236,6 +272,7 @@ id: sun-seq-08-sun-path-restraint
 name: Sun Path Restraint
 pathway: sun
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -244,6 +281,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: "1"
+  notes: Adds +1d6/+2d6/+3d6 holy damage versus dark/corrupt/undead respectively.
 scaling: []
 tags:
 - control
@@ -259,6 +302,7 @@ text: 'Restraint Rule: Holy Damage is restrained against three creature typesdar
   listed separately (e.g., Brightness). Creature typing is marked in the corresponding
   pathways (example: [[Moon...'
 ```
+
 
 
 
@@ -283,6 +327,7 @@ id: sun-seq-08-solar-rituals
 name: Solar Rituals
 pathway: sun
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -291,6 +336,12 @@ opposed_by: physical_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -301,6 +352,7 @@ text: 'You have mastered some rituals in the solar realm. This is knowledge brou
   A general ritual process of about 5 minutes. Creates: 1 bottle of [[Solar Holy Water]]
   (golden liquid). Solar Holy Water (use): Resolution: Throwing against Physical Defense.'
 ```
+
 
 
 

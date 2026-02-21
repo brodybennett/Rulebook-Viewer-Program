@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Demoness Pathway: Sequence 7
 
 > **Lore:** Advancing to Witch reshapes the body toward striking beauty and charm.
@@ -50,6 +51,7 @@ id: demoness-seq-07-mysticism-growth-and-identity-effects
 name: Mysticism Growth and Identity Effects
 pathway: demoness
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -58,6 +60,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - divination
@@ -68,6 +76,7 @@ text: 1 Your [[Mysticism]] has been included in the rapid growth category of Seq
   because of the wrong gender designation, as if you evaporated. Only correct divinations
   that assume you are female and point to your new name (if any) will work.
 ```
+
 
 
 
@@ -87,14 +96,22 @@ id: demoness-seq-07-curse
 name: Curse
 pathway: demoness
 sequence: 7
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 3
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -109,6 +126,7 @@ text: 'You can add a curse to the target or perform a curse ceremony through var
   target is an ordinary person and knows that they are cursed by you, they may also
   fall into a state of fear of you. #### Curs...'
 ```
+
 
 
 
@@ -143,6 +161,7 @@ id: demoness-seq-07-ritual-of-curse
 name: Ritual of Curse
 pathway: demoness
 sequence: 7
+status: canonical
 type: active
 action: full-round
 cost: {}
@@ -151,6 +170,12 @@ opposed_by: none
 range: The casting range covers a city.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -162,6 +187,7 @@ text: 'You cast a large area-specific curse through ritual magic. Duration/Upkee
   Prayed God: The default is Chick, the Primordial Witch. #### Site Setup First select
   an altar area with a radius of 10 meters. Prepare the initial ceremony in 5 minutes.'
 ```
+
 
 
 
@@ -218,15 +244,47 @@ id: demoness-seq-07-black-flame
 name: Black Flame
 pathway: demoness
 sequence: 7
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
-opposed_by: none
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.int + @skill.occultism
+opposed_by: physical_defense
 range: Choose 1 target within 30 meters
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: 3d6
+  heal_roll: null
+  effect_roll: 1d6
+  notes: Baseline maps the explicit remote-attack profile; melee, combo-split, and sequence-tier variants are captured in scaling.
+scaling:
+- when: black_flame_circles_mode
+  changes:
+    action: swift
+    effect_note: Next ranged attack ignores Agility/Dodge contributions in Physical Defense and extends range to 50 meters.
+- when: melee_attack_mode
+  changes:
+    action: attack
+    check_roll: 1d20 + @attr.str + @skill.fighting
+    damage_roll: 2d6 + @attr.str
+    effect_note: Melee black flame damage ignores armor and can be weapon-wrapped.
+- when: split_burst_combo_mode
+  changes:
+    effect_roll: 1d6
+    effect_note: Each 1d6 can be resolved as separate hit rolls, up to three rolls total.
+- when: sequence_6_or_higher
+  changes:
+    damage_roll: 4d6
+- when: sequence_5_or_higher
+  changes:
+    damage_roll: 5d6
+- when: sequence_4_or_higher
+  changes:
+    damage_roll: 7d6
+    effect_note: Can designate which life/spiritual targets are burned.
 tags:
 - ritual
 - debuff
@@ -241,6 +299,7 @@ text: 'You have been favored by the Black Flame. A hot and treacherous black fla
   resistance and the ignored resistance therefore overflows, the ignored resistance
   is changed to a damage bonus. #### Remote Attack'
 ```
+
 
 
 
@@ -304,15 +363,41 @@ id: demoness-seq-07-frost-mastery
 name: Frost Mastery
 pathway: demoness
 sequence: 7
+status: adapted
 type: active
 action: attack
-cost: {}
-roll: null
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.str + @skill.fighting
 opposed_by: physical_defense
 range: self
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.str + @skill.fighting
+  damage_roll: 3d6 + @attr.str
+  heal_roll: null
+  effect_roll: null
+  notes: Baseline maps long-range spear attack; melee and area variants plus sequence-tier damage increases are in scaling.
+scaling:
+- when: melee_attack_mode
+  changes:
+    damage_roll: 1d6 + @attr.str
+- when: area_blizzard_mode
+  changes:
+    action: cast
+    check_roll: 1d20 + @attr.int + @skill.occultism
+    damage_roll: 2d6
+    effect_note: Area attack affects creatures in a 10-meter radius except the caster.
+- when: sequence_6_or_higher
+  changes:
+    damage_roll: 4d6 + @attr.str
+- when: sequence_5_or_higher
+  changes:
+    damage_roll: 5d6 + @attr.str
+- when: sequence_4_or_higher
+  changes:
+    damage_roll: 7d6 + @attr.str
 tags:
 - ritual
 - defense
@@ -326,6 +411,7 @@ text: 'You have gained the favor of ice. Ice can condense on your body surface; 
   crystals condense. The targets next check within 1 round is -2 disadvantageous,
   and has no effect on targets with [[Cold Resistance]].'
 ```
+
 
 
 
@@ -373,6 +459,7 @@ id: demoness-seq-07-mirror-stand-in
 name: Mirror Stand-in
 pathway: demoness
 sequence: 7
+status: canonical
 type: active
 action: free
 cost: {}
@@ -381,6 +468,12 @@ opposed_by: none
 range: Choose a mirror within 10 meters.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -389,6 +482,7 @@ text: 'You use a mirror as your stand-in. Use: 1 Casting Action Cost: Consumes 4
   a large floor-to-ceiling mirror). #### Use a Mirror Use: 1 free action Cost: 2 [[Spirituality]]
   Targeting and range: Choose a mirror within 10 meters.'
 ```
+
 
 
 
@@ -439,6 +533,7 @@ id: demoness-seq-07-wand-substitution
 name: Wand Substitution
 pathway: demoness
 sequence: 7
+status: canonical
 type: active
 action: free
 cost: {}
@@ -447,6 +542,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -457,6 +558,7 @@ text: 'You craft a wand as a stand-in. Use: About 5 minutes Cost: Consume 3 poin
   wand can be an ordinary black wand, or a gorgeous cane (mastery and above are basically
   the latter). #### Use the Wand Use: A free action'
 ```
+
 
 
 
@@ -492,14 +594,22 @@ id: demoness-seq-07-invisibility
 name: Invisibility
 pathway: demoness
 sequence: 7
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 1
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: 1 minute
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -511,6 +621,7 @@ text: 'You gain invisibility through special magic powder. #### Hide Face Use: 1
   the special vision of the [[Eye of Mystery/Fate]], others usually cannot see your
   face clearly. Duration: 1 minute Limits: Personal goals only. #### Hidden Body Shape'
 ```
+
 
 
 

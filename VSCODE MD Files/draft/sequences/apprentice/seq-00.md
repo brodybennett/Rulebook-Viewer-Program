@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Door Pathway: Sequence 0
 
 ## Door
@@ -39,17 +40,28 @@ id: apprentice-seq-00-conceptualization
 name: Conceptualization
 pathway: apprentice
 sequence: 0
-type: active
+status: adapted
+type: toggle
 action: free
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
-scaling: []
+duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: Deterministic transformation-state token for automation; while active, Conceptualization ignores physical damage.
+scaling:
+- when: conceptualization_active
+  changes:
+    effect_note: Ignore all physical damage until the conceptual state ends.
 tags:
-- offense
+- defense
+- utility
 text: 'Use: Free Action Effect: The Planeswalker ability of Sequence 0 undergoes a
   qualitative change. You can become a conceptual creature: your figure becomes distorted,
   instantly stained with bright starlight, and extremely illusoryas if turning into
@@ -57,6 +69,7 @@ text: 'Use: Free Action Effect: The Planeswalker ability of Sequence 0 undergoes
   such as roaming, star passage, key, and gate. Limits: In the conceptual creature
   state, you completely ignore any physical damage.'
 ```
+
 
 
 
@@ -72,14 +85,22 @@ id: apprentice-seq-00-void-collapse
 name: Void Collapse
 pathway: apprentice
 sequence: 0
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 50
 roll: null
 opposed_by: none
 range: Select an area.
 target: designated target(s)
-duration: sustained
+duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -90,6 +111,7 @@ text: 'Cost: 50 points of Spirituality Use: Spellcasting Action Targeting and ra
   must lose all their [[substitutes]] and, at the cost of being unable to maintain
   further survival, can barely avoid this blow.'
 ```
+
 
 
 
@@ -106,6 +128,7 @@ id: apprentice-seq-00-divine-gaze
 name: Divine Gaze
 pathway: apprentice
 sequence: 0
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -114,6 +137,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -121,6 +150,7 @@ text: 'Use: When any creature recites your True Name. Effect: You can gaze at th
   surroundings of that creature, and use your extraordinary abilities to target the
   area at will.'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Fool Pathway: Sequence 2
 
 ## Miracle Invoker
@@ -62,16 +63,36 @@ id: fool-seq-02-wish
 name: Wish
 pathway: fool
 sequence: 2
+status: adapted
 type: active
 action: cast
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.int + @skill.occultism
+opposed_by: difficulty_value
 range: self
-target: self
-duration: 4 rounds.
-scaling: []
+target: one wish target
+duration: variable
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted mapping for Miracle check gating; individual Miracle(skill) applications still use their corresponding transformed skill context.
+scaling:
+- when: miracle_skill_below_proficient
+  changes:
+    effect_note: High-tier miracle effects are unavailable.
+- when: miracle_skill_reaches_master
+  changes:
+    effect_note: Skill bonus normally caps unless a grand miracle is completed.
+- when: same_wish_target_within_same_day
+  changes:
+    effect_note: Repeated wish on the same target is blocked.
+- when: divinity_suppression_wish_mode
+  changes:
+    duration: 4 rounds
 tags:
+- ritual
 - utility
 text: 'Effect: Your skill or attribute checks can now be converted to Miracle. ####
   Miracle skills from transformed skill checks After just being promoted: These new
@@ -81,6 +102,7 @@ text: 'Effect: Your skill or attribute checks can now be converted to Miracle. #
   be written as Miracle (Medicine) (and similar text). #### Miracle skills from transformed
   attribute checks'
 ```
+
 
 
 
@@ -160,6 +182,7 @@ id: fool-seq-02-resurrection
 name: Resurrection
 pathway: fool
 sequence: 2
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -168,6 +191,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -179,6 +208,7 @@ text: 'Trigger: Whenever you die. Effect: You are immediately resurrected at the
   2 Extraordinary Characteristics in advance. Place it at the position that needs
   to be resurrected.'
 ```
+
 
 
 
@@ -220,14 +250,22 @@ id: fool-seq-02-influence-the-future
 name: Influence the Future
 pathway: fool
 sequence: 2
+status: canonical
 type: active
 action: swift
-cost: {}
+cost:
+  spirituality: 5
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
-duration: instant
+duration: until designated judgment resolves
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Deterministic +5 modifier effect; no direct random resolution in activation text.
 scaling: []
 tags:
 - ritual
@@ -235,6 +273,7 @@ text: 'Cost: 5 points of spirituality Use: A Swift Action Effect: A target you d
   will get a +5 bonus on the result of a certain judgment you designate. Limits: This
   bonus cannot be superimposed.'
 ```
+
 
 
 

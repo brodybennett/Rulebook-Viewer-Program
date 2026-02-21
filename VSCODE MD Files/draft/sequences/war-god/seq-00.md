@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Twilight Giant Pathway: Sequence 0
 
 ## Twilight Giant
@@ -45,13 +46,19 @@ It can create matter; created matter inevitably decays, collapses, and perishes.
 
 - **Attribute Gain:** Not explicitly specified in source (schema placeholder).
 
-### Twilight Giant Authority
+### Canon Lore Placeholder
+
+- **Lore Placeholder:** Canon flavor may be retained here, but mechanics remain unbound.
+- **Limits:** Do not treat this as finalized mechanics.
+
+### Mechanics Stub
 
 ```yaml ability
-id: war-god-seq-00-twilight-giant-authority
-name: Twilight Giant Authority
+id: war-god-seq-00-mechanics-stub
+name: Mechanics Stub
 pathway: war-god
 sequence: 0
+status: stub
 type: passive
 action: none
 cost: {}
@@ -60,70 +67,18 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Stub record. Canon mechanics are intentionally unspecified.
 scaling: []
 tags:
-- offense
-- defense
-- buff
-text: You assert giant war authority with dawn and twilight symbolism, gaining overwhelming
-  martial pressure and protective momentum.
+- utility
+- stub
+text: Twilight Giant canonical mechanics are not yet authored.
 ```
 
-- **Effect:** You assert giant war authority with dawn and twilight symbolism, gaining overwhelming martial pressure and protective momentum.
-- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
-
-### Giant Battle Form
-
-```yaml ability
-id: war-god-seq-00-giant-battle-form
-name: Giant Battle Form
-pathway: war-god
-sequence: 0
-type: toggle
-action: free
-cost:
-  spirituality: 1
-roll: null
-opposed_by: none
-range: self
-target: self
-duration: sustained
-scaling: []
-tags:
-- offense
-- defense
-- buff
-text: You invoke giant physiology traits, increasing reach and durability while drawing
-  enemy focus to your frontline presence.
-```
-
-- **Effect:** You invoke giant physiology traits, increasing reach and durability while drawing enemy focus to your frontline presence.
-- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
-
-### Dawn-Twilight Strike
-
-```yaml ability
-id: war-god-seq-00-dawn-twilight-strike
-name: Dawn-Twilight Strike
-pathway: war-god
-sequence: 0
-type: active
-action: attack
-cost:
-  spirituality: 2
-roll: null
-opposed_by: physical_defense
-range: 40m
-target: designated target(s)
-duration: instant
-scaling: []
-tags:
-- offense
-- control
-- buff
-text: You deliver a colossal strike carrying alternating dawn and dusk force that
-  staggers defenses and opens space for allies.
-```
-
-- **Effect:** You deliver a colossal strike carrying alternating dawn and dusk force that staggers defenses and opens space for allies.
-- **Limits:** Imputed from LoTM Wiki pathway references; refine with table-specific mechanics if needed.
+- **Effect:** Mechanical placeholder only. Twilight Giant canonical mechanics are not yet authored.
+- **Limits:** Mechanics are intentionally stubbed pending canonical source confirmation.

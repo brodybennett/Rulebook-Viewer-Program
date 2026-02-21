@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Moon Pathway: Sequence 2
 
 ## Life-Giver
@@ -39,14 +40,22 @@ id: moon-seq-02-creation-authority
 name: Creation Authority
 pathway: moon
 sequence: 2
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
-opposed_by: none
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.int + @skill.biology
+opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.biology
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Creation requires a successful science check; biology is the default mapping.
 scaling: []
 tags:
 - ritual
@@ -57,6 +66,7 @@ text: 'Creation of all things; creation of life; fundamentally possesses the pow
   or even create a unique species out of thin air. Limits: Requires a successful corresponding
   Science test.'
 ```
+
 
 
 
@@ -75,14 +85,22 @@ id: moon-seq-02-life
 name: Life
 pathway: moon
 sequence: 2
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 15
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice; this restores the target to life and clears listed afflictions.
 scaling: []
 tags:
 - ritual
@@ -98,6 +116,7 @@ text: 'You can speed up the metabolism and recovery speed of creatures, and give
   Effects: Removes any presence of curses, toxins, and diseases. Insanity is terminated
   immediately, and all Sanity / Rationality points lost due to insanity are restored.'
 ```
+
 
 
 
@@ -120,6 +139,7 @@ id: moon-seq-02-additional
 name: Additional
 pathway: moon
 sequence: 2
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -128,6 +148,12 @@ opposed_by: none
 range: All dead objects within your line of sight
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -139,6 +165,7 @@ text: 'Cost: 8 points of Spirituality Use: Casting Action Targeting and range: A
   the target is a slave of the God of Death Pathway, it can still dominate these former
   undead creatures.'
 ```
+
 
 
 
@@ -185,15 +212,44 @@ id: moon-seq-02-bottom-level-improvement
 name: Bottom-Level Improvement
 pathway: moon
 sequence: 2
+status: canonical
 type: active
 action: free
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.int + @skill.biology
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.biology
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Biology check determines modification tier; DV thresholds map the outcome.
+scaling:
+- when: check_result_is_big_failure
+  changes:
+    effect_note: Instantly spawns a horrible monster.
+- when: check_result_meets_dv_10
+  changes:
+    effect_note: Swap limbs or swap a natural trait (e.g., grow gills).
+- when: check_result_meets_dv_15
+  changes:
+    effect_note: Grow an extra limb; +1 limb per 5 points above DV 15.
+- when: check_result_meets_dv_20
+  changes:
+    effect_note: Grant a trait that cannot exist in nature; permanent.
+- when: check_result_meets_dv_25
+  changes:
+    effect_note: More incredible transformations.
+- when: check_result_meets_dv_30
+  changes:
+    effect_note: Target becomes a new lifeform retaining consciousness.
+- when: check_result_is_big_success
+  changes:
+    effect_note: Makeover nearly perfectly fulfills your intent.
 tags:
 - ritual
 - buff
@@ -206,6 +262,7 @@ text: 'You can make incredible modifications to creatures, and this modification
   an extra limb like a normal creatures, at a rate of one limb for every 5 points
   above Difficulty Value 15.'
 ```
+
 
 
 

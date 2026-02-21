@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Chained Pathway: Sequence 7
 
 ## Werewolf
@@ -46,6 +47,7 @@ id: mutant-seq-07-transform-werewolf
 name: Transform Werewolf
 pathway: mutant
 sequence: 7
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -54,6 +56,12 @@ opposed_by: none
 range: self
 target: self
 duration: About 8 hours.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d4
+  notes: Sanity check loss is 1/1d4 when transforming.
 scaling: []
 tags:
 - ritual
@@ -67,6 +75,7 @@ text: 'Use: Swift Action; perform an SC (1/1d4). Effect: You immediately transfo
   are considered a creature of darkness and dislike sunlight, though sunlight has
   no actual effect on you.'
 ```
+
 
 
 
@@ -89,6 +98,7 @@ id: mutant-seq-07-blade-swipe
 name: Blade Swipe
 pathway: mutant
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -97,6 +107,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Damage also includes +1d6 poison and Strength damage dice.
 scaling: []
 tags:
 - debuff
@@ -112,6 +128,7 @@ text: 'Effect: Your claws are as reflective as metal, with black nails as long a
   skin armors. This does not include armors made of supernatural power (such as [[Dawn]]),
   armors enchanted with supernatural power, or ar...'
 ```
+
 
 
 
@@ -133,14 +150,22 @@ id: mutant-seq-07-werewolf-transformation
 name: Werewolf Transformation
 pathway: mutant
 sequence: 7
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.int
 opposed_by: willpower_defense
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: 1d6
+  effect_roll: 1d3
+  notes: Targets take a sanity check loss (1/1d3) on transformation and gain fast healing (1d6 per round).
 scaling: []
 tags:
 - ritual
@@ -154,6 +179,7 @@ text: 'Cost: Consumes 2 points of [[Spirituality]]. Use: Casting Action. Test: I
   [[Poison Resistance]]. Effect: After the Casting Action, the target is transformed
   into your follower and is regarded as a werewolf-like creature. Limits and guidance:'
 ```
+
 
 
 
@@ -192,6 +218,7 @@ id: mutant-seq-07-fast-healing
 name: Fast Healing
 pathway: mutant
 sequence: 7
+status: canonical
 type: passive
 action: none
 cost: {}
@@ -200,7 +227,16 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: 1d6
+  effect_roll: null
+  notes: Passive regeneration per round.
+scaling:
+- when: sequence_6_or_higher
+  changes:
+    heal_roll: 2d6
 tags:
 - healing
 - stealth
@@ -213,6 +249,7 @@ text: 'Use: Passive. Effect: Once per round, you recover 1d6 hit points. Notes: 
   back, and the wound will heal. Sequence 6: Instead, restore 2d6 hit points each
   time.'
 ```
+
 
 
 
@@ -234,6 +271,7 @@ id: mutant-seq-07-night-vision
 name: Night Vision
 pathway: mutant
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -242,6 +280,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "4"
+  notes: "Passive penalty: willpower -2 and sanity checks are +4 disadvantageous."
 scaling: []
 tags:
 - detection
@@ -249,6 +293,7 @@ text: 'Effect: You have a normal range of vision in the dark, but you still need
   certain amount of low light to achieve this effect; Night Vision cannot work in
   completely dark places.'
 ```
+
 
 
 
@@ -265,6 +310,7 @@ id: mutant-seq-07-fast-dodge
 name: Fast Dodge
 pathway: mutant
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -273,6 +319,12 @@ opposed_by: physical_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No roll; fixed armor and cold resistance bonuses.
 scaling: []
 tags:
 - defense
@@ -280,6 +332,7 @@ text: 'Effect: For firearms, you get full agility and dodge defense. Additional 
   When you face guns instead of light/lightning, you retain full physical defense
   and get 1 extra level of dodge. (For extra dodge, see [[Defense and Dodge Types]].)'
 ```
+
 
 
 
@@ -298,6 +351,7 @@ id: mutant-seq-07-hair-armor
 name: Hair Armor
 pathway: mutant
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -306,6 +360,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - defense
@@ -314,6 +374,7 @@ text: 'Effect: Your armor +3; gain 5 points of cold resistance. Limits: Cannot b
   superimposed with other armor. Fire damage: If you take fire damage, Hair Armor
   does not apply to resist.'
 ```
+
 
 
 
@@ -329,6 +390,7 @@ id: mutant-seq-07-spiritual-curse
 name: Spiritual Curse
 pathway: mutant
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -337,6 +399,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -356,6 +424,7 @@ text: 'Effect: Unless you are a person higher than you, whether you are transfor
 
 
 
+
 - **Effect:** Unless you are a person higher than you, whether you are transformed or not, any [[id:alias-divination|Divination]] and psychic means can only see a figure covered in black hair, and cannot see your true face.
 - **Higher Sequence level:** When you obtain a new form, it will affect the abilities of divination and psychic communication, and the presented form will also become the characteristics of your new form.
   1. For example, a [[Living Corpse]] will see a figure indistinguishable from a human but filled with a gloomy aura, making it impossible to see its face clearly; while a [[Ghost]] will only see a face that is transparent as if it does not exist, or a face covered by darkness.
@@ -371,6 +440,7 @@ id: mutant-seq-07-partial-transformation
 name: Partial Transformation
 pathway: mutant
 sequence: 7
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -379,6 +449,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - defense
@@ -392,6 +468,7 @@ text: 'Use: 1 Swift Action; 1 time per round. Effect: You gain 1 of the above tr
   of a werewolf, or use the ability of a living corpse under the appearance of a werewolf.
   However, the Strength, Constitution (...'
 ```
+
 
 
 
@@ -417,6 +494,7 @@ id: mutant-seq-07-spiritual-alienation
 name: Spiritual Alienation
 pathway: mutant
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -425,6 +503,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -439,6 +523,7 @@ text: 'Effect: Because you often satisfy your desire to kill during the full moo
   the betterthis more easily leads to loss of control. Extra: When possessing Spiritual
   Alienation, every 1 hour of behavior of indulgi...'
 ```
+
 
 
 
@@ -462,14 +547,21 @@ id: mutant-seq-07-full-moon-curse
 name: Full Moon Curse
 pathway: mutant
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.wil
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.wil
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Must pass DV 15 will test each round under full moon or transform.
 scaling: []
 tags:
 - debuff
@@ -484,6 +576,7 @@ text: 'Effect: The moon will curse you. Limits: The Curse of the Full Moon is an
   start killing and bloodthirsty. If you fail the will test (or otherwise resist transforming,
   GM decides): You lose an action e...'
 ```
+
 
 
 

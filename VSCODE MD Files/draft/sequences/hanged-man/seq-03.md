@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Hanged Man Pathway: Sequence 3
 
 ## Trinity Templar
@@ -36,6 +37,7 @@ id: hanged-man-seq-03-three-songs
 name: Three Songs
 pathway: hanged-man
 sequence: 3
+status: canonical
 type: active
 action: free
 cost: {}
@@ -44,6 +46,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - control
@@ -57,6 +65,7 @@ text: 'Effect: You can drive three [[Soul]]s at the same time. In one Round, you
   [[Grazing Cap]] is reduced by 1. This penalty can stack up to -2 while the madness
   lasts.'
 ```
+
 
 
 
@@ -80,6 +89,7 @@ id: hanged-man-seq-03-body-separation
 name: Body Separation
 pathway: hanged-man
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -88,6 +98,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - control
@@ -99,6 +115,7 @@ text: 'Trigger: When your [[Blood Bar]] is empty. Effect (choose one): Option A 
   each of you turns back into a complete single body. From now on, you can control
   three different you at the same time.'
 ```
+
 
 
 

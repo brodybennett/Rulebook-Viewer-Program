@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Fool Pathway: Sequence 8
 
 > **Lore:** A Clown buries sorrow behind a smile—reading people, defying balance, and trusting intuition even when fate feels unchangeable.
@@ -60,19 +61,35 @@ id: fool-seq-08-premonition-of-danger
 name: Premonition of Danger
 pathway: fool
 sequence: 8
-type: active
-action: cast
+status: canonical
+type: reaction
+action: none
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.spiritual_intuition
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.spiritual_intuition
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Triggered appraisal check against DV 15 to identify incoming danger profile.
+scaling:
+- when: sequence <= 7
+  changes:
+    effect_note: Premonition output upgrades from thought flashes to image flashes.
+- when: sequence <= 6
+  changes:
+    check_note: Intuition identification auto-succeeds.
+- when: sequence <= 5
+  changes:
+    target: multiple attackers
 tags:
 - divination
-- healing
-- offense
+- detection
+- defense
 text: 'Also known as intuitive premonition: you can predict the actions of others
   at critical moments and perceive danger. Use: Triggered whenever you are raided,
   sneak attacked, or something on the scene is about to put a raid or sneak attack
@@ -83,6 +100,7 @@ text: 'Also known as intuitive premonition: you can predict the actions of other
   Difficulty Value On success, an idea flashes in your mind immediately, telling you
   the form the danger will take. After you succe...'
 ```
+
 
 
 
@@ -123,18 +141,29 @@ id: fool-seq-08-turn-paper-into-flying-knives
 name: Turn Paper into Flying Knives
 pathway: fool
 sequence: 8
+status: adapted
 type: active
 action: attack
 cost: {}
-roll: null
+roll: 1d20 + @attr.dex + @skill.throwing
 opposed_by: physical_defense
 range: self
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.dex + @skill.throwing
+  damage_roll: 1d4 + @attr.str
+  heal_roll: null
+  effect_roll: null
+  notes: Strength contribution is halved per prose rule; parser stores full attribute token and applies half-strength at resolution layer.
+scaling:
+- when: second_card_same_attack_action
+  changes:
+    check_penalty: -2
+- when: third_card_same_attack_action
+  changes:
+    check_penalty: -4
 tags:
-- mobility
-- defense
 - offense
 text: 'The soft paper in your hand can turn into flying knives and fly out; this belongs
   to the magic class. [[Magic class]] Use: 1 Attack Action. Attack Action Effect:
@@ -146,6 +175,7 @@ text: 'The soft paper in your hand can turn into flying knives and fly out; this
   from the second card, you take 2 Disadvantages when making the identification throw;
   you take 4 Disadvantages for...'
 ```
+
 
 
 
@@ -172,20 +202,28 @@ id: fool-seq-08-muscle-mastery
 name: Muscle Mastery
 pathway: fool
 sequence: 8
-type: active
-action: cast
+status: canonical
+type: passive
+action: none
 cost: {}
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: self
 target: self
-duration: instant
+duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Passive package; includes auto-success clauses for specific skill contexts instead of direct rolled activation.
 scaling: []
 tags:
-- ritual
+- buff
 - stealth
 - mobility
 - defense
+- utility
 text: 'Your precise mastery of muscles gives you an advantage in learning and fighting.
   Your muscle-related identification is +2 beneficial, including: fighting, throwing,
   shooting, performing, deceiving, stealth, etc. [[Beneficial]] Your stealth makes
@@ -196,6 +234,7 @@ text: 'Your precise mastery of muscles gives you an advantage in learning and fi
   [[Dodge level]] 1 quick action; does not consume Spirituality: your Performance/Climbing/Jumping
   identification succ...'
 ```
+
 
 
 

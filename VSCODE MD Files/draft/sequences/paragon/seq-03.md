@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Paragon Pathway: Sequence 3
 
 > **Lore:** Anciently known as "The Demon of Mystery".
@@ -44,6 +45,7 @@ id: paragon-seq-03-reconstruction-of-phenomena
 name: Reconstruction of Phenomena
 pathway: paragon
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -52,6 +54,12 @@ opposed_by: physical_defense
 range: Choose a target within 5 meters of you.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -66,6 +74,7 @@ text: 'Cost: 5 points of Spirituality. Use: A Casting Action. Effect: You reprod
   Astronomical against the targets Physical Defense. Effect (on success): Your body
   produces a strong gravitational force that drags the...'
 ```
+
 
 
 

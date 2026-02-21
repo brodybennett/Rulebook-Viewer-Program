@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Chained Pathway: Sequence 9
 
 > **Lore:** The Mutant Pathway represents unbridled desire, corresponding to the Tarot card [[Temperance]].
@@ -68,6 +69,7 @@ id: mutant-seq-09-crazy-hidden
 name: Crazy Hidden
 pathway: mutant
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -76,6 +78,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -87,6 +95,7 @@ text: 'Effect: Critical Strike/Double Strike/Proximity Shot and other special ac
   identification. GM Note: This is also a description of the improvement brought by
   the potion, which cannot be recorded or stolen, but is just listed separately.'
 ```
+
 
 
 
@@ -105,6 +114,7 @@ id: mutant-seq-09-restrain-your-desires-and-gain-momentum
 name: Restrain Your Desires and Gain Momentum
 pathway: mutant
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -113,6 +123,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - control
@@ -127,6 +143,7 @@ text: 'Prerequisite: This can only be obtained by the [[Temperance faction]] of 
   madness]]. Uncertain madness will not force you to act, but will make you lose 1
   action continuously to suppress. Special: The...'
 ```
+
 
 
 
@@ -149,14 +166,21 @@ id: mutant-seq-09-sexual-behavior
 name: Sexual Behavior
 pathway: mutant
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.psychological_guidance
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.psychological_guidance
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Psychological guidance DV 20 can end the berserk state or allow retreat.
 scaling: []
 tags:
 - offense
@@ -170,6 +194,7 @@ text: 'Prerequisite: This can only be obtained by the heterosexual pathway. Effe
   and you cannot show mercy. Special: Once you suffer mental damage, you will fall
   into madness, unless the enemy...'
 ```
+
 
 
 
@@ -193,6 +218,7 @@ id: mutant-seq-09-favor-of-the-starry-sky
 name: Favor of the Starry Sky
 pathway: mutant
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -201,6 +227,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - divination
@@ -216,6 +248,7 @@ text: 'Prerequisite: Only Extraordinary people who belong to the [[Rose School o
   control of the Rose School of Thought. This does not mean what you are doing specifically,
   and you can be immediately...'
 ```
+
 
 
 
@@ -239,14 +272,22 @@ id: mutant-seq-09-vision
 name: Vision
 pathway: mutant
 sequence: 9
+status: canonical
 type: active
 action: free
-cost: {}
+cost:
+  spirituality: 1
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: While active, spiritual intuition checks gain +1.
 scaling: []
 tags:
 - ritual
@@ -262,6 +303,7 @@ text: 'Use: 1 free action. Cost: Consuming 1 spirituality point per round. Effec
   cannot see more content. Astral body: You cannot see the astral body. When in the
   state of spiritual vision, your spiritual in...'
 ```
+
 
 
 

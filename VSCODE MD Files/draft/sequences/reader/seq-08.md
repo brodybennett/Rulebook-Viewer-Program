@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # White Tower Pathway: Sequence 8
 
 ## Detective
@@ -50,14 +51,21 @@ id: reader-seq-08-basic-deduction
 name: Basic Deduction
 pathway: reader
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.investigation
 opposed_by: difficulty_value
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.investigation
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Detection check; portrait deductions cap at DV 25. DV tiers 20/25/30/35 apply as listed.
 scaling: []
 tags:
 - detection
@@ -72,6 +80,7 @@ text: '*Basic Deduction reversely restores a persons characteristics through det
   recorded or stolen. *Difficulty Value Results (repeat deductions until the result
   is the same before obtaining new clues):'
 ```
+
 
 
 
@@ -108,15 +117,22 @@ id: reader-seq-08-action-deduction
 name: Action Deduction
 pathway: reader
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.psychology
 opposed_by: difficulty_value
 range: Choose a target you have performed **Basic Deduction** on within the last **12
   hours** (in your mind).
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.psychology
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Psychology appraisal DV tiers 15/20/25/30/35; capped by the DV reached with Basic Deduction.
 scaling: []
 tags:
 - utility
@@ -127,6 +143,7 @@ text: '*Action Deduction imagines a creatures next actions. Cost: 1 Spellcasting
   If the Basic Deduction information is wrong, the Action Deduction information is
   also wrong. Repeated deductions yield the same result until new clues are obtained.'
 ```
+
 
 
 
@@ -162,14 +179,21 @@ id: reader-seq-08-thinking-intuition
 name: Thinking Intuition
 pathway: reader
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Intuition appraisal DV 25 to detect incongruity; DV 30 or Great Success reveals the source.
 scaling: []
 tags:
 - ritual
@@ -181,6 +205,7 @@ text: '*Thinking Intuition gives you unique revelations through spirituality. Tr
   Appraisal is a Great Success or the Difficulty Value exceeds 30, you can judge the
   source of the incongruity, but you do not know more specific information.'
 ```
+
 
 
 

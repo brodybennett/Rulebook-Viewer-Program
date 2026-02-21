@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Error Pathway: Sequence 1
 
 - See also: Pathway
@@ -37,6 +38,7 @@ id: error-seq-01-time-authority
 name: Time Authority
 pathway: error
 sequence: 1
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -45,6 +47,12 @@ opposed_by: none
 range: Choose a **scene** or a single **target**, depending on the chosen effect.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -59,6 +67,7 @@ text: 'Cost: 5 spirituality points. [[Spirituality]] Use: 1 Casting Action. Cast
   the designated target is considered to have passed 5 rounds, approximately equal
   to one encounter.'
 ```
+
 
 
 
@@ -97,6 +106,7 @@ id: error-seq-01-stealing
 name: Stealing
 pathway: error
 sequence: 1
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -105,6 +115,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -116,6 +132,7 @@ text: 'Effect: If you become the King of Angels [[King of Angels]] (multiple cop
   latter requires you to steal in a concentration place of believers. [[concentration
   place of believers]]'
 ```
+
 
 
 

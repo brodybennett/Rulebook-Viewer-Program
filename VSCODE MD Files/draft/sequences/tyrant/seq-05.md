@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Tyrant Pathway: Sequence 5
 
 ## Ocean Songster
@@ -58,6 +59,7 @@ id: tyrant-seq-05-closeness-to-marine-life
 name: Closeness to Marine Life
 pathway: tyrant
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -66,6 +68,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -73,6 +81,7 @@ text: You may spiritually communicate with aquatic creatures. Communication allo
   normal conversation. Non-hostile aquatic creatures generally maintain a friendly
   attitude toward you. --
 ```
+
 
 
 
@@ -94,15 +103,22 @@ id: tyrant-seq-05-lightning-mastery
 name: Lightning Mastery
 pathway: tyrant
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost:
   spirituality: 3
-roll: null
+roll: 1d20 + 15
 opposed_by: physical_defense
 range: line of sight
 target: 1 creature within line of sight
 duration: instant
+dice:
+  check_roll: 1d20 + 15
+  damage_roll: 3d10
+  heal_roll: null
+  effect_roll: 1d6
+  notes: Lightning restraint adds +1d6/+2d6/+3d6 vs dark/corrupt/undead; on hit, target makes a DV 20 Constitution test or is paralyzed for 1 round.
 scaling: []
 tags:
 - ritual
@@ -114,6 +130,7 @@ text: 'You gain superficial control over lightning. #### Lightning Strike Cost: 
   d20 + 15 Disaster bonus vs. Physical Defense Limits: Ignores Agility (DEX) and Dodge
   Effect:'
 ```
+
 
 
 
@@ -153,6 +170,7 @@ id: tyrant-seq-05-thunderous-voice
 name: Thunderous Voice
 pathway: tyrant
 sequence: 5
+status: canonical
 type: active
 action: swift
 cost:
@@ -162,6 +180,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -170,6 +194,7 @@ tags:
 text: 'Cost: 1 Spirituality per sentence Use: 1 Swift Action Effect: Your voice combines
   with lightning power. Vocal transmission range increases to 5 kilometers. --'
 ```
+
 
 
 
@@ -192,6 +217,7 @@ id: tyrant-seq-05-arrow-of-thunder-and-lightning
 name: Arrow of Thunder and Lightning
 pathway: tyrant
 sequence: 5
+status: canonical
 type: active
 action: swift
 cost:
@@ -201,6 +227,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -210,6 +242,7 @@ text: 'Your hair defies natural law, standing on end and entwined with lightning
   and arrow Choose one of the following modes: Lightning Attachment Additional Cost:
   1 Swift Action Effect:'
 ```
+
 
 
 
@@ -261,6 +294,7 @@ id: tyrant-seq-05-singing
 name: Singing
 pathway: tyrant
 sequence: 5
+status: canonical
 type: active
 action: free
 cost:
@@ -270,6 +304,12 @@ opposed_by: none
 range: 100 meters
 target: All creatures within range
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -278,6 +318,7 @@ text: 'You may influence creatures through continuous singing. Effects depend on
   Range: 100 meters Target: All creatures within range This ability does not require
   identification. #### Untrained Effect:'
 ```
+
 
 
 

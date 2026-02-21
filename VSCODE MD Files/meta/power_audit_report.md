@@ -1,0 +1,1218 @@
+# Power Audit Report
+
+- repo: `C:\Users\dan\Desktop\Personal\Projects\LoTM Rulebook\VSCODE MD Files`
+- compendium: `C:\Users\dan\Desktop\Personal\Projects\LoTM Rulebook\VSCODE MD Files\dist\compendium.json`
+- power_scale: `C:\Users\dan\Desktop\Personal\Projects\LoTM Rulebook\VSCODE MD Files\meta\power_scale.yml`
+- sequences_scanned: **220**
+- abilities_scanned: **719**
+- stub_abilities: **28**
+- hard_controls: **16**
+- findings: **1199**
+  - errors: **18**
+  - warnings: **81**
+  - info: **1100**
+
+## Detailed Findings
+
+- **[ERROR] damage_spike_burst** - abyss / seq 6 / abyss-seq-06-dehumanization
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `34.5`
+  - expected_max: `20.0`
+- **[ERROR] damage_spike_burst** - death / seq 3 / death-seq-03-river-of-eternal-darkness
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `43.0`
+  - expected_max: `38.0`
+- **[ERROR] damage_spike_burst** - death / seq 7 / death-seq-07-communicating-with-the-dead
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `117.5`
+  - expected_max: `16.0`
+- **[ERROR] damage_spike_burst** - demoness / seq 3 / demoness-seq-03-extraordinary-lifespan
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `1411.0`
+  - expected_max: `38.0`
+- **[ERROR] damage_spike_burst** - demoness / seq 9 / demoness-seq-09-poised-burst
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `27.5`
+  - expected_max: `10.0`
+- **[ERROR] damage_spike_burst** - earth / seq 9 / earth-seq-09-telling-the-time-of-day
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `19.0`
+  - expected_max: `10.0`
+- **[ERROR] damage_spike_burst** - fate / seq 5 / fate-seq-05-accumulate-luck
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `28.0`
+  - expected_max: `25.0`
+- **[ERROR] damage_spike_burst** - fate / seq 5 / fate-seq-05-luck
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `34.5`
+  - expected_max: `25.0`
+- **[ERROR] damage_spike_burst** - fate / seq 5 / fate-seq-05-luck-grant
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `32.0`
+  - expected_max: `25.0`
+- **[ERROR] damage_spike_burst** - fate / seq 6 / fate-seq-06-disasters
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `61.0`
+  - expected_max: `20.0`
+- **[ERROR] damage_spike_burst** - hanged-man / seq 8 / hanged-man-seq-08-listen
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `36.5`
+  - expected_max: `12.0`
+- **[ERROR] damage_spike_burst** - moon / seq 9 / moon-seq-09-pharmacy-preparation
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `22.0`
+  - expected_max: `10.0`
+- **[ERROR] damage_spike_burst** - mutant / seq 7 / mutant-seq-07-transform-werewolf
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `18.5`
+  - expected_max: `16.0`
+- **[ERROR] damage_spike_burst** - mutant / seq 8 / mutant-seq-08-full-moon-curse
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `62.0`
+  - expected_max: `12.0`
+- **[ERROR] damage_spike_burst** - mystery-pryer / seq 7 / mystery-pryer-seq-07-speed-word
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `22.0`
+  - expected_max: `16.0`
+- **[ERROR] damage_spike_burst** - paragon / seq 9 / paragon-seq-09-practical-assemblies
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `10.5`
+  - expected_max: `10.0`
+- **[ERROR] damage_spike_burst** - sun / seq 9 / sun-seq-09-sing-piety
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `20.5`
+  - expected_max: `10.0`
+- **[ERROR] damage_spike_burst** - war-god / seq 4 / war-god-seq-04-material-identification
+  - Ability burst damage exceeds sequence burst budget.
+  - observed: `54.5`
+  - expected_max: `30.0`
+- **[INFO] at_will_effectiveness_below_band** - abyss / seq 0
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `3.15`
+- **[INFO] control_strength_below_band** - abyss / seq 0
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.8`
+- **[INFO] investigation_divination_below_band** - abyss / seq 0
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.2`
+  - expected_min: `1.55`
+- **[INFO] mobility_escape_below_band** - abyss / seq 0
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.45`
+- **[INFO] resource_spend_effectiveness_below_band** - abyss / seq 0
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `4.1`
+- **[INFO] survivability_below_band** - abyss / seq 0
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.15`
+  - expected_min: `1.7`
+- **[INFO] at_will_effectiveness_below_band** - abyss / seq 1
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `2.75`
+- **[INFO] control_strength_below_band** - abyss / seq 1
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.55`
+- **[INFO] investigation_divination_below_band** - abyss / seq 1
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.2`
+  - expected_min: `1.35`
+- **[INFO] mobility_escape_below_band** - abyss / seq 1
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.3`
+- **[INFO] resource_spend_effectiveness_below_band** - abyss / seq 1
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `3.6`
+- **[INFO] survivability_below_band** - abyss / seq 1
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.15`
+  - expected_min: `1.45`
+- **[INFO] at_will_effectiveness_below_band** - abyss / seq 2
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `2.35`
+- **[INFO] control_strength_below_band** - abyss / seq 2
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.3`
+- **[INFO] investigation_divination_below_band** - abyss / seq 2
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.2`
+  - expected_min: `1.15`
+- **[INFO] mobility_escape_below_band** - abyss / seq 2
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.1`
+- **[INFO] resource_spend_effectiveness_below_band** - abyss / seq 2
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `3.15`
+- **[INFO] survivability_below_band** - abyss / seq 2
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.15`
+  - expected_min: `1.25`
+- **[INFO] at_will_effectiveness_below_band** - abyss / seq 3
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.8904`
+  - expected_min: `2.0`
+- **[INFO] control_strength_below_band** - abyss / seq 3
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.1267`
+  - expected_min: `1.1`
+- **[INFO] mobility_escape_below_band** - abyss / seq 3
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.95`
+- **[INFO] resource_spend_effectiveness_below_band** - abyss / seq 3
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.2542`
+  - expected_min: `2.7`
+- **[INFO] survivability_below_band** - abyss / seq 3
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.5`
+  - expected_min: `1.1`
+- **[INFO] at_will_effectiveness_below_band** - abyss / seq 4
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `1.1367`
+  - expected_min: `1.7`
+- **[INFO] control_strength_below_band** - abyss / seq 4
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.4433`
+  - expected_min: `0.95`
+- **[INFO] investigation_divination_below_band** - abyss / seq 4
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.04`
+  - expected_min: `0.8`
+- **[INFO] mobility_escape_below_band** - abyss / seq 4
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.8`
+- **[INFO] survivability_below_band** - abyss / seq 4
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.5`
+  - expected_min: `0.9`
+- **[INFO] at_will_effectiveness_below_band** - abyss / seq 5
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.7233`
+  - expected_min: `1.45`
+- **[INFO] control_strength_below_band** - abyss / seq 5
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.6767`
+  - expected_min: `0.75`
+- **[INFO] resource_spend_effectiveness_below_band** - abyss / seq 5
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.5153`
+  - expected_min: `2.0`
+- **[INFO] survivability_below_band** - abyss / seq 5
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.7`
+- **[INFO] at_will_effectiveness_above_band** - abyss / seq 6
+  - Sequence aggregate at_will_effectiveness appears above budget band.
+  - observed: `2.3918`
+  - expected_max: `1.85`
+- **[INFO] control_strength_below_band** - abyss / seq 7
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.45`
+- **[INFO] mobility_escape_below_band** - abyss / seq 7
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.4`
+- **[INFO] resource_spend_effectiveness_below_band** - abyss / seq 7
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.075`
+  - expected_min: `1.4`
+- **[INFO] survivability_below_band** - abyss / seq 7
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.4`
+- **[INFO] at_will_effectiveness_below_band** - abyss / seq 8
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.733`
+  - expected_min: `0.85`
+- **[INFO] control_strength_below_band** - abyss / seq 8
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.26`
+  - expected_min: `0.35`
+- **[INFO] investigation_divination_below_band** - abyss / seq 8
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.1067`
+  - expected_min: `0.3`
+- **[INFO] resource_spend_effectiveness_below_band** - abyss / seq 8
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.197`
+  - expected_min: `1.2`
+- **[INFO] at_will_effectiveness_above_band** - abyss / seq 9
+  - Sequence aggregate at_will_effectiveness appears above budget band.
+  - observed: `1.3`
+  - expected_max: `1.1`
+- **[INFO] control_strength_below_band** - abyss / seq 9
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0267`
+  - expected_min: `0.25`
+- **[INFO] investigation_divination_above_band** - abyss / seq 9
+  - Sequence aggregate investigation_divination appears above budget band.
+  - observed: `2.0133`
+  - expected_max: `0.9`
+- **[INFO] mobility_escape_below_band** - abyss / seq 9
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.2`
+- **[INFO] at_will_effectiveness_below_band** - apprentice / seq 0
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.5621`
+  - expected_min: `3.15`
+- **[INFO] control_strength_below_band** - apprentice / seq 0
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0267`
+  - expected_min: `1.8`
+- **[INFO] investigation_divination_below_band** - apprentice / seq 0
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.1333`
+  - expected_min: `1.55`
+- **[INFO] mobility_escape_below_band** - apprentice / seq 0
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.45`
+- **[INFO] resource_spend_effectiveness_below_band** - apprentice / seq 0
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.0317`
+  - expected_min: `4.1`
+- **[INFO] survivability_below_band** - apprentice / seq 0
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.25`
+  - expected_min: `1.7`
+- **[INFO] out_of_band_cost_too_expensive** - apprentice / seq 0 / apprentice-seq-00-void-collapse
+  - Ability may be over-costed for its estimated effect profile.
+  - observed: `1.425`
+  - expected_min: `2.05`
+- **[INFO] at_will_effectiveness_below_band** - apprentice / seq 1
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.3353`
+  - expected_min: `2.75`
+- **[INFO] control_strength_below_band** - apprentice / seq 1
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.2533`
+  - expected_min: `1.55`
+- **[INFO] investigation_divination_below_band** - apprentice / seq 1
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `1.0333`
+  - expected_min: `1.35`
+- **[INFO] resource_spend_effectiveness_below_band** - apprentice / seq 1
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.3617`
+  - expected_min: `3.6`
+- **[INFO] survivability_below_band** - apprentice / seq 1
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.25`
+  - expected_min: `1.45`
+- **[INFO] out_of_band_cost_too_expensive** - apprentice / seq 1 / apprentice-seq-01-authority-locating
+  - Ability may be over-costed for its estimated effect profile.
+  - observed: `0.87`
+  - expected_min: `1.8`
+- **[INFO] out_of_band_cost_too_expensive** - apprentice / seq 1 / apprentice-seq-01-spoon
+  - Ability may be over-costed for its estimated effect profile.
+  - observed: `0.87`
+  - expected_min: `1.8`
+- **[INFO] at_will_effectiveness_below_band** - apprentice / seq 2
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.5217`
+  - expected_min: `2.35`
+- **[INFO] control_strength_below_band** - apprentice / seq 2
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.3`
+- **[INFO] investigation_divination_below_band** - apprentice / seq 2
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.2567`
+  - expected_min: `1.15`
+- **[INFO] mobility_escape_below_band** - apprentice / seq 2
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.2833`
+  - expected_min: `1.1`
+- **[INFO] resource_spend_effectiveness_below_band** - apprentice / seq 2
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.9717`
+  - expected_min: `3.15`
+- **[INFO] survivability_below_band** - apprentice / seq 2
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.25`
+- **[INFO] out_of_band_cost_too_expensive** - apprentice / seq 2 / apprentice-seq-02-space-swap
+  - Ability may be over-costed for its estimated effect profile.
+  - observed: `1.425`
+  - expected_min: `1.575`
+- **[INFO] at_will_effectiveness_below_band** - apprentice / seq 3
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.9767`
+  - expected_min: `2.0`
+- **[INFO] control_strength_below_band** - apprentice / seq 3
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.3933`
+  - expected_min: `1.1`
+- **[INFO] investigation_divination_below_band** - apprentice / seq 3
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.6233`
+  - expected_min: `0.95`
+- **[INFO] resource_spend_effectiveness_below_band** - apprentice / seq 3
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.9767`
+  - expected_min: `2.7`
+- **[INFO] survivability_below_band** - apprentice / seq 3
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.4167`
+  - expected_min: `1.1`
+- **[INFO] at_will_effectiveness_below_band** - apprentice / seq 4
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.4855`
+  - expected_min: `1.7`
+- **[INFO] control_strength_below_band** - apprentice / seq 4
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.01`
+  - expected_min: `0.95`
+- **[INFO] mobility_escape_above_band** - apprentice / seq 4
+  - Sequence aggregate mobility_escape appears above budget band.
+  - observed: `1.7`
+  - expected_max: `1.55`
+- **[INFO] resource_spend_effectiveness_below_band** - apprentice / seq 4
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.2092`
+  - expected_min: `2.3`
+- **[INFO] at_will_effectiveness_below_band** - apprentice / seq 5
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.95`
+  - expected_min: `1.45`
+- **[INFO] control_strength_below_band** - apprentice / seq 5
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.75`
+- **[INFO] investigation_divination_below_band** - apprentice / seq 5
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.5833`
+  - expected_min: `0.65`
+- **[INFO] resource_spend_effectiveness_below_band** - apprentice / seq 5
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.95`
+  - expected_min: `2.0`
+- **[INFO] survivability_below_band** - apprentice / seq 5
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.1167`
+  - expected_min: `0.7`
+- **[INFO] at_will_effectiveness_below_band** - apprentice / seq 6
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.97`
+  - expected_min: `1.2`
+- **[INFO] control_strength_below_band** - apprentice / seq 6
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.08`
+  - expected_min: `0.6`
+- **[INFO] mobility_escape_below_band** - apprentice / seq 6
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.5`
+- **[INFO] resource_spend_effectiveness_below_band** - apprentice / seq 6
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.97`
+  - expected_min: `1.7`
+- **[INFO] survivability_below_band** - apprentice / seq 6
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.2`
+  - expected_min: `0.55`
+- **[INFO] at_will_effectiveness_below_band** - apprentice / seq 7
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.7257`
+  - expected_min: `1.0`
+- **[INFO] control_strength_below_band** - apprentice / seq 7
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.45`
+- **[INFO] investigation_divination_above_band** - apprentice / seq 7
+  - Sequence aggregate investigation_divination appears above budget band.
+  - observed: `1.7467`
+  - expected_max: `1.2`
+- **[INFO] mobility_escape_below_band** - apprentice / seq 7
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.4`
+- **[INFO] resource_spend_effectiveness_below_band** - apprentice / seq 7
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.04`
+  - expected_min: `1.4`
+- **[INFO] investigation_divination_below_band** - apprentice / seq 8
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.3`
+- **[INFO] at_will_effectiveness_below_band** - apprentice / seq 9
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.5576`
+  - expected_min: `0.7`
+- **[INFO] control_strength_below_band** - apprentice / seq 9
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0267`
+  - expected_min: `0.25`
+- **[INFO] investigation_divination_above_band** - apprentice / seq 9
+  - Sequence aggregate investigation_divination appears above budget band.
+  - observed: `1.0467`
+  - expected_max: `0.9`
+- **[INFO] survivability_below_band** - apprentice / seq 9
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.05`
+  - expected_min: `0.2`
+- **[INFO] at_will_effectiveness_below_band** - arbiter / seq 0
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.75`
+  - expected_min: `3.15`
+- **[INFO] control_strength_below_band** - arbiter / seq 0
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.8`
+- **[INFO] investigation_divination_below_band** - arbiter / seq 0
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.2`
+  - expected_min: `1.55`
+- **[INFO] mobility_escape_below_band** - arbiter / seq 0
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.45`
+- **[INFO] resource_spend_effectiveness_below_band** - arbiter / seq 0
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.75`
+  - expected_min: `4.1`
+- **[INFO] survivability_below_band** - arbiter / seq 0
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.7`
+- **[INFO] at_will_effectiveness_below_band** - arbiter / seq 1
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.2382`
+  - expected_min: `2.75`
+- **[INFO] control_strength_below_band** - arbiter / seq 1
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.73`
+  - expected_min: `1.55`
+- **[INFO] investigation_divination_below_band** - arbiter / seq 1
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.35`
+- **[INFO] mobility_escape_below_band** - arbiter / seq 1
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.3`
+- **[INFO] resource_spend_effectiveness_below_band** - arbiter / seq 1
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `2.2925`
+  - expected_min: `3.6`
+- **[INFO] survivability_below_band** - arbiter / seq 1
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.75`
+  - expected_min: `1.45`
+- **[INFO] at_will_effectiveness_below_band** - arbiter / seq 2
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.5655`
+  - expected_min: `2.35`
+- **[INFO] control_strength_below_band** - arbiter / seq 2
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.09`
+  - expected_min: `1.3`
+- **[INFO] investigation_divination_below_band** - arbiter / seq 2
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.775`
+  - expected_min: `1.15`
+- **[INFO] mobility_escape_below_band** - arbiter / seq 2
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.15`
+  - expected_min: `1.1`
+- **[INFO] resource_spend_effectiveness_below_band** - arbiter / seq 2
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.13`
+  - expected_min: `3.15`
+- **[INFO] survivability_below_band** - arbiter / seq 2
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.375`
+  - expected_min: `1.25`
+- **[INFO] out_of_band_cost_too_expensive** - arbiter / seq 2 / arbiter-seq-02-sage-s-balance
+  - Ability may be over-costed for its estimated effect profile.
+  - observed: `1.26`
+  - expected_min: `1.575`
+- **[INFO] at_will_effectiveness_below_band** - arbiter / seq 3
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `1.065`
+  - expected_min: `2.0`
+- **[INFO] control_strength_below_band** - arbiter / seq 3
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.19`
+  - expected_min: `1.1`
+- **[INFO] mobility_escape_below_band** - arbiter / seq 3
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.95`
+- **[INFO] resource_spend_effectiveness_below_band** - arbiter / seq 3
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.065`
+  - expected_min: `2.7`
+- **[INFO] survivability_below_band** - arbiter / seq 3
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.075`
+  - expected_min: `1.1`
+- **[INFO] at_will_effectiveness_below_band** - arbiter / seq 4
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.7685`
+  - expected_min: `1.7`
+- **[INFO] control_strength_below_band** - arbiter / seq 4
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.5033`
+  - expected_min: `0.95`
+- **[INFO] mobility_escape_below_band** - arbiter / seq 4
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.8`
+- **[INFO] resource_spend_effectiveness_below_band** - arbiter / seq 4
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.9625`
+  - expected_min: `2.3`
+- **[INFO] survivability_below_band** - arbiter / seq 4
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.5`
+  - expected_min: `0.9`
+- **[INFO] out_of_band_cost_too_expensive** - arbiter / seq 4 / arbiter-seq-04-make-a-contract
+  - Ability may be over-costed for its estimated effect profile.
+  - observed: `1.0875`
+  - expected_min: `1.15`
+- **[INFO] at_will_effectiveness_below_band** - arbiter / seq 5
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.401`
+  - expected_min: `1.45`
+- **[INFO] control_strength_below_band** - arbiter / seq 5
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.1667`
+  - expected_min: `0.75`
+- **[INFO] investigation_divination_below_band** - arbiter / seq 5
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.65`
+- **[INFO] mobility_escape_below_band** - arbiter / seq 5
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.65`
+- **[INFO] resource_spend_effectiveness_below_band** - arbiter / seq 5
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.9398`
+  - expected_min: `2.0`
+- **[INFO] survivability_below_band** - arbiter / seq 5
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.3167`
+  - expected_min: `0.7`
+- **[INFO] at_will_effectiveness_below_band** - arbiter / seq 6
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.914`
+  - expected_min: `1.2`
+- **[INFO] control_strength_below_band** - arbiter / seq 6
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.5033`
+  - expected_min: `0.6`
+- **[INFO] control_strength_below_band** - arbiter / seq 7
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.4367`
+  - expected_min: `0.45`
+- **[INFO] investigation_divination_above_band** - arbiter / seq 7
+  - Sequence aggregate investigation_divination appears above budget band.
+  - observed: `1.55`
+  - expected_max: `1.2`
+- **[INFO] mobility_escape_below_band** - arbiter / seq 7
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.4`
+- **[INFO] resource_spend_effectiveness_below_band** - arbiter / seq 7
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.2533`
+  - expected_min: `1.4`
+- **[INFO] survivability_below_band** - arbiter / seq 7
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.05`
+  - expected_min: `0.4`
+- **[INFO] at_will_effectiveness_below_band** - arbiter / seq 8
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.75`
+  - expected_min: `0.85`
+- **[INFO] control_strength_below_band** - arbiter / seq 8
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.35`
+- **[INFO] investigation_divination_above_band** - arbiter / seq 8
+  - Sequence aggregate investigation_divination appears above budget band.
+  - observed: `1.55`
+  - expected_max: `1.05`
+- **[INFO] mobility_escape_above_band** - arbiter / seq 8
+  - Sequence aggregate mobility_escape appears above budget band.
+  - observed: `1.15`
+  - expected_max: `0.85`
+- **[INFO] resource_spend_effectiveness_below_band** - arbiter / seq 8
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.75`
+  - expected_min: `1.2`
+- **[INFO] survivability_below_band** - arbiter / seq 8
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.3`
+- **[INFO] investigation_divination_above_band** - arbiter / seq 9
+  - Sequence aggregate investigation_divination appears above budget band.
+  - observed: `1.9733`
+  - expected_max: `0.9`
+- **[INFO] mobility_escape_below_band** - arbiter / seq 9
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.2`
+- **[INFO] at_will_effectiveness_below_band** - black-emperor / seq 0
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.75`
+  - expected_min: `3.15`
+- **[INFO] control_strength_below_band** - black-emperor / seq 0
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.8`
+- **[INFO] investigation_divination_below_band** - black-emperor / seq 0
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.2`
+  - expected_min: `1.55`
+- **[INFO] mobility_escape_below_band** - black-emperor / seq 0
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.45`
+- **[INFO] resource_spend_effectiveness_below_band** - black-emperor / seq 0
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.75`
+  - expected_min: `4.1`
+- **[INFO] survivability_below_band** - black-emperor / seq 0
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.35`
+  - expected_min: `1.7`
+- **[INFO] at_will_effectiveness_below_band** - black-emperor / seq 1
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `2.75`
+- **[INFO] control_strength_below_band** - black-emperor / seq 1
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.55`
+- **[INFO] investigation_divination_below_band** - black-emperor / seq 1
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.2`
+  - expected_min: `1.35`
+- **[INFO] mobility_escape_below_band** - black-emperor / seq 1
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.3`
+- **[INFO] resource_spend_effectiveness_below_band** - black-emperor / seq 1
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `3.6`
+- **[INFO] survivability_below_band** - black-emperor / seq 1
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.15`
+  - expected_min: `1.45`
+- **[INFO] at_will_effectiveness_below_band** - black-emperor / seq 2
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `2.35`
+- **[INFO] control_strength_below_band** - black-emperor / seq 2
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.3`
+- **[INFO] investigation_divination_below_band** - black-emperor / seq 2
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.2`
+  - expected_min: `1.15`
+- **[INFO] mobility_escape_below_band** - black-emperor / seq 2
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.1`
+- **[INFO] resource_spend_effectiveness_below_band** - black-emperor / seq 2
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `3.15`
+- **[INFO] survivability_below_band** - black-emperor / seq 2
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.15`
+  - expected_min: `1.25`
+- **[INFO] at_will_effectiveness_below_band** - black-emperor / seq 3
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `2.0`
+- **[INFO] control_strength_below_band** - black-emperor / seq 3
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.1`
+- **[INFO] investigation_divination_below_band** - black-emperor / seq 3
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.2`
+  - expected_min: `0.95`
+- **[INFO] mobility_escape_below_band** - black-emperor / seq 3
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.95`
+- **[INFO] resource_spend_effectiveness_below_band** - black-emperor / seq 3
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `2.7`
+- **[INFO] survivability_below_band** - black-emperor / seq 3
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.15`
+  - expected_min: `1.1`
+- **[INFO] at_will_effectiveness_below_band** - black-emperor / seq 4
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.1582`
+  - expected_min: `1.7`
+- **[INFO] control_strength_below_band** - black-emperor / seq 4
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.95`
+- **[INFO] investigation_divination_below_band** - black-emperor / seq 4
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.2`
+  - expected_min: `0.8`
+- **[INFO] mobility_escape_below_band** - black-emperor / seq 4
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.8`
+- **[INFO] resource_spend_effectiveness_below_band** - black-emperor / seq 4
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.5225`
+  - expected_min: `2.3`
+- **[INFO] survivability_below_band** - black-emperor / seq 4
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.9`
+- **[INFO] at_will_effectiveness_below_band** - black-emperor / seq 5
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.7885`
+  - expected_min: `1.45`
+- **[INFO] control_strength_below_band** - black-emperor / seq 5
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.23`
+  - expected_min: `0.75`
+- **[INFO] mobility_escape_below_band** - black-emperor / seq 5
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.65`
+- **[INFO] resource_spend_effectiveness_below_band** - black-emperor / seq 5
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.26`
+  - expected_min: `2.0`
+- **[INFO] survivability_below_band** - black-emperor / seq 5
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.1`
+  - expected_min: `0.7`
+- **[INFO] at_will_effectiveness_below_band** - black-emperor / seq 6
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.5429`
+  - expected_min: `1.2`
+- **[INFO] control_strength_below_band** - black-emperor / seq 6
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0367`
+  - expected_min: `0.6`
+- **[INFO] mobility_escape_below_band** - black-emperor / seq 6
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.2833`
+  - expected_min: `0.5`
+- **[INFO] resource_spend_effectiveness_below_band** - black-emperor / seq 6
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.0173`
+  - expected_min: `1.7`
+- **[INFO] survivability_below_band** - black-emperor / seq 6
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.05`
+  - expected_min: `0.55`
+- **[INFO] at_will_effectiveness_below_band** - black-emperor / seq 7
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.3459`
+  - expected_min: `1.0`
+- **[INFO] control_strength_below_band** - black-emperor / seq 7
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.45`
+- **[INFO] investigation_divination_below_band** - black-emperor / seq 7
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.4`
+- **[INFO] mobility_escape_below_band** - black-emperor / seq 7
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.4`
+- **[INFO] at_will_effectiveness_above_band** - black-emperor / seq 8
+  - Sequence aggregate at_will_effectiveness appears above budget band.
+  - observed: `1.3333`
+  - expected_max: `1.3`
+- **[INFO] control_strength_below_band** - black-emperor / seq 8
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.35`
+- **[INFO] mobility_escape_below_band** - black-emperor / seq 8
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.3`
+- **[INFO] control_strength_below_band** - black-emperor / seq 9
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0267`
+  - expected_min: `0.25`
+- **[INFO] investigation_divination_above_band** - black-emperor / seq 9
+  - Sequence aggregate investigation_divination appears above budget band.
+  - observed: `1.0733`
+  - expected_max: `0.9`
+- **[INFO] mobility_escape_below_band** - black-emperor / seq 9
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.2`
+- **[INFO] at_will_effectiveness_below_band** - death / seq 0
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `3.15`
+- **[INFO] control_strength_below_band** - death / seq 0
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.8`
+- **[INFO] investigation_divination_below_band** - death / seq 0
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.2`
+  - expected_min: `1.55`
+- **[INFO] mobility_escape_below_band** - death / seq 0
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.45`
+- **[INFO] resource_spend_effectiveness_below_band** - death / seq 0
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `4.1`
+- **[INFO] survivability_below_band** - death / seq 0
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.15`
+  - expected_min: `1.7`
+- **[INFO] at_will_effectiveness_below_band** - death / seq 1
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.075`
+  - expected_min: `2.75`
+- **[INFO] control_strength_below_band** - death / seq 1
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.55`
+- **[INFO] investigation_divination_below_band** - death / seq 1
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.35`
+- **[INFO] mobility_escape_below_band** - death / seq 1
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.3`
+- **[INFO] resource_spend_effectiveness_below_band** - death / seq 1
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.425`
+  - expected_min: `3.6`
+- **[INFO] survivability_below_band** - death / seq 1
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.45`
+- **[INFO] out_of_band_cost_too_expensive** - death / seq 1 / death-seq-01-withering
+  - Ability may be over-costed for its estimated effect profile.
+  - observed: `1.425`
+  - expected_min: `1.8`
+- **[INFO] at_will_effectiveness_below_band** - death / seq 2
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `2.35`
+- **[INFO] control_strength_below_band** - death / seq 2
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.3`
+- **[INFO] investigation_divination_below_band** - death / seq 2
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.2`
+  - expected_min: `1.15`
+- **[INFO] mobility_escape_below_band** - death / seq 2
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.1`
+- **[INFO] resource_spend_effectiveness_below_band** - death / seq 2
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `3.15`
+- **[INFO] survivability_below_band** - death / seq 2
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.15`
+  - expected_min: `1.25`
+- **[INFO] control_strength_below_band** - death / seq 3
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.1267`
+  - expected_min: `1.1`
+- **[INFO] mobility_escape_below_band** - death / seq 3
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.95`
+- **[INFO] resource_spend_effectiveness_below_band** - death / seq 3
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `2.13`
+  - expected_min: `2.7`
+- **[INFO] survivability_below_band** - death / seq 3
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.3`
+  - expected_min: `1.1`
+- **[INFO] at_will_effectiveness_below_band** - death / seq 4
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.6144`
+  - expected_min: `1.7`
+- **[INFO] control_strength_below_band** - death / seq 4
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.11`
+  - expected_min: `0.95`
+- **[INFO] investigation_divination_below_band** - death / seq 4
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.0667`
+  - expected_min: `0.8`
+- **[INFO] mobility_escape_below_band** - death / seq 4
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.5333`
+  - expected_min: `0.8`
+- **[INFO] survivability_below_band** - death / seq 4
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.1333`
+  - expected_min: `0.9`
+- **[INFO] at_will_effectiveness_below_band** - death / seq 5
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.5733`
+  - expected_min: `1.45`
+- **[INFO] control_strength_below_band** - death / seq 5
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0267`
+  - expected_min: `0.75`
+- **[INFO] investigation_divination_below_band** - death / seq 5
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.3667`
+  - expected_min: `0.65`
+- **[INFO] mobility_escape_below_band** - death / seq 5
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.5333`
+  - expected_min: `0.65`
+- **[INFO] resource_spend_effectiveness_below_band** - death / seq 5
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.2667`
+  - expected_min: `2.0`
+- **[INFO] survivability_below_band** - death / seq 5
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.4833`
+  - expected_min: `0.7`
+- **[INFO] at_will_effectiveness_below_band** - death / seq 6
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.7667`
+  - expected_min: `1.2`
+- **[INFO] control_strength_below_band** - death / seq 6
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0267`
+  - expected_min: `0.6`
+- **[INFO] investigation_divination_below_band** - death / seq 6
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.2`
+  - expected_min: `0.5`
+- **[INFO] mobility_escape_below_band** - death / seq 6
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.2833`
+  - expected_min: `0.5`
+- **[INFO] resource_spend_effectiveness_below_band** - death / seq 6
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.0827`
+  - expected_min: `1.7`
+- **[INFO] survivability_below_band** - death / seq 6
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.2333`
+  - expected_min: `0.55`
+- **[INFO] control_strength_below_band** - death / seq 7
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0333`
+  - expected_min: `0.45`
+- **[INFO] mobility_escape_below_band** - death / seq 7
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.4`
+- **[INFO] survivability_below_band** - death / seq 7
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.35`
+  - expected_min: `0.4`
+- **[INFO] control_strength_below_band** - death / seq 8
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.1`
+  - expected_min: `0.35`
+- **[INFO] mobility_escape_below_band** - death / seq 8
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.3`
+- **[INFO] control_strength_below_band** - death / seq 9
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.1267`
+  - expected_min: `0.25`
+- **[INFO] investigation_divination_above_band** - death / seq 9
+  - Sequence aggregate investigation_divination appears above budget band.
+  - observed: `1.55`
+  - expected_max: `0.9`
+- **[INFO] mobility_escape_below_band** - death / seq 9
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.2`
+- **[INFO] resource_spend_effectiveness_below_band** - death / seq 9
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.9127`
+  - expected_min: `1.0`
+- **[INFO] at_will_effectiveness_below_band** - demoness / seq 0
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `3.15`
+- **[INFO] control_strength_below_band** - demoness / seq 0
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.8`
+- **[INFO] investigation_divination_below_band** - demoness / seq 0
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.2`
+  - expected_min: `1.55`
+- **[INFO] mobility_escape_below_band** - demoness / seq 0
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.45`
+- **[INFO] resource_spend_effectiveness_below_band** - demoness / seq 0
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `0.7`
+  - expected_min: `4.1`
+- **[INFO] survivability_below_band** - demoness / seq 0
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.15`
+  - expected_min: `1.7`
+- **[INFO] at_will_effectiveness_below_band** - demoness / seq 1
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.071`
+  - expected_min: `2.75`
+- **[INFO] control_strength_below_band** - demoness / seq 1
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.55`
+- **[INFO] investigation_divination_below_band** - demoness / seq 1
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.35`
+- **[INFO] mobility_escape_below_band** - demoness / seq 1
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.3`
+- **[INFO] resource_spend_effectiveness_below_band** - demoness / seq 1
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.957`
+  - expected_min: `3.6`
+- **[INFO] survivability_below_band** - demoness / seq 1
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.45`
+- **[INFO] at_will_effectiveness_below_band** - demoness / seq 2
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.4688`
+  - expected_min: `2.35`
+- **[INFO] control_strength_below_band** - demoness / seq 2
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.3`
+- **[INFO] investigation_divination_below_band** - demoness / seq 2
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.0`
+  - expected_min: `1.15`
+- **[INFO] mobility_escape_below_band** - demoness / seq 2
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.85`
+  - expected_min: `1.1`
+- **[INFO] survivability_below_band** - demoness / seq 2
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.75`
+  - expected_min: `1.25`
+- **[INFO] control_strength_below_band** - demoness / seq 3
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.815`
+  - expected_min: `1.1`
+- **[INFO] investigation_divination_below_band** - demoness / seq 3
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.95`
+- **[INFO] mobility_escape_below_band** - demoness / seq 3
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.95`
+- **[INFO] resource_spend_effectiveness_below_band** - demoness / seq 3
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `2.4`
+  - expected_min: `2.7`
+- **[INFO] at_will_effectiveness_below_band** - demoness / seq 4
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.5498`
+  - expected_min: `1.7`
+- **[INFO] control_strength_below_band** - demoness / seq 4
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.09`
+  - expected_min: `0.95`
+- **[INFO] investigation_divination_below_band** - demoness / seq 4
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.8`
+- **[INFO] mobility_escape_below_band** - demoness / seq 4
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.8`
+- **[INFO] resource_spend_effectiveness_below_band** - demoness / seq 4
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.0513`
+  - expected_min: `2.3`
+- **[INFO] survivability_below_band** - demoness / seq 4
+  - Sequence aggregate survivability appears below budget band.
+  - observed: `0.1`
+  - expected_min: `0.9`
+- **[INFO] at_will_effectiveness_below_band** - demoness / seq 5
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.4185`
+  - expected_min: `1.45`
+- **[INFO] control_strength_below_band** - demoness / seq 5
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.29`
+  - expected_min: `0.75`
+- **[INFO] investigation_divination_below_band** - demoness / seq 5
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.1`
+  - expected_min: `0.65`
+- **[INFO] mobility_escape_below_band** - demoness / seq 5
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.15`
+  - expected_min: `0.65`
+- **[INFO] resource_spend_effectiveness_below_band** - demoness / seq 5
+  - Sequence aggregate resource_spend_effectiveness appears below budget band.
+  - observed: `1.172`
+  - expected_min: `2.0`
+- **[INFO] at_will_effectiveness_below_band** - demoness / seq 6
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.7791`
+  - expected_min: `1.2`
+- **[INFO] control_strength_below_band** - demoness / seq 6
+  - Sequence aggregate control_strength appears below budget band.
+  - observed: `0.27`
+  - expected_min: `0.6`
+- **[INFO] investigation_divination_below_band** - demoness / seq 6
+  - Sequence aggregate investigation_divination appears below budget band.
+  - observed: `0.0`
+  - expected_min: `0.5`
+- **[INFO] mobility_escape_below_band** - demoness / seq 6
+  - Sequence aggregate mobility_escape appears below budget band.
+  - observed: `0.1`
+  - expected_min: `0.5`
+- **[INFO] at_will_effectiveness_below_band** - demoness / seq 7
+  - Sequence aggregate at_will_effectiveness appears below budget band.
+  - observed: `0.8262`
+  - expected_min: `1.0`
+
+- ... `899` additional finding(s) hidden (use `--max-findings` to increase).

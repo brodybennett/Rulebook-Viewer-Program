@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Abyss Pathway: Sequence 7
 
 ## Serial Killer
@@ -44,14 +45,21 @@ id: abyss-seq-07-nether-disturbance
 name: Nether Disturbance
 pathway: abyss
 sequence: 7
+status: adapted
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: difficulty_value
 range: self
-target: self
-duration: instant
+target: one chosen mystic information item
+duration: sustained
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted from the explicit Mysticism-versus-anti-divination difficulty check in the ritual outcome.
 scaling: []
 tags:
 - ritual
@@ -67,6 +75,7 @@ text: 'Whenever you kill a sentient being, if you make its body into a demon-ple
   is exceeded. A spirit body arranged in advance by a psychic can still provide effective
   information.'
 ```
+
 
 
 
@@ -87,6 +96,7 @@ id: abyss-seq-07-demon-burnt-offering
 name: Demon Burnt Offering
 pathway: abyss
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -95,6 +105,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -112,6 +128,7 @@ text: 'You have mastered knowledge and rituals related to demons. You can use sa
 
 
 
+
 You have mastered knowledge and rituals related to demons. You can use sacrifices to please demons and gain benefits.
 
 - This is essentially a special ritual magic.
@@ -121,11 +138,11 @@ You have mastered knowledge and rituals related to demons. You can use sacrifice
 
 **Pleasing Ritual**
 
-The basis of all demon-worshiping rituals: you donâ€™t expect anything in return, only to please the demon.
+The basis of all demon-worshiping rituals: you don't expect anything in return, only to please the demon.
 
-- **Process:** Based on general ritual magic, after confirming the current area is watched by demons, bring an intelligent creature to the ritual site and perform the most brutal â€œartâ€ under the gaze of demons to please them.
-- **Benefit:** Pleasing rituals bring no benefits, and the demon will not take the body or soul of its victims, but you gain the demonâ€™s favor.
-- **Sanity / Rationality:** Completion of â€œArtâ€ performed within the Pleasing Ritual causes you to instantly restore **1** additional sanity, based on intoxication. [[Sanity / Rationality]] [[Intoxication]]
+- **Process:** Based on general ritual magic, after confirming the current area is watched by demons, bring an intelligent creature to the ritual site and perform the most brutal "art" under the gaze of demons to please them.
+- **Benefit:** Pleasing rituals bring no benefits, and the demon will not take the body or soul of its victims, but you gain the demon's favor.
+- **Sanity / Rationality:** Completion of "Art" performed within the Pleasing Ritual causes you to instantly restore **1** additional sanity, based on intoxication. [[Sanity / Rationality]] [[Intoxication]]
 - **Follow-up:** Within **three days**, your next prayer will definitely be answered by this demon if you pre-pay the required sacrifices within that window; that next prayer requires no additional sacrifices.
 - **Flexibility:** You can change the pleasing ceremony into other ceremonies on the spot to pray for an immediate response.
 

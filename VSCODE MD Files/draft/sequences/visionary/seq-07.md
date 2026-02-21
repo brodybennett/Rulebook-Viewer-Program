@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Visionary Pathway: Sequence 7
 
 ## Psychiatrist
@@ -41,6 +42,7 @@ id: visionary-seq-07-passive-traits
 name: Passive Traits
 pathway: visionary
 sequence: 7
+status: canonical
 type: passive
 action: none
 cost: {}
@@ -49,6 +51,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -61,6 +69,7 @@ text: 'Enhanced Smell: You can distinguish subtler smells to better grasp real t
   you do so on purpose. Special: This is not absolute. If some means bypass your mental
   activities (such as hypnosis), you can still be forced to reveal information.'
 ```
+
 
 
 
@@ -81,6 +90,7 @@ id: visionary-seq-07-shock-and-awe-dragon-power
 name: Shock and Awe (Dragon Power)
 pathway: visionary
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -89,6 +99,12 @@ opposed_by: none
 range: Choose 1 target, or an area within 10 meters.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -102,6 +118,7 @@ text: 'Also known as group chaos. You make enemies panic as if facing a dragon. 
   people with Willpower 4: gain Fear and Awe; immediately flee to get away from the
   source of fear.'
 ```
+
 
 
 
@@ -137,14 +154,22 @@ id: visionary-seq-07-frenzy
 name: Frenzy
 pathway: visionary
 sequence: 7
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 3
 roll: null
 opposed_by: none
 range: Choose 1 target within your field of vision.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d3
+  notes: "Target loses 1 sanity per emotional state and 1d3 per madness symptom; detonated emotional state is cleared."
 scaling: []
 tags:
 - ritual
@@ -158,6 +183,7 @@ text: 'Detonates the targets emotional or mental state, causing them to fall int
   is immediately cleared. Manifestation (non-mechanical): When you cast it, your pupils
   lighten, become light-gold, and may become vertical.'
 ```
+
 
 
 
@@ -182,6 +208,7 @@ id: visionary-seq-07-mental-suggestion
 name: Mental Suggestion
 pathway: visionary
 sequence: 7
+status: canonical
 type: active
 action: free
 cost: {}
@@ -190,6 +217,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -203,6 +236,7 @@ text: 'You suggest the target through specific actions, language, and media. Cos
   may achieve the following effects (as approved by the GM): Keep in good condition:
   Set a time period or trigger conditi...'
 ```
+
 
 
 
@@ -246,6 +280,7 @@ id: visionary-seq-07-soothe-comfort
 name: Soothe (Comfort)
 pathway: visionary
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -254,6 +289,12 @@ opposed_by: none
 range: Choose 1 target within 10 meters.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -267,6 +308,7 @@ text: 'Helps Beyonders on the verge of losing control regain sanity and escape d
   action of casting spells, you are allowed to try to soothe them. Let a Beyonder
   about to lose control regain sanity:'
 ```
+
 
 
 
@@ -298,6 +340,7 @@ id: visionary-seq-07-mind-reading
 name: Mind Reading
 pathway: visionary
 sequence: 7
+status: canonical
 type: active
 action: free
 cost: {}
@@ -306,6 +349,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -317,6 +366,7 @@ text: 'You place the target in a semi-hypnotic state through candlelight, pure d
   a trance. Trance State: A target in Trance State answers all your questions truthfully
   and cannot lie. This has no effect on a target who can [[Stay Awake in Dream]].'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Paragon Pathway: Sequence 4
 
 > **GM Note:** This section is marked “unfinished” in the source.
@@ -38,14 +39,22 @@ id: paragon-seq-04-life-drain
 name: Life Drain
 pathway: paragon
 sequence: 4
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 6
+roll: 1d20 + @attr.int + @skill.chemistry
 opposed_by: physical_defense
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.chemistry
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: 2d6
+  notes: Use any scientific skill (chemistry/physics/biology); damage is 1d6 per km of chosen diameter (1-5 km, or 1-5 km equivalent for a single target), and temporary hit points are 2d6 per km (min 2d6, max 10d6).
 scaling: []
 tags:
 - ritual
@@ -57,6 +66,7 @@ text: 'Cost: 6 [[Spirituality]] Use: spellcasting action Targeting and range: Ar
   living creatures in the area. For each kilometer of diameter you choose, you deal
   1d6 damage to most creatures in the area (e.g., 5 km diameter deals 5d6).'
 ```
+
 
 
 
@@ -89,14 +99,21 @@ id: paragon-seq-04-forged-formation
 name: Forged Formation
 pathway: paragon
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.crafting
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.crafting
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Crafting check DV 20; time bonuses apply as listed (+5 identification/appraisal at each milestone).
 scaling: []
 tags:
 - buff
@@ -105,6 +122,7 @@ text: 'Use: spellcasting action Check: Pass a [[Crafting Check]] with Difficulty
   a day: Day 1: Identification +5 1 week: Identification +5 1 month: [[Appraisal]]
   +5 1 year: Appraisal +5 10 years: Appraisal +5'
 ```
+
 
 
 
@@ -163,6 +181,7 @@ id: paragon-seq-04-animate-object
 name: Animate Object
 pathway: paragon
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -171,12 +190,19 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice; mode costs are 4/6/8 spirituality (double for living matter). Disintegration damage applies after Armor Damage Reduction x2.
 scaling: []
 tags:
 - mobility
 text: You create and animate an object. You imbue an object you create with all of
   your [[Temporary Hit Points]], giving it life and movement.
 ```
+
 
 
 
@@ -196,6 +222,7 @@ id: paragon-seq-04-animate-a-puppet
 name: Animate a Puppet
 pathway: paragon
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -204,6 +231,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -212,6 +245,7 @@ text: You create and animate a puppet. You infuse all your temporary hit points 
   a mechanical puppet you made, so that it can gain life and can move, similar to
   an intelligent robot in the sense of mysticism.
 ```
+
 
 
 
@@ -231,6 +265,7 @@ id: paragon-seq-04-object-refining
 name: Object Refining
 pathway: paragon
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -239,6 +274,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -247,6 +288,7 @@ text: 'You practice an object. You use a craft to make an identification or to c
   opposite to the [[Ancient Alchemist]] of the Earth Path: Ancient alchemist is life
   refining, and you make objects.'
 ```
+
 
 
 
@@ -267,6 +309,7 @@ id: paragon-seq-04-cycle-of-life
 name: Cycle of Life
 pathway: paragon
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -275,6 +318,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -289,6 +338,7 @@ text: 'Alchemists can give or strip life force from items. #### Empower Alchemis
   #### Stripping By consuming spirituality, the alchemist strips the target''s vitality
   from the surrounding environment into itself.'
 ```
+
 
 
 
@@ -320,6 +370,7 @@ id: paragon-seq-04-alchemy
 name: Alchemy
 pathway: paragon
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -328,6 +379,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -341,6 +398,7 @@ text: 'Alchemists use a free-Casting Action that consumes spirituality to comple
   (such as some walls blocking the way). #### Qualitative Change Cost: 6 spiritual
   points'
 ```
+
 
 
 

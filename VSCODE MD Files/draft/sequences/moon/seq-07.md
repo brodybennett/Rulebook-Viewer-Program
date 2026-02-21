@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Moon Pathway: Sequence 7
 
 ## Vampire
@@ -43,15 +44,29 @@ id: moon-seq-07-extraordinary-sense-of-smell
 name: Extraordinary Sense of Smell
 pathway: moon
 sequence: 7
+status: canonical
 type: active
 action: free
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.investigation
 opposed_by: difficulty_value
 range: 20m
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.investigation
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Detection and tracking checks use investigation by default; chemistry/pharmacy may apply when analyzing smells.
+scaling:
+- when: distinguishing_smell
+  changes:
+    check_bonus: 0
+    effect_note: Use a DV 15 chemistry or pharmacy check to identify composition when needed.
+- when: sequence_6_or_higher
+  changes:
+    effect_note: Effective range increases to 30m (Sequence 6) or 50m (Sequence 5).
 tags:
 - detection
 - stealth
@@ -65,6 +80,7 @@ text: 'Type: Racial alteration; cannot be recorded/stolen. Cost: 1 free action. 
   can directly detect the existence of spirits or invisible creatures within 20 meters,
   and yo...'
 ```
+
 
 
 
@@ -96,6 +112,7 @@ id: moon-seq-07-extraordinary-life
 name: Extraordinary Life
 pathway: moon
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -104,6 +121,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -119,6 +142,7 @@ text: 'Type: Racial change; cannot be recorded/stolen. Effect: Your lifespan inc
   blood for 3 days, its like the hunger of a normal human being: you will be in a
   state of exhaus...'
 ```
+
 
 
 
@@ -145,15 +169,25 @@ id: moon-seq-07-high-speed-movement
 name: High-Speed Movement
 pathway: moon
 sequence: 7
+status: canonical
 type: active
 action: swift
 cost: {}
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: self
 target: self
 duration: sustained
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No roll required; grants fast-dodge benefits and a temporary +1 Agility bonus per use.
+scaling:
+- when: sequence_increase
+  changes:
+    effect_note: Each Sequence promotion increases the temporary Agility bonus by +1.
 tags:
 - mobility
 - defense
@@ -167,6 +201,7 @@ text: 'Type: Racial advantage; cannot be recorded/stolen. Effect: Your movement 
   one action. Every time you use this ability, choose 1 of the following purposes:
   +1 to a skill check involving Agility (DEX) or...'
 ```
+
 
 
 
@@ -195,16 +230,29 @@ id: moon-seq-07-extraordinary-regeneration
 name: Extraordinary Regeneration
 pathway: moon
 sequence: 7
-type: active
-action: swift
-cost:
-  vitality: 6
+status: canonical
+type: passive
+action: none
+cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: 1d6
+  effect_roll: 1d2
+  notes: Heal roll maps per-turn regeneration; effect roll maps sanity loss when forced dying effects occur.
+scaling:
+- when: sequence_4_or_higher
+  changes:
+    heal_roll: 2d6
+    effect_note: Regeneration increases at Sequence 4.
+- when: pierced_heart_or_holy_damage
+  changes:
+    effect_note: Regeneration is halved while pierced heart or excessive holy damage persists.
 tags:
 - healing
 - offense
@@ -218,6 +266,7 @@ text: 'Type: Racial advantage; cannot be recorded/stolen. Effect: High-speed reg
   effect is halved (rounded down), and you continue to lose 1 casting/attack/moving
   action, or 2 swift actions, until you reco...'
 ```
+
 
 
 
@@ -249,6 +298,7 @@ id: moon-seq-07-lunar-spells
 name: Lunar Spells
 pathway: moon
 sequence: 7
+status: canonical
 type: active
 action: full-round
 cost: {}
@@ -257,6 +307,12 @@ opposed_by: none
 range: Choose 1 willing/helpless creature.
 target: designated target(s)
 duration: For at least 1 hour.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - debuff
@@ -270,6 +326,7 @@ text: 'You have mastered the spells of the [[Lunar Realm]]. #### Golem Transform
   type is regarded as a dark creature; gain 5 points of poison resistance; you will
   rarely get sick again.'
 ```
+
 
 
 
@@ -315,6 +372,7 @@ id: moon-seq-07-dark-spells
 name: Dark Spells
 pathway: moon
 sequence: 7
+status: canonical
 type: active
 action: swift
 cost:
@@ -324,6 +382,12 @@ opposed_by: physical_defense
 range: Choose 1 or more targets.
 target: designated target(s)
 duration: 5 minutes.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
@@ -336,6 +400,7 @@ text: 'You master a variety of dark spells, including but not limited to the fol
   After 5 minutes, you will need to cast this ability again to fly again, which means
   you should land first.'
 ```
+
 
 
 

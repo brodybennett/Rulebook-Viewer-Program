@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Black Emperor Pathway: Sequence 9
 
 ## Lawyer
@@ -61,15 +62,25 @@ id: black-emperor-seq-09-conversational-and-eloquent
 name: Conversational and Eloquent
 pathway: black-emperor
 sequence: 9
-type: active
-action: cast
+status: adapted
+type: passive
+action: none
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.cha + @skill.psychology
+opposed_by: difficulty_value
 range: self
 target: designated target(s)
-duration: instant
-scaling: []
+duration: persistent
+dice:
+  check_roll: 1d20 + @attr.cha + @skill.psychology
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Mapped from explicit Psychology and Reconnaissance resistance-test wording; use Investigation if the table resolves Reconnaissance that way.
+scaling:
+- when: target_is_wary_or_hostile
+  changes:
+    effect_note: Beneficial misjudgment rider does not apply.
 tags:
 - defense
 - social
@@ -81,6 +92,7 @@ text: 1 Whenever you make a [[Social Identification]], you gain a +2 Charisma [[
   (This is a benefit from the potion and cannot be stolen or recorded. The Psychology/Reconnaissance
   test is triggered when a target resists distortion.)
 ```
+
 
 
 
@@ -105,6 +117,7 @@ id: black-emperor-seq-09-warp-channeling
 name: Warp Channeling
 pathway: black-emperor
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -113,6 +126,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -124,6 +143,7 @@ text: 'Use: Whenever you communicate with an intelligent creature for any 3 minu
   at a high price. Hiring becomes long-term hire. 2 Generalization: You distort the
   other partys perception of you into another similar meaning, such as:'
 ```
+
 
 
 
@@ -194,15 +214,34 @@ id: black-emperor-seq-09-spotting-loopholes
 name: Spotting Loopholes
 pathway: black-emperor
 sequence: 9
+status: adapted
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.law
 opposed_by: difficulty_value
 range: self
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.law
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Mapped from explicit Legal Appraisal against listed Difficulty Value tiers.
+scaling:
+- when: difficulty_value_15
+  changes:
+    effect_note: Discover contradictions and immediate loophole opportunities.
+- when: difficulty_value_20
+  changes:
+    effect_note: Identify exploitable jurisdiction or process weaknesses.
+- when: difficulty_value_25
+  changes:
+    effect_note: Identify core weakness or overattachment; other loophole forms can also resolve at this tier.
+- when: difficulty_value_30
+  changes:
+    effect_note: Understand the target's core purpose and ideal outcome.
 tags:
 - ritual
 text: 'Use: 1 Spellcasting Action, without consuming Spirituality [[Spirituality]].
@@ -215,6 +254,7 @@ text: 'Use: 1 Spellcasting Action, without consuming Spirituality [[Spirituality
   confuse the public), the ticket inspection is not rigorous, whether the character
   or work of others is sla...'
 ```
+
 
 
 
@@ -241,14 +281,22 @@ id: black-emperor-seq-09-vision
 name: Vision
 pathway: black-emperor
 sequence: 9
-type: active
+status: adapted
+type: toggle
 action: free
-cost: {}
-roll: null
+cost:
+  spirituality: 1
+roll: 1d20 + @attr.int + @skill.spiritual_intuition
 opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: 1d20 + @attr.int + @skill.spiritual_intuition
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Vision is a toggle with per-round upkeep; mapped check roll represents Spiritual Intuition checks while vision is active.
 scaling: []
 tags:
 - ritual
@@ -262,6 +310,7 @@ text: 'Use: 1 free action. Cost: Consuming 1 spirituality point per round. Effec
   which cannot identify extraordinary people. 3 Mental body: You can see whether the
   other party is thinking, but only so, and you cannot get more detailed information.'
 ```
+
 
 
 

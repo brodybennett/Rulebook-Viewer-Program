@@ -10,11 +10,12 @@ tags:
 
 
 
+
 # Fool Pathway: Sequence 9
 
 ## Seer
 
-> **Lore:** The Fool Pathwayâ€™s mythical creature is described as an â€œembracing spirit worm,â€ corresponding to the Tarot card â€œThe Fool.â€ Its Uniqueness evolves into a mythical creature.
+> **Lore:** The Fool Pathway's mythical creature is described as an "embracing spirit worm," corresponding to the Tarot card "The Fool." Its Uniqueness evolves into a mythical creature.
 
 - **Mythical Creature Form:** You transform into countless embracing spirit worms with crazy patterns on them.
 
@@ -26,8 +27,8 @@ tags:
 
 ### Auxiliary Materials
 
-- **Main ingredients (potion):** Rava Octopus blood Ã—10ml; Star Crystal Ã—50g
-- **Auxiliary materials (potion):** pure water Ã—100ml; night vanilla juice Ã—13 drops; golden mint leaves Ã—7 pieces; poison violet juice Ã—3 drops; dracaena powder Ã—9 grams
+- **Main ingredients (potion):** Rava Octopus blood x10ml; Star Crystal x50g
+- **Auxiliary materials (potion):** pure water x100ml; night vanilla juice x13 drops; golden mint leaves x7 pieces; poison violet juice x3 drops; dracaena powder x9 grams
 
 - **Acting rules:**
   - Help others interpret revelations and guide them toward a good direction.
@@ -46,8 +47,8 @@ tags:
 - **Learning (Occultism):**
   1) Each time you receive effective, authentic, non-repetitive occult guidance lasting at least 2 hours, your **Occultism** increases by 1 level.
      - Required learning counts by level:
-       - training â†’ proficiency: 2
-       - proficiency â†’ advanced: 3
+       - training -> proficiency: 2
+       - proficiency -> advanced: 3
        - advanced -> mastery: 4, up to mastery.
   2) Learning is limited to 1 time per day for knowledge digestion.
      - If you have mastered all divination skills listed under **Divination**, treat this as 1 learning immediately, and it is not counted in the number of times limited to 1 time per day.
@@ -62,15 +63,41 @@ id: fool-seq-09-divination
 name: Divination
 pathway: fool
 sequence: 9
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: difficulty_value
 range: self
-target: self
+target: divination query
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Canon prose calls this an Occult Identification check; outcome quality is determined by DV thresholds and clue quality.
+scaling:
+- when: check_result_meets_dv_15
+  changes:
+    effect_note: Very general answer (for example, city-level location).
+- when: check_result_meets_dv_20
+  changes:
+    effect_note: General directional answer.
+- when: check_result_meets_dv_25
+  changes:
+    effect_note: Fairly accurate answer (for example, street-level location).
+- when: check_result_meets_dv_30
+  changes:
+    effect_note: Very accurate answer with specific content.
+- when: target_has_related_clue
+  changes:
+    check_bonus: 2
+- when: target_is_group_without_specific_focus
+  changes:
+    effect_note: Divination fails by default.
 tags:
 - ritual
 - divination
@@ -82,6 +109,7 @@ text: 'Use: 1 Casting Action Cost: 2 Spirituality Effect: Choose 1 divination me
   street. Difficulty Value 30: Obtain a very accurate result; divination reveals specific
   content.'
 ```
+
 
 
 
@@ -155,14 +183,21 @@ id: fool-seq-09-ritual-mastery
 name: Ritual Mastery
 pathway: fool
 sequence: 9
-type: active
-action: cast
+status: canonical
+type: passive
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -174,6 +209,7 @@ text: 'Effect: While holding this ability, you gain access to ritual magic, rega
   the ritual magic you can use, refer to [[Common Ritual Magic]]. This is the effect
   brought by 1 potion and cannot be stolen or recorded.'
 ```
+
 
 
 
@@ -196,20 +232,34 @@ id: fool-seq-09-spiritual-vision
 name: Spiritual Vision
 pathway: fool
 sequence: 9
+status: adapted
 type: toggle
 action: free
-cost: {}
-roll: null
-opposed_by: none
+cost:
+  spirituality: 1
+roll: 1d20 + @attr.int + @skill.spiritual_intuition
+opposed_by: difficulty_value
 range: self
 target: designated target(s)
 duration: sustained
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.spiritual_intuition
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted check mapping for active interpretation tasks while Spiritual Vision is enabled; base sensory mode itself is toggle-on.
+scaling:
+- when: spiritual_vision_active
+  changes:
+    effect_note: Spiritual Intuition checks gain +2.
+- when: target_is_dead_less_than_24h
+  changes:
+    effect_note: Some ordinary spirit bodies are visible by default.
 tags:
 - ritual
 - detection
-- healing
-- mobility
+- divination
+- utility
 text: 'Use: 1 free action to activate. Cost: 1 spirituality point per round while
   active. Effect: While active, your vision gains the following benefits: 1) Etheric
   body: You can directly see the health status of the target through the color of
@@ -222,6 +272,7 @@ text: 'Use: 1 free action to activate. Cost: 1 spirituality point per round whil
 
 
 
+
 - **Use:** 1 **free action** to activate.
 - **Cost:** 1 **spirituality point per round** while active.
 - **Effect:** While active, your vision gains the following benefits:
@@ -229,7 +280,7 @@ text: 'Use: 1 free action to activate. Cost: 1 spirituality point per round whil
 
   1) Etheric body:
      - You can directly see the health status of the target through the color of the aura.
-     - You can directly find where the other partyâ€™s body is uncomfortable and where there is a problem.
+     - You can directly find where the other party's body is uncomfortable and where there is a problem.
      - When it comes to a certain organ, you can see the inside through the unthickened door and confirm the number of people inside.
   2) Spiritual body:
      - You can confirm whether an object/creature has spirituality.

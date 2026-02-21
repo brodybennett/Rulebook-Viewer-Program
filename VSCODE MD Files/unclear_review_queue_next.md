@@ -26,18 +26,18 @@
 [24] draft/sequences/abyss/seq-06.md:160 | The final word “hair” appears to be a stray fragment; the intended sentence ending is unclear.
 [25] draft/sequences/abyss/seq-06.md:190 | It is unclear how “without taking damage” interacts with “still lose the ability to cast it and consume life points,” and whether this changes the health-to-damage conversion.
 [26] draft/sequences/abyss/seq-06.md:198 | “corrupted words for hurting people” and “cannot be suppressed” are not defined here; the scope and procedure of this Sequence 7 strengthening rule are unclear.
-[27] draft/sequences/abyss/seq-07.md:24 | The exact procedure and what â€œrealize anti-divinationâ€ means in play is not defined; the text ties mystic identification difficulty to anti-divination difficulty but does not specify the roll/check type.
-[28] draft/sequences/abyss/seq-07.md:25 | â€œExcluding the spirit body arranged in advance by the psychicâ€ is grammatically unclear; it likely names an exception, but the exact scope of that exception is not explicit.
-[29] draft/sequences/abyss/seq-07.md:33 | The textâ€™s â€œpray that the gods will default to the â€˜dark side of the universeâ€™â€ is not clearly defined as a rule (target, effect, or limitation).
-[30] draft/sequences/abyss/seq-07.md:43 | This appears to waive sacrifices for the next prayer while also requiring sacrifices â€œin advanceâ€; the timing and â€œquantity requirementsâ€ reference is not defined here.
-[31] draft/sequences/abyss/seq-07.md:57 | The conditions for when this instead becomes â€œwhat you should do nextâ€ are not mechanically defined.
-[32] draft/sequences/abyss/seq-07.md:82 | â€œImmunotoxinâ€ is not defined; it likely indicates immunity to toxins/poison, but the exact rule term is unclear.
+[27] draft/sequences/abyss/seq-07.md:24 | The exact procedure and what "realize anti-divination" means in play is not defined; the text ties mystic identification difficulty to anti-divination difficulty but does not specify the roll/check type.
+[28] draft/sequences/abyss/seq-07.md:25 | "Excluding the spirit body arranged in advance by the psychic" is grammatically unclear; it likely names an exception, but the exact scope of that exception is not explicit.
+[29] draft/sequences/abyss/seq-07.md:33 | The text's "pray that the gods will default to the 'dark side of the universe'" is not clearly defined as a rule (target, effect, or limitation).
+[30] draft/sequences/abyss/seq-07.md:43 | This appears to waive sacrifices for the next prayer while also requiring sacrifices "in advance"; the timing and "quantity requirements" reference is not defined here.
+[31] draft/sequences/abyss/seq-07.md:57 | The conditions for when this instead becomes "what you should do next" are not mechanically defined.
+[32] draft/sequences/abyss/seq-07.md:82 | "Immunotoxin" is not defined; it likely indicates immunity to toxins/poison, but the exact rule term is unclear.
 [33] draft/sequences/abyss/seq-08.md:83 | This clause does not specify whether it restricts only this spell’s reuse, or interacts with another “swear words” ability/usage pool.
-[34] draft/sequences/apprentice/seq-01.md:34 | The clause about â€œobscuration and sealing of the old levelâ€ and â€œpriedâ€ is unclear in meaning and mechanical impact.
+[34] draft/sequences/apprentice/seq-01.md:34 | The clause about "obscuration and sealing of the old level" and "pried" is unclear in meaning and mechanical impact.
 [35] draft/sequences/apprentice/seq-01.md:41 | The RAW does not specify whether the -8 applies to the caster, the target, or the overall contest.
-[36] draft/sequences/apprentice/seq-01.md:71 | â€œSimilar to that of a doorâ€ is a comparator without specifying which Door mechanic is meant.
-[37] draft/sequences/apprentice/seq-01.md:75 | The permanence rule here depends on an unspecified â€œdoor abilityâ€ reference.
-[38] draft/sequences/apprentice/seq-01.md:81 | The roles (â€œstolen personâ€ vs â€œjudged personâ€) and the exact restoration restrictions are unclear.
+[36] draft/sequences/apprentice/seq-01.md:71 | "Similar to that of a door" is a comparator without specifying which Door mechanic is meant.
+[37] draft/sequences/apprentice/seq-01.md:75 | The permanence rule here depends on an unspecified "door ability" reference.
+[38] draft/sequences/apprentice/seq-01.md:81 | The roles ("stolen person" vs "judged person") and the exact restoration restrictions are unclear.
 [39] draft/sequences/apprentice/seq-02.md:55 | The RAW indicates “two different recording options” for angel-level difficulty, but does not state what determines which option applies.
 [40] draft/sequences/apprentice/seq-02.md:61 | “actual calculation does not need to be distinguished” is not explicit about what calculation/resistance distinction is waived.
 [41] draft/sequences/apprentice/seq-03.md:16 | The ritual mixes “most places” with “all places” as requirements, and the exact completion threshold is unclear.
@@ -49,4 +49,4 @@
 [47] draft/sequences/apprentice/seq-04.md:79 | “Health is independent” likely refers to each connecting door/space having separate durability, but the exact object(s) with health is not specified.
 [48] draft/sequences/apprentice/seq-05.md:46 | “higher than 1 character” and “enemy also has travelers” are not defined clearly enough to determine the exact exclusion condition.
 [49] draft/sequences/apprentice/seq-05.md:54 | RAW uses both “spirituality” and “spirit” as costs without clarifying whether they are the same resource.
-[50] draft/sequences/apprentice/seq-06.md:44 | “character” is not defined (rank/level/attribute?)
+[50] draft/sequences/apprentice/seq-06.md:44 | “character” is not defined (rank/level/attribute)

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Paragon Pathway: Sequence 6
 
 ## Craftsman
@@ -44,14 +45,21 @@ id: paragon-seq-06-wondercrafting
 name: Wondercrafting
 pathway: paragon
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.crafting
 opposed_by: difficulty_value
 range: The spring fist can attack creatures within 5 meters of you as the center.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.crafting
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Crafting appraisal DV 25; mechanical wonders use their own damage dice per item (see prose).
 scaling: []
 tags:
 - buff
@@ -65,6 +73,7 @@ text: 'You create ingenious mechanical wonders with a wealth of real-world knowl
   time a Mechanical Wonder is repaired or improved, 1 Steam Material is consumed,
   and it will not occupy mor...'
 ```
+
 
 
 
@@ -158,14 +167,21 @@ id: paragon-seq-06-extraordinary-crafting
 name: Extraordinary Crafting
 pathway: paragon
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.crafting
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.crafting
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d3
+  notes: "Crafting identification DV 15 (body) and DV 20 (integrate characteristic; +/-5 per sequence gap, +10 if higher Personality). Roll 1d3 to adjust ability count; randomize abilities with 1d(sequence level) and 1d(ability count). Negative effects: if characteristic is higher, roll 1d2 (alive), 1d3 (count), then 1d3 or 1d2 for strength; otherwise roll 1d2 for count and 1d2 for strength."
 scaling: []
 tags:
 - ritual
@@ -179,6 +195,7 @@ text: 'You craft an Extraordinary Item. Prerequisite: Before using this ability,
   a Difficulty Value 15 crafting identification [[Crafting Identification]] , make
   the shape of the item you want (a body). Thi...'
 ```
+
 
 
 

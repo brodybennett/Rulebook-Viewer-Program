@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # White Tower Pathway: Sequence 9
 
 ## Reader
@@ -49,6 +50,7 @@ id: reader-seq-09-thinking-palace-memory-palace
 name: Thinking Palace (Memory Palace)
 pathway: reader
 sequence: 9
+status: canonical
 type: active
 action: free
 cost: {}
@@ -57,6 +59,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -67,6 +75,7 @@ text: 'Cost: 1 Free Action. Use: Enter your Thinking Palace mentally at any time
   as books; you can read them again at any time. Aftereffects: You will never forget
   information stored this way. Limits: This ability cannot be recorded or stolen.'
 ```
+
 
 
 
@@ -90,6 +99,7 @@ id: reader-seq-09-ritual-mastery
 name: Ritual Mastery
 pathway: reader
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -98,6 +108,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -109,6 +125,7 @@ text: 'Effect: While holding this ability, you gain access to ritual magic, rega
   your [[Occult Identification]] is successful by default when performing ritual magic.
   Limits: This effect is brought by a potion and cannot be stolen or recorded.'
 ```
+
 
 
 
@@ -129,6 +146,7 @@ id: reader-seq-09-proficiency-in-languages
 name: Proficiency in Languages
 pathway: reader
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -137,6 +155,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -146,6 +170,7 @@ text: 'Effect: You are proficient in all language skills by default, even alien 
   World]], as long as the relevant information exists in the Spirit World. Limits:
   This does not include the language of the old days. [[Language of the Old Days]]'
 ```
+
 
 
 
@@ -162,6 +187,7 @@ id: reader-seq-09-speed-reading
 name: Speed Reading
 pathway: reader
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -170,6 +196,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -182,6 +214,7 @@ text: 'Effect: Your Library Identification can be completed in 30 minutes, no ma
   You must be Proficient in the corresponding skills before you can read them. After
   reading, you rise by +1 level. Skill Ranks Limits (Advanced and beyond):'
 ```
+
 
 
 
@@ -215,6 +248,7 @@ id: reader-seq-09-knowledgeable
 name: Knowledgeable
 pathway: reader
 sequence: 9
+status: canonical
 type: active
 action: free
 cost: {}
@@ -223,6 +257,12 @@ opposed_by: none
 range: line of sight
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -233,6 +273,7 @@ text: 'Cost: 1 Free Action. Use: Open your vision. Effect: You see carriers of k
   and not blocked by other peoples clothing or limbs. Limits: This ability cannot
   be recorded or stolen.'
 ```
+
 
 
 
@@ -252,6 +293,7 @@ id: reader-seq-09-extraordinary-knowledge
 name: Extraordinary Knowledge
 pathway: reader
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -260,6 +302,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - divination
@@ -272,6 +320,7 @@ text: 'Skill: You gain a new Extraordinary Knowledge skill. Key attribute: Educa
   corresponds to the Visionary pathway. Sailor Knowledge: corresponds to the Tyrant
   pathway. Sun Knowledge: corresponds to the Sun Pathway. [[Sun]]'
 ```
+
 
 
 
@@ -362,14 +411,22 @@ id: reader-seq-09-spiritual-vision
 name: Spiritual Vision
 pathway: reader
 sequence: 9
+status: canonical
 type: toggle
 action: free
-cost: {}
+cost:
+  spirituality: 1
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "2"
+  notes: No roll; while active, Spiritual Intuition tests gain +2.
 scaling: []
 tags:
 - ritual
@@ -386,6 +443,7 @@ text: 'Use: 1 free action to activate. Cost: 1 spirituality point per round whil
   the door to see the inside, identify whether there is ritual magic power, and penetrate
   the [[Spiritual Wall]]. Mental...'
 ```
+
 
 
 

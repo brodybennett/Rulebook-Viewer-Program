@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Chained Pathway: Sequence 8
 
 ## Lunatic
@@ -47,14 +48,22 @@ id: mutant-seq-08-crazy-intuitive-action
 name: Crazy Intuitive Action
 pathway: mutant
 sequence: 8
+status: canonical
 type: active
 action: swift
-cost: {}
+cost:
+  spirituality: 2
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: 1d3
+  notes: Sanity check loss is 1/1d3; bonus damage applies while insanity or sanity loss persists.
 scaling: []
 tags:
 - ritual
@@ -70,6 +79,7 @@ text: 'Use: 1 Swift Action. Cost: 2 [[Spirituality]]. Effect: Choose 1 of the fo
   24 hours have elapsed, or a [[long rest]] has elapsed. Special: While insane, thoughts-disturbing
   and mind-affecting...'
 ```
+
 
 
 
@@ -93,6 +103,7 @@ id: mutant-seq-08-full-moon-curse
 name: Full Moon Curse
 pathway: mutant
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -101,6 +112,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d3
+  notes: Sanity check loss is 1/1d3; sanity/rationality checks gain +2 but rolls of 18-20 are catastrophic failures.
 scaling: []
 tags:
 - control
@@ -114,6 +131,7 @@ text: 'Effect: The Curse of the Full Moon is an inherent effect once possessing 
   failures. Special: When acquiring a new full moon curse, the original full moon
   curse will be overwritten.'
 ```
+
 
 
 

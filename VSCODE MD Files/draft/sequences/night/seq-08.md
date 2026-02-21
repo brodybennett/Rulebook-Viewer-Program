@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Darkness Pathway: Sequence 8
 
 ## Midnight Poet
@@ -47,16 +48,39 @@ id: night-seq-08-recite-poems
 name: Recite Poems
 pathway: night
 sequence: 8
+status: canonical
 type: active
-action: swift
-cost: {}
-roll: null
+action: cast
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.wil
 opposed_by: difficulty_value
 range: All verses primarily affect only the direction you are facing; other creatures
   within hearing range are affected with **-2** to the verses Difficulty Value.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.wil
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d20 + @attr.luk
+  notes: Targets resist the selected verse with Will tests at the listed Difficulty Values; Lucky appraisal applies to Intoxicated Poetry.
+scaling:
+- when: slack_psalm
+  changes:
+    effect_note: Will DV 15 or suffer -2 to skill/attribute tests and limited swift actions until end of your next round.
+- when: midnight_psalm
+  changes:
+    effect_note: Stupor state; DV 15 Will tests can shake it off when acting.
+- when: requiem_psalm
+  changes:
+    effect_note: Will DV 10 or lose one action (undead are pacified without a test).
+- when: intoxicated_poetry
+  changes:
+    effect_note: Will DV 15 or movement goes random; Lucky appraisal DV 15 checks the desired direction.
+- when: praise_psalm
+  changes:
+    effect_note: Certain creatures must pass Will DV 20 or suffer 1 sanity/rationality loss and discomfort.
 tags:
 - ritual
 - defense
@@ -70,6 +94,7 @@ text: 'Cost: 3 points of Spirituality [[Spirituality]]. Use: 1 Casting Action Ca
   otherwise, it continues until the end of your next round of actions. You can perform
   at most 1 Swift Action Swift Action. Ski...'
 ```
+
 
 
 

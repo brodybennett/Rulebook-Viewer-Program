@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Twilight Giant Pathway: Sequence 2
 
 ## Glory
@@ -37,6 +38,7 @@ id: war-god-seq-02-shield-of-envelopment-glory
 name: Shield of Envelopment (Glory)
 pathway: war-god
 sequence: 2
+status: canonical
 type: active
 action: full-round
 cost: {}
@@ -45,6 +47,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - stealth
@@ -60,6 +68,7 @@ text: 'Use: As a Full-Round Action [[Full-Round Action]], create a shield of glo
   as the enemy doesnt defeat you, they cant get out of that world. Teleportation [[Teleportation]]
   is limited by the shield.'
 ```
+
 
 
 

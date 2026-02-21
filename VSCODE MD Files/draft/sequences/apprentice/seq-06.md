@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Door Pathway: Sequence 6
 
 ## Scribe
@@ -47,17 +48,37 @@ id: apprentice-seq-06-record
 name: Record
 pathway: apprentice
 sequence: 6
+status: adapted
 type: active
 action: free
 cost: {}
-roll: null
+roll: 1d20 + @attr.int
 opposed_by: difficulty_value
 range: self
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted from the explicit Intuition Appraisal gate for recording witnessed abilities.
+scaling:
+- when: target_ability_sequence_above_record_tier
+  changes:
+    difficulty_adjustment_per_sequence: 5
+- when: target_ability_sequence_below_record_tier
+  changes:
+    difficulty_adjustment_per_sequence: -5
+- when: adjusted_difficulty_value_lte_10
+  changes:
+    effect_note: Recording succeeds by default.
+- when: target_ability_more_than_two_sequences_above
+  changes:
+    effect_note: Recording fails by default or is treated as near-impossible.
 tags:
 - buff
+- utility
 text: 'Your mutated brain reproduces an extraordinary ability used by a target and
   constructs a corresponding pattern for storage. Use: 1 free action, whenever you
   witness an active extraordinary ability, you can immediately record it. Check: Recording
@@ -68,6 +89,7 @@ text: 'Your mutated brain reproduces an extraordinary ability used by a target a
   time your record ability is lowered by 1 character: the difficulty of identification
   -5, until the Difficulty Value is 10 or...'
 ```
+
 
 
 

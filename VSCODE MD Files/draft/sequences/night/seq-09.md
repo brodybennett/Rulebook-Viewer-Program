@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Darkness Pathway: Sequence 9
 
 ## Sleepless
@@ -57,6 +58,7 @@ id: night-seq-09-blessed-of-the-night
 name: Blessed of the Night
 pathway: night
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -65,6 +67,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -74,6 +82,7 @@ text: '*Blessed of the Night: The deeper the night, the more energetic you are, 
   +1 (beneficial). Night time: All attributes +1 Attribute and skill identification
   +2 (beneficial) You will only be exhausted due to extraordinary factors. Late night:'
 ```
+
 
 
 
@@ -122,6 +131,7 @@ id: night-seq-09-no-sleep
 name: No Sleep
 pathway: night
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -130,6 +140,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -144,6 +160,7 @@ text: '*No Sleep: You only need to rest for three to four hours per day. Resting
   Sequence 6: 1h). Darkness Pathway Sequence 5: It only takes half an hour to rest
   (difference can be 10 minutes). Related mechanics:'
 ```
+
 
 
 
@@ -175,6 +192,7 @@ id: night-seq-09-darkvision
 name: Darkvision
 pathway: night
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -183,6 +201,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -191,6 +215,7 @@ text: '*Darkvision: Even in a completely dark environment, you can maintain norm
   vision. This does not mean you can directly ignore extraordinary abilities that
   hide using shadows or darkness. Related mechanics: [[Concealment by Shadows/Darkness]]'
 ```
+
 
 
 
@@ -211,15 +236,31 @@ id: night-seq-09-premonition-of-danger
 name: Premonition of Danger
 pathway: night
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Intuition appraisal at DV 15 when a single attack could halve max vitality at night/late night; success grants a temporary +4 physical defense bonus.
+scaling:
+- when: sequence_8
+  changes:
+    effect_note: Premonition manifests as a flashing screen rather than a thought.
+- when: sequence_7
+  changes:
+    effect_note: Intuition appraisal succeeds by default.
+- when: sequence_6
+  changes:
+    effect_note: Can perceive danger from a person higher than you.
 tags:
 - divination
 - offense
@@ -233,6 +274,7 @@ text: '*Premonition of Danger: You can keenly perceive unknown dangers and unkno
   blood volume (round up): Perform an Intuition (INT) appraisal at Difficulty Value
   15. If successful, your physical defens...'
 ```
+
 
 
 
@@ -272,6 +314,7 @@ id: night-seq-09-vision
 name: Vision
 pathway: night
 sequence: 9
+status: canonical
 type: active
 action: free
 cost: {}
@@ -280,6 +323,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -292,6 +341,7 @@ text: '*Vision: You gain vision, but it is not as effective for you as your own 
   an object/creature has spirituality; this cannot identify extraordinary people.
   Mental body: You can see whether the target is thinking, but nothing more detailed.'
 ```
+
 
 
 

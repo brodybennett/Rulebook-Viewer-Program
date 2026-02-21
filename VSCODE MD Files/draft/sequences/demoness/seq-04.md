@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Demoness Pathway: Sequence 4
 
 - See also: [[Demoness]]
@@ -38,6 +39,7 @@ id: demoness-seq-04-man-made-disasters
 name: Man-Made Disasters
 pathway: demoness
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -47,6 +49,12 @@ range: Your **Blight Aura** [[Blight Aura]] is now wide enough to cover a small 
   and can spread wider under certain conditions by exploiting existing potential hazards.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -61,6 +69,7 @@ text: 'Effect: Your ability to spread disease and create disasters is enhanced. 
   once, and immediately amplify it through 8-point spiritual ritual magic [[Spiritual
   Ritual Magic]]. Smog example...'
 ```
+
 
 
 
@@ -104,17 +113,30 @@ id: demoness-seq-04-mirror-illusion
 name: Mirror Illusion
 pathway: demoness
 sequence: 4
+status: adapted
 type: active
 action: free
 cost:
-  spirituality: 6
-roll: null
-opposed_by: none
+  spirituality: 3
+roll: 1d20 + @attr.cha + @skill.charisma
+opposed_by: willpower_defense
 range: You create an extremely realistic illusion in a place where a mirror can reflect
   it.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.cha + @skill.charisma
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Opposed check maps the explicit Charisma vs Will defense contest; disbelief checks are target-side and kept in prose/scaling notes.
+scaling:
+- when: target_in_mirrored_environment
+  changes:
+    effect_note: Illusion is extremely realistic and effectively indistinguishable.
+- when: digestibility_20_or_higher
+  changes:
+    effect_note: Can directly transmit powers through mirrors.
 tags:
 - ritual
 text: 'Use: As a free action, once per turn. Cost: 3 spirituality points. [[Spirituality]]
@@ -123,6 +145,7 @@ text: 'Use: As a free action, once per turn. Cost: 3 spirituality points. [[Spir
   exists here, so it can be reflected. You can create illusions of: Yourself Items
   in your possession (which can be given to others)'
 ```
+
 
 
 

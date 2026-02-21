@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Sun Pathway: Sequence 6
 
 ## Notary
@@ -39,6 +40,7 @@ id: sun-seq-06-notarization
 name: Notarization
 pathway: sun
 sequence: 6
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -47,6 +49,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -59,6 +67,7 @@ text: 'Notarize the authenticity of [[Extraordinary Knowledge]] or the casting o
   Timing / limits: When you cast an [[id:alias-extraordinary-ability|Extraordinary
   Ability]], you may use this immediately on that casting.'
 ```
+
 
 
 
@@ -121,6 +130,7 @@ id: sun-seq-06-make-a-contract
 name: Make a Contract
 pathway: sun
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -129,6 +139,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -142,6 +158,7 @@ text: 'Make a Contract. Once you sign and approve it, higher-Sequence powerhouse
   the parchment. The signature may be a code name or pseudonym, but the name must
   belong to the signer (including their own...'
 ```
+
 
 
 

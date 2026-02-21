@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Justiciar Pathway: Sequence 1
 
 > **Lore:** This Sequence can stop chaos by separating combatants into distinct battlefields, standing in an independent position to control influence. It can sense changes in order.
@@ -36,17 +37,37 @@ id: arbiter-seq-01-hand-of-order
 name: Hand of Order
 pathway: arbiter
 sequence: 1
+status: adapted
 type: active
 action: free
-cost: {}
-roll: null
-opposed_by: none
-range: self
-target: self
-duration: instant
-scaling: []
+cost:
+  spirituality: 5
+roll: 1d20 + @attr.cha + @skill.law
+opposed_by: willpower_defense
+range: designated area in law scope
+target: designated target(s)
+duration: sustained
+dice:
+  check_roll: 1d20 + @attr.cha + @skill.law
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 2d20
+  notes: Adapted from explicit law-setting procedure where two Law plus Charisma rolls are made and one is chosen as the violation Difficulty Value.
+scaling:
+- when: law_is_first_imposed
+  changes:
+    effect_note: Roll two Law plus Charisma checks and choose one result as the violation Difficulty Value.
+- when: target_attempts_to_break_order
+  changes:
+    check_penalty: -4
+    effect_note: Violator resolves Law versus Willpower Defense with at least a -4 penalty.
+- when: target_sequence_lower_than_you
+  changes:
+    effect_note: Each sequence gap adds another -4 penalty when trying to violate the law.
 tags:
 - ritual
+- control
+- defense
 text: 'You can make the rules of the world to a certain extentrules that cannot usually
   be violatedand cause them to become reality. Cost: 5 [[Spirituality]] (total) Use:
   Free action Free Action Effect: You formulate a world law that is regarded as a
@@ -57,6 +78,7 @@ text: 'You can make the rules of the world to a certain extentrules that cannot 
   Divide a chaotic battle so enemies become one-on-one with each other. Restriction:
   Extraordinary powers cannot be remotely a...'
 ```
+
 
 
 
@@ -91,6 +113,6 @@ You can make the rules of the world to a certain extent—rules that cannot usua
 #### Penalties to Break Through
 
 - Breaking through this order requires a **-4** penalty.
-- The violator makes a **Law** check vs the targetâ€™s **Willpower Defense**. For each **Sequence** level the enemy is lower than you, that check suffers another **-4** penalty.
+- The violator makes a **Law** check vs the target's **Willpower Defense**. For each **Sequence** level the enemy is lower than you, that check suffers another **-4** penalty.
 
 - **Limits:** As described in this section's prose.

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Fool Pathway: Sequence 0
 
 ## The Fool
@@ -41,14 +42,21 @@ id: fool-seq-00-divine-gaze
 name: Divine Gaze
 pathway: fool
 sequence: 0
-type: active
-action: cast
+status: canonical
+type: reaction
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Triggered by True Name recitation; no explicit random roll in source text.
 scaling: []
 tags:
 - utility
@@ -56,6 +64,7 @@ text: 'Use: When any creature recites your True Name. Effect: You can gaze at th
   surroundings of that creature, and use your extraordinary abilities to target the
   area at will.'
 ```
+
 
 
 
@@ -74,19 +83,27 @@ id: fool-seq-00-god-of-blindness-and-foolishness
 name: God of Blindness and Foolishness
 pathway: fool
 sequence: 0
-type: active
-action: cast
+status: canonical
+type: passive
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
 text: 'Effect: You gain the following abilities: Aura of Foolishness Fooling'
 ```
+
 
 
 
@@ -105,23 +122,32 @@ id: fool-seq-00-aura-of-foolishness
 name: Aura of Foolishness
 pathway: fool
 sequence: 0
-type: active
-action: cast
+status: canonical
+type: toggle
+action: free
 cost: {}
 roll: null
 opposed_by: none
-range: self
-target: self
-duration: instant
+range: field of vision
+target: creatures in sight
+duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Aura-state effect with deterministic caps and insanity rider; no explicit contested roll in source text.
 scaling: []
 tags:
 - detection
+- control
 text: 'Effect: All creatures within your field of vision have their Intuition (INT)
   capped at 1 (cannot exceed 1). [[Field of Vision]] If a creature becomes insane
   due to a Sanity / Rationality roll, it is immediately incapacitated and cannot take
   any actions until the insanity ends. [[Sanity / Rationality Roll]] [[Incapacitated]]
   [[Insanity]]'
 ```
+
 
 
 
@@ -139,18 +165,29 @@ id: fool-seq-00-fooling
 name: Fooling
 pathway: fool
 sequence: 0
+status: adapted
 type: active
 action: free
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.int + @skill.occultism
+opposed_by: difficulty_value
 range: self
-target: self
+target: one creature or one resolved action instance
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted check model for uncertainty-heavy uses; baseline effect remains immediate cancellation of one resolved action and its consequences.
+scaling:
+- when: same_target_again_in_same_round
+  changes:
+    effect_note: Cannot be used on the same creature more than once per round.
 tags:
 - ritual
 - offense
+- control
 text: 'Use: Free action. Free Action Limits: Can be used only once on the same creature
   in a round. Round Effect: You declare that what has happened does not exist. When
   you declare that a thing that happened does not exist, 1 action and all consequences
@@ -158,6 +195,7 @@ text: 'Use: Free action. Free Action Limits: Can be used only once on the same c
   its result. Aftereffects: This ability does not return spirituality lost through
   using the ability. [[Spirituality]]'
 ```
+
 
 
 

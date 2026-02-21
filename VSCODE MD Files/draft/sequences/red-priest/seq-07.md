@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Red Priest Pathway: Sequence 7
 
 > **Lore:** Known as a “Fire Mage” in ancient times, an Arsonist can manipulate flames flexibly.
@@ -44,14 +45,21 @@ id: red-priest-seq-07-manipulation-of-fire
 name: Manipulation of Fire
 pathway: red-priest
 sequence: 7
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: physical_defense
 range: Choose a target within 2 meters.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: 2d8
+  heal_roll: null
+  effect_roll: null
+  notes: Condensed Fireball and Fire Raven use Mysticism vs Physical Defense; Blazing Lance and Flame Whip use attack rolls. Damage varies by form (2d8; 2d8 + Strength; 1d4 + half Strength; 1d3 per raven; +1d6 attach fire; 2d6 spreading flame). Compression adds dice as listed.
 scaling: []
 tags:
 - ritual
@@ -65,6 +73,7 @@ text: 'You can control your fire flexibly and freely, shaping it into different 
   it disintegrates and explodes; ignores 2 [[Armor]]. [[Overflow]] ignores the [[Identification
   Bonus]]. Damage: 2d8 fire damage.'
 ```
+
 
 
 
@@ -156,14 +165,21 @@ id: red-priest-seq-07-incarnation-of-blazing-spear
 name: Incarnation of Blazing Spear
 pathway: red-priest
 sequence: 7
+status: canonical
 type: active
 action: attack
 cost: {}
-roll: null
+roll: 1d20 + @attr.str + @skill.fighting
 opposed_by: physical_defense
 range: Fight or throw against [[Physical Defense]].
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.str + @skill.fighting
+  damage_roll: 2d8
+  heal_roll: null
+  effect_roll: null
+  notes: Uses Blazing Lance damage and properties (2d8 + Strength damage bonus); throwing can substitute for fighting checks.
 scaling: []
 tags:
 - ritual
@@ -182,6 +198,7 @@ text: '(Granted at Sequence 5 per source text: Your control over the flame has b
   reorganize directly back into human form. This is considered [[Displacement]] while
   you are attacking and does not consume yo...'
 ```
+
 
 
 

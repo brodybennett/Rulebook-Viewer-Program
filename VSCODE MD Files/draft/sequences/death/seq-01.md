@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Death Pathway: Sequence 1
 
 ## Pale Emperor
@@ -40,14 +41,22 @@ id: death-seq-01-withering
 name: Withering
 pathway: death
 sequence: 1
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 10
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -56,6 +65,7 @@ text: 'Cost: 10 points of [[Spirituality]]. Use: A Casting Action. Effect: Make 
   years have passed in an instant, and within two seconds of actual time, they are
   rushing towards the end of death.'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # White Tower Pathway: Sequence 1
 
 ## Omniscient Eye
@@ -44,6 +45,7 @@ id: reader-seq-01-all-seeing-eye
 name: All-Seeing Eye
 pathway: reader
 sequence: 1
+status: canonical
 type: toggle
 action: free
 cost: {}
@@ -52,6 +54,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - divination
@@ -64,6 +72,7 @@ text: 'You can manifest the brass-colored all-seeing eye to examine a targets pa
   information of a target you choose within visible range. This ignores anti-divination
   and anti-prophecy effects, and ignores Personality for access.'
 ```
+
 
 
 

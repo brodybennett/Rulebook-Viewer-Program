@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Sun Pathway: Sequence 3
 
 ## Justice Mentor
@@ -34,6 +35,7 @@ id: sun-seq-03-holy-sea
 name: Holy Sea
 pathway: sun
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -42,6 +44,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -54,6 +62,7 @@ text: 'Effect: You can accumulate righteous and holy power as Justice Value (cal
   existence: +3. Sequence 6 evil existence: +4. Sequence 5 evil existence: +5. Sequence
   4 evil existence: +10.'
 ```
+
 
 
 
@@ -84,6 +93,7 @@ id: sun-seq-03-hide-by-light
 name: Hide by Light
 pathway: sun
 sequence: 3
+status: canonical
 type: active
 action: swift
 cost:
@@ -93,6 +103,12 @@ opposed_by: none
 range: self
 target: self
 duration: Maintain an encounter Encounter.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: 1d10
+  effect_roll: 1d4 + 1
+  notes: Restores 1d4+1 stolen powers; also restores 1d10 hit points and 1d3 sanity/rationality when applicable.
 scaling: []
 tags:
 - ritual
@@ -105,6 +121,7 @@ text: 'Cost: 10 Justice Value; 3 Spirituality [[Spirituality]]. Use: Swift Actio
   and monsters cant see your existence. Demigod-level detection can perceive a distorted
   light outline but does not grant clear sight of you.'
 ```
+
 
 
 
@@ -123,6 +140,7 @@ id: sun-seq-03-actification
 name: Actification
 pathway: sun
 sequence: 3
+status: canonical
 type: active
 action: swift
 cost:
@@ -132,6 +150,12 @@ opposed_by: none
 range: line of sight
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -146,6 +170,7 @@ text: 'Cost: 20 Justice Value; 3 Spirituality. Use: Swift Action. Trigger: An im
   turn multiple artillery and bullets into light. The radiance immediately purifies
   surrounding curses and evil influences [[Curse]].'
 ```
+
 
 
 
@@ -167,6 +192,7 @@ id: sun-seq-03-symmetra
 name: Symmetra
 pathway: sun
 sequence: 3
+status: canonical
 type: active
 action: swift
 cost:
@@ -176,6 +202,12 @@ opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -190,6 +222,7 @@ text: 'Cost: 15 Justice Value; 3 Spirituality. Use: Swift Action. Effect: Choose
   in previous rounds, up to 1d4+1 at a time. You can restore distorted or defrauded
   orders, causing them to immediately...'
 ```
+
 
 
 
@@ -214,6 +247,7 @@ id: sun-seq-03-zhengyao-wings
 name: Zhengyao Wings
 pathway: sun
 sequence: 3
+status: canonical
 type: active
 action: free
 cost:
@@ -223,6 +257,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: 2d10
+  heal_roll: null
+  effect_roll: 1d3
+  notes: Offensive sun abilities gain +2d10 damage and +1d10 vs dark/evil/undead; radiance grants 1d3 temporary sanity armor once per encounter.
 scaling: []
 tags:
 - ritual
@@ -237,6 +277,7 @@ text: 'Cost: 15 Justice Value; 3 Spirituality. Use: Free action Free Action. Lim
   damage bonus against darkness, evil, and undead. This additional bonus takes effect
   only once per use. The effect of enhanced solar power is increased by half.'
 ```
+
 
 
 

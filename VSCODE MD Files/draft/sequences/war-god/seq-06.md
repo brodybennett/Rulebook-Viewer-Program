@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Twilight Giant Pathway: Sequence 6
 
 > **Lore:** Possessing giant-like power, you can fill the surroundings with morning light. This light can break illusions, disperse the shadows of resentful souls, and weaken evil spirits.
@@ -46,15 +47,22 @@ id: war-god-seq-06-armor-of-dawn
 name: Armor of Dawn
 pathway: war-god
 sequence: 6
+status: canonical
 type: active
 action: free
 cost:
-  spirituality: 6
+  spirituality: 3
 roll: null
 opposed_by: physical_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "No roll; gap critical strikes gain +1d6 damage, and gaps repair after 2 rounds."
 scaling: []
 tags:
 - ritual
@@ -70,6 +78,7 @@ text: 'As a free action and at the expense of 3 spirituality points, you create 
   While that part has a Gap, a critical strike there ignores the benefits of Armor
   of Dawn and gains a damage...'
 ```
+
 
 
 
@@ -103,14 +112,22 @@ id: war-god-seq-06-gather-dawn
 name: Gather Dawn
 pathway: war-god
 sequence: 6
+status: canonical
 type: active
 action: swift
-cost: {}
+cost:
+  spirituality: 3
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: "Weapon damage dice: Sword 1d8 or 2d6 + STR, Quick Bow 1d3 + half STR, Longbow 1d8 + STR, Whip 1d4 + half STR; each hit adds 1d6 vs spirit creatures; Sequence 5 adds 1d2 to base damage."
 scaling: []
 tags:
 - ritual
@@ -126,6 +143,7 @@ text: 'You can gather (condense) different weapons. The strongest is a two-hande
   of Dawn: The medium/large Sword of Dawn can cause damage of 1d8+Strength / 2d6+Strength
   damage dice respectively.'
 ```
+
 
 
 
@@ -173,6 +191,7 @@ id: war-god-seq-06-create-dawn
 name: Create Dawn
 pathway: war-god
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -181,6 +200,12 @@ opposed_by: none
 range: 50m
 target: designated target(s)
 duration: Every 1 point of spirituality lasts for 1 minute.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -196,6 +221,7 @@ text: 'You fill the surroundings with bright, clean, and holy dawn, which can br
   ordinary wraith shadows are purified immediately. Extraordinary spirit creatures
   with a certain strength start to suffe...'
 ```
+
 
 
 
@@ -224,14 +250,22 @@ id: war-god-seq-06-storm-of-light
 name: Storm of Light
 pathway: war-god
 sequence: 6
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: physical_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: 2d6 + 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: "Mysticism check vs Physical Defense (ignores DEX/Dodge). Damage is 2d6 holy + 1d6 fire; insert mode also hits you; storm adds 1d6 restraint vs spirits; Sequence 5 upgrades to 3d6 holy + 1d6 fire and no self-damage."
 scaling: []
 tags:
 - ritual
@@ -246,6 +280,7 @@ text: 'You create a storm of light that sweeps the surroundings, which can direc
   Resolution: Make a Mysticism check against each creatures Physical Defense (ignore
   Agility (DEX) and Dodge bonuses). This a...'
 ```
+
 
 
 

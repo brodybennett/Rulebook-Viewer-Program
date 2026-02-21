@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Death Pathway: Sequence 5
 
 A Gatekeeper can sense entrances to the [[Underworld]] and create gates that overlap the [[Spirit World]] and the Underworld. It can drive the [[Undead]] and summon many undead creatures.
@@ -49,6 +50,7 @@ id: death-seq-05-underworld-perception-and-sign
 name: Underworld Perception and Sign
 pathway: death
 sequence: 5
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -57,6 +59,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -66,6 +74,7 @@ text: You can perceive the location of the Underworld. You gain an Underworld in
   of the forehead, representing the location of the [[God of Death]]. This description
   is cosmetic only and has no mechanical effect.
 ```
+
 
 
 
@@ -84,6 +93,7 @@ id: death-seq-05-inner-underworld
 name: Inner Underworld
 pathway: death
 sequence: 5
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -92,6 +102,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -105,6 +121,7 @@ text: 'Effect: You can use your body as a cage to provide a suitable environment
   *Benefits: 1) Any soul contained in your body no longer needs to worry about its
   existence time. As long as it...'
 ```
+
 
 
 
@@ -136,15 +153,27 @@ id: death-seq-05-gate-to-the-underworld
 name: Gate to the Underworld
 pathway: death
 sequence: 5
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 5
+roll: 1d20 + @attr.int + @skill.knowledge
 opposed_by: physical_defense
 range: 50m
 target: designated target(s)
-duration: instant
-scaling: []
+duration: sustained
+dice:
+  check_roll: 1d20 + @attr.int + @skill.knowledge
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: check_roll maps the Ghosts of the Underworld grab check against Physical Defense; other gate effects resolve per prose.
+scaling:
+- when: use_is_underworld_vortex
+  changes:
+    check_roll: null
+    effect_note: Vortex mode applies forced movement and suction effects without an attack check.
 tags:
 - ritual
 - defense
@@ -157,6 +186,7 @@ text: 'You construct a slightly obscured, bisected bronze gate that creates an e
   action required): *A) Ghosts of the Underworld Attack/Check: Intuition (INT) + Knowledge
   of the Dead against the targets [[Physical Defense]], ignoring [[Armor]].'
 ```
+
 
 
 
@@ -247,6 +277,7 @@ id: death-seq-05-nether-wave
 name: Nether Wave
 pathway: death
 sequence: 5
+status: canonical
 type: active
 action: full-round
 cost: {}
@@ -255,6 +286,12 @@ opposed_by: none
 range: Ground or sea area within 100 meters
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -268,6 +305,7 @@ text: 'You turn an area around you into a portal to the Underworld and reality. 
   Spirituality. 2) The end of the continuation does not mean the summoned creatures
   disappear. Instead, within 1 minute af...'
 ```
+
 
 
 

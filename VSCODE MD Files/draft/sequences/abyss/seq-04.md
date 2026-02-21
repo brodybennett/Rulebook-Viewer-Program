@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Abyss Pathway: Sequence 4
 
 ## Devil Monarch
@@ -39,18 +40,29 @@ id: abyss-seq-04-stupid-aura
 name: Stupid Aura
 pathway: abyss
 sequence: 4
-type: active
+status: adapted
+type: toggle
 action: free
 cost: {}
 roll: null
 opposed_by: none
-range: self
-target: designated target(s)
-duration: instant
-scaling: []
+range: nearby creatures
+target: creatures in aura range
+duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d2
+  notes: Adapted roll token for the stated 0/1 sanity check after seed detonation on major failure.
+scaling:
+- when: target_rolls_major_failure_in_aura
+  changes:
+    effect_note: You may instantly detonate that target's desire seed.
 tags:
 - ritual
-- buff
+- control
+- debuff
 text: 'Use: Free Action to enable or disable. Effect: The thinking ability of all
   nearby creatures will be significantly reduced, making mistakes easily. Effect:
   See your creature Intuition (INT) and Education -4; this does not affect [[Spirituality
@@ -61,6 +73,7 @@ text: 'Use: Free Action to enable or disable. Effect: The thinking ability of al
   Aftereffects: An additional [[Sanity / Rationality Check]] of 0/1 is caused to the
   target.'
 ```
+
 
 
 
@@ -82,14 +95,21 @@ id: abyss-seq-04-devil
 name: Devil
 pathway: abyss
 sequence: 4
+status: adapted
 type: active
 action: free
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.wil
+opposed_by: difficulty_value
 range: self
-target: self
+target: witnessing creatures
 duration: sustained
+dice:
+  check_roll: 1d20 + @attr.wil
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted mapping for witness sanity-test resolution when exposed to mythical-creature runes.
 scaling: []
 tags:
 - ritual
@@ -100,9 +120,10 @@ text: 'Effect: Choose a limb, allowing you to maintain the shape of a [[mythical
   Effect: In addition to strengthening your physique, this can also allow you to display
   the strange runes unique to mythical creatures through this limb, which directly
   results in a sanity test equivalent to your Sequence promotion. Limits: Anyone who
-  has witnessed this scene and is not in the same position as you (per your table?s
+  has witnessed this scene and is not in the same position as you (per your tables
   positioning rules) will dire...'
 ```
+
 
 
 
@@ -112,9 +133,9 @@ text: 'Effect: Choose a limb, allowing you to maintain the shape of a [[mythical
 - **Limits:** The free action can only be done once in a round, and cannot be changed within a day.
 - **Effect:** Your [[Life Value]] extra +10; [[Spirituality]] +10.
 - **Effect:** In addition to strengthening your physique, this can also allow you to display the strange runes unique to mythical creatures through this limb, which directly results in a sanity test equivalent to your Sequence promotion.
-- **Limits:** Anyone who has witnessed this scene and is not in the same position as you (per your table?s positioning rules) will directly suffer the corresponding loss of sanity; each encounter is limited to one time.
+- **Limits:** Anyone who has witnessed this scene and is not in the same position as you (per your tables positioning rules) will directly suffer the corresponding loss of sanity; each encounter is limited to one time.
 
-- **Limits:** Anyone who has witnessed this scene and is not in the same position as you (per your table?s positioning rules) will directly suffer the corresponding loss of sanity; each encounter is limited to one time.
+- **Limits:** Anyone who has witnessed this scene and is not in the same position as you (per your tables positioning rules) will directly suffer the corresponding loss of sanity; each encounter is limited to one time.
 
 ### Cunning Man, Trickster
 
@@ -123,6 +144,7 @@ id: abyss-seq-04-cunning-man-trickster
 name: Cunning Man, Trickster
 pathway: abyss
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -131,6 +153,12 @@ opposed_by: willpower_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - defense
@@ -141,6 +169,7 @@ text: 'Effect: Your social skills that have not reached the [[Proficiency level]
   illusion and reality. Limits: The latter presupposes the presentation of hallucinatory
   things.'
 ```
+
 
 
 
@@ -159,15 +188,27 @@ id: abyss-seq-04-volcanic-eruption
 name: Volcanic Eruption
 pathway: abyss
 sequence: 4
+status: canonical
 type: active
 action: full-round
-cost: {}
-roll: null
+cost:
+  spirituality: 10
+roll: 1d20 + 15
 opposed_by: physical_defense
-range: self
-target: self
-duration: instant
-scaling: []
+range: at least 10km radius
+target: creatures in disaster area
+duration: sustained
+dice:
+  check_roll: 1d20 + 15
+  damage_roll: 6d6
+  heal_roll: null
+  effect_roll: null
+  notes: Damage composition is 2d6 physical plus 2d6 fire plus 2d6 poison at the beginning of each round.
+scaling:
+- when: start_of_each_round_in_disaster_area
+  changes:
+    check_roll: 1d20 + 15
+    damage_roll: 6d6
 tags:
 - ritual
 - debuff
@@ -182,6 +223,7 @@ text: 'Effect: From now on, you can cause a volcanic eruption disaster. Use: A [
   of each round, causing 2d6 physical damage, 2d6 fire damage, and 2d6 poison harm.
   Effect: You can act normally within the range of the eruption.'
 ```
+
 
 
 

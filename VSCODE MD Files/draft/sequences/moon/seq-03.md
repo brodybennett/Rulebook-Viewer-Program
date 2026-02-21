@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Moon Pathway: Sequence 3
 
 ## High Summoner
@@ -37,6 +38,7 @@ id: moon-seq-03-gate-of-summoning
 name: Gate of Summoning
 pathway: moon
 sequence: 3
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -45,6 +47,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -59,6 +67,7 @@ text: 'The Gate of Summoning opens an illusory door to the depths of the Spirit 
   the summoner itself. When the difficulty is full, a +1 gain will be obtained based
   on the knowledge level of each month....'
 ```
+
 
 
 

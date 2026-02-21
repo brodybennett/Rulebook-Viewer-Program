@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Hermit Pathway: Sequence 6
 
 ## Scrolls Professor
@@ -42,6 +43,7 @@ id: mystery-pryer-seq-06-scroll-scribe
 name: Scroll Scribe
 pathway: mystery-pryer
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -50,6 +52,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -59,6 +67,7 @@ text: 'You can transcribe magic into scrolls. Cost: 1 piece of [[Parchment]] (co
   transcribed are limited to the effects of: [[Voyeur Spells]] [[Timber Witchcraft]]
   [[Ritual Magic]]'
 ```
+
 
 
 
@@ -93,14 +102,21 @@ id: mystery-pryer-seq-06-scroll-improvement
 name: Scroll Improvement
 pathway: mystery-pryer
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
-opposed_by: physical_defense
+roll: 1d20 + @attr.int + @skill.occultism
+opposed_by: willpower_defense
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: 1d10
+  heal_roll: null
+  effect_roll: 1d2
+  notes: Occult check vs Willpower Defense enables maintenance effects for 1d2 rounds; damage_roll covers the +1d10 enhancement option.
 scaling: []
 tags:
 - buff
@@ -116,6 +132,7 @@ text: 'For an ability copied into a scroll by you that has not obtained Knowledg
   mental abilities are against Will defense; physical damage abilities are against
   [[Physical Defense]]; and those affected by...'
 ```
+
 
 
 

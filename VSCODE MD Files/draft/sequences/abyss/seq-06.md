@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Abyss Pathway: Sequence 6
 
 ## Devil
@@ -46,16 +47,29 @@ id: abyss-seq-06-dehumanization
 name: Dehumanization
 pathway: abyss
 sequence: 6
-type: active
-action: cast
+status: adapted
+type: passive
+action: none
 cost:
   sanity: 3
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.wil
+opposed_by: difficulty_value
 range: self
 target: self
-duration: instant
-scaling: []
+duration: persistent
+dice:
+  check_roll: 1d20 + @attr.wil
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d2
+  notes: Adapted sanity-loss token for the stated doubled sanity-loss bands (for example 1d2/1d4 to 1d4/1d8).
+scaling:
+- when: emotional_state_applied_by_target_plus_1_sequence
+  changes:
+    effect_note: Emotional-state effect is halved.
+- when: emotional_state_applied_by_target_plus_2_sequence
+  changes:
+    effect_note: Emotional-state effect is resolved normally.
 tags:
 - debuff
 text: 'Effect: Your humanity and emotions have been almost completely wiped out. Effect
@@ -68,6 +82,7 @@ text: 'Effect: Your humanity and emotions have been almost completely wiped out.
   1/1d3 sanity loss becomes 1d2/1d6, etc.) Special: Emotional states created by one
   person higher than you have half the eff...'
 ```
+
 
 
 
@@ -87,15 +102,26 @@ id: abyss-seq-06-demonization
 name: Demonization
 pathway: abyss
 sequence: 6
+status: adapted
 type: active
 action: swift
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.wil
+opposed_by: difficulty_value
 range: self
 target: self
-duration: instant
-scaling: []
+duration: sustained
+dice:
+  check_roll: 1d20 + @attr.wil
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d3
+  notes: Adapted for the stated SC(1/1d3) sanity/rationality gate on entering demonized state.
+scaling:
+- when: ending_demonization
+  changes:
+    action: full-round
+    effect_note: Ending the demonized state requires one full-round action.
 tags:
 - control
 - offense
@@ -109,6 +135,7 @@ text: 'Cost: 1 Swift Action. Sanity / Rationality: Perform an SC (1/1d3). Effect
   on the basis of being able to control fire, and some may control thunder. Demonized
   state benefits: The demon form will bec...'
 ```
+
 
 
 
@@ -139,16 +166,26 @@ id: abyss-seq-06-arrogance-flaming-horns
 name: 'Arrogance: Flaming Horns'
 pathway: abyss
 sequence: 6
+status: adapted
 type: active
 action: cast
 cost:
-  spirituality: 4
-roll: null
+  spirituality: 2
+roll: 1d20 + @attr.int
 opposed_by: willpower_defense
 range: Choose 1 target within the field of vision.
 target: designated target(s)
-duration: instant
-scaling: []
+duration: 1 encounter
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted from explicit Intuition versus Willpower defense emotion-imposition branch.
+scaling:
+- when: target_spends_cast_or_move_action_to_meditate
+  changes:
+    duration: until end of your next turn
 tags:
 - ritual
 - detection
@@ -163,6 +200,7 @@ text: 'Effect: The goat horns on the top of your head are curved and protruding,
   the catalyzed emotion, you give the other party an emotion that has not been catalyzed,
   which lasts until the end of the encounter,...'
 ```
+
 
 
 
@@ -184,17 +222,36 @@ id: abyss-seq-06-fallen-wings
 name: Fallen Wings
 pathway: abyss
 sequence: 6
+status: adapted
 type: active
 action: cast
 cost:
-  spirituality: 2
-roll: null
+  spirituality: 1
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: physical_defense
 range: Each fireball is identified individually, and you can choose different targets
   or all the same targets.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: 4d6
+  heal_roll: null
+  effect_roll: null
+  notes: Damage composition is 3d6 fire plus 1d6 poison for each brimstone fireball.
+scaling:
+- when: same_target_second_fireball
+  changes:
+    check_penalty: -4
+- when: same_target_third_fireball
+  changes:
+    check_penalty: -6
+- when: same_target_fourth_fireball
+  changes:
+    effect_note: Fourth same-target fireball fails by default.
+- when: brimstone_fireball_volley
+  changes:
+    effect_note: Maximum fireballs per cast equals current Intuition value.
 tags:
 - ritual
 - mobility
@@ -211,6 +268,7 @@ text: 'Effect: There are a pair of bat-like giant wings spread out behind you. T
   different targets or all the same targets. Check: Occult against physical defense.
   Damage: Each fireball causes 3d6 fire and 1d6 poison...'
 ```
+
 
 
 
@@ -238,15 +296,26 @@ id: abyss-seq-06-magic-scale-armor
 name: Magic Scale Armor
 pathway: abyss
 sequence: 6
+status: adapted
 type: active
 action: full-round
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.con
+opposed_by: difficulty_value
 range: self
 target: self
-duration: instant
-scaling: []
+duration: sustained
+dice:
+  check_roll: 1d20 + @attr.con
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted check token for pressured repair scenes; core armor gain is deterministic (+5 armor, +8 damage reduction).
+scaling:
+- when: armor_is_damaged
+  changes:
+    action: full-round
+    effect_note: Armor can be repaired with one full-round action.
 tags:
 - defense
 - offense
@@ -256,6 +325,7 @@ text: 'Effect: You seem to be wearing a thick and hard armor, and the blood and 
   evil. 2) You gain 5 points of armor and 8 points of damage reduction. If the armor
   is damaged, it can be repaired with 1 Full-Round Action.'
 ```
+
 
 
 
@@ -274,6 +344,7 @@ id: abyss-seq-06-body-of-the-abyss
 name: Body of the Abyss
 pathway: abyss
 sequence: 6
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -282,6 +353,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - debuff
@@ -297,6 +374,7 @@ text: 'Effect: You are immune to most poisons, and you are not afraid of curses 
   unless it must be hit, not only will you not lose your agility and dodge defense,
   but you will also get an additional dodge bonus...'
 ```
+
 
 
 
@@ -317,16 +395,68 @@ id: abyss-seq-06-demonic-spells
 name: Demonic Spells
 pathway: abyss
 sequence: 6
+status: adapted
 type: active
 action: swift
-cost: {}
-roll: null
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.int + @skill.occultism
 opposed_by: willpower_defense
 range: Choose a target within a range of 8 meters.
 target: designated target(s)
-duration: Starting on the second round and maintaining it requires **2** spirituality
-  points per round.
-scaling: []
+duration: sustained
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: 2d6 + 5
+  heal_roll: null
+  effect_roll: null
+  notes: Multi-mode ability; base token maps to filthy word "death". Other modes override check, defense target, damage, and upkeep via scaling entries.
+scaling:
+- when: filthy_word_death
+  changes:
+    check_penalty: -4
+    opposed_by: willpower_defense
+    damage_roll: 2d6 + 5
+- when: filthy_word_slow
+  changes:
+    check_penalty: -4
+    opposed_by: willpower_defense
+    effect_note: Applies Shock for 1 round on success.
+- when: filthy_word_degenerate
+  changes:
+    check_penalty: -4
+    opposed_by: willpower_defense
+    damage_roll: 3d6
+    effect_note: Area curse burst ignores 5 curse resistance.
+- when: toxic_flame_mode
+  changes:
+    action: cast
+    opposed_by: physical_defense
+    damage_roll: 4d6
+- when: toxic_steam_mode_demonized
+  changes:
+    action: cast
+    opposed_by: physical_defense
+    damage_roll: 4d6
+    effect_note: Ongoing poison damage each round as described in prose.
+- when: magma_sword_mode
+  changes:
+    action: attack
+    damage_roll: 3d6 + 5 + @attr.str
+    duration: sustained
+    upkeep_cost: {spirituality: 2}
+- when: brimstone_fireball_mode
+  changes:
+    action: cast
+    opposed_by: physical_defense
+    damage_roll: 4d6
+- when: volcanic_eruption_mode_demonized
+  changes:
+    action: full-round
+    check_roll: 1d20 + 20
+    opposed_by: physical_defense
+    damage_roll: 1d10
+    effect_note: Health-to-dice conversion determines final burst dice.
 tags:
 - ritual
 - debuff
@@ -342,6 +472,7 @@ text: 'Your demonic spells are already true demonic spells, and are in part supe
   blow to the heart, and you can get additional damage from the critical blow. ####
   The foul language "slow" Cost: 1 Swift Acti...'
 ```
+
 
 
 

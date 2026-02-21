@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Wheel of Fortune Pathway: Sequence 8
 
 > **Lore:** Terrifying computing power and precise control greatly enhance body-related qualities, creating talent in fighting and shooting—alongside divination and anti-divination.
@@ -44,6 +45,7 @@ id: fate-seq-08-fighting-shooting-skill-learning
 name: Fighting/Shooting Skill Learning
 pathway: fate
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -52,6 +54,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - buff
@@ -65,6 +73,7 @@ text: 'Use: When receiving qualifying instruction. Effect: Whenever you receive 
   that is not just promoted, you can use twice the Intuition (INT) brought by the
   potion to add growth skills. G...'
 ```
+
 
 
 
@@ -85,15 +94,44 @@ id: fate-seq-08-divination
 name: Divination
 pathway: fate
 sequence: 8
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.int
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Intuition test governs divination clarity; DV thresholds and clue bonuses apply.
+scaling:
+- when: check_result_meets_dv_15
+  changes:
+    effect_note: Very general answer (for example, city-level location).
+- when: check_result_meets_dv_20
+  changes:
+    effect_note: General directional answer.
+- when: check_result_meets_dv_25
+  changes:
+    effect_note: Fairly accurate answer (for example, street-level location).
+- when: check_result_meets_dv_30
+  changes:
+    effect_note: Very accurate answer with specific content.
+- when: target_has_related_clue
+  changes:
+    check_bonus: 2
+- when: target_is_other_person_without_clue
+  changes:
+    effect_note: Divination fails by default without a clue tied to the person.
+- when: target_sequence_higher_by_1_or_more
+  changes:
+    effect_note: Divination fails by default against targets higher by 1+ Sequence.
 tags:
 - ritual
 - divination
@@ -108,6 +146,7 @@ text: 'Cost: Spend 3 points of Spirituality. [[Spirituality]] Use: 1 Casting Act
   finding will be accurate to a certain street. Difficulty Value 30: Obtain a very
   accurate result; divination will reveal...'
 ```
+
 
 
 
@@ -143,14 +182,22 @@ id: fate-seq-08-anti-divination
 name: Anti-divination
 pathway: fate
 sequence: 8
+status: canonical
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 3
+roll: 1d20 + @attr.int
 opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Opposed by the diviner's check; this roll represents your Intuition identification in the contest.
 scaling: []
 tags:
 - ritual
@@ -164,6 +211,7 @@ text: 'Cost: Spend 3 points of Spirituality. [[Spirituality]] Use: 1 Casting Act
   world, so there is no need for divination media such as tarot cards. [[spiritual
   world]] [[divination media]]'
 ```
+
 
 
 
@@ -183,15 +231,32 @@ id: fate-seq-08-calculation
 name: Calculation
 pathway: fate
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Intuition checks cover divination interpretation and deduction tasks.
+scaling:
+- when: interpret_divination
+  changes:
+    effect_note: Requires DV 20 Intuition identification to interpret divination content.
+- when: deduce_things
+  changes:
+    effect_note: Requires DV 20 Intuition identification to deduce memories or approximate events.
+- when: per_clue
+  changes:
+    check_bonus: 2
+    effect_note: Each clue grants +2 to the deduction identification.
 tags:
 - divination
 text: 'Effect: You have a terrifying calculation ability. Interpretation of divination:
@@ -204,6 +269,7 @@ text: 'Effect: You have a terrifying calculation ability. Interpretation of divi
   the difference between the divination picture and reality. [[semi-trance state]]
   Deduce things: 1 Casting Action,...'
 ```
+
 
 
 

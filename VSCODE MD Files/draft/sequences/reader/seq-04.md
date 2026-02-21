@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # White Tower Pathway: Sequence 4
 
 ## Prophet
@@ -38,6 +39,7 @@ id: reader-seq-04-proficient-in-knowledge
 name: Proficient in Knowledge
 pathway: reader
 sequence: 4
+status: canonical
 type: passive
 action: none
 cost: {}
@@ -46,6 +48,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -62,6 +70,7 @@ text: 'Use: Passive. Effect: Your Spiritual Vision [[id:alias-spiritual-vision|S
   and Anti-Prophecy [[Anti-Prophecy]] characteristics. Limits: Sequence 3 improvement:
   the intuition...'
 ```
+
 
 
 
@@ -83,6 +92,7 @@ id: reader-seq-04-quick-reading
 name: Quick Reading
 pathway: reader
 sequence: 4
+status: canonical
 type: passive
 action: none
 cost: {}
@@ -91,6 +101,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - mobility
@@ -103,6 +119,7 @@ text: 'Use: Passive. Effect: During the middle and low Sequence period, it takes
   reading a book that would normally take a month takes 1 minute ([[id:alias-sequence-3|Sequence
   3]]).'
 ```
+
 
 
 
@@ -121,6 +138,7 @@ id: reader-seq-04-prophecy
 name: Prophecy
 pathway: reader
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -129,6 +147,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -142,6 +166,7 @@ text: 'Cost: 8 points of Spirituality [[Spirituality]]. Use: 1 Casting Action Ca
   of making changes accordingly. Difficulty 30: Predict exactly what will happen in
   the next 12 hours, excluding the effects of making changes accordingly.'
 ```
+
 
 
 

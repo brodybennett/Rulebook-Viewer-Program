@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Mother Pathway: Sequence 5
 
 You can absorb nutrients and oxygen from the soil, and master earth-like spells.
@@ -23,7 +24,7 @@ You can absorb nutrients and oxygen from the soil, and master earth-like spells.
 - **Advancement Ritual:** Master the living habits and physical structure of a variety of ordinary animals and three extraordinary creatures.
   - As an integral part of the ritual, you must write down your accumulated knowledge and experience.
 
-> **Lore:** Image of Extraordinary Characteristics: a group of brown â€œsoilâ€ with roots and hidden â€œvessels.â€
+> **Lore:** Image of Extraordinary Characteristics: a group of brown "soil" with roots and hidden "vessels."
 
 ## Extraordinary Abilities
 
@@ -40,16 +41,30 @@ id: earth-seq-05-drain-the-earth
 name: '**Drain the Earth**'
 pathway: earth
 sequence: 5
+status: adapted
 type: active
 action: cast
 cost:
-  spirituality: 6
+  spirituality: 3
 roll: null
 opposed_by: none
 range: Touch a point in the soil within 10 meters.
 target: designated target(s)
 duration: sustained
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: 1d6
+  effect_roll: "1"
+  notes: Heal roll maps the active vitality restoration; effect roll captures the passive 1 vitality per round recovery.
+scaling:
+- when: passive_breathing_and_regen
+  changes:
+    effect_note: Passive breathing underground and 1 vitality recovered per round.
+- when: mature_plants_present
+  changes:
+    heal_roll: 3d6
+    effect_note: Active restore gains +2d6 vitality when mature plants are present.
 tags:
 - ritual
 text: 'You can extract nutrients and oxygen from the earth. Passive (no action stated):
@@ -57,6 +72,7 @@ text: 'You can extract nutrients and oxygen from the earth. Passive (no action s
   Active: Use: 1 Casting Action. Cost: 3 spirituality points. [[Spirituality]] Targeting
   and range: Touch a point in the soil within 10 meters.'
 ```
+
 
 
 
@@ -84,16 +100,30 @@ id: earth-seq-05-subterranean-sneaking
 name: '**Subterranean Sneaking**'
 pathway: earth
 sequence: 5
+status: adapted
 type: active
-action: cast
+action: move
 cost:
-  spirituality: 6
-roll: null
+  spirituality: 3
+roll: 1d20 + @attr.dex + @skill.stealth
 opposed_by: none
 range: self
 target: self
-duration: instant
-scaling: []
+duration: sustained
+dice:
+  check_roll: 1d20 + @attr.dex + @skill.stealth
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Stealth check only applies when an opponent actively searches; default underground stealth succeeds unless discovered.
+scaling:
+- when: each_additional_round_underground
+  changes:
+    upkeep_cost: {spirituality: 1}
+    effect_note: Remaining underground costs 1 spirituality per additional round.
+- when: opponent_scouting_check
+  changes:
+    effect_note: Opponents can contest with Scouting vs your Stealth at +4.
 tags:
 - ritual
 - detection
@@ -111,7 +141,8 @@ text: 'The ground under your feet suddenly softens and turns into a aswamp,a and
 
 
 
-The ground under your feet suddenly softens and turns into a â€œswamp,â€ and you sink in.
+
+The ground under your feet suddenly softens and turns into a "swamp," and you sink in.
 
 - **Use:** 1 movement action.
 - **Cost:** 3 spirituality points. [[Spirituality]]
@@ -136,16 +167,36 @@ id: earth-seq-05-create-vines
 name: '**Create Vines**'
 pathway: earth
 sequence: 5
+status: adapted
 type: active
 action: free
 cost:
-  spirituality: 6
-roll: null
+  spirituality: 3
+roll: 1d20 + @attr.str + @skill.biology
 opposed_by: physical_defense
 range: 1 target within 5 meters.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.str + @skill.biology
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Baseline maps the vine whip option; ground-piercing and multi-hit options are in scaling.
+scaling:
+- when: vine_whip_second_hit
+  changes:
+    check_penalty: -4
+- when: vine_whip_third_hit
+  changes:
+    check_penalty: -6
+- when: ground_piercing_vines_mode
+  changes:
+    action: cast
+    range: Choose 1 target within 50 meters.
+    check_roll: 1d20 + @attr.int + @skill.biology
+    damage_roll: 5d6
+    effect_note: Ground-piercing vines erupt from below and can seed Harvest on success.
 tags:
 - ritual
 - defense
@@ -156,6 +207,7 @@ text: 'You create vines out of thin air, causing them to pierce the ground and a
   1 free action dispels it. Targeting and range: 1 target within 5 meters. Check:
   Strength + Biology (Defense) against physical defense.'
 ```
+
 
 
 
@@ -185,7 +237,7 @@ You create vines out of thin air, causing them to pierce the ground and attack e
 - **Use:** 1 Casting Action.
 - **Cost:** 3 spirituality points. [[Spirituality]]
 - **Targeting and range:** Choose 1 target within 50 meters.
-- **Effect:** Press your hand to the ground; vines pierce up from the enemyâ€™s feet and grow wildly.
+- **Effect:** Press your hand to the ground; vines pierce up from the enemy's feet and grow wildly.
   - **Check:** Intuition (INT) + Biology against physical defense. Intuition [[Biology]] [[Physical Defense]]
   - **Damage:** 5d6 physical damage.
 
@@ -203,17 +255,27 @@ id: earth-seq-05-toxic-fog
 name: '**Toxic Fog**'
 pathway: earth
 sequence: 5
+status: adapted
 type: active
 action: cast
 cost:
-  spirituality: 6
-roll: null
+  spirituality: 3
+roll: 1d20 + @attr.int + @skill.biology
 opposed_by: physical_defense
 range: Affects all creatures/plants within a 50-meter cone in front of you.
 target: designated target(s)
 duration: Fog persists in confined spaces; dissipates after 2 rounds in non-confined
   spaces.
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int + @skill.biology
+  damage_roll: 2d6
+  heal_roll: null
+  effect_roll: null
+  notes: Check roll maps Intuition + Biology vs Physical Defense; damage roll maps poison damage.
+scaling:
+- when: fog_persists_into_next_round
+  changes:
+    effect_note: You may re-check each round to deal damage again without additional cost.
 tags:
 - ritual
 - debuff
@@ -232,6 +294,7 @@ text: 'You cause puffs of yellow-green poisonous gas to spread; creatures who sm
 
 
 
+
 You cause puffs of yellow-green poisonous gas to spread; creatures who smell it start coughing.
 
 - **Use:** 1 Casting Action.
@@ -242,10 +305,10 @@ You cause puffs of yellow-green poisonous gas to spread; creatures who smell it 
 - **Duration:** Fog persists in confined spaces; dissipates after 2 rounds in non-confined spaces.
 
 1. If the fog persists, at the start of each next round you can make another check to cause damage without any action.
-2. Creatures below your level (Sequence 9â€“7) that suffer 1 Toxic Fog damage suffer 1 poisonous effect, and roll 1d5 random poison to be generated; the toxins are random and not necessarily the same each time.  
+2. Creatures below your level (Sequence 9-7) that suffer 1 Toxic Fog damage suffer 1 poisonous effect, and roll 1d5 random poison to be generated; the toxins are random and not necessarily the same each time.  
    [[Poisonous Effect]]  
    [[Random Poison Table (d5)]]
-   - Special: Creatures at the same level as yours (Sequence 6â€“5) receive the effect after suffering 2 damages.
+   - Special: Creatures at the same level as yours (Sequence 6-5) receive the effect after suffering 2 damages.
    - Targets higher than you by 1+ Sequence are invalid.
 
 > **GM Note:** When the poisonous mist dissipates, the corresponding effect will be quickly relieved; the lost action is caused by an uncontrollable cough.
@@ -261,6 +324,7 @@ id: earth-seq-05-incarnation-of-animals
 name: '**Incarnation of Animals**'
 pathway: earth
 sequence: 5
+status: canonical
 type: active
 action: swift
 cost:
@@ -270,6 +334,12 @@ opposed_by: none
 range: self
 target: self
 duration: 5 minutes.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -277,6 +347,7 @@ text: 'You incarnate as an animal (e.g., a giant bear). Use: 1 Swift Action. Cos
   3 spirituality points. [[Spirit Points vs Spirituality]] Duration: 5 minutes. Effect:
   Choose one of the following forms: Dire Bear Life limit +10.'
 ```
+
 
 
 
@@ -347,6 +418,7 @@ id: earth-seq-05-biocatalysis
 name: '**Biocatalysis**'
 pathway: earth
 sequence: 5
+status: canonical
 type: reaction
 action: cast
 cost:
@@ -356,6 +428,12 @@ opposed_by: none
 range: All creatures within 50 meters (not limited to plants).
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -370,6 +448,7 @@ text: 'You catalyze the growth of certain organisms, including growth and metabo
 
 
 
+
 You catalyze the growth of certain organisms, including growth and metabolic processes in the body.
 
 - **Use:** 1 Casting Action.
@@ -380,7 +459,7 @@ You catalyze the growth of certain organisms, including growth and metabolic pro
 The catalytic ability can achieve the following effects:
 
 1. **Catalyzed Hair**
-   - The creatureâ€™s hair grows wildly and is regarded as an independent â€œplantâ€ manipulated by you.
+   - The creature's hair grows wildly and is regarded as an independent "plant" manipulated by you.
    - Every round, use your Intuition (INT) + Biology to fight against the physical defenses of all affected creatures.
      - On success, they are grappled by their own hair.
      - Creatures without hair are instead affected via substitutes (e.g., nose hairs) that grow wildly.
@@ -393,11 +472,11 @@ The catalytic ability can achieve the following effects:
 3. **Catalyzed Recovery**
    - If the target suffers external damage but still has more than half of their health, **or** the injury has received medical treatment, you catalyze recovery.
    - The target recovers half of their Constitution if untreated, or their full Constitution if treated.
-   - See â€œSpirituality and Other Status Recoveryâ€ for details.  
+   - See "Spirituality and Other Status Recovery" for details.  
      [[Spirituality and Other Status Recovery]]
     - If you choose Catalyzed Recovery, it does not also trigger Catalyzed Injury even if its conditions are met.
 4. **Catalyzed Reaction**
-   - You catalyze a creatureâ€™s chemical reaction rate when combined with a certain type of thing.
+   - You catalyze a creature's chemical reaction rate when combined with a certain type of thing.
    - This ability is not calculated in detail; while you hold this ability, the time required for your biological experiment should be the minimum value.
     - Moon Pathway pharmaceuticals take a minimum of **3 minutes** to finish.  
      Moon Pathway Pharmaceuticals
@@ -411,10 +490,10 @@ The catalytic ability can achieve the following effects:
     - This is invalid for non-biological or otherwise non-metabolizable substances.
 7. **Catalyzing Extraordinary Abilities**
    - Reduce the time required for a certain Extraordinary ability being cast:
-     - Swift Action â†’ free action
-     - casting/Attack Action â†’ Swift Action
-     - Full-Round Action â†’ casting/Attack Action
-    - Special: When faced with manipulation by the puppet masterâ€™s spiritual body string, this can only reduce the casting time by **one step** on the action-time ladder (full-round -> casting/attack -> swift -> free).  
+     - Swift Action -> free action
+     - casting/Attack Action -> Swift Action
+     - Full-Round Action -> casting/Attack Action
+    - Special: When faced with manipulation by the puppet master's spiritual body string, this can only reduce the casting time by **one step** on the action-time ladder (full-round -> casting/attack -> swift -> free).  
      [[Puppet Master Spiritual Body String]]
 8. **Catalytic Progress**
    - If an ability has manipulation level and poison level progress, after you use Biocatalysis on the affected target, the caster of that ability can immediately make another corresponding attack test to deepen the progress.  

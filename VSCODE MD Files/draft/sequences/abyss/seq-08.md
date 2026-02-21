@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Abyss Pathway: Sequence 8
 
 ## Barbarian
@@ -49,15 +50,34 @@ id: abyss-seq-08-inhuman-body
 name: Inhuman Body
 pathway: abyss
 sequence: 8
-type: active
-action: cast
+status: adapted
+type: passive
+action: none
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.con
+opposed_by: difficulty_value
 range: self
 target: self
-duration: instant
-scaling: []
+duration: persistent
+dice:
+  check_roll: 1d20 + @attr.con
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted endurance token for edge-case recovery adjudication; core recovery cadence is deterministic and defined by sequence scaling.
+scaling:
+- when: sequence_8_base
+  changes:
+    effect_note: Natural health recovery interval is 10 hours (rounded up).
+- when: sequence_7
+  changes:
+    effect_note: Natural health recovery interval becomes 8 hours.
+- when: sequence_6
+  changes:
+    effect_note: Natural health recovery interval becomes 6 hours.
+- when: each_higher_promotion
+  changes:
+    effect_note: Required recovery time is halved, rounded down.
 tags:
 - ritual
 - healing
@@ -67,6 +87,7 @@ text: 'Effect: You recover health much faster than others. Natural recovery time
   Sequence 7: Changed to every 8 hours. Sequence 6: Changed to every 6 hours. Every
   time one level is promoted: the required time is cut in half and rounded down.'
 ```
+
 
 
 
@@ -88,6 +109,7 @@ id: abyss-seq-08-dehumanization
 name: Dehumanization
 pathway: abyss
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -96,6 +118,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - debuff
@@ -110,6 +138,7 @@ text: 'Effect: From the moment you are promoted, you are no longer human. You st
   have any special effect on you, such as forcing or restricting your actions, you
   can ignore such incidents. Special: T...'
 ```
+
 
 
 
@@ -135,17 +164,30 @@ id: abyss-seq-08-broken-wings
 name: Broken Wings
 pathway: abyss
 sequence: 8
+status: adapted
 type: active
 action: cast
 cost:
   spirituality: 3
-roll: null
+roll: 1d20 + @attr.int
 opposed_by: willpower_defense
 range: Designate 1 target **within sight**.
 target: designated target(s)
-duration: 'Lasting until the end of the targets next action, they gain all of the
+duration: 'Lasting until the end of the target''s next action, they gain all of the
   following effects:'
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.int
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted directly from the stated Intuition-versus-Willpower Defense test.
+scaling:
+- when: sequence_4_or_higher_branch
+  changes:
+    effect_note: One check can apply to multiple targets.
+- when: target_is_one_sequence_lower_in_sequence_4_branch
+  changes:
+    effect_note: Movement and agility can be reduced to zero (dodge remains unaffected).
 tags:
 - ritual
 - mobility
@@ -159,6 +201,7 @@ text: 'Cost: 3 Spirituality. Use: 1 Casting Action. Test: Intuition (INT) vs. Wi
   following effects: Their movement power is halved. Their Agility (DEX) is halved,
   rounded up.'
 ```
+
 
 
 
@@ -187,6 +230,7 @@ id: abyss-seq-08-demonic-spells
 name: Demonic Spells
 pathway: abyss
 sequence: 8
+status: canonical
 type: active
 action: swift
 cost:
@@ -196,6 +240,12 @@ opposed_by: none
 range: Choose 1 target.
 target: designated target(s)
 duration: 1 encounter.
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -206,6 +256,7 @@ text: 'Effect: You gain more demonic spell-like abilities. Number gained: Divide
   spell to get. When you upgrade the position, you can get 2 more. [[Potion Completely
   Digested]] [[Position]]'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Black Emperor Pathway: Sequence 8
 
 > **Lore:** Problems that cannot be solved by law must be dealt with force; force is also a kind of rule.
@@ -37,6 +38,7 @@ id: black-emperor-seq-08-skill-growth-through-violence
 name: Skill Growth Through Violence
 pathway: black-emperor
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -45,6 +47,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -53,6 +61,7 @@ text: 'When you face a problem that is: non-repetitive, and challenging, and can
   matter (regardless of the outcome), choose one: Fighting a Fighting subdivision
   Climbing'
 ```
+
 
 
 
@@ -83,14 +92,21 @@ id: black-emperor-seq-08-law-of-wildness
 name: Law of Wildness
 pathway: black-emperor
 sequence: 8
-type: active
-action: cast
+status: adapted
+type: passive
+action: none
 cost: {}
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: self
 target: self
-duration: instant
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: 1d6
+  heal_roll: null
+  effect_roll: null
+  notes: Mapped from the explicit plus-1d6 Fighting damage rider; other bonuses are static modifiers.
 scaling: []
 tags:
 - buff
@@ -105,6 +121,7 @@ text: For Barbarians, power is also a kind of ruleanother rule besides law. Gain
   Whenever you look for water, food, or other survival resources in a primitive or
   social environment, gain a beneficial +2 to [[Survival Identification]].
 ```
+
 
 
 
@@ -130,15 +147,21 @@ id: black-emperor-seq-08-mental-resistance
 name: Mental Resistance
 pathway: black-emperor
 sequence: 8
-type: active
-action: cast
-cost:
-  sanity: 5
+status: adapted
+type: passive
+action: none
+cost: {}
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d3
+  notes: Mapped from the explicit sanity-loss example of 1d3 on failed Sanity and Rationality loss tests.
 scaling: []
 tags:
 - defense
@@ -150,6 +173,7 @@ text: 'You have fairly high resistance to mental influences. Whenever your Sanit
   Rationality on a failure. With this ability: On a success: 1 1 = 0 (no Sanity /
   Rationality loss). On a failure: 1d3 1 Sanity / Rationality.'
 ```
+
 
 
 

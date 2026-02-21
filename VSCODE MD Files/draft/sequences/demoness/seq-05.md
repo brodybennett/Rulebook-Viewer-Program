@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Demoness Pathway: Sequence 5
 
 ## Afflictions
@@ -56,6 +57,7 @@ id: demoness-seq-05-plague-aura
 name: Plague Aura
 pathway: demoness
 sequence: 5
+status: canonical
 type: active
 action: swift
 cost: {}
@@ -64,6 +66,12 @@ opposed_by: none
 range: 50m
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -77,6 +85,7 @@ text: 'Cost: 1 Swift Action to turn it on or off. Use: After it is turned on: yo
   as the target of the plague. There is no distinction between the enemy and the enemy
   except you. You can keep a dista...'
 ```
+
 
 
 
@@ -153,14 +162,22 @@ id: demoness-seq-05-frost-control
 name: Frost Control
 pathway: demoness
 sequence: 5
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 4
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -174,6 +191,7 @@ text: 'Cost: consumes 4 [[Spirituality]]. Use: 1 Casting Action; emits an invisi
   spell is cast, an area up to 50 meters away is considered cold #### Cold environment
   Cold environment: All creatures that do not have [[Cold Resistance]] have:'
 ```
+
 
 
 

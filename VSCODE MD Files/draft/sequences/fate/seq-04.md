@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Wheel of Fortune Pathway: Sequence 4
 
 ## Misfortune Mage
@@ -36,6 +37,7 @@ id: fate-seq-04-remove-doom
 name: Remove Doom
 pathway: fate
 sequence: 4
+status: canonical
 type: active
 action: free
 cost: {}
@@ -44,6 +46,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -51,6 +59,7 @@ tags:
 text: 'Cost: 3 spirituality points Use: Free action; once per round Effect: Remove
   the effect of doom from a person.'
 ```
+
 
 
 
@@ -69,15 +78,26 @@ id: fate-seq-04-misfortune
 name: Misfortune
 pathway: fate
 sequence: 4
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 8
 roll: null
 opposed_by: none
 range: Designate an area; maximum range 1 kilometer
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d6
+  notes: Effect roll maps the base bad luck penalty applied to appraisals; luck spend is variable and handled in prose.
+scaling:
+- when: check_result_is_big_failure
+  changes:
+    effect_note: Big failure produces a disaster that only affects the big loser.
 tags:
 - ritual
 text: 'Cost: Spellcasting action; 8 spirituality points and X points of Luck to create
@@ -89,6 +109,7 @@ text: 'Cost: Spellcasting action; 8 spirituality points and X points of Luck to 
   this value produces a big failure, it is bound to produce a disaster that is only
   for the big loser. Limits: Ends when the bad luck points are exhausted.'
 ```
+
 
 
 
@@ -111,14 +132,22 @@ id: fate-seq-04-disaster-field
 name: Disaster Field
 pathway: fate
 sequence: 4
+status: canonical
 type: active
 action: free
-cost: {}
+cost:
+  spirituality: 4
 roll: null
 opposed_by: none
 range: Select a **doom check**; a creature within your [[line of sight]]
 target: designated target(s)
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 2d6
+  notes: Effect roll maps the doubled bad luck penalty on the selected doom check.
 scaling: []
 tags:
 - ritual
@@ -128,6 +157,7 @@ text: 'Cost: 4 spirituality points Use: Free action; once per round Targeting an
   suffers, changing the base numerical penalty from 1d6 to 2d6. GM decides what qualifies
   as a doom check.'
 ```
+
 
 
 
@@ -149,6 +179,7 @@ id: fate-seq-04-lucky-blessing
 name: Lucky Blessing
 pathway: fate
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -158,6 +189,12 @@ range: Choose the lucky numbers you specify; bestow them on a target. You may de
   one roll these lucky numbers apply to, treating it as a lucky roll.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -170,6 +207,7 @@ text: 'Cost: Spellcasting action; 3 spirituality points, plus optional Luck to g
   an ability, and the 1 point of Luck overflowing from 3 points of Luck cannot establish
   an ability. The target treats the added extra luck as a separate stat.'
 ```
+
 
 
 
@@ -205,6 +243,7 @@ id: fate-seq-04-doom-mage
 name: Doom Mage
 pathway: fate
 sequence: 4
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -213,6 +252,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -226,6 +271,7 @@ text: 'Effect: Your doom is no longer tied to luck. You gain a separate bad luck
   the lucky problem will obviously affect your own identification until it is released.
   Doom value effects:'
 ```
+
 
 
 

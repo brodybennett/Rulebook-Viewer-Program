@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Door Pathway: Sequence 4
 
 ## Secrets Sorcerer
@@ -43,6 +44,7 @@ id: apprentice-seq-04-keeping-secrets
 name: Keeping Secrets
 pathway: apprentice
 sequence: 4
+status: canonical
 type: passive
 action: none
 cost: {}
@@ -50,7 +52,13 @@ roll: null
 opposed_by: none
 range: self
 target: designated target(s)
-duration: instant
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -71,6 +79,7 @@ text: 'Use: Passive. Effect: You can keep secrets, shielding induction, detectio
 
 
 
+
 - **Use:** Passive.
 - **Effect:** You can keep secrets, shielding induction, detection, divination, prophecy, and spiritual intuition from a person no higher than you; these are no longer useful against you. [[Induction]] Detection [[id:alias-divination|Divination]] [[id:alias-prophecy|Prophecy]] [[Spiritual Intuition]]
 - They may know your existence indirectly, but they can no longer know other information about you; your actions are usually not directly targeted by scrying. [[Scrying]]
@@ -87,16 +96,25 @@ id: apprentice-seq-04-gate-to-another-world
 name: Gate to Another World
 pathway: apprentice
 sequence: 4
+status: adapted
 type: active
 action: full-round
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.int + @skill.navigation
+opposed_by: difficulty_value
 range: Up to planetary scale (GM decides campaign-appropriate limits).
 target: designated target(s)
-duration: The door remains permanent until you use [[Dissolve]] as a **Free Action**.
-  Free Action
-scaling: []
+duration: persistent (until dissolved as a free action)
+dice:
+  check_roll: 1d20 + @attr.int + @skill.navigation
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted from the explicit Navigator Identification requirement to open the correct gate.
+scaling:
+- when: sequence_2_or_higher
+  changes:
+    effect_note: Scope expands to all places in the universe you have previously visited.
 tags:
 - mobility
 text: 'Use: At will. Use (Action): Full-Round Action. [[Full-Round Action]] Range:
@@ -106,6 +124,7 @@ text: 'Use: At will. Use (Action): Full-Round Action. [[Full-Round Action]] Rang
   door. Special: You can now travel to places like [[Mirror World]]. Sequence 2: The
   scope includes all the places in the universe you have been to.'
 ```
+
 
 
 
@@ -129,19 +148,30 @@ id: apprentice-seq-04-illusion
 name: Illusion
 pathway: apprentice
 sequence: 4
+status: adapted
 type: active
 action: free
-cost: {}
-roll: null
-opposed_by: none
+cost:
+  spirituality: 10
+roll: 1d20 + @attr.int + @skill.occultism
+opposed_by: difficulty_value
 range: self
 target: self
-duration: instant
-scaling: []
+duration: 1 encounter
+dice:
+  check_roll: 1d20 + @attr.int + @skill.occultism
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Adapted from the prose instruction to resolve follow-up checks using the same initial door contest.
+scaling:
+- when: stacked_door_layers
+  changes:
+    effect_note: Overflow damage transfers through each door layer, then to the user after the last layer breaks.
 tags:
 - ritual
 - mobility
-- offense
+- defense
 text: 'Cost: 10 points of Spirituality. [[Spirituality]] Use (Action): Free Action.
   Effect: You become a gate of illusion: the main body appears behind the gate, and
   the attacker is in two different worlds, facing you from far away. [[Illusory Gate]]
@@ -152,6 +182,7 @@ text: 'Cost: 10 points of Spirituality. [[Spirituality]] Use (Action): Free Acti
   space, you cannot travel through the [[Spirit World]], but you can disarm the door
   at any time as a Free Action. Follow...'
 ```
+
 
 
 
@@ -176,14 +207,22 @@ id: apprentice-seq-04-space-hiding
 name: Space Hiding
 pathway: apprentice
 sequence: 4
+status: canonical
 type: active
 action: cast
-cost: {}
+cost:
+  spirituality: 5
 roll: null
 opposed_by: none
 range: self
 target: self
-duration: instant
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -200,6 +239,7 @@ text: 'Effect (Concept): Grabbing the void with the right hand can distort a spa
   it must be different from the wall; you can also cover it with something. What Counts
   as a Door: A door does not have to be...'
 ```
+
 
 
 

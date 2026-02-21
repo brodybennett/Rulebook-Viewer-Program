@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Paragon Pathway: Sequence 8
 
 You possess sufficient historical knowledge, wilderness survival knowledge, and taboo knowledge related to ruins. You have a strong enough body and the ability to face these matters, and you can barely use some ritual magic.
@@ -44,14 +45,21 @@ id: paragon-seq-08-ritual-use
 name: Ritual Use
 pathway: paragon
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
-opposed_by: none
+roll: 1d20 + @attr.int + @skill.archaeology
+opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.archaeology
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: DV 15 checks use the relevant skill (archaeology, history, survival, engineering, physics).
 scaling: []
 tags:
 - ritual
@@ -65,6 +73,7 @@ text: 'You can barely use some [[Ritual Magic]]. Effect: While you hold this abi
   the advanced level, then your occultism identification suffers -2 disadvantage.
   This includes making spe...'
 ```
+
 
 
 
@@ -87,6 +96,7 @@ id: paragon-seq-08-forbidden-knowledge
 name: Forbidden Knowledge
 pathway: paragon
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -95,6 +105,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -112,13 +128,14 @@ text: 'You know or can decipher the history sealed by the church. Effect: When y
 
 
 
+
 You know or can decipher the history sealed by the church.
 
 - **Effect:** When you conduct historical and archaeological appraisal of a historical relic or mural, even if the relic involves secrets that you don’t know, you can dig out the surface information contained in it and learn the approximate age of its origin.
 - This information is usually destroyed and prohibited by the [[Seven Gods]]. You are considered to have known the basic common sense of these histories, so you can learn the superficial meaning of these cultural relics.
 - **Special:** When obtaining age information, the age information you can obtain is limited to the [[Quaternary Epoch]], [[Tertiary Epoch]], and [[Second Epoch]]. Before the Second Epoch, you can only know that it came from before the Second Epoch, but not the more specific time.
 
-> **Lore:** Example: You know the [[Amon Family]] of the [[Fourth Epoch]], but you don’t know the truth that the Amon family actually has only one person. You know that the gods were not represented by holy brilliance in the past, but you don’t know that the gods used to be represented by sculptures. Why are they sculptures?
+> **Lore:** Example: You know the [[Amon Family]] of the [[Fourth Epoch]], but you don’t know the truth that the Amon family actually has only one person. You know that the gods were not represented by holy brilliance in the past, but you don’t know that the gods used to be represented by sculptures. Why are they sculptures
 
 - **Limits:** As described in this section's prose.
 
@@ -130,6 +147,7 @@ id: paragon-seq-08-organ-investigation
 name: Organ Investigation
 pathway: paragon
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -138,6 +156,12 @@ opposed_by: none
 range: 100m
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -152,6 +176,7 @@ text: 'You are very keen on organs, traps, and secret doors. Effect: Whenever yo
   When you are attacked by a mechanism or a trap, the mechanisms attack identification
   is -4 disadvantageous.'
 ```
+
 
 
 
@@ -172,6 +197,7 @@ id: paragon-seq-08-lore-practice
 name: Lore Practice
 pathway: paragon
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -180,6 +206,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -193,6 +225,7 @@ text: 'You gain additional benefits when you use knowledge skills related to arc
   new or in disrepair. It even includes whether a creature itself or its characteristics
   fit the age, whether it shoul...'
 ```
+
 
 
 

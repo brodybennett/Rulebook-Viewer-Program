@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Black Emperor Pathway: Sequence 4
 
 ## Mentor of Disorder
@@ -44,15 +45,27 @@ id: black-emperor-seq-04-chaotic-order
 name: Chaotic Order
 pathway: black-emperor
 sequence: 4
+status: canonical
 type: active
-action: free
-cost: {}
+action: cast
+cost:
+  spirituality: 5
 roll: null
 opposed_by: none
 range: self
 target: self
 duration: sustained
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
+scaling:
+- when: once_per_round_after_initial_cast
+  changes:
+    action: free
+    effect_note: The listed effect can be recast as a free action while still paying the listed cost.
 tags:
 - utility
 text: 'Cost: Consume 5 Spirit points. Use: 1 Casting Action to cast one of the supernatural
@@ -64,6 +77,7 @@ text: 'Cost: Consume 5 Spirit points. Use: 1 Casting Action to cast one of the s
   object and cannot add a prefix that contradicts the objects original attributes.
   Examples: You can add very short to the distance between you and a streetlight.'
 ```
+
 
 
 

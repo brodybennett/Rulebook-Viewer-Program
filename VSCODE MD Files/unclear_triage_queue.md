@@ -57,7 +57,7 @@
 - `draft/sequences/abyss/seq-03.md:35` | Missing Procedure/Resolution | The RAW does not specify whose Will Defense is used (one target vs each listener vs another rule).
 - `draft/sequences/abyss/seq-05.md:145` | Missing Procedure/Resolution | The “Explosion of Desire” loss formula and how the “remaining value” converts into 1d6 damage dice is not mechanically unambiguous as written.
 - `draft/sequences/abyss/seq-06.md:74` | Missing Procedure/Resolution | The calculation note references “targets selected by the second fireball” twice, including for the first fireball; the intended targeting/appraisal shortcut is unclear.
-- `draft/sequences/abyss/seq-07.md:24` | Missing Procedure/Resolution | The exact procedure and what â€œrealize anti-divinationâ€ means in play is not defined; the text ties mystic identification difficulty to anti-divination difficulty but does not specify the roll/check type.
+- `draft/sequences/abyss/seq-07.md:24` | Missing Procedure/Resolution | The exact procedure and what "realize anti-divination" means in play is not defined; the text ties mystic identification difficulty to anti-divination difficulty but does not specify the roll/check type.
 - `draft/sequences/abyss/seq-08.md:83` | Missing Procedure/Resolution | This clause does not specify whether it restricts only this spell’s reuse, or interacts with another “swear words” ability/usage pool.
 - `draft/sequences/apprentice/seq-01.md:41` | Missing Procedure/Resolution | The RAW does not specify whether the -8 applies to the caster, the target, or the overall contest.
 - `draft/sequences/apprentice/seq-02.md:61` | Missing Procedure/Resolution | “actual calculation does not need to be distinguished” is not explicit about what calculation/resistance distinction is waived.
@@ -68,7 +68,7 @@
 - `draft/sequences/apprentice/seq-09.md:26` | Missing Procedure/Resolution | “growth skill can be added twice as much as the inspiration of the potion” is unclear on the exact calculation and what is being increased.
 - `draft/sequences/arbiter/seq-00.md:30` | Missing Procedure/Resolution | “Use your extraordinary ability to target the area at will” does not specify which abilities qualify or what normal targeting limits still apply.
 - `draft/sequences/arbiter/seq-02.md:48` | Missing Procedure/Resolution | What specifically qualifies as “breaking through the limit/restrictions,” and exactly when this +1 applies within the balancing calculation.
-- `draft/sequences/arbiter/seq-03.md:19` | Missing Procedure/Resolution | â€œgreater than the Sequence 3 levelâ€ is unclear in scope/criteria (e.g., how to measure or apply it).
+- `draft/sequences/arbiter/seq-03.md:19` | Missing Procedure/Resolution | "greater than the Sequence 3 level" is unclear in scope/criteria (e.g., how to measure or apply it).
 - `draft/sequences/arbiter/seq-04.md:55` | Missing Procedure/Resolution | The phrase “theoretical maximum damage dice exceeds 40 points” mixes dice and points, so the exact threshold calculation is not fully defined.
 - `draft/sequences/arbiter/seq-05.md:96` | Missing Procedure/Resolution | “Different crimes separate sentence” is unclear (how to segment, and whether multiple crimes can be applied in one use).
 - `draft/sequences/arbiter/seq-06.md:118` | Missing Procedure/Resolution | The edge-case “countermeasure equivalent to confinement” procedure does not specify how it is resolved (timing/check/etc.).

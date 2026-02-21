@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Wheel of Fortune Pathway: Sequence 7
 
 ## Lucky One
@@ -44,6 +45,7 @@ id: fate-seq-07-luck
 name: Luck
 pathway: fate
 sequence: 7
+status: canonical
 type: passive
 action: none
 cost:
@@ -53,7 +55,29 @@ opposed_by: none
 range: self
 target: self
 duration: instant
-scaling: []
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: 1d3
+  notes: Effect roll determines luck type for the next 6 hours; special good luck adds additional rolls.
+scaling:
+- when: luck_type_extreme
+  changes:
+    effect_roll: 1d5
+    effect_note: Extreme good luck applies 1d5 luck and imposes 1d5 disadvantages on harmful appraisals.
+- when: luck_type_better
+  changes:
+    effect_roll: 1d3
+    effect_note: Better luck applies 1d3 luck and imposes 1d3 disadvantages on harmful appraisals.
+- when: luck_type_ordinary
+  changes:
+    effect_note: Ordinary good luck grants +1 to appraisals and -1 disadvantage to harmful appraisals.
+- when: special_good_luck_triggered
+  changes:
+    check_roll: 1d20 + @attr.luk
+    effect_roll: 1d4
+    effect_note: Make DV25 Luck checks every 1d3 hours (or 2d2 hours on better luck); on success roll 1d4 for the good-thing table, with money results also rolling 1d10 and 1d3 currency.
 tags:
 - control
 - buff
@@ -67,6 +91,7 @@ text: 'These effects adjust Luck and Disadvantage resources (not permanent attri
   | | 2 | Better luck | Any identification increases 1d3 luck. Any identification
   intended to harm you gains...'
 ```
+
 
 
 

@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Red Priest Pathway: Sequence 9
 
 ## Hunter
@@ -53,6 +54,7 @@ id: red-priest-seq-09-skill-growth
 name: Skill Growth
 pathway: red-priest
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -61,6 +63,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -71,6 +79,7 @@ text: 'Guided Training (1/day): Each time you receive at least 2 hours of non-re
   content increase by 1 level: Fighting Shooting Tracking Survival Craft Manufacturing
   Stealth Detection'
 ```
+
 
 
 
@@ -105,6 +114,7 @@ id: red-priest-seq-09-law-of-the-jungle
 name: Law of the Jungle
 pathway: red-priest
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -113,6 +123,12 @@ opposed_by: difficulty_value
 range: self
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: Survival (DV 20), Tracking (DV 15), Listening (DV 15), Reconnaissance (DV 15) checks apply as listed; each clue grants +2 beneficial on Survival.
 scaling: []
 tags:
 - utility
@@ -126,6 +142,7 @@ text: 'Law of the Jungle: An explanation that your hunting-related skills will b
   leaving, you can track the targets action path along the way until the clue is disconnected
   due to extraordinary factors. Can...'
 ```
+
 
 
 
@@ -163,14 +180,21 @@ id: red-priest-seq-09-trap-making
 name: Trap Making
 pathway: red-priest
 sequence: 9
+status: canonical
 type: active
 action: full-round
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.crafting
 opposed_by: difficulty_value
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.int + @skill.crafting
+  damage_roll: 2d6
+  heal_roll: null
+  effect_roll: null
+  notes: Craft Manufacturing identification vs Physical Defense to trigger traps; typical damage is 2d6 physical (hunting) or 2d6 physical + 1d6 fire (explosive). Detection/Survival/Crafting DV 25 to find traps (DV 20 in field/ruins with geology/archaeology).
 scaling: []
 tags:
 - detection
@@ -185,6 +209,7 @@ text: 'You can place traps in an area. This area must be a relatively small room
   and can see the surrounding environment is close to the trap, it can use a Difficulty
   Value 25 Detection / Survival / Crafting ch...'
 ```
+
 
 
 
@@ -289,6 +314,7 @@ id: red-priest-seq-09-quick-dodge
 name: Quick Dodge
 pathway: red-priest
 sequence: 9
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -297,6 +323,12 @@ opposed_by: physical_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - defense
@@ -310,6 +342,7 @@ text: 'Quick Dodge: You can dodge firearms. Against firearms (rather than light/
   When facing firearms, your extra evasion is invalid, but the original full agility
   and evasion defenses are still retained. Sequence scaling:'
 ```
+
 
 
 
@@ -344,6 +377,7 @@ id: red-priest-seq-09-spiritual-vision
 name: Spiritual Vision
 pathway: red-priest
 sequence: 9
+status: canonical
 type: active
 action: free
 cost: {}
@@ -352,6 +386,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -366,6 +406,7 @@ text: 'Use: 1 free action. Cost: Consuming 1 spirituality point per round. Effec
   but only so; you cannot get more detailed information. Astral body: You cannot see
   the astral body.'
 ```
+
 
 
 

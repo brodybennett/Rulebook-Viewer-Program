@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Error Pathway: Sequence 8
 
 > **Lore:** Scammers take pleasure in deceiving others and can create illusions to deceive opponents.
@@ -21,7 +22,7 @@ tags:
 - Each time you complete a **non-repetitive, challenging** swindle or deceit, choose any one skill (persuade/talk/please/deceive) that is primarily used in the swindle; that skill increases by 1 level.
 - The same as the promotion of Sequence 9. Sequence 9
   - Bullying the weak does not meet the promotion requirements.
-  - The promotion range, and the level that can be promoted to, are equal to Sequence 9â€™s **Detection** at **Mastery**. [[master/detection]]
+  - The promotion range, and the level that can be promoted to, are equal to Sequence 9's **Detection** at **Mastery**. [[master/detection]]
 
 ## Extraordinary Abilities
 
@@ -37,15 +38,25 @@ id: error-seq-08-charisma
 name: Charisma
 pathway: error
 sequence: 8
-type: active
-action: cast
+status: adapted
+type: passive
+action: none
 cost: {}
 roll: null
 opposed_by: none
 range: self
 target: designated target(s)
-duration: instant
-scaling: []
+duration: persistent
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "2"
+  notes: Effect roll captures the +2 Charisma bonus applied to Charisma-related checks.
+scaling:
+- when: intimidation_checks
+  changes:
+    effect_note: Intimidation checks may use Charisma instead of their usual attribute.
 tags:
 - social
 text: 'Effect: Whenever you make a Charisma-related skill check, you gain a temporary
@@ -56,6 +67,7 @@ text: 'Effect: Whenever you make a Charisma-related skill check, you gain a temp
   that target. Limits: (This is the effect brought by 1 potion and cannot be recorded
   or stolen.) [[potion effect recording/stealing]]'
 ```
+
 
 
 
@@ -74,15 +86,35 @@ id: error-seq-08-extraordinary-eloquence
 name: Extraordinary Eloquence
 pathway: error
 sequence: 8
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.cha + @skill.persuade
 opposed_by: willpower_defense
 range: This affects all targets who hear the words.
 target: designated target(s)
 duration: instant
-scaling: []
+dice:
+  check_roll: 1d20 + @attr.cha + @skill.persuade
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Any social skill can be used for the opposed check; alternative skills are represented in scaling.
+scaling:
+- when: deception_based_delivery
+  changes:
+    check_roll: 1d20 + @attr.cha + @skill.deception
+- when: fast_talk_delivery
+  changes:
+    check_roll: 1d20 + @attr.cha + @skill.fast_talk
+- when: intimidation_delivery
+  changes:
+    check_roll: 1d20 + @attr.cha + @skill.intimidation
+- when: performance_delivery
+  changes:
+    check_roll: 1d20 + @attr.cha + @skill.performance
 tags:
 - ritual
 - debuff
@@ -98,6 +130,7 @@ text: 'Use: 1 Casting Action Casting Action Cost: 2 points of Spirituality [[Spi
   madness, etc., and immediately terminate it; this does not include shock, extraordinary
   madness, uncerta...'
 ```
+
 
 
 
@@ -124,14 +157,22 @@ id: error-seq-08-misleading-thinking
 name: Misleading Thinking
 pathway: error
 sequence: 8
+status: adapted
 type: active
 action: cast
-cost: {}
-roll: null
+cost:
+  spirituality: 2
+roll: 1d20 + @attr.cha + @skill.deception
 opposed_by: willpower_defense
 range: Choose 1 target.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: 1d20 + @attr.cha + @skill.deception
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: Deception check resolves the "cheats vs Willpower Defense" contest.
 scaling: []
 tags:
 - ritual
@@ -146,6 +187,7 @@ text: 'Use: 1 Casting Action Casting Action Cost: 2 points of Spirituality [[Spi
   equal to vagrants or wanderers. Relying on the above content as a benchmark, whether
   the equal sign is est...'
 ```
+
 
 
 
@@ -170,6 +212,7 @@ id: error-seq-08-mind-disturbance
 name: Mind Disturbance
 pathway: error
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -178,6 +221,12 @@ opposed_by: none
 range: Choose 1 target.
 target: designated target(s)
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -197,13 +246,14 @@ text: 'Use: 1 Casting Action Casting Action Cost: 3 points of Spirituality [[Spi
 
 
 
+
 - **Use:** 1 **Casting Action** Casting Action
 - **Cost:** 3 points of **Spirituality** [[Spirituality]]
 - **Targeting and range:** Choose 1 target.
 - **Effect:** You create 1 hallucination.
   1. You create an illusion with fully customized content. Only when the other party recognizes that it may be an illusion can they use **Detection**/**Intuition (INT)** against **Deception** [[Deception]] to detect that the illusion is false. Therefore, this only works once per target per day.
   2. Unlike the magician's hallucination, the magician's hallucination will make all the existences within 10 meters see the false image, but the trickster's mind disturbance does not have this range limit. In contrast, the trickster's hallucination can only make one person see.
-     [[magicianâ€™s hallucination]]
+     [[magician's hallucination]]
 - **Special:** By default, only the chosen target perceives this hallucination. If the illusion directly implicates others (GM call), they may contest false perception once alerted.
 
 - **Limits:** As described in this section's prose.
@@ -216,6 +266,7 @@ id: error-seq-08-quick-dodge
 name: Quick Dodge
 pathway: error
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -224,6 +275,12 @@ opposed_by: physical_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - debuff
@@ -236,6 +293,7 @@ text: 'Effect: When facing guns, you fully retain the agility and dodge in Physi
   is the effect brought by 1 potion and cannot be stolen or recorded.) [[potion effect
   recording/stealing]]'
 ```
+
 
 
 

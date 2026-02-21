@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Chained Pathway: Sequence 2
 
 ## Abomination
@@ -37,6 +38,7 @@ id: mutant-seq-02-reverse-inhalation-of-spirit-bodies
 name: Reverse Inhalation of Spirit Bodies
 pathway: mutant
 sequence: 2
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -45,6 +47,12 @@ opposed_by: none
 range: self
 target: self
 duration: sustained
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -52,6 +60,7 @@ text: 'Use: Open your mouth and take a breath in. Effect: You can blow a cold wi
   that forcibly pulls the enemys spirit body, making it impossible to maintain a state
   and possession that are difficult for others to see.'
 ```
+
 
 
 
@@ -69,6 +78,7 @@ id: mutant-seq-02-ancient-evil
 name: Ancient Evil
 pathway: mutant
 sequence: 2
+status: canonical
 type: active
 action: full-round
 cost: {}
@@ -77,6 +87,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - utility
@@ -90,6 +106,7 @@ text: 'Effect: You cant die completely by preparing ahead of time. Use: As a Ful
   State): After becoming this state, although you are still an angel, you will not
   be able to make any waves fo...'
 ```
+
 
 
 

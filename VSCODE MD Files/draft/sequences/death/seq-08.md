@@ -10,6 +10,7 @@ tags:
 
 
 
+
 # Death Pathway: Sequence 8
 
 ## Gravedigger
@@ -45,6 +46,7 @@ id: death-seq-08-training-and-learning-benefits
 name: Training and Learning Benefits
 pathway: death
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -53,6 +55,12 @@ opposed_by: none
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - detection
@@ -64,6 +72,7 @@ text: Fighting, shooting, throwing, and their subdivision skills are included in
   Character cards that have not just been promoted can use twice the Intuition (INT)
   brought by potions to add growth skills.
 ```
+
 
 
 
@@ -83,15 +92,26 @@ id: death-seq-08-eyes-of-death
 name: Eyes of Death
 pathway: death
 sequence: 8
+status: adapted
 type: active
 action: full-round
-cost: {}
-roll: null
-opposed_by: none
+cost:
+  spirituality: 5
+roll: 1d20 + @attr.int + @skill.knowledge
+opposed_by: physical_defense
 range: self
-target: self
-duration: instant
-scaling: []
+target: designated target(s)
+duration: 1 encounter
+dice:
+  check_roll: 1d20 + @attr.int + @skill.knowledge
+  damage_roll: null
+  heal_roll: null
+  effect_roll: "1"
+  notes: check_roll maps the scrutiny-assisted attack package; effect_roll encodes that successful hits gain guaranteed-damage floor behavior from Great Success handling.
+scaling:
+- when: successful_attack_damage_is_below_half_theoretical_max
+  changes:
+    effect_note: Raise damage to half of the maximum theoretical value, rounded up.
 tags:
 - ritual
 - offense
@@ -104,6 +124,7 @@ text: 'Cost: 5 [[Spirituality]] Use: As a Full-Round Action [[Full-Round Action]
   Great Success (damage rule): Your damage is guaranteed, and it must cause more than
   half of the maximum theoretical damage, rounded up.'
 ```
+
 
 
 
@@ -135,6 +156,7 @@ id: death-seq-08-communicating-with-the-dead
 name: Communicating with the Dead
 pathway: death
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -143,6 +165,12 @@ opposed_by: physical_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - ritual
@@ -152,6 +180,7 @@ text: 'Cost: 3 [[Spirituality]] Use: 1 Casting Action Casting Action Effect: You
   you can only summon the following spirits: Shadow 15 Vitality 15 [[Physical Defense]]
   (Agility (DEX) and Dodge 5)'
 ```
+
 
 
 
@@ -183,6 +212,7 @@ id: death-seq-08-quick-dodge
 name: Quick Dodge
 pathway: death
 sequence: 8
+status: canonical
 type: active
 action: cast
 cost: {}
@@ -191,6 +221,12 @@ opposed_by: physical_defense
 range: self
 target: self
 duration: instant
+dice:
+  check_roll: null
+  damage_roll: null
+  heal_roll: null
+  effect_roll: null
+  notes: No explicit dice expression in source text.
 scaling: []
 tags:
 - debuff
@@ -202,6 +238,7 @@ text: 'Effect: You can dodge firearms. When facing guns, you fully retain the ag
   more quickly, and you get an extra level of dodge. [[Dodge level]] Special: This
   is the effect brought by 1 potion and cannot be stolen or recorded. [[Potions]]'
 ```
+
 
 
 
