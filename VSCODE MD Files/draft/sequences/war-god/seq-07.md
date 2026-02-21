@@ -56,7 +56,7 @@ type: active
 action: attack
 cost: {}
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: All targets within the stated distance in front of you (see above).
 target: designated target(s)
 duration: instant
@@ -65,7 +65,7 @@ dice:
   damage_roll: null
   heal_roll: null
   effect_roll: null
-  notes: No explicit dice expression in source text.
+  notes: Bundled/multi-effect ability; requires later decomposition for automation.
 scaling: []
 tags:
 - mobility

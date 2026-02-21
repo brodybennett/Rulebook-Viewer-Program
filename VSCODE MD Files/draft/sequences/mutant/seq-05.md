@@ -359,7 +359,7 @@ type: active
 action: swift
 cost: {}
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: 300m
 target: designated target(s)
 duration: sustained
@@ -708,11 +708,11 @@ name: Anti-Divination
 pathway: mutant
 sequence: 5
 status: canonical
-type: active
-action: cast
+type: passive
+action: none
 cost: {}
 roll: null
-opposed_by: difficulty_value
+opposed_by: none
 range: self
 target: self
 duration: instant
@@ -721,7 +721,7 @@ dice:
   damage_roll: null
   heal_roll: null
   effect_roll: null
-  notes: No explicit dice expression in source text.
+  notes: Passive feature; no roll.
 scaling: []
 tags:
 - ritual

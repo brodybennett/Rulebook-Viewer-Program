@@ -583,7 +583,7 @@ status: canonical
 type: active
 action: swift
 cost: {}
-roll: null
+roll: 1d20 + @bonus
 opposed_by: physical_defense
 range: self
 target: designated target(s)
@@ -593,7 +593,7 @@ dice:
   damage_roll: null
   heal_roll: null
   effect_roll: null
-  notes: No explicit dice expression in source text.
+  notes: '@bonus = blanket action bonus, derived from current Flesh Stack/2.'
 scaling: []
 tags:
 - ritual

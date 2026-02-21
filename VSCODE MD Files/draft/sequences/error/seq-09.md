@@ -172,7 +172,7 @@ status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.dex + @skill.sleight_of_hand
 opposed_by: physical_defense
 range: self
 target: designated target(s)
@@ -182,7 +182,7 @@ dice:
   damage_roll: null
   heal_roll: null
   effect_roll: null
-  notes: No explicit dice expression in source text.
+  notes: Sleight-of-hand check resolves the stated contest against Physical Defense.
 scaling: []
 tags:
 - ritual

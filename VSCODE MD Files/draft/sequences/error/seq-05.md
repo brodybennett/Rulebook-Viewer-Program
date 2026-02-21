@@ -48,7 +48,7 @@ status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.dex + @skill.sleight_of_hand
 opposed_by: willpower_defense
 range: Choose 1 target within 50 meters. Skillfully defend against Willpower Defense
   Willpower Defense.
@@ -113,7 +113,7 @@ status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.dex + @skill.sleight_of_hand
 opposed_by: willpower_defense
 range: Choose 1 target who falls into sleep and dreams, and fight against the Willpower
   Defense Willpower Defense with skillful hands.
@@ -227,7 +227,7 @@ status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.dex + @skill.sleight_of_hand
 opposed_by: physical_defense
 range: Choose 1 target. Skillfully fight against Physical Defense [[Physical Defense]].
 target: designated target(s)

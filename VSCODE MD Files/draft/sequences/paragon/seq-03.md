@@ -50,7 +50,7 @@ type: active
 action: cast
 cost: {}
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: Choose a target within 5 meters of you.
 target: designated target(s)
 duration: instant
@@ -59,7 +59,7 @@ dice:
   damage_roll: null
   heal_roll: null
   effect_roll: null
-  notes: No explicit dice expression in source text.
+  notes: Bundled/multi-effect ability; requires later decomposition for automation.
 scaling: []
 tags:
 - ritual

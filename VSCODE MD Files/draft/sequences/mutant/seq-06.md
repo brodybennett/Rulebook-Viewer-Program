@@ -468,7 +468,7 @@ action: cast
 cost:
   spirituality: 2
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: self
 target: self
 duration: instant

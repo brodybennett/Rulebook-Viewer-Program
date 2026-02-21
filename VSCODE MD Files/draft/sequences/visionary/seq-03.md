@@ -45,7 +45,7 @@ action: cast
 cost:
   spirituality: 5
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: One or more creatures within sight
 target: designated target(s)
 duration: instant

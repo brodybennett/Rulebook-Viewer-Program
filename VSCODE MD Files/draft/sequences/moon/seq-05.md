@@ -127,11 +127,11 @@ name: Sleep-Related Resistance
 pathway: moon
 sequence: 5
 status: canonical
-type: active
-action: cast
+type: passive
+action: none
 cost: {}
 roll: null
-opposed_by: willpower_defense
+opposed_by: none
 range: self
 target: self
 duration: instant
@@ -140,7 +140,7 @@ dice:
   damage_roll: null
   heal_roll: null
   effect_roll: null
-  notes: No explicit dice expression in source text.
+  notes: Passive feature; no roll.
 scaling: []
 tags:
 - defense

@@ -386,7 +386,7 @@ action: swift
 cost:
   spirituality: 4
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: Choose 1 or more targets.
 target: designated target(s)
 duration: 5 minutes.
@@ -395,7 +395,7 @@ dice:
   damage_roll: null
   heal_roll: null
   effect_roll: null
-  notes: No explicit dice expression in source text.
+  notes: Bundled/multi-effect ability; requires later decomposition for automation.
 scaling: []
 tags:
 - mobility

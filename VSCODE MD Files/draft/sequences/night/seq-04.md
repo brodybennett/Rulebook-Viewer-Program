@@ -48,7 +48,7 @@ action: cast
 cost:
   spirituality: 5
 roll: null
-opposed_by: difficulty_value
+opposed_by: none
 range: self
 target: designated target(s)
 duration: instant

@@ -49,7 +49,7 @@ type: active
 action: cast
 cost: {}
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: self
 target: designated target(s)
 duration: instant

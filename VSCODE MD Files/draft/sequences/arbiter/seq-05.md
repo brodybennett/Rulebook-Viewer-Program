@@ -192,7 +192,7 @@ action: cast
 cost:
   spirituality: 3
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: Choose 1 target within 50 meters.
 target: designated target(s)
 duration: The restriction effect lasts for **1 round**.

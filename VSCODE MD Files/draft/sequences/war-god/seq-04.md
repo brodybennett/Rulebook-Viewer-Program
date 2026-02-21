@@ -307,7 +307,7 @@ type: active
 action: cast
 cost: {}
 roll: null
-opposed_by: willpower_defense
+opposed_by: none
 range: self
 target: self
 duration: instant

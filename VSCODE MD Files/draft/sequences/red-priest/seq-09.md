@@ -119,7 +119,7 @@ type: active
 action: cast
 cost: {}
 roll: null
-opposed_by: difficulty_value
+opposed_by: none
 range: self
 target: designated target(s)
 duration: instant
@@ -128,7 +128,7 @@ dice:
   damage_roll: null
   heal_roll: null
   effect_roll: "1"
-  notes: Survival (DV 20), Tracking (DV 15), Listening (DV 15), Reconnaissance (DV 15) checks apply as listed; each clue grants +2 beneficial on Survival.
+  notes: Bundled/multi-effect ability; requires later decomposition for automation.
 scaling: []
 tags:
 - utility
@@ -315,11 +315,11 @@ name: Quick Dodge
 pathway: red-priest
 sequence: 9
 status: canonical
-type: active
-action: cast
+type: passive
+action: none
 cost: {}
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: self
 target: self
 duration: instant
@@ -328,7 +328,7 @@ dice:
   damage_roll: null
   heal_roll: null
   effect_roll: null
-  notes: No explicit dice expression in source text.
+  notes: Passive feature; no roll.
 scaling: []
 tags:
 - defense

@@ -344,7 +344,7 @@ status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @skill.psychological_guidance
 opposed_by: willpower_defense
 range: self
 target: self
@@ -354,7 +354,7 @@ dice:
   damage_roll: null
   heal_roll: null
   effect_roll: null
-  notes: No explicit dice expression in source text.
+  notes: Psychological Guidance appraisal resolves against Willpower Defense when the relevant choice occurs.
 scaling: []
 tags:
 - defense

@@ -46,7 +46,7 @@ action: cast
 cost:
   spirituality: 10
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: All natural disasters affect a minimum area of **1 kilometer** and may extend
   up to **one country** in scope.
 target: designated target(s)

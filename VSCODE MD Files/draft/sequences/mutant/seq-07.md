@@ -319,11 +319,11 @@ name: Fast Dodge
 pathway: mutant
 sequence: 7
 status: canonical
-type: active
-action: cast
+type: passive
+action: none
 cost: {}
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: self
 target: self
 duration: instant
@@ -332,7 +332,7 @@ dice:
   damage_roll: null
   heal_roll: null
   effect_roll: null
-  notes: No roll; fixed armor and cold resistance bonuses.
+  notes: Passive feature; no roll.
 scaling: []
 tags:
 - defense

@@ -109,7 +109,7 @@ status: canonical
 type: active
 action: free
 cost: {}
-roll: null
+roll: 1d20 + @bonus
 opposed_by: willpower_defense
 range: One target within line of sight.
 target: designated target(s)
@@ -119,7 +119,7 @@ dice:
   damage_roll: null
   heal_roll: null
   effect_roll: null
-  notes: No explicit dice expression in source text.
+  notes: '@bonus = chosen occult/dark-domain check modifier used to resolve the gaze contest.'
 scaling: []
 tags:
 - ritual

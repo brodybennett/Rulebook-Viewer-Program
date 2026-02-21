@@ -98,7 +98,7 @@ status: canonical
 type: active
 action: free
 cost: {}
-roll: null
+roll: 1d20 + @attr.cha
 opposed_by: physical_defense
 range: All targets within your line of sight.
 target: designated target(s)
@@ -108,7 +108,7 @@ dice:
   damage_roll: null
   heal_roll: null
   effect_roll: null
-  notes: No explicit dice expression in source text.
+  notes: Each round, roll Charisma against Physical Defense to advance petrification.
 scaling: []
 tags:
 - debuff

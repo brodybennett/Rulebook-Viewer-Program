@@ -88,7 +88,7 @@ type: active
 action: cast
 cost: {}
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: self
 target: self
 duration: instant
@@ -251,7 +251,7 @@ status: canonical
 type: active
 action: cast
 cost: {}
-roll: null
+roll: 1d20 + @attr.int + @bonus
 opposed_by: physical_defense
 range: self
 target: designated target(s)
@@ -261,7 +261,7 @@ dice:
   damage_roll: null
   heal_roll: null
   effect_roll: null
-  notes: No explicit dice expression in source text.
+  notes: '@bonus = mysticism skill modifier used for this contested check.'
 scaling: []
 tags:
 - ritual

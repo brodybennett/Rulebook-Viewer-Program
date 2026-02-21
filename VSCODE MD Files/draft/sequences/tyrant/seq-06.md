@@ -179,7 +179,7 @@ action: swift
 cost:
   spirituality: 1
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: You may take off together with creatures within 5 meters.
 target: designated target(s)
 duration: instant
@@ -641,7 +641,7 @@ action: cast
 cost:
   spirituality: 3
 roll: null
-opposed_by: difficulty_value
+opposed_by: none
 range: 50m
 target: designated target(s)
 duration: sustained

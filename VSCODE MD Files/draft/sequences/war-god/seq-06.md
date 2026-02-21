@@ -53,7 +53,7 @@ action: free
 cost:
   spirituality: 3
 roll: null
-opposed_by: physical_defense
+opposed_by: none
 range: self
 target: self
 duration: instant
