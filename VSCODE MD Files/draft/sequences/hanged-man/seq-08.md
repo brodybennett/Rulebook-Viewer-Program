@@ -69,6 +69,11 @@ scaling:
 - when: detect_higher_sequence_or_tainted
   changes:
     effect_note: Triggers 1 or 1d2 Sanity/Rationality loss on extraordinary sound detection.
+conditions:
+- dead
+damage_types:
+- sanity
+- rationality
 tags:
 - detection
 text: 'Effect: With the extraordinary ability of listening, you will hear more sounds
@@ -180,6 +185,9 @@ scaling:
 - when: listen_check_succeeds
   changes:
     effect_note: Success table applies; each use also triggers 0 or 1d2 Sanity/Rationality loss.
+damage_types:
+- sanity
+- rationality
 tags:
 - ritual
 - debuff

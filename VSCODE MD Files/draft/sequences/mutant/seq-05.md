@@ -169,6 +169,13 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- invisible
+damage_types:
+- physical
+- lightning
+- holy
+- curse
 tags:
 - ritual
 - mobility
@@ -247,6 +254,11 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- invisible
+damage_types:
+- lightning
+- holy
 tags:
 - detection
 - stealth
@@ -312,6 +324,9 @@ dice:
   effect_roll: 1d3
   notes: Inflicts sanity/rationality loss (1/1d3) and stuns the first-time listener for 1 round.
 scaling: []
+damage_types:
+- sanity
+- rationality
 tags:
 - ritual
 text: 'Prerequisite: You are in shadow form (from Shapeshifting Shadow). Cost: 3 spirituality
@@ -413,6 +428,8 @@ dice:
   effect_roll: null
   notes: Heal roll restores spirituality on kill; damage roll is per-round life drain in ethereal-body mode. Spirit can break free with DV 20 Strength; Sequence 2 variant uses Occult -10 vs Willpower Defense for 6d6 mental damage.
 scaling: []
+damage_types:
+- mental
 tags:
 - mobility
 text: 'Prerequisite: You are in shadow form (from Shapeshifting Shadow). Use: A Move
@@ -505,6 +522,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- invisible
 tags:
 - ritual
 - stealth
@@ -571,6 +590,8 @@ dice:
   effect_roll: null
   notes: Damage adds Strength damage bonus plus extra Strength dice equal to Intuition.
 scaling: []
+damage_types:
+- physical
 tags:
 - control
 - defense
@@ -746,6 +767,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- dead
 tags:
 - ritual
 - buff

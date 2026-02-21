@@ -386,6 +386,8 @@ dice:
   effect_roll: null
   notes: Each shot costs 1 spirituality; up to 3 shots per casting action. Sequence 5 increases damage by +1d6.
 scaling: []
+damage_types:
+- physical
 tags:
 - ritual
 - buff
@@ -491,6 +493,8 @@ dice:
   effect_roll: "1"
   notes: Hand/weapon effect adds +1d6 physical damage for the round; legs effect boosts movement as listed.
 scaling: []
+damage_types:
+- physical
 tags:
 - ritual
 - mobility
@@ -597,6 +601,8 @@ dice:
   effect_roll: null
   notes: Treated as firearm speed; Sequence 5 increases damage to 5d6.
 scaling: []
+damage_types:
+- physical
 tags:
 - ritual
 - defense

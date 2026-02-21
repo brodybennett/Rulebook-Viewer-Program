@@ -70,6 +70,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- rage_taunted
 tags:
 - utility
 text: Rage State ability details are retained in section prose.
@@ -122,6 +124,9 @@ dice:
   effect_roll: "1"
   notes: Adds +1d6 damage while in Rage State; can be invoked via full-round action without entering rage.
 scaling: []
+conditions:
+- rage_taunted
+- constitution_advantage_disadvantage
 tags:
 - ritual
 - control

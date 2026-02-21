@@ -163,6 +163,8 @@ scaling:
 - when: third_card_same_attack_action
   changes:
     check_penalty: -4
+damage_types:
+- physical
 tags:
 - offense
 text: 'The soft paper in your hand can turn into flying knives and fly out; this belongs

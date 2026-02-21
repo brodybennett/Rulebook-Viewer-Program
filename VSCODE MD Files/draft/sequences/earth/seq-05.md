@@ -276,6 +276,9 @@ scaling:
 - when: fog_persists_into_next_round
   changes:
     effect_note: You may re-check each round to deal damage again without additional cost.
+damage_types:
+- physical
+- poison
 tags:
 - ritual
 - debuff

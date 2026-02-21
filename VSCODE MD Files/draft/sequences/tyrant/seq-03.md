@@ -104,6 +104,8 @@ dice:
   effect_roll: "1"
   notes: Lightning damage immunity.
 scaling: []
+damage_types:
+- lightning
 tags:
 - offense
 text: 'Effect: You are immune to lightning damage. [[Damage Types]]'
@@ -142,6 +144,8 @@ dice:
   effect_roll: null
   notes: Ignores Agility (DEX) and evasion; airborne/undead targets take +2d10 and lightning-state targets take +1d10; paralysis requires a DV 15 Constitution test (DV 20 if Wet).
 scaling: []
+damage_types:
+- lightning
 tags:
 - ritual
 - defense

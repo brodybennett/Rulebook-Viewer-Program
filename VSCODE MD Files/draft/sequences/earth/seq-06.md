@@ -236,6 +236,9 @@ scaling:
     opposed_by: difficulty_value
     check_roll: 1d20 + @attr.int + @skill.medicine
     effect_note: Medicine check (DV 20) within 2 rounds can end the effect early.
+damage_types:
+- physical
+- poison
 tags:
 - ritual
 - debuff

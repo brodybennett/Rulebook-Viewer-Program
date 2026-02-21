@@ -114,6 +114,9 @@ dice:
   effect_roll: null
   notes: On success, magma eruption deals 5d6 fire and 2d6 physical damage; fire damage is halved on the seabed.
 scaling: []
+damage_types:
+- physical
+- fire
 tags:
 - defense
 - offense

@@ -145,6 +145,8 @@ dice:
   effect_roll: null
   notes: Baseline damage is 5d6 + Strength damage bonus; add extra Strength dice equal to Intuition. Targets escape with a DV 20 Strength check; restrained targets lose agility bonus to defense.
 scaling: []
+conditions:
+- restrained
 tags:
 - ritual
 - mobility

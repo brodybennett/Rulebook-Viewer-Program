@@ -81,6 +81,8 @@ scaling:
 - when: potion_fully_digested
   changes:
     range: 300m
+conditions:
+- invisible
 tags:
 - detection
 - divination

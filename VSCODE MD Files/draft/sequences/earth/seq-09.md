@@ -351,6 +351,8 @@ scaling:
 - when: hot_exposure_6_hours
   changes:
     effect_note: Hot exposure causes fainting after 6 hours without sufficient cooling.
+damage_types:
+- cold
 tags:
 - defense
 - offense

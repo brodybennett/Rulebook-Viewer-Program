@@ -158,6 +158,8 @@ scaling:
   changes:
     action: free
     effect_note: Once per round, one cast-action trick can be used as a free action.
+damage_types:
+- cold
 tags:
 - ritual
 - mobility

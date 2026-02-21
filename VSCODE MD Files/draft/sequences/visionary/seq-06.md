@@ -106,6 +106,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- dazed
 tags:
 - ritual
 text: 'Cost: 1 Casting Action; 3 Spirituality Targeting and range: Choose 1 target
@@ -261,6 +263,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- invisible
 tags:
 - ritual
 - detection

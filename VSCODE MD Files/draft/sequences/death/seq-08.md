@@ -112,6 +112,8 @@ scaling:
 - when: successful_attack_damage_is_below_half_theoretical_max
   changes:
     effect_note: Raise damage to half of the maximum theoretical value, rounded up.
+conditions:
+- dead
 tags:
 - ritual
 - offense
@@ -172,6 +174,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- dead
 tags:
 - ritual
 - defense

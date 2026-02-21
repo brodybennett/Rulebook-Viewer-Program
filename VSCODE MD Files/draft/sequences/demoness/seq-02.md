@@ -85,6 +85,8 @@ scaling:
   changes:
     damage_roll: null
     effect_note: Heavy rain primarily changes terrain/visibility instead of dealing direct damage.
+damage_types:
+- physical
 tags:
 - ritual
 - mobility

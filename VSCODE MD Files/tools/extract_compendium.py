@@ -669,6 +669,10 @@ def build_ability_record(
         record["scaling"] = []
     if not isinstance(record.get("tags"), list) or not record.get("tags"):
         record["tags"] = tags
+    if not isinstance(record.get("conditions"), list):
+        record["conditions"] = []
+    if not isinstance(record.get("damage_types"), list):
+        record["damage_types"] = []
 
     if not isinstance(record.get("text"), str) or not str(record.get("text")).strip():
         record["text"] = body_text
@@ -739,6 +743,20 @@ def build_ability_record(
     if record["status"] == "stub" and "stub" not in record["tags"]:
         record["tags"].append("stub")
 
+    for enum_key in ("conditions", "damage_types"):
+        normalized_items: List[str] = []
+        seen_items: set[str] = set()
+        for raw_item in record.get(enum_key, []):
+            if not isinstance(raw_item, str):
+                continue
+            token = norm_key(raw_item).replace(" ", "_")
+            token = re.sub(r"[^a-z0-9_]+", "_", token).strip("_")
+            if not token or token in seen_items:
+                continue
+            seen_items.add(token)
+            normalized_items.append(token)
+        record[enum_key] = normalized_items
+
     record["_source"] = {
         "line": abs_line,
         "heading": ascii_clean(heading.title),
@@ -795,6 +813,8 @@ def make_imputed_ability(
         },
         "scaling": [],
         "tags": ["utility", "stub"],
+        "conditions": [],
+        "damage_types": [],
         "text": "Mechanical placeholder only. Canon mechanics pending source confirmation.",
         "_source": {
             "line": line,

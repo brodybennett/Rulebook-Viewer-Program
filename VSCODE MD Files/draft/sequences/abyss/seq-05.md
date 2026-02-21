@@ -290,6 +290,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- fear
 tags:
 - detection
 - control

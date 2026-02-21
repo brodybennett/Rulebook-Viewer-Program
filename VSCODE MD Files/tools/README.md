@@ -177,4 +177,65 @@ python tools/power_audit.py --repo . --compendium dist/compendium.json --power-s
 python tools/power_audit.py --repo . --out meta/power_audit_report.md --json-out meta/power_audit_report.json
 ```
 
+## 15) Canonical enum lock (Phase 5 readiness)
+
+`meta/canonical_enums.yml` freezes IDs used by automation and UI layers:
+- attributes (`id` + display)
+- skills (`id` list)
+- conditions (`id` list)
+- action types (`id` enum)
+- damage types (`id` enum)
+
+`lint_compendium.py` now enforces that schema/action/roll registries and ability enum fields stay aligned with this file.
+
+```bash
+python tools/lint_compendium.py --repo . --compendium dist/compendium.json
+```
+
+## 16) Global term rename tool
+
+Preview repo-wide term replacements (dry-run):
+
+```bash
+python tools/rename_term.py --repo . --from "Spirituality Points" --to "Spirituality"
+```
+
+Apply:
+
+```bash
+python tools/rename_term.py --repo . --from "Spirituality Points" --to "Spirituality" --write
+```
+
+## 17) Ability ID rename tool
+
+Preview ability ID rename in `yaml ability` blocks (and `[[id:...]]` links):
+
+```bash
+python tools/rename_id.py --repo . --from old-ability-id --to new-ability-id
+```
+
+Apply:
+
+```bash
+python tools/rename_id.py --repo . --from old-ability-id --to new-ability-id --write
+```
+
+Use `--replace-plain` if you also need plain token replacements outside YAML/link forms.
+
+## 18) Backfill enum IDs in ability YAML
+
+Conservatively infer and backfill `conditions` and `damage_types` IDs for existing `yaml ability` blocks.
+
+Preview:
+
+```bash
+python tools/backfill_enum_ids.py --repo .
+```
+
+Apply:
+
+```bash
+python tools/backfill_enum_ids.py --repo . --write
+```
+
 

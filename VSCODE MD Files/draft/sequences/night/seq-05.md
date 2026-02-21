@@ -55,6 +55,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- helpless
 tags:
 - utility
 text: 'Seal: 1 Casting Action. Choose a helpless/voluntary [[Spirit Body]] in front

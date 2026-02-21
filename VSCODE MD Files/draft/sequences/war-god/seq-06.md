@@ -267,6 +267,8 @@ dice:
   effect_roll: null
   notes: "Mysticism check vs Physical Defense (ignores DEX/Dodge). Damage is 2d6 holy + 1d6 fire; insert mode also hits you; storm adds 1d6 restraint vs spirits; Sequence 5 upgrades to 3d6 holy + 1d6 fire and no self-damage."
 scaling: []
+damage_types:
+- fire
 tags:
 - ritual
 - defense

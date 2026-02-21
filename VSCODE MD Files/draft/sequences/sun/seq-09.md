@@ -140,6 +140,8 @@ dice:
   effect_roll: null
   notes: Singing Identification DV 15; on success grants +1 Strength/+1 Agility and clears listed conditions.
 scaling: []
+conditions:
+- fear
 tags:
 - ritual
 - debuff
@@ -187,6 +189,9 @@ dice:
   effect_roll: 1d2
   notes: Singing Identification DV 15; Benefit B uses the Singing result vs Willpower Defense.
 scaling: []
+damage_types:
+- sanity
+- rationality
 tags:
 - ritual
 - defense

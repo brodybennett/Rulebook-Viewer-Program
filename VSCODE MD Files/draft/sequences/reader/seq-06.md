@@ -65,6 +65,9 @@ dice:
   effect_roll: null
   notes: Extraordinary Knowledge Identification DV 20; +5 DV per sequence level above you. Apply -1 per Sanity/Rationality loss during analysis; if loss would drop you below 1, still resolve and gain +2 on the check.
 scaling: []
+damage_types:
+- sanity
+- rationality
 tags:
 - ritual
 text: 'Cost: 2 Spirituality ([[Spirituality]]). Use: Free Action ([[Actions]]). Whenever

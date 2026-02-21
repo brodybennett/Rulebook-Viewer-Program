@@ -65,6 +65,9 @@ dice:
   effect_roll: 1d3
   notes: Sanity check loss is 1/1d3; bonus damage applies while insanity or sanity loss persists.
 scaling: []
+damage_types:
+- physical
+- sanity
 tags:
 - ritual
 - healing
@@ -119,6 +122,8 @@ dice:
   effect_roll: 1d3
   notes: Sanity check loss is 1/1d3; sanity/rationality checks gain +2 but rolls of 18-20 are catastrophic failures.
 scaling: []
+damage_types:
+- sanity
 tags:
 - control
 - debuff

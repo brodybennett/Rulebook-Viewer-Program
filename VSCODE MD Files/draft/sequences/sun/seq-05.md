@@ -67,6 +67,9 @@ dice:
   effect_roll: null
   notes: Ignores Agility (DEX) and Dodge; deals 4d6 holy and 2d6 fire damage.
 scaling: []
+damage_types:
+- fire
+- holy
 tags:
 - ritual
 - control
@@ -122,6 +125,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- fear
 tags:
 - ritual
 - control
@@ -180,6 +185,10 @@ dice:
   effect_roll: "1"
   notes: Holy rain applies restrained damage each round to dark/corrupt/undead; normal creatures gain listed resistances.
 scaling: []
+conditions:
+- restrained
+damage_types:
+- holy
 tags:
 - control
 - debuff
@@ -237,6 +246,11 @@ dice:
   effect_roll: 1d3
   notes: Unwilling targets are opposed by Physical Defense; restrained targets also take restrained damage.
 scaling: []
+conditions:
+- restrained
+- fear
+damage_types:
+- sanity
 tags:
 - ritual
 - control

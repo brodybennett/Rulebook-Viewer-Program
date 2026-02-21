@@ -113,6 +113,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- fear
 tags:
 - ritual
 - debuff
@@ -398,6 +400,9 @@ scaling:
 - when: sequence_4_or_higher
   changes:
     damage_roll: 7d6 + @attr.str
+damage_types:
+- physical
+- cold
 tags:
 - ritual
 - defense
@@ -611,6 +616,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- invisible
 tags:
 - ritual
 - divination

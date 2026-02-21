@@ -159,6 +159,9 @@ scaling:
 - when: sanity_below_30_percent
   changes:
     effect_note: Target enters out-of-control state at less than 30% sanity.
+damage_types:
+- sanity
+- rationality
 tags:
 - control
 - buff

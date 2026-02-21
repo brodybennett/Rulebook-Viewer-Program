@@ -105,6 +105,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- fear
 tags:
 - ritual
 - debuff
@@ -156,6 +158,9 @@ dice:
   effect_roll: null
   notes: Creatures touching the fire take 2d6 sacred and 1d6 fire damage; resistance/evasion is ignored when avoiding the area.
 scaling: []
+damage_types:
+- fire
+- holy
 tags:
 - control
 - defense
@@ -210,6 +215,11 @@ dice:
   effect_roll: null
   notes: Adds restrained damage to the next hit; restraint damage scales to 2d6 (fallen) or 3d6 (undead), +1d6 at Sequence 5.
 scaling: []
+conditions:
+- restrained
+damage_types:
+- physical
+- holy
 tags:
 - control
 - offense
@@ -265,6 +275,9 @@ dice:
   effect_roll: null
   notes: Adds 1d6 fire or holy damage for 2 rounds, or grants +2 Power/+2 Agility; Sequence 5 increases to +3 or 2d6.
 scaling: []
+damage_types:
+- fire
+- holy
 tags:
 - ritual
 - control
@@ -320,6 +333,11 @@ dice:
   effect_roll: null
   notes: When used offensively, ignores agility/dodge and applies restrained damage each round to dark/fallen/undead in range.
 scaling: []
+conditions:
+- restrained
+- fear
+damage_types:
+- holy
 tags:
 - ritual
 - control
@@ -423,6 +441,10 @@ dice:
   effect_roll: "1"
   notes: Possession attempts by lower-sequence wraith shadows fail and trigger restrained damage; successful possession by higher-level wraith shadows takes 1d6 holy damage per round.
 scaling: []
+conditions:
+- restrained
+damage_types:
+- holy
 tags:
 - ritual
 - buff
@@ -464,6 +486,10 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- restrained
+damage_types:
+- holy
 tags:
 - detection
 - control

@@ -61,6 +61,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- dead
 tags:
 - utility
 text: 'Effect: can bypass the protection of flesh and blood, elevating communication
@@ -99,6 +101,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- dead
 tags:
 - utility
 text: 'Effect: the number and quality of natural spirits, undead creatures, and Spirit
@@ -156,6 +160,8 @@ scaling:
 - when: spirit_body_state_above_sequence_5
   changes:
     damage_roll: 3d6
+conditions:
+- dead
 tags:
 - ritual
 text: 'Cost: 1 Swift Action; consuming 1 spirituality point per round. [[Spirituality]]
@@ -334,6 +340,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- dead
 tags:
 - ritual
 text: 'Cost: 1 Casting Action; consuming 2 spiritual points. [[Spirituality]] Targeting:

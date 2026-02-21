@@ -116,6 +116,8 @@ scaling:
   changes:
     effect_roll: 1d3
     effect_note: As a Big Volume Creature, melee vs medium targets adds 1d3 damage and +1m reach.
+conditions:
+- helpless
 tags:
 - utility
 text: 'Cost: No Sanity / Rationality [[Sanity / Rationality]]. Use: Varies by creature
@@ -187,6 +189,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+damage_types:
+- physical
 tags:
 - defense
 - offense
@@ -333,6 +337,8 @@ scaling:
 - when: divine_or_higher_status_damage
   changes:
     effect_note: Divine damage consumes +5 resist times; higher-status damage consumes +3 resist times.
+damage_types:
+- physical
 tags:
 - ritual
 - offense
@@ -401,6 +407,9 @@ scaling:
   changes:
     cost: {flesh_stack: 5}
     effect_note: Planted bombs can be detonated within 100m; detonation costs 3 spirituality.
+damage_types:
+- physical
+- poison
 tags:
 - debuff
 - defense
@@ -645,6 +654,8 @@ scaling:
 - when: burst_fire
   changes:
     effect_note: Apply a -2 penalty per additional shot after the first in a burst.
+damage_types:
+- physical
 tags:
 - defense
 - offense

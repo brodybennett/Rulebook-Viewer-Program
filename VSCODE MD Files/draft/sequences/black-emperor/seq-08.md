@@ -163,6 +163,9 @@ dice:
   effect_roll: 1d3
   notes: Mapped from the explicit sanity-loss example of 1d3 on failed Sanity and Rationality loss tests.
 scaling: []
+damage_types:
+- sanity
+- rationality
 tags:
 - defense
 text: 'You have fairly high resistance to mental influences. Whenever your Sanity

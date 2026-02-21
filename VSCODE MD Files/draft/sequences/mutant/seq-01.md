@@ -166,6 +166,8 @@ dice:
   effect_roll: null
   notes: Passive modifier; curse damage bypasses doubles and cannot be directly saved by them.
 scaling: []
+damage_types:
+- curse
 tags:
 - debuff
 - offense

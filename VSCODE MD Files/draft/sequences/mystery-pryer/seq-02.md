@@ -116,6 +116,9 @@ dice:
   effect_roll: 1d6 + 1
   notes: Sanity/rationality loss is 1d5 or 1d6+1 depending on target; on hit, target is stunned for the round (free actions only).
 scaling: []
+damage_types:
+- sanity
+- rationality
 tags:
 - ritual
 - defense

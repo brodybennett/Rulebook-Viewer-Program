@@ -61,6 +61,8 @@ dice:
   effect_roll: null
   notes: Condensed Fireball and Fire Raven use Mysticism vs Physical Defense; Blazing Lance and Flame Whip use attack rolls. Damage varies by form (2d8; 2d8 + Strength; 1d4 + half Strength; 1d3 per raven; +1d6 attach fire; 2d6 spreading flame). Compression adds dice as listed.
 scaling: []
+damage_types:
+- fire
 tags:
 - ritual
 - control

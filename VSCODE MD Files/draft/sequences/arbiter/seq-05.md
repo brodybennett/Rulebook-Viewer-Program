@@ -132,6 +132,8 @@ scaling:
 - when: cold_conversion_applies
   changes:
     effect_note: Target suffers -2 on next identification within 1 round and movement is halved (round up).
+damage_types:
+- psychic
 tags:
 - ritual
 - buff
@@ -201,6 +203,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- restrained
 tags:
 - ritual
 - control

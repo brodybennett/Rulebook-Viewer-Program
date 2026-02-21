@@ -115,6 +115,8 @@ scaling:
 - when: performance_delivery
   changes:
     check_roll: 1d20 + @attr.cha + @skill.performance
+conditions:
+- fear
 tags:
 - ritual
 - debuff
@@ -174,6 +176,8 @@ dice:
   effect_roll: null
   notes: Deception check resolves the "cheats vs Willpower Defense" contest.
 scaling: []
+conditions:
+- dead
 tags:
 - ritual
 - defense

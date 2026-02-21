@@ -60,6 +60,8 @@ dice:
   effect_roll: "1"
   notes: Bonus lightning damage applies to all lightning abilities; Yi Lei Wan Tang splash damage uses Lightning Storm resolution.
 scaling: []
+damage_types:
+- lightning
 tags:
 - buff
 - defense

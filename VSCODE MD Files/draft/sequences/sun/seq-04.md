@@ -127,6 +127,8 @@ dice:
   effect_roll: null
   notes: On a failed attack, damage is halved.
 scaling: []
+damage_types:
+- holy
 tags:
 - ritual
 - defense
@@ -183,6 +185,9 @@ dice:
   effect_roll: null
   notes: Choose holy or fire damage; half damage on failed attack.
 scaling: []
+damage_types:
+- fire
+- holy
 tags:
 - ritual
 - defense
@@ -238,6 +243,9 @@ dice:
   effect_roll: null
   notes: "Alternate defense: resist Willpower Defense at -4 penalty and cost 5 spirituality."
 scaling: []
+damage_types:
+- fire
+- holy
 tags:
 - ritual
 - buff
@@ -290,6 +298,8 @@ dice:
   effect_roll: "1"
   notes: Grants armor/DR; body touch against undead/fallen/dark deals 2d6 holy damage.
 scaling: []
+damage_types:
+- holy
 tags:
 - ritual
 - control

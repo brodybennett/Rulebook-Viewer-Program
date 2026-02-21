@@ -134,6 +134,11 @@ dice:
   effect_roll: null
   notes: "Apply -4 disadvantage to the check; damage ignores fire resistance and imposes -4 on the target's next Penetrating Blow That Pierces the Soul check."
 scaling: []
+conditions:
+- invisible
+damage_types:
+- fire
+- mental
 tags:
 - ritual
 - stealth
@@ -188,6 +193,8 @@ dice:
   effect_roll: 2d6
   notes: "Mode 1: area 2d6 km, duration 1d6 hours, divination interference 1d3 days. Mode 2: check vs Willpower Defense at -4 disadvantage (-8 if known spectator); on success target makes sanity check 1/1d2 and is stunned."
 scaling: []
+conditions:
+- invisible
 tags:
 - ritual
 - stealth
@@ -256,6 +263,8 @@ dice:
   effect_roll: "1"
   notes: "No roll; travel effect."
 scaling: []
+damage_types:
+- physical
 tags:
 - ritual
 - offense
@@ -358,6 +367,8 @@ dice:
   effect_roll: 1d2
   notes: "Sanity check is 0/1 (treat as 1d2-1); target must also make Will DV 20 each round; Psychoanalysis DV 20 to relieve."
 scaling: []
+conditions:
+- invisible
 tags:
 - stealth
 - offense

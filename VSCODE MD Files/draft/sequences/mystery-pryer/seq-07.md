@@ -59,6 +59,8 @@ dice:
   effect_roll: null
   notes: No roll; counteracting uses compared damage rolls from relevant abilities.
 scaling: []
+damage_types:
+- fire
 tags:
 - offense
 text: 'Use: Once per turn, you can use 1 Casting Action as 1 free action (non-stackable).
@@ -166,6 +168,8 @@ scaling:
   changes:
     damage_roll: 3d6
     effect_note: +3 spirituality cost; Frost becomes a 10m ice storm affecting all targets.
+damage_types:
+- fire
 tags:
 - buff
 - defense

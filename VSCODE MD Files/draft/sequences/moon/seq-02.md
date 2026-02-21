@@ -102,6 +102,8 @@ dice:
   effect_roll: null
   notes: No explicit dice; this restores the target to life and clears listed afflictions.
 scaling: []
+conditions:
+- dead
 tags:
 - ritual
 - healing
@@ -155,6 +157,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- dead
 tags:
 - ritual
 - control

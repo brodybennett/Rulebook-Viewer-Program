@@ -67,6 +67,8 @@ scaling:
 - when: sequence_6_or_higher
   changes:
     effect_note: Effective range increases to 30m (Sequence 6) or 50m (Sequence 5).
+conditions:
+- invisible
 tags:
 - detection
 - stealth
@@ -253,6 +255,10 @@ scaling:
 - when: pierced_heart_or_holy_damage
   changes:
     effect_note: Regeneration is halved while pierced heart or excessive holy damage persists.
+conditions:
+- dying
+damage_types:
+- sanity
 tags:
 - healing
 - offense
@@ -314,6 +320,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- helpless
 tags:
 - debuff
 - defense

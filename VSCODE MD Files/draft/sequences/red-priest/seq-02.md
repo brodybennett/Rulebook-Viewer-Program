@@ -59,6 +59,8 @@ dice:
   effect_roll: "1"
   notes: "No roll; weather effects include +1d10 lightning damage bonus, 1d4 hail damage per round, and movement/skill penalties as listed."
 scaling: []
+damage_types:
+- lightning
 tags:
 - ritual
 - detection
@@ -167,6 +169,8 @@ dice:
   effect_roll: null
   notes: Add Strength damage bonus on hit; other reasonable throwing-like skills may substitute.
 scaling: []
+damage_types:
+- cold
 tags:
 - ritual
 - defense

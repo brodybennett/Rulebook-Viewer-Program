@@ -109,6 +109,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- dead
 tags:
 - utility
 text: 'Effect: You can use your body as a cage to provide a suitable environment for
@@ -174,6 +176,8 @@ scaling:
   changes:
     check_roll: null
     effect_note: Vortex mode applies forced movement and suction effects without an attack check.
+conditions:
+- dead
 tags:
 - ritual
 - defense

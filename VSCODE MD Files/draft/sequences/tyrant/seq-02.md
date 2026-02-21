@@ -210,6 +210,9 @@ dice:
   effect_roll: null
   notes: On success, deal 5d6 fire and 5d6 physical damage; on failure, creatures unable to leave still take half damage.
 scaling: []
+damage_types:
+- physical
+- fire
 tags:
 - ritual
 - defense

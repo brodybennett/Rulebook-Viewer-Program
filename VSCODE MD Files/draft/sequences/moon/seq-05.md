@@ -412,6 +412,8 @@ scaling:
 - when: attribute_or_armor_potion
   changes:
     effect_note: Attribute/armor/reduction improvements gain +1.
+conditions:
+- invisible
 tags:
 - buff
 - defense

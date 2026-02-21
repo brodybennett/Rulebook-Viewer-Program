@@ -118,6 +118,8 @@ scaling:
 - when: sequence_3
   changes:
     effect_note: At close range, may pull out a helpless target's spirit body for channeling.
+conditions:
+- helpless
 tags:
 - offense
 text: 'Effect: You are proficient at dealing with ethereal creatures. Your attacks

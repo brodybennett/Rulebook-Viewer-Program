@@ -231,6 +231,8 @@ scaling:
 - when: chained_trigger_mode
   changes:
     effect_note: Up to 3 rapid spark triggers per snap sequence before further cast-spend pressure applies.
+damage_types:
+- fire
 tags:
 - ritual
 - control
@@ -308,6 +310,8 @@ scaling:
 - when: third_shot_same_cast_action
   changes:
     check_penalty: -4
+damage_types:
+- physical
 tags:
 - ritual
 - defense
@@ -492,6 +496,8 @@ dice:
   effect_roll: null
   notes: Utility tube effect; no explicit check or contested roll is described.
 scaling: []
+conditions:
+- invisible
 tags:
 - stealth
 text: 'Use: As a Casting Action Cost: 1 sanity point Effect: You create an invisible
@@ -542,6 +548,8 @@ scaling:
   changes:
     effect_roll: 1d6
     effect_note: Resolve redirected hit location table.
+conditions:
+- restrained
 tags:
 - control
 text: 'You soften your bones, freeing you from handcuffs, ropes, and boxes. Use: 1

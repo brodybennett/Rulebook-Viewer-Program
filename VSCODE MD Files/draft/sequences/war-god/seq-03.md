@@ -147,6 +147,8 @@ dice:
   effect_roll: null
   notes: "Add raid and Strength damage bonuses; damage ignores armor, cover, and non-malicious danger intuition."
 scaling: []
+damage_types:
+- physical
 tags:
 - ritual
 - detection
@@ -202,6 +204,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- invisible
 tags:
 - ritual
 text: 'Cost: 3 [[Spirituality]] points. Use: Free action. Effect: You achieve optical

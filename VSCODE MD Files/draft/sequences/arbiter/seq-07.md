@@ -114,6 +114,10 @@ scaling:
   changes:
     cost: {spirituality: 3}
     effect_note: On successful check, deal 1d6 mental damage and apply Stunned.
+conditions:
+- fear
+damage_types:
+- psychic
 tags:
 - ritual
 - detection
@@ -185,6 +189,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- fear
 tags:
 - ritual
 - detection

@@ -105,6 +105,8 @@ dice:
   effect_roll: "1"
   notes: Intuition test DV 15 to judge higher-rank targets; failure to meet the threshold can trigger Fear if target is 2+ positions higher.
 scaling: []
+conditions:
+- fear
 tags:
 - mobility
 - control
@@ -256,6 +258,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- off_balance
 tags:
 - utility
 text: 'Effect: You have excellent balance on unstable footing (e.g., stormy ships,

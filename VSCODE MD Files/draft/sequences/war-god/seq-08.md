@@ -146,6 +146,8 @@ dice:
   effect_roll: "1"
   notes: "No roll; provides listed resistances and their sequence scaling."
 scaling: []
+damage_types:
+- curse
 tags:
 - debuff
 - defense

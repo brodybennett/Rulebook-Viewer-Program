@@ -141,6 +141,8 @@ scaling:
   changes:
     effect_roll: 10d2
     effect_note: Vitality is 60 + 10d2 (or more).
+damage_types:
+- psychic
 tags:
 - defense
 - offense

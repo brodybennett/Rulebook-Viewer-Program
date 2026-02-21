@@ -7,6 +7,7 @@ Validate extracted compendium JSON against:
 - ID patterns and uniqueness
 - roll syntax contract
 - canonical pathway/sequence names
+- canonical enum locks (attributes/skills/action/conditions/damage types)
 - sequence-level structural gates
 """
 
@@ -37,6 +38,7 @@ DEFAULT_COMPENDIUM = "dist/compendium.json"
 DEFAULT_SCHEMA = "meta/ability_schema.yml"
 DEFAULT_CANON_PATHWAYS = "meta/canon_pathways.yml"
 DEFAULT_CANON_SEQUENCES = "meta/canon_sequences.yml"
+DEFAULT_CANON_ENUMS = "meta/canonical_enums.yml"
 TAG_RE = re.compile(r"^[a-z0-9][a-z0-9_-]*$")
 
 
@@ -81,6 +83,21 @@ def load_yaml(path: Path) -> Any:
     if not path.exists():
         raise FileNotFoundError(str(path))
     return yaml.safe_load(path.read_text(encoding="utf-8", errors="replace"))
+
+
+def load_enum_ids(data: Dict[str, Any], section: str) -> set[str]:
+    raw = data.get(section)
+    if not isinstance(raw, list):
+        raise ValueError(f"canonical_enums.{section} must be a list.")
+    out: set[str] = set()
+    for item in raw:
+        if not isinstance(item, dict):
+            raise ValueError(f"canonical_enums.{section} items must be mappings.")
+        token = str(item.get("id") or "").strip().lower()
+        if not token:
+            raise ValueError(f"canonical_enums.{section} contains an empty id.")
+        out.add(token)
+    return out
 
 
 def norm_key(text: str) -> str:
@@ -344,6 +361,34 @@ def validate_ability_field_types(
             ability_id=str(ability.get("id") or ""),
         )
 
+    for key in ("conditions", "damage_types"):
+        if key not in ability:
+            continue
+        value = ability.get(key)
+        if not isinstance(value, list):
+            add_finding(
+                findings,
+                severity="error",
+                code=f"invalid_{key}_type",
+                message=f"Ability `{key}` must be an array when present.",
+                file=file,
+                line=line,
+                sequence_id=sequence_id,
+                ability_id=str(ability.get("id") or ""),
+            )
+            continue
+        if not all(isinstance(item, str) and item.strip() for item in value):
+            add_finding(
+                findings,
+                severity="error",
+                code=f"invalid_{key}_items",
+                message=f"Ability `{key}` entries must be non-empty strings.",
+                file=file,
+                line=line,
+                sequence_id=sequence_id,
+                ability_id=str(ability.get("id") or ""),
+            )
+
 
 def lint_compendium(
     *,
@@ -351,6 +396,7 @@ def lint_compendium(
     schema: Dict[str, Any],
     canon_pathways: Dict[str, str],
     canon_sequences: Dict[str, Dict[str, Any]],
+    canonical_enums: Dict[str, Any],
 ) -> Tuple[List[Finding], Dict[str, int]]:
     findings: List[Finding] = []
     stats = {
@@ -385,6 +431,66 @@ def lint_compendium(
     opposed_enum = set(fields.get("opposed_by", {}).get("enum", []))
     key_pattern_raw = str(fields.get("cost", {}).get("key_pattern") or "")
     cost_key_pattern = re.compile(key_pattern_raw) if key_pattern_raw else None
+    schema_conditions_enum = set(fields.get("conditions", {}).get("enum", []))
+    schema_damage_types_enum = set(fields.get("damage_types", {}).get("enum", []))
+
+    try:
+        enum_attr_ids = load_enum_ids(canonical_enums, "attributes")
+        enum_skill_ids = load_enum_ids(canonical_enums, "skills")
+        enum_condition_ids = load_enum_ids(canonical_enums, "conditions")
+        enum_action_ids = load_enum_ids(canonical_enums, "action_types")
+        enum_damage_type_ids = load_enum_ids(canonical_enums, "damage_types")
+    except Exception as exc:
+        add_finding(
+            findings,
+            severity="error",
+            code="canonical_enums_invalid",
+            message=f"Failed to load canonical enum IDs: {exc}",
+            file="<canon-enums>",
+            line=1,
+            sequence_id="",
+        )
+        enum_attr_ids = set()
+        enum_skill_ids = set()
+        enum_condition_ids = set()
+        enum_action_ids = set()
+        enum_damage_type_ids = set()
+
+    if action_enum and enum_action_ids and action_enum != enum_action_ids:
+        add_finding(
+            findings,
+            severity="error",
+            code="schema_action_enum_drift",
+            message="Schema `action` enum does not match canonical_enums action_types.",
+            file="<schema>",
+            line=1,
+            sequence_id="",
+            expected=", ".join(sorted(enum_action_ids)),
+        )
+
+    if schema_conditions_enum and enum_condition_ids and schema_conditions_enum != enum_condition_ids:
+        add_finding(
+            findings,
+            severity="error",
+            code="schema_conditions_enum_drift",
+            message="Schema `conditions` enum does not match canonical_enums conditions.",
+            file="<schema>",
+            line=1,
+            sequence_id="",
+            expected=", ".join(sorted(enum_condition_ids)),
+        )
+
+    if schema_damage_types_enum and enum_damage_type_ids and schema_damage_types_enum != enum_damage_type_ids:
+        add_finding(
+            findings,
+            severity="error",
+            code="schema_damage_types_enum_drift",
+            message="Schema `damage_types` enum does not match canonical_enums damage_types.",
+            file="<schema>",
+            line=1,
+            sequence_id="",
+            expected=", ".join(sorted(enum_damage_type_ids)),
+        )
 
     try:
         roll_registry = load_roll_registry(schema)
@@ -399,6 +505,29 @@ def lint_compendium(
             sequence_id="",
         )
         roll_registry = None
+
+    if roll_registry is not None and enum_attr_ids and roll_registry.tokens.get("attr", set()) != enum_attr_ids:
+        add_finding(
+            findings,
+            severity="error",
+            code="schema_attr_registry_drift",
+            message="Schema roll_registry.attr does not match canonical_enums attributes.",
+            file="<schema>",
+            line=1,
+            sequence_id="",
+            expected=", ".join(sorted(enum_attr_ids)),
+        )
+    if roll_registry is not None and enum_skill_ids and roll_registry.tokens.get("skill", set()) != enum_skill_ids:
+        add_finding(
+            findings,
+            severity="error",
+            code="schema_skill_registry_drift",
+            message="Schema roll_registry.skill does not match canonical_enums skills.",
+            file="<schema>",
+            line=1,
+            sequence_id="",
+            expected=", ".join(sorted(enum_skill_ids)),
+        )
 
     sequences = compendium.get("sequences") if isinstance(compendium, dict) else None
     if not isinstance(sequences, list):
@@ -704,7 +833,8 @@ def lint_compendium(
                     expected=", ".join(sorted(status_enum)),
                 )
 
-            if action_enum and isinstance(ability.get("action"), str) and ability.get("action") not in action_enum:
+            effective_action_enum = enum_action_ids or action_enum
+            if effective_action_enum and isinstance(ability.get("action"), str) and ability.get("action") not in effective_action_enum:
                 add_finding(
                     findings,
                     severity="error",
@@ -714,7 +844,7 @@ def lint_compendium(
                     line=line,
                     sequence_id=seq_id,
                     ability_id=ability_id,
-                    expected=", ".join(sorted(action_enum)),
+                    expected=", ".join(sorted(effective_action_enum)),
                 )
 
             opposed = ability.get("opposed_by")
@@ -783,6 +913,82 @@ def lint_compendium(
                         line=line,
                         sequence_id=seq_id,
                         ability_id=ability_id,
+                    )
+
+            conditions = ability.get("conditions") if isinstance(ability.get("conditions"), list) else []
+            if "conditions" in ability and not isinstance(ability.get("conditions"), list):
+                add_finding(
+                    findings,
+                    severity="error",
+                    code="conditions_not_array",
+                    message="Ability `conditions` must be an array.",
+                    file=file,
+                    line=line,
+                    sequence_id=seq_id,
+                    ability_id=ability_id,
+                )
+            for condition_id in conditions:
+                if not isinstance(condition_id, str):
+                    add_finding(
+                        findings,
+                        severity="error",
+                        code="condition_id_type_invalid",
+                        message=f"Condition entry `{condition_id}` must be a string ID.",
+                        file=file,
+                        line=line,
+                        sequence_id=seq_id,
+                        ability_id=ability_id,
+                    )
+                    continue
+                if enum_condition_ids and condition_id not in enum_condition_ids:
+                    add_finding(
+                        findings,
+                        severity="error",
+                        code="condition_id_unknown",
+                        message=f"Condition ID `{condition_id}` is not in canonical_enums.",
+                        file=file,
+                        line=line,
+                        sequence_id=seq_id,
+                        ability_id=ability_id,
+                        expected=", ".join(sorted(enum_condition_ids)),
+                    )
+
+            damage_types = ability.get("damage_types") if isinstance(ability.get("damage_types"), list) else []
+            if "damage_types" in ability and not isinstance(ability.get("damage_types"), list):
+                add_finding(
+                    findings,
+                    severity="error",
+                    code="damage_types_not_array",
+                    message="Ability `damage_types` must be an array.",
+                    file=file,
+                    line=line,
+                    sequence_id=seq_id,
+                    ability_id=ability_id,
+                )
+            for damage_id in damage_types:
+                if not isinstance(damage_id, str):
+                    add_finding(
+                        findings,
+                        severity="error",
+                        code="damage_type_id_type_invalid",
+                        message=f"Damage type entry `{damage_id}` must be a string ID.",
+                        file=file,
+                        line=line,
+                        sequence_id=seq_id,
+                        ability_id=ability_id,
+                    )
+                    continue
+                if enum_damage_type_ids and damage_id not in enum_damage_type_ids:
+                    add_finding(
+                        findings,
+                        severity="error",
+                        code="damage_type_id_unknown",
+                        message=f"Damage type ID `{damage_id}` is not in canonical_enums.",
+                        file=file,
+                        line=line,
+                        sequence_id=seq_id,
+                        ability_id=ability_id,
+                        expected=", ".join(sorted(enum_damage_type_ids)),
                     )
 
             roll = ability.get("roll")
@@ -874,6 +1080,11 @@ def main() -> int:
         help=f"Canonical sequence names file (default: {DEFAULT_CANON_SEQUENCES})",
     )
     parser.add_argument(
+        "--canon-enums",
+        default=DEFAULT_CANON_ENUMS,
+        help=f"Canonical enums file (default: {DEFAULT_CANON_ENUMS})",
+    )
+    parser.add_argument(
         "--json-out",
         default=None,
         help="Optional path for JSON report output.",
@@ -896,12 +1107,14 @@ def main() -> int:
     schema_path = resolve_under_repo(repo, args.schema)
     canon_pathways_path = resolve_under_repo(repo, args.canon_pathways)
     canon_sequences_path = resolve_under_repo(repo, args.canon_sequences)
+    canon_enums_path = resolve_under_repo(repo, args.canon_enums)
 
     try:
         compendium = load_json(compendium_path)
         schema = load_yaml(schema_path)
         canon_pathways_raw = load_yaml(canon_pathways_path)
         canon_sequences_raw = load_yaml(canon_sequences_path)
+        canon_enums_raw = load_yaml(canon_enums_path)
     except Exception as exc:
         print(f"ERROR: failed to load lint inputs: {exc}", file=sys.stderr)
         return 2
@@ -909,7 +1122,11 @@ def main() -> int:
     if not isinstance(schema, dict):
         print("ERROR: schema root must be an object.", file=sys.stderr)
         return 2
-    if not isinstance(canon_pathways_raw, dict) or not isinstance(canon_sequences_raw, dict):
+    if (
+        not isinstance(canon_pathways_raw, dict)
+        or not isinstance(canon_sequences_raw, dict)
+        or not isinstance(canon_enums_raw, dict)
+    ):
         print("ERROR: canonical files must have object roots.", file=sys.stderr)
         return 2
 
@@ -921,6 +1138,7 @@ def main() -> int:
         schema=schema,
         canon_pathways=canon_pathways,
         canon_sequences=canon_sequences,
+        canonical_enums=canon_enums_raw,
     )
 
     print_report(
@@ -938,6 +1156,7 @@ def main() -> int:
             "repo": str(repo),
             "compendium": str(compendium_path),
             "schema": str(schema_path),
+            "canonical_enums": str(canon_enums_path),
             "sequences_scanned": stats.get("sequences_scanned", 0),
             "abilities_scanned": stats.get("abilities_scanned", 0),
             "errors": len([f for f in findings if f.severity == "error"]),

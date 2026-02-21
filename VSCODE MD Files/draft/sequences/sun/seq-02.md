@@ -55,6 +55,9 @@ dice:
   effect_roll: "1"
   notes: Dark/corrupt/undead take 6d6+5 holy damage per round, increasing by +1d6 each round to a max of 10d6+5; other creatures take 3d6+5 holy or fire damage per round.
 scaling: []
+damage_types:
+- fire
+- holy
 tags:
 - ritual
 - offense

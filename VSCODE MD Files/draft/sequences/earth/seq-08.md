@@ -112,6 +112,8 @@ dice:
   effect_roll: null
   notes: Check roll maps the medical appraisal performed with a spellcasting action.
 scaling: []
+conditions:
+- bleeding
 tags:
 - healing
 text: 'Use: Passive. Effect: You have medical skills beyond reality. You can suture

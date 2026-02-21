@@ -133,6 +133,8 @@ scaling:
 - when: intuition_increases
   changes:
     effect_note: Reach and manipulation breadth of the invisible hand increase with Intuition.
+conditions:
+- invisible
 tags:
 - stealth
 - offense

@@ -116,6 +116,9 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+damage_types:
+- sanity
+- rationality
 tags:
 - debuff
 text: 'Effect: You can often hear voices others cannot hear and see things others
@@ -176,6 +179,9 @@ scaling:
 - when: sequence_5_or_higher
   changes:
     effect_note: Danger premonition and undisturbed Spiritual Intuition succeed by default.
+damage_types:
+- sanity
+- rationality
 tags:
 - divination
 - defense

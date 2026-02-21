@@ -55,6 +55,8 @@ dice:
   effect_roll: null
   notes: No roll; curse damage from your abilities cannot be fully immune by same-level Death pathway targets and is instead halved.
 scaling: []
+damage_types:
+- curse
 tags:
 - debuff
 text: 'Effect: Gain [[Curse of Transformation]]. Curse of Transformation: It can turn
@@ -223,6 +225,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+damage_types:
+- curse
 tags:
 - debuff
 - offense

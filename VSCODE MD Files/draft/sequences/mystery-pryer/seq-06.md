@@ -118,6 +118,8 @@ dice:
   effect_roll: 1d2
   notes: Occult check vs Willpower Defense enables maintenance effects for 1d2 rounds; damage_roll covers the +1d10 enhancement option.
 scaling: []
+damage_types:
+- physical
 tags:
 - buff
 - defense

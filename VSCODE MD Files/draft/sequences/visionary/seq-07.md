@@ -106,6 +106,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- fear
 tags:
 - ritual
 - debuff
@@ -171,6 +173,9 @@ dice:
   effect_roll: 1d3
   notes: "Target loses 1 sanity per emotional state and 1d3 per madness symptom; detonated emotional state is cleared."
 scaling: []
+damage_types:
+- sanity
+- rationality
 tags:
 - ritual
 - detection

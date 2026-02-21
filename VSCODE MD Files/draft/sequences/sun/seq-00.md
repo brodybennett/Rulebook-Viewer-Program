@@ -60,6 +60,8 @@ dice:
   effect_roll: "1"
   notes: No explicit dice; flames ignore normal fire resistance and damage reduction.
 scaling: []
+damage_types:
+- fire
 tags:
 - utility
 text: 'Effect: Emits scorching light. Targeting and range: This light can illuminate
@@ -140,6 +142,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+damage_types:
+- fire
 tags:
 - defense
 - offense

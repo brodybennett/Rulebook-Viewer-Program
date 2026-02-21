@@ -127,6 +127,11 @@ dice:
   effect_roll: null
   notes: No roll; fixed armor, damage reduction, and resistance values.
 scaling: []
+conditions:
+- dying
+damage_types:
+- lightning
+- holy
 tags:
 - healing
 - offense
@@ -182,6 +187,9 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+damage_types:
+- physical
+- fire
 tags:
 - defense
 - offense
@@ -295,6 +303,9 @@ dice:
   effect_roll: null
   notes: Damage also includes +2d6 poison; double damage against plants, spider silk, or hair. Occult identification can replace the raw Intuition check.
 scaling: []
+damage_types:
+- poison
+- curse
 tags:
 - ritual
 - detection
@@ -352,6 +363,9 @@ dice:
   effect_roll: null
   notes: Bonus 1d6 curse damage plus an additional 1d6 poison damage on hit.
 scaling: []
+damage_types:
+- poison
+- curse
 tags:
 - ritual
 - debuff
@@ -465,6 +479,9 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+damage_types:
+- physical
+- fire
 tags:
 - ritual
 - mobility
@@ -523,6 +540,8 @@ dice:
   effect_roll: null
   notes: Bonus 1d6 cold damage and -2 penalty to the target's next check on hit.
 scaling: []
+damage_types:
+- cold
 tags:
 - ritual
 - defense
@@ -578,6 +597,8 @@ dice:
   effect_roll: null
   notes: Arrow is detected with DV 25 appraisal; otherwise treated as caught off guard. Redirecting the arrow uses a quick action.
 scaling: []
+conditions:
+- caught_off_guard
 tags:
 - detection
 - defense
@@ -628,6 +649,10 @@ dice:
   effect_roll: null
   notes: Living corpse puppet attack deals 1d6 physical damage; puppet has listed fixed stats.
 scaling: []
+conditions:
+- dead
+damage_types:
+- physical
 tags:
 - ritual
 - healing

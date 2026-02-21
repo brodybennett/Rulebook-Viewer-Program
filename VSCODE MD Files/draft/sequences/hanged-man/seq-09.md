@@ -74,6 +74,8 @@ scaling:
   changes:
     effect_roll: 1d6
     effect_note: Direct power can trigger 1d3 or 1d6 Sanity/Rationality loss depending on severity.
+damage_types:
+- sanity
 tags:
 - detection
 text: 'Because of high Intuition (INT), you can detect the existence of some mysterious

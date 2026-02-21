@@ -133,6 +133,8 @@ scaling:
 - when: target_is_1_sequence_higher
   changes:
     effect_note: Target is unaffected by Majesty.
+conditions:
+- fear
 tags:
 - ritual
 - debuff

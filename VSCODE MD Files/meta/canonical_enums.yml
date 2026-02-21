@@ -1,0 +1,284 @@
+version: 1
+last_updated: '2026-02-21'
+scope: Frozen canonical IDs for compendium automation and character-sheet pipelines
+notes:
+- Do not change existing IDs after downstream consumers ship.
+- Add new IDs as additive changes only.
+- Ability YAML should reference these IDs, not ad hoc text, for structured fields.
+attributes:
+- id: str
+  display: Strength (STR)
+  name: Strength
+  abbreviation: STR
+- id: dex
+  display: Agility (DEX)
+  name: Agility
+  abbreviation: DEX
+- id: con
+  display: Constitution (CON)
+  name: Constitution
+  abbreviation: CON
+- id: wil
+  display: Willpower (WIL)
+  name: Willpower
+  abbreviation: WIL
+- id: int
+  display: Intuition (INT)
+  name: Intuition
+  abbreviation: INT
+- id: edu
+  display: Education (EDU)
+  name: Education
+  abbreviation: EDU
+- id: cha
+  display: Charisma (CHA)
+  name: Charisma
+  abbreviation: CHA
+- id: luk
+  display: Luck (LUK)
+  name: Luck
+  abbreviation: LUK
+skills:
+- id: climbing
+  display: Climbing
+- id: throwing
+  display: Throwing
+- id: fighting
+  display: Fighting
+- id: intimidation
+  display: Intimidation
+- id: jumping
+  display: Jumping
+- id: animal_handling
+  display: Animal Handling
+- id: stealth
+  display: Stealth
+- id: sleight_of_hand
+  display: Sleight of Hand
+- id: swimming
+  display: Swimming
+- id: shooting
+  display: Shooting
+- id: artillery
+  display: Artillery
+- id: lockpicking
+  display: Lockpicking
+- id: dodge
+  display: Dodge
+- id: driving
+  display: Driving
+- id: heavy_machinery
+  display: Heavy Machinery
+- id: listen
+  display: Listen
+- id: investigation
+  display: Investigation
+- id: mechanical_repair
+  display: Mechanical Repair
+- id: occultism
+  display: Occultism
+- id: psychology
+  display: Psychology
+- id: cooking
+  display: Cooking
+- id: art
+  display: Art
+- id: track
+  display: Track
+- id: lip_reading
+  display: Lip Reading
+- id: spiritual_intuition
+  display: Spiritual Intuition
+- id: navigation
+  display: Navigation
+- id: trade
+  display: Trade
+- id: medicine
+  display: Medicine
+- id: library_use
+  display: Library Use
+- id: writing
+  display: Writing
+- id: demolitions
+  display: Demolitions
+- id: survival
+  display: Survival
+- id: knowledge
+  display: Knowledge
+- id: natural_world
+  display: Natural World
+- id: mysticism_languages
+  display: Mysticism Languages
+- id: common_languages
+  display: Common Languages
+- id: charisma
+  display: Charisma
+- id: deception
+  display: Deception
+- id: fast_talk
+  display: Fast Talk
+- id: persuade
+  display: Persuade
+- id: psychological_guidance
+  display: Psychological Guidance
+- id: performance
+  display: Performance
+- id: disguise
+  display: Disguise
+- id: reputation
+  display: Reputation
+- id: melee
+  display: Melee
+- id: swordsmanship
+  display: Swordsmanship
+- id: polearms
+  display: Polearms
+- id: huge_weapons
+  display: Huge Weapons
+- id: special_operations
+  display: Special Operations
+- id: handgun
+  display: Handgun
+- id: rifle
+  display: Rifle
+- id: shotgun
+  display: Shotgun
+- id: crossbow
+  display: Crossbow
+- id: bow
+  display: Bow
+- id: singing
+  display: Singing
+- id: music_theory
+  display: Music Theory
+- id: painting
+  display: Painting
+- id: crafting
+  display: Crafting
+- id: law
+  display: Law
+- id: archaeology
+  display: Archaeology
+- id: religion
+  display: Religion
+- id: chemistry
+  display: Chemistry
+- id: biology
+  display: Biology
+- id: pharmacy
+  display: Pharmacy
+- id: sociology
+  display: Sociology
+- id: astronomy
+  display: Astronomy
+- id: botany
+  display: Botany
+- id: agriculture
+  display: Agriculture
+- id: history
+  display: History
+- id: engineering
+  display: Engineering
+- id: hermes_language
+  display: Hermes Language
+- id: ancient_hermes_language
+  display: Ancient Hermes Language
+- id: ancient_feysac
+  display: Ancient Feysac
+- id: giant
+  display: Giant
+- id: dragon_tongue
+  display: Dragon Tongue
+- id: elvish
+  display: Elvish
+- id: old_one_tongue
+  display: Old One Tongue
+- id: loen
+  display: Loen
+- id: intis
+  display: Intis
+- id: feysac
+  display: Feysac
+- id: dutan
+  display: Dutan
+- id: highland
+  display: Highland
+- id: occult_identification
+  display: Occult Identification
+- id: singing_identification
+  display: Singing Identification
+conditions:
+- id: off_balance
+  display: Off-Balance
+- id: helpless
+  display: Helpless
+- id: silenced
+  display: Silenced
+- id: restrained
+  display: Restrained
+- id: caught_off_guard
+  display: Caught Off Guard
+- id: advantage
+  display: Advantage
+- id: disadvantage
+  display: Disadvantage
+- id: dazed
+  display: Dazed
+- id: blinded
+  display: Blinded
+- id: deafened
+  display: Deafened
+- id: invisible
+  display: Invisible
+- id: fear
+  display: Fear
+- id: rage_taunted
+  display: Rage / Taunted
+- id: constitution_advantage_disadvantage
+  display: Constitution (CON) Advantage / Disadvantage
+- id: bloodbath
+  display: Bloodbath
+- id: bleeding
+  display: Bleeding
+- id: dying
+  display: Dying
+- id: dead
+  display: Dead
+action_types:
+- id: attack
+  display: Attack Action
+- id: cast
+  display: Casting Action
+- id: swift
+  display: Swift Action
+- id: free
+  display: Free Action
+- id: move
+  display: Move Action
+- id: full-round
+  display: Full-Round Action
+- id: none
+  display: No Action
+damage_types:
+- id: physical
+  display: Physical
+- id: fire
+  display: Fire
+- id: lightning
+  display: Lightning
+- id: poison
+  display: Poison
+- id: cold
+  display: Cold
+- id: holy
+  display: Holy
+- id: psychic
+  display: Psychic
+- id: mental
+  display: Mental
+- id: sanity
+  display: Sanity
+- id: rationality
+  display: Rationality
+- id: curse
+  display: Curse

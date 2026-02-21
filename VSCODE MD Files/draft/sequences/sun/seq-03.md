@@ -110,6 +110,8 @@ dice:
   effect_roll: 1d4 + 1
   notes: Restores 1d4+1 stolen powers; also restores 1d10 hit points and 1d3 sanity/rationality when applicable.
 scaling: []
+conditions:
+- invisible
 tags:
 - ritual
 - detection

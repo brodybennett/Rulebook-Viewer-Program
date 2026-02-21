@@ -125,6 +125,8 @@ scaling:
 - when: analgesic_essential_oil
   changes:
     effect_note: Grants will-based replacement for physical checks; pain returns after duration, possibly causing sanity loss.
+damage_types:
+- sanity
 tags:
 - utility
 text: 'Time: 1d3 hours. Check: Pharmacy or chemistry skill identification, Difficulty
@@ -361,6 +363,10 @@ scaling:
   changes:
     damage_roll: 2d4
     effect_note: Deals 2d4 cold damage; non-resistant targets suffer -2 on next check.
+damage_types:
+- physical
+- fire
+- poison
 tags:
 - debuff
 - defense
@@ -552,6 +558,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- dead
 tags:
 - debuff
 text: In general, potentially poisonous plants or dead animal parts will not harm

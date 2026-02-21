@@ -199,6 +199,8 @@ scaling:
 - when: illusion_used
   changes:
     effect_note: Illusion gains a temporary +1 bonus to Deception checks.
+damage_types:
+- physical
 tags:
 - divination
 - mobility

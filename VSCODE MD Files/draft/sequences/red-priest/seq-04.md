@@ -59,6 +59,8 @@ dice:
   effect_roll: "1"
   notes: No roll; armor/DR bonuses and agility trade-offs apply as listed.
 scaling: []
+damage_types:
+- physical
 tags:
 - mobility
 - buff

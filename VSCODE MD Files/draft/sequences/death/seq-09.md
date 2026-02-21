@@ -115,6 +115,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- dead
 tags:
 - detection
 text: '*Knowledge of the Dead: You know the traits and weaknesses of many undead creatures.
@@ -222,6 +224,8 @@ dice:
   effect_roll: null
   notes: Vision is an upkeep toggle; check_roll maps Spiritual Intuition checks while vision is active.
 scaling: []
+conditions:
+- dead
 tags:
 - ritual
 - detection
@@ -287,6 +291,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- invisible
 tags:
 - ritual
 - detection

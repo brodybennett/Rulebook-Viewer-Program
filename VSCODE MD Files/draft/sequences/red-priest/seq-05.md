@@ -57,6 +57,8 @@ dice:
   effect_roll: null
   notes: Detection test DV 20; on success, learn tactical weakness and lowest resistance (type only).
 scaling: []
+conditions:
+- fear
 tags:
 - ritual
 - detection

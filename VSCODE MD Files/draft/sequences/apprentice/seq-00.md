@@ -59,6 +59,8 @@ scaling:
 - when: conceptualization_active
   changes:
     effect_note: Ignore all physical damage until the conceptual state ends.
+damage_types:
+- physical
 tags:
 - defense
 - utility

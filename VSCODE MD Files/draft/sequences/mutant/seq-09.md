@@ -130,6 +130,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- fear
 tags:
 - control
 - debuff
@@ -182,6 +184,8 @@ dice:
   effect_roll: null
   notes: Psychological guidance DV 20 can end the berserk state or allow retreat.
 scaling: []
+damage_types:
+- mental
 tags:
 - offense
 text: 'Prerequisite: This can only be obtained by the heterosexual pathway. Effect:

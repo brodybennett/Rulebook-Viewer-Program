@@ -67,6 +67,8 @@ scaling:
 - when: attacker_is_1_sequence_higher
   changes:
     effect_note: Damage immunities are bypassed except where the prose explicitly keeps immunity.
+conditions:
+- dead
 tags:
 - detection
 - defense
@@ -234,6 +236,11 @@ scaling:
 - when: lower_intensity_mode
   changes:
     effect_roll: 1d4
+conditions:
+- dead
+damage_types:
+- sanity
+- rationality
 tags:
 - offense
 text: 'Effect: The language of the dead is not only a language the living cannot understand;

@@ -70,6 +70,11 @@ scaling:
 - when: emotional_state_applied_by_target_plus_2_sequence
   changes:
     effect_note: Emotional-state effect is resolved normally.
+conditions:
+- fear
+damage_types:
+- sanity
+- rationality
 tags:
 - debuff
 text: 'Effect: Your humanity and emotions have been almost completely wiped out. Effect
@@ -252,6 +257,8 @@ scaling:
 - when: brimstone_fireball_volley
   changes:
     effect_note: Maximum fireballs per cast equals current Intuition value.
+damage_types:
+- physical
 tags:
 - ritual
 - mobility
@@ -457,6 +464,8 @@ scaling:
     opposed_by: physical_defense
     damage_roll: 1d10
     effect_note: Health-to-dice conversion determines final burst dice.
+damage_types:
+- curse
 tags:
 - ritual
 - debuff

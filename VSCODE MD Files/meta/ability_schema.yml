@@ -3,6 +3,7 @@ last_updated: "2026-02-20"
 scope: "Phase 2 minimum viable automation schema for extraordinary abilities"
 
 source_of_truth:
+  canonical_enums: "meta/canonical_enums.yml"
   pathways: "meta/canon_pathways.yml"
   sequences: "meta/canon_sequences.yml"
   roll_syntax: "meta/roll_syntax.md"
@@ -35,7 +36,9 @@ ability_schema:
     - scaling
     - tags
     - text
-  optional: []
+  optional:
+    - conditions
+    - damage_types
   fields:
     id:
       type: "string"
@@ -65,6 +68,7 @@ ability_schema:
     action:
       type: "string"
       enum: ["attack", "cast", "swift", "free", "move", "full-round", "none"]
+      enum_source: "meta/canonical_enums.yml:action_types[].id"
       notes:
         - "Use none for passive effects with no action spend."
     cost:
@@ -147,6 +151,22 @@ ability_schema:
       examples:
         - ["divination", "utility"]
         - ["control", "debuff"]
+    conditions:
+      type: "array"
+      item_type: "string"
+      enum_source: "meta/canonical_enums.yml:conditions[].id"
+      description: "Canonical condition IDs applied, removed, granted, or referenced by the ability."
+      examples:
+        - []
+        - ["restrained", "fear"]
+    damage_types:
+      type: "array"
+      item_type: "string"
+      enum_source: "meta/canonical_enums.yml:damage_types[].id"
+      description: "Canonical damage-type IDs produced by the ability when direct damage applies."
+      examples:
+        - []
+        - ["physical", "fire"]
     text:
       type: "string"
       description: "Human-readable rules paragraph retained near automation data."

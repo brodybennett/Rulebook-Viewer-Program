@@ -64,6 +64,8 @@ dice:
   effect_roll: 5d6
   notes: check_roll maps remote spirit-link establishment versus Willpower Defense; effect_roll maps the typical count of nearby spirits available in range.
 scaling: []
+conditions:
+- dead
 tags:
 - social
 text: You can directly communicate with natural spirits and wandering spirits in the
@@ -123,6 +125,11 @@ scaling:
 - when: voluntary_target_setup
   changes:
     effect_note: Requires about one minute of essential-oil setup before communication begins.
+conditions:
+- helpless
+damage_types:
+- sanity
+- rationality
 tags:
 - ritual
 text: 'A living personaTMs spirit can also be an object of psychic communication.
@@ -441,6 +448,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- dead
 tags:
 - buff
 text: 'Because the Reaper Pathway starts from Sequence 7, and every time a Sequence

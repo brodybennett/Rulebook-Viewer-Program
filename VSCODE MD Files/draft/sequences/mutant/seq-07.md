@@ -63,6 +63,8 @@ dice:
   effect_roll: 1d4
   notes: Sanity check loss is 1/1d4 when transforming.
 scaling: []
+damage_types:
+- sanity
 tags:
 - ritual
 - detection
@@ -114,6 +116,9 @@ dice:
   effect_roll: null
   notes: Damage also includes +1d6 poison and Strength damage dice.
 scaling: []
+damage_types:
+- physical
+- poison
 tags:
 - debuff
 - defense
@@ -167,6 +172,9 @@ dice:
   effect_roll: 1d3
   notes: Targets take a sanity check loss (1/1d3) on transformation and gain fast healing (1d6 per round).
 scaling: []
+damage_types:
+- poison
+- sanity
 tags:
 - ritual
 - debuff
@@ -367,6 +375,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+damage_types:
+- fire
 tags:
 - defense
 - offense

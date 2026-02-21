@@ -67,6 +67,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- fear
 tags:
 - ritual
 - debuff
@@ -268,6 +270,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+conditions:
+- invisible
 tags:
 - ritual
 - stealth
@@ -384,6 +388,8 @@ scaling:
 - when: third_attack_in_chain
   changes:
     additional_cost: {spirituality: 1}
+conditions:
+- invisible
 tags:
 - ritual
 - stealth
@@ -462,7 +468,7 @@ text: 'Cost: 3 Spirituality. Use: 1 Casting Action. Targeting and range: Choose 
 - **Targeting and range:** Choose 1 target within 50 meters.
 - **Effect:**
   - You specify 1 direction; the target will be thrown.
-  - How many meters will be thrown depends on your "Inspiration + Law."
+  - How many meters will be thrown depends on your "Intuition (INT) + Law."
   - No need to identify.
   - You can choose air; stop after hitting an obstacle.
   - For every 2 points of Constitution the target has, the distance to be thrown is reduced by 1 meter (which may cause 1d6 physical damage from the fall).
@@ -499,6 +505,8 @@ scaling:
   changes:
     action: cast
     effect_note: Resolve as ranged fixed-value body-part judgment; does not take vital-hit penalty.
+conditions:
+- dead
 tags:
 - ritual
 - defense
@@ -526,14 +534,14 @@ After declaring the target dead, you cause powerful damage.
    - **Effect:**
      - Your body is united with some strange power, dragging afterimages to collide to the enemy.
      - This is a melee effect.
-     - The damage you deal will increase by a fixed value of "Inspiration + Law" value; the damage type remains the same.
+     - The damage you deal will increase by a fixed value of "Intuition (INT) + Law" value; the damage type remains the same.
 
 2. **Ranged body-part judgment**
    - **Cost:** 8 Spirituality.
    - **Use:** 1 **Casting Action**.
    - **Check:** Intuition (INT) + Legal identification against physical defense, ignoring agility and dodge; excluding targets that can [[Avoid light/lightning]].
    - **Effect:**
-     - You specify 1 of its body parts to only cause "Inspiration + Law" fixation value damage.
+     - You specify 1 of its body parts to only cause "Intuition (INT) + Law" fixation value damage.
      - This is a ranged effect (only for ranged use).
      - It does not take the hit penalty for a vital hit.
 

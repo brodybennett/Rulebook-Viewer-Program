@@ -63,6 +63,8 @@ dice:
   effect_roll: "1"
   notes: On exit, you may deal double Lightning Control damage or trigger Lightning Storm after sufficient acceleration; lightning-form charge uses Strength damage dice via a fighting test.
 scaling: []
+damage_types:
+- lightning
 tags:
 - ritual
 - mobility
@@ -125,6 +127,8 @@ dice:
   effect_roll: null
   notes: Each bolt deals 1d6 lightning damage per point of Strength; combo adds +1d6 per round until combo value is spent.
 scaling: []
+damage_types:
+- lightning
 tags:
 - ritual
 - defense

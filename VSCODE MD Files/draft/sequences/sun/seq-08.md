@@ -110,6 +110,10 @@ dice:
   effect_roll: "1"
   notes: Applies restrained damage each round to dark/corrupt/undead in the area; costs 2 spirituality per round.
 scaling: []
+conditions:
+- restrained
+damage_types:
+- holy
 tags:
 - ritual
 - detection
@@ -171,6 +175,9 @@ dice:
   effect_roll: null
   notes: Ignores Agility (DEX) and Evasion; Sequence 7 damage is 3d6 holy + 1d6 fire.
 scaling: []
+damage_types:
+- fire
+- holy
 tags:
 - ritual
 - detection
@@ -223,6 +230,10 @@ dice:
   effect_roll: null
   notes: Voluntary targets are purified without a check; involuntary targets use Occult vs Physical Defense. Voluntary restrained targets take 1d6 holy damage.
 scaling: []
+conditions:
+- restrained
+damage_types:
+- holy
 tags:
 - ritual
 - mobility
@@ -288,6 +299,10 @@ dice:
   effect_roll: "1"
   notes: Adds +1d6/+2d6/+3d6 holy damage versus dark/corrupt/undead respectively.
 scaling: []
+conditions:
+- restrained
+damage_types:
+- holy
 tags:
 - control
 - buff

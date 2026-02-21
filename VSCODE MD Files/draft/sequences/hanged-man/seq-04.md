@@ -57,6 +57,8 @@ scaling:
 - when: target_is_living
   changes:
     effect_note: Melee attacks with the blade deal an additional 2d6 damage to living creatures.
+damage_types:
+- curse
 tags:
 - defense
 text: 'Effect: Corrodes flesh and blood, annihilates soul, breaks through barriers,
@@ -198,6 +200,8 @@ dice:
   effect_roll: null
   notes: No explicit dice expression in source text.
 scaling: []
+damage_types:
+- curse
 tags:
 - debuff
 - defense

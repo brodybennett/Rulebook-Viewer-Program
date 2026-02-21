@@ -84,6 +84,8 @@ scaling:
   changes:
     effect_roll: 2d6
     effect_note: Recasting repairs/replaces web vitality; vitality does not stack across casts.
+conditions:
+- invisible
 tags:
 - ritual
 - stealth
@@ -173,6 +175,8 @@ scaling:
 - when: sequence_5_or_higher
   changes:
     effect_note: Usage limit increases from once per round to twice per round.
+damage_types:
+- physical
 tags:
 - healing
 - offense
@@ -319,6 +323,9 @@ scaling:
   changes:
     upkeep_cost: {spirituality: 3}
     effect_note: Each casting while cocooned restores one chosen component (black hair or ice crystal).
+damage_types:
+- physical
+- fire
 tags:
 - ritual
 - healing

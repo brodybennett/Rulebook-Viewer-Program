@@ -209,6 +209,10 @@ scaling:
   changes:
     check_roll: 1d20 + 15
     damage_roll: 6d6
+damage_types:
+- physical
+- fire
+- poison
 tags:
 - ritual
 - debuff

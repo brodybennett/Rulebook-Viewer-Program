@@ -78,6 +78,8 @@ dice:
   effect_roll: "1"
   notes: "No roll; wall attacks resolve against your Physical Defense and share your Vitality."
 scaling: []
+conditions:
+- invisible
 tags:
 - ritual
 - stealth

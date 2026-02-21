@@ -39,6 +39,7 @@ A community-driven tabletop RPG rulebook inspired by Lord of the Mysteries, focu
 ## YAML at a glance
 - `render.yaml` - Render deployment config (build/start commands).
 - `VSCODE MD Files/glossary.yml` - active glossary used by checker and prompt-bundle tooling.
+- `VSCODE MD Files/meta/canonical_enums.yml` - frozen automation enums (attributes, skills, conditions, actions, damage types).
 - `VSCODE MD Files/tag-registry.yml` (optional) - registry used by viewer/checker/tooling when present.
 - `VSCODE MD Files/archive/edit-delta/*.edit_delta.yml` - archived sidecar metadata from older editing passes; not required at runtime.
 

@@ -65,6 +65,9 @@ scaling:
 - when: listener_continues_hearing_babble
   changes:
     effect_note: Listener loses 1 sanity/rationality per round.
+damage_types:
+- sanity
+- rationality
 tags:
 - ritual
 - divination

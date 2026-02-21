@@ -137,6 +137,8 @@ scaling:
   changes:
     range: city
     effect_note: Also reveals how the imbalance appeared and major subsequent context.
+conditions:
+- invisible
 tags:
 - detection
 - stealth
