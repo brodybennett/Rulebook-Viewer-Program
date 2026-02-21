@@ -49,6 +49,7 @@ A community-driven tabletop RPG rulebook inspired by Lord of the Mysteries, focu
 ## Project layout
 - `VSCODE MD Files/draft/` - active rulebook chapters and sequences (Markdown).
 - `VSCODE MD Files/tools/` - active automation scripts for audits and prompt support.
+- `VSCODE MD Files/reports/` - generated lint/audit outputs and backlog reports.
 - `VSCODE MD Files/archive/edit-delta/` - archived `*.edit_delta.yml` sidecars (reference only).
 - `VSCODE MD Files/tag-registry.yml` (optional) - canonical anchors and status for sections when using registry-driven workflows.
 - `VSCODE MD Files/style-guide.md` - formatting and tagging rules for contributors.

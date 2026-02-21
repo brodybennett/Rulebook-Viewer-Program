@@ -3,3 +3,5 @@ __pycache__/
 *.pyo
 *.pyd
 .pytest_cache/
+VSCODE MD Files/__pycache__/
+VSCODE MD Files/reports/dev_hub_runs/

@@ -7,7 +7,7 @@ Scan markdown rulebook drafts and report likely congruence risks:
 - definition drift for repeated bold-term definitions (**Term:** ...)
 - mechanic field drift for repeated heading blocks (Cost/Use/Effect)
 
-python "VSCODE MD Files/tools/congruence_audit.py" --repo "VSCODE MD Files" --content-root draft --out "congruence_report.md" --json
+python "VSCODE MD Files/tools/congruence_audit.py" --repo "VSCODE MD Files" --content-root draft --out "reports/audit/congruence_report.md" --json
 
 Read-only with respect to source content; writes report artifacts only.
 """
@@ -738,7 +738,7 @@ def main() -> int:
     parser.add_argument(
         "--out",
         type=str,
-        default="congruence_report.md",
+        default="reports/audit/congruence_report.md",
         help="Markdown report path (relative to --repo unless absolute). Use '-' for stdout.",
     )
     parser.add_argument(
@@ -788,7 +788,7 @@ def main() -> int:
         if args.json:
             json_path = _resolve_output_path(repo, args.json)
         elif args.out == "-":
-            json_path = _resolve_output_path(repo, "congruence_report.json")
+            json_path = _resolve_output_path(repo, "reports/audit/congruence_report.json")
         else:
             out_path = _resolve_output_path(repo, args.out)
             json_path = out_path.with_suffix(".json")

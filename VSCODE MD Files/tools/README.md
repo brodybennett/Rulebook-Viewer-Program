@@ -51,8 +51,8 @@ Generate a severity-grouped report (High/Medium/Low) for:
 
 ```bash
 python tools/congruence_audit.py --repo .
-python tools/congruence_audit.py --repo . --content-root draft --out congruence_report.md
-python tools/congruence_audit.py --repo . --out reports/congruence_report.md --json
+python tools/congruence_audit.py --repo . --content-root draft --out reports/audit/congruence_report.md
+python tools/congruence_audit.py --repo . --json
 python tools/congruence_audit.py --repo . --out -   # print markdown report to stdout
 ```
 
