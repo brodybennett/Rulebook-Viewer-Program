@@ -26,6 +26,7 @@ from __future__ import annotations
 import argparse
 import dataclasses
 import html
+import json
 import os
 import re
 import sys
@@ -1861,11 +1862,28 @@ def viewer_css():
 
 @app.route("/assets/viewer.js")
 def viewer_js():
+    custom_js = ""
     if GLOBAL_INDEX:
         p = GLOBAL_INDEX.repo_root / CUSTOM_JS_FILENAME
         if p.exists():
-            return Response(p.read_text(encoding="utf-8", errors="replace"), mimetype="text/javascript")
+            custom_js = p.read_text(encoding="utf-8", errors="replace")
+    if custom_js:
+        # Keep default viewer behavior, then apply optional custom script.
+        return Response(DEFAULT_VIEWER_JS + "\n\n" + custom_js, mimetype="text/javascript")
     return Response(DEFAULT_VIEWER_JS, mimetype="text/javascript")
+
+@app.route("/assets/compendium.json")
+def compendium_json():
+    if not GLOBAL_INDEX:
+        abort(500)
+    p = GLOBAL_INDEX.repo_root / "dist" / "compendium.json"
+    if not p.exists():
+        abort(404)
+    try:
+        payload = json.loads(p.read_text(encoding="utf-8", errors="replace"))
+    except Exception:
+        abort(500)
+    return Response(json.dumps(payload), mimetype="application/json")
 
 
 def _default_doc_id(index: Index) -> str:

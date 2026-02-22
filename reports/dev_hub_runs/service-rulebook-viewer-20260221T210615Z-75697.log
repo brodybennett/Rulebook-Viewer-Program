@@ -1,0 +1,13 @@
+[2026-02-21T21:06:15+00:00] start service: Rulebook Viewer
+cwd: C:\Users\dan\Desktop\Personal\Projects\LoTM Rulebook
+cmd: C:\Python314\python.exe rulebook_viewer.py --source . --content-root draft --no-browser --port 7860
+
+ * Serving Flask app 'rulebook_viewer'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:7860
+Press CTRL+C to quit
+127.0.0.1 - - [21/Feb/2026 15:06:17] "GET / HTTP/1.1" 302 -
+127.0.0.1 - - [21/Feb/2026 15:06:17] "GET /doc/table-of-contents HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2026 15:06:17] "GET /assets/viewer.css?v=1 HTTP/1.1" 200 -
+127.0.0.1 - - [21/Feb/2026 15:06:17] "GET /assets/viewer.js?v=1 HTTP/1.1" 200 -

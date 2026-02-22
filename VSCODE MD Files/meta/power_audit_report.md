@@ -7,10 +7,10 @@
 - abilities_scanned: **719**
 - stub_abilities: **28**
 - hard_controls: **16**
-- findings: **1199**
+- findings: **1200**
   - errors: **18**
   - warnings: **81**
-  - info: **1100**
+  - info: **1101**
 
 ## Detailed Findings
 
@@ -588,7 +588,7 @@
   - expected_min: `1.15`
 - **[INFO] at_will_effectiveness_below_band** - arbiter / seq 5
   - Sequence aggregate at_will_effectiveness appears below budget band.
-  - observed: `0.401`
+  - observed: `0.3785`
   - expected_min: `1.45`
 - **[INFO] control_strength_below_band** - arbiter / seq 5
   - Sequence aggregate control_strength appears below budget band.
@@ -604,7 +604,7 @@
   - expected_min: `0.65`
 - **[INFO] resource_spend_effectiveness_below_band** - arbiter / seq 5
   - Sequence aggregate resource_spend_effectiveness appears below budget band.
-  - observed: `1.9398`
+  - observed: `1.819`
   - expected_min: `2.0`
 - **[INFO] survivability_below_band** - arbiter / seq 5
   - Sequence aggregate survivability appears below budget band.
@@ -1215,4 +1215,4 @@
   - observed: `0.8262`
   - expected_min: `1.0`
 
-- ... `899` additional finding(s) hidden (use `--max-findings` to increase).
+- ... `900` additional finding(s) hidden (use `--max-findings` to increase).

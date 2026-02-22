@@ -10,7 +10,7 @@
   },
   "errors": 18,
   "warnings": 81,
-  "info": 1100,
+  "info": 1101,
   "findings": [
     {
       "severity": "error",
@@ -1736,7 +1736,7 @@
       "sequence": 5,
       "sequence_id": "arbiter-seq-05",
       "ability_id": "",
-      "observed": 0.401,
+      "observed": 0.3785,
       "expected_min": 1.45,
       "expected_max": null
     },
@@ -1784,7 +1784,7 @@
       "sequence": 5,
       "sequence_id": "arbiter-seq-05",
       "ability_id": "",
-      "observed": 1.9398,
+      "observed": 1.819,
       "expected_min": 2.0,
       "expected_max": null
     },
@@ -6590,6 +6590,18 @@
     },
     {
       "severity": "info",
+      "code": "at_will_effectiveness_below_band",
+      "message": "Sequence aggregate at_will_effectiveness appears below budget band.",
+      "pathway": "hanged-man",
+      "sequence": 7,
+      "sequence_id": "hanged-man-seq-07",
+      "ability_id": "",
+      "observed": 0.9867,
+      "expected_min": 1.0,
+      "expected_max": null
+    },
+    {
+      "severity": "info",
       "code": "control_strength_below_band",
       "message": "Sequence aggregate control_strength appears below budget band.",
       "pathway": "hanged-man",
@@ -6620,7 +6632,7 @@
       "sequence": 7,
       "sequence_id": "hanged-man-seq-07",
       "ability_id": "",
-      "observed": 1.07,
+      "observed": 0.9867,
       "expected_min": 1.4,
       "expected_max": null
     },
@@ -7088,7 +7100,7 @@
       "sequence": 5,
       "sequence_id": "moon-seq-05",
       "ability_id": "",
-      "observed": 1.24,
+      "observed": 1.1567,
       "expected_min": 1.45,
       "expected_max": null
     },
@@ -7100,7 +7112,7 @@
       "sequence": 5,
       "sequence_id": "moon-seq-05",
       "ability_id": "",
-      "observed": 0.0867,
+      "observed": 0.0467,
       "expected_min": 0.75,
       "expected_max": null
     },
@@ -7244,7 +7256,7 @@
       "sequence": 7,
       "sequence_id": "moon-seq-07",
       "ability_id": "",
-      "observed": 1.32,
+      "observed": 1.1867,
       "expected_min": 1.4,
       "expected_max": null
     },
@@ -7760,7 +7772,7 @@
       "sequence": 5,
       "sequence_id": "mutant-seq-05",
       "ability_id": "",
-      "observed": 1.6633,
+      "observed": 1.6233,
       "expected_min": null,
       "expected_max": 1.55
     },
@@ -8618,6 +8630,18 @@
     },
     {
       "severity": "info",
+      "code": "at_will_effectiveness_below_band",
+      "message": "Sequence aggregate at_will_effectiveness appears below budget band.",
+      "pathway": "mystery-pryer",
+      "sequence": 8,
+      "sequence_id": "mystery-pryer-seq-08",
+      "ability_id": "",
+      "observed": 0.7933,
+      "expected_min": 0.85,
+      "expected_max": null
+    },
+    {
+      "severity": "info",
       "code": "control_strength_below_band",
       "message": "Sequence aggregate control_strength appears below budget band.",
       "pathway": "mystery-pryer",
@@ -8648,7 +8672,7 @@
       "sequence": 8,
       "sequence_id": "mystery-pryer-seq-08",
       "ability_id": "",
-      "observed": 1.1813,
+      "observed": 1.098,
       "expected_min": 1.2,
       "expected_max": null
     },
@@ -8660,7 +8684,7 @@
       "sequence": 8,
       "sequence_id": "mystery-pryer-seq-08",
       "ability_id": "",
-      "observed": 0.9833,
+      "observed": 1.0333,
       "expected_min": null,
       "expected_max": 0.95
     },
@@ -8996,7 +9020,7 @@
       "sequence": 4,
       "sequence_id": "night-seq-04",
       "ability_id": "",
-      "observed": 1.4477,
+      "observed": 1.425,
       "expected_min": 1.7,
       "expected_max": null
     },
@@ -9020,7 +9044,7 @@
       "sequence": 4,
       "sequence_id": "night-seq-04",
       "ability_id": "",
-      "observed": 0.06,
+      "observed": 0.0,
       "expected_min": 0.8,
       "expected_max": null
     },
@@ -9572,7 +9596,7 @@
       "sequence": 3,
       "sequence_id": "paragon-seq-03",
       "ability_id": "",
-      "observed": 1.0,
+      "observed": 0.75,
       "expected_min": 2.0,
       "expected_max": null
     },
@@ -9620,7 +9644,7 @@
       "sequence": 3,
       "sequence_id": "paragon-seq-03",
       "ability_id": "",
-      "observed": 1.0,
+      "observed": 0.75,
       "expected_min": 2.7,
       "expected_max": null
     },
@@ -11150,18 +11174,6 @@
     },
     {
       "severity": "info",
-      "code": "at_will_effectiveness_above_band",
-      "message": "Sequence aggregate at_will_effectiveness appears above budget band.",
-      "pathway": "red-priest",
-      "sequence": 9,
-      "sequence_id": "red-priest-seq-09",
-      "ability_id": "",
-      "observed": 1.2,
-      "expected_min": null,
-      "expected_max": 1.1
-    },
-    {
-      "severity": "info",
       "code": "control_strength_below_band",
       "message": "Sequence aggregate control_strength appears below budget band.",
       "pathway": "red-priest",
@@ -11708,7 +11720,7 @@
       "sequence": 0,
       "sequence_id": "tyrant-seq-00",
       "ability_id": "",
-      "observed": 1.7767,
+      "observed": 1.6933,
       "expected_min": 3.15,
       "expected_max": null
     },
@@ -11756,7 +11768,7 @@
       "sequence": 0,
       "sequence_id": "tyrant-seq-00",
       "ability_id": "",
-      "observed": 1.7767,
+      "observed": 1.6933,
       "expected_min": 4.1,
       "expected_max": null
     },
@@ -11864,7 +11876,7 @@
       "sequence": 2,
       "sequence_id": "tyrant-seq-02",
       "ability_id": "",
-      "observed": 0.8688,
+      "observed": 0.8605,
       "expected_min": 2.35,
       "expected_max": null
     },
@@ -11912,7 +11924,7 @@
       "sequence": 2,
       "sequence_id": "tyrant-seq-02",
       "ability_id": "",
-      "observed": 2.7693,
+      "observed": 2.611,
       "expected_min": 3.15,
       "expected_max": null
     },
@@ -12464,7 +12476,7 @@
       "sequence": 3,
       "sequence_id": "visionary-seq-03",
       "ability_id": "",
-      "observed": 0.2515,
+      "observed": 0.2288,
       "expected_min": 2.0,
       "expected_max": null
     },
@@ -12512,7 +12524,7 @@
       "sequence": 3,
       "sequence_id": "visionary-seq-03",
       "ability_id": "",
-      "observed": 1.845,
+      "observed": 1.6262,
       "expected_min": 2.7,
       "expected_max": null
     },
@@ -13136,7 +13148,7 @@
       "sequence": 4,
       "sequence_id": "war-god-seq-04",
       "ability_id": "",
-      "observed": 1.5433,
+      "observed": 1.46,
       "expected_min": 1.7,
       "expected_max": null
     },
@@ -13148,7 +13160,7 @@
       "sequence": 4,
       "sequence_id": "war-god-seq-04",
       "ability_id": "",
-      "observed": 0.1767,
+      "observed": 0.1267,
       "expected_min": 0.95,
       "expected_max": null
     },
@@ -13172,7 +13184,7 @@
       "sequence": 4,
       "sequence_id": "war-god-seq-04",
       "ability_id": "",
-      "observed": 1.8093,
+      "observed": 1.726,
       "expected_min": 2.3,
       "expected_max": null
     },
@@ -13196,7 +13208,7 @@
       "sequence": 5,
       "sequence_id": "war-god-seq-05",
       "ability_id": "",
-      "observed": 0.5479,
+      "observed": 0.5142,
       "expected_min": 1.45,
       "expected_max": null
     },
@@ -13244,7 +13256,7 @@
       "sequence": 5,
       "sequence_id": "war-god-seq-05",
       "ability_id": "",
-      "observed": 1.303,
+      "observed": 1.1218,
       "expected_min": 2.0,
       "expected_max": null
     },
@@ -13304,7 +13316,7 @@
       "sequence": 7,
       "sequence_id": "war-god-seq-07",
       "ability_id": "",
-      "observed": 0.99,
+      "observed": 0.865,
       "expected_min": 1.0,
       "expected_max": null
     },
@@ -13340,7 +13352,7 @@
       "sequence": 7,
       "sequence_id": "war-god-seq-07",
       "ability_id": "",
-      "observed": 0.99,
+      "observed": 0.865,
       "expected_min": 1.4,
       "expected_max": null
     },
